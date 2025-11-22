@@ -1,4 +1,5 @@
 # Snap.Metadata
 ![GitHub](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/DGP-Studio/Snap.Metadata?label=Issues&style=flat-square)
-[![pages-build-deployment](https://github.com/DGP-Studio/Snap.Metadata/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DGP-Studio/Snap.Metadata/actions/workflows/pages/pages-build-deployment)
+
+胡桃工具箱元数据仓库  
+镜像：http://server.wdg.cloudns.ch:3000/wdg1122/Snap.Metadata
