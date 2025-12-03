@@ -17406,5 +17406,44 @@
     "Icon": "",
     "Type": 0,
     "Arkhe": 0
+  },
+  {
+    "Id": 29122025,
+    "DescribeId": 91244,
+    "RelationshipId": 91244,
+    "MonsterName": "Monster_GiantChess_DummyMonster",
+    "Name": "超重型陆巡舰 · 机动战垒",
+    "Title": "全地形战争机关",
+    "Description": "\n• 初始全部抗性极高，受到 120 次火元素攻击后进入冷却，每 1U 附着额外视为一次攻击，进度过半时全部抗性降低\n• 冷却时展开冰元素护盾，在限定时间内破除使其瘫痪，全部抗性额外降低，否则将退回初始状态\n• 抗性：150% / 50% / -20%\n• 护盾：28U / 18s ，瘫痪损失 30% 当前生命值\n\n军械宫与月矩力试验设计局合作研发的超重型机关，在内部文件中被称作德兹斯拉沃型。\n设计者最初的意图似乎是创造用于搬运货物的重型全地形民用运输装置，因此搭载了大量切割与挖掘设备，但后续的通用生产型号已经被改为了搭载复数重型武器的军用版本。\n毕竟在月下的尘世，即便是最为完美而神圣的规划也会偏离原初的意旨，更何况是凡人因渺小的善意而创造的、原本便不完美的机械呢。",
+    "Icon": "UI_MonsterIcon_Fatuimecha_AMP",
+    "Type": 2,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 1615,
+      "AttackBase": 203,
+      "DefenseBase": 0,
+      "FireSubHurt": 1.5,
+      "GrassSubHurt": 1.5,
+      "WaterSubHurt": 1.5,
+      "ElecSubHurt": 1.5,
+      "WindSubHurt": 1.5,
+      "IceSubHurt": 1.5,
+      "RockSubHurt": 1.5,
+      "PhysicalSubHurt": 1.5
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
   }
 ]
