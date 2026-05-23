@@ -36,11 +36,11 @@
         "GroupId": 2331,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
             "Dano do 3° Golpe|{param3:F1P}+{param3:F1P}",
             "Dano do 4° Golpe|{param4:F1P}*4",
-            "Dano do 5° Golpe|{param5:F1P}",
+            "Dano do 5° Golpe|{param5:P}",
             "Dano de Ataque Carregado|{param6:P}",
             "Consumo de Stamina de Ataque Carregado|{param7:F1}",
             "Dano Durante a Queda|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10231,
         "Name": "Pastelaria Kung Fu",
@@ -422,7 +423,8 @@
                 12
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10232,
         "Name": "Ataque de Guoba",
@@ -434,8 +436,8 @@
       "GroupId": 2339,
       "Proud": {
         "Descriptions": [
-          "Dano de Balanço do 1° Golpe|{param1:F1P}",
-          "Dano de Balanço do 2° Golpe|{param2:F1P}",
+          "Dano de Balanço do 1° Golpe|{param1:P}",
+          "Dano de Balanço do 2° Golpe|{param2:P}",
           "Dano de Balanço do 3° Golpe|{param3:P}",
           "Dano do Pyronado|{param4:P}",
           "Duração|{param5:F1}s",
@@ -638,7 +640,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10235,
       "Name": "Pyronado",
@@ -697,7 +700,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 232301,
         "Name": "Chefe de Cozinha",

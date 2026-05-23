@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "SCH Phase 1|{param1:F1P}",
-            "SCH Phase 2|{param2:F1P}",
-            "SCH Phase 3|{param3:F1P}",
-            "SCH Phase 4|{param4:F1P}",
-            "SCH Phase 5|{param5:F1P}",
-            "SCH heftiger Schläge|{param6:F1P} + {param7:F1P}",
+            "SCH Phase 1|{param1:P}",
+            "SCH Phase 2|{param2:P}",
+            "SCH Phase 3|{param3:P}",
+            "SCH Phase 4|{param4:P}",
+            "SCH Phase 5|{param5:P}",
+            "SCH heftiger Schläge|{param6:P} + {param7:P}",
             "Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte",
             "SCH beim Fallen|{param9:F1P}",
             "SCH beim Fallen aus niedriger/großer Höhe|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Rituelle Schwertkunst",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Kälteatem",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "Fähigkeits-SCH|{param1:F1P}",
+          "Fähigkeits-SCH|{param1:P}",
           "Abklingzeit|{param2:F1} s",
           "Dauer|{param3:F1} s",
           "Elementarenergie|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Kreis aus Eis",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Verborgene Stärke",
@@ -868,6 +872,10 @@
       {
         "Title": "Über Dahlia ...",
         "Context": "Weißt du, ob er im Rahmen von Zeremonien in der Kathedrale viel Wein trinkt? Denn er verträgt wirklich viel Alkohol. Das erste Mal, dass wir uns kennenlernten, war, als ich in einem Wetttrinken gegen ihn verlor. Nun, der Anemo-Archon liebt seinen Wein, also ist es nur passend, dass sein Sprecher ein so hingebungsvoller Verfechter der Wunder des Alkohols ist ... Solche Dinge sind es, die den Charme der Stadt der Freiheit ausmachen."
+      },
+      {
+        "Title": "Über Lohen ...",
+        "Context": "Der junge Lohen hat mich schon eine Weile nicht mehr um eine gefälschte Unterschrift gebeten. Ob er diese Kunst wohl bereits gemeistert hat? Klug genug ist er auf jeden Fall ... Ich werde ihm demnächst einen Brief in der Handschrift der Großmeisterin schreiben. Dann werden wir ja sehen, wie viel er gelernt hat ..."
       },
       {
         "Title": "Ich will mehr über Kaeya erfahren I",

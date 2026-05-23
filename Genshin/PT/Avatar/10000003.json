@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
-            "Dano do 3° Golpe|{param3:F1P}",
-            "Dano do 4° Golpe|{param4:F1P}",
-            "Dano do 5° Golpe|{param5:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
+            "Dano do 3° golpe |{param3:P}",
+            "Dano do 4° golpe|{param4:P}",
+            "Dano do 5° Golpe|{param5:P}",
             "Dano de Ataque Carregado|{param6:P}",
             "Consumo de Stamina de Ataque Carregado|{param7:F1}",
             "Dano Durante a Queda|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "Técnica de Favonius",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "Espada do Temporal",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "Dano de Explosão|{param1:P}",
-          "Dano de Entrada e Saída da Área|{param2:F1P}",
+          "Dano de Entrada e Saída da Área|{param2:P}",
           "Cura de Ativação de Área|{param3:P} do ATQ +{param4:I}",
           "Regeneração Contínua|{param5:F2P} ATQ + {param6:I}/s",
           "Tempo de Recarga|{param7:F1}s",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "Brisa de Dandelion",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "Brisa de Planagem",

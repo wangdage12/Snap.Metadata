@@ -36,12 +36,12 @@
         "GroupId": 4231,
         "Proud": {
           "Descriptions": [
-            "1단 공격 피해|{param1:F1P}",
-            "2단 공격 피해|{param2:F1P}",
-            "3단 공격 피해|{param3:F1P}",
+            "1단 공격 피해|{param1:P}",
+            "2단 공격 피해|{param2:P}",
+            "3단 공격 피해|{param3:P}",
             "4단 공격 피해|{param4:F1P}+{param5:F1P}",
-            "5단 공격 피해|{param6:F1P}",
-            "강공격 피해|{param7:F1P}+{param8:F1P}",
+            "5단 공격 피해|{param6:P}",
+            "강공격 피해|{param7:P}+{param8:P}",
             "강공격 스태미나 소모|{param9:F1}pt",
             "낙하 기간 피해|{param10:F1P}",
             "저공/고공 추락 충격 피해|{param11:P}/{param12:P}"
@@ -317,7 +317,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10421,
         "Name": "운래 검법",
@@ -328,9 +329,9 @@
         "GroupId": 4232,
         "Proud": {
           "Descriptions": [
-            "뇌설 피해|{param1:F1P}",
+            "뇌설 피해|{param1:P}",
             "참격 피해|{param2:P}",
-            "뇌폭 연속 참격 피해|{param3:F1P}*2",
+            "뇌폭 연속 참격 피해|{param3:P}*2",
             "재사용 대기시간|{param4:F1}초"
           ],
           "Parameters": [
@@ -484,7 +485,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10422,
         "Name": "성신 회귀",
@@ -496,7 +498,7 @@
       "GroupId": 4239,
       "Proud": {
         "Descriptions": [
-          "스킬 피해|{param1:F1P}",
+          "스킬 피해|{param1:P}",
           "참격 피해|{param2:F1P}*8",
           "마지막 일격 피해|{param3:P}",
           "재사용 대기시간|{param4:F1}초",
@@ -668,7 +670,8 @@
               40
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10425,
       "Name": "천가 순유",
@@ -728,7 +731,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 422301,
         "Name": "총무의 토지",
@@ -795,7 +799,7 @@
     "ConstellationBefore": "금자정수자리",
     "CvChinese": "谢莹",
     "CvJapanese": "Kitamura Eri",
-    "CvEnglish": "Kayli Mills & Anonymous",
+    "CvEnglish": "Rosie Day",
     "CvKorean": "이보희",
     "CookBonus": {
       "OriginItemId": 108108,

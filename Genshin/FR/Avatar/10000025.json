@@ -36,12 +36,12 @@
         "GroupId": 2531,
         "Proud": {
           "Descriptions": [
-            "DGT 1er coup|{param1:F1P}",
-            "DGT 2e coup|{param2:F1P}",
+            "DGT 1er coup|{param1:P}",
+            "DGT 2e coup|{param2:P}",
             "DGT 3e coup|{param3:F1P}+{param4:F1P}",
-            "DGT 4e coup|{param5:F1P}",
-            "DGT 5e coup|{param6:F1P}+{param7:F1P}",
-            "DGT attaque chargée|{param8:F1P}+{param9:F1P}",
+            "DGT 4e coup|{param5:P}",
+            "DGT 5e coup|{param6:P}+{param7:P}",
+            "DGT attaque chargée|{param8:P}+{param9:P}",
             "Coût d'endurance attaque chargée|{param10:F1} pts",
             "DGT durant la chute|{param11:F1P}",
             "DGT chute basse/élevée|{param12:P}/{param13:P}"
@@ -332,7 +332,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10381,
         "Name": "Style Guhua",
@@ -514,7 +515,8 @@
                 21
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10382,
         "Name": "Épée Guhua : Pluie battante",
@@ -526,7 +528,7 @@
       "GroupId": 2539,
       "Proud": {
         "Descriptions": [
-          "DGT épées de pluie|{param1:F1P}",
+          "DGT épées de pluie|{param1:P}",
           "Durée|{param2:F1} s",
           "Temps de recharge|{param3:F1} s",
           "Énergie élémentaire|{param4:I}"
@@ -682,7 +684,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10385,
       "Name": "Épée Guhua : Pluie et arc-en-ciel",
@@ -736,7 +739,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 252301,
         "Name": "Illumination",

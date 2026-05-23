@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "SCH Phase 1|{param1:F1P}",
-            "SCH Phase 2|{param2:F1P}",
-            "SCH Phase 3|{param3:F1P}",
-            "SCH Phase 4|{param4:F1P}",
-            "SCH Phase 5|{param5:F1P}",
+            "SCH Phase 1|{param1:P}",
+            "SCH Phase 2|{param2:P}",
+            "SCH Phase 3|{param3:P}",
+            "SCH Phase 4|{param4:P}",
+            "SCH Phase 5|{param5:P}",
             "SCH heftiger Schläge|{param6:P}",
             "Ausdauerverbrauch heftiger Schläge|{param7:F1} Punkte",
             "SCH beim Fallen|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "Favonius-Schwertkunst",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "Luftdruckschwert",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "Spezialfähigkeits-SCH|{param1:P}",
-          "SCH beim Betreten und Verlassen|{param2:F1P}",
+          "SCH beim Betreten und Verlassen|{param2:P}",
           "Heilung bei Erstellen des Feldes|{param3:P} ANG + {param4:I}",
           "Fortlaufende Heilung|{param5:F2P} ANG pro s + {param6:I}",
           "Abklingzeit|{param7:F1} s",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "Löwenzahnbrise",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "Führende Brise",

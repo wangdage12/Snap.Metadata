@@ -38,8 +38,8 @@
           "Descriptions": [
             "Daño de 1er golpe|{param1:F1P}",
             "Daño de 2.º golpe|{param2:F1P}",
-            "Daño de 3er golpe|{param3:F1P}",
-            "Daño de 4.º golpe|{param4:F1P}",
+            "Daño de 3er golpe|{param3:P}",
+            "Daño de 4.º golpe|{param4:P}",
             "Daño de ATQ Cargado|{param5:P}",
             "Coste de Aguante de ATQ Cargado|{param6:F1} pts.",
             "Daño de Caída|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10060,
         "Name": "Toque de relámpago",
@@ -282,7 +283,7 @@
         "GroupId": 432,
         "Proud": {
           "Descriptions": [
-            "#Daño {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param6:F1P}",
+            "#Daño {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param6:P}",
             "#TdE {LAYOUT_MOBILE#por toque}{LAYOUT_PC#al pulsar una vez}{LAYOUT_PS#al pulsar una vez}|{param7:F1} s",
             "Daño de conducción al mantener pulsado (0 cargas)|{param1:P}",
             "Daño de conducción al mantener pulsado (1 carga)|{param2:P}",
@@ -486,7 +487,8 @@
                 1
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10061,
         "Name": "Arco violeta",
@@ -654,7 +656,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10062,
       "Name": "Rayo de la rosa",
@@ -713,7 +716,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 42301,
         "Name": "Conocimientos farmacéuticos",
@@ -919,6 +923,10 @@
       {
         "Title": "Sobre Mika...",
         "Context": "Lo cierto es que envidio a Huffman por tener un hermano tan considerado. Mika se ocupa de todo lo que hay que hacer en casa y hasta lo cuida cuando se emborracha. Debe de ser genial holgazanear todo el día sin que nada te preocupe mínimamente. ¿Eh? ¿Cómo que yo también hago eso? Qué valiente te estás volviendo, cariño."
+      },
+      {
+        "Title": "Sobre Prune...",
+        "Context": "La pequeña y adorable Prune... ¿Sabías que le gustan los libros oscuros y misteriosos? Cada vez que me acerco a ella o le sonrío, comienza a retorcerse como un medaka brillante. Jeje, ¡qué adorable es! Me alegro de no ser la “bruja” a la que persigue, porque de serlo, no sé qué haría."
       },
       {
         "Title": "Más sobre Lisa (I)",

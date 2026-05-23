@@ -36,11 +36,11 @@
         "GroupId": 2331,
         "Proud": {
           "Descriptions": [
-            "Daño de 1er golpe|{param1:F1P}",
-            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 1er golpe|{param1:P}",
+            "Daño de 2.º golpe|{param2:P}",
             "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:F1P}",
             "Daño de 4.º golpe|{param4:F1P} ×4",
-            "Daño de 5.º golpe|{param5:F1P}",
+            "Daño de 5.º golpe|{param5:P}",
             "Daño de ATQ Cargado|{param6:P}",
             "Coste de Aguante de ATQ Cargado|{param7:F1} pts.",
             "Daño de Caída|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10231,
         "Name": "Kung-fu pasta",
@@ -422,7 +423,8 @@
                 12
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10232,
         "Name": "Ataque de Guoba",
@@ -434,8 +436,8 @@
       "GroupId": 2339,
       "Proud": {
         "Descriptions": [
-          "Daño de 1er golpe|{param1:F1P}",
-          "Daño de 2° golpe|{param2:F1P}",
+          "Daño de 1er golpe|{param1:P}",
+          "Daño de 2° golpe|{param2:P}",
           "Daño de 3er golpe|{param3:P}",
           "Daño de Pyronado|{param4:P}",
           "Duración|{param5:F1} s",
@@ -638,7 +640,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10235,
       "Name": "Pyronado",
@@ -697,7 +700,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 232301,
         "Name": "Chef de cocina",

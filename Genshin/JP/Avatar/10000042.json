@@ -36,12 +36,12 @@
         "GroupId": 4231,
         "Proud": {
           "Descriptions": [
-            "1段ダメージ|{param1:F1P}",
-            "2段ダメージ|{param2:F1P}",
-            "3段ダメージ|{param3:F1P}",
+            "1段ダメージ|{param1:P}",
+            "2段ダメージ|{param2:P}",
+            "3段ダメージ|{param3:P}",
             "4段ダメージ|{param4:F1P}+{param5:F1P}",
-            "5段ダメージ|{param6:F1P}",
-            "重撃ダメージ|{param7:F1P}+{param8:F1P}",
+            "5段ダメージ|{param6:P}",
+            "重撃ダメージ|{param7:P}+{param8:P}",
             "重撃スタミナ消費|{param9:F1}",
             "落下期間のダメージ|{param10:F1P}",
             "低空/高空落下攻撃ダメージ|{param11:P}/{param12:P}"
@@ -317,7 +317,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10421,
         "Name": "雲来剣法",
@@ -328,9 +329,9 @@
         "GroupId": 4232,
         "Proud": {
           "Descriptions": [
-            "雷楔ダメージ|{param1:F1P}",
+            "雷楔ダメージ|{param1:P}",
             "斬撃ダメージ|{param2:P}",
-            "暴雷連斬ダメージ|{param3:F1P}×2",
+            "暴雷連斬ダメージ|{param3:P}×2",
             "クールタイム|{param4:F1}秒"
           ],
           "Parameters": [
@@ -484,7 +485,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10422,
         "Name": "星辰帰位",
@@ -496,7 +498,7 @@
       "GroupId": 4239,
       "Proud": {
         "Descriptions": [
-          "スキルダメージ|{param1:F1P}",
+          "スキルダメージ|{param1:P}",
           "連斬ダメージ|{param2:F1P}×8",
           "最後の一撃ダメージ|{param3:P}",
           "クールタイム|{param4:F1}秒",
@@ -668,7 +670,8 @@
               40
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10425,
       "Name": "天街巡遊",
@@ -728,7 +731,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 422301,
         "Name": "総務土地",
@@ -795,7 +799,7 @@
     "ConstellationBefore": "紫金錘重座",
     "CvChinese": "谢莹",
     "CvJapanese": "喜多村英梨",
-    "CvEnglish": "Kayli Mills ＆ Anonymous",
+    "CvEnglish": "Rosie Day",
     "CvKorean": "이보희",
     "CookBonus": {
       "OriginItemId": 108108,

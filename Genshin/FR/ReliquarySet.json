@@ -773,7 +773,7 @@
     "Icon": "UI_RelicIcon_15027_4",
     "Descriptions": [
       "Confère un bonus de DGT Anémo de 15 %.",
-      "#Lorsqu'une attaque chargée a touché un ennemi, la VIT d'attaque normale du personnage augmente de 10 % et les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 40{NON_BREAK_SPACE}%, pendant 15 s."
+      "Lorsqu'une attaque chargée a touché un ennemi, la VIT d'attaque normale du personnage augmente de 10 % et les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 40{NON_BREAK_SPACE}%, pendant 15 s."
     ]
   },
   {
@@ -827,7 +827,7 @@
     "Icon": "UI_RelicIcon_15030_4",
     "Descriptions": [
       "Les PV sont augmentés de 20 %.",
-      "#Les DGT infligés par les compétences et déchaînements élémentaires augmentent de 10 %. Lorsque le personnage équipé de l'artéfact a subi des DGT, cet effet de bonus de DGT augmente de 80{NON_BREAK_SPACE}% pendant 5 s. Cet effet peut être cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé."
+      "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de 10 %. Lorsque le personnage équipé de l'artéfact a subi des DGT, cet effet de bonus de DGT augmente de 80{NON_BREAK_SPACE}% pendant 5 s. Cet effet peut être cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé."
     ]
   },
   {
@@ -863,7 +863,7 @@
     "Icon": "UI_RelicIcon_15032_4",
     "Descriptions": [
       "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
-      "#Les DGT infligés par les compétences élémentaires augmentent de 25{NON_BREAK_SPACE}%. De plus, lorsque le personnage fait partie de l'équipe mais n'est pas déployé, les DGT infligés par ses compétences élémentaires augmentent de 25 % supplémentaires, cet effet prenant fin 2 s après le déploiement du personnage."
+      "Les DGT infligés par les compétences élémentaires augmentent de 25{NON_BREAK_SPACE}%. De plus, lorsque le personnage fait partie de l'équipe mais n'est pas déployé, les DGT infligés par ses compétences élémentaires augmentent de 25 % supplémentaires, cet effet prenant fin 2 s après le déploiement du personnage."
     ]
   },
   {
@@ -935,7 +935,7 @@
     "Icon": "UI_RelicIcon_15036_4",
     "Descriptions": [
       "Augmente l'ATQ de 18 %.",
-      "#Après avoir été hors combat pendant 3 s, les DGT infligés augmentent de 50{NON_BREAK_SPACE}%. En combat, si aucun ennemi brûlé n'est à proximité pendant plus de 6 s, cette augmentation de DGT diminue de 10 % toutes les secondes, jusqu'à atteindre 0{NON_BREAK_SPACE}% ; si un ennemi brûlé est à proximité, elle augmente de 10{NON_BREAK_SPACE}% toutes les secondes, jusqu'à atteindre 50 %. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+      "Après avoir été hors combat pendant 3 s, les DGT infligés augmentent de 50{NON_BREAK_SPACE}%. En combat, si aucun ennemi brûlé n'est à proximité pendant plus de 6 s, cette augmentation de DGT diminue de 10 % toutes les secondes, jusqu'à atteindre 0{NON_BREAK_SPACE}% ; si un ennemi brûlé est à proximité, elle augmente de 10{NON_BREAK_SPACE}% toutes les secondes, jusqu'à atteindre 50 %. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
     ]
   },
   {
@@ -988,7 +988,7 @@
     "Name": "Serment de la longue nuit",
     "Icon": "UI_RelicIcon_15039_4",
     "Descriptions": [
-      "#Les DGT infligés par les attaques plongeantes augmentent de 25{NON_BREAK_SPACE}%.",
+      "Les DGT infligés par les attaques plongeantes augmentent de 25{NON_BREAK_SPACE}%.",
       "Lorsque le personnage équipé de l'artéfact a touché un ennemi avec une attaque plongeante, une attaque chargée ou une compétence élémentaire, il obtient respectivement 1, 2 ou 2 cumuls de radiance éternelle, ces différents types d'attaque pouvant chacun déclencher cet effet une fois toutes les secondes. La radiance éternelle augmente les DGT infligés par les attaques plongeantes de 15 % pendant 6 s et peut se cumuler 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
     ]
   },
@@ -1081,5 +1081,53 @@
       "Augmente l'ATQ de 18 %.",
       "Toucher un ennemi avec une attaque normale, une attaque chargée, une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Bénédiction des vents pastoraux pendant 6 s : augmente l'ATQ de 25 %. Si le personnage équipé de l'artéfact a terminé son devoir de la sorcière, l'effet est converti en l'effet Détermination des vents pastoraux, augmentant en plus le taux CRIT de 20 %. Les effets décrits ci-dessus peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
     ]
+  },
+  {
+    "SetId": 15045,
+    "EquipAffixId": 215045,
+    "EquipAffixIds": [
+      2150450,
+      2150451
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Don céleste",
+    "Icon": "UI_RelicIcon_15045_4",
+    "Descriptions": [
+      "Augmente la recharge d'énergie de 20 %.",
+      "Si le personnage équipé de l'artéfact a terminé son devoir de la sorcière et a utilisé une compétence élémentaire, il obtient l'effet Guidance de la lumière : accorde un bonus de DGT de l'élément du personnage de l'artéfact de 20 % pendant 20 s à tous les personnages de l'équipe à proximité. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas.\nLorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, l'effet Guidance de la lumière est amélioré en Hymne mortel, accordant un bonus de DGT de l'élément du personnage équipé de l'artéfact et de l'élément de votre personnage déployé de 40{NON_BREAK_SPACE}% à tous les personnages de l'équipe à proximité, ce bonus n'étant pas doublé si leurs éléments sont identiques."
+    ]
+  },
+  {
+    "SetId": 15046,
+    "EquipAffixId": 215046,
+    "EquipAffixIds": [
+      2150460,
+      2150461
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Désenchantement dans l'ombre profonde",
+    "Icon": "UI_RelicIcon_15046_4",
+    "Descriptions": [
+      "Augmente l'ATQ de 18 %.",
+      "Augmente les DGT infligés par les réactions de Supraconduction de 80 %. Lorsque le personnage équipé de l'artéfact attaque un ennemi affecté par une réaction de Supraconduction, le taux CRIT de cette attaque augmente de 16{NON_BREAK_SPACE}%. Une toute nouvelle bénédiction peut vous être accordée en vous rendant à Snezhnaya..."
+    ]
+  },
+  {
+    "SetId": 15000,
+    "EquipAffixId": 0,
+    "EquipAffixIds": [],
+    "NeedNumber": [
+      3,
+      5
+    ],
+    "Name": "",
+    "Icon": "",
+    "Descriptions": []
   }
 ]

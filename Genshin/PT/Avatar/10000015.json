@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
-            "Dano do 3° Golpe|{param3:F1P}",
-            "Dano do 4° Golpe|{param4:F1P}",
-            "Dano do 5° Golpe|{param5:F1P}",
-            "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
+            "Dano do 3° golpe |{param3:P}",
+            "Dano do 4° golpe|{param4:P}",
+            "Dano do 5° Golpe|{param5:P}",
+            "Dano de Ataque Carregado|{param6:P}+{param7:P}",
             "Consumo de Stamina de Ataque Carregado|{param8:F1}",
             "Dano Durante a Queda|{param9:F1P}",
             "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Lâmina Cerimonial",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Mordida Congelante",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "Dano de Habilidade|{param1:F1P}",
+          "Dano de Habilidade|{param1:P}",
           "Tempo de Recarga|{param2:F1}s",
           "Duração|{param3:F1}",
           "Energia Elemental|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Valsa Glacial",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Força Oculta",
@@ -868,6 +872,10 @@
       {
         "Title": "Sobre Dahlia...",
         "Context": "Você sabe se ele bebe muito vinho como parte das cerimônias da igreja? Porque a tolerância dele ao álcool é lá nas alturas. A primeira vez que nos conhecemos foi quando perdi pra ele numa competição de bebida. Bem, o Arconte Anemo adora vinho, então é apropriado que seu porta-voz seja um defensor tão devoto das maravilhas do álcool... Coisas assim é que dão charme à Cidade da Liberdade."
+      },
+      {
+        "Title": "Sobre Lohen...",
+        "Context": "Faz um tempo que Lohen não vem me pedir para falsificar assinaturas. Será que ele já dominou a arte? Considerando a inteligência dele, não seria surpresa... Vou escrever uma carta para ele com a caligrafia do Grande Mestre e ver o quanto ele realmente aprendeu."
       },
       {
         "Title": "Mais sobre Kaeya - I",

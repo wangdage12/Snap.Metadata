@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "DAN da 1º colpo|{param1:F1P}",
-            "DAN da 2º colpo|{param2:F1P}",
-            "DAN da 3º colpo|{param3:F1P}",
-            "DAN da 4º colpo|{param4:F1P}",
-            "DAN da 5º colpo|{param5:F1P}",
+            "DAN da 1º colpo|{param1:P}",
+            "DAN da 2º colpo|{param2:P}",
+            "DAN da 3º colpo|{param3:P}",
+            "DAN da 4º colpo|{param4:P}",
+            "DAN da 5º colpo|{param5:P}",
             "DAN da ATT caricato|{param6:P}",
             "Costo vigore ATT caricato|{param7:F1}",
             "DAN da ATT in picchiata|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "Tecnica di Favonius",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "Lama burrascosa",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "DAN da Tripudio|{param1:P}",
-          "DAN da entrata/uscita campo|{param2:F1P}",
+          "DAN da entrata/uscita campo|{param2:P}",
           "Guarigione da attivazione campo|{param3:P} ATT+{param4:I}",
           "RIGEN continua|{param5:F2P} ATT+{param6:I}/s",
           "TdR|{param7:F1} s",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "Brezza dei denti di leone",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "Brezza guida",

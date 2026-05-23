@@ -38,8 +38,8 @@
           "Descriptions": [
             "1-Hit DMG|{param1:F1P}",
             "2-Hit DMG|{param2:F1P}",
-            "3-Hit DMG|{param3:F1P}",
-            "4-Hit DMG|{param4:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
             "Charged Attack DMG|{param5:P}",
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10431,
         "Name": "Wind Spirit Creation",
@@ -406,7 +407,8 @@
                 15
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10432,
         "Name": "Astable Anemohypostasis Creation - 6308",
@@ -444,7 +446,7 @@
       "Proud": {
         "Descriptions": [
           "DoT|{param1:P}",
-          "Additional Elemental DMG|{param2:F1P}",
+          "Additional Elemental DMG|{param2:P}",
           "Duration|{param3:F1}s",
           "CD|{param4:F1}s",
           "Energy Cost|{param5:I}"
@@ -615,7 +617,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10435,
       "Name": "Forbidden Creation - Isomer 75 / Type II",
@@ -675,7 +678,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 432301,
         "Name": "Astable Invention",
@@ -742,7 +746,7 @@
     "ConstellationBefore": "Ampulla",
     "CvChinese": "小敢",
     "CvJapanese": "藤田茜",
-    "CvEnglish": "Valeria Rodriguez & Anonymous",
+    "CvEnglish": "Maya Graydon",
     "CvKorean": "Kim Ha-young",
     "CookBonus": {
       "OriginItemId": 108066,
@@ -757,7 +761,7 @@
     "Fetters": [
       {
         "Title": "Hello",
-        "Context": "I'm Sucrose, a researcher of alchemy. I heard you've been to a lot of places, so I was wondering if you... Ah, what am I saying! It's only our first time meeting, I shouldn't trouble you. But... if you're willing, I'd love to hear any stories you have about your adventures. I'd... really like that."
+        "Context": "I'm Sucrose, a researcher of alchemy. I've heard you've been to a lot of places, so I was wondering if you... Ah, what am I saying! It's only our first time meeting, I shouldn't trouble you. But... if you're willing, I'd love to hear any stories you have about your adventures. I'd... really like that."
       },
       {
         "Title": "Chat: Curiosity",
@@ -785,11 +789,11 @@
       },
       {
         "Title": "When It Rains",
-        "Context": "Humidity levels are increasing. Think we could run some tests?"
+        "Context": "Humidity levels are increasing. Think we should run some tests?"
       },
       {
         "Title": "Good Morning",
-        "Context": "Good morning. Did you sleep well? According to research, not getting a good night's sleep can have detrimental effects on your cognition and stamina. What? I'm always up working through the night? Yeah, I know... Can't be helped I guess..."
+        "Context": "Good morning. Did you sleep well? According to research, not getting a good night's sleep can have detrimental effects on your cognition and stamina. What? I'm always working through the night? Yeah, I know... Can't be helped I guess..."
       },
       {
         "Title": "Good Afternoon",
@@ -845,7 +849,7 @@
       },
       {
         "Title": "About Klee",
-        "Context": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there are still a lot of problems with the design."
+        "Context": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there's still a lot of problems with the design."
       },
       {
         "Title": "About Jean",

@@ -36,12 +36,12 @@
         "GroupId": 3531,
         "Proud": {
           "Descriptions": [
-            "1 Vuruş Hasarı|{param1:F1P}",
-            "2 Vuruş Hasarı|{param2:F1P}",
+            "1 Vuruş Hasarı|{param1:P}",
+            "2 Vuruş Hasarı|{param2:P}",
             "3 Vuruş Hasarı|{param3:F1P}+{param3:F1P}",
             "4 Vuruş Hasarı|{param4:F1P}+{param4:F1P}",
-            "5 Vuruş Hasarı|{param5:F1P}",
-            "Yüklü Saldırı Hasarı|{param6:F1P}+{param6:F1P}",
+            "5 Vuruş Hasarı|{param5:P}",
+            "Yüklü Saldırı Hasarı|{param6:P}+{param6:P}",
             "Yüklü Saldırı Dayanıklılık Maliyeti|{param7:F1}",
             "Havadan Saldırı Hasarı|{param8:F1P}",
             "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param9:P}/{param10:P}"
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10351,
         "Name": "Kadim Kılıç Sanatı",
@@ -516,7 +517,8 @@
                 2.28
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10352,
         "Name": "Adeptus Büyüsü: Ayazın Habercisi",
@@ -529,7 +531,7 @@
       "Proud": {
         "Descriptions": [
           "Beceri Hasarı|{param3:P}",
-          "İyileştirme|{param1:F1P} Saldırı+{param2:I}",
+          "İyileştirme|{param1:P} Saldırı+{param2:I}",
           "Süre|{param4:F1}sn",
           "BS|{param5:F1}sn",
           "Enerji Maliyeti|{param6:I}"
@@ -715,7 +717,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10353,
       "Name": "Adeptus Büyüsü: Nazar",
@@ -769,7 +772,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 352301,
         "Name": "Geçmiş Yaşamın Anıları",
@@ -952,6 +956,10 @@
       {
         "Title": "Küçük Ming Hakkında",
         "Context": "Bazı gecelerde, sanki benimle birlikte esneme hareketleri yapan başka biri varmış gibi hissediyorum. Belki de hayal gücüm çok geniştir."
+      },
+      {
+        "Title": "Prune Hakkında",
+        "Context": "Dışarıdan sert görünüyor... Ama elleri güzel ve yumuşacık. Onu sevdim."
       },
       {
         "Title": "Qiqi Hakkında Daha Fazlası: I",

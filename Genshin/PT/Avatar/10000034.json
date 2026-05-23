@@ -36,15 +36,15 @@
         "GroupId": 3431,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
-            "Dano do 3° Golpe|{param3:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
+            "Dano do 3° golpe |{param3:P}",
             "Dano do 4° golpe|{param4:P}",
-            "Dano de Loop de Ataque Carregado|{param5:F1P}",
-            "Dano Final de Ataque Carregado|{param6:F1P}",
+            "Dano de Loop de Ataque Carregado|{param5:P}",
+            "Dano Final de Ataque Carregado|{param6:P}",
             "Consumo de Stamina de Ataque Carregado|{param7:F1}/s",
             "Duração Máxima|{param8:F1}s",
-            "Dano Durante a Queda|{param9:F1P}",
+            "Dano Durante a Queda|{param9:P}",
             "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
           ],
           "Parameters": [
@@ -303,7 +303,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10341,
         "Name": "Técnica de Espada de Favonius - Empregada",
@@ -532,7 +533,8 @@
                 324.44855
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10342,
         "Name": "Guardião do Coração",
@@ -544,8 +546,8 @@
       "GroupId": 3439,
       "Proud": {
         "Descriptions": [
-          "Dano de Explosão|{param1:F1P}",
-          "Dano de Habilidade|{param2:F1P}",
+          "Dano de Explosão|{param1:P}",
+          "Dano de Habilidade|{param2:P}",
           "Aumento de ATQ|{param3:P} da DEF",
           "Duração|{param4:F1}s",
           "Tempo de Recarga|{param5:F1}s",
@@ -732,7 +734,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10343,
       "Name": "Grande Limpeza",
@@ -793,7 +796,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 342301,
         "Name": "Dedicação da Empregada",

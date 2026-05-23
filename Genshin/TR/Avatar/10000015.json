@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "1 Vuruş Hasarı|{param1:F1P}",
-            "2 Vuruş Hasarı|{param2:F1P}",
-            "3 Vuruş Hasarı|{param3:F1P}",
-            "4 Vuruş Hasarı|{param4:F1P}",
-            "5 Vuruş Hasarı|{param5:F1P}",
-            "Yüklü Saldırı Hasarı|{param6:F1P}+{param7:F1P}",
+            "1 Vuruş Hasarı|{param1:P}",
+            "2 Vuruş Hasarı|{param2:P}",
+            "3 Vuruş Hasarı|{param3:P}",
+            "4 Vuruş Hasarı|{param4:P}",
+            "5 Vuruş Hasarı|{param5:P}",
+            "Yüklü Saldırı Hasarı|{param6:P}+{param7:P}",
             "Yüklü Saldırı Dayanıklılık Maliyeti|{param8:F1}",
             "Havadan Saldırı Hasarı|{param9:F1P}",
             "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Merasim Kılıcı Tekniği",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Buzul Isırığı",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "Beceri Hasarı|{param1:F1P}",
+          "Beceri Hasarı|{param1:P}",
           "BS|{param2:F1}sn",
           "Süre|{param3:F1}sn",
           "Enerji Maliyeti|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Buzul Valsi",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Gizli Güç",
@@ -868,6 +872,10 @@
       {
         "Title": "Dahlia Hakkında",
         "Context": "Kilise ayinlerinde sık sık şarap mı içiyor, biliyor musun? Alkol toleransı inanılmaz yüksek çünkü. Bizim tanışma hikayemiz de bir içki yarışmasında ona yenilmemle başladı. Eh, Rüzgar Hükümdarı şaraba bu kadar düşkünken onun temsilcisinin de şarabın mucizelerine tutkun olması şaşırtıcı değil... İşte Özgürlük Şehri'ne o benzersiz havasını böyle detaylar kazandırıyor."
+      },
+      {
+        "Title": "Lohen Hakkında",
+        "Context": "Şu Lohen denen çocuk bir süredir sahte imza için yanıma gelmiyor. Acaba bu işte çoktan ustalaştı mı? Yeterince zeki olduğu kesin... Biraz zaman geçsin, ona Büyük Kumandanın el yazısıyla bir mektup yazacağım. O zaman ne kadar öğrenmiş görürüz..."
       },
       {
         "Title": "Kaeya Hakkında Daha Fazlası: I",

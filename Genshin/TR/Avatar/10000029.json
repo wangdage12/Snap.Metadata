@@ -36,9 +36,9 @@
         "GroupId": 2931,
         "Proud": {
           "Descriptions": [
-            "1 Vuruş Hasarı|{param1:F1P}",
-            "2 Vuruş Hasarı|{param2:F1P}",
-            "3 Vuruş Hasarı|{param3:F1P}",
+            "1 Vuruş Hasarı|{param1:P}",
+            "2 Vuruş Hasarı|{param2:P}",
+            "3 Vuruş Hasarı|{param3:P}",
             "Yüklü Saldırı Hasarı|{param4:P}",
             "Yüklü Saldırı Dayanıklılık Maliyeti|{param5:F1}",
             "Havadan Saldırı Hasarı|{param6:F1P}",
@@ -255,7 +255,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10291,
         "Name": "Bom!",
@@ -266,7 +267,7 @@
         "GroupId": 2932,
         "Proud": {
           "Descriptions": [
-            "Zıpzıp Bodur Hasarı|{param1:F1P}",
+            "Zıpzıp Bodur Hasarı|{param1:P}",
             "Mayın Hasarı|{param4:F1P}",
             "Mayın Süresi|{param5:F1}sn",
             "BS|{param6:F1}sn"
@@ -452,7 +453,8 @@
                 20
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10292,
         "Name": "Zıpzıp Bodur",
@@ -661,7 +663,8 @@
               10
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10295,
       "Name": "Kıvılcımlar ve Patlama",
@@ -715,7 +718,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 292301,
         "Name": "Hazinelerim!",
@@ -809,7 +813,7 @@
       },
       {
         "Title": "Sohbet: Kurallar",
-        "Context": "\"Surların içinde patlamalar, her yerde bağrışmalar\", \"Patlama dediğin mahveder insanı, Jean de ortaya salar gazabını\", \"Mondstadt bombalanacak, Klee de laneti üstüne alacak...\" Favonius Şövalyelerinin bana açıkladığı hayatta kalma kuralları bunlar."
+        "Context": "\"Surların içinde olursa patlama, kapatılırsın doğruca odaya\", \"Patlama dediğin mahveder insanı, Jean de ortaya salar gazabını\", \"Mondstadt bombalanırsa Klee ayvayı yer çok fena\". Favonius Şövalyelerinin bana açıkladığı hayatta kalma kuralları bunlar."
       },
       {
         "Title": "Yağmur Yağdığında",
@@ -918,6 +922,14 @@
       {
         "Title": "Durin Hakkında",
         "Context": "Hehe, Durin artık Mondstadt'ta yaşıyor. Artık her gün onunla oynayacağım! Onu balık patlatmaya götüreceğim, o da balıklara Zıpzıp Bodur atmam için beni yükseklere uçuracak!"
+      },
+      {
+        "Title": "Lohen Hakkında",
+        "Context": "Lohen'den iyisi yok! Klee onu son gördüğünde bir sürü lezzetli atıştırmalık vermişti! Hem de karşılığında sadece küçük bir kutu pastel boya istedi! Eğer vakti olursa, Klee ona resim çizmeyi öğretmeyi çok ister... Belki Varka Amca'yı da davet edebiliriz!"
+      },
+      {
+        "Title": "Prune Hakkında",
+        "Context": "Prune'dan iyisi yok! Annem bana yazdığı bir mektupta Prune'un oyun oynayacak birini aradığını ama sormaya çok çekindiğini söyledi! Bu yüzden Klee onu balık patlatmaya, Ejdersırtı'na, Altın Elma Takımadaları'na... Ya da.. Simulanka'ya götürmeye karar verdi! Birlikte çok eğleneceğiz!"
       },
       {
         "Title": "Klee Hakkında Daha Fazlası: I",

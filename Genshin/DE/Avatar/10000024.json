@@ -36,12 +36,12 @@
         "GroupId": 2431,
         "Proud": {
           "Descriptions": [
-            "SCH Phase 1|{param1:F1P}",
-            "SCH Phase 2|{param2:F1P}",
-            "SCH Phase 3|{param3:F1P}",
-            "SCH Phase 4|{param4:F1P}",
+            "SCH Phase 1|{param1:P}",
+            "SCH Phase 2|{param2:P}",
+            "SCH Phase 3|{param3:P}",
+            "SCH Phase 4|{param4:P}",
             "SCH Phase 5|{param5:P}",
-            "SCH heftiger Schläge pro Runde|{param6:F1P}",
+            "SCH heftiger Schläge pro Runde|{param6:P}",
             "SCH heftiger Schläge am Ende|{param7:P}",
             "#Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte pro{NON_BREAK_SPACE}s",
             "Höchstdauer|{param9:F1} s",
@@ -319,7 +319,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10241,
         "Name": "Vorstoß aus der Brandung",
@@ -501,7 +502,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10242,
         "Name": "Wellenfänger",
@@ -514,7 +516,7 @@
       "Proud": {
         "Descriptions": [
           "Fähigkeits-SCH|{param1:P}",
-          "Kettenblitz-SCH|{param2:F1P}",
+          "Kettenblitz-SCH|{param2:P}",
           "SCH-Minderung|{param3:P}",
           "Dauer|{param4:F1} s",
           "Abklingzeit|{param5:F1} s",
@@ -701,7 +703,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10245,
       "Name": "Blitzbrecher",
@@ -759,7 +762,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 242301,
         "Name": "Gebieter über die Gezeiten",

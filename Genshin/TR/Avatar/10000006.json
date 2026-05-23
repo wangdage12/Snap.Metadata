@@ -38,8 +38,8 @@
           "Descriptions": [
             "1 Vuruş Hasarı|{param1:F1P}",
             "2 Vuruş Hasarı|{param2:F1P}",
-            "3 Vuruş Hasarı|{param3:F1P}",
-            "4 Vuruş Hasarı|{param4:F1P}",
+            "3 Vuruş Hasarı|{param3:P}",
+            "4 Vuruş Hasarı|{param4:P}",
             "Yüklü Saldırı Hasarı|{param5:P}",
             "Yüklü Saldırı Dayanıklılık Maliyeti|{param6:F1}",
             "Havadan Saldırı Hasarı|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10060,
         "Name": "Yıldırım Dokunuşu",
@@ -282,7 +283,7 @@
         "GroupId": 432,
         "Proud": {
           "Descriptions": [
-            "#{LAYOUT_MOBILE#Dokunma}{LAYOUT_PC#Basma}{LAYOUT_PS#Basma} Hasarı|{param6:F1P}",
+            "#{LAYOUT_MOBILE#Dokunma}{LAYOUT_PC#Basma}{LAYOUT_PS#Basma} Hasarı|{param6:P}",
             "#{LAYOUT_MOBILE#Dokunma}{LAYOUT_PC#Basma}{LAYOUT_PS#Basma} BS|{param7:F1}sn",
             "İletken Olmayan Basılı Tutma Hasarı|{param1:P}",
             "1 Kademeli İletken Basılı Tutma Hasarı|{param2:P}",
@@ -486,7 +487,8 @@
                 1
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10061,
         "Name": "Mor Akım",
@@ -654,7 +656,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10062,
       "Name": "Şimşek Gülü",
@@ -713,7 +716,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 42301,
         "Name": "Genel Eczacılık",
@@ -919,6 +923,10 @@
       {
         "Title": "Mika Hakkında",
         "Context": "Huffman'ı böyle ilgili bir erkek kardeşe sahip olduğu için kıskanıyorum. Mika evdeki her işe koşturur, hatta Huffman sarhoş olduğunda ona göz kulak bile olur... Ah, hiçbir şeyi dert etmeden tüm gün aylaklık etmek ne güzel olurdu... Hı? Zaten öyle mi yaşıyorum? Bu aralar pek bir cesur davranıyorsun, sence de öyle değil mi sevimli şey?"
+      },
+      {
+        "Title": "Prune Hakkında",
+        "Context": "Küçük ve şirin Prune... Onun pek bilinmeyen gizemli kitapları sevdiğini biliyor muydun? Ne zaman yanına yaklaşsam ya da ona gülümsesem Parlak Lepistes gibi kıpır kıpır oluyor. Hehe, o kadar sevimli ki! Neyse ki avladığı \"cadı\" ben değilim. Böyle ciddi bir velet peşime takılsa ne yapardım bilmiyorum."
       },
       {
         "Title": "Lisa Hakkında Daha Fazlası: I",

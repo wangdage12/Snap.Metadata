@@ -36,12 +36,12 @@
         "GroupId": 3231,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
-            "Dano do 3° Golpe|{param3:F1P}",
-            "Dano do 4° Golpe|{param4:F1P}",
-            "Dano do 5° Golpe|{param5:F1P}",
-            "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
+            "Dano do 3° golpe |{param3:P}",
+            "Dano do 4° golpe|{param4:P}",
+            "Dano do 5° Golpe|{param5:P}",
+            "Dano de Ataque Carregado|{param6:P}+{param7:P}",
             "Consumo de Stamina de Ataque Carregado|{param8:F1}",
             "Dano Durante a Queda|{param9:F1P}",
             "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10321,
         "Name": "Espada da Sorte",
@@ -314,8 +315,8 @@
         "Proud": {
           "Descriptions": [
             "Dano de Toque|{param1:P}",
-            "Dano da 1ª Energização|{param2:F1P}+{param3:F1P}",
-            "Dano da 2ª Energização|{param4:F1P}+{param5:F1P}",
+            "Dano da 1ª Energização|{param2:P}+{param3:P}",
+            "Dano da 2ª Energização|{param4:P}+{param5:P}",
             "Dano de Explosão|{param6:P}",
             "Tempo de Recarga|{param7:F1}/{param8:F1}/{param9:F1}s"
           ],
@@ -545,7 +546,8 @@
                 10
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10322,
         "Name": "Sobrecarga de Paixão",
@@ -760,7 +762,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10323,
       "Name": "Viagem Fantástica",
@@ -814,7 +817,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 322301,
         "Name": "Deve Ser Seguro...",

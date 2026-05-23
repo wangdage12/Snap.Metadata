@@ -36,12 +36,12 @@
         "GroupId": 3231,
         "Proud": {
           "Descriptions": [
-            "DAN da 1º colpo|{param1:F1P}",
-            "DAN da 2º colpo|{param2:F1P}",
-            "DAN da 3º colpo|{param3:F1P}",
-            "DAN da 4º colpo|{param4:F1P}",
-            "DAN da 5º colpo|{param5:F1P}",
-            "DAN da ATT caricato|{param6:F1P}+{param7:F1P}",
+            "DAN da 1º colpo|{param1:P}",
+            "DAN da 2º colpo|{param2:P}",
+            "DAN da 3º colpo|{param3:P}",
+            "DAN da 4º colpo|{param4:P}",
+            "DAN da 5º colpo|{param5:P}",
+            "DAN da ATT caricato|{param6:P}+{param7:P}",
             "Costo vigore ATT caricato|{param8:F1}",
             "DAN da ATT in picchiata|{param9:F1P}",
             "DAN da ATT in picchiata basso/alto|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10321,
         "Name": "Colpo di fortuna",
@@ -314,8 +315,8 @@
         "Proud": {
           "Descriptions": [
             "#DAN da {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}|{param1:P}",
-            "DAN da livello di carica 1|{param2:F1P}+{param3:F1P}",
-            "DAN da livello di carica 2|{param4:F1P}+{param5:F1P}",
+            "DAN da livello di carica 1|{param2:P}+{param3:P}",
+            "DAN da livello di carica 2|{param4:P}+{param5:P}",
             "DAN da esplosione|{param6:P}",
             "TdR|{param7:F1}/{param8:F1}/{param9:F1} s"
           ],
@@ -545,7 +546,8 @@
                 10
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10322,
         "Name": "Sovraccarico di passione",
@@ -760,7 +762,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10323,
       "Name": "Viaggio fantastico",
@@ -814,7 +817,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 322301,
         "Name": "Dovrebbe essere sicuro...",

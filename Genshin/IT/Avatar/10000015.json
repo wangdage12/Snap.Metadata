@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "DAN da 1º colpo|{param1:F1P}",
-            "DAN da 2º colpo|{param2:F1P}",
-            "DAN da 3º colpo|{param3:F1P}",
-            "DAN da 4º colpo|{param4:F1P}",
-            "DAN da 5º colpo|{param5:F1P}",
-            "DAN da ATT caricato|{param6:F1P}+{param7:F1P}",
+            "DAN da 1º colpo|{param1:P}",
+            "DAN da 2º colpo|{param2:P}",
+            "DAN da 3º colpo|{param3:P}",
+            "DAN da 4º colpo|{param4:P}",
+            "DAN da 5º colpo|{param5:P}",
+            "DAN da ATT caricato|{param6:P}+{param7:P}",
             "Costo vigore ATT caricato|{param8:F1}",
             "DAN da ATT in picchiata|{param9:F1P}",
             "DAN da ATT in picchiata basso/alto|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Tecnica cerimoniale",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Attacco gelante",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "DAN da abilità|{param1:F1P}",
+          "DAN da abilità|{param1:P}",
           "TdR|{param2:F1} s",
           "Durata|{param3:F1} s",
           "Costo energia|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Valzer glaciale",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Forza nascosta",
@@ -868,6 +872,10 @@
       {
         "Title": "A proposito di Dahlia",
         "Context": "Sai se beve molto vino in occasione delle cerimonie liturgiche? Regge l'alcol divinamente, non c'è che dire. La prima volta che ci siamo incontrati mi ha battuto a una gara di bevute. Beh, l'Archon di Anemo ama il vino, per cui è naturale che il suo portavoce sia un devoto sostenitore dell'alcol... Sono queste le cose che rendono la Città della Libertà così affascinante."
+      },
+      {
+        "Title": "A proposito di Lohen",
+        "Context": "È da un po' che Lohen non viene a trovarmi per farsi fare una firma falsa. Mi chiedo se abbia già padroneggiato quell'arte... Di sicuro ha acume a sufficienza... Aspetterò ancora un po', poi gli scriverò una lettera imitando la grafia del Gran Maestro: vedremo quanto ha imparato davvero..."
       },
       {
         "Title": "Altro su Kaeya (1)",

@@ -36,15 +36,15 @@
         "GroupId": 3431,
         "Proud": {
           "Descriptions": [
-            "Daño de 1er golpe|{param1:F1P}",
-            "Daño de 2.º golpe|{param2:F1P}",
-            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de 1er golpe|{param1:P}",
+            "Daño de 2.º golpe|{param2:P}",
+            "Daño de 3er golpe|{param3:P}",
             "Daño de 4.º golpe|{param4:P}",
-            "Daño de ATQ Cargado en ciclo|{param5:F1P}",
-            "Daño final de Ataque Cargado|{param6:F1P}",
+            "Daño de ATQ Cargado en ciclo|{param5:P}",
+            "Daño final de Ataque Cargado|{param6:P}",
             "#Coste de Aguante de ATQ Cargado|{param7:F1}{NON_BREAK_SPACE}pts./s",
             "#Duración máx.|{param8:F1}{NON_BREAK_SPACE}s",
-            "Daño de Caída|{param9:F1P}",
+            "Daño de Caída|{param9:P}",
             "Daño de impacto de caída baja/alta|{param10:P}/{param11:P}"
           ],
           "Parameters": [
@@ -303,7 +303,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10341,
         "Name": "Técnica de espada Favonius - Criada",
@@ -532,7 +533,8 @@
                 324.44855
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10342,
         "Name": "Guardiana del corazón",
@@ -544,8 +546,8 @@
       "GroupId": 3439,
       "Proud": {
         "Descriptions": [
-          "Daño instantáneo|{param1:F1P}",
-          "Daño de habilidad|{param2:F1P}",
+          "Daño instantáneo|{param1:P}",
+          "Daño de habilidad|{param2:P}",
           "Aumento de ATQ|{param3:P} de DEF",
           "#Duración|{param4:F1}{NON_BREAK_SPACE}s",
           "#TdE|{param5:F1}{NON_BREAK_SPACE}s",
@@ -732,7 +734,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10343,
       "Name": "Hora de limpiar",
@@ -793,7 +796,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 342301,
         "Name": "Dedicación de la criada",

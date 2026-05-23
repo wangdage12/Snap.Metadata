@@ -38,8 +38,8 @@
           "Descriptions": [
             "DAN da 1º colpo|{param1:F1P}",
             "DAN da 2º colpo|{param2:F1P}",
-            "DAN da 3º colpo|{param3:F1P}",
-            "DAN da 4º colpo|{param4:F1P}",
+            "DAN da 3º colpo|{param3:P}",
+            "DAN da 4º colpo|{param4:P}",
             "DAN da ATT caricato|{param5:P}",
             "Costo vigore ATT caricato|{param6:F1}",
             "DAN da ATT in picchiata|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10060,
         "Name": "Tocco di fulmine",
@@ -282,7 +283,7 @@
         "GroupId": 432,
         "Proud": {
           "Descriptions": [
-            "#DAN da {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}|{param6:F1P}",
+            "#DAN da {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}|{param6:P}",
             "#TdR {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}|{param7:F1} s",
             "DAN non conduttivi con pressione prolungata|{param1:P}",
             "DAN conduttivi con pressione prolungata accumulo 1|{param2:P}",
@@ -486,7 +487,8 @@
                 1
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10061,
         "Name": "Tuono violetto",
@@ -654,7 +656,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10062,
       "Name": "Rosa fulminante",
@@ -713,7 +716,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 42301,
         "Name": "Farmaci generici",
@@ -919,6 +923,10 @@
       {
         "Title": "A proposito di Mika",
         "Context": "Sono un po' invidiosa di Huffman: ha un fratello così premuroso. Mika si occupa di tutte le faccende domestiche e si prende persino cura di lui quando è ubriaco... Ah, deve essere proprio bello poltrire tutto il giorno senza la benché minima preoccupazione... Cosa? Cosa vuol dire che lo faccio già? Ultimamente ti senti piuttosto audace, non è vero, tesorino?"
+      },
+      {
+        "Title": "A proposito di Prune",
+        "Context": "La piccola, dolce Prune... Sapevi che le piacciono i libri più arcani e ignoti? Ogni volta che mi avvicino o le sorrido, inizia a contorcersi come un medaka splendente. Eheh, davvero adorabile! Sono contenta di non essere la \"strega\" che sta cercando: non saprei come regolarmi con una ragazzina così seria alle calcagna."
       },
       {
         "Title": "Altro su Lisa (1)",

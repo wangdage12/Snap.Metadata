@@ -38,8 +38,8 @@
           "Descriptions": [
             "SCH Phase 1|{param1:F1P}",
             "SCH Phase 2|{param2:F1P}",
-            "SCH Phase 3|{param3:F1P}",
-            "SCH Phase 4|{param4:F1P}",
+            "SCH Phase 3|{param3:P}",
+            "SCH Phase 4|{param4:P}",
             "SCH heftiger Schläge|{param5:P}",
             "Ausdauerverbrauch heftiger Schläge|{param6:F1} Punkte",
             "SCH beim Fallen|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10060,
         "Name": "Elektrisierende Berührung",
@@ -282,7 +283,7 @@
         "GroupId": 432,
         "Proud": {
           "Descriptions": [
-            "SCH bei Drücken|{param6:F1P}",
+            "SCH bei Drücken|{param6:P}",
             "Abklingzeit für Drücken|{param7:F1} s",
             "SCH bei Gedrückthalten ohne „Blitzleiter“|{param1:P}",
             "SCH bei Gedrückthalten mit „Blitzleiter“ (1-fach)|{param2:P}",
@@ -486,7 +487,8 @@
                 1
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10061,
         "Name": "Lila Lichtbogen",
@@ -654,7 +656,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10062,
       "Name": "Rosenblitz",
@@ -713,7 +716,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 42301,
         "Name": "Allgemeinwissen über Tränke",
@@ -921,6 +925,10 @@
         "Context": "#Ich beneide Huffman ziemlich, dass er einen so fürsorglichen jüngeren Bruder hat. Mika kümmert sich um den Haushalt und kümmert sich sogar um ihn, wenn er betrunken ist. Ah, wenn ich nur auch den ganzen Tag sorglos umherwandern könnte ... Hm? Du meinst, das mache ich jetzt schon? Hmpf, {F#meine Süße}{M#mein Süßer}, du bist ja ziemlich frech geworden, nicht wahr?"
       },
       {
+        "Title": "Über Prune ...",
+        "Context": "#Die kleine süße Prune ... Wusstest du, dass sie obskure, geheimnisvolle Bücher mag? Immer wenn ich mich ihr nähere oder sie anlächle, windet sie sich wie eine Glasmedaka. Hehe, das ist einfach so unglaublich niedlich! Ich bin froh, dass ich nicht die „Hexe“ bin, die sie jagt{NON_BREAK_SPACE}– ich wüsste nicht, was ich mit so einer ernsthaften kleinen Person tun sollte, die mir auf den Fersen ist."
+      },
+      {
         "Title": "Ich will mehr über Lisa erfahren I",
         "Context": "So, über welche Elementarkräfte möchtest du heute etwas lernen?"
       },
@@ -1108,7 +1116,7 @@
       },
       {
         "Title": "Figurenhintergrund 4",
-        "Context": "Kurz nachdem Lisa dem Ordo Favonius beigetreten war, versuchte der Großmeister, sie zum Truppenführer der 8. Kompanie zu ernennen.\nDies war sehr zur Bestürzung des Feldoffiziers der Kompanie, Nymph, der es ablehnte, dass eine Akademikerin eine so hochrangige Position bekleidete.\nAuf Kaeyas Vorschlag hin, der damals Komtur war, wurde ein Übungskampf arrangiert, in dem Lisa und Nymph ihre magischen Fähigkeiten unter Beweis stellen sollten.\nZwei Minuten nach Beginn des Übungskampfs lehnte Lisa den Posten gnädig mit der Begründung ab, dass „Nymph offensichtlich die erforderlichen Eigenschaften besitzt, die Rolle zu übernehmen.“\nFür das gesamte folgende Jahr erhielt der Großmeister einen ständigen Schwall von Empfehlungsschreiben von Nymph in Bezug auf die Position und die einzige Person, die jemals darin genannt wurde, war Lisa.\nDer Großmeister übermittelte die Überweisungsschreiben immer an Lisa, aber jedes Mal hatte sie eine neue Entschuldigung, um das Angebot abzulehnen.\nDie 8. Kompanie wäre zweifellos unter ihrer Führung weitaus stärker gewesen, aber sie war der Ansicht, dass ein solches Maß an Macht nicht nur überflüssig war, sondern auch ein Risiko darstellte, das die meisten Menschen niemals einschätzen konnten.\nLisa ist zuversichtlich, dass sie mit jeder Situation umgehen kann, auf die sie stößt. Zusätzliche Gefahr bedeutet jedoch eine zusätzliche Arbeitsbelastung, die sie niemals akzeptieren kann."
+        "Context": "Kurz nachdem Lisa dem Ordo Favonius beigetreten war, versuchte der Großmeister, sie zum Truppenführer der 8. Truppe zu ernennen.\nDies war sehr zur Bestürzung des Feldoffiziers der Truppe, Nymph, der es ablehnte, dass eine Akademikerin eine so hochrangige Position bekleidete.\nAuf Kaeyas Vorschlag hin, der damals Komtur war, wurde ein Übungskampf arrangiert, in dem Lisa und Nymph ihre magischen Fähigkeiten unter Beweis stellen sollten.\nZwei Minuten nach Beginn des Übungskampfs lehnte Lisa den Posten gnädig mit der Begründung ab, dass „Nymph offensichtlich die erforderlichen Eigenschaften besitzt, die Rolle zu übernehmen.“\nFür das gesamte folgende Jahr erhielt der Großmeister einen ständigen Schwall von Empfehlungsschreiben von Nymph in Bezug auf die Position und die einzige Person, die jemals darin genannt wurde, war Lisa.\nDer Großmeister übermittelte die Überweisungsschreiben immer an Lisa, aber jedes Mal hatte sie eine neue Entschuldigung, um das Angebot abzulehnen.\nDie 8. Truppe wäre zweifellos unter ihrer Führung weitaus stärker gewesen, aber sie war der Ansicht, dass ein solches Maß an Macht nicht nur überflüssig war, sondern auch ein Risiko darstellte, das die meisten Menschen niemals einschätzen konnten.\nLisa ist zuversichtlich, dass sie mit jeder Situation umgehen kann, auf die sie stößt. Zusätzliche Gefahr bedeutet jedoch eine zusätzliche Arbeitsbelastung, die sie niemals akzeptieren kann."
       },
       {
         "Title": "Figurenhintergrund 5",

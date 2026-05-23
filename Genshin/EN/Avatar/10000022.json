@@ -37,12 +37,12 @@
         "Proud": {
           "Descriptions": [
             "1-Hit DMG|{param1:F1P}+{param1:F1P}",
-            "2-Hit DMG|{param2:F1P}",
-            "3-Hit DMG|{param3:F1P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
             "4-Hit DMG|{param4:F1P}+{param4:F1P}",
-            "5-Hit DMG|{param5:F1P}",
-            "6-Hit DMG|{param6:F1P}",
-            "Aimed Shot|{param7:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "6-Hit DMG|{param6:P}",
+            "Aimed Shot|{param7:P}",
             "Fully-Charged Aimed Shot|{param8:P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
@@ -319,7 +319,8 @@
                 3
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10221,
         "Name": "Divine Marksmanship",
@@ -486,7 +487,8 @@
                 15
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10224,
         "Name": "Skyward Sonnet",
@@ -694,7 +696,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10225,
       "Name": "Wind's Grand Ode",
@@ -753,7 +756,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 222301,
         "Name": "Windrider",

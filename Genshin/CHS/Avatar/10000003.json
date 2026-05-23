@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "一段伤害|{param1:F1P}",
-            "二段伤害|{param2:F1P}",
-            "三段伤害|{param3:F1P}",
-            "四段伤害|{param4:F1P}",
-            "五段伤害|{param5:F1P}",
+            "一段伤害|{param1:P}",
+            "二段伤害|{param2:P}",
+            "三段伤害|{param3:P}",
+            "四段伤害|{param4:P}",
+            "五段伤害|{param5:P}",
             "重击伤害|{param6:P}",
             "重击体力消耗|{param7:F1}点",
             "下坠期间伤害|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "西风剑术",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "风压剑",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "爆发伤害|{param1:P}",
-          "出入领域伤害|{param2:F1P}",
+          "出入领域伤害|{param2:P}",
           "领域发动治疗量|{param3:P}攻击力+{param4:I}",
           "持续治疗|每秒{param5:F2P}攻击力+{param6:I}",
           "冷却时间|{param7:F1}秒",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "蒲公英之风",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "引领之风",

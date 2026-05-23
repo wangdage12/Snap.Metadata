@@ -36,12 +36,12 @@
         "GroupId": 3531,
         "Proud": {
           "Descriptions": [
-            "一段伤害|{param1:F1P}",
-            "二段伤害|{param2:F1P}",
+            "一段伤害|{param1:P}",
+            "二段伤害|{param2:P}",
             "三段伤害|{param3:F1P}+{param3:F1P}",
             "四段伤害|{param4:F1P}+{param4:F1P}",
-            "五段伤害|{param5:F1P}",
-            "重击伤害|{param6:F1P}+{param6:F1P}",
+            "五段伤害|{param5:P}",
+            "重击伤害|{param6:P}+{param6:P}",
             "重击体力消耗|{param7:F1}点",
             "下坠期间伤害|{param8:F1P}",
             "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10351,
         "Name": "云来古剑法",
@@ -516,7 +517,8 @@
                 2.28
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10352,
         "Name": "仙法·寒病鬼差",
@@ -529,7 +531,7 @@
       "Proud": {
         "Descriptions": [
           "技能伤害|{param3:P}",
-          "治疗量|{param1:F1P}攻击力+{param2:I}",
+          "治疗量|{param1:P}攻击力+{param2:I}",
           "持续时间|{param4:F1}秒",
           "冷却时间|{param5:F1}秒",
           "元素能量|{param6:I}"
@@ -715,7 +717,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10353,
       "Name": "仙法·救苦度厄",
@@ -769,7 +772,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 352301,
         "Name": "前尘旧忆",
@@ -952,6 +956,10 @@
       {
         "Title": "关于小冥…",
         "Context": "晚上…偶尔会感觉到有人和我一起做体操…是错觉吗？"
+      },
+      {
+        "Title": "关于布伦妮…",
+        "Context": "外表硬硬的女孩…但手心很软。喜欢。"
       },
       {
         "Title": "想要了解七七·其一",

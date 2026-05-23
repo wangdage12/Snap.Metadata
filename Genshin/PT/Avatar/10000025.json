@@ -36,12 +36,12 @@
         "GroupId": 2531,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
             "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
-            "Dano do 4° Golpe|{param5:F1P}",
-            "Dano do 5° Golpe|{param6:F1P}+{param7:F1P}",
-            "Dano de Ataque Carregado|{param8:F1P}+{param9:F1P}",
+            "Dano do 4° Golpe|{param5:P}",
+            "Dano do 5° Golpe|{param6:P}+{param7:P}",
+            "Dano de Ataque Carregado|{param8:P}+{param9:P}",
             "Consumo de Stamina de Ataque Carregado|{param10:F1}",
             "Dano Durante a Queda|{param11:F1P}",
             "Dano de Queda de Baixa/Alta Altitude|{param12:P}/{param13:P}"
@@ -332,7 +332,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10381,
         "Name": "Estilo Guhua",
@@ -514,7 +515,8 @@
                 21
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10382,
         "Name": "Espada de Guhua: Chuva Torrencial",
@@ -526,7 +528,7 @@
       "GroupId": 2539,
       "Proud": {
         "Descriptions": [
-          "Dano de Chuva de Espadas|{param1:F1P}",
+          "Dano de Chuva de Espadas|{param1:P}",
           "Duração|{param2:F1}s",
           "Tempo de Recarga|{param3:F1}s",
           "Energia Elemental|{param4:I}"
@@ -682,7 +684,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10385,
       "Name": "Espada Guhua: Retalhador de Chuva",
@@ -736,7 +739,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 252301,
         "Name": "Flash do Gênio",

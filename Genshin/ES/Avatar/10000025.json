@@ -36,12 +36,12 @@
         "GroupId": 2531,
         "Proud": {
           "Descriptions": [
-            "Daño de 1er golpe|{param1:F1P}",
-            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 1er golpe|{param1:P}",
+            "Daño de 2.º golpe|{param2:P}",
             "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param4:F1P}",
-            "Daño de 4.º golpe|{param5:F1P}",
-            "#Daño de 5.º golpe|{param6:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param7:F1P}",
-            "#Ataque Cargado|{param8:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param9:F1P}",
+            "Daño de 4.º golpe|{param5:P}",
+            "Daño de 5º golpe|{param6:P}+{param7:P}",
+            "#Ataque Cargado|{param8:P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param9:P}",
             "Coste de Aguante de ATQ Cargado|{param10:F1} pts.",
             "Daño de Caída|{param11:F1P}",
             "Daño de impacto de caída baja/alta|{param12:P}/{param13:P}"
@@ -332,7 +332,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10381,
         "Name": "Técnica de espada Guhua",
@@ -514,7 +515,8 @@
                 21
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10382,
         "Name": "Espada Guhua: Lluvia torrencial mortal",
@@ -526,7 +528,7 @@
       "GroupId": 2539,
       "Proud": {
         "Descriptions": [
-          "Daño de lluvia de espadas|{param1:F1P}",
+          "Daño de lluvia de espadas|{param1:P}",
           "Duración|{param2:F1} s",
           "TdE|{param3:F1} s",
           "Energía Elemental|{param4:I}"
@@ -682,7 +684,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10385,
       "Name": "Espada Guhua: Sable de lluvia",
@@ -736,7 +739,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 252301,
         "Name": "Destello repentino",

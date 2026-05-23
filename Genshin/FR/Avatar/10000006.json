@@ -38,8 +38,8 @@
           "Descriptions": [
             "DGT 1er coup|{param1:F1P}",
             "DGT 2e coup|{param2:F1P}",
-            "DGT 3e coup|{param3:F1P}",
-            "DGT 4e coup|{param4:F1P}",
+            "DGT 3e coup|{param3:P}",
+            "DGT 4e coup|{param4:P}",
             "DGT attaque chargée|{param5:P}",
             "Coût d'endurance attaque chargée|{param6:F1} pts",
             "DGT durant la chute|{param7:F1P}",
@@ -271,7 +271,8 @@
                 3.79592
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10060,
         "Name": "Touche d'éclair",
@@ -282,7 +283,7 @@
         "GroupId": 432,
         "Proud": {
           "Descriptions": [
-            "DGT appui simple|{param6:F1P}",
+            "DGT appui simple|{param6:P}",
             "TdR appui simple|{param7:F1} s",
             "DGT appui long|{param1:P}",
             "DGT appui long (Conductivité : 1)|{param2:P}",
@@ -486,7 +487,8 @@
                 1
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10061,
         "Name": "Arc fulminant",
@@ -654,7 +656,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10062,
       "Name": "Rose de foudre",
@@ -713,7 +716,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 42301,
         "Name": "Connaissances médicinales",
@@ -919,6 +923,10 @@
       {
         "Title": "À propos de Mika...",
         "Context": "#J'envie Hoffman d'avoir un petit frère aussi attentionné. Mika s'occupe de tout chez lui et il prend même soin de lui quand il est ivre... Ah, comme ce doit être agréable de se prélasser toute la journée sans se soucier de quoi que ce soit... Hein ? Comment ça, c'est déjà ce que je fais ? Hmph, c'est moi ou tu es plus {M#insolent}{F#insolente} que d'habitude, petit chou ?"
+      },
+      {
+        "Title": "À propos de Prune...",
+        "Context": "La petite Prune... Tu savais qu'elle adore les livres magiques et mystérieux ? Dès que je m'approche d'elle ou que je lui lance un sourire, elle se met à gesticuler comme un médaka verni. Héhé, trop mignonne ! Je suis content de ne pas être la « sorcière » qu'elle traque. Je ne sais pas ce que je ferais si j'avais une petite chipie aussi déterminée à mes trousses."
       },
       {
         "Title": "Connaître Lisa (1)",

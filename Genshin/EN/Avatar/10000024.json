@@ -36,12 +36,12 @@
         "GroupId": 2431,
         "Proud": {
           "Descriptions": [
-            "1-Hit DMG|{param1:F1P}",
-            "2-Hit DMG|{param2:F1P}",
-            "3-Hit DMG|{param3:F1P}",
-            "4-Hit DMG|{param4:F1P}",
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
             "5-Hit DMG|{param5:P}",
-            "Charged Attack Cyclic DMG|{param6:F1P}",
+            "Charged Attack Cycling DMG|{param6:P}",
             "Charged Attack Final DMG|{param7:P}",
             "Charged Attack Stamina Cost|{param8:F1}/s",
             "Max Duration|{param9:F1}s",
@@ -319,7 +319,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10241,
         "Name": "Oceanborne",
@@ -501,7 +502,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10242,
         "Name": "Tidecaller",
@@ -514,7 +516,7 @@
       "Proud": {
         "Descriptions": [
           "Skill DMG|{param1:P}",
-          "Lightning DMG|{param2:F1P}",
+          "Lightning DMG|{param2:P}",
           "DMG Reduction|{param3:P}",
           "Duration|{param4:F1}s",
           "CD|{param5:F1}s",
@@ -701,7 +703,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10245,
       "Name": "Stormbreaker",
@@ -759,7 +762,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 242301,
         "Name": "Conqueror of Tides",

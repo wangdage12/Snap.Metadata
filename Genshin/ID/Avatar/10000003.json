@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "DMG Tahap 1|{param1:F1P}",
-            "DMG Tahap 2|{param2:F1P}",
-            "DMG Tahap 3|{param3:F1P}",
-            "DMG Tahap 4|{param4:F1P}",
-            "DMG Tahap 5|{param5:F1P}",
+            "DMG Tahap 1|{param1:P}",
+            "DMG Tahap 2|{param2:P}",
+            "DMG Tahap 3|{param3:P}",
+            "DMG Tahap 4|{param4:P}",
+            "DMG Tahap 5|{param5:P}",
             "DMG Charged Attack|{param6:P}",
             "Konsumsi Stamina Charged Attack|{param7:F1}",
             "DMG Selama Plunging|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "Favonius Bladework",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "Gale Blade",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "DMG Burst|{param1:P}",
-          "DMG Keluar Masuk Field|{param2:F1P}",
+          "DMG Keluar Masuk Field|{param2:P}",
           "Pemulihan Field|{param3:P} ATK + {param4:I}",
           "Regenerasi HP/dtk|{param5:F2P} ATK + {param6:I}",
           "Cooldown|{param7:F1} dtk",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "Dandelion Breeze",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "Guiding Breeze",

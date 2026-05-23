@@ -1822,7 +1822,7 @@
     "WeaponType": 1,
     "RankLevel": 5,
     "Name": "風鷹劍",
-    "Description": "#西風騎士團的靈魂。歷經千年仍在呼喚{F#妳}{M#你}捲起正義之風，拔除奸邪，一如上一位揮舞此劍的女傑。",
+    "Description": "西風騎士團的靈魂。歷經千年仍在呼喚你捲起正義之風，拔除奸邪，一如上一位揮舞此劍的女傑。",
     "Icon": "UI_EquipIcon_Sword_Falcon",
     "AwakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
     "GrowCurves": [
@@ -4008,23 +4008,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "#攻擊力提升<color=#99FFFFFF>12%</color>。不僅如此！海沫村中曾蒙{F#妳}{M#你}幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>12%</color>。"
+          "Description": "攻擊力提升<color=#99FFFFFF>12%</color>。不僅如此！海沫村中曾蒙你幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>12%</color>。"
         },
         {
           "Level": 1,
-          "Description": "#攻擊力提升<color=#99FFFFFF>15%</color>。不僅如此！海沫村中曾蒙{F#妳}{M#你}幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>15%</color>。"
+          "Description": "攻擊力提升<color=#99FFFFFF>15%</color>。不僅如此！海沫村中曾蒙你幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>15%</color>。"
         },
         {
           "Level": 2,
-          "Description": "#攻擊力提升<color=#99FFFFFF>18%</color>。不僅如此！海沫村中曾蒙{F#妳}{M#你}幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>18%</color>。"
+          "Description": "攻擊力提升<color=#99FFFFFF>18%</color>。不僅如此！海沫村中曾蒙你幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>18%</color>。"
         },
         {
           "Level": 3,
-          "Description": "#攻擊力提升<color=#99FFFFFF>21%</color>。不僅如此！海沫村中曾蒙{F#妳}{M#你}幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>21%</color>。"
+          "Description": "攻擊力提升<color=#99FFFFFF>21%</color>。不僅如此！海沫村中曾蒙你幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>21%</color>。"
         },
         {
           "Level": 4,
-          "Description": "#攻擊力提升<color=#99FFFFFF>24%</color>。不僅如此！海沫村中曾蒙{F#妳}{M#你}幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>24%</color>。"
+          "Description": "攻擊力提升<color=#99FFFFFF>24%</color>。不僅如此！海沫村中曾蒙你幫助的美露莘們的聲援心意充滿了力量，依照她們的數目，攻擊力至多進一步提升<color=#99FFFFFF>24%</color>。"
         }
       ]
     },
@@ -4509,6 +4509,29 @@
       114020,
       112028,
       112037
+    ]
+  },
+  {
+    "Id": 12505,
+    "PromoteId": 11101,
+    "Sort": 5204,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "砥厄魚",
+    "Description": "曾屬於魔神的玉璋。一度被擲入漆黑的海洋，以鎮服滔天的滄波。",
+    "Icon": "UI_EquipIcon_Claymore_Aniki",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
     ]
   },
   {
@@ -6890,6 +6913,59 @@
     ]
   },
   {
+    "Id": 13517,
+    "PromoteId": 13517,
+    "Sort": 5313,
+    "WeaponType": 13,
+    "RankLevel": 5,
+    "Name": "災悔",
+    "Description": "白石與星銀鑄成的長槍，鋒銳的尖刃上總是縈纏著刺骨的寒意。",
+    "Icon": "UI_EquipIcon_Pole_Carbine",
+    "AwakenIcon": "UI_EquipIcon_Pole_Carbine_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "禍咎一擊",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "裝備者施放元素戰技後，獲得持續17秒的「紛爭之途」，和分別持續3秒的「無赦」與「無癒」效果，每18秒至多觸發一次。\n無赦：裝備者的普通攻擊與重擊傷害提升<color=#99FFFFFF>40%</color>。\n無癒：裝備者的元素戰技與元素爆發傷害提升<color=#99FFFFFF>40%</color>。\n「紛爭之途」期間，裝備者的普通攻擊與重擊命中敵人時，將延長1秒「無癒」。裝備者的元素戰技與元素爆發命中敵人時，將延長1秒「無赦」。上述效果每0.1秒分別至多觸發一次。「紛爭之途」結束或裝備者退場將解除「無赦」與「無癒」。\n魔導·秘儀：上述所有傷害提升效果提升75%。"
+        },
+        {
+          "Level": 1,
+          "Description": "裝備者施放元素戰技後，獲得持續17秒的「紛爭之途」，和分別持續3秒的「無赦」與「無癒」效果，每18秒至多觸發一次。\n無赦：裝備者的普通攻擊與重擊傷害提升<color=#99FFFFFF>50%</color>。\n無癒：裝備者的元素戰技與元素爆發傷害提升<color=#99FFFFFF>50%</color>。\n「紛爭之途」期間，裝備者的普通攻擊與重擊命中敵人時，將延長1秒「無癒」。裝備者的元素戰技與元素爆發命中敵人時，將延長1秒「無赦」。上述效果每0.1秒分別至多觸發一次。「紛爭之途」結束或裝備者退場將解除「無赦」與「無癒」。\n魔導·秘儀：上述所有傷害提升效果提升75%。"
+        },
+        {
+          "Level": 2,
+          "Description": "裝備者施放元素戰技後，獲得持續17秒的「紛爭之途」，和分別持續3秒的「無赦」與「無癒」效果，每18秒至多觸發一次。\n無赦：裝備者的普通攻擊與重擊傷害提升<color=#99FFFFFF>60%</color>。\n無癒：裝備者的元素戰技與元素爆發傷害提升<color=#99FFFFFF>60%</color>。\n「紛爭之途」期間，裝備者的普通攻擊與重擊命中敵人時，將延長1秒「無癒」。裝備者的元素戰技與元素爆發命中敵人時，將延長1秒「無赦」。上述效果每0.1秒分別至多觸發一次。「紛爭之途」結束或裝備者退場將解除「無赦」與「無癒」。\n魔導·秘儀：上述所有傷害提升效果提升75%。"
+        },
+        {
+          "Level": 3,
+          "Description": "裝備者施放元素戰技後，獲得持續17秒的「紛爭之途」，和分別持續3秒的「無赦」與「無癒」效果，每18秒至多觸發一次。\n無赦：裝備者的普通攻擊與重擊傷害提升<color=#99FFFFFF>70%</color>。\n無癒：裝備者的元素戰技與元素爆發傷害提升<color=#99FFFFFF>70%</color>。\n「紛爭之途」期間，裝備者的普通攻擊與重擊命中敵人時，將延長1秒「無癒」。裝備者的元素戰技與元素爆發命中敵人時，將延長1秒「無赦」。上述效果每0.1秒分別至多觸發一次。「紛爭之途」結束或裝備者退場將解除「無赦」與「無癒」。\n魔導·秘儀：上述所有傷害提升效果提升75%。"
+        },
+        {
+          "Level": 4,
+          "Description": "裝備者施放元素戰技後，獲得持續17秒的「紛爭之途」，和分別持續3秒的「無赦」與「無癒」效果，每18秒至多觸發一次。\n無赦：裝備者的普通攻擊與重擊傷害提升<color=#99FFFFFF>80%</color>。\n無癒：裝備者的元素戰技與元素爆發傷害提升<color=#99FFFFFF>80%</color>。\n「紛爭之途」期間，裝備者的普通攻擊與重擊命中敵人時，將延長1秒「無癒」。裝備者的元素戰技與元素爆發命中敵人時，將延長1秒「無赦」。上述效果每0.1秒分別至多觸發一次。「紛爭之途」結束或裝備者退場將解除「無赦」與「無癒」。\n魔導·秘儀：上述所有傷害提升效果提升75%。"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114004,
+      112133,
+      112040
+    ]
+  },
+  {
     "Id": 14101,
     "PromoteId": 14101,
     "Sort": 1401,
@@ -8475,7 +8551,7 @@
   {
     "Id": 14434,
     "PromoteId": 14434,
-    "Sort": 4425,
+    "Sort": 4426,
     "WeaponType": 10,
     "RankLevel": 4,
     "Name": "霜辰",
@@ -9477,6 +9553,59 @@
       114084,
       112139,
       112127
+    ]
+  },
+  {
+    "Id": 14523,
+    "PromoteId": 14523,
+    "Sort": 5420,
+    "WeaponType": 10,
+    "RankLevel": 5,
+    "Name": "塵光七諭",
+    "Description": "如天光般瑰美的金匣，傳說在遙遠的過去曾經屬於永恆之庭的御使。",
+    "Icon": "UI_EquipIcon_Catalyst_FairyGarden",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_FairyGarden_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 49.1377,
+        "Type": 4,
+        "Value": 1303
+      },
+      {
+        "InitValue": 0.036,
+        "Type": 6,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "末臨者的華冠",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "攻擊力提升<color=#99FFFFFF>12%</color>。裝備者創造護盾後的20秒內，獲得「先導之光」效果：依據裝備者的攻擊力，每1000點攻擊力都會使隊伍中自己的目前場上角色造成的傷害提升<color=#99FFFFFF>10%</color>，至多提升<color=#99FFFFFF>26%</color>。此外，裝備者創造護盾時，還會獲得「指引者的饜足」效果，使裝備者恢復<color=#99FFFFFF>14</color>點元素能量，該效果每14秒至多觸發一次。在不處於戰鬥狀態下開啟各類寶箱時，也會獲得該效果。裝備者處於隊伍後臺時，依然能觸發上述效果。\n魔導·秘儀：隊伍中自己的魔導角色位於隊伍後臺時，也能獲得「先導之光」中50%的傷害提升效果。"
+        },
+        {
+          "Level": 1,
+          "Description": "攻擊力提升<color=#99FFFFFF>15%</color>。裝備者創造護盾後的20秒內，獲得「先導之光」效果：依據裝備者的攻擊力，每1000點攻擊力都會使隊伍中自己的目前場上角色造成的傷害提升<color=#99FFFFFF>13%</color>，至多提升<color=#99FFFFFF>34%</color>。此外，裝備者創造護盾時，還會獲得「指引者的饜足」效果，使裝備者恢復<color=#99FFFFFF>15</color>點元素能量，該效果每14秒至多觸發一次。在不處於戰鬥狀態下開啟各類寶箱時，也會獲得該效果。裝備者處於隊伍後臺時，依然能觸發上述效果。\n魔導·秘儀：隊伍中自己的魔導角色位於隊伍後臺時，也能獲得「先導之光」中50%的傷害提升效果。"
+        },
+        {
+          "Level": 2,
+          "Description": "攻擊力提升<color=#99FFFFFF>18%</color>。裝備者創造護盾後的20秒內，獲得「先導之光」效果：依據裝備者的攻擊力，每1000點攻擊力都會使隊伍中自己的目前場上角色造成的傷害提升<color=#99FFFFFF>16%</color>，至多提升<color=#99FFFFFF>42%</color>。此外，裝備者創造護盾時，還會獲得「指引者的饜足」效果，使裝備者恢復<color=#99FFFFFF>16</color>點元素能量，該效果每14秒至多觸發一次。在不處於戰鬥狀態下開啟各類寶箱時，也會獲得該效果。裝備者處於隊伍後臺時，依然能觸發上述效果。\n魔導·秘儀：隊伍中自己的魔導角色位於隊伍後臺時，也能獲得「先導之光」中50%的傷害提升效果。"
+        },
+        {
+          "Level": 3,
+          "Description": "攻擊力提升<color=#99FFFFFF>21%</color>。裝備者創造護盾後的20秒內，獲得「先導之光」效果：依據裝備者的攻擊力，每1000點攻擊力都會使隊伍中自己的目前場上角色造成的傷害提升<color=#99FFFFFF>19%</color>，至多提升<color=#99FFFFFF>50%</color>。此外，裝備者創造護盾時，還會獲得「指引者的饜足」效果，使裝備者恢復<color=#99FFFFFF>17</color>點元素能量，該效果每14秒至多觸發一次。在不處於戰鬥狀態下開啟各類寶箱時，也會獲得該效果。裝備者處於隊伍後臺時，依然能觸發上述效果。\n魔導·秘儀：隊伍中自己的魔導角色位於隊伍後臺時，也能獲得「先導之光」中50%的傷害提升效果。"
+        },
+        {
+          "Level": 4,
+          "Description": "攻擊力提升<color=#99FFFFFF>24%</color>。裝備者創造護盾後的20秒內，獲得「先導之光」效果：依據裝備者的攻擊力，每1000點攻擊力都會使隊伍中自己的目前場上角色造成的傷害提升<color=#99FFFFFF>22%</color>，至多提升<color=#99FFFFFF>58%</color>。此外，裝備者創造護盾時，還會獲得「指引者的饜足」效果，使裝備者恢復<color=#99FFFFFF>18</color>點元素能量，該效果每14秒至多觸發一次。在不處於戰鬥狀態下開啟各類寶箱時，也會獲得該效果。裝備者處於隊伍後臺時，依然能觸發上述效果。\n魔導·秘儀：隊伍中自己的魔導角色位於隊伍後臺時，也能獲得「先導之光」中50%的傷害提升效果。"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114076,
+      112142,
+      112124
     ]
   },
   {
@@ -11418,6 +11547,52 @@
     ]
   },
   {
+    "Id": 15504,
+    "PromoteId": 11101,
+    "Sort": 5503,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "昆吾墜龍",
+    "Description": "名匠昆吾以辰筋做的大弓，其勁可以殲龍。釋弦時，其勢如雷。",
+    "Icon": "UI_EquipIcon_Bow_Hunters",
+    "AwakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
+    ]
+  },
+  {
+    "Id": 15505,
+    "PromoteId": 11101,
+    "Sort": 5504,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "懸黎千鈞",
+    "Description": "遠古寶玉造的，能守護一國的勁弓，以匯聚一線的翠光為幻造的弦。",
+    "Icon": "UI_EquipIcon_Bow_Hunters",
+    "AwakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
+    ]
+  },
+  {
     "Id": 15507,
     "PromoteId": 15507,
     "Sort": 5507,
@@ -11738,7 +11913,7 @@
   {
     "Id": 15514,
     "PromoteId": 15514,
-    "Sort": 5512,
+    "Sort": 0,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "星鷲赤羽",
@@ -11791,7 +11966,7 @@
   {
     "Id": 15515,
     "PromoteId": 15515,
-    "Sort": 5513,
+    "Sort": 0,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "黎明破曉之史",
@@ -11839,6 +12014,59 @@
       114012,
       112016,
       112037
+    ]
+  },
+  {
+    "Id": 15516,
+    "PromoteId": 15516,
+    "Sort": 0,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "霜結的誓金枝",
+    "Description": "由古老的白木打造而成的長弓，在遙遠的過去曾屬於北境的霜精之王。",
+    "Icon": "UI_EquipIcon_Bow_Alkonost",
+    "AwakenIcon": "UI_EquipIcon_Bow_Alkonost_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 44.3358,
+        "Type": 4,
+        "Value": 1304
+      },
+      {
+        "InitValue": 0.192,
+        "Type": 22,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "與君致意的黎明",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "防禦力提高<color=#99FFFFFF>16%</color>。裝備者的元素戰技或月結晶攻擊命中敵人時，將獲得持續6秒的「霜妖精的報恩」效果：裝備者造成的岩元素傷害提升<color=#99FFFFFF>40%</color>，月結晶反應傷害提升<color=#99FFFFFF>40%</color>。持續期間，若裝備者附近存在月籠，則隊伍中附近的所有其他角色還會獲得「霜妖精的惡戲」效果：造成的岩元素傷害提升<color=#99FFFFFF>20%</color>，月結晶反應傷害提升<color=#99FFFFFF>20%</color>。裝備者處於隊伍後臺時，依然能觸發上述效果。"
+        },
+        {
+          "Level": 1,
+          "Description": "防禦力提高<color=#99FFFFFF>20%</color>。裝備者的元素戰技或月結晶攻擊命中敵人時，將獲得持續6秒的「霜妖精的報恩」效果：裝備者造成的岩元素傷害提升<color=#99FFFFFF>50%</color>，月結晶反應傷害提升<color=#99FFFFFF>50%</color>。持續期間，若裝備者附近存在月籠，則隊伍中附近的所有其他角色還會獲得「霜妖精的惡戲」效果：造成的岩元素傷害提升<color=#99FFFFFF>25%</color>，月結晶反應傷害提升<color=#99FFFFFF>25%</color>。裝備者處於隊伍後臺時，依然能觸發上述效果。"
+        },
+        {
+          "Level": 2,
+          "Description": "防禦力提高<color=#99FFFFFF>24%</color>。裝備者的元素戰技或月結晶攻擊命中敵人時，將獲得持續6秒的「霜妖精的報恩」效果：裝備者造成的岩元素傷害提升<color=#99FFFFFF>60%</color>，月結晶反應傷害提升<color=#99FFFFFF>60%</color>。持續期間，若裝備者附近存在月籠，則隊伍中附近的所有其他角色還會獲得「霜妖精的惡戲」效果：造成的岩元素傷害提升<color=#99FFFFFF>30%</color>，月結晶反應傷害提升<color=#99FFFFFF>30%</color>。裝備者處於隊伍後臺時，依然能觸發上述效果。"
+        },
+        {
+          "Level": 3,
+          "Description": "防禦力提高<color=#99FFFFFF>28%</color>。裝備者的元素戰技或月結晶攻擊命中敵人時，將獲得持續6秒的「霜妖精的報恩」效果：裝備者造成的岩元素傷害提升<color=#99FFFFFF>70%</color>，月結晶反應傷害提升<color=#99FFFFFF>70%</color>。持續期間，若裝備者附近存在月籠，則隊伍中附近的所有其他角色還會獲得「霜妖精的惡戲」效果：造成的岩元素傷害提升<color=#99FFFFFF>35%</color>，月結晶反應傷害提升<color=#99FFFFFF>35%</color>。裝備者處於隊伍後臺時，依然能觸發上述效果。"
+        },
+        {
+          "Level": 4,
+          "Description": "防禦力提高<color=#99FFFFFF>32%</color>。裝備者的元素戰技或月結晶攻擊命中敵人時，將獲得持續6秒的「霜妖精的報恩」效果：裝備者造成的岩元素傷害提升<color=#99FFFFFF>80%</color>，月結晶反應傷害提升<color=#99FFFFFF>80%</color>。持續期間，若裝備者附近存在月籠，則隊伍中附近的所有其他角色還會獲得「霜妖精的惡戲」效果：造成的岩元素傷害提升<color=#99FFFFFF>40%</color>，月結晶反應傷害提升<color=#99FFFFFF>40%</color>。裝備者處於隊伍後臺時，依然能觸發上述效果。"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114080,
+      112142,
+      112127
     ]
   }
 ]

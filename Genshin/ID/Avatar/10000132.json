@@ -1,0 +1,1137 @@
+{
+  "Id": 10000132,
+  "PromoteId": 132,
+  "Sort": 115,
+  "Body": 5,
+  "Icon": "UI_AvatarIcon_Prune",
+  "SideIcon": "UI_AvatarIcon_Side_Prune",
+  "Name": "Prune",
+  "Description": "\"Pemburu Penyihir\" cilik. Dia menempuh perjalanan jauh dari Nod-Krai hanya untuk menaklukkan penyihir yang, menurutnya, gemar menindas yang lemah dan melakukan segala macam kejahatan.",
+  "BeginTime": "2026-05-19T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 811.494,
+    "AttackBase": 18.52032,
+    "DefenseBase": 48.64125
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13231,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}",
+            "DMG Charged Attack|{param4:F1P}",
+            "Konsumsi Stamina Charged Attack|{param5:F1}",
+            "DMG Selama Plunging|{param6:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param7:F1P}/{param8:F1P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1323101,
+              "Level": 1,
+              "Parameters": [
+                0.486208,
+                0.482808,
+                0.679768,
+                1.3352,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Id": 1323102,
+              "Level": 2,
+              "Parameters": [
+                0.522674,
+                0.519019,
+                0.730751,
+                1.43534,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Id": 1323103,
+              "Level": 3,
+              "Parameters": [
+                0.559139,
+                0.555229,
+                0.781733,
+                1.53548,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Id": 1323104,
+              "Level": 4,
+              "Parameters": [
+                0.60776,
+                0.60351,
+                0.84971,
+                1.669,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Id": 1323105,
+              "Level": 5,
+              "Parameters": [
+                0.644226,
+                0.639721,
+                0.900693,
+                1.76914,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Id": 1323106,
+              "Level": 6,
+              "Parameters": [
+                0.680691,
+                0.675931,
+                0.951675,
+                1.86928,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Id": 1323107,
+              "Level": 7,
+              "Parameters": [
+                0.729312,
+                0.724212,
+                1.019652,
+                2.0028,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Id": 1323108,
+              "Level": 8,
+              "Parameters": [
+                0.777933,
+                0.772493,
+                1.087629,
+                2.13632,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Id": 1323109,
+              "Level": 9,
+              "Parameters": [
+                0.826554,
+                0.820774,
+                1.155606,
+                2.26984,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Id": 1323110,
+              "Level": 10,
+              "Parameters": [
+                0.875174,
+                0.869054,
+                1.223582,
+                2.40336,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Id": 1323111,
+              "Level": 11,
+              "Parameters": [
+                0.923795,
+                0.917335,
+                1.291559,
+                2.53688,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Id": 1323112,
+              "Level": 12,
+              "Parameters": [
+                0.972416,
+                0.965616,
+                1.359536,
+                2.6704,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Id": 1323113,
+              "Level": 13,
+              "Parameters": [
+                1.033192,
+                1.025967,
+                1.444507,
+                2.8373,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Id": 1323114,
+              "Level": 14,
+              "Parameters": [
+                1.093968,
+                1.086318,
+                1.529478,
+                3.0042,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Id": 1323115,
+              "Level": 15,
+              "Parameters": [
+                1.154744,
+                1.146669,
+                1.614449,
+                3.1711,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11321,
+        "Name": "Badaboom! Hexbuster Hammer",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMengayunkan Banehunter Oathhammer, melancarkan hingga 3 serangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina, melakukan ayunan palu ke atas untuk mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Anemo dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color> saat mendarat.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 13232,
+        "Proud": {
+          "Descriptions": [
+            "DMG Ring-A-Ding-Ding! Hexhunter Chime|{param1:F1P}",
+            "DMG Clang Clang! Witch-tribution Comes!|{param2:F1P}",
+            "Cooldown|{param3:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1323201,
+              "Level": 1,
+              "Parameters": [
+                1.6744,
+                2.0456,
+                15
+              ]
+            },
+            {
+              "Id": 1323202,
+              "Level": 2,
+              "Parameters": [
+                1.79998,
+                2.19902,
+                15
+              ]
+            },
+            {
+              "Id": 1323203,
+              "Level": 3,
+              "Parameters": [
+                1.92556,
+                2.35244,
+                15
+              ]
+            },
+            {
+              "Id": 1323204,
+              "Level": 4,
+              "Parameters": [
+                2.093,
+                2.557,
+                15
+              ]
+            },
+            {
+              "Id": 1323205,
+              "Level": 5,
+              "Parameters": [
+                2.21858,
+                2.71042,
+                15
+              ]
+            },
+            {
+              "Id": 1323206,
+              "Level": 6,
+              "Parameters": [
+                2.34416,
+                2.86384,
+                15
+              ]
+            },
+            {
+              "Id": 1323207,
+              "Level": 7,
+              "Parameters": [
+                2.5116,
+                3.0684,
+                15
+              ]
+            },
+            {
+              "Id": 1323208,
+              "Level": 8,
+              "Parameters": [
+                2.67904,
+                3.27296,
+                15
+              ]
+            },
+            {
+              "Id": 1323209,
+              "Level": 9,
+              "Parameters": [
+                2.84648,
+                3.47752,
+                15
+              ]
+            },
+            {
+              "Id": 1323210,
+              "Level": 10,
+              "Parameters": [
+                3.01392,
+                3.68208,
+                15
+              ]
+            },
+            {
+              "Id": 1323211,
+              "Level": 11,
+              "Parameters": [
+                3.18136,
+                3.88664,
+                15
+              ]
+            },
+            {
+              "Id": 1323212,
+              "Level": 12,
+              "Parameters": [
+                3.3488,
+                4.0912,
+                15
+              ]
+            },
+            {
+              "Id": 1323213,
+              "Level": 13,
+              "Parameters": [
+                3.5581,
+                4.3469,
+                15
+              ]
+            },
+            {
+              "Id": 1323214,
+              "Level": 14,
+              "Parameters": [
+                3.7674,
+                4.6026,
+                15
+              ]
+            },
+            {
+              "Id": 1323215,
+              "Level": 15,
+              "Parameters": [
+                3.9767,
+                4.8583,
+                15
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11322,
+        "Name": "Ring-A-Ding-Ding! Hexhunter Chime",
+        "Description": "Mengeluarkan kekuatan angin dengan tekad untuk mengalahkan sang penyihir \"jahat\" menyelamatkan Descartes! Prune menggunakan Banehunter Oathhammer untuk menghantam Witchlure Bell dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nJika Prune memicu reaksi Swirl terhadap musuh melalui serangan ini, maka <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> akan berubah menjadi <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> selama 6 detik ke depan.\n\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\nMembungkus palu Prune dengan jenis elemen yang sebelumnya terlibat dalam reaksi Swirl, dan membuat {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} mengalami Elemental Conversion. Saat dilancarkan dengan Mode Tekan, Prune melompat dan menendang Banehunter Oathhammer ke depan, mengakibatkan Elemental DMG dengan jenis elemen yang sesuai terhadap musuh di depannya.",
+        "Icon": "Skill_S_Prune_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 13251,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1325101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                5,
+                0.3,
+                5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1325101,
+        "Name": "Witch's Eve Rite: Witchseeker's Vow",
+        "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Hal yang Diperdebatkan</color>, Prune akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSaat Karakter Hexerei di dalam party yang sedang terpengaruh efek Tolling Rally memicu Reaksi Elemental apa pun terhadap musuh, ATK Prune akan meningkat 60% selama 5 detik. Jika Reaksi Elemental yang dipicu Karakter ini adalah Swirl, maka ATK-nya akan meningkat 30% lagi selama 5 detik.",
+        "Icon": "UI_Talent_S_Prune_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13239,
+      "Proud": {
+        "Descriptions": [
+          "DMG Skill|{param1:F1P}",
+          "DMG Witchlure Bell|{param2:F1P}",
+          "Durasi Mode Hunter-Seeker|{param3:F1} dtk",
+          "Cooldown|{param4:F1} dtk",
+          "Konsumsi Energy|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1323901,
+            "Level": 1,
+            "Parameters": [
+              0.9696,
+              0.7044,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323902,
+            "Level": 2,
+            "Parameters": [
+              1.04232,
+              0.75723,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323903,
+            "Level": 3,
+            "Parameters": [
+              1.11504,
+              0.81006,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323904,
+            "Level": 4,
+            "Parameters": [
+              1.212,
+              0.8805,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323905,
+            "Level": 5,
+            "Parameters": [
+              1.28472,
+              0.93333,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323906,
+            "Level": 6,
+            "Parameters": [
+              1.35744,
+              0.98616,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323907,
+            "Level": 7,
+            "Parameters": [
+              1.4544,
+              1.0566,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323908,
+            "Level": 8,
+            "Parameters": [
+              1.55136,
+              1.12704,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323909,
+            "Level": 9,
+            "Parameters": [
+              1.64832,
+              1.19748,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323910,
+            "Level": 10,
+            "Parameters": [
+              1.74528,
+              1.26792,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323911,
+            "Level": 11,
+            "Parameters": [
+              1.84224,
+              1.33836,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323912,
+            "Level": 12,
+            "Parameters": [
+              1.9392,
+              1.4088,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323913,
+            "Level": 13,
+            "Parameters": [
+              2.0604,
+              1.49685,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323914,
+            "Level": 14,
+            "Parameters": [
+              2.1816,
+              1.5849,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323915,
+            "Level": 15,
+            "Parameters": [
+              2.3028,
+              1.67295,
+              12,
+              18,
+              70
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11325,
+      "Name": "The Bell Tolls! The Hunt is On!",
+      "Description": "Prune mengayunkan Witchlure Bell dengan lembut, mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di sekitar. Setelahnya, Witchlure Bell akan memasuki mode Hunter-Seeker.\n\n<color=#FFD780FF>Witchlure Bell: Hunter Seeker</color>\nDalam mode ini, Witchlure Bell akan mengikuti Karakter aktif sambil menyerang musuh di sekitar secara berkala dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>. DMG ini dianggap sebagai DMG Elemental Burst.",
+      "Icon": "Skill_E_Prune_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 13221,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322101,
+              "Level": 1,
+              "Parameters": [
+                1.5
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1322101,
+        "Name": "Verdict and Punishment",
+        "Description": "Dalam Elemental Burst<color=#FFD780FF> {LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color>, setelah Witchlure Bell dalam mode Hunter-Seeker mengakibatkan DMG terhadap musuh, jika DMG tersebut memicu reaksi Swirl terhadap musuh, maka akan memanggil {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion berdasarkan reaksi Swirl kali ini di depan musuh dan menghantamnya, mengakibatkan Elemental DMG yang sesuai dengan konversi Swirl sebesar 150% ATK Prune. DMG ini dianggap sebagai DMG Elemental Burst.",
+        "Icon": "UI_Talent_S_Prune_05"
+      },
+      {
+        "GroupId": 13222,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322201,
+              "Level": 1,
+              "Parameters": [
+                0.00025,
+                5,
+                0.5,
+                2000
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1322201,
+        "Name": "Tolling Synchronicity",
+        "Description": "Setelah Prune menggunakan {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion untuk mengenai musuh, anggota party lain di sekitar akan mendapatkan efek Tolling Rally yang berlangsung selama 5 detik: Saat Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, atau Elemental Burst mengakibatkan DMG terhadap musuh, akan meningkatkan DMG yang diakibatkan oleh serangan tersebut berdasarkan ATK Prune saat mendapatkan efek Tolling Rally yang melebihi 2.000 poin. Setiap 1 poin ATK yang berlebih akan meningkatkan DMG yang diakibatkan oleh serangan tersebut sebesar 0,02%, hingga maksimum 50%.",
+        "Icon": "UI_Talent_S_Prune_06"
+      },
+      {
+        "GroupId": 13223,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322301,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1322301,
+        "Name": "Tinker-Tink, Clank, and Bang!",
+        "Description": "Memberikan 10% peluang untuk mendapatkan 1 tambahan Material Talenta acak yang sewilayah saat craft. Kelangkaannya sama dengan material yang dihasilkan.",
+        "Icon": "UI_Talent_S_Prune_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1321,
+        "Name": "With a Vow to Rescue, the Journey Begins",
+        "Description": "Setelah serangan {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah melalui Elemental Conversion mengenai musuh, akan memulihkan 2 poin Energy untuk Prune. Efek ini dapat terpicu sekali setiap 1,8 detik.",
+        "Icon": "UI_Talent_S_Prune_01"
+      },
+      {
+        "Id": 1322,
+        "Name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
+        "Description": "Selama Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color>, saat Witchlure Bell berada dalam mode Hunter-Seeker, Prune akan mendapatkan efek Hunt the Witch: ATK Prune meningkat 10%, saat Witchlure Bell dan {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah melalui Elemental Conversion mengenai musuh, ATK-nya akan meningkat 5% lagi. Peningkatan ATK maksimum yang bisa didapatkan melalui cara di atas adalah 40%.\nMelancarkan The Bell Tolls! The Hunt is On! lagi selama efek di atas masih aktif akan menghapus efek terdahulu.",
+        "Icon": "UI_Talent_S_Prune_02"
+      },
+      {
+        "Id": 1323,
+        "Name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
+        "Description": "Meningkatkan 3 level Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Prune_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1324,
+        "Name": "Looking Back Following the Wind, One's Shadow Still Halved",
+        "Description": "Setelah {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion mengenai musuh, ia akan memantul lagi dan terjatuh di posisi musuh di sekitar, mengakibatkan Elemental DMG dengan jenis elemen yang sesuai sebesar 80% ATK terhadap musuh yang terkena.",
+        "Icon": "UI_Talent_S_Prune_03"
+      },
+      {
+        "Id": 1325,
+        "Name": "100 Defeats? No Problem, Tomorrow, We Go Again",
+        "Description": "Meningkatkan 3 level Elemental Skill <color=#FFD780FF>{LINK#S11322}Ring-A-Ding-Ding! Hexhunter Chime{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Prune_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1326,
+        "Name": "And That’s the Story! Share It With Your Friends!",
+        "Description": "Durasi mode Hunter-Seeker Witchlure Bell milik Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color> diperpanjang 4 detik.\nSelain itu, setelah Karakter dalam party yang terpengaruh oleh efek Tolling Rally memicu Reaksi Elemental apa pun pada musuh, ATK Prune dan Karakter aktif lain yang sedang berada di medan pertempuran yang memiliki efek Tolling Rally di sekitarnya meningkat 350 poin selama 5 detik.",
+        "Icon": "UI_Talent_S_Prune_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Childlike Dreams Cherished",
+    "Detail": "\"Pemburu Penyihir\" cilik. Dia menempuh perjalanan jauh dari Nod-Krai hanya untuk menaklukkan penyihir yang, menurutnya, gemar menindas yang lemah dan melakukan segala macam kejahatan.",
+    "Association": 1,
+    "Native": "Mondstadt",
+    "BirthMonth": 11,
+    "BirthDay": 20,
+    "VisionBefore": "Anemo",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Turris Venefica",
+    "CvChinese": "宴宁",
+    "CvJapanese": "長月あおい",
+    "CvEnglish": "Alice Himora",
+    "CvKorean": "Jang Ye-na",
+    "CookBonus": {
+      "OriginItemId": 108877,
+      "ItemId": 108973,
+      "InputList": [
+        101264,
+        101265,
+        101262,
+        100016
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Halo. Prune si Pemburu Penyihir siap melayani. Musuhku? Orang yang senang menggoda anak-anak, menggunakan teman khayalan orang lain untuk menjerat mereka dalam skemanya. Orang yang suka pamer, terlalu dramatis, dan terobsesi memakai topi berlubang. Tentu saja aku merujuk ke penyihir paling jahat dari semuanya! Informasi apa pun terkait keberadaannya akan diterima dengan senang hati."
+      },
+      {
+        "Title": "Berbincang: Deklarasi",
+        "Context": "Tunggu saja, Alice! Kamu bisa bersembunyi sesukamu, tapi cepat atau lambat aku pasti akan menemukanmu!"
+      },
+      {
+        "Title": "Berbincang: Kesadaran",
+        "Context": "Hati-hati dengan orang yang menjalani hidup dengan senyum sinis di wajahnya, semuanya seperti \"menarik sekali\". Biasanya mereka itu penjahat super yang cuma mau membuat kekacauan."
+      },
+      {
+        "Title": "Berbincang: Trivia",
+        "Context": "Kamu tahu tidak kalau kita tidak bisa bernapas waktu lagi menelan? Tida percaya? Hmph, coba saja sendiri."
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Sayangnya, dalam perjalanan hidup, matahari tidak selalu bersinar. Seperti naskah drama, pasti ada halaman yang ternoda air mata."
+      },
+      {
+        "Title": "Ketika Petir Menyambar",
+        "Context": "Gemetar itu respons fisiologis normal terhadap suara mendadak. Tidak ada hubungannya dengan rasa takut."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Aku tidak kedinginan. Jadi tidak butuh mantel."
+      },
+      {
+        "Title": "Ketika Matahari Bersinar",
+        "Context": "Sinar matahari itu gratis, tapi berapa banyak yang benar-benar menghargai kehangatannya?"
+      },
+      {
+        "Title": "Di Padang Pasir",
+        "Context": "Hari-hari yang membara dengan semangat berapi-api, malam-malam yang menggigit layaknya rasa dingin yang kejam ... Itulah padang pasir."
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Keinginanku untuk tidur lagi berdebat sengit sama tempat tidurku, aku tidak akan kalah ... Ayo, buka matanya."
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Meski fokus di masa kini itu baik, berpikir ke depan juga penting. Itulah kenapa makan siang itu waktu yang tepat untuk memikirkan menu makan malam."
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Mondstadt lumayan ramai waktu malam, seperti sekarang. Dulu di Nod-Krai, orang tuaku tidak pernah izinkan aku keluar di malam hari karena terlalu berbahaya. Jadi aku selalu mengurung diri di kamar untuk membaca buku."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Besok kita ... pergi bertualang bersama? A-Atau masing-masing, tidak apa-apa kok. Yah, um ... Selamat malam."
+      },
+      {
+        "Title": "Tentang Prune: Identitas",
+        "Context": "Setiap kali aku bilang ke orang lain kalau aku itu \"Pemburu Penyihir\", mereka selalu perlakukan aku kayak anak kecil yang sedang dalam fase pemberontakan dan suka bicara omong kosong. Tunggu dulu ... Kenapa tatapanmu begitu?"
+      },
+      {
+        "Title": "Tentang Prune: Membaca",
+        "Context": "Orang dewasa itu tidak sabaran. Kalau ditanya sesuatu, jawabannya selalu \"anak kecil tidak perlu tahu hal begitu\" atau \"nanti juga bakal ngerti sendiri\" ... Hmph, terserah deh. Buku tidak bisa bohong, informasinya ada di sana, terbuka untuk semua orang, dan yang membaca bebas menarik kesimpulan sendiri. Aku lebih suka cari jawaban sendiri."
+      },
+      {
+        "Title": "Tentang Prune: Waktu",
+        "Context": "Kalau dipikir-pikir, kamu datang ke Nod-Krai sebentar saja sejak aku meninggalkan Kota Nasha. Waktunya kurang tepat, tapi mungkin itu lebih baik. Kamu sedang sibuk sekali waktu itu, bekerja sama dengan orang-orang terkenal dan penting ... Aku pasti tidak akan cocok. Ehm, maksudku ... Aku tidak suka keramaian, jadi sebenarnya kita bertemu di waktu yang tepat."
+      },
+      {
+        "Title": "Tentang Prune: Kepercayaan",
+        "Context": "Aku tahu ini belum pernah dibahas, tapi... aku senang sekali kita bisa bertemu. Kamu selalu dengarkan aku dan jawab pertanyaanku. Oh, dan kamu tidak perlakukan aku kayak anak kecil ....\nTentu saja, aku tahu kamu berteman sama penyihir-penyihir ... Tapi aku tidak percaya pepatah: \"teman musuhku itu juga musuhku\". Itu sudah ketinggalan zaman. Asal tulus, kita masih bisa berteman meski punya keyakinan yang berbeda ... B—Benar kan?"
+      },
+      {
+        "Title": "Tentang Vision",
+        "Context": "Semua orang kuat yang pernah kutemui punya Vision. Aku juga punya sekarang, jadi ... heh, kurasa aku termasuk kuat juga. Tapi bahkan tanpa Vision pun, kamu bisa memanfaatkan kekuatan elemen bebas sekali ... itu pasti membuatmu menjadi yang paling kuat di antara kita semua. Setiap aturan pasti ada pengecualiannya."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Tahu tidak? \"The Flagship\" menawarkan minuman spesial? Ada unsur rolet di dalamnya, jadi ini benar-benar judi dan mendebarkan sekali. Hm? Bagaimana rasanya? Ehem, yah, tidak tahu sih. Setiap kali aku berjinjit dan membanting Mora ke atas meja, bartender cuma menunjuk ke pintu, dia bilang, \"Tempat ini bukan untuk anak-anak. Pergi ke Speranza deh kalau mau hot dog\" ....\nHeh, jelas-jelas itu diskriminasi umur."
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Aku yakin kamu tidak tahu kalau ada lift raksasa di Pelabuhan Yilong ... Hm? Dermaga? Ya, benar. Dermaga Yilong. Aku tahu kok. Oh, kalau kamu pergi ke Sumeru, harus lihat makhluk kecil lucu yang tinggal di hutan. Anak-anak lokal panggilnya Raranara. Huh? Yah, jelas dong. Aku jelas aku tahu namanya Aranara! Ngomong-ngomong ... Bagaimana Snezhnaya? Kamu sudah pernah ke sana? HAH! Ehem, yah, aku pernah kok. sampai ambil banyak foto deh. Sepertinya aku harus tunjukkan tempat itu ke kamu."
+      },
+      {
+        "Title": "Tentang Alice: Penyihir",
+        "Context": "Aku tidak berusaha memprovokasi hubungan kalian, tapi demi transparansi, aku punya kewajiban untuk membongkar perbuatan jahatnya. Dia terus memprovokasi aku pakai teka-teki yang bahkan bisa dijawab Slime, atau menggangguku untuk berdebat tentang topik kekanak-kanakan, tapi akhirnya dia malah kalah dariku setiap kali! Lalu, waktu lagi marah, dia tunjukkan sifat jahatnya dan bilang dia menculik Descartes. Kalau aku ingin dia dikembalikan, aku harus ke Mondstadt untuk cari petunjuk! Seriusan?!? Itu kejahatan paling keji! Bayangkan saja, kamu kalahkan dia di Genius Invokation TCG, terus dia culik Paimon untuk balas dendam! Kamu pasti juga akan jadi pemburu penyihir."
+      },
+      {
+        "Title": "Tentang Alice: Perang Psikologis",
+        "Context": "Awalnya, aku bingung: kenapa Mondstadt ya? Kenapa tidak minta aku ke tempat yang lebih berbahaya? Tapi kemudian, aku sadar, ini perang psikologis. Makin berbahaya tempat perburuan, mkain tajam insting pemburunya. Tapi Mondstadt itu kan bangsa pemabuk yang malas dan puisi yang diromantisasi. Dia berharap, atmosfer \"kebebasan\" itu bisa mengubah aku jadi orang tidak berguna yang cuma bisa minum teh sore dan merawat kucing!"
+      },
+      {
+        "Title": "Tentang Alice: Tak Terampuni",
+        "Context": "Sejak bertemu lagi dengan Descartes, aku sadar ada ... kebohongan putih di balik semuanya. Tapi dengan niat baik, bukan berarti tindakan jahatnya bisai dimaklumi! Lagian, apa kamu tidak sadar kalau dia menikmati penderitaanku? Setiap kali aku bingung atau jengkel, dia tertawa, kayak itu hal paling lucu di dunia! Itu saja sudah cukup jadi bukti kalau dia itu jahat dari dalam sampai luar. Jadi, tidak, aku tidak akan pernah memaafkannya. Tidak akan pernah."
+      },
+      {
+        "Title": "Tentang Klee",
+        "Context": "Harus aku akui, awalnya aku dekati dia cuma untuk dapat informasi. Lagi pula, sebagai putri Alice, dia pasti tahu banyak rahasianya, kan? Aku cuma tidak sangka dia akan begitu ... terbuka dan percaya. Dia undang aku bermain, kasih aku hadiah ... Waktu aku menatap matanya, yang berbinar dengan penuh harapan, begitu polos, aku merasa sedikit ... sedikit ...\nTidak apa-apa. Satu hadiah tidak akan buat aku berhenti berburu. Aku cuma merasa ... kadang-kadang bermain bersama juga tidak ada salahnya, jadi ... Kenapa tidak?"
+      },
+      {
+        "Title": "Tentang Sayu",
+        "Context": "Di usianya, \"tidur di mana dan kapan pun\" bukan pilihan yang buruk. Lihat saja, orang dewasa tenggelam dalam pekerjaan atau kecemasan. Kebanyakan mereka harus pakai alkohol atau ramuan alkimia supaya bisa tidur sebentar. Tapi sebentar lagi, dia sudah bakal pikirkan hal-hal yang buat dia tak bisa tidur di malam hari. Menurutku, biarkan dia tidur saja selagi masih bisa."
+      },
+      {
+        "Title": "Tentang Yaoyao",
+        "Context": "Yaoyao terampil sekali pakai tangannya. Dia sudah sering bantu ikat pita rambutku. Hasilnya selalu bagus, jauh lebih bagus dari punyaku sendiri. Pitanya sempurna sekali, sampai aku tidak tega lepaskan waktu mau tidur. Tapi entah kenapa, besoknya pasti selalu berantakan!"
+      },
+      {
+        "Title": "Tentang Qiqi",
+        "Context": "Oh, aku belikan banyak Dango Milk untuk dia karena dia suka sekali waktu di pesta teh penyihir. Hm? A-Aku beli terlalu banyak untuk jatah satu orang? Yah, itu beli satu gratis satu sih. Soalnya, aku pikir bagus saja kalau bawa sebagian ke Mondstadt. Untuk ... Klee. Ya, untuk Klee. Aku tentu lebih suka teh. Tapi tidak pakai tambahan apa pun."
+      },
+      {
+        "Title": "Tentang Paimon",
+        "Context": "Harus tanya deh, kok Paimon bisa masuk ke Akademiya? Ujian masuknya sulit? Menurutmu, dia mau bagikan materi belajarnya sama aku? Tunggu, apa? Dia bahkan dapat bimbingan privat dari instruktur terkenal? Aku juga mau dong!"
+      },
+      {
+        "Title": "Tentang Albedo",
+        "Context": "Aku mau kasih tahu sesuatu, tapi janji jangan kasih tahu siapa pun, ya? Aku mulai curiga kalau Tuan Albedo sebenarnya bukan ... manusia! Gini deh, coba pikir ... Apa mungkin ada manusia sesempurna itu? Hmm ...."
+      },
+      {
+        "Title": "Tentang Kaeya",
+        "Context": "Setelah tahu rencanaku, dia bilang aku harus tingkatkan Descartes jadi unit kavaleri berat dan langsung terbitkan \"Lisensi Berkendara Khusus\" untukku ... Tapi sebelum baca detail persyaratannya, Acting Grand Master Jean menyitanya, alasannya: penerbitan ilegal. Katanya, \"mengemudi di bawah umur itu sembrono\" atau semacamnya ... Huh."
+      },
+      {
+        "Title": "Tentang Mona",
+        "Context": "Suatu kali, aku kira dia itu Penyihir B, dan mungkin ... mengganggunya sebentar ... tapi ini semua salah Alice! Dia bilang nama Penyihir B itu \"Megistus\". Tentu saja, dia sengaja hilangin bagian \"Tris\" untuk kerjai aku! Lagian, topi runcing besar Mona juga buat dia jadi mirip persis kayak penyihir ... Tapi dia sudah terima permintaan maafku sih, jadi semuanya sudah berlalu."
+      },
+      {
+        "Title": "Tentang Lisa",
+        "Context": "Hmph, wanita lain yang pakai topi runcing, juga target potensial lainnya. Dia bahkan dikenal sebagai \"Penyihir Mawar Ungu.\" Tapi makin jelas sesuatu, makin perlu kita berhati-hati ... Tapi, setiap kali dia panggil aku \"Prune kecil\" dengan nada santai dan senyum menggodanya, insting pemburuku langsung bangkit. Bahkan kalau dia bukan penyihir sungguhan, aku bakal pikir-pikir lagi kalau mau buat dia marah."
+      },
+      {
+        "Title": "Tentang Fischl",
+        "Context": "Orang lain mungkin merasa dia terlalu terbuai dalam fantasi, tapi aku justru yakin, dia salah satu dari sebagian orang di  Mondstadt yang bisa melihat dengan jelas. Gaya ... retorisnya cuma senjata yang dia pakai untuk menghadapi dunia yang kejam ini. Hm? Aku ngerti dia ngomong apa atau tidak? Tentu tidak. Tapi itu tidak menghalangiku untuk menghargainya."
+      },
+      {
+        "Title": "Tentang Aino",
+        "Context": "Aku belajar seluk-beluk teknik dengannya di Clink-Clank Krumkake Craftshop selama tiga hari, dimulai dari dasar-dasar, kayak mengencangkan sekrup. Dia bahkan bantu aku membuat desain baru untuk palu dan lonceng kekanak-kanakan yang aku menangi dari Alice. Tampilan industrial penuh besi yang lebih keren, faktor intimidasi visual mereka naik sampai 30%!"
+      },
+      {
+        "Title": "Tentang Dori",
+        "Context": "Sebelum sampai di Mondstadt, aku berkeliling dengan karavan kargonya ke beberapa bangsa. Dia memang tawarkan layanan pengawalan penumpang khusus yang lebih cepat dan nyaman, tetapi biayanya mahal sekali. Heh, dasar pedagang, benar kan?\nAnehnya, waktu karavannya diserang, harusnya dia mengutamakan keuntungan di atas segalanya dan prioritaskan barangnya. Tapi, pemimpin karavannya malah berteriak,: \"Lindungi anak itu! Itu perintah langsung dari bos. Kalau dia sampai terluka sedikit saja, gaji kita semua dipotong!\" Bukannya dia berhutang banyak padaku sih. Yah, yang kubayar itu kan cuma biaya transportasi yang kecil sekali. Ini benar-benar tidak masuk akal. Kecuali... dia memang benar-benar menghargai hal lain di atas Mora."
+      },
+      {
+        "Title": "Mengenal Prune: I",
+        "Context": "Aku tebak ya ... Kamu mau tahu aku tinggal di mana, siapa dan di mana orang tuaku, kenapa aku sendirian jauh dari rumah, apakah aku rindu kampung ... Setiap orang dewasa yang aku temui selalu tanya pertanyaan yang sama. Yah, kali ini juga begitu deh ... Hah? Bukan itu? Um ... Kalau begitu, aku butuh waktu sebentar!"
+      },
+      {
+        "Title": "Mengenal Prune: II",
+        "Context": "Descartes itu teman imajinasinya Brunny. Dia muncul waktu umur Brunny sekitar empat atau lima tahun. Waktu itu, orang tua Brunny sibuk bekerja dan tidak punya banyak waktu untuk Brunny. Jadi, suatu hari, Brunny mulai berimajinasi ada anjing super pintar di sampingnya yang bisa berbicara dan berdiskusi dengannya, kemudian ... dia pun muncul. Meski cuma Brunny yang bisa lihat dia, dia selalu ada di sana. Kalau cuma bisa ada satu teman yang bisa Brunny andalkan, pasti itu dia."
+      },
+      {
+        "Title": "Mengenal Prune: III",
+        "Context": "\"Imajinasi\" tidak sama dengan \"palsu.\" Bagiku, keberadaan Descartes itu nyata sekali dan konkret. Kami berdua sudah lama tidak berkomunikasi dengan ucapan. Cara itu terlalu tidak efisien. Descartes bisa tunjukkan kelemahan dalam salah satu deduksi logikaku hanya bermodalkan pandangan sekilas atau napas yang dalam. Kami berkomunikasi di level jiwa, perlu tingkat pengertian tanpa bahasa yang jarang bisa ditandingin. Jadi ... aku tidak peduli kalau tidak punya teman lain. Descartes adalah satu-satunya yang aku butuhkan."
+      },
+      {
+        "Title": "Mengenal Prune: IV",
+        "Context": "... Baiklah, aku akui. Hexenzirkel Cilik sudah mengubahku. Jadi ini rasanya dibutuhkan dan diperhatikan. Dulu di Nod-Krai, aku selalu merasa kayak orang luar yang hanya bisa melihat dari jauh, tapi sebagai anggota Hexenzirkel Cilik, aku merasa penting sekali. Ini seru ... Benar-benar seru. Kalau ada yang mencoba mengancam organisasi ini, mereka harus lawan aku dulu. Puas? Kamu berhasil membuatku membuka hatiku. Tapi jangan bilang ke siapa-siapa ya ... terutama Klee dan yang lain!"
+      },
+      {
+        "Title": "Mengenal Prune: V",
+        "Context": "Begitu Hexenzirkel Cilik jadi lebih kuat, kita akan tulis ulang aturan dunia sihir. Tidak ada lagi yang boleh menggoda orang soal teman khayalan mereka, yang boleh kerjain orang dengan alasan \"ujian,\" dan permainan pikiran dengan anak-anak. Kita akan buat tatanan baru, tatanan keadilan, kebaikan, dan persahabatan! Alice dan generasi penyihirnya hanya menuruti keinginan mereka sendiri. Sudah waktunya generasi muda mengambil alih. Hm? Kamu rasa ada yang lucu? Tunggu saja sampai kita jadi organisasi terkuat di Teyvat, kita lihat siapa yang ketawa nanti."
+      },
+      {
+        "Title": "Hobi Prune",
+        "Context": "Meskipun salinan buku \"Panduan Kekuatan Elemen dari Spantamad\" milikku sudah ketinggalan zaman selama delapan puluh tahun, teori dasarnya masih relevan. Aku baca dengan teliti dan buat catatan, merevisi sudut pandang yang sudah kuno, sambil memasukkan deduksi taktisku sendiri. Hehe, Alice berikan ke aku tanpa pikir panjang! Pasti dia tidak pernah duga kalau aku akan pakai itu untuk melawannya suatu hari nanti!"
+      },
+      {
+        "Title": "Kekhawatiran Prune",
+        "Context": "Rambutnya mencuat lagi! Setiap pagi aku harus rapikan rambut ini, tapi sekuat apa pun ditekan ke bawah, rambutnya selalu berdiri lagi ... Kayak lagi mengejekku!"
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Permen Gulali rasa Barbecue, Smoked Fish Steak asam, Hash Brown rasa tahu ... Oh, makin tidak biasa kombinasinya, makin menarik bagiku! Meskipun kedengarannya lumayan aneh, satu gigitan saja bisa buat kamu ketagihan."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Hot dog dari \"Speranza\". Bukan karena rasanya pasti. Ini masalah harga diriku. Yah, aromanya memang lumayan menggoda .... Tapi itu tidak penting! Aku benci hot dog itu!"
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Selama ini kupikir gambar di \"Ensiklopedia Masakan\" itu pakai trik-trik supaya kelihatan sempurna. Tidak kusangka masakannya bisa benar-benar jadi begitu di dunia nyata!"
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Hmm ... Lumayan, tapi masih bisa ditingkatkan."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Oke, jujur saja! Kamu dikutuk sama penyihir itu ya?!?"
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Selamat ulang tahun! Tidak perlu terkejut kayak begitu, tidak susah kok kalau mau dapatkan tanggal ulang tahun seseorang. Tapi ada satu informasi penting yang belum aku tahu ... Harapan ulang tahunmu.\nHah? Kalau dikasih tahu berarti tidak bakal terwujud? Aku tidak setuju sih. Itu justru buat orang kayak aku lebih sulit membantu mewujudkannya. Jadi, hei ayo, tidak perlu bertele-tele. Mau apa? Mungkin kamu rasa tidak banyak yang bisa aku lakukan, tapi aku sudah tabung sedikit loh. Lagian, kamu kan selalu bilang aku itu pintar, jadi pasti ada yang bisa kubantu.\nKecuali kalau itu kayak: mau beli rumah di pusat Mondstadt tanpa cicilan. Kamu tidak mungkin punya keinginan kayak begitu ... kan?"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Reaksi Elemental-ku kayaknya lebih stabil sekarang. Aku mulai bisa melihat teori dalam tindakan."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Ini tidak ada di buku mana pun ... Tapi pasti akan kuingat!"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Mungkin berpikir jernih bukan harus melepaskan imajinasi. Sepertinya aku bisa mempertahankan keduanya."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Aku tetap tidak percaya sama dongeng yang dibuat-buat, juga tidak terlalu percaya pada dunia ini. Tapi aku percaya padamu, jadi aku harap kamu juga percaya padaku. Meski kamu pikir aku masih anak kecil, setidaknya ... aku sudah jadi anak kecil yang besar, cukup kuat untuk diandalkan."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Kena!"
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Nah!"
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Sudah cukup?"
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Makan nih palu!"
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Giliranku!"
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Tak ada jalan keluar!"
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Habis kamu!"
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Ting ning ning!"
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Hajar pakai palu!"
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Semua orang suka harta karun ... bukan cuma aku."
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Hmph, berburu harta karun itu untuk anak-anak."
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Hei, hei! Lihat ... ada satu lagi!"
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Saatnya membalikkan keadaan!"
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "Cari lawan yang sepadan denganmu!"
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Aku tidak akan menyerah!"
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Aku bisa bantu!"
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Tidak ada salahnya mundur secara taktis ..."
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Descartes, lari ..."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Aku akan kembali ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Ini enggak ... adil ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Hah, geli."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Tidak akan berhasil."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Aduh!"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Berhenti!"
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Siap berburu penyihir."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Awas ya, aku di sini bukan untuk main-main."
+      },
+      {
+        "Title": "Bergabung ke Party·III",
+        "Context": "Beres. Ayo."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Perselisihan mendalam antara Prune dan para penyihir tercatat dalam beberapa fragmen tulisan di \"surat pembalasan dendam\" yang terpampang di berbagai Papan Pengumuman Mondstadt.\nMengenai cerita \"Pemburu Penyihir\", reaksi warga Mondstadt dapat dibagi menjadi tiga kategori.\nYang pertama adalah senyum penuh kebaikan, lalu menanyakan apakah dia mau segelas Apple Cider. Yang kedua adalah mengangguk seakan mengerti, lalu menanyakan di mana orang tuanya. Yang ketiga adalah kelompok yang berorientasi pada tindakan yang diwakili oleh Kaeya, tidak hanya mendengarkan dengan serius rencana balas dendamnya, tetapi juga memberikan saran yang konkret, terlepas dari apakah itu bisa dilakukan atau tidak.\nPrune tidak terlalu puas dengan ketiga reaksi tersebut.\nTapi meski tidak puas, dia sudah terbiasa. Menurutnya, tidak dimengerti adalah takdir seorang pemburu, dan dianggap seperti anak kecil yang hanya main-main adalah pandangan yang harus dia hadapi setiap hari.\nFaktanya, dalam hal cakupan pengetahuan, Prune memang unggul dari banyak teman sebayanya bahkan sebagian orang dewasa. Dia berbicara dengan logis dan pemilihan kata yang cermat, terkadang tanpa sengaja melontarkan fakta menarik yang tak terduga, lalu menampilkan ekspresi bangga kecil yang tak bisa disembunyikan — salah satu momen langka di mana sisi kekanak-kanakannya terlihat jelas.\nTapi kalau sudah lama berinteraksi dengannya, akan terlihat bahwa pengetahuannya memang luas tapi tidak mendalam. Lagipula, hal penting apa sih yang bisa diketahui seorang anak kecil? Jadi, wawasan yang ia banggakan sering kali berbalik melawannya di saat-saat krusial. Setiap kali itu terjadi, dia akan menggigit bibirnya sambil berkata \"Aku pasti akan kembali\", lalu mundur tanpa menoleh.\nNamun, jika ada yang menganggap dia hanya anak kecil yang suka pamer, kemungkinan mereka salah besar.\nSaat dia bilang \"akan kembali\", maka dia benar-benar akan kembali. Keesokan harinya, dia pasti akan datang lagi dengan argumen yang lebih kuat, catatan yang lebih tebal, dan wajah yang lebih tidak menerima kekalahan.\nSi keras kepala yang tak mau kalah ini, entah bakat seorang pemburu atau cuma sifat ngambek anak kecil, mungkin dia sendiri tidak tahu bedanya. Tapi satu hal yang pasti — tidak peduli harus mencoba berkali-kali, hutangnya dengan \"penyihir jahat\" itu, tidak akan dia lupakan."
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Orang tua Prune berasal dari Mondstadt. Saat masih muda, mereka tersentuh oleh pernyataan romantis seperti \"hidup adalah sebuah petualangan\", lalu mereka pun berkeliling dunia dengan membawa tas ransel di punggung. Sampai akhirnya menetap di Nod-Krai, tempat yang penuh dengan peluang dan juga kekacauan. Berbagai jenis orang bercampur aduk di tempat ini, ada pedagang, petualang, penipu, dan penyelundup, semuanya membentuk dinamisme hubungan yang rumit. Jelas ini bukan tempat yang cocok untuk membesarkan seorang anak. Sang Ayah bekerja keras di dermaga, sedangkan sang Ibu bekerja di dua tempat sekaligus, tapi kehidupan keluarga mereka sangat pas-pasan. Perwujudan cinta mereka untuk Prune hanya bisa dengan cara memastikan dia selalu kenyang dan punya pakaian yang hangat. Tapi kebersamaan keluarga, itu hanyalah kemewahan yang tak terjangkau.\nSuatu kali, ibunya pulang sebelum makan malam, yang mana jarang terjadi. Prune dengan senang berlari ke luar untuk menyambutnya, memegang ujung baju ibunya, dan ingin cepat-cepat cerita bahwa ada pedagang di kota yang menjual mainan kincir angin dari Mondstadt, cantik sekali.\nNamun saat dia memegang tangan ibunya yang kasar, dia teringat buku catatan hutang yang penuh coretan tersimpan di laci ayahnya, dan akhirnya menelan kembali kata-katanya.\n\"Benda yang cuma berputar-putar itu, sama sekali tidak berguna.\" Dia berkata dalam hati, \"Lagipula aku juga tidak suka, beneran tidak suka.\"\nDia sering mengatakan hal seperti itu pada diri sendiri berkali-kali.\nSaat melewati kios permen, dia akan menghibur diri dengan berbisik, \"Makanan manis tidak baik untuk gigi, aku sudah lama tidak makan begituan.\"\nSaat melihat anak tetangga memamerkan mainan barunya, dia akan mengangkat dagunya dan berkata, \"terlalu kekanak-kanakan.\"\nMembujuk diri sendiri setiap hari membuat Prune yang masih kecil tanpa sadar membangun tembok tinggi bernama \"dewasa dan bijaksana\" di sekelilingnya.\nDia belajar memanaskan makanan sendiri, menjahit pakaian sendiri, bahkan bisa membantu memeriksa angka-angka di buku catatan. Suatu kali dia bahkan menemukan bahwa majikannya kurang menghitung upah ibunya selama tiga hari. Bisa membantu hal-hal \"berguna\" seperti ini membuatnya sangat bangga.\nSetiap malam, ketika ayah dan ibu pulang dengan tubuh lelah, Prune sudah selesai mandi dan berbaring di tempat tidur, berpura-pura tidur. Karena dia tahu, jika mereka tahu kalau dia masih terjaga, masih takut gelap, dan masih butuh teman, mereka akan menyalahkan diri sendiri, merasa sedih, dan menambahkan lapisan rasa bersalah yang tebal pada beban yang sudah berat.\n\"Aku sudah bukan anak kecil lagi.\" Kalimat ini menjadi mantranya sekaligus baju besinya."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Untungnya, masih ada banyak hobi di dunia yang tidak terlalu menguras uang, dan membaca adalah salah satunya.\nPemilik Mimisbrunnr Books sepertinya hanya fokus menjual voucher investasi kepada pelanggan dengan daya beli tinggi dan tidak peduli dengan Prune yang setiap hari datang berjongkok di depan rak buku sambil membaca dengan tenang. Maka dari itu, berbagai halaman buku yang masih baru atau sudah menguning menjadi jendela awalnya untuk mengenal dunia.\nBacaannya tidak terstruktur, hanya berdasarkan apakah sampul dan judulnya menarik. Awalnya hanya buku gambar dongeng yang penuh warna, tapi ia cepat tidak puas dengan akhir bahagia yang mudah diprediksi. Ia mulai menelan semua yang bisa dijangkau, apa pun yang ada tulisannya. Tapi tidak seperti perpustakaan Mondstadt dan Sumeru, Nod-Krai lebih dipenuhi koran kedaluwarsa atau penuh berita palsu, panduan perjalanan yang menyesatkan, novel bajakan, salah cetak atau salah terjemahan, dan sejumlah bacaan sejarah yang tidak pantas untuk anak-anak.\nSeiring meningkatnya jumlah bacaan, Prune perlahan menjadi seorang \"ahli informasi\" yang menguasai banyak pengetahuan unik, dan merasa sangat puas dengan rasa superioritas intelektual ini. Pengetahuan yang tidak teratur dan terlalu maju ini membentuk kerangka kognitif yang kompleks dan sedikit kelam di benaknya sejak dini.\nApakah dia paham dengan apa yang dia baca? Kebanyakan, dia hanya paham sebagian atau bahkan tidak paham sama sekali. Namun dia sangat menikmatinya, mengumpulkan istilah-istilah rumit dan konsep-konsep asing ke dalam otaknya seperti mengoleksi kerang yang berkilau.\nAnak-anak tetangga beberapa kali mengajaknya bermain, tapi dia entah terlalu tenggelam dalam pikirannya sendiri sampai tidak mendengar, atau bahkan saat bergabung, tanpa sadar menganalisis aturan permainan dengan kosakata yang dia pelajari.\n\"Tunggu dulu!\" Prune mengangkat tangannya, \"Aku perlu konfirmasi logika dasar permainannya.\"\n\"'Bajak Laut' punya keuntungan medan dan jendela waktu yang cukup, seharusnya tidak bisa dikalahkan secepat ini, kecuali 'Geng Keong' menggunakan 'Serangan Mendadak' yang tidak didefinisikan dengan jelas, sehingga sistem kekuatan menjadi tidak seimbang!\"\nTeman-teman bermainnya saling berpandangan, dan lama-kelamaan tidak lagi mencarinya.\nPrune tentu menyadari sikap menjauh seperti itu, tetapi dia mendengus dingin dan merasa sudah tidak peduli lagi. Di dunia ini ada begitu banyak teka-teki yang mendalam, prinsip yang kompleks, dan fenomena yang menunggu untuk dipahami. Itulah hal-hal yang benar-benar layak untuk diinvestasikan waktu.\nDia sudah berjalan di jalan yang berbeda dengan yang lainnya."
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Waktu itu adalah sore hari yang penuh dengan beban pikiran.\nMeski sudah diingatkan orang dewasa untuk \"tidak membaca buku seperti ini\", Prune tetap berjuang keras menyelesaikan volume pertama \"Himne Ujung Utara\". Setelah menutup buku, bagian awal terlupakan, bagian akhir juga terlupakan, bahkan bagian tengahnya pun tidak terlalu diingat. Namun, bait-bait puisi yang sulit dipahami itu masih terlalu berat bagi Prune saat ini. Kelelahan dari eksplorasi intelektual dan rasa kesepian karena tidak ada yang bisa diajak berbagi menyebar seperti air pasang.\nSeperti biasa, dia mulai berbicara panjang lebar pada udara kosong di sebelahnya. Dalam imajinasinya, selalu ada seseorang yang mendengarkan — mungkin seekor anjing liar yang tidak bisa dia adopsi karena keterbatasan kondisi, atau mungkin seorang bijak yang pendiam dalam buku. Dia tidak tahu kepada \"siapa\" sebenarnya dia berbicara, hanya saja hari demi hari dia menuangkan keinginan berbagi yang tidak punya tempat. Namun kali ini, udara bergetar pelan, dan teman khayalannya muncul dengan jelas di hadapannya.\n\"Kamu kan ... kamu itu ...\"\nPrune ingin memanggil namanya dengan penuh semangat, tapi baru sadar bahwa selama ini dia hanya menyebutnya dengan \"kamu\" di dalam pikirannya.\nPrioritas pertama adalah memberi nama. Pertama-tama, nama hewan peliharaan seperti \"Floofy\", \"Barky\", atau \"Tiny\" harus disingkirkan. Jelas sekali, ia bukan anjing kecil manja biasa: alisnya yang sedikit berkerut menunjukkan kecerdasan yang luar biasa, matanya yang dalam membuat orang sulit melihat isi hatinya, dan yang paling menakjubkan adalah warna bulunya yang bercampur biru-ungu, begitu misterius dan tenang, sangat sesuai dengan selera estetika Prune saat ini.\n\"Descartes\", dia akhirnya memilih nama yang penuh nuansa filosofis ini, tidak hanya menegaskan kelas dari temannya, tapi juga sekalian memamerkan pengetahuannya yang luar biasa.\nKedatangan Descartes tidak hanya memperkaya kehidupan Prune, tetapi juga membuatnya terlihat semakin ... sendirian.\nSuatu sore setelah hujan, Prune berjongkok di tepi jalan mengamati pantulan di genangan air.\n\"Lihat, Descartes, dunia di dalam genangan air ini sepenuhnya terbalik dari dunia nyata. Lalu pertanyaannya, bagaimana kita membuktikan bahwa kita tidak hidup di dalam 'genangan air yang lebih besar'?\"\nPejalan kaki yang lewat melambatkan langkah, menatap aneh pada gadis kecil yang berbicara sendiri di depan genangan air.\n\"Mungkin\", lanjut Prune, \"'kenyataan' yang kita anggap nyata hanyalah 'refleksi' dari keberadaan dimensi yang lebih tinggi. Iya kan, Descartes?\"\nDia menoleh ke arah udara kosong di sampingnya dan mengangguk serius.\n\"Ya, aku juga berpikir begitu. Jadi pada dasarnya, semua persepsi bersifat relatif, tidak ada kebenaran yang absolut.\"\nSeorang nenek baik hati berjalan mendekat dan bertanya dengan penuh perhatian: \"Adik kecil, kamu ... tidak apa-apa? Mau aku bantu cari keluargamu?\"\nPrune mengangkat kepalanya dan bertanya dengan tulus: \"Nenek, apakah nenek percaya kalau dunia ini nyata?\"\n\"....\"\n\"Sudahlah, banyak orang bahkan sampai tua tidak pernah memikirkan hal ini.\" Prune berdiri, \"Ayo pergi, Descartes, mungkin hidup dalam bayangan adalah keseharian banyak orang dewasa.\"\nWanita tua itu menatap gadis kecil aneh itu pergi, lalu membuat gerakan doa di dadanya: \"Semoga cahaya bulan melindungimu, nak ....\" \nNamun, gang-gang di Kota Nasha sempit dan berbelit-belit, cahaya bulan yang penuh belas kasih tetap tidak bisa menembus sudut-sudut gelap yang tersembunyi.\nDi celah realitas yang dingin ini, yang benar-benar \"melindungi\" Prune bagai bayangan adalah Descartes — kehadirannya yang tanpa suara namun abadi, mengisi seluruh waktu sendiri gadis kecil itu."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Sang Penyihir yang merasa bosan memperhatikan seorang gadis kecil di pinggir jalan, ia sedang membaca buku tebal untuk mengisi waktu.\n\"Kenapa tidak pergi bermain dengan anak-anak di sana?\"\n\"Aku tidak suka main.\" Prune bahkan tidak mengangkat kepalanya, terus membaca buku.\n\"Sedang baca apa?\" Alice mengintip, matanya tampak berbinar, seolah menemukan harta karun.\n\"Semacam panduan perjalanan. Tapi karena ini bajakan, cuma beberapa bagian yang dicetak, penulisnya tidak diketahui ....\"\n\"Lalu bagaimana menurutmu?\"\n\"Lumayan juga. Rasanya penulis ini tipe orang yang sangat egois, dan di sela-sela tulisannya juga terlihat selera yang cukup aneh.\"\n\"Oh ya?\"\nSejak hari itu, Alice sesekali \"kebetulan\" muncul di samping Prune, melemparkan berbagai macam topik, memicu \"debat\": \"Apakah menambahkan gula ke Hydro Slime akan menghasilkan minuman manis?\" \"Mengalahkan diri sendiri itu berarti aku menang atau aku kalah?\"\nAlice tenggelam dalam provokasi yang tidak masuk akal ini, sementara Prune selalu merespons seolah menghadapi musuh besar. Dia mencoba membantah \"proposisi palsu\" tersebut dengan rantai logika yang ketat, penampilannya yang terlalu serius menunjukkan keluguan yang menggemaskan. Alice menopang dagu sambil tersenyum memperhatikannya mengutip berbagai referensi, seolah menikmati pertunjukan yang menarik.\nSementara itu, Alice dengan tajam menyadari bahwa sosok teman imajiner di samping Prune semakin memudar, seperti embun pagi yang akan menguap di bawah sinar matahari.\nPada awalnya, Prune tidak terlalu memikirkan identitas Alice sebagai penyihir. Di Nod-Krai, bahkan pria biasa yang mengantri untuk menerima Sajian Purnama bisa saja mengaku sebagai pencuri ulung yang pensiun. Jadi, munculnya seorang wanita aneh di jalanan yang mengenakan topi besar berlubang, berpenampilan mencolok, dan berbicara kekanak-kanakan sepenuhnya sesuai dengan keberagaman manusia di tempat ini.\nDia tidak menyangka bahwa suatu hari, orang dewasa kekanak-kanakan ini akan menjadi musuh bebuyutannya ....\n\"Membuktikan hubungan panjang sisi segitiga dengan metode selain matematika, soal sesulit itu sudah tidak sulit lagi bagimu? Hebat.\"\n\"Permisi, soal ini bahkan bisa diselesaikan anak usia 12 tahun.\"\n\"Kalau begitu, aku akan berikan soal untuk anak usia 14 tahun. Coba kita lihat!\"\n\"Kamu hanya bisa bermain dengan anak di usia aku? Aku mau pulang makan malam. Descartes, ayo pergi.\"\nSayangnya, saat itu Descartes sudah hampir transparan, begitu lemah hingga nyaris menghilang.\n\"Hehe.\" Alice tiba-tiba memasang ekspresi penjahat yang sangat berlebihan, \"Sebenarnya aku adalah penyihir jahat! Sekarang ... aku akan menculik teman terpentingmu!\"\n\"A-apa ...?\"\n\"Maksudku itu ... DIA!\" Alice menjentikkan jarinya, dan sosok Descartes pun menghilang sepenuhnya dari penglihatan Prune.\nOtak kecil Prune yang cerdas tiba-tiba serasa rusak untuk pertama kalinya.\n\"Kamu gila ya!\" Dia memegang erat sudut baju Alice, \"Apa yang kamu lakukan pada Descartes! Kembalikan dia padaku!\"\n\"Ups, sudah terlambat~ Mulai sekarang, kamu adalah seorang 'Pemburu Penyihir' yang ditunjuk langsung oleh sang Penyihir Agung! Kamu mau selamatkan teman imajinasimu? Kamu harus kalahkan aku dulu!\"\nKamu berani bilang dirimu penyihir??? Kelakuanmu lebih mirip nenek lampir! Kembalikan Descartes-ku sekarang!!!\n\"Ha! Bercanda deh!\", ucap Alice sambil tertawa lebih jahat lagi. \"Kamu mau teman imajinasimu kembali? Kalau begitu, kamu harus mengalahkan semua penyihir di dunia ini dulu! Ya, kamu harus mengalahkan mereka satu per satu!\"\n\"Pergilah ke Mondstadt dan cari Klee. Siapa tahu, kamu bisa dapat petunjuk dari anak kecil paling menggemaskan di dunia.\"\nLalu, Alice pun menghilang dengan suara letupan dan gumpalan asap.\n\"ALICE!!! Dasar penjahat tidak tahu malu!!\"\nDengan demikian, dimulailah perjalanan Prune yang panjang dan penuh kesulitan untuk menyelamatkan temannya."
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "Begitu tiba di Mondstadt, Prune langsung memulai operasi perburuan penyihirnya. Dia menempelkan sebuah pemberitahuan yang penuh dengan bubuk mesiu, dia mencoba untuk berkonfrontasi dengan Mona si astrolog yang dicurigai sebagai \"Penyihir B\" dan menyelidiki hubungan antara mereka berdua .... Tapi karena gagal berulang kali, dia harus memikirkan beberapa cara yang lebih ekstrem.\nSebuah ide gila pun terlintas di benaknya: Dia mau menculik Klee untuk memaksa Alice muncul.\nRencananya sederhana. Dia akan memancing targetnya ke tempat yang sepi, lalu melakukan interogasi menyeluruh untuk mendapatkan informasi yang dibutuhkan. Prune bahkan sampai menulis semua rencananya di dalam buku catatannya.\nTapi tentu saja, sebagai \"Pemburu Penyihir\" yang punya prinsip, dia segera membatalkan ide itu.\nDia membuat keputusan ini bukan karena dia sadar kalau dia akan harus berhadapan dengan Albedo dan semua Knights of Favonius (meskipun itu memang akan menjadi hambatan terbesar), tetapi setelah perdebatan sengit antara nalar dan instingnya, akhirnya hati nurani Prune menang melawan rasa bencinya.\n\"'Siapa yang membunuh monster, pada akhirnya akan menjadi monster itu sendiri', kan? Plis deh, taktik seperti itu sudah ketinggalan zaman ah! Aku tidak akan pernah melakukan hal yang begitu keji pada seorang anak kecil!\"\nIa langsung mencoret rencananya dengan tanda silang besar, membalik ke halaman kosong, lalu menulis dua kata, \"Rencana B\", dan menatap kosong ke buku catatannya.\nHari-hari pun berlalu selagi Prune merencanakan langkah selanjutnya, yang sering kali ditemani suara Klee yang masuk sambil membawa camilan atau mainan di tangannya.\n\"Prune, hari ini cerah! Kita tangkap Crystalfly yuk!\"\n\"Prune, hari ini hujan nih. Kita main di genangan air sama Mini Durin yuk!\"\n\"Prune~~~\"\nLalu, entah sejak kapan, Prune baru sadar bahwa ia telah menjadi teman bermain Klee tanpa dia sadari. Dan dalam perannya ini, ia \"terpaksa\" mencoret-coret dinding bersama Klee, mendengarkan penjelasannya tentang nama dan kepribadian setiap Dodoco dengan sangat serius, bahkan berguling-guling di lereng berumput Windrise ....\n\" ... Aku sedang melakukan infiltrasi intelijen.\" Prune selalu bilang begitu pada dirinya sendiri.\nAkhirnya, setelah melakukan beberapa \"misi pengumpulan informasi\" seperti ini, Prune berhasil menyusun strategi yang benar-benar bisa dia eksekusi. Dia akan mendapatkan informasi yang dibutuhkan dari Klee, bukan dengan interogasi secara langsung, melainkan dengan menyamarkan pertanyaannya sebagai permainan.\nOperasinya cukup simpel dan langsung. Prune akan mengajukan pertanyaan, lalu memberi Klee hadiah berupa kue yang baru dipanggang setiap kali targetnya berhasil menjawab. Dia akan mulai dengan pertanyaan yang umum dan tidak mencurigakan. Lalu sedikit demi sedikit menggali lebih dalam, pelan-pelan mendekati informasi penting saat targetnya lengah.\n\"Klee, akhir-akhir ini ibu ada menulis surat untukmu?\"\n\"Benar, benar. Aku sering dapat surat darinya, dan kami juga ngobrol pakai Dodocomm kalau enggak ada surat. Aku mau biskuit cokela, pliiis.\"\n\"Jadi, Klee, kamu tahu enggak soal kejahatan— eh ... maksudku, aktivitas ibumu?\"\n\"Keju buatan ...? Aku enggak ingat Mama pernah bikin itu. Tapi kedengarannya enak! Pasti cocok dimakan sama susu!\"\n\"Ibumu punya benteng ya? Eh, maksudku ... markas rahasia?\"\n\"Markas rahasia! Klee tahu kok di mana.\"\n\"Di mana?!\"\n\"Di dalam hati! Mama bilang markas rahasia paling aman untuk semua orang ada di dalam hati mereka!\"\nHasil \"interogasi\" Prune seharian adalah tujuh gambar dari Klee, termasuk lima gambar bertajuk \"Cara Menggunakan Jumpy Dumpty\" dan satu gambar keluarga Dodoco. Gambar terakhir, yang digambar atas desakan Klee, berjudul \"Prune dan Klee Meledakkan Ikan Bersama.\" Selain itu, Prune juga belajar—secara tidak sengaja—tentang jarak aman untuk meledakkan Jumpy Dumpty. Meskipun pada titik ini Prune menyadari bahwa butuh usaha keras jika seseorang ingin membuat Klee memahami definisi sebenarnya dari kata \"aman.\"\nSore harinya, Albedo datang untuk menjemput Klee, sambil menanyakan dengan lembut apakah dia melewati hari yang menyenangkan.\nKlee tersenyum cerah dan ceria sambil menepuk perutnya yang kenyang dengan penuh kepuasan.\n\"Kue buatan Kak Prune enak banget! Klee tidak perlu makan malam lagi hari ini!\"\nSementara itu, Prune menulis \"Laporan Pasca-Aksi: Operasi Panggang-dan-Bakar, Ronde 1\" dengan sangat serius.\n\"Informasi yang dapat digunakan: Tidak ada. Persediaan yang habis: 1 kantong tepung, 5 botol susu, cokelat serta gula dalam jumlah besar. Catatan: Target tampaknya memiliki bakat bawaan untuk melakukan menetralisir proses interogasi, dan saat ini tidak ada metode yang diketahui dapat digunakan untuk menembus pertahanannya.\"\nDia berhenti sejenak sebelum menambahkan satu baris lagi di bawahnya dengan huruf kecil. Tulisannya berisi:\n\"Foto kita saat menangkap ikan dengan bom terlihat bagus juga. Disimpan di arsip.\""
+      },
+      {
+        "Title": "\"Witchlure Bell\" dan \"Hexhunter Oathhammer\"",
+        "Context": "\nSetelah Descartes \"diculik\", Prune diliputi kegelisahan yang tidak pernah ia rasakan sebelumnya.\nDia mengurung diri di ruangan, seperti prajurit yang akan berangkat ke medan perang. Kemudian ia akan mulai menganalisis ulang setiap detail argumennya dengan Alice: setiap kali debat mencapai titik di mana Alice kehabisan kata-kata, Alice akan tiba-tiba tersenyum sambil mengeluarkan sebuah \"pusaka berharga\" sebagai hadiah untuk Prune yang telah mengalahkan sang penyihir.\nSaat itu dia hanya merasa \"pusaka berharga\" ini adalah trik untuk membujuk anak kecil, seperti yang biasa dilakukan orang dewasa: memberimu permen agar kamu diam.\nTapi sekarang, sebuah pertanyaan penting muncul di benaknya. \"Kalau kekuatan seorang penyihir benar-benar hebat, apa mungkin 'mainan' buatan mereka benar-benar mainan biasa saja?\"\nMaka dia pun meletakkan semua hadiah dari Alice satu per satu dan melakukan evaluasi kekuatan yang serius. Tapi pertama-tama, Prune langsung menyingkirkan \"pengalih perhatian\" yang jelas: berbagai camilan dengan kemasan mencolok, stiker berkilau dengan gambar kekanak-kanakan, dan boneka plushie tanpa fitur khusus. Pada akhirnya, hanya tersisa dua objek dengan potensi tempur terbesar.\nYang pertama, sebuah lonceng kecil yang dibuat dengan sangat detail. \"Saat lonceng berbunyi, kemungkinan akan muncul seorang penyihir\", ucap Alice saat memberikan penjelasan yang tidak jelas. Dari sini, Prune menyimpulkan bahwa ini adalah sejenis perangkap penyihir. Dia tidak mempertanyakan ketidakjelasan kata \"kemungkinan\", sehingga tentu saja tidak akan terpikir bahwa ini awalnya hanya lonceng yang digunakan untuk mengumumkan dimulainya pesta teh, dan penyihir yang sedang senggang akan datang sesuai keinginan hati mereka. Setelah didefinisikan ulang oleh Prune, lonceng itu memang jadi memiliki peran penting dalam petualangannya. Meskipun belum tentu ada penyihir yang datang saat dibunyikan, tapi lonceng ini selalu menuntunnya menuju petualangan yang menakjubkan.\nYang kedua adalah palu berat yang sangat mencolok secara visual. Di antara semua hadiahnya, palu ini yang paling besar, paling berat, dan saat diayunkan menghasilkan suara angin yang paling kuat, sehingga memberikan tampilan yang mengancam. Dia tidak tahu bahwa palu ini awalnya adalah hadiah yang rencananya akan diberikan Alice kepada penyihir lain bernama Nicole sebagai sebuah alat pahat. Namun, Nicole menolak hadiah yang terlalu \"heroik\" ini dengan halus dan memberikan alasan \"hobiku adalah memahat, bukan menghancurkan\". Akhirnya, palu yang tidak memiliki tujuan ini menjadi pilihan yang sempurna untuk Alice saat membersihkan stok barang-barangnya.\nKedua hadiah dari \"Dodo-King\" ini kemudian diberi nama baru oleh Prune, dan juga dimodifikasi secara logis olehnya ....\nDan sekarang ... keduanya disebut dengan nama Witchlure Bell dan Hexhunter Oathhammer."
+      },
+      {
+        "Title": "Vision",
+        "Context": "Prune pernah mendengar bahwa \"selama ada keinginan yang cukup kuat, dewa akan menatap ke bawah\". Jika perkataan ini benar, maka selama obsesinya untuk \"mendapatkan Vision Electro\" cukup kuat, secara teori harapannya bisa terwujud.\nLalu kenapa harus elemen Electro? Alasan yang ia gunakan untuk meyakinkan diri sendiri cukup lengkap: Pyro terlalu berapi-api, Hydro terlalu lembut, Geo agak berat, Cryo sedikit dingin dan angkuh, Anemo terlalu bebas, Dendro pun cenderung ceria. Hanya elemen Electro yang tak berperasaan dan cepat, pilihan sempurna untuk menghukum penyihir licik itu.\nFaktanya, tidak sulit untuk menyadari bahwa semua alasan di atas agak dipaksakan. Faktor penentu yang sebenarnya mungkin hanya karena Vision berwarna ungu kebetulan paling cocok dengan model pakaian gelap dan bergaya heavy metal yang telah dia pilih dengan cermat.\nDengan tujuan yang sudah jelas, pemburu yang perkembangannya sangat menakjubkan ini juga mengambil langkah yang sama menakjubkan untuk mendapatkannya, yaitu belajar terlebih dahulu.\nDia membaca \"Manual Penggunaan Kekuatan Elemen\" yang diberikan Alice berulang kali sampai tiga kali. Pengetahuan tentang elemen Electro sudah sangat dia kuasai, dan di dalam pikirannya, dia bahkan sudah mensimulasikan beberapa rangkaian \"Kombo Pemburu Monster\" yang berpusat pada elemen Electro.\nNamun, latihan tempurnya tiba-tiba tersendat. \"Hexhunter Oathhammer\" yang sudah dimodifikasi terlalu berat. Meski Prune sudah memperpanjang gagang palunya untuk memanfaatkan prinsip tuas dan mencoba menggunakan teknik yang tepat, tapi tetap saja dia kesulitan untuk mengangkatnya, apalagi untuk bertarung.\n\"Bagaimana cara karakter-karakter di novel bisa dengan mudah mengangkat senjata yang beberapa kali lebih besar dari diri mereka sendiri?\"\nDia menghela napas, tiba-tiba teringat kalimat dari buku dongeng yang sering digunakan tokoh-tokoh dongeng saat menggunakan kekuatan mereka.\n\"Lucu sekali, hal seperti itu mah cuma buat anak kecil\", ucapnya mengejek.\n\"Tapi kalau dipikir-pikir ... bukankah ini sama saja dengan meminta sesuatu kepada dewa? Sepertinya tidak ada ruginya mencoba.\"\n\"Sadar dong! Ini bukan sedang main rumah-rumahan!\"\n\"Tapi tidak ada orang di sekitar sini ....\"\nSetelah pergulatan batin yang intens, wajah Prune memerah. Dia menggertakkan gigi dan berteriak dengan lantang:\n\"Wahai Hexhunter Oathhammer yang menyimpan kekuatan gelap, tunjukkan kekuatan sejatimu di hadapanku! LEPASKAN SEGELMU!!!\" Begitu kata-kata itu selesai, dia menutup mata dan langsung menggenggam gagang palunya dengan erat. Anehnya, palu besi yang awalnya sangat berat itu kini terasa ringan seperti memegang bulu angsa!\nSemua tanda-tanda menunjukkan bahwa keinginannya terwujud.\n\"Se-Serius ternyata segampang itu?!\"\nDengan penuh ketidakpercayaan, dia mengulurkan tangan satunya lagi, merasakan kekuatan elemen dengan cepat berkumpul dan mengkristal di telapak tangannya. Seiring cahaya yang mulai bersinar, Prune yang sangat tegang dan penuh harap secara refleks memejamkan matanya erat-erat, bahkan napasnya pun terhenti sejenak. Tak lama kemudian, sebuah Vision yang berat jatuh ke telapak tangannya. Dengan penuh suka cita atas kemenangan, dia perlahan membuka matanya, bersiap menyambut cahaya ungu petir yang melambangkan keganasan dan tak berperasaan ....\nNamun, yang tergeletak di telapak tangannya adalah Vision elemen Anemo murni yang memancarkan cahaya hijaunya.\nPrune terdiam selama lebih dari sepuluh detik.\n\"... Apa?!\"\nBerbagai informasi tentang elemen Electro yang sudah dibaca Prune berkali-kali berkelebat cepat di benaknya, menimbulkan rasa kesal yang kuat karena hal ini di luar rencana.\nDia tidak bisa menahan diri untuk mempertanyakan nasibnya. \"Tidak ada yang mau memperbaikinya nih? Ada yang salah kan—Aku sudah belajar tentang Electro loh!!!\"\nSetelah sesi terkejut yang singkat, akal sehat sang Pemburu kembali mengambil alih. Bagaimanapun juga itu, ini adalah sebuah Vision asli, bukti dari kekuatan.\nBelajar menerima hal tak terduga juga merupakan bagian dari pertumbuhan. Prune dengan cepat menenangkan diri dan diam-diam membersihkan Vision tersebut. \"Tidak masalah, separah-parahnya aku hanya tinggal belajar ulang bab tentang Anemo.\" Orang yang kuat tidak pernah mengeluh tentang keadaan, meski hanya angin sepoi-sepoi, dia akan menggunakannya untuk menghancurkan jebakan sang penyihir.\nDia bergumam pelan, namun tanpa sadar sudut bibirnya terangkat membentuk senyuman tipis yang bahkan tidak disadarinya sendiri."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213200,
+      "Name": "Witch Hunter Regalia",
+      "Description": "Model pakaian Prune. Kombinasi warna gelap yang dipilih dengan saksama menampilkan kesan dewasa yang melampaui usianya, sementara ornamen logamnya mencerminkan sisi \"dingin\" dalam sikap dan caranya menghadapi para \"penyihir\" ... Setidaknya, begitulah menurut dirinya sendiri.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113079,
+    101268,
+    112037,
+    104306,
+    113081
+  ],
+  "NameCard": {
+    "Name": "Prune: Judgment",
+    "Description": "Style Kartu Nama.\n\"Sejauh ini, setengah hidupku yang penuh gejolak ini, kalau ditulis jadi kenangan, judulnya pasti 'Palu Besi Untuk Menghukum Penyihir Jahat'!\" Meski sebenarnya, setengah hidup yang katanya penuh gejolak itu pun baru berjalan beberapa tahun saja.",
+    "Icon": "UI_NameCardIcon_Prune",
+    "PicturePrefix": "UI_NameCardPicrune"
+  }
+}

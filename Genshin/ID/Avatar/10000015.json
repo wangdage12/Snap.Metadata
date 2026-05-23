@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "DMG Tahap 1|{param1:F1P}",
-            "DMG Tahap 2|{param2:F1P}",
-            "DMG Tahap 3|{param3:F1P}",
-            "DMG Tahap 4|{param4:F1P}",
-            "DMG Tahap 5|{param5:F1P}",
-            "DMG Charged Attack|{param6:F1P}+{param7:F1P}",
+            "DMG Tahap 1|{param1:P}",
+            "DMG Tahap 2|{param2:P}",
+            "DMG Tahap 3|{param3:P}",
+            "DMG Tahap 4|{param4:P}",
+            "DMG Tahap 5|{param5:P}",
+            "DMG Charged Attack|{param6:P}+{param7:P}",
             "Konsumsi Stamina Charged Attack|{param8:F1}",
             "DMG Selama Plunging|{param9:F1P}",
             "DMG Plunging Attack Rendah/Tinggi|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Ceremonial Bladework",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Frostgnaw",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "DMG Skill|{param1:F1P}",
+          "DMG Skill|{param1:P}",
           "Cooldown|{param2:F1} dtk",
           "Durasi|{param3:F1} dtk",
           "Konsumsi Energy|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Glacial Waltz",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Hidden Strength",
@@ -868,6 +872,10 @@
       {
         "Title": "Tentang Dahlia",
         "Context": "Tahu tidak, banyak ibadah gereja yang mengharuskan minum anggur. Nah, dia jadi kuat sekali sama yang namanya minum. Pertama kali kami kenal tuh waktu aku kalah adu minum sama dia ... yah. Archon Anemo mencintai anggur, jadi amat sangat wajar kalau juru bicaranya juga begitu taat dan penuh pengabdian pada kesukaan Archon-nya. Hehe, kota kami, kota kebebasan. Ini juga adalah salah satu daya tariknya."
+      },
+      {
+        "Title": "Tentang Lohen",
+        "Context": "Bocah Lohen itu, sudah cukup lama tidak minta tolong padaku untuk palsukan tanda tangan. Jangan-jangan dia sudah tahu caranya? Yah, dengan kepintarannya sih, tidak heran ... Nanti aku tulisan surat untuknya pakai tulisan tangan Grand Master, kita lihat seberapa jago dia sekarang."
       },
       {
         "Title": "Mengenal Kaeya: I",

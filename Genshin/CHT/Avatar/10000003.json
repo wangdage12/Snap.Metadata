@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "一段傷害|{param1:F1P}",
-            "二段傷害|{param2:F1P}",
-            "三段傷害|{param3:F1P}",
-            "四段傷害|{param4:F1P}",
-            "五段傷害|{param5:F1P}",
+            "一段傷害|{param1:P}",
+            "二段傷害|{param2:P}",
+            "三段傷害|{param3:P}",
+            "四段傷害|{param4:P}",
+            "五段傷害|{param5:P}",
             "重擊傷害|{param6:P}",
             "重擊體力消耗|{param7:F1}點",
             "下墜期間傷害|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "西風劍術",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "風壓劍",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "爆發傷害|{param1:P}",
-          "出入領域傷害|{param2:F1P}",
+          "出入領域傷害|{param2:P}",
           "領域發動治療量|{param3:P}攻擊力+{param4:I}",
           "持續治療|每秒{param5:F2P}攻擊力+{param6:I}",
           "冷卻時間|{param7:F1}秒",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "蒲公英之風",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "引領之風",

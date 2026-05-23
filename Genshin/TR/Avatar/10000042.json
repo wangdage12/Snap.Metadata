@@ -36,12 +36,12 @@
         "GroupId": 4231,
         "Proud": {
           "Descriptions": [
-            "1 Vuruş Hasarı|{param1:F1P}",
-            "2 Vuruş Hasarı|{param2:F1P}",
-            "3 Vuruş Hasarı|{param3:F1P}",
+            "1 Vuruş Hasarı|{param1:P}",
+            "2 Vuruş Hasarı|{param2:P}",
+            "3 Vuruş Hasarı|{param3:P}",
             "4 Vuruş Hasarı|{param4:F1P}+{param5:F1P}",
-            "5 Vuruş Hasarı|{param6:F1P}",
-            "Yüklü Saldırı Hasarı|{param7:F1P}+{param8:F1P}",
+            "5 Vuruş Hasarı|{param6:P}",
+            "Yüklü Saldırı Hasarı|{param7:P}+{param8:P}",
             "Yüklü Saldırı Dayanıklılık Maliyeti|{param9:F1}",
             "Havadan Saldırı Hasarı|{param10:F1P}",
             "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param11:P}/{param12:P}"
@@ -317,7 +317,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10421,
         "Name": "Yunlai Kılıç Tekniği",
@@ -328,9 +329,9 @@
         "GroupId": 4232,
         "Proud": {
           "Descriptions": [
-            "Yıldırım Hançeri Hasarı|{param1:F1P}",
+            "Yıldırım Hançeri Hasarı |{param1:P}",
             "Darbe Hasarı|{param2:P}",
-            "Yıldırım Darbe Hasarı|{param3:F1P}x2",
+            "Yıldırım Darbe Hasarı|{param3:P}x2",
             "BS|{param4:F1}sn"
           ],
           "Parameters": [
@@ -484,7 +485,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10422,
         "Name": "Yıldızların Düzeni",
@@ -496,7 +498,7 @@
       "GroupId": 4239,
       "Proud": {
         "Descriptions": [
-          "Beceri Hasarı|{param1:F1P}",
+          "Beceri Hasarı|{param1:P}",
           "Ardışık Darbe Hasarı|{param2:F1P}x8",
           "Son Saldırı Hasarı|{param3:P}",
           "BS|{param4:F1}sn",
@@ -668,7 +670,8 @@
               40
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10425,
       "Name": "Yıldız Çarpışması",
@@ -728,7 +731,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 422301,
         "Name": "Diyarın Gözetmeni",
@@ -795,7 +799,7 @@
     "ConstellationBefore": "Çekül",
     "CvChinese": "谢莹",
     "CvJapanese": "喜多村英梨",
-    "CvEnglish": "Kayli Mills & Anonim",
+    "CvEnglish": "Rosie Day",
     "CvKorean": "Lee Bo-hee",
     "CookBonus": {
       "OriginItemId": 108108,

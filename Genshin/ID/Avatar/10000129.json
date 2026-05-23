@@ -1,0 +1,1408 @@
+{
+  "Id": 10000129,
+  "PromoteId": 129,
+  "Sort": 117,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Lohen",
+  "SideIcon": "UI_AvatarIcon_Side_Lohen",
+  "Name": "Lohen",
+  "Description": "Wakil Kapten Pasukan Jarak Jauh Knights of Favonius, seorang knight yang bertindak tanpa terikat aturan dan menyukai taktik yang tidak biasa.",
+  "BeginTime": "2026-06-09T18:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1000.986,
+    "AttackBase": 26.8128,
+    "DefenseBase": 61.0266
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 12931,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P} ×3",
+            "DMG Tahap 4|{param4:F1P}",
+            "DMG Tahap 5|{param5:F1P}+{param6:F1P}",
+            "DMG Charged Attack|{param7:F1P}×2",
+            "Konsumsi Stamina Charged Attack|{param8:F1}",
+            "DMG Selama Plunging|{param9:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293101,
+              "Level": 1,
+              "Parameters": [
+                0.539917,
+                0.564427,
+                0.254199,
+                0.752259,
+                0.368579,
+                0.552868,
+                0.65876,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1293102,
+              "Level": 2,
+              "Parameters": [
+                0.583863,
+                0.610368,
+                0.274889,
+                0.81349,
+                0.398579,
+                0.597869,
+                0.71238,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1293103,
+              "Level": 3,
+              "Parameters": [
+                0.62781,
+                0.65631,
+                0.29558,
+                0.87472,
+                0.42858,
+                0.64287,
+                0.766,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1293104,
+              "Level": 4,
+              "Parameters": [
+                0.690591,
+                0.721941,
+                0.325138,
+                0.962192,
+                0.471438,
+                0.707157,
+                0.8426,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1293105,
+              "Level": 5,
+              "Parameters": [
+                0.734538,
+                0.767883,
+                0.345829,
+                1.023422,
+                0.501439,
+                0.752158,
+                0.89622,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1293106,
+              "Level": 6,
+              "Parameters": [
+                0.784763,
+                0.820387,
+                0.369475,
+                1.0934,
+                0.535725,
+                0.803588,
+                0.9575,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1293107,
+              "Level": 7,
+              "Parameters": [
+                0.853822,
+                0.892582,
+                0.401989,
+                1.189619,
+                0.582869,
+                0.874303,
+                1.04176,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1293108,
+              "Level": 8,
+              "Parameters": [
+                0.922881,
+                0.964776,
+                0.434503,
+                1.285838,
+                0.630013,
+                0.945019,
+                1.12602,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1293109,
+              "Level": 9,
+              "Parameters": [
+                0.99194,
+                1.03697,
+                0.467016,
+                1.382058,
+                0.677156,
+                1.015735,
+                1.21028,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1293110,
+              "Level": 10,
+              "Parameters": [
+                1.067277,
+                1.115727,
+                0.502486,
+                1.487024,
+                0.728586,
+                1.092879,
+                1.3022,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1293111,
+              "Level": 11,
+              "Parameters": [
+                1.142614,
+                1.194484,
+                0.537956,
+                1.59199,
+                0.780016,
+                1.170023,
+                1.39412,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1293112,
+              "Level": 12,
+              "Parameters": [
+                1.217951,
+                1.273241,
+                0.573425,
+                1.696957,
+                0.831445,
+                1.247168,
+                1.48604,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1293113,
+              "Level": 13,
+              "Parameters": [
+                1.293289,
+                1.351999,
+                0.608895,
+                1.801923,
+                0.882875,
+                1.324312,
+                1.57796,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1293114,
+              "Level": 14,
+              "Parameters": [
+                1.368626,
+                1.430756,
+                0.644364,
+                1.90689,
+                0.934304,
+                1.401457,
+                1.66988,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1293115,
+              "Level": 15,
+              "Parameters": [
+                1.443963,
+                1.509513,
+                0.679834,
+                2.011856,
+                0.985734,
+                1.478601,
+                1.7618,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11291,
+        "Name": "Spear of Favonius — Broken Oath",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menusuk ke arah depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 12932,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P} ×3",
+            "DMG Tahap 4|{param4:F1P}",
+            "DMG Tahap 5|{param5:F1P}+{param6:F1P}",
+            "DMG Charged Attack|{param7:F1P}×2",
+            "Konsumsi Stamina Charged Attack|{param8:F1}",
+            "DMG Selama Plunging|{param9:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param10:P}/{param11:P}",
+            "Durasi Masterstroke|{param12:F1} dtk",
+            "DMG Etched Into Bone and Soul|{param17:F1P}×4",
+            "Peningkatan DMG Awal untuk Setiap Poin Will to Win|{param18:F2P}",
+            "Cooldown|{param19:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293201,
+              "Level": 1,
+              "Parameters": [
+                0.809875,
+                0.84664,
+                0.381298,
+                1.128389,
+                0.552868,
+                0.829302,
+                0.98814,
+                10,
+                0.639324,
+                1.278377,
+                1.596762,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.6,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293202,
+              "Level": 2,
+              "Parameters": [
+                0.875795,
+                0.915552,
+                0.412334,
+                1.220234,
+                0.597869,
+                0.896804,
+                1.06857,
+                10,
+                0.691362,
+                1.382431,
+                1.726731,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.645,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293203,
+              "Level": 3,
+              "Parameters": [
+                0.941715,
+                0.984465,
+                0.44337,
+                1.31208,
+                0.64287,
+                0.964305,
+                1.149,
+                10,
+                0.7434,
+                1.486485,
+                1.8567,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.69,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293204,
+              "Level": 4,
+              "Parameters": [
+                1.035887,
+                1.082912,
+                0.487707,
+                1.443288,
+                0.707157,
+                1.060736,
+                1.2639,
+                10,
+                0.81774,
+                1.635134,
+                2.04237,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.75,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293205,
+              "Level": 5,
+              "Parameters": [
+                1.101807,
+                1.151824,
+                0.518743,
+                1.535134,
+                0.752158,
+                1.128237,
+                1.34433,
+                10,
+                0.869778,
+                1.739187,
+                2.172339,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.795,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293206,
+              "Level": 6,
+              "Parameters": [
+                1.177144,
+                1.230581,
+                0.554212,
+                1.6401,
+                0.803588,
+                1.205381,
+                1.43625,
+                10,
+                0.92925,
+                1.858106,
+                2.320875,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.84,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293207,
+              "Level": 7,
+              "Parameters": [
+                1.280732,
+                1.338872,
+                0.602983,
+                1.784429,
+                0.874303,
+                1.311455,
+                1.56264,
+                10,
+                1.011024,
+                2.02162,
+                2.525112,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.9,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293208,
+              "Level": 8,
+              "Parameters": [
+                1.384321,
+                1.447164,
+                0.651754,
+                1.928758,
+                0.945019,
+                1.417528,
+                1.68903,
+                10,
+                1.092798,
+                2.185133,
+                2.729349,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.96,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293209,
+              "Level": 9,
+              "Parameters": [
+                1.48791,
+                1.555455,
+                0.700525,
+                2.073086,
+                1.015735,
+                1.523602,
+                1.81542,
+                10,
+                1.174572,
+                2.348646,
+                2.933586,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.02,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293210,
+              "Level": 10,
+              "Parameters": [
+                1.600915,
+                1.67359,
+                0.753729,
+                2.230536,
+                1.092879,
+                1.639319,
+                1.9533,
+                10,
+                1.26378,
+                2.527025,
+                3.15639,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.08,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293211,
+              "Level": 11,
+              "Parameters": [
+                1.713921,
+                1.791726,
+                0.806933,
+                2.387986,
+                1.170023,
+                1.755035,
+                2.09118,
+                10,
+                1.352988,
+                2.705403,
+                3.379194,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.14,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293212,
+              "Level": 12,
+              "Parameters": [
+                1.826927,
+                1.909862,
+                0.860138,
+                2.545435,
+                1.247168,
+                1.870752,
+                2.22906,
+                10,
+                1.442196,
+                2.883781,
+                3.601998,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.2,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293213,
+              "Level": 13,
+              "Parameters": [
+                1.939933,
+                2.027998,
+                0.913342,
+                2.702885,
+                1.324312,
+                1.986468,
+                2.36694,
+                10,
+                1.531404,
+                3.062159,
+                3.824802,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.275,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293214,
+              "Level": 14,
+              "Parameters": [
+                2.052939,
+                2.146134,
+                0.966547,
+                2.860334,
+                1.401457,
+                2.102185,
+                2.50482,
+                10,
+                1.620612,
+                3.240537,
+                4.047606,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.35,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293215,
+              "Level": 15,
+              "Parameters": [
+                2.165944,
+                2.264269,
+                1.019751,
+                3.017784,
+                1.478601,
+                2.217901,
+                2.6427,
+                10,
+                1.70982,
+                3.418915,
+                4.27041,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.425,
+                0.004,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11292,
+        "Name": "Unforeseen Strike",
+        "Description": "Mencari kelemahan musuh, dan berganti ke mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK}. Saat dalam mode ini:\n·Lohen bisa secara aktif mengakumulasi {LINK#N11290003}<color=#FFD780FF>Joy</color>{/LINK}, untuk melancarkan Elemental Skill khusus {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK}.\n·Anggota party lain di sekitar bisa mengakumulasi {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} untuk Lohen, untuk meningkatkan DMG <color=#FFD780FF>Etched Into Bone and Soul</color>.\nLohen dapat melancarkan <color=#FFD780FF>Etched Into Bone and Soul</color> hingga 3 kali dalam mode <color=#FFD780FF>Masterstroke</color>. Setelah itu, Lohen tidak bisa lagi mendapatkan <color=#FFD780FF>Joy</color>.\n\n<i>\"Kesatriaan? Hah, memangnya ada cara yang lebih baik untuk pasang jebakan? Waktu musuh memimpikan kemenangan yang terhormat, mereka pasti gagal mencurigai 'kejutan menyenangkan' yang menanti mereka.\"</i>",
+        "Icon": "Skill_S_Lohen_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 12951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1295101,
+              "Level": 1,
+              "Parameters": [
+                0.5,
+                0.4,
+                6
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1295101,
+        "Name": "Witch's Eve Rite: Unhealing Thorn",
+        "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Beragam Musuh</color>, Lohen akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSaat Elemental Skill Khusus {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK} mengenai musuh atau saat Lohen melancarkan Elemental Burst <color=#FFD780FF>Manifest Judgment</color>, jika {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} yang dimiliki minimal sebesar 50% dari batas maksimumnya, maka DMG yang diakibatkan Normal Attack atau Charged Attack Lohen meningkat 40% selama 6 detik.",
+        "Icon": "UI_Talent_S_Lohen_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 12939,
+      "Proud": {
+        "Descriptions": [
+          "DMG Skill|{param1:F1P}×6",
+          "Peningkatan DMG Awal untuk Setiap Poin Will to Win|{param2:F2P}",
+          "Cooldown|{param3:F1} dtk",
+          "Konsumsi Energy|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1293901,
+            "Level": 1,
+            "Parameters": [
+              1.188,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293902,
+            "Level": 2,
+            "Parameters": [
+              1.2771,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293903,
+            "Level": 3,
+            "Parameters": [
+              1.3662,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293904,
+            "Level": 4,
+            "Parameters": [
+              1.485,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293905,
+            "Level": 5,
+            "Parameters": [
+              1.5741,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293906,
+            "Level": 6,
+            "Parameters": [
+              1.6632,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293907,
+            "Level": 7,
+            "Parameters": [
+              1.782,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293908,
+            "Level": 8,
+            "Parameters": [
+              1.9008,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293909,
+            "Level": 9,
+            "Parameters": [
+              2.0196,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293910,
+            "Level": 10,
+            "Parameters": [
+              2.1384,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293911,
+            "Level": 11,
+            "Parameters": [
+              2.2572,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293912,
+            "Level": 12,
+            "Parameters": [
+              2.376,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293913,
+            "Level": 13,
+            "Parameters": [
+              2.5245,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293914,
+            "Level": 14,
+            "Parameters": [
+              2.673,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293915,
+            "Level": 15,
+            "Parameters": [
+              2.8215,
+              0.004,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11295,
+      "Name": "Manifest Judgment",
+      "Description": "Melancarkan tebasan beruntun yang cepat ke arah depan, mengonsumsi seluruh {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK}untuk mengakibatkan <color=#99FFFFFF>Cryo DMG</color>. DMG ini akan ditingkatkan berdasarkan jumlah <color=#FFD780FF>Will to Win</color> yang dikonsumsi. Jika Lohen sedang berada dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} saat melancarkan Talenta ini, maka durasi mode <color=#FFD780FF>Masterstroke</color> kali ini akan diperpanjang 1,65 detik.\n\n<i>\"Sudah menyerah? Sayang sekali, aku baru saja mulai ....\"</i>",
+      "Icon": "Skill_E_Lohen_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 12921,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292101,
+              "Level": 1,
+              "Parameters": [
+                30,
+                60
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292101,
+        "Name": "Moratorium on Questioning",
+        "Description": "Dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color> {/LINK}, saat anggota party lain di sekitar mengakumulasi {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} untuk Lohen dengan cara mengakibatkan DMG, jika DMG yang diakibatkan kali ini tidak lebih rendah dari 3.000% Base ATK Lohen, maka akan mengakumulasi 60 poin <color=#FFD780FF>Will to Win</color> tambahan untuk Lohen.",
+        "Icon": "UI_Talent_S_Lohen_05"
+      },
+      {
+        "GroupId": 12922,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292201,
+              "Level": 1,
+              "Parameters": [
+                0.15,
+                0.15,
+                8
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292201,
+        "Name": "Flippant Masterpiece",
+        "Description": "Saat dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK}, selama 8 detik setelah anggota party lain di sekitar memicu <color=#99FFFFFF>reaksi terkait Cryo</color> terhadap musuh, ATK Karakter tersebut meningkat 15% dan ATK Lohen meningkat 15%.",
+        "Icon": "UI_Talent_S_Lohen_06"
+      },
+      {
+        "GroupId": 12923,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292301,
+              "Level": 1,
+              "Parameters": [
+                9,
+                6,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1292301,
+        "Name": "When the Mood Strikes",
+        "Description": "Setelah melancarkan Elemental Skill <color=#FFD780FF>Unforeseen Strike</color>, Lohen akan mendapatkan efek High Spirits selama 9 detik. High Spirits: Selama durasinya, level Elemental Skill <color=#FFD780FF>Unforeseen Strike</color> meningkat 1 level.\nSaat melancarkan Elemental Skill, jika level skill Normal Attack, Elemental Skill, atau Elemental Burst milik Karakter lain dalam party tidak lebih rendah dari level Elemental Skill Lohen, maka durasi efek High Spirits kali ini diperpanjang 6 detik lagi.\nEfek High Spirits bisa diperoleh sekali setiap 18 detik.",
+        "Icon": "UI_Talent_S_Lohen_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1291,
+        "Name": "Yesterday's Breeze, Laden With Sorrowful Song",
+        "Description": "Batas maksimum {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} Lohen meningkat menjadi 300% dari batas awalnya.\nSelain itu, saat Lohen berada dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK}, <color=#FFD780FF>Will to Win</color> yang diakumulasi anggota party lain di sekitar dengan cara mengakibatkan DMG akan bertambah menjadi 500% dari nilai awalnya.",
+        "Icon": "UI_Talent_S_Lohen_01"
+      },
+      {
+        "Id": 1292,
+        "Name": "In Flight, I Strike Whatever Flies",
+        "Description": "Saat berada dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK}, selama 4 detik setelah Elemental Skill Khusus {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK} mengenai musuh atau melancarkan Elemental Burst <color=#FFD780FF>Manifest Judgment</color>, Lohen akan mendapatkan efek Evilsbane Blade: Saat Lohen berada dalam mode Masterstroke dan Normal Attack atau Charged Attack Lohen berikutnya mengenai musuh, maka ia akan mengakibatkan satu kali lagi serangan tambahan yang mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> sebesar 500% ATK Lohen dan meningkatkan 200 poin Elemental Mastery anggota party lain di sekitar selama 8 detik. Efek Evilsbane Blade dapat terpicu sekali setiap 4 detik.",
+        "Icon": "UI_Talent_S_Lohen_02"
+      },
+      {
+        "Id": 1293,
+        "Name": "Only a Sharp Blade Can Heal This Hurt",
+        "Description": "Meningkatkan 3 level Elemental Skill <color=#FFD780FF>{LINK#S11292}Unforeseen Strike{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Lohen_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1294,
+        "Name": "Radiant Love, Laughing Death",
+        "Description": "Saat Lohen melancarkan Elemental Burst <color=#FFD780FF>Manifest Judgment</color> dalam mode {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK}, ia akan langsung mengakumulasi {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} maksimum, lalu membuat Elemental Burst kali ini mendapatkan efek peningkatan DMG tertinggi.\n\nSelain itu, saat Lohen berganti ke mode <color=#FFD780FF>Masterstroke</color>, jika Energy-nya:\n·Belum terisi penuh: Akan memulihkan 15 poin Energy Lohen.\n·Sudah terisi penuh: Melancarkan Elemental Burst <color=#FFD780FF>Manifest Judgment</color> dalam kurun waktu 15 detik akan memulihkan 15 poin Energy Lohen.",
+        "Icon": "UI_Talent_S_Lohen_03"
+      },
+      {
+        "Id": 1295,
+        "Name": "Never Ask, Nor Trouble You to Know",
+        "Description": "Meningkatkan 3 level Elemental Burst <color=#FFD780FF>{LINK#S11295}Manifest Judgment{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Lohen_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1296,
+        "Name": "To Drown, to Sink, Unconscious — Supreme Joy",
+        "Description": "Saat Elemental Skill Khusus {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK} mengenai musuh atau saat melancarkan Elemental Burst <color=#FFD780FF>Manifest Judgment</color> dalam mode <color=#FFD780FF>{LINK#N11290001}Masterstroke{/LINK}</color>, Lohen tidak akan mengonsumsi {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} lagi dan akan memulihkan {LINK#N11290003}<color=#FFD780FF>Joy</color>{/LINK} Lohen hingga batas maksimum. Dan saat Elemental Skill Khusus <color=#FFD780FF>Etched Into Bone and Soul</color> berikutnya mengenai musuh, durasi <color=#FFD780FF>Masterstroke</color> kali ini diperpanjang 1,25 detik. Efek ini dapat terpicu sekali setiap 7 detik.\nSelain itu, CRIT DMG dari seluruh DMG yang disebutkan di atas akan meningkat 175%, dan selama durasi <color=#FFD780FF>Masterstroke</color> kali ini, jumlah maksimum <color=#FFD780FF>Etched Into Bone and Soul</color> yang bisa dilancarkan Lohen bertambah 2 kali.",
+        "Icon": "UI_Talent_S_Lohen_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Sharpened Arrowhead",
+    "Detail": "Wakil Kapten Pasukan Jarak Jauh Knights of Favonius, seorang knight yang bertindak tanpa terikat aturan dan menyukai taktik yang tidak biasa.",
+    "Association": 1,
+    "Native": "Knights of Favonius",
+    "BirthMonth": 4,
+    "BirthDay": 3,
+    "VisionBefore": "Cryo",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Lepus Miles",
+    "CvChinese": "林婧南",
+    "CvJapanese": "天﨑滉平",
+    "CvEnglish": "Nick Wolfhard",
+    "CvKorean": "Lee Sang-ho",
+    "CookBonus": {
+      "OriginItemId": 108971,
+      "ItemId": 108975,
+      "InputList": [
+        100016,
+        100022,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Salam kenal, aku Lohen, Wakil Kapten Pasukan ke-5. Kalau kamu butuh bantuan dari Knights of Favonius, silakan ajukan permintaanmu ke markas. Tapi kalau kamu butuh sesuatu dariku, aku siap mendengarkan."
+      },
+      {
+        "Title": "Berbincang: Wakil Kapten",
+        "Context": "Kalau mau jadi kapten, tidak cukup kalau cuma punya kekuatan \"sekelas kapten\" aja. Yang lebih penting ... heh, aku juga tidak tahu. Kalau tahu, aku sudah jadi kapten dari dulu."
+      },
+      {
+        "Title": "Mengobrol: Ke Mana Angin Kembali",
+        "Context": "Wah, Mondstadt memang paling nyaman. Sudah tidak sabar rasanya buat minum Apple Cider ...."
+      },
+      {
+        "Title": "Berbincang: Hubungan Manusia",
+        "Context": "Bagaimana hubunganku dengan knight lainnya? Hmm ... Aku yakin aku sudah tinggalkan kesan yang mendalam. Itu pasti hal bagus, kan?"
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Huh, hujannya makin deras. Apa yang bakal terbawa arus ya?"
+      },
+      {
+        "Title": "Setelah Hujan",
+        "Context": "Langitnya sudah cerah. Kayak tidak pernah hujan saja."
+      },
+      {
+        "Title": "Ketika Petir Menyambar",
+        "Context": "Petir bisa menutupi banyak hal, tapi tidak akan bisa tenggelamkan detak jantungmu sendiri."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Tidak ada tempat yang lebih nyaman dari The Cat's Tail ... apalagi waktu cuaca kayak begini."
+      },
+      {
+        "Title": "Ketika Angin Bertiup",
+        "Context": "Fuh, anginnya kencang deh ... Sayang tidak ada bunga dandelion di sini. Kita sobek-sobek kertas saja yuk?"
+      },
+      {
+        "Title": "Di Padang Pasir",
+        "Context": "Di saat-saat kayak begini, aku benar-benar kangen sama Danau Cider."
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Pagi! Ada rencana apa hari ini?"
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Sudah istirahat makan siang? Bagus, ada kerjaan untuk kita di siang ini."
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Malam ini ... Hmm. Ayo kasih kejutan ke pasukan dengan latihan serangan mendadak."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Selamat malam. Istirahat yang cukup ya, soalnya hari esok akan tiba, suka atau tidak"
+      },
+      {
+        "Title": "Tentang Lohen: Menahan Kesakitan",
+        "Context": "Aku menghindari bius, itu membuatku susah bertarung. Lagi pula ... heh, aku suka rasakan rasa sakitnya. Itu mengingatkan aku kalau aku masih hidup, tidak kayak musuh-musuhku yang sudah tidak merasakan apa-apa lagi."
+      },
+      {
+        "Title": "Tentang Lohen: Kekuatan dan Alasan",
+        "Context": "Bagi sebagian orang, kekuasaan itu alasan yang mudah. Kekuasaan memberi mereka alasan untuk gagal dan pembenaran atas rasa takut ... Mungkin memiliki tujuan memang bisa memberi orang rasa aman yang aneh. Meskipun di balik rasa aman itu, ada bayangan yang jauh lebih menakutkan yang bersembunyi."
+      },
+      {
+        "Title": "Tentang Kita: Gaya Pertarungan",
+        "Context": "Gaya bertarungku? Hahahaha, tidak ada yang lebih simpel sih! Cari pemimpinnya, hadapi dalam pertarungan, dan tentukan pemenangnya secepat mungkin. Seharusnya knight lain sudah terbiasa sekarang, tapi kalau belum juga, memangnya kenapa?"
+      },
+      {
+        "Title": "Tentang Kita: Tempat Tugas Bermukim",
+        "Context": "Seperti yang bisa dilihat, aku wakil kapten, sementara si bodoh Theodore mendapatkan apa yang pantas didapatkannya. Tapi, aku rasa bakatnya bisa dimanfaatkan dengan baik. Setelah dia menebus dosa-dosanya, aku berencana bawa dia kembali ke Kompi ke-5. Bukan sebagai perwira dong tentunya, tapi dia boleh bertugas di jajaran prajurit. Meski masih terlalu cepat untuk percaya dia sepenuhnya, atau aku, dalam hal ini.\nKamu percaya padaku? Dan kamu punya kekuatan untuk membuktikannya? Hahahaha! Persis seperti yang kuharapkan dari Honorary Knight ... Sehebat rumor yang beredar. Kamu akan menjadi kapten yang baik untuk Kompi ke-5, aku yakin Varka tidak akan keberatan!"
+      },
+      {
+        "Title": "Tentang Vision",
+        "Context": "Vision ini benar-benar berguna di lapangan. Sayangnya, aku cuma bisa bunuh monster yang bisa kusentuh, bukan yang tidak kelihatan dan bersarang di dalam diri."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Ah, aku tidak minum alkohol. Satu-satunya manfaat alkohol buatku itu untuk disinfektan luka. Dalam konteks ini, Dandelion Wine tua dari Dawn Winery yang paling ampuh, dari segi kemampuan pembersihannya maupun sensasi perih manisnya. Lagian, waktu dipakai buat orang lain, aku bisa lihat mereka meringis, terutama Varka, paling seru buat ditonton. Hehehe!"
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Dulu aku alergi sama dandelion, tapi Sucrose bilang ada yang namanya \"terapi desensitisasi\". Aku penuhin kamarku pakai Dandelion dan rajin sekali menghirup napas dalam-dalam. Berhasil atau tidak? Begini deh, aku sudah tidak bersin lagi kalau ada dandelion. Tapi harus diakui, aku agak kangen sih sama sensasi bersin sampai pusing ...."
+      },
+      {
+        "Title": "Tentang Varka: Resistensi Terhadap Obat",
+        "Context": "Resistensi Varka terhadap obat terus bertambah setiap hari. Beberapa hari lalu, aku racik ramuan buat dia, tapi pipinya cuma merah sedikit. Kalau dia tidak melotot ke arahku, aku bakal ragu kalau aku sudah benar-benar masukin obatnya. *huff* ... Seandainya kita masih di Nod-Krai, aku bisa tambahin sedikit tanaman kuuvahki ...."
+      },
+      {
+        "Title": "Tentang Varka: Tugas Grand Master",
+        "Context": "Tugas Grand Master? Kalau Varka sih, kebanyakan memimpin orang ke medan perang. Sisanya dia bebankan ke Jean, haha. Kalau musuh ... yah, bisa kita habisi sekali jalan, tapi dokumen ... tidak bakal ada habisnya."
+      },
+      {
+        "Title": "Tentang Jean",
+        "Context": "Cuma karena Acting Grand Master yang menjaga Mondstadt, \"Grand Master asli\" bisa santai-santai dan pergi ke Nod-Krai. Sekarang dia sudah balik ... yah, dia bakal tetap bebas melakukan yang dia mau. Kayaknya tidak bakal ada yang berubah sih."
+      },
+      {
+        "Title": "Tentang Kaeya",
+        "Context": "Kaeya jago sekali meniru tanda tangan Kapten lain, apalagi punya Jean. Malah, tanda tangan palsunya bagus sekali sampai tidak bisa dibedakan. Kaeya bilang dia cuma melakukan itu untuk tanda tangani pengajuan cutinya sendiri saja. Menurutku sih, dia jujur sekali, moralnya terlalu kuat buat berbohong, haha."
+      },
+      {
+        "Title": "Tentang Amber",
+        "Context": "Amber bilang dia sudah bicara dengan Acting Grand Master Jean. Dia minta petugas pengintai untuk membantu, meskipun mereka tidak akan jadi Outrider resmi. Tapi ya, tetap saja ini patut dirayakan. Sekarang, dia tidak perlu terbang bolak-balik ke seluruh Mondstadt sendirian lagi. Meskipun, kalau dipikir-pikir, ujian lisensi meluncur itu sendiri sepertinya sudah ketinggalan zaman ... Mungkin sudah waktunya buat diperbarui juga"
+      },
+      {
+        "Title": "Tentang Diluc",
+        "Context": "Diluc ... Kalau dipikir-pikir, kami berdua jadi korban bajingan yang sama, tapi sekarang setelah semua masalahnya selesai, apa dia benar-benar tidak bakal kembali ke Knights of Favonius? Dia tidak bisa jadi kapten termuda lagi, tapi dia pasti bisa jadi knight tertua."
+      },
+      {
+        "Title": "Tentang Noelle",
+        "Context": "Noelle masih belum jadi knight resmi ya? Sudah berapa lama? Aku kira dia sudah lulus ujian seleksi ... Apa jangan-jangan Varka menunggu ujian khusus buat dia? Gelar knight-nya bakal panjang sekali kalau disesuaikan sama durasi latihannya ...."
+      },
+      {
+        "Title": "Tentang Eula",
+        "Context": "Yang paling menonjol dari Eula adalah suara sepatu bot-nya yang menghentak waktu berjalan. Kalau dia lagi buru-buru, kamu bisa denger suara \"duk-duk-duk\" bahkan dari lantai yang berbeda. Mirip sekali kayak gaya bertarungnya, keras dan menusuk, kesan yang begitu mendalam sampai tidak bisa dilupakan."
+      },
+      {
+        "Title": "Tentang Albedo",
+        "Context": "Semua bahan habis pakai Kompi ke-5 dikembangkan Albedo dan Kompi ke-8. Baut panah, peluru, dan berbagai produk alkimia kami semuanya berkualitas tinggi. Kadang aku mampir ke kantor Albedo untuk membawa rencana penelitian senjata baru. Tapi akhir-akhir ini, yang terima permintaanku malah Sucrose. Kayaknya Albedo lagi mengerjakan sesuatu yang besar lagi ...."
+      },
+      {
+        "Title": "Tentang Klee",
+        "Context": "Varka bilang ke aku kalau dia yakin Fatui Harbinger, The Captain, bisa kalahkan Ruin Guard cuma pakai krayon doang. Jadi, aku tukar cemilan sama Klee untuk satu kotak krayon, yang akan aku bawa ke Varka. Nanti pas dia bertemu monster lagi, kita bakal lihat, seberapa tangguh sih senjata itu."
+      },
+      {
+        "Title": "Tentang Mika",
+        "Context": "Mika mungkin adalah petugas survei yang andal, tapi aku lebih andal lagi kalau soal melacak kebohongan. Dia pernah kasih aku peta yang semua titik kumpul monsternya dihapus, soalnya dia takut aku bakal menyerbu sendirian. Tapi, ya gitu deh, dari mukanya aja, aku langsung tahu di mana monster-monsternya. Tidak kepikiran sama dia deh, dia pikir diam saja sudah cukup buat mengecoh aku."
+      },
+      {
+        "Title": "Mengenal Lohen: I",
+        "Context": "Maaf mengecewakan, tapi aku tidak punya rahasia gelap yang menarik untuk diceritakan ke orang lain."
+      },
+      {
+        "Title": "Mengenal Lohen: II",
+        "Context": "Aku lebih suka pakai tombak panjang, tapi aku masih dalam Kompi ke-5, jadi aku terus berlatih pakai panah dan senapan. Soal akurasi ... Yah, cukup jago mengenai Bloatty Floatty dan Slime. Aku bahkan tidak perlu membidik. Kudengar ada makhluk yang namanya Specter di Inazuma, sulit sekali ya untuk ditembak? Mungkin aku bisa menguji kemampuan membidikku ke Specter kapan-kapan."
+      },
+      {
+        "Title": "Mengenal Lohen: III",
+        "Context": "Kompi ke-5? Cuma tim pendukung jarak jauh biasa, tidak ada yang istimewa. Kami bisa kasih tembakan yang lumayan, tapi kalau menghadapi ... musuh yang benar-benar luar biasa, yang bisa kami lakukan cuma kasih perlindungan dari pinggir. Seperti waktu itu kami ikut Varka mencegat Rächer of Solnari ... Akhirnya, serangan utama diserahkan sepenuhnya ke Grand Master, sementara kami diperintahkan untuk bentuk barisan pertahanan dan menahan Perburuan Liar. Itu satu-satunya cara supaya kami tidak terseret ke dalam pertempurannya dengan Rerir."
+      },
+      {
+        "Title": "Mengenal Lohen: IV",
+        "Context": "Kenapa aku ngotot pakai tombak? Begini deh ... umpan paling enak di medan perang itu yang paling mirip komandan. Aku bisa menarik perhatian musuh sambil kasih ruang untuk yang lain supaya bisa menyerang sesuka hati. Soal musuh yang berbahaya ... Hahaha, makin sengit, aku makin gampang fokus. Rasanya konsentrasi penuh seperti itu benar-benar buat ketagihan ... Sayang sekali, semenjak aku tinggalkan Nod-Krai, pertempuran yang bikin aku bisa bener-bener fokus dalam momen begitu sudah jarang ada."
+      },
+      {
+        "Title": "Mengenal Lohen: V",
+        "Context": "Takut waktu berhadapan langsung di medan perang? Hah! Tidak dong! Musuh yang takut sama aku. Kemampuan bertarungku tidak main-main, loh. Lagian, pasti ada medis yang menunggu di belakang ... Gimana kalau musuh juga begitu? Hmm, kalau gitu aku hajar saja dulu medis mereka."
+      },
+      {
+        "Title": "Hobi Lohen",
+        "Context": "Selain keseruan membantu di medan perang, hobi favoritku itu siapkan \"kejutan\" kecil untuk mencerahkan hair-hari saudaraku dalam pertempuran. Aku anggap itu sebagai bagian dari pelatihan mereka, para knight kan perlu waspada setiap saat."
+      },
+      {
+        "Title": "Kekhawatiran Lohen",
+        "Context": "Hari-hari indah saat bertugas di Pelabuhan Dornman sudah berakhir. Sekarang aku sudah kembali ke Mondstadt, dan Acting Grand Master Jean tidak sesantai Grand Master Varka. *huff* ... Memangnya tidak ada misi lapangan lain yang bisa ditugaskan ke aku?"
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Aku suka makanan pedas. Pas lagi patroli, aku sering mengunyunah Jueyun Pepper kering supaya bisa tetap waspada ... Namanya \"Jueyun Chili\"? Makasih sudah kasih tahu, tapi aku lebih suka bilang pepper aja ...."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Jangan minum-minum ya? Waktu aku ditugaskan ke Nod-Krai, aku selalu terbangun gara-gara knight yang mabuk ... Waktu malam, mereka bahkan tidak bisa bedain lagi apa yang mereka minum, bahkan waktu aku tukar minuman mereka pakai ... eh, sudahlah, lupakan."
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Wah! Terima kasih, ini persis yang aku suka. Bahkan, cocok sekali denganku ... Aku curiga kamu diam-diam menyelidiki kesukaanku! Tapi aku tidak marah, lagian, aku juga punya berkas tentangmu ...."
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Dulu waktu lagi belajar cara meracuni makanan, aku jago sekali sampai tidak ada yang curiga ... Kamu sudah kasih racun di sini? Santai aja, aku tahan sekali sama racun. Malahan, kayaknya aku mau tambah lagi."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "... Yah, ini jelas jebakan, dan kayaknya lebih baik aku tidak coba-coba deh. Lain kali, aku yang masak saja gimana?"
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Hari ini ulang tahunmu, jadi aku membuatkan mini crossbow untukmu. Desainnya hasil rancanganku sendiri. Harusnya ukurannya pas untuk pergelangan tanganmu ... Kapan ukurnya? Tenang, cuma modal pakai mata saja. Kamu percaya saja deh. Lagian, aku itu Wakil Kapten Kompi ke-5. Oh iya, crossbow ini juga bisa menambak ke belakang, buat jaga-jaga kalau ada yang coba menyerang dari belakang. Kamu tinggal pencet ... di sini. Hahaha, tidak usah merunduk! Pengaman masih terpasang kok. Memangnya aku kelihatan kayak orang jahat yang kasih temannya crossbow, cuma buat nonton dia nembak diri sendiri ...."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Rasanya luar biasa. Bahkan senjataku jadi terasa lebih ringan."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Rasanya aku bisa melihat lebih jauh sekarang ... Ini pasti bisa meningkatkan akurasi tembakanku."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Rasanya pikiranku jadi jauh lebih jernih. Hah, aku baru kepikiran lagi cara latihan yang baru."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Kayaknya sekarang aku udah cukup kuat jadi wakil kapten yang \"beneran\" ya?"
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Ayo bertarung!"
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Gemetarlah, aku tidak akan menghakimimu."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Jangan sisakan satu pun!"
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Kamu pasti tidak siap untuk ini."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Ini kesempatan kita!"
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Hmph."
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Seperti domba yang menunggu pembantaian."
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Lawan sekuat tenagamu!"
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Haha, tidak ada akhir bahagia untukmu!"
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Ah, hasil perang. Yuk lihat isinya."
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Isinya sedikit sekali ... Tapi, tidak sopan juga kalau tidak diambil."
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Hah, tidak ada perangkap, tidak ada asap beracun ... Tidak kreatif ah."
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Hah ... Ayo lanjut!"
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "... Ini belum berakhir!"
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "... Nah, begini baru lawan yang sesuai seleraku!"
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Kalau tidak kuat, mundur saja!"
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Giliranku!"
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Jadi ini ... batasku ...."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Aku belum ... puas ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Angin ... katakan kenapa ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Trik murahan."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Tidak terasa sama sekali ...."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Akhirnya melawan juga ...."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Heh ...!"
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Waktunya beraksi."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Maju duluan? Serahkan sama aku."
+      },
+      {
+        "Title": "Bergabung ke Party·III",
+        "Context": "Aku akan jaga di belakang."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Hampir bersamaan dengan saat pasukan ekspedisi memulai perjalanan pulang, para penyair juga membawa kisah para pahlawan kembali ke kedai.\nSelain nama-nama tidak asing seperti Varka dan yang lainnya, gelar \"Petugas Penekan Garis Depan\" juga berjalan memasuki pandangan publik berkat hasil pertempuran yang luar biasa dan tingkat partisipasi yang sangat tinggi.\nMengapa pasukan jarak jauh dengan jangkauan serangan terjauh, selalu aktif di garis depan, dan menjadi yang pertama melancarkan serbuan pertama?\nMengapa pasukan yang menggunakan busur dan senapan dipimpin oleh seorang knight muda bersenjatakan tombak?\nHal yang tidak biasa tentu akan mengundang pertanyaan, dan pertanyaan sering kali diiringi dengan perdebatan.\nAda yang berseru marah, \"Apa menembak dari jarak dekat sudah tidak efektif? Mana mungkin busur dan senapan menjadi begitu tidak praktis?\"\nTapi ada juga yang berpendapat kalau pengguna busur itu pada dasarnya adalah kelompok prajurit yang fisiknya paling kuat dan paling elite, jadi menerjunkan yang terbaik dari mereka ke garis depan yang paling berbahaya itu adalah pilihan yang tepat.\nNamun, yang mengakhiri semua perdebatan tersebut adalah penilaian yang didengar oleh para penyair dari mereka yang mengalaminya secara langsung:\n\"Dia adalah ujung tombak paling tajam, sanggup mengoyak semua garis pertahanan.\n\"Dia adalah benteng paling kokoh, yang mampu menahan segala serangan ....\"\nNamun, para penyair sering kali sengaja mengabaikan paruh kedua dari ucapan para knight, karena sama sekali tidak mengandung unsur legenda, terlalu realistis:\n\"Sebenarnya, aku rasa Wakil Kapten Lohen hanya merasa kalau cara ini lebih efisien saja ....\"\nYa, kisahnya tidak dipenuhi kemuliaan dan warna seperti di dalam cerita knight, juga tidak penuh dengan legenda dan lika-liku seperti pencapaian besar para pahlawan.\nTombak, panah tersembunyi, penyergapan, racun, serangan mendadak, penyusupan ....\nDia tidak pernah memperdebatkan senjata dan taktik mana yang lebih kuat atau lemah, juga tidak peduli apakah pertempuran dan tindakan itu sendiri berkaitan dengan kehormatan, aib, untung, maupun rugi.\nMeskipun berbagai cara memiliki kelebihan dan kekurangan saat digunakan, kepuasan yang diberikannya tidak bisa menandingi \"kemenangan\" itu sendiri, dan tidak bisa dibandingkan dengan merasakan \"bertahan hidup\" itu sendiri.\nHanya orang terakhir yang masih berdiri yang berhak memikirkan makna kemenangan, hanya orang terakhir yang masih bisa merasakan sakit yang berhak membahas tentang bertahan hidup.\nBertarung, menang, bertahan hidup, terus berulang ....\nBegitulah kisah Lohen, dan kehidupan Lohen ...."
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Dalam ingatan Lohen, mainan pertama yang dimilikinya adalah sebuah busur kecil yang lentur.\nAyahnya yang jarang tersenyum memilih inti Fir Wood terbaik untuk membuat badan busur, sementara ibunya yang teliti secara khusus memotong kulit, menggosoknya berulang kali, lalu memelintirnya menjadi tali busur.\nMeskipun itu hanyalah sebuah mainan, orang tuanya tetap mengikuti proses pembuatan busur seperti biasa, dan menyelesaikannya dengan teliti.\nNamun, tidak seperti yang dibayangkan oleh Lohen kecil, ayahnya tidak mengajarinya cara menarik busur dan memasang anak panah.\nSatu-satunya hal yang diizinkan untuk dilakukan Lohen kecil adalah meniru gerakan orang tuanya — belajar memeriksa lengan busur, belajar merawat lapisan cat menggunakan minyak, dan belajar mengoleskan lilin pada tali busur. Hari demi hari, berulang kali.\n\"Lohen, leluhur pernah berkata: 'Busur adalah alat yang mengutamakan konsistensi. Keluarga kita turun-temurun hidup dari membuat busur, jadi sudah sewajarnya kita juga harus hidup seperti busur memastikan setiap tindakan kita mempertahankan konsistensi mutlak.'\"\nSaat doa pagi rutin setiap harinya, ayah dan ibu Lohen selalu mengulangi perkataan ini.\nRutinitas yang teratur, pekerjaan yang disiplin, serta kehidupan yang tenang.\nSebelum Lohen lahir, mereka telah menjalani kehidupan seperti ini lebih dari dua puluh tahun, dan selama belasan tahun setelah dia lahir, semua ini tidak pernah berubah sedikit pun.\nDari mulai belajar bicara, hingga bisa mahir merawat busur dan anak panah, Lohen terkejut menyadari bahwa dia sepertinya telah memprediksi alur hidupnya sendiri. Mungkin sampai di hari saat dia menua dan tidak bisa lagi melihat retakan pada serat kayu, hidupnya akan habis terkikis dalam rutinitas tetap yang telah dijadwalkan.\nTapi ... anak panah memang bisa disimpan dengan baik di gudang, namun takdirnya bukan untuk berada di sana. Sama seperti sifatnya yang tak terkekang, dia tidak ditakdirkan untuk menjalani kehidupan yang tenang.\nLohen kecil kembali memoles mata panahnya, bertatapan dengan pupil merah tua yang tersembunyi di dalam pantulannya.\nIa hanya menunggu saat melesat dari tali busur ....\nDan saat itu, sudah tidak jauh.\nPada suatu hari yang biasa, Lohen duduk di kereta barang seperti biasa, menemani ayahnya pergi ke Mondstadt untuk mengantarkan pesanan.\nNamun, perjalanan kali ini tidaklah tenang — sekelompok bandit bertopeng yang terlatih mengincar barang muatan mereka.\nSang ayah dengan panik menyembunyikan Lohen ke dalam kereta, menyuruhnya untuk tidak bergerak maupun bersuara. Dia sendiri berteriak dengan lantang, berusaha memancing para bandit menjauh, atau memanggil bantuan Knights of Favonius yang entah seberapa jauh keberadaannya.\nPadahal kereta barang itu penuh dengan busur yang kuat dan anak panah yang mampu menembus batu besar ....\nPadahal karena bertahun-tahun menguji busur dan anak panah, sang ayah sudah memiliki kemampuan pemanah kelas atas ....\nPadahal gerombolan bandit itu sepertinya sengaja atau tidak berusaha mengusir sang ayah pergi dari kereta barang ....\nTapi karena sudah terlalu lama terbiasa hidup damai, kepanikan malah membuatnya benar-benar lupa untuk curiga, dan melupakan pilihan untuk melawan balik.\nSuara di luar kereta perlahan menghilang, tak lama kemudian tirai pun disingkap — namun sosok yang datang bukanlah sang ayah yang berhasil lolos dari para bandit, bukan pula knight yang datang menyelamatkan, melainkan sekelompok orang berjubah hitam yang mengenakan topeng.\nTanpa basa-basi, mereka menculik Loehn. Seberapa keras pun dia meronta dan menghindar, di hadapan sepasang tangan besar bak penjepit besi itu, semua perlawanannya sia-sia belaka.\nPada saat itu, Lohen masih belum tahu dirinya sendiri terseret ke dalam konspirasi siapa, dan juga tidak tahu ke mana dirinya dibawa.\nDuduk terdiam di dalam sel tahanan yang tertutup, Lohen kecil hanya memikirkan satu hal.\nSeandainya ayah bisa mengangkat busurnya dan melawan para bandit itu, orang-orang ini tidak akan punya kesempatan. Seandainya dirinya sendiri lebih sigap sedikit, mungkin dia sudah bersembunyi sebelum mereka beraksi.\nSuara tangisan anak-anak yang ikut diculik bersamanya di sebelah terdengar semakin menjadi-jadi. Lohen pun memanfaatkan kesempatan saat tidak ada yang memperhatikan, untuk menyembunyikan potongan kecil mata panah yang dibawanya turun dari kereta ke dalam lengan bajunya ....\nMungkin Archon Anemo mendengar teriakan minta tolong anak-anak, atau mungkin ada suatu eksistensi tak kasat mata yang menjawab kehausan Lohen akan kekuatan.\nDi tengah perjalanan saat para penjahat buru-buru berpindah tempat, para utusan keadilan akhirnya menampakkan diri.\nOrang yang memimpin mereka mengenakan baju zirah, memegang busur pendek, dan dengan mudah mengalahkan semua penjahat itu.\nSepertinya untuk menyisakan nyawa musuh agar dapat diinterogasi, atau mungkin untuk menghindari anak itu terluka tanpa sengaja, dia hanya menggunakan anak panah tumpul saat bertarung.\nNamun kekuatan lengan orang itu yang luar biasa membuat panah-panah tumpul ini tetap sangat mematikan. Setiap kali tali busur bergetar, akan terdengar suara dari orang yang jatuh ke tanah.\nAnak panah yang melesat membelah udara itu begitu dahsyat dan memukau, sampai-sampai Lohen kecil tidak dapat mengalihkan pandangannya sekian lama, bahkan sampai menghentikan gerakan tangannya.\nSaat Adorno membuka kereta tahanan dan bertatapan dengan Lohen, barulah dia tersadar.\n\"Mungkin, kalau aku sendiri dipenuhi kekuatan seperti anak panah itu, tali ini pasti sudah lama terpotong. Aku sendiri juga tidak perlu mendengarkan si bodoh Theodore menangis selama ini ....\"\nPikiran seperti itu diam-diam mengakar di lubuk hati Lohen kecil.\nSementara itu, yang dilihat Adorno adalah pemandangan lain:\nDi antara anak-anak yang menangis, anak laki-laki yang seharusnya sangat ketakutan itu malah berekspresi dingin, terlihat sangat berbeda.\nDi pergelangan tangannya, simpul tali yang awalnya kuat telah disayat oleh mata panah hingga meninggalkan celah yang tersembunyi.\n— Benar-benar anak yang luar biasa, sepertinya ke depannya aku harus memperhatikannya baik-baik ...."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Sejak Lohen diselamatkan, keluarganya melindunginya dengan lebih ketat, sangat takut kehilangan anaknya lagi. Namun, anak panah yang sudah terpasang di busur tidak akan pernah bisa kembali ke kehidupan tenang yang penuh debu.\nPada suatu larut malam di bawah cahaya bulan yang terang, dia diam-diam menyelinap keluar lewat jendela saat orang tuanya tertidur lelap. Menghilang ke dalam kegelapan malam bersama sebuah busur pendek buatannya sendiri, sebilah belati pendek untuk mengukir, serta beberapa anak panah cacat yang tidak memenuhi standar pengiriman.\nMungkin karena keberuntungan, atau mungkin dia memang terlahir untuk bertarung. Saat dia kembali lagi, di dalam tasnya sudah ada tambahan dua mata panah Hilichurl sebagai rampasan perang.\nSejak saat itu, dia mulai makin sering menyelinap keluar rumah di malam hari. Dari seminggu sekali, jadi tiga hari sekali, sampai akhirnya tiap malam. Targetnya makin kuat, dan hasil jarahannya pun makin berlimpah: topeng yang hancur, gulungan misterius, tanduk Mitachurl ....\nLama-kelamaan, mulai beredar sebuah rumor misterius di kalangan petualang. Pas tengah malam di sekitar Dermaga Dornman, akan muncul seorang pengguna busur bertubuh kecil. Dia akan menerjang ke tengah kawanan monster seperti angin, terus menancapkan anak panahnya ke dada setiap musuh secara akurat.\nKemenangan yang tak terhitung jumlahnya berarti mengambil risiko bahaya yang tak terhitung jumlahnya. Dan risiko bahaya yang tak terhitung jumlahnya itu mendatangkan debaran jantung liar yang tak terhitung jumlahnya, berdegup kencang layaknya ombak yang mengamuk.\nDi saat yang bersamaan, sebuah pertanyaan juga mulai tumbuh secara diam-diam di dalam benaknya: Jika dirinya sendiri yang sekarang kembali berhadapan dengan penjahat, apakah situasinya akan berbeda? Apakah dirinya sendiri masih anak kecil yang hanya bisa menunggu bantuan orang lain?\nMeskipun telah melewati bahaya dan menembus target yang tak terhitung banyaknya, pertanyaan ini terus menumpuk dan berkembang di dalam hatinya, tidak akan pernah terjawab dengan sendirinya.\nKecuali dia bisa menembusnya sendiri, yang memulai segala sesuatu.\n....\nSaat Lohen resmi mengenakan seragam petualang dan berterus terang kepada orang tuanya, awalnya mereka terkejut, lalu memarahinya.\nPada akhirnya, Cyrus menepuk dadanya kuat-kuat dan menjamin bahwa hanya Lohen yang bisa menghajar para monster, tidak ada monster yang bisa balik menghajar Lohen. Barulah hal ini membuat mereka berdua dengan terpaksa menerima kenyataan yang tak bisa diubah lagi.\n... Mungkin saat itu mereka bukan menyadari kalau Lohen telah memiliki kemampuan petualang papan atas, melainkan sadar kalau Lohen sudah tidak bisa lagi \"menurut\" dengan patuh.\nNamun mereka masih belum merasa tenang. Selama bertahun-tahun, mereka tidak pernah berhenti membujuk Lohen agar tidak berpetualang lagi. Mereka bahkan menemui Adorno, orang yang dulu pernah menyelamatkan Lohen dari bahaya, berharap knight tua ini bisa membantu mereka membujuk Lohen.\n\"Anak panah yang terpasang di tali busur tidak bisa ditarik kembali, kalian sebagai pembuat busur pasti memahami prinsip ini.\" Adorno sepertinya sudah menduga pilihan Lohen sejak awal, \"... tapi kita masih sempat mencari arah yang tepat untuk anak panah yang akan segera melesat — ini adalah saranku sebagai seorang pemanah.\"\nAdorno memenuhi permintaan untuk membantu membujuk, dan orang tua Lohen juga tidak tahu apa saja yang mereka bicarakan, tetapi selama beberapa bulan setelahnya, sikap Lohen memang menjadi jauh lebih tenang ... kabarnya dia sedang \"mempersiapkan diri untuk ujian\".\nBeberapa bulan kemudian, Lohen tiba-tiba muncul di tempat ujian knight dan meraih peringkat pertama pada angkatannya dengan kekuatannya yang luar biasa. Meskipun caranya sedikit menuai kontroversi, pada akhirnya dia berhasil bergabung dengan Knights of Favonius.\nBoleh juga, setidaknya punya posisi resmi di Knights of Favonius, dan ada rekan yang bisa saling menjaga. Jauh lebih baik dibandingkan jadi petualang yang bertarung sendirian.\nLagipula, beberapa bulan yang lalu Lohen sudah mulai menganggap misi dari Adventurers' Guild terlalu membosankan, dan sedang berpikir untuk berlari keluar dari Mondstadt demi mencari target yang lebih berbahaya.\nOrang tua Lohen saling menghibur. Namun di dalam hati, mereka berdua justru semakin merasa bingung mengenai apa yang sebenarnya dikatakan Adorno pada hari itu, hingga membuat Lohen berniat bergabung dengan Knights of Favonius.\n....\n\"... Nak, kami sudah berhasil mengungkap dalang di balik kasus-kasus penculikan pada masa itu.\"\nLohen yang awalnya terlihat tidak tertarik meladeni satu lagi pembujuk, tiba-tiba menajamkan pandangannya: \"Siapa?\"\n\"Knights of Favonius akan segera mengeluarkan pengumuman resmi, tapi kamu tidak perlu memikirkan soal balas dendam,\" ucap Adorno dengan tenang. \"Orang itu sudah mati.\"\nSetelah keheningan yang panjang, Lohen kembali berbicara, \"Siapa yang membunuhnya?\"\n\"Bunuh diri.\" \"Orang seperti dia mana mungkin bunuh diri, kamu tahu apa yang mau kutanyakan: siapa yang mendesaknya hingga melakukan itu?\"\n\"Grand Master kita, Knight of Boreas, legenda Mondstadt masa kini ....\" Adorno tersenyum tipis, \"... Apa sudah cukup untuk menjadi target barumu?\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Varka bisa dibilang sudah terbiasa dengan \"peniru\" dirinya sendiri.\nTak terhitung banyaknya pemuda penuh semangat yang sangat ingin mengikuti jejak sang pahlawan hebat. Wajar sekali kalau sebagian di antaranya berubah menjadi pembuat onar enerjik yang bertindak cepat dan terlalu percaya diri.\nNamun, Varka benar-benar baru pertama kali melihat \"peniru\" seperti Lohen.\nKalau para \"peniru\" sebelumnya, tindakan mereka yang ekstrem paling-paling cuma melancarkan serangan diam-diam, sebagian besarnya bertujuan untuk membuktikan kekuatan mereka sendiri. Sementara kemunculan Lohen yang pertama, bisa dibilang ... menghalalkan segala cara.\nPanah tersembunyi, asap, jebakan, bahkan ramuan penidur yang bisa menumbangkan monster dalam sekejap ... berbagai taktik ini sangat lihai, seolah-olah berasal dari tangan seorang veteran yang sudah kaya pengalaman di medan tempur. Ini bahkan samar-samar menunjukkan sedikit bayangan dari sisa pengikut Eroch.\n\"Boleh juga, kamu. Lumayan hebat! Tapi ... trik macam ini tidak bakal mempan padaku!\"\nHampir dalam sekejap, Varka langsung menahannya habis-habisan, \"bocah ingusan\" di hadapannya.\n\"Anak kecil yang bisa tetap tenang waktu diculik, bahkan mungkin mampu meloloskan diri dengan kekuatannya sendiri.\"\n\"Dalam rumor para petualang, si pemanah bertubuh kecil yang serangannya akurat dan bertangan dingin di Dermaga Dornman.\"\n\"Bocah nekat yang belum lama bergabung dengan pasukan, tapi sudah mulai membasmi sisa-sisa pengikut Eroch di mana-mana.\"\nDia sudah lama mendengar banyak cerita menarik tentang Lohen dari Adorno. Makanya dia memutuskan untuk membiarkan sandiwara konyol ini terus berlanjut untuk menguji kemampuan bocah itu yang sebenarnya.\nDi bawah tekanan dua pedang besar yang cukup untuk membuat para monster menahan napasnya, sorot mata seperti apa yang akan ditunjukkan oleh pemuda yang belum berpengalaman ini?\nKekaguman? Kepanikan? Atau ...?\nVarka menatap tajam mata Lohen, sepasang mata yang dingin itu tampak semakin terang dan tajam. Dalam bola matanya, Varka seakan melihat kegembiraan, dan ... sosok dirinya sendiri, yang begitu antusias menantang orang-orang kuat untuk meraih kejayaan.\nDia itu pemuda yang berpotensi, tapi masih perlu ditempa dengan keras dan diberi sedikit pelajaran. Varka pun turun tangan menangkap untuk pendatang baru yang nekat ini. Dia memutuskan untuk menjebloskannya ke ruang kurungan selama beberapa hari dulu: \"Kalau tidak terima, coba lagi kapan-kapan. Aku menantikanmu.\"\n\"Tunggu saja kalau begitu.\" Sebelum dimasukkan ke ruang kurungan, Lohen mengangkat bahunya sambil tersenyum.\nKeesokan harinya, setelah masa kurungannya berakhir, Lohen langsung datang membawa sebotol anggur lezat kesukaan Varka, dengan alasan ingin menyampaikan permintaan maaf.\n\"Oh? Kamu pintar ambil hati juga ya. Sampai memilih Dandelion Wine kesukaanku. Kalau begitu, aku tidak sungkan lagi.\"\nBegitu anggur pahit itu melewati tenggorokannya, Grand Master langsung merasakan sedikit pusing dan sesuatu yang aneh. Kemudian, kata-kata yang diucapkan Adorno kepadanya setelah menahan Lohen terlintas di benaknya:\n\"Sejujurnya, aku tidak sarankan kamu menganggapnya sebagai dirimu di masa lalu, atau anak Mondstadt mana pun yang mengagumimu. Memang sih, Lohen itu mengagumi kekuatanmu. Tapi kurasa yang dia rencanakan di benaknya adalah bagaimana cara menantangmu.\"\n\"Kalau tebakanku tidak salah, yang ada di pikirannya mungkin: mencari cara menantang 'Varka yang kuat', dan ini pasti sangat menarik. Bukan masalah menang kalah, paling-paling dia cuma bakal berbaring di ranjang dua hari. Soal kehormatan dan semacamnya, aku rasa dia tidak peduli.\"\nHanya dengan mengandalkan fisik dan tekad yang kuat, di bawah tatapan Lohen yang tercengang, Varka berhasil menstabilkan tubuhnya yang goyah.\n\"... Sulit dipercaya, menurut perhitunganku, dosis ini sudah cukup untuk menumbangkan belasan babi hutan ....\"\n\"Dasar bocah, sudah kubilang, trik murahan kayak begini tidak bakal mempan denganku!\"\nSejak saat itu, Lohen punya pemahaman yang benar-benar baru tentang kata \"kekuatan\":\nKekuatan yang tak dapat digoyahkan oleh jebakan maupun racun mematikan apa pun, fondasi mutlak yang terbentuk setelah berkali-kali melintasi batas antara hidup dan mati.\nSejak saat itu, daftar tujuan Lohen bertambah dua:\nPertama, mencari segala cara untuk menjatuhkan Varka.\nKedua, menggunakan cara-cara itu pada dirinya sendiri, dan memastikan dirinya sendiri tidak tumbang."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Knights of Favonius adalah organisasi dengan sejarah panjang yang telah melahirkan pahlawan tak terhitung jumlahnya, juga telah mengalami banyak tragedi serta kepedihan.\nKisah legenda dan pelajaran yang tak terhitung jumlahnya telah mengajarkan satu hal kepada para knight:\nKetika sebuah perilaku menyimpang dari jalan knight, tragedi juga akan datang menyertainya.\nKarena itulah, muncul suara-suara di dalam Knights of Favonius yang mempertanyakan jabatan Lohen sebagai Wakil Kapten Kompi ke-5.\nTanpa diragukan lagi, \"orang gila\" yang sering membuat onar, gemar menyergap Grand Master, dan suka menggunakan racun dan jebakan saat bertarung, di mata siapa pun juga, ini tidak bisa mewakili \"jalan knight\" sedikit pun.\nTentu saja, Lohen sama sekali tidak peduli dengan semua berita itu.\n\"Aku tahu kamu tidak peduli perasaan orang lain,\" ucap Adorno. \"Tapi kamu juga tahu, ekspedisi bukanlah misi yang bisa beres kalau kamu cuma memegang tombak sendirian. Jelas, kalau tidak ada yang mendukungmu, permohonanmu untuk ikut ekspedisi juga pasti tidak akan berjalan mulus.\"\nSetelah mengatakan itu, Adorno berhenti sejenak, seolah khawatir Lohen tidak bisa menangani masalah seperti ini, dan takut dia akan memperburuk keadaannya.\nSejak Varka mengumumkan akan memulai ekspedisi besar yang belum pernah ada sebelumnya, Lohen sudah tidak sabar ingin ikut.\nMedan pertempuran yang jauh, bahaya yang tak diketahui, baginya jauh lebih menarik daripada mainan apa pun di dunia. Namun, proses pengajuannya tidak berjalan lancar. Daftar penilaian sudah diumumkan beberapa kali, tapi namanya tak kunjung muncul.\nAdorno tahu betul kalau tidak ada ujian di medan pertempuran yang bisa menyulitkan Lohen, sepertinya dia sedang menghadapi masalah, yang bukan berkaitan dengan hal itu.\nTapi kali ini, di luar dugaannya, Lohen menanggapinya dengan santai: \"Oke, kalau memang knight yang tidak ortodoks tidak bisa ikut ujian ... aku jadi penguji saja.\"\n....\n\"Dari sudut pandang praktis, ini ide bagus. Sekalian menyadarkan para knight ini tentang kekurangan mereka sendiri. Jadi mereka tidak terlalu santai dan bertanya-tanya apa Knights of Favonius perlu direformasi ... lagian kita tidak bisa selalu berharap setiap lawan akan mematuhi jalan knight.\"\nVarka merenung sambil melihat-lihat \"pengajuan\" khusus yang diajukan Lohen kali ini.\nLaporan ini menjabarkan \"soal ujian\" berjumlah banyak. Selain taktik seperti serangan malam, jebakan, dan racun yang sudah tidak asing lagi bagi Varka, di dalamnya juga berisi \"metode penilaian\" yang baru dan penuh kreativitas: menyamar untuk melakukan serangan mendadak, menyabotase suplai perbekalan sebelum latihan, dan sejenisnya.\nSaat membuka ke bagian paling akhir laporan, Lohen rupanya juga menuliskan \"kutipan tokoh terkenal\" yang membuat Varka hampir tersedak minuman yang hendak diteguknya:\n\"Jika Knight of Favonius bahkan tidak bisa melindungi dirinya sendiri, bagaimana mereka bisa melindungi Mondstadt?\" Dikutip dari malam saat Grand Master sebelumnya diserang.\n... Kesalahan yang dilakukan semasa muda selalu menyerangmu di saat yang tak terduga. Setelah menenangkan perasaannya, Varka pun mengambil keputusan dan memberikan tanda centang pada pengajuan ini.\nKnight yang tak biasa harus diuji dengan \"ujian\" yang tak biasa.\nBaik knight yang ikut ekspedisi ... maupun Lohen sendiri."
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "Sebagai calon penerus \"Benevolent Knight\" yang paling memungkinkan, Lohen mungkin juga adalah anggota Knights of Favonius yang paling tidak mirip dengan \"Benevolent Knight\".\nDi mata kebanyakan orang, \"Benevolent Knight\" seharusnya membantu orang dalam masa krisis dan menolong mereka dari penderitaan. Tapi jelas, Lohen lebih suka mencari bahaya sendiri, sekalian, menjerumuskan orang lain ke dalamnya. Tentu, yang biasanya kena getahnya itu musuh-musuhnya, dan wujudnya belum tentu manusia.\nTapi, \"hobi\" Lohen ini tidak sia-sia sepenuhnya. Setidaknya dalam intervensi khusus dan misi berisiko tinggi, kinerjanya jauh lebih luar biasa dari dugaan orang-orang.\nMengingat hal ini, wajar saja kalau pelaksanaan lapangan berbagai misi rahasia pasukan ekspedisi dibebankan ke pundak Lohen.\nSalah satunya adalah sebuah misi rahasia dari pemimpin Jaringan Intelijen Utara saat ini.\nMenurut analisis intelijen, ada rumah lelang di bawah tanah yang memanfaatkan kekacauan sekarang dan aktif beroperasi di Nod-Krai. Mereka menjalankan bisnis penyelundupan dan menjual barang lelang yang berbahaya. Mereka bertindak dengan hati-hati, kemungkinan besar ada dukungan lain di balik layar. Kalau bisa diberantas, pasti bisa dipercaya Jaringan Intelijen Utara.\n\"Kami sama sekali tidak meragukan kekuatan tempur knight, tapi di kalau kode etik knight tidak berlaku di tempat itu, kekuatan tempur tidak saja tidak sepenuhnya sama dengan kekuatan sebenarnya.\"\nUntuk menghapus keraguan Jaringan Intelijen Utara, pasukan ekspedisi menyusun rencana yang lumayan aman:\nLohen diam-diam menangkap target yang sedang sendirian, lalu menginterogasi mereka untuk mengetahui waktu dan lokasi lelang. Setelah itu, dengan mengawasi, menyadap, dan memeriksa bertahap, dia akan melacak pihak-pihak terkait untuk menekan risiko hingga batas terkecil.\nDilihat dari sudut mana pun, ini misi yang cocok untuk Lohen. Penyusupan seorang diri, penangkapan yang akurat, langsung menuju inti. Tingkat kesulitannya tinggi, dan senyap.\nSayangnya, Nannina melewatkan satu hal: Bagi Lohen, rencana yang terlalu senyap juga sering berarti kurang menyeluruh.\nSebelum berangkat, Nannina juga khusus menyampaikan pesan dari Kardinal Seamus: \"Fokus pada misi, jangan buat masalah baru.\"\nMenanggapi hal ini, Lohen menjawab tegas: \"Tenang saja, aku mengerti kok.\"\nDan dia memang jelas mengerti.\nSetidaknya menurut pemahamannya sendiri, fokus misi ini dari awal sampai akhir hanya satu: Menunjukkan kekuatan Knights of Favonius kepada Jaringan Intelijen Utara.\n....\nBeberapa hari kemudian, di Mondstadt, di dalam ruang kerja Grand Master Knights of Favonius.\nSetelah Acting Grand Master Jean selesai membaca laporan operasi yang dikirimkan kembali oleh pasukan ekspedisi, dia mengambil pena dan menulis surat balasan untuk Varka:\n\"Mengenai operasi yang berkaitan dengan lelang bawah tanah kali ini, aku sudah mengetahui keseluruhan situasinya.\n\"Penilaian situasi Lohen di lapangan tetap efektif dan tegas. Dia sukses mengendalikan semua peserta di tempat kejadian, serta mencegah pertempuran menyebar ke Kota Nasha, sehingga pada akhirnya tidak ada korban sipil. Jika dilihat dari hasilnya saja, hal ini memang pantas disebut sebagai tindakan melindungi warga dan menjunjung tinggi kebaikan hati.\n\"Jika dilihat dari pencapaiannya, aku setuju dengan penilaianmu: Dia yang sekarang sudah memenuhi syarat untuk meneruskan jejak Tuan Adorno. Tindakannya sangat terukur ... setidaknya sampai dia menyusup ke markas musuh.\n\"Hanya saja, dengan segala hormat, tindakan muncul di tengah-tengah benteng musuh, memicu pertarungan, menerobos kepungan seorang diri, sampai menggantung barang rampasan demi pamer kekuatan, sama sekali bukan gaya Knights of Favonius yang biasa.\n\"Kalau kamu senggang, mohon pastikan untuk mengklarifikasi hal ini kepada pihak terkait di Jaringan Intelijen Utara.\""
+      },
+      {
+        "Title": "Perekam Komunikasi Serbaguna Semu",
+        "Context": "Mika selalu menata Perekam Komunikasi Serbaguna Semu miliknya dengan rapi.\nBukan cuma detail medan, lokasi penting, dan rute perjalanan rutin yang tercatat di dalamnya, kadang juga ditambahkan jejak aktivitas monster serta perkiraan area berbahaya.\nInformasi adalah dasar pergerakan pasukan. Namun, selain informasi, ada juga knight yang juga tertarik dengan perangkat itu sendiri.\nContohnya Lohen.\n\"Ini rumit sekali ya ya, dan kamu bisa pakai semahir itu?\" Setelah selesai menanyakan penyebaran musuh secara rutin, Lohen tiba-tiba memuji, \"Hebat.\"\nTiba-tiba mendapat pujian dari senior yang seumuran tetapi reputasinya jauh berbeda, selain gugup, Mika juga merasa sedikit terkejut, sekaligus senang.\nLohen banyak bertanya, dengan penuh antusias. Karena Mika juga jarang membahas perangkat pemetaannya sendiri dengan knight lain selain teknisi, jadi tanpa sadar, mereka mulai mengobrol dengan akrab.\n\"Hmm, dengan perangkat sekuat ini, kamu pasti tahu banyak area tempat musuh berkumpul, kan?\" \"Ngomong-ngomong, biasanya gimana cara kamu perbaiki perangkatnya? Ada suku cadangnya?\"\nJangan-jangan senior kecil yang \"terkenal\" ini ternyata tidak seseram rumor yang beredar?\nMika menjawab semua pertanyaan dengan antusias dan rinci, Lohen juga menyipitkan mata sambil mengangguk, diam-diam mencatat hal-hal yang ingin dia ketahui, dan mengabaikan hal-hal yang tidak diminatinya.\nSetelah mengobrol sesaat, Mika perlahan sadar kalau setiap area yang ditanyakan Lohen selalu menjadi jauh lebih sunyi beberapa hari kemudian.\nJika luka-luka baru yang sering bermunculan di tubuh Lohen dikaitkan dengan dirinya yang sering menghilang dalam waktu singkat, semua ini tidak bisa lagi dianggap sebagai sebuah \"kebetulan\". Mika langsung menarik kesimpulan yang meresahkan: hasil pemetaannya sendiri sedang dimanfaatkan oleh Lohen, dengan cara yang sangat berbahaya dan \"efisien\".\nDengan pertimbangan matang, Mika mulai menghapus beberapa titik kumpul monster yang tidak berhubungan dengan operasi pada cetak biru yang diberikan kepada Lohen. Dia juga semakin terbata-bata saat menghadapi pertanyaan Lohen.\n\"Eh ... penjelasan lebih lanjut sudah aku laporkan!\" \"L ... lebih baik kita ikuti komando Grand Master saja!\"\nMenghadapi Mika yang berusaha menghindar, Lohen tidak memaksa lebih lanjut. Dia hanya tersenyum penuh makna. Tatapannya sengaja atau tak sengaja tertuju pada perangkat pemetaan yang didekap erat Mika di depan dadanya.\nSejak saat itu, Mika menjadi lebih berhati-hati dalam menyimpan perangkatnya. Dia akan memastikan, apa bukunya sudah tersimpan dengan baik sebelum beranjak, memeriksa berulang kali apa jumlah halamannya lengkap waktu menyerahkan data, bahkan menoleh ke belakang setelah berjalan agak jauh, seolah khawatir ada orang di belakangnya yang sedang menatap buku itu.\nNamun meski begitu, pergerakan Lohen tetap tidak banyak terhambat. Seolah-olah dia sudah hafal betul informasi yang ingin disembunyikan Mika ... benar-benar seperti sulap.\nMika sama sekali tidak mengerti, hingga suatu ketika di pesta api unggun pasukan ekspedisi.\nEkbert bersikeras ingin menampilkan trik sulap Fontaine yang baru dipelajarinya untuk memeriahkan suasana, tapi karena terlalu mabuk, triknya malah terbongkar.\nDia tadinya mau menunjukkan trik \"penipuan besar-besar\", tapi tanpa sengaja, dia memperlihatkan dua kartu yang hampir sama persis di depan penonton.\nTrik sulapnya sebenarnya sederhana, dia diam-diam menggunakan kartu palsu yang telah disamarkan, membawa kartu asli yang dipilih penonton, lalu menggunakan kartu palsu itu untuk menarik perhatian penonton. Dalam jeda yang sangat singkat ini, dia memanipulasi kartu aslinya. Sayangnya, belum juga dimulai, triknya sudah berakhir.\nDi tengah gelak tawa seisi ruangan, entah kenapa Mika malah teringat pertanyaan yang pernah Lohen tanyakan dulu sekali.\n\"Ngomong-ngomong, biasanya gimana cara kamu perbaiki perangkatnya? Ada suku cadangnya?\"\nPada detik itu, beberapa detail mendadak jadi jelas: Persediaan suku cadang yang berkurang entah kenapa, halaman buku yang sesekali tidak bisa dibuka karena rusak ....\nMana mungkin ada orang yang baru kenal sebentar, tapi sudah mulai merencanakan cara untuk mengerjai rekan kerjanya?\nMasa ada orang yang di luarnya kelihatan antusias dan banyak tanya, tapi diam-diam malah merencanakan jahil?\nDan pastinya tidak mungkin ada orang yang memanfaatkan momen lengah sesaat untuk mengganti perangkat surveinya, menyalin informasi intelijen, lalu mengembalikan semuanya seperti semula ..., kan?\nSaat memikirkan hal ini, Mika tiba-tiba merasakan tatapan tajam, bagai burung kecil yang sedang diincar pemburu. Tapi saat mendongak, dia hanya melihat Lohen ikut tertawa lepas di tengah kerumunan, tanpa menatap ke arah siapa pun.\nTawa itu terdengar lepas, bahkan bisa dibilang tulus ... sama seperti saat pertama kali dia mengobrol dengan hangat bersama dirinya sendiri, tidak terlihat dibuat-buat."
+      },
+      {
+        "Title": "Vision",
+        "Context": "Kalau soal cara untuk mendapatkan \"kekuatan seorang kapten\", Lohen sudah lama memikirkannya matang-matang.\nTanpa diragukan lagi, seorang kapten seharusnya memiliki kekuatan untuk menghadapi monster kuat, juga mampu mengalahkan gerombolan besar pasukan musuh yang berdatangan bagaikan air pasang seorang diri.\nMemiliki daya hancur dan kekuatan, Varka memang begitu, dan sepertinya kapten termuda dalam sejarah Knights of Favonius juga begitu.\nTapi bagi Kompi ke-5 yang menggunakan serangan jarak jauh, daya hancur dan ketahanan sepertinya saling bertentangan.\nUntuk memiliki daya hancur yang kuat, kita butuh busur kuat dengan tarikan yang lebih berat, juga anak panah besar yang lebih berat dan daya tembus lebih tinggi.\nNamun, dia sendiri pun cuma bisa membawa sedikit saja anak panah berat. Setelah anak panahnya habis, dia harus langsung mundur ke barisan kedua untuk beristirahat dan mengisi ulang persediaan. Dampak dari taktik semacam ini jelas memengaruhi kemampuan tempur berkelanjutan.\nTerlebih lagi, Lohen memang tidak suka menjauhi garis depan dan mundur ke garis kedua. Bagaimanapun juga, berada di garis terdepan untuk menghadapi musuh langsung adalah pertempuran yang dia inginkan.\nLalu, apakah ada solusi lain? Knight muda itu tenggelam dalam pikirannya.\n\"Mungkin ... ini bukan hal mustahil.\"\nTanpa sengaja, Lohen sekilas menatap para knight yang sedang sibuk mempersiapkan upacara inspeksi latihan. Di samping mereka, ikatan tombak panjang seremonial tampak berkilauan, bagai anak panah raksasa yang sedang menunggu dipindahkan.\n\"Mungkin, kita bisa cari anak panah yang bisa diambil kembali berulang kali setelah ditembakkan?\"\n\"Mungkin, tidak harus ditembakkan juga?\"\n\"Lagi pula, dalam pertarungan jarak dekat, daya hancurnya mungkin akan lebih besar? Terus, mungkin rasa sakitnya juga bakal lebih kuat.\"\n....\nBelasan hari kemudian, latihan rutin Knights of Favonius diadakan sesuai jadwal. Namun, kali ini ada sedikit perbedaan. Sebuah tombak panjang menyusup ke dalam barisan Pasukan Jarak Jauh.\nTombak ini menerjang terlalu cepat, sehingga pengayunnya terjebak dalam kepungan berlapis-lapis.\n\"Grand Master, yakin masih ingin menugaskannya sebagai Wakil Ketua Kompi ke-5?\" Dari kejauhan, Kardinal Seamus yang sedang mengamati latihan melontarkan pertanyaan seperti ini.\n\"Hmm, tentu. Coba kamu lihat Lohen dan anggota pasukan jarak jauh lainnya, kerja sama mereka bagus, kan?\"\n\"Jujur, aku tidak melihat kerja sama, aku cuma melihat target hidup yang sangat mencolok. Semua musuh dan serangan jarak jauh pihak kita terpusat pada target ini.\"\n\"Haha! Tidak masalah, lihat saja, jelas sekali serangan Pasukan Jarak Jauh jadi lebih kuat! Lagian, sampai sekarang Lohen masih belum tumbang, berarti taktik pertempuran ini bagus sekali!\"\n\"Taktiknya bagus?!?\" Seamus sebenarnya ingin membantah seperti itu, tapi hasilnya terlalu cemerlang.\n....\nPada hari itu, keinginan semua orang terwujud. Atau lebih tepatnya, semua orang mendapatkan sesuatu.\nKompi ke-5 mendapatkan seorang wakil ketua, pasukan ekspedisi mendapatkan seorang \"Perwira Penekan Garis Depan\". Seamus yang sibuk mendapatkan satu hari \"Cuti Sakit Kepala Khusus\", sedangkan Varka mendapatkan sebuah \"Lelucon Seamus\" yang bisa dijadikan teman minum.\nSedangkan bagi Lohen, sejak hari itu, dia memperoleh cara bertarung dan gaya hidup yang baru. Juga sesuatu yang bisa sedikit berguna saat menjalankan misi ... sebutir \"manik kaca\"."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 212900,
+      "Name": "Frost-Forged Edge",
+      "Description": "Model pakaian Lohen. Dibandingkan dengan pakaiannya saat masih menjadi petualang, zirah besi knight-nya jelas terlihat jauh lebih megah. Tapi bagi Lohen, yang berubah hanyalah bobot peralatannya dan tatapan orang lain. Sementara yang tak berubah adalah tekadnya yang tajam untuk mengalahkan musuh, dan obsesinya untuk terus maju tanpa henti.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113085,
+    101272,
+    112013,
+    104306,
+    113073
+  ],
+  "NameCard": {
+    "Name": "Lohen: Benevolence",
+    "Description": "Style Kartu Nama.\nSepertinya \"welas asih\" adalah kata sifat yang paling jauh dari diri Lohen di seluruh dunia. Namun, bahkan duri yang paling tajam pun tumbuh dari tanah yang lembut.",
+    "Icon": "UI_NameCardIcon_Lohen",
+    "PicturePrefix": "UI_NameCardPic_Lohen"
+  }
+}

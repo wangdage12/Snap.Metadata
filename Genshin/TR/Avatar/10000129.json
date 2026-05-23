@@ -1,0 +1,1408 @@
+{
+  "Id": 10000129,
+  "PromoteId": 129,
+  "Sort": 117,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Lohen",
+  "SideIcon": "UI_AvatarIcon_Side_Lohen",
+  "Name": "Lohen",
+  "Description": "Favonius Şövalyeleri Atış Bölüğü Yüzbaşı Vekili. Alışılmadık yaklaşımı ve sıra dışı taktiklere olan düşkünlüğüyle bilinen bir şövalye.",
+  "BeginTime": "2026-06-09T18:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1000.986,
+    "AttackBase": 26.8128,
+    "DefenseBase": 61.0266
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 12931,
+        "Proud": {
+          "Descriptions": [
+            "1 Vuruş Hasarı|{param1:F1P}",
+            "2 Vuruş Hasarı|{param2:F1P}",
+            "3 Vuruş Hasarı|{param3:F1P}x3",
+            "4 Vuruş Hasarı|{param4:F1P}",
+            "5 Vuruş Hasarı|{param5:F1P}+{param6:F1P}",
+            "Yüklü Saldırı Hasarı|{param7:F1P}x2",
+            "Yüklü Saldırı Dayanıklılık Maliyeti|{param8:F1}",
+            "Havadan Saldırı Hasarı|{param9:F1P}",
+            "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293101,
+              "Level": 1,
+              "Parameters": [
+                0.539917,
+                0.564427,
+                0.254199,
+                0.752259,
+                0.368579,
+                0.552868,
+                0.65876,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1293102,
+              "Level": 2,
+              "Parameters": [
+                0.583863,
+                0.610368,
+                0.274889,
+                0.81349,
+                0.398579,
+                0.597869,
+                0.71238,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1293103,
+              "Level": 3,
+              "Parameters": [
+                0.62781,
+                0.65631,
+                0.29558,
+                0.87472,
+                0.42858,
+                0.64287,
+                0.766,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1293104,
+              "Level": 4,
+              "Parameters": [
+                0.690591,
+                0.721941,
+                0.325138,
+                0.962192,
+                0.471438,
+                0.707157,
+                0.8426,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1293105,
+              "Level": 5,
+              "Parameters": [
+                0.734538,
+                0.767883,
+                0.345829,
+                1.023422,
+                0.501439,
+                0.752158,
+                0.89622,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1293106,
+              "Level": 6,
+              "Parameters": [
+                0.784763,
+                0.820387,
+                0.369475,
+                1.0934,
+                0.535725,
+                0.803588,
+                0.9575,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1293107,
+              "Level": 7,
+              "Parameters": [
+                0.853822,
+                0.892582,
+                0.401989,
+                1.189619,
+                0.582869,
+                0.874303,
+                1.04176,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1293108,
+              "Level": 8,
+              "Parameters": [
+                0.922881,
+                0.964776,
+                0.434503,
+                1.285838,
+                0.630013,
+                0.945019,
+                1.12602,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1293109,
+              "Level": 9,
+              "Parameters": [
+                0.99194,
+                1.03697,
+                0.467016,
+                1.382058,
+                0.677156,
+                1.015735,
+                1.21028,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1293110,
+              "Level": 10,
+              "Parameters": [
+                1.067277,
+                1.115727,
+                0.502486,
+                1.487024,
+                0.728586,
+                1.092879,
+                1.3022,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1293111,
+              "Level": 11,
+              "Parameters": [
+                1.142614,
+                1.194484,
+                0.537956,
+                1.59199,
+                0.780016,
+                1.170023,
+                1.39412,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1293112,
+              "Level": 12,
+              "Parameters": [
+                1.217951,
+                1.273241,
+                0.573425,
+                1.696957,
+                0.831445,
+                1.247168,
+                1.48604,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1293113,
+              "Level": 13,
+              "Parameters": [
+                1.293289,
+                1.351999,
+                0.608895,
+                1.801923,
+                0.882875,
+                1.324312,
+                1.57796,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1293114,
+              "Level": 14,
+              "Parameters": [
+                1.368626,
+                1.430756,
+                0.644364,
+                1.90689,
+                0.934304,
+                1.401457,
+                1.66988,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1293115,
+              "Level": 15,
+              "Parameters": [
+                1.443963,
+                1.509513,
+                0.679834,
+                2.011856,
+                0.985734,
+                1.478601,
+                1.7618,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11291,
+        "Name": "Favonius Mızrağı - Bozulan Yemin",
+        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 5 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcar ve ileri doğru atılarak bir vuruş yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 12932,
+        "Proud": {
+          "Descriptions": [
+            "1 Vuruş Hasarı|{param1:F1P}",
+            "2 Vuruş Hasarı|{param2:F1P}",
+            "3 Vuruş Hasarı|{param3:F1P}x3",
+            "4 Vuruş Hasarı|{param4:F1P}",
+            "5 Vuruş Hasarı|{param5:F1P}+{param6:F1P}",
+            "Yüklü Saldırı Hasarı|{param7:F1P}x2",
+            "Yüklü Saldırı Dayanıklılık Maliyeti|{param8:F1}",
+            "Havadan Saldırı Hasarı|{param9:F1P}",
+            "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param10:P}/{param11:P}",
+            "Usta Vuruş|{param12:F1}sn",
+            "İliğe ve Ruha Kazınmış Hasarı|{param17:F1P}x4",
+            "Kazanma Arzusu Kaynaklı Hasar Artışı|{param18:F2P}/Puan",
+            "BS|{param19:F1}sn"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293201,
+              "Level": 1,
+              "Parameters": [
+                0.809875,
+                0.84664,
+                0.381298,
+                1.128389,
+                0.552868,
+                0.829302,
+                0.98814,
+                10,
+                0.639324,
+                1.278377,
+                1.596762,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.6,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293202,
+              "Level": 2,
+              "Parameters": [
+                0.875795,
+                0.915552,
+                0.412334,
+                1.220234,
+                0.597869,
+                0.896804,
+                1.06857,
+                10,
+                0.691362,
+                1.382431,
+                1.726731,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.645,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293203,
+              "Level": 3,
+              "Parameters": [
+                0.941715,
+                0.984465,
+                0.44337,
+                1.31208,
+                0.64287,
+                0.964305,
+                1.149,
+                10,
+                0.7434,
+                1.486485,
+                1.8567,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.69,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293204,
+              "Level": 4,
+              "Parameters": [
+                1.035887,
+                1.082912,
+                0.487707,
+                1.443288,
+                0.707157,
+                1.060736,
+                1.2639,
+                10,
+                0.81774,
+                1.635134,
+                2.04237,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.75,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293205,
+              "Level": 5,
+              "Parameters": [
+                1.101807,
+                1.151824,
+                0.518743,
+                1.535134,
+                0.752158,
+                1.128237,
+                1.34433,
+                10,
+                0.869778,
+                1.739187,
+                2.172339,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.795,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293206,
+              "Level": 6,
+              "Parameters": [
+                1.177144,
+                1.230581,
+                0.554212,
+                1.6401,
+                0.803588,
+                1.205381,
+                1.43625,
+                10,
+                0.92925,
+                1.858106,
+                2.320875,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.84,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293207,
+              "Level": 7,
+              "Parameters": [
+                1.280732,
+                1.338872,
+                0.602983,
+                1.784429,
+                0.874303,
+                1.311455,
+                1.56264,
+                10,
+                1.011024,
+                2.02162,
+                2.525112,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.9,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293208,
+              "Level": 8,
+              "Parameters": [
+                1.384321,
+                1.447164,
+                0.651754,
+                1.928758,
+                0.945019,
+                1.417528,
+                1.68903,
+                10,
+                1.092798,
+                2.185133,
+                2.729349,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.96,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293209,
+              "Level": 9,
+              "Parameters": [
+                1.48791,
+                1.555455,
+                0.700525,
+                2.073086,
+                1.015735,
+                1.523602,
+                1.81542,
+                10,
+                1.174572,
+                2.348646,
+                2.933586,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.02,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293210,
+              "Level": 10,
+              "Parameters": [
+                1.600915,
+                1.67359,
+                0.753729,
+                2.230536,
+                1.092879,
+                1.639319,
+                1.9533,
+                10,
+                1.26378,
+                2.527025,
+                3.15639,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.08,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293211,
+              "Level": 11,
+              "Parameters": [
+                1.713921,
+                1.791726,
+                0.806933,
+                2.387986,
+                1.170023,
+                1.755035,
+                2.09118,
+                10,
+                1.352988,
+                2.705403,
+                3.379194,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.14,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293212,
+              "Level": 12,
+              "Parameters": [
+                1.826927,
+                1.909862,
+                0.860138,
+                2.545435,
+                1.247168,
+                1.870752,
+                2.22906,
+                10,
+                1.442196,
+                2.883781,
+                3.601998,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.2,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293213,
+              "Level": 13,
+              "Parameters": [
+                1.939933,
+                2.027998,
+                0.913342,
+                2.702885,
+                1.324312,
+                1.986468,
+                2.36694,
+                10,
+                1.531404,
+                3.062159,
+                3.824802,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.275,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293214,
+              "Level": 14,
+              "Parameters": [
+                2.052939,
+                2.146134,
+                0.966547,
+                2.860334,
+                1.401457,
+                2.102185,
+                2.50482,
+                10,
+                1.620612,
+                3.240537,
+                4.047606,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.35,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293215,
+              "Level": 15,
+              "Parameters": [
+                2.165944,
+                2.264269,
+                1.019751,
+                3.017784,
+                1.478601,
+                2.217901,
+                2.6427,
+                10,
+                1.70982,
+                3.418915,
+                4.27041,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.425,
+                0.004,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11292,
+        "Name": "Öngörülmez Darbe",
+        "Description": "Lohen, düşmanın zayıf noktasını ararken {LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} moduna geçer. Bu moddayken:\n·Lohen aktif olarak {LINK#N11290003}<color=#FFD780FF>Haz</color>{/LINK} kademeleri biriktirebilir ve bu kademeleri harcayarak {LINK#N11290002}<color=#FFD780FF>İliğe ve Ruha Kazınmış</color>{/LINK} özel Element Becerisini kullanabilir.\n·Yakındaki grup üyeleri Lohen için {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} biriktirerek <color=#FFD780FF>İliğe ve Ruha Kazınmış</color> özel Element Becerisinin verdiği Hasarı artırabilir.\nLohen <color=#FFD780FF>Usta Vuruş</color> modundayken <color=#FFD780FF>İliğe ve Ruha Kazınmış</color> becerisini en fazla 3 defa kullanabilir, sonrasında artık <color=#FFD780FF>Haz</color> biriktiremez.\n\n<i>\"Şövalyelik ruhu mu? Haha, tuzak kurmak için daha iyi bir yem mi var? Onurlu bir zafer hayali kuran bir düşmanın aklına onu bekleyen 'hoş sürprizden' şüphelenmek gelmez.\"</i>",
+        "Icon": "Skill_S_Lohen_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 12951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1295101,
+              "Level": 1,
+              "Parameters": [
+                0.5,
+                0.4,
+                6
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1295101,
+        "Name": "Cadının Gece Ayini: Şifa Bulmaz Diken",
+        "Description": "<color=#FFD780FF>Cadının Ödevi: Farklı Düşmanlara İlişkin</color> tamamlandıktan sonra Lohen bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n{LINK#N11290002}<color=#FFD780FF>İliğe ve Ruha Kazınmış</color>{/LINK} özel Element Becerisi bir düşmana isabet ettiğinde ya da <color=#FFD780FF>Yargının Tecellisi</color> Element Patlaması kullanıldığında Lohen'in {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} değeri maksimum sınırının %50'si veya daha fazlasına ulaşmışsa 6 saniyeliğine Normal Saldırı Hasarı ve Yüklü Saldırı Hasarı %40 artar.",
+        "Icon": "UI_Talent_S_Lohen_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 12939,
+      "Proud": {
+        "Descriptions": [
+          "Beceri Hasarı|{param1:F1P}x6",
+          "Kazanma Arzusu Kaynaklı Hasar Artışı|{param2:F2P}/Puan",
+          "BS|{param3:F1}sn",
+          "Enerji Maliyeti|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1293901,
+            "Level": 1,
+            "Parameters": [
+              1.188,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293902,
+            "Level": 2,
+            "Parameters": [
+              1.2771,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293903,
+            "Level": 3,
+            "Parameters": [
+              1.3662,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293904,
+            "Level": 4,
+            "Parameters": [
+              1.485,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293905,
+            "Level": 5,
+            "Parameters": [
+              1.5741,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293906,
+            "Level": 6,
+            "Parameters": [
+              1.6632,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293907,
+            "Level": 7,
+            "Parameters": [
+              1.782,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293908,
+            "Level": 8,
+            "Parameters": [
+              1.9008,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293909,
+            "Level": 9,
+            "Parameters": [
+              2.0196,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293910,
+            "Level": 10,
+            "Parameters": [
+              2.1384,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293911,
+            "Level": 11,
+            "Parameters": [
+              2.2572,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293912,
+            "Level": 12,
+            "Parameters": [
+              2.376,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293913,
+            "Level": 13,
+            "Parameters": [
+              2.5245,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293914,
+            "Level": 14,
+            "Parameters": [
+              2.673,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293915,
+            "Level": 15,
+            "Parameters": [
+              2.8215,
+              0.004,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11295,
+      "Name": "Yargının Tecellisi",
+      "Description": "Tüm {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusunu</color>{/LINK} tüketip ileri doğru seri ve hızlı vuruşlar yaparak <color=#99FFFFFF>Buz Hasarı</color> verir. Bu Hasar, tüketilen <color=#FFD780FF>Kazanma Arzusu</color> miktarına göre artar. Eğer Lohen bunu gerçekleştirirken {LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundaysa <color=#FFD780FF>Usta Vuruş</color> süresi 1,65sn uzar.\n\n<i>\"Hemen pes mi ediyorsun? Tüh, ben daha yeni başlıyordum...\"</i>",
+      "Icon": "Skill_E_Lohen_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 12921,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292101,
+              "Level": 1,
+              "Parameters": [
+                30,
+                60
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292101,
+        "Name": "Sorgulama Yasağı",
+        "Description": "Lohen {LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundayken yakındaki grup üyeleri Hasar vererek {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} biriktirdiğinde, verilen Hasar Lohen'in Temel Saldırısının %3.000'inden düşük değilse fazladan 60 <color=#FFD780FF>Kazanma Arzusu</color> birikir.",
+        "Icon": "UI_Talent_S_Lohen_05"
+      },
+      {
+        "GroupId": 12922,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292201,
+              "Level": 1,
+              "Parameters": [
+                0.15,
+                0.15,
+                8
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292201,
+        "Name": "Laubali Şaheser",
+        "Description": "{LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundayken, yakındaki başka bir grup üyesi bir <color=#99FFFFFF>Buz Tepkimesi</color> tetikledikten sonra 8 saniyeliğine o karakterin Saldırısı ve Lohen'in Saldırısı %15 artar.",
+        "Icon": "UI_Talent_S_Lohen_06"
+      },
+      {
+        "GroupId": 12923,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292301,
+              "Level": 1,
+              "Parameters": [
+                9,
+                6,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1292301,
+        "Name": "Keyfime Göre",
+        "Description": "Lohen, <color=#FFD780FF>Öngörülmez Darbe</color> Element Becerisini kullandıktan sonra 9 saniyeliğine \"Yüksek Moral\" etkisi kazanır: <color=#FFD780FF>Öngörülmez Darbe</color> Becerisinin seviyesi 1 artar.\nBir Element Becerisi kullanırken eğer grubun diğer üyelerinden herhangi birinin Normal Saldırı, Element Becerisi veya Element Patlaması seviyesi, Lohen'in Element Becerisi seviyesinden düşük değilse mevcut Yüksek Moral etkisinin süresi 6 saniye uzar.\nYüksek Moral etkisi 18 saniyede bir kazanılabilir.",
+        "Icon": "UI_Talent_S_Lohen_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1291,
+        "Name": "Hüzünlü Şarkılar Taşıyan Rüzgarlar",
+        "Description": "Lohen'in maksimum {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} sınırı orijinal değerinin %300'üne yükselir.\nAyrıca Lohen {LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundayken yakındaki diğer grup üyeleri Hasar verdiğinde, Lohen için %500 oranında <color=#FFD780FF>Kazanma Arzusu</color> biriktirirler.",
+        "Icon": "UI_Talent_S_Lohen_01"
+      },
+      {
+        "Id": 1292,
+        "Name": "Vururum Her Havada Uçanı",
+        "Description": "{LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundayken {LINK#N11290002}<color=#FFD780FF>İliğe ve Ruha Kazınmış</color>{/LINK} özel Element Becerisi bir düşmana isabet ettiğinde ya da <color=#FFD780FF>Yargının Tecellisi</color> Element Patlaması kullanıldığında Lohen 4 saniyeliğine \"Şer Kovan Kılıç\" etkisi kazanır: Lohen, Usta Vuruş modundayken düşmana Normal veya Yüklü Saldırı ile vurduğu bir sonraki seferde Saldırısının %500'ü kadar <color=#99FFFFFF>Buz Alan Hasarı</color> veren ek bir saldırı gerçekleştirir ve 8 saniyeliğine yakındaki diğer grup üyelerinin Element Ustalığını 200 artırır. Şer Kovan Kılıç etkisi her 4 saniyede bir tetiklenebilir.",
+        "Icon": "UI_Talent_S_Lohen_02"
+      },
+      {
+        "Id": 1293,
+        "Name": "Yaralayan Mızrak İyileştirebilir Ancak",
+        "Description": "<color=#FFD780FF>{LINK#S11292}Öngörülmez Darbe{/LINK}</color> seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
+        "Icon": "UI_Talent_U_Lohen_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1294,
+        "Name": "Parlak Sevgi, Kahkahadan Ölüm",
+        "Description": "{LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modundayken Lohen <color=#FFD780FF>Yargının Tecellisi</color> Element Patlamasını kullandığında {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} değeri maksimum miktara ulaşır ve bu seferki Element Patlaması maksimum Hasar artışı kazandırır.\n\nBuna ek olarak Lohen, <color=#FFD780FF>Usta Vuruş</color> moduna geçtiğinde sahip olduğu Element Enerjisi miktarına bağlı olarak aşağıdaki etkiler meydana gelir:\n·Element Enerjisi dolu değilken Lohen, 15 Element Enerjisi yeniler.\n·Element Enerjisi doluyken Lohen 15 saniye içinde <color=#FFD780FF>Yargının Tecellisi</color> Element Patlamasını kullanırsa 15 Element Enerjisi yeniler.",
+        "Icon": "UI_Talent_S_Lohen_03"
+      },
+      {
+        "Id": 1295,
+        "Name": "Ne Sor Ne Öğren",
+        "Description": "<color=#FFD780FF>{LINK#S11295}Yargının Tecellisi{/LINK}</color> seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
+        "Icon": "UI_Talent_U_Lohen_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1296,
+        "Name": "Boğulmak, Batmak ve Kendinden Geçmek, İşte Budur En Yüce Haz!",
+        "Description": "Özel Element Becerisi {LINK#N11290002}<color=#FFD780FF>İliğe ve Ruha Kazınmış</color>{/LINK} kullanıldığında ve bir düşmana isabet ettiğinde veya {LINK#N11290001}<color=#FFD780FF>Usta Vuruş</color>{/LINK} modu etkinken <color=#FFD780FF>Yargının Tecellisi</color> Element Patlamasını kullanmak {LINK#N11290004}<color=#FFD780FF>Kazanma Arzusu</color>{/LINK} tüketmez. Bunun yerine Lohen'in {LINK#N11290003}<color=#FFD780FF>Haz</color>{/LINK} puanı tamamen dolar ve bir sonraki <color=#FFD780FF>İliğe ve Ruha Kazınmış</color> özel Element Becerisi bir düşmana isabet ederse <color=#FFD780FF>Usta Vuruş</color> süresi 1,25sn uzar. Bu etki 7 saniyede bir tetiklenebilir.\nAyrıca, yukarıda bahsi geçen tüm Hasarlar için Kritik Hasar %175 artar, Lohen'in bu <color=#FFD780FF>Usta Vuruş</color> sırasında kullanabileceği <color=#FFD780FF>İliğe ve Ruha Kazınmış</color> sayısı ise 2 artar.",
+        "Icon": "UI_Talent_S_Lohen_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Keskin Ok Ucu",
+    "Detail": "Favonius Şövalyeleri Atış Bölüğü Yüzbaşı Vekili. Alışılmadık yaklaşımı ve sıra dışı taktiklere olan düşkünlüğüyle bilinen bir şövalye.",
+    "Association": 1,
+    "Native": "Favonius Şövalyeleri",
+    "BirthMonth": 4,
+    "BirthDay": 3,
+    "VisionBefore": "Buz",
+    "VisionOverrideUnlocked": "Önsezi",
+    "ConstellationBefore": "Kurnaz Tavşan",
+    "CvChinese": "林婧南",
+    "CvJapanese": "天﨑滉平",
+    "CvEnglish": "Nick Wolfhard",
+    "CvKorean": "Lee Sang-ho",
+    "CookBonus": {
+      "OriginItemId": 108971,
+      "ItemId": 108975,
+      "InputList": [
+        100016,
+        100022,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Merhaba",
+        "Context": "Tanıştığıma memnun oldum, ben 5. Bölük Yüzbaşı Vekili Lohen. Favonius Şövalyelerinin yardımına ihtiyacın varsa lütfen talebini karargaha ilet. Ha eğer benden bir şey istiyorsan seni dinliyorum."
+      },
+      {
+        "Title": "Sohbet: Yüzbaşı Vekilliği",
+        "Context": "Yüzbaşı olmak için yüzbaşı seviyesinde güce sahip olmaktan daha fazlası gerekir. Bunlardan en önemlisi ise... Hehe, bilmiyorum ki. Bilsem şimdiye yüzbaşı olmuştum zaten."
+      },
+      {
+        "Title": "Sohbet: Rüzgarın Döndüğü Yer",
+        "Context": "Oh, Mondstadt gerçekten de yaşanılacak yer. Elma Şırası içmek için sabırsızlanıyorum..."
+      },
+      {
+        "Title": "Sohbet: İlişkiler",
+        "Context": "Diğer Şövalyelerle nasıl mı anlaşıyorum? Hımm... Akılda kalıcı bir izlenim bıraktığıma eminim. Bu iyi bir şeydir herhalde, değil mi?"
+      },
+      {
+        "Title": "Yağmur Yağdığında",
+        "Context": "Hım, yağmur şiddetleniyor. Kim bilir sel neleri sürükleyip götürecek?"
+      },
+      {
+        "Title": "Yağmurdan Sonra",
+        "Context": "Hava açıyor. Sanki hiç sağanak yağmamış gibi."
+      },
+      {
+        "Title": "Yıldırım Düştüğünde",
+        "Context": "Gök gürültüsü birçok şeyi bastırır ama kalp atışlarını asla."
+      },
+      {
+        "Title": "Kar Yağdığında",
+        "Context": "Kedi Kuyruğu gibisi yok... Özellikle de böyle havalarda."
+      },
+      {
+        "Title": "Rüzgar Estiğinde",
+        "Context": "Vay canına, rüzgar hızlandı... Yazık, etrafta hiç karahindiba yok. Sanırım bunun yerine biraz kağıt yırtmamız gerekecek, ne dersin?"
+      },
+      {
+        "Title": "Çölde",
+        "Context": "İşte böyle zamanlarda Berrak Göl'ü gerçekten özlüyorum."
+      },
+      {
+        "Title": "Günaydın",
+        "Context": "Günaydın. Bugünkü plan nedir?"
+      },
+      {
+        "Title": "İyi Günler",
+        "Context": "Öğle yemeği molası mı verdin? Güzel, öğleden sonra yapacak işlerimiz var."
+      },
+      {
+        "Title": "İyi Akşamlar",
+        "Context": "Bu akşam... Hımm. Birliklere bir sürpriz saldırı talimi yaptıralım."
+      },
+      {
+        "Title": "İyi Geceler",
+        "Context": "İyi geceler. Biraz dinlensen iyi olur, çünkü istesen de istemesen de yarın gelecek."
+      },
+      {
+        "Title": "Lohen Hakkında: Acının Tadını Çıkarmak",
+        "Context": "Ağrı kesici almamaya çalışıyorum, savaşmayı zorlaştırıyor. Ayrıca... Heh, acı hissinden hoşlanıyorum aslında. Hiçbir şey hissetmeyen düşmanlarımın aksine, bana hayatta olduğumu hatırlatıyor."
+      },
+      {
+        "Title": "Lohen Hakkında: Güç ve Bahaneler",
+        "Context": "Bazıları için güç, elverişli bir bahanedir. Onlara başarısızlıkları için bir sebep, korkuları için bir mazeret sunar... Belki de bir hedefe sahip olmak insanlara gerçekten de tuhaf bir güven hissi veriyordur. Güvendiklerinin arkasına çok daha korkunç bir gölge saklanmış olsa bile..."
+      },
+      {
+        "Title": "Hakkımızda: Dövüş Stili",
+        "Context": "Dövüş stilim mi? Hahahaha, daha basit olamazdı! Lideri bul, onunla savaşa gir ve kazananı olabildiğince çabuk belirle. Diğer şövalyeler artık buna alışmış olmalı. Ama alışmadılarsa da ne fark eder?"
+      },
+      {
+        "Title": "Hakkımızda: Görevin Anlamı",
+        "Context": "Gördüğün gibi ben Yüzbaşı Vekili oldum, o ahmak Theodore da hak ettiğini buldu. Yine de yetenekleri faydalı olacaktır. Günahlarının kefaretini ödedikten sonra onu 5. Bölüğe geri getirmeyi planlıyorum. Subay olarak değil tabii, er olarak hizmet verebilir. Gerçi tamamen güvenmek için henüz erken. Bu benim için de geçerli.\nBana güveniyor musun? Üstelik bunun arkasında duracak güce de sahipsin ha? Hahaha! Tam da Fahri Şövalyeden beklediğim gibi... Anlatıldığı kadar güvenilir birisin. 5. Bölüğe iyi bir yüzbaşı olurdun, eminim Varka'nın da bir itirazı olmazdı!"
+      },
+      {
+        "Title": "Önsezi Hakkında",
+        "Context": "Bu Önsezi sahada oldukça faydalı oldu. Ne yazık ki sadece dokunabildiğim canavarları öldürmeye yarıyor, içimdeki görünmez olanları değil."
+      },
+      {
+        "Title": "Paylaşılacak Bir Bilgi",
+        "Context": "Ha, ben içki içmem. Alkolü yalnızca yaralarımı dezenfekte etsin diye kullanıyorum. Bu bakımdan Şafak Şaraphanesinin yıllanmış Karahindiba Şarabı, hem dezenfektan özelliği hem de verdiği o tatlı sızıyla en etkili olandır. Üstelik bunu diğerlerinin üzerinde kullandığımda nasıl kıvrandıklarını görebiliyorum. En eğlencelisi de Varka'yı izlemek. Hehehe!"
+      },
+      {
+        "Title": "İlginç Şeyler",
+        "Context": "Eskiden karahindibaya alerjim vardı ama sonra Sucrose bana \"duyarsızlaştırma terapisinden\" bahsetti. Odamı karahindibalarla doldurdum ve bazen derin nefes alıp vermeye çalıştım. İşe yaradı mı diye sorarsan şu kadarını söyleyeyim, artık karahindibaların yanında hapşırmıyorum. Ama itiraf etmeliyim ki başım dönene kadar hapşırdığım zamanki hissi biraz özlüyorum..."
+      },
+      {
+        "Title": "Varka Hakkında: İlaca Karşı Direnç",
+        "Context": "Varka'nın ilaçlara karşı direnci gün geçtikçe artıyor. Birkaç gün önce onun için hazırladığım karışım anca yanaklarına renk vermeye yetti. İçtikten sonra bana ters ters bakmasaydı içine ilaç koyduğumdan bile şüphe edecektim. *iç çeker*... Keşke hâlâ Nod-Krai'de olsaydık da içine o Kuuvahki bitkilerinden biraz katabilseydim..."
+      },
+      {
+        "Title": "Varka Hakkında: Büyük Kumandanın Görevleri",
+        "Context": "Büyük Kumandanın görevleri mi? Varka'dan bahsediyorsak genellikle insanlara savaşta liderlik etmek anlamına geliyor. Geri kalan her şey Jean'e yıkılıyor, haha. Düşmanları öldürüp yok edebilirsin ancak evrak işleri... Evrak işleri asla ölmez."
+      },
+      {
+        "Title": "Jean Hakkında",
+        "Context": "Sırf Büyük Kumandan Vekili Mondstadt'ta kaldığı için \"asıl\" Büyük Kumandan Nod-Krai'a öyle rahatça çekip gidebildi. Artık geri döndüğüne göre... Muhtemelen yine kendi bildiğini okumaya devam edecektir. Pek bir şeyin değişeceğini sanmıyorum."
+      },
+      {
+        "Title": "Kaeya Hakkında",
+        "Context": "Kaeya'nın diğer Yüzbaşıların imzalarını taklit edebilmek gibi müthiş bir yeteneği var, özellikle de Jean'inkini. Hatta attığı sahte imzalar o kadar iyi ki gerçeğinden ayırt etmek neredeyse imkansız. Kaeya bunu sadece kendi izin belgelerini onaylamak için yaptığını söylüyor. Şahsen ben doğruyu söylediğini düşünüyorum, sonuçta o fazlasıyla ahlaklı biri, haha."
+      },
+      {
+        "Title": "Amber Hakkında",
+        "Context": "Amber gidip Büyük Kumandan Vekili Jean ile konuşmuş. Resmi olarak Kaşif sayılmayacak olsalar da birkaç keşif görevlisinin kendisine yardımcı olmasını istemiş. Bu kutlamaya değer bir haber, artık Mondstadt semalarında tek başına uçup durmak zorunda kalmayacak. Gerçi düşününce uçuş ehliyeti sınavı da biraz demode kalmış gibi... Belki onun da güncellenme vakti gelmiştir."
+      },
+      {
+        "Title": "Diluc Hakkında",
+        "Context": "Diluc... Düşününce aslında ikimiz de aynı alçağın kurbanı olduk. Ama artık bu hesaplar kapandığına göre, Favonius Şövalyelerine gerçekten bir daha hiç dönmeyecek mi? Tekrar en genç yüzbaşı olması mümkün değil tabii ama en yaşlı şövalye olarak şansını deneyebilir bence."
+      },
+      {
+        "Title": "Noelle Hakkında",
+        "Context": "Noelle hâlâ resmi bir Şövalye olamadı demek. Ne kadar zaman geçti yahu? Seçme imtihanlarını kesin geçmiştir sanıyordum... Yoksa Varka sırf ona özel bir imtihan falan mı hazırladı? O kadar eğitimden sonra şövalyelik unvanı öyle uzun bir şey olmalı ki harcadığı emeğe değsin..."
+      },
+      {
+        "Title": "Eula Hakkında",
+        "Context": "Eula'nın en dikkat çeken özelliği, etrafta dolanırken çizmelerinin çıkardığı sestir. Acelesi olduğunda o \"tak tak tak\" sesleri bir kat yukarıdan duyulur. Tıpkı dövüş tarzı gibi gürültülü ve içe işleyen, unutulması imkansız bir izlenim bırakır."
+      },
+      {
+        "Title": "Albedo Hakkında",
+        "Context": "5. Bölüğün sarf malzemelerinin hepsi Albedo ve 8. Bölük tarafından geliştiriliyor. Arbalet oklarımız, mermilerimiz ve çeşitli simya malzemelerimizin hepsi en yüksek kalitededir. Bazen yeni silah araştırması planlarımla Albedo'nun ofisine uğrarım. Fakat son zamanlarda taleplerimi onun yerine Sucrose alıyor. Sanırım Albedo yine büyük bir şey üzerinde çalışıyor..."
+      },
+      {
+        "Title": "Klee Hakkında",
+        "Context": "Varka, Fatui Habercisi Yüzbaşı'nın bir Harabe Muhafızını sadece bir pastel boya kullanarak indirebileceğini söyledi. Ben de Klee'ye biraz abur cubur verip ondan bir kutu boya aldım. Bunları Varka'ya vereceğim, böylece bir daha canavarlarla karşılaştığında ne kadar güçlü silahlar olduğunu görebileceğiz."
+      },
+      {
+        "Title": "Mika Hakkında",
+        "Context": "Mika becerikli bir haritacı olabilir ama yalanları sezme konusunda ben daha iyiyim. Bir keresinde tek başıma dalacağımdan korktuğu için canavarların toplanma noktalarını bilerek eklemediği bir harita vermişti bana. Ama yüzüne şöyle bir bakmam canavarların tam olarak nerede olduğunu anlamama yetti işte. Sessizliğin beni engellemeye yeteceğini düşünmesine inanamıyorum."
+      },
+      {
+        "Title": "Lohen Hakkında Daha Fazlası: I",
+        "Context": "Hayal kırıklığına uğrattığım için özür dilerim ama başkalarıyla paylaşmaya değer derin, karanlık sırlarım yok."
+      },
+      {
+        "Title": "Lohen Hakkında Daha Fazlası: II",
+        "Context": "Mızrak kullanmayı tercih ediyorum ama sonuçta 5. Bölükte olduğumdan arbalet ve tüfek talimlerimi aksatmamaya özen gösteririm. Nişancılığıma gelirsek... Balon Çiçeklerini ve Bodurlopları vurmakta oldukça iyiyimdir. Pek nişan almama gerek kalmıyor. Inazuma'da Uçarlop diye vurması çok zor bir canavar varmış. Belki bir dahaki sefere nişancılığımı onların üzerinde denerim."
+      },
+      {
+        "Title": "Lohen Hakkında Daha Fazlası: III",
+        "Context": "5. Bölük mü? Sıradan bir menzilli destek takımıyız işte, öyle öne çıkan bir özelliğimiz yok. Sağlam bir ateş gücü ortaya koyabiliriz, ama... Karşımıza sıra dışı düşmanlar çıktığında en fazla yan cepheden koruma sağlayabiliriz. Tıpkı Ay Avcısı'nın önünü kesmek için Varka'nın peşinden gittiğimiz şu sefer gibi... Sonunda ana taarruz tamamen Büyük Kumandana bırakılmıştı, bize ise çevre savunması oluşturup Vahşi Avı uzak tutmamız emredilmişti. Rerir ile girdiği savaşa kapılıp bertaraf olmamamızın tek yolu buydu."
+      },
+      {
+        "Title": "Lohen Hakkında Daha Fazlası: IV",
+        "Context": "Mızrak kullanmakta neden mi ısrar ediyorum? Şöyle söyleyeyim... Savaş alanındaki en büyük yem, komutana en çok benzeyen kişidir. Düşmanın dikkatini üzerime çekip diğerlerinin rahatça ateş edebilmeleri için alan açabilirim. Tehlikeli düşmanlara gelince... Hahaha, işler ne kadar kızışırsa konsantre olmam o kadar kolaylaşıyor. O tam odaklanma hissi var ya, gerçekten uğrunda ölmeye değer... Ne yazık ki Nod-Krai'dan ayrıldığımdan beri kendimi gerçekten kaptırabildiğim savaş sayısı çok azaldı."
+      },
+      {
+        "Title": "Lohen Hakkında Daha Fazlası: V",
+        "Context": "Yakın mesafe dövüşten korkuyor muyum? Hah! Düşmanlarım kadar değil. Öyle kolay lokma değilimdir. Ayrıca sıhhiye arkada bekliyor... Ya düşmanın da sıhhiyesi varsa mı? Hımm, o zaman önce onları halletmem gerekir."
+      },
+      {
+        "Title": "Lohen'in Hobileri",
+        "Context": "Savaş alanındaki kıyımın verdiği heyecanı yaşamak dışında en sevdiğim meşgale, değerli silah arkadaşlarımın hayatlarını neşelendirmek için onlara küçük \"sürprizler\" hazırlamaktır. Bunu eğitimlerinin bir parçası olarak görüyorum, ne de olsa şövalyelerin her an tetikte olması gerek."
+      },
+      {
+        "Title": "Lohen'in Sorunları",
+        "Context": "Dornman Limanı'nda görev yaptığım o güzel günler geride kaldı. Artık Mondstadt'a döndüm ve söyleyebilirim ki Büyük Kumandan Vekili Jean, Büyük Kumandan Varka kadar rahat biri hiç değil. *iç çeker* Beni gönderebilecekleri başka bir saha görevi yok mu?"
+      },
+      {
+        "Title": "En Sevdiği Yemek",
+        "Context": "Acı yemekleri severim. Devriyeye çıktığımda dikkatimi toplamak için sık sık kurutulmuş Jueyun Acısı çiğnerim... Ne, onlara \"Jueyun Biberi\" mi deniyor? Öğrettiğin için sağ ol ama ben Jueyun Acısı demeye devam edeceğim sanırım..."
+      },
+      {
+        "Title": "En Sevmediği Yemek",
+        "Context": "İçki içme, tamam mı? Nod-Krai'da görevliyken sarhoş şövalyeler yüzünden uykumdan uyanıp dururdum... Gecenin sonunda ne içtiklerini bile anlayamıyorlardı, hatta onların içkilerini alıp yerine... Öhöm, neyse, unut bu söylediğimi."
+      },
+      {
+        "Title": "Hediye Alma: I",
+        "Context": "Oo! Teşekkür ederim, tam da sevdiğim tarzdaymış. Hatta o kadar benlik ki... Tercihlerimi gizlice araştırmış olmalısın! Ama sana kızmadım... Ne de olsa benim elimde de senin hakkında bir dosya var..."
+      },
+      {
+        "Title": "Hediye Alma: II",
+        "Context": "Eskiden yemekleri zehirlemeyi öğrenirken o kadar iyi bir seviyeye gelmiştim ki kimse hiçbir şeyden şüphelenmezdi... Ne, buna zehir mi kattın? Merak etme, zehre karşı toleransım çok yüksek. Hatta sanırım biraz daha yiyeceğim."
+      },
+      {
+        "Title": "Hediye Alma: III",
+        "Context": "... Bunun tuzak olduğu çok bariz, sanırım uzak duracağım. Bir dahaki sefere yemeği ben pişireyim, ne dersin?"
+      },
+      {
+        "Title": "Doğum Günü",
+        "Context": "Bugün senin doğum günün, bu yüzden sana bir mini arbalet aldım. Tasarımı bizzat bana ait. Bileğin için tam uygun boyutta olmalı... Bileğini ne zaman mı ölçtüm? Merak etme, göz kararı yaptım. Böyle şeyleri ölçme yeteneğime güvenebilirsin, ne de olsa 5. Bölük Yüzbaşı Vekiliyim. Aa doğru, biri arkandan sinsice yaklaşırsa diye bu arbalet geriye doğru da ateş edebiliyor. Sadece... Şuraya basman yeter. Hahaha, eğilmene gerek yok! Emniyet kilidi hâlâ devrede. Kendini vurmasını izlemek için arkadaşına arbalet hediye edecek birine mi benziyorum?"
+      },
+      {
+        "Title": "Yükseltme Hakkında: Giriş",
+        "Context": "Harika hissediyorum. Silahım bile daha hafif geliyor."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Gelişme",
+        "Context": "Sanki artık daha da uzağı görebiliyorum... Bu daha iyi nişan almamı sağlayacak."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Zirve",
+        "Context": "Sanki zihnim çok daha berraklaştı. Hah, aklıma yeni bir antrenman yöntemi geldi."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Sonuç",
+        "Context": "Sanırım artık \"düzgün\" bir yüzbaşı vekili olacak kadar kuvvetliyim, ha?"
+      },
+      {
+        "Title": "Element Becerisi: I",
+        "Context": "Hadi savaşalım!"
+      },
+      {
+        "Title": "Element Becerisi: II",
+        "Context": "Korkudan titrersen seni yargılamam."
+      },
+      {
+        "Title": "Element Becerisi: III",
+        "Context": "Taş üstünde taş bırakmayın!"
+      },
+      {
+        "Title": "Element Becerisi: IV",
+        "Context": "Bahse girerim buna hazır değildin!"
+      },
+      {
+        "Title": "Element Becerisi: V",
+        "Context": "İşte beklediğimiz fırsat!"
+      },
+      {
+        "Title": "Element Becerisi: VI",
+        "Context": "Hıh!"
+      },
+      {
+        "Title": "Element Patlaması: I",
+        "Context": "Kurbanlık koyun gibi."
+      },
+      {
+        "Title": "Element Patlaması: II",
+        "Context": "İstediğin kadar debelen!"
+      },
+      {
+        "Title": "Element Patlaması: III",
+        "Context": "Sana mutlu son yok!"
+      },
+      {
+        "Title": "Hazine Sandığı Açma: I",
+        "Context": "Ah, savaş ganimetleri. Bakalım içinde ne varmış."
+      },
+      {
+        "Title": "Hazine Sandığı Açma: II",
+        "Context": "Ufak bir ganimet... Yine de almamak ayıp olur."
+      },
+      {
+        "Title": "Hazine Sandığı Açma: III",
+        "Context": "Hım, tuzak yok, zehirli duman yok... Ne kadar yaratıcılıktan uzak."
+      },
+      {
+        "Title": "Düşük Can: I",
+        "Context": "Hah... Devam et!"
+      },
+      {
+        "Title": "Düşük Can: II",
+        "Context": "... Henüz bitmedi!"
+      },
+      {
+        "Title": "Düşük Can: III",
+        "Context": "... İşte tam bana göre bir rakip!"
+      },
+      {
+        "Title": "Düşük Canlı Takım Arkadaşı: I",
+        "Context": "Ayak uyduramıyorsan geri çekil!"
+      },
+      {
+        "Title": "Düşük Canlı Takım Arkadaşı: II",
+        "Context": "Benim sıram!"
+      },
+      {
+        "Title": "Yere Serilme: I",
+        "Context": "Demek... Sınırım buymuş..."
+      },
+      {
+        "Title": "Yere Serilme: II",
+        "Context": "Henüz doyasıya... Yaşayamadım..."
+      },
+      {
+        "Title": "Yere Serilme: III",
+        "Context": "Rüzgar... Söyle bana, neden..."
+      },
+      {
+        "Title": "Hafif Darbe Alma: I",
+        "Context": "Ucuz numaraydı."
+      },
+      {
+        "Title": "Hafif Darbe Alma: II",
+        "Context": "Hissetmedim bile."
+      },
+      {
+        "Title": "Ağır Darbe Alma: I",
+        "Context": "İçinde savaşma gücü varmış demek..."
+      },
+      {
+        "Title": "Ağır Darbe Alma: II",
+        "Context": "Heh!"
+      },
+      {
+        "Title": "Gruba Katılma: I",
+        "Context": "Harekete geçme zamanı."
+      },
+      {
+        "Title": "Gruba Katılma: II",
+        "Context": "Ön keşif mi? Hallederim."
+      },
+      {
+        "Title": "Gruba Katılma: III",
+        "Context": "Geri çekilin, ben sizi korurum."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Karakter Ayrıntıları",
+        "Context": "Keşif birliği daha eve dönüş yolculuğunun başındayken ozanlar çoktan yollara düşmüş, kahramanların hikayelerini hanlara yetiştirmişti bile.\nVarka gibi tanıdık isimlerin arasında bile \"Ön Cephe Bastırma Subayı\" unvanı, hem elde ettiği olağanüstü başarılar hem de bitmek bilmeyen muharebelerdeki cesareti sayesinde dilden dile dolaşmaya başlamıştı.\nAsıl görevi uzaktan saldırmak olan uzun menzilli bir birlik nasıl olur da her zaman kendini en ön saflarda, kılıçları hazır bir şekilde göğüs göğüse çarpışmaya atılır halde bulur?\nArbaletler ve tüfeklerle donanmış bir bölük, neden sadece mızrak taşıyan genç bir şövalyeyi takip eder?\nBöylesi çelişkiler doğal olarak soruları da beraberinde getirdi ve soruların olduğu yerde de çok geçmeden tartışmalar filizlendi.\nBazıları rahatsızlıklarını gizleyemiyordu: \"Sırf düşmana yaklaştılar diye menzilli saldırıları bir anda başarısız mı oluyor? Arbaletler ve tüfekler gerçekten bu kadar hantal mı?\"\nDiğerleri ise okçuların zaten en güçlü ve en seçkin askerler arasında yer aldığını, bu yüzden en iyi birimleri en tehlikeli ön saflara göndermenin gayet normal olduğunu söyleyerek durumu savundu.\nFakat sonunda tüm bu tartışmalar, olaya ilk elden tanıklık edenlerle konuşan ozanların topladığı hikayelerle son buldu:\n\"O, bölüğün en keskin mızrağıdır, her hattı yarıp geçer.\"\n\"O, bölüğün en güçlü kalkanıdır, her saldırıyı geri püskürtür...\"\nNe var ki ozanlar, bir kahramanlık hikayesi için fazla yavan kaldığından şövalyelerin sözlerinin devamını genelde es geçerdi:\n\"Doğrusunu söylemek gerekirse Yüzbaşı Vekili Lohen muhtemelen bunun işi halletmenin en hızlı yolu olduğunu düşünmüştür...\"\nEvet, onun hikayesinde şövalye masallarındaki şan ve şatafattan ya da kahramanlık destanlarındaki o nefes kesici olaylardan ve ters köşelerden eser yoktur.\nMızraklar, gizli oklar, pusular, zehir, sürpriz saldırılar, gizlice sızmalar...\nHangi silahların ya da taktiklerin daha güçlü olduğunu asla tartışmaz, bir dövüşü şan, utanç ya da kazanç ve kayıp açısından da değerlendirmez.\nHer yöntemin kendine has bir tadı vardır elbet ama verdiği o haz, zaferin ta kendisinin yanında gölgede kalır; hayata tutunmanın o çıplak gerçekliği karşısında esamesi bile okunmaz.\nZaferin anlamını düşünmek yalnızca ayakta kalan son kişinin hakkıdır. Hayatta kalmaktan söz etmek ise acıyı hâlâ hissedebilen son kişiye düşer.\nDövüş. Kazan. Hayatta kal. Bu döngü durmadan kendini tekrar eder...\nLohen'in hikayesi ve sürdüğü hayat işte böyledir."
+      },
+      {
+        "Title": "Karakter Hikayesi 1",
+        "Context": "Lohen'in hatırladığı ilk oyuncağı küçük ve esnek bir yaydı.\nHer zaman sert ve ciddi olan babası en iyi köknar ağacını özenle seçip yayı oymuş, titiz ve dikkatli annesi ise deriyi kesip kiriş yapmak için tekrar tekrar yoğurmuştu.\nBu sadece bir oyuncak olmasına rağmen ebeveynleri her zamanki yay yapma usullerine uyarak onu tek bir hata bile yapmadan tamamlamıştı.\nFakat babası, Lohen'in tüm umutlarına rağmen ona yayı germeyi ya da ok yerleştirmeyi öğretmedi.\nYapmasına izin verilen tek şey ebeveynlerini taklit etmekti: Yay kollarını kontrol etmek, cilalı yüzeyi yağlamak, kirişi mumlamak. Her gün aynı şeyleri tekrarlıyorlardı.\n\"Lohen, atalarımız bir zamanlar şöyle derdi: 'Yay, tutarlılık gerektiren bir alettir. Ailemiz nesillerdir yay üreterek geçimini sağlıyor. Haliyle bizim de bir yay gibi yaşamamız, attığımız her adımın mükemmel bir şekilde hizalı olmasını sağlamamız gerekir.'\"\nEbeveynleri bu dersi her sabah duaları sırasında tekrarlardı.\nGünleri istikrarlı rutinler, disiplinli çalışma ve huzurlu bir düzen içinde geçerdi.\nLohen'in ebeveynleri, o doğmadan önceki yirmi yılı aşkın süredir bu şekilde yaşamışlardı ve doğumundan sonraki on yılı aşkın bir süre boyunca da hiçbir şey bu düzeni bozmamıştı.\nİlk kelimelerini mırıldandığı andan yayları ve okları ustalıkla kullanabildiği zamana kadar, Lohen hayatının gidişatının çoktan gözlerinin önüne serildiğini hissetti. Belki de yaşlılıktan gözleri görmez olana ve ahşabın dokusunu seçemez hale gelene dek bu gidişatı takip edecek, günleri sakin ve değişmez bir rutin içinde sessizce tükenip gidecekti.\nAncak oklar, cephanelikte ne kadar dikkatli saklanırsa saklansın, yerinde durması için yapılmamıştır. Tıpkı bunun gibi, Lohen'in ehlileştirilmemiş doğası da asla sakin ve düzenli bir hayata hapsedilemezdi.\nKüçük Lohen ok ucunu bir kez daha parlattı; yansıyan o keskin ışıltının içinden, derinlerinde gizli bir kızıllık yanan kendi gözleri ona bakıyordu.\nOk, fırlatılmaya hazır şekilde bekliyordu...\nVe o an çok yakındı.\nSıradan bir günde Lohen her zamanki gibi yük arabasında oturuyor, bir siparişi teslim etmek için çıktıkları Mondstadt yolculuğunda babasına eşlik ediyordu.\nAncak o gün bu rutin yerini tehlikeye bırakmıştı; maskeli ve yetenekli bir grup haydut, kargolarını gözüne kestirmişti.\nBabası aceleyle Lohen'i üstü kapalı arabaya iterek kımıldamamasını ve ses çıkarmamasını tembihledi. Ardından ya haydutları uzaklaştırmak ya da nerede olurlarsa olsunlar Favonius Şövalyelerini çağırmak için bağırdı.\nAraba, taşı delebilecek kadar güçlü yaylar ve arbalet oklarıyla doluydu...\nBabası, yıllarca süren denemelerle bilenmiş usta bir okçu becerisine sahipti...\nYine de haydutlar belli etmeden onu oradan uzaklaştırmaya çalıştı...\nTüm bunlara rağmen, sakin ve düzenli bir hayatın getirdiği alışkanlık onu o kadar telaşlandırmıştı ki durumu sorgulamadı, hatta karşı koymayı bile düşünemedi.\nArabanın dışındaki kargaşa yavaşça dindi ve çok geçmeden perde aralandı, ancak dışarıda bekleyenler ne haydutları dağıtan babası ne de onu kurtarmaya gönderilen şövalyelerdi. Onun yerine, karşısında siyah elbiseli ve maskeli bir grup adam duruyordu.\nLohen tepki veremeden yakalandı. Demir gibi ellere karşı her tekmesi ve her çırpınışı faydasızdı.\nO anda Lohen, kimin tuzağına düştüğü veya nereye götürüldüğü hakkında hiçbir fikre sahip değildi.\nKüçük Lohen sıkışık ve karanlık hücrede sessizce oturmuş, öylece düşünüyordu.\nBabası yayıyla haydutlara karşı koysaydı bunların hiçbiri yaşanmazdı. Kendisi daha hızlı ve daha dikkatli olsaydı belki yakalanmadan önce saklanacak bir yer bulabilirdi.\nYan hücreden kaçırılan diğer çocukların ağlayışları daha da yükseldi. Kimsenin bakmadığı kısa bir anı kollayan Lohen, arabadan getirdiği küçük bir ok ucunu kolunun içine sakladı.\nBelki de Rüzgar Hükümdarı çocukların çaresiz feryatlarını duymuştu ya da belki de görünmez bir kudret, Lohen'in sessiz güç yakarışına cevap vermişti.\nKötü adamlar esirlerini telaşla başka bir yere götürmeye çalışırken adaletin savunucuları nihayet ortaya çıktı.\nGrubun başında elinde yayıyla kolayca saldıran zırhlı bir figür vardı. Suçlular önünde bir bir devriliyordu.\nBelki onları sorgulamak için canlı yakalamak, belki de çocuklara zarar vermekten kaçınmak istiyordu; bu yüzden sadece küt uçlu oklar fırlattı.\nYine de onun ellerinde küt uçlu oklar bile durdurulamaz bir güç taşıyordu. Yay kirişinin her titreşimi havada çınlıyor, yere çarpan bir bedenin ağır gümbürtüsüyle karşılık buluyordu.\nHavada süzülen oklar hem şiddetli hem de göz alıcıydı, küçük Lohen'in bakışlarını kendilerine hapsetmişti. Harekete hazır bekleyen elleri bile donakalmıştı.\nLohen ancak Adorno hapishane arabasının perdesini aralayıp ona baktığında kendine gelebildi.\n\"O oklar kadar kuvvetli olsaydım bu ipler çoktan kopmuş olurdu. O zaman aptal Theodore'un zırlamasını dinlemek zorunda da kalmazdım...\"\nBu düşünce, küçük Lohen'in kalbinde sessizce kök saldı.\nAncak Adorno'nun gördüğü bambaşka bir şeydi.\nAğlayan çocukların arasında bir oğlan çocuğu diğerlerinden ayrı duruyordu. Yüzü soğuktu ve hiçbir korku belirtisi göstermiyordu.\nBileklerindeki sıkıca bağlı ipler, sakladığı ok ucunun açtığı belli belirsiz bir kesikle çentilmişti.\n\"... Ne olağanüstü bir çocuk... Bir gözüm üzerinde olsun.\""
+      },
+      {
+        "Title": "Karakter Hikayesi 2",
+        "Context": "Lohen kurtarıldığından beri ailesi, onu tekrar kaybetme korkusuyla üzerine titriyordu. Ama yaya gerilmiş bir ok, asla sessiz sakin bir hayata geri dönemezdi.\nMehtaplı bir gecede, ailesi uyurken Lohen sessizce pencereden dışarı süzüldü. Yanında kendi yaptığı kısa bir yay, küçük bir oyma bıçağı ve kontrolden geçememiş bir avuç kusurlu ok vardı.\nBelki şansı yaver gitmişti ya da belki de savaşmak için doğmuştu. Geri döndüğünde, karşılaşmasının ganimeti olarak çantasında iki Dağ Yabanisi ok ucu vardı.\nOndan sonra Lohen geceleri daha sık dışarı çıkmaya başladı. Önce haftada bir, sonra birkaç günde bir derken sonunda her gece karanlığa karışıp kaybolur oldu. Hedefleri güçlendiği gibi, getirdiği ganimetler de zenginleşti: paramparça olmuş maskeler, uğursuz parşömenler ve Dağ Azmanlarının boynuzları...\nZamanla maceracılar arasında bir söylenti yayılmaya başladı. Söylenene göre, gece yarısı Dornman Limanı yakınlarında rüzgar gibi hareket eden, canavar sürülerinin arasına sızan ve her okuyla hedefi tam on ikiden vuran ufak tefek bir okçu görülüyormuş.\nZaferler birbiri ardına sıralanıyor, tehlike ise hep ensesinde bitiyordu. Her karşılaşma, fırtınada kabaran bir gelgit gibi gümbürdeyerek kalbinin hızla atmasına neden oluyordu.\nBir noktada zihninde bir soru belirmeye başladı: O saldırganlarla tekrar yüzleşseydi, her şey farklı olur muydu? Yoksa yine bir başkasının gelip onu kurtarmasını bekleyen o çaresiz çocuk mu olacaktı?\nNe kadar çok tehlikeye göğüs gererse gersin, ne kadar çok ok hedefini delip geçerse geçsin, bu soru zihninde daha da ağırlaşarak varlığını sürdürdü. Bu sorunun cevabını kendi kendine bulması mümkün değildi.\nCevabı yalnızca o ilk hedefi vurduğunda bulabilirdi.\n...\nLohen sonunda maceracı üniformasını giyip gerçeği ailesine açıkladığında, ilk tepkileri şaşkın bir sessizlik oldu, ardından da hızla bir öfke fırtınası koptu.\nFırtınayı dindiren, göğsüne vurarak canavarların Lohen'e değil, Lohen'in canavarlara zorbalık yapacağına dair onlara güvence veren Usta Cyrus'tu. Ailesi ancak o zaman geri dönülmez olanı gönülsüzce kabullendi.\n... Bir bakıma kabullendikleri şey Lohen'in üst kademe bir maceracı olarak becerisi değil, bir zamanlar tanıdıkları o uysal çocuğun artık asla geri dönmeyeceği gerçeğiydi.\nYine de vazgeçemediler. Yıllarca onu kendini tehlikeye atmaktan vazgeçmesi için ikna etmeye çalıştılar. Hatta bir zamanlar Lohen'i kurtarmış olan kıdemli şövalye Adorno'ya giderek çocuğa laf anlatabileceğini umdular.\n\"Bir ok gerildi mi artık geri alınamaz. Yay yapımcıları olarak bunu en iyi sizin anlamanız gerekir.\" dedi Adorno, sanki Lohen'in seçimini çoktan öngörmüş gibi. \"... Ama biz yine de yaydan ayrılmadan ona kılavuzluk edebilir, doğru yöne çevirebiliriz. Bir okçu olarak tavsiyem budur.\"\nAdorno onların adına konuşmayı kabul etti. Lohen'in ailesi ayrıntıları hiç öğrenemedi ama sonraki aylarda Lohen gözle görülür şekilde durulmuştu... Söylediğine göre \"sınavlara hazırlanıyordu\".\nBirkaç ay sonra Lohen, aniden Favonius Şövalyelerinin seçmelerinde ortaya çıktı ve üstün becerisiyle birinci sıraya yerleşti. Bazıları yöntemlerini sorgulasa da nihayetinde Şövalyelere katılmayı başardı.\nAslında o kadar da kötü değildi. En azından Şövalyelerin arasında düzgün bir konumu ve arkasını kollayan yoldaşları vardı. Tek başına bir maceracı olarak dolaşmaktan çok daha iyiydi.\nÜstelik Lohen birkaç ay önce Maceracılar Loncasının özel görevlerinden sıkılmıştı ve çok daha tehlikeli avlar bulmak için Mondstadt'tan ayrılmayı düşünüyordu.\nAnne ve babası birbirlerini teselli etse de Adorno'nun ne söyleyip de oğullarını Şövalyelere katılmaya ikna ettiği sorusu düşündükçe daha da kafalarını karıştırıyor, akıllarından bir türlü çıkmıyordu.\n...\n\"... Evlat, o zamanki kaçırma olaylarının arkasında kimin olduğunu bulduk.\"\nO ana kadar bir ara bulucuyla daha uğraşmaya pek niyeti olmayan Lohen, aniden ona keskin bir bakış attı. \"Kimmiş?\"\n\"Yakında resmi bir bildiri yayımlayacağız ama intikam peşine düşmenin bir alemi yok.\" dedi Adorno sakince. \"Öldü zaten.\"\nUzun bir sessizliğin ardından Lohen tekrar konuştu: \"Onu kim öldürdü?\"\n\"İntihar.\" \"Onun gibi biri durduk yere canına kıymaz. Asıl neyi sorduğumu çok iyi biliyorsun, onu o raddeye kim sürükledi?\"\nAdorno hafifçe gülümsedi. \"Büyük Kumandanımız, Poyraz Şövalyesi... Mondstadt'ın yaşayan efsanesi. Bu senin için uğraşmaya değer yeni bir hedef olur mu?\""
+      },
+      {
+        "Title": "Karakter Hikayesi 3",
+        "Context": "Varka \"taklitçilerine\" çok alışkındı.\nBüyük bir kahramanın gölgesinin peşine düşen heyecanlı gençler olağan bir durumdu. Aralarında birkaç fazla özgüvenli, hırslı baş belası olması da beklenirdi.\nAma Lohen gibisiyle daha önce hiç karşılaşmamıştı.\nGeçmişte bu tür taklitçilerin en cüretkar eylemleri, kendi kuvvetlerini kanıtlamayı amaçlayan sürpriz saldırılardan ibaretti. Lohen'in sahneye çıkışı ise ancak \"pervasızlığın zirvesi\" olarak tanımlanabilirdi.\nGizli oklar, sis perdeleri, tuzaklar, hatta canavarları anında devirebilen sakinleştiriciler... Teknikleri neredeyse mükemmelliğe ulaşacak şekilde geliştirilmişti. Sayısız savaşla yoğrulmuş bir kıdemlinin hassasiyetine sahiptiler ve belli belirsiz Eroch'un grubunun kalıntılarından izler taşıyorlardı.\n\"Hiç fena değil ufaklık. Bayağı yeteneklisin! Ama... Bu ucuz numaralar bana sökmez!\"\n\"Genç çocuk\" anında Varka'nın sıkı kontrolü altına girmişti.\n\"Kaçırılma karşısında paniğe kapılmayan, hatta belki de kendi başına kaçabilecek kadar yetenekli bir çocuk.\"\n\"Dornman Limanı civarında acımasız bir isabetle saldırdığı söylenen o küçük okçu.\"\n\"Henüz yeni katılmış olmasına rağmen Eroch'un grubundan arta kalanları avlamaya başlayan deli fişek çaylak.\"\nVarka, Adorno'dan Lohen hakkında birçok hikaye dinlemişti. Bu küçük gösterinin bir süre daha devam etmesine izin verdi. Çocuğun marifetlerini merak ediyordu.\nCanavarları bile adımlarının ortasında dondurabilen o kocaman çift kılıcın ezici gölgesinin altında bu aceminin yüzünde nasıl bir ifade belirecekti?\nHayranlık mı? Panik mi? Yoksa bambaşka bir şey mi?\nVarka, gözlerini Lohen'in gözlerine kilitledi. Lohen'in buz gibi, gittikçe daha da delici bir hal alan bakışlarında bir coşku kıvılcımı parlıyordu; bu, belki de Varka'nın kendi içinde hâlâ hissettiği, en güçlüye kafa tutma ve zafere ulaşma arzusunun bir yansımasıydı.\nUmut vadettiği doğruydu ama toy ve pervasızdı. Sınırlarını anlamak için birkaç darbe alması gerekiyordu. Varka harekete geçti, bu cüretkar çaylağı alt etti ve birkaç gün hücrede kalmasının ona iyi geleceğine karar verdi. \"Bundan memnun değil misin? İstediğin zaman tekrar karşıma çıkabilirsin. Gözüm üzerinde olacak.\"\n\"O zaman bekleyip görmen gerekecek.\" Lohen, içeri kapatılırken omuz silkip belli belirsiz gülümsedi.\nHapsi bittikten sonraki gün Lohen, özür dilemeye geldiğini söyleyerek elinde Varka'nın en sevdiği şarapla kapısında belirdi.\n\"Ooo. Hiç fena değil. Üstelik en sevdiğim Karahindiba Şarabını getirmişsin. Buna hayır diyemem işte.\"\nKeskin, acı içki boğazına daha yeni değmişti ki Büyük Kumandanın başı aniden döndü. Bu işte bir terslik vardı. Lohen'in hücre hapsinden sonra Adorno'nun söyledikleri aklına geldi:\n\"Doğrusunu istersen, onu kendi gençliğin ya da sana hayran olan sıradan bir Mondstadtlı çocuk gibi görmesen iyi edersin. Elbette kuvvetine saygı duyuyor. Fakat bence asıl derdi sana meydan okumanın bir yolunu bulmak.\"\n\"Tahminim doğruysa aklından şunlar geçiyor: 'Kudretli Varka'yı sınamanın bir yolunu bulmak başlı başına eğlenceli olmalı. Kazanmak ya da kaybetmek pek de önemli değil. En kötü ihtimalle birkaç gün yatak döşek yatar. Şan ve şerefe gelince... Aklından bile geçtiğini sanmıyorum.\"\nLohen gözleri fal taşı gibi açılmış bir şekilde izlerken Varka, baş dönmesine meydan okuyarak sadece saf kuvveti ve çelik gibi iradesiyle kendini toparladı.\n\"... İnanılmaz. Hesaplarıma göre bu doz bir düzine orman domuzunu devirebilirdi...\"\n\"Evlat... Sana söylemiştim, böyle ucuz numaralar bana sökmez!\"\nO andan itibaren Lohen'in \"kuvvet\" anlayışı tamamen değişti.\nHiçbir tuzağın veya zehrin sarsamayacağı, ölümle burun buruna gelinen sayısız anla çelik gibi dövülmüş ve mutlak bir kesinliğe dayanan bir güçtü bu.\nO andan itibaren Lohen'in listesine iki yeni hedef daha eklendi:\nBirincisi, ne pahasına olursa olsun Varka'yı alt etmek.\nİkincisi, aynı numaraları kendi üzerinde denemek ve asla yere serilemeyeceğinden emin olmak."
+      },
+      {
+        "Title": "Karakter Hikayesi 4",
+        "Context": "Favonius Şövalyeleri; uzun ve destansı bir geçmişe sahip, sayısız kahramanın yükselişine tanıklık etmiş ve bir o kadar da trajediye göğüs germiş bir örgüttür.\nTüm bu efsaneler ve nice zorlu tecrübe, Şövalyelere basit bir gerçeği öğretti:\nŞövalyelik yolundan sapanın peşini felaket bırakmaz.\nTam da bu sebepten ötürü, Lohen'in 5. Bölüğün Yüzbaşı Vekili olarak atanması Şövalyeler arasında şüpheyle karşılandı.\nNe de olsa sorun çıkarmaktan zevk alan, Büyük Kumandana pusu kuran ve savaşta zehir ve tuzaklara başvuran bir \"deli\", çoğu kişinin gözünde şövalyelik ideallerini temsil edecek biri gibi görünmüyordu.\nTabii Lohen söylentilere pek aldırış etmedi.\n\"Başkalarının düşüncelerini pek umursamadığını biliyorum. Ama keşif seferi tek başına yapılacak bir iş değildir. Arkanda kimse olmazsa başvurunun kolay kolay kabul edilmeyeceği çok açık.\"\nAdorno, sanki Lohen'in durumla baş edip edemeyeceğinden emin değilmiş ya da işleri daha da kötüleştireceğinden endişeleniyormuş gibi duraksadı.\nVarka o güne dek eşi benzeri görülmemiş büyük bir sefer düzenleyeceğini duyurduğundan beri Lohen bu sefere katılmak için can atıyordu.\nUzaklardaki savaş alanları ve görünmez tehlikeler onu herhangi bir oyuncaktan çok daha fazla heyecanlandırıyordu. Fakat sefere katılmak bambaşka bir zorluktu. Değerlendirme listeleri gelip geçiyor ama onun adı bir türlü görünmüyordu.\nAdorno, Lohen'in savaş alanında her şeyin üstesinden gelebileceğini biliyordu. Asıl sorunun saha dışında olduğundan şüpheleniyordu.\nLohen hiç umursamadan, \"Pekala. Eğer benim gibi 'geleneklere aykırı' bir şövalye sınava giremiyorsa... O zaman ben de onun yerine sınav görevlisi olurum.\" diye cevap verdi.\n...\n\"Pratik açıdan bakarsak fena bir fikir sayılmaz. Hem şövalyelere kendi eksiklerini hatırlatır hem de birliğin değişmesi gerekip gerekmediğini sürekli sorgulayanların sesini keser... Ne de olsa her rakibin şövalyelik kurallarına göre oynamasını bekleyemeyiz.\"\nVarka, Lohen'in oldukça alışılmadık \"başvurusunu\" incelerken bunu iyice kafasında tarttı.\nRaporda uzun bir \"sınav\" listesi sıralanmıştı. Alışıldık gece baskınları, tuzaklar ve zehirler artık Varka'yı pek şaşırtmıyordu ama bu yeni yöntemler onun dikkatini çekmişti. Kılık değiştirerek pusu kurma, tatbikat öncesi malzemeleri sabote etme ve diğer zekice taktikler rapordaki yenilikler arasındaydı.\nRaporun en sonunda, Lohen laf arasında sözde \"ünlü bir alıntıya\" yer vermişti ve Varka bunu görünce az kalsın içeceğini ağzından püskürtüyordu.\nÖnceki Büyük Kumandanın pusuya düşürüldüğü geceden bir alıntıydı bu: \"Eğer Favonius Şövalyeleri kendilerini bile koruyamıyorsa Mondstadt'ı nasıl koruyabilirler?\"\n... Gençliğin getirdiği hatalar insanı hep gafil avlardı. Varka kendini toparlamak için bir an duraksadıktan sonra başvuruyu onay damgasıyla mühürledi.\nSıra dışı şövalyelere sıra dışı sınavlar yaraşır.\nİster sefere çıkacak şövalyeler için olsun ister Lohen'in kendisi için."
+      },
+      {
+        "Title": "Karakter Hikayesi 5",
+        "Context": "\"İyiliksever Şövalye\" unvanının en olası varisi olmasına rağmen Lohen, tüm Favonius Şövalyeleri arasında bu unvana belki de en uzak kişidir.\nHerkesin gözünde bir \"İyiliksever Şövalye\"; insanları tehlikelerden kurtaran, onları felaketin kıyısından alan bir kahramandır. Lohen ise tam tersine, tehlikenin kalbine bodoslama dalmaya ve bu yolculukta başkalarını da yanında sürüklemeye pek bir meraklıdır. Tabii bu \"başkaları\" genellikle düşmanları olur... Ve her zaman insan değildirler.\nYine de Lohen'in bu sıra dışı \"hobilerinin\" faydaları da vardı. Özel operasyonlar ve yüksek riskli görevler söz konusu olduğunda, çoğu kişinin beklentisinin epey ötesinde bir performans sergiliyordu.\nSonuç olarak, keşif seferinin gizli görevlerinin birçoğu doğal olarak ona kalıyordu.\nBunlardan biri, Kuzey İstihbarat Ağının mevcut başkanından gelen gizli bir talepti.\nİstihbarat raporlarına göre Nod-Krai'daki mevcut kaostan faydalanan bir yeraltı müzayede evi faaliyet gösteriyordu. Hem kaçak malların hem de tehlikeli eşyaların ticaretini yapıyor, müthiş bir dikkatle hareket ediyor ve yüksek ihtimalle sırtlarını güçlü bir destekçiye yaslıyorlardı. Bu şebekeyi çökertmek, Kuzey İstihbarat Ağının güvenini kazanmak için muhteşem bir fırsattı.\n\"Yeteneklerinize olan güvenimiz tam. Fakat şövalyelik kurallarının geçmediği yerlerde, tek başına kaba kuvvet genel başarının bir ölçütü sayılamaz.\"\nKuzey İstihbarat Ağının endişelerini gidermek adına keşif kuvveti, temkinli ve adım adım ilerleyen bir plan hazırladı.\nLohen'in görevi, tek başına olan kişileri sessizce yakalayıp müzayedenin yerini ve zamanını öğrenmekti. Sonrasında da ekip, riski olabildiğince düşük tutup olaya karışan herkesi tespit etmek için gözetleme, gizlice dinleme ve sistematik iz sürme yöntemlerine başvuracaktı.\nBu görev Lohen için biçilmiş kaftandı. Tek başına hareket edecek, her yakalamayı hassasiyetle gerçekleştirecek ve işin kalbine inecekti. Zorlu, sessiz ve tam ona uygun.\nNannina'nın hesaba katmadığı tek bir ayrıntı vardı. Lohen'in lügatinde, işler gereğinden fazla sessiz ilerliyorsa o plan tamamlanmış sayılmazdı.\nYola çıkmadan önce Nannina, Kardinal Seamus'tan bir hatırlatma iletmişti: \"Göreve odaklan. İşleri karmaşıklaştırma.\"\nLohen hiç tereddüt etmeden şöyle yanıt verdi: \"Merak etme, mesaj alındı.\"\nGerçekten de mesajı almıştı.\nEn azından kendi kafasında başından beri görevin tek bir amacı vardı, o da Favonius Şövalyelerinin gücünü Kuzey İstihbarat Ağına göstermekti.\n...\nBirkaç gün sonra Mondstadt'ta, Büyük Kumandanın ofisinde...\nKeşif birliğinden gelen raporu okuyan Büyük Kumandan Vekili Jean, Varka'ya cevabını kaleme almaya başladı.\n\"Yeraltı müzayedesi operasyonu hakkında tamamen bilgilendirildim.\"\n\"Lohen'in sahadaki muhakemesi her zamanki gibi keskin ve kararlı. Olay yerindeki tüm katılımcıları kontrol altına almış, çatışmanın Nasha Kasabası'na ulaşmasını engellemiş ve hiçbir sivilin zarar görmemesini sağlamış. Sadece sonuca bakıldığında bu operasyon, iyilikseverlik ideallerine tamamen uygun, gerçek bir koruma eylemidir.\"\n\"Liyakat açısından değerlendirirsek, tespitine katılıyorum. Artık Bay Adorno'nun mirasını devralabilecek noktaya ulaştı. Hareketleri ölçülü ve bilinçliymiş... En azından düşman kalesinin merkezine ulaşana dek.\"\n\"Yine de affına sığınarak açık konuşacağım. Düşman kalesinin tam kalbinde belirip çatışma başlatması, tek başına oradan çıkıp bir de gövde gösterisi yaparcasına ganimetlerini sergilemesi... Bunlar Favonius Şövalyelerinin alışılageldik tutumuyla hiç ama hiç bağdaşmıyor.\"\n\"Fırsatın olduğunda bunu Kuzey İstihbarat Ağındaki ilgili kişilere izah etmeni rica edeceğim.\""
+      },
+      {
+        "Title": "Sahte Çok Amaçlı İletişim Kayıt Cihazı",
+        "Context": "Mika, Çok Amaçlı Ön Saha Gözlem Cihazını hep yanında taşır ve her daim dört dörtlük bir düzende tutar.\nBu cihaz arazi ayrıntılarını, kilit konumları ve standart yürüyüş rotalarını kaydetmekle kalmaz, bazen canavar faaliyeti izleri veya tehlikeli bölgelerin değerlendirmeleri gibi ek bilgilerle de güncellenir.\nİstihbarat her harekatın belkemiğidir. Ne var ki bazı şövalyeler yalnızca bilgilerle değil, bilgileri toplayan cihazlarla da ilgilenir.\nLohen de bunlardan biriydi.\n\"Böylesine karmaşık bir ekipmanı sanki çocuk oyuncağıymış gibi kullanıyorsun, öyle mi?\" Lohen, düşman mevzilerindeki rutin kontrolünü bitirdikten sonra aniden bir iltifatta bulundu: \"Doğrusu epey etkileyici.\"\nYaşı kendine bu kadar yakın ama itibarı kendisinden çok farklı olan bir kıdemlisinden böyle bir övgü duymak, Mika'yı bir anlığına afallatsa da hoşuna gitmişti.\nKonuya oldukça ilgi duyan Lohen, art arda sorular sordu. Keşif cihazı hakkında teknik personel hariç kimseyle pek konuşmayan Mika, farkına bile varmadan kendini sohbete kaptırmıştı.\n\"Yani bu kadar verimli bir cihazla, düşmanların sık sık toplandığı epey bir nokta biliyor olmalısın, değil mi?\" \"Bakımını genelde nasıl yapıyorsun? Elinin altında yedek parça bulunduruyor musun?\"\n... Belki de bu \"adı çıkmış\" şövalye, anlatıldığı kadar korkunç biri değildi...\nMika her soruyu hevesle ve eksiksiz bir şekilde yanıtladı. Lohen ise gözlerini kısıp başıyla onaylarken ilgisini çeken kısımları sessizce not alıyor, geri kalanını ise umursamıyordu.\nBirkaç tur sorguya çekildikten sonra Mika için taşlar yerine oturmaya başladı. Lohen'in ilgisini çeken her bölgede olaylar yalnızca birkaç gün içinde duruluyordu.\nLohen'in vücudundaki taze yaraları ve ani, kısa süreli ortadan kayboluşlarını gören Mika, artık olan biteni tesadüfe bağlayamıyordu. Acı bir gerçekle yüzleşti: Keşif haritaları, Lohen tarafından endişe verici derecede \"verimli\" bir şekilde kullanılıyordu.\nMika, tedbir olarak haritalarını teslim ederken Lohen'in operasyonlarıyla ilgisi olmayan canavar toplanma noktalarını atlamaya başladı. Lohen ayrıntılar için onu sıkıştırdığında ise giderek daha kaçamak cevaplar veriyordu.\n\"Iıı... Ben her şeyi rapor ettim zaten! B-Bence emirleri Büyük Kumandanın vermesi en doğrusu olur!\"\nAncak Lohen daha fazla üstelemedi. Yüzüne her şeyi anladığını belli eden bir gülümseme yayıldı ve gözleri, sanki öylesine bakıyormuş gibi Mika'nın göğsüne bastırdığı ölçüm cihazına kaydı.\nO günden sonra Mika, ölçüm cihazının üzerine titremeye başladı. Oturduğu yerden kalkmadan önce not defterini iyice sakladığından emin oluyor, başkalarına malzeme verirken sayfaları defalarca kontrol ediyordu. Masasından biraz uzaklaştığında bile sanki arkasından biri defteri gözetliyormuş gibi bir hisle dönüp dönüp arkasına bakmaktan kendini alamıyordu.\nYine de ne olursa olsun, Lohen'in davranışlarında hiçbir değişiklik olmuyordu. Sanki Mika'nın saklamaya çalıştığı her sırrı önceden biliyormuş gibiydi. İşin içinde adeta bir sihir vardı.\nMika bir süredir bu konuya kafa yoruyordu ve keşif kuvvetinin kamp ateşi gecelerinden birine kadar da bir sonuca varamamıştı.\nO gece Ekbert, ortamı şenlendirmek için yeni bir Fontaine sihir numarası göstermeye can atıyordu ama belli ki içkiyi biraz fazla kaçırmıştı ve haliyle her şey ters gitmişti.\nMuhteşem bir \"hileli değiştirme\" numarası yapmayı planlamıştı ama daha o hazır bile değilken birbirinin tıpatıp aynısı iki kart kabak gibi ortaya çıkıverdi.\nAslında fikir çok basitti: Seçilen kartı el çabukluğuyla sahte kartla değiştirecek, herkesin bakışlarını yeme çekecek ve o kısacık anda asıl kart üzerinde sihrini konuşturacaktı. Ne yazık ki numara daha başlar başlamaz sona erdi.\nKamp ateşinin etrafına yayılan kahkahaların ortasında, Mika'nın aklı Lohen'in ona uzun zaman önce sorduğu bir soruya gitti.\n\"Bakımını genelde nasıl yapıyorsun? Elinin altında yedek parça bulunduruyor musun?\"\nVe o an, geçmişteki rahatsız edici küçük olaylar bir bir anlam kazanmaya başladı: Stoktan sessiz sedasız kaybolan yedek parçalar, ara sıra inat edip bir türlü açılmak bilmeyen kitap sayfaları...\nBirisi daha yeni tanıştığı bir iş arkadaşının arkasından hemen dolap çevirmeye başlayabilir miydi?\nBirisi içten içe sinsi bir plan kurarken dışarıya karşı dost canlısı ve meraklıymış gibi görünebilir miydi?\nHem hiç kimse kaşla göz arasında ölçüm cihazını sahtesiyle değiştiremez, istihbaratı kopyalayamaz ve sonra da hiçbir şey olmamış gibi büyük bir yüzsüzlükle her şeyi yerine koyamazdı... Değil mi?\nİçini kemiren huzursuzluğun ortasında Mika, bir anda avına kilitlenmiş bir yırtıcının bakışlarını ensesinde hissedercesine keskin bir ürpertiyle irkildi. Hızla başını kaldırdı ama Lohen kalabalıkla birlikte kahkahalar atıyor, dikkati özellikle kimsede değilmiş gibi görünüyordu.\nKahkahası capcanlı, içten ve doğaldı... Tıpkı Lohen'in ilk tanıştıklarında Mika'ya gösterdiği o meraklı ve samimi sıcaklığın aynısıydı."
+      },
+      {
+        "Title": "Önsezi",
+        "Context": "Lohen, bir yüzbaşının kuvvetinin nasıl elde edilebileceği üzerine uzun zamandır kafa yoruyordu.\nBir yüzbaşı elbette güçlü canavarlara kafa tutmalı, hatta tek başına koca bir düşman ordusunu dize getirebilmeliydi.\nYıkıcı gücü kalıcı dayanıklılıkla dengelemek... Varka bunun vücut bulmuş haliydi, aynısı Favonius Şövalyeleri tarihindeki en genç yüzbaşı için de geçerliydi.\nMenzilli silahlara bel bağlayan Beşinci Bölük için bu tür bir dengeyi kurmak zordu.\nDaha büyük güç; daha kuvvetli bir yay, daha ağır bir çekiş ve daha büyük, daha delici oklar demekti.\nAncak Lohen bile bu tür ağır mühimmatlardan yalnızca bir avuç taşıyabiliyordu. Bunlar tükendiğinde ikmal için geriye çekilmek kaçınılmazdı ve bu durum sürekli savaş için pek de ideal değildi.\nDahası, Lohen geri çekilmekten hiç hazzetmezdi. Onun aradığı asıl mücadele, her zaman en ön safta olup düşmanla kafa kafaya çarpışmaktı.\nPeki ikisini birden elde etmenin bir yolu var mıydı? Lohen bu düşüncenin zihninde demlenmesine izin verdi.\n\"Belki de... Tamamen imkansız değildir.\"\nGözleri talim teftişi için hazırlanan şövalyelere kaydı. Bir araya toplanmış tören mızrakları, fırlatılmaya hazır devasa oklar gibi ışıkta parlıyordu.\n\"Acaba... Attıktan sonra geri alabileceğim bir ok nasıl olur?\"\n\"Ya da... Belki de fırlatılmasına gerek bile yoktur.\"\n\"Ne de olsa yakından daha da etkili olabilir. Acısı da çok daha sert olur.\"\n...\nAradan on günü aşkın bir süre geçti ve planlanan talim vakti gelip çattı. Başta her şey aynı görünüyordu ama menzilli safların ortasında bir yerde tek bir mızrak belirmişti.\nMızrak o kadar hızlı bir şekilde ileri atıldı ki, onu kullanan kişi kendini bir anda her taraftan kuşatılmış halde buldu.\nTalimi alanın dışından izleyen Kardinal Seamus bir soruyla lafa girdi: \"Büyük Kumandan, onu hâlâ Beşinci Bölüğün yüzbaşı vekili olarak istediğinize emin misiniz?\"\n\"Hım? Yapma lütfen, menzilli bölüğün arasındaki haline baksana. Sence de tam yerini bulmamış mı?\"\n\"Yerini mi? Açıkçası ben sadece ayaklı bir hedef tahtası görüyorum. Menzildeki tüm düşmanlar yetmezmiş gibi kendi okçularımızın yarısı bile ona kilitlenmiş durumda.\"\n\"Haha! Rahat ol biraz! Baksana, menzilli bölüğün atışları nasıl da keskinleşti! Hem o hâlâ sapasağlam ayakta, değil mi? Sırf bu bile planın hiç de fena olmadığını kanıtlıyor!\"\nSeamus \"Fena değil mi?\" diye bağırarak karşı çıkacak oldu ama elde ettikleri muazzam sonuç karşısında dili tutuldu.\n...\nO gün herkes umduğunu buldu, ya da en azından ona yeterince yakın bir sonucu.\nBeşinci Bölük bir yüzbaşı vekili kazandı. Keşif birliği \"Ön Cephe Bastırma Subayı\"na kavuştu. İşe boğulmaktan gözünü açamayan Seamus, kendi tabiriyle bir günlük \"özel baş ağrısı iznini\" kopardı. Varka'nın payına ise içki masalarını şenlendirecek yepyeni bir \"Seamus şakası\" düştü.\nLohen ise yeni bir savaşma şekli, yeni bir yaşam tarzı ve görevlerde bazen şaşırtıcı derecede işe yarayan bir \"cam bilye\" ile oradan ayrıldı."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 212900,
+      "Name": "Buzla Dövülmüş Bıçak",
+      "Description": "Lohen'in giysisi. Bir şövalyenin zırhı, maceraya çıktığında giydiği kıyafetlerden çok daha ağırdır. Ama Lohen için değişen tek şey, söz konusu ekipmanın ağırlığı ve başkalarının onu nasıl gördüğü oldu. Düşmanlarını yenme arzusu ve durdurulamayan takıntısı ise baki kaldı.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113085,
+    101272,
+    112013,
+    104306,
+    113073
+  ],
+  "NameCard": {
+    "Name": "Lohen: İyilikseverlik",
+    "Description": "İsim Kartı arka planı.\n\"İyilikseverlik\" muhtemelen Lohen'i tanımlamak için kullanılacak son kelimedir. Lakin en keskin dikenler bile en yumuşak topraklarda yetişir.",
+    "Icon": "UI_NameCardIcon_Lohen",
+    "PicturePrefix": "UI_NameCardPic_Lohen"
+  }
+}

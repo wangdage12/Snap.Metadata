@@ -1,0 +1,1137 @@
+{
+  "Id": 10000132,
+  "PromoteId": 132,
+  "Sort": 115,
+  "Body": 5,
+  "Icon": "UI_AvatarIcon_Prune",
+  "SideIcon": "UI_AvatarIcon_Side_Prune",
+  "Name": "Prune",
+  "Description": "Eine kleine „Hexenjägerin“. Sie ist den ganzen Weg von Nod-Krai hergereist, nur um die Hexe zu besiegen, die ihrer Meinung nach die Schwachen schikaniert und nichts als Böses tut.",
+  "BeginTime": "2026-05-19T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 811.494,
+    "AttackBase": 18.52032,
+    "DefenseBase": 48.64125
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13231,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P}",
+            "SCH heftiger Schläge|{param4:F1P}",
+            "#Ausdauerverbrauch heftiger Schläge|{param5:F1}{NON_BREAK_SPACE}Punkte",
+            "SCH beim Fallen|{param6:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param7:F1P}/{param8:F1P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1323101,
+              "Level": 1,
+              "Parameters": [
+                0.486208,
+                0.482808,
+                0.679768,
+                1.3352,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Id": 1323102,
+              "Level": 2,
+              "Parameters": [
+                0.522674,
+                0.519019,
+                0.730751,
+                1.43534,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Id": 1323103,
+              "Level": 3,
+              "Parameters": [
+                0.559139,
+                0.555229,
+                0.781733,
+                1.53548,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Id": 1323104,
+              "Level": 4,
+              "Parameters": [
+                0.60776,
+                0.60351,
+                0.84971,
+                1.669,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Id": 1323105,
+              "Level": 5,
+              "Parameters": [
+                0.644226,
+                0.639721,
+                0.900693,
+                1.76914,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Id": 1323106,
+              "Level": 6,
+              "Parameters": [
+                0.680691,
+                0.675931,
+                0.951675,
+                1.86928,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Id": 1323107,
+              "Level": 7,
+              "Parameters": [
+                0.729312,
+                0.724212,
+                1.019652,
+                2.0028,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Id": 1323108,
+              "Level": 8,
+              "Parameters": [
+                0.777933,
+                0.772493,
+                1.087629,
+                2.13632,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Id": 1323109,
+              "Level": 9,
+              "Parameters": [
+                0.826554,
+                0.820774,
+                1.155606,
+                2.26984,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Id": 1323110,
+              "Level": 10,
+              "Parameters": [
+                0.875174,
+                0.869054,
+                1.223582,
+                2.40336,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Id": 1323111,
+              "Level": 11,
+              "Parameters": [
+                0.923795,
+                0.917335,
+                1.291559,
+                2.53688,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Id": 1323112,
+              "Level": 12,
+              "Parameters": [
+                0.972416,
+                0.965616,
+                1.359536,
+                2.6704,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Id": 1323113,
+              "Level": 13,
+              "Parameters": [
+                1.033192,
+                1.025967,
+                1.444507,
+                2.8373,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Id": 1323114,
+              "Level": 14,
+              "Parameters": [
+                1.093968,
+                1.086318,
+                1.529478,
+                3.0042,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Id": 1323115,
+              "Level": 15,
+              "Parameters": [
+                1.154744,
+                1.146669,
+                1.614449,
+                3.1711,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11321,
+        "Name": "Babäääm! Hexenjäger-Hammer",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nSchwingt den „Hammer des Jagdschwurs“, führt bis zu drei Angriffe aus und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Hammerhieb nach oben aus, der nach kurzer Aufladezeit Gegnern vorne <color=#80FFD7FF>Anemo-Schaden</color> zufügt.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft des Windes, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 13232,
+        "Proud": {
+          "Descriptions": [
+            "SCH durch „Klingeling! Klang der Hexenjagd“|{param1:F1P}",
+            "SCH durch „Bumm-Bumm! Strafe des Hexenrichters“|{param2:F1P}",
+            "Abklingzeit|{param3:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1323201,
+              "Level": 1,
+              "Parameters": [
+                1.6744,
+                2.0456,
+                15
+              ]
+            },
+            {
+              "Id": 1323202,
+              "Level": 2,
+              "Parameters": [
+                1.79998,
+                2.19902,
+                15
+              ]
+            },
+            {
+              "Id": 1323203,
+              "Level": 3,
+              "Parameters": [
+                1.92556,
+                2.35244,
+                15
+              ]
+            },
+            {
+              "Id": 1323204,
+              "Level": 4,
+              "Parameters": [
+                2.093,
+                2.557,
+                15
+              ]
+            },
+            {
+              "Id": 1323205,
+              "Level": 5,
+              "Parameters": [
+                2.21858,
+                2.71042,
+                15
+              ]
+            },
+            {
+              "Id": 1323206,
+              "Level": 6,
+              "Parameters": [
+                2.34416,
+                2.86384,
+                15
+              ]
+            },
+            {
+              "Id": 1323207,
+              "Level": 7,
+              "Parameters": [
+                2.5116,
+                3.0684,
+                15
+              ]
+            },
+            {
+              "Id": 1323208,
+              "Level": 8,
+              "Parameters": [
+                2.67904,
+                3.27296,
+                15
+              ]
+            },
+            {
+              "Id": 1323209,
+              "Level": 9,
+              "Parameters": [
+                2.84648,
+                3.47752,
+                15
+              ]
+            },
+            {
+              "Id": 1323210,
+              "Level": 10,
+              "Parameters": [
+                3.01392,
+                3.68208,
+                15
+              ]
+            },
+            {
+              "Id": 1323211,
+              "Level": 11,
+              "Parameters": [
+                3.18136,
+                3.88664,
+                15
+              ]
+            },
+            {
+              "Id": 1323212,
+              "Level": 12,
+              "Parameters": [
+                3.3488,
+                4.0912,
+                15
+              ]
+            },
+            {
+              "Id": 1323213,
+              "Level": 13,
+              "Parameters": [
+                3.5581,
+                4.3469,
+                15
+              ]
+            },
+            {
+              "Id": 1323214,
+              "Level": 14,
+              "Parameters": [
+                3.7674,
+                4.6026,
+                15
+              ]
+            },
+            {
+              "Id": 1323215,
+              "Level": 15,
+              "Parameters": [
+                3.9767,
+                4.8583,
+                15
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11322,
+        "Name": "Klingeling! Klang der Hexenjagd",
+        "Description": "#Mit der Entschlossenheit, die böse Hexe zu besiegen und Descartes zu retten, entfessle die Kraft des Windes! Prune schlägt mit dem „Hammer des Jagdschwurs“ auf das „Köderglöckchen“ und verursacht <color=#80FFD7FF>Anemo-SCH</color>.\nWenn Prune durch diesen Angriff bei einem Gegner eine Verwirbelung auslöst, wird innerhalb der nächsten 6{NON_BREAK_SPACE}s <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> durch <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color> ersetzt.\n\n<color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>\nDie Elementarenergie vom Typ der vorigen Verwirbelung umhüllt jetzt den „Hammer des Jagdschwurs“, der nun eine Elementarumwandlung durchläuft. Bei Anwendung durch Drücken springt Prune hoch und tritt den {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK} nach vorne, wodurch sie Gegnern vor ihr SCH des entsprechenden Elementartyps zufügt.",
+        "Icon": "Skill_S_Prune_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 13251,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1325101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                5,
+                0.3,
+                5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1325101,
+        "Name": "Geschenk der Hexennacht – Schwur der Hexenjäger",
+        "Description": "#Wandelt Prune nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von Widerlegung</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht, nachdem ein Hexerei-Truppenmitglied, das unter dem Einfluss von „Trommelwirbel“ steht, eine beliebige Elementarreaktion an einem Gegner auslöst, Prunes eigenen ANG 5{NON_BREAK_SPACE}s lang um 60{NON_BREAK_SPACE}%. Erhöht ihren eigenen ANG, wenn es sich bei der Elementarreaktion dieser Figur um eine Verwirbelungsreaktion handelt, 5{NON_BREAK_SPACE}s lang zusätzlich um 30{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Prune_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13239,
+      "Proud": {
+        "Descriptions": [
+          "Fähigkeits-SCH|{param1:F1P}",
+          "SCH durch Köderglöckchen|{param2:F1P}",
+          "Dauer von Modus Jagdsuche|{param3:F1} s",
+          "Abklingzeit|{param4:F1} s",
+          "Elementarenergie|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1323901,
+            "Level": 1,
+            "Parameters": [
+              0.9696,
+              0.7044,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323902,
+            "Level": 2,
+            "Parameters": [
+              1.04232,
+              0.75723,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323903,
+            "Level": 3,
+            "Parameters": [
+              1.11504,
+              0.81006,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323904,
+            "Level": 4,
+            "Parameters": [
+              1.212,
+              0.8805,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323905,
+            "Level": 5,
+            "Parameters": [
+              1.28472,
+              0.93333,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323906,
+            "Level": 6,
+            "Parameters": [
+              1.35744,
+              0.98616,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323907,
+            "Level": 7,
+            "Parameters": [
+              1.4544,
+              1.0566,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323908,
+            "Level": 8,
+            "Parameters": [
+              1.55136,
+              1.12704,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323909,
+            "Level": 9,
+            "Parameters": [
+              1.64832,
+              1.19748,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323910,
+            "Level": 10,
+            "Parameters": [
+              1.74528,
+              1.26792,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323911,
+            "Level": 11,
+            "Parameters": [
+              1.84224,
+              1.33836,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323912,
+            "Level": 12,
+            "Parameters": [
+              1.9392,
+              1.4088,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323913,
+            "Level": 13,
+            "Parameters": [
+              2.0604,
+              1.49685,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323914,
+            "Level": 14,
+            "Parameters": [
+              2.1816,
+              1.5849,
+              12,
+              18,
+              70
+            ]
+          },
+          {
+            "Id": 1323915,
+            "Level": 15,
+            "Parameters": [
+              2.3028,
+              1.67295,
+              12,
+              18,
+              70
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11325,
+      "Name": "Glockenläuten! Die Jagd ist eröffnet!",
+      "Description": "Prune schwingt das „Köderglöckchen“ leicht und fügt Gegnern in der Umgebung <color=#80FFD7FF>Anemo-SCH</color> zu. Danach wechselt das „Köderglöckchen“ in den Modus „Jagdsuche“.\n\n<color=#FFD780FF>Köderglöckchen – Jagdsuche</color>\nIn diesem Modus folgt das „Köderglöckchen“ der aktuellen Figur, greift in regelmäßigen Abständen Gegner in der Umgebung an und verursacht <color=#80FFD7FF>Anemo-Flächenschaden</color>. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit.",
+      "Icon": "Skill_E_Prune_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 13221,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322101,
+              "Level": 1,
+              "Parameters": [
+                1.5
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1322101,
+        "Name": "Entscheidung und Strafe",
+        "Description": "#Beschwört, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> einem Gegner Schaden zufügt und dieser Schaden eine Verwirbelung auslöst, die den Gegner trifft, vor dem Gegner einen {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}. Dieser führt eine Elementarumwandlung basierend auf der ausgelösten Verwirbelung durch, schlägt auf den Gegner ein und verursacht dabei Elementar-Schaden des entsprechenden Typs in Höhe von 150{NON_BREAK_SPACE}% von Prunes ANG. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit.",
+        "Icon": "UI_Talent_S_Prune_05"
+      },
+      {
+        "GroupId": 13222,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322201,
+              "Level": 1,
+              "Parameters": [
+                0.00025,
+                5,
+                0.5,
+                2000
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1322201,
+        "Name": "Herzschlag in Eintracht",
+        "Description": "#Verleiht, wenn Prune einen Gegner mit dem {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}, der bereits eine Elementarumwandlung durchlaufen hat, trifft, anderen Truppenmitgliedern in der Nähe 5{NON_BREAK_SPACE}s lang den Effekt Trommelwirbel: Erhöht, wenn Standardangriffe, heftige Schläge, Angriffe aus dem Fall, Elementarfähigkeiten oder Spezialfähigkeiten Gegnern Schaden zufügen, den durch diesen Angriff verursachte Schaden basierend auf dem Teil von Prunes ANG, der über 2.000 liegt, zu dem Zeitpunkt, an dem sie den Effekt „Trommelwirbel“ erhielten: Erhöht für jeden Punkt ANG den durch diesen Angriff verursachte Schaden um 0,025{NON_BREAK_SPACE}%, bis zu 50{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Prune_06"
+      },
+      {
+        "GroupId": 13223,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1322301,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1322301,
+        "Name": "Umbau! Krach, bumm!",
+        "Description": "#Erschafft mit einer Wahrscheinlichkeit von 10{NON_BREAK_SPACE}% extra ein anderes zufälliges Material für Figurentalente aus demselben Gebiet mit einer dem erhaltenen Material entsprechenden Stufe.",
+        "Icon": "UI_Talent_S_Prune_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1321,
+        "Name": "Mit dem Rettungsschwur begann die Reise",
+        "Description": "#Stellt, nachdem ein Gegner durch einen Angriff mit dem {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}, der bereits eine Elementarumwandlung durchlaufen hat, getroffen wurde, Prune 2{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, 1,8{NON_BREAK_SPACE}s Abklingzeit.",
+        "Icon": "UI_Talent_S_Prune_01"
+      },
+      {
+        "Id": 1322,
+        "Name": "Mit Elementarkraft kann man das Gepäck gut reinigen",
+        "Description": "#Verleiht Prune, wenn sich das „Köderglöckchen“ im Modus „Jagdsuche“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> befindet, zudem den Effekt „Hexenjagd“: Erhöht Prunes ANG um 10{NON_BREAK_SPACE}%; erhöht den ANG, wenn das „Köderglöckchen“ und der {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}, der bereits eine Elementarumwandlung durchlaufen hat, einen Gegner treffen, um weitere 5{NON_BREAK_SPACE}%. Durch die oben beschriebene Methode kann der ANG um bis zu 40{NON_BREAK_SPACE}% erhöht werden.\nEntfernt, wenn während der Wirkungsdauer von „Glockenläuten! Die Jagd ist eröffnet!“ diese erneut angewendet wird, die oben genannten Effekte.",
+        "Icon": "UI_Talent_S_Prune_02"
+      },
+      {
+        "Id": 1323,
+        "Name": "Die Karawane überquert die Berge, die Landschaft ändert sich erneut",
+        "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Prune_01",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1324,
+        "Name": "Im Wind, zurückblickend – dem Schatten fehlt noch eine Hälfte",
+        "Description": "#Wenn der {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK} nach einer Elementarumwandlung einen Gegner trifft, prallt er ab, landet erneut auf einem Gegner in der Nähe und fügt diesem Elementar-Schaden des entsprechenden Elements in Höhe von 80{NON_BREAK_SPACE}% des ANG zu.",
+        "Icon": "UI_Talent_S_Prune_03"
+      },
+      {
+        "Id": 1325,
+        "Name": "Einhundert Niederlagen? Morgen nochmal",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S11322}Klingeling! Klang der Hexenjagd{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Prune_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1326,
+        "Name": "Das war’s. Erzähl die Geschichte deinen Freunden!",
+        "Description": "#Verlängert die Dauer des Modus „Jagdsuche“ des „Köderglöckchens“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> um 4{NON_BREAK_SPACE}s.\nErhöht zudem den ANG von Prune und der aktuellen Figuren in der Nähe, die unter dem Einfluss des Effekts „Trommelwirbel“ stehen, 5{NON_BREAK_SPACE}s um 350 Punkte, wenn von „Trommelwirbel“ beeinflusste Truppenmitgliedern eine beliebige Elementarreaktion an einem Gegner ausgelöst haben.",
+        "Icon": "UI_Talent_S_Prune_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Geschätzte kindliche Träume",
+    "Detail": "Eine kleine „Hexenjägerin“. Sie ist den ganzen Weg von Nod-Krai hergereist, nur um die Hexe zu besiegen, die ihrer Meinung nach die Schwachen schikaniert und nichts als Böses tut.",
+    "Association": 1,
+    "Native": "Mondstadt",
+    "BirthMonth": 11,
+    "BirthDay": 20,
+    "VisionBefore": "Anemo",
+    "VisionOverrideUnlocked": "Göttliches Auge",
+    "ConstellationBefore": "Turris Venefica",
+    "CvChinese": "宴宁",
+    "CvJapanese": "長月あおい",
+    "CvEnglish": "Alice Himora",
+    "CvKorean": "Jang Ye-na",
+    "CookBonus": {
+      "OriginItemId": 108877,
+      "ItemId": 108973,
+      "InputList": [
+        101264,
+        101265,
+        101262,
+        100016
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "Hallo. Prune, die Hexenjägerin, zu deinen Diensten. Mein Feind? Jemand, der Freude daran hat, Kinder zu ärgern. Jemand, der die imaginären Freunde anderer Leute benutzt, um sie in ihre Intrigen zu verstricken. Eine komplette Angeberin, viel zu dramatisch und besessen davon, einen ausgehöhlten Hut zu tragen. Ich spreche natürlich von der bösesten aller Hexen! Jede relevante Information über ihren Aufenthaltsort ist mehr als willkommen."
+      },
+      {
+        "Title": "Gespräch – Kriegserklärung",
+        "Context": "Warte nur, Alice! Du kannst dich verstecken, so lange du willst, aber früher oder später finde ich dich!"
+      },
+      {
+        "Title": "Gespräch – Wachsam",
+        "Context": "Pass auf bei Leuten, die durchs Leben gehen und dabei ständig grinsen. Die tun so, als wäre alles „sooo interessant“. Meistens sind das Superschurken, die nur Chaos stiften wollen."
+      },
+      {
+        "Title": "Gespräch – Fun Facts",
+        "Context": "Wusstest du, dass man beim Schlucken nicht atmen kann? Du glaubst mir nicht? Hmpf, dann musst du es eben selbst ausprobieren."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Ach, auf der Reise des Lebens kann die Sonne nicht immer scheinen. Wie im Skript eines Theaterstücks gibt es zwangsläufig ein paar Seiten, die mit Tränen befleckt sind."
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Zittern ist eine normale physiologische Reaktion auf plötzliche Geräusche. Das hat nichts mit Angst zu tun."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Mir ist nicht kalt. Ich brauche keinen Mantel."
+      },
+      {
+        "Title": "Wie sonnig ...",
+        "Context": "Sonnenschein kostet nichts. Doch wie viele Menschen können von sich behaupten, seine Wärme wirklich zu schätzen?"
+      },
+      {
+        "Title": "In der Wüste ...",
+        "Context": "Tage, die vor feuriger Leidenschaft brennen, Nächte, die mit erbarmungsloser Kälte beißen ... Das ist die Wüste."
+      },
+      {
+        "Title": "Guten Morgen ...",
+        "Context": "Meine Willenskraft führt gerade einen hitzigen Kampf mit meinem Bett, und ich werde nicht verlieren ... Los, ich muss aufstehen!"
+      },
+      {
+        "Title": "Guten Tag ...",
+        "Context": "Es ist zwar gut, im Moment zu leben, aber man sollte auch vorausdenken. Deshalb ist das Mittagessen der perfekte Zeitpunkt, um über das Abendessen nachzudenken."
+      },
+      {
+        "Title": "Guten Abend ...",
+        "Context": "In Mondstadt ist so spät noch ziemlich viel los. In Nod-Krai haben meine Eltern mich nie abends rausgehen lassen, weil es zu gefährlich war. Also habe ich mich immer in meinem Zimmer verkrochen und stattdessen gelesen."
+      },
+      {
+        "Title": "Gute Nacht ...",
+        "Context": "Sollen wir ... morgen zusammen auf Abenteuer gehen? O... Oder getrennt, ganz wie du willst. Also, ähm ... Gute Nacht."
+      },
+      {
+        "Title": "Über Prune – Identität",
+        "Context": "Jedes Mal, wenn ich jemandem erzähle, dass ich eine „Hexenjägerin“ bin, werde ich behandelt wie ein Kind in der rebellischen Phase, das nur kindischen Unsinn von sich gibt. Moment mal ... Was soll dieser Blick?"
+      },
+      {
+        "Title": "Über Prune – Lesen",
+        "Context": "Erwachsene haben keine Geduld. Stell ihnen eine Frage und du bekommst immer nur zu hören: „Das muss ein Kind nicht wissen“ oder „Das verstehst du, wenn du älter bist“ ... Pff, na gut. Bücher lügen nicht – die Informationen stehen für jeden sichtbar da, und wer sie liest, kann seine eigenen Schlüsse ziehen. Ich bevorzuge es, meine eigenen Antworten zu finden."
+      },
+      {
+        "Title": "Über uns – Timing",
+        "Context": "#Wenn ich so darüber nachdenke{NON_BREAK_SPACE}... Du bist kurz nach meiner Abreise aus Nasha in Nod-Krai angekommen. Schlechtes Timing, schätze ich. Aber vielleicht war es besser so. Du warst damals in so einen Wirbel verwickelt, hast mit all diesen berühmten und wichtigen Leuten zusammengearbeitet{NON_BREAK_SPACE}... Ich hätte da niemals reingepasst. Ähm, was ich meine, ist{NON_BREAK_SPACE}... Ich mag keine Menschenmengen. Also haben wir uns eigentlich zum perfekten Zeitpunkt getroffen."
+      },
+      {
+        "Title": "Über uns – Standpunkte",
+        "Context": "Ich habe es nie erwähnt, aber ... Ich bin wirklich froh, dass wir uns kennengelernt haben. Du hörst mir immer zu und beantwortest meine Fragen. Ach, und du behandelst mich nicht wie ein Kind ...\nNatürlich weiß ich, dass du mit den Hexen befreundet bist ... Aber ich glaube nicht an dieses ganze „Der Freund meines Feindes ist mein Feind“-Zeug. Das ist so altmodisch. Solange wir aufrichtig sind, können wir trotzdem Freunde sein, auch wenn wir an unterschiedliche Dinge glauben ... R... Richtig?"
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Alle mächtigen Leute, die ich getroffen habe, hatten ein Göttliches Auge. Jetzt habe ich auch eins, also ... Heh, ich gehöre wohl zu ihnen. Aber auch ohne eins beherrschst du die Elemente, als wäre es das Natürlichste der Welt ... Das macht dich wohl zur mächtigsten Person von uns allen. Jede Regel hat ihre Ausnahme, schätze ich."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Wusstest du, dass es im „Flaggschiff“ spezielle Cocktails gibt? Das Ganze hat was von Roulette, also ein echtes Glücksspiel und total aufregend. Hm? Wie die schmecken? Ähm, tja ... das weiß ich nicht. Jedes Mal, wenn ich mich auf die Zehenspitzen stelle und Mora auf den Tresen knalle, zeigt der Barmann nur zur Tür und sagt: „Hier ist kein Platz für Kinder. Geh ins Speranza, wenn du einen Hotdog willst“ ...\nHmpf, das nenn ich mal Altersdiskriminierung!"
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Ich wette, du wusstest nicht, dass es im Yilong-Hafen einen riesigen Aufzug gibt ... Hm? Pier? Ja, natürlich. Yilong-Pier. Das wusste ich. Oh, und wenn du nach Sumeru gehst, musst du dir unbedingt die süßen kleinen Wesen ansehen, die im Wald leben. Die Kinder dort nennen sie Raranara. Hä? Na klar. Ich weiß natürlich, dass sie Aranara heißen! Wie auch immer ... Und Snezhnaya? Warst du schon dort? HA! Ähm, also ich schon. Ich habe sogar viele Fotos gemacht. Ich schätze, ich werde dich dort herumführen müssen."
+      },
+      {
+        "Title": "Über Alice – Die Hexe",
+        "Context": "#Ich versuche nicht, einen Keil zwischen euch zu treiben, aber im Interesse der Transparenz bin ich verpflichtet, ihre bösen Taten aufzudecken. Sie provoziert mich ständig mit Rätseln, die selbst ein Schleim lösen könnte, oder nervt mich mit Debatten über ein kindisches Thema nach dem anderen, nur um jedes Mal gegen mich zu verlieren! Dann, in einem regelrechten Tobsuchtsanfall, offenbarte sie ihre böse Natur und erklärte, sie hätte Descartes entführt, und wenn ich ihn zurückhaben wollte, müsste ich nach Mondstadt kommen, um nach Hinweisen zu suchen! Kannst du das glauben?! Das Böse in seiner verabscheuungswürdigsten Form! Stell dir nur mal vor, du hättest sie in einer Runde Geniale Beschwörung vernichtend geschlagen und sie hätte Paimon entführt, um es dir heimzuzahlen! Da würdest du auch {F#zur Hexenjägerin}{M#zum Hexenjäger} werden."
+      },
+      {
+        "Title": "Über Alice – Psychologische Kriegsführung",
+        "Context": "Anfangs fragte ich mich: Warum Mondstadt? Warum lockt sie mich nicht an einen gefährlicheren Ort? Aber dann wurde mir klar ... es ist psychologische Kriegsführung. Je gefährlicher das Jagdrevier, desto schärfer werden die Instinkte des Jägers. Aber Mondstadt ist ein Land fauler Trinker und romantisierter Poesie. Sie hofft, dass diese sogenannte Atmosphäre der „Freiheit“ mich in ein nutzloses Wrack verwandelt, das nichts tut, außer nachmittags Tee zu trinken und Katzen zu bürsten!"
+      },
+      {
+        "Title": "Über Alice – Niemals verzeihen",
+        "Context": "Seit ich mich mit Descartes wiedervereinigt habe, ist mir klar geworden, dass hinter der ganzen Sache einige ... nun ja, gut gemeinte Lügen steckten. Aber nur weil ihre Absichten gut waren, ändert das nichts an der Bösartigkeit der Tat selbst! Außerdem, ist dir nicht aufgefallen, wie sehr sie es genossen hat, mich leiden zu sehen? Jedes Mal, wenn ich nervös oder aufgebracht war, hat sie gelacht, als wäre es das Lustigste auf der Welt! Das allein ist Beweis genug, dass sie durch und durch böse ist. Also nein, ich werde ihr nicht verzeihen. Niemals."
+      },
+      {
+        "Title": "Über Klee ...",
+        "Context": "Ich gebe zu, anfangs bin ich nur auf sie zugegangen, um Informationen zu bekommen. Schließlich muss sie als Tochter von Alice viele ihrer Geheimnisse kennen, oder? Ich hatte nur nicht erwartet, dass sie so ... offen und vertrauensvoll ist. Mich zum Spielen einzuladen, mir dieses Geschenk zu geben ... Als ich in ihre Augen sah, die vor unschuldiger Vorfreude funkelten, konnte ich nicht anders, als mich ein wenig ... ein wenig ...\nAch, egal. Ein Geschenk wird mich nicht von der Jagd abbringen. Ich habe nur das Gefühl ... ab und zu zusammen zu spielen schadet auch nicht, also ... Warum nicht?"
+      },
+      {
+        "Title": "Über Sayu ...",
+        "Context": "In ihrem Alter ist „schlafen, wo und wann man kann“ gar keine schlechte Strategie. Schau dir nur all die Erwachsenen an, die in Arbeit oder Sorgen ertrinken. Die meisten müssen Alkohol oder alchimistische Tränke nehmen, nur um ein paar Stunden Schlaf zu bekommen. Es wird aber nicht mehr lange dauern, bis auch sie Dinge hat, die sie nachts wachhalten. Ich sage: Lass sie schlafen, solange sie noch kann."
+      },
+      {
+        "Title": "Über Yaoyao ...",
+        "Context": "Yaoyao ist wirklich geschickt mit ihren Händen. Sie hat mir schon oft geholfen, meine Haarschleife zu binden. Sie macht das immer so gut ... viel besser als ich es könnte. Die Schleife ist so perfekt, dass ich sie nicht mal aufmachen will, wenn ich ins Bett gehe. Aber irgendwie ist sie am nächsten Morgen immer total zerzaust!"
+      },
+      {
+        "Title": "Über Qiqi ...",
+        "Context": "Oh, ich habe ihr eine Menge Kloßmilch gekauft, weil sie bei der Teegesellschaft der Minihexen gesagt hat, dass sie die so gerne mag. Hm? I... Ich habe viel zu viel für eine Person gekauft? Na ja, es war ein Kauf-zwei-zahl-eins-Angebot. Außerdem dachte ich, es wäre nett, ein paar Spezialitäten aus Inazuma mit nach Mondstadt zu bringen. Weißt du, für äh ... Klee. Ja, für Klee. Ich bevorzuge natürlich Tee. Pur, ohne Zucker."
+      },
+      {
+        "Title": "Über Paimon ...",
+        "Context": "Ich muss fragen: Wie hat Paimon es in die Sumeru-Akademie geschafft? Ist die Aufnahmeprüfung schwer? Glaubst du, sie würde ihre Lernmaterialien mit mir teilen? Warte, was? Sie bekommt sogar Einzelunterricht von einem renommierten Ausbilder? Das will ich auch!"
+      },
+      {
+        "Title": "Über Albedo ...",
+        "Context": "Ich muss dir was erzählen, aber du musst versprechen, es niemandem zu sagen, ja? Ich fange an zu vermuten, dass Herr Albedo eigentlich gar kein ... Mensch ist! Ich meine, denk mal darüber nach ... Könnte ein so perfekter Mensch überhaupt existieren? Hmm ..."
+      },
+      {
+        "Title": "Über Kaeya ...",
+        "Context": "Nachdem er von meinem Plan erfahren hatte, meinte er, ich sollte Descartes zu einer schweren Kavallerieeinheit aufrüsten, und stellte mir sofort einen „Sonder-Reitschein“ aus ... Aber bevor ich überhaupt das Kleingedruckte lesen konnte, hat die kommissarische Großmeisterin Jean ihn wegen „unzulässiger Ausstellung“ konfisziert. Anscheinend sei „Reiten für Minderjährige zu riskant“ oder so ... Hmpf."
+      },
+      {
+        "Title": "Über Mona ...",
+        "Context": "Einmal habe ich sie mit Hexe B verwechselt und sie vielleicht ... ein bisschen belästigt ... Aber es ist alles Alices Schuld! Sie hat mir gesagt, dass Hexe B „Megistus“ heißt. Natürlich hat sie das „Tris“ absichtlich weggelassen, um mich reinzulegen! Außerdem kannst du mir nicht erzählen, dass Monas großer spitzer Hut sie nicht genau wie eine Hexe aussehen lässt ... Sie hat meine Entschuldigung aber angenommen, also ist das alles Schnee von gestern."
+      },
+      {
+        "Title": "Über Lisa ...",
+        "Context": "Hmpf, noch eine Dame mit spitzem Hut und ein weiteres potenzielles Ziel. Sie ist sogar als „Rosenhexe“ bekannt. Aber je offensichtlicher etwas scheint, desto vorsichtiger muss man vorgehen ... Trotzdem, jedes Mal, wenn sie mich in sorglosem Ton und mit neckischem Lächeln „kleine Prune“ nennt, drehen meine Jägerinstinkte durch. Selbst wenn sie keine echte Hexe ist, würde ich es mir zweimal überlegen, mich mit ihr anzulegen."
+      },
+      {
+        "Title": "Über Fischl ...",
+        "Context": "Andere denken vielleicht, sie verliert sich in Fantasien, aber ich glaube, sie ist eine der wenigen in Mondstadt, die die Dinge klar sieht. Ihre ... rhetorischen Ausschmückungen sind bloß eine Waffe, die sie gegen diese grausame Welt einsetzt. Hm? Ob ich verstehe, was sie sagt? Natürlich nicht. Aber das hindert mich nicht daran, sie hoch zu schätzen."
+      },
+      {
+        "Title": "Über Aino ...",
+        "Context": "Ich habe drei Tage lang bei ihr in der Werkstatt die Grundlagen des Ingenieurwesens erlernt. Wir haben ganz von vorne angefangen, zum Beispiel mit dem Anziehen von Schrauben. Sie hat mir sogar geholfen, ein neues Design für den herablassend kindischen Hammer und die Glocke zu entwerfen, die ich von Alice gewonnen habe. Der neue Look ist viel industrieller und metallischer. Der visuelle Einschüchterungsfaktor ist dadurch um ganze dreißig Prozent gestiegen!"
+      },
+      {
+        "Title": "Über Dori ...",
+        "Context": "Bevor ich in Mondstadt angekommen bin, bin ich mit ihrer Handelskarawane durch mehrere Nationen gereist. Sie bietet zwar einen speziellen Passagier-Begleitservice an, der schneller und bequemer ist, aber die Gebühren sind geradezu unverschämt hoch. Hmpf, Händler eben, was?\nDas Seltsame ist: Als die Karawane angegriffen wurde, hätte man denken können, dass sie den Profit über alles stellt und die Fracht priorisiert. Aber stattdessen schrie der Karawanenführer: „Beschützt das Kind! Das ist ein direkter Befehl der Chefin – wenn sie auch nur einen Kratzer abbekommt, wird dem ganzen Team der Lohn gekürzt!“ Dabei schuldete sie mir gar nichts. Ich meine, ich habe nur eine winzige Transportgebühr bezahlt. Das ergibt einfach keinen Sinn. Es sei denn ... sie schätzt wirklich etwas anderes mehr als Mora."
+      },
+      {
+        "Title": "Ich will mehr über Prune erfahren – I",
+        "Context": "Lass mich raten ... Du willst wissen, wo ich wohne, wer meine Eltern sind und wo sie sind, warum ich so weit weg von zu Hause ganz allein bin, ob ich es vermisse ... Jeder Erwachsene, den ich treffe, stellt die gleichen Fragen. Na gut, dann mal los ... Hm? Das wolltest du gar nicht fragen? Ähm ... Dann brauch ich einen Moment!"
+      },
+      {
+        "Title": "Ich will mehr über Prune erfahren – II",
+        "Context": "Descartes ist mein imaginärer Freund. Er tauchte auf, als ich ungefähr vier oder fünf war. Meine Eltern waren damals mit der Arbeit beschäftigt und hatten nicht viel Zeit für mich. Also begann ich eines Tages, mir vorzustellen, dass ein superintelligenter Hund an meiner Seite wäre, der mit mir reden und über Fragen mit mir diskutieren konnte, und dann ... da war er. Auch wenn niemand ihn sehen kann außer mir, er ist immer da. Wenn es einen Freund auf dieser Welt gibt, auf den ich zählen kann, dann ist er es."
+      },
+      {
+        "Title": "Ich will mehr über Prune erfahren – III",
+        "Context": "„Imaginär“ ist nicht dasselbe wie „falsch“. Für mich ist Descartes’ Existenz so greifbar und real wie nur möglich. Wir beide haben die Sprache als Kommunikationsmittel schon vor langer Zeit aufgegeben. Sie ist viel zu ineffizient. Descartes kann mit einem einzigen Blick oder einem tiefen Atemzug auf einen Fehler in einer meiner logischen Schlussfolgerungen hinweisen. Unser Austausch findet auf der Ebene der Seele statt, und das erfordert ein Maß an stillschweigendem Verständnis, das nur wenige erreichen können. Also ... wen kümmert es, dass ich keine anderen Freunde habe. Descartes ist alles, was ich brauche."
+      },
+      {
+        "Title": "Ich will mehr über Prune erfahren – IV",
+        "Context": "... Na gut, ich geb’s zu – der Minihexenzirkel hat mich verändert. Ich schätze, so fühlt es sich an, wenn man gebraucht und umsorgt wird. In Nod-Krai hatte ich immer das Gefühl, nur von außen zuzuschauen, aber als Mitglied des Zirkels fühle ich mich unverzichtbar. Das ist mal eine nette Abwechslung ... Wirklich schön, eigentlich. Wenn irgendjemand versucht, diese Organisation zu bedrohen, muss er erst an mir vorbei. Zufrieden jetzt? Du hast mich dazu gebracht, mein Herz auszuschütten. Aber erzähl das bloß niemandem ... vor allem nicht Klee und den anderen!"
+      },
+      {
+        "Title": "Ich will mehr über Prune erfahren V",
+        "Context": "Sobald der Minihexenzirkel stärker wird, werden wir die Regeln der Hexenwelt neu schreiben. Niemand wird mehr wegen imaginärer Freunde gehänselt. Niemand spielt anderen mehr Streiche im Namen von „Prüfungen“. Und niemand spielt mehr mit den Gefühlen von Kindern. Wir werden eine neue Ordnung schaffen – eine der Gerechtigkeit, Güte und Freundschaft! Alice und ihre Generation von Hexen tun nichts anderes, als ihren eigenen Launen zu folgen. Es ist Zeit, dass die jüngere Generation übernimmt. Hm? Findest du das etwa lustig? Warte nur, bis wir die stärkste Organisation in Teyvat sind, dann sehen wir ja, wer zuletzt lacht."
+      },
+      {
+        "Title": "Prunes Hobbys ...",
+        "Context": "Auch wenn mein Exemplar des „Stoffkunde-Leitfadens zur Elementarkraft“ schon achtzig Jahre veraltet ist, sind die grundlegenden Theorien darin nach wie vor fundiert. Ich habe das Buch durchgearbeitet und Anmerkungen gemacht. Dabei habe ich einige veraltete Ansichten korrigiert und meine eigenen taktischen Schlussfolgerungen eingebracht. Hehe, und Alice hat es mir einfach so geschenkt! Ich wette, sie hätte nie gedacht, dass ich es eines Tages gegen sie einsetzen würde!"
+      },
+      {
+        "Title": "Prunes Sorgen ...",
+        "Context": "Diese Haarsträhne steht schon wieder ab! Jeden Morgen kämpfe ich dagegen an, aber egal wie oft ich sie runterdrücke, sie springt immer wieder hoch ... Es ist, als würde sie mich verspotten!"
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Zuckerfiguren mit Barbecue-Geschmack, saures Räucherfischfilet, Kartoffelpuffer mit Tofu-Geschmack ... Oh, je ungewöhnlicher die Kombination, desto mehr zieht sie mich an! Auch wenn es etwas seltsam klingt, ein Bissen genügt und du bist süchtig danach!"
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Die Hot Dogs aus dem „Speranza“. Nicht wegen des Geschmacks, natürlich. Es ist eine Sache des Stolzes. Ich meine, der Geruch ist schon irgendwie verlockend ... Aber das ist egal! Ich hasse sie!"
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Ich dachte immer, dass die Bilder im „Gerichtehandbuch“ erst durch viele Tricks so perfekt aussehen. Ich hätte nie gedacht, dass ein Gericht im echten Leben auch wirklich so aussehen kann!"
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Hmm ... Nicht schlecht, aber da ist noch Luft nach oben."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Also, raus mit der Sprache! Hat dich etwa diese Hexe verflucht?!"
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "Alles Gute zum Geburtstag! Du brauchst nicht so überrascht zu schauen – es ist nicht schwer, ein Datum aus den Leuten rauszukitzeln. Aber eine wichtige Information konnte ich nicht herausfinden ... Deinen Geburtstagswunsch!\nHm? Wenn man es laut ausspricht, geht es nicht in Erfüllung? Da bin ich anderer Meinung. Das macht es nur schwieriger für Leute wie mich, dabei zu helfen, es wahr werden zu lassen. Also, komm schon, red nicht um den heißen Brei herum. Was wünschst du dir? Du denkst vielleicht, dass ich nicht viel tun kann, aber ich habe ziemlich viel Taschengeld gespart. Außerdem sagst du doch immer, wie klug ich bin, also bin ich mir sicher, dass ich dabei helfen kann!\nEs sei denn, es ist etwas wie „ein Haus im Zentrum von Mondstadt kaufen, ohne Hypothek“. Aber ... du würdest dir doch nichts so Unvernünftiges wünschen ... oder?"
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Meine Elementarreaktionen scheinen jetzt stabiler zu sein. Sieht so aus, als würde ich die Theorie in der Praxis erleben."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Das stand in keinem der Bücher ... Aber ich werde es mir merken."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Vielleicht bedeutet ein klarer Kopf ja gar nicht, dass man das Fantasieren aufgeben muss. Ich glaube, ich kann beides behalten."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Ich glaube immer noch nicht an erfundene Märchen und habe nicht viel Vertrauen in diese Welt. Aber ich glaube an dich, also hoffe ich, dass du auch an mich glaubst. Selbst wenn du denkst, dass ich immer noch nur ein Kind bin, zumindest ... bin ich ein großes Kind – jemand, der stark genug ist, um sich auf mich zu verlassen."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Bonk!"
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Hab dich!"
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Hast du genug?"
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "Spür den Hammer!"
+      },
+      {
+        "Title": "Elementarfähigkeit V",
+        "Context": "Ich bin dran!"
+      },
+      {
+        "Title": "Elementarfähigkeit VI",
+        "Context": "Kein Entkommen!"
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Du bist erledigt."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Klingeling!"
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Hammerhart!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Menschen jeden Alters mögen Schätze ... Das bin nicht nur ich."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Hmpf, Schatzsuchen sind was für Kinder."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "He, he! Schau mal ... Hier ist noch eine!"
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Zeit, den Spieß umzudrehen!"
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Such dir jemanden in deiner Größe!"
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Ich gebe nicht auf!"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Ich kann helfen!"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Ein taktischer Rückzug ist doch nichts Schlimmes ..."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Descartes, lauf ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Ich werde zurückkehren ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Das ist nicht ... fair ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Hah, das kitzelt."
+      },
+      {
+        "Title": "Leichten Treffer erlitten II",
+        "Context": "Ihr kriegt mich nicht klein."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Aua!"
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Stopp!"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Bereit für die Hexenjagd."
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Nur damit du es weißt, ich bin nicht hier, um zu spielen."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Du hast es. Lass uns gehen."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Welch bittere Fehde zwischen Prune und den Hexen bestand, darüber fanden sich einige wenige Hinweise in den „Schriften der Vergeltung“ auf den vielen Schwarzen Brettern in Mondstadt.\nDie Reaktionen der Mondstädter auf die Geschichte der „Hexenjägerin“ lassen sich grob in drei Kategorien einteilen.\nDie erste Kategorie besteht aus wohlwollendem Lächeln und der Frage, ob sie eine Apfelschorle möchte. Die zweite Kategorie nickt halbverständig und fragt dann, wo ihre Eltern sind. Die dritte Kategorie sind Menschen der Tat wie Kaeya. Sie hören sich ihren Racheplan erst aufmerksam an und geben dann sogar konkrete Ratschläge – egal, ob diese umsetzbar sind oder nicht.\nPrune war mit keiner dieser drei Reaktionen besonders zufrieden.\nAber auch wenn sie unzufrieden war, hatte sie sich längst daran gewöhnt. In ihren Augen war es das Schicksal eines Jägers, nicht verstanden zu werden ... Und wie ein Kind behandelt zu werden, das nur Vater-Mutter-Kind spielt – das waren Blicke, denen sie jeden Tag begegnete.\nTatsächlich ist Prune, was die Bandbreite ihres Wissens angeht, vielen Gleichaltrigen und sogar manchen Erwachsenen voraus. Sie drückt sich klar strukturiert aus und wählt ihre Worte mit Bedacht. Gelegentlich wirft sie beiläufig unerwartete Fakten ein und zeigt dabei ein kaum zu verbergendes, stolzes Lächeln – einer der seltenen Momente, in denen unverhohlen ihr kindliches Gemüt zum Vorschein kommt.\nDoch wer sie länger kennt, merkt schnell: Ihr Wissen ist zwar breit gefächert, aber nicht besonders tiefgründig. Denn was kann ein Kind schon von den wirklich wichtigen Dingen des Lebens wissen? Daher wird ihr Wissen, auf das sie so stolz ist, in entscheidenden Momenten oft von der Realität überholt. Wenn das passiert, beißt sie sich auf die Lippen, murmelt „Ich komme wieder!“ und zieht sich zurück, ohne sich noch einmal umzudrehen.\nDoch wer sie deshalb nur für eine vorlaute Göre hält, der hat sich ganz schön geschnitten.\nDenn wenn sie sagt „Ich komme wieder!“, dann kommt sie auch wirklich wieder. Am nächsten Tag steht sie ganz sicher mit noch besseren Argumenten, mehr Seiten mit Notizen und einem noch trotzigeren Gesicht erneut vor dir.\nOb dieser unbeugsame Starrsinn nun das Talent einer Jägerin ist oder der Trotz eines Kindes, kann vielleicht nicht einmal sie selbst so recht sagen. Aber eines steht fest: Egal, wie viel Mühe es kostet – mit jener bösen Hexe hat sie noch eine Rechnung offen. Und die wird sie bis auf den letzten Posten begleichen."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Prunes Eltern stammten aus Mondstadt. In jungen Jahren ließen sie sich von romantischen Sprüchen wie „Das Leben ist eine Wildnis“ mitreißen, schnürten ihre Rucksäcke und reisten um die Welt, bis sie sich schließlich in Nod-Krai – mit all seinen Chancen und seinem Chaos – niederließen. Hier vermischten sich Händler, Abenteurer, Scharlatane und Schmuggler zu einem komplizierten Netzwerk, offensichtlich kein geeigneter Ort, um ein Kind großzuziehen. Der Vater fand einen anstrengenden Job an der Anlegestelle, die Mutter arbeitete gleich an zwei Stellen, und die Familie kam gerade so über die Runden. Ihre Liebe zu Prune konnten sie nur dadurch zeigen, dass sie ihr genug zu essen und warme Kleidung gaben. Was Zuwendung anging, war diese so selten wie die Aufrichtigkeit eines Taugenichts.\nEines Tages kam ihre Mutter ausnahmsweise vor dem Abendessen nach Hause. Prune lief aufgeregt nach draußen, um sie zu begrüßen. Sie hielt sich am Saum von Mamas Kleid fest und wollte ihr unbedingt erzählen, dass ein Händler in der Stadt Windmühlen-Spielzeug aus Mondstadt verkaufte. Es war so schön!\nDoch als sie Mamas raue Hände hielt und an das Schuldbuch dachte, das Papa in der Schublade versteckt hatte, wo dicht an dicht Schuldeintrag um Schuldeintrag geschrieben stand, schluckte sie die Worte wieder hinunter.\n„So ein Ding, das sich nur im Kreis dreht, ist doch überhaupt nicht praktisch“, sagte sie sich in Gedanken. „Und außerdem mag ich es auch gar nicht. Wirklich nicht.“\nSolche Worte hatte sie sich schon viele Male gesagt.\nWenn sie an einem Süßigkeitenstand vorbeiging, tröstete sie sich leise: „Süßes ist schlecht für die Zähne. Sowas esse ich doch schon lange nicht mehr.“\nWenn sie sah, wie das Nachbarskind mit neuem Spielzeug angab, hob sie ihr Kinn und sagte nur: „Wie kindisch.“\nTag für Tag redete sich die kleine Prune so selbst Dinge ein, bis sie, ohne es recht zu merken, eine hohe Mauer namens „Reife und Vernunft“ um sich herum gezogen hatte.\nSie lernte, sich selbst Essen aufzuwärmen, Kleidung zu flicken und sogar bei der Überprüfung der Zahlen im Rechnungsbuch zu helfen. Einmal entdeckte sie sogar, dass der Arbeitgeber ihrer Mutter drei Tage Lohn zu wenig gezahlt hatte. Dass sie bei solch „nützlichen“ Dingen helfen konnte, machte sie unheimlich stolz auf sich selbst.\nJeden Abend, wenn ihre erschöpften Eltern nach Hause kamen, lag Prune längst gewaschen und umgezogen im Bett und tat so, als ob sie schliefe. Denn sie wusste: Wenn sie merkten, dass sie noch wach war, noch Angst im Dunkeln hatte, noch Gesellschaft brauchte, würden sie sich Vorwürfe machen. Sie würden traurig sein. Und zu der schweren Last, die sie ohnehin schon schultern mussten, käme noch ein weiterer Packen Schuldgefühle hinzu.\n„Ich bin kein kleines Kind mehr.“ Dieser Satz wurde zu ihrem Mantra. Und zu ihrer Rüstung."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Zum Glück gab es auf der Welt noch einige Hobbys, die nicht viel Geld kosteten, und Lesen war eines der günstigeren.\nDer Besitzer der Buchhandlung „Mimisbrunnr“ schien sich nur darauf zu konzentrieren, Investitionspapiere an zahlungskräftige Zielkunden zu verkaufen. Die kleine Prune, die jeden Tag still vor den Regalen hockte und in Büchern blätterte, kümmerte ihn nicht. So wurden nagelneue und vergilbte Buchseiten zu ihrem ersten Fenster hinaus in die Welt.\nIhre Lektüre folgte dabei keinem System, sondern allein der Frage, ob Einband und Titel sie ansprachen. Anfangs waren es bunte Märchenbilderbücher, doch bald genügten ihr die glücklichen Enden von Prinzen und Prinzessinnen nicht mehr. Sie begann, alles zu verschlingen, was Buchstaben in sich barg. Doch anders als in den Bibliotheken von Mondstadt und Sumeru war Nod-Krai vor allem voll von abgelaufenen oder mit Falschmeldungen gespickten Zeitungen, irreführenden Reiseführern, fehlerhaften Raubdrucken oder falsch übersetzten Romanen und einigen für Kinder ungeeigneten, schwermütigen Geschichtsbüchern.\nDa sie immer mehr las, wurde Prune allmählich zu einem „Informations-Profi“ und eignete sich viel Nischenwissen an. Sie genoss diese geistige Überlegenheit und war ziemlich stolz auf sich. Dieses verstreute, fortgeschrittene Wissen verband sich und formte in ihrem Kopf schon viel zu früh ein sehr kompliziertes Weltbild, das zudem auch ein wenig grau war.\nVerstand sie eigentlich, was sie da las? Meistens nur zur Hälfte oder gar nicht. Doch sie sammelte die schwierigen Fachbegriffe und fremden Konzepte unermüdlich in ihrem Kopf, wie glänzende Muscheln am Strand.\nDie Nachbarskinder riefen nach ihr und luden sie auch ein paar Mal zum Spielen ein. Doch entweder war sie so in Gedanken versunken, dass sie sie nicht hörte, oder begann, wenn sie sich doch mal zu ihnen gesellte, instinktiv die Spielregeln anhand der Wörter zu analysieren, die sie bereits gelernt hatte.\n„Wartet mal!“, hob Prune die Hand. „Ich muss erstmal die grundlegende Logik des Spiels überprüfen.“\n„Die ‚Piraten‘ haben genug Geländevorteile und Zeitpuffer. Sie hätten nicht so schnell besiegt werden dürfen! Es sei denn, die ‚Meeresschnecken-Bande‘ hat einen nicht klar definierten ‚Überraschungsangriff‘ eingesetzt, der das Kampfsystem aus dem Gleichgewicht gebracht hat!“\nIhre Spielkameraden sahen sich nur ratlos an und suchten sie, einer nach dem anderen, lieber nicht mehr auf.\nPrune hatte diese Entfremdung durchaus bemerkt. Doch sie schnaubte nur verächtlich und tat so, als wäre es ihr gleich. Es gab so viele tiefgründige Rätsel auf der Welt, so viele komplexe Prinzipien und Phänomene, die nur darauf warteten, verstanden zu werden. Und das waren die Dinge, die es wirklich lohnten, Zeit in sie zu investieren.\nUnd so gingen sie und die anderen von nun an getrennte Wege."
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Das war ein Nachmittag voller verwirrender Gedanken.\nPrune hatte sich mühsam durch den ersten Band von „Bittgesang des Nordens“ gekämpft, obwohl Erwachsene sie davor gewarnt hatten, denn „Kinder sollten diese Bücher nicht lesen.“ Sie schloss das Buch. Den Anfang und das Ende hatte sie schon komplett vergessen. Und an die Mitte erinnerte sie sich auch kaum. Ja, diese komplizierten Verse waren für die jetzige Prune ein echtes Schwergewicht. Das strengte sie sehr an, und die Erschöpfung durch das geistige Erkunden war wirklich groß. Aber sie konnte sie mit niemandem teilen. Eine leere Einsamkeit breitete sich in ihr wie eine Flut aus.\nUnd so begann sie, wie so oft, einen einseitigen, langwierigen Monolog mit der Luft neben ihr. In ihrer Vorstellung gab es immer einen Zuhörer – vielleicht war es der streunende kleine Hund, den sie aus praktischen Gründen nicht adoptieren konnte, oder ein nachdenklicher, wortkarger Weiser aus einem Buch. Sie wusste nicht, mit „wem“ sie eigentlich sprach, aber dennoch stillte sie so mithilfe der Luft Tag für Tag ihr unbändiges Mitteilungsbedürfnis. Doch dieses Mal erzitterte die Luft sanft, und der Freund aus ihrer Fantasie erschien klar und deutlich vor ihren Augen.\n„Du bist es ... Du bist ...“\nPrune wollte aufgeregt seinen Namen rufen, doch dann fiel ihr auf, dass sie ihn in ihren Gedanken immer nur mit „du“ angesprochen hatte.\nAlso musste ein Name her. Typische Haustiernamen wie „Fellknäuel“, „Wuffi“ oder „Süßi“ schieden sofort aus, denn es war offensichtlich kein normaler Schoßhund. Seine leicht gerunzelte Stirn deutete auf eine besondere Weisheit hin, und seine tiefen Augen verbargen sein wahres Inneres. Am beeindruckendsten war jedoch seine Fellfarbe. Das blau-lila gescheckte Fell wirkte geheimnisvoll und ruhig, was perfekt zu Prunes aktuellem Geschmack passte.\n„Descartes“ – sie entschied sich für diesen Namen voller philosophischer Tiefgründigkeit. So verlieh sie ihrem Gefährten Stil und zeigte nebenbei noch ihren herausragenden Bildungsgrad.\nDescartes’ Ankunft bereicherte nicht nur Prunes Leben enorm, sondern ließ sie auch noch ... eigenwilliger wirken.\nAn einem Nachmittag nach dem Regen hockte Prune am Straßenrand und beobachtete die Spiegelung in einer Pfütze.\n„Sieh mal, Descartes, die Welt in dieser Pfütze ist das genaue Gegenteil der echten Welt. Und jetzt kommt die Frage: Wie beweisen wir, dass wir nicht einfach nur in einer ‚größeren Pfütze‘ leben?“\nDie vorbeigehenden Passanten wurden langsamer und betrachteten das kleine Mädchen, das mit einer Pfütze Selbstgespräche führte, mit verwunderten Blicken.\n„Vielleicht“, fuhr Prune fort, „ist das, was wir für die ‚Wirklichkeit‘ halten, nur das ‚Spiegelbild‘ einer Existenz aus einer höheren Dimension. Habe ich recht, Descartes?“\nSie drehte den Kopf zur Luft neben sich und nickte ernst.\n„Hm, das denke ich auch. Im Grunde ist also jede Erkenntnis relativ, und eine absolute Wahrheit gibt es gar nicht.“\nEine freundliche alte Dame kam vorbei und fragte besorgt: „Mädel, geht es dir ... gut? Soll ich dir helfen, deine Familie zu finden?“\nPrune hob den Kopf und fragte mit aufrichtigem Blick: „Omi, glaubst du, dass diese Welt echt ist?“\n„...“\n„Ach, egal. Viele Menschen denken ihr ganzes Leben nicht über diese Frage nach.“ Prune stand auf. „Lass uns gehen, Descartes. Vielleicht ist das Leben in einem Trugbild für viele Erwachsene ja ganz normal.“\nDie alte Frau sah dem seltsamen kleinen Mädchen nach. Sie konnte nicht anders, als die Hände vor ihrer Brust zu falten, als wolle sie für etwas beten: „Möge das Mondlicht dich beschützen, Kind ...“\nDoch die engen, verwinkelten Gassen von Nasha bargen auch derart dunkle Ecken, in denen selbst das barmherzige Mondlicht nicht jeden Schatten durchdringen konnte.\nIn den kalten Ritzen dieser Wirklichkeit war es eigentlich nur Descartes, der Prune wie ein Schatten stets „beschützte“ – seine lautlose, doch beständige Begleitung füllte all die einsamen Stunden des kleinen Mädchens aus."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Die gelangweilte Hexe wollte sich die Zeit vertreiben und hatte es auf ein kleines Mädchen abgesehen, das am Straßenrand saß und ein dickes Buch las.\n„Warum gehst du nicht zu den Kindern da drüben spielen?“\n„Ich mag ‚Spielen‘ nicht“, lehnte Prune ab und hob dabei nicht einmal den Kopf, sondern blätterte stattdessen weiter in ihrem Buch.\n„Was liest du denn da?“ Alice streckte neugierig den Kopf vor. Ihre Augen leuchteten auf, als hätte sie einen Schatz entdeckt.\n„So etwas wie einen Reiseführer. Aber da es eine Raubkopie ist, wurden nur ein paar Abschnitte gedruckt, der Autor ist unbekannt ...“\n„Wie findest du den Schreibstil?“\n„Geht so. Der Autor wirkt extrem egozentrisch. Und zwischen den Zeilen schimmert auch ein ziemlich fragwürdiger Humor durch.“\n„Ah?“\nSeit jenem Tag tauchte Alice immer wieder „zufällig“ an Prunes Seite auf. Sie warf ihr die unterschiedlichsten Themen hin und startete „Debatten“: „Bekommt man ein süßes Getränk, wenn man Zucker in einen Hydro-Schleim gibt?“ „Wenn ich mich selbst besiege, habe ich dann gewonnen oder verloren?“ ...\nAlice genoss diese absurden Provokationen, während Prune jedes Mal so reagierte, als stünde sie vor einer großen Herausforderung. Sie versuchte, diese „Scheinargumente“ mit streng logischen Kausalketten zu widerlegen. Ihre übertrieben ernste Art offenbarte dabei eine unbeholfene Niedlichkeit. Alice stützte ihr Kinn in die Hand und beobachtete lächelnd, wie Prune Zitate und Belege anführte, als würde sie einer unterhaltsamen Vorstellung beiwohnen.\nGleichzeitig bemerkte Alice mit scharfem Blick, dass die Gestalt des imaginären Freundes an Prunes Seite immer blasser wurde – wie Morgentau, der im Sonnenlicht sogleich verdampfen würde.\nAnfangs nahm Prune Alices Behauptung, eine „Hexe“ zu sein, nicht besonders ernst. In Nod-Krai konnte selbst der gewöhnlichste Onkel in der Schlange für den „Mondschmaus“ behaupten, ein legendärer Räuber im Ruhestand zu sein. Eine weitere seltsame Tante mit einem durchbrochenen großen Hut, übertriebenem Aussehen und kindischer Ausdrucksweise? Das passte perfekt zur Vielfalt der Menschen hier.\nNie hätte sie gedacht, dass dieses kindische Weib eines Tages zu ihrer schicksalhaften Erzfeindin werden würde ...\n„Die Beziehung zwischen den Seitenlängen eines Dreiecks ohne Mathematik beweisen ... Solche schwierigen Aufgaben sind für dich kein Problem mehr? Beeindruckend.“\n„Tantchen, das ist höchstens eine Grundaufgabe für Zwölfjährige.“\n„Dann stelle ich dir eine Aufgabe für Vierzehnjährige und wir schauen mal, wer schlauer ist!“\n„Mehr als diese Altersklasse schaffst du wohl nicht? Ich gehe jetzt nach Hause essen. Descartes, komm, wir gehen.“\nDoch zu diesem Zeitpunkt war Descartes bereits fast durchsichtig geworden. Er war so schwach, dass er beinahe verschwunden war.\n„Hehehe.“ Alice setzte plötzlich den extrem übertriebenen Ausdruck eines Bösewichts auf. „Ich bin in Wahrheit eine böse Hexe! Und jetzt ... werde ich deinen wichtigsten Freund entführen!“\n„W... Was?“\n„‚Ihn‘ natürlich!“ Alice schnippte mit den Fingern, und Descartes‘ Gestalt löste sich vor Prunes Augen vollständig auf.\nIn diesem Moment stürzte Prunes Rechenzentrum, ihr cleveres kleines Köpfchen, ausnahmsweise mal ab.\n„Spinnst du?!“ Sie klammerte sich verzweifelt an Alices Rocksaum. „Was hast du mit Descartes gemacht! Gib ihn mir zurück!“\n„Zu spät! Ab jetzt bist du eine von der großen Hexe persönlich anerkannte ‚Hexenjägerin‘! Wenn du deinen imaginären Freund retten willst, musst du erst mich besiegen!“\n„Hexen und Zauberinnen sind grundverschieden, klar?! Das ist typisches Zauberinnen-Verhalten! Gib mir Descartes zurück!“\n„Hehe, das war nur ein Scherz.“ Alice lachte nun noch ausgelassener. „Wenn du deinen imaginären Freund retten willst, musst du alle Hexen auf der Welt besiegen! Ja, sie müssen auch richtig Prügel einstecken.“\n„Geh nach Mondstadt und such Klee. Das süßeste Kind der Welt kann dir vielleicht einen Hinweis geben.“\nNachdem sie das gesagt hatte, verschwand Alice im Rauch einer Explosion.\n„Aaaliiice! Du schamlose Schurkin!“\nUnd so begann Prunes lange Reise der Vergeltung – mit einem wütenden Aufschrei voller Empörung."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Kaum war Prune in Mondstadt angekommen, begann sie sofort mit ihrer Hexenjagd. Sie hängte brisante Steckbriefe auf, versuchte, die Astrologin Mona – die sie für die Hexe B hielt – auf offener Straße zur Rede zu stellen, ermittelte im Netzwerk der Hexe ... Doch nachdem ihre Bemühungen eine nach der anderen gescheitert waren, musste sie beginnen, über radikalere Maßnahmen nachzudenken.\nEin verrückter Gedanke blitzte in ihrem Kopf auf – Klee entführen, um Alice zum Erscheinen zu zwingen.\nDer Plan war einfach: Das Ziel an einen abgelegenen Ort locken, ein grausames Verhör durchführen und wichtige Informationen über die Hexe erhalten. Prune hatte sogar schon eine Karte der Route in ihr Notizbuch gezeichnet.\nNatürlich verwarf sie als Hexenjägerin mit Prinzipien diesen Plan schnell wieder.\nNicht etwa, weil Klee Albedo und den gesamten Ordo Favonius als Rückendeckung hatte (obwohl dies zweifellos das größte praktische Hindernis darstellte), sondern weil im Tauziehen zwischen Vernunft und Impuls die Moral letztlich über den Hass siegte.\n„‚Wer Drachen tötet, wird selbst zum bösen Drachen‘ ... Wie klischeehaft! Was soll das schon bringen, ein Kind zu schikanieren? So etwas Schäbiges mache ich nicht.“\nSie malte ein großes Kreuz über die gesamte Karte, blätterte auf eine neue Seite, schrieb „Plan B“ darauf und starrte das leere Blatt an.\nIn den Tagen, in denen Prune ihre nächste Strategie ausheckte, konnte Klee schon gar nicht mehr zählen, wie oft sie mit Snacks und Spielzeug zur Tür hereinkam.\n„Prune, heute scheint die Sonne! Lass uns Kristallschmetterlinge fangen gehen!“\n„Schwester Prune, heute regnet es! Lass uns Mini-Durin suchen und zusammen in Pfützen springen!“\n„Schwester Prune!“\nMit der Zeit stellte Prune fest, dass sie, ohne es zu merken, zu Klees Spielkameradin geworden war. Sie wurde „gezwungen“, mit Klee Graffiti an die Wände zu malen und ihr zuzuhören, wie sie ganz ernsthaft den Namen und Charakter jedes einzelnen Dodoco vorstellte. Sogar zum Herumrollen auf den grasbewachsenen Hängen am Windstieg wurde sie mitgeschleift ...\n„... Ich sammle nur Informationen.“ Das redete Prune sich zumindest jedes Mal ein.\nUnd so, nach einigen „Informationsbeschaffungs-Operationen“, hatte Prune endlich eine wirklich praktikable Strategie ausgetüftelt – das Sammeln von Informationen als Spiel zu tarnen und das „Brutale Verhör“ in eine „Brotale Fragerunde“ zu verwandeln.\nDie Regeln waren denkbar einfach. Prune stellt Fragen, und für jede Antwort bekommt Klee ein frisch gebackenes Gebäck als Belohnung. Die Fragen beginnen leicht und werden nach und nach diffiziler. So nähert man sich Schritt für Schritt dem Kern der Informationen, während das Gegenüber völlig ahnungslos bleibt.\n„Klee, hat deine Mama dir in letzter Zeit geschrieben?“\n„Ja. Mama schreibt mir oft. Wenn sie nicht schreibt, unterhalten wir uns über das Dodo-Kommunikationsgerät. Prune, ich möchte Kekse mit Schokoladengeschmack.“\n„Klee, weißt du von den Schandtaten ... äh ... den Taten deiner Mama?“\n„Schanktaten? Das geht nicht, Mama sagt, Kinder dürfen keine Erwachsenengetränke trinken. Du auch nicht, Schwester Prune, lass uns Milch trinken!“\n„Hat deine Mama einen Stützpunkt? Äh, oder sagen wir ... eine geheime Basis?“\n„Geheimbasis! Klee weiß, wo die ist.“\n„Wo?!“\n„... In meinem Herzen! Denn Mama sagt, dass das sicherste Geheimversteck jedes Menschen in seinem eigenen Herzen ist!“\nNach einem Nachmittag voller „Brotaler Fragerunden“ erhielt Prune sieben von Klee gezeichnete „Informationsbilder“: fünf zeigten die „Verwendung der Bimm-Bamm-Bombe“. Eines war ein Familienporträt der Dodoco. Und das letzte Bild wollte Klee unbedingt malen: „Schwester Prune und Klee lassen zusammen Fische platzen“. Dabei lernte Prune ganz nebenbei etwas: Sie erfuhr, wie groß die Entfernung zum sicheren Zünden der Bimm-Bamm-Bombe sein muss. Und genau da merkte sie es: Klees Verständnis vom Wort „Sicherheit“ wich wirklich extrem von ihrem ab.\nAm Abend holte Albedo Klee ab und fragte sie liebevoll, ob sie heute Spaß hatte.\nKlee tätschelte ihren kugelrunden Bauch und setzte ein süßes Lächeln auf:\n„Die Kekse von der großen Schwester Prune sind so lecker! Ich brauche heute kein Abendessen mehr!“\nWährenddessen stellte Prune auf der anderen Seite ganz gewissenhaft und ernsten Blickes den „Ausführungsbericht der ersten Brotalen Fragerunde“ zusammen.\n„Nützliche Informationen: Keine. Verbrauchte Materialien: ein Sack Mehl, fünf Flaschen Milch, massenhaft Schokolade und Zucker. Anmerkung: Das Ziel besitzt anscheinend ein angeborenes Talent zur Verhörwidersetzung, und es gibt vorerst keine Methode, es gefügig zu machen .“\nSie hielt inne und fügte ganz unten noch eine Zeile in sehr kleiner Schrift hinzu:\n„... Das Bild ‚Zusammen Fische platzen lassen‘ ist eigentlich ganz in Ordnung. Wurde bereits im Ordner hinterlegt.“"
+      },
+      {
+        "Title": "„Köderglöckchen“ und „Dämonenjäger-Hammer“",
+        "Context": "\nNach der „Entführung“ von Descartes verfiel Prune in eine noch nie erlebte Panik.\nSie schloss sich in ihrem Zimmer ein und ging dann, wie ein Soldat, der bald auf das Schlachtfeld zieht, jedes Detail ihrer vorherigen Konfrontation mit Alice nochmal durch: Sobald Alice die Worte ausgegangen waren, da geschah es und diese Frau holte plötzlich lächelnd ein „Sammlerstück“ hervor, als Belohnung für Prune, die die Hexe in der Debatte erfolgreich besiegt hatte.\nDamals dachte sie nur, das sei eine Art Trick, um Kinder zu beruhigen, so wie Erwachsene es eben gewöhnlich tun, indem sie dir ein Stück Zucker geben, damit du nur den Mund hältst.\nAber jetzt kam ihr eine brennende Frage in den Sinn: Wenn die Hexe über eine derart große magische Macht verfügte, waren diese „Kleinigkeiten“, die sie einfach so hervorgeholt hatte, dann wirklich nur Spielzeug?\nAlso breitete sie ihre Beute nacheinander vor sich aus und nahm eine ernsthafte Evaluierung ihrer Kampfkraft vor. Sie sortierte die offensichtlichen „Störfaktoren“ aus: verschiedene bunt verpackte Snacks, glitzernde Sticker mit kindischen Motiven und Kuscheltiere ohne besondere Funktionen. Schließlich traten zwei Gegenstände in ihr Blickfeld, die das größte Potenzial für echte Kämpfe boten.\nErstens: ein sehr fein gearbeitetes Glöckchen. „Beim Läuten erscheint mit gewisser Wahrscheinlichkeit eine Hexe.“ Alices Erklärung war jedoch sehr vage. Prune vermutete dahinter also sofort eine echte Hexenfalle, den Begriff „Wahrscheinlichkeit“ ignorierte sie. Daher dachte sie natürlich nicht an den wahren Zweck: Früher kündigte man damit Teepartys an, und Hexen mit Freizeit kamen dann einfach nach Lust und Laune. Prune definierte die Glocke aber völlig neu und auf ihren Abenteuern war sie jetzt wirklich sehr nützlich. Dabei erschien zwar nicht immer eine Hexe, doch sie führte stets zu unglaublichen magischen Begegnungen.\nZweitens gibt es einen schweren Hammer. Er sieht auf den allerersten Blick einfach unglaublich wuchtig und beeindruckend aus. Er ist das größte Stück der Beute. Gleichzeitig ist er auch das mit Abstand schwerste Teil, sodass er beim Schwingen extrem wild umhersaust, was wirklich sehr bedrohlich aussieht. Von seiner Vergangenheit wusste Prune jedoch nichts. Alice wollte ihn der anderen Hexe Nicole ursprünglich einfach als Geschenk geben. Er sollte ein nützliches Bildhauerwerkzeug dienen. Nicole aber lehnte diese etwas zu grobe und doch gut gemeinte Geste ab. Ihre Begründung dafür war simpel: „Mein Hobby ist die Bildhauerei, ganz bestimmt nicht Abrissarbeiten.“ So blieb dieser riesige Hammer einfach übrig und wurde zur logischen Wahl, als Alice endlich mal ihr Lager aufräumte.\nDiese Geschenke vom „Großen Dämonenkönig“ erhielten durch Prunes rationale Neuinterpretation und den praktischen Umbau zu Waffen feierlich neue Namen:\n„Köderglöckchen“ und „Dämonenjäger-Hammer“."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Prune hatte in der Vergangenheit den Satz „Sobald ein Wunsch nur stark genug ist, werden die Götter ihre Augen darauf richten“ gehört. Sollte dies wahr sein, müsste die tiefe Sehnsucht nach einem „Göttlichen Auge mit Elektro-Kraft“ theoretisch in Erfüllung gehen können.\nWarum nun ausgerechnet „Elektro“? Sie hatte sehr gute Gründe, um sich selbst davon zu überzeugen: Pyro ist zu wild, Hydro zu sanft, Geo ist zu schwergewichtig, Kryo etwas zu arrogant, Anemo ist viel zu locker, Dendro etwas zu lebhaft. Nur Elektro ist eiskalt und blitzschnell. Das ist die absolut perfekte Wahl, um diese listige Hexe zu bestrafen.\nTatsächlich fällt schnell auf, dass diese Gründe etwas weit hergeholt sind. Der entscheidende Punkt war vielleicht einfach nur, dass ein lila Göttliches Auge zufällig am besten zu ihrem sorgfältig ausgewählten Outfit im dunklen Heavy-Metal-Stil passt.\nDa das Ziel nun klar war, griff diese Jägerin, die beim Thema ihres eigenen Wachstums immer zu weit voraus war, wenig überraschend zu einer ebenso vorausschauenden Maßnahme – sie lernte schon im Voraus.\nSie las den „Leitfaden zur Elementarkraft“, den Alice ihr gegeben hatte, gleich dreimal durch. Das Wissen über Elektro saß perfekt. In ihrem Kopf simulierte sie sogar mehrere „Dämonenjagd-Kombos“, die auf Elektro basierten.\nAllerdings geriet die praktische Übung schnell ins Stocken. Der umgebaute „Dämonenjäger-Hammer“ war einfach zu schwer. Selbst als Prune den Hammerstiel nach dem Hebelgesetz verlängerte und ihre Kraft clever einsetzte, fiel es ihr extrem schwer, ihn hochzuheben. Vom Einsatz im Kampf ganz zu schweigen.\n„Wie können die Figuren in Romanen bloß so leicht Waffen hochheben, die einige Male größer sind als sie selbst?“\nSie seufzte, und plötzlich fielen ihr die Zeilen aus dem Märchenbuch ein, mit denen man Kraft beschwören kann.\n„Ich lach mich schlapp, an so was glauben doch nur kleine Kinder.“ Sie verzog verächtlich den Mund.\n„Aber andererseits ... Ist das nicht dasselbe, wie sich etwas von den Göttern zu wünschen? Ein Versuch schadet ja nicht.“\n„Wach auf, Schlafmütze! Wir spielen hier ja nicht Vater-Mutter-Kind!“\n„Aber es ist ja sowieso niemand da gerade ...“\nNach dem sie eine Weile heftig mit sich gerungen hatte, war Prune schon ganz rot, biss aber die Zähne zusammen und versuchte, sich darauf einzulassen:\n„O du ‚Dämonenjäger-Hammer‘, der du die dunkle Kraft verbirgst, offenbare vor mir deine wahre Stärke! Löse nun das Siegel ...“ Nach diesen Worten umklammerte sie mit zusammengekniffenen Augen ruckartig den Hammerstiel – und ein wahres magisches Wunder geschah. Dieser ehemals als richtiges Schwergewicht durchgehende, riesige Eisenhammer fühlte sich nun völlig leicht an, ganz als hielte sie eine winzige Schreibfeder in den Händen!\nAlles deutete darauf hin, dass der Wunsch in Erfüllung gegangen war.\n„I... Ist das wirklich so einfach?“\nUngläubig streckte sie ihre andere Hand aus. Sie spürte, wie sich die Elementarkraft schnell in ihrer Handfläche sammelte und verdichtete. Das Licht wurde langsam heller. Voller Anspannung und Erwartung kniff Prune nun unbewusst wieder ihre Augen fest zu, und für einen Moment stockte ihr sogar der Atem. Kurz darauf fiel ein schweres Göttliches Auge in ihre Handfläche. Sie war voller Freude über ihren Sieg, als sie sanft die Augen öffnete, bereit, den lila Elektro-Glanz zu errblicken, der Raserei und Kälte symbolisiert ...\nDoch was stattdessen in ihrer Handfläche lag, war ein reines Göttliches Auge des Elements Anemo, das einen türkisfarbenen Schimmer ausstrahlte.\nPrune verschlug es für gute zehn Sekunden förmlich die Sprache.\n„... Was?!“\nIn Prunes Kopf blitzten rasend schnell ihre gewissenhaft gelernten Elektro-Notizen auf, und sie verspürte eine heftige, völlig ungeplante Wut.\nSie konnte nicht anders, als fragend in den Himmel zu rufen: „Kümmert sich mal jemand darum? Das muss ein Fehler sein – ich habe mich auf Elektro vorbereitet!!!“\nNachdem der erste Schreck verflogen war, gewann die Vernunft der Jägerin wieder die Oberhand. Egal, wie die Situation nun auch war: Dies ist ein echtes Göttliches Auge, ein Beweis der Kraft.\nAuch das Unerwartete zu akzeptieren, ist ein Teil des Wachstums. Prune fasste sich sehr schnell. Stillschweigend wischte sie dieses Göttliche Auge mit der Hand sauber. „Das ist mir völlig egal. Dann lerne ich das Kapitel über Anemo eben einfach erneut.“ Die Starken klagen schließlich nie. Selbst mit einer leichten Brise wird sie die Falle der Hexe einfach wegblasen.\nSie murmelte leise vor sich hin, doch ihre Mundwinkel hoben sich zu einem leichten Lächeln, das sie selbst gar nicht bemerkte."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213200,
+      "Name": "Hexenjägerkluft",
+      "Description": "Prunes Kleidung. Die sorgfältig ausgewählten dunklen Farbtöne unterstreichen eine Reife, die weit über das Alter hinausgeht. Die metallischen Verzierungen drücken ihre „kühle“ Haltung und ihre Methoden gegenüber „Hexen“ aus – zumindest glaubt sie das selbst.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113079,
+    101268,
+    112037,
+    104306,
+    113081
+  ],
+  "NameCard": {
+    "Name": "Prune – Urteil",
+    "Description": "Ein Motiv für Namenskärtchen.\n„Wenn ich jemals meine Memoiren schreibe, lautet der Titel natürlich: Der eiserne Hammer, der die böse Hexe bestraft hat! Das ist nur passend für ein so großartiges und ereignisreiches Leben wie meines!“ Fairerweise muss man aber sagen, dass dieses „großartige und ereignisreiche Leben“ bisher nur ein paar kurze Jahre gedauert hat.",
+    "Icon": "UI_NameCardIcon_Prune",
+    "PicturePrefix": "UI_NameCardPicrune"
+  }
+}

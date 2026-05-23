@@ -1,0 +1,1408 @@
+{
+  "Id": 10000129,
+  "PromoteId": 129,
+  "Sort": 117,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Lohen",
+  "SideIcon": "UI_AvatarIcon_Side_Lohen",
+  "Name": "Lohen",
+  "Description": "Stellvertretender Truppenführer der Fernkampftruppe des Ordo Favonius, ein Ritter, der unkonventionell vorgeht und eine Vorliebe für ungewöhnliche Taktiken hat.",
+  "BeginTime": "2026-06-09T18:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1000.986,
+    "AttackBase": 26.8128,
+    "DefenseBase": 61.0266
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 12931,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P} ×3",
+            "SCH Phase 4|{param4:F1P}",
+            "SCH Phase 5|{param5:F1P} + {param6:F1P}",
+            "SCH heftiger Schläge|{param7:F1P} ×2",
+            "Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte",
+            "SCH beim Fallen|{param9:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293101,
+              "Level": 1,
+              "Parameters": [
+                0.539917,
+                0.564427,
+                0.254199,
+                0.752259,
+                0.368579,
+                0.552868,
+                0.65876,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1293102,
+              "Level": 2,
+              "Parameters": [
+                0.583863,
+                0.610368,
+                0.274889,
+                0.81349,
+                0.398579,
+                0.597869,
+                0.71238,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1293103,
+              "Level": 3,
+              "Parameters": [
+                0.62781,
+                0.65631,
+                0.29558,
+                0.87472,
+                0.42858,
+                0.64287,
+                0.766,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1293104,
+              "Level": 4,
+              "Parameters": [
+                0.690591,
+                0.721941,
+                0.325138,
+                0.962192,
+                0.471438,
+                0.707157,
+                0.8426,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1293105,
+              "Level": 5,
+              "Parameters": [
+                0.734538,
+                0.767883,
+                0.345829,
+                1.023422,
+                0.501439,
+                0.752158,
+                0.89622,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1293106,
+              "Level": 6,
+              "Parameters": [
+                0.784763,
+                0.820387,
+                0.369475,
+                1.0934,
+                0.535725,
+                0.803588,
+                0.9575,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1293107,
+              "Level": 7,
+              "Parameters": [
+                0.853822,
+                0.892582,
+                0.401989,
+                1.189619,
+                0.582869,
+                0.874303,
+                1.04176,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1293108,
+              "Level": 8,
+              "Parameters": [
+                0.922881,
+                0.964776,
+                0.434503,
+                1.285838,
+                0.630013,
+                0.945019,
+                1.12602,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1293109,
+              "Level": 9,
+              "Parameters": [
+                0.99194,
+                1.03697,
+                0.467016,
+                1.382058,
+                0.677156,
+                1.015735,
+                1.21028,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1293110,
+              "Level": 10,
+              "Parameters": [
+                1.067277,
+                1.115727,
+                0.502486,
+                1.487024,
+                0.728586,
+                1.092879,
+                1.3022,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1293111,
+              "Level": 11,
+              "Parameters": [
+                1.142614,
+                1.194484,
+                0.537956,
+                1.59199,
+                0.780016,
+                1.170023,
+                1.39412,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1293112,
+              "Level": 12,
+              "Parameters": [
+                1.217951,
+                1.273241,
+                0.573425,
+                1.696957,
+                0.831445,
+                1.247168,
+                1.48604,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1293113,
+              "Level": 13,
+              "Parameters": [
+                1.293289,
+                1.351999,
+                0.608895,
+                1.801923,
+                0.882875,
+                1.324312,
+                1.57796,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1293114,
+              "Level": 14,
+              "Parameters": [
+                1.368626,
+                1.430756,
+                0.644364,
+                1.90689,
+                0.934304,
+                1.401457,
+                1.66988,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1293115,
+              "Level": 15,
+              "Parameters": [
+                1.443963,
+                1.509513,
+                0.679834,
+                2.011856,
+                0.985734,
+                1.478601,
+                1.7618,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11291,
+        "Name": "Favonius-Speerkunst – Eidbruch",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Angriff nach vorne aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 12932,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P} ×3",
+            "SCH Phase 4|{param4:F1P}",
+            "SCH Phase 5|{param5:F1P} + {param6:F1P}",
+            "SCH heftiger Schläge|{param7:F1P} ×2",
+            "Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte",
+            "SCH beim Fallen|{param9:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param10:P}/{param11:P}",
+            "#Dauer von Geniestreich|{param12:F1}{NON_BREAK_SPACE}s",
+            "SCH durch „Bis ins Mark“|{param17:F1P} ×4",
+            "Erhöhung des ursprünglichen SCH pro Punkt Siegeswille|{param18:F2P}",
+            "Abklingzeit|{param19:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293201,
+              "Level": 1,
+              "Parameters": [
+                0.809875,
+                0.84664,
+                0.381298,
+                1.128389,
+                0.552868,
+                0.829302,
+                0.98814,
+                10,
+                0.639324,
+                1.278377,
+                1.596762,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.6,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293202,
+              "Level": 2,
+              "Parameters": [
+                0.875795,
+                0.915552,
+                0.412334,
+                1.220234,
+                0.597869,
+                0.896804,
+                1.06857,
+                10,
+                0.691362,
+                1.382431,
+                1.726731,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.645,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293203,
+              "Level": 3,
+              "Parameters": [
+                0.941715,
+                0.984465,
+                0.44337,
+                1.31208,
+                0.64287,
+                0.964305,
+                1.149,
+                10,
+                0.7434,
+                1.486485,
+                1.8567,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.69,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293204,
+              "Level": 4,
+              "Parameters": [
+                1.035887,
+                1.082912,
+                0.487707,
+                1.443288,
+                0.707157,
+                1.060736,
+                1.2639,
+                10,
+                0.81774,
+                1.635134,
+                2.04237,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.75,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293205,
+              "Level": 5,
+              "Parameters": [
+                1.101807,
+                1.151824,
+                0.518743,
+                1.535134,
+                0.752158,
+                1.128237,
+                1.34433,
+                10,
+                0.869778,
+                1.739187,
+                2.172339,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.795,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293206,
+              "Level": 6,
+              "Parameters": [
+                1.177144,
+                1.230581,
+                0.554212,
+                1.6401,
+                0.803588,
+                1.205381,
+                1.43625,
+                10,
+                0.92925,
+                1.858106,
+                2.320875,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.84,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293207,
+              "Level": 7,
+              "Parameters": [
+                1.280732,
+                1.338872,
+                0.602983,
+                1.784429,
+                0.874303,
+                1.311455,
+                1.56264,
+                10,
+                1.011024,
+                2.02162,
+                2.525112,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.9,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293208,
+              "Level": 8,
+              "Parameters": [
+                1.384321,
+                1.447164,
+                0.651754,
+                1.928758,
+                0.945019,
+                1.417528,
+                1.68903,
+                10,
+                1.092798,
+                2.185133,
+                2.729349,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.96,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293209,
+              "Level": 9,
+              "Parameters": [
+                1.48791,
+                1.555455,
+                0.700525,
+                2.073086,
+                1.015735,
+                1.523602,
+                1.81542,
+                10,
+                1.174572,
+                2.348646,
+                2.933586,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.02,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293210,
+              "Level": 10,
+              "Parameters": [
+                1.600915,
+                1.67359,
+                0.753729,
+                2.230536,
+                1.092879,
+                1.639319,
+                1.9533,
+                10,
+                1.26378,
+                2.527025,
+                3.15639,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.08,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293211,
+              "Level": 11,
+              "Parameters": [
+                1.713921,
+                1.791726,
+                0.806933,
+                2.387986,
+                1.170023,
+                1.755035,
+                2.09118,
+                10,
+                1.352988,
+                2.705403,
+                3.379194,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.14,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293212,
+              "Level": 12,
+              "Parameters": [
+                1.826927,
+                1.909862,
+                0.860138,
+                2.545435,
+                1.247168,
+                1.870752,
+                2.22906,
+                10,
+                1.442196,
+                2.883781,
+                3.601998,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.2,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293213,
+              "Level": 13,
+              "Parameters": [
+                1.939933,
+                2.027998,
+                0.913342,
+                2.702885,
+                1.324312,
+                1.986468,
+                2.36694,
+                10,
+                1.531404,
+                3.062159,
+                3.824802,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.275,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293214,
+              "Level": 14,
+              "Parameters": [
+                2.052939,
+                2.146134,
+                0.966547,
+                2.860334,
+                1.401457,
+                2.102185,
+                2.50482,
+                10,
+                1.620612,
+                3.240537,
+                4.047606,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.35,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293215,
+              "Level": 15,
+              "Parameters": [
+                2.165944,
+                2.264269,
+                1.019751,
+                3.017784,
+                1.478601,
+                2.217901,
+                2.6427,
+                10,
+                1.70982,
+                3.418915,
+                4.27041,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.425,
+                0.004,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11292,
+        "Name": "Unerwarteter Schachzug",
+        "Description": "Sucht nach der Schwachstelle des Gegners und wechselt in den Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK}. In diesem Zustand ist Folgendes möglich:\n· Lohen kann aktiv {LINK#N11290003}<color=#FFD780FF>Freude</color>{/LINK} sammeln, um die besondere Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} anzuwenden.\n· Andere Truppenmitglieder in der Nähe können {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} für Lohen sammeln, um den Schaden von <color=#FFD780FF>Bis ins Mark</color> zu erhöhen.\nNach max. dreimaliger Anwendung von <color=#FFD780FF>Bis ins Mark</color> im Zustand <color=#FFD780FF>Geniestreich</color> kann keine <color=#FFD780FF>Freude</color> mehr erhalten werden.\n\n<i>„Rittertum? Ha, das ist in der Tat ein hervorragender Köder. Solange der Gegner noch davon träumt, in einem fairen Kampf zu siegen, ahnt er nicht, welche ‚Überraschung‘ auf ihn wartet.“</i>",
+        "Icon": "Skill_S_Lohen_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 12951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1295101,
+              "Level": 1,
+              "Parameters": [
+                0.5,
+                0.4,
+                6
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1295101,
+        "Name": "Geschenk der Hexennacht – Unheilbarer Stich",
+        "Description": "#Wandelt Lohen nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von verschiedenen Gegnern</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht, wenn Gegner mit der besonderen Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} getroffen werden oder die Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> angewendet wird und {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} bei mindestens 50{NON_BREAK_SPACE}% des Höchstwerts liegt, den durch Lohens Standardangriffe und heftige Schläge verursachten Schaden 6{NON_BREAK_SPACE}s lang um 40{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Lohen_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 12939,
+      "Proud": {
+        "Descriptions": [
+          "Fähigkeits-SCH|{param1:F1P} ×6",
+          "Erhöhung des ursprünglichen SCH pro Punkt Siegeswille|{param2:F2P}",
+          "Abklingzeit|{param3:F1} s",
+          "Elementarenergie|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1293901,
+            "Level": 1,
+            "Parameters": [
+              1.188,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293902,
+            "Level": 2,
+            "Parameters": [
+              1.2771,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293903,
+            "Level": 3,
+            "Parameters": [
+              1.3662,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293904,
+            "Level": 4,
+            "Parameters": [
+              1.485,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293905,
+            "Level": 5,
+            "Parameters": [
+              1.5741,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293906,
+            "Level": 6,
+            "Parameters": [
+              1.6632,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293907,
+            "Level": 7,
+            "Parameters": [
+              1.782,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293908,
+            "Level": 8,
+            "Parameters": [
+              1.9008,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293909,
+            "Level": 9,
+            "Parameters": [
+              2.0196,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293910,
+            "Level": 10,
+            "Parameters": [
+              2.1384,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293911,
+            "Level": 11,
+            "Parameters": [
+              2.2572,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293912,
+            "Level": 12,
+            "Parameters": [
+              2.376,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293913,
+            "Level": 13,
+            "Parameters": [
+              2.5245,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293914,
+            "Level": 14,
+            "Parameters": [
+              2.673,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293915,
+            "Level": 15,
+            "Parameters": [
+              2.8215,
+              0.004,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11295,
+      "Name": "Verhängte Strafe",
+      "Description": "#Führt schnell hintereinander mehrere Hiebe nach vorne aus, verbraucht sämtlichen {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} und verursacht <color=#99FFFFFF>Kryo-Schaden</color>. Erhöht den Schaden dieses Angriffs abhängig vom verbrauchten <color=#FFD780FF>Siegeswillen</color>. Verlängert, wenn Lohen sich beim Anwenden im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} befindet, dessen Dauer um 1,65{NON_BREAK_SPACE}s.\n\n<i>„Schon alles verraten? Schade, ich dachte, wir hätten gerade erst angefangen!“</i>",
+      "Icon": "Skill_E_Lohen_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 12921,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292101,
+              "Level": 1,
+              "Parameters": [
+                30,
+                60
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292101,
+        "Name": "Zurechtweisung des Verbotenen",
+        "Description": "#Sammelt, wenn im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} andere Truppenmitglieder in der Nähe durch verursachten Schaden {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} für Lohen sammeln und der verursachte Schaden nicht unter 3.000{NON_BREAK_SPACE}% von Lohens Basis-ANG liegt, zusätzlich 60 Punkte <color=#FFD780FF>Siegeswille</color> für Lohen an.",
+        "Icon": "UI_Talent_S_Lohen_05"
+      },
+      {
+        "GroupId": 12922,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292201,
+              "Level": 1,
+              "Parameters": [
+                0.15,
+                0.15,
+                8
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292201,
+        "Name": "Meisterwerk des Schauspiels",
+        "Description": "#Erhöht im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK}, wenn ein anderes Truppenmitglied in der Nähe bei Gegnern <color=#99FFFFFF>Kryo-Reaktionen</color> auslöst, den ANG dieser Figur sowie Lohens ANG 8{NON_BREAK_SPACE}s lang um 15{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Lohen_06"
+      },
+      {
+        "GroupId": 12923,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292301,
+              "Level": 1,
+              "Parameters": [
+                9,
+                6,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1292301,
+        "Name": "Flüchtiges Interesse",
+        "Description": "#Verleiht Lohen nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Unerwarteter Schachzug</color> 9{NON_BREAK_SPACE}s lang den Effekt „Gute Laune“: Erhöht während der Wirkungsdauer die Fähigkeitsstufe von <color=#FFD780FF>Unerwarteter Schachzug</color> um 1.\nVerlängert, wenn beim Anwenden der Elementarfähigkeit die Fähigkeitsstufe eines Standardangriffs, einer Elementarfähigkeit oder Spezialfähigkeit eines anderen Truppenmitglieds nicht niedriger als die von Lohens Elementarfähigkeit ist, die Wirkungsdauer von dieser „Guten Laune“ zusätzlich um 6{NON_BREAK_SPACE}s.\n„Gute Laune“ kann nur einmal alle 18{NON_BREAK_SPACE}s erhalten werden.",
+        "Icon": "UI_Talent_S_Lohen_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1291,
+        "Name": "Winde der Vergangenheit, erfüllt von Trauergesängen",
+        "Description": "#Erhöht die Obergrenze von Lohens {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} auf 300{NON_BREAK_SPACE}% des ursprünglichen Werts.\nErhöht im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} zudem den <color=#FFD780FF>Siegeswillen</color>, den andere Truppenmitglieder in der Nähe durch verursachten Schaden für Lohen ansammeln, auf 500{NON_BREAK_SPACE}% des ursprünglichen Werts.",
+        "Icon": "UI_Talent_S_Lohen_01"
+      },
+      {
+        "Id": 1292,
+        "Name": "Alles, was fliegt, ist eine Zielscheibe",
+        "Description": "#Verleiht Lohen, nachdem er im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} einen Gegner mit der besonderen Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} getroffen oder die Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> angewendet hat, 4{NON_BREAK_SPACE}s lang den Effekt „Klinge der Gerechten“: Führt, wenn Lohen im Status „Geniestreich“ das nächste Mal einen Gegner mit einem Standardangriff oder einem heftigen Schlag trifft, einen zusätzlichen Angriff aus, der <color=#99FFFFFF>Kryo-Flächenschaden</color> in Höhe von 500{NON_BREAK_SPACE}% von Lohens ANG verursacht. Erhöht zudem 8{NON_BREAK_SPACE}s lang die Elementarkunde anderer Truppenmitglieder in der Nähe um 200{NON_BREAK_SPACE}Punkte. 4{NON_BREAK_SPACE}s Abklingzeit auf den Erhalt des Effekts „Klinge der Gerechten“.",
+        "Icon": "UI_Talent_S_Lohen_02"
+      },
+      {
+        "Id": 1293,
+        "Name": "Nur die Klinge kann diese Wunde heilen",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S11292}Unerwarteter Schachzug{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Lohen_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1294,
+        "Name": "Liebe leuchtet wie Licht, und vergeht wie ein fröhliches Lied",
+        "Description": "#Erhöht, wenn Lohen im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} seine Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> anwendet, seinen {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} auf den Höchstwert, und verleiht dieser Spezialfähigkeit somit einen maximalen Schadensbonus.\n\nWenn Lohen außerdem in den Zustand <color=#FFD780FF>Geniestreich</color> wechselt und seine Elementarenergie:\n· nicht voll ist: Stellt Lohen 15{NON_BREAK_SPACE}Punkte Elementarenergie wieder her.\n· voll ist: Stellt Lohen in den nächsten 15{NON_BREAK_SPACE}s nach dem Anwenden der Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> 15{NON_BREAK_SPACE}Punkte Elementarenergie wieder her.",
+        "Icon": "UI_Talent_S_Lohen_03"
+      },
+      {
+        "Id": 1295,
+        "Name": "Uneinsehbar, unbestreitbar",
+        "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>{LINK#S11295}Verhängte Strafe{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Lohen_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1296,
+        "Name": "Körper vergehen, Seelen verschwinden – nur die Freude bleibt",
+        "Description": "#Verbraucht beim Treffen von Gegnern mit der besonderen Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} oder beim Anwenden der Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} keinen {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} und regeneriert des Weiteren Lohens {LINK#N11290003}<color=#FFD780FF>Freude</color>{/LINK} auf den Höchstwert. Verlängert zudem beim nächsten Treffen eines Gegners mit der besonderen Elementarfähigkeit <color=#FFD780FF>Bis ins Mark</color> die Dauer des aktuellen Zustands <color=#FFD780FF>Geniestreich</color> um 1,25{NON_BREAK_SPACE}s, 7{NON_BREAK_SPACE}s Abklingzeit.\nErhöht zudem den kritischen Schaden aller oben genannten Schadensarten um 175{NON_BREAK_SPACE}% sowie die maximale Anwendungsanzahl von <color=#FFD780FF>Bis ins Mark</color> während <color=#FFD780FF>Geniestreich</color> um 2.",
+        "Icon": "UI_Talent_S_Lohen_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Angespitzte Pfeilspitze",
+    "Detail": "Stellvertretender Truppenführer der Fernkampftruppe des Ordo Favonius, ein Ritter, der unkonventionell vorgeht und eine Vorliebe für ungewöhnliche Taktiken hat.",
+    "Association": 1,
+    "Native": "Ordo Favonius",
+    "BirthMonth": 4,
+    "BirthDay": 3,
+    "VisionBefore": "Kryo",
+    "VisionOverrideUnlocked": "Göttliches Auge",
+    "ConstellationBefore": "Lepus Miles",
+    "CvChinese": "林婧南",
+    "CvJapanese": "天﨑滉平",
+    "CvEnglish": "Nick Wolfhard",
+    "CvKorean": "Lee Sang-ho",
+    "CookBonus": {
+      "OriginItemId": 108971,
+      "ItemId": 108975,
+      "InputList": [
+        100016,
+        100022,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen ...",
+        "Context": "Freut mich, dich kennenzulernen. Ich bin Lohen, stellvertretender Truppenführer der fünften Truppe. Wenn du Hilfe vom Ordo Favonius benötigst, wende dich bitte an die Zentrale. Aber wenn du etwas von mir persönlich brauchst, bin ich ganz Ohr."
+      },
+      {
+        "Title": "Gespräch – Stellvertretender Truppenführer",
+        "Context": "Um Truppenführer zu sein, braucht man mehr als nur die Stärke eines Truppenführers. Das Wichtigste ist ... Hm, keine Ahnung. Wenn ich es wüsste, wäre ich schon längst einer."
+      },
+      {
+        "Title": "Gespräch – Wohin der Wind zurückkehrt",
+        "Context": "Puh, Mondstadt ist wirklich der richtige Ort. Ich kann es kaum erwarten, etwas Apfelschorle in die Hände zu bekommen ..."
+      },
+      {
+        "Title": "Gespräch – Zwischenmenschliche Beziehungen",
+        "Context": "Wie ich mit den anderen Rittern auskomme? Hmm ... Nun, ich bin mir sicher, dass ich einen bleibenden Eindruck hinterlassen habe. Das kann doch nur etwas Gutes sein, oder?"
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Hm, der Regen wird stärker. Wer weiß, was die Fluten alles wegschwemmen werden?"
+      },
+      {
+        "Title": "Es hat aufgehört zu regnen ...",
+        "Context": "Der Himmel klart auf. Als hätte es nie geregnet."
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Der Donner übertönt vieles, aber niemals den Schlag deines eigenen Herzens."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "#Es gibt keinen Ort wie die Taverne „Zum Katzenschwanz“{NON_BREAK_SPACE}... besonders bei so einem Wetter."
+      },
+      {
+        "Title": "Wenn es windig ist ...",
+        "Context": "Puh, der Wind wird stärker ... Schade, dass es hier keine Löwenzähne gibt. Dann müssen wir wohl stattdessen Papier zerreißen, hm?"
+      },
+      {
+        "Title": "In der Wüste ...",
+        "Context": "In solchen Momenten vermisse ich den Mostsee wirklich."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Guten Morgen. Was steht heute an?"
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Schon mit dem Mittagessen fertig? Gut, wir haben heute Nachmittag noch einiges zu tun."
+      },
+      {
+        "Title": "Guten Abend ...",
+        "Context": "Heute Nacht ... Mhm. Überraschen wir die Truppen mit einer Angriffsübung."
+      },
+      {
+        "Title": "Gute Nacht ...",
+        "Context": "Gute Nacht. Ruh dich lieber aus, denn der morgige Tag kommt, ob du willst oder nicht."
+      },
+      {
+        "Title": "Über Lohen selbst – Schmerzen auskosten",
+        "Context": "Ich versuche, Betäubungsmittel zu vermeiden – sie machen den Kampf schwieriger. Außerdem ... heh, ich genieße den Schmerz irgendwie. Er erinnert mich daran, dass ich lebe. Anders als meine Feinde, die gar nichts mehr spüren."
+      },
+      {
+        "Title": "Über Lohen – Stärke und Ausreden",
+        "Context": "Für manche ist Macht eine bequeme Ausrede. Sie gibt ihnen einen Grund für ihr Versagen, eine Rechtfertigung für ihre Angst ... Vielleicht gibt ein Ziel den Menschen wirklich ein seltsames Gefühl von Sicherheit. Selbst wenn sich hinter dieser Sicherheit ein weitaus beängstigenderer Schatten verbirgt."
+      },
+      {
+        "Title": "Über uns – Kampfstil",
+        "Context": "Mein Kampfstil? Hahahaha, einfacher geht’s nicht! Den Anführer suchen, ihn zum Kampf herausfordern und so schnell wie möglich den Sieger bestimmen. Die anderen Ritter sollten sich mittlerweile daran gewöhnt haben, aber wenn nicht, was macht das schon für einen Unterschied?"
+      },
+      {
+        "Title": "Über uns – Worin die Pflicht besteht",
+        "Context": "#Wie du siehst, bin ich stellvertretender Truppenführer, während dieser Narr Theodore genau das bekommen hat, was er verdient. Trotzdem glaube ich, dass seine Talente gut eingesetzt werden können. Sobald er für seine Sünden gebüßt hat, plane ich, ihn zurück in die fünfte Truppe zu holen. Nicht als Offizier, versteht sich, aber er kann ganz normal in der Truppe dienen. Obwohl es noch zu früh ist, ihm vollständig zu vertrauen ... oder mir, was das betrifft.\nDu vertraust mir? Und du hast die Stärke, das zu untermauern? Hahahaha! Genau das habe ich {F#von der Ehrenritterin}{M#vom Ehrenritter} erwartet ... So zuverlässig wie die Gerüchte es nahelegen. Du würdest {F#eine gute Truppenführerin}{M#einen guten Truppenführer} der fünften Truppe abgeben, ich bin mir sicher, Varka hätte nichts dagegen!"
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Dieses Göttliche Auge hat sich draußen im Einsatz als ziemlich nützlich erwiesen. Schade nur, dass es nur gut dafür ist, Monster zu töten, die ich berühren kann ... nicht die unsichtbaren, die in meinem Inneren verweilen."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Ah, ich trinke nicht. Alkohol verwende ich nur zum Desinfizieren meiner Wunden. In dieser Hinsicht ist der ältere Löwenzahnschnaps vom Weingut Morgenröte am wirksamsten – sowohl was die desinfizierende Wirkung angeht als auch den süßen, stechenden Schmerz, den er verursacht. Außerdem kann ich die anderen zappeln sehen, wenn ich ihn bei ihnen anwende – Varka macht dabei am meisten Spaß. Hehehe!"
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Früher war ich allergisch gegen Löwenzahn, aber dann hat mir Saccharose von der „Desensibilisierungstherapie“ erzählt. Ich habe mein Zimmer mit Löwenzahn gefüllt und ab und zu tief eingeatmet. Ob es funktioniert hat? Sagen wir es so: Ich niese nicht mehr in der Nähe von Löwenzahn. Aber ich muss zugeben, dass mir das Gefühl fehlt, zu niesen, bis mir schwindelig wird ..."
+      },
+      {
+        "Title": "Über Varka – Arzneimittelresistenz",
+        "Context": "Varkas Arzneimittelresistenz nimmt täglich zu. Ich habe ihm vor ein paar Tagen einen Trank gemischt, der ihm kaum die Wangen gerötet hat. Hätte er mich danach nicht böse angeschaut, hätte ich bezweifelt, ob ich überhaupt etwas reingetan habe. *seufz* ... Wären wir doch noch in Nod-Krai, dann könnte ich ein paar von diesen Kuuvahki-Pflanzen hinzufügen ..."
+      },
+      {
+        "Title": "Über Varka – Pflichten des Großmeisters",
+        "Context": "Die Pflichten des Großmeisters? Was Varka betrifft, geht es dabei hauptsächlich darum, Leute in den Kampf zu führen. Der Rest wird auf Jean abgewälzt, haha. Feinde, nun ja, die kann man endgültig erledigen, aber Papierkram ... Papierkram stirbt nie wirklich aus."
+      },
+      {
+        "Title": "Über Jean ...",
+        "Context": "Nur weil die stellvertretende Großmeisterin in Mondstadt die Stellung gehalten hat, konnte der „eigentliche“ Großmeister nach Nod-Krai abhauen. Jetzt, wo er zurück ist ... nun, er wird wohl weitermachen wie bisher. Ich glaube nicht, dass sich viel ändern wird."
+      },
+      {
+        "Title": "Über Kaeya ...",
+        "Context": "Kaeya hat ein echtes Talent dafür, die Unterschriften der anderen Truppenführer zu imitieren, ganz zu schweigen von Jeans. Seine Fälschungen sind so gut, dass es praktisch unmöglich ist, den Unterschied zu erkennen. Kaeya sagt, er macht das nur, um seine eigenen Urlaubsanträge zu unterschreiben. Ich persönlich glaube, er sagt die Wahrheit ... in dem Kerl steckt echt ein bisschen zu viel Moral, haha."
+      },
+      {
+        "Title": "Über Amber ...",
+        "Context": "Amber hat gesagt, dass sie bereits mit der kommissarischen Großmeisterin Jean gesprochen hat. Sie hat um ein paar Kundschafter gebeten, die ihr helfen sollen, auch wenn sie keine offiziellen Kundschafter sein werden. Trotzdem ist das auf jeden Fall ein Grund zum Feiern. Jetzt muss sie nicht mehr ganz alleine über Mondstadt hin und her fliegen. Wobei ... wenn ich so darüber nachdenke, scheint die Flugscheinprüfung selbst etwas veraltet zu sein ... Vielleicht ist es an der Zeit, dass auch die mal überarbeitet wird?"
+      },
+      {
+        "Title": "Über Diluc ...",
+        "Context": "Diluc ... Wenn man darüber nachdenkt, sind wir beide dem gleichen Schurken zum Opfer gefallen. Aber jetzt, wo die Rechnungen beglichen sind, kommt er wirklich nie mehr zu den Rittern des Ordo Favonius zurück? Er kann zwar nicht wieder der jüngste Truppenführer werden, aber er könnte es doch als ältester Ritter versuchen."
+      },
+      {
+        "Title": "Über Noelle ...",
+        "Context": "Noelle ist also immer noch keine offizielle Ritterin, hm. Wie lange ist das jetzt schon her? Ich war mir sicher, dass sie die Auswahlprüfungen bestanden hätte ... Wartet Varka auf eine besondere Prüfung nur für sie? Ihr Rittertitel wird ziemlich lang sein müssen, um mit der Länge ihrer Ausbildung mitzuhalten ..."
+      },
+      {
+        "Title": "Über Eula ...",
+        "Context": "Was mir an Eula am meisten auffällt, ist das Geräusch ihrer Stiefel, wenn sie durch die Gegend stapft. Wenn sie es eilig hat, hört man das „Tapp-tapp-tapp“ schon von einem Stockwerk weit weg. Genau wie ihr Kampfstil – laut und durchdringend, ein Eindruck, der sich so tief festsetzt, dass man ihn unmöglich vergessen kann."
+      },
+      {
+        "Title": "Über Albedo ...",
+        "Context": "Die Verbrauchsmaterialien der fünften Truppe werden alle von Albedo und der achten Truppe entwickelt. Unsere Armbrustbolzen, Kugeln und verschiedenen alchimistischen Produkte sind alle von höchster Qualität. Manchmal schaue ich in Albedos Büro vorbei, mit Plänen für neue Waffenforschung. Aber in letzter Zeit hat Saccharose meine Anfragen entgegengenommen. Albedo arbeitet wohl wieder an etwas Großem ..."
+      },
+      {
+        "Title": "Über Klee ...",
+        "Context": "Varka hat mir erzählt, dass der Fatuus „Capitano“ einen Ruinenwächter nur mit einem Wachsmalstift erledigen könnte. Also habe ich bei Klee ein paar Snacks gegen eine Schachtel davon eingetauscht. Die bringe ich Varka mit. Wenn er das nächste Mal auf ein Monster trifft, werden wir sehen, was für eine furchterregende Waffe das wirklich ist."
+      },
+      {
+        "Title": "Über Mika ...",
+        "Context": "Mika ist vielleicht ein geschickter Kartograf, aber ich bin noch geschickter darin, Lügen aufzudecken. Er hat mir mal eine Karte gegeben, auf der er absichtlich alle Monstertreffpunkte weggelassen hat, weil er Angst hatte, dass ich alleine losstürmen würde. Aber weißt du was? Ein Blick in sein Gesicht, und ich wusste genau, wo die Monster waren. Er dachte wirklich, Schweigen würde reichen, um mich auszutricksen. Kaum zu glauben."
+      },
+      {
+        "Title": "Ich will mehr über Lohen erfahren – I",
+        "Context": "Tut mir leid, dich enttäuschen zu müssen, aber ich habe keine dunklen Geheimnisse, die es wert wären, mit anderen geteilt zu werden."
+      },
+      {
+        "Title": "Ich will mehr über Lohen erfahren – II",
+        "Context": "Ich bevorzuge Stangenwaffen, aber ich gehöre trotzdem zur fünften Truppe. Deshalb halte ich mich mit Armbrust und Muskete fit. Was meine Treffsicherheit angeht ... Nun ja, Knallfrüchte und Schleime treffe ich ziemlich gut. Da muss ich nicht mal wirklich zielen. Ich habe gehört, dass es in Inazuma etwas namens Zauselfrucht gibt, das wirklich schwer zu treffen ist? Vielleicht kann ich meine Zielgenauigkeit das nächste Mal daran testen."
+      },
+      {
+        "Title": "Ich will mehr über Lohen erfahren III",
+        "Context": "#Die fünfte Truppe? Nur ein gewöhnliches Unterstützungsteam für den Fernkampf, nichts Besonderes. Wir können ordentlich Feuerkraft liefern, aber wenn wir es mit{NON_BREAK_SPACE}... wirklich außergewöhnlichen Feinden zu tun haben, können wir höchstens von der Seite aus Deckung geben. Wie damals, als wir Varka folgten, um den Rächer von Solnari abzufangen{NON_BREAK_SPACE}... Am Ende überließen wir den Hauptangriff vollständig dem Großmeister, während wir den Befehl erhielten, eine Umkreisung zu bilden und die Wilde Jagd aufzuhalten. Nur so konnten wir vermeiden, in seinen Kampf mit Rerir hineingezogen zu werden."
+      },
+      {
+        "Title": "Ich will mehr über Lohen erfahren – IV",
+        "Context": "Warum ich auf eine Stangenwaffe bestehe? Ich sag’s mal so ... Der leckerste Köder auf dem Schlachtfeld ist der, der am meisten wie ein Kommandant aussieht. Ich kann die Aufmerksamkeit des Feindes auf mich ziehen und allen anderen Raum geben, nach Belieben zu feuern. Was gefährliche Feinde angeht ... Hahaha, je intensiver es wird, desto leichter fällt es mir, mich zu konzentrieren. Dieses Gefühl purer Konzentration ist wirklich zum Sterben schön ... Nur schade, dass es seit meinem Weggang aus Nod-Krai zu wenige Kämpfe gab, in denen ich mich wirklich verlieren konnte."
+      },
+      {
+        "Title": "Ich will mehr über Lohen erfahren – V",
+        "Context": "Ob ich Angst habe, wenn ich im Nahkampf kämpfe? Ha! Nicht so viel wie mein Feind. Ich bin kein Anfänger, weißt du. Außerdem warten im Hintergrund Sanitäter auf mich ... Was, wenn der Feind auch welche hat? Hm, dann muss ich eben zuerst ihre Sanitäter ausschalten."
+      },
+      {
+        "Title": "Lohens Hobbys ...",
+        "Context": "Neben dem Rausch des Schlachtgemetzels ist mein liebster Zeitvertreib, kleine „Überraschungen“ für meine liebsten Waffenbrüder und -schwestern vorzubereiten, um ihren Alltag aufzuhellen. Ich betrachte es als Teil ihres Trainings – Ritter müssen schließlich jederzeit wachsam bleiben."
+      },
+      {
+        "Title": "Lohens Sorgen ...",
+        "Context": "Die schönen Tage in Dornmannshaven sind vorbei. Jetzt bin ich zurück in Mondstadt, und die kommissarische Großmeisterin Jean ist bei Weitem nicht so locker wie Großmeister Varka. *seufz* ... Gibt es denn keine Außeneinsätze mehr, zu denen man mich schicken könnte?"
+      },
+      {
+        "Title": "Was er so mag ...",
+        "Context": "Ich esse gerne scharfes Essen. Wenn ich auf Patrouille bin, kaue ich oft auf getrockneten Jueyun-Paprikas herum, um wach zu bleiben ... Die heißen „Jueyun-Peperonis“? Danke für den Hinweis, aber ich bleibe lieber bei Paprikas ..."
+      },
+      {
+        "Title": "Was er nicht mag ...",
+        "Context": "Nicht trinken, ja? Als ich in Nod-Krai stationiert war, wurde ich ständig von betrunkenen Rittern geweckt ... Am Ende der Nacht wussten die nicht mal mehr, was sie da trinken. Nicht mal, als ich ihren Schnaps gegen ... ähm, vergiss es, vergiss, was ich gesagt habe."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Puh! Danke, das ist genau das, was ich mag. Tatsächlich passt es so gut zu mir ... Ich vermute, du hast heimlich meine Vorlieben recherchiert! Aber ich bin nicht böse – schließlich habe ich auch eine Akte über dich ..."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Als ich damals lernte, wie man Mahlzeiten vergiftet, wurde ich so gut, dass niemand etwas ahnte ... Du hast das hier schon vergiftet? Keine Sorge, ich habe eine hohe Gifttoleranz. Ich glaube, ich nehme mir noch etwas."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "... Nun, das ist eindeutig eine Falle, und ich denke, ich sollte sie lieber meiden. Wie wäre es, wenn du mich das nächste Mal kochen lässt?"
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "#Heute ist dein Geburtstag, also habe ich dir eine Mini-Armbrust besorgt. Das Design habe ich mir selbst ausgedacht. Sie sollte perfekt an dein Handgelenk passen ... Wann ich dein Handgelenk ausgemessen habe? Keine Sorge, ich habe es mit dem Auge abgeschätzt. Du kannst meiner Einschätzung vertrauen{NON_BREAK_SPACE}– ich bin immerhin stellvertretender Truppenführer der fünften Truppe. Ach ja, diese Armbrust kann auch nach hinten schießen, falls sich jemand an dich heranschleicht. Du musst nur ... hier drücken. Hahaha, du brauchst dich nicht zu ducken! Die Sicherung ist noch drin. Sehe ich etwa aus wie jemand, der einem Freund eine Armbrust schenkt, nur um zuzusehen, wie er sich selbst erschießt ..."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Ich fühle mich großartig. Sogar meine Waffe liegt besser in der Hand."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Ich habe das Gefühl, jetzt noch weiter sehen zu können ... Das sollte meine Treffsicherheit verbessern."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Es ist, als wäre mein Geist viel klarer geworden. Hah, mir ist gerade eine neue Trainingsmethode eingefallen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Schätze, ich bin jetzt stark genug, um ein „richtiger“ stellvertretender Truppenführer zu sein, hm?"
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Auf in den Kampf!"
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Zittere ruhig, ich verurteile dich nicht."
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Keiner wird stehen bleiben!"
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "Damit hast du sicher nicht gerechnet!"
+      },
+      {
+        "Title": "Elementarfähigkeit V",
+        "Context": "Jetzt ist unsere Chance!"
+      },
+      {
+        "Title": "Elementarfähigkeit VI",
+        "Context": "Hmpf."
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Wie Lämmer zur Schlachtbank."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Strampelt ruhig so viel ihr wollt!"
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Haha, kein Märchen-Ende für dich!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Ah, die Kriegsbeute. Mal sehen, was drin ist."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Eine magere Ausbeute ... Aber es wäre unhöflich, sie nicht mitzunehmen."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Hm, keine Fallen, kein Giftgas ... Wie einfallslos."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Hah ... Nur weiter so!"
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "... Das ist noch nicht vorbei!"
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "... Das ist ein Gegner nach meinem Geschmack!"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Wenn du nicht mithalten kannst, zieh dich zurück!"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Ich bin dran!"
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Das also ... ist meine Grenze ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Ich hatte noch nicht ... genug ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Wind ... sag mir, warum ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Billiger Trick."
+      },
+      {
+        "Title": "Leichten Treffer erlitten II",
+        "Context": "Hab ich gar nicht gespürt."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Du hast also doch noch Kampfgeist ..."
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Heh ...!"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Jetzt geht’s rund."
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Vorauskundschaften? Bin dabei."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Ich sichere unseren Rückzug."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Fast zur selben Zeit, als die Expeditionstruppe ihre Heimreise antrat, brachten Barden die Geschichten der Helden zurück in die Taverne.\nNeben den bekannten Namen wie Varka wurde auch der Titel „Offizier zur Frontunterdrückung“ durch bemerkenswerte Erfolge und eine sehr hohe Teilnahmequote an Kämpfen in den Blickpunkt der Menschen gerückt.\nWarum war die Fernkampfeinheit mit der größten Angriffsreichweite stets an vorderster Front aktiv und startete als Erste den Nahkampfangriff?\nWarum wird eine Truppe, die Bögen, Armbrüste und Musketen verwendet, von einem jungen Ritter mit Lanze angeführt?\nWas ungewöhnlich ist, wirft Fragen auf, und Fragen führen oft zu Diskussionen.\nEinige schimpften wütend: „Wenn man aus nächster Nähe schießt, soll das etwa wirkungslos sein? Sind Bogen, Armbrust und Muskete wirklich so unpraktisch?“\nEinige waren der Meinung, dass Bogenschützen schon immer die Fähigsten und Elitekrieger gewesen seien. Die Besten unter ihnen an den gefährlichsten Frontlinien einzusetzen, sei daher die richtige Wahl.\nDoch was alle Debatten beendete, war die Einschätzung, die die Barden von Augenzeugen gehört hatten:\n„Er ist der schärfste Pfeil der Truppe, der jede feindliche Linie durchbricht.“\n„Er ist der festeste Schutz der Truppe, der jeden Angriff abwehren kann ...“\nAllerdings lassen die Barden oft absichtlich den zweiten Teil der Aussage der Ritter weg, weil er so gar nicht legendär klingt und viel zu nüchtern ist:\n„Eigentlich denke ich, dass Vize-Truppenführer Lohen es so einfach nur effizienter findet ...“\nJa, seine Geschichte ist nicht so ruhmreich und farbenfroh wie in Ritterromanen und auch nicht so legendär und voller Wendungen wie die Heldentaten.\nSpeere, Pfeile aus dem Hinterhalt, Fallen, Gift, Überraschungsangriffe, Infiltration ...\nEr diskutierte nie darüber, ob Waffen oder Taktiken überlegen waren, und kümmerte sich nicht darum, ob der Kampf oder die Handlung selbst mit Ehre, Schande, Gewinn oder Verlust zu tun hatte.\nAlle Methoden hatten zwar ihre Vor- und Nachteile im Umgang, doch die Freude, die sie brachten, konnte weder mit dem „Sieg“ selbst noch mit dem Erleben des „Überlebens“ selbst verglichen werden.\nNur der Letzte, der noch stand, hatte die Berechtigung, über die Bedeutung des Sieges nachzudenken. Nur der Letzte, der noch Schmerz empfinden konnte, hatte die Berechtigung, über das Überleben zu sprechen.\nKampf, Sieg, Überleben ... und dann begann alles von vorn ...\nDas ist Lohens Geschichte, Lohens Leben ..."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "In Lohens Erinnerung war sein erstes Spielzeug ein kleiner, biegsamer Bogen.\nSein ernster Vater wählte das beste Tannenholz für den Bogenkörper aus, die sorgfältige Mutter schnitt das Leder zu, rieb es immer wieder und drehte es zur Sehne.\nAuch wenn es nur ein Spielzeug war, fertigten Vater und Mutter es dennoch nach den üblichen Verfahren zur Herstellung von Bögen und mit größter Sorgfalt an.\nDoch Lohens Vater brachte ihm nicht bei, wie man den Bogen spannte und einen Pfeil auflegte, wie der kleine Lohen es sich vorgestellt hatte.\nDas Einzige, was der kleine Lohen tun durfte, war, die Bewegungen seiner Eltern nachzuahmen: Er lernte, die Bogenteile zu überprüfen, er lernte, die lackierte Oberfläche mit Öl zu pflegen, er lernte, die Bogensehne zu wachsen. Tag für Tag, immer und immer wieder.\n„Lohen, unsere Vorfahren sagten einst: ‚Der Bogen ist ein Gegenstand, der Beständigkeit erfordert. Unsere Familie lebt seit Generationen vom Bogenbau, also müssen wir auch wie ein Bogen leben und in allem, was wir tun, absolute Beständigkeit wahren.‘“\nWährend des täglichen Morgengebets wiederholten Lohens Vater und Mutter immer wieder diese Worte.\nEin geregelter Tagesablauf, gewissenhaftes Arbeiten und ein ruhiges Leben.\nÜber zwanzig Jahre lang hatten sie so gelebt, bevor Lohen geboren wurde. Und auch in den zehn Jahren nach seiner Geburt und später hatte sich nichts daran geändert.\nVon den ersten Lalllauten bis zur geschickten Pflege von Pfeil und Bogen – Lohen erkannte mit Schrecken, dass er bereits den Verlauf seines ganzen Lebens voraussehen konnte. Vielleicht würde sein Leben in einem ereignislosen, vorherbestimmten Alltag dahinschwinden, bis zu dem Tag, an dem er zu alt wäre, um die Risse in der Holzmaserung noch zu erkennen.\nAber ... Pfeile mögen zwar sicher im Lager aufbewahrt werden können, doch sie gehören nicht dorthin. Genau wie sein ungebundener Charakter nicht für ein ruhiges Leben bestimmt ist.\nDer kleine Lohen polierte die Pfeilspitze noch einmal und blickte in die dunkelroten Pupillen, die sich im Spiegelbild verbargen.\nSie wartete nur auf den Moment, in dem sie von der Sehne sprang ...\nUnd dieser Moment war nicht mehr fern.\nAn einem ganz gewöhnlichen Tag saß Lohen wie immer auf dem Güterwagen und begleitete seinen Vater nach Mondstadt, um eine Bestellung auszuliefern.\nAber dieses Mal verlief die Reise nicht friedlich – eine Gruppe fähiger, maskierter Banditen hatte es auf ihre Waren abgesehen.\nSein Vater stopfte Lohen hastig unter die Ladeplane und befahl ihm, still zu bleiben und keinen Mucks von sich zu geben. Er selbst schrie laut auf, in der Hoffnung, die Räuber wegzulocken oder Hilfe vom Ritterorden herbeizurufen, der womöglich in der Nähe war.\nDabei war der Güterwagen voll mit starken Bögen und kräftigen Pfeilen, die sogar massive Felsen durchbohren konnten ...\nDabei hatte sein Vater durch die jahrelange Erprobung von Pfeil und Bogen längst die Fertigkeiten eines erstklassigen Bogenschützen erlangt ...\nOffensichtlich versuchte die Gruppe von Banditen, Vater absichtlich oder unabsichtlich vom Güterwagen wegzutreiben ...\nDoch die lange Gewohnheit an ein ruhiges Leben ließ seinen Vater in seiner Panik völlig vergessen, misstrauisch zu sein, und auch die Möglichkeit, sich mit Gewalt zu wehren, kam ihm nicht in den Sinn.\nDraußen vor dem Wagen wurde es allmählich still, und bald darauf wurde die Plane zurückgeschlagen – doch es war weder der Vater, der die Banditen abgeschüttelt hatte, noch ein Ritter, der zur Rettung herbeigeeilt war, sondern eine Gruppe schwarz gekleideter Gestalten mit Masken.\nOhne ein Wort zu verlieren, verschleppten sie Lohen. Wie sehr er sich auch wehrte oder zu entkommen versuchte – gegen diese eisernen Hände war jeder Widerstand vergeblich.\nDamals wusste Lohen noch nicht, in wessen Intrige er verwickelt worden war. Er wusste auch nicht, wohin man ihn gebracht hatte.\nIn der verschlossenen Zelle saß der kleine Lohen schweigend da und dachte:\nWenn Vater seinen Bogen hätte nutzen können, um sich gegen die Banditen zu wehren, dann hätten diese Leute keine Chance gehabt. Wenn ich nur etwas aufmerksamer gewesen wäre, hätte ich mich vielleicht verstecken können, bevor sie zuschlugen.\nDas Weinen der Kinder in den anderen Zellen, die wie er entführt worden waren, wurde immer lauter. Lohen nutzt einen unbeobachteten Moment und versteckt eine kleine Pfeilspitze, die er vom Karren mitgenommen hat, in seinem Ärmel ...\nVielleicht hat der Anemo-Archon die Hilferufe der Kinder gehört, oder vielleicht hat etwas in den unsichtbaren Weiten Lohens Sehnsucht nach Stärke erhört.\nAuf dem Weg, als die Schurken hastig ihr Lager verlegten, erschienen endlich die Vollstrecker der Gerechtigkeit.\nDer Anführer trug ein Panzerhemd und hielt einen Kurzbogen, mühelos besiegte er alle Schurken.\nOb er Gefangene zum Verhör zurücklassen oder das Kind nicht verletzen wollte, er kämpfte nur mit stumpfen Pfeilen ohne Spitze.\nDoch die enorme Kraft dieses Mannes ließ selbst diese stumpfen Pfeile ihre volle Wirkung entfalten. Jedes Mal, wenn die Bogensehne vibrierte, folgte ein dumpfer Aufprall eines zu Boden gehenden Körpers.\nDie Pfeile, die durch die Luft schossen, waren so scharf und leuchtend, dass der kleine Lohen seinen Blick lange nicht abwenden konnte. Er hielt sogar in seiner Bewegung inne.\nErst als Adorno den Gefangenenwagen öffnete und Lohen ansah, kam er wieder zu sich.\n„Vielleicht ... wenn ich so stark wie diese Pfeile wäre, hätte ich das Seil schon längst durchtrennt. Dann hätte ich auch nicht so lange Theodores Gejammer ertragen müssen ...“\nDieser Gedanke schlug in dem kleinen Lohen tiefe Wurzeln.\nAdorno jedoch sah etwas ganz anderes:\nUnter den weinenden Kindern wirkte der Junge, der eigentlich vor Angst hätte zittern müssen, völlig fehl am Platz – sein Gesicht war eiskalt.\nAn seinem Handgelenk hatte die Pfeilspitze einen kaum wahrnehmbaren Riss in den ursprünglich festen Knoten geschnitten.\n„Was für ein außergewöhnliches Kind ... Das sollte ich wohl besser im Auge behalten ...“"
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Seit Lohens Rettung beschützte ihn seine Familie noch mehr. Sie hatten große Angst, ihr Kind noch einmal zu verlieren. Aber ein gespannter Pfeil kann nicht mehr zu einem verstaubten Alltag zurückkehren.\nIn einer mondhellen Nacht kletterte er, während seine Eltern schliefen, heimlich aus dem Fenster. Mit ihm verschwanden in der Dunkelheit ein selbstgemachter Kurzbogen, ein kurzer Dolch zum Schnitzen und einige fehlerhafte Pfeile, die nicht zum Verkauf geeignet waren.\nVielleicht war es pures Glück, vielleicht war er auch einfach für den Kampf geboren. Als er zurückkam, hatte er bereits zwei Hilichurl-Pfeilspitzen als Beute in seiner Tasche.\nVon da an schlich er immer öfter nachts aus dem Haus. Erst einmal pro Woche, dann alle drei Tage, bis er schließlich jede Nacht unterwegs war. Seine Ziele wurden immer stärker, seine Beute immer wertvoller: zerbrochene Masken, unheilvolle Schriftrollen, Mitachurl-Hörner ...\nMit der Zeit begann unter den Abenteurern ein mysteriöses Gerücht zu kursieren: Um Mitternacht herum würde in der Gegend von Dornmannshaven ein schmächtiger Bogenschütze auftauchen. Er würde wie der Wind in die Monsterhorden hineinstürmen und seine Pfeile präzise in die Brust jedes einzelnen Gegners jagen.\nUnzählige Siege bedeuteten unzählige Gefahren. Und unzählige Gefahren führten zu unzähligen Momenten, in denen das Herz wie eine tosende Welle wild pochte.\nZugleich begann eine Frage in seinem Herzen leise aufzukeimen: Wenn er heute erneut auf diese Verbrecher träfe, wäre der Ausgang ein anderer? War er immer noch das kleine Kind, das nur auf die Rettung anderer warten konnte?\nSelbst nachdem er unzählige Gefahren überstanden und unzählige Ziele durchbohrt hatte, wuchs dieser Zweifel in seinem Herzen nur weiter und gärte unaufhaltsam vor sich hin, ohne dass sich jemals von selbst eine Antwort finden würde.\nEs sei denn, er schafft es, dieses ursprüngliche Ziel selbst zu durchbrechen.\n...\nAls Lohen schließlich seine Abenteurerkluft anzog und seinen Eltern die Wahrheit sagte, waren sie zuerst ungläubig und dann wütend.\nErst als Präsident Cyrus sich mit geschwollener Brust dafür verbürgte, dass nur Lohen die Monster fertigmachen würde und nicht umgekehrt, akzeptierten seine Eltern widerwillig die vollendeten Tatsachen.\n... Vielleicht hatten sie damals nicht erkannt, dass Lohen bereits die Fähigkeiten eines Spitzen-Abenteurers besaß, sondern wussten nur, dass Lohen nicht mehr brav „gehorchen“ würde.\nTrotzdem machten sie sich weiter Sorgen. Über Jahre hinweg versuchten sie immer wieder, Lohen von seinen Abenteuern abzubringen. Sie kontaktierten sogar Adorno, den alten Ritter, der Lohen einst aus einer gefährlichen Lage gerettet hatte, in der Hoffnung, dass er Lohen zur Vernunft bringen könne.\n„Ein Pfeil auf der Sehne kann nicht mehr zurückgenommen werden. Ich bin mir sicher, dass ihr als Bogenmacher dies versteht.“ Adorno schien Lohens Entscheidung schon vorausgeahnt zu haben. „... Aber wir haben noch Zeit, für den Pfeil, der gleich abgeschossen wird, die richtige Richtung zu finden ... Das ist mein Rat als Bogenschütze.“\nAdorno wurde gebeten, als Vermittler mit Lohen zu reden. Lohens Eltern wussten nicht, worüber die beiden sprachen, doch in den folgenden Monaten wurde Lohen deutlich ruhiger ... Er bereitete sich angeblich auf eine Prüfung vor.\nEin paar Monate später tauchte Lohen plötzlich bei der Ritterprüfung auf und gewann mit überwältigender Stärke den ersten Platz. Seine Methoden waren zwar umstritten, aber am Ende trat er erfolgreich dem Ritterorden bei.\nDas ging wohl in Ordnung. Zumindest bot der Ritterorden eine feste Stelle sowie Kameraden, die ihm den Rücken freihielten. Das war immer noch besser, als allein als Abenteurer unterwegs zu sein.\nZumal Lohen vor ein paar Monaten sogar anfing, die Missionen der Gilde als zu langweilig zu empfinden, und gerade darüber nachdachte, Mondstadt zu verlassen, um gefährlichere Ziele zu suchen.\nLohens Eltern trösteten einander. Doch was Adorno an jenem Tag alles gesagt hatte, damit Lohen auf die Idee kam, dem Ritterorden beizutreten, darüber wurden sie immer unsicherer.\n...\n„... Junge, wir haben den Drahtzieher hinter den damaligen Entführungen ermittelt.“\nLohen, der einem weiteren Überredungsversuch eigentlich gleichgültig gegenüberstand, blickte scharf auf: „Wer war es?“\n„Der Ordo Favonius wird bald eine Ankündigung veröffentlichen, aber du brauchst nicht an Rache zu denken.“ Adorno erzählte ruhig: „Die Person ist bereits tot.“\nNach langem Schweigen meldet sich Lohen wieder zu Wort: „Durch wessen Hand ist er gestorben?“\n„Selbstmord.“ „So jemand bringt sich nicht einfach um. Du weißt, was ich wirklich fragen will: Wer hat ihn in die ausweglose Lage getrieben?“\n„Unser Großmeister, Ritter des Nordwinds, die lebende Legende von Mondstadt ...“ Adorno lächelte sanft. „... Reicht das als neues Ziel für dich?“"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Varka war seine „Nachahmer“ schon gewohnt.\nUnzählige leidenschaftliche Jungen träumten davon, dem großen Helden nachzueifern. Darunter befanden sich auch immer wieder ein paar Unruhestifter, die blind an ihre eigenen Fähigkeiten glaubten und entsprechend handelten.\nAber einen „Nachahmer“ wie Lohen – so jemanden sah Varka wirklich zum ersten Mal.\nFrühere „Nachahmer“ griffen höchstens überraschend an, um ihre Stärke zu beweisen. Aber Lohens erster Auftritt war anders – er schreckte vor nichts zurück.\nPfeile aus dem Hinterhalt, Rauch, Fallen und sogar Tränke, die Monster im Nu betäuben können ... All diese Tricks waren unglaublich raffiniert und wirkten, als kämen sie von einem kampferprobten Veteranen. Und irgendwie erinnerten sie auch ein bisschen an die Überreste von Erochs Anhängern.\n„Nicht schlecht, Kleiner. Du hast was drauf! Aber ... diese kleinen Tricks funktionieren bei mir nicht!“\nFast im selben Moment hatte Varka den „Grünschnabel“ vor ihm fest in Schach.\n„Ein Kind, das bei einer Entführung ruhig bleibt und vielleicht sogar aus eigener Kraft die Flucht schafft.“\n„Unter Abenteurern als kleiner Bogenschütze bekannt, der in der Gegend um Dornmannshaven präzise und ohne Gnade zuschlägt.“\n„Der junge Hitzkopf, der kurz nach seinem Beitritt zur Truppe überall damit begann, die Überreste von Eroch auszulöschen.“\nEr hatte schon bei Adorno viele interessante Geschichten über Lohen gehört und beschloss daher, dieses Schauspiel noch ein wenig weiterlaufen zu lassen, um den Jungen auf die Probe zu stellen.\nWelchen Blick würde dieser unerfahrene Junge wohl unter dem Druck dieser beiden gewaltigen Schwerter, die selbst eine Schar von Dämonen verstummen lassen könnten, zeigen?\nBewunderung? Panik? Oder ...?\nVarka starrte Lohen fest in die Augen – diese kalten Augen wurden immer schärfer. Varka schien Freude darin zu erkennen ... und er schien auch sich selbst zu sehen, den, der es liebte, Stärkere herauszufordern und Ruhm zu gewinnen.\nEin vielversprechendes Talent, aber es sind noch harte Arbeit und etwas Schmerz vonnöten, um ihn zu formen. Also packte Varka den wagemutigen Neuling und beschloss, ihn für ein paar Tage in Arrest zu stecken: „Wenn du nicht damit einverstanden bist, kannst du es jederzeit wieder versuchen. Ich freue mich auf deine Reaktion.“\n„Dann freu dich schon mal darauf.“ Bevor Lohen weggesperrt wurde, zuckte er lächelnd mit den Schultern.\nAm Tag nach Ende des Arrests kam Lohen mit einer Flasche von Varkas Lieblingswein vorbei und behauptete, er wolle sich entschuldigen.\n„Oh? Du hast ja einen guten Geschmack – und du hast sogar meinen Lieblings-Löwenzahnschnaps ausgewählt. Dann nehme ich ihn mal ohne Umschweife an.“\nKaum hatte der bittere, scharfe Wein seine Kehle benetzt, spürte der Großmeister einen leichten Schwindel und ein seltsames Gefühl. Dann erinnerte er sich an das, was Adorno nach Lohens Verhaftung zu ihm gesagt hatte:\n„Ehrlich gesagt, ich würde dir nicht empfehlen, ihn als dein früheres Ich zu betrachten oder als irgendeinen anderen Jungen aus Mondstadt, der dich bewundert. Ja, Lohen respektiert deine Stärke auch sehr, aber ich schätze, dass er mehr darüber nachdenkt, wie er dich herausfordern kann.“\n„Wenn ich mich nicht irre, denkt er wahrscheinlich: ‚Es muss super spannend sein, den mächtigen Varka herauszufordern. Selbst wenn ich verliere, kein Problem – dann liege ich halt ein paar Tage im Bett.‘ Was Ruhm angeht ... das ist ihm vermutlich egal.“\nNur durch seine robuste Konstitution und Willenskraft gelang es Varka, unter Lohens verblüfftem Blick seine wankende Haltung zu stabilisieren.\n„... Unglaublich, nach meiner Schätzung hätte diese Dosis ausgereicht, um zehn Waldschweine umzuhauen ...“\n„Junge, ich hab’s dir doch gesagt, solche Spielchen funktionieren bei mir nicht!“\nVon diesem Moment an hatte Lohen ein völlig neues Verständnis des Wortes „Kraft“:\nEs war eine Stärke, die keine Falle und kein Gift erschüttern konnte, ein Fundament, das sich nach unzähligen Erfahrungen zwischen Leben und Tod gebildet hatte.\nSeit diesem Tag standen zwei neue Ziele auf Lohens Liste:\nErstens: Mit allen Mitteln versuchen, Varka zu besiegen.\nZweitens: All diese Mittel auf sich selbst anwenden und dafür sorgen, selbst nicht zu Boden zu gehen."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Der Ordo Favonius ist eine Organisation mit langer Geschichte, die unzählige Helden, aber auch viele Tragödien und Schmerzen gesehen hat.\nZahllose legendäre Geschichten und Lehren haben den Rittern eines gezeigt ...\nWenn das Handeln vom Weg des Rittertums abweicht, folgt ein Unglück.\nAus diesem Grund gab es innerhalb des Ritterordens Stimmen, die Lohens Position als stellvertretender Truppenführer der fünften Truppe infrage stellten.\nZweifellos konnte ein „Verrückter“, der ständig Ärger machte, es darauf abgesehen hatte, den Großmeister zu überfallen, im Kampf gerne Gift und Fallen einsetzte, in den Augen vieler auf keinen Fall irgendetwas Positives mit dem „Weg des Rittertums“ zu tun haben.\nNatürlich kümmerte sich Lohen selbst nicht um diese Gerüchte.\n„Ich weiß, dass es dir egal ist, was andere denken. Aber dir ist auch klar, dass eine Expedition keine Aufgabe ist, die man im Alleingang bewältigen kann. Ganz offensichtlich wird es Probleme mit deinem Antrag, an der Expedition teilzunehmen, geben, wenn niemand bereit ist, auf deiner Seite zu stehen.“\nAn dieser Stelle hielt Adorno inne, als ob er sich sorgte, dass Lohen mit einem solchen Problem nicht umgehen könnte, oder als ob er befürchtete, dass dieser die Situation noch verschlimmern könnte.\nSeit Varka angekündigt hatte, eine noch nie dagewesene große Expedition zu starten, konnte Lohen es kaum erwarten, loszuziehen.\nEin fernes Schlachtfeld, unbekannte Gefahren – für ihn war das interessanter als jedes Spielzeug der Welt. Doch seine Bewerbung war alles andere als reibungslos verlaufen. Die Auswahllisten wurden mehrmals durchgegeben, doch sein Name war niemals aufgetaucht.\nAdorno wusste, dass keine Prüfung auf dem Schlachtfeld Lohen in Schwierigkeiten bringen konnte. Das Problem lag außerhalb des Schlachtfelds.\nDoch diesmal war Lohen überraschend gelassen: „Na gut, wenn ein unkonventioneller Ritter nicht an der Prüfung teilnehmen darf – dann werde ich eben Prüfer, oder?“\n...\n„Aus taktischer Sicht ist das eine gute Idee. Nebenbei die Ritter ihre eigenen Schwächen erkennen lassen, damit nicht immer wieder jemand überlegt, den Ritterorden zu reformieren ... Schließlich können wir nicht erwarten, dass sich jeder Gegner brav an die Ritterlichkeit hält.“\nWährend Varka die spezielle „Anfrage“ durchging, die Lohen diesmal eingereicht hatte, dachte er darüber nach.\nDer Bericht listete eine Menge „Prüfungsaufgaben“ auf. Neben nächtlichen Überfällen, Fallen und Vergiftungen, an die Varka längst gewöhnt war, führte er auch neue und kreative „Prüfungsmethoden“ wie Überraschungsangriffe in Verkleidung oder die vorsätzliche Sabotage der Versorgungsgüter vor einer Übung ein.\nAm Ende des Berichts hatte Lohen sogar ein berühmtes Zitat eingefügt, das Varka sich beinahe an seinem Wein verschlucken ließ:\n„Wenn die Ritter des Ordo Favonius sich nicht einmal selbst schützen können, wie sollen sie dann Mondstadt beschützen?“ – Aus der Nacht des Angriffs auf den ehemaligen Großmeister.\n... Die Fehler, die man in jungen Jahren begeht, überfallen einen immer wieder in unerwarteter Form. Nachdem Varka seine Gefühle etwas geordnet hatte, traf er eine Entscheidung und setzte ein Häkchen bei diesem Antrag.\nEin ungewöhnlicher Ritter erfordert eine ungewöhnliche „Prüfung“.\nEgal, ob für die Ritter der Expedition ... oder für Lohen selbst."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Als wahrscheinlichster Nachfolger des „Gütigen Ritters“ war Lohen wohl auch die Person im Ordo Favonius, die am wenigsten wie ein „Gütiger Ritter“ wirkte.\nDer gewöhnlichen Vorstellung der Menschen nach sollte der „Gütige Ritter“ in Not geratenen Menschen beistehen und sie aus brenzligen Situationen retten. Doch Lohen suchte lieber aktiv nach Gefahren und brachte dabei gelegentlich andere in Schwierigkeiten – natürlich traf es meist seine Gegner, und natürlich mussten es nicht unbedingt Menschen sein.\nDoch Lohens „Hobbys“ waren nicht völlig nutzlos. Zumindest bei speziellen Einsätzen und hochriskanten Aufträgen schnitt er weitaus besser ab, als viele erwarteten.\nAngesichts dessen wurden ihm ganz natürlich viele vertrauliche Aufträge der Expeditionstruppe zur spontanen Ausführung übertragen.\nEine davon war eine geheime Mission der aktuellen Leiterin des „Nördlichen Informantennetzwerks“.\nLaut Informationsanalyse war in Nod-Krai gerade ein geheimes Auktionshaus aktiv, das die chaotische Lage ausnutzte. Dort wurde Schmuggel betrieben und gefährliche Waren wurden verkauft. Ihr Vorgehen war äußerst vorsichtig, wahrscheinlich hatten sie mächtige Hintermänner. Wenn sie sie ausschalten, könnten sie das Vertrauen des Nördlichen Informantennetzwerks gewinnen.\n„Wir zweifeln keineswegs an der Kampfkraft der Ritter, aber in Gebieten, in denen die Ritterlichkeit keine Rolle spielt, ist Kampfkraft nicht gleichbedeutend mit Stärke.“\nUm die Bedenken des „Nördlichen Informantennetzwerks“ auszuräumen, erstellte die Expeditionstruppe einen äußerst sicheren Plan:\nLohen sollte heimlich einzelne Personen festnehmen und ihnen Zeitpunkt und Ort der Auktion entlocken. Danach würden durch Beschattung, Überwachung und schrittweise Überprüfung die relevanten Personen ausfindig gemacht, um das Risiko so gering wie möglich zu halten.\nEgal, wie man es betrachtet, dieser Auftrag hätte perfekt für Lohen sein müssen. Einzelinfiltrierung, präzise Festnahme, direkter Zugriff aufs Ziel – anspruchsvoll genug und diskret genug.\nNur schade, dass Nannina einen Punkt übersehen hatte: Für Lohen bedeutete ein zu diskreter Plan oft auch, dass er nicht gründlich genug war.\nVor ihrer Abreise überbrachte Nannina Kardinal Seamus’ Worte: „Konzentriere dich auf deinen Auftrag und verursache keine zusätzlichen Komplikationen.“\nDarauf antwortete Lohen kurz und bündig: „Verstanden, keine Sorge.“\nUnd er hatte es offensichtlich wirklich verstanden.\nZumindest seinem eigenen Verständnis nach hatte dieser Auftrag von Anfang bis Ende nur einen Schwerpunkt – dem „Nördlichen Informantennetzwerk“ die Stärke des Ordo Favonius zu demonstrieren.\n...\nEinige Tage später, Mondstadt, im Büro des Großmeisters des Ritterordens.\nNachdem die Stellvertretende Großmeisterin Jean den von der Expeditionstruppe zurückgeschickten Einsatzbericht gelesen hatte, verfasste sie einen Antwortbrief an Varka.\n„Was die Aktion im Zusammenhang mit der ‚Untergrundauktion‘ betrifft, so bin ich über den gesamten Sachverhalt informiert.“\n„Lohens Reaktionsfähigkeit vor Ort war einmal mehr effizient und entschlossen. Es ist ihm erfolgreich gelungen, alle Teilnehmer am Veranstaltungsort unter Kontrolle zu halten und zu verhindern, dass der Kampf auf Nasha übergreift. Am Ende gab es keine zivilen Opfer. Allein vom Ergebnis her betrachtet kann man das durchaus als Schutz der Bevölkerung und als Akt der Nächstenliebe bezeichnen.“\n„Von seiner Leistung ausgehend stimme ich deiner Einschätzung zu: Er besitzt die Berechtigung, Adornos Erbe anzutreten. Auch sein Handeln war ausgewogen ... bis zu dem Punkt, als er in das feindliche Hauptquartier eindrang.“\n„Aber, mit Verlaub gesagt – mitten in der feindlichen Basis aufzutauchen, aktiv einen Kampf anzuzetteln, im Alleingang auszubrechen und sogar die Beute aufzuhängen, um mit der eigenen Stärke zu prahlen ... Das ist absolut nicht die Vorgehensweise des Ordo Favonius.“\n„Wenn du Zeit hast, erkläre das bitte unbedingt den zuständigen Personen des Nördlichen Informantennetzwerks.“"
+      },
+      {
+        "Title": "„Pseudo-integrierter Kommunikationsaufzeichnungsapparat“",
+        "Context": "Der „integrierte Vermessungsapparat“, den Mika immer bei sich trug, war stets äußerst ordentlich.\nDarin waren nicht nur detaillierte Gelände, wichtige Orte und reguläre Marschrouten verzeichnet, sondern gelegentlich auch Spuren von Monster-Aktivitäten und Vermutungen über Gefahrenzonen.\nInformationen sind die Grundlage für jeden Marsch. Doch manche Ritter interessierten sich nicht nur für die Informationen, sondern auch für den Apparat selbst.\nZum Beispiel Lohen.\n„So ein komplizierter Apparat, und du kannst ihn so gut bedienen?“ Nachdem Lohen routinemäßig die Feindverteilung abgefragt hatte, sprach er plötzlich ein Lob aus: „Wirklich beeindruckend.“\nAls Mika so plötzlich ein solches Lob von diesem gleichaltrigen Kollegen erhielt, dessen Ruf sich in vielerlei Hinsicht so sehr von seinem eigenen unterschied, war er nicht nur verwirrt, sondern auch ein wenig erfreut.\nLohen stellte voller Interesse Fragen, und Mika sprach nur selten mit anderen Rittern, die keine Techniker waren, über seinen Vermessungsapparat, sodass sie sich seltsam vertraut miteinander unterhielten.\n„Hmm, mit so einem effektiven System kennst du bestimmt viele Gebiete, in denen sich Gegner versammeln, oder?“ „Übrigens, wie wartest du dein System normalerweise? Gibt es Ersatzteile zum Wechseln?“\n... Vielleicht ist dieser „berühmte“ jüngere Kollege ja gar nicht so schlimm, wie alle behaupten?\nMika beantwortete alle Fragen begeistert und ausführlich, während Lohen mit zusammengekniffenen Augen nickte und still die Dinge notierte, die er wissen wollte, während er den Rest verwarf.\nNach einigen Malen bemerkte Mika allmählich, dass die Gebiete, nach denen Lohen besonders detailliert gefragt hatte, wenige Tage später stets deutlich ruhiger wurden.\nWenn man Lohens häufige neue Verletzungen mit seinen vielen kurzen Abwesenheiten in Verbindung brachte, ließ sich das Ganze kaum noch als Zufall erklären. Mika kam schnell zu einem beunruhigenden Schluss – seine Kartierungsergebnisse wurden von Lohen auf eine äußerst gefährliche Weise effizient genutzt.\nAus Vorsicht begann Mika, auf den Karten, die er Lohen gab, einige Orte mit Monstern wegzulassen, die nichts mit der Mission zu tun hatten. Und wenn Lohen nachfragte, wurde er immer verlegener.\n„Äh ... die Details habe ich alle gemeldet!“ „Hör ... Hör lieber auf die Befehle des Großmeisters!“\nDoch als Mika auswich, bohrte Lohen nicht weiter nach, lächelte nur vielsagend, wobei sein Blick beiläufig auf den Vermessungsapparat, den Mika fest an seine Brust drückte, fiel.\nSeitdem passte Mika noch besser auf seinen Vermessungsapparat auf. Vor dem Verlassen seines Platzes prüfte er, ob das Heft sicher verstaut war; bei der Übergabe von Unterlagen zählte er die Seiten immer wieder durch. Manchmal drehte er sich sogar nach ein paar Schritten um, als hätte er Angst, jemand könnte hinter ihm auf das Heft abgesehen haben.\nDoch selbst das beeinträchtigte Lohens Vorgehen kaum. Es war, als wüsste er die Informationen, die Mika verbergen wollte, längst alle ... Fast wie Zauberei.\nMika konnte sich das einfach nicht erklären – bis zu einem Lagerfeuerabend der Expeditionstruppe.\nEkbert rief lautstark, er wolle einen neu gelernten Zauber aus Fontaine vorführen, um die Stimmung anzuheizen. Doch er hatte zu viel getrunken und verriet aus Versehen den Trick.\nEr wollte einen großen Zaubertrick namens „Himmel und Erde vertauschen“ vorführen, doch legte versehentlich zwei nahezu identische Karten zu früh vor den Augen des Publikums offen.\nDas Prinzip des Zaubertricks war eigentlich ganz einfach: Man tauscht heimlich die vom Publikum gewählte echte Karte gegen eine getarnte falsche Karte aus. Dann lenkt man die Aufmerksamkeit des Publikums mit der falschen Karte ab und manipuliert in diesem winzigen Zeitfenster die echte Karte. Schade nur, dass das Ende kam, bevor es überhaupt richtig losgehen konnte.\nWährend der Saal von Gelächter erfüllt war, musste Mika grundlos an eine Frage denken, die Lohen ihm vor langer Zeit gestellt hatte.\n„Übrigens, wie wartest du dein System normalerweise? Gibt es Ersatzteile zum Wechseln?“\nIn diesem Moment wurden ihm plötzlich einige Details aus der Vergangenheit klar: der mysteriöse Rückgang an Ersatzteilen im Lager, die Buchseiten, die sich gelegentlich aufgrund von Störungen nicht öffnen ließen ...\nEs wird doch wohl niemand kurz nach dem Kennenlernen schon überlegt haben, wie man seine Kollegen reinlegen kann, oder?\nEs wird doch wohl niemanden geben, der vordergründig freundlich und neugierig tut, aber hinterrücks irgendwelche finsteren Pläne ausheckt, oder?\nEs wird doch wohl niemanden geben, der in dem Moment, in dem man kurz wegschaut, das Original mit einem „Pseudo-Vermessungsapparat“ austauscht, die Informationen kopiert und es dann dreist wieder zurücklegt, oder?\nWährend Mika darüber nachdachte, spürte er plötzlich einen scharfen Blick – als wäre er ein Vogel, auf den ein Jäger zielte. Er hob ruckartig den Kopf, doch sah nur Lohen, wie er in der Menge mitlachte, ohne jemanden anzuschauen.\nDas Lachen klang herzlich, ja sogar aufrichtig ... genau wie bei ihrem ersten enthusiastischen Gespräch, nicht aufgesetzt."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Wie er „die Kraft eines Truppenführers“ erlangen konnte, darüber hatte Lohen sich schon lange Gedanken gemacht.\nOhne Zweifel sollte ein Truppenführer die Stärke besitzen, mächtigen Monstern direkt gegenüberzutreten, und er sollte auch in der Lage sein, große Heere von Feinden, die wie eine Flut heranströmen, im Alleingang zu besiegen.\nSowohl zerstörerisch als auch ausdauernd – dies galt für Varka und anscheinend auch für einen gewissen jüngsten Truppenführer in der Geschichte des Ordo Favonius.\nAber für die fünfte Truppe, die Fernkampfwaffen anwandte, schienen Zerstörungskraft und Ausdauer voller Widersprüche zu sein.\nUm eine hohe Zerstörungskraft zu erreichen, brauchte man einen kraftvollen Bogen mit hoher Zugkraft sowie schwerere, große Pfeile mit besserer Durchschlagskraft.\nDoch selbst er konnte nur wenige schwere Pfeile mit sich tragen. Sobald die Pfeile aufgebraucht waren, musste er sich schnell in die zweite Reihe zurückziehen, um sich zu erholen und Nachschub zu holen. Die Auswirkungen dieser Kampfweise auf die anhaltende Kampffähigkeit waren offensichtlich.\nAußerdem mochte Lohen es gar nicht, die Front zu verlassen und sich in die zweite Linie zurückzuziehen. Schließlich war es der Kampf an vorderster Front, direkt gegen die Gegner, den er sich wünschte.\nGab es einen Weg, der beide Wünsche erfüllte? Der junge Ritter verfiel ins Nachsinnen.\n„Vielleicht ... gibt es doch einen Weg?“\nZufällig bemerkte Lohen die Ritter, die gerade mit den Vorbereitungen für die Paradeübung beschäftigt waren. Neben ihnen glänzten Bündel von Zeremonienspeeren wie riesige Pfeile, die darauf warteten, transportiert zu werden.\n„Vielleicht kann ich einen Pfeil finden, der nach dem Abschuss immer wieder verwendet werden kann?“\n„Oder einen, der gar nicht abgeschossen werden muss?“\n„Schließlich könnte ein Nahkampf noch mehr Schaden anrichten. Und der ‚Schmerz‘ wäre wahrscheinlich auch größer.“\n...\nÜber zehn Tage später fand die routinemäßige Übung des Ritterordens wie geplant statt. Doch diesmal gab es einen kleinen Unterschied – in der Formation der Fernkampftruppe tauchte ein Speer auf.\nDieser Speer stürmte so schnell voran, dass sein Besitzer in eine dichte Umzingelung geriet.\n„Großmeister, bist du dir sicher, dass du ihn immer noch zum stellvertretenden Truppenführer der fünften Truppe ernennen willst?“, fragte Kardinal Seamus, der die Übung aus der Ferne beobachtete.\n„Hmm, ja, siehst du nicht, wie gut Lohen und die anderen Mitglieder der Fernkampftruppe zusammenarbeiten?“\n„Ehrlich gesagt habe ich keine Zusammenarbeit gesehen. Ich habe nur eine extrem auffällige lebende Zielscheibe gesehen. Alle Gegner und unsere Fernkampf-Einheit haben ihr Feuer auf diese Zielscheibe konzentriert.“\n„Haha! Kein Problem, siehst du, die Angriffe der Fernkampftruppe sind eindeutig effektiver geworden! Und bis jetzt ist Lohen noch nicht zusammengebrochen, das heißt, diese Taktik ist recht gut!“\n„Was soll daran gut sein?“, wollte Seamus laut widersprechen, doch ihre Kampferfolge waren einfach zu beeindruckend.\n...\nAn diesem Tag bekam jeder, was er sich wünschte – oder besser gesagt, jeder erhielt etwas.\nDie fünfte Truppe erhielt einen stellvertretenden Truppenführer, die Expeditionstruppe einen „Offizier zur Frontunterdrückung“, der vielbeschäftigte Seamus einen Tag „Sonderurlaub wegen Kopfschmerzen“ und Varka einen „Seamus-Witz“, den man beim Trinken erzählen kann.\nUnd was Lohen anging, so erhielt er ab diesem Tag eine neue Art, zu kämpfen und zu leben, sowie ... eine Glasperle, die ihm beim Erfüllen seiner Aufträge von Nutzen sein konnte."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 212900,
+      "Name": "Frostgeschmiedete Schärfe",
+      "Description": "Lohens Kleidung. Im Vergleich zu seiner Abenteurerkleidung wirkt die Ritterrüstung deutlich würdevoller. Doch für Lohen haben sich nur das Gewicht der Ausrüstung und die Blicke der anderen verändert. Was gleich bleibt, ist sein Wagemut, Feinde zu bezwingen, und seine Entschlossenheit, unaufhaltsam voranzuschreiten.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113085,
+    101272,
+    112013,
+    104306,
+    113073
+  ],
+  "NameCard": {
+    "Name": "Lohen – Güte",
+    "Description": "Ein Motiv für Namenskärtchen.\n„Güte“ ist wohl das letzte Wort, das jemand benutzen würde, um Lohen zu beschreiben. Andererseits erwachsen selbst die schärfsten Dornen aus sanfter Erde.",
+    "Icon": "UI_NameCardIcon_Lohen",
+    "PicturePrefix": "UI_NameCardPic_Lohen"
+  }
+}

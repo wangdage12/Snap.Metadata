@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "Daño de 1er golpe|{param1:F1P}",
-            "Daño de 2.º golpe|{param2:F1P}",
-            "Daño de 3er golpe|{param3:F1P}",
-            "Daño de 4.º golpe|{param4:F1P}",
-            "Daño de 5.º golpe|{param5:F1P}",
-            "#Daño de ATQ Cargado|{param6:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param7:F1P}",
+            "Daño de 1er golpe|{param1:P}",
+            "Daño de 2.º golpe|{param2:P}",
+            "Daño de 3er golpe|{param3:P}",
+            "Daño de 4.º golpe|{param4:P}",
+            "Daño de 5.º golpe|{param5:P}",
+            "#Daño de ATQ Cargado|{param6:P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param7:P}",
             "Coste de Aguante de ATQ Cargado|{param8:F1} pts.",
             "Daño de Caída|{param9:F1P}",
             "Daño de impacto de caída baja/alta|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Técnica de espada ceremonial",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Golpe de escarcha",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "Daño de habilidad|{param1:F1P}",
+          "Daño de habilidad|{param1:P}",
           "TdE|{param2:F1} s",
           "Duración|{param3:F1} s",
           "Energía Elemental|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Vals gélido",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Fuerza subyacente",
@@ -868,6 +872,10 @@
       {
         "Title": "Sobre Dahlia...",
         "Context": "¿Sabes si bebe mucho vino como parte de las ceremonias de la Iglesia? Porque su tolerancia al alcohol está por las nubes. Nos conocimos cuando perdí contra él en un concurso de beber. Al Arconte Anemo le encanta el vino, así que es lógico que su representante sea un defensor tan devoto del alcohol... Cosas así son las que dan encanto a la Capital de la Libertad."
+      },
+      {
+        "Title": "Sobre Lohen...",
+        "Context": "El bribón de Lohen lleva un tiempo sin venir a pedirme una firma falsificada. Me pregunto si ya habrá dominado el arte él mismo... Desde luego, tiene la inteligencia para hacerlo. En un rato le escribiré una carta con la letra del Gran Maestro, y así veremos cuánto ha aprendido."
       },
       {
         "Title": "Más sobre Kaeya (I)",

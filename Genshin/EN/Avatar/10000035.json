@@ -36,12 +36,12 @@
         "GroupId": 3531,
         "Proud": {
           "Descriptions": [
-            "1-Hit DMG|{param1:F1P}",
-            "2-Hit DMG|{param2:F1P}",
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
             "3-Hit DMG|{param3:F1P}+{param3:F1P}",
             "4-Hit DMG|{param4:F1P}+{param4:F1P}",
-            "5-Hit DMG|{param5:F1P}",
-            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}"
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10351,
         "Name": "Ancient Sword Art",
@@ -516,7 +517,8 @@
                 2.28
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10352,
         "Name": "Adeptus Art: Herald of Frost",
@@ -529,7 +531,7 @@
       "Proud": {
         "Descriptions": [
           "Skill DMG|{param3:P}",
-          "Healing|{param1:F1P} ATK+{param2:I}",
+          "Healing|{param1:P} ATK+{param2:I}",
           "Duration|{param4:F1}s",
           "CD|{param5:F1}s",
           "Energy Cost|{param6:I}"
@@ -715,7 +717,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10353,
       "Name": "Adeptus Art: Preserver of Fortune",
@@ -769,7 +772,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 352301,
         "Name": "Former Life Memories",
@@ -952,6 +956,10 @@
       {
         "Title": "About Dusky Ming",
         "Context": "On some nights, I almost feel like someone is doing stretches together with me. But maybe I just have an overactive imagination."
+      },
+      {
+        "Title": "About Prune",
+        "Context": "She looks tough on the outside... but her palms are nice and soft. I like her."
       },
       {
         "Title": "More About Qiqi: I",

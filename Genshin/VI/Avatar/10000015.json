@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "Sát Thương Lần 1|{param1:F1P}",
-            "Sát Thương Lần 2|{param2:F1P}",
-            "Sát Thương Lần 3|{param3:F1P}",
-            "Sát Thương Lần 4|{param4:F1P}",
-            "Sát Thương Lần 5|{param5:F1P}",
-            "Sát Thương Trọng Kích|{param6:F1P}+{param7:F1P}",
+            "Sát Thương Lần 1|{param1:P}",
+            "Sát Thương Lần 2|{param2:P}",
+            "Sát Thương Lần 3|{param3:P}",
+            "Sát Thương Lần 4|{param4:P}",
+            "Sát Thương Lần 5|{param5:P}",
+            "Sát Thương Trọng Kích|{param6:P}+{param7:P}",
             "Thể lực Trọng Kích tiêu hao|{param8:F1} điểm",
             "Sát Thương Khi Đáp|{param9:F1P}",
             "ST Khi Rơi Từ Độ Cao Thấp/Cao|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Nghi Lễ Kiếm Thuật",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Đột Kích Băng Giá",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "Sát Thương Kỹ Năng|{param1:F1P}",
+          "Sát Thương Kỹ Năng|{param1:P}",
           "CD|{param2:F1}s",
           "Thời Gian Kéo Dài|{param3:F1}s",
           "Năng Lượng Nguyên Tố|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Vũ Điệu Giá Rét",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Che Giấu Sức Mạnh",
@@ -868,6 +872,10 @@
       {
         "Title": "Về Dahlia...",
         "Context": "Cậu ta thường xuyên uống rượu vang trong Giáo Đường phải không? Tửu lượng thật đáng nể. Lần đó tôi thua cậu ta trong cuộc tỷ thí rượu, đấy chính là khởi đầu cho tình bạn của chúng tôi. Phong Thần yêu rượu ngon, sứ giả của Phong Thần cũng nỗ lực truyền bá sức hấp dẫn của rượu. Quả thật là nét lãng mạn đặc trưng của thành phố tự do!"
+      },
+      {
+        "Title": "Về Lohen...",
+        "Context": "Tên nhóc Lohen đó đã một thời gian không đến nhờ tôi giả chữ ký, chẳng lẽ cậu ta đã tự học được cách làm rồi? Với sự thông minh của cậu ta thì cũng chẳng có gì lạ... Đợi lát nữa tôi sẽ dùng nét chữ của Đại Đội Trưởng viết một lá thư gửi cho cậu ta, xem cậu ta đã học được bao nhiêu."
       },
       {
         "Title": "Muốn tìm hiểu Kaeya - Điều thứ 1",

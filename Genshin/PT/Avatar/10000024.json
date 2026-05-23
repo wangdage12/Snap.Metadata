@@ -36,12 +36,12 @@
         "GroupId": 2431,
         "Proud": {
           "Descriptions": [
-            "Dano do 1° Golpe|{param1:F1P}",
-            "Dano do 2° Golpe|{param2:F1P}",
-            "Dano do 3° Golpe|{param3:F1P}",
-            "Dano do 4° Golpe|{param4:F1P}",
+            "Dano do 1° golpe|{param1:P}",
+            "Dano do 2° golpe|{param2:P}",
+            "Dano do 3° golpe |{param3:P}",
+            "Dano do 4° golpe|{param4:P}",
             "Dano do 5° Golpe|{param5:P}",
-            "Dano de Loop de Ataque Carregado|{param6:F1P}",
+            "Dano de Ataque Carregado em ciclo|{param6:P}",
             "Dano Final de Ataque Carregado|{param7:P}",
             "Consumo de Stamina de Ataque Carregado|{param8:F1}/s",
             "Duração Máxima|{param9:F1}s",
@@ -319,7 +319,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10241,
         "Name": "Conquista do Oceano",
@@ -501,7 +502,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10242,
         "Name": "Invocadora da Maré",
@@ -514,7 +516,7 @@
       "Proud": {
         "Descriptions": [
           "Dano de Habilidade|{param1:P}",
-          "Dano de Relâmpago|{param2:F1P}",
+          "Dano de Relâmpago|{param2:P}",
           "Redução de Dano|{param3:P}",
           "Duração|{param4:F1}s",
           "Tempo de Recarga|{param5:F1}s",
@@ -701,7 +703,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10245,
       "Name": "Quebrador de Tempestades",
@@ -759,7 +762,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 242301,
         "Name": "Conquistadora das Marés",

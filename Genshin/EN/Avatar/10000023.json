@@ -36,11 +36,11 @@
         "GroupId": 2331,
         "Proud": {
           "Descriptions": [
-            "1-Hit DMG|{param1:F1P}",
-            "2-Hit DMG|{param2:F1P}",
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
             "3-Hit DMG|{param3:F1P}+{param3:F1P}",
             "4-Hit DMG|{param4:F1P}*4",
-            "5-Hit DMG|{param5:F1P}",
+            "5-Hit DMG|{param5:P}",
             "Charged Attack DMG|{param6:P}",
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10231,
         "Name": "Dough-Fu",
@@ -422,7 +423,8 @@
                 12
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10232,
         "Name": "Guoba Attack",
@@ -434,8 +436,8 @@
       "GroupId": 2339,
       "Proud": {
         "Descriptions": [
-          "1-Hit Swing DMG|{param1:F1P}",
-          "2-Hit Swing DMG|{param2:F1P}",
+          "1-Hit Swing DMG|{param1:P}",
+          "2-Hit Swing DMG|{param2:P}",
           "3-Hit Swing DMG|{param3:P}",
           "Pyronado DMG|{param4:P}",
           "Duration|{param5:F1}s",
@@ -638,7 +640,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10235,
       "Name": "Pyronado",
@@ -697,7 +700,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 232301,
         "Name": "Chef de Cuisine",

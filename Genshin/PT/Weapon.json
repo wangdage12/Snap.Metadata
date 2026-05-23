@@ -920,7 +920,7 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "#<color=#99FFFFFF>Efetivo apenas para jogadores da seguinte plataforma:</color>\n<color=#99FFFFFF>\"PlayStation™Network\"</color>\nAcertar oponentes com um Ataque Normal ou Carregado concede <color=#99FFFFFF>50%</color> de chance de causar <color=#99FFFFFF>200%</color> do ATQ como Dano em uma pequena AdE. Este efeito pode ocorrer apenas uma vez a cada 10s. Adicionalmente, se {M#o}{F#a} Viajante equipar a Espada do Advento, seu ATQ é aumentado em <color=#99FFFFFF>66</color>."
+          "Description": "<color=#99FFFFFF>Efetivo apenas para jogadores da seguinte plataforma:</color>\n<color=#99FFFFFF>\"PlayStation™Network\"</color>\nAcertar oponentes com um Ataque Normal ou Carregado concede <color=#99FFFFFF>50%</color> de chance de causar <color=#99FFFFFF>200%</color> do ATQ como Dano em uma pequena AdE. Este efeito pode ocorrer apenas uma vez a cada 10s. Adicionalmente, se {M#o}{F#a} Viajante equipar a Espada do Advento, seu ATQ é aumentado em <color=#99FFFFFF>66</color>."
         }
       ]
     },
@@ -4512,6 +4512,29 @@
     ]
   },
   {
+    "Id": 12505,
+    "PromoteId": 11101,
+    "Sort": 5204,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "Espada de Jade Primordial",
+    "Description": "Um espadão de jade que pertenceu a um Arconte e lançado nas profundezas do oceano para acalmar uma tempestade monstruosa.",
+    "Icon": "UI_EquipIcon_Claymore_Aniki",
+    "AwakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
+    ]
+  },
+  {
     "Id": 12510,
     "PromoteId": 12510,
     "Sort": 5206,
@@ -6890,6 +6913,59 @@
     ]
   },
   {
+    "Id": 13517,
+    "PromoteId": 13517,
+    "Sort": 5313,
+    "WeaponType": 13,
+    "RankLevel": 5,
+    "Name": "Desastre e Remorso",
+    "Description": "Uma lança forjada com Pedra Branca e Estrelas de Prata. Sua ponta afiada é constantemente envolta por um frio que penetra os ossos.",
+    "Icon": "UI_EquipIcon_Pole_Carbine",
+    "AwakenIcon": "UI_EquipIcon_Pole_Carbine_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Ruínas e Culpa",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Depois que o portador lança uma Habilidade Elemental, ele obtém \"Caminho da Disputa\" por 17s, além de \"Imperdoável\" e \"Incurável\" por 3s cada. Esse efeito pode ser ativado uma vez a cada 18s.\nImperdoável: Aumenta o Dano de Ataque Normal e Ataque Carregado do portador em <color=#99FFFFFF>40%</color>.\nIncurável: Aumenta o Dano da Habilidade Elemental e do Supremo do portador em <color=#99FFFFFF>40%</color>.\nEnquanto Caminho da Disputa estiver ativo, quando o portador atingir um oponente com um Ataque Normal ou Ataque Carregado, a duração de Incurável aumentará em 1s. Quando o portador atingir um oponente com sua Habilidade Elemental ou Supremo, a duração de Imperdoável aumentará em 1s. Cada um dos efeitos acima pode ser ativado uma vez a cada 0.1s. Quando Caminho da Disputa terminar, ou o portador sair de campo, Imperdoável e Incurável serão removidos.\nMágico: Ritual Secreto: Os Bônus de Dano acima aumentam em 75%."
+        },
+        {
+          "Level": 1,
+          "Description": "Depois que o portador lança uma Habilidade Elemental, ele obtém \"Caminho da Disputa\" por 17s, além de \"Imperdoável\" e \"Incurável\" por 3s cada. Esse efeito pode ser ativado uma vez a cada 18s.\nImperdoável: Aumenta o Dano de Ataque Normal e Ataque Carregado do portador em <color=#99FFFFFF>50%</color>.\nIncurável: Aumenta o Dano da Habilidade Elemental e do Supremo do portador em <color=#99FFFFFF>50%</color>.\nEnquanto Caminho da Disputa estiver ativo, quando o portador atingir um oponente com um Ataque Normal ou Ataque Carregado, a duração de Incurável aumentará em 1s. Quando o portador atingir um oponente com sua Habilidade Elemental ou Supremo, a duração de Imperdoável aumentará em 1s. Cada um dos efeitos acima pode ser ativado uma vez a cada 0.1s. Quando Caminho da Disputa terminar, ou o portador sair de campo, Imperdoável e Incurável serão removidos.\nMágico: Ritual Secreto: Os Bônus de Dano acima aumentam em 75%."
+        },
+        {
+          "Level": 2,
+          "Description": "Depois que o portador lança uma Habilidade Elemental, ele obtém \"Caminho da Disputa\" por 17s, além de \"Imperdoável\" e \"Incurável\" por 3s cada. Esse efeito pode ser ativado uma vez a cada 18s.\nImperdoável: Aumenta o Dano de Ataque Normal e Ataque Carregado do portador em <color=#99FFFFFF>60%</color>.\nIncurável: Aumenta o Dano da Habilidade Elemental e do Supremo do portador em <color=#99FFFFFF>60%</color>.\nEnquanto Caminho da Disputa estiver ativo, quando o portador atingir um oponente com um Ataque Normal ou Ataque Carregado, a duração de Incurável aumentará em 1s. Quando o portador atingir um oponente com sua Habilidade Elemental ou Supremo, a duração de Imperdoável aumentará em 1s. Cada um dos efeitos acima pode ser ativado uma vez a cada 0.1s. Quando Caminho da Disputa terminar, ou o portador sair de campo, Imperdoável e Incurável serão removidos.\nMágico: Ritual Secreto: Os Bônus de Dano acima aumentam em 75%."
+        },
+        {
+          "Level": 3,
+          "Description": "Depois que o portador lança uma Habilidade Elemental, ele obtém \"Caminho da Disputa\" por 17s, além de \"Imperdoável\" e \"Incurável\" por 3s cada. Esse efeito pode ser ativado uma vez a cada 18s.\nImperdoável: Aumenta o Dano de Ataque Normal e Ataque Carregado do portador em <color=#99FFFFFF>70%</color>.\nIncurável: Aumenta o Dano da Habilidade Elemental e do Supremo do portador em <color=#99FFFFFF>70%</color>.\nEnquanto Caminho da Disputa estiver ativo, quando o portador atingir um oponente com um Ataque Normal ou Ataque Carregado, a duração de Incurável aumentará em 1s. Quando o portador atingir um oponente com sua Habilidade Elemental ou Supremo, a duração de Imperdoável aumentará em 1s. Cada um dos efeitos acima pode ser ativado uma vez a cada 0.1s. Quando Caminho da Disputa terminar, ou o portador sair de campo, Imperdoável e Incurável serão removidos.\nMágico: Ritual Secreto: Os Bônus de Dano acima aumentam em 75%."
+        },
+        {
+          "Level": 4,
+          "Description": "Depois que o portador lança uma Habilidade Elemental, ele obtém \"Caminho da Disputa\" por 17s, além de \"Imperdoável\" e \"Incurável\" por 3s cada. Esse efeito pode ser ativado uma vez a cada 18s.\nImperdoável: Aumenta o Dano de Ataque Normal e Ataque Carregado do portador em <color=#99FFFFFF>80%</color>.\nIncurável: Aumenta o Dano da Habilidade Elemental e do Supremo do portador em <color=#99FFFFFF>80%</color>.\nEnquanto Caminho da Disputa estiver ativo, quando o portador atingir um oponente com um Ataque Normal ou Ataque Carregado, a duração de Incurável aumentará em 1s. Quando o portador atingir um oponente com sua Habilidade Elemental ou Supremo, a duração de Imperdoável aumentará em 1s. Cada um dos efeitos acima pode ser ativado uma vez a cada 0.1s. Quando Caminho da Disputa terminar, ou o portador sair de campo, Imperdoável e Incurável serão removidos.\nMágico: Ritual Secreto: Os Bônus de Dano acima aumentam em 75%."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114004,
+      112133,
+      112040
+    ]
+  },
+  {
     "Id": 14101,
     "PromoteId": 14101,
     "Sort": 1401,
@@ -8475,7 +8551,7 @@
   {
     "Id": 14434,
     "PromoteId": 14434,
-    "Sort": 4425,
+    "Sort": 4426,
     "WeaponType": 10,
     "RankLevel": 4,
     "Name": "Estrela Gelada",
@@ -9477,6 +9553,59 @@
       114084,
       112139,
       112127
+    ]
+  },
+  {
+    "Id": 14523,
+    "PromoteId": 14523,
+    "Sort": 5420,
+    "WeaponType": 10,
+    "RankLevel": 5,
+    "Name": "Os Sete Éditos da Poeira e Luz",
+    "Description": "Uma caixa dourada tão esplêndida quanto a luz dos céus. Segundo a lenda, ela já pertenceu a um enviado divino da Corte da Eternidade.",
+    "Icon": "UI_EquipIcon_Catalyst_FairyGarden",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_FairyGarden_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 49.1377,
+        "Type": 4,
+        "Value": 1303
+      },
+      {
+        "InitValue": 0.036,
+        "Type": 6,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Coroa do Advento Final",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "O ATQ é aumentado em <color=#99FFFFFF>12%</color>. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em <color=#99FFFFFF>10%</color> para cada 1.000 de ATQ do portador, até um máximo de <color=#99FFFFFF>26%</color>. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura <color=#99FFFFFF>14</color> de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.\nMágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
+        },
+        {
+          "Level": 1,
+          "Description": "O ATQ é aumentado em <color=#99FFFFFF>15%</color>. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em <color=#99FFFFFF>13%</color> para cada 1.000 de ATQ do portador, até um máximo de <color=#99FFFFFF>34%</color>. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura <color=#99FFFFFF>15</color> de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.\nMágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
+        },
+        {
+          "Level": 2,
+          "Description": "O ATQ é aumentado em <color=#99FFFFFF>18%</color>. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em <color=#99FFFFFF>16%</color> para cada 1.000 de ATQ do portador, até um máximo de <color=#99FFFFFF>42%</color>. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura <color=#99FFFFFF>16</color> de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.\nMágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
+        },
+        {
+          "Level": 3,
+          "Description": "O ATQ é aumentado em <color=#99FFFFFF>21%</color>. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em <color=#99FFFFFF>19%</color> para cada 1.000 de ATQ do portador, até um máximo de <color=#99FFFFFF>50%</color>. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura <color=#99FFFFFF>17</color> de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.\nMágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
+        },
+        {
+          "Level": 4,
+          "Description": "O ATQ é aumentado em <color=#99FFFFFF>24%</color>. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em <color=#99FFFFFF>22%</color> para cada 1.000 de ATQ do portador, até um máximo de <color=#99FFFFFF>58%</color>. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura <color=#99FFFFFF>18</color> de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.\nMágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114076,
+      112142,
+      112124
     ]
   },
   {
@@ -11418,6 +11547,52 @@
     ]
   },
   {
+    "Id": 15504,
+    "PromoteId": 11101,
+    "Sort": 5503,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "Caça-Dragões de Kunwu",
+    "Description": "Um grande arco feito de veias de dragão. É tão poderoso que poderia matar um dragão. A flecha disparada tem a força de um trovão.",
+    "Icon": "UI_EquipIcon_Bow_Hunters",
+    "AwakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
+    ]
+  },
+  {
+    "Id": 15505,
+    "PromoteId": 11101,
+    "Sort": 5504,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "Vista da Jade Primordial",
+    "Description": "Um arco forte feito de jade antigo, com uma corda feita de um único feixe de luz convergente. Possui poder suficiente para proteger um reino.",
+    "Icon": "UI_EquipIcon_Bow_Hunters",
+    "AwakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1101
+      }
+    ],
+    "CultivationItems": [
+      114003,
+      112015,
+      112012
+    ]
+  },
+  {
     "Id": 15507,
     "PromoteId": 15507,
     "Sort": 5507,
@@ -11738,7 +11913,7 @@
   {
     "Id": 15514,
     "PromoteId": 15514,
-    "Sort": 5512,
+    "Sort": 0,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "Plumagem Escarlate do Abutre Astral",
@@ -11791,7 +11966,7 @@
   {
     "Id": 15515,
     "PromoteId": 15515,
-    "Sort": 5513,
+    "Sort": 0,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "As Crônicas do Amanhecer",
@@ -11839,6 +12014,59 @@
       114012,
       112016,
       112037
+    ]
+  },
+  {
+    "Id": 15516,
+    "PromoteId": 15516,
+    "Sort": 0,
+    "WeaponType": 12,
+    "RankLevel": 5,
+    "Name": "Ramo Dourado do Juramento Gelado",
+    "Description": "Um Arco Longo feito de madeira branca ancestral que, em um passado distante, pertenceu ao Rei dos Geladinhos do norte.",
+    "Icon": "UI_EquipIcon_Bow_Alkonost",
+    "AwakenIcon": "UI_EquipIcon_Bow_Alkonost_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 44.3358,
+        "Type": 4,
+        "Value": 1304
+      },
+      {
+        "InitValue": 0.192,
+        "Type": 22,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Saudação da Alvorada",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Aumenta a DEF em <color=#99FFFFFF>16%</color>. Quando a Habilidade Elemental ou ataques de Cristalização Lunar do portador atingirem o inimigo, obtém o efeito Gentileza Feérica por 6s: aumenta o Dano Geo do portador em <color=#99FFFFFF>40%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>40%</color>. Na duração do efeito, se o portador estiver perto de uma Jaula Lunar, os outros membros próximos da equipe obtêm o efeito Truque Maléfico Feérico: aumenta o Dano Geo em <color=#99FFFFFF>20%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>20%</color>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        {
+          "Level": 1,
+          "Description": "Aumenta a DEF em <color=#99FFFFFF>20%</color>. Quando a Habilidade Elemental ou ataques de Cristalização Lunar do portador atingirem o inimigo, obtém o efeito Gentileza Feérica por 6s: aumenta o Dano Geo do portador em <color=#99FFFFFF>50%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>50%</color>. Na duração do efeito, se o portador estiver perto de uma Jaula Lunar, os outros membros próximos da equipe obtêm o efeito Truque Maléfico Feérico: aumenta o Dano Geo em <color=#99FFFFFF>25%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>25%</color>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        {
+          "Level": 2,
+          "Description": "Aumenta a DEF em <color=#99FFFFFF>24%</color>. Quando a Habilidade Elemental ou ataques de Cristalização Lunar do portador atingirem o inimigo, obtém o efeito Gentileza Feérica por 6s: aumenta o Dano Geo do portador em <color=#99FFFFFF>60%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>60%</color>. Na duração do efeito, se o portador estiver perto de uma Jaula Lunar, os outros membros próximos da equipe obtêm o efeito Truque Maléfico Feérico: aumenta o Dano Geo em <color=#99FFFFFF>30%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>30%</color>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        {
+          "Level": 3,
+          "Description": "Aumenta a DEF em <color=#99FFFFFF>28%</color>. Quando a Habilidade Elemental ou ataques de Cristalização Lunar do portador atingirem o inimigo, obtém o efeito Gentileza Feérica por 6s: aumenta o Dano Geo do portador em <color=#99FFFFFF>70%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>70%</color>. Na duração do efeito, se o portador estiver perto de uma Jaula Lunar, os outros membros próximos da equipe obtêm o efeito Truque Maléfico Feérico: aumenta o Dano Geo em <color=#99FFFFFF>35%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>35%</color>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        {
+          "Level": 4,
+          "Description": "Aumenta a DEF em <color=#99FFFFFF>32%</color>. Quando a Habilidade Elemental ou ataques de Cristalização Lunar do portador atingirem o inimigo, obtém o efeito Gentileza Feérica por 6s: aumenta o Dano Geo do portador em <color=#99FFFFFF>80%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>80%</color>. Na duração do efeito, se o portador estiver perto de uma Jaula Lunar, os outros membros próximos da equipe obtêm o efeito Truque Maléfico Feérico: aumenta o Dano Geo em <color=#99FFFFFF>40%</color>, aumenta o Dano de Cristalização Lunar em <color=#99FFFFFF>40%</color>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114080,
+      112142,
+      112127
     ]
   }
 ]

@@ -36,11 +36,11 @@
         "GroupId": 331,
         "Proud": {
           "Descriptions": [
-            "Sát Thương Lần 1|{param1:F1P}",
-            "Sát Thương Lần 2|{param2:F1P}",
-            "Sát Thương Lần 3|{param3:F1P}",
-            "Sát Thương Lần 4|{param4:F1P}",
-            "Sát Thương Lần 5|{param5:F1P}",
+            "Sát Thương Lần 1|{param1:P}",
+            "Sát Thương Lần 2|{param2:P}",
+            "Sát Thương Lần 3|{param3:P}",
+            "Sát Thương Lần 4|{param4:P}",
+            "Sát Thương Lần 5|{param5:P}",
             "Sát Thương Trọng Kích|{param6:P}",
             "Thể lực Trọng Kích tiêu hao|{param7:F1} điểm",
             "Sát Thương Khi Rơi|{param8:F1P}",
@@ -287,7 +287,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10031,
         "Name": "Tây Phong Kiếm Thuật",
@@ -454,7 +455,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10033,
         "Name": "Gió Cuộn Kiếm",
@@ -467,7 +469,7 @@
       "Proud": {
         "Descriptions": [
           "ST Bạo Phát|{param1:P}",
-          "Sát thương trong vùng đất|{param2:F1P}",
+          "Sát thương trong vùng đất|{param2:P}",
           "Vùng đất phát động trị liệu|{param3:P} tấn công +{param4:I}",
           "Kéo dài trị liệu|Mỗi giây {param5:F2P} tấn công +{param6:I}",
           "CD|{param7:F1}s",
@@ -684,7 +686,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10034,
       "Name": "Gió Bồ Công Anh",
@@ -743,7 +746,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 32301,
         "Name": "Ngọn Gió Dẫn Đường",
@@ -1135,7 +1139,7 @@
       },
       {
         "Title": "Câu Chuyện Nhân Vật 5",
-        "Context": "Đội trưởng Jean luôn giữ một bí mật mà không ai biết.\nMẹ Jean là bà Frederica, người có dòng máu của gia tộc kỵ sĩ lâu đời đầy tự hào.\nCha Jean là Nhà Mạo Hiểm nổi tiếng khắp đại lục, ông Seamus Pegg. Sau khi định cư tại Mondstadt, Seamus từ bỏ cuộc sống mạo hiểm rồi khoác lên mình y phục của Giáo Hội. Ông từng bước trở thành Tổng Quản Giáo Hội Tây Phong hay còn gọi là \"Đức Hồng Y\".\nTình nghĩa vợ chồng ân ái năm nao, nay phải chia lìa vì lý tưởng sống khác biệt. Khi ấy, Jean nắm chặt lấy bàn tay mẹ, ngước nhìn hình bóng cha và em gái Barbara dần đi về phía xa.\nSau này, Barbara cùng cha gia nhập Giáo Hội Tây Phong, trở thành một mục sư được người dân Mondstadt yêu mến.\nChính vì tình nghĩa ruột thịt đã thôi thúc Jean gần gũi với em gái, nhưng mỗi khi nhìn vào đôi mắt long lanh của Barbara, cô lại nghẹn lời.\nCó lẽ sự ngại ngùng là điểm chung giữa hai chị em họ.\nĐội trưởng Jean còn có một bí mật.\nMặc dù am hiểu những tác phẩm lịch sử, dù mang danh hiệu Kỵ Sĩ Bồ Công Anh, dù trở thành đội trưởng đại diện đáng tin cậy...\nNhưng Jean lại rất yêu thích những tác phẩm ngôn tình.\nĐiều này không xuất phát từ những năm tháng huấn luyện khô khan mà bỏ lỡ tháng ngày thiếu nữ, hay mối quan hệ hôn nhân đầy rạn nứt của cha mẹ.\nThứ Jean luôn hướng tới chính là cuộc tình trong những trang sách, nó mong manh dễ vỡ, nhưng lại vô cùng lãng mạn. \nLà một người kỵ sĩ cô phải đặt thành Mondstadt và Đội Kỵ Sĩ Tây Phong lên trên hết. \nNhưng... \n\"Nếu có thể, tôi cũng muốn...\"\nTrong màn đêm tĩnh lặng, Jean lại một lần nữa đọc \"Vera Sầu Muộn”.\n\"Nếu có thời gian, thực sự muốn đến Đỉnh Lời Thề trước khi trời sáng...\"\nTrên cửa sổ trải dài ánh sao ngoài kia, Jean cúi đầu chợt nghĩ..."
+        "Context": "Đội trưởng Jean luôn giữ một bí mật mà không ai biết.\nMẹ Jean là bà Frederica, người có dòng máu của gia tộc kỵ sĩ lâu đời đầy tự hào.\nCha Jean là Nhà Mạo Hiểm nổi tiếng khắp đại lục, ông Seamus Pegg. Sau khi định cư tại Mondstadt, Seamus từ bỏ cuộc sống mạo hiểm rồi khoác lên mình y phục của Giáo Hội. Ông từng bước trở thành Tổng Quản Giáo Hội Tây Phong hay còn gọi là \"Hồng Y Bình Minh\".\nTình nghĩa vợ chồng ân ái năm nao, nay phải chia lìa vì lý tưởng sống khác biệt. Khi ấy, Jean nắm chặt lấy bàn tay mẹ, ngước nhìn hình bóng cha và em gái Barbara dần đi về phía xa.\nSau này, Barbara cùng cha gia nhập Giáo Hội Tây Phong, trở thành một mục sư được người dân Mondstadt yêu mến.\nChính vì tình nghĩa ruột thịt đã thôi thúc Jean gần gũi với em gái, nhưng mỗi khi nhìn vào đôi mắt long lanh của Barbara, cô lại nghẹn lời.\nCó lẽ sự ngại ngùng là điểm chung giữa hai chị em họ.\nĐội trưởng Jean còn có một bí mật.\nMặc dù am hiểu những tác phẩm lịch sử, dù mang danh hiệu Kỵ Sĩ Bồ Công Anh, dù trở thành đội trưởng đại diện đáng tin cậy...\nNhưng Jean lại rất yêu thích những tác phẩm ngôn tình.\nĐiều này không xuất phát từ những năm tháng huấn luyện khô khan mà bỏ lỡ tháng ngày thiếu nữ, hay mối quan hệ hôn nhân đầy rạn nứt của cha mẹ.\nThứ Jean luôn hướng tới chính là cuộc tình trong những trang sách, nó mong manh dễ vỡ, nhưng lại vô cùng lãng mạn. \nLà một người kỵ sĩ cô phải đặt thành Mondstadt và Đội Kỵ Sĩ Tây Phong lên trên hết. \nNhưng... \n\"Nếu có thể, tôi cũng muốn...\"\nTrong màn đêm tĩnh lặng, Jean lại một lần nữa đọc \"Vera Sầu Muộn\".\n\"Nếu có thời gian, thực sự muốn đến Đỉnh Lời Thề trước khi trời sáng...\"\nTrên cửa sổ trải dài ánh sao ngoài kia, Jean cúi đầu chợt nghĩ..."
       },
       {
         "Title": "Thời gian biểu của đội trưởng Jean - Bản số 17",

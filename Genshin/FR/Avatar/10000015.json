@@ -36,12 +36,12 @@
         "GroupId": 1531,
         "Proud": {
           "Descriptions": [
-            "DGT 1er coup|{param1:F1P}",
-            "DGT 2e coup|{param2:F1P}",
-            "DGT 3e coup|{param3:F1P}",
-            "DGT 4e coup|{param4:F1P}",
-            "DGT 5e coup|{param5:F1P}",
-            "DGT attaque chargée|{param6:F1P}+{param7:F1P}",
+            "DGT 1er coup|{param1:P}",
+            "DGT 2e coup|{param2:P}",
+            "DGT 3e coup|{param3:P}",
+            "DGT 4e coup|{param4:P}",
+            "DGT 5e coup|{param5:P}",
+            "DGT attaque chargée|{param6:P}+{param7:P}",
             "Coût d'endurance attaque chargée|{param8:F1} pts",
             "DGT durant la chute|{param9:F1P}",
             "DGT chute basse/élevée|{param10:P}/{param11:P}"
@@ -302,7 +302,8 @@
                 4.27041
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10073,
         "Name": "Passe d'armes",
@@ -437,7 +438,8 @@
                 6
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10074,
         "Name": "Attaque givrée",
@@ -449,7 +451,7 @@
       "GroupId": 1539,
       "Proud": {
         "Descriptions": [
-          "DGT compétence|{param1:F1P}",
+          "DGT compétence|{param1:P}",
           "Temps de recharge|{param2:F1} s",
           "Durée|{param3:F1} s",
           "Énergie élémentaire|{param4:I}"
@@ -605,7 +607,8 @@
               60
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10075,
       "Name": "Valse glaciale",
@@ -659,7 +662,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 152301,
         "Name": "Force cachée",
@@ -868,6 +872,10 @@
       {
         "Title": "À propos de Dahlia...",
         "Context": "Est-ce que tu sais s'il boit autant de vin en raison des cérémonies de l'Église ? Parce que sa tolérance à l'alcool est à couper le souffle. La première fois que nous avons fait connaissance, c'est lorsque j'ai perdu contre lui lors d'un concours de boisson. L'Archon Anémo aime le vin, il est donc normal que son porte-parole soit un fervent défenseur des merveilles de l'alcool... C'est ce genre de choses qui fait le charme de la cité de la liberté."
+      },
+      {
+        "Title": "À propos de Lohen...",
+        "Context": "Ça fait un moment que ce gamin, Lohen, n'est pas venu me voir pour falsifier une signature. Je me demande si c'est parce qu'il est déjà devenu un expert en la matière... En tout cas, il est assez malin pour ça. Je vais attendre un peu, puis je lui écrirai une lettre en imitant l'écriture du Grand Maître. On verra bien s'il a fait des progrès."
       },
       {
         "Title": "Connaître Kaeya (1)",

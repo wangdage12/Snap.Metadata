@@ -36,12 +36,12 @@
         "GroupId": 2431,
         "Proud": {
           "Descriptions": [
-            "DAN da 1º colpo|{param1:F1P}",
-            "DAN da 2º colpo|{param2:F1P}",
-            "DAN da 3º colpo|{param3:F1P}",
-            "DAN da 4º colpo|{param4:F1P}",
+            "DAN da 1º colpo|{param1:P}",
+            "DAN da 2º colpo|{param2:P}",
+            "DAN da 3º colpo|{param3:P}",
+            "DAN da 4º colpo|{param4:P}",
             "DAN da 5º colpo|{param5:P}",
-            "DAN da ATT caricato ciclico|{param6:F1P}",
+            "DAN da ATT caricato ciclici|{param6:P}",
             "DAN da ATT caricato finali|{param7:P}",
             "Costo vigore ATT caricato|{param8:F1}/s",
             "Durata max|{param9:F1} s",
@@ -319,7 +319,8 @@
                 4.982145
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10241,
         "Name": "Portato dall'oceano",
@@ -501,7 +502,8 @@
                 7.5
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10242,
         "Name": "Governamaree",
@@ -514,7 +516,7 @@
       "Proud": {
         "Descriptions": [
           "DAN da abilità|{param1:P}",
-          "DAN da fulmine|{param2:F1P}",
+          "DAN da fulmine|{param2:P}",
           "Riduzione DAN|{param3:P}",
           "Durata|{param4:F1} s",
           "TdR|{param5:F1} s",
@@ -701,7 +703,8 @@
               80
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10245,
       "Name": "Tempesta tagliente",
@@ -759,7 +762,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 242301,
         "Name": "Conquistamaree",

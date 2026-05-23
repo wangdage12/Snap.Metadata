@@ -1,0 +1,1408 @@
+{
+  "Id": 10000129,
+  "PromoteId": 129,
+  "Sort": 117,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Lohen",
+  "SideIcon": "UI_AvatarIcon_Side_Lohen",
+  "Name": "Lohen",
+  "Description": "Vice-Capitão da Companhia de Longo Alcance dos Cavaleiros de Favonius, um cavaleiro conhecido por sua abordagem pouco ortodoxa e seu gosto por táticas incomuns.",
+  "BeginTime": "2026-06-09T18:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 13,
+  "BaseValue": {
+    "HpBase": 1000.986,
+    "AttackBase": 26.8128,
+    "DefenseBase": 61.0266
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 12931,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}×3",
+            "Dano do 4° Golpe|{param4:F1P}",
+            "Dano do 5° Golpe|{param5:F1P}+{param6:F1P}",
+            "Dano de Ataque Carregado|{param7:F1P}*2",
+            "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+            "Dano Durante a Queda|{param9:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293101,
+              "Level": 1,
+              "Parameters": [
+                0.539917,
+                0.564427,
+                0.254199,
+                0.752259,
+                0.368579,
+                0.552868,
+                0.65876,
+                25,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1293102,
+              "Level": 2,
+              "Parameters": [
+                0.583863,
+                0.610368,
+                0.274889,
+                0.81349,
+                0.398579,
+                0.597869,
+                0.71238,
+                25,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1293103,
+              "Level": 3,
+              "Parameters": [
+                0.62781,
+                0.65631,
+                0.29558,
+                0.87472,
+                0.42858,
+                0.64287,
+                0.766,
+                25,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1293104,
+              "Level": 4,
+              "Parameters": [
+                0.690591,
+                0.721941,
+                0.325138,
+                0.962192,
+                0.471438,
+                0.707157,
+                0.8426,
+                25,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1293105,
+              "Level": 5,
+              "Parameters": [
+                0.734538,
+                0.767883,
+                0.345829,
+                1.023422,
+                0.501439,
+                0.752158,
+                0.89622,
+                25,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1293106,
+              "Level": 6,
+              "Parameters": [
+                0.784763,
+                0.820387,
+                0.369475,
+                1.0934,
+                0.535725,
+                0.803588,
+                0.9575,
+                25,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1293107,
+              "Level": 7,
+              "Parameters": [
+                0.853822,
+                0.892582,
+                0.401989,
+                1.189619,
+                0.582869,
+                0.874303,
+                1.04176,
+                25,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1293108,
+              "Level": 8,
+              "Parameters": [
+                0.922881,
+                0.964776,
+                0.434503,
+                1.285838,
+                0.630013,
+                0.945019,
+                1.12602,
+                25,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1293109,
+              "Level": 9,
+              "Parameters": [
+                0.99194,
+                1.03697,
+                0.467016,
+                1.382058,
+                0.677156,
+                1.015735,
+                1.21028,
+                25,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1293110,
+              "Level": 10,
+              "Parameters": [
+                1.067277,
+                1.115727,
+                0.502486,
+                1.487024,
+                0.728586,
+                1.092879,
+                1.3022,
+                25,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1293111,
+              "Level": 11,
+              "Parameters": [
+                1.142614,
+                1.194484,
+                0.537956,
+                1.59199,
+                0.780016,
+                1.170023,
+                1.39412,
+                25,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1293112,
+              "Level": 12,
+              "Parameters": [
+                1.217951,
+                1.273241,
+                0.573425,
+                1.696957,
+                0.831445,
+                1.247168,
+                1.48604,
+                25,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1293113,
+              "Level": 13,
+              "Parameters": [
+                1.293289,
+                1.351999,
+                0.608895,
+                1.801923,
+                0.882875,
+                1.324312,
+                1.57796,
+                25,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1293114,
+              "Level": 14,
+              "Parameters": [
+                1.368626,
+                1.430756,
+                0.644364,
+                1.90689,
+                0.934304,
+                1.401457,
+                1.66988,
+                25,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1293115,
+              "Level": 15,
+              "Parameters": [
+                1.443963,
+                1.509513,
+                0.679834,
+                2.011856,
+                0.985734,
+                1.478601,
+                1.7618,
+                25,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11291,
+        "Name": "Lança de Favonius: Juramento Quebrado",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 ataques rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um ataque em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "Icon": "Skill_A_03"
+      },
+      {
+        "GroupId": 12932,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}×3",
+            "Dano do 4° Golpe|{param4:F1P}",
+            "Dano do 5° Golpe|{param5:F1P}+{param6:F1P}",
+            "Dano de Ataque Carregado|{param7:F1P}*2",
+            "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+            "Dano Durante a Queda|{param9:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}",
+            "Duração de Golpe de Mestre|{param12:F1}s",
+            "Dano de Entalhado em Alma e Osso|{param17:F1P} *4",
+            "Aumento de Dano Original por Ponto de Luta pela Vitória|{param18:F2P}",
+            "Tempo de Recarga|{param19:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1293201,
+              "Level": 1,
+              "Parameters": [
+                0.809875,
+                0.84664,
+                0.381298,
+                1.128389,
+                0.552868,
+                0.829302,
+                0.98814,
+                10,
+                0.639324,
+                1.278377,
+                1.596762,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.6,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293202,
+              "Level": 2,
+              "Parameters": [
+                0.875795,
+                0.915552,
+                0.412334,
+                1.220234,
+                0.597869,
+                0.896804,
+                1.06857,
+                10,
+                0.691362,
+                1.382431,
+                1.726731,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.645,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293203,
+              "Level": 3,
+              "Parameters": [
+                0.941715,
+                0.984465,
+                0.44337,
+                1.31208,
+                0.64287,
+                0.964305,
+                1.149,
+                10,
+                0.7434,
+                1.486485,
+                1.8567,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.69,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293204,
+              "Level": 4,
+              "Parameters": [
+                1.035887,
+                1.082912,
+                0.487707,
+                1.443288,
+                0.707157,
+                1.060736,
+                1.2639,
+                10,
+                0.81774,
+                1.635134,
+                2.04237,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.75,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293205,
+              "Level": 5,
+              "Parameters": [
+                1.101807,
+                1.151824,
+                0.518743,
+                1.535134,
+                0.752158,
+                1.128237,
+                1.34433,
+                10,
+                0.869778,
+                1.739187,
+                2.172339,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.795,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293206,
+              "Level": 6,
+              "Parameters": [
+                1.177144,
+                1.230581,
+                0.554212,
+                1.6401,
+                0.803588,
+                1.205381,
+                1.43625,
+                10,
+                0.92925,
+                1.858106,
+                2.320875,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.84,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293207,
+              "Level": 7,
+              "Parameters": [
+                1.280732,
+                1.338872,
+                0.602983,
+                1.784429,
+                0.874303,
+                1.311455,
+                1.56264,
+                10,
+                1.011024,
+                2.02162,
+                2.525112,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.9,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293208,
+              "Level": 8,
+              "Parameters": [
+                1.384321,
+                1.447164,
+                0.651754,
+                1.928758,
+                0.945019,
+                1.417528,
+                1.68903,
+                10,
+                1.092798,
+                2.185133,
+                2.729349,
+                13,
+                17,
+                17,
+                10,
+                20,
+                0.96,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293209,
+              "Level": 9,
+              "Parameters": [
+                1.48791,
+                1.555455,
+                0.700525,
+                2.073086,
+                1.015735,
+                1.523602,
+                1.81542,
+                10,
+                1.174572,
+                2.348646,
+                2.933586,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.02,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293210,
+              "Level": 10,
+              "Parameters": [
+                1.600915,
+                1.67359,
+                0.753729,
+                2.230536,
+                1.092879,
+                1.639319,
+                1.9533,
+                10,
+                1.26378,
+                2.527025,
+                3.15639,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.08,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293211,
+              "Level": 11,
+              "Parameters": [
+                1.713921,
+                1.791726,
+                0.806933,
+                2.387986,
+                1.170023,
+                1.755035,
+                2.09118,
+                10,
+                1.352988,
+                2.705403,
+                3.379194,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.14,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293212,
+              "Level": 12,
+              "Parameters": [
+                1.826927,
+                1.909862,
+                0.860138,
+                2.545435,
+                1.247168,
+                1.870752,
+                2.22906,
+                10,
+                1.442196,
+                2.883781,
+                3.601998,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.2,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293213,
+              "Level": 13,
+              "Parameters": [
+                1.939933,
+                2.027998,
+                0.913342,
+                2.702885,
+                1.324312,
+                1.986468,
+                2.36694,
+                10,
+                1.531404,
+                3.062159,
+                3.824802,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.275,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293214,
+              "Level": 14,
+              "Parameters": [
+                2.052939,
+                2.146134,
+                0.966547,
+                2.860334,
+                1.401457,
+                2.102185,
+                2.50482,
+                10,
+                1.620612,
+                3.240537,
+                4.047606,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.35,
+                0.004,
+                18
+              ]
+            },
+            {
+              "Id": 1293215,
+              "Level": 15,
+              "Parameters": [
+                2.165944,
+                2.264269,
+                1.019751,
+                3.017784,
+                1.478601,
+                2.217901,
+                2.6427,
+                10,
+                1.70982,
+                3.418915,
+                4.27041,
+                13,
+                17,
+                17,
+                10,
+                20,
+                1.425,
+                0.004,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11292,
+        "Name": "Ataque Surpresa",
+        "Description": "Procurando por fraquezas, Lohen troca para o modo {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}. Enquanto estiver nesse estado:\n· Lohen acumulará ativamente {LINK#N11290003}<color=#FFD780FF>Alegria</color>{/LINK}, e lançará sua Habilidade Elemental Especial {LINK#N11290002}<color=#FFD780FF>Entalhado em Alma e Osso</color>{/LINK}.\n· Os outros personagens próximos da equipe acumularão {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK} para Lohen, aumentando o Dano de <color=#FFD780FF>Entalhado em Alma e Osso</color>.\nDepois de lançar <color=#FFD780FF>Entalhado em Alma e Osso</color> até 3 vezes durante o estado <color=#FFD780FF>Golpe de Mestre</color>, não será mais possível acumular <color=#FFD780FF>Alegria</color>.\n\n<i>\"Cavalheirismo? Haha, essa é a melhor forma de fazer a isca cair na armadilha. Quando um inimigo sonha com uma vitória honorável, sempre cairá na surpresa agradável que o aguarda.\"</i>",
+        "Icon": "Skill_S_Lohen_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 12951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1295101,
+              "Level": 1,
+              "Parameters": [
+                0.5,
+                0.4,
+                6
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1295101,
+        "Name": "Presente da Noite da Bruxa: Perfuração Incurável",
+        "Description": "Depois de completar <color=#FFD780FF>Tarefa da Bruxa: Pergunta sobre Inimigos</color>, Lohen se tornará um personagem <color=#FFD780FF>Mágico</color>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo esses personagens.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nQuando a Habilidade Elemental especial {LINK#N11290002}<color=#FFD780FF>Entalhado em Alma e Osso</color>{/LINK} atingir um inimigo, ou lançar seu Supremo <color=#FFD780FF>Julgamento Manifestado</color>, se {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK} estiver pelo menos acima de 50% do seu limite máximo, aumenta o Dano do Ataque Normal e Carregado de Lohen em 40% por 6s.",
+        "Icon": "UI_Talent_S_Lohen_07"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 12939,
+      "Proud": {
+        "Descriptions": [
+          "Dano de Habilidade|{param1:F1P} x6",
+          "Aumento de Dano Original por Ponto de Luta pela Vitória|{param2:F2P}",
+          "Tempo de Recarga|{param3:F1}s",
+          "Energia Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1293901,
+            "Level": 1,
+            "Parameters": [
+              1.188,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293902,
+            "Level": 2,
+            "Parameters": [
+              1.2771,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293903,
+            "Level": 3,
+            "Parameters": [
+              1.3662,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293904,
+            "Level": 4,
+            "Parameters": [
+              1.485,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293905,
+            "Level": 5,
+            "Parameters": [
+              1.5741,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293906,
+            "Level": 6,
+            "Parameters": [
+              1.6632,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293907,
+            "Level": 7,
+            "Parameters": [
+              1.782,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293908,
+            "Level": 8,
+            "Parameters": [
+              1.9008,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293909,
+            "Level": 9,
+            "Parameters": [
+              2.0196,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293910,
+            "Level": 10,
+            "Parameters": [
+              2.1384,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293911,
+            "Level": 11,
+            "Parameters": [
+              2.2572,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293912,
+            "Level": 12,
+            "Parameters": [
+              2.376,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293913,
+            "Level": 13,
+            "Parameters": [
+              2.5245,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293914,
+            "Level": 14,
+            "Parameters": [
+              2.673,
+              0.004,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1293915,
+            "Level": 15,
+            "Parameters": [
+              2.8215,
+              0.004,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11295,
+      "Name": "Julgamento Manifestado",
+      "Description": "Desfere um corte rápido em frente, consumindo tudo de {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK}, causando <color=#99FFFFFF>Dano Cryo</color> e aumentando o Dano causado de acordo com a quantidade de <color=#FFD780FF>Luta pela Vitória</color> consumida. Ao lançar, se Lohen estiver no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}, a duração do estado <color=#FFD780FF>Golpe de Mestre</color> será estendida em 1.65s.\n\n<i>\"Já terminou de falar? Eu sequer consegui me animar.\"</i>",
+      "Icon": "Skill_E_Lohen_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 12921,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292101,
+              "Level": 1,
+              "Parameters": [
+                30,
+                60
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292101,
+        "Name": "Questionamento Proibido",
+        "Description": "Quando está no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}, quando o Dano causado pelos outros personagens próximos acumular {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK} para Lohen, se esse Dano não for menor que 3000% do ATQ Básico de Lohen, acumula 60 pontos adicionais de <color=#FFD780FF>Luta pela Vitória</color> para Lohen.",
+        "Icon": "UI_Talent_S_Lohen_05"
+      },
+      {
+        "GroupId": 12922,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292201,
+              "Level": 1,
+              "Parameters": [
+                0.15,
+                0.15,
+                8
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1292201,
+        "Name": "Brincadeira Primorosa",
+        "Description": "Quando está no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}, nos 8s após os outros membros da equipe desencadearem uma <color=#99FFFFFF>reação Cryo</color> no inimigo, aumenta o ATQ desse personagem em 15% e o ATQ de Lohen em 15%.",
+        "Icon": "UI_Talent_S_Lohen_06"
+      },
+      {
+        "GroupId": 12923,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1292301,
+              "Level": 1,
+              "Parameters": [
+                9,
+                6,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1292301,
+        "Name": "Interesse Efêmero",
+        "Description": "Depois de lançar a Habilidade Elemental <color=#FFD780FF>Ataque Surpresa</color>, Lohen obtém o efeito Animado por 9s: nessa duração, aumenta o nível de sua Habilidade Elemental <color=#FFD780FF>Ataque Surpresa</color> em 1.\nAo lançar a Habilidade Elemental, se os níveis dos Ataques Normais, Habilidades Elementais ou Supremos dos outros personagens da equipe não forem menores que o nível da Habilidade Elemental de Lohen, a duração desse Animado é estendida em 6s adicionais.\nÉ possível desencadear Animado uma vez a cada 18s.",
+        "Icon": "UI_Talent_S_Lohen_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1291,
+        "Name": "Brisa Funesta do Passado",
+        "Description": "Aumenta o limite máximo de {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK} de Lohen em 300%.\nAlém disso, quando está no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}, aumenta o acúmulo de <color=#FFD780FF>Luta pela Vitória</color> para Lohen através do Dano causado por outros personagens próximos em 500% a mais do que o original.",
+        "Icon": "UI_Talent_S_Lohen_01"
+      },
+      {
+        "Id": 1292,
+        "Name": "Aquilo que Voa Vira Alvo",
+        "Description": "Quando está no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK}, nos 4s após Habilidade Elemental especial {LINK#N11290002}<color=#FFD780FF>Entalhado em Alma e Osso</color>{/LINK} acertar um oponente ou o lançar o Supremo <color=#FFD780FF>Julgamento Manifestado</color> for desencadeado, Lohen obtém o efeito Lâmina Destruidora de Demônios: quando estiver no estado Golpe de Mestre, o próximo Ataque Normal ou Carregado de Lohen que atingir o inimigo fará um ataque perseguidor adicional causando 500% do ATQ de Lohen como <color=#99FFFFFF>Dano Cryo em AdE</color>, e aumenta a Proficiência Elemental dos outros membros próximos da equipe em 200 por 8s. É possível desencadear o efeito Lâmina Destruidora de Demônios uma vez a cada 4s.",
+        "Icon": "UI_Talent_S_Lohen_02"
+      },
+      {
+        "Id": 1293,
+        "Name": "Apenas a Lâmina Pode Curar Esta Ferida",
+        "Description": "Aumenta o nível da Habilidade Elemental <color=#FFD780FF>{LINK#S11292}Ataque Surpresa{/LINK}</color> em 3.\nO nível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Lohen_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1294,
+        "Name": "Amor Brilhante Passa como uma Canção",
+        "Description": "Quando Lohen está no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK} e lançar o Supremo <color=#FFD780FF>Julgamento Manifestado</color>, Lohen acumula o máximo de {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK}., fazendo com que o efeito de aumento de Dano do Supremo seja o maior possível.\n\nAlém disso, quando Lohen troca para o estado <color=#FFD780FF>Golpe de Mestre</color>, se sua Energia Elemental:\n· Não estiver cheia: regenera 15 de Energia Elemental para Lohen.\n· Se já estiver cheia: regenera 15 de Energia Elemental para Lohen nos 15s após lançar o Supremo <color=#FFD780FF>Julgamento Manifestado</color>.",
+        "Icon": "UI_Talent_S_Lohen_03"
+      },
+      {
+        "Id": 1295,
+        "Name": "Inescrutável e Inquestionável",
+        "Description": "Aumenta o nível do Supremo <color=#FFD780FF>{LINK#S11295}Julgamento Manifestado{/LINK}</color> em 3.\nO nível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Lohen_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1296,
+        "Name": "Corpo Desfeito, Alma Dissipada, Alegria Sobrada",
+        "Description": "Quando a Habilidade Elemental especial {LINK#N11290002}<color=#FFD780FF>Entalhado em Alma e Osso</color>{/LINK} atingir um inimigo ou lançar o Supremo <color=#FFD780FF>Julgamento Manifestado</color> no estado {LINK#N11290001}<color=#FFD780FF>Golpe de Mestre</color>{/LINK} não consumirá {LINK#N11290004}<color=#FFD780FF>Luta pela Vitória</color>{/LINK}, mas fará Lohen acumular o máximo de {LINK#N11290003}<color=#FFD780FF>Alegria</color>{/LINK}. Quando estiver no máximo, quando ele lançar a Habilidade Elemental especial <color=#FFD780FF>Entalhado em Alma e Osso</color> novamente e caso acerte um oponente, prolonga a duração do estado <color=#FFD780FF>Golpe de Mestre</color> em 1.25s. Esse efeito pode ser desencadeado uma vez a cada 7s.\nAlém disso, aumenta o Dano CRIT de todos os Danos acima em 175%, e o número de vezes que Lohen pode desencadear <color=#FFD780FF>Entalhado em Alma e Osso</color> durante essa instância de <color=#FFD780FF>Golpe de Mestre</color> é aumentado em 2.",
+        "Icon": "UI_Talent_S_Lohen_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Ponta de Flecha Afiada",
+    "Detail": "Vice-Capitão da Companhia de Longo Alcance dos Cavaleiros de Favonius, um cavaleiro conhecido por sua abordagem pouco ortodoxa e seu gosto por táticas incomuns.",
+    "Association": 1,
+    "Native": "Cavaleiros de Favonius",
+    "BirthMonth": 4,
+    "BirthDay": 3,
+    "VisionBefore": "Cryo",
+    "VisionOverrideUnlocked": "Visão",
+    "ConstellationBefore": "Lepus Miles",
+    "CvChinese": "林婧南",
+    "CvJapanese": "天﨑滉平",
+    "CvEnglish": "Nick Wolfhard",
+    "CvKorean": "Lee Sang-ho",
+    "CookBonus": {
+      "OriginItemId": 108971,
+      "ItemId": 108975,
+      "InputList": [
+        100016,
+        100022,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "Prazer em conhecer você, sou Lohen, Vice-Capitão da 5ª Companhia. Se precisar da ajuda dos Cavaleiros de Favonius, direcione seu pedido para o quartel-general. Mas se precisar de algo de mim, estou à disposição."
+      },
+      {
+        "Title": "Bate-papo - Vice-Capitão",
+        "Context": "Ser capitão exige mais do que apenas força de nível capitão. O mais importante é... Heh, não sei. Se soubesse, já seria um capitão a essa altura."
+      },
+      {
+        "Title": "Bate-papo - Casa do Vento",
+        "Context": "Ufa, Mondstadt realmente é o lugar ideal. Mal posso esperar para botar as mãos numa Sidra de Maçã..."
+      },
+      {
+        "Title": "Bate-papo - Relacionamentos",
+        "Context": "Como me dou com os outros Cavaleiros? Hmm... Bem, tenho certeza de que deixei uma impressão profunda. Isso só pode ser uma coisa boa, certo?"
+      },
+      {
+        "Title": "Quando Está Chovendo...",
+        "Context": "Huh, a chuva está ficando forte. Quem sabe o que a enchente vai levar embora?"
+      },
+      {
+        "Title": "Depois da Chuva...",
+        "Context": "O céu está clareando. É como se aquela chuva nem tivesse acontecido."
+      },
+      {
+        "Title": "Quando Está Trovejando...",
+        "Context": "O trovão abafa muitas coisas, mas nunca as batidas do seu próprio coração."
+      },
+      {
+        "Title": "Quando Está Nevando...",
+        "Context": "Não existe lugar melhor que a Cauda do Gato... especialmente num clima desses."
+      },
+      {
+        "Title": "Quando Está Ventando...",
+        "Context": "Ufa, o vento está ficando mais forte... Pena que não tem nenhum dente-de-leão por aqui. Acho que vamos ter que rasgar papel mesmo, hein?"
+      },
+      {
+        "Title": "No Deserto...",
+        "Context": "São em momentos como esse que sinto muita falta do Lago de Sidra."
+      },
+      {
+        "Title": "Bom dia...",
+        "Context": "Bom dia. Qual o plano de hoje?"
+      },
+      {
+        "Title": "Boa tarde...",
+        "Context": "Já parou para almoçar? Ótimo, ainda temos trabalho para fazer esta tarde."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Hoje à noite... Hum. Vamos presentear as tropas com um exercício surpresa de ataque."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Boa noite. É melhor descansar, porque amanhã vai chegar, você querendo ou não."
+      },
+      {
+        "Title": "Sobre Lohen - Preservação da Dor",
+        "Context": "Eu tento evitar anestésicos, eles atrapalham na hora de lutar. Além disso... hehe, eu até gosto de saborear a dor. Ela me lembra que estou vivo, ao contrário dos meus inimigos, que não sentem absolutamente nada."
+      },
+      {
+        "Title": "Sobre Lohen - Poder e Desculpas",
+        "Context": "Para alguns, o poder é uma desculpa conveniente. Dá a eles uma razão para o fracasso, uma justificativa para o medo... Talvez ter um objetivo realmente proporcione às pessoas uma estranha sensação de segurança. Mesmo que por trás dessa segurança esteja escondida uma sombra muito mais aterrorizante."
+      },
+      {
+        "Title": "Sobre Nós - Estilo de Combate",
+        "Context": "Meu estilo de combate? Hahahaha, não poderia ser mais simples! Encontre o líder, enfrente-o em combate e decida o vencedor o mais rápido possível. Os outros Cavaleiros já deviam estar acostumados com isso a essa altura, mas, se não estiverem, que diferença isso faz?"
+      },
+      {
+        "Title": "Sobre Nós - Responsabilidade",
+        "Context": "#Como pode ver, sou vice-capitão, e aquele idiota do Theodore conseguiu exatamente o que merecia. Ainda assim, acho que os talentos dele podem ser bem aproveitados. Quando ele tiver expiado seus pecados, pretendo arrastá-lo de volta para a 5ª Companhia. Não como oficial, é claro, mas ele pode servir nas fileiras. Embora ainda seja cedo para confiar totalmente nele — ou em mim, aliás.\nVocê confia em mim? E ainda tem força para bancar isso? Hahahaha! É isso que eu esperava d{F#a}{M#o} Cavaleir{F#a}{M#o} Honorável... Tão confiável quanto dizem os rumores. Você seria {M#um ótimo capitão}{F#uma ótima capitã} da 5ª Companhia. Tenho certeza de que o Varka não se importaria!"
+      },
+      {
+        "Title": "Sobre a Visão...",
+        "Context": "Essa Visão já se mostrou bem útil em campo. Só é uma pena que ela só sirva para matar monstros em que eu posso tocar, não os invisíveis que ficam à espreita lá dentro."
+      },
+      {
+        "Title": "Algo para Compartilhar...",
+        "Context": "Ah, eu não bebo. A única utilidade que o álcool tem para mim é desinfetar meus ferimentos. Nesse sentido, o Vinho de Dandelion mais envelhecido dos Presentes dos Anjos é o mais potente, tanto em termos de propriedades desinfetantes quanto da doce dor pungente que provoca. Além disso, quando eu os uso, posso vê-los se contorcerem; Varka é o mais divertido de assistir. Hehehe!"
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "Eu costumava ser alérgica a Dandelions, mas aí a Sucrose me falou sobre \"terapia de dessensibilização\". Enchi meu quarto de Dandelions e me certifiquei de respirar fundo de vez em quando. Funcionou? Digamos assim, eu não espirro mais perto de Dandelions. Mas admito que até sinto falta da sensação de espirrar até ficar tonta..."
+      },
+      {
+        "Title": "Sobre Varka - Tolerância a Medicamentos",
+        "Context": "A resistência do Varka a remédios cresce a cada dia. Preparei uma poção para ele alguns dias atrás que mal deixou as bochechas dele coradas. Se ele não tivesse me lançado aquele olhar depois, eu teria duvidado até de ter colocado o remédio. Suspiro... Ah, se ainda estivéssemos em Nod-Krai, eu poderia acrescentar algumas daquelas plantas de kuuvahki..."
+      },
+      {
+        "Title": "Sobre Varka - Deveres do Grande Mestre",
+        "Context": "Os deveres do Grande Mestre? Quando se trata do Varka, é basicamente liderar as pessoas na batalha. O resto cai tudo no colo da Jean, haha. Inimigos, bem, você pode matar de vez, mas papelada... Papelada nunca morre de verdade."
+      },
+      {
+        "Title": "Sobre Jean...",
+        "Context": "Foi só porque a Grande Mestre Interina estava segurando as pontas em Mondstadt que o Grande Mestre \"de verdade\" pôde sair desfilando para Nod-Krai. Agora que ele voltou... bem, provavelmente vai continuar fazendo o que bem entende. Acho que não vai mudar muita coisa."
+      },
+      {
+        "Title": "Sobre Kaeya...",
+        "Context": "Kaeya tem um talento e tanto para imitar as assinaturas dos outros Capitães, sem falar na da Jean. Na verdade, as falsificações dele são tão boas que é praticamente impossível perceber a diferença. Kaeya diz que só faz isso para assinar os próprios pedidos de licença. Pessoalmente, acho que ele está falando a verdade, haha, aquele aí tem caráter demais."
+      },
+      {
+        "Title": "Sobre Amber...",
+        "Context": "Amber disse que já conversou com a Grande Mestre Interina Jean. Ela pediu que alguns oficiais de reconhecimento viessem ajudar, embora não sejam oficialmente patrulheiros. Ainda assim, isso certamente é motivo para comemorar. Agora, ela não vai mais precisar ficar voando de um lado para o outro por Mondstadt sozinha. Pensando bem, porém, o próprio exame de licença de Planagem parece meio ultrapassado... Talvez já esteja na hora de atualizá-lo também?"
+      },
+      {
+        "Title": "Sobre Diluc...",
+        "Context": "Diluc... Pensando bem, nós dois fomos vítimas do mesmo canalha, mas agora que essas contas já foram acertadas, será que ele realmente nunca mais vai voltar para os Cavaleiros de Favonius? Ele não pode voltar a ser o capitão mais jovem, mas bem que poderia tentar ser o cavaleiro mais velho."
+      },
+      {
+        "Title": "Sobre Noelle...",
+        "Context": "Noelle ainda não é oficialmente uma cavaleira, hein? Quanto tempo já faz? Eu jurava que ela já teria passado nos testes de seleção... Será que Varka está guardando algum tipo de Julgamento especial só para ela? O título de cavaleira dela vai ter que ser bem comprido para acompanhar a duração do treinamento..."
+      },
+      {
+        "Title": "Sobre Eula...",
+        "Context": "O que mais chama atenção na Eula é o som das botas dela batendo por todo canto. Quando está com pressa, dá para ouvir o \"tum-tum-tum\" de um andar de distância. Bem como o estilo de luta dela, barulhento e certeiro, uma impressão tão profunda que é impossível esquecer."
+      },
+      {
+        "Title": "Sobre Albedo...",
+        "Context": "Todos os suprimentos consumíveis da 5ª Companhia são desenvolvidos pelo Albedo e pela 8ª Companhia. Nossos virotes de besta, balas e vários produtos alquímicos são todos da mais alta qualidade. Às vezes, passo no escritório do Albedo com projetos para pesquisar novas armas. Mas, recentemente, tem sido a Sucrose quem recebe meus pedidos. Acho que o Albedo deve estar trabalhando em algo grande de novo..."
+      },
+      {
+        "Title": "Sobre Klee...",
+        "Context": "Varka me disse que acha que aquele Mensageiro Fatui, Capitano, conseguiria derrotar um Guarda das Ruínas só com um giz de cera. Então troquei alguns lanches com a Klee por uma caixa deles e vou levar para o Varka. Da próxima vez que ele der de cara com um monstro, vamos ver como essa arma é formidável de verdade."
+      },
+      {
+        "Title": "Sobre Mika...",
+        "Context": "O Mika pode até ser um cartógrafo habilidoso, mas eu sou ainda mais habilidoso quando se trata de farejar uma mentira. Uma vez, ele me entregou um mapa no qual deixou de fora de propósito todos os pontos de reunião dos monstros, porque estava com medo de que eu avançasse sozinha. Mas, sabe como é, bastou olhar para a cara dele e eu já sabia exatamente onde os monstros estavam. Não acredito que ele achou que ficar calado bastaria para me impedir."
+      },
+      {
+        "Title": "Mais sobre Lohen - I",
+        "Context": "Desculpe decepcionar, mas eu não tenho nenhum segredo obscuro e profundo que valha a pena compartilhar com outra pessoa."
+      },
+      {
+        "Title": "Mais sobre Lohen - II",
+        "Context": "Eu prefiro usar uma lança, mas ainda pertenço à 5ª Companhia, então me certifico de manter a prática com besta e pistola. Quanto à precisão... Bem, eu sou muito bom em acertar Frutas Flutuantes e Slimes. Mal preciso mirar. Ouvi dizer que há uma coisa chamada Espectro em Inazuma e que é muito difícil de acertar? Quem sabe eu possa testar minha mira em um desses na próxima vez."
+      },
+      {
+        "Title": "Mais sobre Lohen - III",
+        "Context": "A 5ª Companhia? É apenas uma equipe comum de suporte à distância, nada digno de nota. Até conseguimos fornecer um poder de fogo razoável, mas, se enfrentarmos... inimigos realmente excepcionais, o máximo que podemos fazer é dar cobertura à distância. Como daquela vez em que seguimos Varka para interceptar o Vingador da Lua... No fim, o ataque principal ficou inteiramente a cargo do Grande Mestre, enquanto nós recebemos ordens para formar um perímetro e conter a Caçada Feroz. Era a única forma de não sermos arrastados para a batalha dele contra Rerir."
+      },
+      {
+        "Title": "Mais sobre Lohen - IV",
+        "Context": "Por que insisto em usar uma lança? Vou colocar desta forma... a isca mais apetecível no campo de batalha é aquela que mais parece um comandante. Posso atrair a atenção do inimigo enquanto dou espaço para todo mundo abrir fogo à vontade. Quanto aos inimigos perigosos... Hahaha, quanto mais intenso fica, mais fácil é para eu me concentrar. Essa sensação de foco absoluto é realmente boa demais... Só é uma pena que, desde que deixei Nod-Krai, tenham surgido tão poucas batalhas em que eu possa realmente me perder no momento."
+      },
+      {
+        "Title": "Mais sobre Lohen - V",
+        "Context": "Se eu sinto medo ao lutar de perto? Hah! Não tanto quanto o meu inimigo. Não sou nenhum fracote, sabia? Além disso, tenho médicos esperando na retaguarda... E se o inimigo também tiver? Hmm, então vou ter que acabar com os médicos deles primeiro."
+      },
+      {
+        "Title": "Passatempo de Lohen...",
+        "Context": "Além de lutar no campo de batalha, meu passatempo favorito é preparar pequenas \"surpresas\" para alegrar a vida dos meus queridos irmãos e irmãs de armas. Considero isso parte do treinamento deles — cavaleiros precisam ficar vigilantes o tempo todo, afinal."
+      },
+      {
+        "Title": "Preocupações de Lohen...",
+        "Context": "Os bons tempos de ficar estacionado no Porto Dornman já acabaram. Agora estou de volta em Mondstadt, e a Grande Mestre Interina Jean não é nem de longe tão tranquila quanto o Grande Mestre Varka. *Suspiro*... Será que não tem mais nenhuma missão em campo para a qual possam me mandar?"
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Gosto de comida apimentada. Quando estou em patrulha, costumo mascar Pimentas Jue secas para me manter alerta... Ah, o nome certo é \"Pimenta de Jueyun\"? Obrigado pelo aviso, mas acho que vou continuar chamando de pimenta Jue..."
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "Não beba, certo? Quando eu estava destacada em Nod-Krai, eu sempre era acordada por cavaleiros bêbados... No fim da noite, aqueles caras já nem sabiam mais o que estavam bebendo, nem mesmo quando eu trocava a bebida deles por... ahn, deixa para lá, esquece que eu falei isso."
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Ufa! Obrigado, é exatamente disso que eu gosto. Na verdade, combina tanto comigo... que suspeito que você andou investigando minhas preferências em segredo! Mas não estou bravo, afinal, eu tenho meu próprio arquivo sobre você..."
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Na época em que eu estava aprendendo a envenenar refeições, fiquei tão bom nisso que ninguém suspeitava de nada... Você já envenenou isto aqui? Não se preocupe, eu tenho alta resistência a venenos. Na verdade, acho que vou repetir."
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "...Bom, isto aqui claramente é uma armadilha, e uma que eu acho melhor evitar. Da próxima vez, que tal me deixar cozinhar?"
+      },
+      {
+        "Title": "Aniversário...",
+        "Context": "Hoje é seu aniversário, então eu trouxe uma mini besta de pulso para você. Eu mesma pensei no design. Deve ser o tamanho perfeito para o seu pulso... Quando foi que eu medi o seu pulso? Não se preocupe, calculei só no olho. Você pode confiar na minha habilidade para medir esse tipo de coisa; afinal, sou a vice-capitã da 5ª Companhia. Ah, certo, esta besta também pode disparar para trás, caso alguém se aproxime sorrateiramente de você. É só apertar... aqui. Hahaha, não precisa se abaixar! A trava de segurança ainda está ativada. Eu pareço o tipo de pessoa que daria uma besta a um amigo só para vê-lo atirar em si mesmo...?"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Me sinto ótimo. Até minha arma está mais fácil de usar."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "Parece que consigo enxergar mais longe agora... Isso deve melhorar minha pontaria."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "É como se minha mente tivesse ficado bem mais clara. Hah, acabei de pensar em um novo treinamento."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "Acho que sou forte o suficiente para ser um vice-capitão \"de verdade\" agora, hein?"
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "Vamos lutar!"
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Pode tremer, não vou julgar."
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Não deixem ninguém de pé!"
+      },
+      {
+        "Title": "Habilidade Elemental - IV",
+        "Context": "Aposto que você não estava preparado para isso!"
+      },
+      {
+        "Title": "Habilidade Elemental - V",
+        "Context": "Agora é nossa chance!"
+      },
+      {
+        "Title": "Habilidade Elemental - VI",
+        "Context": "Hunf."
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Como cordeiros no matadouro."
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "Resista o quanto quiser!"
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Haha, sem finais de conto de fadas para você!"
+      },
+      {
+        "Title": "Abrir Baú do Tesouro: I",
+        "Context": "Ah, os espólios. Vamos ver o que tem dentro."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro: II",
+        "Context": "Só porcariazinhas... Mesmo assim, seria grosseria não aceitar."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro: III",
+        "Context": "Hmm, sem armadilhas, sem fumaça venenosa... Que sem graça."
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Hah... Pode continuar!"
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "...Isso ainda não acabou!"
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "...Agora esse é meu tipo de oponente!"
+      },
+      {
+        "Title": "Aliado com Vida baixa: I",
+        "Context": "Se você não consegue continuar, retire-se!"
+      },
+      {
+        "Title": "Aliado com Vida baixa: II",
+        "Context": "Minha vez!"
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Então este... é o meu limite..."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "Ainda não tive... o bastante..."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Vento... me diga... por quê..."
+      },
+      {
+        "Title": "Ataque Leve Sofrido - I",
+        "Context": "Truque barato."
+      },
+      {
+        "Title": "Ataque Leve Sofrido - II",
+        "Context": "Nem senti nada."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Então você sabe lutar, hein..."
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - II",
+        "Context": "Heh...!"
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Hora de um pouco de ação."
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "Escoltar à frente? Deixa comigo."
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Cuidarei da sua retaguarda."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Informações do Personagem",
+        "Context": "Assim que a força expedicionária iniciou sua jornada de volta para casa, os bardos já levavam às tavernas histórias sobre seus heróis.\nAlém de nomes já conhecidos, como Varka, um novo título também passou a chamar a atenção do público: o \"Oficial de Supressão da Vanguarda\", conquistado por feitos notáveis e por uma taxa de engajamento excepcionalmente alta.\nPor que a unidade de combate à distância, destinada a lutar da maior distância possível, estava sempre ativa bem na linha de frente, chegando até a liderar investidas em combate corpo a corpo?\nPor que uma companhia equipada com bestas e mosquetes obedecia às ordens de um jovem cavaleiro que empunhava uma lança?\nEssas irregularidades inevitavelmente levantariam questionamentos, e onde há perguntas, logo surgem debates.\nAlguns zombavam com irritação: \"Atirar à queima-roupa de repente torna isso ineficaz? Bestas e armas de fogo são mesmo tão difíceis de manejar assim?\"\nOutros argumentavam que os arqueiros já estavam entre os soldados mais fortes e de elite, e que enviar os melhores deles para as linhas de frente mais perigosas era apenas o mais adequado.\nNo fim, o que encerrou todo o debate foram os relatos que os bardos reuniram daqueles que haviam testemunhado aquilo em primeira mão:\n\"Ele é a lança mais afiada da companhia, capaz de perfurar qualquer linha;\nEle é a cobertura mais sólida da companhia, capaz de deter qualquer investida...\"\nAinda assim, os bardos muitas vezes escolhiam omitir a segunda metade das observações dos cavaleiros, pois ela não tinha qualquer traço de lenda e era realista demais:\n\"Para ser sincero, acho que o Vice-Capitão provavelmente só pensa que esse jeito é mais eficiente...\"\nDe fato, sua história não carrega nem a glória e a grandiosidade presentes nos contos de cavalaria, nem as reviravoltas dramáticas das lendas heroicas.\nLanças, flechas ocultas, emboscadas, veneno, ataques-surpresa, infiltração...\nEle nunca discute quais armas ou táticas são superiores, nem se preocupa se uma batalha ou missão traz honra ou vergonha.\nEmbora cada método possa trazer uma sensação diferente, nenhuma satisfação que eles proporcionem se compara à própria vitória, nem à simples sensação de estar vivo.\nSó o último a permanecer de pé tem o direito de ponderar sobre o significado da vitória. Só o último que ainda consegue sentir dor tem o direito de falar sobre sobrevivência.\nLute, vença, sobreviva, e repita, de novo e de novo...\nEssa é a história de Lohen, e a vida que ele leva."
+      },
+      {
+        "Title": "História 1",
+        "Context": "Na memória de Lohen, o primeiro brinquedo que ele teve na vida foi um pequeno arco macio.\nSeu pai severo e sisudo escolheu uma excelente madeira de abeto para o núcleo do arco, enquanto sua mãe meticulosa cortou o couro com cuidado, amassando-o e torcendo-o repetidas vezes para fazer a corda.\nEmbora fosse apenas um brinquedo, seus pais seguiram o mesmo processo de fabricação de arcos que usavam no trabalho diário, concluindo tudo com um cuidado inabalável.\nAinda assim, seu pai não lhe ensinou a retesar o arco nem a encaixar uma flecha, como o jovem Lohen esperava.\nA única coisa que Lohen podia fazer era imitar os pais, aprendendo a inspecionar as hastes, a passar óleo e cuidar da superfície laqueada, a encerar a corda do arco. Dia após dia, repetidas vezes.\n\"Lohen, nossos ancestrais um dia disseram: 'Um arco é um instrumento que exige constância. Por gerações, nossa família viveu da fabricação de arcos. Naturalmente, também devemos viver como eles, garantindo que tudo o que fazemos permaneça perfeitamente constante.'\"\nDurante as orações matinais diárias, seu pai e sua mãe sempre repetiam essas palavras.\nEles levavam uma vida de rotina estável, trabalho disciplinado e paz silenciosa.\nPor mais de vinte anos antes de Lohen nascer, seus pais viveram dessa forma, e no mais de uma década após seu nascimento, nada nisso mudou nem um pouco.\nDesde suas primeiras palavras balbuciadas até o momento em que conseguiu fazer a manutenção de arcos e flechas com destreza, Lohen passou a perceber que o curso de sua vida já estava traçado diante dele. Talvez continuasse nesse caminho até que a idade turvasse sua visão e os veios da madeira se tornassem indistintos, sua vida sendo silenciosamente consumida por uma rotina imutável.\nNo entanto, flechas podem ser cuidadosamente guardadas no arsenal, mas nunca foram feitas para permanecer ali. Assim como sua natureza indomável nunca foi feita para uma vida de estabilidade silenciosa.\nMais uma vez, o jovem Lohen poliu a ponta da flecha até fazê-la brilhar, encontrando no reflexo o olhar do vermelho profundo oculto em si.\nSó lhe restava esperar pelo momento em que seria disparada...\nE esse momento não estava longe.\nEm um dia comum, Lohen estava sentado, como sempre, na carroça de carga, acompanhando o pai na viagem até Mondstadt para entregar uma encomenda.\nMas, desta vez, a jornada estava longe de ser tranquila. Um grupo de bandidos mascarados, bem treinados, havia posto os olhos na carga que transportavam.\nO pai apressadamente empurrou Lohen para dentro da carroça coberta, mandando que não se mexesse e não fizesse nenhum som. Então gritou o mais alto que pôde, tentando ou atrair os bandidos para longe, ou chamar a atenção dos Cavaleiros de Favonius, onde quer que estivessem.\nMesmo com a carroça carregada de arcos poderosos e virotes capazes de perfurar pedra...\nMesmo que seu pai, após anos testando arcos, já tivesse desenvolvido a habilidade de um arqueiro de primeira linha...\nMesmo que os bandidos parecessem estar tentando deliberadamente, de forma sutil, afastá-lo da carroça...\nA inércia de uma vida pacífica, mantida por tantos anos, fez com que seu pai se esquecesse completamente de questionar a situação e até mesmo de que resistir com armas era uma opção.\nLogo, os sons do lado de fora da carroça desapareceram. Algum tempo depois, a cortina foi aberta, mas quem entrou não foi seu pai, após expulsar os bandidos, nem reforços dos Cavaleiros de Favonius, e sim um grupo de figuras mascaradas vestidas com mantos negros.\nSem dizer uma palavra, agarraram Lohen e o levaram embora. Não importava o quanto ele lutasse ou tentasse escapar, toda resistência era inútil diante daquelas mãos firmes como ferro.\nNaquele momento, Lohen ainda não sabia em que esquema havia sido arrastado, nem para onde estava sendo levado.\nDentro da cela apertada e sem luz, o jovem Lohen permanecia sentado em silêncio, remoendo um único pensamento sem parar.\nSe ao menos seu pai tivesse erguido um arco e enfrentado aqueles bandidos, eles jamais teriam encontrado uma brecha. E se ele próprio tivesse sido mais rápido, mais atento... talvez pudesse ter escapado antes mesmo de aquelas mãos o alcançarem.\nNa cela ao lado, o choro das outras crianças sequestradas só aumentava. Aproveitando um momento em que ninguém estava olhando, Lohen deslizou para dentro da manga uma pequena ponta de flecha que havia trazido da carroça...\nTalvez o Arconte Anemo tivesse ouvido as preces desesperadas das crianças, ou talvez algo invisível tivesse respondido ao desejo silencioso do menino por força.\nQuando os vilões se apressaram para transferir seus cativos, os agentes da justiça finalmente apareceram.\nÀ frente deles estava uma figura solitária vestida com armadura, com um arco curto repousando de leve em sua mão. Com uma precisão sem esforço, ele levou os criminosos à ruína.\nSeja para poupá-los para interrogatório ou para evitar ferir as crianças, ele disparava apenas flechas rombudas, sem ponta afiada.\nE ainda assim, em suas mãos, até mesmo hastes cegas golpeavam como trovões. Cada disparo da corda rasgava o ar; cada impacto era respondido pelo baque pesado de um corpo caindo imóvel.\nAquelas flechas cortavam o ar com um brilho tão intenso, com uma força tão inabalável, que Lohen não conseguia desviar o olhar. Até mesmo suas mãos, já prestes a agir, pararam no mesmo instante.\nSó quando Adorno afastou a cortina da carroça-prisão e encontrou o olhar de Lohen, o garoto saiu do transe.\n\"Se eu tivesse uma força como a daquelas flechas... Essas cordas já teriam sido cortadas há muito tempo. E eu não teria precisado ficar ouvindo o Theodore choramingar esse tempo todo...\"\nEsse pensamento criou raízes em silêncio no coração do jovem Lohen.\nMas o que Adorno viu foi algo completamente diferente:\nEm meio a um grupo de crianças em prantos, um menino se destacava, seu rosto frio, seu olhar firme, intocado pelo pânico.\nEm seus pulsos, a corda bem apertada já havia sido entalhada, o bastante para revelar um corte discreto e intencional feito por uma ponta de flecha escondida.\n— Que criança extraordinária... Terei que ficar de olho nele."
+      },
+      {
+        "Title": "História 2",
+        "Context": "Desde que Lohen foi resgatado, sua família passou a vigiá-lo muito mais de perto, com medo de perdê-lo novamente. Mas, uma vez que a flecha é posta na corda, ela nunca mais pode voltar a uma vida de poeira silenciosa.\nEm uma noite banhada pelo luar, enquanto seus pais dormiam, Lohen escapuliu silenciosamente pela janela. Desapareceram na escuridão junto com ele um arco curto feito por suas próprias mãos, uma pequena faca de entalhe e um punhado de flechas defeituosas que nunca chegaram ao mercado.\nTalvez tenha sido sorte, ou talvez ele simplesmente tivesse nascido para isso, quando voltou, havia duas pontas de flecha de Hilichurl em sua mochila, seus troféus.\nDepois disso, ele começou a sair às escondidas cada vez mais vezes. O que antes era uma vez por semana passou a ser a cada poucos dias, até que, por fim, ele saía todas as noites. Suas presas ficavam mais fortes, e os despojos que trazia de volta também: máscaras estilhaçadas, pergaminhos sinistros, os chifres de Mitachurls...\nAos poucos, sussurros começaram a se espalhar entre os aventureiros. Falavam de uma figura esguia vista perto de Porto Dornman à meia-noite, um arqueiro que se movia como o vento, infiltrando-se entre grupos de monstros e acertando cada disparo em cheio.\nA vitória vinha repetidas vezes, mas o perigo também. E cada encontro com ele fazia o coração de Lohen disparar, pulsando como uma maré crescente.\nEm algum momento, uma pergunta começou a tomar forma em sua mente: se ele enfrentasse aqueles agressores de novo... seria diferente? Ou ele continuaria sendo aquela criança indefesa, esperando que outra pessoa viesse salvá-lo?\nMesmo depois de encarar incontáveis perigos e derrotar incontáveis inimigos, a pergunta nunca o deixou. Apenas se aprofundou, acumulando-se e fermentando com o passar do tempo, sem jamais encontrar uma resposta por si só.\nA menos que pudesse perfurar o primeiro alvo que deu início a tudo.\n...\nQuando Lohen finalmente vestiu o uniforme de aventureiro e contou a verdade aos pais, eles primeiro ficaram atônitos, depois furiosos.\nNo fim, foi Cyrus quem interveio, batendo no peito ao garantir que Lohen seria quem intimidaria os monstros, e não o contrário. Só então aceitaram, a contragosto, aquilo que já não podia mais ser mudado.\n...Embora talvez o que tenham aceitado não tenha sido a força de Lohen, mas o simples fato de que ele nunca mais voltaria a ser a criança obediente que um dia conheceram.\nMesmo assim, eles não conseguiam deixar isso para lá. Durante anos, tentaram convencê-lo a parar de arriscar a própria vida, chegando até a procurar Adorno, o cavaleiro veterano que um dia salvara Lohen, na esperança de que ele pudesse fazê-lo entrar em juízo.\n\"Uma vez que a flecha é disparada, não há como fazê-la voltar. Como fabricantes de arcos, vocês deveriam entender isso\", disse Adorno, como se já esperasse por essa escolha havia muito tempo. \"...Mas ainda podemos guiar a flecha antes que ela voe, dar a ela a direção certa. Esse é o meu conselho, como arqueiro.\"\nAdorno concordou em servir de mediador. Os pais de Lohen nunca souberam exatamente o que foi dito entre eles, mas, nos meses seguintes, Lohen realmente pareceu se aquietar bastante... aparentemente para \"se preparar para os exames\".\nVários meses depois, Lohen surgiu de repente nos testes de seleção dos Cavaleiros de Favonius e, com uma habilidade avassaladora, conquistou o primeiro lugar. Embora seus métodos fossem um tanto controversos, no fim ele conseguiu se juntar aos Cavaleiros.\nBem, isso não foi tão ruim. Pelo menos, dentro dos Cavaleiros ele tinha uma posição formal, e companheiros com quem podia contar. Certamente era melhor do que vagar sozinho como aventureiro.\nAlém disso, apenas alguns meses antes, Lohen já começava a achar as comissões da Guilda de Aventureiros entediantes, e até cogitava deixar Mondstadt em busca de alvos muito mais perigosos.\nOs pais de Lohen confortaram um ao outro, mas não conseguiam se livrar de uma dúvida persistente: o que exatamente Adorno tinha dito naquele dia para fazer Lohen decidir se juntar aos Cavaleiros? Quanto mais pensavam nisso, mais intrigados ficavam.\n...\n\"...Garoto, nós já descobrimos quem estava por trás daqueles casos de sequestro naquela época.\"\nA princípio, Lohen, que tinha demonstrado pouco interesse por mais um mediador, de repente aguçou o olhar. \"Quem foi?\"\n\"Em breve emitiremos um aviso oficial, mas não adianta pensar em vingança\", Adorno disse calmamente. \"Ele já está morto.\"\nApós um longo silêncio, Lohen voltou a falar. \"Quem o matou?\"\n\"Suicídio.\" \"Um tipo desses não simplesmente se mata. Você sabe o que eu realmente estou perguntando, quem o levou a esse ponto?\"\nAdorno deixou escapar um leve sorriso. \"Nosso Grande Mestre Interino, o Cavaleiro de Boreas... a lenda viva de Mondstadt. Isso faz dele um alvo novo à sua altura?\""
+      },
+      {
+        "Title": "História 3",
+        "Context": "Varka não era estranho a \"imitadores\" seus.\nÉ apenas natural que jovens de sangue quente persigam a sombra de um grande herói. E, entre eles, sempre há alguns arruaceiros arrogantes demais.\nMas alguém como Lohen era algo que Varka nunca tinha encontrado antes.\nNo passado, esses \"imitadores\" no máximo armavam uma emboscada surpresa, geralmente só para provar a própria força. Mas a estreia de Lohen só podia ser descrita como... tudo, menos contida.\nFlechas ocultas, cortinas de fumaça, armadilhas, até sedativos capazes de incapacitar monstros instantaneamente, seus métodos eram experientes em um nível quase antinatural. Pareciam obra de um veterano forjado em incontáveis batalhas e, de leve, havia até um traço dos restos da facção de Eroch neles.\n\"Nada mal, garoto. Você tem talento! Mas... esses truquezinhos não vão funcionar comigo!\"\nNum piscar de olhos, Varka já havia imobilizado completamente o \"garoto\".\n\"A criança que se manteve calma diante de um sequestro e que talvez até pudesse ter escapado com as próprias mãos.\"\n\"O arqueiro franzino dos rumores, que atacava com precisão impiedosa nos arredores do Porto Dornman.\"\n\"O recruta esquentado que, pouco tempo depois de se alistar, começou a caçar os remanescentes da facção de Eroch.\"\nVarka já tinha ouvido de Adorno muitas histórias sobre Lohen. Por isso, decidiu deixar essa pequena farsa continuar por mais um tempo, só para ver do que o garoto realmente era feito.\nSob a pressão sufocante daquelas duas espadas largas, forte o bastante para fazer até monstros prenderem a respiração, que tipo de expressão esse novato mostraria?\nAdmiração? Pânico? Ou... outra coisa?\nVarka fixou o olhar nos olhos de Lohen. Frios. Firmes. Ficando mais afiados a cada segundo. E dentro deles, achou que vislumbrou algo, um lampejo de exultação... e talvez um reflexo de si mesmo mais jovem, perseguindo força e glória sem hesitar.\nUm talento promissor, mas que precisava ser lapidado. Teria que apanhar um pouco, aprender certas lições do jeito difícil. Então Varka avançou, subjugou o recém-chegado atrevido e mandou trancá-lo por alguns dias. \"Se ainda não estiver satisfeito, pode tentar de novo quando quiser. Vou ficar esperando.\"\n\"Acho que você vai ter que esperar pra ver\". Lohen sorriu, antes de ser confinado.\nNo dia seguinte ao fim do confinamento, Lohen apareceu à porta de Varka com uma garrafa do vinho favorito dele, dizendo que era um pedido de desculpas.\n\"Ah? Nada mal. Você até escolheu o meu favorito, o Vinho de Dandelion. Aceito com prazer.\"\nO licor forte e amargo mal tinha passado por sua garganta quando o Grande Mestre sentiu um leve torpor, havia algo errado.\n\"Olha, eu não sugeriria que você o visse como uma versão mais jovem de si mesmo, ou apenas como mais um garoto de Mondstadt que o admira. Claro, ele respeita a sua força. Mas, se eu tivesse que adivinhar, o que ele realmente está pensando... é em como desafiá-lo.\"\n\"Se eu estiver certo, o que passa pela cabeça dele é o seguinte: encontrar uma forma de desafiar 'o poderoso Varka' já deve ser interessante por si só. Ganhar ou perder não importa muito. Na pior das hipóteses, ele só vai ficar de cama por alguns dias. Quanto à glória... duvido que ele se importe com isso.\"\nConfiando apenas em pura força física e força de vontade, Varka firmou o corpo vacilante diante dos olhos atônitos de Lohen.\n\"...Inacreditável. Pelos meus cálculos, essa dose deveria ter sido suficiente para derrubar uma dúzia de javalis...\"\n\"Garoto, eu já te disse... esses truquezinhos não vão funcionar comigo!\"\nA partir daquele momento, a compreensão de Lohen sobre \"força\" mudou completamente:\nEra algo que nenhuma armadilha nem veneno poderia abalar, uma resiliência forjada em incontáveis encontros com a morte, uma base inabalável temperada ao longo do tempo.\nDesde então, dois novos itens foram acrescentados à lista de objetivos de Lohen:\nO primeiro, derrubar Varka por qualquer meio necessário.\nO segundo, aplicar esses mesmos métodos em si mesmo, e garantir que jamais seria derrubado."
+      },
+      {
+        "Title": "História 4",
+        "Context": "Os Cavaleiros de Favonius são uma organização com uma longa história, uma que produziu incontáveis heróis, e suportou muitas tragédias.\nDessas lendas e lições duras, os Cavaleiros aprenderam uma verdade:\nQuando alguém sai do caminho do cavaleiro, a tragédia se aproxima.\nFoi por essa razão que dúvidas começaram a aparecer dentro da ordem sobre a nomeação de Lohen como Vice Capitão da 5ª Companhia.\nAfinal, um louco conhecido por causar problemas, emboscar o Grande Mestre, e preferir o uso de venenos e armadilhas em batalha não parecia ser a personificação de nada que lembre um cavaleiro.\nLohen não se importava muito com esses rumores.\n\"Você não se importa com o que os outros pensam, eu sei disso\", disse Adorno. \"Mas você também sabe que uma expedição não é algo que uma pessoa possa fazer sozinha. Se ninguém está disposto a ficar ao seu lado, sua inscrição não vai correr bem.\"\nEle parou, preocupado se Lohen não saberia como lidar com isso, ou se ele tinha medo que as coisas piorassem.\nDesde que Varka anunciou uma enorme expedição, Lohen esteve animado para se juntar a ela.\nUm campo de batalha distante, com perigos desconhecidos. Isso era muito mais interessante para ele do que qualquer outra coisa nesse mundo. Ainda assim, sua inscrição teve todo tipo de contratempo. Uma lista após a outra era divulgada, e seu nome nunca aparecia.\nAdorno sabia que nenhum teste no campo de batalha seria um problema para Lohen. Essas coisas pareciam além dele.\nMas, dessa vez, Lohen respondeu: \"Tudo bem. Se um cavaleiro heterodoxo não pode participar do teste... Então eu que o aplicarei.\"\n...\n\"De um ponto de vista prático, não é uma má ideia. Também pode lembrar esses cavaleiros de suas próprias falhas, e silenciar aqueles que insistem em questionar a necessidade de reformas. Afinal, não podemos esperar que todo inimigo respeite as regras do cavalheirismo.\"\nEnquanto folheava a inscrição inconvencional de Lohen, Varka considerou a proposta.\nO relatório listou vários tipos de teste. Além das escaramuças noturnas, armadilhas e venenos, métodos que Varka já se acostumara, também introduzia abordagens mais inovadoras, como emboscada, sabotagem de linhas de suprimentos antes de treinamentos, e outros métodos criativos de avaliação.\nQuando ele chegou na página final, uma citação famosa quase o fez engasgar na própria bebida:\n\"Se os Cavaleiros de Favonius não podem se proteger, como protegerão Mondstadt?\", da noite em que o antigo Grande Mestre dos Cavaleiros de Favonius foi atacado.\n... Erros de juventude costumam lhe pegar quando você menos espera. Depois de um momento para se recompor, Varka tomou sua decisão e aprovou a sua inscrição.\nCavaleiros não convencionais precisam de testes não convencionais.\nSejam os cavaleiros da expedição, seja Lohen."
+      },
+      {
+        "Title": "História 5",
+        "Context": "E como o sucessor mais provável do título de Cavaleiro Benevolente, Lohen é o que menos se parece com um dentre os Cavaleiros de Favonius.\nNa mente da maioria das pessoas, o Cavaleiro Benevolente deve salvar os outros do perigo, e puxar essas pessoas do abismo. Mas Lohen prefere buscar o perigo e, no processo, jogar outros nele. Claro, esses outros costumam ser seus inimigos... e nem sempre humanos...\nAinda assim, esses hábitos particulares dele possuem suas vantagens. Pelo menos, quando se trata de operações especiais e missões de alto risco, sua performance ultrapassa suas expectativas.\nPor essa razão, muitas das missões secretas da expedição caíram nas costas dele.\nUma dessas missões veio através da missão confidencial do chefe atual da Rede de Inteligência do Norte.\nAs informações da inteligência indicaram que uma casa de leilões estava operando em Nod-Krai, aproveitando-se do caos. Ela lidava com contrabando e venda de mercadorias perigosas, movendo cautelosamente e apoiada por forças poderosas. Derrubá-la ajudaria a ganhar a confiança da Rede de Inteligência do Norte.\n\"Não temos dúvidas sobre sua força\", disse o cliente. \"Mas em lugares que o cavalheirismo não tem relevância, a força não define capacidade.\"\nE para satisfazer as preocupações dos clientes, a força expedicionária pensou no seguinte plano:\nO papel de Lohen seria capturar e isolar alvos, e extrair o horário e local do leilão. Então, o plano seria utilizar vigilância, escuta e rastreio para identificar cada pessoa envolvida, e manter os riscos baixos.\nNão importa como se olhasse, era uma missão perfeita para Lohen. Uma infiltração solitária, com capturas precisas, um ataque direto no núcleo. Difícil, e silenciosa.\nInfelizmente, Nanninna esqueceu uma coisa: para Lohen, um plano que fosse muito silencioso não era minucioso o suficiente.\nAntes dele partir, Nanninna também transmitiu um lembrete do Cardeal Seamus: \"Foque na missão. Não complique as coisas.\"\nE Lohen respondeu, sem hesitar: \"Não se preocupe. Eu entendi.\"\nE ele entendeu.\nPelo menos na sua mente, só havia o foco na missão, para demonstrar a força dos Cavaleiros de Favonius para a Rede de Inteligência do Norte.\n...\nAlguns dias depois, em Mondstadt, dentro do escritório do Grande Mestre.\nDepois de revisar o relatório da força expedicionária, Jean pegou sua caneta, e começou a escrever a sua resposta para Varka:\n\"Sobre a operação envolvendo o leilão ilegal, já fui informada.\"\n\"O julgamento de Lohen no campo permanece eficiente e decisivo. Ele garantiu a segurança de todos os presentes, e impediu que o conflito chegasse a Cidade de Nasha, evitando baixas civis. Pelo resultado, isso pode ser considerado um ato de proteção, e que corresponde aos ideais de benevolência.\"\n\"Medido por mérito, concordo com sua avaliação. Ele está qualificado para herdar o título do Sr. Adorno. Suas ações também mostraram uma certa cautela, até o ponto que ele se infiltrou na fortaleza inimiga.\"\n\"Entretanto, sendo direta, aparecer no centro da base inimiga, e iniciar o combate sozinho, até mesmo exibindo seus espólios como troféu de força não são práticas dos Cavaleiros de Favonius.\"\n\"Se você tiver tempo, por favor, esclareça isso para os membros da Rede de Inteligência do Norte\"."
+      },
+      {
+        "Title": "Pseudo-Gravador Multiúso de Comunicação",
+        "Context": "Mika sempre mantém seu Dispositivo de Varrimento Multiuso da Linha de Frente impecável.\nNão só registra terrenos detalhados, locais-chave, e rotas padrão de marcha, mas às vezes é complementado com sinais de atividades de monstros, e avaliações de áreas perigosas.\nInteligência é a fundação de uma campanha. Ainda assim, alguns cavaleiros não são atraídos para a informação, mas para o dispositivo em si.\nLohen é um desses.\n\"Que equipamento complicado você tem aí. Você é bem habilidoso com ele.\" Depois de suas perguntas de rotina sobre as posições do inimigo, Lohen elogia subitamente: \"Impressionante\".\nPego de surpresa pelo elogio, alguém perto de sua idade, mas de reputação diferente, Mika ficou constrangido, mas satisfeito.\nLohen, claramente intrigado, começou a fazer várias perguntas. Mika, por sua vez, raramente discutia seu dispositivo de varrimento com alguém que não fosse um técnico, e pouco depois, os dois já conversavam com tranquilidade.\n\"Então, um dispositivo eficiente como esse, você deve saber bastante sobre onde os inimigos se reúnem, não é?\", \"Falando nisso, como você o mantém? Você tem peças sobressalentes?\"\n... Talvez esse superior famoso não fosse tão assustador quanto os rumores falavam?\nMika respondeu todas as perguntas com entusiasmo. Lohen, estreitando os olhos, balançava a cabeça concordo, anotando mentalmente o que lhe interessava, e descartando o irrelevante.\nDepois de várias conversas, Mika gradualmente percebeu que qualquer área que Lohen teve um interesse em particular ficaria em um notável silêncio alguns dias depois.\nSe fossem conectar os novos ferimentos que frequentemente aparecem no corpo de Lohen com seus repetidos e breves desaparecimentos, seria difícil descartar tudo como mera coincidência. Mika logo chegou a uma conclusão inquietante: os resultados de seus próprios levantamentos estavam sendo utilizados por Lohen de forma tão eficiente e tão perigosa que não mais poderiam ser descritos com nenhuma outra palavra.\nPor precaução, Mika começou a omitir em seus mapas alguns locais de encontro de monstros que não tinham relação com rotas de operação. Quando deparado com as indagações de Lohen, ele ficou cada vez mais evasivo.\n\"Uh... eu já relatei todos os detalhes!\" \"Eu... Eu acho que deveríamos seguir o comando do Grande Mestre!\"\nPorém, mesmo conforme Mika esquivava-se de suas perguntas, Lohen não insistiu. Ele apenas sorriu expressivamente, com o olhar vagando de vez em quando — intencionalmente ou não — para o aparelho de medição que Mika segurava com força contra o peito.\nDali em diante, Mika teve ainda mais cuidado com a segurança do dispositivo. Ele checava duas vezes se seu caderno estava devidamente guardado antes de sair de seu assento, verificando a contagem nas páginas repetidamente ao entregar materiais, e até olhava para trás depois de andar um pouco, como se tivesse medo de que alguém estivesse observando o caderno por trás.\nE, mesmo assim, apesar disso tudo, as ações de Lohen mal foram afetadas. Era como se ele já soubesse cada mínimo detalhe que Mika estava tentando esconder... quase como se por mágica.\nMika continuou intrigado, até um dia, durante uma reunião na fogueira em uma expedição.\nNaquela noite, Ekbert insistiu, aos gritos, em fazer um truque de mágica de Fontaine que ele havia acabado de aprender para animar as coisas, mas ele claramente estava bêbado demais e logo se dedurou.\nEle pretendia realizar uma grande \"troca ilusória\", mas acabou revelando duas cartas quase idênticas para o público muito antes da hora.\nO truque em si era bem simples: secretamente trocar a carta escolhida pela audiência com uma falsa, usar a falsa para manter a atenção deles e, então, naquele breve momento de distração, mexer com a verdadeira. Infelizmente, sequer chegou a esse ponto.\nEm meio às risadas pelo acampamento, Mika se sentiu, sem nenhum motivo aparente, lembrando-se de uma pergunta que Lohen lhe havia feito há muito tempo.\n\"Falando nisso, como você o mantém? Você tem peças sobressalentes?\"\nNaquele momento, certos detalhes do passado de repente se encaixaram: peças sobressalentes que de repente sumiram misteriosamente, e páginas de registros que se recusavam a abrir devido a algum mau funcionamento...\nNinguém pensaria em como pregar uma peça no colega logo após conhecê-lo, né?\nNinguém agiria amigável e curioso por fora, enquanto secretamente tramasse algum tipo de maldade por dentro... né?\nE certamente ninguém se aproveitaria de um momento breve de distração para trocar seu dispositivo de levantamento, copiar as informações e então sorrateiramente trocar tudo de volta depois... né?\nPensando nisso, Mika de repente sentiu um olhar aguçado, como uma ave de rapina olhando sua presa. Ele rapidamente olhou para cima, apenas para notar Lohen rindo com a multidão, sem direcionar sua atenção a ninguém específico.\nAquela risada era aberta e franca, até genuinamente calorosa... exatamente como quando ele havia puxado conversa com Mika, cheio de entusiasmo, pela primeira vez, aparentemente sem nenhum vestígio de falsidade."
+      },
+      {
+        "Title": "Visão",
+        "Context": "Lohen já havia refletido seriamente por muito tempo sobre como alguém poderia alcançar a força de um capitão.\nNão havia dúvida de que um capitão deveria ser capaz de enfrentar monstros poderosos de frente e de se manter firme mesmo contra ondas avassaladoras de inimigos.\nPossuir tanto poder destrutivo quanto resistência, Varka era esse tipo de figura, e, ao que parecia, o capitão mais jovem da história dos Cavaleiros de Favonius também.\nMas, para a Quinta Companhia, que dependia de armas de longo alcance, poder destrutivo e resistência pareciam fundamentalmente incompatíveis.\nAlcançar um poder maior significava empunhar um arco mais potente e com maior tensão, além de flechas maiores e mais penetrantes.\nMas até mesmo Lohen só conseguia carregar uma quantidade limitada dessas flechas pesadas. Assim que elas se esgotavam, ele precisava recuar para a retaguarda para reabastecimento, uma clara desvantagem em combates prolongados.\nAlém disso, Lohen nunca gostou de se afastar da linha de frente. Encarar o inimigo de frente, bem na vanguarda, era esse o tipo de batalha que ele realmente buscava.\nEntão, haveria uma forma de ter ambos? O jovem cavaleiro mergulhou em profunda reflexão.\n\"Talvez... não seja completamente impossível.\"\nPor acaso, Lohen percebeu os cavaleiros ocupados se preparando para uma cerimônia de inspeção de exercícios. Ao lado deles, lanças cerimoniais brilhavam intensamente, como flechas gigantes à espera de serem levadas.\n\"Talvez... seja uma flecha que posso recuperar após disparar?\"\n\"Ou... sequer precisa ser disparada.\"\n\"Afinal, lutar corpo a corpo pode ser ainda mais destrutivo. E quem sabe a dor seja ainda mais afiada.\"\n...\nPouco mais de dez dias depois, o dia do treinamento de rotina dos cavaleiros chegou, como programado. Porém, dessa vez, havia uma pequena diferença. No meio da formação do pelotão de ataque à distância, uma lança solitária se destacava.\nAquela lança avançou rápido demais, deixando seu portador cercado por todos os lados.\n\"Perdoe-me por perguntar, Grande Mestre, você tem certeza de que ainda quer ele como o vice-capitão da Quinta Companhia?\" Cardeal Seamus perguntou de longe, conforme observava o treinamento.\n\"Hmm? É claro. Veja, ele está trabalhando bem com o resto da equipe, não está?\"\n\"Para ser sincero, não vejo coordenação. Tudo que vejo é um alvo bem óbvio. Tanto o lado adversário quanto o nosso ataque à distância estão se concentrando nele.\"\n\"Haha! Está tudo bem, tudo bem. Veja, os ataques do nosso pelotão à distância estão claramente mais eficientes agora! E Lohen continua de pé, não está? Isso prova que a estratégia funciona!\"\nComo isso deveria estar funcionando!? Seamus quase gritou sua resposta, mas os resultados falavam mais alto por conta própria.\n...\nNaquele dia, todos conseguiram o que desejavam — ou, pelo menos, alguma coisa.\nA Quinta Companhia ganhou um vice-capitão. A força de expedição ganhou um \"Oficial de Supressão de Linha de Frente\". Seamus, sobrecarregado de trabalho, conseguiu um dia de \"licença especial por dor de cabeça\". E Varka ganhou uma nova \"piada de Seamus\" para acompanhar suas bebidas.\nQuanto a Lohen, daquele dia em diante, ele ganhou uma nova forma de lutar — e viver — bem como uma pequena \"bolinha de gude\", como ele a chamava, que ocasionalmente era útil durante as missões."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 212900,
+      "Name": "Lâmina Forjada em Gelo",
+      "Description": "Vestuário de Lohen. A armadura de cavaleiro é significativamente mais pesada do que as roupas que ele usava como aventureiro. Mas, para Lohen, apenas o peso do equipamento e a forma como os outros o veem mudaram — seu desejo de derrotar os inimigos e sua obsessão implacável permanecem os mesmos.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113085,
+    101272,
+    112013,
+    104306,
+    113073
+  ],
+  "NameCard": {
+    "Name": "Lohen: Benevolência",
+    "Description": "Estilo de cartão de visita.\n\"Benevolência\" pode ser a última palavra que qualquer um usaria para descrever Lohen. Mas, mesmo os espinhos mais afiados crescem do solo mais gentil.",
+    "Icon": "UI_NameCardIcon_Lohen",
+    "PicturePrefix": "UI_NameCardPic_Lohen"
+  }
+}

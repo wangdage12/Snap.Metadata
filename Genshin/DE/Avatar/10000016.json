@@ -36,11 +36,11 @@
         "GroupId": 1631,
         "Proud": {
           "Descriptions": [
-            "SCH Phase 1|{param1:F1P}",
-            "SCH Phase 2|{param2:F1P}",
-            "SCH Phase 3|{param3:F1P}",
+            "SCH Phase 1|{param1:P}",
+            "SCH Phase 2|{param2:P}",
+            "SCH Phase 3|{param3:P}",
             "SCH Phase 4|{param4:P}",
-            "SCH heftiger Schläge pro Runde|{param5:F1P}",
+            "SCH heftiger Schläge pro Runde|{param5:P}",
             "SCH heftiger Schläge am Ende|{param6:P}",
             "#Ausdauerverbrauch heftiger Schläge|{param7:F1} Punkte pro{NON_BREAK_SPACE}s",
             "Höchstdauer|{param8:F1} s",
@@ -303,7 +303,8 @@
                 5.978574
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10160,
         "Name": "Gehärteter Stahl",
@@ -314,8 +315,8 @@
         "GroupId": 1632,
         "Proud": {
           "Descriptions": [
-            "SCH Phase 1|{param1:F1P}",
-            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 1|{param1:P}",
+            "SCH Phase 2|{param2:P}",
             "SCH Phase 3|{param3:P}",
             "Abklingzeit|{param4:F1} s"
           ],
@@ -470,7 +471,8 @@
                 10
               ]
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 10161,
         "Name": "Sengende Klinge",
@@ -483,7 +485,7 @@
       "Proud": {
         "Descriptions": [
           "Schwerthieb-SCH|{param1:P}",
-          "Fortlaufender SCH|{param2:F1P}",
+          "Fortlaufender SCH|{param2:P}",
           "Explosions-SCH|{param3:P}",
           "Abklingzeit|{param4:F1} s",
           "Elementarumwandlungsdauer|{param5:F1} s",
@@ -670,7 +672,8 @@
               40
             ]
           }
-        ]
+        ],
+        "Display": 0
       },
       "Id": 10165,
       "Name": "Dämmerung",
@@ -730,7 +733,8 @@
               "Level": 1,
               "Parameters": []
             }
-          ]
+          ],
+          "Display": 0
         },
         "Id": 162301,
         "Name": "Tradition der Dämmerung",
