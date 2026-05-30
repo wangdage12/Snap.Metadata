@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Four Winds' Ascension",
     "Description": "Elemental Skill Khusus milik Varka. Mengakibatkan Elemental DMG Area yang tidak bisa ditimpa Elemental Infusion lainnya dan memiliki jenis elemen yang sesuai dengan pedang claymore di tangan kanan Varka, dan juga mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>.\nAkan dimulai dengan cooldown dan memiliki jumlah penggunaan 2 kali.\nSaat Normal Attack Varka dalam mode <color=#FFD780FF>Sturm und Drang</color> mengenai musuh, maka CD <color=#FFD780FF>Four Winds' Ascension</color> akan berkurang 0,5 detik. Setiap kali berganti ke mode <color=#FFD780FF>Sturm und Drang</color>, efek ini dapat terpicu maksimum 15 kali.\nSelain itu, Varka dapat mengonsumsi jumlah penggunaan <color=#FFD780FF>Four Winds' Ascension</color> untuk melancarkan Charged Attack khusus yang tidak mengonsumsi Stamina, <color=#FFD780FF>Azure Devour</color>, untuk mengakibatkan 2 kali Elemental DMG (tidak bisa ditimpa Elemental Infusion lainnya) dengan jenis elemen yang sesuai dengan pedang claymore di tangan kanannya dan juga 2 kali <color=#80FFD7FF>Anemo DMG</color>."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Masterstroke",
+    "Description": "Lohen akan berganti ke mode ini setelah melancarkan Elemental Skill <color=#FFD780FF>Unforeseen Strike</color>. Mode Masterstroke memiliki karakteristik sebagai berikut:\n·Normal Attack, Charged Attack, dan Plunging Attack Lohen akan dikonversi menjadi <color=#99FFFFFF>Cryo DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya.\n·Saat Normal atau Charged Attack Lohen mengenai musuh, akan mengakumulasi <color=#FFD780FF>Joy</color> khusus untuk Lohen, yang dapat digunakan untuk melancarkan Elemental Skill Khusus <color=#FFD780FF>Etched Into Bone and Soul</color>. Setelah melancarkan maksimum 3 kali <color=#FFD780FF>Etched Into Bone and Soul</color> saat dalam mode <color=#FFD780FF>Masterstroke</color>, Lohen tidak bisa lagi mendapatkan <color=#FFD780FF>Joy</color>.\n·Saat anggota party lain di sekitar mengakibatkan DMG, Lohen juga akan mengakumulasi <color=#FFD780FF>Will to Win</color> khusus yang dapat meningkatkan DMG yang diakibatkan <color=#FFD780FF>Etched Into Bone and Soul</color>.\n·Lohen akan keluar dari mode Masterstroke saat meninggalkan medan pertempuran. Saat mode ini berakhir, semua <color=#FFD780FF>Joy</color> dan <color=#FFD780FF>Will to Win</color> yang dimiliki juga akan hilang."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Etched Into Bone and Soul",
+    "Description": "Elemental Skill Khusus yang dapat dilancarkan setelah <color=#FFD780FF>Joy</color> Lohen mencapai batas maksimum.\nSetelah mengenai musuh, Lohen akan mengonsumsi semua <color=#FFD780FF>Joy</color> dan <color=#FFD780FF>Will to Win</color> untuk mengakibatkan <color=#99FFFFFF>Cryo DMG</color> dan meningkatkan DMG kali ini berdasarkan jumlah <color=#FFD780FF>Will to Win</color> yang dikonsumsi."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Joy",
+    "Description": "Saat Normal Attack atau Charged Attack Lohen  dalam mode Masterstroke mengenai musuh, ia akan mendapatkan {PARAM#P1293201|13S1} poin <color=#FFD780FF>Joy</color>, hingga maksimum 100 poin.\n<color=#FFD780FF>Joy</color> bisa diperoleh sekali setiap 0,1 detik. Setelah akumulasi <color=#FFD780FF>Joy</color> mencapai batas maksimum, Elemental Skill <color=#FFD780FF>Unforeseen Strike</color> milik Lohen akan berubah menjadi Elemental Skill Khusus, yaitu <color=#FFD780FF>Etched Into Bone and Soul</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Will to Win",
+    "Description": "Sumber daya khusus yang akan didapatkan Lohen saat anggota party lain di sekitar mengakibatkan DMG saat Lohen berada dalam mode Masterstroke, maksimum 100 poin.\nSelama durasi Masterstroke, jika anggota party lain di sekitar mengakibatkan DMG dan DMG yang diakibatkan kali ini tidak lebih rendah dari {PARAM#P1293201|15S100}% Base ATK Lohen, maka Lohen akan mengakumulasi {PARAM#P1293201|16S1} poin <color=#FFD780FF>Will to Win</color>. Jika tidak, Lohen akan mengakumulasi 1 poin <color=#FFD780FF>Will to Win</color>.\nSatu Karakter dapat mengakumulasi <color=#FFD780FF>Will to Win</color> untuk Lohen satu kali setiap 0,1 detik."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi: Bentuk Serangan",
+    "Description": "Lumi memiliki 3 jenis Bentuk Serangan yang berbeda.\n\n<color=#FFD780FF>Super Power Form</color>\nLumi akan menggunakan <color=#FFD780FF>Pound-Pound Pummeler</color> untuk terus menyerang musuh di sekitar, mengakibatkan 2 kali <color=#FFE699FF>Geo DMG Area</color> untuk setiap serangannya.\nJika ada Moondrift di sekitar, Lumi akan berganti antara menggunakan <color=#FFD780FF>Pound-Pound Pummeler</color> dan <color=#FFD780FF>Heavy Overdrive Hammer</color> untuk terus menyerang musuh di sekitar. <color=#FFE699FF>Geo DMG Area</color> yang diakibatkan <color=#FFD780FF>Heavy Overdrive Hammer</color> akan dianggap sebagai DMG reaksi Lunar-Crystallize.\n\n<color=#FFD780FF>Ultimate Power Form</color>\nLumi akan menggunakan <color=#FFD780FF>Million Ton Crush</color> yang super dahsyat untuk mengakibatkan satu kali <color=#FFE699FF>Geo DMG Area</color> yang kuat dan dianggap sebagai DMG reaksi Lunar-Crystallize, kemudian berganti ke bentuk <color=#FFD780FF>Standard Power Form</color>.\n\n<color=#FFD780FF>Standard Power Form</color>\nMeski bentuk ini tidak sehebat bentuk yang lain, tapi tetap saja, hebat.\nLumi akan menggunakan <color=#FFD780FF>Pound-Pound Pummeler</color> untuk terus menyerang musuh di sekitar dengan jeda yang lebih lama, mengakibatkan 2 kali <color=#FFE699FF>Geo DMG Area</color> untuk setiap serangannya."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Grace of Kenosis",
+    "Description": "Setelah melancarkan Elemental Skill <color=#FFD780FF>Revelation: Uncreated Light</color>, Nicole akan memberikan efek berikut kepada seluruh anggota party di sekitar: Meningkatkan ATK berdasarkan ATK Nicole.\nSetelah memenuhi syarat tertentu, efek <color=#FFD780FF>Grace of Kenosis</color> akan meningkat menjadi <color=#FFD780FF>Guidance of Theosis</color> dan akan meningkatkan ATK lebih besar."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Guidance of Theosis",
+    "Description": "Efek <color=#FFD780FF>Grace of Kenosis</color> yang telah ditingkatkan. Efek ini akan memberikan peningkatan tambahan sebesar {PARAM#P1312101|3S1} poin ATK.\nSetelah membuka Talenta Ascension \"Methexis\" dan memenuhi salah satu kondisi \"observasi\" berikut, <color=#FFD780FF>Grace of Kenosis</color> akan berubah menjadi <color=#FFD780FF>Guidance of Theosis</color> selama sisa durasinya:\n·Karakter lain yang diobservasi tetap berada di medan pertempuran selama lebih dari {PARAM#P1312101|2S1} detik.\n·Karakter lain yang diobservasi adalah Karakter Hexerei.\n\nSelain itu, setelah membuka Talenta Ascension \"Philokalia\" dan setelah Elemental DMG Karakter aktif di sekitar party mengenai musuh, <color=#FFD780FF>Grace of Kenosis</color> milik Nicole sendiri juga akan berubah menjadi <color=#FFD780FF>Guidance of Theosis</color> selama {PARAM#P1312201|1S1} detik.\n\nSelain Nicole, <color=#FFD780FF>Guidance of Theosis</color> yang dimiliki Karakter lain akan kembali menjadi <color=#FFD780FF>Grace of Kenosis</color> saat mereka meninggalkan medan pertempuran."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Banehunter Oathhammer",
+    "Description": "Teman baik pemburu penyihir yang pantas dipercaya! Dapat memicu Elemental Conversion saat memenuhi kondisi tertentu, seluruh DMG awal yang diakibatkan Banehunter Oathhammer akan dikonversi menjadi DMG dengan jenis elemen yang sesuai terhadap musuh.\nPrune dapat memanggil Banehunter Oathhammer yang telah memicu Elemental Conversion melalui cara berikut:\n·Dalam beberapa saat setelah Elemental Skill <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> yang dilancarkan memicu reaksi Swirl terhadap musuh, Prune dapat melancarkan Elemental Skill Khusus <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>. Saat melancarkan Elemental Skill Khusus ini, Banehunter Oathhammer akan dikonversi menjadi jenis elemen lain yang terlibat dalam reaksi Swirl sebelumnya.\n·Setelah membuka Talenta Ascension \"Verdict and Punishment\", jika Witchlure Bell dalam mode Hunter-Seeker memicu reaksi Swirl terhadap musuh, maka akan memanggil Banehunter Oathhammer yang sudah mengalami Elemental Conversion berdasarkan reaksi Swirl kali ini untuk menyerang musuh."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Verdict and Punishment",
+    "Description": "Dalam Elemental Burst<color=#FFD780FF> The Bell Tolls! The Hunt is On!</color>, setelah Witchlure Bell dalam mode Hunter-Seeker mengakibatkan DMG terhadap musuh, jika DMG tersebut memicu reaksi Swirl terhadap musuh, maka akan memanggil <color=#FFD780FF>Banehunter Oathhammer</color> yang telah mengalami Elemental Conversion berdasarkan reaksi Swirl kali ini di depan musuh dan menghantamnya, mengakibatkan Elemental DMG yang sesuai dengan konversi Swirl. DMG ini dianggap sebagai DMG Elemental Burst."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Tolling Synchronicity",
+    "Description": "Setelah Prune menggunakan <color=#FFD780FF>Banehunter Oathhammer</color>yang telah mengalami Elemental Conversion untuk mengenai musuh, anggota party lain di sekitar akan mendapatkan efek Tolling Rally: Meningkatkan DMG yang diakibatkan serangannya berdasarkan ATK Prune."
   }
 ]

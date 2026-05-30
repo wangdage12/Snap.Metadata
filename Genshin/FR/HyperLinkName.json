@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Ascension des quatre vents",
     "Description": "Cette compétence élémentaire spéciale de Varka inflige des DGT de zone ne pouvant pas être enchantés de l'élément correspondant à la lame de sa main droite, ainsi que des <color=#80FFD7FF>DGT Anémo de zone</color>.\nVarka possède 2 utilisations disponibles après un TdR initial.\nLorsque Varka touche un ennemi avec une attaque normale pendant sa <color=#FFD780FF>charge de tempête</color>, le TdR de son <color=#FFD780FF>Ascension des quatre vents</color> diminue de 0,5 s, cet effet pouvant être déclenché 15 fois maximum pendant chaque <color=#FFD780FF>charge de tempête</color>.\nDe plus, Varka peut consommer les utilisations de son <color=#FFD780FF>Ascension des quatre vents</color> pour effectuer son attaque chargée spéciale <color=#FFD780FF>Dévoreur azur</color> qui ne consomme pas d'endurance, infligeant 2 fois des DGT ne pouvant pas être enchantés de l'élément correspondant à la lame de sa main droite, ainsi que 2 fois des <color=#80FFD7FF>DGT Anémo</color>."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Coup de maître",
+    "Description": "Lohen passe dans cet état après avoir déclenché sa compétence élémentaire <color=#FFD780FF>Frappe imprévue</color>. Les effets suivants s'appliquent :\n· Les attaques normales, chargées et plongeantes de Lohen sont converties pour infliger des <color=#99FFFFFF>DGT Cryo</color> ne pouvant pas être enchantés.\n· En touchant un ennemi avec une attaque normale ou chargée, Lohen accumule de la <color=#FFD780FF>joie</color> qui peut être utilisée pour déclencher sa compétence élémentaire spéciale <color=#FFD780FF>Gravé dans les os et l'âme</color>. Après avoir utilisé <color=#FFD780FF>Gravé dans les os et l'âme</color> un maximum de 3 fois pendant l'état <color=#FFD780FF>Coup de maître</color>, Lohen ne peut plus obtenir de <color=#FFD780FF>joie</color>.\n· Lorsqu'un autre personnage de l'équipe à proximité inflige des DGT, il accumule de la <color=#FFD780FF>détermination</color> pour Lohen, ce qui permet d'augmenter les DGT infligés par <color=#FFD780FF>Gravé dans les os et l'âme</color>.\n· Lorsque Lohen quitte le terrain, l'état Coup de maître prend fin, ce qui réinitialise toute <color=#FFD780FF>détermination</color> et <color=#FFD780FF>joie</color> cumulée."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Gravé dans les os et l'âme",
+    "Description": "Lohen peut utiliser cette compétence élémentaire spéciale une fois sa <color=#FFD780FF>joie</color> au maximum.\nToucher un ennemi consomme toute la <color=#FFD780FF>joie</color> et la <color=#FFD780FF>détermination</color> pour infliger des <color=#99FFFFFF>DGT Cryo</color>, les DGT étant augmentés selon la quantité de <color=#FFD780FF>détermination</color> consommée."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Joie",
+    "Description": "Lohen peut cumuler {PARAM#P1293201|13S1} pts de <color=#FFD780FF>joie</color> lorsqu'il touche un ennemi avec une attaque normale ou chargée tout en étant dans l'état Coup de maître, jusqu'à un maximum de 100 pts.\n\nLa <color=#FFD780FF>joie</color> peut être cumulée une fois toutes les 0,1 s. Lorsque la <color=#FFD780FF>joie</color> atteint le maximum, la compétence élémentaire <color=#FFD780FF>Frappe imprévue</color> de Lohen est convertie en compétence élémentaire spéciale <color=#FFD780FF>Gravé dans les os et l'âme</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Détermination",
+    "Description": "Cette ressource spéciale se cumule lorsqu'un autre personnage de l'équipe à proximité inflige des DGT alors que Lohen est dans l'état Coup de maître, jusqu'à un maximum de 100 pts.\nPendant l'état Coup de maître, si un autre personnage de l'équipe à proximité inflige des DGT d'une valeur au moins équivalant à {PARAM#P1293201|15S100} % de l'ATQ de base de Lohen, il permet à Lohen de cumuler {PARAM#P1293201|16S1} pts de <color=#FFD780FF>détermination</color> ; sinon, seul 1 pt de <color=#FFD780FF>détermination</color> est cumulé.\nUn même personnage peut aider Lohen à cumuler de la <color=#FFD780FF>détermination</color> une fois toutes les 0,1 s."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi : Formes d'attaque",
+    "Description": "Lumi possède trois formes d'attaque.\n\n<color=#FFD780FF>Forme super puissante</color>\nLumi utilise son <color=#FFD780FF>broyeur boum-boum</color> pour attaquer sans cesse les ennemis proches, chaque attaque infligeant 2 fois des <color=#FFE699FF>DGT Géo de zone</color>.\nSi un voile lunaire est présent à proximité, Lumi alterne entre son <color=#FFD780FF>broyeur boum-boum</color> et son <color=#FFD780FF>marteau de surcouple</color> pour attaquer sans cesse les ennemis proches, le <color=#FFD780FF>marteau de surcouple</color> infligeant des <color=#FFE699FF>DGT Géo de zone</color> considérés comme des DGT de réaction de Sélénocristallisation.\n\n<color=#FFD780FF>Forme ultra puissante</color>\nLumi utilise son puissant <color=#FFD780FF>marteau d'un million de tonnes</color> pour attaquer violemment une fois les ennemis proches, infligeant des <color=#FFE699FF>DGT Géo de zone</color> considérés comme des DGT de réaction de Sélénocristallisation avant de passer en <color=#FFD780FF>forme puissante</color>.\n\n<color=#FFD780FF>Forme puissante</color>\nCe n'est peut-être pas aussi spectaculaire que les autres formes, mais ça n'en reste pas moins redoutable.\nLumi utilise son <color=#FFD780FF>broyeur boum-boum</color> moins fréquemment pour attaquer sans cesse les ennemis proches, chaque attaque infligeant 2 fois des <color=#FFE699FF>DGT Géo de zone</color>."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Grâce de kénose",
+    "Description": "Après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Révélation : Lumière incréée</color>, Nicole augmente l'ATQ de tous les personnages de l'équipe à proximité selon sa propre ATQ.\nLorsque certaines conditions sont remplies, la <color=#FFD780FF>grâce de kénose</color> est améliorée en <color=#FFD780FF>guidance de théose</color>, ce qui augmente davantage l'ATQ."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Guidance de théose",
+    "Description": "#Améliorer la <color=#FFD780FF>grâce de kénose</color> accorde la guidance de théose, qui augmente l'ATQ de {PARAM#P1312101|3S1} pts supplémentaires.\nLa <color=#FFD780FF>grâce de kénose</color> est améliorée en <color=#FFD780FF>guidance de théose</color> pour le reste de sa durée après avoir débloqué l'aptitude d'élévation « Méthexis » et rempli une des conditions suivantes :\n· Si un autre personnage observé reste sur le terrain pendant plus de {PARAM#P1312101|2S1}{NON_BREAK_SPACE}s.\n· Si un autre personnage observé est un personnage héxère.\n\nDe plus, après avoir débloqué l'aptitude d'élévation « Philocalie », la <color=#FFD780FF>grâce de kénose</color> de Nicole s'améliore également en <color=#FFD780FF>guidance de théose</color> pendant {PARAM#P1312201|1S1} s lorsqu'un personnage déployé de l'équipe à proximité a touché un ennemi avec des DGT élémentaires.\n\nSi un personnage autre que Nicole quitte le terrain, sa <color=#FFD780FF>guidance de théose</color> redevient une <color=#FFD780FF>grâce de kénose</color>."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Marteau-serment de chasse des fléaux",
+    "Description": "Le fidèle compagnon de la chasseuse de sorcières ! Dans les conditions adéquates, le marteau-serment de chasse des fléaux subit une absorption élémentaire, convertissant tous ses DGT en l'élément correspondant.\nPrune peut invoquer un marteau-serment de chasse des fléaux dont l'élément a été converti des manières suivantes :\n· Pendant un certain moment après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Ding ding ding ! Carillon de chasse aux sorcières</color> pour déclencher une réaction de Dispersion sur un ennemi, Prune peut utiliser la compétence élémentaire spéciale <color=#FFD780FF>Bang bang ! Arrivée de la rétribution de sorcière</color>. Utiliser cette compétence élémentaire spéciale convertit le marteau-serment de chasse des fléaux en l'autre élément impliqué dans cette réaction de Dispersion.\n· Après avoir débloqué l'aptitude d'élévation « Verdict et peine », déclencher une réaction de Dispersion sur un ennemi avec la cloche de l'ensorceleuse pendant le mode Chasse-traque invoque un marteau-serment de chasse des fléaux de l'élément de la réaction de Dispersion pour attaquer l'ennemi."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Verdict et peine",
+    "Description": "Lorsque la cloche de l'ensorceleuse du mode Chasse-traque inflige des DGT à un ennemi pendant le déchaînement élémentaire <color=#FFD780FF>Le glas sonne ! La chasse est ouverte</color>, déclencher par la même occasion une réaction de Dispersion sur l'ennemi invoque un <color=#FFD780FF>marteau du serment de chasse des fléaux</color> dont l'élément est converti selon la réaction élémentaire, infligeant des DGT de l'élément correspondant. Ces dégâts sont considérés comme des DGT de déchaînement élémentaire."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Synchronicité des cloches",
+    "Description": "Lorsque Prune a touché un ennemi avec un <color=#FFD780FF>marteau-serment de chasse des fléaux</color> dont l'élément a été converti, les autres personnages de l'équipe à proximité obtiennent l'effet Ralliement du glas : augmente les DGT infligés par les attaques selon l'ATQ de Prune."
   }
 ]

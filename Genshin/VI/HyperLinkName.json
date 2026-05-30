@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Tứ Phong Trỗi Dậy",
     "Description": "Kỹ Năng Nguyên Tố đặc biệt của Varka, gây cho kẻ địch sát thương phạm vi nguyên tố tương ứng không thể bị thay thế từ trọng kiếm tay phải của Varka và <color=#80FFD7FF>Sát Thương Phạm Vi Nguyên Tố Phong</color>.\nBan đầu sẽ trong trạng thái chờ hồi chiêu, tối đa có 2 lần khả dụng.\nKhi Varka trong chế độ <color=#FFD780FF>Bão Táp Đột Kích</color> và Tấn Công Thường trúng kẻ địch, thời gian chờ của <color=#FFD780FF>Tứ Phong Trỗi Dậy</color> sẽ rút ngắn 0.5s. Sau mỗi lần chuyển sang chế độ <color=#FFD780FF>Bão Táp Đột Kích</color>, hiệu quả này tối đa kích hoạt 15 lần.\nNgoài ra, Varka có thể tiêu hao số lần khả dụng của <color=#FFD780FF>Tứ Phong Trỗi Dậy</color> để thực hiện Trọng Kích đặc biệt <color=#FFD780FF>Trời Xanh Cắn Xé</color> không tiêu hao thể lực, gây 2 lần sát thương nguyên tố tương ứng không thể bị thay thế từ trọng kiếm tay phải của Varka và 2 lần <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Kỳ Mưu",
+    "Description": "Sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Kỳ Binh Quỷ Xuất</color>, Lohen sẽ chuyển sang trạng thái này. Trạng thái Kỳ Mưu có đặc tính sau:\n·Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của Lohen sẽ chuyển sang gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> không thể bị thay thế.\n·Khi Lohen Tấn Công Thường hoặc Trọng Kích trúng kẻ địch, sẽ tích lũy <color=#FFD780FF>Niềm Vui</color> đặc biệt cho Lohen, dùng để thi triển Kỹ Năng Nguyên Tố đặc biệt <color=#FFD780FF>Khắc Cốt Ghi Tâm</color>. Trong trạng thái <color=#FFD780FF>Kỳ Mưu</color> tối đa thi triển 3 lần <color=#FFD780FF>Khắc Cốt Ghi Tâm</color>, sau đó sẽ không được nhận <color=#FFD780FF>Niềm Vui</color> nữa.\n·Khi nhân vật khác trong đội ở gần gây sát thương, sẽ tích lũy <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> đặc biệt cho Lohen, dùng để tăng sát thương Kỹ Năng Nguyên Tố đặc biệt <color=#FFD780FF>Khắc Cốt Ghi Tâm</color>.\n·Khi Lohen rời trận, cũng sẽ kết thúc trạng thái Kỳ Mưu. Khi trạng thái Kỳ Mưu kết thúc, <color=#FFD780FF>Niềm Vui</color> và <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> cũng sẽ bị xóa."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Khắc Cốt Ghi Tâm",
+    "Description": "Sau khi Lohen tích lũy <color=#FFD780FF>Niềm Vui</color> đến giới hạn, sẽ có thể thi triển Kỹ Năng Nguyên Tố đặc biệt này.\nSau khi trúng kẻ địch sẽ tiêu hao toàn bộ <color=#FFD780FF>Niềm Vui</color> và <color=#FFD780FF>Nỗ Lực Chiến Thắng</color>, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> và đồng thời tăng sát thương lần này dựa trên <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> đã tiêu hao."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Niềm Vui",
+    "Description": "Trong trạng thái Kỳ Mưu, khi Lohen Tấn Công Thường hoặc Trọng Kích trúng kẻ địch, sẽ nhận được {PARAM#P1293201|13S1} điểm <color=#FFD780FF>Niềm Vui</color>, giới hạn 100 điểm.\nMỗi 0.1s tối đa nhận một lần <color=#FFD780FF>Niềm Vui</color>. Sau khi tích lũy <color=#FFD780FF>Niềm Vui</color> đến giới hạn, Kỹ Năng Nguyên Tố <color=#FFD780FF>Kỳ Binh Quỷ Xuất</color> của Lohen sẽ được thay thế bằng Kỹ Năng Nguyên Tố đặc biệt <color=#FFD780FF>Khắc Cốt Ghi Tâm</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Nỗ Lực Chiến Thắng",
+    "Description": "Trong trạng thái Kỳ Mưu, khi nhân vật khác trong đội ở gần gây sát thương, sẽ cung cấp tài nguyên đặc biệt này cho Lohen, giới hạn 100 điểm.\nTrong thời gian duy trì trạng thái Kỳ Mưu, khi nhân vật khác trong đội ở gần gây sát thương, nếu sát thương lần này không thấp hơn {PARAM#P1293201|15S100}% Tấn Công cơ bản của Lohen, thì sẽ tích lũy {PARAM#P1293201|16S1} <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> cho Lohen. Nếu ngược lại, thì sẽ tích lũy 1 <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> cho Lohen.\nCùng một nhân vật mỗi 0.1s tối đa tích lũy một lần <color=#FFD780FF>Nỗ Lực Chiến Thắng</color> cho Lohen."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi - Hình Thái Xuất Kích",
+    "Description": "Lumi sở hữu ba hình thái xuất kích khác nhau.\n\n<color=#FFD780FF>Hình Thái Đáng Gờm</color>\nLumi sẽ dùng <color=#FFD780FF>Đánh Đập Dồn Dập</color> để liên tục tấn công kẻ địch ở gần, mỗi lần tấn công sẽ gây 2 lần <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color>.\nNếu có Trăng Trôi ở gần, Lumi sẽ chuyển sang dùng <color=#FFD780FF>Đánh Đập Dồn Dập</color> và <color=#FFD780FF>Búa Nặng Cường Lực</color> để liên tục tấn công kẻ địch ở gần. <color=#FFD780FF>Búa Nặng Cường Lực</color> sẽ gây <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color> và được xem là sát thương phản ứng Nguyệt-Kết Tinh.\n\n<color=#FFD780FF>Hình Thái Tối Thượng</color>\nLumi sẽ dùng <color=#FFD780FF>Búa Nặng Triệu Tấn</color> cực kỳ lợi hại để gây cho kẻ địch xung quanh một lần <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color> mạnh mẽ hơn và được xem là sát thương phản ứng Nguyệt-Kết Tinh, đồng thời chuyển sang <color=#FFD780FF>Hình Thái Thông Thường</color>.\n\n<color=#FFD780FF>Hình Thái Thông Thường</color>\nTuy không ghê gớm bằng các hình thái khác, nhưng cũng vẫn rất lợi hại.\nLumi sẽ dùng <color=#FFD780FF>Đánh Đập Dồn Dập</color> với giãn cách dài hơn để liên tục tấn công kẻ địch ở gần, mỗi lần tấn công sẽ gây 2 lần <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color>."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Ân Huệ Khiêm Nhường",
+    "Description": "Sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Khải Huyền - Ánh Sáng Chưa Hiển Hiện</color>, Nicole sẽ ban hiệu quả này cho tất cả nhân vật trong đội ở gần: Tăng Tấn Công dựa trên Tấn Công của Nicole.\nSau khi đạt điều kiện cụ thể, hiệu quả <color=#FFD780FF>Ân Huệ Khiêm Nhường</color> sẽ nâng cấp thành <color=#FFD780FF>Chỉ Dẫn Thần Thánh</color>, tiếp tục tăng thêm Tấn Công."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Chỉ Dẫn Thần Thánh",
+    "Description": "Hiệu quả <color=#FFD780FF>Ân Huệ Khiêm Nhường</color> sau khi nâng cấp, sẽ tăng thêm {PARAM#P1312101|3S1} điểm Tấn Công.\nSau khi mở khóa Thiên Phú Đột Phá \"Sự Sẻ Chia\" và đáp ứng điều kiện \"Quan Sát\" bất kỳ trong đó, <color=#FFD780FF>Ân Huệ Khiêm Nhường</color> sẽ được nâng cấp thành <color=#FFD780FF>Chỉ Dẫn Thần Thánh</color> trong thời gian duy trì còn lại:\n·Nhân vật được Quan Sát liên tục ở trong trận trên {PARAM#P1312101|2S1}s.\n·Nhân vật được Quan Sát là nhân vật Hexerei.\n\nNgoài ra, sau khi mở khóa Thiên Phú Đột Phá \"Sự Hướng Thiện\", sau khi Sát Thương Nguyên Tố của nhân vật ra trận hiện tại trong đội ở gần đánh trúng kẻ địch, <color=#FFD780FF>Ân Huệ Khiêm Nhường</color> mà bản thân Nicole sở hữu cũng sẽ nâng cấp thành <color=#FFD780FF>Chỉ Dẫn Thần Thánh</color> trong vòng {PARAM#P1312201|1S1}s.\n\nNgoài Nicole, <color=#FFD780FF>Chỉ Dẫn Thần Thánh</color> mà nhân vật khác sở hữu sẽ khôi phục về trạng thái <color=#FFD780FF>Ân Huệ Khiêm Nhường</color> khi họ rời trận."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Búa Săn Tai Ương",
+    "Description": "Bạn đồng hành săn lùng ma nữ rất đáng tin cậy! Có thể phát sinh chuyển hóa nguyên tố trong điều kiện nhất định, tất cả sát thương vốn do Búa Săn Tai Ương gây ra đều sẽ chuyển sang gây sát thương nguyên tố tương ứng lên kẻ địch.\nPrune có thể thông qua những cách thức sau để triệu hồi Búa Săn Tai Ương chuyển hóa nguyên tố:\n·Trong một khoảng thời gian nhất định sau khi Prune thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Reng Reng - Âm Thanh Săn Ma</color> và kích hoạt phản ứng Khuếch Tán lên kẻ địch, có thể thi triển Kỹ Năng Nguyên Tố đặc biệt <color=#FFD780FF>Leng Keng - Trừng Phạt Ác Ma</color>. Khi thi triển Kỹ Năng Nguyên Tố đặc biệt này, Búa Săn Tai Ương sẽ chuyển sang loại nguyên tố khác đã tham gia phản ứng Khuếch Tán trước đó.\n·Sau khi mở khóa Thiên Phú Đột Phá \"Phán Quyết Truy Cứu\", nếu Chuông Nhử Phù Thủy ở chế độ Săn Lùng kích hoạt phản ứng Khuếch Tán lên kẻ địch, sẽ triệu hồi một Búa Săn Tai Ương chuyển hóa nguyên tố theo phản ứng Khuếch Tán lần này để tấn công kẻ địch."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Phán Quyết Truy Cứu",
+    "Description": "Trong Kỹ Năng Nộ <color=#FFD780FF>Chuông Reo - Thời Khắc Săn Ma</color>, sau khi Chuông Nhử Phù Thủy ở chế độ \"Săn Lùng\" gây sát thương lên kẻ địch, nếu lần sát thương này kích hoạt phản ứng Khuếch Tán, sẽ triệu hồi một <color=#FFD780FF>Búa Săn Tai Ương</color> được chuyển hóa nguyên tố theo phản ứng Khuếch Tán lần này ở trước mặt kẻ địch và đập xuống, gây Sát Thương Nguyên Tố tương ứng. Sát thương này được xem là sát thương Kỹ Năng Nộ."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Tiếng Chuông Cộng Hưởng",
+    "Description": "Sau khi Prune dùng <color=#FFD780FF>Búa Săn Tai Ương</color> đã chuyển hóa nguyên tố đánh trúng kẻ địch, nhân vật khác trong đội ở gần sẽ nhận được hiệu quả Tiếng Chuông Khích Lệ: Dựa trên Tấn Công của Prune, tăng sát thương gây ra bởi đòn tấn công."
   }
 ]

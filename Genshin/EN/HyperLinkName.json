@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Four Winds' Ascension",
     "Description": "Varka's special Elemental Skill. Deals AoE Elemental DMG that cannot be overridden by infusions corresponding to the element of the claymore wielded in Varka's right hand, and <color=#80FFD7FF>AoE Anemo DMG</color> to opponents.\nStarts on cooldown and has 2 maximum uses.\nWhen Varka is in <color=#FFD780FF>Sturm und Drang</color> mode and his Normal Attack hits an opponent, the CD of <color=#FFD780FF>Four Winds' Ascension</color> will be reduced by 0.5s. Every time Varka switches to the <color=#FFD780FF>Sturm und Drang</color> mode, this effect can be triggered up to 15 times.\nAdditionally, Varka can expend uses of <color=#FFD780FF>Four Winds' Ascension</color> to perform a special Charged Attack, <color=#FFD780FF>Azure Devour</color>, that consumes no Stamina, dealing 2 instances of Elemental DMG corresponding to the element of the claymore wielded in his right hand, which cannot be overridden by infusions, and 2 instances of <color=#80FFD7FF>Anemo DMG</color>."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Masterstroke",
+    "Description": "Lohen switches to this mode after he unleashes the Elemental Skill <color=#FFD780FF>Unforeseen Strike</color>. Masterstroke mode has the following characteristics:\n· DMG dealt by Lohen's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to <color=#99FFFFFF>Cryo DMG</color> that cannot be overridden by other infusions.\n· When Lohen hits an opponent with a Normal Attack or Charged Attack, he accumulates <color=#FFD780FF>Joy</color> that can be used to unleash the special Elemental Skill <color=#FFD780FF>Etched Into Bone and Soul</color>. Lohen can unleash <color=#FFD780FF>Etched Into Bone and Soul</color> up to 3 times while in <color=#FFD780FF>Masterstroke</color> mode, after which, he will no longer be able to accumulate <color=#FFD780FF>Joy</color>.\n· When nearby party members deal DMG, they also accumulate <color=#FFD780FF>Will to Win</color> for Lohen that can be used to increase the DMG dealt by <color=#FFD780FF>Etched Into Bone and Soul</color>.\n· Masterstroke mode ends when Lohen leaves the field. When Masterstroke mode ends, <color=#FFD780FF>Joy</color> and <color=#FFD780FF>Will to Win</color> will be reset to zero."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Etched Into Bone and Soul",
+    "Description": "A special Elemental Skill that Lohen can use after his <color=#FFD780FF>Joy</color> reaches the max limit.\nAfter hitting an opponent, consumes all <color=#FFD780FF>Joy</color> and <color=#FFD780FF>Will to Win</color> to deal <color=#99FFFFFF>Cryo DMG</color>. This DMG increases based on the amount of <color=#FFD780FF>Will to Win</color> consumed."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Joy",
+    "Description": "When Lohen hits opponents with a Normal Attack or Charged Attack while in Masterstroke mode, he will accumulate {PARAM#P1293201|13S1} <color=#FFD780FF>Joy</color>. Up to 100 Joy may be accumulated at any one time.\n<color=#FFD780FF>Joy</color> can be accumulated once every 0.1s. Once <color=#FFD780FF>Joy</color> reaches its max limit, Lohen's Elemental Skill <color=#FFD780FF>Unforeseen Strike</color> will be replaced with the special Elemental Skill <color=#FFD780FF>Etched Into Bone and Soul</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Will to Win",
+    "Description": "A special resource accumulated when other nearby party members deal DMG while Lohen is in Masterstroke mode. Up to 100 Will to Win may be accumulated at any one time.\nWhile Masterstroke mode is active, when other nearby party members deal DMG, if that DMG is not less than {PARAM#P1293201|15S100}% of Lohen's Base ATK, he accumulates {PARAM#P1293201|16S1} <color=#FFD780FF>Will to Win</color>. Otherwise, he accumulates 1 <color=#FFD780FF>Will to Win</color>.\nEach character can accumulate <color=#FFD780FF>Will to Win</color> for Lohen once every 0.1s."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi: Strike Forms",
+    "Description": "Lumi has three different Strike Forms.\n\n<color=#FFD780FF>Super Power Form</color>\nLumi will use <color=#FFD780FF>Pound-Pound Pummeler</color> to attack nearby opponents continuously. Every attack will deal 2 instances of <color=#FFE699FF>AoE Geo DMG</color>.\nIf there are Moondrifts nearby, Lumi will alternate between <color=#FFD780FF>Pound-Pound Pummeler</color> and <color=#FFD780FF>Heavy Overdrive Hammer</color> to continuously attack nearby opponents . <color=#FFD780FF>Heavy Overdrive Hammer</color> will deal <color=#FFE699FF>AoE Geo DMG</color> which will be considered Lunar-Crystallize Reaction DMG.\n\n<color=#FFD780FF>Ultimate Power Form</color>\nLumi will use the ultimate <color=#FFD780FF>Million Ton Crush</color>, dealing an especially powerful instance of <color=#FFE699FF>AoE Geo DMG</color> that is considered Lunar-Crystallize Reaction DMG, switching to <color=#FFD780FF>Standard Power Form</color>.\n\n<color=#FFD780FF>Standard Power Form</color>\nIt might not be as flashy as the other forms, but it still packs a serious punch.\nLumi will use <color=#FFD780FF>Pound-Pound Pummeler</color> at longer intervals to attack nearby opponents continuously. Every attack will deal 2 instances of <color=#FFE699FF>AoE Geo DMG</color>."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Grace of Kenosis",
+    "Description": "After unleashing the Elemental Skill <color=#FFD780FF>Revelation: Uncreated Light</color>, Nicole bestows the following effect on all nearby party members: ATK is increased based on Nicole's ATK.\nAfter certain conditions are met, the <color=#FFD780FF>Grace of Kenosis</color> effect will be upgraded to <color=#FFD780FF>Guidance of Theosis</color>, further increasing ATK."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Guidance of Theosis",
+    "Description": "Upgrading the <color=#FFD780FF>Grace of Kenosis</color> effect increases ATK by an additional {PARAM#P1312101|3S1}.\nAfter unlocking the Ascension Talent \"Methexis\" and meeting any of the following observation conditions, <color=#FFD780FF>Grace of Kenosis</color> will be upgraded to <color=#FFD780FF>Guidance of Theosis</color> for the remainder of its duration:\n· Another character under observation remains on the field for longer than {PARAM#P1312101|2S1}s; or\n· Another character under observation is a Hexerei character.\n\nAdditionally, after unlocking the Ascension Talent \"Philokalia,\" when a nearby active party member's Elemental DMG hits an opponent, Nicole's own <color=#FFD780FF>Grace of Kenosis</color> will be upgraded to <color=#FFD780FF>Guidance of Theosis</color> for {PARAM#P1312201|1S1}s.\n\nWhen characters other than Nicole who have <color=#FFD780FF>Guidance of Theosis</color> leave the field, their effect will revert to <color=#FFD780FF>Grace of Kenosis</color>."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Banehunter Oathhammer",
+    "Description": "A witchhunter's trusty companion! Under the right conditions, the Banehunter Oathhammer undergoes Elemental Conversion, turning all its DMG into DMG of the corresponding Elemental Type.\nPrune can summon the Banehunter Oathhammer that has undergone Elemental Conversion in the following ways:\n· For a certain time after triggering a Swirl Reaction on an opponent with the Elemental Skill <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color>, Prune can unleash the special Elemental Skill <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>. When using this special Elemental Skill, the Banehunter Oathhammer will be converted to the other Elemental Type involved in the aforementioned Swirl Reaction.\n· After the Ascension Talent \"Verdict and Punishment\" is unlocked, when the Witchlure Bell in Hunter-Seeker mode triggers Swirl on an opponent, it will summon a Banehunter Oathhammer that has undergone the corresponding Elemental Conversion to attack the opponent."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Verdict and Punishment",
+    "Description": "During the Elemental Burst <color=#FFD780FF>The Bell Tolls! The Hunt Is On!</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a <color=#FFD780FF>Banehunter Oathhammer</color> that deals DMG of the type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Tolling Synchronicity",
+    "Description": "After Prune hits an opponent with the <color=#FFD780FF>Banehunter Oathhammer</color> that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect: Attack DMG will be increased based on Prune's ATK."
   }
 ]

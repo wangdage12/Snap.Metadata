@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Aufkommen der vier Winde",
     "Description": "Varkas besondere Elementarfähigkeit, die Gegnern Flächenschaden des Elements des Großschwerts, das er in der rechten Hand hält, sowie <color=#80FFD7FF>Anemo-Flächenschaden</color> zufügt, die nicht von anderen Elementen überdeckt werden können.\nBefindet sich anfänglich in der Abklingzeit und kann max. 2-mal angewendet werden.\nVerkürzt, wenn Varkas Standardangriffe im Modus <color=#FFD780FF>Ansturm der Winde</color> Gegner treffen, die Abklingzeit von <color=#FFD780FF>Aufkommen der vier Winde</color> um 0,5 s. Dieser Effekt kann nach jedem Wechsel in den Modus <color=#FFD780FF>Ansturm der Winde</color> bis zu 15-mal ausgelöst werden.\nAußerdem kann Varka die Anwendungsmöglichkeiten von <color=#FFD780FF>Aufkommen der vier Winde</color> verbrauchen, um den besonderen heftigen Schlag <color=#FFD780FF>Azurbiss</color> auszuführen, der keine Ausdauer verbraucht und 2-mal Schaden des Elements des Großschwerts, das er in der rechten Hand hält, sowie 2-mal <color=#80FFD7FF>Anemo-Schaden</color> verursacht, die nicht von anderen Elementen überdeckt werden können."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Geniestreich",
+    "Description": "Versetzt Lohen nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Unerwarteter Schachzug</color> in den Zustand „Geniestreich“, der über folgende Eigenschaften verfügt:\n· Wandelt Lohens Standardangriffe, heftige Schläge und Angriffe aus dem Fall in <color=#99FFFFFF>Kryo-Schaden</color> um, der nicht von anderen Elementen überdeckt werden kann.\n· Sammelt, wenn Lohen Gegner mit einem Standardangriff oder heftigen Schlag trifft, besondere <color=#FFD780FF>Freude</color> für Lohen an, die zum Anwenden der besonderen Elementarfähigkeit <color=#FFD780FF>Bis ins Mark</color> benötigt wird. Nach max. dreimaliger Anwendung von <color=#FFD780FF>Bis ins Mark</color> im Zustand <color=#FFD780FF>Geniestreich</color> kann keine <color=#FFD780FF>Freude</color> mehr erhalten werden.\n· Sammelt, wenn andere Truppenmitglieder in der Nähe Schaden verursachen, besonderen <color=#FFD780FF>Siegeswillen</color> für Lohen an, der den von der besonderen Elementarfähigkeit <color=#FFD780FF>Bis ins Mark</color> verursachten Schaden erhöht.\n· Hebt den Zustand „Geniestreich“ auf, wenn Lohen ausgewechselt wird. Löscht, wenn der Zustand „Geniestreich“ aufgehoben wird, auch <color=#FFD780FF>Freude</color> und <color=#FFD780FF>Siegeswille</color>."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Bis ins Mark",
+    "Description": "Eine besondere Elementarfähigkeit, die Lohen anwenden kann, nachdem er den Höchstwert an <color=#FFD780FF>Freude</color> angesammelt hat.\nVerbraucht nach dem Treffen eines Gegners die gesamte Menge an <color=#FFD780FF>Freude</color> und <color=#FFD780FF>Siegeswille</color>, um <color=#99FFFFFF>Kryo-Schaden</color> zu verursachen und diesen Schaden gemäß der verbrauchten <color=#FFD780FF>Siegeswillen</color> zu erhöhen."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Freude",
+    "Description": "#Verleiht Lohen, wenn er im Zustand „Geniestreich“ Gegner mit Standardangriffen oder heftigen Schlägen trifft, {PARAM#P1293201|13S1} Pkt. <color=#FFD780FF>Freude</color>, max. 100 Pkt.\n<color=#FFD780FF>Freude</color> kann nur einmal alle 0,1{NON_BREAK_SPACE}s erhalten werden. Ersetzt, wenn <color=#FFD780FF>Freude</color> den Höchstwert erreicht, Lohens Elementarfähigkeit <color=#FFD780FF>Unerwarteter Schachzug</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Bis ins Mark</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Siegeswille",
+    "Description": "#Eine besondere Ressource, die Lohen im Zustand „Geniestreich“ bereitgestellt wird, wenn andere Truppenmitglieder in der Nähe Schaden verursachen. Sie ist auf max. 100 Punkte begrenzt.\nSammelt während der Dauer des Zustands „Geniestreich“ {PARAM#P1293201|16S1} Punkte <color=#FFD780FF>Siegeswille</color> für Lohen an, wenn der von anderen Truppenmitgliedern in der Nähe verursachte Schaden nicht unter {PARAM#P1293201|15S100}{NON_BREAK_SPACE}% von Lohens Basis-ANG liegt, andernfalls lediglich 1 Punkt <color=#FFD780FF>Siegeswille</color>.\nDieselbe Figur kann höchstens einmal alle 0,1{NON_BREAK_SPACE}s <color=#FFD780FF>Siegeswille</color> für Lohen sammeln."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi – Angriffsmodi",
+    "Description": "Lumi verfügt über drei verschiedene Angriffsmodi.\n\n<color=#FFD780FF>Super-Modus</color>\nLumi nutzt den <color=#FFD780FF>Hammerschlag</color>, um Gegner in der Nähe fortlaufend anzugreifen. Jeder Angriff verursacht 2-mal <color=#FFE699FF>Geo-Flächenschaden</color>.\nFalls ein Mondkäfig in der Nähe ist, wechselt Lumi zwischen dem <color=#FFD780FF>Hammerschlag</color> und <color=#FFD780FF>Krafthammer</color>, um Gegner in der Nähe fortlaufend anzugreifen. <color=#FFD780FF>Krafthammer</color> verursacht <color=#FFE699FF>Geo-Flächenschaden</color>, der als Mond-Kristallisations-SCH gewertet wird.\n\n<color=#FFD780FF>Ultra-Modus</color>\nLumi nutzt den ultimativen <color=#FFD780FF>tonnenschweren Hammer</color>, um Gegnern in der Nähe einmalig besonders starken <color=#FFE699FF>Geo-Flächenschaden</color> zuzufügen, der als Mond-Kristallisations-SCH gewertet wird. Danach wechselt Lumi zum <color=#FFD780FF>Standard-Modus</color>.\n\n<color=#FFD780FF>Standard-Modus</color>\nNicht so mächtig wie die anderen Modi, aber trotzdem stark.\nLumi nutzt den <color=#FFD780FF>Hammerschlag</color>, allerdings nun in längeren Abständen, um Gegner in der Nähe fortlaufend anzugreifen. Jeder Angriff verursacht 2-mal <color=#FFE699FF>Geo-Flächenschaden</color>."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Gabe der Kenosis",
+    "Description": "Verleiht, nachdem die Elementarfähigkeit <color=#FFD780FF>Verheißung des Wortes – Licht des Ungesehenen</color> ausgelöst wurde, allen Truppenmitgliedern in der Nähe durch Nicole diesen Effekt: Erhöht den ANG basierend auf Nicoles ANG.\nWenn bestimmte Bedingungen erfüllt sind, wird der Effekt <color=#FFD780FF>Gabe der Kenosis</color> zu <color=#FFD780FF>Führung der Theosis</color> hochgestuft, was den ANG weiter erhöht."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Führung der Theosis",
+    "Description": "#Verstärkte Version des Effekts <color=#FFD780FF>Gabe der Kenosis</color>, die den ANG zusätzlich um {PARAM#P1312101|3S1} Pkt. erhöhen kann.\nWenn das Aufstiegstalent „Methexis“ freigeschaltet ist und eine der „Beobachtungs“-Bedingungen erfüllt ist, wird der Effekt <color=#FFD780FF>Gabe der Kenosis</color> für die restliche Dauer zu <color=#FFD780FF>Führung der Theosis</color> hochgestuft:\n· Eine andere beobachtete Figur bleibt länger als {PARAM#P1312101|2S1}{NON_BREAK_SPACE}s auf dem Feld.\n· Bei einer anderen beobachteten Figur handelt es sich um eine Hexerei-Figur.\n\nStuft zudem, nachdem das Aufstiegstalent „Philokalie“ freigeschaltet wurde und ein aktuelles Truppenmitglied in der Nähe einem Gegner mit Elementar-Schaden getroffen hat, Nicoles eigene <color=#FFD780FF>Gabe der Kenosis</color> innerhalb von {PARAM#P1312201|1S1}{NON_BREAK_SPACE}s zu <color=#FFD780FF>Führung der Theosis</color> hoch.\n\nAbgesehen von Nicole wird <color=#FFD780FF>Führung der Theosis</color> aller anderen Figuren nach dem Verlassen des Felds wieder auf <color=#FFD780FF>Gabe der Kenosis</color> zurückgestuft."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Hammer des Jagdschwurs",
+    "Description": "Ein toller Gefährte der Hexenjägerin! Unter bestimmten Umständen findet eine Elementarumwandlung statt, bei der der gesamte vom „Hammer des Jagdschwurs“ verursachte Schaden in Schaden des entsprechenden Elementartyps umgewandelt wird.\nPrune kann den „Hammer des Jagdschwurs“, der eine Elementarumwandlung durchläuft, auf folgende Art und Weise heraufbeschwören:\n· Ermöglicht innerhalb einer bestimmten Zeit, nachdem Prune mit ihrer Elementarfähigkeit <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> eine Verwirbelung gegen Gegner ausgelöst hat, die Anwendung der besonderen Elementarfähigkeit <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>. Beim Anwenden dieser besonderen Elementarfähigkeit wandelt sich der „Hammer des Jagdschwurs“ in den anderen Elementartyp um, der an der vorherigen Verwirbelung beteiligt war.\n· Beschwört nach dem Freischalten des Aufstiegstalents „Entscheidung und Strafe“, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ eine Verwirbelung gegen Gegner ausgelöst hat, einen „Hammer des Jagdschwurs“ herbei, der basierend auf dieser Verwirbelung eine Elementarumwandlung durchläuft und Gegner angreift."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Entscheidung und Strafe",
+    "Description": "Beschwört, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ der Spezialfähigkeit <color=#FFD780FF>Glockenläuten! Die Jagd ist eröffnet!</color> einem Gegner Schaden zufügt und dieser Schaden eine Verwirbelung auslöst, die den Gegner trifft, vor dem Gegner einen <color=#FFD780FF>Hammer des Jagdschwurs</color>. Dieser führt eine Elementarumwandlung basierend auf der ausgelösten Verwirbelung durch, schlägt auf den Gegner ein und verursacht dabei Elementar-Schaden des entsprechenden Typs. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Herzschlag in Eintracht",
+    "Description": "Verleiht, wenn Prune einen Gegner mit dem <color=#FFD780FF>Hammer des Jagdschwurs</color>, der bereits eine Elementarumwandlung durchlaufen hat, trifft, anderen Truppenmitgliedern in der Nähe den Effekt Trommelwirbel: Erhöht den durch den Angriff verursachten Schaden basierend auf Prunes ANG."
   }
 ]

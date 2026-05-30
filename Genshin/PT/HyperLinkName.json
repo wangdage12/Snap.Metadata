@@ -438,5 +438,55 @@
     "Id": 11280002,
     "Name": "Ascensão dos Quatro Ventos",
     "Description": "Habilidade Elemental especial de Varka que causa <color=#80FFD7FF>Dano Anemo em AdE</color> e Dano Elemental em AdE correspondente insubstituível com o espadão de sua mão direita.\nInicia em recarga com até 2 Usos.\nQuando Varka está no modo <color=#FFD780FF>Investida Furacão</color> e atinge um Ataque Normal em um inimigo, reduz a recarga de <color=#FFD780FF>Ascensão dos Quatro Ventos</color> em 0.5s. Esse efeito pode ser desencadeado até 15 vezes depois de cada vez que trocar para o modo <color=#FFD780FF>Investida Furacão</color>.\nAlém disso, Varka consome os Usos de <color=#FFD780FF>Ascensão dos Quatro Ventos</color> para realizar o Ataque Carregado especial <color=#FFD780FF>Devoração Cerúlea</color> que não consome Stamina, causando 2 instâncias de Dano Elemental correspondente insubstituível com o espadão de sua mão direita e 2 instâncias de <color=#80FFD7FF>Dano Anemo</color>."
+  },
+  {
+    "Id": 11290001,
+    "Name": "Golpe de Mestre",
+    "Description": "Depois de lançar a Habilidade Elemental <color=#FFD780FF>Ataque Surpresa</color>, Lohen retornará para esse estado. O estado Golpe de Mestre possui as seguintes características:\n· Os Ataques Normais, Carregados e Imersivos de Lohen serão convertidos para <color=#99FFFFFF>Dano Cryo</color> que não pode ser substituído.\n· Quando os Ataques Normais ou Carregados de Lohen atingem um inimigo, acumulam <color=#FFD780FF>Alegria</color> para Lohen, que é utilizada ao lançar a Habilidade Elemental especial <color=#FFD780FF>Entalhado em Alma e Osso</color>. Lohen pode lançar <color=#FFD780FF>Entalhado em Alma e Osso</color> até 3 vezes enquanto está no modo <color=#FFD780FF>Golpe de Mestre</color>, do qual ele não poderá mais acumular <color=#FFD780FF>Alegria</color>\n· Quando os outros membros próximos da equipe causam Dano, acumulam <color=#FFD780FF>Luta pela Vitória</color> para Lohen, que é utilizada para aumentar o Dano causado pela Habilidade Elemental <color=#FFD780FF>Entalhado em Alma e Osso</color>.\n· Quando Lohen sair de campo, Golpe de Mestre será removido. Quando Golpe de Mestre é removido, <color=#FFD780FF>Alegria</color> e <color=#FFD780FF>Luta pela Vitória</color> também serão removidos."
+  },
+  {
+    "Id": 11290002,
+    "Name": "Entalhado em Alma e Osso",
+    "Description": "Quando <color=#FFD780FF>Alegria</color> de Lohen acumula até o limite máximo, pode lançar a Habilidade Elemental especial.\nApós acertar um inimigo, consome tudo de <color=#FFD780FF>Alegria</color> e <color=#FFD780FF>Luta pela Vitória</color> para causar <color=#99FFFFFF>Dano Cryo</color>, e aumenta o Dano causado de acordo com a quantidade de <color=#FFD780FF>Luta pela Vitória</color> consumido."
+  },
+  {
+    "Id": 11290003,
+    "Name": "Alegria",
+    "Description": "Quando Lohen atinge oponentes com um Ataque Normal ou Ataque Carregado enquanto está no modo <color=#FFD780FF>Golpe de Mestre</color>, ele acumula {PARAM#P1293201|13S1} de <color=#FFD780FF>Alegria</color>. É possível acumular até 100 pontos de Alegria por vez.\nA <color=#FFD780FF>Alegria</color> pode ser acumulada uma vez a cada 0.1s. Quando <color=#FFD780FF>Alegria</color> atinge o limite máximo, a Habilidade Elemental de Lohen, <color=#FFD780FF>Ataque Surpresa</color>, será substituída pela Habilidade Elemental especial <color=#FFD780FF>Entalhado em Alma e Osso</color>."
+  },
+  {
+    "Id": 11290004,
+    "Name": "Luta pela Vitória",
+    "Description": "Um recurso especial fornecido para Lohen no estrado Golpe de Mestre quando os outros personagens próximos da equipe causam Dano. Máximo de 100 pontos.\nNa duração de Golpe de Mestre, quando os outros membros próximos da equipe causarem Dano, se esse Dano não for menor que {PARAM#P1293201|15S100}% do ATQ Básico de Lohen, acumulará {PARAM#P1293201|16S1} pontos de <color=#FFD780FF>Luta pela Vitória</color> para Lohen, caso contrário, acumulará 1 ponto de <color=#FFD780FF>Espírito</color>.\nO mesmo personagem pode acumular <color=#FFD780FF>Luta pela Vitória</color> uma vez a cada 0.1s para Lohen."
+  },
+  {
+    "Id": 11300001,
+    "Name": "Lumi: Forma de Ataque",
+    "Description": "Lumi possui três Formas de Ataque diferentes.\n\n<color=#FFD780FF>Forma Superpoderosa</color>\nLumi usará <color=#FFD780FF>Golpeador Arrematador</color> para atacar inimigos próximos continuamente. Cada ataque causará 2 instâncias de <color=#FFE699FF>Dano Geo em AdE</color>.\nSe houver uma Jaula Lunar por perto, Lumi alternará entre <color=#FFD780FF>Golpeador Arrematador</color> e <color=#FFD780FF>Martelo Pesado da Sobrecarga</color> para atacar inimigos próximos continuamente. <color=#FFD780FF>Martelo Pesado da Sobrecarga</color> causará <color=#FFE699FF>Dano Geo em AdE</color> que será considerado Dano de Cristalização Lunar.\n\n<color=#FFD780FF>Forma de Poder Supremo</color>\nLumi usa o poderoso <color=#FFD780FF>Esmagador de Milionárias Toneladas</color> para causar muito <color=#FFE699FF>Dano Geo em AdE</color> que é considerado Dano de Cristalização Lunar uma vez, trocando para a <color=#FFD780FF>Forma de Poder Normal</color>.\n\n<color=#FFD780FF>Forma de Poder Normal</color>\nNão é tão chamativa quanto as outras formas, mas ainda é forte.\n Lumi usa o <color=#FFD780FF>Golpeador Arrematador</color> em intervalos maiores para atacar inimigos continuamente. Cada ataque causa 2 instâncias de <color=#FFE699FF>Dano Geo em AdE</color>."
+  },
+  {
+    "Id": 11310001,
+    "Name": "Graça de Kenosis",
+    "Description": "Depois de lançar a Habilidade Elemental <color=#FFD780FF>Revelação: Luz Não Criada</color>, Nicole concede o seguinte efeito para todos os personagens próximos da equipe: aumenta o ATQ deles com base no ATQ de Nicole.\nQuando satisfazer requisitos específicos, <color=#FFD780FF>Graça de Kenosis</color> aumentará para <color=#FFD780FF>Orientação de Theosis</color>, aumentando ainda mais o ATQ."
+  },
+  {
+    "Id": 11310002,
+    "Name": "Orientação de Theosis",
+    "Description": "Depois que o efeito de <color=#FFD780FF>Graça de Kenosis</color> for elevado, aumentará mais {PARAM#P1312101|3S1} de ATQ.\nDepois de desbloquear o Talento de Ascensão \"Methexis\" e satisfazer qualquer um dos requisitos de \"Observação\", <color=#FFD780FF>Graça de Kenosis</color> será elevada para <color=#FFD780FF>Orientação de Theosis</color> no tempo restante da duração:\n· Personagens sob efeito de Observação que permanecer ativo por mais de {PARAM#P1312101|2S1}s; ou\n· Outros personagens Mágicos sob efeito de Observação.\n\nAlém disso, depois de desbloquear o Talento de Ascensão \"Philokalia\", quando um membro da equipe ativo próximo causar Dano a um oponente com sua Habilidade Elemental, a <color=#FFD780FF>Graça de Kenosis</color> de Nicole será elevada para <color=#FFD780FF>Orientação de Theosis</color> por {PARAM#P1312201|1S1}s.\n\nCom exceção de Nicole, os demais personagens que possuem <color=#FFD780FF>Orientação de Theosis</color> retornarão para <color=#FFD780FF>Graça de Kenosis</color> quando deixarem de ser o personagem ativo."
+  },
+  {
+    "Id": 11320001,
+    "Name": "Martelo do Juramento Livrador",
+    "Description": "A companheira confiável de uma caçadora de bruxas! O Martelo do Juramento Livrador Pode passar por Conversão Elemental sob certas circunstâncias, transformando todo seu Dano em Dano do Tipo Elemental correspondente.\nPrune pode invocar o Martelo do Juramento Livrador que passou por Conversão Elemental das seguintes formas: \n· Por um certo tempo após desencadear Redemoinho contra um oponente com a Habilidade Elemental <color=#FFD780FF>Ding-ding! Tilintar Caçador de Magia!</color>, pode lançar a Habilidade Elemental especial <color=#FFD780FF>Ting-Ting! Retribuição das Bruxas!</color>. Ao lançar a Habilidade Elemental especial, o Martelo do Juramento Livrador se converterá para o outro Tipo Elemental da reação de Redemoinho.\n· Depois de desbloquear o Talento Passivo \"Veredito e Punição\", se estiver no Modo Caçador e o Sino Chama-Bruxa causar Redemoinho nos inimigos, invoca um Martelo do Juramento Livrador que passou por Conversão Elemental de acordo com o Redemoinho atual para atacar o inimigo."
+  },
+  {
+    "Id": 11320002,
+    "Name": "Veredito e Punição",
+    "Description": "Quando causar Dano contra o inimigo no Modo Caçador do Sino Chama-Bruxa do Supremo <color=#FFD780FF>O Sino Toca! A Caçada Chegou!</color>, se esse Dano desencadear Redemoinho, invoca um <color=#FFD780FF>Martelo do Juramento Livrador</color> que causa Dano do tipo correspondente da Conversão Elemental de Redemoinho. Esse Dano é considerado como Dano de Supremo."
+  },
+  {
+    "Id": 11320003,
+    "Name": "Badalar Síncrono",
+    "Description": "Após Prune acertar um oponente com o <color=#FFD780FF>Martelo do Juramento Livrador</color> que passou por uma Conversão Elemental, os outros membros da equipe próximos ganharão o efeito de Dança dos Sinos: O Dano de ATQ será aumentado baseado no ATQ de Prune."
   }
 ]
