@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Xạ Thuật Của Thần",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, có sát thương cao hơn.\nKhi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+        "SpecialDescription": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, có sát thương cao hơn.\nKhi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên liên tiếp từ trên không và xung kích xuống mặt đất, gây sát thương phạm vi khi chạm đất.\n\n<color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>\nTrong thời gian tồn tại Mắt Bão tạo ra từ Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, Venti sẽ nhận được hiệu ứng cường hóa thêm:\n·Tấn Công Thường của Venti sẽ chuyển sang bắn <color=#FFD780FF>Mũi Tên Bão</color> có thể xuyên thấu kẻ địch, gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> cao hơn lên kẻ địch trên đường đi.\n·Khi Venti Tấn Công Thường trúng kẻ địch, sẽ kéo dài thời gian duy trì Mắt Bão thêm 1s, thời gian chờ tăng thêm 0.5s. Hiệu quả này mỗi 0.1s tối đa kích hoạt một lần, và tối đa kích hoạt 2 lần sau mỗi lần thi triển Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Mũi Tên Gió",
         "Description": "<color=#FFD780FF>Ngắm bắn</color> sẽ phóng thêm 2 mũi tên, lần lượt gây sát thương bằng 33% sát thương gốc.",
+        "SpecialDescription": "<color=#FFD780FF>Ngắm Bắn</color> sẽ phóng thêm hai mũi tên phân tách, lần lượt gây ra 33% sát thương gốc.\nNgoài ra, <color=#FFD780FF>Mũi Tên Bão</color> cũng sẽ phóng thêm hai mũi tên có khả năng truy đuổi kẻ địch, lần lượt gây ra 20% sát thương gốc. Hiệu quả này mỗi 0.25s tối đa kích hoạt một lần.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Tình Yêu Gió Lạnh",
         "Description": "<color=#FFD780FF>Bài Ca Trời Cao</color> sẽ khiến <color=#80FFD7FF>kháng Nguyên Tố Phong</color> và kháng vật lý của địch giảm 12%, kéo dài 10s.\nĐịch bị <color=#FFD780FF>Bài Ca Trời Cao</color> đánh bay trước khi rơi xuống đất, <color=#80FFD7FF>kháng Nguyên Tố Phong</color> và kháng vật lý giảm thêm 12%.",
+        "SpecialDescription": "<color=#FFD780FF>Bài Ca Trời Cao</color> sẽ giảm 24% <color=#80FFD7FF>Kháng Nguyên Tố Phong</color> và Kháng Vật Lý của kẻ địch trong 10s.\nNgoài ra, sau khi thi triển Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, Venti sẽ nhận hiệu quả <color=#FFD780FF>Thời Khắc Nổi Gió</color> và làm mới thời gian chờ Kỹ Năng Nguyên Tố <color=#FFD780FF>Bài Ca Trời Cao</color>. Sau khi <color=#FFD780FF>Mũi Tên Bão</color> đánh trúng kẻ địch, cũng sẽ có 25% xác suất khiến Venti nhận hiệu quả <color=#FFD780FF>Thời Khắc Nổi Gió</color>.\n\n<color=#FFD780FF>Thời Khắc Nổi Gió</color>\nKhi nhấn thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Bài Ca Trời Cao</color>, sẽ gây 300% sát thương gốc. Hiệu quả này duy trì 15s, và sẽ xóa sau khi Venti nhấn thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Bài Ca Trời Cao</color>.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Cơn Gió Tự Do",
         "Description": "Sau khi Venti nhận Nguyên Tố Tinh Cầu hoặc Nguyên Tố Hạt Nhân, sẽ nhận được 25% <color=#80FFD7FF>Buff Sát Thương Nguyên Tố Phong</color>, kéo dài 10s.",
+        "SpecialDescription": "Sau khi Venti thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Bài Ca Trời Cao</color> hoặc Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, Venti và các nhân vật khác ra trận trong đội hiện tại của bản thân sẽ nhận 25% <color=#80FFD7FF>buff Sát Thương Nguyên Tố Phong</color> trong 10s.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Bão Chiến Tranh",
         "Description": "Kẻ địch bị <color=#FFD780FF>Bài Thơ Thần Gió</color> sát thương, <color=#80FFD7FF>kháng Nguyên Tố Phong</color> giảm 20%.\nNếu chuyển hoá nguyên tố xảy ra, sẽ giảm 20% kháng nguyên tố đã chuyển.",
+        "SpecialDescription": "Kẻ địch chịu sát thương từ <color=#FFD780FF>Bài Thơ Thần Gió</color> sẽ giảm 20% <color=#80FFD7FF>Kháng Nguyên Tố Phong</color>.\nNếu xảy ra chuyển hoá nguyên tố, cũng sẽ giảm 20% kháng nguyên tố đã chuyển hóa.\nNgoài ra, sát thương Venti gây ra cho những kẻ địch này sẽ nhận buff 100% Sát Thương Bạo Kích.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

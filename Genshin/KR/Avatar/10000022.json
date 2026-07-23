@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "신성한 사격술",
         "Description": "<color=#FFD780FF>일반 공격</color>\n활로 최대 6번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n피해가 더 크고 정확한 <color=#FFD780FF>조준 사격</color>을 한다.\n조준 시 천지를 보살피는 바람이 화살 촉에 계속해서 모인다. 바람의 힘이 가득 찬 화살은 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
+        "SpecialDescription": "<color=#FFD780FF>일반 공격</color>\n활로 최대 6번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n피해가 더 크고 정확한 <color=#FFD780FF>조준 사격</color>을 한다.\n조준 시 천지를 보살피는 바람이 화살 촉에 계속해서 모인다. 바람의 힘이 가득 찬 화살은 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n원소폭발 <color=#FFD780FF>바람 신의 시</color>가 만든 폭풍의 눈이 존재하는 동안, 벤티가 추가 강화 효과를 획득한다:\n·벤티의 일반 공격이 적을 관통하는 <color=#FFD780FF>폭풍 화살</color>로 변경되어 경로상의 적에게 더 큰 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n·벤티의 일반 공격이 적에게 명중 시, 폭풍의 눈 지속 시간이 1초 연장되고 재사용 대기시간이 0.5초 연장된다. 해당 효과는 0.1초마다 최대 1회 발동되며, 원소폭발 <color=#FFD780FF>바람 신의 시</color>를 발동할 때마다, 최대 2번 발동할 수 있다",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "쏘아 올린 창풍",
         "Description": "<color=#FFD780FF>조준 사격</color> 시 추가로 두 발의 분열된 화살을 발사한다. 각각 기존 화살의 33% 피해를 준다",
+        "SpecialDescription": "<color=#FFD780FF>조준 사격</color> 시 추가로 두 발의 분열된 화살을 발사한다. 각각 기존 화살의 33%에 해당하는 피해를 준다.\n또한, <color=#FFD780FF>폭풍 화살</color>도 적을 추적하는 화살 2개를 추가로 발사해, 각각 기존의 20%에 해당하는 피해를 준다. 해당 효과는 0.25초마다 최대 1회 발동된다",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "그리운 찬 바람",
         "Description": "<color=#FFD780FF>높은 하늘의 노래</color>는 적의 <color=#80FFD7FF>바람 원소 내성</color>과 물리 내성을 12% 감소시킨다. 지속 시간: 10초.\n<color=#FFD780FF>높은 하늘의 노래</color>에 의해 공중에 띄워진 적은 땅에 닿기 전에 <color=#80FFD7FF>바람 원소 내성</color>과 물리 내성이 추가로 12% 감소한다",
+        "SpecialDescription": "<color=#FFD780FF>높은 하늘의 노래</color>는 적의 <color=#80FFD7FF>바람 원소 내성</color>과 물리 내성을 24% 감소시킨다. 지속 시간: 10초.\n또한, 원소폭발 <color=#FFD780FF>바람 신의 시</color> 발동 후, 벤티가 <color=#FFD780FF>바람이 시작되는 순간</color> 효과를 획득하고 원소전투 스킬 <color=#FFD780FF>높은 하늘의 노래</color>의 재사용 대기시간이 초기화된다. <color=#FFD780FF>폭풍 화살</color>이 적에게 명중한 후, 25% 확률로 벤티가 <color=#FFD780FF>바람이 시작되는 순간</color> 효과를 획득한다.\n\n<color=#FFD780FF>바람이 시작되는 순간</color>\n짧은 터치로 원소전투 스킬 <color=#FFD780FF>높은 하늘의 노래</color> 발동 시, 기존의 300%에 해당하는 피해를 준다. 해당 효과는 15초 동안 지속되며, 벤티가 짧은 터치로 원소전투 스킬 <color=#FFD780FF>높은 하늘의 노래</color> 발동 후 사라진다",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "자유의 찬 바람",
         "Description": "벤티가 원소 구슬 혹은 원소 입자를 획득 후 <color=#80FFD7FF>바람 원소 피해 보너스</color>를 25% 획득한다. 지속 시간: 10초",
+        "SpecialDescription": "벤티가 원소전투 스킬 <color=#FFD780FF>높은 하늘의 노래</color> 또는 원소폭발 <color=#FFD780FF>바람 신의 시</color> 발동 후, 벤티와 현재 필드 위 파티 내 자신의 다른 캐릭터의 <color=#80FFD7FF>바람 원소 피해 보너스</color>가 25% 증가한다. 지속 시간: 10초",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "투쟁의 폭풍",
         "Description": "<color=#FFD780FF>바람신의 시</color>에 피격된 적은 <color=#80FFD7FF>바람 원소 내성</color>이 20% 감소한다.\n원소 전환이 발생할 경우 해당 원소 내성도 20% 감소한다",
+        "SpecialDescription": "<color=#FFD780FF>바람신의 시</color>의 피해를 받은 적은 <color=#80FFD7FF>바람 원소 내성</color>이 20% 감소한다.\n원소 전환이 발생할 경우 해당 원소 내성도 20% 감소한다.\n또한, 벤티가 해당 적에게 주는 피해는 치명타 피해 보너스를 100% 획득한다",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

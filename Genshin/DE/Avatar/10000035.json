@@ -304,7 +304,10 @@
             "Fortlaufende Heilung|{param3:F2P} ANG + {param4:I}",
             "Frostbringer-SCH|{param5:F1P}",
             "Dauer|{param6:F1} s",
-            "Abklingzeit|{param7:F1} s"
+            "Abklingzeit|{param7:F1} s",
+            "SCH abgestimmter Angriffe des Frostbringers|{param9:F1P}",
+            "#Abklingzeit abgestimmter Angriffe des Frostbringers|{param10:F1}{NON_BREAK_SPACE}s",
+            "#Abklingzeit|{param11:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Adeptenkunst – Frostbringer",
         "Description": "Beschwört den Frostbringer mithilfe des Frostader-Talismans und fügt den Gegnern in der Umgebung <color=#99FFFFFF>Kryo-Schaden</color> zu.\n\n<color=#FFD780FF>Frostbringer</color>\n· Qiqi stellt bei Treffern mit Standardangriffen und heftigen Schlägen allen eigenen Truppenmitgliedern und befreundeten Einheiten in der Nähe LP basierend auf Qiqis ANG wieder her.\n· Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her.\n· Fügt den Gegnern in der Bahn gemäß den Bewegungen der Figur <color=#99FFFFFF>Kryo-Schaden</color> zu.\n\n<i>„Mein Freund hier dient größtenteils der Frischhaltung ... also für die kostbaren Wirkstoffe von Herrn Bai.“</i>",
+        "SpecialDescription": "Beschwört den Frostbringer mithilfe des Frostader-Talismans und fügt den Gegnern in der Umgebung <color=#99FFFFFF>Kryo-Schaden</color> zu.\n\n<color=#FFD780FF>Frostbringer</color>\n· Stellt, wenn Qiqi Gegner mit Standardangriffen und heftigen Schlägen trifft, allen eigenen Truppenmitgliedern und verbündeten Figuren in der Nähe LP basierend auf ihrem ANG wieder her.\n· Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her.\n· Folgt der Figur und fügt Gegnern in deren Weg <color=#99FFFFFF>Kryo-Schaden</color> zu.\n· Führt, wenn die eigene aktuelle Figur einen Gegner trifft, einen abgestimmten Angriff aus und fügt dem Gegner <color=#99FFFFFF>Kryo-Schaden</color> zu.\n\n<i>„Mein Freund hier dient größtenteils der Frischhaltung ... also für die kostbaren Wirkstoffe von Herrn Bai.“</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Sieben Heilige Schätze",
+        "Description": "#Verkürzt die Abklingzeit der Elementarfähigkeit <color=#FFD780FF>Adeptenkunst – Frostbringer</color> auf 15{NON_BREAK_SPACE}s.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht während der Dauer von Frostbringer den durch die Reaktionen Supraleiter und Stellar-Supraleiter verursachten Schaden der eigenen Truppenmitglieder um 50{NON_BREAK_SPACE}%.\nVersetzt Qiqi zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Heilung|{param1:P} ANG + {param2:I}",
           "Dauer|{param4:F1} s",
           "Abklingzeit|{param5:F1} s",
-          "Elementarenergie|{param6:I}"
+          "Elementarenergie|{param6:I}",
+          "Stellar-Supraleiter-SCH|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Adeptenkunst – Befreiung vom Leid",
       "Description": "Qiqi lässt der adeptischen Kraft, die in ihrem Körper versiegelt ist, freien Lauf, markiert Gegner in der Nähe mit ihrem Leidbefreiungs-Talisman und verursacht <color=#99FFFFFF>Kryo-Schaden</color>.\n\n<color=#FFD780FF>Leidbefreiungs-Talisman</color>\nStellt Figuren, die vom Effekt des Leidbefreiungs-Talismans betroffenen Gegnern Schaden zufügen, LP wieder her.\n\n<i>„Ich bin die Fürstin der Befreiung von Leid und Elend, das wiederauferstandene Kind.“</i>\n<i>- An diese Worte erinnert sich Qiqi längst nicht mehr.</i>",
+      "SpecialDescription": "Qiqi lässt der adeptischen Kraft, die in ihrem Körper versiegelt ist, freien Lauf, markiert Gegner in der Nähe mit ihrem Leidbefreiungs-Talisman und verursacht <color=#99FFFFFF>Kryo-Schaden</color>.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Verursacht zusätzlich einmal <color=#99FFFFFF>Kryo-Schaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird.\n\n<color=#FFD780FF>Leidbefreiungs-Talisman</color>\nStellt Figuren, die vom Effekt des Leidbefreiungs-Talismans betroffenen Gegnern Schaden zufügen, LP wieder her.\n\n<i>„Ich bin die Fürstin der Befreiung von Leid und Elend, das wiederauferstandene Kind.“</i>\n<i>- An diese Worte erinnert sich Qiqi längst nicht mehr.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Winterliche Ernte",
         "Description": "Stellt Qiqi beim Treffen von mit dem Leidbefreiungs-Talisman markierten Gegnern mit Frostbringer 2 Punkte Elementarenergie wieder her.",
+        "SpecialDescription": "#Stellt Qiqi, wenn der Frostbringer einen mit einem Leidbefreiungs-Talisman markierten Gegner trifft, 2{NON_BREAK_SPACE}Punkte Elementarenergie wieder her.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Stellt, wenn der Frostbringer einen Gegner mit Angriffen oder abgestimmten Angriffen trifft, Qiqi ebenfalls 6{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, 6{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Fröstelnde Glieder",
         "Description": "Erhöht den von <color=#99FFFFFF>Kryo</color>-Effekten betroffenen Gegnern mit Qiqis Standardangriffen und heftigen Schlägen zugefügten Schaden um 15 %.",
+        "SpecialDescription": "#Erhöht den von <color=#99FFFFFF>Kryo</color>-Effekten betroffenen Gegnern mit Qiqis Standardangriffen und heftigen Schlägen zugefügten Schaden um 15{NON_BREAK_SPACE}%.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht Qiqis ANG um 50{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Stärke des Himmels",
         "Description": "Verringert den ANG von mit dem Leidbefreiungs-Talisman markierten Zielen um 20 %.",
+        "SpecialDescription": "#Verringert den ANG von mit dem Leidbefreiungs-Talisman markierten Zielen um 20{NON_BREAK_SPACE}%.\nGewährt zudem beim Auslösen des Heilungseffekts des Leidbefreiungs-Talismans der Figur mit dem niedrigsten LP-Anteil in der Nähe einmalig eine Heilung in Höhe von 180{NON_BREAK_SPACE}% von Qiqis ANG.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Auferstehung",
         "Description": "Belebt alle besiegten Figuren der Truppe in der Nähe bei Anwendung von <color=#FFD780FF>Adeptenkunst – Befreiung vom Leid</color> wieder und stellt ihnen LP auf bis zu 50 % ihrer max. LP wieder her.\n15 min Abklingzeit.",
+        "SpecialDescription": "#Belebt beim Anwenden von <color=#FFD780FF>Adeptenkunst – Befreiung vom Leid</color> alle ohnmächtigen Truppenmitglieder in der Nähe wieder und stellt ihre LP auf 50{NON_BREAK_SPACE}% wieder her.\nDieser Effekt hat 15 min Abklingzeit.\nVerleiht Qiqi nach dem Anwenden von <color=#FFD780FF>Adeptenkunst – Befreiung vom Leid</color> zudem 4 Stapelungen <color=#FFD780FF>Hauch eines Mysteriums</color>. Verbraucht, wenn das eigene aktuelle Truppenmitglied (außer Qiqi selbst) Schaden der Reaktion Stellar-Supraleiter verursacht, 1 Stapelungen <color=#FFD780FF>Hauch eines Mysteriums</color> und erhöht diesen Schaden um 600{NON_BREAK_SPACE}% von Qiqis ANG. <color=#FFD780FF>Hauch eines Mysteriums</color> hält maximal 12{NON_BREAK_SPACE}s an. Beim Anwenden von <color=#FFD780FF>Adeptenkunst – Befreiung vom Leid</color> werden die Stapelungen aktualisiert.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

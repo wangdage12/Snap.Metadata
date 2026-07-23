@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Tiro com Arco Divino",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 tiros consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Tiro com Mira</color> mais preciso com Dano aumentado.\nEnquanto estiver mirando, ventos favoráveis irão se acumular na ponta da flecha. Uma flecha completamente carregada com o vento irá infligir <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+        "SpecialDescription": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso com Dano aumentado.\nEnquanto estiver mirando, ventos favoráveis irão se acumular na ponta da flecha. Uma flecha completamente carregada com o vento irá infligir <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nEnquanto o Olho da Tempestade criado pelo Supremo <color=#FFD780FF>Grande Ode do Vento</color> estiver ativo, Venti ganhará bônus adicionais:\n· Quando a <color=#FFD780FF>Flecha Furacão</color> do Ataque Normal convertido de Venti atingir um inimigo, causará mais <color=#80FFD7FF>Dano Anemo</color> contra os inimigos que atingir no caminho.\n· Quando o Ataque Normal de Venti atingir um inimigo, prolongará a duração do Olho da Tempestade em 1s, e prolongará a recarga em 0.5s. Esse efeito pode ser desencadeado uma vez a cada 0.1s, podendo ser desencadeado até 2 vezes por Supremo <color=#FFD780FF>Grande Ode do Vento</color> lançado.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Vento Dividido",
         "Description": "Dispara 2 flechas adicionais por cada <color=#FFD780FF>Disparo com Mira</color>, cada flecha causa 33% do Dano original da flecha.",
+        "SpecialDescription": "O <color=#FFD780FF>Disparo com Mira </color> dispara duas flechas adicionais, cada uma causando 33% de Dano original.\nAlém disso, <color=#FFD780FF>Flecha Furacão</color> também dispara duas flechas perseguidoras, cada uma causando 20% do Dano original. Esse efeito pode ser desencadeado uma vez a cada 0.25s.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Brisa da Reminiscência",
         "Description": "<color=#FFD780FF>Sonata Celestial</color> diminui a <color=#80FFD7FF>RES Anemo</color> e RES Física do inimigo em 12% por 10s.\nOs inimigos lançados pela <color=#FFD780FF>Sonata Celestial</color> sofrem uma penalidade adicional de <color=#80FFD7FF>RES Anemo</color> de 12% e RES física quando estiverem no ar.",
+        "SpecialDescription": "<color=#FFD780FF>Sonata Celestial</color> reduz a <color=#80FFD7FF>RES Anemo</color> e RES Física do inimigo em 24% por 10s.\nAlém disso, depois de lançar o Supremo <color=#FFD780FF>Grande Ode do Vento</color>, Venti obtém o efeito <color=#FFD780FF>Ascensão Zéfira</color>, e redefine a recarga da Habilidade Elemental <color=#FFD780FF>Sonata Celestial</color>. Depois da <color=#FFD780FF>Flecha Furacão</color> atingir um inimigo, Venti possui 25% de chance de obter o efeito <color=#FFD780FF>Ascensão Zéfira</color>.\n\n<color=#FFD780FF>Ascensão Zéfira</color>\nAo pressionar para lançar a Habilidade Elemental <color=#FFD780FF>Sonata Celestial</color>, causa 300% do Dano original. Esse efeito dura 15s, e será removido quando Venti pressionar a Habilidade Elemental <color=#FFD780FF>Sonata Celestial</color>.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Furacão da Liberdade",
         "Description": "Quando Venti obtém um Orbe ou uma Partícula Elemental, ele recebe 25% de <color=#80FFD7FF>Dano Anemo Bônus</color> por 10s.",
+        "SpecialDescription": "Depois que Venti lançar a Habilidade Elemental <color=#FFD780FF>Sonata Celestial</color> ou o Supremo <color=#FFD780FF>Grande Ode do Vento</color>, Venti e os demais personagens ativos da equipe obtêm 25% de <color=#80FFD7FF>Bônus de Dano Anemo</color> por 10s.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Tempestade do Desafio",
         "Description": "Alvos que levarem Dano da <color=#FFD780FF>Grande Ode do Vento</color> terão sua <color=#80FFD7FF>RES Anemo</color> reduzida em 20%.\nSe uma Absorção Elemental ocorrer, então sua RES ao Elemento correspondente também é reduzida em 20%.",
+        "SpecialDescription": "Alvos que levarem Dano da <color=#FFD780FF>Grande Ode do Vento</color> terão sua <color=#80FFD7FF>RES Anemo</color> reduzida em 20%.\nSe uma Absorção Elemental ocorrer, então sua RES ao Elemento correspondente também é reduzida em 20%.\nAlém disso, o Dano que Venti causar contra esses inimigos obtém 100% de bônus de Dano CRIT.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

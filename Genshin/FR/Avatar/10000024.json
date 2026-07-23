@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "En tête d'affiche",
+        "Description": "Utiliser la compétence élémentaire <color=#FFD780FF>Invocation des marées</color> avec un appui long permet d'obtenir 1 cumul de puissance toutes les 0,8 s, même hors attaque, afin d'augmenter les DGT infligés lors du déclenchement.\nDe plus, toucher un ennemi en utilisant la compétence élémentaire <color=#FFD780FF>Invocation des marées</color> avec un appui long accorde également un effet bonus supplémentaire selon la puissance cumulée : chaque cumul diminue le TdR de la compétence élémentaire de 4 s et restaure 8 pts d'énergie élémentaire à Beidou, cet effet pouvant être déclenché une fois toutes les 15 s.\nDe plus, Beidou passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'elle est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Chancre du mal",
         "Description": "La <color=#FFACFFFF>RÉS Électro</color> des ennemis proches diminue de 15 % tant que <color=#FFD780FF>Brisure d'orage</color> est actif.",
+        "SpecialDescription": "La <color=#FFACFFFF>RÉS Électro</color> des ennemis proches diminue de 15 % tant que <color=#FFD780FF>Brisure d'orage</color> est actif.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> : La <color=#99FFFFFF>RÉS Cryo</color> des ennemis proches diminue de 15 % pendant la durée de Brisure d'orage et la maîtrise élémentaire du personnage déployé augmente de 200 pts.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

@@ -2377,6 +2377,17 @@
   },
   {
     "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5133,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "サンドローネの星屑",
+    "Description": "サンドローネの命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 30,
     "MaterialType": 73,
     "Id": 6002,
     "RankLevel": 5,
@@ -3661,6 +3672,17 @@
     "Description": "プルーネの命ノ星座アンロック用素材",
     "TypeDescription": "命ノ星座アンロック",
     "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6133,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "サンドローネの星屑",
+    "Description": "サンドローネの命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1102"
   },
   {
     "Rank": 90000,
@@ -13861,6 +13883,17 @@
     "Icon": "UI_ItemIcon_101269"
   },
   {
+    "Rank": 317,
+    "MaterialType": 4,
+    "Id": 101270,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "月の涙",
+    "Description": "澄み切って眩く輝く蒼色の結晶。極めて純粋なクーヴァキを内包しており、あらゆる元素力との親和性も完璧だと言える。",
+    "TypeDescription": "ナド・クライ地域の特産",
+    "Icon": "UI_ItemIcon_101270"
+  },
+  {
     "Rank": 321,
     "MaterialType": 4,
     "Id": 101271,
@@ -20805,6 +20838,17 @@
     "Description": "ナド・クライ各地に散らばった上古の地霊壇の封印を解除する鍵。\n大地に聳え立つ古代の祭壇は、文明の破滅と共に封印された。幽深なる秘境で見つけた鍵だけがその封印を破ることができる。過去の時代の息吹で、祭壇に破滅の事実を忘れさせるだろう。",
     "TypeDescription": "冒険アイテム",
     "Icon": "UI_ItemIcon_107031"
+  },
+  {
+    "Rank": 410011,
+    "MaterialType": 5,
+    "Id": 107032,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "霜月の地霊壇の鍵",
+    "Description": "霜月各地に散らばった上古の地霊壇の封印を解除する鍵。\n大地に聳え立つ古代の祭壇は、文明の破滅と共に封印された。幽深なる秘境で見つけた鍵だけがその封印を破ることができる。過去の時代の息吹で、祭壇に破滅の事実を忘れさせるだろう。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_107032"
   },
   {
     "Rank": 420001,
@@ -32347,6 +32391,114 @@
     "Icon": "UI_ItemIcon_108879"
   },
   {
+    "Rank": 421004,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-25%、継続時間1500秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108976,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「お茶会のハーモニー」",
+    "Description": "サンドローネのオリジナル料理。お茶会で静かに出されたのは、丁寧に作られたケーキが乗った二段のスタンド。まさかサンドローネが作ったのか…と内心で驚いていると、彼女は腕を組み、顎をツンと上げて横目でこちらを睨みながら言う。「あら、何が言いたいのかしら？この程度のお茶菓子なんて、簡単に作れるのよ。」彼女の言葉に呼応するように、甘い香りがふわりと漂う。さあ、さっそく食べてみよう！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108880"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が滑翔とダッシュに消費するスタミナ-15%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108977,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なスペアリブの樺蒸し",
+    "Description": "木の枝とスペアリブを組み合わせた料理。古木の年輪のような模様が刻まれた赤茶色の干し肉は、いくら噛んでも飲み込めそうにない…もしかして、枝をスペアリブと間違えたのでは？",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が滑翔とダッシュに消費するスタミナ-20%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108978,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スペアリブの樺蒸し",
+    "Description": "木の枝とスペアリブを組み合わせた料理。塩漬けにしたスペアリブを干した後、樺の枝に乗せて蒸し上げたもの。蒸したての肉はほろほろと柔らかく、ほのかな木の香りが漂う。ナド・クライの祝祭における定番料理の一つである。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が滑翔とダッシュに消費するスタミナ-25%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108979,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなスペアリブの樺蒸し",
+    "Description": "木の枝とスペアリブを組み合わせた料理。フォークで軽くつつくと、枝に積もった雪のように肉がつるつると滑り落ちる。口に含むと、程よい塩味と樺の香りのハーモニーが心まで満たしてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを40回復する。",
+    "Id": 108980,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なミートライ麦パン",
+    "Description": "魚肉入りのパン。靴底並に硬く、おまけに歯には魚の鱗がくっつく…一口食べるたびに、うがいをしなければならない。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを50回復する。",
+    "Id": 108981,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "ミートライ麦パン",
+    "Description": "魚肉入りのパン。頭と骨を取り除いた魚肉をベーコンで包み、それをさらにライ麦の生地で包んで焼き上げたもの。魚肉のジューシーさを保つためには、パン生地の厚さが肝心である。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "スタミナを60回復する。",
+    "Id": 108982,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなミートライ麦パン",
+    "Description": "魚肉入りのパン。こんがりと焼きあがった硬めのパンを両手でちぎると、ベーコンの濃厚な香りに続き、魚肉の爽やかな香りが広がる。そうして肉汁の染み込んだパンの香ばしさは極上だ。一口食べると、冷えた身体もほかほかと温まるだろう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 224099,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、さらにHPを1900回復する。",
+    "Id": 108983,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会のプレリュード・ハーバルティー",
+    "Description": "香り豊かなハーバルティー。優しく滑らかな口当たりと、優雅なフローラルアロマが楽しめる。夕焼けのようなオレンジ色のお茶は、眺めているだけで心に穏やかさをもたらしてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108883"
+  },
+  {
+    "Rank": 224099,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、さらにHPを1900回復する。",
+    "Id": 108984,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会のプレリュード・ラテアート",
+    "Description": "じっくりと味わう価値のあるコーヒー。特殊な焙煎工程を経たコーヒー豆を丁寧に挽いて淹れられた一杯。きめの細かいラテアートはまるで霧のようだ。濃厚な味わいと上品な香りで格別のひと時を過ごそう。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108884"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109000,
@@ -35306,6 +35458,28 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109653,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：スペアリブの樺蒸し",
+    "Description": "「スペアリブの樺蒸し」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：ミートライ麦パン",
+    "Description": "「ミートライ麦パン」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "Rank": 322,
     "MaterialType": 4,
     "Id": 110000,
@@ -37377,6 +37551,39 @@
     "Description": "領域の番人が持つ焔の剣が消え、遺された剣の柄。\n焔を発する宝剣は戒律の象徴であり、「空」の権能によって、絶対的かつ真に正しき神の意志を宣言した。",
     "TypeDescription": "キャラと武器育成素材",
     "Icon": "UI_ItemIcon_112142"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112143,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "欠損した月の鉄",
+    "Description": "月面を彷徨う古代の機械を破壊した時に拾った欠片。テイワットでよく見られる金属とは異なるようだ。\n各国にかろうじて残る忘れ去られた民話の中に、英雄が空月から授かった「神鉄」をいかなるものをも断ち砕く武器へと鍛え上げ、仇敵や魔物を打ち倒したという伝説がある…",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112143"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112144,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "劣化した月の鉄",
+    "Description": "月面を彷徨う古代の機械を破壊した後、その内部から取得した部品。テイワットでよく見られる金属とは少し異なるようだ。\n各国の失われた古い民話には、英雄が空月から授かった「神鉄」をいかなるものをも断ち砕く武器へと鍛え上げ、仇敵や魔物を打ち倒したという伝説が残されている。だが、空月より墜ちた金属は神が授けたものではない——月の高みに坐す神であっても、もはや遥か昔に滅び去っていたのだから。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112144"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "穢れなき月の鉄",
+    "Description": "月面を彷徨う古代の機械を破壊した後、その内部から取得したコア。テイワットでよく見られる金属とは少し異なるようだ。\n地上の穢れに染まったことのない存在、七難八苦を捨て去った永遠の存在、かつて果てなき深空に向かって歌うことを渇望した存在——あらゆる演算の果てに月の宮殿に残されたのは、ただ無用な冷たい鉄塊だけである。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112145"
   },
   {
     "Rank": 11101,
@@ -52541,6 +52748,17 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121518,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "秘源・古月の源",
+    "Description": "秘源の技術を用いて高濃度の古月の力を封入した人工のコア。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121518"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121519,
     "RankLevel": 0,
     "ItemType": 2,
@@ -52592,6 +52810,17 @@
     "Description": "ファルカがお酒を買うためのへそくり。机の引き出しに堂々と隠されている。\n「灯台下暗し！」——とは言うものの、ここに隠した理由は恐らく、あの代理団長ならたとえ見つけたとしても勝手に使ったりしないし、きっと他人にバラすこともないという考えがあったからだと思われる。\n本来は神に捧げる蒲公英酒を買うためのものだったが、予定が変わった今、ファルカを救出した栄誉騎士への報酬、あるいはそれに助力した友人たちへの返礼とするのもいいだろう。",
     "TypeDescription": "任務アイテム",
     "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121524,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "パイモンのメモ",
+    "Description": "よくわからない物でもいろいろ記録しておけば、いつか役に立つかもしれない——賢いパイモンの冒険の秘訣！",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100362"
   },
   {
     "Rank": 10,
@@ -52990,6 +53219,39 @@
     "Icon": "UI_ItemIcon_112072"
   },
   {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121583,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「観月の証」",
+    "Description": "月の女神はかつてその力で観月者の旅路を見届けた。そして今、それはこの旅路の証にもなった。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121583"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121588,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "失われた太古の花",
+    "Description": "古き時代の花の標本。見た目はテイワットのある植物によく似ている。それらの間には、何らかの類縁関係が存在するのかもしれない。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_100012"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 83,
+    "Id": 121596,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "サンドローネのお茶会への招待状",
+    "Description": "サンドローネから送られてきたお茶会への招待状。上等な紙質や丁寧な字から、淑女としての優雅さを感じる。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121596"
+  },
+  {
     "Rank": 410007,
     "MaterialType": 5,
     "Id": 121601,
@@ -53010,6 +53272,61 @@
     "Description": "断片領域制御モジュールを三つ揃えると、諸界秘展の間を開放できる。\n\n探索中、偶然手に入った奇妙なモジュール。同じ模様のものを三つ見つけると、空の神殿に封鎖された秘蔵品展示室を開くことができるらしい。",
     "TypeDescription": "冒険アイテム",
     "Icon": "UI_ItemIcon_121602"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121603,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "霜月の石符",
+    "Description": "3つの「石符」を集めると、ウージエン生態圏の宝庫を開放できる。\n\n探索中、偶然手に入った丸い石符。同じ模様のものを3つ見つければ、かつて世界を照らした月の影をつなぎ合わせることができるという…",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_121603"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121604,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "霜月の石符",
+    "Description": "3つの「石符」を集めると、遊月の海の宝庫を開放できる。\n\n探索中、偶然手に入った丸いルーン。同じ模様のものを3つ見つければ、かつて世界を照らした月の影をつなぎ合わせることができるという…",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_121604"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121606,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "マメールが描いた「家族の肖像画」",
+    "Description": "サンドローネが開いたお茶会の場で、マメールが「家族」のために描いた肖像画。ほっこりとした温かみと個性に溢れる筆致で、以前の絵画とは少し異なる趣がある。旅の中でさまざまな画風を試していると語っていたが、確かに変化が感じられる。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121606"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "観月者の彫刻・1",
+    "Description": "月面で発見された古代の石板。それに刻まれた文字は完全に判読不能であるにもかかわらず、なぜか読む者は誰でも母国語でその意味を理解できる。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121625"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "観月者の彫刻・2",
+    "Description": "月面で発見された古代の石板。それに刻まれた文字は完全に判読不能であるにもかかわらず、なぜか読む者は誰でも母国語でその意味を理解できる。",
+    "TypeDescription": "任務アイテム",
+    "Icon": "UI_ItemIcon_121625"
   },
   {
     "Rank": 0,
@@ -56323,6 +56640,72 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141285,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・183",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141286,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・184",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141287,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・185",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141288,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・186",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141289,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・187",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141290,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・188",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "Rank": 100,
     "MaterialType": 4,
     "Id": 200001,
@@ -58853,6 +59236,28 @@
     "Icon": "UI_ItemIcon_220131"
   },
   {
+    "Rank": 25031,
+    "MaterialType": 21,
+    "Id": 220132,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "サンドローネの携帯型ティーテーブル",
+    "Description": "サンドローネ携帯式ティーテーブル。持ち運びやすく収納しやすいだけでなく、浮遊装置まで搭載されているため、どこでも気軽にお茶会を楽しむことができる。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220132"
+  },
+  {
+    "Rank": 5021,
+    "MaterialType": 21,
+    "Id": 220134,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "魔女の匣",
+    "Description": "かつてバーベロスが所有していた匣。まだ明かされていないものから既に明かされたものまで、すべての諭示がこの中に収められている。果たしてそれらが運命に影響を与えるのか…バーベロスはこう答えた。「ヒッヒッ…そう簡単に、運命の真の姿を見せるわけにはいかないね。それに、未来に未知なる部分を残しておくのも悪くないだろう？」",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220134"
+  },
+  {
     "Rank": 300201,
     "MaterialType": 5,
     "Id": 221001,
@@ -60934,6 +61339,17 @@
   {
     "Rank": 300301,
     "MaterialType": 29,
+    "Id": 350105,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "のどかなお茶会",
+    "Description": "快適で温かみのあるお茶会スペース。友人と集まるのが大好きな、あるお茶会の主の好みを参考に、皆がひとつのテーブルを囲んで和やかに語り合う光景を再現している。美味しいスイーツ、香り高いお茶、上品なティーテーブル、柔らかな絨毯、そして座り心地の良い背もたれ付きの椅子——お茶会のすべてのしつらえが、訪れる者にくつろぎと安らぎをもたらす。ここではただ、こののどかでかけがえのないひとときを楽しめばいい。\nこの調度品セットを好む仲間：サンドローネ",
+    "TypeDescription": "調度品セットの設計図",
+    "Icon": "UI_ItemIcon_Home_Indoor"
+  },
+  {
+    "Rank": 300301,
+    "MaterialType": 29,
     "Id": 350106,
     "RankLevel": 4,
     "ItemType": 2,
@@ -62001,6 +62417,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 380482,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "可動小型ライト",
+    "Description": "「可動小型ライト」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 380483,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スタンド式街灯-「霧夜の道しるべ」",
+    "Description": "「スタンド式街灯-『霧夜の道しるべ』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 380504,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63024,6 +63462,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 381348,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会テーブル-「パーフェクトパーティー」",
+    "Description": "「お茶会テーブル-『パーフェクトパーティー』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 381401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63634,6 +64083,17 @@
     "ItemType": 2,
     "Name": "サマーオークの椅子「枕月」",
     "Description": "「サマーオークの椅子『枕月』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382135,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会チェア-「金に染まる紅」",
+    "Description": "「お茶会チェア-『金に染まる紅』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -64630,6 +65090,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 382324,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会カーペット-「柔らかな質感」",
+    "Description": "「お茶会カーペット-『柔らかな質感』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 382401,
     "RankLevel": 2,
     "ItemType": 2,
@@ -65499,6 +65970,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383397,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "ティートロリー-「デザートタイム」",
+    "Description": "「ティートロリー-『デザートタイム』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -65658,6 +66140,17 @@
     "ItemType": 2,
     "Name": "霜月の側卓-「弾ける果実の香り」",
     "Description": "「霜月の側卓-『弾ける果実の香り』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383416,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "お茶会のティーカップ-「爽やかな風味」",
+    "Description": "「お茶会のティーカップ-『爽やかな風味』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -73155,6 +73648,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 393495,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "拠点の仕切り-「診療エリア」",
+    "Description": "「拠点の仕切り-『診療エリア』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 393511,
     "RankLevel": 3,
     "ItemType": 2,
@@ -73655,6 +74159,17 @@
     "ItemType": 2,
     "Name": "「優しき抱擁」",
     "Description": "「『優しき抱擁』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393941,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「使い道のない遺留品」",
+    "Description": "「『使い道のない遺留品』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -75190,6 +75705,72 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394655,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ナシャ屋台-「古き良き伝統」",
+    "Description": "「ナシャ屋台-『古き良き伝統』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394656,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「過去の容器」",
+    "Description": "「『過去の容器』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394657,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "大型貨物箱-「安定保障」",
+    "Description": "「大型貨物箱-『安定保障』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "中型貨物箱-「基礎供給」",
+    "Description": "「中型貨物箱-『基礎供給』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394659,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "中型鉄製廃材バケツ",
+    "Description": "「中型鉄製廃材バケツ」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394660,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「信号なき塔」",
+    "Description": "「『信号なき塔』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394800,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75305,6 +75886,28 @@
     "ItemType": 2,
     "Name": "「石間の小像」",
     "Description": "「『石間の小像』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394842,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「無限再帰術式」",
+    "Description": "「『無限再帰術式』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394843,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「銀光散らす月の御使い」",
+    "Description": "「『銀光散らす月の御使い』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   }

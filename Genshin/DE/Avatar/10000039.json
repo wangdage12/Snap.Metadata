@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "Auserwählter Geheimschatz",
+        "Description": "#Innerhalb von 20{NON_BREAK_SPACE}s nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Eistatzen</color> führt Diona einen abgestimmten Angriff durchs Abschießen von 3 <color=#FFD780FF>Eistatzen</color> aus, wenn ein Truppenmitglied die Reaktion Supraleiter oder Stellar-Supraleiter auslöst. Die auf diese Weise abgeschossenen <color=#FFD780FF>Eistatzen</color> erzeugen keine Elementarteilchen und generieren auch keinen Schild, wenn sie Gegner treffen. Dieser Effekt hat eine Abklingzeit von 3,5{NON_BREAK_SPACE}s.\nVersetzt Diona zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "Vorzeitiger Feierabend",
         "Description": "Verleiht Figuren im Feld von <color=#FFD780FF>Eisgekühlter Branntwein</color> je nach ihren LP folgende Effekte:\n· Erhöht den passiven Heilungsbonus bei bis zu 50 % LP um 30 %.\n· Erhöht die Elementarkunde bei mehr als 50 % LP um 200 Punkte.",
+        "SpecialDescription": "#Verleiht Figuren im Bereich von <color=#FFD780FF>Eisgekühlter Branntwein</color> je nach ihren LP folgende Effekte:\n· Erhöht den passiven Heilungsbonus bei bis zu 50{NON_BREAK_SPACE}% LP um 30{NON_BREAK_SPACE}%.\n· Erhöht die Elementarkunde bei mehr als 50{NON_BREAK_SPACE}% LP um 200 Punkte.\n\nErhöht zusätzlich Dionas max. LP um 25{NON_BREAK_SPACE}%.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht zudem den von Figuren im Bereich von <color=#FFD780FF>Eisgekühlter Branntwein</color> durch die Reaktionen Supraleiter und Stellar-Supraleiter verursachten Schaden um 40{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

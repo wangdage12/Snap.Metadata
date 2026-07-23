@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polaris",
+        "Description": "Ao manter pressionado para lançar a Habilidade Elemental <color=#FFD780FF>Invocadora da Maré</color>, não sofrerá o ataque, e acumulará 1 acúmulo de poder manualmente a cada 0.8s, aumentando o Dano causado ao lançar.\nAlém disso, quando o manter pressionado <color=#FFD780FF>Invocadora da Maré</color> atinge o inimigo, obtém um efeito bônus adicional de acordo com a quantidade de poder acumulado: cada acúmulo de poder reduz a recarga da Habilidade Elemental em 4s, e regenera 8 de Energia Elemental para si mesma. Esse efeito pode ser desencadeado uma vez a cada 15s.\nAlém disso, quando está em {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}, Beidou entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Destruição do Mal",
         "Description": "Ao longo da duração do <color=#FFD780FF>Quebrador de Tempestades</color>, a <color=#FFACFFFF>RES Electro</color> dos inimigos próximos é diminuída em 15%.",
+        "SpecialDescription": "Na duração de <color=#FFD780FF>Quebrador de Tempestades</color>, reduz a <color=#FFACFFFF>RES Electro</color> dos inimigos próximos em 15%.\n\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: na duração de Quebrador de Tempestades, reduz a <color=#99FFFFFF>RES Cryo</color> dos inimigos ao redor em 15%, e aumenta a Proficiência Elemental do personagem ativo em 200.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

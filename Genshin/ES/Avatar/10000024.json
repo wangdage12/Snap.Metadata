@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polaris",
+        "Description": "#Al mantener pulsado para usar la Habilidad Elemental, <color=#FFD780FF>Invocadora de mareas</color>, se obtendrá una carga de fuerza cada 0.8{NON_BREAK_SPACE}s aunque no se reciban ataques, lo que aumentará el daño infligido al soltar la Habilidad.\nAdemás, al mantener pulsado para usar <color=#FFD780FF>Invocadora de mareas</color> y golpear a un enemigo, se obtendrá una bonificación adicional en función de las cargas de fuerza obtenidas, de manera que, por cada una, el TdE de la Habilidad Elemental se reducirá en 4{NON_BREAK_SPACE}s y se regenerarán 8{NON_BREAK_SPACE}pts. de Energía Elemental. Este efecto solo se puede activar una vez cada 15{NON_BREAK_SPACE}s.\nAdemás, Beidou entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Flagelo del mal",
         "Description": "Mientras esté activa la habilidad <color=#FFD780FF>Quebrantatormentas</color>, la <color=#FFACFFFF>RES Electro</color> de los enemigos cercanos se reduce en un 15%.",
+        "SpecialDescription": "#Mientras la habilidad <color=#FFD780FF>Quebrantatormentas</color> esté activa, la <color=#FFACFFFF>RES Electro</color> de los enemigos cercanos se reducirá en un 15%.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nMientras la habilidad “Quebrantatormentas” esté activa, la <color=#99FFFFFF>RES Cryo</color> de los enemigos cercanos también se reducirá en un 15%, y la Maestría Elemental del personaje en uso aumentará en 200{NON_BREAK_SPACE}pts.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

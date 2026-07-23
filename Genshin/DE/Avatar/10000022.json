@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Göttliche Schießkunst",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 6 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert den die Welt schützenden Wind während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#80FFD7FF>Anemo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialDescription": "#<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 6 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert den die Welt schützenden Wind während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#80FFD7FF>Anemo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nVerleiht Venti, während das durch die Spezialfähigkeit <color=#FFD780FF>Ode vom Anemo-Archon</color> hervorgerufene Zentrum des Sturms existiert, folgende Verstärkungseffekte:\n· Wandelt seinen Standardangriff in <color=#FFD780FF>Orkanpfeile</color> um, die Gegner durchbohren sowie Gegnern in ihrer Flugbahn größeren <color=#80FFD7FF>Anemo-Schaden</color> zufügen können.\n· Verlängert die Dauer des Zentrums des Sturms, wenn Venti Gegner mit seinem Standardangriff trifft, um 1{NON_BREAK_SPACE}s und die Abklingzeit um 0,5{NON_BREAK_SPACE}s. 0,1{NON_BREAK_SPACE}s Abklingzeit. Bis zu 2-mal nach jedem Anwenden der Spezialfähigkeit <color=#FFD780FF>Ode vom Anemo-Archon</color> auslösbar.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Gespaltener Hagel",
         "Description": "Schießt mit einem <color=#FFD780FF>gezielten Schuss</color> zwei zusätzliche Pfeile ab, die jeweils 33 % des ursprünglichen Schadens verursachen.",
+        "SpecialDescription": "#Schießt mit einem <color=#FFD780FF>gezielten Schuss</color> zwei zusätzliche Pfeile ab, die jeweils 33{NON_BREAK_SPACE}% des ursprünglichen Schadens verursachen.\nSchießt mit einem <color=#FFD780FF>Orkanpfeil</color> zusätzlich zwei den Gegner verfolgende Pfeile ab, die jeweils 20{NON_BREAK_SPACE}% des ursprünglichen Schadens verursachen, 0,25{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Brise der Sehnsucht",
         "Description": "<color=#FFD780FF>Sonett vom Himmel</color> verringert den <color=#80FFD7FF>Anemo-WDS</color> sowie den physischen Widerstand von Gegnern 10 s lang um 12 %.\nVerringert den <color=#80FFD7FF>Anemo-WDS</color> sowie den physischen Widerstand von <color=#FFD780FF>Sonett vom Himmel</color> weggeschleuderter Gegner vor dem Aufprall auf dem Boden zusätzlich um 12 %.",
+        "SpecialDescription": "#Verringert mithilfe von <color=#FFD780FF>Sonett vom Himmel</color> den <color=#80FFD7FF>Anemo-WDS</color> sowie den phys. WDS von Gegnern um 24{NON_BREAK_SPACE}%, hält 10{NON_BREAK_SPACE}s lang.\nVerleiht Venti nach dem Anwenden der Spezialfähigkeit <color=#FFD780FF>Ode vom Anemo-Archon</color> zusätzlich den Effekt <color=#FFD780FF>Aufkommender Wind</color> und aktualisiert die Abklingzeit der Elementarfähigkeit <color=#FFD780FF>Sonett vom Himmel</color>. Verleiht Venti nach dem Treffen eines Gegners mit einem <color=#FFD780FF>Orkanpfeil</color> ebenfalls mit einer Wahrscheinlichkeit von 25{NON_BREAK_SPACE}% den Effekt <color=#FFD780FF>Aufkommender Wind</color>.\n\n<color=#FFD780FF>Aufkommender Wind</color>\nVerursacht beim Anwenden der Elementarfähigkeit <color=#FFD780FF>Sonett vom Himmel</color> durchs Drücken 300{NON_BREAK_SPACE}% des ursprünglichen Schadens. Dieser Effekt hält 15{NON_BREAK_SPACE}s und wird nach dem Anwenden von Ventis Elementarfähigkeit <color=#FFD780FF>Sonett vom Himmel</color> durchs Drücken entfernt.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Gewitter der Freiheit",
         "Description": "Erhöht den <color=#80FFD7FF>Anemo-Schaden</color>, wenn Venti Elementarkristalle oder Elementarteilchen erhält, 10 s lang um 25 %.",
+        "SpecialDescription": "#Verleiht, nachdem Venti seine Elementarfähigkeit <color=#FFD780FF>Sonett vom Himmel</color> oder seine Spezialfähigkeit <color=#FFD780FF>Ode vom Anemo-Archon</color> angewendet hat, Venti sowie den anderen aktuellen Truppenmitgliedern auf dem Feld einen <color=#80FFD7FF>Anemo-SCH-Bonus</color> von 25{NON_BREAK_SPACE}%, hält 10{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Sturm des Widerstands",
         "Description": "Verringert den <color=#80FFD7FF>Anemo-WDS</color> von Zielen, denen mit <color=#FFD780FF>Ode vom Anemo-Archon</color> Schaden zugefügt wird, um 20 %.\nVerringert bei Elementarumwandlung den entsprechenden Elementar-WDS auch um 20 %.",
+        "SpecialDescription": "#Verringert den <color=#80FFD7FF>Anemo-WDS</color> von Gegnern, denen mit <color=#FFD780FF>Ode vom Anemo-Archon</color> Schaden zugefügt wird, um 20{NON_BREAK_SPACE}%.\nVerringert bei Elementarumwandlung den entsprechenden Elementar-WDS auch um 20{NON_BREAK_SPACE}%.\nGewährt zudem einen KSCH-Bonus von 100{NON_BREAK_SPACE}% für den Schaden, den Venti diesen Gegnern zufügt.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

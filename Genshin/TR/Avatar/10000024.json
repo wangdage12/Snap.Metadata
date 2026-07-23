@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Kutup Yıldızı",
+        "Description": "<color=#FFD780FF>Dalga Çağıran</color> Element Becerisine basılı tutarken saldırı alınmasa dahi her 0,8 saniyede 1 kademe güç birikir. Bu durum, beceri serbest bırakıldığı anda verilen Hasarı artırır.\nAyrıca <color=#FFD780FF>Dalga Çağıran</color> becerisine basılı tutup serbest bırakarak bir düşmana vurmak, biriken güce bağlı olarak ekstra güçlendirmeler de sağlar: Aktif olan her kademe Beidou'nun Element Becerisi Bekleme Süresini 4sn azaltır ve 8 Element Enerjisi yeniler. Bu etki 15 saniyede bir tetiklenebilir.\nBuna ek olarak Beidou bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Şer Lanet",
         "Description": "<color=#FFD780FF>Fırtına Kıran</color> devrede olduğu sürece çevredeki düşmanların <color=#FFACFFFF>Elektrik Direnci</color> %15 azalır.",
+        "SpecialDescription": "<color=#FFD780FF>Fırtına Kıran</color> etkinken yakındaki düşmanların <color=#FFACFFFF>Elektrik Direnci</color> %15 azalır.\n\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Fırtına Kıran etkinken yakındaki düşmanların <color=#99FFFFFF>Buz Direnci</color> %15 azalır ve mevcut aktif karakterin Element Ustalığı 200 artar.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

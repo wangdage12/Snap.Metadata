@@ -304,7 +304,10 @@
             "Kéo dài trị liệu|{param3:F2P} tấn công+{param4:I}",
             "Sát thương Hàn Bệnh Quỷ Sai|{param5:F1P}",
             "Thời Gian Kéo Dài|{param6:F1}s",
-            "CD|{param7:F1}s"
+            "CD|{param7:F1}s",
+            "Sát thương Hàn Bệnh Quỷ Sai tấn công phối hợp|{param9:F1P}",
+            "CD Hàn Bệnh Quỷ Sai tấn công phối hợp|{param10:F1}s",
+            "CD|{param11:F1}s"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Tiên pháp - Hàn Bệnh Quỷ Sai",
         "Description": "Băng huyết hóa bùa chú, triệu hồi Hàn Bệnh Quỷ Sai, đồng thời gây <color=#99FFFFFF>sát thương Nguyên Tố Băng</color> cho địch xung quanh.\n\n<color=#FFD780FF>Hàn Bệnh Quỷ Sai</color>\n·Khi tấn công thường và trọng kích của Qiqi đánh trúng địch, sẽ hồi HP cho tất cả nhân vật của bản thân trong đội và đồng đội ở gần, lượng hồi phục dựa trên sức tấn công của Qiqi;\n·Cứ cách một khoảng thời gian sẽ hồi HP cho nhân vật của bản thân trong đội trong trận hiện tại;\n·Khi nhân vật hành động, gây <color=#99FFFFFF>sát thương nguyên tố Băng</color> cho kẻ địch trên đường đi.\n\n<i>\"Cái này dùng để ngăn thối rữa khi nhiệt độ lên cao... Ừm, ý tôi là số thảo dược quý của ngài Bai đó.\"</i>",
+        "SpecialDescription": "Băng huyết hóa bùa chú, triệu hồi Hàn Bệnh Quỷ Sai, đồng thời gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> cho kẻ địch xung quanh.\n\n<color=#FFD780FF>Hàn Bệnh Quỷ Sai</color>\n·Khi Tấn Công Thường và Trọng Kích của Qiqi đánh trúng địch, sẽ hồi HP cho nhân vật của bản thân trong đội và đồng đội ở gần, lượng hồi phục dựa trên Tấn Công của Qiqi.\n·Mỗi cách một khoảng thời gian sẽ hồi phục HP cho nhân vật ra trận hiện tại trong đội bản thân.\n·Đi theo nhân vật, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> cho kẻ địch trên đường.\n·Khi nhân vật ra trận hiện tại trong đội bản thân tấn công trúng kẻ địch, Hàn Bệnh Quỷ Sai sẽ thực hiện một lần tấn công phối hợp, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> lên kẻ địch.\n\n\n<i>\"Cái này dùng để ngăn thối rữa khi nhiệt độ lên cao... Ừm, ý là số thảo dược quý của Baizhu tiên sinh đó.\"</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Thất Bảo Phụng Chân",
+        "Description": "CD của Kỹ Năng Nguyên Tố <color=#FFD780FF>Tiên Pháp - Hàn Bệnh Quỷ Sai</color> giảm còn 15s.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Trong thời gian duy trì Hàn Bệnh Quỷ Sai, nhân vật trong đội bản thân sẽ tăng 50% sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Qiqi sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Lượng trị liệu|{param1:P} tấn công +{param2:I}",
           "Thời Gian Kéo Dài|{param4:F1}s",
           "CD|{param5:F1}s",
-          "Năng Lượng Nguyên Tố|{param6:I}"
+          "Năng Lượng Nguyên Tố|{param6:I}",
+          "Sát thương Tinh-Siêu Dẫn|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Tiên Pháp - Cứu Khổ Độ Ách",
       "Description": "Tiên lực phong ấn bên trong người Qiqi, dùng Bùa Độ Ách Chân đánh dấu kẻ địch xung quanh và gây <color=#99FFFFFF>sát thương nguyên tố Băng</color>.\n\n<color=#FFD780FF>Bùa Độ Ách Chân</color>\nKhi địch bị ảnh hưởng bởi Bùa Độ Ách Chân chịu sát thương, sẽ hồi HP cho nhân vật gây sát thương.\n\n<i>\"Tên thật, cứu khổ độ ách chân quân, cải tử hoàn hài đồng tử\"</i>\n<i>Qiqi không tài nào nhớ nổi câu này.</i>",
+      "SpecialDescription": "Qiqi giải phóng tiên lực phong ấn bên trong cơ thể, dùng Bùa Độ Ách Chân đánh dấu kẻ địch xung quanh và gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Gây thêm một lần <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> được xem là sát thương phản ứng Tinh-Siêu Dẫn.\n\n<color=#FFD780FF>Bùa Độ Ách Chân</color>\nKhi kẻ địch bị ảnh hưởng bởi Bùa Độ Ách Chân chịu sát thương, sẽ hồi phục HP cho nhân vật gây sát thương.\n\n<i>\"Tên thật, cứu khổ độ ách chân quân, cải tử hoàn hài đồng tử\"</i>\n<i>Qiqi không tài nào nhớ nổi câu này.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Trở Lại Nghèo Khổ",
         "Description": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi 2 điểm năng lượng nguyên tố cho Qiqi.",
+        "SpecialDescription": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố cho Qiqi.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Khi đòn tấn công và đòn đánh phối hợp của Hàn Bệnh Quỷ Sai đánh trúng kẻ địch, sẽ còn hồi phục 6 điểm Năng Lượng Nguyên Tố cho Qiqi. Hiệu quả này mỗi 6s tối đa kích hoạt một lần.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Giá Rét Thấu Xương",
         "Description": "Đối với địch bị ảnh hưởng bởi <color=#99FFFFFF>Nguyên Tố Băng</color>, sát thương tấn công thường và trọng kích mà Qiqi gây ra tăng 15%.",
+        "SpecialDescription": "Đối với kẻ địch bị ảnh hưởng bởi <color=#99FFFFFF>Nguyên Tố Băng</color>, sát thương Tấn Công Thường và Trọng Kích mà Qiqi gây ra tăng 15%.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Tấn Công của Qiqi tăng 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Thiên Uy Áp Chúng",
         "Description": "Mục tiêu bị Bùa Độ Ách Chân đánh dấu, lực tấn công giảm 20%.",
+        "SpecialDescription": "Mục tiêu bị Bùa Độ Ách Chân đánh dấu sẽ giảm 20% Tấn Công.\nNgoài ra, khi kích hoạt hiệu quả trị liệu của Bùa Độ Ách Chân, sẽ còn hồi phục thêm một lần cho nhân vật có tỷ lệ HP thấp nhất ở gần, lượng hồi phục tương đương 180% Tấn Công của Qiqi.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Khởi Tử Hồi Sinh",
         "Description": "Khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color> hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.\nHiệu quả này mỗi 15 phút chỉ thi triển 1 lần.",
+        "SpecialDescription": "Khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.\nHiệu quả này mỗi 15 phút chỉ kích hoạt 1 lần.\nNgoài ra, sau khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, Qiqi sẽ còn nhận được 4 tầng <color=#FFD780FF>Động Huyền</color>: Ngoại trừ Qiqi, khi nhân vật ra trận hiện tại trong đội bản thân gây sát thương phản ứng Tinh-Siêu Dẫn, sẽ tiêu hao 1 tầng <color=#FFD780FF>Động Huyền</color> để tăng sát thương gây ra tương đương 600% Tấn Công của Qiqi. <color=#FFD780FF>Động Huyền</color> tối đa duy trì 12s, khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color> sẽ làm mới số tầng.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

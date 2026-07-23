@@ -4853,6 +4853,59 @@
     ]
   },
   {
+    "Id": 12516,
+    "PromoteId": 12516,
+    "Sort": 5212,
+    "WeaponType": 11,
+    "RankLevel": 5,
+    "Name": "Schlüssel der Überbietung",
+    "Description": "Ein Gegenstand der Fantasie, für den sich in unzähligen Geschichten zahllose Definitionen finden lassen. Im Maßstab des Universums oder der Träume gibt es im Kern keinen Unterschied zwischen dem heiligen Schwert des Helden und dem Teelöffel der Prinzessin, oder zwischen einem eiskalten Uhrwerk und dem Schlüssel, der das Tor der Transzendenz zu öffnen vermag.",
+    "Icon": "UI_EquipIcon_Claymore_CrystallineSword",
+    "AwakenIcon": "UI_EquipIcon_Claymore_CrystallineSword_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.096,
+        "Type": 22,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Verwandlung der weißen Herrscherin",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>28{NON_BREAK_SPACE}%</color>.\nDer Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5{NON_BREAK_SPACE}s lang um <color=#99FFFFFF>16{NON_BREAK_SPACE}%</color>. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 1,
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>35{NON_BREAK_SPACE}%</color>.\nDer Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5{NON_BREAK_SPACE}s lang um <color=#99FFFFFF>20{NON_BREAK_SPACE}%</color>. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 2,
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>42{NON_BREAK_SPACE}%</color>.\nDer Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5{NON_BREAK_SPACE}s lang um <color=#99FFFFFF>24{NON_BREAK_SPACE}%</color>. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 3,
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>49{NON_BREAK_SPACE}%</color>.\nDer Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5{NON_BREAK_SPACE}s lang um <color=#99FFFFFF>28{NON_BREAK_SPACE}%</color>. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2{NON_BREAK_SPACE}s."
+        },
+        {
+          "Level": 4,
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>56{NON_BREAK_SPACE}%</color>.\nDer Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5{NON_BREAK_SPACE}s lang um <color=#99FFFFFF>32{NON_BREAK_SPACE}%</color>. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2{NON_BREAK_SPACE}s."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114084,
+      112145,
+      112127
+    ]
+  },
+  {
     "Id": 13101,
     "PromoteId": 13101,
     "Sort": 1301,
@@ -9582,23 +9635,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Erhöht den ANG um <color=#99FFFFFF>12{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren des Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>10{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>26{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>14</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls einen Schadensbonus von 50{NON_BREAK_SPACE}% aus „Licht der Pfadfinder“."
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>12{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren eines Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>10{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>26{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>14</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
         },
         {
           "Level": 1,
-          "Description": "Erhöht den ANG um <color=#99FFFFFF>15{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren des Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>13{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>34{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>15</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>15{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren eines Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>13{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>34{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>15</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
         },
         {
           "Level": 2,
-          "Description": "Erhöht den ANG um <color=#99FFFFFF>18{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren des Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>16{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>42{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>16</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls einen Schadensbonus von 50{NON_BREAK_SPACE}% aus „Licht der Pfadfinder“."
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>18{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren eines Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>16{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>42{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>16</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
         },
         {
           "Level": 3,
-          "Description": "Erhöht den ANG um <color=#99FFFFFF>21{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren des Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>19{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>50{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>17</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls einen Schadensbonus von 50{NON_BREAK_SPACE}% aus „Licht der Pfadfinder“."
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>21{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren eines Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>19{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>50{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>17</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
         },
         {
           "Level": 4,
-          "Description": "Erhöht den ANG um <color=#99FFFFFF>24{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren des Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>22{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>58{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>18</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls einen Schadensbonus von 50{NON_BREAK_SPACE}% aus „Licht der Pfadfinder“."
+          "Description": "Erhöht den ANG um <color=#99FFFFFF>24{NON_BREAK_SPACE}%</color>. Verleiht dem Träger nach dem Generieren eines Schildes 20{NON_BREAK_SPACE}s lang den Effekt „Licht der Pfadfinder“: Erhöht den von der eigenen aktuellen Figur verursachten Schaden pro 1.000 Punkte ANG des Trägers um <color=#99FFFFFF>22{NON_BREAK_SPACE}%</color>, um max. <color=#99FFFFFF>58{NON_BREAK_SPACE}%</color>. Verleiht dem Träger, wenn er einen Schild generiert, zusätzlich den Effekt „Zufriedenheit des Leiters“, der dem Träger <color=#99FFFFFF>18</color>{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellt, 14{NON_BREAK_SPACE}s Abklingzeit. Er erhält den Effekt auch, wenn er sich beim Öffnen einer beliebigen Truhe nicht im Kampf befindet. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.\nHexerei – Geheimes Ritual: Verleiht, wenn sich die eigene Hexerei-Figur inaktiv in der Truppe befindet, dieser ebenfalls 50{NON_BREAK_SPACE}% des Schadensbonus von „Licht der Pfadfinder“."
         }
       ]
     },
@@ -11913,7 +11966,7 @@
   {
     "Id": 15514,
     "PromoteId": 15514,
-    "Sort": 0,
+    "Sort": 5512,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "Karmesinrotes Federkleid des Astralgeiers",
@@ -11966,7 +12019,7 @@
   {
     "Id": 15515,
     "PromoteId": 15515,
-    "Sort": 0,
+    "Sort": 5513,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "Chroniken der Morgendämmerung",
@@ -12019,7 +12072,7 @@
   {
     "Id": 15516,
     "PromoteId": 15516,
-    "Sort": 0,
+    "Sort": 5514,
     "WeaponType": 12,
     "RankLevel": 5,
     "Name": "Goldener Frostschwur",

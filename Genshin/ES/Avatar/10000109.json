@@ -448,6 +448,31 @@
         "Icon": "Skill_S_Mizuki_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 10951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1095101,
+              "Level": 1,
+              "Parameters": [
+                10,
+                2.5,
+                0.1,
+                5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1095101,
+        "Name": "Inmensidad del ensueño",
+        "Description": "#Cuando Yumemizuki Mizuki cause una reacción de Torbellino en estado de navegasueños, el próximo <color=#80FFD7FF>Daño Anemo en el AdE</color> periódico que inflija a los enemigos cercanos durante ese estado de navegasueños aumentará en una cantidad equivalente al 1000% de su Maestría Elemental. Este efecto solo se puede activar una vez cada 2.5{NON_BREAK_SPACE}s.\nAdemás, mientras esté en estado de navegasueños, la Maestría Elemental de los personajes cercanos del equipo aumentará en una cantidad equivalente al 10% de la Maestría Elemental de Yumemizuki Mizuki.",
+        "Icon": "UI_Talent_S_Mizuki_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 10939,
       "Proud": {
@@ -729,12 +754,14 @@
         "Id": 1091,
         "Name": "Aguas brumosas",
         "Description": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará continuamente el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Cuando un enemigo se vea afectado por una reacción de Torbellino causada con Daño Anemo, este efecto se cancelará y el daño de dicha reacción de Torbellino contra este enemigo aumentará en una cantidad equivalente al 1100% de la Maestría Elemental de Mizuki.",
+        "SpecialDescription": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Al infligir Daño Anemo a estos enemigos y causar contra ellos una reacción de Torbellino, este efecto se cancelará y el daño de dicha reacción de Torbellino contra esos enemigos aumentará en una cantidad equivalente al 1100% de la Maestría Elemental de Yumemizuki Mizuki, además de realizar un ataque adicional contra dichos enemigos que inflige <color=#80FFD7FF>Daño Anemo</color> en una cantidad equivalente al 1000% de la Maestría Elemental de Yumemizuki Mizuki.",
         "Icon": "UI_Talent_S_Mizuki_01"
       },
       {
         "Id": 1092,
         "Name": "Un eco onírico",
         "Description": "Al entrar en el estado de navegasueños, cada punto de Maestría Elemental que tenga Yumemizuki Mizuki aumenta en un 0.04% el Bono de Daño <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> y <color=#FFACFFFF>Electro</color> de todos los demás miembros cercanos del equipo hasta que termine el estado de navegasueños.",
+        "SpecialDescription": "Al entrar en el estado de navegasueños, cada punto de Maestría Elemental que tenga Yumemizuki Mizuki aumenta en un 0.04% el Bono de Daño <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> y <color=#FFACFFFF>Electro</color> de todos los demás personajes cercanos del equipo hasta que termine el estado de navegasueños.\nAdemás, mientras Yumemizuki Mizuki se encuentre en el estado de navegasueños, las RES <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, <color=#FFACFFFF>Electro</color> y <color=#80FFD7FF>Anemo</color> de los enemigos cercanos se reducen en un 20%.",
         "Icon": "UI_Talent_S_Mizuki_02"
       },
       {
@@ -751,6 +778,7 @@
         "Id": 1094,
         "Name": "Calidez floral del manantial",
         "Description": "#Al recoger un <color=#FFD780FF>dulce especial de Yumemizuki</color> de la Habilidad Definitiva, <color=#FFD780FF>Terapia del manantial de Anraku</color>, el personaje inflige daño, recibe curación y restaura 5{NON_BREAK_SPACE}pts. de Energía Elemental a Yumemizuki Mizuki. Solo se puede restaurar Energía Elemental de esta forma 4 veces mientras la habilidad <color=#FFD780FF>Terapia del manantial de Anraku</color> esté activa.",
+        "SpecialDescription": "#Al recoger un <color=#FFD780FF>dulce especial de Yumemizuki</color> de la Habilidad Definitiva, <color=#FFD780FF>Terapia del manantial de Anraku</color>, el dulce infligirá daño y también curará al personaje. Además, curará adicionalmente a otro personaje cercano del equipo con Vida baja en una cantidad equivalente al 266% de la Maestría Elemental de Yumemizuki Mizuki, y restaurará 5{NON_BREAK_SPACE}pts. de Energía Elemental a Yumemizuki Mizuki. Solo se puede restaurar Energía Elemental de esta forma 4 veces mientras la habilidad <color=#FFD780FF>Terapia del manantial de Anraku</color> esté activa.",
         "Icon": "UI_Talent_S_Mizuki_03"
       },
       {
@@ -767,6 +795,7 @@
         "Id": 1096,
         "Name": "Anhelo persistente",
         "Description": "Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo puede asestar golpes CRIT, con un índice fijo de Prob. CRIT del 30% y un Daño CRIT del 100%.",
+        "SpecialDescription": "#Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo puede asestar golpes CRIT, con unos índices fijos de Prob. CRIT y Daño CRIT del 30% y 100% respectivamente.\nPor cada punto de Maestría Elemental que Yumemizuki Mizuki tenga por encima de los 500{NON_BREAK_SPACE}pts., su Prob. CRIT aumentará en un 0.04% y su Daño CRIT en un 0.16%. Como máximo, la Prob. CRIT y el Daño CRIT de Yumemizuki Mizuki pueden aumentar en un 20% y un 80% respectivamente de esta forma.",
         "Icon": "UI_Talent_S_Mizuki_04"
       }
     ]

@@ -464,6 +464,31 @@
         "Icon": "Skill_S_Yae_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 5851,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 585101,
+              "Level": 1,
+              "Parameters": [
+                0.8,
+                2.5,
+                2,
+                10
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 585101,
+        "Name": "Editto di purificazione",
+        "Description": "#Estende la durata dei Sakura Sesshou di 10{NON_BREAK_SPACE}s. Quando un membro del gruppo nelle vicinanze innesca una reazione di Superconduzione o Astroconduzione, il successivo fulmine del Sakura Sesshou viene potenziato come segue: i DAN inflitti aumentano di un 80% dell'ATT di Yae Miko. Questo effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, un colpo del fulmine del Sakura Sesshou potenziato infligge all'avversario anche un'iterazione aggiuntiva di <color=#FFACFFFF>DAN da Electro</color> pari a un 200% dell'ATT di Yae Miko. Tali DAN sono considerati DAN da Astroconduzione.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Yae Miko entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "Icon": "UI_Talent_S_Yae_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 5839,
       "Proud": {
@@ -630,6 +655,7 @@
       "Id": 10585,
       "Name": "Grande arte segreta: Tenko Kenshin",
       "Description": "Le leggende sulla \"kitsunetsuki\", altrimenti nota come manifestazione della potenza di una kitsune, sono comuni a Inazuma. Un racconto particolarmente evocativo è quello della Kitsune celeste, che si dice faccia cadere un fulmine sui nemici del Gran Santuario di Narukami. Evoca un fulmine, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\nQuando usa questa abilità, Yae Miko rivela i Sakura Sesshou nelle vicinanze, distruggendone le forme esterne e trasformandoli così in Saette Tenko che piombano dal cielo, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>. Ogni Sakura Sesshou distrutto in questo modo dà vita a una Saetta Tenko.\n\n<i>Solo in momenti come questi Yae rivela la sua forma da Kitsune celeste e arriva a brandire il fulmine. Nessuno ha mai visto le code di Lady Guuji ed è riuscito a sopravvivere per poterlo raccontare... Ricorda: per quanto ne sai, Lady Yae non ha nessuna coda.</i>",
+      "SpecialDescription": "Le leggende sulla \"kitsunetsuki\", altrimenti nota come manifestazione della potenza di una kitsune, sono comuni a Inazuma. Un racconto particolarmente evocativo è quello della Kitsune celeste, che si dice faccia cadere un fulmine sui nemici del Gran Santuario di Narukami. Evoca un fulmine, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\nQuando usa questa abilità, Yae Miko trasforma i Sakura Sesshou nelle vicinanze in Saette Tenko che piombano dal cielo, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>. Ogni Sakura Sesshou nelle vicinanze si trasforma in una Saetta Tenko.\n\n<i>Solo in momenti come questi Yae rivela la sua forma da Kitsune celeste e arriva a brandire il fulmine. Nessuno ha mai visto le code di Lady Guuji ed è riuscito a sopravvivere per poterlo raccontare... Ricorda: per quanto ne sai, Lady Yae non ha nessuna coda.</i>",
       "Icon": "Skill_E_Yae_01"
     },
     "Inherents": [
@@ -641,7 +667,10 @@
             {
               "Id": 582101,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.4,
+                0.5
+              ]
             }
           ],
           "Display": 1
@@ -695,12 +724,14 @@
         "Id": 581,
         "Name": "Offerta di Yakan",
         "Description": "Ogni volta che <color=#FFD780FF>Grande arte segreta: Tenko Kenshin</color> attiva una Saetta Tenko, l'energia di Yae Miko si ripristina di 8.",
+        "SpecialDescription": "#Ogni volta che <color=#FFD780FF>Grande arte segreta: Tenko Kenshin</color> attiva una Saetta Tenko, l'energia elementale di Yae Miko si ripristina di 8. Dopo che Yae Miko ha innescato Superconduzione o Astroconduzione o dopo aver inflitto DAN da Astroconduzione, i personaggi vicini del gruppo ottengono un 50% di bonus DAN da Electro e da Astroconduzione per 10{NON_BREAK_SPACE}s. Innescare di nuovo queste reazioni ripristina la durata dei suddetti bonus DAN.",
         "Icon": "UI_Talent_S_Yae_01"
       },
       {
         "Id": 582,
         "Name": "Richiamo della luna",
         "Description": "Quando vengono creati, il livello dei <color=#FFD780FF>Sakura Sesshou</color> equivale a 2, il loro livello massimo sale a 4 e il loro raggio d'attacco aumenta di un 60%.",
+        "SpecialDescription": "Quando vengono creati, il livello dei <color=#FFD780FF>Sakura Sesshou</color> equivale a 2, il loro livello massimo sale a 4 e il loro raggio d'attacco aumenta di un 60%. Inoltre, quando ci sono dei Sakura Sesshou in campo, la maestria elementale di Yae Miko e dell'attuale personaggio attivo aumenta di 60/90/120/200 in base al livello dei Sakura Sesshou.",
         "Icon": "UI_Talent_S_Yae_02"
       },
       {
@@ -717,6 +748,7 @@
         "Id": 584,
         "Name": "Canalizzazione del sakura",
         "Description": "#Quando il fulmine di un <color=#FFD780FF>Sakura Sesshou</color> colpisce gli avversari, il <color=#FFACFFFF>bonus DAN da Electro</color> di tutti i membri vicini del gruppo aumenta di un 20% per 5{NON_BREAK_SPACE}s.",
+        "SpecialDescription": "#Quando il fulmine di un <color=#FFD780FF>Sakura Sesshou</color> colpisce gli avversari, il <color=#FFACFFFF>bonus DAN da Electro</color> di tutti i membri vicini del gruppo aumenta di un 20% per 5{NON_BREAK_SPACE}s, mentre l'energia elementale di Yae Miko si ripristina di 8. Tale effetto di ripristino può attivarsi una volta ogni 5{NON_BREAK_SPACE}s. Inoltre, i DAN del Tripudio elementale di Yae Miko aumentano di un 100%.",
         "Icon": "UI_Talent_S_Yae_03"
       },
       {
@@ -733,6 +765,7 @@
         "Id": 586,
         "Name": "Arte proibita: Daisesshou",
         "Description": "Gli attacchi di un <color=#FFD780FF>Sakura Sesshou</color> ignorano un 60% della DIF degli avversari.",
+        "SpecialDescription": "Gli attacchi dei <color=#FFD780FF>Sakura Sesshou</color> ignorano un 60% della DIF degli avversari. I DAN da CRIT dei DAN da Astroconduzione di Yae Miko aumentano di un 200%.",
         "Icon": "UI_Talent_S_Yae_04"
       }
     ]

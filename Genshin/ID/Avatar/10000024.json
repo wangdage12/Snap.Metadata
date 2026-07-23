@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polaris",
+        "Description": "Saat menahan tombol Elemental Skill <color=#FFD780FF>Tidecaller</color>, Beidou akan mengakumulasi satu lapis kekuatan setiap 0,8 detiknya meskipun tidak menerima serangan. Lapisan kekuatan ini akan meningkatkan DMG yang diakibatkan saat dilancarkan.\nSelain itu, saat melancarkan <color=#FFD780FF>Tidecaller</color> dengan Mode Tahan dan mengenai musuh, juga akan memberikan buff tambahan berdasarkan lapisan kekuatan yang terkumpul: Setiap satu lapis kekuatan akan mengurangi CD Elemental Skill sebesar 4 detik dan memulihkan 8 Energy diri sendiri. Efek ini dapat terpicu sekali setiap 15 detik.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Beidou akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Bane of Evil",
         "Description": "Selama durasi <color=#FFD780FF>Stormbreaker</color>, <color=#FFACFFFF>Electro RES</color> musuh di sekitar berkurang 15%.",
+        "SpecialDescription": "Selama durasi <color=#FFD780FF>Stormbreaker</color>, <color=#FFACFFFF>Electro RES</color> musuh di sekitar berkurang 15%.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Selama durasi Stormbreaker, <color=#99FFFFFF>Cryo RES</color> musuh di sekitar berkurang 15% dan Elemental Mastery Karakter aktif meningkat 200 poin.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

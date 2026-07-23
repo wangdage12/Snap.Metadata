@@ -2267,6 +2267,17 @@
   },
   {
     "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5133,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sandrone",
+    "Description": "Matériau d'activation de la constellation de Sandrone.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 30,
     "MaterialType": 73,
     "Id": 6002,
     "RankLevel": 5,
@@ -3551,6 +3562,17 @@
     "Description": "Matériau d'activation de la constellation de Prune.",
     "TypeDescription": "Matériau d'activation de constellation",
     "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6133,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna de Sandrone",
+    "Description": "Matériau d'activation de la constellation de Sandrone.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
   },
   {
     "Rank": 90000,
@@ -13718,6 +13740,17 @@
     "Icon": "UI_ItemIcon_101269"
   },
   {
+    "Rank": 317,
+    "MaterialType": 4,
+    "Id": 101270,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Larme de lune",
+    "Description": "Un cristal azur clair et éclatant renfermant une forme exceptionnellement pure de kuuvahki. Il possède une affinité quasi parfaite avec tous les types d'énergie élémentaire.",
+    "TypeDescription": "Produit de Nod-Krai",
+    "Icon": "UI_ItemIcon_101270"
+  },
+  {
     "Rank": 321,
     "MaterialType": 4,
     "Id": 101271,
@@ -20640,6 +20673,17 @@
     "Description": "Une clé qui peut briser le scellé des anciens sanctuaires des profondeurs disséminés sur les terres de Nod-Krai.\nCes Sanctuaires des profondeurs ont été scellés lorsque l'ancienne civilisation qui les a construits a disparu. Les clés secrètes trouvées au fond des donjons peuvent briser les scellés, ou peut-être qu'elles font oublier aux sanctuaires divins ce qu'ils ont perdu le temps d'un instant.",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_107031"
+  },
+  {
+    "Rank": 410011,
+    "MaterialType": 5,
+    "Id": 107032,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé de Sanctuaire des profondeurs de la Lune de givre",
+    "Description": "Une clé qui peut briser le scellé des anciens sanctuaires des profondeurs disséminés sur les terres de la Lune de givre.\nCes Sanctuaires des profondeurs ont été scellés lorsque l'ancienne civilisation qui les a construits a disparu. Les clés secrètes trouvées au fond des donjons peuvent briser les scellés, ou peut-être qu'elles font oublier aux sanctuaires divins ce qu'ils ont perdu le temps d'un instant.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_107032"
   },
   {
     "Rank": 420001,
@@ -32182,6 +32226,114 @@
     "Icon": "UI_ItemIcon_108879"
   },
   {
+    "Rank": 421004,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108976,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ensemble du goûteron",
+    "Description": "Spécialité culinaire de Sandrone. Sans crier gare en plein milieu du goûteron, voilà qu'apparaît un assortiment de pâtisseries à deux étages, d'une finesse exquise... Les aurait-elle vraiment préparées elle-même ? Avant même que votre surprise ne s'estompe, elle croise les bras, se tourne légèrement et relève le menton : « Hein ? Pourquoi cette mine ? Ce ne sont que des amuse-gueules. Rien de bien compliqué. » Une douce odeur sucrée flotte dans l'air, comme pour confirmer ses dires. Alors, mieux vaut ne pas les faire attendre !",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108880"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108977,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Travers de porc à la vapeur de bouleau (suspects)",
+    "Description": "Un plat à base de branches et de côtes. Vous en prenez un morceau sans réfléchir, et vous découvrez qu'il est d'un brun rougeâtre profond, dû à un séchage trop prolongé à l'air libre, avec des lignes à sa surface qui rappellent les cernes d'un vieil arbre. Ajoutez à cela sa texture granuleuse, et... Attendez. Ce n'est tout de même pas une branche que vous auriez prise pour une côte ?",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 20 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108978,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Travers de porc à la vapeur de bouleau",
+    "Description": "Un plat à base de branches et de côtes. Les côtes sont marinées, séchées à l'air libre, puis disposées sur des branches de bouleau et cuites à la vapeur. Une fois servie, la viande est d'une tendreté exceptionnelle et dégage un arôme boisé caractéristique. C'est l'un des plats traditionnels des fêtes de Nod-Krai.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 422006,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du planage et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108979,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Travers de porc à la vapeur de bouleau (délicieux)",
+    "Description": "Un plat à base de branches et de côtes. D'un simple coup de fourchette, la viande se détache de l'os comme la neige qui glisse d'une branche. Au contact de la langue, sa saveur riche et profonde se mêle au léger arôme boisé du bouleau cuit à la vapeur, pour finalement se fondre en une chaleur qui vous comble de bonheur.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108881"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "Restaure 40 pts d'endurance.",
+    "Id": 108980,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle au poisson (suspect)",
+    "Description": "Un pain farci au poisson. Le pain est si dur qu'il pourrait passer pour une semelle de chaussure, tandis que des écailles de poisson tenaces s'accrochent aux dents et résistent à toutes les tentatives pour les déloger... Dès la première bouchée, vous aurez déjà envie de vous rincer la bouche à l'eau...",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "Restaure 50 pts d'endurance.",
+    "Id": 108981,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle au poisson",
+    "Description": "Un pain farci au poisson. Le poisson est étêté et désarêté avant d'être enveloppé de bacon, enrobé de pâte de seigle et cuit au four. L'épaisseur du pain est essentielle pour que le poisson reste juteux.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 430006,
+    "MaterialType": 1,
+    "EffectDescription": "Restaure 60 pts d'endurance.",
+    "Id": 108982,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle au poisson (délicieux)",
+    "Description": "Un pain farci au poisson. En brisant sa croûte croustillante et légèrement grillée, des huiles riches et savoureuses s'en échappent, suivies de la douceur pure du poisson. Finalement, toutes les saveurs se fondent dans la croûte généreuse, désormais imprégnée de jus parfumés. Une seule bouchée suffit à faire disparaître même le vent le plus glacial.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108882"
+  },
+  {
+    "Rank": 224099,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires.",
+    "Id": 108983,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Prélude au goûteron : Tisane",
+    "Description": "Une infusion florale à savourer sans modération. Douce et onctueuse, elle exhale un arôme floral subtil, à la fois élégant et riche. Sa tisane rouge orangé, telle une lueur rosée filtrant à travers les nuages, enveloppe le cœur d'une douce chaleur apaisante.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108883"
+  },
+  {
+    "Rank": 224099,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires.",
+    "Id": 108984,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Prélude au goûteron : Café artistique",
+    "Description": "Un café à savourer sans modération. Préparé avec soin à partir de grains de café spécialement torréfiés, il est sublimé par une mousse délicate, onctueuse et dense comme une brume. Son goût est riche et velouté, avec un arôme d'une finesse exceptionnelle qui le distingue.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108884"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109000,
@@ -35141,6 +35293,28 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109653,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Travers de porc à la vapeur de bouleau",
+    "Description": "Étapes de préparation des travers de porc à la vapeur de bouleau.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109654,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Pain de seigle au poisson",
+    "Description": "Étapes de préparation du pain de seigle au poisson.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "Rank": 322,
     "MaterialType": 4,
     "Id": 110000,
@@ -37212,6 +37386,39 @@
     "Description": "Les restes de la poignée d'une épée enflammée autrefois maniée par un Protecteur du royaume.\nUne épée de feu ardent était jadis le symbole du jugement. Dotée de l'autorité de l'« espace », elle proclamait la volonté absolue et infaillible du divin.",
     "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
     "Icon": "UI_ItemIcon_112142"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112143,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fer de lune endommagé",
+    "Description": "Un fragment prélevé à l'intérieur d'une ancienne machine qui a erré sur la surface lunaire. Il semble différent des métaux que l'on trouve habituellement en Teyvat.\nDes légendes oubliées de nombreuses contrées racontent l'histoire de héros qui ont forgé le « fer divin » offert par l'astre de la nuit en armes indestructibles, puis les ont utilisées pour vaincre de redoutables ennemis et monstres.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112143"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112144,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fer de lune vide",
+    "Description": "Un composant prélevé à l'intérieur d'une ancienne machine qui a erré sur la surface lunaire. Il semble différent des métaux que l'on trouve habituellement en Teyvat.\nDes légendes oubliées de nombreuses contrées racontent l'histoire de héros qui ont forgé le « fer divin » offert par l'astre de la nuit en armes indestructibles, puis les ont utilisées pour vaincre de redoutables ennemis et monstres. Mais le métal tombé de l'astre de la nuit n'était pas une bénédiction divine... Même les divinités qui résidaient autrefois sur la lune étaient tombées depuis longtemps.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112144"
+  },
+  {
+    "Rank": 10147,
+    "MaterialType": 14,
+    "Id": 112145,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Fer de lune immaculé",
+    "Description": "Un noyau prélevé à l'intérieur d'une ancienne machine qui a erré sur la surface lunaire. Il semble différent des métaux que l'on trouve habituellement en Teyvat.\nIl était immaculé face à l'impureté terrestre, éternel et exempt des sept calamités et des huit souffrances, et il aspirait jadis à chanter dans le vide infini. Pourtant, lorsque tous les calculs furent achevés, il ne restait dans le palais lunaire que du fer froid et inutile.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112145"
   },
   {
     "Rank": 11101,
@@ -52343,6 +52550,17 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121518,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Source secrète : Source de l'ancienne lune",
+    "Description": "Un noyau artificiel qui utilise les techniques de source secrète pour encapsuler une énergie archéolunaire hautement concentrée.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121518"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121519,
     "RankLevel": 0,
     "ItemType": 2,
@@ -52394,6 +52612,17 @@
     "Description": "De l'argent que Varka a mis de côté pour acheter à boire, caché sans vergogne dans un tiroir de son bureau.\n« L'endroit le plus dangereux est en fait le plus sûr ! » C'est ce qu'il prétend, mais en réalité, il garde probablement cet argent ici parce qu'il pense que la Grande Maîtresse intérimaire ne va ni le dépenser ni révéler sa cachette.\nCet argent a été initialement mis de côté pour acheter du vin de dent-de-lion destiné à être offert en offrande aux divinités. Il a finalement été utilisé pour récompenser le chevalier honoraire pour avoir sauvé Varka, ainsi que pour récompenser ceux qui ont participé à son sauvetage.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_100309"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121524,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de Paimon",
+    "Description": "Je note tout ce que je ne comprends pas. Qui sait, ça pourrait être utile un jour ! Voilà un super conseil d'aventure de la part de la super Paimon !",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100362"
   },
   {
     "Rank": 10,
@@ -52792,6 +53021,39 @@
     "Icon": "UI_ItemIcon_112072"
   },
   {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121583,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Témoin de la lune",
+    "Description": "La Déesse de la lune a jadis usé de son pouvoir pour témoigner du voyage des Lunologues. À présent, elle est aussi témoin de votre voyage.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121583"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121588,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Fleur perdue des temps anciens",
+    "Description": "Une fleur préservée d'une époque révolue, présentant une ressemblance frappante avec une plante découverte en Teyvat. Il pourrait exister un lien ténu et ambigu entre les deux.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_100012"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 83,
+    "Id": 121596,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Invitation de goûteron de Sandrone",
+    "Description": "Une invitation à un goûteron envoyée par Sandrone. L'invitation est délicatement ornée d'une écriture exquise. Est-ce là l'élégance d'une dame ?",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121596"
+  },
+  {
     "Rank": 410007,
     "MaterialType": 5,
     "Id": 121601,
@@ -52812,6 +53074,61 @@
     "Description": "Récupérez les trois modules de contrôle du Domaine segmentaire pour débloquer la Salle secrète des royaumes.\nVous avez trouvé cet étrange module par hasard lors d'une exploration. Si vous en récupérez trois portant les mêmes marques, vous pourrez peut-être ouvrir la salle secrète au sein du Temple de l'espace.",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_121602"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121603,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sceau de Lune de givre",
+    "Description": "Récupérez les trois sceaux pour débloquer le trésor du Cercle d'Ungien.\nVous avez trouvé cette pierre ronde par hasard lors d'une exploration. Si vous en récupérez trois portant les mêmes marques, vous pourrez peut-être reconstituer une ombre de la lune brillante qui illuminait autrefois le monde.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_121603"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121604,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sceau de Lune de givre",
+    "Description": "Récupérez les trois sceaux pour débloquer le trésor de la Mer Marélune.\nVous avez trouvé cette pierre ronde par hasard lors d'une exploration. Si vous en récupérez trois portant les mêmes marques, vous pourrez peut-être reconstituer une ombre de la lune brillante qui illuminait autrefois le monde.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_121604"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121606,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Portrait de famille » par Mamère",
+    "Description": "#Un portrait de famille que Mamère a peint pour les membres de sa «{NON_BREAK_SPACE}famille{NON_BREAK_SPACE}» lors d'un goûteron chez Sandrone. Son style chaleureux et singulier diffère quelque peu de ses œuvres précédentes, suggérant, comme elle l'a dit, qu'elle s'est essayée à différents styles au cours de ses voyages.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121606"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121625,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gravure des Lunologues (1)",
+    "Description": "Une ancienne tablette de pierre découverte sur la lune. Bien que l'inscription soit totalement indéchiffrable, pour une raison inconnue, quiconque la lit peut en comprendre le sens dans sa langue maternelle.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121625"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121626,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gravure des Lunologues (2)",
+    "Description": "Une ancienne tablette de pierre découverte sur la lune. Bien que l'inscription soit totalement indéchiffrable, pour une raison inconnue, quiconque la lit peut en comprendre le sens dans sa langue maternelle.",
+    "TypeDescription": "Objet de quête",
+    "Icon": "UI_ItemIcon_121625"
   },
   {
     "Rank": 0,
@@ -56125,6 +56442,72 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141285,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 183",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141286,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 184",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141287,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 185",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141288,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 186",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141289,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 187",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141290,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 188",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ».",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "Rank": 100,
     "MaterialType": 4,
     "Id": 200001,
@@ -58655,6 +59038,28 @@
     "Icon": "UI_ItemIcon_220131"
   },
   {
+    "Rank": 25031,
+    "MaterialType": 21,
+    "Id": 220132,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Table à thé portable de Sandrone",
+    "Description": "Une table à thé portable offerte par Sandrone. Facile à transporter et à ranger, elle est même équipée d'un système de lévitation. Grâce à elle, vous pouvez savourer un goûteron en toute tranquillité, presque partout.",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220132"
+  },
+  {
+    "Rank": 5021,
+    "MaterialType": 21,
+    "Id": 220134,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Étui à révélations de la sorcière",
+    "Description": "La boîte que Barbeloth transportait autrefois est désormais entre vos mains. Elle renferme tous les oracles, tant ceux qui ont déjà été révélés que ceux qui n'ont pas encore ouvert les yeux. Quant à savoir si leurs paroles pourraient un jour influencer le cours du destin... Barbeloth se contenterait de dire ceci : « Héhéhé... La véritable nature du destin n'est pas censée être dévoilée à la légère. D'ailleurs, un avenir dont les secrets restent à découvrir est bien plus enchanteur, vous ne trouvez pas ? »",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220134"
+  },
+  {
     "Rank": 300201,
     "MaterialType": 5,
     "Id": 221001,
@@ -60736,6 +61141,17 @@
   {
     "Rank": 300301,
     "MaterialType": 29,
+    "Id": 350105,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Goûteron de farniente",
+    "Description": "Un décor pour un goûteron chaleureux et convivial, inspiré par les goûts d'un hôte qui aime recevoir ses amis. Il évoque une scène où des amis sont attablés, bavardant en toute tranquillité. Desserts délicieux, thé parfumé, élégante table à thé, tapis moelleux et confortables chaises à haut dossier... Chaque détail contribue au bien-être et à la détente des convives. Ici, il suffit de savourer ce précieux instant de paix.\nCompagnon préférant ce set : Sandrone.",
+    "TypeDescription": "Plan de set de décorations",
+    "Icon": "UI_ItemIcon_Home_Indoor"
+  },
+  {
+    "Rank": 300301,
+    "MaterialType": 29,
     "Id": 350106,
     "RankLevel": 4,
     "ItemType": 2,
@@ -61803,6 +62219,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 380482,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mini-lanterne mobile",
+    "Description": "Étapes de fabrication de la mini-lanterne mobile.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 380483,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Lampadaire debout «{NON_BREAK_SPACE}Phare dans la brume{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication du lampadaire debout «{NON_BREAK_SPACE}Phare dans la brume{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 380504,
     "RankLevel": 3,
     "ItemType": 2,
@@ -62826,6 +63264,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 381348,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Table de goûteron «{NON_BREAK_SPACE}Rassemblement parfait{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la table de goûteron «{NON_BREAK_SPACE}Rassemblement parfait{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 381401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63436,6 +63885,17 @@
     "ItemType": 2,
     "Name": "Chaise à dossier « Lune reposante » en chêne blanc",
     "Description": "Étapes de fabrication de la chaise à dossier « Lune reposante » en chêne blanc.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382135,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Chaise de goûteron «{NON_BREAK_SPACE}Rouge et or{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la chaise de goûteron «{NON_BREAK_SPACE}Rouge et or{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -64432,6 +64892,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 382324,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Tapis de goûteron «{NON_BREAK_SPACE}Tout doux{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication du tapis de goûteron «{NON_BREAK_SPACE}Tout doux{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 382401,
     "RankLevel": 2,
     "ItemType": 2,
@@ -65301,6 +65772,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383397,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Chariot de goûteron « L'heure du dessert »",
+    "Description": "Étapes de fabrication du chariot de goûteron « L'heure du dessert ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -65460,6 +65942,17 @@
     "ItemType": 2,
     "Name": "Petite table de givrelune « Arôme de fruits frais »",
     "Description": "Étapes de fabrication de la petite table de givrelune « Arôme de fruits frais ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383416,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Coupe de goûteron « Goût rafraichissant »",
+    "Description": "#Étapes de fabrication de la coupe de goûteron « Goût rafraichissant{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -72957,6 +73450,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 393495,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Barrière de camp «{NON_BREAK_SPACE}Zone de soin{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la barrière de camp «{NON_BREAK_SPACE}Zone de soin{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 393511,
     "RankLevel": 3,
     "ItemType": 2,
@@ -73457,6 +73961,17 @@
     "ItemType": 2,
     "Name": "Étreinte bienveillante",
     "Description": "Étapes de fabrication de l'étreinte bienveillante.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393941,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Héritage inutilisable",
+    "Description": "Étapes de fabrication de l'héritage inutilisable.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -74992,6 +75507,72 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394655,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Étal de Nasha «{NON_BREAK_SPACE}Traditions ancrées{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de l'étal de Nasha «{NON_BREAK_SPACE}Traditions ancrées{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394656,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Réceptacle du passé",
+    "Description": "Étapes de fabrication du réceptacle du passé.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394657,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Caisse de grande taille «{NON_BREAK_SPACE}Soutien fiable{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la caisse de grande taille «{NON_BREAK_SPACE}Soutien fiable{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "#Caisse de taille moyenne «{NON_BREAK_SPACE}Provisions de base{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de la caisse de taille moyenne «{NON_BREAK_SPACE}Provisions de base{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394659,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Baril moyen pour déchets métalliques",
+    "Description": "Étapes de fabrication du baril moyen pour déchets métalliques.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394660,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tour sans signal",
+    "Description": "Étapes de fabrication de la tour sans signal.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394800,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75107,6 +75688,28 @@
     "ItemType": 2,
     "Name": "Miniature en pierre",
     "Description": "Étapes de fabrication de la miniature en pierre.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394842,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Formule de récursion infinie",
+    "Description": "Étapes de fabrication de la formule de récursion infinie.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394843,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Émissaire lunaire de l'éclat argenté",
+    "Description": "Étapes de fabrication de l'émissaire lunaire de l'éclat argenté.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   }

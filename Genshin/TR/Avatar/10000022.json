@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Kutsal Nişancı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda elverişli rüzgarlar toplanır. Tam yüklü bu rüzgar oku <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
+        "SpecialDescription": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda uğurlu rüzgarlar toplanır. Tam yüklü bu rüzgar oku <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması ile oluşturulan Fırtına Gözü etkinken Venti ek güçlendirme etkileri kazanır:\n·Venti'nin Normal Saldırıları, düşmanları delen ve yoluna çıkan düşmanlara daha da fazla <color=#80FFD7FF>Rüzgar Hasarı</color> veren <color=#FFD780FF>Rüzgaryaran Oklara</color> dönüşür.\n·Venti'nin Normal Saldırıları düşmanlara isabet ettiğinde Fırtına Gözünün süresi 1sn, Bekleme Süresi ise 0,5sn artar. Bu etki 0,1 saniyede bir tetiklenebilir ve <color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması her kullanıldıktan sonra en fazla 2 defa tetiklenebilir.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Yaran Boralar",
         "Description": "<color=#FFD780FF>Hedefli Atış</color> sırasında fazladan 2 ok atılır. Her bir ok, asıl okun %33'ü kadar Hasar verir.",
+        "SpecialDescription": "<color=#FFD780FF>Hedefli Atış</color> başına fazladan 2 ok atılır, her biri orijinal okun Hasarının %33'ü kadar Hasar verir.\nAyrıca, her <color=#FFD780FF>Rüzgaryaran Ok</color> başına düşmanları takip eden fazladan 2 ok atılır, her biri orijinal okun Hasarının %20'si kadar Hasar verir. Bu etki 0,25 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Hatıralar Esintisi",
         "Description": "<color=#FFD780FF>Göklerin Sonesi</color> 10 saniyeliğine düşmanların <color=#80FFD7FF>Rüzgar Direncini</color> ve Fiziksel Direncini %12 azaltır.\n<color=#FFD780FF>Göklerin Sonesi</color> ile fırlatılan düşmanlar havadayken <color=#80FFD7FF>Rüzgar Dirençleri</color> ve Fiziksel Dirençleri ek %12 azalır.",
+        "SpecialDescription": "<color=#FFD780FF>Göklerin Sonesi</color> 10sn boyunca düşmanların <color=#80FFD7FF>Rüzgar Direncini</color> ve Fiziksel Direncini %24 azaltır.\nAyrıca Venti <color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlamasını kullandıktan sonra <color=#FFD780FF>Rüzgar Nereye Eserse</color> etkisi kazanır ve <color=#FFD780FF>Göklerin Sonesi</color> Element Becerisinin bekleme süresi sıfırlanır. Bunun dışında <color=#FFD780FF>Rüzgaryaran Ok</color> bir düşmana isabet ettiğinde de Venti %25 olasılıkla <color=#FFD780FF>Rüzgar Nereye Eserse</color> etkisi kazanabilir.\n\n<color=#FFD780FF>Rüzgar Nereye Eserse</color>\n<color=#FFD780FF>Göklerin Sonesi</color> Element Becerisine basıldığında orijinal Hasarın %300'ü kadar Hasar verilir. Bu etki 15sn sürer ve Venti <color=#FFD780FF>Göklerin Sonesi</color> Element Becerisini kullanmak için bastığında kaldırılır.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Özgürlük Kasırgası",
         "Description": "Venti, bir Element Küresi veya Parçacığı aldığında 10 saniyeliğine %25 <color=#80FFD7FF>Rüzgar Hasarı Bonusu</color> kazanır.",
+        "SpecialDescription": "<color=#FFD780FF>Göklerin Sonesi</color> Element Becerisi veya <color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlamasını kullandıktan sonra 10 saniyeliğine Venti ve aktif grup üyeleri %25 <color=#80FFD7FF>Rüzgar Hasarı Bonusu</color> kazanır.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "İsyan Fırtınası",
         "Description": "<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> becerisinden Hasar alan hedeflerin <color=#80FFD7FF>Rüzgar Direnci</color> %20 azalır.\nBir Element Emilimi gerçekleştiyse söz konusu Elemente olan dirençleri de %20 azalır.",
+        "SpecialDescription": "<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> becerisinden Hasar alan hedeflerin <color=#80FFD7FF>Rüzgar Direnci</color> %20 azalır.\nBir Element Emilimi gerçekleştiyse söz konusu Elemente olan dirençleri de %20 azalır.\nAyrıca, Venti'nin bu düşmanlara verdiği Hasar %100 Kritik Hasar Bonusu kazanır.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

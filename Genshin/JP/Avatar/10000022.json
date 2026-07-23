@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "神代の射術",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、天地の風を矢先に凝集させ、風の力に満ちた矢で敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+        "SpecialDescription": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、天地の風を矢先に凝集させ、風の力に満ちた矢で敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。\n\n<color=#FFD780FF>魔導秘儀</color>\n元素爆発<color=#FFD780FF>風神の詩</color>で生成された暴風の目が存在する間、ウェンティは追加の強化効果を獲得する。\n・ウェンティの通常攻撃は敵を貫通する<color=#FFD780FF>暴風の矢</color>となり、経路上の敵により高い<color=#80FFD7FF>風元素ダメージ</color>を与える。\n・ウェンティの通常攻撃が敵に命中すると、暴風の目の継続時間が1秒、クールタイムが0.5秒延長される。この効果は0.1秒毎に1回のみ発動し、元素爆発<color=#FFD780FF>風神の詩</color>を発動するたびに最大2回まで発動できる。",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "矢先の蒼風",
         "Description": "<color=#FFD780FF>狙い撃ち</color>する時、分裂した矢を追加で2本放つ。それぞれ元の矢の33%のダメージを与える。",
+        "SpecialDescription": "<color=#FFD780FF>狙い撃ち</color>する時、矢を追加で2本放つ。それぞれ、元の矢の33%のダメージを与える。\nさらに、<color=#FFD780FF>暴風の矢</color>も分裂した矢を追加で2本放ち、敵を追撃する。それぞれ元の矢の20%のダメージを与える。この効果は0.25秒毎に1回のみ発動可能。",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "恋い焦がれるそよ風",
         "Description": "<color=#FFD780FF>高天の歌</color>発動後、敵の<color=#80FFD7FF>風元素耐性</color>と物理耐性-12%、継続時間10秒。\n<color=#FFD780FF>高天の歌</color>によってノックバックされた敵が着地するまで、<color=#80FFD7FF>風元素耐性</color>と物理耐性が更に-12%。",
+        "SpecialDescription": "<color=#FFD780FF>高天の歌</color>発動後、敵の<color=#80FFD7FF>風元素耐性</color>と物理耐性-24%、継続時間10秒。\nさらに、元素爆発<color=#FFD780FF>風神の詩</color>を発動した後、ウェンティは<color=#FFD780FF>風吹く時</color>効果を獲得し、元素スキル<color=#FFD780FF>高天の歌</color>のクールタイムがリセットされる。また、<color=#FFD780FF>暴風の矢</color>が敵に命中すると、25%の確率でウェンティが<color=#FFD780FF>風吹く時</color>効果を獲得する。\n\n<color=#FFD780FF>風吹く時</color>\n一回押しで元素スキル<color=#FFD780FF>高天の歌</color>を発動時、本来の300%分のダメージを与える。この効果は15秒継続し、ウェンティが一回押しで元素スキル<color=#FFD780FF>高天の歌</color>を発動すると解除される。",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "自由の凛風",
         "Description": "ウェンティが元素オーブまたは元素粒子を獲得した時、<color=#80FFD7FF>風元素ダメージ</color>+25%、継続時間10秒。",
+        "SpecialDescription": "ウェンティが元素スキル<color=#FFD780FF>高天の歌</color>または元素爆発<color=#FFD780FF>風神の詩</color>を発動した後、ウェンティとチーム内にいる自身のフィールド上の他のキャラクターの<color=#80FFD7FF>風元素ダメージ</color>+25%、継続時間10秒。",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "抗争の暴風",
         "Description": "<color=#FFD780FF>風神の詩</color>のダメージを受けた敵の<color=#80FFD7FF>風元素耐性</color>-20%。\n元素変化があった場合、変化した元素の耐性も-20%。",
+        "SpecialDescription": "<color=#FFD780FF>風神の詩</color>のダメージを受けた敵の<color=#80FFD7FF>風元素耐性</color>-20%。\n元素変化があった場合、変化した元素の耐性も-20%。\nさらに、ウェンティがこれらの敵に与えるダメージの会心ダメージ+100%。",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

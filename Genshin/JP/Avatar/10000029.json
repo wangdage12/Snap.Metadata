@@ -732,12 +732,14 @@
         "Id": 291,
         "Name": "ゴロゴロコンボ",
         "Description": "攻撃やスキル発動時、一定の確率で火花を召喚して敵を攻撃し、<color=#FFD780FF>ドッカン花火</color>の120%分のダメージを与える。",
+        "SpecialDescription": "攻撃やスキル発動時、一定の確率で火花を召喚して敵を攻撃し、<color=#FFD780FF>ドッカン花火</color>の120%分のダメージを与える。\n上記効果発動後の12秒間、クレーの攻撃力+60%。",
         "Icon": "UI_Talent_S_Klee_01"
       },
       {
         "Id": 292,
         "Name": "弾丸の破片",
         "Description": "<color=#FFD780FF>ボンボン爆弾</color>のブービートラップのダメージを受けた敵の防御力-23%、継続時間10秒。",
+        "SpecialDescription": "クレーの元素スキルが敵に命中した時、敵の防御力-23%、継続時間10秒。",
         "Icon": "UI_Talent_S_Klee_02"
       },
       {
@@ -754,6 +756,7 @@
         "Id": 294,
         "Name": "一触即発",
         "Description": "<color=#FFD780FF>ドッカン花火</color>継続中にキャラクターを切り替えると、爆発が発生し、攻撃力555%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
+        "SpecialDescription": "<color=#FFD780FF>ドッカン花火</color>継続中のキャラクターを切り替えた時、または<color=#FFD780FF>ドッカン花火</color>の継続時間終了時、爆発が発生し、攻撃力555%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。上記効果発動時にクレーがフィールド上にいる場合、与えるダメージが100%アップする。",
         "Icon": "UI_Talent_S_Klee_03"
       },
       {
@@ -770,6 +773,7 @@
         "Id": 296,
         "Name": "火力全開",
         "Description": "<color=#FFD780FF>ドッカン花火</color>状態中、クレーは3秒毎にチーム全員（クレー自身を除く）の元素エネルギーを3回復する。\n<color=#FFD780FF>ドッカン花火</color>発動後25秒間、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+10%。",
+        "SpecialDescription": "<color=#FFD780FF>ドッカン花火</color>状態中、クレーは3秒毎にチーム全員（クレー自身を除く）の元素エネルギーを3回復する。\n<color=#FFD780FF>ドッカン花火</color>発動後の25秒間、チーム全員（クレー自身を除く）の<color=#FF9999FF>炎元素ダメージ</color>+10%、クレーの<color=#FF9999FF>炎元素ダメージ</color>+50%。\n\n<color=#FFD780FF>魔導秘儀</color>\n<color=#FFD780FF>爆裂花火</color>を消費する効果を発動すると、50%の確率で<color=#FFD780FF>爆裂花火</color>を消費しない。また、<color=#FFD780FF>ドッカン花火</color>状態にある時、クレーの通常攻撃の1段目と2段目は40%の確率で爆裂花火を1つ消費し、敵に「ポンポン轟撃」と同等の攻撃を追加で1回与える。",
         "Icon": "UI_Talent_S_Klee_04"
       }
     ]

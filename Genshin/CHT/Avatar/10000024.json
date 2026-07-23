@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "引路明星",
+        "Description": "長按施放元素戰技<color=#FFD780FF>捉浪</color>時，即便不受到攻擊，每0.8秒也會主動累積一層力量，提高釋放時造成的傷害。\n此外，長按施放<color=#FFD780FF>捉浪</color>命中敵人時，還會依據累積的力量，獲得額外的增益效果：每累積一層力量，都會使其元素戰技的冷卻時間減少4秒，並為自身恢復8點元素能量，該效果每15秒至多觸發一次。\n此外，處於{LINK#N11330003}<color=#FFD780FF>極星輝域</color>{/LINK}中時，北斗將會進入<color=#FFD780FF>輝映·星超導</color>狀態。",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "北斗祓幽孽",
         "Description": "<color=#FFD780FF>斫雷</color>持續期間，周圍敵人的<color=#FFACFFFF>雷元素抗性</color>降低15%。",
+        "SpecialDescription": "<color=#FFD780FF>斫雷</color>持續期間，周圍敵人的<color=#FFACFFFF>雷元素抗性</color>降低15%。\n\n<color=#FFD780FF>輝映·星超導</color>：斫雷持續期間，附近敵人的<color=#99FFFFFF>冰元素抗性</color>還會降低15%，且目前場上角色元素精通提升200點。",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

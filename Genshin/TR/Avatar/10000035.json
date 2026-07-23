@@ -304,7 +304,10 @@
             "Sürekli Yenilenme|{param3:F2P} Saldırı+{param4:I}",
             "Ayazın Habercisi Hasarı|{param5:F1P}",
             "Süre|{param6:F1}sn",
-            "BS|{param7:F1}sn"
+            "BS|{param7:F1}sn",
+            "Ayazın Habercisi Ortak Saldırı Hasarı|{param9:F1P}",
+            "Ayazın Habercisi Ortak Saldırı BS|{param10:F1}sn",
+            "BS|{param11:F1}sn"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Adeptus Büyüsü: Ayazın Habercisi",
         "Description": "Qiqi, Buzdamarı Tılsımını kullanarak Ayazın Habercisini çağırır ve etrafındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Ayazın Habercisi</color>\n·Qiqi'nin Normal ve Yüklü Saldırıları isabet ettiğinde grup üyelerinin ve yakındaki takım arkadaşlarının Canını yeniler. İyileştirme, Qiqi'nin Saldırısına göre belirlenir.\n·Aktif karakterinin Canını belirli aralıklarla yeniler.\n·Karakteri takip eder ve yoluna çıkan düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<i>Bunu Dr. Bai'nin kıymetli malzemeleri ısınmasın ve çürümesin diye kullanıyorum. Aynen öyle.</i>",
+        "SpecialDescription": "Qiqi, Buzdamarı Tılsımını kullanarak Ayazın Habercisini çağırır ve etrafındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Ayazın Habercisi</color>\n·Qiqi'nin Normal ve Yüklü Saldırıları isabet ettiğinde kendi grup üyelerinin ve yakındaki takım arkadaşlarının Canını yeniler. İyileştirme, Qiqi'nin Saldırısına göre belirlenir.\n·Aktif karakterinin Canını belirli aralıklarla yeniler.\n·Karakteri takip eder ve karakterin yoluna çıkan düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\nMevcut aktif karakterinin bir saldırısı düşmana isabet ettiğinde Ayazın Habercisi düşmana ortak saldırı yaparak <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<i>\"Bunu Doktor Bai'nin kıymetli yemek malzemeleri ısınmasın ve çürümesin diye kullanıyorum. Aynen öyle.\"</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Yedi Kutsal Hazine",
+        "Description": "<color=#FFD780FF>Adeptus Büyüsü: Ayazın Habercisi</color> Element Becerisinin bekleme süresi 15 saniyeye düşer.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Ayazın Habercisi alandayken Qiqi'nin grubundaki karakterlerin Süper İletim ve Yıldız İletimi Tepkime Hasarı %50 artar.\nAyrıca Qiqi bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "İyileştirme|{param1:P} Saldırı+{param2:I}",
           "Süre|{param4:F1}sn",
           "BS|{param5:F1}sn",
-          "Enerji Maliyeti|{param6:I}"
+          "Enerji Maliyeti|{param6:I}",
+          "Yıldız İletimi Hasarı|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Adeptus Büyüsü: Nazar",
       "Description": "Qiqi, vücudunda saklı olan Adeptus gücünü açığa çıkararak yakındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> veren bir Nazar Tılsımıyla işaretler.\n\n<color=#FFD780FF>Nazar Tılsımı</color>\nBu Tılsımdan etkilenen düşmanlar Hasar aldığında bu Hasarı veren karakter Can yeniler.\n\n<i>\"Ben Uğur Getirenim. Dirilişin Hanımıyım.\"</i>\n<i>- Qiqi bu sözleri hatırlamıyor.</i>",
+      "SpecialDescription": "Qiqi, vücudunda saklı olan Adeptus gücünü açığa çıkararak yakındaki düşmanları <color=#99FFFFFF>Buz Hasarı</color> veren bir Nazar Tılsımıyla işaretler.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yıldız İletimi Hasarı olarak da sayılan fazladan bir <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Nazar Tılsımı</color>\nBu Tılsımdan etkilenen düşmanlar Hasar aldığında bu Hasarı veren karakter Can yeniler.\n\n<i>\"Ben Uğur Getirenim. Dirilişin Hanımıyım.\"</i>\n<i>- Qiqi bu sözleri hatırlamıyor.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Buzul Çile",
         "Description": "Ayazın Habercisi, Nazar Tılsımı ile işaretlenmiş bir düşmana vurduğunda Qiqi 2 Enerji yeniler.",
+        "SpecialDescription": "Ayazın Habercisi, Nazar Tılsımı ile işaretlenmiş bir düşmana isabet ettiğinde Qiqi 2 Enerji yeniler.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Ayazın Habercisinin saldırıları ve ortak saldırıları düşmanlara isabet ettiğinde Qiqi ayrıca 6 Element Enerjisi yeniler. Bu etki her 6 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "İliklerine Kadar Donmuş",
         "Description": "<color=#99FFFFFF>Buz</color> etkisindeki düşmanlara karşı Qiqi'nin Normal ve Yüklü Saldırı Hasarı %15 artar.",
+        "SpecialDescription": "Qiqi'nin Normal ve Yüklü Saldırı Hasarı <color=#99FFFFFF>Buz</color> etkisindeki düşmanlara karşı %15 artar.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Qiqi'nin Saldırısı %50 artar.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Kutsal Baskı",
         "Description": "Nazar Tılsımı ile işaretlenmiş hedeflerin Saldırısı %20 azalır.",
+        "SpecialDescription": "Nazar Tılsımı ile işaretlenen hedeflerin Saldırısı %20 azalır.\nAyrıca Nazar Tılsımının iyileştirme etkisi tetiklendiğinde yakındaki en düşük Can oranına sahip grup üyesi de Qiqi'nin Saldırısının %180'i kadar ek iyileştirme alır.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Canlandırma Ayini",
         "Description": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir uygulanabilir.",
+        "SpecialDescription": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında yakındaki saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir uygulanabilir.\nAyrıca <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullandıktan sonra Qiqi, 4 kademe <color=#FFD780FF>Gizem Parıltısı</color> kazanır ve mevcut aktif karakter (Qiqi hariç) Yıldız İletimi Hasarı verdiğinde 1 kademe <color=#FFD780FF>Gizem Parıltısı</color> tüketilerek verilen Hasar Qiqi'nin Saldırısının %600'ü kadar artar. <color=#FFD780FF>Gizem Parıltısı</color> etkisi en fazla 12 saniye sürer ve <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanmak kademe sayısını yeniler.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

@@ -539,6 +539,33 @@
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 8651,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 865101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                0.3,
+                2,
+                0.3,
+                -0.4,
+                -0.2
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 865101,
+        "Name": "Adaletsizlik Gün Yüzüne Çıkarılacak",
+        "Description": "<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: \"Adalet Yerini Bulacak\" Yükseltme Yeteneği şu şekilde değişir:\nWriothesley'nin Canı %60'ın altına düştüğünde bir \"Şefkatli Azar: Tezahür\" kazanır. Bu, <color=#FFD780FF>Normal Saldırı: Güçlü Buz Yumrukları</color> yeteneğinin bir sonraki Yüklü Saldırısını güçlendirerek Parıltı: Sıçrayan Yumruk saldırısına dönüştürür. Bu saldırı Dayanıklılık harcamaz ve isabet ettiğinde Wriothesley'ye %30 Maks. Can yeniler. Wriothesley bu şekilde her 2 saniyede bir Can yenileyebilir.\nEk olarak, <color=#FFD780FF>Ürperten Ceza</color> ile güçlendirilen Püskürtücü Yumruğun üçüncü ve beşinci vuruşları sırasıyla orijinal <color=#99FFFFFF>Buz Hasarının</color> %60 ve %80'ini, Parıltı: Sıçrayan Yumruk ise orijinal <color=#99FFFFFF>Buz Alan Hasarının</color> %100'ünü verir. Bu Hasar, Yıldız İletimi Hasarı sayılır ve Wriothesley'nin verdiği Yıldız İletimi Hasarı %30 artar.\nAyrıca Wriothesley bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "Icon": "UI_Talent_S_Wriothesley_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 8639,
       "Proud": {
@@ -792,12 +819,14 @@
         "Id": 861,
         "Name": "Kötülere Eziyet",
         "Description": "\"Adalet Yerini Bulacak\" Yükseltme Yeteneği ile tetiklenen Şefkatli Azar aşağıdaki şekilde değişir:\nWriothesley'nin Canı %60'ın altına düştüğünde veya <color=#FFD780FF>Buzdiş Saldırısı</color> becerisinin neden olduğu Ürperten Ceza durumundayken beşinci Püskürtücü Yumruk saldırısı isabet ettiğinde bir Şefkatli Azar oluşturur. Her 2,5 saniyede bir Şefkatli Azar etkisi kazanılabilir.\n\nAyrıca Azar: Sıçrayan Yumruk şu etkileri kazanır:\n·Kazanılan Hasar Bonusu %200 artar.\n·Wriothesley Ürperten Ceza durumundayken isabet ettiğinde bu durumun süresi 4 saniye uzar. Bu uzatma her bir Ürperten Ceza durumu için bir defa meydana gelebilir.\n\n\"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.",
+        "SpecialDescription": "\"Adalet Yerini Bulacak\" Yükseltme Yeteneği ile tetiklenen Şefkatli Azar aşağıdaki şekilde değişir:\nWriothesley'nin Canı %60'ın altına düştüğünde veya <color=#FFD780FF>Buzdiş Saldırısı</color> becerisinin neden olduğu Ürperten Ceza durumundayken beşinci Püskürtücü Yumruk saldırısı isabet ettiğinde bir Şefkatli Azar oluşturur. Her 2,5 saniyede bir Şefkatli Azar etkisi kazanılabilir.\n\nAyrıca Azar: Sıçrayan Yumruk şu etkileri kazanır:\n·Kazanılan Hasar Bonusu daha da artarak %200'e çıkar.\n·Wriothesley Ürperten Ceza durumundayken isabet ettiğinde bu durumun süresi 4 saniye uzar.\n\n<color=#FFD780FF>Işıltı: Yıldız İletimi:</color>\n·Bir Parıltı: Sıçrayan Yumruk saldırısı bir düşmana isabet ettikten sonraki 5 saniye içinde isabet eden, Ürperten Ceza ile güçlendirilmiş Püskürtücü Yumrukların beşinci vuruşu, %50 daha fazla Yıldız İletimi Hasarı verir.\n·Ürperten Ceza ile güçlendirilmiş Püskürtücü Yumrukların beşinci vuruşu bir düşmana isabet ettikten sonraki 5 saniye içinde isabet eden Parıltı: Sıçrayan Yumruklar, %50 daha fazla Hasar verir.\n·Wriothesley Ürperten Ceza durumundayken Parıltı: Sıçrayan Yumruk bir düşmana isabet ederse bu durumun süresi 4 saniye uzar.\n\nHer 1 Ürperten Ceza süresi başına bu türden 1 uzatma gerçekleşebilir.\n\n\"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.",
         "Icon": "UI_Talent_S_Wriothesley_01"
       },
       {
         "Id": 862,
         "Name": "Küstahlara Esaret",
         "Description": "<color=#FFD780FF>Kara Altın Kurt Isırığı</color> kullanıldığında, \"Her Günahın Bir Bedeli Var\" Yükseltme Yeteneği ile kazanılan Kovuşturma Emri kademeleri, bu yeteneğin Hasarını %40 artırır.\n\"Her Günahın Bir Bedeli Var\" Yükseltme Yeteneğinin açılmış olması gerekir.",
+        "SpecialDescription": "<color=#FFD780FF>Kara Altın Kurt Isırığı</color> kullanıldığında, \"Her Günahın Bir Bedeli Var\" Yükseltme Yeteneğinden gelen her bir Kovuşturma Emri etkisi, verilen Hasarı %40 artırır.\n\nAyrıca Kovuşturma Emri kademesi 5'e ulaştığında Wriothesley:\n·<color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumundaysa \"Adaletsizlik Gün Yüzüne Çıkarılacak\" Yeteneği güçlenir ve Püskürtücü Yumruk saldırısının üçüncü ve beşinci vuruşları <color=#FFD780FF>Ürperten Ceza</color> ile güçlendirildiğinde, sırasıyla orijinal <color=#99FFFFFF>Buz Hasarının</color> %90 veya %120'sini verirken Parıltı: Sıçrayan Yumruk, orijinal <color=#99FFFFFF>Buz Alan Hasarının</color> %150'sini verir. Bu Hasar, Yıldız İletimi Hasarı sayılır.\n·<color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumunda değilse Normal Saldırılar ve Yüklü Saldırılar, sırasıyla orijinal Hasarlarının %125 veya %130'unu verir.\n\n\"Her Günahın Bir Bedeli Var\" Yükseltme Yeteneğinin açılmış olması gerekir.",
         "Icon": "UI_Talent_S_Wriothesley_02"
       },
       {
@@ -814,6 +843,7 @@
         "Id": 864,
         "Name": "Mazlumlara Kefaret",
         "Description": "Wriothesley'nin Azar: Sıçrayan Yumruk ile yenilediği Can, Maks. Canının %50'sine kadar yükselir. \"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.\nAyrıca Wriothesley'nin Maks. Canından daha fazla iyileşmesi halinde, savaş alanında olup olmamasına göre şu etkiler meydana gelir. Wriothesley eğer savaş alanındaysa 4 saniyeliğine Saldırı Hızı %20 artar, savaş alanında değilse 6 saniyeliğine tüm grup üyelerinin Saldırı Hızı %10 artar. Bu iki Saldırı Hızı artırma yöntemi birbirine eklenmez.",
+        "SpecialDescription": "Wriothesley'nin Azar: Sıçrayan Yumruk ile yenilediği Can, Maks. Canının %50'sine yükselir. \"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.\nAyrıca Wriothesley'nin Maks. Canından daha fazla iyileşmesi halinde, savaş alanında olup olmamasına göre şu etkiler meydana gelir. Wriothesley eğer savaş alanındaysa 4 saniyeliğine Saldırı Hızı %20 artar, savaş alanında değilse 6 saniyeliğine kendi grup üyelerinin Saldırı Hızı %10 artar. Bu iki Saldırı Hızı güçlendirmesi birikmez.\n\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yukarıda bahsedilen etki şu şekilde değişir:\nWriothesley %25 daha az Hasar alır ve Saldırı Hızı %20 artar. Yakındaki diğer grup üyelerinin Saldırı Hızı %10 artar.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
       {
@@ -830,6 +860,7 @@
         "Id": 866,
         "Name": "Masumlara Hürmet",
         "Description": "Azar: Sıçrayan Yumruk Kritik Oranı %10, Kritik Hasarı %80 artar. Ayrıca Azar: Sıçrayan Yumruğun Temel Hasarının %100'ü kadar <color=#99FFFFFF>Buz Hasarı</color> veren ek bir sarkıt ortaya çıkarır. Bu şekilde verilen Hasar, Yüklü Saldırı Hasarı sayılır.\n\"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.",
+        "SpecialDescription": "Azar: Sıçrayan Yumruk Kritik Oranı %10, Kritik Hasarı %80 artar. Ayrıca Azar: Sıçrayan Yumruğun orijinal Hasarının %100'ü kadar <color=#99FFFFFF>Buz Hasarı</color> veren ek bir sarkıt ortaya çıkarır. Bu şekilde verilen Hasar, Yüklü Saldırı Hasarı sayılır.\n\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yukarıda bahsedilen etki şu şekilde değişir:\n·<color=#FFD780FF>Ürperten Ceza</color> ile güçlendirilen Püskürtücü Yumruk ile Parıltı: Sıçrayan Yumruk, %10 Kritik Oranı ve %80 Kritik Hasar Artışı kazanır. Ek olarak <color=#FFD780FF>Ürperten Ceza</color> ile güçlendirilen Püskürtücü Yumruk saldırısının beşinci vuruşu, aynı zamanda Parıltı: Sıçrayan Yumruk saldırısı, orijinal Hasarının %60'ına eşit <color=#99FFFFFF>Buz Hasarı</color> veren ilave bir buz sarkıtı oluşturur. Bu Hasar, Yıldız İletimi Hasarı sayılır.\n\n\"Adalet Yerini Bulacak\" Yükseltme Yeteneğinin açılmış olması gerekir.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

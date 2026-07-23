@@ -304,7 +304,10 @@
             "Soins continus|{param3:F2P} ATQ + {param4:I} PV",
             "DGT Héraut de givre|{param5:F1P}",
             "Durée|{param6:F1} s",
-            "Temps de recharge|{param7:F1} s"
+            "Temps de recharge|{param7:F1} s",
+            "DGT attaque coordonnée (Héraut de givre)|{param9:F1P}",
+            "TdR attaque coordonnée (Héraut de givre)|{param10:F1} s",
+            "Temps de recharge|{param11:F1} s"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Arcane d'Adepte : Héraut de givre",
         "Description": "Utilise un talisman infusé de glace et de sang pour invoquer un héraut de givre, infligeant des <color=#99FFFFFF>DGT Cryo</color> aux ennemis proches.\n\n<color=#FFD780FF>Héraut de givre</color>\n· Les attaques normales et chargées de Qiqi restaurent les PV de vos personnages dans l'équipe ainsi que des alliés proches lorsqu'elles touchent. La quantité de PV restaurée est proportionnelle à l'ATQ de Qiqi.\n· Régénère les PV du personnage déployé à intervalles réguliers.\n· Le héraut suit le personnage déployé et inflige des <color=#99FFFFFF>DGT Cryo</color> aux ennemis sur sa route.\n\n<i>« Je l'utilise pour empêcher le réchauffement et la pourriture... des précieux ingrédients de monsieur Baizhu, bien sûr. »</i>",
+        "SpecialDescription": "Utilise un talisman infusé de glace et de sang pour invoquer un héraut de givre, infligeant des <color=#99FFFFFF>DGT Cryo</color> aux ennemis proches.\n\n<color=#FFD780FF>Héraut de givre</color>\n· Les attaques normales et chargées de Qiqi restaurent les PV de vos personnages dans l'équipe ainsi que des alliés proches lorsqu'elles touchent. La quantité de PV restaurée est proportionnelle à l'ATQ de Qiqi.\n· Régénère les PV du personnage déployé à intervalles réguliers.\n· Le héraut suit le personnage déployé et inflige des <color=#99FFFFFF>DGT Cryo</color> aux ennemis sur sa route.\n· Le héraut de givre déclenche une attaque coordonnée infligeant des <color=#99FFFFFF>DGT Cryo</color> lorsqu'une attaque de votre personnage déployé touche un ennemi.\n\n\n<i>« Je l'utilise pour empêcher le réchauffement et la pourriture... des précieux ingrédients de monsieur Baizhu, bien sûr. »</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Sept trésors sacrés",
+        "Description": "Diminue le TdR de la compétence élémentaire <color=#FFD780FF>Arcane d'Adepte : Héraut de givre</color> à 15 s.\n<color=#FFD780FF>Radiance « Astroconduction »</color> : Les DGT des réactions de Supraconduction et d'Astroconduction déclenchées par vos personnages dans l'équipe augmentent de 50 % pendant la durée du héraut de givre.\nDe plus, Qiqi passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'elle est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Soins|{param1:P} ATQ + {param2:I} PV",
           "Durée|{param4:F1} s",
           "Temps de recharge|{param5:F1} s",
-          "Énergie élémentaire|{param6:I}"
+          "Énergie élémentaire|{param6:I}",
+          "DGT d'Astroconduction|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Arcane d'Adepte : Talisman sacré",
       "Description": "Qiqi libère le pouvoir d'Adepte scellé en elle et marque les ennemis proches d'un talisman de fortune qui leur inflige des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Talisman de fortune</color>\nLes personnages récupèrent des PV en infligeant des DGT aux ennemis marqués.\n\n<i>« Je suis l'envoyée de la Providence, le symbole de la renaissance. »</i>\n<i>— Qiqi est bien incapable de se rappeler de ces mots.</i>",
+      "SpecialDescription": "Qiqi libère le pouvoir d'Adepte scellé en elle et marque les ennemis proches d'un talisman de fortune qui leur inflige des <color=#99FFFFFF>DGT Cryo</color>.\n<color=#FFD780FF>Radiance « Astroconduction »</color> : Inflige une fois supplémentaire des <color=#99FFFFFF>DGT Cryo</color> considérés comme des DGT de réaction d'Astroconduction.\n\n<color=#FFD780FF>Talisman de fortune</color>\nLes personnages récupèrent des PV en infligeant des DGT aux ennemis marqués.\n\n<i>« Je suis l'envoyée de la Providence, le symbole de la renaissance. »</i>\n<i>— Qiqi est bien incapable de se rappeler de ces mots.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Ascèse du givre",
         "Description": "Qiqi récupère 2 pts d'énergie élémentaire à chaque fois que son héraut de givre touche un ennemi marqué par un talisman de fortune.",
+        "SpecialDescription": "Qiqi récupère 2 pts d'énergie élémentaire à chaque fois que son héraut de givre touche un ennemi marqué par un talisman de fortune.\n<color=#FFD780FF>Radiance « Astroconduction »</color> : Qiqi récupère également 6 pts d'énergie élémentaire lorsque l'attaque ou une attaque coordonnée du héraut de givre touche un ennemi, ceci pouvant être déclenché une fois toutes les 6 s.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Gelé jusqu'à l'os",
         "Description": "Les attaques normales et chargées de Qiqi infligent 15 % de DGT supplémentaires contre les ennemis affectés par l'<color=#99FFFFFF>élément Cryo</color>.",
+        "SpecialDescription": "Les attaques normales et chargées de Qiqi infligent 15 % de DGT supplémentaires contre les ennemis affectés par l'<color=#99FFFFFF>élément Cryo</color>.\n<color=#FFD780FF>Radiance « Astroconduction »</color> : L'ATQ de Qiqi augmente de 50 %.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Répression divine",
         "Description": "L'ATQ des cibles marquées par un talisman de fortune diminue de 20 %.",
+        "SpecialDescription": "L'ATQ des cibles marquées par un talisman de fortune diminue de 20 %.\nDe plus, déclencher l'effet de soins d'un talisman de fortune soigne également le personnage proche ayant le pourcentage de PV restant le plus bas une fois pour une valeur équivalant à 180 % de l'ATQ de Qiqi.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Symbole de la renaissance",
         "Description": "L'activation d'<color=#FFD780FF>Arcane d'Adepte : Talisman sacré</color> réanime tous les personnages de l'équipe à proximité et restaure 50 % de leurs PV.\nCet effet peut être déclenché une fois toutes les 15 min.",
+        "SpecialDescription": "L'activation d'<color=#FFD780FF>Arcane d'Adepte : Talisman sacré</color> réanime tous les personnages de l'équipe à proximité et restaure 50 % de leurs PV.\nCet effet peut être déclenché une fois toutes les 15 min.\nDe plus, après l'utilisation d'<color=#FFD780FF>Arcane d'Adepte : Talisman sacré</color>, Qiqi obtient également 4 cumuls de l'effet <color=#FFD780FF>Aperçu de mystère</color>, et les DGT augmentent d'une valeur équivalant à 600 % de l'ATQ de Qiqi au prix d'un cumul d'<color=#FFD780FF>Aperçu de mystère</color> lorsque votre personnage déployé (hormis Qiqi) inflige des DGT de réaction d'Astroconduction. L'effet <color=#FFD780FF>Aperçu de mystère</color> dure un maximum de 12 s et utiliser <color=#FFD780FF>Arcane d'Adepte : Talisman sacré</color> réinitialise ses cumuls.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

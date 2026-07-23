@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polarstern",
+        "Description": "#Sammelt beim Gedrückthalten der Elementarfähigkeit <color=#FFD780FF>Wellenfänger</color> alle 0,8{NON_BREAK_SPACE}s automatisch, auch ohne erlittene Treffer, eine Stapelung Kraft an und erhöht den beim Loslassen verursachten Schaden.\nVerleiht beim Treffen eines Gegners durchs Gedrückthalten von <color=#FFD780FF>Wellenfänger</color>, abhängig von der gesammelten Kraft, einen zusätzlichen Bonuseffekt: Verkürzt die Abklingzeit der Elementarfähigkeit pro Stapelung Kraft um 4{NON_BREAK_SPACE}s und stellt sich selbst zudem 8{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, 15{NON_BREAK_SPACE}s Abklingzeit.\nVersetzt Beidou zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Schrecken des Bösen",
         "Description": "Verringert während der Wirkungsdauer von <color=#FFD780FF>Blitzbrecher</color> den <color=#FFACFFFF>Elektro-WDS</color> von Gegnern in der Umgebung um 15 %.",
+        "SpecialDescription": "#Verringert während der Dauer von <color=#FFD780FF>Blitzbrecher</color> den <color=#FFACFFFF>Elektro-WDS</color> von Gegnern in der Umgebung um 15{NON_BREAK_SPACE}%.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Verringert während der Dauer von Blitzbrecher außerdem den <color=#99FFFFFF>Kryo-WDS</color> von Gegnern in der Nähe um 15{NON_BREAK_SPACE}% und erhöht die Elementarkunde der aktuellen Figur um 200 Punkte.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

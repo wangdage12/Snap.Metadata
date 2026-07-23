@@ -3,7 +3,7 @@
     "Id": 0,
     "DescribeId": 90903,
     "Name": "",
-    "Title": "Yıldız Yutan Narval",
+    "Title": "Gelişmiş Çok Amaçlı Taarruz Kara Kruvazörü",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
@@ -523,19 +523,19 @@
   },
   {
     "Id": 0,
-    "DescribeId": 52106,
-    "Name": "Münzevi Cephe Yaran",
-    "Title": "Maguu Kenki",
-    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
+    "DescribeId": 60509,
+    "Name": "Ezeli Su Ejderi Yavrusu",
+    "Title": "Ezeli Su Ejderi",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
     "Arkhe": 0
   },
   {
     "Id": 0,
-    "DescribeId": 60509,
-    "Name": "Ezeli Su Ejderi Yavrusu",
-    "Title": "Ezeli Su Ejderi",
-    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "DescribeId": 52106,
+    "Name": "Münzevi Cephe Yaran",
+    "Title": "Maguu Kenki",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -1574,6 +1574,43 @@
       {
         "Type": 4,
         "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20012302,
+    "DescribeId": 123,
+    "MonsterName": "Slime_Moon_01",
+    "Name": "Savaş Uzmanı Prizma Bodurlop",
+    "Title": "Savaş Uzmanı Prizma Bodurlop",
+    "Icon": "UI_MonsterIcon_Slime_Moon_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 418.3872,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
       },
       {
         "Type": 7,
@@ -4396,89 +4433,6 @@
     "BaseValue": {
       "HpBase": 108.672,
       "AttackBase": 75.36,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 2
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22020201,
-    "DescribeId": 20202,
-    "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Hiçliğin Habercisi: Buzul Kıyamet",
-    "Title": "Buzul Kılıçların Elçisi",
-    "Description": "Savaşırken buzdan kılıçlar kullanan Hiçlik Tarikatından bir canavar.\nKutsal müjdeyi yayıp yücelten azizler olduğu gibi çarpıtmaları düzeltip yanlış anlaşılmaları gidermesi gereken elçiler de vardır.\nİnsanlar genelde çeliğin vücudu delip geçerken buz gibi hissettirdiğini söylerler ancak bu kara ayazın ruhu bile dondurabildiği söylenir.",
-    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "剧情任务-脱战逻辑标签",
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22030101,
-    "DescribeId": 20301,
-    "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Hiçlik Vaizi: Mor Şimşek",
-    "Title": "Yıldırım Darbesi Müridi",
-    "Description": "Hiçlik Tarikatının bir hizmetkarı olan bu canavar, karanlığa methiyeler düzerken yıldırıma hükmeder.\nBu canavarlar, Hiçliğin fanatik müritleri ve alimleridir. Amansız yıldırımları kafirlerin yüreğine, gündüzü olmayan bir gecenin ebedi karanlığında hüküm süren kara bir irfan misali korku salar. Bu yıldırımların eflatun parıltısı, insan zekasını yıpratan yüce bir gücün varlığını dağa taşa duyurur.",
-    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -8198,6 +8152,84 @@
     "BaseValue": {
       "HpBase": 293.4144,
       "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090601,
+    "DescribeId": 40906,
+    "MonsterName": "Monitor_01",
+    "Name": "Öncünün Gizli Kaynak Ağ Gözetim Matrisi",
+    "Title": "Işık Getiren Münzevi",
+    "Description": "Ay harabeleri arasında mahsur kalmış antik bir makina. En sağlam ve en güvenilir makinalar bile uzun yıllara yenik düşerek üreticileri tarafından onlara bahşedilen amaçlarını yerine getiremezler. Şimdiyse bu varlık, yalnızca savunduğu topraklara ayak basmaya cüret edenlere saldırıyor ve onları yok oluşa sürüklüyor.\nUzun zaman önce kaybolmuş antik bir medeniyetin kayıtlarında kontrolden çıkmış bu makinalara bir zamanlar \"Ur-Namrasit-Tilimtu-Babbar\", yani \"karanlığa ışık getiren\" denirdi. Uçsuz bucaksız yıldız denizine duyulan bir hasret ile \"öncülerin\" liderleri, en içten sözlerini altın sarısı mühürlere kazıdılar. Onlardan sonra gelecek haleflerinin bu yardımcıların desteğiyle evreni aydınlatan ışığın parlaklığını koruyabilmelerini umuyorlardı.\nNe yazık ki ışık hiç kimse için doğmadı ve \"gözetmen\" unvanı verilen makina, hizmet etmesi gereken kişiyi beklemeyi başaramadı. Şimdi bu harabelerde mahsur kalan bu makina, uzun zamandır kayıp olan bir idealin kontrolden çıkmış son kalıntısından ibaret.",
+    "Icon": "UI_MonsterIcon_Monitor_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 114.1056,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090701,
+    "DescribeId": 40907,
+    "MonsterName": "Monitor_02",
+    "Name": "Savaş Uzmanı Öncünün Gizli Kaynak Ağ Gözetim Matrisi",
+    "Title": "Savaş Uzmanı Öncünün Gizli Kaynak Ağ Gözetim Matrisi",
+    "Icon": "UI_MonsterIcon_Monitor_02",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "地方传奇标记"
+    ],
+    "BaseValue": {
+      "HpBase": 1222.56,
+      "AttackBase": 138.16,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -16308,82 +16340,6 @@
     ]
   },
   {
-    "Id": 26260101,
-    "DescribeId": 62601,
-    "MonsterName": "Wayob_Drillhead_01",
-    "Name": "Kaya Mağarası Wayob Tezahürü",
-    "Title": "Ters Akıntı Wayob Tezahürü",
-    "Description": "Yankıların Çocukları totemlerin ve Gece Ruhlarının gücüyle topraklarda tecelli eden Wayob'a inanırlar ve ona taparlar.\nNatlanlılar Wayob'un Gece Lordu'nun krallığında yaşadığına ve sabit bir sureti olmadığına, bu yüzden de kayıp kabile halkına rehberlik edebilmek için her türlü şekle bürünebildiğine inanır. Wayob Tezahürleri özeldir ve totemlerle ortaya çıkan figürlerin genellikle önemli bir amacı vardır.\nYankıların Çocukları, Wayob'un dağlara ve denizlere şekil verme gücüne ve kayalarla taşların sürtünmesiyle oluşan yankıları kontrol edebilme yetisine sahip olduğuna inanır.",
-    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.5,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26260201,
-    "DescribeId": 62602,
-    "MonsterName": "Wayob_Mosasaurus_01",
-    "Name": "Ters Akıntı Wayob Tezahürü",
-    "Title": "Kaya Mağarası Wayob Tezahürü",
-    "Description": "Kaplıca Halkı, totemlerin ve Gece Ruhlarının gücüyle topraklarda tecelli eden Wayob'a inanırlar ve ona taparlar.\n\"Wayob\" denilen kavram, Natlan halkının Gece Lordu'nun krallığıyla iletişim kurmaya başlamasıyla birlikte kabilelerden ve obsidiyen totemlerden oluşmuş bir inançtır. Kolektif düşünceye sahip bir bilinçtir ve ataların ruhlarına ev sahipliği yapar.\nKaplıca Halkı, Wayob'un gelgitleri ve dalgaları kontrol edebilme gücüne sahip olduğuna ve hem akan sularda hem de durgun suların akışında meydana gelen değişiklikleri yönetebildiğine inanır.",
-    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.5,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
     "Id": 26260301,
     "DescribeId": 62603,
     "MonsterName": "Wayob_Hookwalker_01",
@@ -17836,7 +17792,7 @@
     "DescribeId": 91001,
     "MonsterName": "Monster_Nihil_Harbinger_01",
     "Name": "Yaver",
-    "Title": "Yaver",
+    "Title": "Gelişmiş Çok Amaçlı Taarruz Kara Kruvazörü",
     "Icon": "UI_MonsterIcon_Nihil",
     "Type": 2,
     "Arkhe": 0,
@@ -17877,7 +17833,7 @@
     "DescribeId": 91101,
     "MonsterName": "Monster_TheAbyssXiuhcoatl_01",
     "Name": "Aşınmış Kadim Ateşin Efendisi",
-    "Title": "Aşınmış Kadim Ateşin Efendisi",
+    "Title": "Gelişmiş Çok Amaçlı Taarruz Kara Kruvazörü",
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 2,
     "Arkhe": 0,
@@ -17917,7 +17873,7 @@
     "DescribeId": 91211,
     "MonsterName": "Monster_GiantChess_King_StageA",
     "Name": "Yükselen Şah",
-    "Title": "Aşırı Donanımlı Yalancı Çiçek",
+    "Title": "Yükselen Şah",
     "Icon": "UI_MonsterIcon_GiantChess_King",
     "Type": 2,
     "Arkhe": 0,
@@ -17954,7 +17910,7 @@
     "DescribeId": 91212,
     "MonsterName": "Monster_GiantChess_King_StageB",
     "Name": "Yücelen Vezir",
-    "Title": "Aşırı Donanımlı Yalancı Çiçek",
+    "Title": "Yücelen Vezir",
     "Icon": "UI_MonsterIcon_GiantChess_Queen",
     "Type": 2,
     "Arkhe": 0,
@@ -18442,6 +18398,80 @@
     ]
   },
   {
+    "Id": 84202022,
+    "DescribeId": 20202,
+    "MonsterName": "Invoker_Herald_Ice_01",
+    "Name": "Hiçliğin Habercisi: Buzul Kıyamet",
+    "Title": "Buzul Kılıçların Elçisi",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84203012,
+    "DescribeId": 20301,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Name": "Hiçlik Vaizi: Mor Şimşek",
+    "Title": "Yıldırım Darbesi Müridi",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 84301011,
     "DescribeId": 30101,
     "MonsterName": "Skirmisher_Male_Fat_SprayGun_Ice_01",
@@ -18792,6 +18822,80 @@
     "BaseValue": {
       "HpBase": 168.4416,
       "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626012,
+    "DescribeId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Kaya Mağarası Wayob Tezahürü",
+    "Title": "Ters Akıntı Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626022,
+    "DescribeId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Ters Akıntı Wayob Tezahürü",
+    "Title": "Kaya Mağarası Wayob Tezahürü",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
       "DefenseBase": 500,
       "FireSubHurt": 0,
       "GrassSubHurt": 0,

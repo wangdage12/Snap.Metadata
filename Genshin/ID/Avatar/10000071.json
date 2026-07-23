@@ -476,7 +476,28 @@
         "Id": 10712,
         "Name": "Secret Rite: Chasmic Soulfarer",
         "Description": "Menerjang ke arah depan dan mengakibatkan <color=#FFACFFFF>Electro DMG</color> terhadap musuh di dalam jalurnya.\n\nSaat Cyno berada dalam status Pactsworn Pathclearer yang terpicu oleh Elemental Burst Sacred Rite: Wolf's Swiftness, sebagai gantinya, Cyno akan melepaskan sebuah <color=#FFD780FF>Mortuary Rite</color> yang akan melepaskan kekuatan petir yang sangat kuat dan mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> serta memperpanjang durasi Pactsworn Pathclearer.\n\n<i>\"Penghakiman ini tidak memberikan pilihan. Tidak ada penolakan atau penerimaan di sini ... Kita berdua sudah lama terikat dalam keyakinan ini.\"</i>",
+        "SpecialDescription": "Menerjang ke arah depan dan mengakibatkan <color=#FFACFFFF>Electro DMG</color> terhadap musuh di jalurnya.\n\nSaat Cyno berada dalam status Pactsworn Pathclearer, efek skill ini berubah menjadi: Cyno akan melancarkan <color=#FFD780FF>Mortuary Rite</color> yang mengakibatkan <color=#FFACFFFF>Electro DMG Area</color>. Jika Cyno memasuki Pactsworn Pathclearer melalui Elemental Burst <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, melancarkan <color=#FFD780FF>Mortuary Rite</color> juga akan memperpanjang durasi Pactsworn Pathclearer kali ini.\n\n<i>\"Penghakiman ini tidak memberikan pilihan. Tidak ada penolakan atau penerimaan di sini ... Kita berdua sudah lama terikat dalam keyakinan ini.\"</i>",
         "Icon": "Skill_S_Cyno_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 7124,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 712401,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 712401,
+        "Name": "A Star With Which to Start the Journey",
+        "Description": "Saat tidak berada dalam status Pactsworn Pathclearer, setelah melancarkan Elemental Skill <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color>, Cyno akan memasuki status Pactsworn Pathclearer selama 6 detik.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Cyno akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Icon": "UI_Talent_S_Cyno_08"
       }
     ],
     "EnergySkill": {
@@ -832,7 +853,8 @@
               "Level": 1,
               "Parameters": [
                 0.35,
-                1
+                1,
+                2
               ]
             }
           ],
@@ -853,7 +875,8 @@
               "Level": 1,
               "Parameters": [
                 1.5,
-                2.5
+                2.5,
+                6
               ]
             }
           ],
@@ -888,12 +911,14 @@
         "Id": 711,
         "Name": "Ordinance: Unceasing Vigil",
         "Description": "Setelah menggunakan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, akan meningkatkan 20% Normal Attack SPD Cyno selama 10 detik. Jika efek Judication dari Talenta Ascension Featherfall Judgment terpicu selama <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color>, maka durasi kenaikan ini akan diperbarui.\nHarus membuka Talenta Ascension \"Featherfall Judgment\" terlebih dahulu.",
+        "SpecialDescription": "Setelah melancarkan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, akan meningkatkan 20% Normal Attack SPD Cyno selama 10 detik. Jika efek Judication dari Talenta Ascension \"Featherfall Judgment\" terpicu saat melancarkan <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color>, maka durasi peningkatan ini akan diperbarui.\nHarus membuka Talenta Ascension \"Featherfall Judgment\" terlebih dahulu.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Saat memasuki status Pactsworn Pathclearer, Cyno juga akan memperoleh efek <color=#FFD780FF>Together We Rise</color>: Elemental Mastery meningkat 200 poin. Selama durasinya berlangsung, saat Cyno berganti Karakter di medan pertempuran, Karakter berikutnya akan mewarisi efek <color=#FFD780FF>Together We Rise</color> beserta sisa durasinya.",
         "Icon": "UI_Talent_S_Cyno_01"
       },
       {
         "Id": 712,
         "Name": "Ceremony: Homecoming of Spirits",
         "Description": "Setelah Normal Attack Cyno mengenai musuh, <color=#FFACFFFF>Electro DMG</color> Bonus akan meningkat 10% selama 4 detik. Efek ini dapat terpicu setiap 0,1 detik, maksimum 5 lapis.",
+        "SpecialDescription": "Setelah Normal Attack Cyno mengenai musuh, <color=#FFACFFFF>Electro DMG</color> Bonus-nya akan meningkat 10% selama 4 detik. Efek ini dapat terpicu sekali setiap 0,1 detik dan dapat ditumpuk hingga 5 lapis.\n\nSelain itu, saat Normal Attack dan Charged Attack Karakter yang berada dalam pengaruh efek <color=#FFD780FF>Together We Rise</color> mengenai musuh, maka DMG reaksi Stellar-Conduct yang diakibatkan Karakter tersebut meningkat 16%. Efek ini berlangsung hingga <color=#FFD780FF>Together We Rise</color> berakhir. Efek ini dapat terpicu sekali setiap 0,1 detik dan dapat ditumpuk hingga 5 lapis.",
         "Icon": "UI_Talent_S_Cyno_02"
       },
       {
@@ -910,6 +935,7 @@
         "Id": 714,
         "Name": "Austerity: Forbidding Guard",
         "Description": "Saat Cyno berada dalam status Pactsworn Pathclearer yang terpicu oleh <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, setelah dia memicu Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, atau reaksi Electro Swirl, Cyno akan memulihkan 3 Elemental Energy untuk semua anggota party di sekitar (kecuali Cyno sendiri.)\nEfek ini dapat muncul 5 kali dalam satu kali penggunaan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.",
+        "SpecialDescription": "Saat Cyno berada dalam status Pactsworn Pathclearer yang terpicu oleh <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, setelah dia memicu reaksi Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, atau Electro Swirl, maka Cyno akan memulihkan 3 Energy untuk semua anggota party di sekitar (kecuali Cyno sendiri.) Efek ini dapat terpicu 5 kali dalam satu kali penggunaan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.\n\nSetelah Karakter lain yang berada dalam efek <color=#FFD780FF>Together We Rise</color> memicu reaksi yang disebutkan di atas, mereka juga akan memulihkan 20 poin Energy Cyno. Efek ini dapat terpicu sekali setiap 18 detik.",
         "Icon": "UI_Talent_S_Cyno_03"
       },
       {
@@ -926,6 +952,7 @@
         "Id": 716,
         "Name": "Raiment: Just Scales",
         "Description": "Setelah melancarkan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> atau memicu Judication dari Talenta Ascension Featherfall Judgment, Cyno akan mendapatkan 4 lapis efek \"Day of the Jackal\". Saat Normal Attack Cyno mengenai musuh, akan mengonsumsi 1 lapis \"Day of the Jackal\" dan menembakkan 1 Duststalker Bolt.\nDay of the Jackal berlangsung selama 8 detik, dapat ditumpuk sampai 8 lapis, dan akan hilang pada saat status Pactsworn Pathclearer dari Sacred Rite: Wolf's Swiftness berakhir.\nDuststalker Bolt yang dapat ditembakkan dengan cara ini adalah maksimal satu setiap 0,4 detik.\nHarus membuka Talenta Ascension \"Featherfall Judgment\" terlebih dahulu.",
+        "SpecialDescription": "Setelah melancarkan <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> atau memicu Judication dari Talenta Ascension \"Featherfall Judgment\", Cyno akan mendapatkan 4 lapis efek \"Day of the Jackal\". Saat Normal Attack-nya mengenai musuh, Cyno akan mengonsumsi 1 lapis efek Day of the Jackal dan menembakkan 1 Duststalker Bolt. Jika Cyno berada dalam pengaruh efek <color=#FFD780FF>Together We Rise</color>, akan dikonversi menjadi menembakkan satu buah <color=#FFD780FF>Duststalker Bolt - Starsame</color>.\nEfek Day of the Jackal berlangsung selama 8 detik, dan dapat ditumpuk sampai 8 lapis selama durasi satu kali Pactsworn Pathclearer, dan akan hilang pada saat status Pactsworn Pathclearer dari Sacred Rite: Wolf's Swiftness berakhir.\nDuststalker Bolt atau Duststalker Bolt - Starsame yang dapat ditembakkan dengan cara ini adalah maksimal satu setiap 0,4 detik.\nHarus membuka Talenta Ascension \"Featherfall Judgment\" terlebih dahulu.",
         "Icon": "UI_Talent_S_Cyno_04"
       }
     ]

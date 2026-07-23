@@ -539,6 +539,33 @@
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 8651,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 865101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                0.3,
+                2,
+                0.3,
+                -0.4,
+                -0.2
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 865101,
+        "Name": "As Injustiças Sempre São Reveladas",
+        "Description": "<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o efeito do Talento de Ascensão \"Haverá Arguição Pela Justiça\" será convertido para:\nQuando a Vida de Wriothesley for inferior a 60%, obterá Ordem da Graça: Claridade, fortalecendo o próximo Ataque Carregado de <color=#FFD780FF>Ataque Normal: Punho Gelado Destruidor</color> para Brilho Celestial: Soco do Salto Gelado: não consome Stamina, e regenera Vida para Wriothesley após atingir. A quantidade de Vida regenerada é baseada em 30% da Vida Máxima de Wriothesley, e é possível regenerar Vida para ele uma vez a cada 2s dessa forma.\nAlém disso, o terceiro e quinto golpe de Soco Repulsor de <color=#FFD780FF>Julgamento do Gelo Feroz</color> fortalecidos causarão 60%/80% do <color=#99FFFFFF>Dano Cryo</color> original, e Brilho Celestial: Soco do Salto Gelado causará 100% do <color=#99FFFFFF>Dano Cryo em AdE</color> original. Esses Danos acima são considerados Dano de Supercondutor Estelar. Aumenta o Dano de Supercondutor Estelar causado por Wriothesley em 30%.\nAlém disso, quando estiver no {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}, Wriothesley entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>",
+        "Icon": "UI_Talent_S_Wriothesley_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 8639,
       "Proud": {
@@ -792,12 +819,14 @@
         "Id": 861,
         "Name": "Aterrorizando Criminosos",
         "Description": "Muda a \"Ordem da Graça\" do Talento de Ascensão \"Haverá Arguição Pela Justiça\":\nQuando a Vida de Wriothesley for inferior a 60%, ou quando estiver no estado Julgamento do Gelo Feroz de <color=#FFD780FF>Corrida da Presa Gelada</color> e o quinto golpe de Soco Repulsor atingir um inimigo, obtém \"Ordem da Graça\". É possível obter uma \"Ordem da Graça\" a cada 2.5s.\nAlém disso, Disciplina: Soco do Salto Gelado recebe os seguintes bônus:\n· Aumenta o Dano causado ainda mais, chegando a 200%.\n· Ao atingir um inimigo, se estiver no estado Julgamento do Gelo Feroz, a duração desse estado é prolongada em 4s. É possível prolongar a duração de uma instância do estado Julgamento do Gelo Feroz uma vez dessa forma.\n\nÉ necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".",
+        "SpecialDescription": "A Ordem da Graça do Talento de Ascensão \"Haverá Arguição Pela Justiça\" muda para:\nReduz a Vida de Wriothesley em 60%, ou na duração de Julgamento do Gelo Feroz de <color=#FFD780FF>Corrida da Presa Gelada</color>, quando o quinto golpe de Soco Repulsor atingir um inimigo, obtém Ordem da Graça. É possível desencadear o efeito Ordem da Graça uma vez a cada 2.5s.\n\nAlém disso, Disciplina: Soco do Salto Gelado obtém os seguintes fortalecimentos:\n· Aumenta o Dano causado para 200%.\n· Ao atingir, se estiver no estado Julgamento do Gelo Feroz, prolonga a duração desse estado em 4s.\n\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>:\n· Nos 5s após Brilho Celestial: Soco do Salto Gelado atingir um inimigo, na próxima vez que lançar o quinto golpe de Soco Repulsor fortalecido de Julgamento do Gelo Feroz, o Dano causado será aumentado em 50%.\n· Nos 5s após o quinto golpe do Soco Repulsor fortalecido de Julgamento do Gelo Feroz atingir um inimigo, aumenta o Dano causado de Brilho Celestial: Soco do Salto Gelado em 50%.\n· Quando Brilho Celestial: Soco do Salto Gelado atingir um inimigo, se estiver no estado Julgamento do Gelo Feroz, prolonga a duração desse estado em 4s.\n\nDurante uma duração do estado Julgamento do Gelo Feroz, é possível prolongar a duração até 1 vez dessa forma.\n\nÉ necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".",
         "Icon": "UI_Talent_S_Wriothesley_01"
       },
       {
         "Id": 862,
         "Name": "Prendendo os Arrogantes",
         "Description": "Ao lançar <color=#FFD780FF>Mordida do Lobo de Ouro Escuro</color>, cada acúmulo do efeito \"Édito do Processo\" do Talento de Ascensão \"Retribuição do Pecado\" aumentará o Dano causado em 40%.\nÉ preciso ter desbloqueado o Talento de Ascensão \"Retribuição do Pecado\".",
+        "SpecialDescription": "Ao lançar <color=#FFD780FF>Mordida do Lobo de Ouro Escuro</color>, cada acúmulo do efeito Édito do Processo do Talento de Ascensão \"Retribuição do Pecado\" aumenta o Dano causado em 40%.\n\nAlém disso, quando Édito do Processo alcançar 5 acúmulos, se Wriothesley:\n· Estiver no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o Talento \"As Injustiças Sempre São Reveladas\" é fortalecido: o terceiro e quinto golpes de Soco Repulsor de <color=#FFD780FF>Julgamento do Gelo Feroz</color> são fortalecidos para causar 90%/120% do Dano original como <color=#99FFFFFF>Dano Cryo</color>, e Brilho Celestial: Soco do Salto Gelado causará <color=#99FFFFFF>Dano Cryo em uma AdE</color> com 150% do Dano original. Esses Danos são considerados Dano de Supercondutor Estelar.\n· Quando não está no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o Ataque Normal e Carregado causam 125%/130% do Dano original.\n\nÉ necessário ter desbloqueado o Talento de Ascensão \"Retribuição do Pecado\".",
         "Icon": "UI_Talent_S_Wriothesley_02"
       },
       {
@@ -814,6 +843,7 @@
         "Id": 864,
         "Name": "Redimindo Aqueles Que Sofrem",
         "Description": "Aumenta a Vida que Wriothesley regenera com Disciplina: Soco do Salto Gelado para 50% de sua Vida Máxima. É necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".\nAlém disso, quando Wriothesley é curado, caso haja sobrecura, gerará efeitos diferentes dependendo de Wriothesley estar ou não no campo de batalha. Quando ele está no campo de batalha, aumenta sua Vel. de ATQ em 20% por 4s. Quando ele não está no campo de batalha, aumenta a Vel. de ATQ de todos os membros da própria equipe em 10% por 6s. Os dois efeitos de Vel. de ATQ não acumulam.",
+        "SpecialDescription": "Aumenta a Vida que Wriothesley regenera com Disciplina: Soco do Salto Gelado para 50% de sua Vida Máxima. É necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".\nAlém disso, quando Wriothesley é curado, caso haja sobrecura, gerará efeitos diferentes dependendo de Wriothesley estar ou não no campo de batalha. Quando ele está no campo de batalha, aumenta sua Vel. de ATQ em 20% por 4s. Quando ele não está no campo de batalha, aumenta a Vel. de ATQ de todos os membros da própria equipe em 10% por 6s. Os dois efeitos de Vel. de ATQ não acumulam.\n\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o efeito acima modificará para:\nReduz o Dano sofrido de Wriothesley em 25%, aumenta sua Velocidade de Ataque em 20%, aumenta a Velocidade de Ataque dos outros personagens próximos em 10%.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
       {
@@ -830,6 +860,7 @@
         "Id": 866,
         "Name": "Valorizando os Inocentes",
         "Description": "Aumenta a Taxa CRIT de Disciplina: Soco do Salto Gelado em 10%, o Dano CRIT em 80% e dispara uma Estalactite Cryo adicional que causa 100% do Dano Base de Disciplina: Soco do Salto Gelado como <color=#99FFFFFF>Dano Cryo</color>. O Dano causado dessa forma é considerado Dano de Ataque Carregado.\nÉ necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".",
+        "SpecialDescription": "Aumenta a Taxa CRIT de Disciplina: Soco do Salto Gelado em 10%, o Dano CRIT em 80% e dispara uma Estalactite Cryo adicional que causa 100% do Dano original de Disciplina: Soco do Salto Gelado como <color=#99FFFFFF>Dano Cryo</color>. O Dano causado dessa forma é considerado Dano de Ataque Carregado.\n\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o efeito acima muda para:\n· Aumenta a Taxa CRIT em 10% e o Dano CRIT em 80% para os Socos Repulsores e Brilho Celestial: Soco do Salto Gelado de <color=#FFD780FF>Julgamento do Gelo Feroz</color> fortalecido, e gera uma Estalactite Cryo adicional no quinto golpe dos Socos Repulsores e Brilho Celestial: Soco do Salto Gelado, causando 60% de <color=#99FFFFFF>Dano Cryo</color> do Dano original. Esse Dano é considerado Dano de Supercondutor Estelar.\n\nÉ necessário ter desbloqueado o Talento de Ascensão \"Haverá Arguição Pela Justiça\".",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "Choice Treasures",
+        "Description": "Selama 20 detik setelah melancarkan Elemental Skill <color=#FFD780FF>Icy Paws</color>, saat Karakter party memicu reaksi Superconduct atau Stellar-Conduct, maka Diona juga akan melancarkan 3 <color=#FFD780FF>Icy Paw</color> secara bersamaan. <color=#FFD780FF>Icy Paw</color> yang dilancarkan dengan cara ini tidak dapat menghasilkan Elemental Particle, dan tidak akan menciptakan Perisai saat mengenai musuh. Efek ini dapat terpicu sekali setiap 3,5 detik.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Diona akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "Cat's Tail Closing Time",
         "Description": "Karakter dalam area <color=#FFD780FF>Signature Mix</color> akan mendapatkan efek berikut berdasarkan jumlah HP mereka:\n·Meningkatkan 30% Bonus Pemulihan HP saat HP sama dengan atau kurang dari 50%.\n·Elemental Mastery +200 ketika HP di atas 50%.",
+        "SpecialDescription": "Karakter dalam area <color=#FFD780FF>Signature Mix</color> akan mendapatkan efek berikut berdasarkan jumlah HP mereka:\n·Meningkatkan 30% Incoming Healing Bonus saat HP sama dengan atau kurang dari 50%.\n·Elemental Mastery +200 ketika HP di atas 50%.\n\nSelain itu, Max HP Diona meningkat 25%.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Meningkatkan 40% DMG Superconduct dan Stellar-Conduct yang diakibatkan oleh Karakter yang berada di dalam area <color=#FFD780FF>Signature Mix</color>.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

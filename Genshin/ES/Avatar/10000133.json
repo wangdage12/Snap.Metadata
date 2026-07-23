@@ -1,0 +1,1165 @@
+{
+  "Id": 10000133,
+  "PromoteId": 133,
+  "Sort": 118,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_MarionetteNew",
+  "SideIcon": "UI_AvatarIcon_Side_MarionetteNew",
+  "Name": "Sandrone",
+  "Description": "La séptima de Los Once de los Fatui, conocida como “La Títere”. Además de interpretar todos los fenómenos a través del prisma de las matemáticas, es una elegante dama que nunca falta a las horas del té.",
+  "BeginTime": "2026-06-30T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 11,
+  "BaseValue": {
+    "HpBase": 1029.5856,
+    "AttackBase": 26.6266,
+    "DefenseBase": 58.57357
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13331,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ráfaga de ATQ Cargado|{param4:F1P}",
+            "Daño del rayo criocondensador de ATQ Cargado|{param5:F1P}",
+            "Daño de Superconductor Estelar del rayo criocondensador de ATQ Cargado|{param6:F1P}",
+            "Daño durante la sobrecarga de capacidad|{param7:F1P}",
+            "Daño de Caída|{param8:F1P}",
+            "Daño de impacto de caída baja/alta|{param9:P}/{param10:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1333101,
+              "Level": 1,
+              "Parameters": [
+                0.762863,
+                0.67197,
+                1.028035,
+                0.43,
+                1.2255,
+                0.817,
+                0.43,
+                0.745878,
+                1.49144,
+                1.862889
+              ]
+            },
+            {
+              "Id": 1333102,
+              "Level": 2,
+              "Parameters": [
+                0.824957,
+                0.726665,
+                1.111713,
+                0.465,
+                1.32525,
+                0.8835,
+                0.465,
+                0.806589,
+                1.612836,
+                2.01452
+              ]
+            },
+            {
+              "Id": 1333103,
+              "Level": 3,
+              "Parameters": [
+                0.88705,
+                0.78136,
+                1.19539,
+                0.5,
+                1.425,
+                0.95,
+                0.5,
+                0.8673,
+                1.734233,
+                2.16615
+              ]
+            },
+            {
+              "Id": 1333104,
+              "Level": 4,
+              "Parameters": [
+                0.975755,
+                0.859496,
+                1.314929,
+                0.55,
+                1.5675,
+                1.045,
+                0.55,
+                0.95403,
+                1.907656,
+                2.382765
+              ]
+            },
+            {
+              "Id": 1333105,
+              "Level": 5,
+              "Parameters": [
+                1.037848,
+                0.914191,
+                1.398606,
+                0.585,
+                1.66725,
+                1.1115,
+                0.585,
+                1.014741,
+                2.029052,
+                2.534396
+              ]
+            },
+            {
+              "Id": 1333106,
+              "Level": 6,
+              "Parameters": [
+                1.108812,
+                0.9767,
+                1.494237,
+                0.625,
+                1.78125,
+                1.1875,
+                0.625,
+                1.084125,
+                2.167791,
+                2.707688
+              ]
+            },
+            {
+              "Id": 1333107,
+              "Level": 7,
+              "Parameters": [
+                1.206388,
+                1.06265,
+                1.62573,
+                0.68,
+                1.938,
+                1.292,
+                0.68,
+                1.179528,
+                2.358556,
+                2.945964
+              ]
+            },
+            {
+              "Id": 1333108,
+              "Level": 8,
+              "Parameters": [
+                1.303964,
+                1.148599,
+                1.757223,
+                0.735,
+                2.09475,
+                1.3965,
+                0.735,
+                1.274931,
+                2.549322,
+                3.184241
+              ]
+            },
+            {
+              "Id": 1333109,
+              "Level": 9,
+              "Parameters": [
+                1.401539,
+                1.234549,
+                1.888716,
+                0.79,
+                2.2515,
+                1.501,
+                0.79,
+                1.370334,
+                2.740087,
+                3.422517
+              ]
+            },
+            {
+              "Id": 1333110,
+              "Level": 10,
+              "Parameters": [
+                1.507985,
+                1.328312,
+                2.032163,
+                0.85,
+                2.4225,
+                1.615,
+                0.85,
+                1.47441,
+                2.948195,
+                3.682455
+              ]
+            },
+            {
+              "Id": 1333111,
+              "Level": 11,
+              "Parameters": [
+                1.614431,
+                1.422075,
+                2.17561,
+                0.91,
+                2.5935,
+                1.729,
+                0.91,
+                1.578486,
+                3.156303,
+                3.942393
+              ]
+            },
+            {
+              "Id": 1333112,
+              "Level": 12,
+              "Parameters": [
+                1.720877,
+                1.515838,
+                2.319057,
+                0.97,
+                2.7645,
+                1.843,
+                0.97,
+                1.682562,
+                3.364411,
+                4.202331
+              ]
+            },
+            {
+              "Id": 1333113,
+              "Level": 13,
+              "Parameters": [
+                1.827323,
+                1.609602,
+                2.462503,
+                1.03,
+                2.9355,
+                1.957,
+                1.03,
+                1.786638,
+                3.572519,
+                4.462269
+              ]
+            },
+            {
+              "Id": 1333114,
+              "Level": 14,
+              "Parameters": [
+                1.933769,
+                1.703365,
+                2.60595,
+                1.09,
+                3.1065,
+                2.071,
+                1.09,
+                1.890714,
+                3.780627,
+                4.722207
+              ]
+            },
+            {
+              "Id": 1333115,
+              "Level": 15,
+              "Parameters": [
+                2.040215,
+                1.797128,
+                2.749397,
+                1.15,
+                3.2775,
+                2.185,
+                1.15,
+                1.99479,
+                3.988735,
+                4.982145
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11331,
+        "Name": "Ecuación fenomenológica: Deducción autoevidente",
+        "Description": "#<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 tajos consecutivos valiéndose de hilos tejidos con fórmulas matemáticas para controlar su arma.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConvoca a <color=#FFD780FF>Fagio</color>, la Facilitadora Automatizada Generalista Interactiva y Omnitarea, y hace que entre en el modo de <color=#FFD780FF>{LINK#N11330001}decodificación{/LINK}</color>, de manera que realizará un ataque de ráfaga contra los enemigos que tenga enfrente y disparará un rayo criocondensador de forma periódica que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl rayo criocondensador pasará a infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de Superconductor Estelar.\nEn el modo de <color=#FFD780FF>decodificación</color>, la <color=#FFD780FF>{LINK#N11330002}capacidad de decodificación{/LINK}</color> de Fagio aumentará continuamente. Además, al disparar un rayo criocondensador, la <color=#FFD780FF>capacidad de decodificación</color> se incrementará aún más.\nCuando la <color=#FFD780FF>capacidad de decodificación</color> alcance el límite de 100{NON_BREAK_SPACE}pts., Fagio entrará en el modo de <color=#FFD780FF>sobrecarga de capacidad</color>, en el que infligirá <color=#99FFFFFF>Daño Cryo</color> a los enemigos en intervalos más largos y no podrá pasar al modo de <color=#FFD780FF>decodificación</color>.\nCuando no esté en el modo de <color=#FFD780FF>decodificación</color>, la <color=#FFD780FF>capacidad de decodificación</color> de Fagio disminuirá lentamente. Cuando Sandrone esté en tu equipo pero no en uso, se centrará en realizar tareas de mantenimiento de Fagio, con lo que la velocidad de disminución de su <color=#FFD780FF>capacidad de decodificación</color> aumentará a un 300% del valor original.\nCuando la <color=#FFD780FF>capacidad de decodificación</color> caiga por debajo de los 50{NON_BREAK_SPACE}pts., Fagio saldrá del modo de <color=#FFD780FF>sobrecarga de capacidad</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "Icon": "Skill_A_04"
+      },
+      {
+        "GroupId": 13332,
+        "Proud": {
+          "Descriptions": [
+            "Daño de proyectil prismático|{param1:F1P}",
+            "Daño de Superconductor Estelar de proyectil prismático|{param2:F1P}",
+            "TdE|{param3:F1} s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1333201,
+              "Level": 1,
+              "Parameters": [
+                0.324,
+                0.216,
+                4
+              ]
+            },
+            {
+              "Id": 1333202,
+              "Level": 2,
+              "Parameters": [
+                0.3483,
+                0.2322,
+                4
+              ]
+            },
+            {
+              "Id": 1333203,
+              "Level": 3,
+              "Parameters": [
+                0.3726,
+                0.2484,
+                4
+              ]
+            },
+            {
+              "Id": 1333204,
+              "Level": 4,
+              "Parameters": [
+                0.405,
+                0.27,
+                4
+              ]
+            },
+            {
+              "Id": 1333205,
+              "Level": 5,
+              "Parameters": [
+                0.4293,
+                0.2862,
+                4
+              ]
+            },
+            {
+              "Id": 1333206,
+              "Level": 6,
+              "Parameters": [
+                0.4536,
+                0.3024,
+                4
+              ]
+            },
+            {
+              "Id": 1333207,
+              "Level": 7,
+              "Parameters": [
+                0.486,
+                0.324,
+                4
+              ]
+            },
+            {
+              "Id": 1333208,
+              "Level": 8,
+              "Parameters": [
+                0.5184,
+                0.3456,
+                4
+              ]
+            },
+            {
+              "Id": 1333209,
+              "Level": 9,
+              "Parameters": [
+                0.5508,
+                0.3672,
+                4
+              ]
+            },
+            {
+              "Id": 1333210,
+              "Level": 10,
+              "Parameters": [
+                0.5832,
+                0.3888,
+                4
+              ]
+            },
+            {
+              "Id": 1333211,
+              "Level": 11,
+              "Parameters": [
+                0.6156,
+                0.4104,
+                4
+              ]
+            },
+            {
+              "Id": 1333212,
+              "Level": 12,
+              "Parameters": [
+                0.648,
+                0.432,
+                4
+              ]
+            },
+            {
+              "Id": 1333213,
+              "Level": 13,
+              "Parameters": [
+                0.6885,
+                0.459,
+                4
+              ]
+            },
+            {
+              "Id": 1333214,
+              "Level": 14,
+              "Parameters": [
+                0.729,
+                0.486,
+                4
+              ]
+            },
+            {
+              "Id": 1333215,
+              "Level": 15,
+              "Parameters": [
+                0.7695,
+                0.513,
+                4
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11332,
+        "Name": "Ecuación fenomenológica: Análisis diferencial",
+        "Description": "#Siguiendo la perfecta etiqueta de una dama, Sandrone se sienta en el <color=#FFD780FF>mecanismo de suspensión de asalto táctico de la hora del té</color> y flota continuamente hacia delante durante 6{NON_BREAK_SPACE}s. En este tiempo, Sandrone podrá controlar la dirección del movimiento y, al {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez} para esprintar, consumirá 10{NON_BREAK_SPACE}pts. de Aguante para entrar en el modo de “suspensión elegante de alta velocidad”, en el que consumirá 15{NON_BREAK_SPACE}pts. de Aguante por segundo para avanzar flotando a una mayor velocidad.\n\nCuando Sandrone comienza a flotar, si hay algún enemigo en las cercanías, invocará un cañón de resonancia prismática que disparará a los enemigos agitados dos proyectiles prismáticos que infligen <color=#99FFFFFF>Daño Cryo</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl segundo proyectil prismático pasará a infligir <color=#99FFFFFF>Daño Cryo</color> considerado como daño de Superconductor Estelar.\n\nCuando Sandrone esté sentada en el mecanismo de suspensión de asalto táctico de la hora del té, también realizará tareas de mantenimiento de Fagio con gran elegancia y sigilo, lo que causará que su <color=#FFD780FF>{LINK#N11330002}capacidad de decodificación{/LINK}</color> se reduzca rápidamente.",
+        "Icon": "Skill_S_MarionetteNew_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13339,
+      "Proud": {
+        "Descriptions": [
+          "Daño de bombardeo|{param1:F1P} ×3",
+          "Daño de haces de inhibición térmica|{param2:F1P}",
+          "Daño de Superconductor Estelar de haces de inhibición térmica|{param3:F1P}",
+          "TdE|{param4:F1} s",
+          "Energía Elemental|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1333901,
+            "Level": 1,
+            "Parameters": [
+              0.88216,
+              3.308,
+              2.205333,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333902,
+            "Level": 2,
+            "Parameters": [
+              0.948322,
+              3.5561,
+              2.370733,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333903,
+            "Level": 3,
+            "Parameters": [
+              1.014484,
+              3.8042,
+              2.536133,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333904,
+            "Level": 4,
+            "Parameters": [
+              1.1027,
+              4.135,
+              2.756667,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333905,
+            "Level": 5,
+            "Parameters": [
+              1.168862,
+              4.3831,
+              2.922067,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333906,
+            "Level": 6,
+            "Parameters": [
+              1.235024,
+              4.6312,
+              3.087467,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333907,
+            "Level": 7,
+            "Parameters": [
+              1.32324,
+              4.962,
+              3.308,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333908,
+            "Level": 8,
+            "Parameters": [
+              1.411456,
+              5.2928,
+              3.528533,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333909,
+            "Level": 9,
+            "Parameters": [
+              1.499672,
+              5.6236,
+              3.749067,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333910,
+            "Level": 10,
+            "Parameters": [
+              1.587888,
+              5.9544,
+              3.9696,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333911,
+            "Level": 11,
+            "Parameters": [
+              1.676104,
+              6.2852,
+              4.190133,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333912,
+            "Level": 12,
+            "Parameters": [
+              1.76432,
+              6.616,
+              4.410667,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333913,
+            "Level": 13,
+            "Parameters": [
+              1.87459,
+              7.0295,
+              4.686333,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333914,
+            "Level": 14,
+            "Parameters": [
+              1.98486,
+              7.443,
+              4.962,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333915,
+            "Level": 15,
+            "Parameters": [
+              2.09513,
+              7.8565,
+              5.237667,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11335,
+      "Name": "Ecuación fenomenológica: Quod erat demonstrandum",
+      "Description": "Con la debida elegancia de una dama, Sandrone invoca un gran número de cañones de resonancia prismática para bombardear una amplia zona frente a sí y luego realizar una descarga de haces de inhibición térmica, con lo que infligirá <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nLos haces de inhibición térmica pasarán a infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de Superconductor Estelar.",
+      "Icon": "Skill_E_MarionetteNew_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 13321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332101,
+              "Level": 1,
+              "Parameters": [
+                3,
+                0.1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1332101,
+        "Name": "Mecanismo de cómputo arcaico",
+        "Description": "#<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nAl usar la Habilidad Elemental, {LINK#S11332}<color=#FFD780FF>Ecuación fenomenológica: Análisis diferencial</color>{/LINK}, si la <color=#FFD780FF>{LINK#N11330002}capacidad de decodificación{/LINK}</color> de Fagio supera los 50{NON_BREAK_SPACE}pts., el segundo proyectil prismático disparado contra los enemigos cercanos infligirá un 400% del daño original mientras también se reduce la capacidad de decodificación.\nAdemás, por cada 10{NON_BREAK_SPACE}pts. que se reduzca la <color=#FFD780FF>capacidad de decodificación</color> de Fagio, esta obtendrá una acumulación del efecto <color=#FFD780FF>mejora táctica</color> durante 60{NON_BREAK_SPACE}s. Este efecto podrá acumularse un máximo de 10 veces. Cuando Sandrone use su Habilidad Definitiva, {LINK#S11335}<color=#FFD780FF>Ecuación fenomenológica: Quod erat demonstrandum</color>{/LINK}, mientras está en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color>, se consumirán todas las acumulaciones de mejora táctica, lo que hará que los haces de inhibición térmica inflijan un 100% de su daño original, además de un 10% adicional por cada acumulación consumida.",
+        "Icon": "UI_Talent_S_MarionetteNew_05"
+      },
+      {
+        "GroupId": 13322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332201,
+              "Level": 1,
+              "Parameters": [
+                0.08,
+                160
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1332201,
+        "Name": "El código de conducta de una dama",
+        "Description": "#Por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Sandrone, su Maestría Elemental aumentará en 8{NON_BREAK_SPACE}pts. Como máximo, la Maestría Elemental puede aumentar en 160{NON_BREAK_SPACE}pts. de esta manera.",
+        "Icon": "UI_Talent_S_MarionetteNew_06"
+      },
+      {
+        "GroupId": 13323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1332301,
+        "Name": "Bendición fulgorestelar: Luz del racionalismo",
+        "Description": "#Cuando un personaje del equipo cause una reacción de Superconductor, esta se transformará en una reacción de Superconductor Estelar. El daño base de las reacciones de Superconductor Estelar de los personajes del equipo aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Sandrone. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\nAdemás, Sandrone entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Icon": "UI_Talent_S_MarionetteNew_07"
+      },
+      {
+        "GroupId": 13325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332501,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1332501,
+        "Name": "Preludio de la hora del té y una larga historia",
+        "Description": "Cuando Sandrone esté en el equipo, obtendrá una recompensa de refrigerio adicional tras entregar los encargos del día a Katheryne.",
+        "Icon": "UI_Talent_S_MarionetteNew_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1331,
+        "Name": "Mañana tras el crepúsculo dorado",
+        "Description": "Cuando Fagio esté en el modo de <color=#FFD780FF>{LINK#N11330001}decodificación{/LINK}</color>, la velocidad de aumento de su <color=#FFD780FF>{LINK#N11330002}capacidad de decodificación{/LINK}</color> se reducirá en un 50%, y el daño de Superconductor Estelar infligido por todos los personajes del equipo aumentará en un 30%.",
+        "Icon": "UI_Talent_S_MarionetteNew_01"
+      },
+      {
+        "Id": 1332,
+        "Name": "A través del espejo se observa una heredera",
+        "Description": "<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nAumenta en un 40% el Daño CRIT de los rayos criocondensadores del Ataque Cargado. Además, cada vez que se dispare un rayo criocondensador, el Daño CRIT de todos los rayos criocondensadores del modo de <color=#FFD780FF>{LINK#N11330001}decodificación{/LINK}</color> actualmente activo aumentará en un 20% adicional. Este efecto puede acumularse hasta 3 veces.",
+        "Icon": "UI_Talent_S_MarionetteNew_02"
+      },
+      {
+        "Id": 1333,
+        "Name": "Reniega del ocaso y del yugo de la luna",
+        "Description": "#Aumenta el nivel de habilidad del Ataque Normal {LINK#S11331}<color=#FFD780FF>Ecuación fenomenológica: Deducción autoevidente</color>{/LINK}{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_MarionetteNew_01",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1334,
+        "Name": "Intelecto y conocimiento, los cimientos del mundo",
+        "Description": "#Cuando Sandrone golpee a un enemigo con el daño de Superconductor Estelar, invocará un cañón de resonancia prismática adicional que realizará un ataque coordinado que infligirá una cantidad de <color=#99FFFFFF>Daño Cryo</color> equivalente al 125% del ATQ de Sandrone considerado como daño de Superconductor Estelar. Este efecto solo podrá ocurrir una vez cada 4{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_MarionetteNew_03"
+      },
+      {
+        "Id": 1335,
+        "Name": "Obviándolo todo, ella se queda al margen",
+        "Description": "#Aumenta el nivel de habilidad de {LINK#S11335}<color=#FFD780FF>Ecuación fenomenológica: Quod erat demonstrandum</color>{/LINK}{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_MarionetteNew_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1336,
+        "Name": "Narciso se despierta, ella contempla el alba",
+        "Description": "En el modo de <color=#FFD780FF>{LINK#N11330001}decodificación{/LINK}</color>, la tercera vez que Fagio lance su rayo criocondensador, este pasará a ser un <color=#FFD780FF>rayo criocondensador concentrado</color> más poderoso que se disparará de forma continua e infligirá hasta 4 golpes adicionales de <color=#99FFFFFF>Daño Cryo en el AdE</color> equivalentes al 100% del ATQ de Sandrone, además del daño original de los rayos criocondensadores subsecuentes.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl <color=#FFD780FF>rayo criocondensador concentrado</color> pasará a infligir hasta 4 golpes adicionales de <color=#99FFFFFF>Daño Cryo en el AdE</color> equivalentes al 80% del ATQ de Sandrone que se considerarán como daño de Superconductor Estelar.\nAdemás, el daño de Superconductor Estelar infligido por Sandrone {LINK#N11190007}<color=#FFD780FF>asciende</color>{/LINK} en un 20%.",
+        "Icon": "UI_Talent_S_MarionetteNew_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Analizadora de Reflejos",
+    "Detail": "La séptima de Los Once de los Fatui, conocida como “La Títere”. Además de interpretar todos los fenómenos a través del prisma de las matemáticas, es una elegante dama que nunca falta a las horas del té.",
+    "Association": 15,
+    "Native": "Fatui",
+    "BirthMonth": 1,
+    "BirthDay": 13,
+    "VisionBefore": "Cryo",
+    "VisionOverrideLocked": "Cuña Estelar",
+    "VisionOverrideUnlocked": "Visión",
+    "ConstellationBefore": "Narcissorolegium",
+    "CvChinese": "洪海天",
+    "CvJapanese": "本多真梨子",
+    "CvEnglish": "Deneen Melody",
+    "CvKorean": "Kang Eun-ae",
+    "CookBonus": {
+      "OriginItemId": 108534,
+      "ItemId": 108976,
+      "InputList": [
+        101231,
+        101230,
+        110008,
+        100062
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Odio las presentaciones. Si alguien está destinado a conocerme, lo hará de forma natural, y si no... ¿por qué malgastar tiempo y energía? Pero está bien. Por una cuestión de etiqueta, te haré el favor solo por esta vez... ¡Contempla ante ti a Sandrone, la séptima de Los Once de los Fatui!"
+      },
+      {
+        "Title": "Charla - Hora del té",
+        "Context": "Ya va siendo hora de que organicemos otra hora del té, ¿no crees? Me pregunto quién más estará libre."
+      },
+      {
+        "Title": "Charla - Piano",
+        "Context": "Me gusta la música. De hecho, aprendí a tocar muchos instrumentos diferentes por mi cuenta. ¿No me crees? Ja, búscame un piano y te enseñaré un par de cosas."
+      },
+      {
+        "Title": "Charla - Reuniones",
+        "Context": "¿Me han vuelto a llamar al Palacio Zapoliarni? Uf... En serio, ¿qué sentido tienen todas estas reuniones interminables?"
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "Qué fastidio."
+      },
+      {
+        "Title": "Tras la lluvia...",
+        "Context": "A mis flores les encanta este tiempo."
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "Sistemas defensivos... Mhm, funcionan con normalidad."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Arg, ya estará esa haciendo más “damiselas de nieve”..."
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "El tiempo ideal para disfrutar de un pastel, un café bien cargado y perderse en un buen libro."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Esta falda no está hecha para un tiempo como este... ¿Cómo demonios lo hacía Rosalyne?"
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Buenos días. ¿Te gustaría una taza de café? Te puede ayudar a levantar el ánimo. ¿Eh? ¿Que por qué alguien como yo necesitaría café? Ja, ¡¿acaso una dama no puede apreciar el sabor de una bebida?!"
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "¿Ya es por la tarde? Entonces será mejor que prepare algún refrigerio."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "¿Volviste para cenar? Sabes que esto no es un comedor, ¿verdad? Bueno, da igual. Ya que estás aquí, le diré a Fagio que te prepare algo."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Deberías dormir un poco. Yo prefiero investigar por la noche porque hay más tranquilidad y no hay nadie que me moleste. ¡¿Cómo dices?! ¡Mi horario de sueño está bien tal y como está, y no hay más que hablar!"
+      },
+      {
+        "Title": "Sobre Sandrone - Nombre",
+        "Context": "¿Es que no puedes llamarme Sandrone y ya está? ¿Eh? ¿Mi nombre original? Ja, ¿de verdad quieres saberlo? Está bien... Todavía recuerdo cuando abrí los ojos por primera vez. Alain acababa de terminar de crearme. Me llamó “Marionette”. Intenté repetirlo y decirlo yo misma en voz alta, pero... vi que ponía una cara que en aquel momento no supe interpretar. Solo más tarde entendí que era una mezcla de arrepentimiento y culpa. Nunca más volvió a llamarme así. En fin, tras contarme la historia de la Comunidad Cruz de los Narcisos y de su hermana, Alain concluyó insistiendo en que era libre de elegir mi propio camino en la vida. Dijo que una parte importante de eso era decidir mi propio nombre. Por mi parte, le dije que me parecía perfecto el que él me había dado: “Marionette Guillotin”. Un nombre bastante único, ¿no crees? Y, por diferentes razones, la Zarina lo cambió un poco y acabó convirtiéndolo en “La Títere” para mi título de Los Once. Je... Supongo que es una de esas cosas a las que la gente llama “destino”."
+      },
+      {
+        "Title": "Sobre Sandrone - Dormir",
+        "Context": "Cuando me crearon, me parecía demasiado esfuerzo buscar un sitio donde tumbarme, así que normalmente me “dormía” en una silla. No me acostumbré a dormir en una cama hasta que llegué a Snezhnaya. Tengo que decir que, tras un día agotador lidiando con mis compañeros, ponerme algo cómodo y meterme bajo las sábanas es maravillosamente acogedor. En ese momento, mi sistema sensorial y mis circuitos emocionales me crean una sensación de seguridad. Ahora sé por qué a la gente le gusta dormir hasta tarde. Sin embargo, tengo algunos inconvenientes con las camas, como por ejemplo, que mi llave mecánica me impide dormir boca arriba y me cuesta mantener el equilibrio cuando estoy acostada de lado. La única opción es dormir boca abajo."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Diario",
+        "Context": "Ya leíste mi diario, así que ¿no crees que ya es hora de que compartas algunos de tus secretos para que las cosas estén un poco equilibradas? ¿Eh? ¿Tu Manual del aventurero? ¿De qué me iba a servir eso? Si quisiera saber qué haces cada día, simplemente le pediría a Katheryne que me lo contara."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Posturas",
+        "Context": "Puede que ahora nos conozcamos mejor, pero una vez que lleguemos a Snezhnaya, tendremos que seguir las normas. Después de todo, no has dejado de luchar contra los Fatui, así que a saber qué revuelo podrías causar allí. Haré todo lo posible por no ponerte las cosas difíciles, pero te agradecería que hicieras lo mismo por mí. Ayudarse mutuamente basándose en el entendimiento mutuo... Eso es lo que hacen los compañeros, ¿no?"
+      },
+      {
+        "Title": "Sobre la Cuña Estelar...",
+        "Context": "Me viene muy bien, el elemento Cryo es muy útil. Por ejemplo, ya no tengo que preocuparme de sobrecalentarme tras haber hecho un montón de cálculos."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "Sin Pulonia, la vida de repente se volvió mucho más difícil. Por eso creé a Fagio, mi “Facilitadora Automatizada Generalista Interactiva y Omnitarea”. Ella puede encargarse de un montón de tareas triviales con las que prefiero no perder el tiempo... Y además, sabe pelear. ¿Eh? ¿Te parece que su nombre completo es demasiado largo y... difícil de entender? ¿No es así como se nombran todas las máquinas funcionales? A Alain se le ocurrió Pulonia, que significa “Proyecto de Unidad Localizadora de Observación Navegadora e Investigación Automatizada”. Pensaba que todo el mundo ponía nombres así. Entonces, ¿crees que es hereditario?"
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "Aparte de mi investigación, a veces me gusta reflexionar sobre temas metafísicos, igual que la gente de las demás naciones también tiene sus propias creencias sobre la muerte. En ese sentido, a menudo oigo a la gente hablar del “más allá”, del “lugar en el que descansan las almas” y cosas así... Pero no tengo absolutamente ningún recuerdo desde el momento en que mi núcleo resultó dañado luchando contra Dottore hasta que la Cuña Estelar activó el legado de Alain y me reactivó. ¿A dónde van las construcciones mecánicas, las “marionetas”, cuando mueren? ¿Cómo se definen nuestras “almas”? ¿Acaso tenemos alma? Todas estas son preguntas sin respuesta, así que al final siempre vuelvo a mi investigación. Sin embargo, el conocimiento es la piedra angular del mundo, así que pienso que, a medida que esas piedras sigan apilándose, algún día su altura me permitirá alcanzar las respuestas que busco."
+      },
+      {
+        "Title": "Sobre Citlalí...",
+        "Context": "#Esa gran chamana parece simpática. ¿De verdad es tan mayor? A mí me sigue pareciendo que tiene mucha energía, aunque a veces se altera bastante. ¿Que a qué me refiero? Pues a que, hace poco, le conté que tú y yo estuvimos buceando junt{F#as}{M#os} para buscar algo... Y antes de eso, le dije que estuviste en Nod Krai ayudando a Colombina a recuperar su nombre. Se alteró tanto que la cara se le puso roja como un tomate. Me pregunto si tendrá algo que ver con su edad..."
+      },
+      {
+        "Title": "Sobre Lynette...",
+        "Context": "¡No sé cómo lo hace! Esa chica gata siempre parece encontrar el punto más débil de cada máquina y luego... ¡pum! Se rompe. Ojalá su hermano le dijera algo. *Suspira*, en fin... Supongo que, en realidad, es un talento. Quizá debería pedirle que me ayude a poner a prueba mis futuras creaciones. Si mis máquinas no pueden sobrevivir a su curiosidad, ¿qué posibilidades tendrán en combate?"
+      },
+      {
+        "Title": "Sobre Alain Guillotin...",
+        "Context": "Cuando Alain murió, puse una lápida en su memoria. En vida, me había dicho que quería que yo escribiera su epitafio, y así lo hice. No fue difícil. Bastaba con enumerar sus hazañas y elegir una cita que capturara su forma de pensar. Me decidí por “Es una pena, pero ya está todo dicho”. Era algo que solía decir a menudo. ¿Te parece fatalista? Ja, quizá lo sea para alguien que no lo conocía, pero él siempre lo decía con una sonrisa. No era resignación, no se estaba rindiendo. Irónicamente, era casi como una expresión de satisfacción, como resolver un problema matemático. La muerte no es más que un silencioso signo de igual, y él se trasladó al otro lado de la ecuación."
+      },
+      {
+        "Title": "Sobre la Zarina...",
+        "Context": "Incluso a mí me siguen perturbando las anomalías de mi corazón. Sin embargo, su majestad la Zarina... Me pregunto cómo logró congelar sus emociones de una forma tan absoluta."
+      },
+      {
+        "Title": "Sobre El Bufón...",
+        "Context": "Siempre dando órdenes... De alguna manera, el mundo que se refleja en sus ojos parece más lejano que el que se refleja en los ojos de cualquier otra persona. La primera vez que lo vi, supe que este mundo le había quitado muchas cosas."
+      },
+      {
+        "Title": "Sobre El Capitán...",
+        "Context": "Todo el mundo sabe que a Capitano no le gusta quitarse la máscara, pero eso no le impide terminarse el té cada vez que nos juntamos."
+      },
+      {
+        "Title": "Sobre El Doctor...",
+        "Context": "Quizá sea mejor que te tapes los oídos. Si tengo que hablar de él, me temo que no voy a poder controlarme."
+      },
+      {
+        "Title": "Sobre Colombina - Pesada",
+        "Context": "Colombina solía sacarme de quicio y, para ser sincera, todavía lo hace. Pensé que la vida sería más tranquila sin tenerla cerca de mí, pero ¡quién iba a decir que me enfadaría aún más! ¡Uf, es para volverse loca!"
+      },
+      {
+        "Title": "Sobre Colombina - Vida",
+        "Context": "Ahora mismo está viviendo una vida tan feliz... Su familia y sus amigos la apoyan, y puede irse de viaje cada vez que tiene tiempo libre... ¿Por qué no puedo tener yo esa suerte? Olvídalo, no estoy celosa. Todos sabemos que se merece ser feliz."
+      },
+      {
+        "Title": "Sobre Arlecchino...",
+        "Context": "Arlecchino es una mujer de palabra. Actúa con decisión y se puede confiar en ella para llevar a cabo cualquier tarea. Desde un punto de vista puramente profesional, estaría bien que todos mis compañeros intentaran seguir su ejemplo."
+      },
+      {
+        "Title": "Sobre El Gallo...",
+        "Context": "Es el presidente del Veche de Snezhnogrado, aunque a menudo parece más bien... su supervisor. Cada voto que se emite en el Veche afecta a los intereses de muchas facciones distintas, y solo el más astuto de los estrategas puede lograr conciliar tantos intereses que chocan entre sí. Una vez que entiendes esto, empiezas a darte cuenta del miedo que da en realidad."
+      },
+      {
+        "Title": "Sobre El Regatero...",
+        "Context": "Pensé que desde el minuto uno habían investigado su relación y sus tratos con Dottore, pero ¿por qué tardaron diez veces más en concederme los fondos para mi investigación que en dárselos a ese lunático de Dottore? ¡Está claro que había gato encerrado! ¡Incluso se lo pregunté a Pantalone a la cara! Me miró fijamente con esa sonrisa estúpida suya y dijo: “Vaya, ¿por fin nuestra Sandrone se ha interesado en las finanzas? Puedo recomendarte algunos libros si quieres. Quizá deberías empezar por «Cien frases para aprender modales»”."
+      },
+      {
+        "Title": "Sobre Rosalyne...",
+        "Context": "Siempre vivió para sí misma, y amaba y odiaba a su manera. No es de extrañar que se extinguiera tan rápido. Aun así, su llama brilló con un matiz único hasta el momento en que se apagó por completo."
+      },
+      {
+        "Title": "Sobre Nobile...",
+        "Context": "Otro dolor de... bueno, de todo. ¿Por qué insistió tanto en convertirse en uno de Los Once cuando podría haber vivido feliz con sus hermanos y hermanas? ¿Y cuándo se le meterá en la cabezota que no todo el mundo está siempre buscando pelea?"
+      },
+      {
+        "Title": "Más sobre Sandrone (I)",
+        "Context": "#¿Eh? No suelo contar mi historia a los demás así como así, pero si voy a hacerlo, ¿podríamos al menos esperar a que haga buen tiempo y hacerlo acompañad{F#a}{M#o}s de té y pasteles?"
+      },
+      {
+        "Title": "Más sobre Sandrone (II)",
+        "Context": "Puede que mis compañeros Fatui no sean precisamente los que yo habría elegido, pero no se puede negar que esta organización es un lugar excelente para investigar. La Zarina es generosa con sus recursos y su financiación. Diría que la balanza se inclina a mi favor."
+      },
+      {
+        "Title": "Más sobre Sandrone (III)",
+        "Context": "Nunca me ha molestado que Alain me creara con el aspecto de su hermana Marianne ni que me llamara “Marionette”. Tal y como yo lo veo, eso no es más que algo que me dio el mundo al nacer. ¿Te molesta a ti parecerte a tus padres o llevar su apellido?"
+      },
+      {
+        "Title": "Más sobre Sandrone (IV)",
+        "Context": "Me gustan las matemáticas. Un mundo construido sobre fórmulas y lógica tiene una especie de elegancia arraigada en la certeza. También me gusta la música, que se parece en muchos aspectos. Solía pensar que tocar música debía abordarse como un problema matemático, equilibrando las notas y el ritmo, sin dejar lugar a desviaciones. Con el tiempo, me di cuenta de que algunos pequeños fallos, incluso errores, durante una interpretación pueden hacer que la música sea más hermosa. Una pequeña pausa aquí, una improvisación repentina allá... Es en esos pequeños errores donde nace la emoción. Se podría decir que son las reverberaciones del corazón del intérprete."
+      },
+      {
+        "Title": "Más sobre Sandrone (V)",
+        "Context": "Todo lo que el mundo da, el mundo se lo lleva. Vivir es ganar y perder, recoger lo que el mundo no puede arrebatar, aferrarse a ello en medio de las pérdidas y las despedidas, y seguir avanzando. Si una persona solo desea “vivir”, ¿es ese un deseo demasiado insignificante? Al igual que alguien que salva al mundo únicamente para “salvarse a sí mismo”, ¿es esa una razón demasiado simple? Vivir, sentir, ser testigo... Y entonces, algún día, quizá aquellas cosas que el mundo no puede arrebatarnos sean tan numerosas que lo sacudan hasta sus entrañas."
+      },
+      {
+        "Title": "Aficiones de Sandrone...",
+        "Context": "Además de la música, la mecánica y las matemáticas, también me gusta la jardinería... cuando las circunstancias lo permiten. Me gusta documentar el proceso de mis plantas creciendo y floreciendo. La mayoría de ellas apenas necesita cuidados, ya que son independientes y resistentes. Siempre he creído que en eso nos parecemos mucho."
+      },
+      {
+        "Title": "Preocupaciones de Sandrone...",
+        "Context": "Cada vez que veo un animalito suave y blandito, solo quiero tomarlo en brazos y darle un abrazo bien fuerte... pero a la mayoría de los animales no les gustan las máquinas, así que siempre salen corriendo cuando me ven. ¡Oye, no me mires así! No quiero que te compadezcas de mí. ¡Me da igual no poder abrazarlos! No es... no es para tanto..."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Gracias a mi constitución, no sufro de alergias ni de indigestión, así que para mí la comida es solo una cuestión de placer. Pero si tuviera que elegir... Humm, creo que lo que más me gusta son los pasteles pequeños y elegantes. Solo con ver sus exquisitas formas se me alegra el corazón. Es un doble placer para la vista y el alma."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "No me gusta la comida grasienta y picante. No es por el sabor, sino porque es difícil evitar que el olor se impregne en la ropa. No es muy elegante para una dama."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "Hum. Te haré el favor de escuchar cómo preparaste esto. Quizá pueda darte algunos consejos. No sería propio de una dama dejar pasar esta oportunidad."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Oh, no está nada mal. Tendré que devolverte el favor la próxima vez que nos veamos para tomar el té."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Fagio, ven a limpiar esto."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "¡Hum! Toma esto. No suelo regalar estas cosas, pero hoy es un día especial: el día en que viniste al mundo. Invité a Arlecchino y a Colombina, y también a algunos amigos en común. Incluso hice un pastel especial para la ocasión... así que más te vale que lo disfrutes."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "Cálculo en curso."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Introduciendo variables..."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "El progreso va bien."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "Deconstruyendo el orden mismo de las cosas... Apuesto a que ahora te he impresionado, jajaja."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "Tómate un descanso."
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "Vamos, no te quedes atrás."
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Qué agotador."
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "Hum."
+      },
+      {
+        "Title": "Habilidad Elemental (V)",
+        "Context": "Jeje."
+      },
+      {
+        "Title": "Habilidad Elemental (VI)",
+        "Context": "Acelera el paso."
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Probemos mi hipótesis."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Un poco de entretenimiento para la hora del té."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "Hum, ridículo."
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "¿Eh? ¿Todo ese esfuerzo para esto?"
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "¿Qué hay dentro? ¡N-no es que me importe!"
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "Te esforzaste mucho para conseguir esto, ¿verdad? Es todo tuyo."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "¡Fagio! ¿Estás lista para continuar?"
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "La victoria pende de un hilo..."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "¡Toda batalla tiene sus giros inesperados!"
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¡Oye! ¿Sigues ahí?"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "¡Cuidado! ¡Yo solo sé arreglar máquinas!"
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "¿Acaso mis cálculos... eran erróneos?"
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "La hora del té... terminó..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "Es una pena... pero ya está todo dicho..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "No me toques."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (II)",
+        "Context": "Qué descortés."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¡Te arrepentirás!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "¿Quieres morir?"
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Es hora de comprobar mis fórmulas."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Déjame echarte una mano."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Vamos, Fagio."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Alain Guillotin la llamaba “Marionette”. Detrás de ese nombre se escondía la historia de un ser querido al que no podía olvidar y cuyos recuerdos había intentado, ingenuamente, revivir al crearla. Pero en el momento en que ella abrió los ojos y pronunció su nombre, “Alain”, con timidez, él decidió no volver a llamarla así nunca más. Se dio cuenta de que era un error hacer que esta preciosa pequeña creación cargara con el peso de la vida de su hermana y de su propio error. Esta pequeña creación merecía una vida propia, igual que cualquier otra persona que nace en este mundo.\nSin embargo, de vez en cuando seguía llamándola por ese nombre, aunque solo fuera en sus pensamientos. Lo hacía porque, tal y como sugería el nombre de “Marionette”, ella era de corazón puro, bondadosa y siempre estaba llena de alegría.\nLa gente de Snezhnaya la conocía como “La Títere”. Aunque la mayoría de las personas hablaban sobre ella con el temor que suele inspirar un miembro de Los Once, a menudo se percibía también un claro matiz de respeto en sus voces, un sentimiento que quedaba reflejado en descripciones como “la decidida Srta. Títere” y “la siempre fiable Srta. Títere”.\nPero sus amigos y colegas suelen llamarla Sandrone. Aunque en un principio no era más que un nombre en clave, con el tiempo se convirtió en una forma alegre de dirigirse a ella por parte de sus seres más cercanos y queridos. Empezaron a asociarlo con los aromas de los postres y el té de la tarde, con el elegante pasar de las páginas de un libro y el constante tictac de un resorte... Y, por supuesto, a veces también evocaba los refunfuños e incluso los arrebatos furiosos de una dama que había perdido toda la paciencia. Al diablo con las normas de etiqueta.\nUna vez, cierta amiga suya le hizo esta pregunta: “¿Cómo quieres que te llamemos?”.\n“Da igual, y la verdad es que no me importa”, respondió con indiferencia. “Siempre he pensado que los nombres existen principalmente para comodidad de los demás. El nombre con el que los demás deciden llamarme depende, en gran medida, de qué parte de mí elijan aceptar”.\nLa expresión del rostro de su amiga dejaba claro que no se esperaba su respuesta.\n“En fin, lo que quiero decir es que, no importa cómo decidan llamarme, sigo siendo yo misma. No voy a cambiar solo porque hayan decidido llamarme de otra manera, y como no me importa cómo me llamen, ¿por qué no dejar que usen el nombre con el que se sientan más cómodos? Ahora bien, que responda a ese nombre en concreto... eso ya es otra historia, je”."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Ella recuerda muy bien el día en que nació.\nAl principio estaba oscuro, así que abrió los ojos y empezó a observar todo lo que la rodeaba. Se dio cuenta de que estaba sentada en una silla y de que, justo delante de ella, había un hombre que parecía bastante mayor. Él le dijo que se llamaba Alain Guillotin.\nRepitió el nombre y luego le preguntó cómo se llamaba ella. El anciano no respondió durante un rato, como si se hubiera topado con algo que nunca antes había considerado. Pero al final, habló con cierta vacilación, con una expresión en el rostro que ella aún no lograba descifrar. “Marionette”...\n“Marionette”, repitió ella.\nLa expresión del anciano se tornó aún más compleja. “Qué extraño”, pensó ella. “¿Por qué soy capaz de identificar casi todos los objetos en mi campo de visión, pero no puedo ponerle nombre a esta expresión facial? Lo añadiré a la lista de preguntas por resolver”.\nY esa lista era bastante larga. Por ejemplo, ¿qué hacía ella allí? ¿Cómo y por qué había llegado hasta allí? ¿Cómo se corta una papa para que los trozos queden perfectamente uniformes y lo suficientemente presentables para la cena? ¿Y qué hay que hacer para que la planta del alféizar de la ventana dé las flores más bonitas?\nEntonces, descubrió que las respuestas a ciertas cosas eran fáciles de encontrar. En la mayoría de los casos, solo tenía que dedicarles algo de tiempo y aprenderlas sin complicaciones. Pero otras preguntas eran mucho más profundas, tan profundas que ni siquiera el anciano que la había creado era capaz de responderlas.\nPasaba la mayor parte del tiempo con el anciano, Alain Guillotin. En algún momento, se dio cuenta de que no le caía nada bien. Se movía con demasiada lentitud y era muy desorganizado. A menudo perdía sus papeles y sus herramientas y, de vez en cuando, incluso le entregaba un cuaderno que no servía para nada.\n“Tu vida es un auténtico desastre”, le dijo sin rodeos. “Tus cosas nunca están en su sitio y tus papeles están esparcidos por todas partes. Escribes una sola ecuación en dos hojas y, de alguna manera, acaban en extremos opuestos de la habitación”.\nAnte sus quejas sin tapujos, una extraña sonrisa se dibujó en el rostro del anciano, como si acabaran de elogiarlo por algo. “Jaja... Marianne también solía decirme lo mismo”.\nEse hombre era imposible de entender.\nPero con el tiempo, también fue descubriendo los aspectos del anciano que más le agradaban.\nLe encantaba ver cómo se concentraba cuando se sumergía en su trabajo, así como escuchar el sonido de la pluma deslizándose sobre el papel. Le gustaba que le explicara aquellos principios de la mecánica y discutir junto a él los enigmas matemáticos frente a la mesa de trabajo. Le agradaba que le contara historias del pasado junto a la chimenea: historias de la Fontaine de antaño, de la Cruz de los Narcisos... Y sentía un silencioso aprecio por la suave sonrisa que se dibujaba en el rostro de él en esos momentos.\nDescubrió que, aunque aquel anciano era bastante descuidado y desorganizado, también era amable, honrado y lleno de sabiduría.\nCon el paso del tiempo, los aspectos del anciano que le gustaban acabaron superando con creces a los que no le gustaban, lo que la llevó a replantearse su comportamiento pasado.\nAlain se quedó atónito al verla escribiendo en su cuaderno.\nTenía muchas, muchas ganas de preguntarle qué estaba haciendo, pero, por miedo a que ella cambiara de opinión, se forzó a quedarse con la curiosidad.\n“Creo que no me caes bien”, dijo ella tomando la iniciativa.\nEra evidente que esa frase le hirió los sentimientos.\n“Pero también he descubierto que estaba equivocada. Esa opinión la formé en un momento en el que mi lógica emocional y mi objetividad aún no estaban del todo desarrolladas, pero ahora creo que eres un padre estupendo”, añadió.\nAlain se quedó sorprendido por un momento. Luego, se le dibujó una sonrisa en el rostro. Era una sonrisa de auténtica felicidad mezclada con alguna otra emoción.\n¿Acaso iba a llorar? Ella seguía aprendiendo poco a poco a interpretar las emociones humanas, aunque aún no lograba comprender el motivo que las provocaba.\nPero esa pregunta podía esperar, así que tomó su cuaderno y volvió a escribir."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Ella recuerda la muerte de Alain con mucha claridad.\nAlain estuvo postrado en cama durante un tiempo antes de fallecer y, durante ese periodo, dependía por completo de ella para que se ocupara de sus necesidades diarias. Al principio, era capaz de conversar y responder cuando ella le contaba las últimas noticias y los chismes de los que se había enterado mientras hacía recados. Pero, cuanto más tiempo pasaba, lo único que quería era permanecer en silencio en la cama.\nMientras se sentaba junto a su cama y le leía algo, de vez en cuando oía un sonido ronco, largo y entrecortado que le salía de la garganta. Parecía como si Alain se estuviera ahogando con su propia respiración, o como si el aire mismo lo estuviera agarrando por el cuello.\nCuando Alain la creó, le había dado el sentido del tacto, el sentido del gusto e incluso la habilidad de respirar, que le servía de sistema de refrigeración para regular su temperatura corporal. Pero ahora, en el último capítulo de su vida, Alain estaba perdiendo todas esas cosas una tras otra. Primero fue el sentido del gusto, luego el del tacto y, por último, la respiración.\nHubo varios momentos en los que ella pensó que él simplemente se derrumbaría y se esfumaría. “Este es su último aliento”, se decía a sí misma, pero él siempre se recuperaba, una y otra vez, sin falta.\nEn uno de esos momentos, al echar un vistazo hacia la cama, se dio cuenta de que Alain había abierto los ojos y la estaba mirando.\n“Pensé que había llegado mi hora”, dijo.\n“¿Hora? ¿Hora de qué?”.\n“Pensé que por fin me había ido a otro lugar”, dijo riendo. “He estado practicando cómo morir”.\nExplicó que deseaba fallecer mientras dormía. Mejor aún, deseaba fallecer en medio de un hermoso sueño, un sueño en el que estuviera tumbado sobre un prado verde, contemplando el cielo azul de Fontaine, junto a sus amigos y su hermana.\n“¿Yo también estoy en ese sueño?”, preguntó ella.\n“Oh, no, no”, respondió él. “En el mundo al que me dirijo no hay cabida para ti, hija mía. Te queda un largo camino por recorrer aquí, en este mundo”.\n“¿Quieres ir a ese mundo?”.\nAlain dejó escapar un largo suspiro.\n“A estas alturas, ya no se trata de si quiero o no”, respondió mientras giraba la cabeza para mirar al techo, como si pudiera atravesarlo y ver otro mundo más allá. “Nadie conoce de verdad el sabor de la muerte, pues es un fruto que solo se puede saborear una vez en la vida”.\n“Pues tiene pinta de saber horriblemente”.\n“Jaja... Puede ser”, volvió a reírse Alain, aunque no entendía por qué le parecían graciosas sus palabras.\n“Pero rara vez son los difuntos quienes sufren”, prosiguió. “El verdadero dolor lo soportan quienes se quedan en este mundo”.\nParecía ser una especie de predicción, además de una reflexión personal por parte de Alain. Y fuera lo que fuera, tenía razón.\nTras la muerte de Alain, ella siguió yendo de compras, aunque ya no quedaba nadie en casa para disfrutar de lo que compraba. Seguía cuidando el jardín y ocupándose de Pulonia, aunque no tenía ni idea de por qué lo hacía.\nQuizá no había tenido tiempo suficiente para aceptar la verdad. O quizá, simplemente, no sabía qué más podía hacer. Cuando lo pensó, la idea le inquietó profundamente.\n“Haz aquello que anheles y encuentra tus propios deseos, hija mía”.\nPor algún motivo, había empezado a pensar en las últimas palabras que le había dicho Alain.\n“Pero no hay nada que quiera hacer, y tampoco deseo nada”, se dijo a sí misma.\n“Tal vez debería ir en busca de algo”, pensó.\n“Muy bien, Alain”, dijo, dirigiéndose a la cama vacía. “Parece que ahora me toca a mí”.\n“Me toca a mí practicar cómo vivir”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Nunca pensó que se quedaría tanto tiempo en Snezhnaya. Ni tampoco esperaba que un lugar pudiera llegar a ser tan frío, ¡hasta el punto de que casi tenía que calentar los pensamientos que le rondaban por la cabeza para poder pensar!\nDesde su punto de vista, la vida como Fatui era tranquila, incluso fácil. No tenía que salir a hacer la compra ni ocuparse de todas las necesidades de los demás. En cambio, disfrutaba de todas las comodidades a las que tenía derecho uno de Los Once, y las tareas que le asignaba la Zarina eran un auténtico juego de niños para un genio como ella.\nUn día, mientras anotaba la fecha en su agenda, se dio cuenta con sorpresa de que ya llevaba más tiempo en Snezhnaya que todo el que había pasado con Alain en Fontaine.\n“Es como si este lugar se hubiera convertido en mi segundo hogar”, pensó.\nY eso le llevó a otras preguntas: ¿cuál era realmente su verdadero hogar, Fontaine o Snezhnaya? ¿Y qué era exactamente un “hogar”?\n¿Es el lugar donde se te necesita? Sin duda, su trabajo en los Fatui era irreemplazable. O mejor dicho, sería difícil reemplazarla, y la Zarina claramente la necesitaba.\n¿O es el lugar donde uno se siente más a gusto? Sin duda, la vida en Snezhnaya había sido bastante cómoda hasta entonces, y allí tenía acceso a todo el equipo de investigación que pudiera necesitar. Además, si alguna vez se aburría, siempre tendría la ópera.\n¿O tal vez el “hogar” era donde estaba la “familia”? Pero la familia... Ahora no tenía a nadie más que a Pulonia. Entonces, ¿el hogar era donde estaba Pulonia? En ese caso, ¿significaba eso que si Pulonia y ella viajaban a otro lugar, por ejemplo a Mondstadt, ese “otro lugar” se convertiría en su “hogar”?\nEntonces se dio cuenta de que el problema fundamental era que no tenía ni idea de lo que quería o deseaba hacer... Lo único que había estado haciendo era caer de nuevo en su vieja costumbre de “sentir que la necesitaban”, eso era todo.\nEsa conclusión le partió el corazón. ¿No era un poco patético? Sin embargo, al mismo tiempo, no tenía ni idea de cómo podría cambiar las cosas. ¡Qué fastidio!\nSi alguien le hubiera apuntado con un mosquete a la cabeza y le hubiera exigido que nombrara algo que no le gustara de Snezhnaya, probablemente habría acabado mencionando a algunas de las personas con las que preferiría no tener que trabajar.\nAl principio, analizaba sus sentimientos con gran cautela. Le preocupaba que, al igual que había detestado a Alain al principio, acabara descubriendo en sus compañeros cualidades que, en realidad, le gustaban.\nPero eso no funcionó. Si los sucesos posteriores le enseñaron algo, fue que algunas personas seguirían resultándole detestables, sin importar cuánto tiempo hubiera pasado o cuántas observaciones objetivas hiciera sobre ellas. A diferencia de lo que ocurrió con Alain, los aspectos que no le gustaban seguirían superando con creces a los que sí le gustaban. O, mejor dicho, no le agradaba nada de ellas.\nUna vez más, era algo que ella no sabía cómo cambiar. No tenía intención alguna de cambiar a los demás, y mucho menos a sí misma. ¡Qué fastidio!\nQuizá era porque aún estaba aprendiendo a conocerse a sí misma; quizá porque aún estaba aprendiendo a vivir; o quizá porque aún no había reunido suficientes referencias y datos. Alain solía decir que el conocimiento es la piedra angular del mundo, y eso era algo que ella también se repetía constantemente.\nPero no tenía prisa por responder a esas preguntas. Con suerte, a medida que fuera colocando los cimientos de su vida, acabaría encontrando esas respuestas.\nPero, por ahora... Había escuchado que la Zarina había reclutado a una nueva miembro de Los Once que se pasaba el día entero cantando en el jardín. Humm, aquello era algo digno de investigar..."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "¡Esto es absurdo!\n¿Con qué clase de persona estaba lidiando? ¿Qué clase de persona la seguiría a todas partes durante todo el día, llamaría a su puerta en plena noche para cantarle e incluso irrumpiría en su tranquila hora del té en solitario?\nPara colmo, ¡esa persona no mostró ningún tipo de arrepentimiento, ni siquiera tras varias advertencias severas y la represalia de tener que cargar con maquinaria pesada! Y por si fuera poco, esas medidas no solo no habían logrado crear distancia entre ellas, sino que ahora estaba más cerca de ella que nunca. ¿Acaso no entendía las normas básicas de etiqueta social y espacio personal? Al parecer, según le habían contado a Sandrone, esa persona tan molesta había terminado cargando con esa maquinaria pesada a la espalda durante toda una semana. ¿Qué era eso, una declaración de guerra? ¿Algún tipo de demostración de la crueldad de su acosadora? La próxima vez que se acercara y volviera a interrumpir su hora del té, ¡le serviría la bebida más asquerosa del mundo!\nSin embargo, la actitud de Sandrone se suavizó al ver que Colombina aceptó la bebida sin dudarlo, para luego soltar un suave quejido.\n¿Pero qué...? Así que ahora soy yo la matona, ¿eh? ¿Cómo puede ser tan ingenua? ¿De verdad no se da cuenta cuando alguien la tiene entre ceja y ceja? ¿Ni siquiera se para a pensar un momento?\nAsí pues, Sandrone, con una mezcla de remordimientos y culpa, le ofreció una parte de sus preciados dulces para el té, pero al ver que Colombina volvía a sonreír, no pudo evitar sentirse molesta de nuevo. ¡Aaaah! ¡Qué fastidio!\nEsa sensación de irritación no hizo más que aumentar cuando, más tarde, Colombina empezó a echarse siestas por la tarde en su habitación como si fuera lo más natural del mundo.\n“¡¿No tienes tu propia habitación?!”, le recriminó.\n“Sí, pero aquí me siento muy a gusto”, respondió Colombina con naturalidad. Más bien parecía que Sandrone era la que estaba fuera de lugar por haber hecho esa pregunta.\n“Me las vas a pagar...”. Entonces, Sandrone se prometió algo a sí misma: “¡La próxima vez te voy a echar de mi habitación! ¡Te echaré junto con la cama si hace falta! ¡Una habitación sin cama sería un pequeño precio a pagar por tener algo de espacio personal, paz y tranquilidad!”.\nSin embargo, cuando volvió a ver a Colombina acostada en su cama, volvió a dudar. Porque esta vez parecía que Colombina estaba llorando mientras dormía.\n¿Y ahora qué? ¡Sin duda eligió un momento muy oportuno para montar ese numerito! Vaya criatura tan ingenua y sin malicia. Es como si realmente creyera que todos a su alrededor son buenos y amables, y que el mundo es un lugar maravilloso.\n“Es como si ella...\nFuera como yo era antes”, le dijo una vocecita en su interior.\nSandrone intentó inmediatamente apartar ese pensamiento de su mente. “No nos parecemos en nada”, se dijo rápidamente a sí misma. “Al menos, ¡es evidente que yo soy más lista que ella!”.\nCuando Colombina se despertó de la siesta y vio que tenía una manta sobre ella, le sonrió a Sandrone.\n“No fui yo”, mintió Sandrone. “Fue Pulonia quien te puso esa manta”.\nPero ¿por qué tuvo que mentir? No sabía la respuesta a esa pregunta. Lo único que sabía era que no quería admitir que lo había hecho. De ninguna manera.\n“En ese caso, muchas gracias, Pulonia”, dijo con toda sinceridad.\nPero la curiosidad siempre puede a las personas. “¿Soñaste algo?”, preguntó Sandrone. “¿Con qué soñaste?”.\nTras un breve silencio, Colombina comenzó a contar la historia de su pasado con total naturalidad, sin ninguna intención oculta, simplemente porque Sandrone se lo había pedido.\nTras escuchar la historia de Colombina, Sandrone estaba más convencida que nunca de que ellas dos no se parecían en nada.\nEl mundo le había quitado muchas cosas a Sandrone, y eso era lo que la diferenciaba de Colombina, pues, en realidad, ella nunca había tenido nada.\n“¿Es por eso que siempre estás mirando la luna desde el jardín?”.\nColombina asintió.\n“Si quieres, Pulonia puede hacerte compañía hoy en el jardín”.\n“¿En serio?”, preguntó Colombina.\nSandrone no respondió.\n“Gracias, Sandrone”.\n“Ja. Deberías darle las gracias a Pulonia”, respondió ella con un tono un poco brusco. “Ya es hora de que te vayas de mi habitación. Y llévate a Pulonia”.\nAquel día fue la primera vez desde la muerte de Alain que Pulonia se alejó de Sandrone. Sin embargo, por alguna razón, Sandrone durmió mejor de lo que lo había hecho en mucho tiempo. Era como si, al dejar que Pulonia calmara el corazón de aquella molesta criatura, su corazón también se hubiera calmado. Era simplemente algo que sentía que tenía que hacer, aunque no pudiera explicar muy bien por qué.\nPero al día siguiente, cuando Pulonia se presentó en una reunión de los Fatui con una corona de flores en la cabeza y flores por todo el chasis, Sandrone se juró de nuevo que nunca más volvería a ablandarse con esa chica tan maleducada.\n“¡¡CO-LOM-BI-NA!!”.\nEse mismo día, Colombina fue obligada a quedarse de pie justo fuera de la habitación de Sandrone con un cartel colgado al cuello que decía “Soy una niña traviesa que se mete con cosas que no le pertenecen”, mientras Sandrone le quitaba a Pulonia todas las odiosas flores que tenía por el cuerpo.\nSin embargo, por alguna razón, no parecía en absoluto molesta por ello."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Gracias al “legado” que recibió de Alain, Sandrone pudo nacer por segunda vez.\nSiempre había creído que era inteligente, o al menos más inteligente que la mayoría. Pero no fue hasta ese momento cuando se dio cuenta de que, en realidad, era mucho más ingenua de lo que pensaba.\nSe dijo a sí misma que debería haber hecho eso hace mucho tiempo. Debería haber escuchado a su corazón para comprender qué significaban realmente palabras como “pérdida” y “soportar”. Debería haber expresado más a menudo su gratitud a sus amigos y haber hecho más amigos. Debería haber regresado a Fontaine hace mucho tiempo, a la tumba de Alain... donde le contaría todo lo que le había sucedido desde que se marchó, mientras arreglaba su tumba.\n“Nunca es demasiado tarde para empezar”, le dijo Colombina, una frase que esta había aprendido de otra persona.\nSandrone dejó escapar un pequeño resoplido. Nunca se había imaginado que algún día recibiría lecciones de vida de Colombina, pero lo aceptó de todos modos, pues era innegable que tenía razón.\nCuando la noticia de la resurrección de Sandrone llegó a Snezhnaya, no tardaron en llegar muestras de condolencias y preocupación, junto con una “generosa” oferta de baja laboral para hacer luto por su muerte. Sin embargo, cuando Sandrone expresó su deseo de permanecer con los Fatui, la Zarina accedió sin decir mucho más.\nElla sabía que esta noticia causaría descontento en ciertos círculos, porque significaba que el poder y los intereses que se habían repartido entre diversas personas tras su muerte se les habían escapado de las manos de repente.\nPero a ella no le importaba lo que pensaran los demás. Acababan de darle una segunda oportunidad en la vida y la iba a vivir exactamente como a ella le apeteciera. A partir de ahora iba a vivir totalmente a su manera, ¡y desde luego no se iba a morder la lengua cuando se enfadara! ¡Ja! ¿De verdad alguien creía que iba a tomar el control del Gremio de Aventureros y de todas las Katheryne? ¡Ni en sueños!\nPero, claro, eso no significaba que fuera a ser completamente libre. Cada vez que se enteraba de que había otra reunión de los Fatui, ponía los ojos en blanco y refunfuñaba, como siempre.\n“*Tch*, ¡todo el día con reuniones y más reuniones! ¡Qué fastidio!”."
+      },
+      {
+        "Title": "Pulonia",
+        "Context": "La primera vez que Sandrone vio al grandote de Pulonia, este le tendió la mano inmediatamente.\n“Es solo su programación humanoide”, le dijo Alain. Pulonia, siglas de “Proyecto de Unidad Localizadora de Observación Navegadora e Investigación Automatizada”, había sido creado para realizar mediciones y cálculos. No obstante, él esperaba que, gracias esos rasgos humanoides, el mundo viera a Pulonia como algo más que una simple máquina, ya que, al igual que Sandrone, Pulonia también era único en su especie.\nEstaba muy contenta de tener un nuevo miembro en la familia. Llevaba a Pulonia a pasear y le enseñaba a identificar flores y aves. Pero Pulonia aprendía muy lento, mucho más lento que ella. Según Alain, esto se debía a que la capacidad de procesamiento principal de Pulonia se dedicaba a predecir el futuro mediante simulaciones.\n“Pero ¿por qué hacer eso?”, preguntó ella.\nEntonces Alain dijo algo que ella no entendería hasta mucho después. En aquel momento, solo pensaba que Pulonia era impresionante, e incluso le tenía un poco de envidia. ¿Por qué ella no podía hacer algo tan increíble?\nPero, al igual que Alain, este increíble gigante también necesitaba cuidados. A menudo se quedaba atascado a mitad de camino durante sus paseos, o de alguna manera acababa mojado con el agua para regar las flores. Así pues, no tuvo más remedio que aprender todos los entresijos del funcionamiento de Pulonia para ajustarlo cuando fuera necesario, como si estuviera cuidando de su hermanito pequeño. Y esto continuó incluso después de que Alain falleciera.\nEl día que Sandrone regresó del funeral de Alain, parecía un juguete de cuerda con el resorte atascado. Lo único que podía hacer era quedarse de pie en silencio en su habitación, con el impermeable puesto, incapaz de moverse o de cerrar la puerta principal.\nEntonces vio a Pulonia acercándose pesadamente hacia ella y, igual que la primera vez que se conocieron, él le tendió su enorme mano.\nSe quedó mirando fijamente aquella mano. Era tan enorme y capaz de sostener el futuro del mundo entero... A partir de ese día, también tendría que ser el ancla de su pasado. Para ella, era una pérdida absolutamente insoportable, y el vacío que dejaba atrás era casi suficiente como para aplastarla. Toda esa carga recaía ahora sobre Pulonia, y él la soportaría sin quejarse ni una sola vez.\nAunque Pulonia acabó sosteniendo el futuro del mundo entero, ya no podía soportar su propio peso.\nElla nunca renunció a reparar a Pulonia. Pero con los conocimientos que tenía, con la tecnología de la que disponía, no podía reparar por completo su núcleo, y mucho menos restaurar a un Pulonia que ni siquiera la reconociera. Eso habría sido una falta de respeto hacia ese grandote, hacia su propia familia.\nPor eso, trasladó a Pulonia a un lugar secreto, el antiguo hogar de ambos, e iba a visitarlo de vez en cuando.\nSandrone esperaba que, algún día, su devoción se viera recompensada con el familiar y traqueteante sonido de Pulonia volviendo a ponerse en marcha, mientras él le tendiera esa mano gigante, tal y como solía hacer."
+      },
+      {
+        "Title": "Cuña Estelar",
+        "Context": "Sandrone no ha usado mucho su Cuña Estelar desde que la tiene en su poder. Por supuesto, es consciente de que fue esa pequeña piedra la que activó el “legado” de Alain y le dio una segunda vida, algo por lo que se siente agradecida. Pero sigue preocupada por un simple problema: no acaba de entender cómo se supone que esa cosita va a serle de ayuda en su vida cotidiana.\n¿Le va a servir de ayuda con su investigación? Pero para eso tiene su inteligencia... Es decir, no es que la Cuña Estelar pueda resolver ecuaciones por ella.\n¿O acaso está pensada para ayudarla a canalizar el poder elemental? Pero incluso antes de tenerla, rara vez recurría a dicho poder para luchar.\n¿O tal vez le proporcione algún tipo de apoyo energético? Pero, por mucho que la mire, no parece encajar con su complexión física. Al fin y al cabo, gracias al gran Alain Guillotin, el rey de la mecánica, ya cuenta con un sistema de alimentación central que es prácticamente perfecto...\nAl final, decidió usar el elemento Cryo de la Cuña Estelar como fuente de refrigeración para ella y para Fagio durante las tareas informáticas de gran complejidad. Además, para garantizar la eficacia en combate y el ahorro energético, también adaptó temporalmente la lógica de ataque de Fagio para que funcionase con la Cuña Estelar.\nY si alguien le preguntaba a Sandrone qué es lo que deseaba, ella solo respondería que la palabra “desear” es demasiado ambigua y complicada al mismo tiempo. Lo único que quiere es desmontar los principios universales de todas las cosas y sentar continuamente las bases del conocimiento. Ahora bien, ¿cuenta eso como un deseo? Por supuesto que sí, pero ¿es eso todo lo que desea? Por supuesto que no.\nAhora mismo está haciendo lo que quiere y lo que cree que es correcto. Solo eso la hace feliz, y tal vez eso sea más que suficiente, ¿o acaso alguien puede decir que un deseo como ese no sea lo suficientemente fuerte? ¿Acaso alguien puede decir que llevar la vida que uno quiere no es lo correcto? No hay deseos más nobles que otros y, para ella, cada uno vive la vida a su manera. Si eso le molesta a alguien, más le vale a ese alguien estar preparado para que Sandrone se desahogue verbalmente con él. Y si después de eso todavía sigue sin estar convencido, entonces lo más probable es que Sandrone se limite a burlarse de él y a señalar el cielo con el dedo mientras dice:\n“¡Entonces será mejor que se lo digas al que se le ocurrió darme esto!”."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213300,
+      "Name": "Vals de una mecadama",
+      "Description": "Modelo de vestimenta de Sandrone. Tras renacer, decidió hacerse un nuevo atuendo. Una nueva persona merece, sin duda, un vestido nuevo, y como es lógico, una tarea así no puede estar exenta del refinamiento, la elegancia y la magnanimidad propios de una dama... Ah, sí, y quizá tampoco estaría de más rezar para que no sufra ningún daño en la batalla ni se manche con café o té.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113086,
+    101239,
+    112124,
+    104364,
+    113082
+  ],
+  "NameCard": {
+    "Name": "Sandrone - Descanso para el té",
+    "Description": "Diseño de tarjeta de presentación.\nTal vez Sandrone aprendiera a disfrutar de la hora del té gracias a Alain. En aquellos tiempos, ni siquiera una pequeña pausa para tomar el té entre dos le resultaba aburrido. Más tarde, sin embargo, cuando por fin contaba con suficientes personas como para organizar una hora del té como manda la tradición, una tras otra, acabaron marchándose. En su ausencia, ella pareció acercarse ligeramente a la soledad que tan bien había conocido Alain.",
+    "Icon": "UI_NameCardIcon_MarionetteNew",
+    "PicturePrefix": "UI_NameCardPic_MarionetteNew"
+  }
+}

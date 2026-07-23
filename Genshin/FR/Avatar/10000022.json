@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Archerie divine",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 6 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Anémo, infligeant de considérables <color=#80FFD7FF>DGT Anémo</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "SpecialDescription": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 6 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Anémo, infligeant de considérables <color=#80FFD7FF>DGT Anémo</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.\n\n<color=#FFD780FF>Hexerei : Rituel secret</color>\nPendant la durée de l'œil de la tempête créé par son déchaînement élémentaire <color=#FFD780FF>Ode au vent</color>, Venti obtient différents bonus supplémentaires :\n· Son attaque normale est convertie pour tirer des <color=#FFD780FF>flèches de tourbillon</color> pouvant percer les ennemis, infligeant encore plus de <color=#80FFD7FF>DGT Anémo</color> aux ennemis en chemin.\n· Lorsqu'une attaque normale de Venti touche un ennemi, la durée de l'œil de la tempête augmente de 1 s et son TdR de 0,5 s, cet effet pouvant être déclenché une fois toutes les 0,1 s et un maximum de 2 fois après chaque utilisation du déchaînement élémentaire <color=#FFD780FF>Ode au vent</color>.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Vent violent fractionné",
         "Description": "Le <color=#FFD780FF>tir visé</color> tire 2 flèches supplémentaires, chacune infligeant 33 % des DGT de la flèche d'origine.",
+        "SpecialDescription": "Le <color=#FFD780FF>tir visé</color> tire 2 flèches supplémentaires, chacune infligeant 33 % des DGT de la flèche d'origine.\nDe plus, les <color=#FFD780FF>flèches de tourbillon</color> tirent également 2 flèches supplémentaires traquant les ennemis, chacune infligeant 20 % des DGT d'origine. Cet effet peut être déclenché une fois toutes les 0,25 s.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Bise de réminiscence",
         "Description": "<color=#FFD780FF>Sonnet des Vents célestes</color> diminue la <color=#80FFD7FF>RÉS Anémo</color> et la RÉS physique des ennemis de 12 % pendant 10 s.\nLa <color=#80FFD7FF>RÉS Anémo</color> et la RÉS physique des ennemis projetés en l'air par <color=#FFD780FF>Sonnet des Vents célestes</color> diminuent de 12 % tant qu'ils sont en l'air.",
+        "SpecialDescription": "#<color=#FFD780FF>Sonnet des vents célestes</color> diminue la <color=#80FFD7FF>RÉS Anémo</color> et la RÉS physique des ennemis de 24 % pendant 10 s.\nDe plus, après avoir utilisé son déchaînement élémentaire <color=#FFD780FF>Ode au vent</color>, Venti obtient l'effet <color=#FFD780FF>Quand la brise souffle</color> et le TdR de la compétence élémentaire <color=#FFD780FF>Sonnet des vents célestes</color> est réinitialisé. Lorsqu'une <color=#FFD780FF>flèche de tourbillon</color> a touché un ennemi, il y a également 25 % de chances d'accorder l'effet <color=#FFD780FF>Quand la brise souffle</color> à Venti.\n\n<color=#FFD780FF>Quand la brise souffle</color>\nUtiliser la compétence élémentaire <color=#FFD780FF>Sonnet des vents célestes</color> avec un appui simple permet d'infliger 300{NON_BREAK_SPACE}% des DGT d'origine. Cet effet dure 15 s et s'annule lorsque Venti a utilisé sa compétence élémentaire <color=#FFD780FF>Sonnet des vents célestes</color> avec un appui simple.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Vent glacial de liberté",
         "Description": "Venti inflige 25 % de <color=#80FFD7FF>DGT Anémo</color> supplémentaires pendant 10 s lorsqu'il obtient un orbe ou une particule élémentaire.",
+        "SpecialDescription": "Après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Sonnet des vents célestes</color> ou son déchaînement élémentaire <color=#FFD780FF>Ode au vent</color>, Venti et les autres personnages déployés de son équipe obtiennent un <color=#80FFD7FF>bonus de DGT Anémo</color> de 25 % pendant 10 s.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Tempête de résistance",
         "Description": "La <color=#80FFD7FF>RÉS Anémo</color> des ennemis touchés par <color=#FFD780FF>Ode au Vent</color> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %.",
+        "SpecialDescription": "La <color=#80FFD7FF>RÉS Anémo</color> des ennemis touchés par <color=#FFD780FF>Ode au vent</color> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %.\nDe plus, les DGT que Venti inflige à ces ennemis obtiennent un bonus de DGT CRIT de 100 %.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

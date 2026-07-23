@@ -304,7 +304,10 @@
             "Curación continua|{param3:F2P} de ATQ + {param4:I}",
             "Daño de Heraldo de la escarcha|{param5:F1P}",
             "Duración|{param6:F1} s",
-            "TdE|{param7:F1} s"
+            "TdE|{param7:F1} s",
+            "Daño de ataque coordinado del Heraldo de la escarcha|{param9:F1P}",
+            "#TdE de ataque coordinado del Heraldo de la escarcha|{param10:F1}{NON_BREAK_SPACE}s",
+            "#TdE|{param11:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Magia Adeptus: Heraldo de la escarcha",
         "Description": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha, infligiendo <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos cercanos.\n\n<color=#FFD780FF>Heraldo de la escarcha</color>\n·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para todos los miembros de tu equipo y todos los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.\n·Regenera una cierta cantidad de Vida del personaje en uso a intervalos regulares.\n·Sigue al personaje en uso para infligir <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos que se encuentre a su paso.\n\n<i>“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”</i>.",
+        "SpecialDescription": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha e inflige <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos cercanos.\n\n<color=#FFD780FF>Heraldo de la escarcha</color>\n·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para tus personajes del equipo y los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.\n·Regenera periódicamente una cierta cantidad de Vida a tu personaje en uso.\n·Sigue al personaje en uso para infligir <color=#99FFFFFF>Daño Cryo</color> a todos los enemigos que se encuentre a su paso.\n·Cuando tu personaje en uso del equipo golpee a un enemigo con un ataque, el Heraldo de la escarcha ejecutará un ataque coordinado que inflige <color=#99FFFFFF>Daño Cryo</color>.\n\n\n<i>“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”.</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Siete tesoros sagrados",
+        "Description": "#El TdE de la Habilidad Elemental, <color=#FFD780FF>Magia Adeptus: Heraldo de la escarcha</color>, se reduce a 15{NON_BREAK_SPACE}s.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nMientras el Heraldo de la escarcha esté activo, el daño de las reacciones de Superconductor y Superconductor Estelar de tus personajes del equipo aumentará en un 50%.\nAdemás, Qiqi entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Curación|{param1:P} de ATQ + {param2:I}",
           "Duración|{param4:F1} s",
           "TdE|{param5:F1} s",
-          "Energía Elemental|{param6:I}"
+          "Energía Elemental|{param6:I}",
+          "Daño de Superconductor Estelar|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Magia Adeptus: Preservadora de la fortuna",
       "Description": "Qiqi libera el poder Adeptus sellado dentro de su cuerpo, marcando a los enemigos cercanos con un talismán de conservación de la fortuna que inflige <color=#99FFFFFF>Daño Cryo</color>.\n\n<color=#FFD780FF>Talismán de conservación de la fortuna</color>\nCuando los enemigos marcados con el talismán reciben daño, el personaje que infligió el daño regenera Vida para sí mismo.\n\n<i>“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.</i>\n<i>—Qiqi no recuerda cuándo dijo estas palabras.</i>",
+      "SpecialDescription": "Qiqi libera el poder adéptico sellado dentro de su cuerpo para marcar a los enemigos cercanos con un talismán de conservación de la fortuna e infligir <color=#99FFFFFF>Daño Cryo</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nInflige una vez adicional <color=#99FFFFFF>Daño Cryo</color> considerado como daño de Superconductor Estelar.\n\n<color=#FFD780FF>Talismán de conservación de la fortuna</color>\nCuando los enemigos marcados con el talismán reciban daño, el personaje que infligió el daño recuperará Vida.\n\n<i>“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.</i>\n<i>Qiqi no recuerda cuándo dijo estas palabras.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Ascetismo de la escarcha",
         "Description": "Qiqi regenera 2 pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.",
+        "SpecialDescription": "#Qiqi recupera 2{NON_BREAK_SPACE}pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nQiqi también recupera 6{NON_BREAK_SPACE}pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo con un ataque o con un ataque coordinado. Este efecto solo se puede activar una vez cada 6{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Frío polar",
         "Description": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra enemigos afectados por <color=#99FFFFFF>Cryo</color>.",
+        "SpecialDescription": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra los enemigos afectados por <color=#99FFFFFF>Cryo</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl ATQ de Qiqi aumenta en un 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Supresión divina",
         "Description": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.",
+        "SpecialDescription": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.\nAdemás, al activarse el efecto de curación del talismán de conservación de la fortuna, se restaurará Vida una vez adicional al personaje cercano con el porcentaje de Vida más bajo en una cantidad equivalente al 180% del ATQ de Qiqi.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Rito de la resurrección",
         "Description": "Al lanzar la habilidad <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color>, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.\nSolo puede ocurrir una vez cada 15 min.",
+        "SpecialDescription": "#Al usar <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color>, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.\nEste efecto solo se puede activar una vez cada 15{NON_BREAK_SPACE}min.\nAdemás, tras usar <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color>, Qiqi obtendrá 4 cargas de <color=#FFD780FF>misticismo</color>. Cuando tu personaje en uso del equipo (a excepción de Qiqi) inflija daño de Superconductor Estelar, consumirá 1 carga de <color=#FFD780FF>misticismo</color> para aumentar el daño infligido en una cantidad equivalente al 600% del ATQ de Qiqi. Como máximo, el efecto de <color=#FFD780FF>misticismo</color> puede durar hasta 12{NON_BREAK_SPACE}s y las cargas se reiniciarán al usar <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color>.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Precisione divina",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 6 tiri consecutivi con un arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>attacco mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, sulla punta della freccia convergono dei venti favorevoli. Una freccia di vento caricata al massimo infligge <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+        "SpecialDescription": "#<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 6 tiri consecutivi con un arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>attacco mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, sulla punta della freccia convergono dei venti favorevoli. Una freccia di vento caricata al massimo infligge <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\nMentre è attivo In mezzo alla tempesta creato dal Tripudio elementale <color=#FFD780FF>Ode all'Archon di Anemo</color>, Venti ottiene i seguenti effetti positivi aggiuntivi:\n· gli attacchi normali di Venti vengono convertiti in <color=#FFD780FF>Frecce Spezzavento</color> perforanti che infliggono ancora più <color=#80FFD7FF>DAN da Anemo</color> agli avversari lungo il percorso;\n· quando gli attacchi normali di Venti colpiscono gli avversari, la durata e il TdR di In mezzo alla tempesta aumentano rispettivamente di 1{NON_BREAK_SPACE}s e di 0,5{NON_BREAK_SPACE}s. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s e fino a 2 volte dopo ciascun uso del Tripudio elementale <color=#FFD780FF>Ode all'Archon di Anemo</color>.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Venti divisi",
         "Description": "Scocca 2 frecce aggiuntive per ogni <color=#FFD780FF>attacco mirato</color>, ognuna delle quali infligge un 33% dei DAN della freccia originale.",
+        "SpecialDescription": "#Scocca 2 frecce aggiuntive per ogni <color=#FFD780FF>attacco mirato</color>, ognuna delle quali infligge un 33% dei DAN della freccia originale.\nInoltre, per ogni <color=#FFD780FF>Freccia Spezzavento</color> scoccata, vengono scagliate 2 frecce aggiuntive che inseguono gli avversari, ciascuna delle quali infligge un 20% dei DAN della freccia originale. Quest'effetto può attivarsi una volta ogni 0,25{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Brezza della reminiscenza",
         "Description": "#<color=#FFD780FF>Sonetto celeste</color> riduce la <color=#80FFD7FF>RES ad Anemo</color> e la RES fisica degli avversari di un 12% per 10{NON_BREAK_SPACE}s.\nLa <color=#80FFD7FF>RES ad Anemo</color> e la RES fisica degli avversari scaraventati in aria da <color=#FFD780FF>Sonetto celeste</color> si riducono di un ulteriore 12%.",
+        "SpecialDescription": "#<color=#FFD780FF>Sonetto celeste</color> riduce la <color=#80FFD7FF>RES ad Anemo</color> e la RES fisica degli avversari di un 24% per 10{NON_BREAK_SPACE}s.\nInoltre, dopo aver scatenato il Tripudio elementale <color=#FFD780FF>Ode all'Archon di Anemo</color>, Venti ottiene l'effetto <color=#FFD780FF>Ovunque soffi la brezza</color>, e il TdR della sua abilità elementale <color=#FFD780FF>Sonetto celeste</color> viene azzerato. Dopo che una <color=#FFD780FF>Freccia Spezzavento</color> ha colpito un avversario, c'è un 25% di probabilità che Venti ottenga l'effetto <color=#FFD780FF>Ovunque soffi la brezza</color>.\n\n<color=#FFD780FF>Ovunque soffi la brezza</color>\nQuando viene attivata l'abilità elementale <color=#FFD780FF>Sonetto celeste</color>, viene inflitto un 300% della quantità di DAN originale. Quest'effetto dura 15{NON_BREAK_SPACE}s e viene rimosso dopo l'attivazione dell'abilità elementale <color=#FFD780FF>Sonetto celeste</color>.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Uragano della libertà",
         "Description": "#Quando Venti raccoglie una particella o sfera elementale, riceve un <color=#80FFD7FF>bonus DAN da Anemo</color> di un 25% per 10{NON_BREAK_SPACE}s.",
+        "SpecialDescription": "#Dopo aver usato l'abilità elementale <color=#FFD780FF>Sonetto celeste</color> o il Tripudio elementale <color=#FFD780FF>Ode all'Archon di Anemo</color>, Venti e i membri attivi del suo gruppo ottengono un 25% di <color=#80FFD7FF>bonus DAN da Anemo</color> per 10{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Tempesta della resistenza",
         "Description": "La <color=#80FFD7FF>RES ad Anemo</color> degli avversari che subiscono DAN da <color=#FFD780FF>Ode all'Archon di Anemo</color> si riduce di un 20%.\nSe si è verificato un assorbimento elementale, anche la loro RES all'elemento corrispondente si riduce di un 20%.",
+        "SpecialDescription": "La <color=#80FFD7FF>RES ad Anemo</color> degli avversari che subiscono DAN da <color=#FFD780FF>Ode all'Archon di Anemo</color> si riduce di un 20%.\nSe si è verificato un assorbimento elementale, anche la loro RES all'elemento corrispondente si riduce di un 20%.\nInoltre, i DAN inflitti da Venti ai suddetti avversari ottengono un 100% di bonus DAN da CRIT.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

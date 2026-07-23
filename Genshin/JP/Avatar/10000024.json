@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "星の導き",
+        "Description": "元素スキル<color=#FFD780FF>浪追い</color>を長押しして発動する時、攻撃を受けなくても0.8秒ごとに自動で力を1蓄積し、発動時に与えるダメージをアップさせる。\nまた、長押しで<color=#FFD780FF>浪追い</color>を発動すると、敵に命中した時、蓄積していた力に応じて追加のバフ効果を獲得する。発動時の力1ごとに元素スキルのクールタイム-4秒、自身の元素エネルギーを8ポイント回復。この効果は15秒ごとに最大1回まで発動可能。\nさらに、{LINK#N11330003}<color=#FFD780FF>極星フィールド</color>{/LINK}内にいる時、北斗は<color=#FFD780FF>輝映・星電導</color>状態に入る。",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "北斗の祓い",
         "Description": "<color=#FFD780FF>雷斫り</color>継続中、周囲の敵の<color=#FFACFFFF>雷元素耐性</color>-15%。",
+        "SpecialDescription": "<color=#FFD780FF>雷斫り</color>継続期間中、周囲の敵の<color=#FFACFFFF>雷元素耐性</color>-15%。\n\n<color=#FFD780FF>輝映・星電導</color>：雷斫り継続期間中、近くの敵の<color=#99FFFFFF>氷元素耐性</color>-15%、現在のフィールド上キャラクターの元素熟知+200。",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

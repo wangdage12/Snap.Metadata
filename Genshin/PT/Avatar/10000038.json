@@ -745,12 +745,14 @@
         "Id": 381,
         "Name": "Flor de Éden",
         "Description": "Flores Transitórias geradas pela <color=#FFD780FF>Abiogênese - Radiação Solar</color> de Albedo regeneram 1.2 de Energia para Albedo.",
+        "SpecialDescription": "Quando as Flores Transitórias geradas por Radiação Solar da Habilidade Elemental de Albedo <color=#FFD780FF>Abiogênese - Radiação Solar</color> florescem, regeneram 1.2 de Energia Elemental para ele.\nAlém disso, aumenta a DEF de Albedo em 50% por 20s após lançar a Habilidade Elemental <color=#FFD780FF>Abiogênese - Radiação Solar</color>.",
         "Icon": "UI_Talent_S_Albedo_01"
       },
       {
         "Id": 382,
         "Name": "Éon da Vida",
         "Description": "Flores Transitórias geradas pela <color=#FFD780FF>Abiogênese - Radiação Solar</color> concedem ao Albedo Julgamento Fatal por 30s:\nDesencadeando o <color=#FFD780FF>Ritual da Progenitura - Maré Tectônica</color> consome todos os acúmulos do Julgamento Fatal. Cada acúmulo do Julgamento Fatal consumido aumenta o Dano causado pelas Flores Fatais e o Dano de Explosão do Ritual da Progenitura: Maré Tectônica em 30% da DEF de Albedo.\nEste efeito pode ser acumulado até 4x.",
+        "SpecialDescription": "Quando uma Flor Transitória da Habilidade Elemental <color=#FFD780FF>Abiogênese - Radiação Solar</color> floresce, Albedo recebe o efeito Julgamento Fatal, com duração de 30 segundos:\n· Ao usar o Supremo <color=#FFD780FF>Ritual da Progenitura - Maré Tectônica</color>, todos os efeitos de Julgamento Fatal serão removidos, e o Dano de Explosão do Supremo e o Dano causado pelas Flores Fatais será aumentado com base no número de Acúmulos removidos;\n· Cada Acúmulo de Julgamento Fatal aumenta o Dano em um valor equivalente a 30% da DEF de Albedo;\n· Esse efeito pode ser acumulado até 4 vezes;\n\nAlém disso, quando Albedo estiver em segundo plano e atingir 4 Acúmulos de Julgamento Fatal, todos os Acúmulos serão consumidos, gerando 3 Flores Fatais próximas ao Personagem em campo, que florescerão violentamente e causarão <color=#FFE699FF>Dano Geo em uma AdE</color>. Esse Dano é baseado em 300% da DEF de Albedo e é considerado como Dano de Supremo. Após desbloquear o Talento Passivo <color=#FFD780FF>{LINK#P382201}Sabedoria em Uma Garrafa</color>{/LINK}, esse Talento também será ativado, aumentando a Proficiência Elemental dos Personagens próximos da equipe em 125 pontos por 10 segundos.",
         "Icon": "UI_Talent_S_Albedo_02"
       },
       {
@@ -767,6 +769,7 @@
         "Id": 384,
         "Name": "Queda Divina",
         "Description": "Membros ativos da equipe que estiverem dentro do campo de Radiação Solar têm seu Dano de Ataque Imersivo aumentado em 30%",
+        "SpecialDescription": "Os Personagens da equipe que estiverem em campo dentro da Área da Radiação Solar terão o Dano de seus Ataques Imersivos aumentado em 30%.\nAlém disso, quando um Personagem da equipe próximo salta nas proximidades de uma Aurelita, ela será destruída, concedendo um grande aumento na altura do salto. Nos 3 segundos seguintes, o Dano da Onda Mergulhadora dos Ataques Imersivos desse Personagem será aumentado em 30%. Esse efeito será cancelado 0.1s após a Onda Mergulhadora do Ataque Imersivo causar Dano.",
         "Icon": "UI_Talent_S_Albedo_03"
       },
       {
@@ -783,6 +786,7 @@
         "Id": 386,
         "Name": "Poeira da Purificação",
         "Description": "Membros ativos da equipe que estiverem dentro do campo de Radiação Solar e forem protegidos por um escudo criado pela Cristalização, ou quando houver uma Jaula Lunar dentro da área de Radiação Solar, têm seu Dano aumentado em 17%.",
+        "SpecialDescription": "Quando o Personagem em campo da equipe estiver dentro da Área da Radiação Solar e sob a proteção de um Escudo gerado por uma Reação de Cristalização, ou quando houver uma Jaula Lunar na área de Radiação Solar, o Dano causado será aumentado em 17%.\nAlém disso, ao usar o Supremo <color=#FFD780FF>Ritual da Progenitura - Maré Tectônica</color>, todas as Aurelitas em campo serão destruídas; ao destruí-las dessa forma, o Supremo será considerado como se tivesse consumido 4 Acúmulos de Julgamento Fatal da Constelação {LINK#TE382}<color=#FFD780FF>Éon da Vida</color>{/LINK}, e durante os 20 segundos seguintes, o Dano causado pelas Flores Fatais será aumentado em um Valor equivalente a 250% da DEF de Albedo.",
         "Icon": "UI_Talent_S_Albedo_04"
       }
     ]

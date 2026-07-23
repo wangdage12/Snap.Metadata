@@ -304,7 +304,10 @@
             "RIGEN continua|{param3:F2P} ATT+{param4:I}",
             "DAN da Messaggero del gelo|{param5:F1P}",
             "Durata|{param6:F1} s",
-            "TdR|{param7:F1} s"
+            "TdR|{param7:F1} s",
+            "DAN da attacco coordinato Messaggero del gelo|{param9:F1P}",
+            "#TdR attacco coordinato Messaggero del gelo|{param10:F1}{NON_BREAK_SPACE}s",
+            "#TdR|{param11:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Arte dell'Adeptus: Messaggero del gelo",
         "Description": "Usando il Talismano glaciale, Qiqi richiama il Messaggero del gelo, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari circostanti.\n\n<color=#FFD780FF>Messaggero del gelo</color>\n· Quando vanno a segno, gli attacchi normali e caricati di Qiqi rigenerano i PS dei membri del tuo gruppo e dei compagni di squadra vicini. La guarigione varia in base all'ATT di Qiqi.\n· Rigenera periodicamente i PS del tuo personaggio attivo.\n· Segue il personaggio, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari sul percorso.\n\n<i>Lo uso per evitare che... i preziosi ingredienti del dottor Bai si riscaldino e marciscano. Sì.</i>",
+        "SpecialDescription": "Usando il Talismano glaciale, Qiqi richiama il Messaggero del gelo, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari circostanti.\n\n<color=#FFD780FF>Messaggero del gelo</color>\n· Quando vanno a segno, gli attacchi normali e caricati di Qiqi rigenerano i PS dei membri del tuo gruppo e dei compagni di squadra vicini. La guarigione varia in base all'ATT di Qiqi.\n· Rigenera periodicamente i PS del tuo personaggio attivo.\n· Segue il personaggio, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari sul percorso del personaggio.\nSe il tuo personaggio attivo colpisce un avversario con un attacco, il Messaggero del gelo esegue un attacco coordinato sull'avversario, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\n\n<i>\"Lo uso per evitare che... i preziosi ingredienti del dottor Bai si riscaldino e marciscano. Sì.\"</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Sette tesori sacri",
+        "Description": "#Il TdR dell'abilità elementale <color=#FFD780FF>Arte dell'Adeptus: Messaggero del gelo</color> si riduce a 15{NON_BREAK_SPACE}s.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, mentre Messaggero del gelo è in campo, i DAN delle reazioni di Superconduzione e Astroconduzione dei personaggi nel gruppo di Qiqi aumentano di un 50%.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Qiqi entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Guarigione|{param1:P} ATT+{param2:I}",
           "Durata|{param4:F1} s",
           "TdR|{param5:F1} s",
-          "Costo energia|{param6:I}"
+          "Costo energia|{param6:I}",
+          "DAN da Astroconduzione|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Arte dell'Adeptus: Protettrice della fortuna",
       "Description": "Qiqi libera il potere dell'Adeptus sigillato nel suo corpo, marchiando gli avversari vicini con un Talismano proteggi fortuna che infligge <color=#99FFFFFF>DAN da Cryo</color>.\n\n<color=#FFD780FF>Talismano proteggi fortuna</color>\nQuando gli avversari colpiti da questo Talismano subiscono DAN, il personaggio che ha inflitto i DAN rigenera i suoi PS.\n\n<i>\"Sono la protettrice della fortuna, la Sacerdotessa della resurrezione.\"</i>\n<i>— Qiqi non ricorda queste parole.</i>",
+      "SpecialDescription": "Qiqi libera il potere adeptico sigillato nel suo corpo, marchiando gli avversari vicini con un Talismano proteggi fortuna che infligge <color=#99FFFFFF>DAN da Cryo</color>.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, infligge un'iterazione di <color=#99FFFFFF>DAN da Cryo</color> aggiuntiva. Tali DAN sono considerati DAN da Astroconduzione.\n\n<color=#FFD780FF>Talismano proteggi fortuna</color>\nQuando gli avversari colpiti dal Talismano subiscono DAN, i PS del personaggio che ha inflitto tali DAN si ripristinano.\n\n<i>\"Sono la protettrice della fortuna, la Sacerdotessa della resurrezione.\"</i>\n<i>— Qiqi non ricorda queste parole.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Ascetismo del gelo",
         "Description": "Quando il Messaggero del gelo colpisce un avversario marchiato da un Talismano proteggi fortuna, l'energia di Qiqi si rigenera di 2.",
+        "SpecialDescription": "#Quando il Messaggero del gelo colpisce un avversario marchiato da un Talismano proteggi fortuna, l'energia di Qiqi si rigenera di 2.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, l'energia elementale di Qiqi si rigenera di 6 quando gli attacchi e gli attacchi coordinati del Messaggero del gelo colpiscono gli avversari. Quest'effetto può attivarsi una volta ogni 6{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Freddo penetrante",
         "Description": "I DAN degli attacchi normali e caricati di Qiqi contro gli avversari sotto l'effetto di <color=#99FFFFFF>Cryo</color> aumentano di un 15%.",
+        "SpecialDescription": "I DAN degli attacchi normali e caricati di Qiqi contro gli avversari sotto l'effetto di <color=#99FFFFFF>Cryo</color> aumentano di un 15%.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, l'ATT di Qiqi aumenta di un 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Soppressione divina",
         "Description": "L'ATT dei bersagli marchiati dal Talismano proteggi fortuna si riduce di un 20%.",
+        "SpecialDescription": "L'ATT dei bersagli marchiati da un Talismano proteggi fortuna si riduce di un 20%.\nInoltre, quando l'effetto di guarigione del Talismano proteggi fortuna si attiva, il membro del gruppo nelle vicinanze con la percentuale di PS rimanenti più bassa riceve anche una guarigione aggiuntiva pari a un 180% dell'ATT di Qiqi.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Rito della rinascita",
         "Description": "#<color=#FFD780FF>Arte dell'Adeptus: Protettrice della fortuna</color> rianima tutti i membri sconfitti del gruppo e rigenera un 50% dei loro PS.\nSi può verificare una sola volta ogni 15{NON_BREAK_SPACE}min.",
+        "SpecialDescription": "#<color=#FFD780FF>Arte dell'Adeptus: Protettrice della fortuna</color> rianima tutti i membri del gruppo sconfitti nelle vicinanze e rigenera un 50% dei loro PS.\nSi può verificare una sola volta ogni 15{NON_BREAK_SPACE}min.\nInoltre, dopo aver usato <color=#FFD780FF>Arte dell'Adeptus: Protettrice della fortuna</color>, Qiqi ottiene 4 accumuli di <color=#FFD780FF>Scorcio misterioso</color>, e quando il tuo personaggio attivo attuale (diverso da Qiqi) infligge DAN da Astroconduzione, consuma 1 accumulo di <color=#FFD780FF>Scorcio misterioso</color> per aumentare i DAN inflitti di un 600% dell'ATT di Qiqi. L'effetto di <color=#FFD780FF>Scorcio misterioso</color> dura fino a 12{NON_BREAK_SPACE}s, e sprigionare nuovamente <color=#FFD780FF>Arte dell'Adeptus: Protettrice della fortuna</color> ne ripristina gli accumuli.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "珍選秘藏",
+        "Description": "施放元素戰技<color=#FFD780FF>貓爪凍凍</color>後的20秒內，隊伍中的角色觸發超導、星超導反應時，迪奧娜還會協同發射3枚<color=#FFD780FF>凍凍貓貓爪</color>。依此方式發射的<color=#FFD780FF>凍凍貓貓爪</color>無法產生元素微粒，在命中敵人時也無法產生護盾。該效果每3.5秒至多觸發一次。\n此外，處於{LINK#N11330003}<color=#FFD780FF>極星輝域</color>{/LINK}中時，迪奧娜將會進入<color=#FFD780FF>輝映·星超導</color>狀態。",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "貓尾打烊之時",
         "Description": "處在<color=#FFD780FF>最烈特調</color>領域內的角色，依據生命值獲得如下效果：\n·生命值低於或等於50%時，受治療加成提升30%。\n·生命值高於50%時，元素精通提升200。",
+        "SpecialDescription": "處在<color=#FFD780FF>最烈特調</color>領域內的角色，依據生命值獲得如下效果：\n·生命值低於或等於50%時，受治療加成提升30%。\n·生命值高於50%時，元素精通提升200。\n\n此外，迪奧娜的生命值上限提升25%。\n\n<color=#FFD780FF>輝映·星超導</color>：處在<color=#FFD780FF>最烈特調</color>領域內的角色造成的超導、星超導反應傷害提升40%。",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

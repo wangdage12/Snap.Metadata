@@ -3,7 +3,7 @@
     "Id": 0,
     "DescribeId": 90903,
     "Name": "",
-    "Title": "Narval Devoraestrellas",
+    "Title": "Patrullero Terrestre - Modelo puntero de asalto multifuncional",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
@@ -523,19 +523,19 @@
   },
   {
     "Id": 0,
-    "DescribeId": 52106,
-    "Name": "Eremita Rompefilas",
-    "Title": "Oni Espadachín",
-    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
+    "DescribeId": 60509,
+    "Name": "Cría de Dragarto de las Profundidades Primordial",
+    "Title": "Dragarto de las Profundidades Primordial",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
     "Arkhe": 0
   },
   {
     "Id": 0,
-    "DescribeId": 60509,
-    "Name": "Cría de Dragarto de las Profundidades Primordial",
-    "Title": "Dragarto de las Profundidades Primordial",
-    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "DescribeId": 52106,
+    "Name": "Eremita Rompefilas",
+    "Title": "Oni Espadachín",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -1574,6 +1574,43 @@
       {
         "Type": 4,
         "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20012302,
+    "DescribeId": 123,
+    "MonsterName": "Slime_Moon_01",
+    "Name": "Slime Iridiscente aguerrido",
+    "Title": "Slime Iridiscente aguerrido",
+    "Icon": "UI_MonsterIcon_Slime_Moon_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 418.3872,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
       },
       {
         "Type": 7,
@@ -4396,89 +4433,6 @@
     "BaseValue": {
       "HpBase": 108.672,
       "AttackBase": 75.36,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 2
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22020201,
-    "DescribeId": 20202,
-    "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Emisario del Abismo - Helada sombría",
-    "Title": "Emisario filoglacial",
-    "Description": "Una criatura de la Orden del Abismo que utiliza unos filos gélidos para combatir.\nAsí como los santos promulgan y glorifican los salmos que cantan desde el abismo, los emisarios corrigen los cánticos distorsionados y suprimen las disonancias.\nMuchos son los que afirman que una sensación helada entumece el cuerpo cuando una espada lo atraviesa, pero la gelidez de este oscuro enemigo es capaz de congelar incluso el alma.",
-    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "剧情任务-脱战逻辑标签",
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22030101,
-    "DescribeId": 20301,
-    "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Bardo del Abismo - Trueno púrpura",
-    "Title": "Emisario del trueno descendente",
-    "Description": "Un monstruo que sirve a la Orden del Abismo, capaz de manipular el rayo y que canta canciones de alabanza a la oscuridad.\nSon los misioneros y discípulos del Abismo. Sus violentos rayos golpean el corazón de los herejes con una oscura sabiduría. Con sus truenos violetas, invocan un gran poder que corroe el intelecto humano.",
-    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -8198,6 +8152,84 @@
     "BaseValue": {
       "HpBase": 293.4144,
       "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090601,
+    "DescribeId": 40906,
+    "MonsterName": "Monitor_01",
+    "Name": "Pionera Fuentenigma de Matrices de Observación Navegadora",
+    "Title": "Portador Solitario de la Luz",
+    "Description": "Una antigua máquina atrapada entre las ruinas de la Luna. Con el suficiente tiempo, hasta las máquinas más resistentes y fiables acaban perdiendo el propósito que les otorgaron sus creadores, y se convierten en objetos que atacan y eliminan a cualquier ser viviente que se atreva a pisar el suelo que defienden.\nEn los registros de una antigua civilización que se perdió hace mucho tiempo, estas máquinas descontroladas fueron bautizadas en su día con el nombre de “Ur-Namrasit-Tilimutu-Babbar”, que significa “aquel que alza la luz en la oscuridad”. Anhelando llegar al vasto mar de estrellas, los líderes de los “pioneros” grabaron sus palabras más sinceras en unos patrones dorados, con la esperanza de que, ayudados por estos asistentes, sus sucesores pudieran encender la luz que realmente iluminaría el universo.\nSin embargo, esa luz nunca llegó a “alzarse” para nadie, y estas máquinas “de control” no lograron ver a los dueños a los que debían servir. Ahora, varadas en estas ruinas, no son más que el último vestigio descontrolado de un ideal que se perdió hace mucho tiempo.",
+    "Icon": "UI_MonsterIcon_Monitor_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 114.1056,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090701,
+    "DescribeId": 40907,
+    "MonsterName": "Monitor_02",
+    "Name": "Pionera Fuentenigma de Matrices de Observación Navegadora aguerrida",
+    "Title": "Pionera Fuentenigma de Matrices de Observación Navegadora aguerrida",
+    "Icon": "UI_MonsterIcon_Monitor_02",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "地方传奇标记"
+    ],
+    "BaseValue": {
+      "HpBase": 1222.56,
+      "AttackBase": 138.16,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -16308,82 +16340,6 @@
     ]
   },
   {
-    "Id": 26260101,
-    "DescribeId": 62601,
-    "MonsterName": "Wayob_Drillhead_01",
-    "Name": "Manifestación Wayob Cavernaria",
-    "Title": "Manifestación Wayob Contrafluyente",
-    "Description": "La Wayob en la que creen y adoran los Vástagos del Eco. Usa el poder de los tótems y las almas noctámbulas para manifestarse con esta forma. En el saber de las tribus de Natlan, las Wayob viven en el Reino de la Noche y no tienen una forma fija, ya que se adhieren a cualquier objeto para guiar a la gente perdida de las tribus. Entre estos seres, las Manifestaciones Wayob son aún más especiales, pues toman la forma de los tótems para mostrarse y suelen tener una misión importante que llevar a cabo.\nLos Vástagos del Eco creen que su Wayob tiene el poder de moldear picos y valles y puede controlar los ecos que produce el choque entre rocas y peñascos.",
-    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.5,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26260201,
-    "DescribeId": 62602,
-    "MonsterName": "Wayob_Mosasaurus_01",
-    "Name": "Manifestación Wayob Contrafluyente",
-    "Title": "Manifestación Wayob Cavernaria",
-    "Description": "La Wayob en la que cree y adora el Pueblo de los Manantiales. Usa el poder de los tótems y las almas noctámbulas para manifestarse con esta forma.\nLas Wayob son la creencia que se fue formando a raíz de las tribus y los tótems de obsidiana después de que los habitantes de Natlan empezaran a comunicarse con el Reino de la Noche. Es una consciencia con pensamiento colectivo, así como el hogar de las almas de los ancestros.\nLos miembros del Pueblo de los Manantiales creen que su Wayob tiene el poder de manipular la marea y las olas del mar, y puede controlar los cambios que se producen en las aguas muertas y aguas corrientes.",
-    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.5,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
     "Id": 26260301,
     "DescribeId": 62603,
     "MonsterName": "Wayob_Hookwalker_01",
@@ -17836,7 +17792,7 @@
     "DescribeId": 91001,
     "MonsterName": "Monster_Nihil_Harbinger_01",
     "Name": "La Sota",
-    "Title": "La Sota",
+    "Title": "Patrullero Terrestre - Modelo puntero de asalto multifuncional",
     "Icon": "UI_MonsterIcon_Nihil",
     "Type": 2,
     "Arkhe": 0,
@@ -17877,7 +17833,7 @@
     "DescribeId": 91101,
     "MonsterName": "Monster_TheAbyssXiuhcoatl_01",
     "Name": "Señor del Fuego Primigenio Corroído",
-    "Title": "Señor del Fuego Primigenio Corroído",
+    "Title": "Patrullero Terrestre - Modelo puntero de asalto multifuncional",
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 2,
     "Arkhe": 0,
@@ -17917,7 +17873,7 @@
     "DescribeId": 91211,
     "MonsterName": "Monster_GiantChess_King_StageA",
     "Name": "Rey Ascendido",
-    "Title": "Megaflora superdesarrollada",
+    "Title": "Rey Ascendido",
     "Icon": "UI_MonsterIcon_GiantChess_King",
     "Type": 2,
     "Arkhe": 0,
@@ -17954,7 +17910,7 @@
     "DescribeId": 91212,
     "MonsterName": "Monster_GiantChess_King_StageB",
     "Name": "Reina Exaltada",
-    "Title": "Megaflora superdesarrollada",
+    "Title": "Reina Exaltada",
     "Icon": "UI_MonsterIcon_GiantChess_Queen",
     "Type": 2,
     "Arkhe": 0,
@@ -18442,6 +18398,80 @@
     ]
   },
   {
+    "Id": 84202022,
+    "DescribeId": 20202,
+    "MonsterName": "Invoker_Herald_Ice_01",
+    "Name": "Emisario del Abismo - Helada sombría",
+    "Title": "Emisario filoglacial",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84203012,
+    "DescribeId": 20301,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Name": "Bardo del Abismo - Trueno púrpura",
+    "Title": "Emisario del trueno descendente",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 84301011,
     "DescribeId": 30101,
     "MonsterName": "Skirmisher_Male_Fat_SprayGun_Ice_01",
@@ -18792,6 +18822,80 @@
     "BaseValue": {
       "HpBase": 168.4416,
       "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626012,
+    "DescribeId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Manifestación Wayob Cavernaria",
+    "Title": "Manifestación Wayob Contrafluyente",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626022,
+    "DescribeId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Manifestación Wayob Contrafluyente",
+    "Title": "Manifestación Wayob Cavernaria",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
       "DefenseBase": 500,
       "FireSubHurt": 0,
       "GrassSubHurt": 0,

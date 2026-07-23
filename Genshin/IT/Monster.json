@@ -3,7 +3,7 @@
     "Id": 0,
     "DescribeId": 90903,
     "Name": "",
-    "Title": "Narvalo Divoramondi",
+    "Title": "Incrociatore terrestre: Assaltatore polivalente avanzato",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
@@ -523,19 +523,19 @@
   },
   {
     "Id": 0,
-    "DescribeId": 52106,
-    "Name": "Eremita spezzalinee",
-    "Title": "Maguu Kenki",
-    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
+    "DescribeId": 60509,
+    "Name": "Cucciolo di Elementosauro abissale primordiale",
+    "Title": "Elementosauro abissale primordiale",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
     "Arkhe": 0
   },
   {
     "Id": 0,
-    "DescribeId": 60509,
-    "Name": "Cucciolo di Elementosauro abissale primordiale",
-    "Title": "Elementosauro abissale primordiale",
-    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "DescribeId": 52106,
+    "Name": "Eremita spezzalinee",
+    "Title": "Maguu Kenki",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -1574,6 +1574,43 @@
       {
         "Type": 4,
         "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20012302,
+    "DescribeId": 123,
+    "MonsterName": "Slime_Moon_01",
+    "Name": "Melmoso prismatico agguerrito",
+    "Title": "Melmoso prismatico agguerrito",
+    "Icon": "UI_MonsterIcon_Slime_Moon_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 418.3872,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
       },
       {
         "Type": 7,
@@ -4396,89 +4433,6 @@
     "BaseValue": {
       "HpBase": 108.672,
       "AttackBase": 75.36,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 2
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22020201,
-    "DescribeId": 20202,
-    "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Apostolo dell'Abisso: Cascata algida",
-    "Title": "Emissario delle Lame di ghiaccio",
-    "Description": "Un mostro dell'Ordine dell'Abisso che brandisce delle lame ghiacciate in battaglia.\nProprio come esistono santi che diffondono e glorificano il verbo abissale, ci sono anche emissari che devono correggere qualsiasi distorsione e rimuovere ogni dissonanza.\nLa gente dice spesso che l'acciaio è come il ghiaccio che trafigge il corpo, ma questo gelo oscuro sembra congelare persino l'anima.",
-    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "剧情任务-脱战逻辑标签",
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22030101,
-    "DescribeId": 20301,
-    "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Cantore dell'Abisso: Fulmine viola",
-    "Title": "Evangelista del tuono fragoroso",
-    "Description": "Un mostro che serve l'Ordine dell'Abisso e controlla il potere del fulmine mentre canta le lodi dell'oscurità.\nGli evangelisti e studiosi dell'Abisso. I loro violenti fulmini colpiscono i cuori dei miscredenti con oscura saggezza, distorta dalle oscure profondità di una notte eterna, e il bagliore viola annuncia l'esistenza di un grande potere in grado di corrodere la mente umana.",
-    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -8198,6 +8152,84 @@
     "BaseValue": {
       "HpBase": 293.4144,
       "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090601,
+    "DescribeId": 40906,
+    "MonsterName": "Monitor_01",
+    "Name": "Matrice semi-transitoria rete di sorveglianza della Fonte segreta pioniera",
+    "Title": "Portatore di luce solitario",
+    "Description": "Un'antica macchina intrappolata tra le rovine lunari. Persino le macchine più robuste e affidabili verranno sconfitte dal passare dei lunghi anni, perdendo lo scopo conferito dai loro creatori. Ora quest'entità attacca ed elimina chiunque osi mettere piede sul suolo che difende.\nNei documenti di un'antica civiltà ormai perduta, queste macchine fuori controllo erano un tempo chiamate \"Ur-Namrasit-Tilimtu-Babbar\", ovvero \"chi porta la luce nell'oscurità\". Bramando lo sconfinato mare di stelle, i leader dei \"pionieri\" incisero le loro parole più accorate in sigilli dorati, sperando che i loro successori, con l'aiuto di questi assistenti, sarebbero stati in grado di mantenere vivida la luce che illumina l'universo.\nAhimè, la luce non sorse per nessuno, e la macchina a cui venne conferito il titolo di \"sorvegliante\" non riuscì ad attendere la persona che avrebbe dovuto servire. Ora, bloccata in queste rovine, non è altro che l'ultimo frammento fuori controllo di un ideale perduto nel tempo.",
+    "Icon": "UI_MonsterIcon_Monitor_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 114.1056,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090701,
+    "DescribeId": 40907,
+    "MonsterName": "Monitor_02",
+    "Name": "Matrice della rete di sorveglianza della Fonte segreta pioniera agguerrita",
+    "Title": "Matrice della rete di sorveglianza della Fonte segreta pioniera agguerrita",
+    "Icon": "UI_MonsterIcon_Monitor_02",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "地方传奇标记"
+    ],
+    "BaseValue": {
+      "HpBase": 1222.56,
+      "AttackBase": 138.16,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -12751,8 +12783,8 @@
     "Id": 25600101,
     "DescribeId": 56001,
     "MonsterName": "Thoarder_Elder_Standard_Hildegard_01",
-    "Name": "Cacciatore di tesori d'élite agguerrito",
-    "Title": "Cacciatore di tesori d'élite agguerrito",
+    "Name": "Cacciatrice di tesori d'élite agguerrita",
+    "Title": "Cacciatrice di tesori d'élite agguerrita",
     "Icon": "UI_MonsterIcon_Thoarder_Elder_Standard_Hildegard_01",
     "Type": 1,
     "Arkhe": 0,
@@ -16308,82 +16340,6 @@
     ]
   },
   {
-    "Id": 26260101,
-    "DescribeId": 62601,
-    "MonsterName": "Wayob_Drillhead_01",
-    "Name": "Manifestazione cavernosa della Wayob",
-    "Title": "Manifestazione effluente della Wayob",
-    "Description": "I Figli degli Echi venerano la Wayob, che si manifesta sulla terra con il potere dei totem e delle Anime della Notte.\nGli abitanti di Natlan credono che la Wayob viva nel regno della Signora della Notte, e che non abbia una forma fissa perché può connettersi a qualsiasi cosa per guidare i membri smarriti della tribù. Le Manifestazioni della Wayob sono particolarmente speciali, e l'entità rivelata attraverso i totem svolge spesso un'importante funzione.\nI Figli degli Echi credono che la loro Wayob abbia il potere di plasmare montagne e valli, e che possa controllare gli echi generati quando le rocce vengono sfregate tra loro.",
-    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.5,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26260201,
-    "DescribeId": 62602,
-    "MonsterName": "Wayob_Mosasaurus_01",
-    "Name": "Manifestazione effluente della Wayob",
-    "Title": "Manifestazione cavernosa della Wayob",
-    "Description": "Il Popolo delle Sorgenti venera la Wayob, che si manifesta sulla terra con il potere dei totem e delle Anime della Notte.\nLa cosiddetta \"Wayob\" è la credenza che si è formata gradualmente dalle tribù e dai totem di ossidiana dopo che la gente di Natlan iniziò a comunicare con la Signora della Notte. È una coscienza del pensiero collettivo, nonché la casa delle anime degli antenati.\nIl Popolo delle Sorgenti crede che la loro Wayob abbia il potere di controllare le maree e le onde, oltre alle variazioni delle acque, correnti o stagnanti che siano.",
-    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.5,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
     "Id": 26260301,
     "DescribeId": 62603,
     "MonsterName": "Wayob_Hookwalker_01",
@@ -17836,7 +17792,7 @@
     "DescribeId": 91001,
     "MonsterName": "Monster_Nihil_Harbinger_01",
     "Name": "La Fantesca",
-    "Title": "La Fantesca",
+    "Title": "Incrociatore terrestre: Assaltatore polivalente avanzato",
     "Icon": "UI_MonsterIcon_Nihil",
     "Type": 2,
     "Arkhe": 0,
@@ -17877,7 +17833,7 @@
     "DescribeId": 91101,
     "MonsterName": "Monster_TheAbyssXiuhcoatl_01",
     "Name": "Signore della Fiamma primordiale erosa",
-    "Title": "Signore della Fiamma primordiale erosa",
+    "Title": "Incrociatore terrestre: Assaltatore polivalente avanzato",
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 2,
     "Arkhe": 0,
@@ -17917,7 +17873,7 @@
     "DescribeId": 91211,
     "MonsterName": "Monster_GiantChess_King_StageA",
     "Name": "Re asceso",
-    "Title": "Malefiore sovrapotenziato",
+    "Title": "Re asceso",
     "Icon": "UI_MonsterIcon_GiantChess_King",
     "Type": 2,
     "Arkhe": 0,
@@ -17954,7 +17910,7 @@
     "DescribeId": 91212,
     "MonsterName": "Monster_GiantChess_King_StageB",
     "Name": "Regina glorificata",
-    "Title": "Malefiore sovrapotenziato",
+    "Title": "Regina glorificata",
     "Icon": "UI_MonsterIcon_GiantChess_Queen",
     "Type": 2,
     "Arkhe": 0,
@@ -18442,6 +18398,80 @@
     ]
   },
   {
+    "Id": 84202022,
+    "DescribeId": 20202,
+    "MonsterName": "Invoker_Herald_Ice_01",
+    "Name": "Apostolo dell'Abisso: Cascata algida",
+    "Title": "Emissario delle Lame di ghiaccio",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84203012,
+    "DescribeId": 20301,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Name": "Cantore dell'Abisso: Fulmine viola",
+    "Title": "Evangelista del tuono fragoroso",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 84301011,
     "DescribeId": 30101,
     "MonsterName": "Skirmisher_Male_Fat_SprayGun_Ice_01",
@@ -18792,6 +18822,80 @@
     "BaseValue": {
       "HpBase": 168.4416,
       "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626012,
+    "DescribeId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Manifestazione cavernosa della Wayob",
+    "Title": "Manifestazione effluente della Wayob",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626022,
+    "DescribeId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Manifestazione effluente della Wayob",
+    "Title": "Manifestazione cavernosa della Wayob",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
       "DefenseBase": 500,
       "FireSubHurt": 0,
       "GrassSubHurt": 0,

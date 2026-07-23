@@ -1,0 +1,1165 @@
+{
+  "Id": 10000133,
+  "PromoteId": 133,
+  "Sort": 118,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_MarionetteNew",
+  "SideIcon": "UI_AvatarIcon_Side_MarionetteNew",
+  "Name": "Sandrone",
+  "Description": "Harbinger Fatui ke-7, \"Marionette\". Sosok yang menafsirkan segala fenomena melalui sudut pandang matematika, sekaligus seorang wanita elegan yang tak pernah absen dari pesta teh.",
+  "BeginTime": "2026-06-30T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 11,
+  "BaseValue": {
+    "HpBase": 1029.5856,
+    "AttackBase": 26.6266,
+    "DefenseBase": 58.57357
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13331,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}",
+            "DMG Tembakan Beruntun Charged Attack|{param4:F1P}",
+            "DMG Sinar Terkondensasi Charged Attack|{param5:F1P}",
+            "DMG Stellar-Conduct Sinar Terkondensasi dari Charged Attack|{param6:F1P}",
+            "DMG Saat Power Overdrive|{param7:F1P}",
+            "DMG Selama Plunging|{param8:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param9:P}/{param10:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1333101,
+              "Level": 1,
+              "Parameters": [
+                0.762863,
+                0.67197,
+                1.028035,
+                0.43,
+                1.2255,
+                0.817,
+                0.43,
+                0.745878,
+                1.49144,
+                1.862889
+              ]
+            },
+            {
+              "Id": 1333102,
+              "Level": 2,
+              "Parameters": [
+                0.824957,
+                0.726665,
+                1.111713,
+                0.465,
+                1.32525,
+                0.8835,
+                0.465,
+                0.806589,
+                1.612836,
+                2.01452
+              ]
+            },
+            {
+              "Id": 1333103,
+              "Level": 3,
+              "Parameters": [
+                0.88705,
+                0.78136,
+                1.19539,
+                0.5,
+                1.425,
+                0.95,
+                0.5,
+                0.8673,
+                1.734233,
+                2.16615
+              ]
+            },
+            {
+              "Id": 1333104,
+              "Level": 4,
+              "Parameters": [
+                0.975755,
+                0.859496,
+                1.314929,
+                0.55,
+                1.5675,
+                1.045,
+                0.55,
+                0.95403,
+                1.907656,
+                2.382765
+              ]
+            },
+            {
+              "Id": 1333105,
+              "Level": 5,
+              "Parameters": [
+                1.037848,
+                0.914191,
+                1.398606,
+                0.585,
+                1.66725,
+                1.1115,
+                0.585,
+                1.014741,
+                2.029052,
+                2.534396
+              ]
+            },
+            {
+              "Id": 1333106,
+              "Level": 6,
+              "Parameters": [
+                1.108812,
+                0.9767,
+                1.494237,
+                0.625,
+                1.78125,
+                1.1875,
+                0.625,
+                1.084125,
+                2.167791,
+                2.707688
+              ]
+            },
+            {
+              "Id": 1333107,
+              "Level": 7,
+              "Parameters": [
+                1.206388,
+                1.06265,
+                1.62573,
+                0.68,
+                1.938,
+                1.292,
+                0.68,
+                1.179528,
+                2.358556,
+                2.945964
+              ]
+            },
+            {
+              "Id": 1333108,
+              "Level": 8,
+              "Parameters": [
+                1.303964,
+                1.148599,
+                1.757223,
+                0.735,
+                2.09475,
+                1.3965,
+                0.735,
+                1.274931,
+                2.549322,
+                3.184241
+              ]
+            },
+            {
+              "Id": 1333109,
+              "Level": 9,
+              "Parameters": [
+                1.401539,
+                1.234549,
+                1.888716,
+                0.79,
+                2.2515,
+                1.501,
+                0.79,
+                1.370334,
+                2.740087,
+                3.422517
+              ]
+            },
+            {
+              "Id": 1333110,
+              "Level": 10,
+              "Parameters": [
+                1.507985,
+                1.328312,
+                2.032163,
+                0.85,
+                2.4225,
+                1.615,
+                0.85,
+                1.47441,
+                2.948195,
+                3.682455
+              ]
+            },
+            {
+              "Id": 1333111,
+              "Level": 11,
+              "Parameters": [
+                1.614431,
+                1.422075,
+                2.17561,
+                0.91,
+                2.5935,
+                1.729,
+                0.91,
+                1.578486,
+                3.156303,
+                3.942393
+              ]
+            },
+            {
+              "Id": 1333112,
+              "Level": 12,
+              "Parameters": [
+                1.720877,
+                1.515838,
+                2.319057,
+                0.97,
+                2.7645,
+                1.843,
+                0.97,
+                1.682562,
+                3.364411,
+                4.202331
+              ]
+            },
+            {
+              "Id": 1333113,
+              "Level": 13,
+              "Parameters": [
+                1.827323,
+                1.609602,
+                2.462503,
+                1.03,
+                2.9355,
+                1.957,
+                1.03,
+                1.786638,
+                3.572519,
+                4.462269
+              ]
+            },
+            {
+              "Id": 1333114,
+              "Level": 14,
+              "Parameters": [
+                1.933769,
+                1.703365,
+                2.60595,
+                1.09,
+                3.1065,
+                2.071,
+                1.09,
+                1.890714,
+                3.780627,
+                4.722207
+              ]
+            },
+            {
+              "Id": 1333115,
+              "Level": 15,
+              "Parameters": [
+                2.040215,
+                1.797128,
+                2.749397,
+                1.15,
+                3.2775,
+                2.185,
+                1.15,
+                1.99479,
+                3.988735,
+                4.982145
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11331,
+        "Name": "Formule Phenomenale: Self-Evident Proposition",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMenenun benang untuk memanipulasi senjatanya dengan formula numerik dan melakukan hingga 3 serangan tebasan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMemanggil Facilitatrice Automatisee Generaliste Interactive et Omnitache, atau <color=#FFD780FF> \"Fagio\"</color>, dan mengalihkannya ke mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>: Melancarkan tembakan beruntun ke musuh di depan, serta menembakkan sinar terkondensasi secara berkala, mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG dari sinar terkondensasinya berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.\nDalam mode <color=#FFD780FF>Decoding</color>, jumlah <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan terus bertambah. Decoding Power juga akan bertambah saat Fagio menembakkan sinar terkondensasinya.\nSaat Decoding Power mencapai batas maksimum (100 poin), Fagio akan beralih ke mode <color=#FFD780FF>Power Overdrive</color>. Dalam mode ini, ia akan menembak musuh dengan jeda yang lebih panjang, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>, dan menjadi tidak bisa beralih ke mode Decoding.\nSaat tidak berada dalam mode <color=#FFD780FF>Decoding</color>, <color=#FFD780FF>Decoding Power</color> Fagio akan terus berkurang secara perlahan. Saat Sandrone ada di dalam party namun sedang tidak berada di medan pertempuran, dia akan fokus memperbaiki Fagio dan mempercepat kecepatan pengurangan Decoding Power menjadi 300% dari kecepatan semulanya.\nFagio akan keluar dari mode <color=#FFD780FF>Power Overdrive</color> saat <color=#FFD780FF>Decoding Power</color>-nya menurun hingga di bawah 50 poin.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang ke tanah dari udara, menyerang musuh di jalur jatuhnya, dan mengakibatkan DMG Area saat mendarat.",
+        "Icon": "Skill_A_04"
+      },
+      {
+        "GroupId": 13332,
+        "Proud": {
+          "Descriptions": [
+            "DMG Prism Shot|{param1:F1P}",
+            "DMG Stellar-Conduct Prism Shot|{param2:F1P}",
+            "Cooldown|{param3:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1333201,
+              "Level": 1,
+              "Parameters": [
+                0.324,
+                0.216,
+                4
+              ]
+            },
+            {
+              "Id": 1333202,
+              "Level": 2,
+              "Parameters": [
+                0.3483,
+                0.2322,
+                4
+              ]
+            },
+            {
+              "Id": 1333203,
+              "Level": 3,
+              "Parameters": [
+                0.3726,
+                0.2484,
+                4
+              ]
+            },
+            {
+              "Id": 1333204,
+              "Level": 4,
+              "Parameters": [
+                0.405,
+                0.27,
+                4
+              ]
+            },
+            {
+              "Id": 1333205,
+              "Level": 5,
+              "Parameters": [
+                0.4293,
+                0.2862,
+                4
+              ]
+            },
+            {
+              "Id": 1333206,
+              "Level": 6,
+              "Parameters": [
+                0.4536,
+                0.3024,
+                4
+              ]
+            },
+            {
+              "Id": 1333207,
+              "Level": 7,
+              "Parameters": [
+                0.486,
+                0.324,
+                4
+              ]
+            },
+            {
+              "Id": 1333208,
+              "Level": 8,
+              "Parameters": [
+                0.5184,
+                0.3456,
+                4
+              ]
+            },
+            {
+              "Id": 1333209,
+              "Level": 9,
+              "Parameters": [
+                0.5508,
+                0.3672,
+                4
+              ]
+            },
+            {
+              "Id": 1333210,
+              "Level": 10,
+              "Parameters": [
+                0.5832,
+                0.3888,
+                4
+              ]
+            },
+            {
+              "Id": 1333211,
+              "Level": 11,
+              "Parameters": [
+                0.6156,
+                0.4104,
+                4
+              ]
+            },
+            {
+              "Id": 1333212,
+              "Level": 12,
+              "Parameters": [
+                0.648,
+                0.432,
+                4
+              ]
+            },
+            {
+              "Id": 1333213,
+              "Level": 13,
+              "Parameters": [
+                0.6885,
+                0.459,
+                4
+              ]
+            },
+            {
+              "Id": 1333214,
+              "Level": 14,
+              "Parameters": [
+                0.729,
+                0.486,
+                4
+              ]
+            },
+            {
+              "Id": 1333215,
+              "Level": 15,
+              "Parameters": [
+                0.7695,
+                0.513,
+                4
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11332,
+        "Name": "Formule Phenomenale: Differential Analysis",
+        "Description": "Dengan gerakannya yang elegan bak seorang wanita sejati, Sandrone akan duduk di atas <color=#FFD780FF>Tea Party Tactical Assault Hovermech</color> miliknya dan terus melayang maju selama 6 detik. Selama durasi ini, Sandrone juga dapat mengontrol arah terbangnya. Menekan tombol Lari akan mengonsumsi 10 Stamina untuk memasuki mode melayang berkecepatan tinggi yang anggun, tapi mengonsumsi 15 poin Stamina per detik untuk melayang dengan lebih cepat.\n\nJika ada musuh di sekitar Sandrone saat ia mulai melayang, maka Sandrone juga akan memanggil sebuah Prismatic Resonance Cannon untuk menembakkan dua Prism Shot ke musuh yang tidak bisa diam, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG Prism Shot kedua akan berubah menjadi <color=#99FFFFFF>Cryo DMG</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.\n\nSaat sedang menaiki Tea Party Tactical Assault Hovermech, Sandrone juga akan dengan anggunnya memperbaiki Fagio secara diam-diam, sehingga <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan berkurang dengan cepat.",
+        "Icon": "Skill_S_MarionetteNew_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13339,
+      "Proud": {
+        "Descriptions": [
+          "DMG Bombardir|{param1:F1P}×3",
+          "DMG Convective Inhibition Ray|{param2:F1P}",
+          "DMG Stellar-Conduct Convective Inhibition Ray|{param3:F1P}",
+          "Cooldown|{param4:F1} dtk",
+          "Konsumsi Energy|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1333901,
+            "Level": 1,
+            "Parameters": [
+              0.88216,
+              3.308,
+              2.205333,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333902,
+            "Level": 2,
+            "Parameters": [
+              0.948322,
+              3.5561,
+              2.370733,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333903,
+            "Level": 3,
+            "Parameters": [
+              1.014484,
+              3.8042,
+              2.536133,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333904,
+            "Level": 4,
+            "Parameters": [
+              1.1027,
+              4.135,
+              2.756667,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333905,
+            "Level": 5,
+            "Parameters": [
+              1.168862,
+              4.3831,
+              2.922067,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333906,
+            "Level": 6,
+            "Parameters": [
+              1.235024,
+              4.6312,
+              3.087467,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333907,
+            "Level": 7,
+            "Parameters": [
+              1.32324,
+              4.962,
+              3.308,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333908,
+            "Level": 8,
+            "Parameters": [
+              1.411456,
+              5.2928,
+              3.528533,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333909,
+            "Level": 9,
+            "Parameters": [
+              1.499672,
+              5.6236,
+              3.749067,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333910,
+            "Level": 10,
+            "Parameters": [
+              1.587888,
+              5.9544,
+              3.9696,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333911,
+            "Level": 11,
+            "Parameters": [
+              1.676104,
+              6.2852,
+              4.190133,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333912,
+            "Level": 12,
+            "Parameters": [
+              1.76432,
+              6.616,
+              4.410667,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333913,
+            "Level": 13,
+            "Parameters": [
+              1.87459,
+              7.0295,
+              4.686333,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333914,
+            "Level": 14,
+            "Parameters": [
+              1.98486,
+              7.443,
+              4.962,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1333915,
+            "Level": 15,
+            "Parameters": [
+              2.09513,
+              7.8565,
+              5.237667,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11335,
+      "Name": "Formule Phenomenale: Q.E.D.",
+      "Description": "Masih sambil menjunjung tinggi etiket seorang wanita sejati, Sandrone memanggil sejumlah besar Prismatic Resonance Cannon untuk melakukan bombardir luas ke hadapannya, lalu menembakkan Convective Inhibition Ray bersuhu negatif untuk menghantam musuh dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG Convective Inhibition Ray akan berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.",
+      "Icon": "Skill_E_MarionetteNew_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 13321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332101,
+              "Level": 1,
+              "Parameters": [
+                3,
+                0.1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1332101,
+        "Name": "Eternal Speculation Engine",
+        "Description": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Saat melancarkan Elemental Skill {LINK#S11332}<color=#FFD780FF>Formule Phenomenale: Differential Analysis</color>{/LINK}, jika <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK} </color>Fagio melebihi 50 poin, maka Prism Shot kedua yang ditembakkan ke musuh di sekitar akan mengakibatkan 400% DMG dari DMG aslinya seiring berkurangnya Decoding Power Fagio.\nSelain itu, setiap kali <color=#FFD780FF>Decoding Power</color> Fagio berkurang 10 poin, ia akan memperoleh 1 lapis efek <color=#FFD780FF>Refined Tactics</color> yang bertahan selama 60 detik. Efek ini dapat ditumpuk sampai 10 lapis. Saat Sandrone melancarkan Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D</color>{/LINK} dalam status <color=#FFD780FF>Radiance: Stellar-Conduct</color>, semua lapisan Refined Tactics akan terhapus dan membuat Convective Inhibition Ray mengakibatkan DMG sebesar 100% + (jumlah lapisan yang dihapus ×10%) dari DMG aslinya.",
+        "Icon": "UI_Talent_S_MarionetteNew_05"
+      },
+      {
+        "GroupId": 13322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332201,
+              "Level": 1,
+              "Parameters": [
+                0.08,
+                160
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1332201,
+        "Name": "A Lady's Code of Conduct",
+        "Description": "Meningkatkan Elemental Mastery Sandrone berdasarkan ATK-nya. Setiap 100 poin ATK akan meningkatkan Elemental Mastery Sandrone sebesar 8 poin. Maksimal dapat meningkatkan 160 poin Elemental Mastery dengan cara ini.",
+        "Icon": "UI_Talent_S_MarionetteNew_06"
+      },
+      {
+        "GroupId": 13323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1332301,
+        "Name": "Light of Rationalisme",
+        "Description": "Saat Karakter di dalam party memicu reaksi Superconduct, reaksi ini akan diubah menjadi reaksi Stellar-Conduct. DMG dasar reaksi Stellar-Conduct Karakter di dalam party meningkat berdasarkan ATK Sandrone: Untuk setiap 100 poin ATK, DMG dasarnya meningkat 0,7%, dapat meningkat hingga maksimum 14% dengan cara ini.\nSelain itu, saat Sandrone berada dalam area {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, ia akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Icon": "UI_Talent_S_MarionetteNew_07"
+      },
+      {
+        "GroupId": 13325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1332501,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1332501,
+        "Name": "A Caucus Prelude and a Long Tale",
+        "Description": "Saat Sandrone berada dalam party, kamu akan mendapatkan hadiah camilan tambahan saat menyerahkan Misi Harian ke Katheryne.",
+        "Icon": "UI_Talent_S_MarionetteNew_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1331,
+        "Name": "Morrow After the Golden Dusk",
+        "Description": "Saat berada dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, kecepatan meningkatnya <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio berkurang 50%, dan DMG reaksi Stellar-Conduct yang diakibatkan oleh seluruh Karakter dalam party meningkat 30%.",
+        "Icon": "UI_Talent_S_MarionetteNew_01"
+      },
+      {
+        "Id": 1332,
+        "Name": "An Heiress Gazed Into the Looking-Glass",
+        "Description": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: CRIT DMG sinar terkondensasi dari Charged Attack meningkat 40%. Dan setiap kali sinar terkondensasi ini ditembakkan, CRIT DMG yang diakibatkan semua sinar terkondensasi yang ditembakkan selama mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> kali ini akan meningkat lagi sebesar 20%. Efek ini dapat ditumpuk sampai 3 lapis.",
+        "Icon": "UI_Talent_S_MarionetteNew_02"
+      },
+      {
+        "Id": 1333,
+        "Name": "Refuse the Wake of Dusk, the Moonlit Yoke",
+        "Description": "Meningkatkan 3 level Normal Attack {LINK#S11331}<color=#FFD780FF>Formule Phenomenale: Self-Evident Proposition</color>{/LINK}.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_MarionetteNew_01",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1334,
+        "Name": "In Knowledge Lies the World's True Ground",
+        "Description": "Saat DMG reaksi Stellar-Conduct Sandrone mengenai musuh, ia akan memanggil 1 Prismatic Resonance Cannon tambahan untuk melancarkan serangan terkoordinasi yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> sebesar 125% ATK Sandrone kepada musuh. DMG ini dianggap sebagai DMG reaksi Stellar-Conduct dan efek ini dapat terpicu sekali setiap 4 detik.",
+        "Icon": "UI_Talent_S_MarionetteNew_03"
+      },
+      {
+        "Id": 1335,
+        "Name": "Of All Beside, She Takes No Part",
+        "Description": "Meningkatkan 3 level Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D</color>{/LINK}.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_MarionetteNew_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1336,
+        "Name": "Narcissus Wakes, Her Eyes Upon the Dawn",
+        "Description": "Dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, saat Fagio menembakkan sinar terkondensasi untuk ketiga kalinya, serangan ini akan berubah menjadi <color=#FFD780FF>Condensed Cluster Beam</color> yang terus-menerus dan lebih kuat. Serangan ini akan mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan sebesar 100% ATK Sandrone di luar sinar terkondensasi dasar yang terus ditembakkan.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Tembakan <color=#FFD780FF>Condensed Cluster Beam</color> berubah menjadi: mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan sebesar 80% ATK Sandrone, dan DMG ini dianggap sebagai DMG reaksi Stellar-Conduct.\nSelain itu, semua DMG reaksi Stellar-Conduct yang diakibatkan oleh Sandrone {LINK#N11190007}<color=#FFD780FF>bertumbuh</color>{/LINK} sebesar 20%.",
+        "Icon": "UI_Talent_S_MarionetteNew_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Mirrored Analysis",
+    "Detail": "Harbinger Fatui ke-7, \"Marionette\". Sosok yang menafsirkan segala fenomena melalui sudut pandang matematika, sekaligus seorang wanita elegan yang tak pernah absen dari pesta teh.",
+    "Association": 15,
+    "Native": "Fatui",
+    "BirthMonth": 1,
+    "BirthDay": 13,
+    "VisionBefore": "Cryo",
+    "VisionOverrideLocked": "Stellar Linchpin",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Narcissorolegium",
+    "CvChinese": "Haitian HONG",
+    "CvJapanese": "HONDA Mariko",
+    "CvEnglish": "Deneen MELODY",
+    "CvKorean": "KANG Eun-ae",
+    "CookBonus": {
+      "OriginItemId": 108534,
+      "ItemId": 108976,
+      "InputList": [
+        101231,
+        101230,
+        110008,
+        100062
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Aku benci perkenalan diri. Kalau memang seharusnya mengenalku, kamu pasti bakal mengenalku dengan sendirinya, dan kalau tidak ... untuk apa buang-buang waktu dan tenaga? Tapi baiklah, demi sopan santun, kali ini aku ladeni kamu ... Lihatlah, di hadapanmu berdiri Marionette, Harbinger Fatui Ketujuh!"
+      },
+      {
+        "Title": "Mengobrol: Pesta Teh",
+        "Context": "Sepertinya sudah waktunya kita adakan pesta teh lagi, menurutmu bagaimana? Hmm, kira-kira siapa lagi yang lagi santai ya ...."
+      },
+      {
+        "Title": "Berbincang: Piano",
+        "Context": "Aku suka musik. Bahkan, aku otodidak main banyak alat musik. Tidak percaya? Sini deh carikan aku piano, biar kutunjukkan."
+      },
+      {
+        "Title": "Berbincang: Rapat",
+        "Context": "Dipanggil balik ke Zapolyarny Palace lagi? Ugh ... Serius deh, apa gunanya sih rapat yang tak berujung ini?!"
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "... Merepotkan saja."
+      },
+      {
+        "Title": "Setelah Hujan",
+        "Context": "Bunga-bungaku suka sekali cuaca begini."
+      },
+      {
+        "Title": "Ketika Petir Menyambar",
+        "Context": "Sistem pertahanan ... Mmhmm, beroperasi normal."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Ugh, waktunya bikin \"gadis salju\" lagi ...."
+      },
+      {
+        "Title": "Ketika Matahari Bersinar",
+        "Context": "Cuaca sempurna buat makan kue, minum kopi pahit, dan baca buku bagus."
+      },
+      {
+        "Title": "Ketika Angin Berembus",
+        "Context": "Rok ini memang tidak dirancang untuk cuaca seperti ini ... Dulu Rosalyne kok bisa tahan ya?"
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Selamat pagi. Mau secangkir kopi? Bisa bikin semangat. Hmm? Kenapa orang sepertiku butuh kopi? Hah, memangnya perempuan tidak boleh menikmati cita rasa kopi?!"
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Sudah siang? Aku harus menyiapkan camilan dulu ...."
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Kamu mencariku buat makan malam? Aku ini bukan kantin ya ... Ya sudah deh, berhubung kamu sudah di sini, biar Fagio siapkan sesuatu."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Kamu harusnya tidur. Aku lebih suka melakukan risetku di malam hari. Kondisinya lebih tenang, dan tidak ada yang menggangguku. ... Apa maksudmu?! Jadwal tidurku baik-baik saja, makasih banyak ya!"
+      },
+      {
+        "Title": "Tentang Sandrone: Nama",
+        "Context": "Apa yang salah dengan memanggilku Sandrone? Huh ...? Nama asli? Hah ... Jadi, kamu benar-benar ingin tahu? Oke, oke ... Aku masih ingat saat pertama kali aku membuka mataku. Alain baru saja selesai menciptakanku. Dia memanggilku \"Marionette\". Lalu aku coba mengucapkannya sendiri, tapi kuperhatikan ... raut wajahnya agak mengerut. Baru belakangan aku mengerti apa itu. Tidak lain tidak bukan campuran penyesalan dan rasa bersalah. Dia tidak pernah memanggilku dengan nama itu lagi. Setelah menceritakan kisah Asosiasi Narzissenkreuz dan saudarinya, Alain menutup ceritanya dengan menegaskan bahwa aku bebas memilih jalan hidupku sendiri. Bagian penting dari itu, katanya, adalah memutuskan nama sendiri. Kukatakan padanya, aku tidak masalah dengan nama yang sudah dia berikan. \"Marionette Guillotin\" ... Cukup unik sebagai nama, bukan? Namun, mungkin karena alasan yang berbeda, Tsaritsa akhirnya menjadikan \"Marionette\" sebagai gelar Harbinger-ku. Heh ... Mungkin itu yang orang-orang bilang dengan \"takdir\"."
+      },
+      {
+        "Title": "Tentang Sandrone: Tidur",
+        "Context": "Waktu pertama kali aku diciptakan, sepertinya terlalu rumit untuk menemukan tempat berbaring, jadi aku biasanya \"tidur\" di kursi. Setelah sampai di Snezhnaya, aku baru terbiasa tidur di kasur. Harus kuakui, setelah hari yang melelahkan menghadapi para \"kolega\"-ku, memakai pakaian yang nyaman dan bersembunyi di balik selimut itu sungguh menyenangkan. Ada rasa aman yang tercipta dari sistem sensorik dan sirkuit emosiku. Sekarang aku paham kenapa orang suka tidur dan bangun siang. Tapi di kasur pun aku ketemu masalah, gara-gara kunci jam mekanikku, aku jadi tidak bisa tidur telentang dan susah menjaga keseimbangan kalau miring. Satu-satunya pilihan ya tidur tengkurap."
+      },
+      {
+        "Title": "Tentang Kita: Buku Harian",
+        "Context": "Kamu sudah baca buku harianku, jadi sekarang giliranmu untuk cerita-cerita sedikit tentang rahasiamu dong? Biar adil. Hah? Buku Petualangmu? Buat apa? Kalau mau tahu aktivitasmu sehari-hari, tinggal minta Katheryne ceritakan padaku."
+      },
+      {
+        "Title": "Tentang Prune: Kepercayaan",
+        "Context": "Sekarang kita mungkin sudah jauh lebih saling mengenal, tapi begitu sampai di Snezhnaya, aturan tetap harus diikuti. Ya pokoknya, kamu sudah bertempur melawan Fatui dari awal sekali ... Siapa tahu kan di sana kamu bikin onar. Ya, aku juga tentunya akan berusaha sebaik mungkin buat tidak mempersulitmu. Harapanku, begitu juga sebaliknya kamu padaku. Saling membantu dan pengertian, itu kan yang ada di antara teman seperjalanan?"
+      },
+      {
+        "Title": "Tentang \"Stellar Linchpin\"",
+        "Context": "Pas sekali untukku, Cryo itu berguna. Misalnya, aku tidak perlu lagi khawatir kepanasan setelah perhitungan panjang."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Setelah Pulonia tiada, hidup tiba-tiba terasa jauh lebih berat untuk dijalani. Karena itu, kuciptakan Fagio, yaitu \"Facilitatrice Automatisee Generaliste Interactive et Omnitache\"-ku. Dia bisa membantuku menangani banyak hal sepele yang tidak kusukai, dia pun bisa bertarung. Hah? Kamu pikir nama lengkapnya terlalu panjang dan ... susah dipahami? Bukannya memang begitu cara semua mesin kerja diberi nama? Pulonia yang diciptakan Alain, namanya singkatan dari \"Prospective Undulation Localized Observing and Investigating Automaton\". Cara orang lain memberi nama bukannya begitu juga ya? Oh, jadi kamu kira ini keturunan ...?"
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Di luar penelitianku, terkadang aku suka merenungkan pertanyaan-pertanyaan metafisik. Sama seperti orang dari berbagai bangsa punya keyakinan masing-masing soal kematian. Aku sering dengar orang ngobrol soal \"akhirat\", \"tempat jiwa beristirahat\", dan hal-hal semacam itu ... Tapi sejak inti tubuhku rusak setelah bertarung melawan Il Dottore, sampai saat \"Stellar Linchpin\" mengaktifkan hadiah Alain dan menghidupkanku kembali, ingatanku kosong, sama sekali tidak berisi apa pun. Ke mana konstruksi mekanis, \"boneka\" pergi setelah mati? Bagaimana \"jiwa\" kami didefinisikan? Apa kami bahkan punya jiwa? Tidak ada jawabannya, jadi aku selalu kembali ke penelitianku. Tapi pengetahuan adalah fondasi dunia. Aku percaya, selama batu-batu itu terus ditumpuk, suatu hari ketinggiannya sendiri akan membawaku ke jawaban atas keraguanku."
+      },
+      {
+        "Title": "Tentang Citlali",
+        "Context": "Shaman agung itu kelihatannya baik sih. Memangnya dia sudah setua itu? Menurutku sih energinya masih banyak, meski kadang terlalu bersemangat. Maksudku? Oh, yah, baru-baru ini aku cerita padanya soal kita yang menyelam ke dalam air untuk mencari sesuatu ... dan sebelumnya, kubilang padanya kalau kamu lagi di Nod-Krai bantu Columbina mendapatkan kembali namanya ... Dia antusias sekali sampai mukanya merah padam. Aku penasaran apa itu ada hubungannya terkait umurnya ...."
+      },
+      {
+        "Title": "Tentang Lynette",
+        "Context": "Salut sih! Si kucing itu selalu berhasil menemukan titik terlemah di setiap mesin dan kemudian ... Pfft, rusak. Kuharap kakaknya mau ngomong sesuatu padanya. *huff* Sudahlah ... Kurasa itu memang bakat sih. Mungkin aku harus memintanya membantu uji ketahanan ciptaanku di masa depan. Kalau mesinku tidak bisa bertahan dari rasa ingin tahunya, Bagaimana bisa bertahan di medan perang?"
+      },
+      {
+        "Title": "Tentang Alain Guillotin",
+        "Context": "Setelah Alain meninggal, kupasangkan nisan untuknya. Waktu masih hidup, dia pernah memintaku yang menulis epitafnya. Jadi ya sudah, kutuliskan. Mudah saja sih, tinggal catat semua perbuatannya, lalu pilih kutipan yang mencerminkan cara pikirnya. Aku pilih, \"Sayang sekali, tapi inilah akhirnya.\" Itu kalimat yang sering dia ucapkan. Agak pesimis ya terdengarnya? Hah, ya mungkin kalau buat orang yang tidak mengenalnya. Tapi dia selalu mengatakannya dengan senyum. Bukan pasrah, dia tidak menyerah. Ironisnya, itu hampir seperti ekspresi kepuasan. Seperti memecahkan soal matematika. Kematian itu cuma tanda sama dengan yang hening, dan dia sudah pindah ke sisi lain dari persamaan itu."
+      },
+      {
+        "Title": "Tentang Tsaritsa",
+        "Context": "Aku sendiri masih terusik dengan kesalahan-kesalahan di hatiku, tapi Yang Mulia Tsaritsa ... Bagaimana caranya dia bisa membekukan emosinya secara sempurna seperti itu?"
+      },
+      {
+        "Title": "Tentang The Jester",
+        "Context": "Selalu memerintah ... Entah kenapa, dunia yang tercermin di matanya terasa lebih jauh dibanding milik siapa pun. Pertama kali melihatnya, aku langsung tahu dunia ini sudah mengambil terlalu banyak darinya."
+      },
+      {
+        "Title": "Tentang The Captain",
+        "Context": "Semua orang tahu Il Capitano tidak suka melepas topengnya, tapi itu tidak menghalanginya untuk menghabiskan tehnya setiap kali kami kumpul."
+      },
+      {
+        "Title": "Tentang The Doctor",
+        "Context": "Mau tutup telinga dulu tidak? Takutnya aku tidak bisa mengendalikan emosiku."
+      },
+      {
+        "Title": "Tentang Columbina: Menyebalkan",
+        "Context": "Columbina selalu membuatku frustrasi. Jujur saja, sampai sekarang pun masih begitu. Kukira hidup akan lebih tenang tanpanya. Siapa sangka aku malah jadi lebih kesal waktu dia tidak ada! Ugh, menyebalkan sekali!"
+      },
+      {
+        "Title": "Tentang Columbina: Kehidupan",
+        "Context": "Sekarang dia hidup bahagia sekali. Ada keluarga dan teman-teman di sisinya, dan bisa jalan-jalan kapan pun dia mau ... Kok aku tidak seberuntung itu sih? Sudah ah, aku sih tidak iri. Semua juga tahu dia memang layak mendapatkan kebahagiaan itu."
+      },
+      {
+        "Title": "Tentang Arlecchino",
+        "Context": "Arlecchino adalah orang yang tepat janji. Dia tegas dan dapat dipercaya untuk menyelesaikan urusan. Murni dari sudut pandang profesional, akan menyenangkan kalau semua kolegaku sudi meneladaninya."
+      },
+      {
+        "Title": "Tentang The Rooster",
+        "Context": "Dia ketua Snezhnograd Veche, tapi kadang lebih terasa seperti ... seorang pengawas. Setiap suara yang dijatuhkan di Dewan Evaluasi memengaruhi kepentingan banyak faksi. Mendamaikan begitu banyak kepentingan yang bersaing hanya bisa dilakukan oleh operator yang paling cerdik. Dari sudut pandang ini, dia jauh lebih menakutkan daripada orang lain."
+      },
+      {
+        "Title": "Tentang Regrator",
+        "Context": "Harusnya hubungan dan urusan dia dengan Dottore itu sudah diselidiki dari awal, kan? Kenapa dana risetku butuh waktu sepuluh kali lebih lama untuk disetujui dibanding si gila Dottore itu? Aneh dong! Bahkan aku sampai tanya langsung ke Pantalone! Dia menatapku dengan senyum bodoh itu dan bilang, \"Oh, astaga, apa Nona Sandrone kita ini akhirnya mulai tertarik dengan urusan keuangan? Kalau mau, bisa kurekomendasikan beberapa buku. Mungkin bisa mulai dari '100 Frasa untuk Mengajarkanmu Tata Krama'.\""
+      },
+      {
+        "Title": "Tentang Rosalyne",
+        "Context": "Dia hidup untuk dirinya sendiri. Dia mencintai dan membenci dengan caranya sendiri. Cara hidup inilah yang pada akhirnya membakar nyawanya. Tapi sampai detik-detik terakhir, warna kobaran api itu, tetaplah unik."
+      },
+      {
+        "Title": "Tentang Childe",
+        "Context": "Satu orang kolega lagi yang ... merepotkan . Dia bisa saja menghabiskan hari-harinya bersama saudara-saudarinya dengan bahagia. Kenapa harus memaksakan diri jadi Harbinger pula? Dan kapan dia akan sadar kalau tidak semua orang selalu ingin berkelahi?"
+      },
+      {
+        "Title": "Mengenal Sandrone: I",
+        "Context": "Hmm? Aku tidak biasa cerita soal hidupku ke sembarang orang. Tapi kalau memang mau ngobrol, setidaknya tunggu cuacanya enak dulu dong, sambil minum teh dan makan kue?"
+      },
+      {
+        "Title": "Mengenal Sandrone: II",
+        "Context": "Kolega-kolegaku di Fatui mungkin bukan orang-orang yang akan kupilih sendiri, tapi tak bisa dipungkiri kalau ini tempat yang bagus untuk penelitian. Tsaritsa bermurah hati soal sumber daya dan pendanaan. Kalau dihitung-hitung, hasilnya masih menguntungkanku."
+      },
+      {
+        "Title": "Mengenal Sandrone: III",
+        "Context": "Aku tidak pernah keberatan kalau Alain menciptakanku supaya mirip dengan saudarinya, Mary-Ann, atau kalau dia menamaiku \"Marionette\". Menurutku, semua ini cuma konsekuensi dari kelahiranku. Memangnya ada masalah apa kalau kita mirip dengan orang tua kita, atau kalau kita mewarisi nama keluarga kita?"
+      },
+      {
+        "Title": "Mengenal Sandrone: IV",
+        "Context": "Aku suka matematika. Dunia yang dibangun di atas rumus dan logika punya semacam keindahan yang tertambat pada kepastian. Aku juga suka musik, yang dalam banyak aspek juga sama. Dulu kupikir bermain musik harus dilakukan dengan pendekatan seperti memecahkan masalah matematika, menyeimbangkan nada dan ritme, tanpa ruang untuk penyimpangan. Belakangan, kusadari kalau beberapa cacat kecil, bahkan kesalahan saat penampilan justru bisa membuat musik terasa lebih indah. Jeda sedikit di sini, improvisasi mendadak di sana ... Ketidaktepatan kecil seperti itulah tempat bagi emosi untuk lahir. Getaran dari hati si pemain, ya gitu deh."
+      },
+      {
+        "Title": "Mengenal Sandrone: V",
+        "Context": "Apa yang diberikan dunia, akan diambil kembali oleh dunia. Hidup itu soal mendapatkan dan kehilangan, memungut apa yang tidak bisa dirampas dunia, memegangnya di tengah kehilangan dan perpisahan, lalu melangkah maju. Kalau seseorang hanya ingin \"hidup\", apa itu keinginan yang terlalu kecil? Seperti halnya seseorang yang menyelamatkan dunia semata-mata untuk \"menyelamatkan dirinya sendiri\" ... Apa alasan seperti itu terlalu sederhana? Hidup, merasakan, menyaksikan. Dan suatu hari nanti, mungkin hal-hal yang tidak bisa diambil dunia itu akan bertumpuk cukup banyak hingga mampu mengguncangnya hingga ke akarnya."
+      },
+      {
+        "Title": "Hobi Sandrone",
+        "Context": "Selain musik, mesin, dan matematika, aku juga suka berkebun ... kalau kondisinya memungkinkan. Aku suka mendokumentasikan prosesnya saat tanaman-tanamanku tumbuh dan berkembang. Kebanyakan tidak butuh banyak campur tangan. Mereka mandiri dan tangguh. Dulu kupikir aku juga begitu."
+      },
+      {
+        "Title": "Kekhawatiran Sandrone",
+        "Context": "Setiap kali aku lihat hewan berbulu yang menggemaskan, aku selalu ingin meraih dan memeluknya ... tapi kebanyakan hewan tidak suka mesin, jadi mereka selalu lari kalau melihatku. Hei, jangan menatapku begitu dong! Aku bukannya mau dikasihani. Memangnya kenapa kalau aku tidak bisa memeluk mereka? Ini bukan ... ini bukan masalah besar kok ...."
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Berkat tubuh ini, aku tidak pernah alergi atau gangguan pencernaan. Jadi buatku, makanan itu murni soal kesukaan. Tapi kalau harus memilih ... Hmm, sepertinya aku paling suka kue-kue kecil yang imut. Cuma dari melihat bentuknya yang cantik saja, rasanya hati sudah senang. Benar-benar kombo yang jleb deh buat mata dan jiwa."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Aku tidak suka makanan berlemak dan pedas. Bukan soal rasanya sih, tapi aromanya itu loh, susah sekali dihilangkan dari baju. Sangat tidak elegan buat seorang perempuan."
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Hmph ... Kulakukan ini sebagai kebaikanku, jadi ceritakan bagaimana kamu mempersiapkan ini? Mungkin aku bisa kasih beberapa saran. Sayang sekali kan kalau kesempatan ini terlewat begitu saja."
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Oh? Rasanya enak juga. Nanti kalau kita minum teh bareng lagi, giliran aku yang siapkan hadiah untukmu ya."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Fagio, bersihkan ini dong tolong."
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Hmph. Nih, ambil ini. Biasanya aku tidak kasih ini ke siapa-siapa, tapi hari ini spesial. Ini menandai hari lahirmu ke dunia. Aku mengundang Arlecchino dan Columbina, serta beberapa teman yang sama-sama kita kenal. Aku bahkan sudah membuat kue spesial nih ... tunggu ya."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Perhitungan sedang berlangsung."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Memasukkan variabel."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Kemajuannya lancar."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Men-dekonstruksi tatanan segala sesuatu. Kamu kagum sama aku, kan? Hahaha ...."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Istirahat dulu."
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Ayo, cepat."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Membosankan."
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Hmph."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Hehe ...."
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Lebih cepat lagi."
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Ayo uji hipotesisku."
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Hiburan waktu minum teh."
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Hmph, lucu."
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Hah? Kamu sibuk seharian cuma untuk ini?"
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Jadi, isinya apa? A-Aku tidak penasaran!"
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Kamu sampai repot-repot demi ini ya? Nah, sekarang ini milikmu."
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Fagio! Kamu masih sanggup lanjut?"
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "Kita belum tahu siapa pemenangnya ...."
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Setiap pertarungan punya kejutannya sendiri!"
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Hei! Kamu baik-baik saja?"
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Hati-hati! Aku cuma tahu cara memperbaiki mesin!"
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Apa perhitunganku ... meleset ...?"
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Pesta teh ini ... sudah berakhir ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Sayang sekali ... tapi inilah akhirnya ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Jangan sentuh."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Kurang ajar."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Awas ya kamu ...!"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Cari mati ya?"
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Waktunya memverifikasi rumusku."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Biar kubantu."
+      },
+      {
+        "Title": "Bergabung ke Party: III",
+        "Context": "Ayo pergi, Fagio."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Alain Guillotin akan memanggilnya \"Marionette\". Ini mencerminkan niat awal ia menciptakannya: seorang anggota keluarga yang tak bisa dilupakannya dan keinginan kekanak-kanakannya. Namun begitu dia membuka mata dan memanggil \"Alain?\", dia pun memutuskan untuk tidak lagi memanggilnya seperti itu. Ini tidak benar. Membebankan kehidupan adik perempuannya sendiri, membebankan kesalahannya sendiri pada sosok kecil yang tersusun dari roda gigi dan mesin ini adalah hal yang tidak benar. Dia seharusnya memiliki kehidupannya sendiri, seperti halnya setiap makhluk yang lahir ke dunia ini.\nTapi kadang-kadang ia masih diam-diam memanggilnya seperti itu di dalam hati, karena ia memiliki ketulusan, kebahagiaan, dan kebaikan yang sesuai dengan nama itu: \"Marionette\".\nOrang-orang di Snezhnaya biasanya panggil dia \"Sang Nona\" atau \"Nona Marionette\". Kebanyakan dari mereka berbicara dengan nada penuh ketakutan terhadap wibawa sang Harbinger, namun ada pula yang mengucapkannya dengan rasa hormat dan pengakuan atas gaya kerjanya: \"Nona Marionette yang tegas\", \"Nona Marionette yang tenang dan dapat diandalkan\" ....\nRekan kerja dan teman-temannya biasanya memanggilnya \"Sandrone\". Awalnya ini cuma nama samaran, tapi lama-kelamaan, nama itu berubah menjadi panggilan yang menyenangkan di mulut orang-orang terdekatnya. Seolah namanya menyerap keharuman kue dan teh sore hari, beserta suara halaman buku yang dibuka dengan anggun dan irama merdu putaran pegas jam ... Tentu saja, kadang-kadang mungkin terdengar keluhan tidak sabar sang nona dan makian kasarnya yang mengabaikan tata krama.\n\"Kamu lebih suka dipanggil apa?\" tanya seorang temannya.\n\"Terserah. Aku tidak peduli.\" Dia berkata dengan santai: \"Aku selalu merasa nama panggilan itu ada hanya demi kemudahan orang lain. Bagaimana orang mau memanggilku, itu tergantung pada bagian mana dari diriku yang mereka pilih untuk terima.\"\nTemannya menatapnya seakan ingin mengatakan \"ucapanmu susah buat dimengerti\".\n\"Pokoknya, maksudku adalah, mau orang memanggilku dengan sebutan apa pun, aku tetaplah aku. Aku tidak akan berubah hanya gara-gara mereka panggil aku dengan sebutan tertentu. Kalau aku sendiri saja tidak peduli, ya terserah mereka mau panggil aku dengan cara yang buat mereka nyaman. Tapi soal aku bakal menjawab panggilan itu atau tidak, heheh, itu sudah urusan lain lagi.\""
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Dia masih mengingat dengan jelas saat dirinya dilahirkan.\nDi tengah kegelapan, dia membuka mata dan mulai mengenali dunia di sekitarnya. Dirinya sedang duduk di sebuah kursi, dan di hadapannya berdiri seorang pria tua yang tampak sudah berusia lanjut. Pria itu memperkenalkan dirinya sebagai Alain Guillotin.\nDia mengulang nama itu pelan, lalu bertanya, \"Kalau begitu, siapa namaku?\". Pria tua di hadapannya terdiam cukup lama, seolah belum pernah memikirkan pertanyaan itu sebelumnya. Namun pada akhirnya, dia membuka mulut dengan ragu. Dengan raut yang saat itu masih belum mampu dia mengerti, pria tua itu berbisik \"Marionette\" ....\n\"Marionette\". Dia mengulangi nama itu sekali lagi.\nRaut wajah pria tua itu menjadi semakin rumit. Aneh sekali, pikirnya. Mengapa dia hampir bisa mengenali semua benda di hadapannya, tapi tidak tahu nama untuk ekspresi semacam itu? Mungkin sebaiknya masukkan dalam daftar hal yang perlu dicari jawabannya.\nDan daftar itu masih sangat panjang. Misalnya, kenapa dia ada di sini? Bagaimana dia dilahirkan? Apa arti kelahirannya? Atau bagaimana cara memotong kentang untuk makan malam agar bentuknya serapi mungkin? Bagaimana cara membuat tanaman pot di ambang jendela mekar seindah mungkin ...?\nBeberapa pertanyaan dapat dijawab dengan mudah. Kebanyakan hanya membutuhkan sedikit pembelajaran dan waktu untuk dipraktikkan. Namun ada pula pertanyaan yang jauh lebih mendalam, yang bahkan tidak bisa dijawab si pria tua yang menciptakannya.\nSebagian besar waktunya dihabiskan bersama pria tua bernama Alain Guillotin itu. Dan dia menyadari satu hal. Dia tidak suka pria tua itu. Gerakannya lamban, pekerjaannya berantakan, dia sering meninggalkan naskah dan peralatan di mana-mana, dan sesekali suka memberikan buku catatan yang tidak berguna padanya.\n\"Hidupmu benar-benar kacau balau,\" ungkapnya terus terang. \"Barang yang sudah dipakai dibiarkan begitu saja, naskah yang kamu coret-coret berantakan ada di mana-mana. Bahkan awal dan akhir rumus sering ditulis di dua kertas yang berbeda, lalu diletakkan di dua sisi ruangan yang berbeda ....\"\nMendengar rentetan keluhannya yang blak-blakan, pria tua di hadapannya malah tersenyum. Seolah-olah apa yang baru saja dia katakan adalah pujian. \"Haha ... Dulu Mary-Ann juga sering memarahiku soal itu.\"\nDia tidak memahaminya.\nNamun seiring berjalannya waktu, dia menyadari ada banyak hal dari pria tua itu yang dia sukai.\nDia menyukai raut wajahnya saat tenggelam dalam pekerjaannya, juga suara gesekan pena dengan kertas saat dia menulis. Dia menyukai penjelasannya tentang prinsip-prinsip mekanika, dan suka berdiskusi dengannya mengenai teka-teki matematika dan fisika di meja kerja. Dia menyukai cerita-cerita yang dibagikan pria itu di depan nyala perapian. Tentang Fontaine di masa lalu, tentang Narzissenkreuz ... Dan dia menyukai senyum lembut yang selalu menghiasi wajah pria tua itu saat menceritakan semua itu.\nDia menyadari bahwa, meski orang tua ini agak berantakan dan tidak terlalu mementingkan detail, dia sangat baik hati, jujur, dan penuh kebijaksanaan.\nLama-lama, bagian yang membuatnya suka terhadap orang tua itu jauh lebih banyak daripada bagian yang membuatnya kesal. Ini membuatnya mulai merefleksikan keputusan-keputusan yang diambilnya sebelumnya.\nAlain cukup terkejut saat mendapati dia mulai menulis di buku catatannya.\nKelihatan sekali kalau dia ingin sekali bertanya kenapa, tapi dia takut pertanyaannya malah membuatnya berubah pikiran, jadi dia tahan-tahan aja rasa penasarannya.\n\"Kurasa aku membencimu,\" kata Marionette terlebih dulu.\nTerlihat jelas kalau dia merasa sedikit terluka.\n\"Tapi aku sadar sendiri, ternyata aku salah. Itu penilaian yang kubuat waktu logika emosiku dan landasan rasionalitas objektifku masih belum sempurna.\" Dia melanjutkan penjelasannya: \"Sekarang aku rasa kamu itu 'ayah' yang baik sekali.\"\nOrang itu terdiam sejenak. Lalu tersenyum dengan ekspresi yang tampak sedikit bahagia bercampur emosi lainnya.\nMungkin dia ... mau menangis? Marionette sedang perlahan belajar membaca ekspresi-ekspresi seperti itu. Tapi dia belum mengerti alasannya.\nApa pun itu, dia mengambil buku catatannya, dan mulai menulis."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Dia masih ingat dengan jelas tentang kematian Alain.\nMenjelang akhir hidupnya, Alain sudah tidak bisa bangun dari tempat tidur, jadi dialah yang mengurus semua kebutuhan sehari-harinya. Awalnya, Alain masih bisa menjawab panggilannya, berkomunikasi dengannya, mendengarkan cerita tentang hal-hal baru yang dilihat dan didengarnya saat belanja. Tapi lama-lama, dia hanya ingin berbaring sendiri di tempat tidur dengan tenang.\nIa menemani Alain sambil membaca buku, sesekali terdengar suara napas yang terasa begitu panjang dari sisi ranjang di sebelahnya. Seolah-olah Alain tersedak oleh napasnya sendiri, udara itu seperti mencekik tenggorokannya.\nSaat Alain menciptakannya, dia memberikan indra peraba, indra perasa, bahkan kemampuan bernapas. Dia bisa mengatur suhu internal tubuhnya melalui pernapasan, seperti semacam sistem pendingin. Tapi di momen-momen terakhir hidupnya sendiri, dunia justru merampas semua itu darinya satu per satu. Pertama indra perasa, lalu indra peraba, dan yang terakhir, napasnya.\nBeberapa kali, dia merasa Alain tidak akan bisa bertahan. Ini mungkin napas terakhirnya, pikirnya. Tapi dia tetap bertahan. Lagi dan lagi.\nSuatu kali, dia menoleh ke arah tempat tidur dan mendapati Alain membuka matanya, menatapnya.\n\"Kukira kali ini berhasil,\" kata Alain.\n\"Berhasil apa?\"\n\"Kukira aku sudah berhasil pergi ke tempat lain,\" kata Alain sambil tersenyum, \"Aku sedang berlatih bagaimana caranya mati.\"\nDia ingin meninggal dalam tidur. Begitu Alain menjelaskan padanya. Kalau bisa, \"mimpi indah\", mimpi indah dengan langit cerah, langit Fontaine. Dia berbaring di padang rumput, bersama teman-temannya, bersama adik perempuannya.\n\"Apa aku ada dalam mimpi itu?\" tanyanya.\n\"Oh, tidak, tidak ada.\" jawabnya: \"Kamu bukan bagian dari dunia tempatku pergi, anakku. Di sini masih ada hidup yang sangat panjang menantikanmu.\"\n\"Kamu mau pergi ke dunia itu?\"\nAlain menghela napas panjang.\n\"Ini bukan soal mau atau tidak mau bagiku.\" Dia menoleh ke langit-langit, seolah di sana ada jalan menuju dunia lain, \"Kematian adalah buah yang hanya bisa dicicipi sekali seumur hidup. Tak ada yang tahu bagaimana rasa sebenarnya.\"\n\"Kedengarannya tidak enak sekali.\"\n\"Haha ... mungkin saja.\" Alain tertawa geli, dia tidak tahu apa yang lucu dengan ucapannya tadi.\n\"Tapi yang sering kali menderita bukan orang yang mati,\" lanjut Alain: \"yang menderita adalah orang yang ditinggalkan.\"\nUcapan itu bukan sekadar terdengar seperti ramalan, melainkan lebih seperti suatu pencerahan. Tapi bagaimanapun juga, Alain benar.\nSetelah Alain meninggal, dia tetap keluar untuk belanja, meski barang yang dibeli sudah tidak digunakan oleh siapa pun. Dia tetap merawat taman, tetap memperbaiki Pulonia, meski dia sendiri tidak tahu untuk apa.\nMungkin dia belum menerima kenyataan ini, atau mungkin dia memang tidak tahu lagi apa yang harus dilakukannya. Begitu pikirnya. Dan itu membuatnya kesal.\n\"Lakukan apa yang ingin kamu lakukan, cari keinginanmu sendiri, anakku.\"\nTiba-tiba, dia teringat kata-kata terakhir Alain yang diucapkan untuknya sebelum meninggal.\nAku tidak punya hal yang ingin kulakukan, tidak punya keinginan. Katanya pada diri sendiri.\nTapi aku harus mencarinya. Dia berpikir.\n\"Baiklah, Alain.\" katanya pada ranjang yang kosong, \"Sepertinya sekarang giliranku.\"\n\"Sekarang giliranku belajar cara untuk tetap hidup.\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Dia tidak pernah menyangka dirinya sendiri akan tinggal selama itu di Snezhnaya. Dia juga tidak pernah menyangka ada tempat sedingin ini di dunia, sampai-sampai otaknya perlu dicairkan dulu biar bisa berpikir jernih!\nKehidupan di Fatui terasa ringan baginya, bahkan bisa dibilang menyenangkan. Tidak perlu belanja sendiri ke pasar, tidak perlu mengurus kebutuhan orang lain, malah di mana-mana ada kemudahan yang menjadi hak seorang Harbinger. Tugas yang diberikan Tsaritsa pun sangat mudah bagi seorang jenius seperti dirinya.\nSuatu hari, ketika dia menuliskan tanggal di buku hariannya, dia terkejut menemukan kalau waktu yang dia habiskan di sini ternyata sudah begitu mudah melampaui waktu yang pernah dilewatkannya bersama Alain di Fontaine.\nRasanya seperti sudah jadi rumah kedua bagi dirinya sendiri. Begitu pikirnya.\nLalu, sebenarnya mana yang jadi rumahnya sendiri? tanyanya pada diri sendiri. Apa itu \"rumah\"?\nTempat di mana dirinya dibutuhkan? Lumayan cocok. Pekerjaannya di Fatui memang tidak bisa digantikan, atau lebih tepatnya, sulit untuk digantikan. Tsaritsa pun jelas membutuhkannya.\nAtau tempat yang nyaman untuk ditinggali? Snezhnaya juga cukup nyaman, dan peralatan penelitian yang dibutuhkannya pun lengkap sekali. Sesekali, dia masih bisa pergi menonton opera.\nAtau tempat di mana ada \"keluarga\"? Keluarga ... yang dia punya sekarang hanyalah Pulonia. Apakah tempat Pulonia berada itu yang disebut rumah? Kalau begitu, kalau dia pergi ke bangsa lain bersama Pulonia, misalnya Mondstadt, apakah Mondstadt akan menjadi rumah mereka?\nPada akhirnya, akar masalahnya tetap sama: Dia tidak tahu apa yang ingin dia lakukan dan apa keinginannya sendiri. Dia sadar akan hal itu. Dia hanya ikut arus saja, meneruskan kebiasaan \"merasa dibutuhkan\" itu.\nDia merasa dirinya yang seperti itu sangat menyedihkan. Tapi tidak tahu cara mengubahnya. Menyebalkan.\nKalau harus mengungkit hal yang menyebalkan dari Snezhnaya, mungkin itu karena terlalu banyak rekan kerja yang tidak bisa dia tolerir dan benci.\nAwalnya dia mengamati perasaannya sendiri dengan penuh kehati-hatian. Dia khawatir, seperti saat dia awalnya membenci Alain lalu akhirnya menemukan ada bagian dari dirinya yang ternyata bisa disukai olehnya, hal yang sama mungkin terjadi pada rekan-rekan kerjanya.\nTapi tidak bisa. Dia menemukan bahwa ada orang yang meski waktu sudah lama berlalu, seberapa pun objektifnya dia dalam mencatat, dia tetap tidak bisa menahan rasa tidak sukanya pada mereka. Berbeda dengan kasus Alain, bagian yang tidak dia sukai dari orang-orang ini jauh lebih banyak daripada yang dia sukai. Bahkan, tidak ada bagian yang dia sukai sama sekali.\nDia juga tidak tahu cara mengubah situasi ini. Dia tidak ingin mengubah orang lain, apalagi mengubah dirinya sendiri. Ah, menyebalkan!\nMungkin dirinya masih dalam proses belajar, masih berlatih bagaimana cara menjalani hidup. Mungkin referensi yang bisa didapatnya tidak cukup, pengetahuannya tidak cukup. Pengetahuan adalah fondasi dunia, begitu yang sering didengarnya dari Alain, dan begitu pula yang sering dikatakannya pada diri sendiri.\nSemoga dalam proses menumpuk batu demi batu di masa depan, dia bisa menemukan jawaban atas masalah-masalah itu. Tidak perlu buru-buru, dia punya banyak waktu.\nSoal sekarang ... katanya Tsaritsa merekrut Harbinger baru, yang kerjanya seharian nyanyi-nyanyi di taman? Hmm, agak penasaran juga, coba lihat ah ...."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Tidak masuk akal!!\nMasa ada orang begitu di dunia ini?! Mengikuti orang terus tanpa alasan, datang ke depan pintunya tengah malam nyanyi-nyanyi tanpa alasan, menyerobot masuk ke waktu minum teh sore yang harusnya cuma buat sendiri tanpa alasan juga!\nSetelah diberi peringatan, bahkan dibalas dengan cara meletakkan pegas yang sangat berat di punggungnya, dia sama sekali tidak menunjukkan rasa menyesal, malah semakin lengket padanya! Memangnya dia tidak paham soal jarak sosial dan privasi orang lain ya? Katanya dia benar-benar menjalani hidupnya selama seminggu sambil membawa pegas berat itu? Ini maksudnya apa? Deklarasi perang? Biar semua orang tahu kalau dia orang yang mempermalukannya? Menyebalkan, kalau dia berani datang lagi mengganggu waktu minum tehnya, dia bakal dihidangkan minuman paling tidak enak sedunia!\nNamun ketika Columbina tanpa ragu-ragu meminum minuman itu dan mengeluarkan suara erangan kecil, Sandrone tiba-tiba melunak.\nApa-apaan ini? Kok jadinya kayak aku yang menindasnya?! Apa ini orang tidak punya rasa curiga sedikit pun kalau orang lain bisa menyakiti dia? Bahkan sedetik pun tidak bisa curiga? Seberapa polosnya dia?!\nDengan perasaan bersalah yang campur aduk dan hati nurani yang merasa dikecam, Sandrone kembali menyajikan kudapan teh simpanannya. Melihat senyum yang kembali muncul di wajah Columbina, Sandrone tiba-tiba merasa tidak enak lagi. Ah! Menyebalkan!\nTerutama ketika beberapa saat kemudian, dia langsung tidur siang di ruangannya tanpa sungkan, rasa kesal itu semakin menguat.\n\"Kamu tidak punya ruangan sendiri?!\" tanyanya dengan nada menuntut.\n\"Ada. Tapi di sini lebih tenang.\" jawabnya dengan santai, seolah Sandronelah yang aneh dengan bertanya begitu.\nTunggu saja. Sandrone bertekad dalam hati. Lain kali, lain kali! Aku pasti akan mengusir orang ini! Kalau dia tidak pergi, kasur sekalian orangnya akan kulempar ke luar! Rugi satu kasur, tapi mendapatkan ruang pribadi yang tenang, transaksi yang lumayan!\nTapi saat dia melihat Columbina berbaring di tempat tidurnya lagi, hatinya kembali melunak. Karena dalam tidurnya, Columbina seperti sedang menangis.\nApaan sih? Kenapa pilih waktu kayak gini buat kelihatan menyedihkan? Biasanya kok kayaknya tidak punya perasaan, gampang percaya orang, polos dan baik hati, seolah-olah kamu yakin semua orang di sekitarmu itu baik dan dunia ini benar-benar indah ....\nAgak mirip ....\nAgak mirip dirinya sendiri di masa lalu. Sebuah suara dalam hati berkata.\nDia cepat-cepat menggelengkan kepalanya kuat-kuat. Sama sekali tidak mirip! Dia sibuk membantah. Setidaknya aku lebih pintar dari dia!\nKetika Columbina terbangun dan mendapati dirinya sudah diselimuti, dia tersenyum ke arah Sandrone.\n\"Bukan aku,\" dia berbohong ringan, \"Pulonia yang menyelimutimu.\"\nKenapa harus berbohong seperti itu? Dia sendiri tidak mengerti. Yang dia tahu, saat itu dia memang tidak ingin mengakuinya. Sama sekali tidak mau.\n\"Kalau begitu, terima kasih, Pulonia.\" Ucapnya sungguh-sungguh kepada Pulonia.\n\"Kamu mimpi apa?\" Rasa ingin tahunya menang.\nSetelah hening sejenak, Columbina mulai bercerita tentang masa lalunya. Hanya karena dia bertanya, Columbina pun bercerita. Begitu saja, tanpa basa-basi dan tanpa ancang-ancang sedikit pun.\nSetelah mendengar itu semua, Sandrone semakin yakin dengan pikirannya sendiri. Ya, mereka berdua benar-benar berbeda.\nDunia merenggut apa yang pernah dimiliki Sandrone. Tapi Columbina, dia tidak pernah benar-benar memilikinya. Sama sekali berbeda.\n\"Itu alasan kamu sering memandangi bulan di halaman setiap malam?\"\nDia mengangguk.\n\"... Kalau kamu mau, hari ini Pulonia bisa menemanimu di taman.\"\n\"Benar?\" tanya orang itu.\nSandrone tidak menjawab.\n\"Terima kasih, Sandrone.\"\n\"Hah, terima kasih deh sama Pulonia.\" ujarnya dengan sedikit jengkel, \"Sekarang, keluar dari ruanganku. Bersama Pulonia.\"\nItu adalah pertama kalinya Sandrone tidur tanpa ditemani Pulonia sejak kematian Alain. Tapi entah kenapa, dia justru tidur dengan tenang. Seolah-olah kalau Pulonia berhasil menghibur orang itu, sesuatu di dalam diri Sandrone sendiri pun ikut terobati. Dia tidak bisa menjelaskannya, tapi dia merasa memang begitulah seharusnya.\nTapi keesokan harinya, ketika Pulonia muncul di rapat Fatui dengan mahkota bunga di kepala dan bunga-bunga menancap di sekujur tubuhnya, Sandrone kembali menggertakkan gigi sambil bersumpah dalam hati, dia tidak akan pernah lagi melunak pada orang yang tidak tahu sopan santun ini!\n\"Co-lum-bi-na!!\"\nJadi pada hari itu, selama Sandrone mencabut bunga-bunga Pulonia yang mengganggu, Columbina diperintahkan untuk diam saja berdiri di depan pintu kamar Sandrone. Di lehernya digantungkan sebuah papan: \"Aku anak nakal yang suka jahilin barang orang lain\".\nTapi entah kenapa, dia kelihatan senang juga."
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "Dengan bantuan \"hadiah\" Alain, dia mendapatkan kelahiran keduanya.\nDia selalu merasa dirinya cerdas, setidaknya lebih cerdas dari kebanyakan orang. Tapi baru sekarang dia menyadari kalau dirinya sendiri sebenarnya jauh lebih bodoh dari yang dibayangkannya.\nSeharusnya dia sudah melakukan ini dari dulu. Begitu katanya pada diri sendiri. Seharusnya dari dulu dia menerima perasaannya sendiri, memahami arti kehilangan dan apa yang tersisa. Seharusnya dari dulu dia lebih sering mengucapkan terima kasih kepada teman-temannya, dan memperbanyak teman. Seharusnya dia sudah kembali ke Fontaine, berziarah ke makam Alain, dan menceritakan semua yang dia alami setelah kepergiannya ....\nTidak ada kata terlambat untuk memulai, kata Columbina padanya. Kalimat itu pun dulunya dipelajari Columbina dari orang lain.\nDia mendengus kecil, sedikit tidak terima. Tidak disangka ada masa-masa Columbina yang mengajarinya cara menjalani hidup. Tapi dia tetap menerimanya. Dia mengakui kalau apa yang dikatakan Columbina tidak salah.\nSetelah mendengar kabar kebangkitan Sandrone, pihak Snezhnaya pun mengirimkan ucapan bersimpati dan perhatian, lalu dengan \"murah hati\" mengizinkannya menikmati \"cuti berkabung\" untuk posisinya. Adapun keputusan Sandrone yang ingin tetap tinggal di Fatui, Tsaritsa pun tidak banyak bicara dan langsung mengizinkannya.\nDia tahu pasti ada orang-orang yang tidak senang, karena ini berarti kekuasaan dan keuntungan yang sudah dibagi-bagi bersamaan dengan kematiannya itu kini lenyap begitu saja.\nTapi dia tidak peduli soal omongan orang, sekarang dia mau hidup sesuka hatinya, ini adalah kehidupan keduanya. Harinya harus dijalani lebih bebas dari sebelumnya, dan kalau lagi kesal, makiannya juga harus lebih keras dari dulu. Heh, memang mau apa? Masa seseorang itu benar-benar mengira Adventurers' Guild beserta para Katheryne akhirnya sepenuhnya ada di bawah perintahnya? Tidak mungkin.\nTentu saja, tidak selalu seenak itu. Setiap kali menerima notifikasi rapat Fatui, dia tetap saja mendelik seperti dulu, mengumpat dengan kesal.\n\"Huff, kenapa banyak banget sih rapat yang harus kuikuti?! Menyebalkan!\""
+      },
+      {
+        "Title": "Pulonia",
+        "Context": "Saat pertama kali Sandrone melihatnya, sosok besar itu langsung menjulurkan tangan padanya.\nPerilaku meniru manusia yang sederhana. Begitu penjelasan Alain. Pulonia pada dasarnya adalah mesin aritmetika, sebuah mekanisme untuk mengamati peristiwa di masa depan. Namun dia tetap berharap Pulonia bisa memiliki penampilan yang sedikit menyerupai manusia, dia tidak ingin orang lain memandangnya sebagai mesin dingin dan tanpa perasaan. Sama seperti Sandrone, Pulonia juga unik dan tiada duanya.\nDia senang punya anggota keluarga baru. Dia bakal mengajaknya jalan-jalan, mengajarinya mengenali bunga dan burung. Tapi Pulonia belajar lambat sekali, jauh lebih lambat darinya. Alain menjelaskan bahwa itu karena daya komputasi inti Pulonia semuanya digunakan untuk menghitung masa depan.\nKenapa harus memperhitungkan masa depan, tanyanya.\nAlain mengatakan sesuatu yang baru bisa Sandrone pahami jauh di kemudian hari. Tapi saat itu, dia hanya merasa Pulonia itu cukup hebat, bahkan sedikit iri padanya. Kenapa dia sendiri tidak bisa menghitung sesuatu yang sehebat itu?\nTapi si raksasa hebat ini sama seperti Alain, juga butuh dirawat. Dia sering macet di tengah jalan waktu jalan-jalan, dan menyiramkan air ke dirinya sendiri waktu menyiram bunga. Karena itu, tiap ada waktu luang, dia terpaksa belajar dan mengkalibrasi Pulonia sendiri, rasanya seperti merawat adik sendiri. Begitu juga setelah Alain meninggal.\nHari itu, sepulang dari pemakaman Alain, Sandrone berdiri melamun di ruangan, tidak bergerak seperti mainan yang rusak. Jas hujannya belum dilepas, pintu masih terbuka, dia tidak bisa berbuat apa-apa.\nSaat itu, dia menyadari Pulonia mendekat dengan langkah-langkah gontai, persis seperti saat pertama kali mereka bertemu, dan menjulurkan tangan kepadanya.\nDia menatap tangan itu. Tangan yang begitu besar, yang menopang masa depan seluruh dunia. Dan mulai sekarang, tangan itu juga harus menopang masa lalunya. Dia tak sanggup menanggung kehilangan ini, kehampaan yang ditinggalkannya hampir menghancurkannya. Semua beban itu, semuanya harus ditopang oleh Pulonia. Namun dia tak pernah mengeluh.\nMasa depan dunia memang telah ditopang oleh Pulonia, tapi Pulonia justru tidak bisa menanggung bebannya sendiri.\nSandrone tidak pernah menyerah untuk memperbaiki Pulonia. Tapi dengan pengetahuan dan kemampuan teknis yang dimilikinya sekarang, dia tahu kalau dia tidak mampu memulihkan inti Pulonia sepenuhnya. Dia juga tidak mau setengah-setengah membangkitkan Pulonia yang bahkan tidak ingat siapa dirinya sendiri. Itu adalah penghinaan bagi Pulonia yang hebat itu, bagi anggota keluarganya sendiri.\nJadi, dia membawa Pulonia kembali ke tempat tinggal lamanya, rumah yang pernah mereka huni bersama. Dan sesekali, Sandrone akan kembali mengunjunginya.\nDia berharap suatu hari nanti, berkat usahanya sendiri, Pulonia akan kembali mengeluarkan suara menyalanya yang tersendat-sendat, dan kembali mengulurkan tangannya yang besar itu kepadanya."
+      },
+      {
+        "Title": "Stellar Linchpin",
+        "Context": "Setelah mendapatkan Stellar Linchpin, dia juga tidak terlalu bergantung pada batu kecil bercahaya itu. Tentu saja dia tahu bahwa batu kecil itulah yang mengaktifkan \"hadiah\" Alain, sehingga dia bisa mendapatkan kesempatan kedua dalam hidupnya, dan untuk itu, dia memang berterima kasih pada benda kecil itu. Yang membuatnya kesal adalah, benda itu sepertinya tidak terlalu banyak membantu dalam kehidupan sehari-harinya.\nMembantu penelitiannya? Tapi dia mengandalkan otaknya sendiri. Stellar Linchpin juga tidak bisa bantu dia menulis rumus.\nMengarahkan kekuatan elemennya? Tapi dia memang tidak terlalu mengandalkan kekuatan elemen dalam pertarungan bahkan tanpa Stellar Linchpin pun.\nMemberikan dukungan energi? Tapi struktur tubuhnya sepertinya tidak cocok dengan benda kecil ini. Berkat sang \"Lord-Artificer\" Alain yang hebat, dia sudah punya sistem suplai energi inti yang bisa dibilang sempurna ....\nPada akhirnya, yang paling sering digunakannya adalah elemen Cryo Stellar Linchpin untuk mendinginkan sistem dirinya sendiri dan Fagio. Ini sangat efektif saat menjalankan perhitungan dengan tingkat kompleksitas tinggi. Selain itu, demi efisiensi tempur dan pemanfaatan energi, dia pun menyesuaikan logika serangan Fagio saat bertarung agar cocok dengan Stellar Linchpin.\nKalau kamu tanya soal keinginan, dia hanya akan bilang kalau konsep \"keinginan\" itu terlalu abstrak dan rumit. Dia ingin menganalisis segala hukum di dunia ini dan terus-menerus membangun fondasi pengetahuan. Apa itu bisa disebut keinginan? Tentu saja. Tapi apa itu sudah semuanya yang diinginkannya? Tentu saja tidak.\nDia sedang melakukan hal yang ingin dia lakukan, hal yang dia anggap benar, dan itu membuatnya bahagia. Mungkin itu sudah cukup. Siapa yang bisa bilang suara keinginan seperti itu tidak cukup kuat? Siapa yang bisa menyalahkan pikiran yang hanya ingin menjalani hidup sesuai keinginan sendiri? Sebuah keinginan tidak seharusnya lebih mulia dari keinginan yang lain. Begitu menurutnya. Setiap orang punya hidupnya sendiri. Kalau ada yang berani mempermasalahkan ini, orang itu pantas mendapat omelan pedas dari Sandrone. Kalau masih tidak terima, Sandrone mungkin akan mendengus sambil menunjuk ke langit.\n\"Pergi sana, cari sendiri orang yang ngirimin aku ini dan komplain sama dia!\""
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213300,
+      "Name": "Clockwork Maiden's Waltz",
+      "Description": "Model pakaian Sandrone. Setelah terlahir kembali, dia memutuskan untuk membuat pakaian baru untuk dirinya sendiri. Kehidupan yang baru tentu layak diapresiasi dengan sebuah gaun yang baru. Tentu saja, usaha itu tidak boleh lepas dari elemen keanggunan, elegansi, dan kemegahan yang cocok untuk seorang wanita sejati. Ah, ya, mungkin baik juga kiranya bila terlantun doa agar pakaian itu tetap utuh dalam pertempuran, serta tidak ternoda oleh kopi atau teh.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113086,
+    101239,
+    112124,
+    104364,
+    113082
+  ],
+  "NameCard": {
+    "Name": "Sandrone: Istirahat Minum Teh",
+    "Description": "Style Kartu Nama.\nMungkin Sandrone belajar menikmati pesta teh dari Alain. Dulu, bahkan sesi teh berdua saja tidak pernah terasa membosankan. Tapi, sejak peserta minum teh jadi semakin banyak, mereka pergi satu per satu. Dan di tengah kepergian orang-orang tersebut, dia sepertinya semakin memahami kesepian yang pernah dirasakan Alain kala itu.",
+    "Icon": "UI_NameCardIcon_MarionetteNew",
+    "PicturePrefix": "UI_NameCardPic_MarionetteNew"
+  }
+}

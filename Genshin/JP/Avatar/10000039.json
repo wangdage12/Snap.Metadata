@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "選りすぐりの宝物",
+        "Description": "元素スキル<color=#FFD780FF>フリーズキャッツクロー</color>を発動した後の20秒間、チーム内のキャラクターが超電導、星電導反応を起こした時、ディオナは連携して<color=#FFD780FF>フリーズキャッツクロー</color>を3つ発射する。この方法で発射された<color=#FFD780FF>フリーズキャッツクロー</color>は元素粒子を生成できず、敵に命中した時もシールドを生成できない。この効果は3.5秒ごとに最大1回のみ発動可能。\nまた、{LINK#N11330003}<color=#FFD780FF>極星フィールド</color>{/LINK}内にいる時、ディオナは<color=#FFD780FF>輝映・星電導</color>状態に入る。",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "キャッツテールが閉店の時",
         "Description": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって下記の効果を獲得する。\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%を超えている時、元素熟知+200。",
+        "SpecialDescription": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは、自身のHPによって下記の効果を獲得する。\n・HPが50%以下の時、受ける治療効果+30%。\n・HPが50%を超えている時、元素熟知+200。\n\nさらに、ディオナのHP上限+25%。\n<color=#FFD780FF>輝映・星電導</color>：<color=#FFD780FF>特製スピリッツ</color>エリアにいるキャラクターの起こした超電導、星電導反応によるダメージ+40%。",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

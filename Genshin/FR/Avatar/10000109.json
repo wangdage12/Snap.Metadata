@@ -448,6 +448,31 @@
         "Icon": "Skill_S_Mizuki_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 10951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1095101,
+              "Level": 1,
+              "Parameters": [
+                10,
+                2.5,
+                0.1,
+                5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 1095101,
+        "Name": "L'immensité d'un rêve",
+        "Description": "Lorsque Yumemizuki Mizuki a déclenché une réaction de Dispersion pendant l'état Flotte-rêves, la prochaine instance de <color=#80FFD7FF>DGT Anémo de zone</color> qu'elle inflige de façon régulière à des ennemis proches pendant cet état augmente d'une valeur équivalant à 1 000 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 2,5 s.\nDe plus, la maîtrise élémentaire des personnages de l'équipe à proximité augmente d'une valeur équivalant à 10 % de la maîtrise élémentaire de Yumemizuki Mizuki pendant l'état Flotte-rêves.",
+        "Icon": "UI_Talent_S_Mizuki_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 10939,
       "Proud": {
@@ -729,12 +754,14 @@
         "Id": 1091,
         "Name": "Dans des eaux de brume",
         "Description": "Pendant l'état Flotte-rêves, Yumemizuki Mizuki applique l'effet Attente de 23 nuits toutes les 3,5 s aux ennemis proches, cet effet durant 3 s. Lorsqu'un ennemi affecté par cet effet subit des DGT Anémo et déclenche une réaction de Dispersion, l'effet est annulé pour augmenter les DGT de ladite réaction d'une valeur équivalant à 1 100 % de la maîtrise élémentaire de Yumemizuki Mizuki.",
+        "SpecialDescription": "Pendant l'état Flotte-rêves, Yumemizuki Mizuki applique l'effet Attente de 23 nuits toutes les 3,5 s aux ennemis proches, cet effet durant 3 s. Lorsqu'un ennemi affecté par cet effet subit des DGT Anémo et déclenche une réaction de Dispersion, l'effet est annulé pour augmenter les DGT de ladite réaction d'une valeur équivalant à 1 100 % de la maîtrise élémentaire de Yumemizuki Mizuki. Yumemizuki Mizuki effectue également une attaque supplémentaire sur le même ennemi qui inflige des <color=#80FFD7FF>DGT Anémo</color> d'une valeur équivalant à 1 000 % de sa maîtrise élémentaire.",
         "Icon": "UI_Talent_S_Mizuki_01"
       },
       {
         "Id": 1092,
         "Name": "Un écho rencontré en rêve",
         "Description": "En entrant dans l'état Flotte-rêves, chaque point de maîtrise élémentaire de Yumemizuki Mizuki accorde à tous les autres personnages de l'équipe à proximité des bonus de DGT <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> et <color=#FFACFFFF>Électro</color> de 0,04 %, ces bonus durant jusqu'à la fin de l'état Flotte-rêves.",
+        "SpecialDescription": "En entrant dans l'état Flotte-rêves, chaque point de maîtrise élémentaire de Yumemizuki Mizuki accorde à tous les autres personnages de l'équipe à proximité des bonus de DGT <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> et <color=#FFACFFFF>Électro</color> de 0,04 %, ces bonus durant jusqu'à la fin de l'état Flotte-rêves.\nDe plus, dans l'état Flotte-rêves, la <color=#FF9999FF>RÉS Pyro</color>, la <color=#80C0FFFF>RÉS Hydro</color>, la <color=#99FFFFFF>RÉS Cryo</color>, la <color=#FFACFFFF>RÉS Électro</color> et la <color=#80FFD7FF>RÉS Anémo</color> des ennemis proches diminuent de 20 %.",
         "Icon": "UI_Talent_S_Mizuki_02"
       },
       {
@@ -751,6 +778,7 @@
         "Id": 1094,
         "Name": "Bourgeons réchauffant les sources lucides",
         "Description": "Collecter un <color=#FFD780FF>snack de style yumemi</color> du déchaînement élémentaire <color=#FFD780FF>Thérapie sourcière secrète d'Anraku</color> permet à la fois d'infliger des DGT et de soigner et restaure 5 pts d'énergie élémentaire à Yumemizuki Mizuki. L'énergie élémentaire peut être restaurée 4 fois pendant la durée d'une <color=#FFD780FF>Thérapie sourcière secrète d'Anraku</color> de cette manière.",
+        "SpecialDescription": "Collecter un <color=#FFD780FF>snack de style yumemi</color> du déchaînement élémentaire <color=#FFD780FF>Thérapie sourcière secrète d'Anraku</color> permet à la fois d'infliger des DGT et de soigner, soigne également un autre personnage de l'équipe à proximité ayant peu de PV pour une valeur équivalant à 266 % de la maîtrise élémentaire de Yumemizuki Mizuki et restaure 5 pts d'énergie élémentaire à Yumemizuki Mizuki. L'énergie élémentaire peut être restaurée 4 fois pendant la durée d'une <color=#FFD780FF>Thérapie sourcière secrète d'Anraku</color> de cette manière.",
         "Icon": "UI_Talent_S_Mizuki_03"
       },
       {
@@ -767,6 +795,7 @@
         "Id": 1096,
         "Name": "Le cœur s'attardant longtemps",
         "Description": "Lorsque Yumemizuki Mizuki est dans l'état Flotte-rêves, les DGT infligés par les réactions de Dispersion des personnages de l'équipe à proximité peuvent déclencher des coups CRIT dont le taux CRIT est fixé à 30 % et les DGT CRIT à 100 %.",
+        "SpecialDescription": "Lorsque Yumemizuki Mizuki est dans l'état Flotte-rêves, les DGT infligés par les réactions de Dispersion des personnages de l'équipe à proximité peuvent déclencher des coups CRIT dont le taux CRIT est fixé à 30 % et les DGT CRIT à 100 %.\nPour chaque pt de maîtrise élémentaire que Yumemizuki Mizuki possède au-delà de 500 pts, son taux CRIT augmente 0,04 % et ses DGT CRIT de 0,16 %. Le taux CRIT et les DGT CRIT de Yumemizuki Mizuki peuvent être respectivement augmentés d'une maximum de 20 % et de 80 % de cette manière.",
         "Icon": "UI_Talent_S_Mizuki_04"
       }
     ]

@@ -304,7 +304,10 @@
             "Pemulihan HP Berkelanjutan|{param3:F2P} ATK + {param4:I}",
             "DMG Herald of Frost|{param5:F1P}",
             "Durasi|{param6:F1} dtk",
-            "Cooldown|{param7:F1} dtk"
+            "Cooldown|{param7:F1} dtk",
+            "DMG Serangan Terkoordinasi Herald of Frost|{param9:F1P}",
+            "Cooldown Serangan Terkoordinasi Herald of Frost|{param10:F1} dtk",
+            "Cooldown|{param11:F1} dtk"
           ],
           "Parameters": [
             {
@@ -318,7 +321,10 @@
                 0.36,
                 15,
                 30,
-                0.96
+                0.96,
+                0.24,
+                2.2,
+                15
               ]
             },
             {
@@ -332,7 +338,10 @@
                 0.387,
                 15,
                 30,
-                1.032
+                1.032,
+                0.258,
+                2.2,
+                15
               ]
             },
             {
@@ -346,7 +355,10 @@
                 0.414,
                 15,
                 30,
-                1.104
+                1.104,
+                0.276,
+                2.2,
+                15
               ]
             },
             {
@@ -360,7 +372,10 @@
                 0.45,
                 15,
                 30,
-                1.2
+                1.2,
+                0.3,
+                2.2,
+                15
               ]
             },
             {
@@ -374,7 +389,10 @@
                 0.477,
                 15,
                 30,
-                1.272
+                1.272,
+                0.318,
+                2.2,
+                15
               ]
             },
             {
@@ -388,7 +406,10 @@
                 0.504,
                 15,
                 30,
-                1.344
+                1.344,
+                0.336,
+                2.2,
+                15
               ]
             },
             {
@@ -402,7 +423,10 @@
                 0.54,
                 15,
                 30,
-                1.44
+                1.44,
+                0.36,
+                2.2,
+                15
               ]
             },
             {
@@ -416,7 +440,10 @@
                 0.576,
                 15,
                 30,
-                1.536
+                1.536,
+                0.384,
+                2.2,
+                15
               ]
             },
             {
@@ -430,7 +457,10 @@
                 0.612,
                 15,
                 30,
-                1.632
+                1.632,
+                0.408,
+                2.2,
+                15
               ]
             },
             {
@@ -444,7 +474,10 @@
                 0.648,
                 15,
                 30,
-                1.728
+                1.728,
+                0.432,
+                2.2,
+                15
               ]
             },
             {
@@ -458,7 +491,10 @@
                 0.684,
                 15,
                 30,
-                1.824
+                1.824,
+                0.456,
+                2.2,
+                15
               ]
             },
             {
@@ -472,7 +508,10 @@
                 0.72,
                 15,
                 30,
-                1.92
+                1.92,
+                0.48,
+                2.2,
+                15
               ]
             },
             {
@@ -486,7 +525,10 @@
                 0.765,
                 15,
                 30,
-                2.04
+                2.04,
+                0.51,
+                2.2,
+                15
               ]
             },
             {
@@ -500,7 +542,10 @@
                 0.81,
                 15,
                 30,
-                2.16
+                2.16,
+                0.54,
+                2.2,
+                15
               ]
             },
             {
@@ -514,16 +559,61 @@
                 0.855,
                 15,
                 30,
-                2.28
+                2.28,
+                0.57,
+                2.2,
+                15
               ]
             }
+          ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            7,
+            8
           ],
           "Display": 0
         },
         "Id": 10352,
         "Name": "Adeptus Art: Herald of Frost",
         "Description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekelilingnya.\n\n<color=#FFD780FF>Herald of Frost</color>\n·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter teman lain di dekatnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi;\n·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri;\n·Mengikuti gerakan Karakter dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> kepada musuh yang dilewati.\n\n<i>Aku pakai ini supaya tidak jadi hangat dan busuk ... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.</i>",
+        "SpecialDescription": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekelilingnya.\n\n<color=#FFD780FF>Herald of Frost</color>\n·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter rekan di sekitarnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi.\n·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri.\n·Herald of Frost akan mengikuti gerakan Karakter dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> kepada musuh yang dilewati.\nSaat serangan Karakter aktif sendiri di dalam party mengenai musuh, Herald of Frost akan melancarkan satu kali serangan terkoordinasi dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> terhadap musuh tersebut.\n\n<i>Aku pakai ini supaya tidak jadi hangat dan busuk ... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.</i>",
         "Icon": "Skill_S_Qiqi_01"
+      }
+    ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3551,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 355101,
+              "Level": 1,
+              "Parameters": [
+                15,
+                0.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 355101,
+        "Name": "Seven Sacred Treasures",
+        "Description": "Cooldown Elemental Skill <color=#FFD780FF>Adeptus Art: Herald of Frost</color> berkurang menjadi 15 detik.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Selama Herald of Frost aktif, DMG reaksi Superconduct dan Stellar-Conduct yang diakibatkan Karakter sendiri di dalam party meningkat 50%.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Qiqi akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
     "EnergySkill": {
@@ -534,7 +624,8 @@
           "Pemulihan HP|{param1:P} ATK + {param2:I}",
           "Durasi|{param4:F1} dtk",
           "Cooldown|{param5:F1} dtk",
-          "Konsumsi Energy|{param6:I}"
+          "Konsumsi Energy|{param6:I}",
+          "DMG Stellar-Conduct|{param7:F1P}"
         ],
         "Parameters": [
           {
@@ -546,7 +637,8 @@
               2.848,
               15,
               20,
-              80
+              80,
+              2.973336
             ]
           },
           {
@@ -558,7 +650,8 @@
               3.0616,
               15,
               20,
-              80
+              80,
+              3.196336
             ]
           },
           {
@@ -570,7 +663,8 @@
               3.2752,
               15,
               20,
-              80
+              80,
+              3.419336
             ]
           },
           {
@@ -582,7 +676,8 @@
               3.56,
               15,
               20,
-              80
+              80,
+              3.71667
             ]
           },
           {
@@ -594,7 +689,8 @@
               3.7736,
               15,
               20,
-              80
+              80,
+              3.93967
             ]
           },
           {
@@ -606,7 +702,8 @@
               3.9872,
               15,
               20,
-              80
+              80,
+              4.16267
             ]
           },
           {
@@ -618,7 +715,8 @@
               4.272,
               15,
               20,
-              80
+              80,
+              4.460004
             ]
           },
           {
@@ -630,7 +728,8 @@
               4.5568,
               15,
               20,
-              80
+              80,
+              4.757338
             ]
           },
           {
@@ -642,7 +741,8 @@
               4.8416,
               15,
               20,
-              80
+              80,
+              5.054671
             ]
           },
           {
@@ -654,7 +754,8 @@
               5.1264,
               15,
               20,
-              80
+              80,
+              5.352005
             ]
           },
           {
@@ -666,7 +767,8 @@
               5.4112,
               15,
               20,
-              80
+              80,
+              5.649338
             ]
           },
           {
@@ -678,7 +780,8 @@
               5.696,
               15,
               20,
-              80
+              80,
+              5.946672
             ]
           },
           {
@@ -690,7 +793,8 @@
               6.052,
               15,
               20,
-              80
+              80,
+              6.318339
             ]
           },
           {
@@ -702,7 +806,8 @@
               6.408,
               15,
               20,
-              80
+              80,
+              6.690006
             ]
           },
           {
@@ -714,15 +819,32 @@
               6.764,
               15,
               20,
-              80
+              80,
+              7.061673
             ]
           }
+        ],
+        "DescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "SpecialDescriptionList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "Display": 0
       },
       "Id": 10353,
       "Name": "Adeptus Art: Preserver of Fortune",
       "Description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nSaat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.\n\n<i>\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"</i>\n<i>—Qiqi tidak ingat kata-kata ini.</i>",
+      "SpecialDescription": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Mengakibatkan satu kali <color=#99FFFFFF>Cryo DMG</color> tambahan yang dianggap sebagai DMG reaksi Stellar-Conduct.\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nSaat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.\n\n<i>\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"</i>\n<i>—Qiqi tidak ingat kata-kata ini.</i>",
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -752,7 +874,10 @@
             {
               "Id": 352201,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.5,
+                15
+              ]
             }
           ],
           "Display": 1
@@ -786,12 +911,14 @@
         "Id": 351,
         "Name": "Ascetics of Frost",
         "Description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi memulihkan 2 Energy.",
+        "SpecialDescription": "Saat Herald of Frost mengenai musuh yang ditandai Fortune-Preserving Talisman, Qiqi memulihkan 2 poin Energy.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Saat serangan dan serangan terkoordinasi Herald of Frost mengenai musuh, Qiqi juga memulihkan 6 poin Energy. Efek ini dapat terpicu sekali setiap 6 detik.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Frozen to the Bone",
         "Description": "Meningkatkan 15% Normal dan Charged Attack Qiqi terhadap musuh yang terpengaruh <color=#99FFFFFF>Cryo</color>.",
+        "SpecialDescription": "DMG yang diakibatkan Normal Attack dan Charged Attack Qiqi terhadap musuh yang terpengaruh elemen <color=#99FFFFFF>Cryo</color> meningkat 15%.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: ATK Qiqi meningkat 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -808,6 +935,7 @@
         "Id": 354,
         "Name": "Divine Suppression",
         "Description": "ATK dari musuh yang ditandai oleh Fortune-Preserving Talisman berkurang 20%.",
+        "SpecialDescription": "ATK milik target yang ditandai Fortune-Preserving Talisman berkurang 20%.\nSelain itu, saat memicu efek pemulihan HP dari Fortune-Preserving Talisman, Karakter di sekitar dengan persentase HP terendah akan menerima pemulihan HP tambahan sebesar 180% ATK Qiqi.",
         "Icon": "UI_Talent_S_Qiqi_03"
       },
       {
@@ -824,6 +952,7 @@
         "Id": 356,
         "Name": "Rite of Resurrection",
         "Description": "Menggunakan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> akan menghidupkan kembali Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.\nEfek ini terpicu setiap 15 menit.",
+        "SpecialDescription": "Menggunakan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> akan menghidupkan kembali semua Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.\nEfek ini dapat terpicu sekali setiap 15 menit.\nSelain itu, saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>, Qiqi juga akan mendapatkan 4 lapis <color=#FFD780FF>Glimpse of Mystery</color>: Saat Karakter aktif sendiri dalam party selain Qiqi mengakibatkan DMG reaksi Stellar-Conduct, akan mengonsumsi 1 lapis <color=#FFD780FF>Glimpse of Mystery</color>, untuk meningkatkan DMG yang diakibatkan sebesar 600% ATK Qiqi. <color=#FFD780FF>Glimpse of Mystery</color> berlangsung maksimum 12 detik dan jumlah lapisannya akan diperbarui saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

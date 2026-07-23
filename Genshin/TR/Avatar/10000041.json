@@ -841,12 +841,14 @@
         "Id": 411,
         "Name": "Batışın Kehaneti",
         "Description": "Kendi grup üyelerinden biri, Alamet etkisindeki bir düşmana vurduğunda 8 saniyeliğine <color=#80C0FFFF>Su ile ilgili Element Tepkimelerin</color> etkileri güçlenir:\n·Elektrik Yüklü Hasarı %15 artar, Ay Yüklü Hasarı %15 artar, Buharlaşma Hasarı %15 artar, Su Girdabı Hasarı %15 artar, Ay Kristalleşmesi Hasarı %15 artar.\n·Donma süresi %15 uzar.",
+        "SpecialDescription": "Kendi grup üyelerinden biri, Alamet etkisindeki bir düşmana vurduğunda 8 saniyeliğine <color=#80C0FFFF>Su ile ilgili Element Tepkimelerin</color> etkileri güçlenir:\n·Elektrik Yüklü Hasarı %15 artar, Ay Yüklü Hasarı %15 artar, Buharlaşma Hasarı %15 artar, Su Girdabı Hasarı %15 artar, Ay Kristalleşmesi Hasarı %15 artar.\n·Donma süresi %15 uzar.\n\nAyrıca savaş alanında olmayan grup üyelerin yukarıdaki etkiyi tetiklerse, yukarıdaki Su ile ilgili Element Tepkimelerinin Hasar Bonusu, orijinal etkisinin %160'ına yükseltilir.",
         "Icon": "UI_Talent_S_Mona_01"
       },
       {
         "Id": 412,
         "Name": "Ay Zinciri",
         "Description": "Bir Normal Saldırıdan sonra %20 ihtimalle Yüklü Saldırı yapar.\nBu etki 5 saniyede bir uygulanabilir.",
+        "SpecialDescription": "Bir Normal Saldırı isabet ettikten sonra %20 ihtimalle otomatik olarak bunu takip eden bir Yüklü Saldırı yapılır. Ayrıca Mona <color=#FFD780FF>Kaderin Yıldızı</color> Element Patlamasını kullandıktan sonraki 5sn içinde, Mona'nın düşmana isabet eden sıradaki Normal Saldırısı otomatik olarak bir Yüklü Saldırı tetikler.\nYukarıdaki Yüklü Saldırı etkisi 5 saniyede bir uygulanabilir.\nMona'nın Yüklü Saldırısı bir düşmana isabet ettiğinde, 12 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı 80 artar.",
         "Icon": "UI_Talent_S_Mona_02"
       },
       {
@@ -863,6 +865,7 @@
         "Id": 414,
         "Name": "Yok Oluş Kehaneti",
         "Description": "Herhangi bir grup üyesi, Alamet etkisindeki bir düşmana saldırdığında Kritik Oranı %15 artar.",
+        "SpecialDescription": "Herhangi bir grup üyesi, Alamet etkisindeki bir düşmana saldırdığında Kritik Oranı %15 artar.\nGruptaki herhangi bir Cadılık karakteri Alamet etkisindeki bir düşmana saldırdığında Kritik Hasarı %15 artar.",
         "Icon": "UI_Talent_S_Mona_03"
       },
       {
@@ -879,6 +882,7 @@
         "Id": 416,
         "Name": "Mecazi Felaket",
         "Description": "Mona, <color=#FFD780FF>Hayali Akıntı</color> etkisindeyken hareket ettiği saniye başına bir sonraki Yüklü Saldırı Hasarı %60 artar.\nBu şekilde maksimum %180 Hasar Bonusu kazanılabilir. Etki 8 saniye sürer.",
+        "SpecialDescription": "Mona aktif karakterken <color=#FFD780FF>Hayali Akıntı</color> durumuna girdiğinde veya yakınlarda Alamet etkisindeki düşmanlar olduğunda, her saniye başına bir sonraki Yüklü Saldırı Hasarı %60 artar. Bu şekilde maksimum %180 Hasar Bonusu kazanılabilir. Etki en fazla 8 saniye sürer.\nAyrıca Mona'nın Alamet etkisindeki düşmanlara yaptığı Yüklü Saldırılar, orijinal Hasarın %200'ü kadar Hasar verir.",
         "Icon": "UI_Talent_S_Mona_04"
       }
     ]

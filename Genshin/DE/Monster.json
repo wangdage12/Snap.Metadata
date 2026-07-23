@@ -3,7 +3,7 @@
     "Id": 0,
     "DescribeId": 90903,
     "Name": "",
-    "Title": "Sternenverschlingender Narwal",
+    "Title": "Patrouillenboot – Hochmoderner Mehrzweck-Angreifer",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
@@ -523,19 +523,19 @@
   },
   {
     "Id": 0,
-    "DescribeId": 52106,
-    "Name": "Goldbrigade – Formationsbrecher",
-    "Title": "Maguu Kenki",
-    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
+    "DescribeId": 60509,
+    "Name": "Junge Tiefsee-Drachenechse – Urtyp",
+    "Title": "Tiefsee-Drachenechse – Urtyp",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
     "Arkhe": 0
   },
   {
     "Id": 0,
-    "DescribeId": 60509,
-    "Name": "Junge Tiefsee-Drachenechse – Urtyp",
-    "Title": "Tiefsee-Drachenechse – Urtyp",
-    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "DescribeId": 52106,
+    "Name": "Goldbrigade – Formationsbrecher",
+    "Title": "Maguu Kenki",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -1574,6 +1574,43 @@
       {
         "Type": 4,
         "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20012302,
+    "DescribeId": 123,
+    "MonsterName": "Slime_Moon_01",
+    "Name": "Kampferprobter Regenbogen-Schleim",
+    "Title": "Kampferprobter Regenbogen-Schleim",
+    "Icon": "UI_MonsterIcon_Slime_Moon_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 418.3872,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
       },
       {
         "Type": 7,
@@ -4396,89 +4433,6 @@
     "BaseValue": {
       "HpBase": 108.672,
       "AttackBase": 75.36,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 2
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22020201,
-    "DescribeId": 20202,
-    "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Abgrundbote – Frostfall",
-    "Title": "Geheimniswahrer der Eisklingen",
-    "Description": "Ein Monster des „Ordens des Abgrunds“, welches sich mit frostigen Eisklingen in den Kampf stürzt.\nGenauso, wie es Heilige gibt, die die heilige Herrlichkeit verbreiten und sie lobpreisen, so gibt es auch Abgesandte, die jede Verdrehung korrigieren und jede Dissonanz beseitigen müssen.\nOft wird gesagt, dass die stählerne Klinge, die den Körper durchstößt, so kalt sei wie Eis; aber jener pechschwarze Frost soll selbst die Seele gefrieren lassen.",
-    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "剧情任务-脱战逻辑标签",
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22030101,
-    "DescribeId": 20301,
-    "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Abgrundsänger – Lila Blitze",
-    "Title": "Heiliger Gesandter der zitternden Blitze",
-    "Description": "Monster, die die tausend Schatten der Dunkelheit lobpreisen, denen sich selbst der Donner und die Blitze fügen müssen. Sie sind Mitglieder des „Ordens des Abgrunds“.\nDiese Monster sind Priester des Abgrunds und Gelehrte der Dunkelheit. Sie predigen die Weisheit der Finsternis, die schon längst von der unendlichen Nacht ungeheuer verzerrt ist, und zwingen den teuflischen Glauben mithilfe der Macht des Donners den Nichtgläubigen auf. Und mit den lila Blitzen verkünden sie die Existenz der Macht des Abgrunds, die die menschliche Vernunft in Stücke reißt und auffrisst.",
-    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -8198,6 +8152,84 @@
     "BaseValue": {
       "HpBase": 293.4144,
       "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090601,
+    "DescribeId": 40906,
+    "MonsterName": "Monitor_01",
+    "Name": "Geheimquell-Steuerformation der Pioniere",
+    "Title": "Das Licht erhebender Wanderer",
+    "Description": "Eine uralte, in den Ruinen auf der Mondoberfläche gefangene Maschine. Selbst die robustesten und zuverlässigsten Gerätschaften werden einmal dem Zahn der Zeit zum Opfer fallen und verlieren den Zweck, den ihre Schöpfer ihnen einst zugedacht hatten. Heute greift dieses Wesen alles und jeden an, der es wagt, den Boden zu betreten, den zu verteidigten es geschworen hat.\nIn den Aufzeichnungen einer längst untergegangenen Zivilisation wurden diese außer Kontrolle geratenen Maschinen einst „Ur-Namrasit-Tilimtu-Babbar“ genannt, was so viel bedeutet wie „der, der das Licht in die Dunkelheit bringt“. Von der Sehnsucht nach dem grenzenlosen Meer der Sterne getrieben, meißelten die Anführer der „Pioniere“ ihre innigsten Worte in goldene Siegel. Sie hofften, dass diejenigen, die ihnen nachfolgen würden, mithilfe dieser das Licht, welches das Universum erhellt, weiterhin in voller Pracht erstrahlen lassen könnten.\nDoch bedauerlicherweise erstrahlte für niemanden dieses Licht, und die Maschine, der der Titel „Aufseher“ verliehen worden war, schaffte es nicht, auf denjenigen zu warten, dem sie hätte dienen sollen. Nun, gestrandet inmitten dieser Ruinen, ist sie nur noch ein letzter, außer Kontrolle geratener Überrest eines längst in Vergessenheit geratenen Ideals.",
+    "Icon": "UI_MonsterIcon_Monitor_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 114.1056,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090701,
+    "DescribeId": 40907,
+    "MonsterName": "Monitor_02",
+    "Name": "Kampferprobte Geheimquell-Steuerformation der Pioniere",
+    "Title": "Kampferprobte Geheimquell-Steuerformation der Pioniere",
+    "Icon": "UI_MonsterIcon_Monitor_02",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "地方传奇标记"
+    ],
+    "BaseValue": {
+      "HpBase": 1222.56,
+      "AttackBase": 138.16,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -16308,82 +16340,6 @@
     ]
   },
   {
-    "Id": 26260101,
-    "DescribeId": 62601,
-    "MonsterName": "Wayob_Drillhead_01",
-    "Name": "Höhlenbewohner – Wayob-Verkörperung",
-    "Title": "Strömungsschwimmer – Wayob-Verkörperung",
-    "Description": "Der Stamm der „Kinder der Echos“ glaubt und verehrt den „Wayob“, welcher sich auf der Welt durch die Kraft von Totems und der Nachtseelen offenbart. Gemäß dem Glauben der Stammesmitglieder von Natlan lebt der Wayob im Reich von Yohualtecuhtin, dem König der Nacht und besitzt keine eigene Form, denn er kann sich mit allem verbinden und so verlorenen Stammesmitgliedern Orientierung geben. Die Wayob-Verkörperung ist etwas Besonderes und die Figur, die sich mithilfe der totemistischen Form entfaltet, muss oftmals eine wichtige Aufgabe erfüllen.\nDie „Kinder der Echos“ glauben, dass ihr „Wayob“ die Macht besitzt, die Gipfel und Täler der Gebirge zu formen, und dass er das Echo der Geräusche der Reibung von Fels auf Fels zu kontrollieren vermag.",
-    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.5,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26260201,
-    "DescribeId": 62602,
-    "MonsterName": "Wayob_Mosasaurus_01",
-    "Name": "Strömungsschwimmer – Wayob-Verkörperung",
-    "Title": "Höhlenbewohner – Wayob-Verkörperung",
-    "Description": "Der Stamm der „Menschen der Quellen“ glaubt und verehrt den „Wayob“, welcher sich auf der Welt durch die Kraft von Totems und der Nachtseelen offenbart.\nDer sogenannte „Wayob“ ist der Glaube des Volkes von Natlan, der sich allmählich infolge der Kommunikation mit dem Reich von Yohualtecuhtin, König der Nacht, herausgebildet hat. Er fußt hauptsächlich auf den Stammes- und Obsidian-Totems, dem Bewusstsein kollektiver Meditation und dem Ort, an den die Seelen der Vorfahren zurückkehren.\nDie „Menschen der Quellen“ glauben, dass ihr „Wayob“ die Macht besitzt, Gezeiten und Wellen zu kontrollieren und den Verlauf von fließendem und totem Wasser zu steuern.",
-    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.5,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
     "Id": 26260301,
     "DescribeId": 62603,
     "MonsterName": "Wayob_Hookwalker_01",
@@ -17836,7 +17792,7 @@
     "DescribeId": 91001,
     "MonsterName": "Monster_Nihil_Harbinger_01",
     "Name": "„Arlecchino“",
-    "Title": "„Arlecchino“",
+    "Title": "Patrouillenboot – Hochmoderner Mehrzweck-Angreifer",
     "Icon": "UI_MonsterIcon_Nihil",
     "Type": 2,
     "Arkhe": 0,
@@ -17877,7 +17833,7 @@
     "DescribeId": 91101,
     "MonsterName": "Monster_TheAbyssXiuhcoatl_01",
     "Name": "Herr des erodierten Urfeuers",
-    "Title": "Herr des erodierten Urfeuers",
+    "Title": "Patrouillenboot – Hochmoderner Mehrzweck-Angreifer",
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 2,
     "Arkhe": 0,
@@ -17917,7 +17873,7 @@
     "DescribeId": 91211,
     "MonsterName": "Monster_GiantChess_King_StageA",
     "Name": "Aufgestiegener König",
-    "Title": "Überdimensionierte Vaniloqua",
+    "Title": "Aufgestiegener König",
     "Icon": "UI_MonsterIcon_GiantChess_King",
     "Type": 2,
     "Arkhe": 0,
@@ -17954,7 +17910,7 @@
     "DescribeId": 91212,
     "MonsterName": "Monster_GiantChess_King_StageB",
     "Name": "Aufgestiegene Dame",
-    "Title": "Überdimensionierte Vaniloqua",
+    "Title": "Aufgestiegene Dame",
     "Icon": "UI_MonsterIcon_GiantChess_Queen",
     "Type": 2,
     "Arkhe": 0,
@@ -18442,6 +18398,80 @@
     ]
   },
   {
+    "Id": 84202022,
+    "DescribeId": 20202,
+    "MonsterName": "Invoker_Herald_Ice_01",
+    "Name": "Abgrundbote – Frostfall",
+    "Title": "Geheimniswahrer der Eisklingen",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84203012,
+    "DescribeId": 20301,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Name": "Abgrundsänger – Lila Blitze",
+    "Title": "Heiliger Gesandter der zitternden Blitze",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 84301011,
     "DescribeId": 30101,
     "MonsterName": "Skirmisher_Male_Fat_SprayGun_Ice_01",
@@ -18792,6 +18822,80 @@
     "BaseValue": {
       "HpBase": 168.4416,
       "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626012,
+    "DescribeId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Höhlenbewohner – Wayob-Verkörperung",
+    "Title": "Strömungsschwimmer – Wayob-Verkörperung",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626022,
+    "DescribeId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Strömungsschwimmer – Wayob-Verkörperung",
+    "Title": "Höhlenbewohner – Wayob-Verkörperung",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
       "DefenseBase": 500,
       "FireSubHurt": 0,
       "GrassSubHurt": 0,

@@ -539,6 +539,33 @@
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 8651,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 865101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                0.3,
+                2,
+                0.3,
+                -0.4,
+                -0.2
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 865101,
+        "Name": "L'injustice sera dévoilée",
+        "Description": "<color=#FFD780FF>Radiance « Astroconduction »</color> : L'aptitude d'élévation « Plaidoirie pour la justice » est modifiée :\nLorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse « Dévoilement » qui convertit la prochaine attaque chargée de son <color=#FFD780FF>attaque normale « Poing vigoureux du givre »</color> en poing bondissant de lustre : ne consomme pas d'endurance, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant, les PV pouvant être restaurés une fois toutes les 2 s de cette manière.\nLa 3e attaque et la 5e attaque du poing repousseur renforcé par le <color=#FFD780FF>châtiment algide</color> infligent respectivement des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 60 % et 80 % des DGT d'origine, tandis que le poing bondissant de lustre inflige des <color=#99FFFFFF>DGT Cryo de zone</color> d'une valeur équivalant à 100 % des DGT d'origine, tous ces DGT étant considérés comme des DGT de réaction d'Astroconduction. De plus, les DGT de réaction d'Astroconduction infligés par Wriothesley augmentent de 30 %.\nDe plus, Wriothesley passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'il est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Wriothesley_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 8639,
       "Proud": {
@@ -792,12 +819,14 @@
         "Id": 861,
         "Name": "Terreur pour les malfaiteurs",
         "Description": "La réprimande miséricordieuse de l'aptitude d'élévation « Plaidoirie pour la justice » est modifiée :\nSi les PV de Wriothesley sont inférieurs à 60 % ou s'il est sous l'effet du châtiment algide de <color=#FFD780FF>Ruée glaciale du croc</color>, il obtient une réprimande miséricordieuse lorsque la 5e attaque du poing de réprimande touche. Une réprimande miséricordieuse peut être obtenue une fois toutes les 2,5 s.\n\nDe plus, le poing bondissant de réprimande obtient les renforcements suivants :\n· Le bonus de DGT infligés augmente davantage jusqu'à 200 %.\n· En touchant alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge de 4 s. Une seule prolongation de durée peut avoir lieu par châtiment algide.\n\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
+        "SpecialDescription": "La réprimande miséricordieuse de l'aptitude d'élévation « Plaidoirie pour la justice » est modifiée :\nSi les PV de Wriothesley sont inférieurs à 60 % ou s'il est sous l'effet du châtiment algide de <color=#FFD780FF>Ruée glaciale du croc</color>, il obtient une réprimande miséricordieuse lorsque la 5e attaque du poing de réprimande touche. Une réprimande miséricordieuse peut être obtenue une fois toutes les 2,5 s.\n\nDe plus, le poing bondissant de réprimande obtient les renforcements suivants :\n· Le bonus de DGT infligés augmente davantage jusqu'à 200 %.\n· En touchant alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge de 4 s.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> :\n· Pendant 5 s après que le poing bondissant de lustre touche un ennemi, les DGT infligés par la 5e attaque du prochain poing de réprimande renforcé par le châtiment algide augmentent de 50 %.\n· Pendant 5 s après que la 5e attaque du poing de réprimande renforcé par le châtiment algide touche un ennemi, les DGT infligés par le poing bondissant de lustre augmentent de 50 %.\n· Lorsque le poing bondissant de lustre touche un ennemi alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge de 4 s.\n\nUne seule prolongation de durée peut avoir lieu par châtiment algide.\n\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
         "Icon": "UI_Talent_S_Wriothesley_01"
       },
       {
         "Id": 862,
         "Name": "Entrave pour les arrogants",
         "Description": "En utilisant <color=#FFD780FF>Morsure lupine de l'or</color>, chaque cumul d'édit d'accusation de l'aptitude d'élévation « Rétribution pour le péché » augmente les DGT infligés de 40 %.\nL'aptitude d'élévation « Rétribution pour le péché » doit être déjà débloquée.",
+        "SpecialDescription": "En utilisant <color=#FFD780FF>Morsure lupine de l'or</color>, chaque cumul d'édit d'accusation de l'aptitude d'élévation « Rétribution pour le péché » augmente les DGT infligés de 40 %.\n\nDe plus, avec 5 cumuls d'édit d'accusation : \n· Si Wriothesley est en <color=#FFD780FF>radiance « Astroconduction »</color>, l'aptitude « L'injustice sera dévoilée » est renforcée : la 3e attaque et la 5 attaque du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> infligent des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 90 % et 120 % des DGT d'origine, respectivement, et le poing bondissant de lustre inflige des <color=#99FFFFFF>DGT Cryo de zone</color> d'une valeur équivalant à 150 % des DGT d'origine, tous ces DGT étant considérés comme des DGT de réaction d'Astroconduction.\n· Si Wriothesley n'est pas en <color=#FFD780FF>radiance « Astroconduction »</color>, ses attaques normales et ses attaques chargées infligent respectivement des DGT d'une valeur équivalant à 125 % et 130 % des DGT d'origine.\n\nL'aptitude d'élévation « Rétribution pour le péché » doit être déjà débloquée.",
         "Icon": "UI_Talent_S_Wriothesley_02"
       },
       {
@@ -814,6 +843,7 @@
         "Id": 864,
         "Name": "Rédemption pour les nécessiteux",
         "Description": "Les PV que le poing bondissant de réprimande restaure à Wriothesley augmentent à une valeur équivalant à 50 % de ses PV max. L'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.\nDe plus, lorsque Wriothesley reçoit un soin et si la quantité du soin dépasse la quantité maximum que Wriothesley peut recevoir, les effets suivants se produisent selon si Wriothesley est déployé ou non : s'il est déployé, sa VIT d'attaque augmente de 20 % pendant 4 s ; s'il fait partie de l'équipe mais n'est pas déployé, la VIT d'attaque de tous vos personnages dans l'équipe augmente de 10 % pendant 6 s. Ces deux effets d'augmentation de VIT d'attaque ne peuvent pas se cumuler.",
+        "SpecialDescription": "Les PV que le poing bondissant de réprimande restaure à Wriothesley augmentent à une valeur équivalant à 50 % de ses PV max. L'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.\nDe plus, lorsque Wriothesley reçoit un soin et si la quantité du soin dépasse la quantité maximum que Wriothesley peut recevoir, les effets suivants se produisent selon si Wriothesley est déployé ou non : s'il est déployé, sa VIT d'attaque augmente de 20 % pendant 4 s ; s'il fait partie de l'équipe mais n'est pas déployé, la VIT d'attaque de tous vos personnages dans l'équipe augmente de 10 % pendant 6 s. Ces deux effets d'augmentation de VIT d'attaque ne peuvent pas se cumuler.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> : Les effets ci-dessus deviennent :\nDiminue les DGT subis par Wriothesley de 25 %, augmente sa VIT d'attaque de 20 % et augmente la VIT d'attaque des autres personnages de l'équipe à proximité de 10 %.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
       {
@@ -830,6 +860,7 @@
         "Id": 866,
         "Name": "Estime pour les irréprochables",
         "Description": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
+        "SpecialDescription": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> : L'effet précédent est modifié :\n· Le taux CRIT du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le taux CRIT du poing bondissant de lustre augmentent de 10 % et leurs DGT CRIT de 80 %. De plus, la 5e attaque du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le poing bondissant de lustre génèrent un pic de glace supplémentaire qui inflige des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 60 % des DGT d'origine, ces DGT étant considérés comme des DGT de réaction d'Astroconduction.\n\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

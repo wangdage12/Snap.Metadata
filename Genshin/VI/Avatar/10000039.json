@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "Tuyệt Phẩm Tuyển Chọn",
+        "Description": "Trong 20s sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Móng Mèo Lạnh Giá</color>, khi nhân vật trong đội kích hoạt phản ứng Siêu Dẫn, Tinh-Siêu Dẫn, Diona sẽ đồng thời bắn thêm 3 <color=#FFD780FF>Móng Mèo Lạnh Giá</color>. <color=#FFD780FF>Móng Mèo Lạnh Giá</color> bắn ra theo cách này sẽ không tạo ra hạt nhân nguyên tố, cũng không tạo ra khiên khi trúng kẻ địch. Hiệu quả này mỗi 3.5s tối đa kích hoạt một lần.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Diona sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "Khi Quán Đuôi Mèo Đóng Cửa",
         "Description": "Khi ở trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ nhận được các hiệu quả dưới đây tùy theo HP nhân vật:\n·HP thấp hơn hoặc bằng 50%, tăng nhận trị liệu 30%; \n·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.",
+        "SpecialDescription": "Khi nhân vật ở trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ nhận được các hiệu quả dưới đây tùy theo mức HP:\n·Khi HP thấp hơn hoặc bằng 50%, tăng 30% lượng trị liệu nhận được.\n·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.\n\nNgoài ra, Diona sẽ tăng 25% Giới Hạn HP.\n\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Nhân vật trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ tăng 40% sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

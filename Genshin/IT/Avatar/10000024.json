@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polaris",
+        "Description": "#Tenendo premuta l'abilità elementale <color=#FFD780FF>Governamaree</color> si ottiene 1 accumulo di potere ogni 0,8{NON_BREAK_SPACE}s, anche quando non si è sotto attacco. Questo aumenta i DAN inflitti quando si sprigiona l'abilità elementale.\nInoltre, tenere premuto in maniera prolungata <color=#FFD780FF>Governamaree</color> e colpire l'avversario conferisce degli effetti positivi aggiuntivi in base al potere accumulato. Ogni accumulo attivo riduce il TdR dell'abilità elementale di Beidou di 4{NON_BREAK_SPACE}s, e rigenera 8 della sua energia elementale. Quest'effetto può attivarsi una volta ogni 15{NON_BREAK_SPACE}s.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Beidou entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Fine del male",
         "Description": "Finché <color=#FFD780FF>Tempesta tagliente</color> è attiva, la <color=#FFACFFFF>RES a Electro</color> degli avversari circostanti si riduce di un 15%.",
+        "SpecialDescription": "Mentre <color=#FFD780FF>Tempesta tagliente</color> è attiva, la <color=#FFACFFFF>RES a Electro</color> degli avversari vicini si riduce di un 15%.\n\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, la <color=#99FFFFFF>RES a Cryo</color> degli avversari vicini si riduce di un 15% e la maestria elementale del membro attivo attuale aumenta di 200 mentre Tempesta tagliente è attiva.",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

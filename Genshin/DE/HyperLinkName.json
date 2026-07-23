@@ -472,7 +472,7 @@
   {
     "Id": 11310002,
     "Name": "Führung der Theosis",
-    "Description": "#Verstärkte Version des Effekts <color=#FFD780FF>Gabe der Kenosis</color>, die den ANG zusätzlich um {PARAM#P1312101|3S1} Pkt. erhöhen kann.\nWenn das Aufstiegstalent „Methexis“ freigeschaltet ist und eine der „Beobachtungs“-Bedingungen erfüllt ist, wird der Effekt <color=#FFD780FF>Gabe der Kenosis</color> für die restliche Dauer zu <color=#FFD780FF>Führung der Theosis</color> hochgestuft:\n· Eine andere beobachtete Figur bleibt länger als {PARAM#P1312101|2S1}{NON_BREAK_SPACE}s auf dem Feld.\n· Bei einer anderen beobachteten Figur handelt es sich um eine Hexerei-Figur.\n\nStuft zudem, nachdem das Aufstiegstalent „Philokalie“ freigeschaltet wurde und ein aktuelles Truppenmitglied in der Nähe einem Gegner mit Elementar-Schaden getroffen hat, Nicoles eigene <color=#FFD780FF>Gabe der Kenosis</color> innerhalb von {PARAM#P1312201|1S1}{NON_BREAK_SPACE}s zu <color=#FFD780FF>Führung der Theosis</color> hoch.\n\nAbgesehen von Nicole wird <color=#FFD780FF>Führung der Theosis</color> aller anderen Figuren nach dem Verlassen des Felds wieder auf <color=#FFD780FF>Gabe der Kenosis</color> zurückgestuft."
+    "Description": "#Verstärkte Version des Effekts <color=#FFD780FF>Gabe der Kenosis</color>, die den ANG zusätzlich um {PARAM#P1312101|3S1} Pkt. erhöhen kann.\nWenn das Aufstiegstalent „Methexis“ freigeschaltet ist und eine der „Beobachtungs“-Bedingungen erfüllt ist, wird der Effekt <color=#FFD780FF>Gabe der Kenosis</color> für die restliche Dauer zu <color=#FFD780FF>Führung der Theosis</color> hochgestuft:\n· Eine andere beobachtete Figur bleibt länger als {PARAM#P1312101|2S1}{NON_BREAK_SPACE}s auf dem Feld.\n· Bei einer anderen beobachteten Figur handelt es sich um eine Hexerei-Figur.\n\nStuft zudem, nachdem das Aufstiegstalent „Philokalie“ freigeschaltet wurde und ein aktuelles Truppenmitglied in der Nähe einem Gegner mit Elementar-Schaden getroffen hat, Nicoles eigene <color=#FFD780FF>Gabe der Kenosis</color> für {PARAM#P1312201|1S1}{NON_BREAK_SPACE}s zu <color=#FFD780FF>Führung der Theosis</color> hoch.\n\nAbgesehen von Nicole wird <color=#FFD780FF>Führung der Theosis</color> aller anderen Figuren nach dem Verlassen des Felds wieder auf <color=#FFD780FF>Gabe der Kenosis</color> zurückgestuft."
   },
   {
     "Id": 11320001,
@@ -488,5 +488,20 @@
     "Id": 11320003,
     "Name": "Herzschlag in Eintracht",
     "Description": "Verleiht, wenn Prune einen Gegner mit dem <color=#FFD780FF>Hammer des Jagdschwurs</color>, der bereits eine Elementarumwandlung durchlaufen hat, trifft, anderen Truppenmitgliedern in der Nähe den Effekt Trommelwirbel: Erhöht den durch den Angriff verursachten Schaden basierend auf Prunes ANG."
+  },
+  {
+    "Id": 11330001,
+    "Name": "Berechnung",
+    "Description": "Der Modus, in den Fagio beim Ausführen heftiger Schläge wechselt.\nIn diesem Modus führt Fagio einen Streuangriff auf Gegner vorne aus und feuert in bestimmten zeitlichen Abständen einen Kondensationsstrahl ab, der <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wandelt den Kondensationsstrahl um und verursacht stattdessen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird."
+  },
+  {
+    "Id": 11330002,
+    "Name": "Berechnungsleistung",
+    "Description": "Erhöht, solange Fagio sich im Modus <color=#FFD780FF>Berechnung</color> befindet, ihre <color=#FFD780FF>Berechnungsleistung</color> kontinuierlich. Erreicht die Berechnungsleistung die Obergrenze, kann der Modus „Berechnung“ weder aufrechterhalten noch erneut betreten werden."
+  },
+  {
+    "Id": 11330003,
+    "Name": "Sternglanzfeld",
+    "Description": "Verwandelt beim Auslösen der Reaktion Stellar-Supraleiter den umliegenden Bereich kurzzeitig in ein <color=#FFD780FF>Sternglanzfeld</color>. Befindet sich eine bestimmte Figur innerhalb des Sternglanzfelds, tritt sie in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> ein, in dem ihre verschiedenen Fähigkeiten jeweils entsprechende Verstärkungseffekte erhalten."
   }
 ]

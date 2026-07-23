@@ -511,6 +511,30 @@
         "Icon": "Skill_S_Beidou_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 2424,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 242401,
+              "Level": 1,
+              "Parameters": [
+                4,
+                8,
+                15
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 242401,
+        "Name": "Polaris",
+        "Description": "#เมื่อ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}เพื่อปล่อยสกิลธาตุ <color=#FFD780FF>Tidecaller</color> แม้จะไม่ถูกโจมตี ก็จะสะสมพลัง 1 ชั้นโดยอัตโนมัติในทุก 0.8 วินาที เพื่อเพิ่มความเสียหายที่สร้างเมื่อปล่อยสกิล\nนอกจากนี้ เมื่อ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}ปล่อย <color=#FFD780FF>Tidecaller</color> โจมตีโดนศัตรู จะได้รับเอฟเฟกต์บัฟเพิ่มเติมตามพลังที่สะสมไว้: เมื่อสะสมพลังทุก 1 ชั้น จะทำให้ช่วงเวลาคูลดาวน์ของสกิลธาตุลดลง 4 วินาที และฟื้นฟูพลังงานธาตุให้ตัวเอง 8 หน่วย เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งทุก 15 วินาที\nนอกจากนี้ เมื่ออยู่ใน{LINK#N11330003}<color=#FFD780FF>เขตแดนดาราฉาย</color>{/LINK} Beidou จะเข้าสู่สถานะ <color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>",
+        "Icon": "UI_Talent_S_Beidou_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 2439,
       "Proud": {
@@ -814,6 +838,7 @@
         "Id": 246,
         "Name": "Bane of Evil",
         "Description": "ระหว่างช่วงเวลาของ <color=#FFD780FF>Stormbreaker</color> <color=#FFACFFFF>ความต้านทานไฟฟ้า</color>ของศัตรูโดยรอบ จะลดลง 15%",
+        "SpecialDescription": "ในช่วงเวลาต่อเนื่องของ <color=#FFD780FF>Stormbreaker</color> <color=#FFACFFFF>ความต้านทานไฟฟ้า</color>ของศัตรูโดยรอบจะลดลง 15%\n\n<color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>: ในช่วงเวลาต่อเนื่องของ Stormbreaker <color=#99FFFFFF>ความต้านทานน้ำแข็ง</color>ของศัตรูที่อยู่ใกล้เคียงจะลดลงอีก 15% และความชำนาญธาตุของตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นจะเพิ่มขึ้น 200 หน่วย",
         "Icon": "UI_Talent_S_Beidou_04"
       }
     ]

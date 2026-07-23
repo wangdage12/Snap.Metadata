@@ -320,11 +320,37 @@
               ]
             }
           ],
+          "DescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "SpecialDescriptionList": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
           "Display": 0
         },
         "Id": 10221,
         "Name": "Divine Marksmanship",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 6 tembakan panah berturut-turut menggunakan busur.\n\n<color=#FFD780FF>Charged Attack</color>\nMelancarkan sebuah <color=#FFD780FF>Serangan Membidik</color> yang lebih akurat untuk mengakibatkan DMG yang lebih besar.\nSaat membidik, angin akan berkumpul di ujung anak panah. Panah dengan angin yang terkumpul penuh akan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG Area saat mendarat.",
+        "SpecialDescription": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 6 tembakan panah berturut-turut menggunakan busur.\n\n<color=#FFD780FF>Charged Attack</color>\nMelancarkan sebuah <color=#FFD780FF>Serangan Membidik</color> yang lebih akurat untuk mengakibatkan DMG yang lebih besar.\nSaat membidik, angin akan berkumpul di ujung anak panah. Panah dengan angin yang terkumpul penuh akan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG Area saat mendarat.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSelama Stormeye yang dihasilkan oleh Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color> aktif, Venti akan mendapatkan efek penguatan tambahan:\n·Normal Attack Venti akan dikonversi menjadi tembakan <color=#FFD780FF>Windsunder Arrows</color> yang bisa menembus musuh dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> yang lebih besar terhadap musuh di sepanjang jalur.\n·Saat Normal Attack Venti mengenai musuh, durasi Stormeye diperpanjang 1 detik dan cooldown-nya diperpanjang 0,5 detik. Efek ini dapat terpicu sekali setiap 0,1 detik. Dapat terpicu maksimum 2 kali untuk setiap Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>.",
         "Icon": "Skill_A_02"
       },
       {
@@ -770,12 +796,14 @@
         "Id": 221,
         "Name": "Splitting Gales",
         "Description": "Menembakkan 2 anak panah tambahan setiap <color=#FFD780FF>Serangan Membidik</color>, yang masing-masing mengakibatkan 33% DMG dari panah utama.",
+        "SpecialDescription": "<color=#FFD780FF>Aimed Shot</color> akan menembakkan dua anak panah tambahan, masing-masingnya mengakibatkan 33% DMG awal.\nSelain itu, <color=#FFD780FF>Windsunder Arrow</color> juga akan menembakkan dua anak panah tambahan yang bisa mengejar musuh, masing-masingnya mengakibatkan 20% DMG panah awal. Efek ini dapat terpicu sekali setiap 0,25 detik.",
         "Icon": "UI_Talent_S_Venti_01"
       },
       {
         "Id": 222,
         "Name": "Breeze of Reminiscence",
         "Description": "<color=#FFD780FF>Skyward Sonnet</color> mengurangi 12% <color=#80FFD7FF>Anemo RES</color> dan Physical RES musuh selama 10 detik.\n<color=#80FFD7FF>Anemo RES</color> dan Physical RES musuh yang terhempas oleh <color=#FFD780FF>Skyward Sonnet</color> berkurang lagi 12% saat di udara.",
+        "SpecialDescription": "<color=#FFD780FF>Skyward Sonnet</color> akan membuat <color=#80FFD7FF>Anemo RES</color> dan Physical RES musuh berkurang 24% selama 10 detik.\nSelain itu, setelah melancarkan Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>, Venti akan mendapatkan efek <color=#FFD780FF>Wherever a Breeze Blows</color> dan cooldown <color=#FFD780FF>Skyward Sonnet</color> langsung selesai. Setelah <color=#FFD780FF>Windsunder Arrow</color> mengenai musuh, Venti juga memiliki 25% kemungkinan untuk mendapatkan efek <color=#FFD780FF>Wherever a Breeze Blows</color>.\n\n<color=#FFD780FF>Wherever a Breeze Blows</color>\nSaat menekan Elemental Skill <color=#FFD780FF>Skyward Sonnet</color>, langsung mengakibatkan DMG sebesar 300% DMG awal. Efek ini berlangsung selama 15 detik, dan akan dihapus setelah Venti melancarkan Elemental Skill <color=#FFD780FF>Skyward Sonnet</color> dengan Mode Tekan.",
         "Icon": "UI_Talent_S_Venti_02"
       },
       {
@@ -792,6 +820,7 @@
         "Id": 224,
         "Name": "Hurricane of Freedom",
         "Description": "Saat Venti mengambil sebuah Elemental Orb atau Particle, dia akan menerima 25% <color=#80FFD7FF>Anemo DMG Bonus</color> selama 10 detik.",
+        "SpecialDescription": "Setelah Venti melancarkan Elemental Skill <color=#FFD780FF>Skyward Sonnet</color> atau Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>, Venti dan Karakter aktif lain di dalam party mendapatkan 25% <color=#80FFD7FF>Anemo DMG Bonus</color> selama 10 detik.",
         "Icon": "UI_Talent_S_Venti_03"
       },
       {
@@ -808,6 +837,7 @@
         "Id": 226,
         "Name": "Storm of Defiance",
         "Description": "Musuh yang menerima DMG dari <color=#FFD780FF>Wind's Grand Ode</color> akan mendapat pengurangan <color=#80FFD7FF>Anemo RES</color> sebanyak 20%.\nJika Elemental Absorption muncul, maka RES terhadap elemen yang bersangkutan juga berkurang 20%.",
+        "SpecialDescription": "<color=#80FFD7FF>Anemo RES</color> musuh yang terkena DMG <color=#FFD780FF>Wind's Grand Ode</color> berkurang 20%.\nJika terjadi Elemental Absorption, maka RES elemen tersebut juga berkurang 20%.\nSelain itu, DMG yang diakibatkan Venti terhadap musuh tersebut akan mendapatkan 100% Bonus CRIT DMG.",
         "Icon": "UI_Talent_S_Venti_04"
       }
     ]

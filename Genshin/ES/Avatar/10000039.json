@@ -510,6 +510,29 @@
         "Icon": "Skill_S_Diona_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 3951,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 395101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                3.5
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 395101,
+        "Name": "Selección exquisita",
+        "Description": "#Durante 20{NON_BREAK_SPACE}s después de usar la Habilidad Elemental, <color=#FFD780FF>Zarpazo helado</color>, Diona disparará 3 <color=#FFD780FF>garras heladas</color> adicionales cuando un personaje del equipo cause una reacción de Superconductor o Superconductor Estelar. Las <color=#FFD780FF>garras heladas</color> disparadas de esta forma no generan partículas elementales ni crean un escudo al golpear a un enemigo. Este efecto solo se puede activar una vez cada 3.5{NON_BREAK_SPACE}s.\nAdemás, Diona entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Diona_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 3939,
       "Proud": {
@@ -830,6 +853,7 @@
         "Id": 396,
         "Name": "Hora de cerrar",
         "Description": "Los personajes que estén dentro del área de <color=#FFD780FF>Cóctel asesino</color> obtienen uno de los siguientes efectos dependiendo de su Vida:\n·Si su Vida es igual o inferior al 50%, aumenta su Bono de Curación recibida en un 30%.\n·Si su vida es superior al 50%, aumenta la Maestría Elemental en 200 pts.",
+        "SpecialDescription": "#Los personajes que están dentro del área de <color=#FFD780FF>Cóctel asesino</color> obtienen uno de los siguientes efectos dependiendo de su Vida:\n·Si su Vida es igual o inferior al 50%, aumenta su Bono de Curación recibida en un 30%.\n·Si su vida es superior al 50%, aumenta su Maestría Elemental en 200{NON_BREAK_SPACE}pts.\n\nAdemás, la Vida Máx. de Diona aumenta en un 25%.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl daño de Superconductor y Superconductor Estelar infligido por los personajes dentro del área de <color=#FFD780FF>Cóctel asesino</color> aumenta en un 40%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

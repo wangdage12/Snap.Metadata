@@ -539,6 +539,33 @@
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 8651,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 865101,
+              "Level": 1,
+              "Parameters": [
+                0.6,
+                0.3,
+                2,
+                0.3,
+                -0.4,
+                -0.2
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 865101,
+        "Name": "Alles Unrecht wird ans Licht kommen",
+        "Description": "#<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Ändert den Effekt des Aufstiegstalents „Tag des Plädoyers der Gerechtigkeit“ zu Folgendem:\nVerleiht Wriothesley, wenn seine LP unter 60{NON_BREAK_SPACE}% liegen, „Gebot der Gnade – Offenbarung“ und verstärkt den nächsten heftigen Schlag von <color=#FFD780FF>Standardangriff – Flinke Frostfaust</color> zu „Himmelsglanz – Gefrierende Sprungfaust“: Verbraucht keine Ausdauer und stellt Wriothesley bei Treffern LP in Höhe von 30{NON_BREAK_SPACE}% seiner max. LP wieder her. Auf diese Weise können höchstens einmal alle 2{NON_BREAK_SPACE}s LP für Wriothesley wiederhergestellt werden.\nDarüber hinaus verursachen der dritte und fünfte Schlag der durch <color=#FFD780FF>Eiskalte Bestrafung</color> verstärkten Sturmfäuste jeweils 60{NON_BREAK_SPACE}% / 80{NON_BREAK_SPACE}% des ursprünglichen <color=#99FFFFFF>Kryo-Schadens</color>. „Himmelsglanz – Gefrierende Sprungfaust“ verursacht 100{NON_BREAK_SPACE}% des ursprünglichen <color=#99FFFFFF>Kryo-Flächenschadens</color>. Der oben genannte Schaden gilt als Schaden durch die Reaktion Stellar-Supraleiter. Erhöht den von Wriothesley verursachten Schaden durch die Reaktion Stellar-Supraleiter um 30{NON_BREAK_SPACE}%.\nVersetzt Wriothesley zudem, wenn er sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Icon": "UI_Talent_S_Wriothesley_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 8639,
       "Proud": {
@@ -792,12 +819,14 @@
         "Id": 861,
         "Name": "Angst den Übeltätern",
         "Description": "#Ändert den Effekt „Gebot der Gnade“ von dem Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ wie folgt:\nWriothesley erhält „Gebot der Gnade“, sobald der fünfte Angriff einer Kombo seiner Sturmfäuste trifft, während seine LP unter 60{NON_BREAK_SPACE}% liegen oder er sich im Zustand „Eiskalte Bestrafung“ von <color=#FFD780FF>Eiszahn-Ansturm</color> befindet. 2,5{NON_BREAK_SPACE}s Abklingzeit.\n\nAußerdem wird Rüge – Gefrierende Sprungfaust wie folgt verstärkt:\n· Verursachter Schaden wird weiter auf bis zu 200{NON_BREAK_SPACE}% erhöht.\n· Verlängert die Dauer von „Eiskalter Bestrafung“ um 4{NON_BREAK_SPACE}s, wenn in diesem Zustand ein Treffer gelandet wird. Die Dauer von „Eiskalter Bestrafung“ kann während der Dauer eines Zustands nur einmal auf diese Weise verlängert werden.\n\nDas Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.",
+        "SpecialDescription": "#Ändert den Effekt „Gebot der Gnade“ von dem Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ wie folgt:\nWriothesley erhält „Gebot der Gnade“, sobald der fünfte Angriff einer Kombo seiner Sturmfäuste trifft, während seine LP unter 60{NON_BREAK_SPACE}% liegen oder er sich im Zustand „Eiskalte Bestrafung“ von <color=#FFD780FF>Eiszahn-Ansturm</color> befindet. 2,5{NON_BREAK_SPACE}s Abklingzeit.\n\nAußerdem wird „Rüge – Gefrierende Sprungfaust“ wie folgt verstärkt:\n· Der SCH-Bonus des verursachten Schadens wird weiter auf 200{NON_BREAK_SPACE}% erhöht.\n· Verlängert die Dauer von „Eiskalter Bestrafung“ um 4{NON_BREAK_SPACE}s, wenn in diesem Zustand ein Treffer gelandet wird.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>:\n· Erhöht nach dem Treffen eines Gegners mit „Himmelsglanz – Gefrierende Sprungfaust“ innerhalb von 5{NON_BREAK_SPACE}s, wenn das nächste Mal ein durch Eiskalte Bestrafung verstärkter fünfter Schlag von „Sturmfäuste“ angewendet wird, den verursachten Schaden um 50{NON_BREAK_SPACE}%.\n· Erhöht innerhalb von 5{NON_BREAK_SPACE}s, nachdem ein durch Eiskalte Bestrafung verstärkter fünfter Schlag von „Sturmfäuste“ einen Gegner getroffen hat, den Schaden von Himmelsglanz – Gefrierende Sprungfaust um 50{NON_BREAK_SPACE}%.\n· Verlängert, wenn ein Gegner mit „Himmelsglanz – Gefrierende Sprungfaust“ getroffen wird, während Wriothesley sich im Zustand Eiskalte Bestrafung befindet, die Dauer dieses Zustands um 4{NON_BREAK_SPACE}s.\n\nDie Dauer von Eiskalte Bestrafung kann während der Dauer dieses Zustands nur einmal auf oben genannte Weise verlängert werden.\n\nDas Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.",
         "Icon": "UI_Talent_S_Wriothesley_01"
       },
       {
         "Id": 862,
         "Name": "Fesseln den Hochmütigen",
         "Description": "#Erhöht beim Auslösen von <color=#FFD780FF>Schwarzgoldener Wolfsbiss</color> den verursachten Schaden für jede Stapelung von „Erlass der Anklage“ des Aufstiegstalents „Stunde der Vergeltung der Sünde“ um 40{NON_BREAK_SPACE}%.\nDas Aufstiegstalent „Stunde der Vergeltung der Sünde“ muss zuerst freigeschaltet werden.",
+        "SpecialDescription": "#Erhöht beim Anwenden von <color=#FFD780FF>Schwarzgoldener Wolfsbiss</color> für jede Stapelung des Effekts „Erlass der Anklage“ des Aufstiegstalents „Stunde der Vergeltung der Sünde“ den verursachten Schaden um 40{NON_BREAK_SPACE}%.\n\nWenn „Erlass der Anklage“ zudem fünf Stapelungen angesammelt hat und Wriothesley:\n· sich im Zustand <color=#FFD780FF>Leuchten –Stellar-Supraleiter</color> befindet: Verstärkt das Talent „Alles Unrecht wird ans Licht kommen“: Der dritte und fünfte Schlag der durch <color=#FFD780FF>Eiskalte Bestrafung</color> verstärkten Sturmfäuste verursachen jeweils 90{NON_BREAK_SPACE}% / 120{NON_BREAK_SPACE}% des ursprünglichen <color=#99FFFFFF>Kryo-Schadens</color>, und „Himmelsglanz – Gefrierende Sprungfaust“ verursacht 150{NON_BREAK_SPACE}% des ursprünglichen <color=#99FFFFFF>Kryo-Flächenschadens</color>. Der oben genannte Schaden wird als Schaden durch die Reaktion Stellar-Supraleiter gewertet.\n· sich nicht im Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> befindet: Standardangriffe und heftige Schläge verursachen jeweils 125{NON_BREAK_SPACE}% / 130{NON_BREAK_SPACE}% des ursprünglichen Schadens.\n\nDas Aufstiegstalent „Stunde der Vergeltung der Sünde“ muss freigeschaltet werden.",
         "Icon": "UI_Talent_S_Wriothesley_02"
       },
       {
@@ -814,6 +843,7 @@
         "Id": 864,
         "Name": "Erlösung den Leidenden",
         "Description": "#Erhöht die Menge an LP, die Wriothesley durch Rüge – Gefrierende Sprungfaust wiederherstellt, auf 50{NON_BREAK_SPACE}% seiner max. LP. Das Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.\nAußerdem treten unterschiedliche Effekte in Kraft, wenn die so wiederhergestellten LP einen Überschuss aufweisen, abhängig davon, ob Wriothesley die aktuelle Figur ist oder nicht: Ist Wriothesley die aktuelle Figur, erhöht sich seine Angriffs-GSW 4{NON_BREAK_SPACE}s lang um 20{NON_BREAK_SPACE}%; befindet er sich inaktiv in der Truppe, erhöht sich die Angriffs-GSW aller eigenen Truppenmitglieder 6{NON_BREAK_SPACE}s lang um 10{NON_BREAK_SPACE}%. Die beiden Boni der Angriffs-GSW können nicht gestapelt werden.",
+        "SpecialDescription": "#Erhöht die Menge an LP, die Wriothesley durch Rüge – Gefrierende Sprungfaust wiederherstellt, auf 50{NON_BREAK_SPACE}% seiner max. LP. Das Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.\nAußerdem treten unterschiedliche Effekte in Kraft, wenn durch Heilung wiederhergestellte LP einen Überschuss aufweisen, abhängig davon, ob Wriothesley die aktuelle Figur ist oder nicht: Ist Wriothesley die aktuelle Figur, erhöht sich seine Angriffs-GSW 4{NON_BREAK_SPACE}s lang um 20{NON_BREAK_SPACE}%; befindet er sich inaktiv in der Truppe, erhöht sich die Angriffs-GSW aller eigenen Truppenmitglieder 6{NON_BREAK_SPACE}s lang um 10{NON_BREAK_SPACE}%. Die beiden Boni der Angriffs-GSW können nicht gestapelt werden.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Ersetzt oben genannten Effekt durch Folgenden:\nVerringert den Schaden, den Wriothesley erleidet, um 25{NON_BREAK_SPACE}%, und erhöht seine Angriffs-GSW um 20{NON_BREAK_SPACE}%; erhöht die Angriffs-GSW von Truppenmitgliedern in der Nähe um 10{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
       {
@@ -830,6 +860,7 @@
         "Id": 866,
         "Name": "Trost den Unschuldigen",
         "Description": "#Erhöht die KT von Rüge – Gefrierende Sprungfaust um 10{NON_BREAK_SPACE}%, den kritischen Schaden davon um 80{NON_BREAK_SPACE}% und kann zusätzlich Eiszapfen erschaffen, die 100{NON_BREAK_SPACE}% des ursprünglichen Schadens als <color=#99FFFFFF>Kryo-Schaden</color> verursachen. Der auf diese Weise verursachte Schaden wird als Schaden des heftigen Schlags betrachtet.\nDas Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.",
+        "SpecialDescription": "#Erhöht die KT von „Rüge – Gefrierende Sprungfaust“ um 10{NON_BREAK_SPACE}%, den KSCH davon um 80{NON_BREAK_SPACE}% und „Rüge – Gefrierende Sprungfaust“ kann zusätzlich Eiszapfen erschaffen, die 100{NON_BREAK_SPACE}% des ursprünglichen Schadens als <color=#99FFFFFF>Kryo-Schaden</color> verursachen. Der auf diese Weise verursachte Schaden wird als Schaden des heftigen Schlags betrachtet.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Ändert den oben genannten Effekt zu folgendem:\n· Erhöht die KT der durch <color=#FFD780FF>Eiskalte Bestrafung</color> verstärkten Sturmfäuste und von „Himmelsglanz – Gefrierende Sprungfaust“ um 10{NON_BREAK_SPACE}% sowie deren KSCH um 80{NON_BREAK_SPACE}%. Außerdem können beim fünften Schlag der durch <color=#FFD780FF>Eiskalte Bestrafung</color> verstärkten Sturmfäuste und bei „Himmelsglanz – Gefrierende Sprungfaust“ zusätzlich Eiszapfen generiert werden, die 60{NON_BREAK_SPACE}% des ursprünglichen <color=#99FFFFFF>Kryo-Schadens</color> verursachen. Hierdurch verursachter Schaden gilt als Schaden durch die Reaktion Stellar-Supraleiter.\n\nDas Aufstiegstalent „Tag des Plädoyers der Gerechtigkeit“ muss freigeschaltet werden.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

@@ -3,7 +3,7 @@
     "Id": 0,
     "DescribeId": 90903,
     "Name": "",
-    "Title": "Thôn Tinh Kình Ngư",
+    "Title": "Tàu Lục Chiến - Mẫu Tiên Phong Đa Năng",
     "Icon": "UI_MonsterIcon_Hili_None_01",
     "Type": 0,
     "Arkhe": 0
@@ -523,19 +523,19 @@
   },
   {
     "Id": 0,
-    "DescribeId": 52106,
-    "Name": "Eremite - Phá Trận",
-    "Title": "Maguu Kenki",
-    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
+    "DescribeId": 60509,
+    "Name": "Rồng Biển Sâu Con - Nguyên Thủy",
+    "Title": "Rồng Biển Sâu - Nguyên Thủy",
+    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
     "Type": 0,
     "Arkhe": 0
   },
   {
     "Id": 0,
-    "DescribeId": 60509,
-    "Name": "Rồng Biển Sâu Con - Nguyên Thủy",
-    "Title": "Rồng Biển Sâu - Nguyên Thủy",
-    "Icon": "UI_MonsterIcon_Drake_Deepsea_Water",
+    "DescribeId": 52106,
+    "Name": "Eremite - Phá Trận",
+    "Title": "Maguu Kenki",
+    "Icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
     "Type": 0,
     "Arkhe": 0
   },
@@ -1574,6 +1574,43 @@
       {
         "Type": 4,
         "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 20012302,
+    "DescribeId": 123,
+    "MonsterName": "Slime_Moon_01",
+    "Name": "Slime Cầu Vồng Bách Chiến",
+    "Title": "Slime Cầu Vồng Bách Chiến",
+    "Icon": "UI_MonsterIcon_Slime_Moon_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 418.3872,
+      "AttackBase": 82.896,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
       },
       {
         "Type": 7,
@@ -4396,89 +4433,6 @@
     "BaseValue": {
       "HpBase": 108.672,
       "AttackBase": 75.36,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 2
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22020201,
-    "DescribeId": 20202,
-    "MonsterName": "Invoker_Herald_Ice_01",
-    "Name": "Sứ Đồ Vực Sâu - Sương Lạc",
-    "Title": "Sứ Giả Băng Kiếm",
-    "Description": "Ma vật dùng lưỡi kiếm hàn băng sắc nhọn để chiến đấu, trực thuộc \"Giáo Đoàn Vực Sâu\".\nNếu đã có thánh đồ truyền bá và ca tụng phúc âm thâm thúy, vậy thì cũng có sứ giả cải chính những lời ca tụng lệch lạc, xóa đi những âm tiết không hài hòa.\nNgười ta thường nói, thanh kiếm có thể xuyên thấu cơ thể sẽ giá lạnh như băng, nhưng loại băng giá đen tối như thế này nghe nói ngay cả linh hồn cũng có thể đóng băng.",
-    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "剧情任务-脱战逻辑标签",
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 1
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 22030101,
-    "DescribeId": 20301,
-    "MonsterName": "Invoker_Deacon_Electric_01",
-    "Name": "Học Sĩ Vực Sâu - Tử Điện",
-    "Title": "Sứ Giả Phúc Âm Giáng Tử Điện",
-    "Description": "Quái vật nơi vực thẳm tối đen như mực, phục vụ cho \"Giáo Đoàn Vực Sâu\" và có thể điều khiển sấm sét.\nChúng là những nhà thuyết giáo, học sĩ của Vực Sâu sử dụng giông tố sấm sét truyền bá trí tuệ đen tối đến những kẻ vô thần, dùng tia điện tím như một lời thông báo cho sự tồn tại của sức mạnh to lớn đang ăn mòn trí tuệ loài người.",
-    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
-    "Type": 1,
-    "Arkhe": 0,
-    "Affixes": [
-      "咏者使徒通用爬塔开盾前挣脱词缀"
-    ],
-    "BaseValue": {
-      "HpBase": 108.672,
-      "AttackBase": 56.52,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -8198,6 +8152,84 @@
     "BaseValue": {
       "HpBase": 293.4144,
       "AttackBase": 100.48,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090601,
+    "DescribeId": 40906,
+    "MonsterName": "Monitor_01",
+    "Name": "Mảng Điều Hành Bí Ẩn Tiên Phong",
+    "Title": "Kẻ Độc Hành Ánh Sáng Trỗi Dậy",
+    "Description": "Cỗ máy cổ xưa mắc kẹt trong di tích trên bề mặt mặt trăng. Trong những năm tháng dài đằng đẵng, dù là cỗ máy kiên cố và đáng tin cậy đến đâu, cuối cùng cũng không tránh khỏi việc đánh mất mục đích ban đầu mà đấng tạo hóa đã trao, chỉ còn biết tấn công và tiêu diệt mọi sinh linh dám bước chân vào vùng đất mà chúng canh giữ.\nTrong ghi chép của những nền văn minh cổ đại đã lụi tàn, những cỗ máy mất kiểm soát này từng được gọi là \"Ur-Namrasit-Tilimtu-Babbar\", có nghĩa là \"kẻ thắp sáng bóng tối\". Mang theo khát vọng về biển sao vô tận, những người dẫn dắt \"Kẻ Tiên Phong\" đã khắc ghi những lời chân thành nhất lên hoa văn bằng vàng, hy vọng rằng những người kế thừa mai sau, với sự trợ giúp của những cộng sự này, sẽ có thể thắp lên tia sáng thực sự soi rọi cả vũ trụ.\nNhưng ánh sáng rốt cuộc chẳng vì ai mà bừng lên, những cơ quan mang tên \"Điều Hành\" cũng chẳng bao giờ chờ được người chủ mà chúng lẽ ra phải phục vụ. Những gì còn lại trong phế tích ngày nay, âu cũng chỉ là tàn dư lý tưởng cuối cùng đã mất kiểm soát từ lâu.",
+    "Icon": "UI_MonsterIcon_Monitor_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 114.1056,
+      "AttackBase": 75.36,
+      "DefenseBase": 500,
+      "FireSubHurt": 0.1,
+      "GrassSubHurt": 0.1,
+      "WaterSubHurt": 0.1,
+      "ElecSubHurt": 0.1,
+      "WindSubHurt": 0.1,
+      "IceSubHurt": 0.1,
+      "RockSubHurt": 0.1,
+      "PhysicalSubHurt": 0.1
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 24090701,
+    "DescribeId": 40907,
+    "MonsterName": "Monitor_02",
+    "Name": "Mảng Điều Hành Bí Ẩn Tiên Phong Bách Chiến",
+    "Title": "Mảng Điều Hành Bí Ẩn Tiên Phong Bách Chiến",
+    "Icon": "UI_MonsterIcon_Monitor_02",
+    "Type": 1,
+    "Arkhe": 0,
+    "Affixes": [
+      "地方传奇标记"
+    ],
+    "BaseValue": {
+      "HpBase": 1222.56,
+      "AttackBase": 138.16,
       "DefenseBase": 500,
       "FireSubHurt": 0.1,
       "GrassSubHurt": 0.1,
@@ -16308,82 +16340,6 @@
     ]
   },
   {
-    "Id": 26260101,
-    "DescribeId": 62601,
-    "MonsterName": "Wayob_Drillhead_01",
-    "Name": "Hóa Thân Wayob - Hang Đá",
-    "Title": "Hóa Thân Wayob - Nghịch Lưu",
-    "Description": "Wayob mà bộ tộc Con Của Tiếng Vang tin tưởng và tôn sùng, mượn sức mạnh của vật tổ và Dạ Hồn hiện thân trên mặt đất. Trong nhận thức của người dân bộ tộc Natlan, Wayob sinh sống tại Vương Quốc Dạ Thần, và không có hình dạng cố định, vì Wayob có thể nương nhờ trên bất kỳ sự vật nào để chỉ dẫn cho người dân lạc lối trong bộ tộc. Và Hóa Thân Wayob lại càng đặc biệt hơn, khi mượn hình dạng của vật tổ để xuất hiện, thường sẽ mang theo sứ mệnh quan trọng.\nNgười trong Con Của Tiếng Vang tin rằng Wayob của họ có sức mạnh tạo nên núi cao và thung lũng, có thể kiểm soát tiếng vang khi núi đá ma sát vào nhau.",
-    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.1,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.5,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
-    "Id": 26260201,
-    "DescribeId": 62602,
-    "MonsterName": "Wayob_Mosasaurus_01",
-    "Name": "Hóa Thân Wayob - Nghịch Lưu",
-    "Title": "Hóa Thân Wayob - Hang Đá",
-    "Description": "Wayob mà bộ tộc Cư Dân Suối Nước tin tưởng và tôn sùng, mượn sức mạnh của vật tổ và Dạ Hồn hiện thân trên mặt đất.\nWayob chính là tín ngưỡng dần hình thành sau khi người Natlan trao đổi cùng Vương Quốc Dạ Thần, lấy chủ thể từ vật tổ obsidian và bộ tộc. Đó là ý thức chiêm nghiệm tập thể, cũng là nơi mà linh hồn tổ tiên trở về.\nNgười của Cư Dân Suối Nước tin rằng Wayob của họ có sức mạnh điều khiển thủy triều và sóng biển, có thể kiểm soát sự thay đổi của dòng chảy cũng như nước lặng.",
-    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
-    "Type": 1,
-    "Arkhe": 0,
-    "BaseValue": {
-      "HpBase": 95.088,
-      "AttackBase": 57.776,
-      "DefenseBase": 500,
-      "FireSubHurt": 0.1,
-      "GrassSubHurt": 0.1,
-      "WaterSubHurt": 0.5,
-      "ElecSubHurt": 0.1,
-      "WindSubHurt": 0.1,
-      "IceSubHurt": 0.1,
-      "RockSubHurt": 0.1,
-      "PhysicalSubHurt": 0.1
-    },
-    "GrowCurves": [
-      {
-        "Type": 1,
-        "Value": 23
-      },
-      {
-        "Type": 4,
-        "Value": 24
-      },
-      {
-        "Type": 7,
-        "Value": 12
-      }
-    ]
-  },
-  {
     "Id": 26260301,
     "DescribeId": 62603,
     "MonsterName": "Wayob_Hookwalker_01",
@@ -17836,7 +17792,7 @@
     "DescribeId": 91001,
     "MonsterName": "Monster_Nihil_Harbinger_01",
     "Name": "Arlecchino",
-    "Title": "Arlecchino",
+    "Title": "Tàu Lục Chiến - Mẫu Tiên Phong Đa Năng",
     "Icon": "UI_MonsterIcon_Nihil",
     "Type": 2,
     "Arkhe": 0,
@@ -17877,7 +17833,7 @@
     "DescribeId": 91101,
     "MonsterName": "Monster_TheAbyssXiuhcoatl_01",
     "Name": "Chúa Tể Lửa Nguồn Ăn Mòn",
-    "Title": "Chúa Tể Lửa Nguồn Ăn Mòn",
+    "Title": "Tàu Lục Chiến - Mẫu Tiên Phong Đa Năng",
     "Icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "Type": 2,
     "Arkhe": 0,
@@ -17917,7 +17873,7 @@
     "DescribeId": 91211,
     "MonsterName": "Monster_GiantChess_King_StageA",
     "Name": "Vua Thăng Thần",
-    "Title": "Hoa Lừa Dối Khổng Lồ Vượt Quy Cách",
+    "Title": "Vua Thăng Thần",
     "Icon": "UI_MonsterIcon_GiantChess_King",
     "Type": 2,
     "Arkhe": 0,
@@ -17954,7 +17910,7 @@
     "DescribeId": 91212,
     "MonsterName": "Monster_GiantChess_King_StageB",
     "Name": "Hậu Thăng Hoa",
-    "Title": "Hoa Lừa Dối Khổng Lồ Vượt Quy Cách",
+    "Title": "Hậu Thăng Hoa",
     "Icon": "UI_MonsterIcon_GiantChess_Queen",
     "Type": 2,
     "Arkhe": 0,
@@ -18442,6 +18398,80 @@
     ]
   },
   {
+    "Id": 84202022,
+    "DescribeId": 20202,
+    "MonsterName": "Invoker_Herald_Ice_01",
+    "Name": "Sứ Đồ Vực Sâu - Sương Lạc",
+    "Title": "Sứ Giả Băng Kiếm",
+    "Icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84203012,
+    "DescribeId": 20301,
+    "MonsterName": "Invoker_Deacon_Electric_01",
+    "Name": "Học Sĩ Vực Sâu - Tử Điện",
+    "Title": "Sứ Giả Phúc Âm Giáng Tử Điện",
+    "Icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 108.672,
+      "AttackBase": 56.52,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 1
+      },
+      {
+        "Type": 4,
+        "Value": 2
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
     "Id": 84301011,
     "DescribeId": 30101,
     "MonsterName": "Skirmisher_Male_Fat_SprayGun_Ice_01",
@@ -18792,6 +18822,80 @@
     "BaseValue": {
       "HpBase": 168.4416,
       "AttackBase": 125.6,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626012,
+    "DescribeId": 62601,
+    "MonsterName": "Wayob_Drillhead_01",
+    "Name": "Hóa Thân Wayob - Hang Đá",
+    "Title": "Hóa Thân Wayob - Nghịch Lưu",
+    "Icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
+      "DefenseBase": 500,
+      "FireSubHurt": 0,
+      "GrassSubHurt": 0,
+      "WaterSubHurt": 0,
+      "ElecSubHurt": 0,
+      "WindSubHurt": 0,
+      "IceSubHurt": 0,
+      "RockSubHurt": 0,
+      "PhysicalSubHurt": 0
+    },
+    "GrowCurves": [
+      {
+        "Type": 1,
+        "Value": 23
+      },
+      {
+        "Type": 4,
+        "Value": 24
+      },
+      {
+        "Type": 7,
+        "Value": 12
+      }
+    ]
+  },
+  {
+    "Id": 84626022,
+    "DescribeId": 62602,
+    "MonsterName": "Wayob_Mosasaurus_01",
+    "Name": "Hóa Thân Wayob - Nghịch Lưu",
+    "Title": "Hóa Thân Wayob - Hang Đá",
+    "Icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "Type": 1,
+    "Arkhe": 0,
+    "BaseValue": {
+      "HpBase": 95.088,
+      "AttackBase": 57.776,
       "DefenseBase": 500,
       "FireSubHurt": 0,
       "GrassSubHurt": 0,

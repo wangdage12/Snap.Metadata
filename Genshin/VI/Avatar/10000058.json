@@ -464,6 +464,31 @@
         "Icon": "Skill_S_Yae_01"
       }
     ],
+    "SpecialSkills": [
+      {
+        "GroupId": 5851,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 585101,
+              "Level": 1,
+              "Parameters": [
+                0.8,
+                2.5,
+                2,
+                10
+              ]
+            }
+          ],
+          "Display": 3
+        },
+        "Id": 585101,
+        "Name": "Sắc Lệnh Đền Thờ",
+        "Description": "Thời gian duy trì Sesshou Sakura tăng thêm 10s. Sau khi nhân vật trong đội ở gần kích hoạt phản ứng Siêu Dẫn hoặc Tinh-Siêu Dẫn, lần giáng sấm sét tiếp theo của Sesshou Sakura sẽ được cường hóa: Tăng sát thương gây ra, mức tăng tương đương 80% Tấn Công của Yae Miko. Hiệu quả này mỗi 2.5s tối đa kích hoạt một lần.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Sau khi đòn sấm sét được cường hóa kể trên đánh trúng kẻ địch, sẽ còn gây thêm một lần <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> tương đương 200% Tấn Công của Yae Miko, và được xem là sát thương phản ứng Tinh-Siêu Dẫn.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Yae Miko sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Icon": "UI_Talent_S_Yae_08"
+      }
+    ],
     "EnergySkill": {
       "GroupId": 5839,
       "Proud": {
@@ -630,6 +655,7 @@
       "Id": 10585,
       "Name": "Đại Bí Pháp - Tenko Kenshin",
       "Description": "Trong dân gian Inazuma có nhắc đến khái niệm \"kitsunetsuki\", hay có thể hiểu là chứng nhận của hồ ly. Trong đó, của \"Thiên Hồ\" là tương đối đặc biệt, có thể dùng lôi đình để giáng xuống người kẻ địch của Đền Narukami. Giáng sấm sét xuống, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color>.\nKhi thi triển, Yae Miko sẽ giải phóng Sesshou Sakura ở gần đó, phá hủy hình thái của chúng và hóa thành Thiên Hồ Lôi Đình giáng xuống, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color>. Mỗi lần phá hủy 1 Sesshou Sakura bằng cách này sẽ giáng xuống 1 tia Thiên Hồ Lôi Đình.\n\n<i>Vào lúc này, Yae cần để lộ ra chứng nhận thiên hồ để hiệu lệnh lôi đình. Nhưng những kẻ đã nhìn thấy đại nhân Guuji để lộ chiếc đuôi đều đã tan biến không còn lại gì dù chỉ là hạt bụi. Cho nên, hãy nhớ cho kỹ nhé - Yae đại nhân không hề có đuôi.</i>",
+      "SpecialDescription": "Trong dân gian Inazuma có nhắc đến khái niệm \"kitsunetsuki\", hay có thể hiểu là chứng nhận của hồ ly. Trong đó, của \"Thiên Hồ\" là tương đối đặc biệt, có thể dùng lôi đình để giáng xuống người kẻ địch của Đền Narukami. Giáng sấm sét xuống, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color>.\nKhi thi triển, Yae Miko sẽ dựa vào Sesshou Sakura ở gần đó, hóa thành Thiên Hồ Lôi Đình giáng xuống, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color>. Mỗi tồn tại một Sesshou Sakura ở gần, sẽ giáng xuống 1 tia Thiên Hồ Lôi Đình.\n\n<i>Vào lúc này, Yae cần để lộ ra chứng nhận thiên hồ để hiệu lệnh lôi đình. Nhưng những kẻ đã nhìn thấy đại nhân Guuji để lộ chiếc đuôi đều đã tan biến không còn lại gì dù chỉ là hạt bụi. Cho nên, hãy nhớ cho kỹ nhé - Yae đại nhân không hề có đuôi.</i>",
       "Icon": "Skill_E_Yae_01"
     },
     "Inherents": [
@@ -641,7 +667,10 @@
             {
               "Id": 582101,
               "Level": 1,
-              "Parameters": []
+              "Parameters": [
+                0.4,
+                0.5
+              ]
             }
           ],
           "Display": 1
@@ -695,12 +724,14 @@
         "Id": 581,
         "Name": "Biên Niên Sử Hồ Ly",
         "Description": "<color=#FFD780FF>Đại Bí Pháp - Tenko Kenshin</color> mỗi khi kích hoạt 1 lần Thiên Hồ Lôi Đình, đều sẽ hồi 8 điểm năng lượng nguyên tố cho bản thân Yae Miko.",
+        "SpecialDescription": "<color=#FFD780FF>Đại Bí Pháp - Tenko Kenshin</color> mỗi khi kích hoạt 1 lần Thiên Hồ Lôi Đình, đều sẽ hồi 8 điểm năng lượng nguyên tố cho bản thân Yae Miko. Sau khi Yae Miko kích hoạt phản ứng Siêu Dẫn/Tinh-Siêu Dẫn hoặc gây sát thương phản ứng Tinh-Siêu Dẫn, nhân vật trong đội ở gần sẽ nhận 50% buff Sát Thương Nguyên Tố Lôi và sát thương Tinh-Siêu Dẫn, duy trì 10s. Kích hoạt lại sẽ làm mới thời gian duy trì.",
         "Icon": "UI_Talent_S_Yae_01"
       },
       {
         "Id": 582,
         "Name": "Tiếng Gọi Đêm Trăng",
         "Description": "Cấp bậc ban đầu của <color=#FFD780FF>Sesshou Sakura</color> khi vừa được tạo ra sẽ tăng ngay đến bậc 2, tối đa có thể tăng đến bậc 4, phạm vi tấn công tăng 60%.",
+        "SpecialDescription": "Cấp bậc ban đầu của <color=#FFD780FF>Sesshou Sakura</color> khi vừa được tạo ra sẽ tăng ngay đến bậc 2, tối đa có thể tăng đến bậc 4, phạm vi tấn công tăng 60%. Ngoài ra, khi Sesshou Sakura trong trận, sẽ còn căn cứ vào bậc của Sesshou Sakura để khiến Yae Miko và nhân vật ra trận hiện tại trong đội bản thân tăng 60/90/120/200 điểm Tinh Thông Nguyên Tố.",
         "Icon": "UI_Talent_S_Yae_02"
       },
       {
@@ -717,6 +748,7 @@
         "Id": 584,
         "Name": "Anh Đào Dẫn Lôi Chương",
         "Description": "Sau khi sấm sét của <color=#FFD780FF>Sesshou Sakura</color> đánh trúng kẻ địch, tất cả nhân vật trong đội ở gần sẽ nhận được 20% <color=#FFACFFFF>Buff Sát Thương Nguyên Tố Lôi</color>, duy trì 5s.",
+        "SpecialDescription": "Sau khi sấm sét của <color=#FFD780FF>Sesshou Sakura</color> đánh trúng kẻ địch, tất cả nhân vật trong đội ở gần sẽ nhận được 20% <color=#FFACFFFF>buff Sát Thương Nguyên Tố Lôi</color>, duy trì 5s, đồng thời hồi phục 8 điểm Năng Lượng Nguyên Tố cho Yae Miko. Hiệu quả hồi Năng Lượng Nguyên Tố kể trên mỗi 5s tối đa kích hoạt một lần. Ngoài ra, sát thương Kỹ Năng Nộ của Yae Miko sẽ tăng 100%.",
         "Icon": "UI_Talent_S_Yae_03"
       },
       {
@@ -733,6 +765,7 @@
         "Id": 586,
         "Name": "Cấm Thuật Daisesshou",
         "Description": "<color=#FFD780FF>Sesshou Sakura</color> khi tấn công sẽ bỏ qua 60% phòng ngự của kẻ địch.",
+        "SpecialDescription": "<color=#FFD780FF>Sesshou Sakura</color> khi tấn công sẽ bỏ qua 60% phòng ngự của kẻ địch. Sát thương phản ứng Tinh-Siêu Dẫn do Yae Miko gây ra sẽ tăng 200% Sát Thương Bạo Kích.",
         "Icon": "UI_Talent_S_Yae_04"
       }
     ]
