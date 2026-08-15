@@ -1,0 +1,108 @@
+name: Sync from Fork
+
+on:
+  # 每天 UTC 00:00 执行
+  schedule:
+    - cron: "0 0 * * *"
+
+  # GitHub 页面手动执行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-from-fork
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync Fork main to Original main
+    runs-on: ubuntu-latest
+
+    steps:
+      # ==========================================
+      # 1. Checkout 原仓库
+      # ==========================================
+      - name: Checkout original repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # ==========================================
+      # 2. Clone Fork
+      # ==========================================
+      - name: Clone fork repository
+        run: |
+          git clone \
+            --depth 1 \
+            --branch main \
+            "https://github.com/SnapHutaoRemasteringProject/Snap.Metadata.Work.git" \
+            ../fork
+
+      # ==========================================
+      # 3. 显示同步前后的 Commit
+      # ==========================================
+      - name: Show source commit
+        working-directory: ../fork
+        run: |
+          echo "Fork commit:"
+          git log -1 --oneline
+
+      - name: Show original commit
+        run: |
+          echo "Original commit:"
+          git log -1 --oneline
+
+      # ==========================================
+      # 4. 同步文件
+      #
+      # --delete：
+      #   Fork 删除的文件，原仓库也删除
+      #
+      # 排除 .git：
+      #   不复制 Git 元数据
+      #
+      # 排除 .github/workflows：
+      #   原仓库自己的 Workflow 永远保留
+      # ==========================================
+      - name: Sync files
+        run: |
+          rsync -av --delete \
+            --exclude='.git/' \
+            --exclude='.github/workflows/' \
+            ../fork/ ./
+
+      # ==========================================
+      # 5. 查看变化
+      # ==========================================
+      - name: Show changes
+        run: |
+          git status --short
+          git diff --stat
+
+      # ==========================================
+      # 6. 如果有变化则提交
+      # ==========================================
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git add -A
+
+          git commit \
+            -m "chore: sync from fork"
+
+      # ==========================================
+      # 7. Push 到原仓库 main
+      # ==========================================
+      - name: Push changes
+        run: |
+          git push origin HEAD:main
