@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "Puntería de cazador",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, crea una escarcha que acumula Frío en la punta de flecha, infligiendo <color=#99FFFFFF>Daño Cryo</color> al liberarlo.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "Zarpazo helado",
         "Description": "#Dispara unas garras heladas, infligiendo <color=#99FFFFFF>Daño Cryo</color> a los enemigos y creando un escudo al golpearlos.\nLa cantidad de daño absorbido por el escudo es proporcional a la Vida Máx. de Diona, y su duración depende del número de garras que golpeen a su objetivo.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nDispara 2 veloces garras heladas.\n\n<color=#FFD780FF>Mantener pulsado</color>\nRetrocede rápidamente y dispara 5 garras heladas.\nAdemás, genera un escudo que gana un 75% de bono de absorción de daño.\n\nEste escudo tiene un 250% de bono de absorción de <color=#99FFFFFF>Daño Cryo</color> y, al activarse, aplica el elemento <color=#99FFFFFF>Cryo</color> sobre el personaje en uso.\n\n<i>Cuando empezó a ser cantinera, el hielo no le hacía ningún daño a los borrachos por mucha cantidad que hubiera en sus bebidas. Hasta que Diona obtuvo su Visión y creó un hielo tan frío como para congelarle el cerebro a cualquiera. ¡Vaya un hielo!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "Selección exquisita",
-        "Description": "#Durante 20{NON_BREAK_SPACE}s después de usar la Habilidad Elemental, <color=#FFD780FF>Zarpazo helado</color>, Diona disparará 3 <color=#FFD780FF>garras heladas</color> adicionales cuando un personaje del equipo cause una reacción de Superconductor o Superconductor Estelar. Las <color=#FFD780FF>garras heladas</color> disparadas de esta forma no generan partículas elementales ni crean un escudo al golpear a un enemigo. Este efecto solo se puede activar una vez cada 3.5{NON_BREAK_SPACE}s.\nAdemás, Diona entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Description": "#Durante 20{NON_BREAK_SPACE}s después de usar la Habilidad Elemental, <color=#FFD780FF>Zarpazo helado</color>, Diona disparará 3 <color=#FFD780FF>garras heladas</color> adicionales cuando un personaje del equipo cause una reacción de Superconductor Estelar, Superconductor, Torbellino Cryo o Torbellino Estelar. Las <color=#FFD780FF>garras heladas</color> disparadas de esta forma no generan partículas elementales ni crean un escudo al golpear a un enemigo. Este efecto solo se puede activar una vez cada 3.5{NON_BREAK_SPACE}s.\nAdemás, al estar dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK} o durante 8{NON_BREAK_SPACE}s después de que un personaje del equipo cause una reacción de Torbellino Estelar en las cercanías, Diona entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> o el de <color=#FFD780FF>esplendor: Torbellino Estelar</color>, respectivamente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "Cóctel asesino",
       "Description": "Lanza un cóctel helado especial que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> y crea una bruma embriagadora en un área.\n\n<color=#FFD780FF>Bruma embriagadora</color>\n·Inflige <color=#99FFFFFF>Daño Cryo</color> continuo a los enemigos que están en el área.\n·La Vida de los personajes que están en el área se regenera continuamente.\n\n<i>Un espantoso cóctel que incluso Diona considera inhumano. El primer trago debe dejarse para los enemigos. Deja un sabor muy fresco, pero, desafortunadamente, este solo se puede sentir en la nariz y en la piel.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "Menú secreto de Cola de Gato",
         "Description": "Aumenta en un 10% la Vel. Movimiento y reduce en un 10% el Coste de Aguante de los personajes bajo la protección del escudo creado por <color=#FFD780FF>Zarpazo helado</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "Diversión de los borrachos",
         "Description": "Disminuye en un 10% el ATQ infligido por los enemigos que entran en el área de <color=#FFD780FF>Cóctel asesino</color> durante 15 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "Refrigerio gratis",
         "Description": "Al lograr un “Perfecto” en un plato con efectos reconstituyentes, hay una probabilidad del 12% de obtener el doble.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -853,7 +860,7 @@
         "Id": 396,
         "Name": "Hora de cerrar",
         "Description": "Los personajes que estén dentro del área de <color=#FFD780FF>Cóctel asesino</color> obtienen uno de los siguientes efectos dependiendo de su Vida:\n·Si su Vida es igual o inferior al 50%, aumenta su Bono de Curación recibida en un 30%.\n·Si su vida es superior al 50%, aumenta la Maestría Elemental en 200 pts.",
-        "SpecialDescription": "#Los personajes que están dentro del área de <color=#FFD780FF>Cóctel asesino</color> obtienen uno de los siguientes efectos dependiendo de su Vida:\n·Si su Vida es igual o inferior al 50%, aumenta su Bono de Curación recibida en un 30%.\n·Si su vida es superior al 50%, aumenta su Maestría Elemental en 200{NON_BREAK_SPACE}pts.\n\nAdemás, la Vida Máx. de Diona aumenta en un 25%.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl daño de Superconductor y Superconductor Estelar infligido por los personajes dentro del área de <color=#FFD780FF>Cóctel asesino</color> aumenta en un 40%.",
+        "SpecialDescription": "#Los personajes que están dentro del área de <color=#FFD780FF>Cóctel asesino</color> obtienen uno de los siguientes efectos dependiendo de su Vida:\n·Si su Vida es igual o inferior al 50%, aumenta su Bono de Curación recibida en un 30%.\n·Si su vida es superior al 50%, aumenta su Maestría Elemental en 200{NON_BREAK_SPACE}pts.\n\nAdemás, la Vida Máx. de Diona aumenta en un 25%.\n<color=#FFD780FF>Esplendor: Destello Estelar</color>\nEl daño de la reacción correspondiente de los personajes que haya dentro del área de Cóctel asesino aumentará:\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl daño de Superconductor y Superconductor Estelar aumenta en un 40%.\n<color=#FFD780FF>Esplendor: Torbellino Estelar</color>\nEl daño de Torbellino Cryo y Torbellino Estelar aumenta en un 40%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

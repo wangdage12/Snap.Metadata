@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "西風槍術・破誓",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方へ突き攻撃を行う。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "掟破りの奇兵",
         "Description": "敵の隙をついて、{LINK#N11290001}<color=#FFD780FF>奇策</color>{/LINK}状態に入る。この状態では、次の効果が発動する。\n・ローエンは{LINK#N11290003}<color=#FFD780FF>愉悦</color>{/LINK}を蓄積することで、特殊な元素スキル{LINK#N11290002}<color=#FFD780FF>魂を穿つ痛み</color>{/LINK}を発動できるようになる。\n・周囲にいるチーム内の他キャラクターはローエンに{LINK#N11290004}<color=#FFD780FF>闘争心</color>{/LINK}を蓄積させることができ、これにより<color=#FFD780FF>魂を穿つ痛み</color>がダメージアップする。\n<color=#FFD780FF>奇策</color>状態では<color=#FFD780FF>魂を穿つ痛み</color>を最大3回まで発動でき、その後<color=#FFD780FF>愉悦</color>を蓄積できなくなる。\n\n<i>「騎士道っつったか？フン、確かに格好の餌食だな。正々堂々と勝負だなんて寝ぼけたことを考えてるような敵は、自分たちに一体どんな『サプライズ』が待ち受けてるのか、想像もつかないだろうよ。」</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "魔女からの贈り物・刺さったままの棘",
         "Description": "<color=#FFD780FF>魔女の課題・諸敵の題</color>を完了すると、ローエンは<color=#FFD780FF>魔導</color>キャラクターとして扱われるようになる。チームに魔導キャラクターを2名以上編成すると、<color=#FFD780FF>魔導秘儀</color>効果が発動し、魔導キャラクターは強化される。\n\n<color=#FFD780FF>魔導秘儀</color>\n特殊元素スキル{LINK#N11290002}<color=#FFD780FF>魂を穿つ痛み</color>{/LINK}が敵に命中、または元素爆発<color=#FFD780FF>制裁の刻</color>を発動した時、{LINK#N11290004}<color=#FFD780FF>闘争心</color>{/LINK}が上限の50%以上だった場合、ローエンの通常攻撃と重撃のダメージ+40%。継続時間6秒。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -903,6 +906,7 @@
       "Id": 11295,
       "Name": "制裁の刻",
       "Description": "前方に素早い連続斬りを繰り出し、すべての{LINK#N11290004}<color=#FFD780FF>闘争心</color>{/LINK}を消費して<color=#99FFFFFF>氷元素ダメージ</color>を与える。この時、消費した<color=#FFD780FF>闘争心</color>に応じてダメージがアップする。発動時、ローエンが{LINK#N11290001}<color=#FFD780FF>奇策</color>{/LINK}状態にある場合、その<color=#FFD780FF>奇策</color>状態の継続時間が1.65秒延長される。\n\n<i>「もう全部吐いちまったのか？お楽しみはこれからだってのに。」</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "絶対服従の訓戒",
         "Description": "{LINK#N11290001}<color=#FFD780FF>奇策</color>{/LINK}状態の時、チーム内にいる近くの他のキャラクターがダメージを与えてローエンが{LINK#N11290004}<color=#FFD780FF>闘争心</color>{/LINK}を蓄積する時、そのダメージがローエンの基礎攻撃力の3000%以上の場合、ローエンは追加で<color=#FFD780FF>闘争心</color>を60獲得する。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "秀逸なる戯言",
         "Description": "{LINK#N11290001}<color=#FFD780FF>奇策</color>{/LINK}状態の時、チーム内の近くにいる他のキャラクターが敵に<color=#99FFFFFF>氷元素関連反応</color>を起こした後の8秒間、そのキャラクターとローエンの攻撃力+15%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "気の赴くままに",
         "Description": "元素スキル<color=#FFD780FF>掟破りの奇兵</color>を発動した後、ローエンは9秒間の「乗興」効果を獲得し、その継続期間中、元素スキル<color=#FFD780FF>掟破りの奇兵</color>のスキルLv.+1。\n元素スキルを発動した時、チーム内の他キャラクターの通常攻撃、元素スキル、元素爆発のいずれかのスキルLv.がローエンの元素スキルのスキルLv.以上である場合、その時の「乗興」効果の継続時間は追加で6秒延長される。\n「乗興」効果は18秒毎に1回のみ獲得できる。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],

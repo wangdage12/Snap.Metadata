@@ -261,6 +261,7 @@
         "Id": 11301,
         "Name": "Protocollo di cattura",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 3 tiri consecutivi con un arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>attacco mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, sulla punta della freccia si accumulano cristalli di pietra. Una freccia cristallina caricata al massimo infligge <color=#FFE699FF>DAN da Geo</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11302,
         "Name": "Contromisura: Grido di battaglia di Lumi!",
         "Description": "#All'avventura con Lumi! A seconda della pressione, Lumi attacca in diversi modi.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nLumi entra nella sua <color=#FFD780FF>{LINK#N11300001}Forma superpotente{/LINK}</color>, attaccando continuamente i nemici vicini e infliggendo <color=#FFE699FF>DAN da Geo ad area</color>. Se nelle vicinanze sono presenti delle Gabbie lunari, Lumi infligge ai nemici vicini <color=#FFE699FF>DAN da Geo ad area</color> che vengono considerati DAN da reazione di Cristallizzazione lunare.\n\n<color=#FFD780FF>Pressione ripetuta</color>\nÈ ora di far vedere di cosa siamo capaci! Dopo aver usato la sua abilità elementale, Linnea nutre Lumi con gemme scintillanti quando la sua abilità elementale o il suo attacco normale vengono azionati ripetutamente. Una volta satolla, Lumi entra nella sua <color=#FFD780FF>{LINK#N11300001}Forma superpotente finale{/LINK}</color> e infligge un'iterazione particolarmente potente di <color=#FFE699FF>DAN da Geo ad area</color> considerati DAN da reazione di Cristallizzazione lunare, dopodiché passa alla <color=#FFD780FF>{LINK#N11300001}Forma potente standard{/LINK}</color>.\nIn aggiunta, la pressione dell'abilità elementale aumenta la resistenza all'interruzione di Linnea.\n\n<i>\"Tocca a te, Lumi!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linnea_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11305,
       "Name": "Promemoria: Guida di sopravvivenza in condizioni estreme",
       "Description": "Anche i maestri avventurieri hanno bisogno di riposo! Linnea evoca Lumi affinché colpisca nella sua <color=#FFD780FF>{LINK#N11300001}Forma superpotente{/LINK}</color>, ripristinando i PS dei membri vicini del gruppo. Per un breve periodo di tempo, Lumi guarisce costantemente i membri attivi del gruppo vicini in base alla DIF di Linnea.\nSe Lumi è già in campo quando Linnea sprigiona il suo Tripudio elementale, la durata di Lumi viene ripristinata e la sua Forma d'attacco rimane invariata.\n\n<i>\"Per un avventuriero professionista, uscire sano e salvo da una situazione difficile è di gran lunga più importante che fare una scoperta senza precedenti!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linnea_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1302101,
         "Name": "Note di osservazione sul campo",
         "Description": "Quando Lumi è in campo, la <color=#FFE699FF>RES a Geo</color> degli avversari vicini a lei diminuisce di un 15%.\n\nQuando <color=#FFD780FF>Presagio lunare: Barlume ascendente</color> è attivo, l'abilità elementale <color=#FFD780FF>{LINK#S11302}Contromisura: Grido di battaglia di Lumi!{/LINK}</color> e il Tripudio elementale <color=#FFD780FF>{LINK#S11305}Promemoria: Guida di sopravvivenza in condizioni estreme{/LINK}</color> di Linnea vengono potenziati. Dopo aver evocato Lumi, la <color=#FFE699FF>RES a Geo</color> degli avversari vicino a lei diminuisce di un ulteriore 15%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_05"
       },
       {
@@ -702,6 +706,7 @@
         "Id": 1302201,
         "Name": "Diario naturalistico universale",
         "Description": "Linnea aumenta la maestria elementale di determinati personaggi del tuo gruppo in base a un 5% della sua DIF e a seconda del personaggio attivo attuale. Se il tuo personaggio attivo:\n· è un personaggio con Presagio lunare, la sua maestria elementale aumenta;\n· non è un personaggio con Presagio lunare, la maestria elementale di Linnea aumenta.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 1302301,
         "Name": "Benedizione del Presagio lunare: Studio dell'habitat",
         "Description": "Quando un membro del gruppo innesca una reazione di Cristallizzazione di Hydro, questa si converte in una reazione di Cristallizzazione lunare, i cui DAN base aumentano di uno 0,7% per ogni 100 di DIF di Linnea, fino a un 14% massimo.\n\nInoltre, quando Linnea è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_07"
       },
       {
@@ -743,6 +749,7 @@
         "Id": 1302501,
         "Name": "Avventuriera esperta",
         "Description": "Quando Linnea non è in un combattimento, il tempo di carica del suo <color=#FFD780FF>attacco mirato</color> è notevolmente ridotto, il che le permette di scoccare una <color=#FFD780FF>Freccia rapida ultrapratica</color>. Si verificano effetti diversi a seconda dei bersagli colpiti.\n· Animali specifici: la <color=#FFD780FF>Freccia rapida ultrapratica</color> si trasforma in una speciale \"Rete\" in grado di catturare l'essenza e la forma di tali animali, usandole come tramite per manifestarne nuovamente la forma fisica. La \"Rete\" può essere utilizzata solo per un numero limitato di volte a settimana.\n· Giacimenti di minerali usati nella forgiatura: Linnea invia Lumi, che colpisce rapidamente il minerale indicato dalla <color=#FFD780FF>Freccia rapida ultrapratica</color>, raccogliendo poi il minerale estratto. Se Lumi non è in campo, Linnea la evoca brevemente per farle raccogliere i minerali.\n\nI DAN inflitti agli avversari dalla <color=#FFD780FF>Freccia rapida ultrapratica</color> di Linnea sono ridotti a un 20% della sua freccia caricata originale. Inoltre, dopo aver scoccato un certo numero di <color=#FFD780FF>Frecce rapide ultrapratiche</color> in un breve periodo di tempo, Linnea avrà bisogno di una pausa temporanea prima di poterle utilizzare di nuovo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_08"
       }
     ],

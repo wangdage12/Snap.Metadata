@@ -277,6 +277,7 @@
         "Id": 10931,
         "Name": "Palavras de Ventos e Flores",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 ataques de brisa, infligindo <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina, lançando um Anel de Brisa que inflige <color=#80FFD7FF>Dano Anemo</color> contra os inimigos em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReúne o poder do Anemo, mergulhando ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80FFD7FF>Dano Anemo em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10932,
         "Name": "Nuvens Brancas na Alvorada",
         "Description": "Xianyun entra no estado de Transfiguração de Nuvens, no qual ela não sofrerá Dano de Queda e usará a Escada Celestial uma vez.\nNeste estado, seu Ataque Imersivo será convertido em uma Onda das Nuvens, que causará <color=#80FFD7FF>Dano Anemo em uma AdE</color> e encerrará o estado de Transfiguração de Nuvens. Este dano será considerado como Dano de Ataque Imersivo.\nCada uso da Escada Celestial neste estado aumentará o Dano e a AdE da próxima Onda das Nuvens.\n\n<color=#FFD780FF>Escada Celestial</color>\nPode ser usada enquanto estiver no ar. Xianyun dará um salto à frente, causando <color=#80FFD7FF>Dano Anemo</color> aos alvos ao longo de seu caminho.\nUm estado de Transfiguração de Nuvens pode lançar Escada Celestial até 3 vezes e causar 1 instância de Dano da Escada Celestial a um oponente qualquer.\nSe a Escada Celestial não for usada novamente em um curto período, o estado de Transfiguração de Nuvens será cancelado.\n\nSe Xianyun não usar a Onda das Nuvens durante este estado, o próximo tempo de recarga de Nuvens Brancas na Alvorada será reduzido em 3s.\n<i>Tenha cuidado ao segurar a mão da Retentora de Nuvem - ela tem uma aderência como a de uma garça.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Liuyun_01"
       }
     ],
@@ -736,6 +738,7 @@
       "Id": 10935,
       "Name": "As Estrelas se Reúnem no Crepúsculo",
       "Description": "Invoca uma brisa sagrada que causa <color=#80FFD7FF>Dano Anemo em AdE</color> e regenera Vida para todos os personagens próximos da equipe. A quantidade regenerada é baseada no ATQ de Xianyun, e invoca um mecanismo Bambu Estelar.\n<color=#FFD780FF>Bambu Estelar</color>\n· Continuamente segue o personagem ativo no campo, e periodicamente regenera Vida para todos os membros próximos da equipe. A quantidade regenerada é baseada no ATQ de Xianyun.\n· Inicia com 8 acúmulos de Ajuda Adepti. Ao possuir Ajuda Adepti, aumenta a altura do salto do personagem ativo próximo da equipe.\n· Quando o personagem completar um Ataque Imersivo, Bambu Estelar consome 1 acúmulo de Ajuda Adepti e causa <color=#80FFD7FF>Dano Anemo em AdE</color>.\nSó é possível existir um Bambu Estelar ativo no campo.\n\n<i>Essa é a mais nova invenção da série de Artesanato Lunar. As invenções anteriores foram a Máquina de Culinária Suprema, o Mecanismo Movedor de Neve, a Máquina Doméstica Suprema, o Dispositivo Flutuante Carregador e o Aparador. Essa série de invenções era para jovens humanos que a Retentora de Nuvem admirava, por isso não foram feitos com uma certa meio-Adeptus em mente. Entretanto, quando a ofereceram Bambu Estelar, uma certa discípula dela disse essas palavras, sem emoção: \"Não, obrigada.\"\nPor isso, Retentora de Nuvem não teve escolha a não ser manter isso com ela.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Liuyun_01"
     },
     "Inherents": [
@@ -761,6 +764,7 @@
         "Id": 932101,
         "Name": "Perseguição da Pena Gelada",
         "Description": "Cada oponente atingido pelas Ondas das Nuvens da <color=#FFD780FF>Nuvens Brancas na Alvorada</color> concederá a todos os membros da equipe próximos 1 acúmulo de Pena Tempestuosa por 20s. Máximo de 4 acúmulos. Isso fará com que a Taxa CRIT do Dano de Ataque Imersivo dos personagens aumente em 4%/6%/8%/10% respectivamente.\nCada Pena Tempestuosa criada ao atingir um oponente tem uma duração independente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liuyun_05"
       },
       {
@@ -783,6 +787,7 @@
         "Id": 932201,
         "Name": "Pense a Adeptus em seu Reino",
         "Description": "Quando o Bambu Estelar criado por <color=#FFD780FF>As Estrelas se Reúnem no Crepúsculo</color> tem acúmulos de Ajuda Adepti, aumentará o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo. O aumento é equivalente a 200% do ATQ de Xianyun. É possível aumentar o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo em até 9.000.\nSó um oponente pode sofrer o aumento de Dano de uma onda de choque de um Ataque. Cada personagem pode desencadear esse efeito uma vez a cada 0.4s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liuyun_06"
       },
       {
@@ -801,6 +806,7 @@
         "Id": 932301,
         "Name": "Como uma Garça",
         "Description": "Aumenta a velocidade de planar para os personagens da equipe em 15%.\nNão acumula com outros Talentos Passivos que fornecem o mesmo efeito.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liuyun_07"
       }
     ],

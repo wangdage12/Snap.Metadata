@@ -323,6 +323,7 @@
         "Id": 10641,
         "Name": "Caricia de las nubes",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -522,6 +523,7 @@
         "Id": 10642,
         "Name": "Disipadora de nimbos",
         "Description": "#A pesar de que la maestra Yun maneja la lanza para coreografías en escena, sus habilidades de combate son muy reales.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nEmpuña su lanza para disipar las nubes e infligir <color=#FFE699FF>Daño Geo</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nEntra en su posición de disipadora de nimbos para acumular fuerza y crear un escudo que absorbe daño en proporción a la Vida Máx. de Yun Jin. El escudo tiene un 150% de efectividad de absorción de Daño Elemental y Físico, y dura hasta que Yun Jin termine de lanzar la Habilidad Elemental.\nAl dejar de pulsar la habilidad, cuando termine su duración o cuando el escudo se rompa, libera un ataque con todo el poder acumulado que inflige <color=#FFE699FF>Daño Geo</color>.\nSegún el tiempo de carga, el poder acumulado podrá ser de una o dos cargas.\n\n<i>Un momento brillante en el escenario equivale a diez años de duro trabajo.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Yunjin_01"
       }
     ],
@@ -723,6 +725,7 @@
       "Id": 10643,
       "Name": "Estandarte romperrocas",
       "Description": "Inflige <color=#FFE699FF>Daño Geo en el AdE</color> y otorga a todos los miembros del equipo cercanos los banderines de las nubes.\n\n<color=#FFD780FF>Banderines de las nubes</color>\nEl daño que infligen los miembros del equipo con sus Ataques Normales aumenta en proporción a la DEF actual de Yun Jin.\n\nLos efectos de los banderines desaparecerán cuando termine su duración o tras activar un número determinado de cargas.\nAl golpear a varios enemigos a la vez con un Ataque Normal, se consumirán cargas en función del número de enemigos golpeados. Los efectos y las cargas de los banderines de las nubes se calculan de manera independiente para cada personaje.\n\n<i>Entre el golpeteo de los tambores y el repiqueteo de las lanzas, una bella mujer general porta un estandarte.</i>\n<i>La música converge en el escenario, donde la general purga el mal con suma serenidad.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Yunjin_01"
     },
     "Inherents": [
@@ -742,6 +745,7 @@
         "Id": 642101,
         "Name": "Fiel a sí misma",
         "Description": "Si Yun Jin usa <color=#FFD780FF>Disipadora de nimbos</color> en el momento justo en el que recibe un ataque, la habilidad se liberará con la fuerza de dos cargas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_05"
       },
       {
@@ -765,6 +769,7 @@
         "Id": 642201,
         "Name": "Rechazo de la convención",
         "Description": "Cuando en el equipo hay 1/2/3/4 personajes con tipos elementales distintos, el aumento de daño de Ataque Normal otorgado por los <color=#FFD780FF>banderines de las nubes</color> incrementa en un 2.5/5/7.5/11.5% adicional en proporción a la DEF de Yun Jin.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_06"
       },
       {
@@ -783,6 +788,7 @@
         "Id": 642301,
         "Name": "Alimentación ligera",
         "Description": "Al lograr un “Perfecto” en un plato con efectos de ayuda a la aventura, hay una probabilidad del 12% de obtener el doble.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_07"
       }
     ],

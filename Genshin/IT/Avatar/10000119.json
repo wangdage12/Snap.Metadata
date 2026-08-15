@@ -325,6 +325,7 @@
         "Id": 11191,
         "Name": "Pellegrinaggio di Linnunrata",
         "Description": "#<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 attacchi che infliggono <color=#99FF88FF>DAN da Dendro</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nLauma entra nello stato di Metamorfosi dell'Emissaria spirituale e si trasforma in un'emissaria della foresta, consumando vigore per muoversi per un massimo di 10{NON_BREAK_SPACE}s. Quando è in questo stato, Lauma possiede una resistenza all'interruzione aumentata e può consumare vigore aggiuntivo per effettuare due salti consecutivi.\nQuando lo stato di Emissaria spirituale termina, la Metamorfosi entra in TdR. Durante questo periodo di tempo, gli attacchi caricati di Lauma si trasformano in una Preghiera invocaspiriti, grazie alla quale può consumare una certa quantità di vigore per infliggere <color=#99FF88FF>DAN da Dendro ad area</color> agli avversari davanti a sé dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nEvocando il potere di Dendro, Lauma si scaglia verso il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria e infliggendo <color=#99FF88FF>DAN da Dendro ad area</color> all'impatto con il suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -588,6 +589,7 @@
         "Id": 11192,
         "Name": "Runo: Riposo senz'alba di Karsikko",
         "Description": "#Intonando silenziosamente un antico inno, Lauma evoca un {LINK#N11190001}<color=#FFD780FF>Santuario di Boscogelo</color>{/LINK} con effetti diversi in base al tipo di pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nIntona un Inno della caccia, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n\n<color=#FFD780FF>Pressione prolungata</color>\nÈ richiesta almeno 1 unità di {LINK#N11190008}<color=#FFD780FF>Rugiada verdeggiante</color>{/LINK}. Lauma consuma tutta la Rugiada verdeggiante a disposizione e intona un Inno del riposo eterno, infliggendo un'iterazione di <color=#99FF88FF>DAN da Dendro ad area</color> normali e un'altra iterazione di <color=#99FF88FF>DAN da Dendro ad area</color> considerati DAN da Fioritura lunare. Lauma ottiene un accumulo di {LINK#N11190002}<color=#FFD780FF>Canto della luna</color>{/LINK} per ogni unità di Rugiada verdeggiante consumata. Con la pressione prolungata dell'abilità elementale, Lauma può consumare un massimo di 3 unità di Rugiada verdeggiante.\n\nInoltre, quando l'abilità elementale di Lauma o gli attacchi del Santuario di Boscogelo colpiscono un avversario, le <color=#99FF88FF>RES a Dendro</color> e a <color=#80C0FFFF>Hydro</color> di quest'ultimo diminuiscono per 10{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lauma_01"
       }
     ],
@@ -805,6 +807,7 @@
       "Id": 11195,
       "Name": "Runo: Cuori uniti nella luna battente",
       "Description": "#Lascia che i desideri di tutti gli esseri viventi diventino il chiaro di luna che bagna la terra. Lauma intona una canzone sacra dell'Estremo Nord e ottiene 18 accumuli di {LINK#N11190003}<color=#FFD780FF>Inno pallido</color>{/LINK}.\nInoltre, se Lauma usa il suo Tripudio elementale mentre ha degli accumuli di {LINK#N11190002}<color=#FFD780FF>Canto della luna</color>{/LINK}, o se ne ottiene nei 15{NON_BREAK_SPACE}s successivi all'utilizzo del Tripudio, li consuma tutti e, per ogni accumulo consumato, ne ottiene 6 di Inno pallido. Quest'effetto può essere innescato una volta per ogni Tripudio elementale, inclusi i 15{NON_BREAK_SPACE}s successivi al suo utilizzo.\n\n<color=#FFD780FF>Inno pallido</color>\nQuando i membri vicini del gruppo infliggono DAN da Fioritura, Iperfioritura, Germinazione o Fioritura lunare, viene consumato 1 accumulo di Inno pallido e i DAN inflitti aumentano in base alla maestria elementale di Lauma. Se più avversari contemporaneamente subiscono DAN, vengono consumati più accumuli di Inno pallido in base al numero di avversari colpiti.\nLa durata di ogni accumulo di Inno pallido è indipendente dalle altre.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lauma_01"
     },
     "Inherents": [
@@ -830,6 +833,7 @@
         "Id": 1192101,
         "Name": "Luce per la notte glaciale",
         "Description": "#Quando Lauma usa la sua abilità elementale <color=#FFD780FF>{LINK#S11192}Runo: Riposo senz'alba di Karsikko{/LINK}</color>, conferisce vari effetti positivi per i 20{NON_BREAK_SPACE}s successivi in base al <color=#FFD780FF>Presagio lunare</color> del gruppo. Gli effetti positivi conferiti da livelli diversi di Presagio lunare non si accumulano.\n\n<color=#FFD780FF>Presagio lunare: Barlume nascente</color>\nI DAN da Fioritura, Iperfioritura e Germinazione inflitti da tutti i membri vicini del gruppo possono convertirsi in colpi CRIT, con un tasso di CRIT e un DAN da CRIT fissati rispettivamente a un 15% e un 100%. Il tasso di CRIT di quest'effetto si può accumulare con il tasso di CRIT ottenuto da effetti simili che permettono a queste reazioni elementali di innescare colpi CRIT.\n\n<color=#FFD780FF>Presagio lunare: Barlume ascendente</color>\nIl tasso di CRIT e i DAN da CRIT dei DAN da Fioritura lunare dei membri vicini del gruppo aumentano rispettivamente di un 10% e di un 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_05"
       },
       {
@@ -853,6 +857,7 @@
         "Id": 1192201,
         "Name": "Purificazione nella sorgente",
         "Description": "Per ogni punto di maestria elementale in suo possesso, Lauma ottiene i seguenti benefici:\n· i DAN inflitti dalla sua abilità elementale aumentano di uno 0,04%, fino a un 32% di aumento complessivo;\n· il TdR dell'attacco caricato <color=#FFD780FF>Metamorfosi dell'Emissaria spirituale</color> si riduce di uno 0,02%, fino a un 20% di riduzione complessiva.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_06"
       },
       {
@@ -874,6 +879,7 @@
         "Id": 1192301,
         "Name": "Benedizione del Presagio lunare: Coro della natura",
         "Description": "Quando un membro del gruppo innesca una reazione di Fioritura, questa si converte in una reazione di Fioritura lunare, i cui DAN base aumentano di uno 0,0175% per ogni punto di maestria elementale di Lauma, fino a un 14% massimo.\n\nInoltre, quando Lauma è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_07"
       },
       {
@@ -892,6 +898,7 @@
         "Id": 1192501,
         "Name": "Preghiere per la foresta",
         "Description": "Mostra sulla minimappa la posizione delle <color=#FFD780FF>risorse uniche di Nod-Krai</color>.\nInoltre, Lauma sembra avere un'affinità speciale con alcuni animaletti affetti dal Kuuvahki...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_08"
       }
     ],

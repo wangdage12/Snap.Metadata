@@ -277,6 +277,7 @@
         "Id": 10411,
         "Name": "Ondes du destin",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 attaques d'eau qui infligent des <color=#80C0FFFF>DGT Hydro</color>.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour infliger des <color=#80C0FFFF>DGT Hydro de zone</color> après un court délai.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des <color=#80C0FFFF>DGT Hydro de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10412,
         "Name": "Mirage aqueux",
         "Description": "Mona invoque un mirage du destin créé à partir de projections aqueuses.\n\n<color=#FFD780FF>Mirage</color>\nLe mirage a les effets suivants :\n· Nargue les ennemis proches et attire leur attention.\n· Inflige des <color=#80C0FFFF>DGT Hydro continus</color> aux ennemis proches.\n· Lorsque le mirage prend fin, il explose et inflige des <color=#80C0FFFF>DGT Hydro de zone</color>.\n\n<color=#FFD780FF>Appui long</color>\nMona utilise la puissance de l'eau pour se propulser rapidement en arrière et invoque un mirage du destin.\nIl ne peut exister qu'un seul mirage à la fois.\n\n<i>Les astromanciens les plus doués ont toujours rêvé de pouvoir créer un sosie d'eux-mêmes pour pouvoir faire face au danger, mais Mona est sans doute la première à avoir réalisé ce tour de main.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mona_01"
       },
       {
@@ -483,6 +485,7 @@
         "Id": 10413,
         "Name": "Vicissitude",
         "Description": "<color=#FFD780FF>Sprint alternatif</color>\nMona consomme de l'endurance pour se déplacer aussi vite qu'un torrent sous la forme d'un courant d'eau.\n\nDans l'état Vicissitude, Mona peut se déplacer rapidement sur l'eau.\nÀ la fin de l'état, Mona <color=#80C0FFFF>trempe</color> les ennemis proches lorsqu'elle réapparaît.\n\n<i>Voici une technique que Mona est capable d'effectuer, mais pas son maître. Ce n'est pas comme si cette dernière souhaitait apprendre quoi que ce soit au sujet de l'œil divin Hydro...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mona_02"
       }
     ],
@@ -510,6 +513,7 @@
         "Id": 415101,
         "Name": "Veillée de la sorcière : Genèse des signes stellaires",
         "Description": "Après avoir terminé le <color=#FFD780FF>devoir de la sorcière « De perspicacité inconnue »</color>, Mona devient un personnage <color=#FFD780FF>héxère</color>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <color=#FFD780FF>Hexerei : Rituel secret</color> qui améliore les personnages héxères.\n\n<color=#FFD780FF>Hexerei : Rituel secret</color>\nLorsqu'une attaque normale ou chargée de Mona touche un ennemi, elle obtient un cumul de lueur astrale de Mercure pendant 8 s, cet effet pouvant être obtenu une fois toutes les 0,1 s de cette manière et pouvant se cumuler 3 fois maximum. Lorsqu'un autre personnage de votre équipe déclenche une réaction d'Évaporation sur un ennemi, tous les cumuls de lueur astrale de Mercure sont consommés pour augmenter les DGT de cette réaction de 5 % par cumul consommé.\nDe plus, lorsqu'une attaque normale ou chargée de Mona touche un ennemi, le <color=#FFD780FF>présage</color> de ce dernier est prolongé de 2 s. Cet effet peut être déclenché une fois toutes les 0,5 s, un <color=#FFD780FF>présage</color> pouvant être prolongé d'un maximum de 8 s de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_07"
       }
     ],
@@ -771,6 +775,7 @@
       "Id": 10415,
       "Name": "Voie divine",
       "Description": "Mona invoque des vagues chatoyantes pour créer un reflet du ciel étoilé, infligeant l'état Bulle nocturne aux ennemis dans un large rayon.\n\n<color=#FFD780FF>Bulle nocturne</color>\nEmprisonne les ennemis, et les <color=#80C0FFFF>trempe</color>. Les ennemis les plus faibles sont immobilisés.\nLorsqu'un ennemi emprisonné subit des DGT, il subit également les effets suivants :\n· Un présage est appliqué à l'ennemi, qui subit alors une augmentation de DGT, y compris de l'attaque l'ayant provoqué.\n· L'effet Bulle nocturne disparaît, et inflige des <color=#80C0FFFF>DGT Hydro</color> supplémentaires.\n\n<color=#FFD780FF>Présage</color>\nLe présage augmente les DGT subis par l'ennemi tant qu'il est actif.\n\n<i>C'est lorsque le regard des dieux dessina les étoiles que la notion de « destin » naquit.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mona_01"
     },
     "Inherents": [
@@ -794,6 +799,7 @@
         "Id": 412101,
         "Name": "Leurre du fatum",
         "Description": "Entrer dans l'état <color=#FFD780FF>Vicissitude</color> invoque automatiquement un mirage après 2 s en cas de présence d'ennemis proches.\nLe mirage ainsi invoqué dure 2 s, et ses DGT d'explosion sont équivalents à 50 % des DGT de <color=#FFD780FF>Mirage aqueux</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_05"
       },
       {
@@ -815,6 +821,7 @@
         "Id": 412201,
         "Name": "Que le destin décide",
         "Description": "Confère à Mona un <color=#80C0FFFF>bonus de DGT Hydro</color> équivalant à 20 % de sa recharge d'énergie.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_06"
       },
       {
@@ -833,6 +840,7 @@
         "Id": 412301,
         "Name": "Principes d'astromancie",
         "Description": "Lorsque vous fabriquez un matériau d'élévation d'arme, il y a 25 % de chances qu'une partie des matières premières vous soit rendue.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon"
       }
     ],

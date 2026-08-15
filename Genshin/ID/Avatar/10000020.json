@@ -309,6 +309,7 @@
         "Id": 10201,
         "Name": "Steel Fang",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 tebasan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nTerus menguras Stamina untuk melancarkan serangan berputar yang mengakibatkan DMG ke musuh di sekitar.\nDiakhiri dengan sebuah tebasan yang kuat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -525,6 +526,7 @@
         "Id": 10202,
         "Name": "Claw and Thunder",
         "Description": "Memburu mangsanya dengan teknik yang diajarkan oleh keluarganya dan Lupical.\n\n<color=#FFD780FF>Tekan</color>\nMengayunkan Thunder Wolf Claw, mengakibatkan <color=#FFACFFFF>Electro DMG</color> ke musuh di depan Razor.\nSaat mengenai musuh, Razor akan mendapatkan Electro Sigil yang meningkatkan kecepatan Energy Recharge.\nRazor dapat memiliki paling banyak 3 Electro Sigil dalam waktu bersamaan, dan mendapatkan Electro Sigil baru akan memutar ulang durasi mereka.\n\n<color=#FFD780FF>Tahan</color>\nMengumpulkan Electro Energy untuk mengerahkan badai petir dalam area kecil, mengakibatkan <color=#FFACFFFF>Electro DMG</color> yang besar dan mengonsumsi seluruh Electro Sigil milik Razor.\nSetiap Electro Sigil yang digunakan dengan cara ini akan dikonversi menjadi Energy untuk Razor.\n\n<i>Pada saat petir menyambar, kamu dapat melihat mata Razor yang sedang mengamati mangsanya.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Razor_01"
       }
     ],
@@ -550,6 +552,7 @@
         "Id": 205101,
         "Name": "Witch's Eve Rite: Surge of Lightning",
         "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Kerumunan Serigala Kecil</color>, Razor akan menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\nSelain itu, Elemental Burst Razor <color=#FFD780FF>Lightning Fang</color> akan diperkuat: DMG <color=#FFD780FF>Wolf Within</color> meningkat sebesar 70% ATK Razor.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSelama Wolf Within dari Elemental Burst <color=#FFD780FF>Lightning Fang</color> aktif, jika Electro Sigil yang dikumpulkan oleh Elemental Skill <color=#FFD780FF>Claw and Thunder</color> milik Razor berlebih, maka Wolf Within akan menjatuhkan serangan petir di sekitar musuh, mengakibatkan Electro DMG Area sebesar 150% ATK Razor, dan akan memulihkan 7 poin Energy Razor. Efek ini dapat terpicu sekali setiap 1 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_07"
       }
     ],
@@ -767,6 +770,7 @@
       "Id": 10203,
       "Name": "Lightning Fang",
       "Description": "Memanggil Wolf Within untuk mengakibatkan <color=#FFACFFFF>Electro DMG</color> ke semua musuh di sekitar. Juga akan menghilangkan semua Electro Sigil milik Razor, yang akan dikonversi menjadi Energy untuknya.\nWolf Within akan bertempur bersama Razor selama durasi skill.\n\n<color=#FFD780FF>The Wolf Within</color>\n·Menyerang bersama dengan Normal Attack Razor dan mengakibatkan <color=#FFACFFFF>Electro DMG</color>;\n·Meningkatkan ATK SPD dan <color=#FFACFFFF>Electro RES</color> Razor;\n·Membuat Razor kebal terhadap DMG yang diakibatkan oleh efek <color=#FFACFFFF>Electro-Charged</color>;\n·Menonaktifkan Charged Attack milik Razor.\n\nEfek-efek ini berakhir saat Razor meninggalkan medan pertempuran.\nSaat Razor meninggalkan medan pertempuran, hingga 10 Energy akan dikembalikan kepadanya berdasarkan durasi yang tersisa dari skill ini.\n\n<i>Sang serigala telah terbangun, perburuan dimulai.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Razor_01"
     },
     "Inherents": [
@@ -786,6 +790,7 @@
         "Id": 202101,
         "Name": "Awakening",
         "Description": "Mengurangi 18% CD <color=#FFD780FF>Claw and Thunder</color>.\nMelancarkan <color=#FFD780FF>Lightning Fang</color> akan menyelesaikan CD <color=#FFD780FF>Claw and Thunder</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_05"
       },
       {
@@ -804,6 +809,7 @@
         "Id": 202201,
         "Name": "Hunger",
         "Description": "Meningkatkan 30% Energy Recharge saat Energy Razor kurang dari 50%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_06"
       },
       {
@@ -822,6 +828,7 @@
         "Id": 202301,
         "Name": "Wolvensprint",
         "Description": "Mengurangi 20% konsumsi Stamina Karakter party sendiri saat berlari.\nEfek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

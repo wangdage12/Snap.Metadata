@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "Xạ Thuật Thợ Săn",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 5 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nSát thương càng cao, <color=#FFD780FF>ngắm bắn</color> càng chuẩn.\nKhi ngắm bắn, hơi lạnh sẽ tích tụ trên mũi tên. Mũi tên mang đầy hơi lạnh sẽ gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "Móng Mèo Lạnh Giá",
         "Description": "Bắn móng mèo lạnh giá gây cho địch <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> và hình thành khiên khi đánh trúng.\nLượng hấp thụ sát thương của khiên chịu ảnh hưởng từ giới hạn HP của Diona, thời gian duy trì dựa vào số lượng Móng Mèo Lạnh Giá đánh trúng.\n\n<color=#FFD780FF>Nhấn</color>\nBắn nhanh 2 Móng Mèo Lạnh Giá.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nLùi về sau và bắn 5 Móng Mèo Lạnh Giá.\nNhấn giữ hình thành Khiên, hấp thụ thêm 75% sát thương.\n\nKhiên sẽ hấp thụ 250% <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, và khi hình thành, sẽ gán <color=#99FFFFFF>ấn nguyên tố Băng</color> trong thời gian ngắn cho nhân vật hiện tại.\n\n<i>Có thêm bao nhiêu đá vào rượu cũng không thể làm tổn hại đến kẻ say, cho đến khi Diona có được Vision, và rồi những viên đá lạnh đến nỗi khiến người ta buốt óc bắt đầu xuất hiện. Hay!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "Tuyệt Phẩm Tuyển Chọn",
-        "Description": "Trong 20s sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Móng Mèo Lạnh Giá</color>, khi nhân vật trong đội kích hoạt phản ứng Siêu Dẫn, Tinh-Siêu Dẫn, Diona sẽ đồng thời bắn thêm 3 <color=#FFD780FF>Móng Mèo Lạnh Giá</color>. <color=#FFD780FF>Móng Mèo Lạnh Giá</color> bắn ra theo cách này sẽ không tạo ra hạt nhân nguyên tố, cũng không tạo ra khiên khi trúng kẻ địch. Hiệu quả này mỗi 3.5s tối đa kích hoạt một lần.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Diona sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Description": "Trong 20s sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>Móng Mèo Lạnh Giá</color>, khi nhân vật trong đội kích hoạt phản ứng Tinh-Siêu Dẫn, Siêu Dẫn, Khuếch Tán Nguyên Tố Băng, Tinh-Khuếch Tán, Diona sẽ đồng thời bắn thêm 3 <color=#FFD780FF>Móng Mèo Lạnh Giá</color>. <color=#FFD780FF>Móng Mèo Lạnh Giá</color> bắn ra theo cách này sẽ không tạo ra hạt nhân nguyên tố, cũng không tạo ra khiên khi trúng kẻ địch. Hiệu quả này mỗi 3.5s tối đa kích hoạt một lần.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}/trong 8s sau khi nhân vật trong đội kích hoạt phản ứng Tinh-Khuếch Tán ở gần, Diona sẽ phân biệt tiến vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>/<color=#FFD780FF>Tỏa Sáng: Tinh-Khuếch Tán</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "Đặc Chế Mãnh Liệt",
       "Description": "Ném những viên đá được điều chế đặc biệt, gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color> và tạo thành khu vực Hơi Rượu Băng.\n\n<color=#FFD780FF>Khu Vực Hơi Rượu Băng</color>\n·Gây cho kẻ địch trong đó <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> liên tục.\n·Hồi HP liên tục cho nhân vật trong đó.\n\n<i>Công thức kinh khủng khiến Diona cũng tự cảm thấy vô nhân đạo. Mùi vị đầu kinh khủng nên để cho kẻ địch trước, về sau thì thanh mát, tiếc rằng chỉ có thể dùng mũi và da để cảm nhận.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "Thực Đơn Bí Mật Đuôi Mèo",
         "Description": "Nhân vật được Khiên <color=#FFD780FF>Móng Mèo Lạnh Giá</color> bảo vệ, tốc độ di chuyển tăng 10%, thể lực tiêu hao giảm 10%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "Kẻ Say Rượu Khôi Hài",
         "Description": "Trong 15 giây sau khi địch vào khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> giảm 10% tấn công.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "Đồ Nhắm Tặng Kèm",
         "Description": "Nấu hoàn mỹ món ăn thuộc loại hồi phục, có tỷ lệ 12% x2 sản lượng.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -853,7 +860,7 @@
         "Id": 396,
         "Name": "Khi Quán Đuôi Mèo Đóng Cửa",
         "Description": "Khi ở trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ nhận được các hiệu quả dưới đây tùy theo HP nhân vật:\n·HP thấp hơn hoặc bằng 50%, tăng nhận trị liệu 30%; \n·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.",
-        "SpecialDescription": "Khi nhân vật ở trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ nhận được các hiệu quả dưới đây tùy theo mức HP:\n·Khi HP thấp hơn hoặc bằng 50%, tăng 30% lượng trị liệu nhận được.\n·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.\n\nNgoài ra, Diona sẽ tăng 25% Giới Hạn HP.\n\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Nhân vật trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ tăng 40% sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn.",
+        "SpecialDescription": "Khi nhân vật ở trong khu vực <color=#FFD780FF>Đặc Chế Mãnh Liệt</color> sẽ nhận được các hiệu quả dưới đây tùy theo mức HP:\n·Khi HP thấp hơn hoặc bằng 50%, tăng 30% lượng trị liệu nhận được.\n·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.\n\nNgoài ra, Diona sẽ tăng 25% Giới Hạn HP.\n<color=#FFD780FF>Tỏa Sáng: Tinh Tú Lấp Lánh</color>: Nhân vật trong khu vực Đặc Chế Mãnh Liệt sẽ tăng sát thương phản ứng tương ứng:\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn tăng 40%.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Khuếch Tán</color>: Sát thương phản ứng Khuếch Tán Nguyên Tố Băng, Tinh-Khuếch Tán tăng 40%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

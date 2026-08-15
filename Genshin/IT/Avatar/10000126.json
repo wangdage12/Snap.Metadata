@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Tocco fiorito della lama dorata",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo il percorso e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Manifestazione di cielo e terra",
         "Description": "Evocando un'ombra dei suoi vecchi poteri, entra nella modalità {LINK#N11260001}<color=#FFD780FF>Cambio delle fasi lunari</color>{/LINK}.\nIn questa modalità, gli attacchi normali e caricati di Zibai infliggono <color=#FFE699FF>DAN da Geo</color> non influenzabili da altre infusioni elementali. Inoltre, Zibai può ottenere accumuli di <color=#FFD780FF>Cambio di fase splendente</color> speciale in diversi modi, che può consumare per scatenare l'abilità elementale speciale <color=#FFD780FF>Passo del destriero spirituale</color>.\n\n<color=#FFD780FF>Presagio lunare: Barlume ascendente</color>\nQuando Zibai sferra attacchi normali mentre è in modalità <color=#FFD780FF>Cambio delle fasi lunari</color>, il suo quarto attacco infligge un'iterazione aggiuntiva di <color=#FFE699FF>DAN da Geo</color>. Tali DAN sono considerati DAN da Cristallizzazione lunare.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Eminenza trisferica",
       "Description": "#Zibai usa il Paracielo di Giadaluce, infliggendo due iterazioni di <color=#FFE699FF>DAN da Geo</color>. I DAN del secondo colpo sono considerati DAN da Cristallizzazione lunare.\nSe Zibai è nella modalità {LINK#N11260001}<color=#FFD780FF>Cambio delle fasi lunari</color>{/LINK} quando usa quest'abilità, la durata della modalità stessa si estende di 1,7{NON_BREAK_SPACE}s.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "Discesa dell'Adepta selenica",
         "Description": "#Quando viene usata l'abilità elementale <color=#FFD780FF>{LINK#S11262}Manifestazione di cielo e terra{/LINK}</color> o quando i membri vicini del gruppo innescano Armonia della Gabbia lunare, Zibai ottiene l'effetto <color=#FFD780FF>Discesa selenica</color> per 4{NON_BREAK_SPACE}s, che aumenta i DAN inflitti dal 2º colpo di {LINK#N11260001}<color=#FFD780FF>Passo del destriero spirituale</color>{/LINK} di un 60% della DIF di Zibai.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Picchi stratificati perforano le nuvole",
         "Description": "Gli altri membri di <color=#FFE699FF>Geo</color> all'interno del gruppo aumentano la DIF di Zibai di un 15% ciascuno. I membri di <color=#80C0FFFF>Hydro</color> aumentano invece la sua maestria elementale di 60 ciascuno.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Benedizione del Presagio lunare: Percorso del sole e della luna",
         "Description": "Quando un membro del gruppo innesca una reazione di Cristallizzazione di Hydro, questa si converte in una reazione di Cristallizzazione lunare, i cui DAN base aumentano di uno 0,7% per ogni 100 di DIF di Zibai, fino a un 14% massimo.\n\nInoltre, quando Zibai è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Foresta di fiori al chiaro di luna",
         "Description": "#Di notte (18:00-06:00), l'energia elementale di Zibai si ripristina di 1 ogni 2{NON_BREAK_SPACE}s quando non è in un combattimento.\nNon ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

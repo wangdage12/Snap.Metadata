@@ -325,6 +325,7 @@
         "Id": 11191,
         "Name": "Peregrination of Linnunrata",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 3 serangan yang mengakibatkan <color=#99FF88FF>Dendro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nLauma melancarkan \"Spirit Envoy Metamorphosis\", berubah wujud menjadi roh penjaga hutan dan mengonsumsi Stamina untuk menerjang ke depan hingga maksimum 10 detik. Dalam status ini, ketahanan Lauma terhadap interupsi meningkat, dan Lauma dapat mengonsumsi Stamina tambahan untuk melompat hingga dua kali berturut-turut.\nSaat keluar dari status Spirit Envoy, \"Spirit Envoy Metamorphosis\" akan memasuki cooldown. Selama cooldown ini, Charged Attack Lauma akan berubah menjadi \"Spiritcall Prayer\": Mengonsumsi sejumlah Stamina untuk mengakibatkan <color=#99FF88FF>Dendro DMG Area</color> ke area di depannya setelah jeda singkat.\n\n<color=#FFD780FF>Plunging Attack</color>\nLauma mengumpulkan kekuatan Dendro dan menerjang tanah, menyerang musuh di jalur terjangannya dan mengakibatkan <color=#99FF88FF>Dendro DMG Area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -588,6 +589,7 @@
         "Id": 11192,
         "Name": "Runo: Dawnless Rest of Karsikko",
         "Description": "Sambil merapalkan doa kuno dalam hati, Lauma mengaktifkan {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} yang akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nMembacakan Hymn of Hunting untuk mengakibatkan <color=#99FF88FF>Dendro DMG Area</color>.\n\n<color=#FFD780FF>Mode Tahan</color>\nDapat dilancarkan saat memiliki setidaknya 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}. Lauma akan mengonsumsi semua Verdant Dew untuk membacakan Hymn of Eternal Rest dan mengakibatkan satu kali <color=#99FF88FF>Dendro DMG Area</color> dan satu kali <color=#99FF88FF>Dendro DMG Area</color> yang dianggap sebagai DMG reaksi Lunar-Bloom. Setiap Verdant Dew yang dikonsumsi akan memberikan satu lapis {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK} kepada Lauma. Setiap kali melancarkan Elemental Skill dalam Mode Tahan, Lauma dapat mengonsumsi maksimum 3 Verdant Dew dengan cara ini.\n\nSelain itu, saat Elemental Skill Lauma atau serangan Frostgrove Sanctuary mengenai musuh, maka <color=#99FF88FF>Dendro RES</color> dan <color=#80C0FFFF>Hydro RES</color> musuh tersebut akan berkurang selama 10 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lauma_01"
       }
     ],
@@ -805,6 +807,7 @@
       "Id": 11195,
       "Name": "Runo: All Hearts Become the Beating Moon",
       "Description": "Biarlah keinginan semua makhluk hidup berubah menjadi cahaya bulan yang menerangi bumi. Lauma merapalkan lagu suci dari ujung utara dan mendapatkan 18 lapis {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK}.\nSelain itu, jika Lauma melancarkan Elemental Burst saat memiliki {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}, atau saat ia mendapatkan Moon Song dalam 15 detik setelah melancarkan Elemental Burst, maka Lauma akan mengonsumsi semua Moon Song dan mendapatkan 6 lapis Pale Hymn untuk setiap lapis Moon Song yang dikonsumsi. Efek ini hanya dapat terpicu sekali setiap kali Lauma melancarkan Elemental Burst, termasuk periode 15 detik setelah melancarkan Elemental Burst yang disebutkan di atas.\n\n<color=#FFD780FF>Pale Hymn</color>\nSaat Karakter di sekitar dalam party mengakibatkan DMG reaksi Bloom, Hyperbloom, Burgeon, atau Lunar-Bloom, maka satu lapis Pale Hymn akan dikonsumsi untuk meningkatkan DMG yang diakibatkan. Jumlah peningkatan DMG ini didasarkan pada Elemental Mastery Lauma. Saat DMG yang disebutkan di atas mengenai beberapa musuh secara bersamaan, maka jumlah lapisan Pale Hymn yang dikonsumsi juga disesuaikan berdasarkan jumlah musuh yang terkena serangan.\nDurasi setiap lapis Pale Hymn akan dihitung secara terpisah.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lauma_01"
     },
     "Inherents": [
@@ -830,6 +833,7 @@
         "Id": 1192101,
         "Name": "Light for the Frosty Night",
         "Description": "Setelah Lauma melancarkan Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, akan mendapatkan efek penguatan yang berbeda selama 20 detik berdasarkan <color=#FFD780FF>Moonsign</color> milik party. Efek penguatan dari Level Moonsign yang berbeda tidak bisa ditumpuk.\n\n<color=#FFD780FF>Moonsign: Nascent Gleam</color>\nDMG reaksi Bloom, Hyperbloom, dan Burgeon yang dipicu oleh seluruh anggota party di sekitar dapat mengakibatkan CRIT. Dengan nilai CRIT Rate tetap sebesar 15%, dan CRIT DMG tetap sebesar 100%. CRIT Rate dari efek ini dapat ditumpuk dengan efek serupa lainnya yang membuat Reaksi Elemental dapat mengakibatkan CRIT juga.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nDMG reaksi Lunar-Bloom yang diakibatkan seluruh anggota party di sekitar mendapatkan peningkatan 10% CRIT Rate dan 20% CRIT DMG.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_05"
       },
       {
@@ -853,6 +857,7 @@
         "Id": 1192201,
         "Name": "Cleansing for the Spring",
         "Description": "Setiap poin Elemental Mastery yang dimiliki Lauma akan memberikan efek buff berikut:\n·DMG Elemental Skill meningkat 0,04%. Maksimum peningkatan DMG yang dapat diperoleh dengan cara ini adalah 32%.\n·Cooldown untuk Charged Attack <color=#FFD780FF>Spirit Envoy Metamorphosis</color> berkurang 0,02%. Maksimum pengurangan Cooldown Spirit Envoy Metamorphosis yang dapat diperoleh dengan cara ini adalah 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_06"
       },
       {
@@ -874,6 +879,7 @@
         "Id": 1192301,
         "Name": "Moonsign Benediction: Nature's Chorus",
         "Description": "Saat Karakter di dalam party memicu reaksi Bloom, akan dikonversi menjadi reaksi Lunar-Bloom. DMG dasar reaksi Lunar-Bloom meningkat berdasarkan Elemental Mastery Lauma. Setiap poin Elemental Mastery akan membuat DMG dasar reaksi Lunar-Bloom meningkat 0,0175%, hingga maksimum 14%.\n\nSelain itu saat Lauma berada di dalam party, <color=#FFD780FF>Moonsign</color> party meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_07"
       },
       {
@@ -892,6 +898,7 @@
         "Id": 1192501,
         "Name": "Prayers for the Forest",
         "Description": "Memperlihatkan lokasi <color=#FFD780FF>produk khas Nod-Krai</color> di sekitar pada peta kecil.\nSelain itu, Lauma sepertinya memiliki ikatan khusus dengan sebagian hewan kecil yang terpengaruh oleh kuuvahki ....",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_08"
       }
     ],

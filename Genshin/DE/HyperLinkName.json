@@ -277,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Rettungsprinzipien",
-    "Description": "#Auf 150 Punkte beschränkt. Erhöht den von Truppenmitgliedern in der Nähe mit den Reaktionen „Verwirbelung“ und „Unter Strom“ verursachten Schaden für jeden Punkt „Rettungsprinzipien“ von Ifa um 1,5{NON_BREAK_SPACE}% und den durch die Reaktion „Mond unter Strom“ verursachten Schaden um 0,2{NON_BREAK_SPACE}%. „Rettungsprinzipien“ werden entfernt, wenn Ifas Nachtseelensegen endet."
+    "Description": "#Auf 150 Punkte beschränkt. Erhöht den von Truppenmitgliedern in der Nähe mit den Reaktionen „Verwirbelung“ und „Unter Strom“ verursachten Schaden für jeden Punkt „Rettungsprinzipien“ von Ifa um 1,5{NON_BREAK_SPACE}%, den durch die Reaktion „Mond unter Strom“ verursachten Schaden um 0,2{NON_BREAK_SPACE}% und den durch die Reaktion „Stellar-Verwirbelung“ verursachten Schaden um {PARAM#P1132101|5S100}{NON_BREAK_SPACE}%. „Rettungsprinzipien“ werden entfernt, wenn Ifas Nachtseelensegen endet."
   },
   {
     "Id": 11130003,
@@ -302,7 +302,7 @@
   {
     "Id": 11130007,
     "Name": "Vernunft jenseits der Vernunft",
-    "Description": "#Erzeugt, wenn Truppenmitglieder in der Nähe an Gegnern die Reaktionen Gefroren, Supraleiter, Kryo-Verwirbelung oder Kryo-Kristall auslösen, in der Nähe des Gegners einen Leere-Riss, 2,5{NON_BREAK_SPACE}s Abklingzeit. Es können gleichzeitig nur 3 von Skirk selbst erzeugte Leere-Risse auf dem Feld existieren.\n\nSkirk kann auf die folgenden Weisen Leere-Risse in einem bestimmten Umkreis absorbieren:\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ Gegner mit heftigen Schlägen trifft.\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ ihre besondere Spezialfähigkeit <color=#FFD780FF>„Verdorbene Kunst – Vernichtung“</color> auslöst.\n· Wenn sie durch Gedrückthalten ihre Elementarfähigkeit <color=#FFD780FF>Verdorbene Kunst – Verzerrung</color> auslöst, um sich schnell zu bewegen.\n\nSkirk erhält für jeden absorbierten Riss 8{NON_BREAK_SPACE}Pkt. „List der Schlange“."
+    "Description": "#Erzeugt, wenn Truppenmitglieder in der Nähe an Gegnern die Reaktionen Gefroren, Supraleiter, Stellar-Supraleiter, Kryo-Verwirbelung, Stellar-Verwirbelung oder Kryo-Kristall auslösen, in der Nähe des Gegners einen Leere-Riss, 2,5{NON_BREAK_SPACE}s Abklingzeit. Es können gleichzeitig nur 3 von Skirk selbst erzeugte Leere-Risse auf dem Feld existieren.\n\nSkirk kann auf die folgenden Weisen Leere-Risse in einem bestimmten Umkreis absorbieren:\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ Gegner mit heftigen Schlägen trifft.\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ ihre besondere Spezialfähigkeit <color=#FFD780FF>„Verdorbene Kunst – Vernichtung“</color> auslöst.\n· Wenn sie durch Gedrückthalten ihre Elementarfähigkeit <color=#FFD780FF>Verdorbene Kunst – Verzerrung</color> auslöst, um sich schnell zu bewegen.\n\nSkirk erhält für jeden absorbierten Riss 8{NON_BREAK_SPACE}Pkt. „List der Schlange“."
   },
   {
     "Id": 11130008,
@@ -477,7 +477,7 @@
   {
     "Id": 11320001,
     "Name": "Hammer des Jagdschwurs",
-    "Description": "Ein toller Gefährte der Hexenjägerin! Unter bestimmten Umständen findet eine Elementarumwandlung statt, bei der der gesamte vom „Hammer des Jagdschwurs“ verursachte Schaden in Schaden des entsprechenden Elementartyps umgewandelt wird.\nPrune kann den „Hammer des Jagdschwurs“, der eine Elementarumwandlung durchläuft, auf folgende Art und Weise heraufbeschwören:\n· Ermöglicht innerhalb einer bestimmten Zeit, nachdem Prune mit ihrer Elementarfähigkeit <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> eine Verwirbelung gegen Gegner ausgelöst hat, die Anwendung der besonderen Elementarfähigkeit <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>. Beim Anwenden dieser besonderen Elementarfähigkeit wandelt sich der „Hammer des Jagdschwurs“ in den anderen Elementartyp um, der an der vorherigen Verwirbelung beteiligt war.\n· Beschwört nach dem Freischalten des Aufstiegstalents „Entscheidung und Strafe“, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ eine Verwirbelung gegen Gegner ausgelöst hat, einen „Hammer des Jagdschwurs“ herbei, der basierend auf dieser Verwirbelung eine Elementarumwandlung durchläuft und Gegner angreift."
+    "Description": "Ein toller Gefährte der Hexenjägerin! Unter bestimmten Umständen findet eine Elementarumwandlung statt, bei der der gesamte vom „Hammer des Jagdschwurs“ verursachte Schaden in Schaden des entsprechenden Elementartyps umgewandelt wird.\nPrune kann den „Hammer des Jagdschwurs“, der eine Elementarumwandlung durchläuft, auf folgende Art und Weise heraufbeschwören:\n· Ermöglicht innerhalb einer bestimmten Zeit, nachdem Prune mit ihrer Elementarfähigkeit <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> eine Verwirbelung oder Stellar-Verwirbelung gegen Gegner ausgelöst hat, die Anwendung der besonderen Elementarfähigkeit <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>. Beim Anwenden dieser besonderen Elementarfähigkeit wandelt sich der „Hammer des Jagdschwurs“ in den anderen Elementartyp um, der an der vorherigen Verwirbelung oder Stellar-Verwirbelung beteiligt war.\n· Beschwört nach dem Freischalten des Aufstiegstalents „Entscheidung und Strafe“, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ eine Verwirbelung gegen Gegner ausgelöst hat, einen „Hammer des Jagdschwurs“ herbei, der basierend auf dieser Verwirbelung oder Stellar-Verwirbelung eine Elementarumwandlung durchläuft und Gegner angreift."
   },
   {
     "Id": 11320002,
@@ -492,7 +492,7 @@
   {
     "Id": 11330001,
     "Name": "Berechnung",
-    "Description": "Der Modus, in den Fagio beim Ausführen heftiger Schläge wechselt.\nIn diesem Modus führt Fagio einen Streuangriff auf Gegner vorne aus und feuert in bestimmten zeitlichen Abständen einen Kondensationsstrahl ab, der <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wandelt den Kondensationsstrahl um und verursacht stattdessen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird."
+    "Description": "Der Modus, in den Fagio beim Ausführen heftiger Schläge wechselt.\nIn diesem Modus führt Fagio einen Streuangriff auf Gegner vorne aus und feuert in bestimmten zeitlichen Abständen einen Kondensationsstrahl ab, der <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht.\n<color=#FFD780FF>Leuchten – Stellarfunkeln</color>: Wandelt den Kondensationsstrahl um und verursacht stattdessen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch die entsprechende Stellarfunkeln-Reaktion gewertet wird."
   },
   {
     "Id": 11330002,
@@ -503,5 +503,45 @@
     "Id": 11330003,
     "Name": "Sternglanzfeld",
     "Description": "Verwandelt beim Auslösen der Reaktion Stellar-Supraleiter den umliegenden Bereich kurzzeitig in ein <color=#FFD780FF>Sternglanzfeld</color>. Befindet sich eine bestimmte Figur innerhalb des Sternglanzfelds, tritt sie in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> ein, in dem ihre verschiedenen Fähigkeiten jeweils entsprechende Verstärkungseffekte erhalten."
+  },
+  {
+    "Id": 11400001,
+    "Name": "Geistschwert-Bewaffnung",
+    "Description": "Einführung in die Geistschwert-Bewaffnung"
+  },
+  {
+    "Id": 10050002,
+    "Name": "Kälteglanz",
+    "Description": "#Ein Spezialeffekt, den {F#die Reisende}{M#der Reisende} erhält, wenn ein durch <color=#FFD780FF>Frostdurchbohrender Stern</color> abgefeuerter Kryo-Kristall einen Gegner trifft oder wenn nach dem Freischalten des Talents <color=#FFD780FF>Eis der Fremde</color> ein <color=#FFD780FF>Heftiger Schlag – Eiskondensation</color> ausgeführt wird. Dieser Effekt ist bis zu 8-fach stapelbar.\nBeim Anwenden der Spezialfähigkeit <color=#FFD780FF>Frostspeer</color> verbraucht {F#die Reisende}{M#der Reisende} alle Stapelungen <color=#FFD780FF>Kälteglanz</color>, um den durch diese Spezialfähigkeit verursachten Schaden zu erhöhen. Werden dabei 8 Stapelungen verbraucht, erhöht sich zusätzlich die Trefferanzahl des durch diese Spezialfähigkeit verursachten Schadens."
+  },
+  {
+    "Id": 11500001,
+    "Name": "Solotanz-Schatten",
+    "Description": "Ein Spiegelbild, das gemeinsam mit Odette tanzt und durch die Anwendung der Elementarfähigkeit oder Spezialfähigkeit aufs Feld gerufen werden kann.\nWechselt abwechselnd zwischen den Tanzschritten <color=#FFD780FF>Federstreich</color> und <color=#FFD780FF>Flügelwirbel</color>, greift Gegner in der Nähe in regelmäßigen Abständen elegant und leichtfüßig an und fügt diesen <color=#99FFFFFF>Kryo-Flächenschaden</color> zu.\nEs kann jeweils nur ein von Odette selbst erschaffener <color=#FFD780FF>Solotanz-Schatten</color> existieren.\n\nErsetzt zudem, solange sich ein von Odette selbst beschworener <color=#FFD780FF>Solotanz-Schatten</color> in der Nähe befindet, Odettes Elementarfähigkeit <color=#FFD780FF>Langsamer Tanz – Phantomnacht</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Langsamer Tanz – Finale bei Tagesanbruch</color>."
+  },
+  {
+    "Id": 11500002,
+    "Name": "Langsamer Tanz – Finale bei Tagesanbruch",
+    "Description": "Odettes besondere Elementarfähigkeit, die Gegnern in der Nähe fortlaufend <color=#99FFFFFF>Kryo-Flächenschaden</color> zufügt und am Ende des Tanzes einmal <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird. Während des Tanzes kann Odette die Richtung der Tanzschritte steuern.\n<color=#FFD780FF>Leuchten – Stellarfunkeln</color>: Verursacht am Ende des Tanzes stattdessen einmal <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch Stellarfunkeln-Reaktion gewertet wird.\n\nVerursacht zudem nach dem Anwenden der besonderen Elementarfähigkeit <color=#FFD780FF>Langsamer Tanz – Finale bei Tagesanbruch</color>, während der verbleibenden Dauer von <color=#FFD780FF>Solotanz-Schatten</color>, zusätzlich <color=#99FFFFFF>Kryo-Flächenschaden</color> durch die zwei Tanzschritte, der als Schaden durch die entsprechende Stellarfunkeln-Reaktion gewertet wird, sofern sich Odette im Zustand <color=#FFD780FF>Leuchten – Stellarfunkeln</color> befindet."
+  },
+  {
+    "Id": 11500003,
+    "Name": "Farbenpracht",
+    "Description": "#Ein Spezialeffekt, den Odette erhält, wenn sie nach dem Freischalten des Aufstiegstalents „Frühling der Auserwählten“ einen <color=#FFD780FF>Solotanz-Schatten</color> beschwört.\nErhöht den durch die Figur mit Stellarfunkeln-Reaktionen verursachten Schaden für jede Stapelung von <color=#FFD780FF>Farbenpracht</color> um 15{NON_BREAK_SPACE}%, bis der <color=#FFD780FF>Solotanz-Schatten</color> das Feld verlässt oder erneut beschworen wird.\nEntfernt, solange sie inaktiv in der Truppe ist, Odette pro Sekunde 1 Stapelung <color=#FFD780FF>Farbenpracht</color> und verleiht den anderen Truppenmitgliedern in der Nähe die entsprechende Anzahl an Stapelungen von <color=#FFD780FF>Farbenpracht</color>."
+  },
+  {
+    "Id": 11500004,
+    "Name": "Leuchten – Stellarfunkeln",
+    "Description": "<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> und <color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color> werden zusammen als Zustand <color=#FFD780FF>Leuchten – Stellarfunkeln</color> bezeichnet.\nEine Figur kann jeweils nur von einem Leuchten-Zustand beeinflusst werden, wobei <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> Vorrang hat."
+  },
+  {
+    "Id": 11480001,
+    "Name": "Mal der Jäger",
+    "Description": "Ein Spezialeffekt, den Alyosha auf Gegner anwendet.\nAktiviert, wenn dieser Effekt auf einen Gegner angewendet wird, der bereits unter dem Einfluss von <color=#FFD780FF>Mal der Jäger</color> steht, den Effekt stattdessen: Entfernt das Mal und verleiht allen Truppenmitgliedern in der Nähe den Effekt <color=#FFD780FF>Genauigkeit der Jäger</color>, der, wenn sie sich auf dem Feld befinden, ihren ANG erhöht."
+  },
+  {
+    "Id": 11480002,
+    "Name": "Tugarin",
+    "Description": "Treuer Jagdhund und Gefährte von Alyosha, der durch Anwenden der Spezialfähigkeit <color=#FFD780FF>Jagdrevier</color> auf das Feld beschworen werden kann. Er bewegt sich in regelmäßigen Abständen schnell zu einem Gegner in der Nähe, führt Bissangriffe aus und aktiviert bereits vorhandene <color=#FFD780FF>Male der Jäger</color>."
   }
 ]

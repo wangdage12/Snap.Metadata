@@ -277,6 +277,7 @@
         "Id": 11101,
         "Name": "Ağır Çivi",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 mızrak saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nİleri atılırken belirli miktarda Dayanıklılık harcar ve önündeki düşmanlara hasar verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.\n\n<color=#FFD780FF>Gece Ruhu Durumu: Çevik Fırtına Dalışı</color>\nGece Ruhunun Lütfu durumundayken Iansan'ın Yüklü Saldırısı, güçlü Çevik Fırtına Dalışına dönüşür. Belirli miktarda Dayanıklılık harcayarak ayağıyla yeri şiddetle teper ve Gece Ruhu tesirli <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -429,6 +430,7 @@
         "Id": 11102,
         "Name": "Yıldırım Koşusu",
         "Description": "Iansan belirli bir mesafe ileri atılarak yoluna çıkan tüm düşmanlara Gece Ruhu tesirli <color=#FFACFFFF>Elektrik Hasarı</color> verir.\nBu beceriyi kullandıktan sonra Iansan 54 Gece Ruhu puanı yeniler ve Gece Ruhunun Lütfu durumuna girer. Bundan 5 saniye sonra Normal Saldırı yaptığında Iansan 1 defa hızlı Çevik Fırtına Dalışı tetikler ve Dayanıklılık harcamaz.\n\n<color=#FFD780FF>Gece Ruhunun Lütfu: Iansan</color>\nSürekli olarak Gece Ruhu puanı tüketir, puan tükendiğinde veya bu Beceri yeniden kullanıldığında Gece Ruhunun Lütfu durumu sona erer. Şu özellikleri sağlar:\n·Iansan'ın Hareket Hızını artırır.\n·Depar butonuna basılı tutulduğunda Iansan Koşan Yıldırım moduna girer ve Hareket Hızı geçici olarak büyük ölçüde artar. Bu durumdayken Iansan araziyi kullanarak uçarcasına sıçrayabilir veya fazladan Gece Ruhu puanı harcayarak su ile Sıvı Filojiston üzerinde hareket edebilir, bu esnada Sıvı Filojistondan Hasar almaz.\n\n<i>\"Tüm çabalarımızın tek bir amacı var! Daha hızlı ve daha kuvvetli olmak!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Iansan_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 11105,
       "Name": "Gücün Üç Prensibi",
       "Description": "Iansan'ın ayağıyla yaptığı vuruşun \"Gücü\" yeri sallar ve Gece Ruhu tesirli <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir. Iansan daha sonra \"Sınırlı Üretim Kinetik Enerji Ölçeğini (İdmana Özel)\" çıkarır.\nBu beceri kullanıldığında Iansan 15 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girer.\nKinetik Enerji Ölçeği alandan kalktığında Iansan'ın Gece Ruhunun Lütfu durumu sona erer.\n\n<color=#FFD780FF>Kinetik Enerji Ölçeği</color>\nKinetik Enerji Ölçeği karakteri takip eder ve Iansan'ın Gece Ruhu puanına göre farklı şekillerde aktif grup üyesinin Saldırısını artırır.\n·Iansan'ın Gece Ruhu puanı 42'den azsa Gece Ruhu puanı ve Saldırısına göre Saldırı bonusu sağlar.\n·Iansan'ın Gece Ruhu puanı 42 veya üzeriyse \"Hararetli Destek!\" durumuna girer. Bu durumdayken Saldırı bonusu güçlenir ve yalnızca Saldırısına göre hesaplanır.\nAyrıca Ölçek aktif kaldığı süre boyunca, aktif karakterin (Iansan hariç) hareket ettiği mesafeyi ölçer ve her saniye, bir önceki saniyeye göre katettiği mesafeye bağlı olarak Iansan'a Gece Ruhu puanı yeniler.\nGece Ruhunun Lütfu durumu sona erdiğinde Ölçek kaybolur. Ölçek, Savaş durumundan çıktıktan 1sn sonra da kaybolur. Ölçek etkinken Iansan'ın Gece Ruhunun Lütfu durumu, Iansan savaş alanında olmasa dahi sona ermez.\n\n<i>\"Güç, doğuştan gelen bir yetenek değildir. Güç, durmaksızın çalışarak kazanılır. Güç, doğru şekilde kullanılmalıdır.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Iansan_01"
     },
     "Inherents": [
@@ -687,6 +690,7 @@
         "Id": 1102101,
         "Name": "Gelişmiş Direnç Antrenmanı",
         "Description": "Çevik Fırtına Dalışı düşmanlara vurduktan sonra Iansan 15 saniyeliğine Hassas Hareket etkisi kazanır.\nBu süre boyunca Saldırısı %20 artar ve <color=#FFD780FF>Gücün Üç Prensibi</color> Element Patlamasındaki Kinetik Enerji Ölçeği ile Gece Ruhu puanı elde ettiğinde fazladan 1 Gece Ruhu puanı yeniler. Ayrıca aktif grup üyesi Gece Ruhu puanı tükettiğinde veya yenilediğinde, Iansan'ın Ölçek ile yenileyeceği bir sonraki fazladan Gece Ruhu puanı 4'e yükselir. Bu etki her 2,8 saniyede bir uygulanabilir.\n\"Hassas Hareket\", Iansan'ın Gece Ruhunun Lütfu durumu bittiğinde sona erer.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_05"
       },
       {
@@ -709,6 +713,7 @@
         "Id": 1102201,
         "Name": "Kinetik Enerji Aralığı Testi",
         "Description": "Yakındaki bir grup üyesi Gece Ruhu Patlaması tetiklediğinde Iansan 10 saniyeliğine Isınma etkisi kazanır.\nBu süre boyunca Iansan en az 1 Gece Ruhu puanı yenilediğinde kendi Saldırısının %60'ı kadar aktif karakteri iyileştirir. Bu etki 2,8 saniyede bir tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_06"
       },
       {
@@ -727,6 +732,7 @@
         "Id": 1102301,
         "Name": "Gece Diyarının Armağanı: Sıkı İdman",
         "Description": "Iansan savaş alanındayken Gece Ruhu puanı tamamen tükenirse Gece Ruhunun Lütfunu sürdürmek için Filojiston kullanır.\nIansan, Natlan'da Filojiston Mekanikleri bulunan bir bölgedeyken \"Gece Ruhu Aktarımı: Iansan\" kullanabilir. Aktif karakter depar atarken, Yeteneklerden kaynaklı bir hareket modundayken veya havada belirli bir yükseklikteyken Iansan'a geçildiğinde şu etkiler tetiklenir: Iansan Gece Ruhunun Lütfu durumuna girer ve 25 Gece Ruhu puanı elde eder. Gece Ruhu Aktarımı kendi grubun tarafından her 10 saniyede bir tetiklenebilir.\nNatlan'da Filojiston Mekanikleri olan bir bölgedeyken Iansan arazi farklılıklarını kullanarak atladığında Düşme Hasarı almaz.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varesa_07"
       },
       {
@@ -749,6 +755,7 @@
         "Id": 1102501,
         "Name": "Kalori Dengeleme Planı",
         "Description": "Natlan'da Filojiston Mekanikleri olan bir bölgedeyken Filojiston seviyesi %50'nin altına düşerse 10 Filojiston yenilenir. Bu etki 10 saniyede bir gerçekleşebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_08"
       }
     ],

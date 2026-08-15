@@ -322,6 +322,7 @@
         "Id": 10611,
         "Name": "Trincetto",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 3 artigliate rapide.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi al suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10612,
         "Name": "Calcio Miaoteoritico",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nBalza con l'agilità di un gatto che si districa tra i cespugli, sferrando un calcio rotante che infligge <color=#99FF88FF>DAN da Dendro ad area</color> e creando al contempo uno Scudo di trasporto sicuro che conferisce a Kirara una breve <color=#99FF88FF>applicazione di Dendro</color>. Lo scudo assorbe i <color=#99FF88FF>DAN da Dendro</color> con un 250% di efficacia. L'assorbimento DAN si basa sui PS max di Kirara, e non può superare una determinata percentuale di tale quantità. L'assorbimento DAN restante di uno Scudo di trasporto sicuro si accumula su un nuovo Scudo ogni volta che questo viene creato, e la sua durata viene ripristinata.\n\n<color=#FFD780FF>Pressione prolungata</color>\nSpinta dal suo desiderio di \"completare le consegne nell'arco di mezza giornata\", Kirara crea uno Scudo di trasporto sicuro identico a quello che è possibile creare con la variante a {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione} dell'abilità. In più, si rannicchia in uno speciale pacco da consegna espressa, entrando nello stato di Nekopacco urgente, che rende più rapidi i suoi movimenti e i suoi attacchi.\n\n<color=#FFD780FF>Nekopacco urgente</color>\n· Infligge <color=#99FF88FF>DAN da Dendro</color> agli avversari contro cui si scaraventa. Questo effetto può attivarsi su ciascun avversario una volta ogni 0,5{NON_BREAK_SPACE}s.\n· Quando è in questo stato, la velocità di movimento, la velocità di arrampicata e la potenza di salto di Kirara aumentano, così come il suo consumo di vigore durante l'arrampicata.\n· Quando la durata termina o l'abilità viene usata di nuovo, scatena un Assalto graffiante più potente dell'attacco eseguito nella variante a {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n· Lo stato di Nekopacco urgente dura fino a un massimo di 10{NON_BREAK_SPACE}s. Al termine di quest'ultimo, il TdR dell'abilità si riavvia. Più tempo Kirara trascorre in questo stato, più lungo sarà il TdR.\n· Lo stato termina immediatamente se si usa uno Scatto o si annulla attivamente una scalata.\n\n<i>\"Quindi vuoi sapere qual è il segreto di una spedizione rapida? Beh, è tutta una questione di gambe!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Momoka_01"
       }
     ],
@@ -784,6 +786,7 @@
       "Id": 10615,
       "Name": "Arte segreta: Spedizione a sorpresa",
       "Description": "Sbaraglia gli avversari e i ladri di spedizioni con un apposito Pacco in consegna speciale, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>. Quando il Pacco in consegna speciale esplode, genera un gran numero di <color=#FFD780FF>Cardamomi di erba gatta</color> che scoppiano al contatto con gli avversari o dopo un certo lasso di tempo, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n\n<i>\"Eheh, proprio così! È una misura escogitata per occuparsi di quegli insopportabili ladri di spedizioni! Mi raccomando, lascia una valutazione da cinque stelle, una volta ricevuta la tua consegna!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Momoka_01"
     },
     "Inherents": [
@@ -807,6 +810,7 @@
         "Id": 612101,
         "Name": "Code ammalianti",
         "Description": "#Quando Kirara è nello stato di Nekopacco urgente di <color=#FFD780FF>Calcio Miaoteoritico</color>, ciascun impatto contro l'avversario le conferisce un accumulo di <color=#FFD780FF>Imballaggio rinforzato</color>. Quest'effetto può attivarsi una volta per ciascun colpo a segno ogni 0,5{NON_BREAK_SPACE}s. Massimo 3 accumuli. Al termine dello stato di Nekopacco urgente, ciascun accumulo di Imballaggio rinforzato crea 1 Scudo di trasporto sicuro per Kirara. Gli scudi così creati offrono un 20% dell'assorbimento DAN dello Scudo di trasporto sicuro creato da <color=#FFD780FF>Calcio Miaoteoritico</color>. Se Kirara è già sotto la protezione di uno Scudo di trasporto sicuro creato da Calcio Miaoteoritico, il suo assorbimento DAN si accumula con quello di questi scudi e la sua durata viene reimpostata.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_05"
       },
       {
@@ -828,6 +832,7 @@
         "Id": 612201,
         "Name": "Abbaglio tempestivo",
         "Description": "Per ogni 1.000 PS max di Kirara, aumenta i DAN inflitti da <color=#FFD780FF>Calcio Miaoteoritico</color> e da <color=#FFD780FF>Arte segreta: Spedizione a sorpresa</color> di uno 0,4% e di uno 0,3% rispettivamente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_06"
       },
       {
@@ -846,6 +851,7 @@
         "Id": 612301,
         "Name": "Passo del gatto furtivo",
         "Description": "Quando Kirara è nel gruppo, gli animali che forniscono pollame, carne cruda o carne congelata non fuggiranno dallo spavento se i membri del gruppo si avvicinano a loro.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_07"
       }
     ],

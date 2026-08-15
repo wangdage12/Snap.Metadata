@@ -325,6 +325,7 @@
         "Id": 10571,
         "Name": "Légende de la baston",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups d'épée.\nLorsque son 2e et 4e coup touchent un ennemi, Itto obtient respectivement 1 et 2 cumuls de mégaforce superlative.\nItto peut détenir un maximum de 5 cumuls de mégaforce superlative, et chaque fois que cet effet se déclenche, la durée des cumuls en sa possession est réinitialisée.\n\nDe plus, l'enchaînement d'attaques normales d'Itto ne sera pas réinitialisé pendant une courte période après Zetsugi anti-démon : Catapultage d'akaushi ou l'initiation d'un sprint.\n\n<color=#FFD780FF>Attaque chargée</color>\nLorsque vous maintenez appuyé pour lancer une attaque chargée tout en possédant des cumuls de mégaforce superlative, vous pouvez effectuer des kesa giri d'Arataki sans consommer d'endurance. Chaque kesa giri consommera à la place un cumul de mégaforce superlative. Lorsque le dernier cumul de mégaforce est consommé, Itto libère une attaque finale très puissante.\nSi aucun cumul de mégaforce superlative n'est disponible, Itto consommera de l'endurance pour effectuer une simple entaille de Saichimonji.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10572,
         "Name": "Zetsugi anti-démon : Catapultage d'akaushi",
         "Description": "#Projette Ushi, le jeune taureau akaushi et membre auxiliaire du gang Arataki, pour infliger des <color=#FFE699FF>DGT Géo</color> ! Lorsqu'Ushi touche un ennemi, il accorde à Arataki Itto 1 cumul de mégaforce superlative.\n\nUshi reste ensuite sur le terrain et apporte son aide des façons suivantes{NON_BREAK_SPACE}:\n· Il nargue les ennemis proches et attire leur attention.\n· Il hérite d'un pourcentage des PV max d'Arataki Itto.\n· Lorsqu'il subit des DGT, il accorde à Arataki Itto 1 cumul de mégaforce superlative. Un cumul peut être obtenu une fois toutes les 2 s de cette manière.\n· Si ses PV sont épuisés ou si la durée arrive à terme, il s'enfuit tout en accordant à Arataki Itto 1 cumul de mégaforce superlative.\n\n<color=#FFD780FF>Appui long</color>\nAjuste la direction du jet.\n\nUshi est considéré comme une <color=#FFE699FF>construction Géo</color>, et Arataki Itto ne peut générer qu'un seul Ushi à la fois.\n\n<i>Le nom de cette technique est dérivé d'« Onibudo », un roman écrit par Junkichi. Cependant, l'appeler «{NON_BREAK_SPACE}Zetsugi anti-oni{NON_BREAK_SPACE}» constituerait probablement une violation de droits d'auteur... Sans parler du fait qu'Itto lui-même est un Oni...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Itto_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10575,
       "Name": "Roi oni maléfique : Avènement d'Itto",
       "Description": "Il est temps de montrer la puissance du gang Arataki ! Itto laisse émerger son roi oni courroucé intérieur pendant un certain temps, utilisant son kanabo de Roi oni au combat.\nLes caractéristiques suivantes s'appliquent :\n· Les attaques normales, chargées et plongeantes sont imprégnées de <color=#FFE699FF>DGT Géo</color> ne pouvant pas être enchantés.\n· La VIT d'attaque des attaques normales d'Itto augmente, et son ATQ sera augmentée en fonction de sa DÉF.\n· Lorsque le 1er ou 3e coup de son attaque normale touche un ennemi, Arataki Itto obtient 1 cumul de mégaforce superlative.\n· Les RÉS élémentaires et physique d'Arataki Itto diminuent de 20 %.\n\nLes effets du roi oni courroucé prennent fin lorsque Arataki Itto quitte le champ de bataille.\n\n<i>C'est la meilleure super technique ultime d'Itto... Enfin, d'après lui... Il est inutile pour Arataki Itto d'imiter qui que ce soit d'autre pour devenir plus fort, car il est sans conteste l'Oni le plus fort et le plus terrible de tout le pays. En gros, Itto ne prend exemple que sur lui-même !</i>\n<i>Shouta trouve que c'est super cool.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Itto_01"
     },
     "Inherents": [
@@ -727,6 +730,7 @@
         "Id": 572101,
         "Name": "Arataki au top",
         "Description": "#Lorsque Arataki Itto effectue une série de kesa giri d'Arataki, il obtient les effets suivants{NON_BREAK_SPACE}:\n· Chaque frappe augmente la VIT d'attaque de la prochaine de 10{NON_BREAK_SPACE}%. La VIT d'attaque peut être augmentée d'un maximum de 30{NON_BREAK_SPACE}% de cette manière.\n· Sa RÉS à l'interruption augmente.\n\nCes effets prennent fin lorsque Arataki Itto arrête d'utiliser cette série d'attaques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Itto_05"
       },
       {
@@ -747,6 +751,7 @@
         "Id": 572201,
         "Name": "Lignée de l'Oni cramoisi",
         "Description": "Les DGT infligés par les kesa giri d'Arataki augmentent d'une valeur équivalant à 35 % de la DÉF d'Arataki Itto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Itto_06"
       },
       {
@@ -765,6 +770,7 @@
         "Id": 572301,
         "Name": "Castor au rapport",
         "Description": "Lorsqu'un de vos personnages dans l'équipe utilise des attaques pour obtenir du bois d'un arbre, il a 25 % de chances d'obtenir un morceau de bois supplémentaire.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Itto_07"
       }
     ],

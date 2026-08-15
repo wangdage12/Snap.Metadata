@@ -323,6 +323,7 @@
         "Id": 10421,
         "Name": "Arte della spada Yunlai",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10422,
         "Name": "Ripristino stellare",
         "Description": "Lancia uno Stiletto saettante che annienta i suoi avversari come il rapido tuono.\nQuando lo Stiletto colpisce il suo obiettivo, infligge <color=#FFACFFFF>DAN da Electro</color> agli avversari in una piccola area d'effetto e posiziona un Marchio dello stiletto nel punto colpito.\n\n<color=#FFD780FF>Pressione prolungata</color>\nTieni premuto per regolare la direzione in cui lo Stiletto sarà lanciato.\nGli Stiletti lanciati con un attacco a pressione prolungata possono restare sospesi a mezz'aria, permettendo a Keqing di teletrasportarsi nel punto in cui si trovano quando usa Ripristino stellare una seconda volta.\n\n<color=#FFD780FF>Stiletto saettante</color>\nSe Keqing usa Ripristino stellare di nuovo o usa un attacco caricato finché è attivo, annullerà il Marchio dello stiletto causando effetti diversi:\n· se usa di nuovo Ripristino stellare, si teletrasporterà dove il marchio è posizionato e rilascerà una sferzata che infligge <color=#FFACFFFF>DAN da Electro ad area</color>. Quando si teletrasporta verso uno Stiletto lanciato con un attacco a pressione prolungata, Keqing è in grado di oltrepassare gli ostacoli presenti sul terreno;\n· se Keqing usa un attacco caricato, scatenerà una serie di attacchi tonanti dove si trova il marchio, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\n\n<i>\"Gli umani sono come falene. Inseguono incessantemente la fiamma degli dèi e degli Adepti. Ma la luce che io possiedo appartiene a me e a nessun altro.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Keqing_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 10425,
       "Name": "Spada celestiale",
       "Description": "Keqing sprigiona il potere del fulmine, infliggendo <color=#FFACFFFF>DAN da Electro</color> in un'area d'effetto.\nKeqing si fonde poi con l'ombra della sua spada, sferrando una serie di colpi tonanti simultanei agli avversari vicini, che infliggono <color=#FFACFFFF>DAN da Electro</color> multipli. L'attacco finale infligge ingenti <color=#FFACFFFF>DAN da Electro ad area</color>.\n\n<i>Essendo la tecnica più rapida nell'arsenale personale di Keqing, essa è abbastanza veloce da far precipitare persino le stelle.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Keqing_01"
     },
     "Inherents": [
@@ -697,6 +700,7 @@
         "Id": 422101,
         "Name": "Penitenza del tuono",
         "Description": "#Dopo aver usato di nuovo <color=#FFD780FF>Ripristino stellare</color> mentre uno Stiletto saettante è attivo, l'arma di Keqing ottiene un'<color=#FFACFFFF>infusione di Electro</color> per 5{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Keqing_05"
       },
       {
@@ -719,6 +723,7 @@
         "Id": 422201,
         "Name": "Dignità aristocratica",
         "Description": "#Quando si usa <color=#FFD780FF>Spada celestiale</color>, il tasso di CRIT e la ricarica d'energia di Keqing aumentano di un 15%. Quest'effetto dura 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Keqing_06"
       },
       {
@@ -737,6 +742,7 @@
         "Id": 422301,
         "Name": "Sorvegliante della terra",
         "Description": "Quando intraprende una spedizione a Liyue, il tempo impiegato per portarla a termine si riduce di un 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Liyue"
       }
     ],

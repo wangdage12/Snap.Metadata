@@ -308,6 +308,7 @@
         "Id": 10451,
         "Name": "Lancia della Chiesa",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10452,
         "Name": "Confessione devastante",
         "Description": "Rosaria cambia rapidamente la sua posizione per apparire dietro l'avversario, per poi squarciarlo con la sua lancia, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\nQuest'abilità non può essere usata per spostarsi dietro avversari di grandi dimensioni.\n\n<i>Coloro che si confessano con Sorella Rosaria non riceveranno alcuna assoluzione. Tutti i peccatori subiranno la punizione del gelo penetrante in proporzione alla gravità dei loro peccati.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Rosaria_01"
       }
     ],
@@ -659,6 +661,7 @@
       "Id": 10453,
       "Name": "Sacramento finale",
       "Description": "Il rituale di preghiera guidato da Rosaria: prima sferza con la sua arma gli avversari circostanti, poi evoca una gelida Asta di ghiaccio che colpisce il suolo. Entrambe le azioni infliggono <color=#99FFFFFF>DAN da Cryo</color>.\nFinché è attiva, l'Asta di ghiaccio rilascia periodicamente un'ondata di aria fredda, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari circostanti.\n\n<i>Il giudizio è un tedioso calvario. È molto più semplice saltare quella fase e arrivare dritti agli ultimi riti. Rosaria non è mai stata particolarmente devota al Dio di Anemo, perciò, non si fa particolari problemi a eseguire questi riti.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Rosaria_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 452101,
         "Name": "Regina probationum",
         "Description": "#Quando Rosaria attacca un avversario alle spalle usando <color=#FFD780FF>Confessione devastante</color>, il suo tasso di CRIT aumenta di un 12% per 5{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 452201,
         "Name": "Rinfianco umbratile",
         "Description": "#Usando <color=#FFD780FF>Sacramento finale</color>, il tasso di CRIT di tutti i membri del gruppo vicini (esclusa Rosaria) aumenta di una quantità pari a un 15% del tasso di CRIT di Rosaria per 10{NON_BREAK_SPACE}s.\nIn questo modo è possibile ottenere fino a un 15% di bonus del tasso di CRIT.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 452301,
         "Name": "Passeggiata notturna",
         "Description": "Di notte (18:00-06:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.\nNon ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Rosaria_NightRunner"
       }
     ],

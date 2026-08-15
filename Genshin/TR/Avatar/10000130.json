@@ -261,6 +261,7 @@
         "Id": 11301,
         "Name": "Yakalama Protokolü",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda taş kristaller toplanır. Tam yüklü bu kristal ok <color=#FFE699FF>Toprak Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11302,
         "Name": "Karşı Hamle: Lumi'nin Savaş Narası!",
         "Description": "Lumi ile maceraya atıl! Beceriye dokunma şekline göre Lumi farklı formlarda saldırır.\n\n<color=#FFD780FF>Dokun</color>\nLumi, <color=#FFD780FF>{LINK#N11300001}Süper Güç Formunda{/LINK}</color> hücuma kalkarak yakındaki düşmanlara sürekli olarak saldırır ve <color=#FFE699FF>Toprak Alan Hasarı</color> verir. Yakınlarda Ay Akıntısı varsa Lumi aynı zamanda yakındaki düşmanlara <color=#FFE699FF>Toprak Alan Hasarı</color> verir ve bu Hasar, Ay Kristalleşmesi Tepkimesi Hasarı olarak kabul edilir.\n\n<color=#FFD780FF>Art Arda Dokun</color>\nNeler yapabildiğimizi gösterme zamanı! Element Becerisini kullandıktan sonra Element Becerisine veya Normal Saldırısına art arda Dokunulduğunda Linnea, Lumi'yi parlak mücevherlerle besler. Karnı doyan Lumi, <color=#FFD780FF>{LINK#N11300001}Mutlak Güç Formunda{/LINK}</color> hücuma kalkarak Ay Kristalleşmesi Tepkimesi Hasarı olarak kabul edilen ekstra güçlü bir <color=#FFE699FF>Toprak Alan Hasarı</color> verir ve ardından <color=#FFD780FF>{LINK#N11300001}Standart Güç Formuna{/LINK}</color> geçer.\nAyrıca Element Becerisine dokunmak, Linnea'nın müdahaleye karşı direncini artırır.\n\n<i>\"Sıra sende Lumi!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linnea_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11305,
       "Name": "Not: Ekstrem Koşullarda Hayatta Kalma Rehberi",
       "Description": "Usta maceracıların bile iyice dinlenmesi gerekir! Linnea, Lumi'yi <color=#FFD780FF>{LINK#N11300001}Süper Güç Formunda{/LINK}</color> saldırması için çağırır. Lumi ayrıca kısa bir süreliğine Linnea'nın Savunmasına bağlı olarak yakındaki aktif grup üyelerini devamlı iyileştirir.\nLinnea Element Patlamasını kullandığında Lumi zaten alandaysa Lumi'nin süresi yenilenir ve Saldırı Formu değişmez.\n<i>\"İşinin ehli her profesyonel maceracı için zorlu bir durumdan sağ çıkmak, ne kadar benzersiz olursa olsun yeni keşifler yapmaktan çok daha önceliklidir.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linnea_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1302101,
         "Name": "Saha Gözlem Notları",
         "Description": "Lumi alandayken, Lumi'nin yakınındaki düşmanların <color=#FFE699FF>Toprak Direnci</color> %15 azalır.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Linnea'nın <color=#FFD780FF>{LINK#S11302}Karşı Hamle: Lumi'nin Savaş Narası!{/LINK}</color> Element Becerisi ve <color=#FFD780FF>{LINK#S11305}Not: Ekstrem Koşullarda Hayatta Kalma Rehberi{/LINK}</color> Element Patlaması geliştirilir. Lumi çağrıldıktan sonra, Lumi'nin yakınındaki düşmanların <color=#FFE699FF>Toprak Direnci</color> %15 daha azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_05"
       },
       {
@@ -702,6 +706,7 @@
         "Id": 1302201,
         "Name": "Evrensel Doğa Bilimleri Arşivi",
         "Description": "Linnea, mevcut aktif karaktere göre grubundaki belirli karakterlerin Element Ustalığını artırır. Element Ustalığı, Linnea'nın Savunmasının %5'i kadar artar. Mevcut aktif karakter:\n·Bir Ay Sembolü karakteriyse: Bu karakterin Element Ustalığı artar.\n·Bir Ay Sembolü karakteri değilse: Linnea'nın kendi Element Ustalığı artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 1302301,
         "Name": "Ay Sembolü Kutsaması: Habitat Araştırması",
         "Description": "Bir grup üyesi Su Kristalleşmesi tepkimesi tetiklediğinde bu, Ay Kristalleşmesi tepkimesine dönüşür. Linnea'nın sahip olduğu her 100 Savunma, Ay Kristalleşmesi tepkimesinin Temel Hasarını %0,7 artırır; en fazla %14 artabilir.\n\nAyrıca grubunda Linnea olduğunda, grubunun <color=#FFD780FF>Ay Sembolü</color> 1 seviye yükselir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_07"
       },
       {
@@ -743,6 +749,7 @@
         "Id": 1302501,
         "Name": "Usta Maceracı",
         "Description": "Savaşta değilken Linnea'nın <color=#FFD780FF>Hedefli Atış</color> doldurma süresi büyük ölçüde azalır ve bunun yerine bir <color=#FFD780FF>Müthiş Kullanışlı Hızlı Ok</color> atar. Vurulan hedeflere bağlı olarak farklı etkiler meydana gelir:\n·Belirli hayvanlar: <color=#FFD780FF>Müthiş Kullanışlı Hızlı Ok</color>, bu hayvanların özünü ve formunu yakalayabilen özel bir \"Ağ\"a dönüşür ve bu hayvanların fiziksel formunu tekrar ortaya çıkarmak için bir araç olarak kullanılır. \"Ağ\" her hafta sınırlı sayıda kullanılabilir.\n·Dövme için kullanılan cevher damarları: Linnea, <color=#FFD780FF>Müthiş Kullanışlı Hızlı Ok</color> ile işaretlediği cevhere Lumi'yi göndererek ona hızla saldırmasını ve düşenleri toplamasını sağlar. Lumi alanda değilse Linnea cevheri toplamaya yardımcı olması için onu kısa bir süreliğine çağırır.\n\nLinnea'nın <color=#FFD780FF>Müthiş Kullanışlı Hızlı Ok</color> ile düşmanlara verdiği Hasar, orijinal Yüklü Ok Hasarının %20'si kadar olur. Ayrıca kısa bir süre içinde belirli sayıda <color=#FFD780FF>Müthiş Kullanışlı Hızlı Ok</color> attıktan sonra, Linnea'nın Hızlı Ok kullanmaya devam etmeden önce kısa bir mola vermesi gerekir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_08"
       }
     ],

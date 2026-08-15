@@ -42,6 +42,7 @@
             "Streuangriffs-SCH durch heftige Schläge|{param4:F1P}",
             "Kondensationsstrahl-SCH durch heftige Schläge|{param5:F1P}",
             "Kondensationsstrahl-SCH durch heftige Schläge (Stellar-Supraleiter)|{param6:F1P}",
+            "SCH bei Kondensationsstrahlen der Stellar-Verwirbelung durch heftige Schläge|{param11:F1P}",
             "SCH bei Leistungsüberlastung|{param7:F1P}",
             "SCH beim Fallen|{param8:F1P}",
             "SCH beim Fallen aus niedriger/großer Höhe|{param9:P}/{param10:P}"
@@ -60,7 +61,8 @@
                 0.43,
                 0.745878,
                 1.49144,
-                1.862889
+                1.862889,
+                1.2255
               ]
             },
             {
@@ -76,7 +78,8 @@
                 0.465,
                 0.806589,
                 1.612836,
-                2.01452
+                2.01452,
+                1.32525
               ]
             },
             {
@@ -92,7 +95,8 @@
                 0.5,
                 0.8673,
                 1.734233,
-                2.16615
+                2.16615,
+                1.425
               ]
             },
             {
@@ -108,7 +112,8 @@
                 0.55,
                 0.95403,
                 1.907656,
-                2.382765
+                2.382765,
+                1.5675
               ]
             },
             {
@@ -124,7 +129,8 @@
                 0.585,
                 1.014741,
                 2.029052,
-                2.534396
+                2.534396,
+                1.66725
               ]
             },
             {
@@ -140,7 +146,8 @@
                 0.625,
                 1.084125,
                 2.167791,
-                2.707688
+                2.707688,
+                1.78125
               ]
             },
             {
@@ -156,7 +163,8 @@
                 0.68,
                 1.179528,
                 2.358556,
-                2.945964
+                2.945964,
+                1.938
               ]
             },
             {
@@ -172,7 +180,8 @@
                 0.735,
                 1.274931,
                 2.549322,
-                3.184241
+                3.184241,
+                2.09475
               ]
             },
             {
@@ -188,7 +197,8 @@
                 0.79,
                 1.370334,
                 2.740087,
-                3.422517
+                3.422517,
+                2.2515
               ]
             },
             {
@@ -204,7 +214,8 @@
                 0.85,
                 1.47441,
                 2.948195,
-                3.682455
+                3.682455,
+                2.4225
               ]
             },
             {
@@ -220,7 +231,8 @@
                 0.91,
                 1.578486,
                 3.156303,
-                3.942393
+                3.942393,
+                2.5935
               ]
             },
             {
@@ -236,7 +248,8 @@
                 0.97,
                 1.682562,
                 3.364411,
-                4.202331
+                4.202331,
+                2.7645
               ]
             },
             {
@@ -252,7 +265,8 @@
                 1.03,
                 1.786638,
                 3.572519,
-                4.462269
+                4.462269,
+                2.9355
               ]
             },
             {
@@ -268,7 +282,8 @@
                 1.09,
                 1.890714,
                 3.780627,
-                4.722207
+                4.722207,
+                3.1065
               ]
             },
             {
@@ -284,7 +299,8 @@
                 1.15,
                 1.99479,
                 3.988735,
-                4.982145
+                4.982145,
+                3.2775
               ]
             }
           ],
@@ -292,7 +308,8 @@
         },
         "Id": 11331,
         "Name": "Ereignisformel – Selbstverständlicher Beweis",
-        "Description": "#<color=#FFD780FF>Standardangriff</color>\nVerwebt mit einer Formel Fäden, die die Klinge lenken, und führt bis zu drei aufeinanderfolgende Hiebe aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nBeschwört die „Facilitatrice Automatisé Généraliste Interactif et Omnitâche“ <color=#FFD780FF>Fagio</color> herbei und lässt sie in den Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> wechseln: Führt einen Streuangriff auf Gegner vorne aus und feuert in bestimmten Abständen einen Kondensationsstrahl ab, der <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wandelt den Kondensationsstrahl in <color=#99FFFFFF>Kryo-Flächenschaden</color> um, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird.\nErhöht im Modus <color=#FFD780FF>Berechnung</color> Fagios <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> fortlaufend. Erhöht beim Abfeuern des Kondensationsstrahls die Berechnungsleistung zusätzlich weiter.\nVersetzt Fagio, wenn die Berechnungsleistung die Obergrenze von 100 Punkten erreicht, in den Modus <color=#FFD780FF>Leistungsüberlastung</color>, in dem sie in längeren Abständen auf Gegner feuert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht, und nicht in den Modus Berechnung wechseln kann.\nVerringert, wenn Fagio sich nicht im Modus <color=#FFD780FF>Berechnung</color> befindet, ihre <color=#FFD780FF>Berechnungsleistung</color> langsam. Ist Sandrone inaktiv in der Truppe, konzentriert sie sich auf die Reparatur von Fagio, wodurch die Verringerungsschnelligkeit der Berechnungsleistung auf 300{NON_BREAK_SPACE}% des ursprünglichen Wertes steigt.\nSinkt die <color=#FFD780FF>Berechnungsleistung</color> auf unter 50 Punkte, verlässt Fagio den Modus <color=#FFD780FF>Leistungsüberlastung</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nStürzt aus der Luft auf den Boden, trifft Gegner auf der Fallbahn und verursacht beim Aufprall Flächenschaden.",
+        "Description": "#<color=#FFD780FF>Standardangriff</color>\nVerwebt mit einer Formel Fäden, die die Klinge lenken, und führt bis zu drei aufeinanderfolgende Hiebe aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nBeschwört die „Facilitatrice Automatisé Généraliste Interactif et Omnitâche“ <color=#FFD780FF>Fagio</color> herbei und lässt sie in den Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> wechseln: Führt einen Streuangriff auf Gegner vorne aus und feuert in bestimmten Abständen einen Kondensationsstrahl ab, der <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht.\n{LINK#N11500004}<color=#FFD780FF>Leuchten – Stellarfunkeln</color>{/LINK}: Wandelt den Kondensationsstrahl in <color=#99FFFFFF>Kryo-Flächenschaden</color> um, der als der Stellarfunkeln-Reaktion entsprechender Schaden gewertet wird.\nErhöht im Modus <color=#FFD780FF>Berechnung</color> Fagios <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> fortlaufend. Erhöht beim Abfeuern des Kondensationsstrahls die Berechnungsleistung zusätzlich weiter.\nVersetzt Fagio, wenn die Berechnungsleistung die Obergrenze von 100 Punkten erreicht, in den Modus <color=#FFD780FF>Leistungsüberlastung</color>, in dem sie in längeren Abständen auf Gegner feuert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht, und nicht in den Modus Berechnung wechseln kann.\nVerringert, wenn Fagio sich nicht im Modus <color=#FFD780FF>Berechnung</color> befindet, ihre <color=#FFD780FF>Berechnungsleistung</color> langsam. Ist Sandrone inaktiv in der Truppe, konzentriert sie sich auf die Reparatur von Fagio, wodurch die Verringerungsschnelligkeit der Berechnungsleistung auf 300{NON_BREAK_SPACE}% des ursprünglichen Wertes steigt.\nSinkt die <color=#FFD780FF>Berechnungsleistung</color> auf unter 50 Punkte, verlässt Fagio den Modus <color=#FFD780FF>Leistungsüberlastung</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nStürzt aus der Luft auf den Boden, trifft Gegner auf der Fallbahn und verursacht beim Aufprall Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -301,6 +318,7 @@
           "Descriptions": [
             "Prismageschoss-SCH|{param1:F1P}",
             "Prismageschoss-SCH (Stellar-Supraleiter)|{param2:F1P}",
+            "SCH durch Prismageschoss bei Stellar-Verwirbelung|{param4:F1P}",
             "Abklingzeit|{param3:F1} s"
           ],
           "Parameters": [
@@ -310,7 +328,8 @@
               "Parameters": [
                 0.324,
                 0.216,
-                4
+                4,
+                0.324
               ]
             },
             {
@@ -319,7 +338,8 @@
               "Parameters": [
                 0.3483,
                 0.2322,
-                4
+                4,
+                0.3483
               ]
             },
             {
@@ -328,7 +348,8 @@
               "Parameters": [
                 0.3726,
                 0.2484,
-                4
+                4,
+                0.3726
               ]
             },
             {
@@ -337,7 +358,8 @@
               "Parameters": [
                 0.405,
                 0.27,
-                4
+                4,
+                0.405
               ]
             },
             {
@@ -346,7 +368,8 @@
               "Parameters": [
                 0.4293,
                 0.2862,
-                4
+                4,
+                0.4293
               ]
             },
             {
@@ -355,7 +378,8 @@
               "Parameters": [
                 0.4536,
                 0.3024,
-                4
+                4,
+                0.4536
               ]
             },
             {
@@ -364,7 +388,8 @@
               "Parameters": [
                 0.486,
                 0.324,
-                4
+                4,
+                0.486
               ]
             },
             {
@@ -373,7 +398,8 @@
               "Parameters": [
                 0.5184,
                 0.3456,
-                4
+                4,
+                0.5184
               ]
             },
             {
@@ -382,7 +408,8 @@
               "Parameters": [
                 0.5508,
                 0.3672,
-                4
+                4,
+                0.5508
               ]
             },
             {
@@ -391,7 +418,8 @@
               "Parameters": [
                 0.5832,
                 0.3888,
-                4
+                4,
+                0.5832
               ]
             },
             {
@@ -400,7 +428,8 @@
               "Parameters": [
                 0.6156,
                 0.4104,
-                4
+                4,
+                0.6156
               ]
             },
             {
@@ -409,7 +438,8 @@
               "Parameters": [
                 0.648,
                 0.432,
-                4
+                4,
+                0.648
               ]
             },
             {
@@ -418,7 +448,8 @@
               "Parameters": [
                 0.6885,
                 0.459,
-                4
+                4,
+                0.6885
               ]
             },
             {
@@ -427,7 +458,8 @@
               "Parameters": [
                 0.729,
                 0.486,
-                4
+                4,
+                0.729
               ]
             },
             {
@@ -436,7 +468,8 @@
               "Parameters": [
                 0.7695,
                 0.513,
-                4
+                4,
+                0.7695
               ]
             }
           ],
@@ -444,7 +477,8 @@
         },
         "Id": 11332,
         "Name": "Ereignisformel – Gleitende Analyse",
-        "Description": "#Gemäß der perfekten Etikette einer Dame besteigt sie den <color=#FFD780FF>Taktischen Ansturm-Schwebe-Mecha für Teegesellschaften</color> und schwebt 6{NON_BREAK_SPACE}s lang fortlaufend vorwärts. Hierbei kann Sandrone die Schweberichtung steuern sowie in den Modus „Elegantes Schnellschweben“ eintreten, indem sie beim Drücken auf Rennen 10 Punkte Ausdauer verbraucht. In diesem Modus werden 15 Punkte Ausdauer pro{NON_BREAK_SPACE}Sekunde verbraucht, wodurch Sandrone schneller schweben kann.\n\nBeschwört, wenn Sandrone anfängt zu schweben und sich in der Nähe Gegner befinden, eine Prisma-Resonanzkanone herauf, die zwei Prismageschosse auf Gegner, die sich noch nicht beruhigt haben, abfeuert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wandelt das zweite Prismageschoss um und verursacht <color=#99FFFFFF>Kryo-Schaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird.\n\nBeim Besteigen des Taktischen Ansturm-Schwebe-Mechas für Teegesellschaften repariert Sandrone Fagio elegant und unbemerkt, wodurch sich ihre <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> schnell verringert.",
+        "Description": "#Gemäß der perfekten Etikette einer Dame besteigt sie den <color=#FFD780FF>Taktischen Ansturm-Schwebe-Mecha für Teegesellschaften</color> und schwebt 6{NON_BREAK_SPACE}s lang fortlaufend vorwärts. Hierbei kann Sandrone die Schweberichtung steuern sowie in den Modus „Elegantes Schnellschweben“ eintreten, indem sie beim Drücken auf Rennen 10 Punkte Ausdauer verbraucht. In diesem Modus werden 15 Punkte Ausdauer pro{NON_BREAK_SPACE}Sekunde verbraucht, wodurch Sandrone schneller schweben kann.\n\nBeschwört, wenn Sandrone anfängt zu schweben und sich in der Nähe Gegner befinden, eine Prisma-Resonanzkanone herauf, die zwei Prismageschosse auf Gegner, die sich noch nicht beruhigt haben, abfeuert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n{LINK#N11500004}<color=#FFD780FF>Leuchten – Stellarfunkeln</color>{/LINK}: Wandelt das zweite Prismageschoss um und verursacht <color=#99FFFFFF>Kryo-Schaden</color>, der als der Stellarfunkeln-Reaktion entsprechender Schaden gewertet wird.\n\nBeim Besteigen des Taktischen Ansturm-Schwebe-Mechas für Teegesellschaften repariert Sandrone Fagio elegant und unbemerkt, wodurch sich ihre <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> schnell verringert.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_MarionetteNew_01"
       }
     ],
@@ -455,6 +489,7 @@
           "Bombardierungs-SCH|{param1:F1P} ×3",
           "Energiestrahl-SCH|{param2:F1P}",
           "Energiestrahl-SCH (Stellar-Supraleiter)|{param3:F1P}",
+          "SCH durch Energiestrahl bei Stellar-Verwirbelung|{param6:F1P}",
           "Abklingzeit|{param4:F1} s",
           "Elementarenergie|{param5:I}"
         ],
@@ -467,7 +502,8 @@
               3.308,
               2.205333,
               15,
-              60
+              60,
+              3.308
             ]
           },
           {
@@ -478,7 +514,8 @@
               3.5561,
               2.370733,
               15,
-              60
+              60,
+              3.5561
             ]
           },
           {
@@ -489,7 +526,8 @@
               3.8042,
               2.536133,
               15,
-              60
+              60,
+              3.8042
             ]
           },
           {
@@ -500,7 +538,8 @@
               4.135,
               2.756667,
               15,
-              60
+              60,
+              4.135
             ]
           },
           {
@@ -511,7 +550,8 @@
               4.3831,
               2.922067,
               15,
-              60
+              60,
+              4.3831
             ]
           },
           {
@@ -522,7 +562,8 @@
               4.6312,
               3.087467,
               15,
-              60
+              60,
+              4.6312
             ]
           },
           {
@@ -533,7 +574,8 @@
               4.962,
               3.308,
               15,
-              60
+              60,
+              4.962
             ]
           },
           {
@@ -544,7 +586,8 @@
               5.2928,
               3.528533,
               15,
-              60
+              60,
+              5.2928
             ]
           },
           {
@@ -555,7 +598,8 @@
               5.6236,
               3.749067,
               15,
-              60
+              60,
+              5.6236
             ]
           },
           {
@@ -566,7 +610,8 @@
               5.9544,
               3.9696,
               15,
-              60
+              60,
+              5.9544
             ]
           },
           {
@@ -577,7 +622,8 @@
               6.2852,
               4.190133,
               15,
-              60
+              60,
+              6.2852
             ]
           },
           {
@@ -588,7 +634,8 @@
               6.616,
               4.410667,
               15,
-              60
+              60,
+              6.616
             ]
           },
           {
@@ -599,7 +646,8 @@
               7.0295,
               4.686333,
               15,
-              60
+              60,
+              7.0295
             ]
           },
           {
@@ -610,7 +658,8 @@
               7.443,
               4.962,
               15,
-              60
+              60,
+              7.443
             ]
           },
           {
@@ -621,7 +670,8 @@
               7.8565,
               5.237667,
               15,
-              60
+              60,
+              7.8565
             ]
           }
         ],
@@ -629,7 +679,8 @@
       },
       "Id": 11335,
       "Name": "Ereignisformel – Beweis aller Prinzipien",
-      "Description": "Beschwört mit der Eleganz einer Dame zahlreiche Prisma-Resonanzkanonen herauf, die eine weitflächige Bombardierung nach vorne durchführen. Feuert anschließend einen Energiestrahl mit negativen Temperaturen auf Gegner ab und verursacht <color=#99FFFFFF>Kryo-Flächenschaden</color>.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wandelt den Energiestrahl mit negativen Temperaturen um und verursacht stattdessen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter gewertet wird.",
+      "Description": "Beschwört mit der Eleganz einer Dame zahlreiche Prisma-Resonanzkanonen herauf, die eine weitflächige Bombardierung nach vorne durchführen. Feuert anschließend einen Energiestrahl mit negativen Temperaturen auf Gegner ab und verursacht <color=#99FFFFFF>Kryo-Flächenschaden</color>.\n{LINK#N11500004}<color=#FFD780FF>Leuchten – Stellarfunkeln</color>{/LINK}: Wandelt den Energiestrahl mit negativen Temperaturen um und verursacht stattdessen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als der Stellarfunkeln-Reaktion entsprechender Schaden gewertet wird.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_MarionetteNew_01"
     },
     "Inherents": [
@@ -651,7 +702,8 @@
         },
         "Id": 1332101,
         "Name": "Uralte Rechenvorrichtung",
-        "Description": "#<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Wenn beim Anwenden der Elementarfähigkeit {LINK#S11332}<color=#FFD780FF>Ereignisformel – Gleitende Analyse</color>{/LINK} Fagio über mehr als 50 Punkte <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> verfügt, verringert sich die Berechnungsleistung, und das zweite Prismageschoss, das auf einen Gegner in der Nähe abgefeuert wird, verursacht 400{NON_BREAK_SPACE}% des ursprünglichen Schadens.\nVerleiht Fagio zudem jedes Mal, wenn die <color=#FFD780FF>Berechnungsleistung</color> um 10 Punkte verringert wird, eine Stapelung des Effekts <color=#FFD780FF>Verbesserte Taktik</color>, die 60{NON_BREAK_SPACE}s hält. Dieser Effekt ist 10-fach stapelbar. Löscht, wenn Sandrone im Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> die Spezialfähigkeit {LINK#S11335}<color=#FFD780FF>Ereignisformel – Beweis aller Prinzipien</color>{/LINK} anwendet, alle Stapelungen „Verbesserte Taktik“, wodurch der durch den Energiestrahl mit negativen Temperaturen verursachte Schaden in Höhe von 100{NON_BREAK_SPACE}% + (gelöschte Stapelungen ×10%) des Ursprungswerts beträgt.",
+        "Description": "#{LINK#N11500004}<color=#FFD780FF>Leuchten – Stellarfunkeln</color>{/LINK}: Wenn beim Anwenden der Elementarfähigkeit {LINK#S11332}<color=#FFD780FF>Ereignisformel – Gleitende Analyse</color>{/LINK} Fagio über mehr als 50 Punkte <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> verfügt, verringert sich die Berechnungsleistung, und das zweite Prismageschoss, das auf einen Gegner in der Nähe abgefeuert wird, verursacht 400{NON_BREAK_SPACE}% des ursprünglichen Schadens.\nVerleiht Fagio zudem jedes Mal, wenn die <color=#FFD780FF>Berechnungsleistung</color> um 10 Punkte verringert wird, eine Stapelung des Effekts <color=#FFD780FF>Verbesserte Taktik</color>, die 60{NON_BREAK_SPACE}s hält. Dieser Effekt ist 10-fach stapelbar. Löscht, wenn Sandrone im Zustand <color=#FFD780FF>Leuchten – Sternenfunkeln</color> die Spezialfähigkeit {LINK#S11335}<color=#FFD780FF>Ereignisformel – Beweis aller Prinzipien</color>{/LINK} anwendet, alle Stapelungen „Verbesserte Taktik“, wodurch der durch den Energiestrahl mit negativen Temperaturen verursachte Schaden in Höhe von 100{NON_BREAK_SPACE}% + (gelöschte Stapelungen ×10{NON_BREAK_SPACE}%) des Ursprungswerts beträgt.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_05"
       },
       {
@@ -673,6 +725,7 @@
         "Id": 1332201,
         "Name": "Verhaltensregeln einer Dame",
         "Description": "Erhöht ihre Elementarkunde basierend auf Sandrones ANG: Erhöht Sandrones Elementarkunde pro 100 Punkte ANG um 8 Punkte. Auf diese Weise kann die Elementarkunde um maximal 160 Punkte erhöht werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_06"
       },
       {
@@ -693,7 +746,8 @@
         },
         "Id": 1332301,
         "Name": "Sternensegnung – Nur die Vernunft sei Licht",
-        "Description": "#Wandelt, wenn ein Truppenmitglied die Reaktion Supraleiter auslöst, diese stattdessen in die Reaktion Stellar-Supraleiter um und erhöht den Basis-Schaden der Reaktion Stellar-Supraleiter von Truppenmitgliedern basierend auf Sandrones ANG: Erhöht den Basis-SCH der Reaktion Stellar-Supraleiter pro 100 Punkte um 0,7{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\nVersetzt Sandrone zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Description": "#Versetzt Sandrone, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet oder ein Truppenmitglied in der Nähe die Reaktion Stellar-Verwirbelung auslöst, innerhalb von 8{NON_BREAK_SPACE}s in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>/<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>.\nWandelt, wenn ein Truppenmitglied die Reaktion Supraleiter/Kryo-Verwirbelung auslöst, diese stattdessen in die Reaktion Stellar-Supraleiter/Stellar-Verwirbelung um und erhöht den Basis-Schaden der oben genannten Reaktionen von Truppenmitgliedern basierend auf Sandrones ANG: Erhöht den Basis-SCH der oben genannten Reaktionen um 0,7{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_07"
       },
       {
@@ -712,6 +766,7 @@
         "Id": 1332501,
         "Name": "Ouvertüre der Teegesellschaft und eine lange Geschichte",
         "Description": "Verleiht, wenn sich Sandrone in der Truppe befindet und nachdem du die täglichen Missionen bei Katheryne abgeschlossen hast, zusätzliche Snacks als Belohnung.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_08"
       }
     ],
@@ -719,13 +774,13 @@
       {
         "Id": 1331,
         "Name": "Der Morgen nach der goldenen Dämmerung",
-        "Description": "#Verringert, wenn Fagio sich im Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> befindet, die Erhöhungsgeschwindigkeit ihrer <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> um 50{NON_BREAK_SPACE}%. Erhöht zudem den von allen Truppenmitgliedern durch die Reaktion „Stellar-Supraleiter“ verursachten Schaden um 30{NON_BREAK_SPACE}%.",
+        "Description": "#Verringert, wenn Fagio sich im Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> befindet, die Erhöhungsgeschwindigkeit ihrer <color=#FFD780FF>{LINK#N11330002}Berechnungsleistung{/LINK}</color> um 50{NON_BREAK_SPACE}%. Erhöht zudem den von allen Truppenmitgliedern durch die Stellarfunkeln-Reaktion verursachten Schaden um 30{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_MarionetteNew_01"
       },
       {
         "Id": 1332,
         "Name": "Im Spiegel der Erinnerung vergehen die Jahre wie im Flug",
-        "Description": "#<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht den KSCH des Kondensationsstrahls, der mithilfe heftiger Schläge abgefeuert wird, um 40{NON_BREAK_SPACE}%. Erhöht zudem jedes Mal, wenn in diesem Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> ein Kondensationsstrahl abgefeuert wird, den KSCH aller abgefeuerten Kondensationsstrahlen um weitere 20{NON_BREAK_SPACE}%. Dieser Effekt ist bis zu 3-fach stapelbar.",
+        "Description": "#<color=#FFD780FF>Leuchten – Stellarfunkeln</color>: Erhöht den KSCH des Kondensationsstrahls, der mithilfe heftiger Schläge abgefeuert wird, um 40{NON_BREAK_SPACE}%. Erhöht zudem jedes Mal, wenn in diesem Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> ein Kondensationsstrahl abgefeuert wird, den KSCH aller abgefeuerten Kondensationsstrahlen um weitere 20{NON_BREAK_SPACE}%. Dieser Effekt ist bis zu 3-fach stapelbar.",
         "Icon": "UI_Talent_S_MarionetteNew_02"
       },
       {
@@ -741,7 +796,7 @@
       {
         "Id": 1334,
         "Name": "Alles sind Zahlen, Tag und Nacht im ewigen Wandel",
-        "Description": "#Beschwört, wenn Sandrone einen Gegner mit der Reaktion Stellar-Supraleiter trifft, zusätzlich eine Prisma-Resonanzkanone für einen abgestimmten Angriff herauf, der dem Gegner einmalig <color=#99FFFFFF>Kryo-Schaden</color> in Höhe von 125{NON_BREAK_SPACE}% von Sandrones ANG zufügt. Hierdurch verursachter Schaden gilt als durch die Reaktion Stellar-Supraleiter verursachter Schaden, 4{NON_BREAK_SPACE}s Abklingzeit.",
+        "Description": "#Beschwört, wenn Sandrone einen Gegner mit der Reaktion Stellar-Supraleiter/Stellar-Verwirbelung trifft, zusätzlich eine Prisma-Resonanzkanone für einen abgestimmten Angriff herauf, der dem Gegner einmalig <color=#99FFFFFF>Kryo-Schaden</color> in Höhe von 125{NON_BREAK_SPACE}%/187,5{NON_BREAK_SPACE}% von Sandrones ANG zufügt. Hierdurch verursachter Schaden gilt als der Stellarfunkeln-Reaktion entsprechender Schaden, 4{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_MarionetteNew_03"
       },
       {
@@ -757,7 +812,7 @@
       {
         "Id": 1336,
         "Name": "Die Narzisse erwacht, begrüßt das Morgenlicht",
-        "Description": "#Wandelt, wenn Fagio im Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> den dritten Kondensationsstrahl abfeuert, diesen zu einem fortlaufenden, stärkeren <color=#FFD780FF>Bündelkondensationsstrahl</color> um, der zusätzlich zu den ursprünglich nachfolgenden Kondensationsstrahlen bis zu 4-maligen <color=#99FFFFFF>Kryo-Flächenschaden</color> in Höhe von jeweils 100{NON_BREAK_SPACE}% von Sandrones ANG verursachen. <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Der <color=#FFD780FF>Bündelkondensationsstrahl</color> wird nun zusätzlich zu den ursprünglich nachfolgenden Kondensationsstrahlen bis zu 4-maligen <color=#99FFFFFF>Kryo-Flächenschaden</color> in Höhe von jeweils 80{NON_BREAK_SPACE}% von Sandrones ANG verursachen. Hierdurch verursachter Schaden gilt als durch die Reaktion Stellar-Supraleiter verursachter Schaden.\n{LINK#N11190007}<color=#FFD780FF>Steigert</color>{/LINK} zusätzlich den gesamten von Sandrone durch die Reaktion Stellar-Supraleiter verursachten Schaden um 20 {NON_BREAK_SPACE}%.",
+        "Description": "#Wandelt, wenn Fagio im Modus <color=#FFD780FF>{LINK#N11330001}Berechnung{/LINK}</color> den dritten Kondensationsstrahl abfeuert, diesen zu einem fortlaufenden, stärkeren <color=#FFD780FF>Bündelkondensationsstrahl</color> um, der zusätzlich zu den ursprünglich nachfolgenden Kondensationsstrahlen bis zu 4-maligen <color=#99FFFFFF>Kryo-Flächenschaden</color> in Höhe von jeweils 100{NON_BREAK_SPACE}% von Sandrones ANG verursacht.\n<color=#FFD780FF>Leuchten – Stellarfunkeln</color>: Der <color=#FFD780FF>Bündelkondensationsstrahl</color> verursacht stattdessen bis zu 4-maligen <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als durch die entsprechende Stellarfunkeln-Reaktion verursachter Schaden gewertet wird, in folgender Höhe von Sandrones ANG:\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: 80{NON_BREAK_SPACE}%.\n<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: 120{NON_BREAK_SPACE}%.\n{LINK#N11190007}<color=#FFD780FF>Steigert</color>{/LINK} zusätzlich den gesamten von Sandrone durch die Reaktion Stellar-Supraleiter verursachten Schaden um 20{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_MarionetteNew_04"
       }
     ]

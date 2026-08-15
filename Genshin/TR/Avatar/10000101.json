@@ -277,6 +277,7 @@
         "Id": 11011,
         "Name": "Gece Güneşi Tarzı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nEn fazla 3 hızlı saldırı yapar.\nKinich, \"Kubbe Avcısı: Yükseklere Doğru\" Element Becerisinin havada savurma özelliğini kullandıktan sonra, yere inmeden önce havada bir Normal Saldırı yapabilir.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak döner ve Çift Elli Kılıcını ileri doğru savurup düşmanlara saldırır.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11012,
         "Name": "Kubbe Avcısı: Yükseklere Doğru",
         "Description": "Kinich, üstün avcılık yeteneklerini kullanarak süratle hareket eder veya düşmanına saldırır.\nYakında saldırılabilen bir düşman veya nesne varsa kancayı hedefe ateşler ve 0 Gece Ruhu puanıyla Gece Ruhunun Lütfu durumuna girer. Yakında düşman veya nesne yoksa ileri doğru bir kanca ateşleyip havada süzülür ve bu Becerinin Bekleme Süresi %60 azalır.\nBu beceri Basılı Tutulup bırakılabilir. Basılı Tutulduğunda Kinich kanca için nişan alabilir.\n\n<color=#FFD780FF>Gece Ruhunun Lütfu: Kinich</color>\nKinich'in Gece Ruhu Lütfu 10sn sürer ve her saniyede bir 2 Gece Ruhu puanı oluşturur.\nKinich bu durumdayken yakındaki bir düşmana kancayla tutunur ve değişken bir saldırı yapar:\n·Normal Saldırı kullandığında kancayla tutunduğu hedefin etrafında dönerken mevcut hareket yönüne göre Döngü Atışı yapar. Bu saldırı Gece Ruhu tesirli <color=#99FF88FF>Doğa Hasarı</color> verir ve 3 Gece Ruhu puanı oluşturur. Döngü Atışı Hasarı, Element Becerisi Hasarı sayılır.\n·Kinich, maksimum Gece Ruhu puanına sahipken \"Puldelen Topu\" Element Becerisini kullanarak tüm Gece Ruhu puanlarını tüketip Gece Ruhu tesirli <color=#99FF88FF>Doğa Hasarı</color> verebilir. \"Puldelen Topu\" Basılı Tutulduğunda Kinich bu atışı nişan alabilir. Top ateşlendikten sonra Kinich hedefe kancayla tutunmaya çalışır.\nKinich, Gece Ruhunun Lütfu durumundayken bir düşmana kancayla tutunduğunda veya Puldelen Topunu ateşlediğinde düşmanın yanında bir Kör Nokta oluşur. Kinich bu Kör Noktaya girdiğinde Nokta kaybolur ve Kinich 4 Gece Ruhu puanı kazanır.\nKanca bağlantısı menzil aşımından veya başka bir sebepten dolayı koparsa Kinich, Normal Saldırı kullanarak yakındaki başka bir düşmana bağlanır ve Döngü Atışları yapar.\n\n<i>\"Her şeyin bir bedeli vardır. Uygun bir teklifte bulunmanı tavsiye ederim... Ne? Hayır, taksit yapmıyorum.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kinich_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 11015,
       "Name": "Yüce Ejder Lorduna Selam Olsun",
       "Description": "Yüce Ejder Lordu K'uhul Ajaw'ın gücünü sınırlı, şartlı, kısıtlı, sözleşmeli, kısmen ve geçici olarak serbest bırakarak Gece Ruhu tesirli <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Ajaw belirli aralıklarla Ejder Nefesini kullanarak Gece Ruhu tesirli <color=#99FF88FF>Doğa Alan Hasarı</color> verir.\nKinich, bu beceri kullanıldığında Gece Ruhunun Lütfu durumundaysa bu Lütfun süresi 1,7sn uzar.\n\n<i>\"Evet, evet! Yüce Ejder Lordu K'uhul Ajaw'ın huzurundasın. Yaklaş bakalım! Diz çök ve ayaklarımızı öp!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kinich_01"
     },
     "Inherents": [
@@ -652,6 +655,7 @@
         "Id": 1012101,
         "Name": "Viranlığın Bedeli",
         "Description": "Kinich Gece Ruhunun Lütfu durumundayken Element Becerisinden isabet alan düşmanlar Virane durumuna girer. Bu düşmanlar Yanma veya Filizlenme tepkimelerinden Hasar aldığında Kinich için 7 Gece Ruhu puanı yenilenir. Gece Ruhu puanları bu şekilde 0,8 saniyede bir yenilenebilir. Virane durumu, Kinich'in mevcut Gece Ruhunun Lütfu durumu sona erene kadar devam eder.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 1012201,
         "Name": "Alev Ruhu Sözleşmesi",
         "Description": "Yakındaki bir grup üyesi Gece Ruhu Patlaması tetikledikten sonra Kinich, 1 kademe Avcının Deneyimi kazanır. Her kademe 15sn sürer ve 2 kademeye kadar birikebilir. Kinich, <color=#FFD780FF>Kubbe Avcısı: Yükseklere Doğru</color> becerisinin Puldelen Topunu kullandığında tüm Avcının Deneyimi kademeleri tüketilir ve tüketilen her kademe, bu Top atışının verdiği Hasarı Kinich'in Saldırısının %320'si kadar artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 1012301,
         "Name": "Gece Diyarının Armağanı: Eksiksiz Ödeme",
         "Description": "Kinich, <color=#FFD780FF>Kubbe Avcısı: Yükseklere Doğru</color> becerisinin havada savurma özelliğini kullanırken 10 Filojiston puanı harcayıp bu özelliği bir defa daha kullanabilir.\nKinich, Natlan'da Filojiston Mekanikleri bulunan bir bölgedeyken \"Gece Ruhu Aktarımı: Kinich\" kullanabilir. Aktif karakter depar atarken, belirli Yeteneklerden kaynaklı bir hareket modundayken veya havadayken Kinich'e geçildiğinde Kinich, karşılanan koşullara bağlı olarak şu eylemlerden birini gerçekleştirir:\n·Etkileşime geçilebilen bir Yaprak Tomarı Mührüne dönükse Mühre doğru bir kanca atar ve o yöne hareket eder.\n·Yakında düşman varsa ve savaştaysa Kinich, düşmanların olduğu yöne doğru Kubbe Avcısı: Yükseklere Doğru becerisini kullanır.\nYukarıdaki iki koşul da yoksa Kinich bir kanca ateşleyip sallanır ve kanca hedefi olarak geçerli Yaprak Tomarı Mühürlerine öncelik verir.\nGece Ruhu Aktarımı kendi grubun tarafından 10 saniyede bir tetiklenebilir.\n\nKinich, Yaprak Tomarı Mühürleriyle ve Yumkazorların etkileşime geçebildiği diğer eşyalarla etkileşime geçtiğinde \"Kubbe Avcısı: Yükseklere Doğru\" becerisi, \"Yumkazor Taklidi\"ne dönüşür. \"Yumkazor Taklidi\", bahsi geçen eşyalarla olan etkileşimlerde Yumkazorlar için geçerli kuralların uygulanmasına sebep olur. \"Yumkazor Taklidi\" kullanıldığında \"Kubbe Avcısı: Yükseklere Doğru\" Bekleme Süresine girmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_08"
       },
       {
@@ -712,6 +718,7 @@
         "Id": 1012501,
         "Name": "Hızlı Elçi",
         "Description": "Natlan'da Filojiston Mekanikleri olan bir bölgedeyken bazı toplanabilir eşyalarla etkileşime geçtiğinde 10 saniyeliğine grup üyelerinin Hareket Hızı %15 artar. Ayrıca yakındaki <color=#FFD780FF>Natlan'a özgü kaynakların</color> konumu mini haritada belirir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

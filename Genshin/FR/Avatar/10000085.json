@@ -309,6 +309,7 @@
         "Id": 10851,
         "Name": "Tourbillon fluide",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 attaques.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -618,6 +619,7 @@
         "Id": 10852,
         "Name": "Pressurisation des floes",
         "Description": "Effectue une attaque ascendante infligeant des <color=#99FFFFFF>DGT Cryo</color> et fait entrer Fréminet dans l'état Indicateur de Pers pendant 10 s.\nDans cet état, sa compétence élémentaire devient un concassage pressurisé.\n\n<color=#FFD780FF>Concassage pressurisé</color>\nExécute différentes attaques selon le niveau de pression de l'indicateur de Pers, puis annule l'état.\n· Niveau 0 : Effectue une coupe verticale infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n· Niveau I à III : Effectue une coupe verticale en coordination avec Pers, infligeant des <color=#99FFFFFF>DGT Cryo</color> et des DGT physiques, les DGT dépendant du niveau de pression.\n· Niveau IV : Utilise la puissance d'un Pers totalement pressurisé pour infliger des DGT physiques, ce niveau remplaçant également l'attaque normale « Tourbillon fluide » par un concassage pressurisé.\n\n<color=#FFD780FF>Indicateur de Pers</color>\nLorsque Fréminet utilise une attaque normale, il libère également un frimas infligeant des <color=#99FFFFFF>DGT Cryo</color> et augmente le niveau de pression de l'indicateur de Pers.\nCes <color=#99FFFFFF>DGT Cryo</color> sont considérés comme des DGT de compétence élémentaire.\n\n<color=#FFD780FF>Arkhe : Pneuma</color>\nRégulièrement, après avoir effectué une attaque ascendante, une épine d'inhalation prenant la forme d'une autre attaque ascendante est libérée pour infliger des <color=#99FFFFFF>DGT Cryo</color> chargés d'énergie pneuma.\n\n<i>Immobiliser son adversaire sans lui ôter la vie peut aussi être considéré comme une stratégie de « survie » que l'on peut choisir.</i>\n<i>« Pers... Je te laisse le reste. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Freminet_01"
       }
     ],
@@ -787,6 +789,7 @@
       "Id": 10855,
       "Name": "Embuscade du chassombre",
       "Description": "#Libère une vague de froid impalpable, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>, réinitialisant le TdR de la compétence élémentaire « Pressurisation des floes{NON_BREAK_SPACE}» et faisant passer Fréminet en mode traque pendant 10 s.\n\nDans cet état, sa RÉS à l'interruption augmente, et Pressurisation des floes bénéfice des bonus suivants :\n· Son TdR diminue de 70 %.\n· Les attaques normales accordent à l'indicateur de Pers un niveau de pression supplémentaire, et leur frimas inflige des DGT d'une valeur équivalant à 200 % de leurs DGT d'origine.\n\nCet effet cesse lorsque Fréminet quitte le champ de bataille.\n\n<i>« Maintenant... Je n'ai besoin d'aucun bruit superflu. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Freminet_01"
     },
     "Inherents": [
@@ -808,6 +811,7 @@
         "Id": 852101,
         "Name": "Plongée profonde saturée",
         "Description": "En utilisant un <color=#FFD780FF>concassage pressurisé</color>, si le niveau de pression de l'indicateur de Pers est inférieur à IV, le TdR de Pressurisation des floes diminue de 1 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 852201,
         "Name": "Condenseur parallèle",
         "Description": "Lorsque Fréminet a déclenché une réaction de Brise-glace sur un ennemi, les DGT infligés par le <color=#FFD780FF>concassage pressurisé</color> de Pressurisation des floes augmentent de 40 % pendant 5 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_06"
       },
       {
@@ -847,6 +852,7 @@
         "Id": 852301,
         "Name": "Navigation en eaux profondes",
         "Description": "Diminue la consommation d'endurance aquatique de vos personnages dans l'équipe de 35 %.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_07"
       }
     ],
@@ -876,7 +882,7 @@
       {
         "Id": 854,
         "Name": "Danse de lune et de flûte",
-        "Description": "#Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace ou de Supraconduction sur un ennemi, son ATQ augmente de 9 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3{NON_BREAK_SPACE}s.",
+        "Description": "#Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace, de Supraconduction ou d'Astroconduction sur un ennemi, son ATQ augmente de 9 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Freminet_03"
       },
       {
@@ -892,7 +898,7 @@
       {
         "Id": 856,
         "Name": "Instant d'aube et de détermination",
-        "Description": "Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace ou de Supraconduction sur un ennemi, ses DGT CRIT augmentent de 12 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
+        "Description": "Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace, de Supraconduction ou d'Astroconduction sur un ennemi, ses DGT CRIT augmentent de 12 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
         "Icon": "UI_Talent_S_Freminet_04"
       }
     ]

@@ -325,6 +325,7 @@
         "Id": 10511,
         "Name": "Técnica da Espada de Favonius - Nobreza",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -634,6 +635,7 @@
         "Id": 10512,
         "Name": "Vórtice Gelado",
         "Description": "Um frio glacial e uma dança ágil de espadas.\n\n<color=#FFD780FF>Pressionar</color>\nFaz um golpe rápido que causa <color=#99FFFFFF>Dano Cryo</color>.\nQuando acerta nos inimigos, Eula ganha 1 Coração Impassível que se acumula no máximo 2 vezes e só pode ser acumulado 1 vez a cada 0.3s.\n\n<color=#FFD780FF>Coração Impassível</color>\nAumenta a Resistência contra Interrupção e DEF de Eula.\n\n<color=#FFD780FF>Manter Pressionado</color>\nBalança a espada para causar um golpe para a frente, causando <color=#99FFFFFF>Dano Cryo em uma AdE</color> aos inimigos em frente, e consumindo todos os acúmulos de Coração Impassível de Eula.\nCaso o efeito do Coração Impassível seja consumido, irá diminuir a RES Física e <color=#99FFFFFF>RES Cryo</color> dos inimigos acertados. Cada Coração Impassível se converterá em uma Espada do Vórtice de Gelo, causando <color=#99FFFFFF>Dano Cryo</color> nos inimigos ao redor.\n\n<i>\"As ondas enrolam dessa forma e engolem as coroas nobres. Depois, cada gota de espuma que cai voando das ondas congelantes reflete uma coroa dourada, cada gota de espuma do mar brilha gloriosamente.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Eula_01"
       }
     ],
@@ -835,6 +837,7 @@
       "Id": 10515,
       "Name": "Espada das Ondas Congeladas",
       "Description": "Eula brande seu Espadão, causando <color=#99FFFFFF>Dano Cryo</color> a oponentes próximos e criando uma Espada Luminosa que a segue por uma duração de até 7s.\nEnquanto estiver presente, a Espada Luminosa aumenta a Resistência Contra Interrupção de Eula. Quando os Ataques Normais, Habilidades Elementais e Supremos de Eula causam Dano aos inimigos, eles carregarão a Espada Luminosa, que pode ganhar uma carga de energia a cada 0.1s.\nQuando sua duração encerrar, a Espada Luminosa cairá e explodirá, causando Dano Físico a inimigos próximos.\nEsse Dano escala baseado no número de cargas de energia que a Espada Luminosa acumulou.\nSe Eula sair de campo, a Espada Luminosa explodirá imediatamente.\n\n<i>É fácil afundar. Mas ainda assim, ela deseja congelar essa maré que está vindo.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Eula_01"
     },
     "Inherents": [
@@ -856,6 +859,7 @@
         "Id": 512101,
         "Name": "Geada Turbulenta",
         "Description": "Se quando você mantiver pressionado para liberar o <color=#FFD780FF>Vórtice Gelado</color> e consumir 2 acúmulos de Corações Impassíveis de uma vez, criará uma Espada Luminosa fragmentada que explodirá imediatamente, causando Dano Físico em quantidade equivalente a 50% do Dano Básico da Espada Luminosa da <color=#FFD780FF>Espada das Ondas Congelantes</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Eula_05"
       },
       {
@@ -874,6 +878,7 @@
         "Id": 512201,
         "Name": "Desejo de Lutar",
         "Description": "Quando a <color=#FFD780FF>Espada das Ondas Congeladas</color> é lançada, a Recarga do <color=#FFD780FF>Vórtice Gelado</color> é redefinida e Eula ganha 1 acúmulo de Coração Impassível.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Eula_06"
       },
       {
@@ -892,6 +897,7 @@
         "Id": 512301,
         "Name": "Introspecção Aristocrática",
         "Description": "Quando sintetiza Materiais para aprimoramento de Talento do Personagem, tem uma chance de 10% de obter o dobro da Produção.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Eula_Combine"
       }
     ],

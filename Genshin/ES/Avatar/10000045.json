@@ -308,6 +308,7 @@
         "Id": 10451,
         "Name": "Lanza eclesiástica",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10452,
         "Name": "Confesión impronunciable",
         "Description": "Rosaria se desplaza rápidamente hasta detrás de su objetivo, clavándole su lanza y realizando un tajo que inflige <color=#99FFFFFF>Daño Cryo</color>.\nNo es posible desplazarse hasta detrás de enemigos de gran tamaño con este movimiento.\n\n<i>Rosaria no perdona los pecados de aquellos que se confiesan ante ella. Al contrario, cuanto más grave sea el pecado, más penetrante es el frío con el que los castiga.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Rosaria_01"
       }
     ],
@@ -659,6 +661,7 @@
       "Id": 10453,
       "Name": "Extremaunción",
       "Description": "Esta es la ceremonia de rezo dirigida exclusivamente por Rosaria. Tras empujar con su arma a los enemigos a su alrededor, concentra un frío extremo en su lanza helada para golpear el suelo, infligiendo <color=#99FFFFFF>Daño Cryo</color>.\nMientras esté activa, la lanza helada emitirá intermitentemente un aire helado que inflige <color=#99FFFFFF>Daño Cryo</color> a los enemigos cercanos.\n\n<i>Juzgar es algo muy fastidioso, así que ¿por qué no saltarse ese paso y celebrar directamente la última ceremonia de rezo? Debido a la poca devoción de Rosaria hacia el Arconte Anemo, esto no le resulta nada complicado.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Rosaria_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 452101,
         "Name": "Regina probatorum",
         "Description": "Cuando Rosaria ataca por la espalda a un objetivo con <color=#FFD780FF>Confesión impronunciable</color>, su Prob. CRIT aumenta en un 12% durante 5 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 452201,
         "Name": "Oscuridad expiatoria",
         "Description": "Al usar <color=#FFD780FF>Extremaunción</color>, la Prob. CRIT de todos los miembros del equipo (a excepción de Rosaria) aumenta durante 10 s en un 15% de la Prob. CRIT de Rosaria.\nEl aumento de Prob. CRIT conseguido de esta manera no podrá ser superior al 15%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 452301,
         "Name": "Travesía nocturna",
         "Description": "#Tus personajes del equipo obtienen el efecto de “paso ligero”, de manera que su Vel. Movimiento aumenta en un 10% por la noche (18-06{NON_BREAK_SPACE}h).\nEste efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Rosaria_NightRunner"
       }
     ],

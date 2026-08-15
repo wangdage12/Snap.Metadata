@@ -368,6 +368,7 @@
         "Id": 10981,
         "Name": "Eid der Schattenjäger",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schießt ein fächerförmiges Unterdrückungsfeuer.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -676,6 +677,7 @@
         "Id": 10982,
         "Name": "Nächtliche Jagd",
         "Description": "#Clorinde macht ihre Pistole bereit und tritt in den Zustand „Nachtpatrouille“ ein, in dem sie Klinge- und Schusswaffe kombiniert. In diesem Zustand wird ihr Standardangriff zu „Wilde Jagd“ und der von ihr verursachte Schaden wird zu <color=#FFACFFFF>Elektro-SCH</color>, der nicht von anderen Elementen überdeckt werden kann, wobei sie keine heftigen Schläge ausführen kann. Löst sie ihre Elementarfähigkeit aus, wird diese durch „Nächtliche Durchbohrung“ ersetzt: Hierbei führt sie einen Klingenvorstoß aus, womit sie ebenfalls <color=#FFACFFFF>Elektro-SCH</color> verursacht. Der Schaden des oben Genannten wird als Schaden des Standardangriffs angesehen.\n\n<color=#FFD780FF>Wilde Jagd</color>\n· Eid des Lebens ist größer oder gleich 100{NON_BREAK_SPACE}% ihrer max. LP: Sie feuert ihre Pistole ab;\n· Eid des Lebens liegt unter 100{NON_BREAK_SPACE}% ihrer max. LP: Die Schüsse, die Clorinde abfeuert, gewähren ihr eine gewisse Menge Eid des Lebens basierend auf ihren max. LP und durchschlagen Gegner, wobei der Schaden, den sie Gegnern auf ihrer Flugbahn zufügen, erhöht ist.\n\n<color=#FFD780FF>Nächtliche Durchbohrung</color>\nEntsprechend des aktuellen prozentuellen Anteils von Clorindes Eid des Lebens wird der Effekt von Nächtliche Durchbohrung bestimmt:\n· Beträgt Eid des Lebens 0{NON_BREAK_SPACE}%, führt Clorinde einen Klingenvorstoß aus;\n· Liegt Eid des Lebens unter 100{NON_BREAK_SPACE}% von Clorindes max. LP, werden Clorinde LP basierend auf dem Wert von Eid des Lebens wiederhergestellt und die Reichweite von Nächtliche Durchbohrung und deren verursachter Schaden werden erhöht;\n· Liegt Eid des Lebens über oder bei 100{NON_BREAK_SPACE}% von Clorindes max. LP, führt sie „Nächtliche Durchbohrung – Pakt“ aus. Ihr werden noch mehr LP wiederhergestellt und die Angriffsreichweite von Nächtliche Durchbohrung, sowie der verursachte Schaden werden ebenfalls noch weiter erhöht.\n\nBefindet sich Clorinde außerdem im Zustand Nachtpatrouille, ist jede Heilung mit Ausnahme von der durch Nächtliche Durchbohrung wirkungslos. Stattdessen werden die ihr gewährten Heileffekte prozentual durch Eid des Lebens für sie ersetzt.\n\nDer Zustand Nachtpatrouille wird entfernt, wenn Clorinde ausgewechselt wird.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nIn regelmäßigen Abständen geht beim Treffen mit Clorindes „Wilde Jagd“ an der getroffenen Stelle eine Wogenklinge nieder, die mit Ousia versehenen <color=#FFACFFFF>Elektro-Schaden</color> verursacht.\n\n<i>Das Böse, das einst in den Schatten lauerte, ist bereits vor Tausenden von Jahren ausgemerzt worden. Doch in den Herzen der Menschen schlummern Schatten, die das Licht nur schwerlich zu erreichen vermag.\nAuch heute noch erinnert sie sich an die Warnung des „Goldenen Jägers“: Wer sich des Nachts mit brennender Kerze auf Patrouille begibt, der sollte stets Wachsamkeit walten lassen, auf dass er nicht von der eiskalten Dunkelheit durchtränkt werde.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Clorinde_01"
       }
     ],
@@ -845,6 +847,7 @@
       "Id": 10985,
       "Name": "Sterbende Lichtstrahlen",
       "Description": "Gewährt sich selbst auf Basis der eigenen max. LP Eid des Lebens, greift mit Schwert und Pistole im Einklang an, wobei sie <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht.\n\n<i>Es heißt, das Erbe dieser uralten Kunst, Unmenschliches mit einem sterblichen Körper zu bekämpfen, reiche bis zu den Okeanidenrittern zurück, die gegen das Reich Remuria aufbegehrten.\nAllerdings ist es nicht völlig unmöglich, dies in einem Zweikampf gegen einen normalen Gegner einzusetzen, sofern man einen Weg findet, die Kraft zu kontrollieren.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Clorinde_01"
     },
     "Inherents": [
@@ -868,6 +871,7 @@
         "Id": 982101,
         "Name": "Finsternis zersetzende Flamme",
         "Description": "#Erhöht den mit dem Standardangriff und <color=#FFD780FF>Sterbende Lichtstrahlen</color> verursachten <color=#FFACFFFF>Elektro-Schaden</color> um 20{NON_BREAK_SPACE}% von Clorindes ANG, nachdem Truppenmitglieder in der Nähe bei Gegnern <color=#FFACFFFF>Elektro-Reaktionen</color> ausgelöst haben. Dieser Effekt hält 15{NON_BREAK_SPACE}s, 3-fach stapelbar. Die Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet. Der max. Schaden-Bonus für die oben genannten Angriffe von Clorinde, der auf diese Weise erreicht werden kann, beträgt 1.800 Punkte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Clorinde_05"
       },
       {
@@ -891,6 +895,7 @@
         "Id": 982201,
         "Name": "Vergütung des Paktes",
         "Description": "#Erhöht, wenn der Wert von Clorindes Eid des Lebens mindestens 100{NON_BREAK_SPACE}% ihrer maximalen LP beträgt, ihre KT um 10{NON_BREAK_SPACE}%, sobald sich der Wert ihres Eids des Lebens erhöht oder verringert. Hält 15{NON_BREAK_SPACE}s, 2-fach stapelbar. Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet.\nVerstärkt zusätzlich den Zustand Nachtpatrouille von <color=#FFD780FF>Nächtliche Jagd</color>: Erhöht während der Wirkungsdauer den Prozentsatz der Heilung, der in Eid des Lebens umgewandelt wird, auf 100{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Clorinde_06"
       },
       {
@@ -909,6 +914,7 @@
         "Id": 982301,
         "Name": "Beute der Nachtpatrouille",
         "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Fontaines</color> in der Nähe auf der Minikarte an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liney_07"
       }
     ],

@@ -338,6 +338,7 @@
         "Id": 10381,
         "Name": "Guhua-Stil",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 10382,
         "Name": "Guhua-Schwert – Wolkenbruch",
         "Description": "Greift zweimal mit dem Schwert an und fügt gegenüberstehenden Gegnern <color=#80C0FFFF>Hydro-Schaden</color> zu. Erstellt die Höchstzahl an Regenschwertern, die die aktuelle eigene Figur umkreisen.\nMerkmale:\n· Wird bei Erleiden von Schaden zerstört und verringert den erlittenen Schaden.\n· Erhöht den Unterbrechungs-WDS der Figur.\n20 % von Xingqius <color=#80C0FFFF>Hydro-SCH-Bonus</color> werden zusätzlich zu Schadensminderung der Regenschwerter umgewandelt.\n\nBis zu 24 % zusätzliche Schadensminderung auf diese Weise möglich.\nAnfänglich bis zu 3 Regenschwerter möglich.\nVerleiht der Figur bei Anwendung den Zustand <color=#80C0FFFF>Nass</color> .\n\n<i>„Drachen sind einfacher zu zerteilen als der Regen.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xingqiu_01"
       }
     ],
@@ -690,6 +692,7 @@
       "Id": 10385,
       "Name": "Guhua-Schwert – Regen und Bogen",
       "Description": "Wendet „Regenbogentechnik“ an, um mit Illusionsschwertern zu kämpfen, und erstellt die Höchstzahl an Regenschwertern.\n\n<color=#FFD780FF>Regenbogentechnik</color>\n· Standardangriffe der aktuellen eigenen Figur lösen aufeinanderfolgende Schwertregenangriffe aus, die <color=#80C0FFFF>Hydro-Schaden</color> verursachen.\n· Die Anzahl der Regenschwerter bleibt unverändert auf der höchsten Anzahl.\n\n<i>Die Regenschnittkunst ist eine geheime Technik der Guhua-Schule, die nicht an normale Schüler weitergegeben wird.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xingqiu_01"
     },
     "Inherents": [
@@ -709,6 +712,7 @@
         "Id": 252101,
         "Name": "Hydropathie",
         "Description": "Stellt der aktuellen Figur bei Zerstörung eines Regenschwerts durch einen Angriff oder nach Ablauf der Wirkungsdauer LP in Höhe von 6 % der max. LP von Xingqiu wieder her.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_05"
       },
       {
@@ -727,6 +731,7 @@
         "Id": 252201,
         "Name": "Realistischer Schreibstil",
         "Description": "Erhöht Xingqius <color=#80C0FFFF>Hydro-Schaden</color> um 20 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_06"
       },
       {
@@ -745,6 +750,7 @@
         "Id": 252301,
         "Name": "Gedankenblitz",
         "Description": "Gibt beim Zusammensetzen von Material für Figurentalente mit einer Wahrscheinlichkeit von 25 % einen Teil der Materialien zurück.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Talent"
       }
     ],

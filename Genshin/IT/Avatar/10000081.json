@@ -309,6 +309,7 @@
         "Id": 10811,
         "Name": "Installazione schematica",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nUsa Mehrak per sferrare fino a 4 attacchi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore nel tempo per sferrare fendenti continui.\nAl termine della sequenza, sferra un fendente più potente.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 10812,
         "Name": "Ingegno artistico",
         "Description": "Usa le abilità di mappatura di Mehrak a scopo offensivo, dando il via a una scansione radiale che infligge <color=#99FF88FF>DAN da Dendro ad area</color>. Scansiona anche tutti i nuclei di Dendro nell'area d'effetto, causandone l'immediata esplosione.\n\n<i>Mehrak è stato creato modificando tecnologie antiche e potrebbe avere altre funzionalità oltre alla creazione di mappe...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kaveh_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 10815,
       "Name": "Volta dipinta",
       "Description": "Scatena tutta l'energia di Mehrak e crea uno spazio cubico scansionato, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color> a tutti gli avversari al suo interno, causando l'esplosione di tutti i nuclei di Dendro all'interno dell'area d'effetto e fornendo a Kaveh i seguenti potenziamenti per uno specifico lasso di tempo.\n· L'area d'effetto degli attacchi normali, caricati e in picchiata di Kaveh aumenta, e i DAN dei suoi attacchi vengono convertiti in <color=#99FF88FF>DAN da Dendro</color> non influenzabili da altre infusioni elementali.\n· Tutti i nuclei di Dendro creati dai membri del tuo gruppo tramite reazioni di Fioritura e Fioritura lunare infliggono DAN aggiuntivi quando esplodono.\n· La resistenza all'interruzione di Kaveh aumenta.\nQuesti effetti si annullano quando Kaveh lascia il campo.\n\n<i>\"Lo stile di ogni edificio incorpora la visione del mondo dell'architetto. Da questo punto di vista, possiamo dire che gli edifici stessi siano un agglomerato di ricordi dell'umanità.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kaveh_01"
     },
     "Inherents": [
@@ -652,6 +655,7 @@
         "Id": 812101,
         "Name": "Impresa dell'architetto",
         "Description": "#Quando subisce DAN inflitti da un nucleo di Dendro (inclusi i DAN da Germinazione e Iperfioritura), Kaveh ripristina PS pari a un 300% della sua maestria elementale. Quest'effetto può attivarsi una volta ogni 0,5{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 812201,
         "Name": "Ideazioni estrose",
         "Description": "#Durante l'effetto di <color=#FFD780FF>Volta dipinta</color>, dopo che un attacco normale, caricato o in picchiata di Kaveh colpisce un avversario, la sua maestria elementale aumenta di 25. Quest'effetto può attivarsi una volta ogni 0,1{NON_BREAK_SPACE}s. Cumulabile fino a 4 volte.\nQuest'effetto si annulla al termine dell'effetto di Volta dipinta.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 812301,
         "Name": "L'arte del risparmio",
         "Description": "Quando Kaveh crea paesaggi, edifici e oggetti decorativi per il cortile, ha un 100% di probabilità di restituire una parte dei materiali utilizzati.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_07"
       }
     ],

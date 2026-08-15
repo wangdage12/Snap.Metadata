@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Scossa di turbine",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 6 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare una sferzata verso l'alto.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.\nXiao non subisce DAN quando effettua attacchi in picchiata.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Ciclone lemniscatico",
         "Description": "Xiao si lancia in avanti, infliggendo <color=#80FFD7FF>DAN da Anemo</color> agli avversari sulla sua traiettoria.\nSi può usare a mezz'aria.\nInizia con 2 cariche.\n\n<i>Secondo le leggende di un'altra terra, il mondo sarà un giorno schiacciato da due grandi turbinii di vento. La maestria di Xiao con la sua lancia è trascendentale, squarcia gli avversari come quei leggendari turbinii di vento.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Castigo di ogni male",
       "Description": "Xiao indossa la maschera da Yaksha che fece tremare dèi e demoni millenni fa.\n\n<color=#FFD780FF>Maschera da Yaksha</color>\n· Aumenta notevolmente l'abilità di salto di Xiao.\n· Aumenta l'area d'effetto e i DAN dei suoi attacchi.\n· Converte i DAN dell'attacco in <color=#80FFD7FF>DAN da Anemo</color> non influenzabili da altre infusioni elementali.\n\nIn questo stato, Xiao perde costantemente PS.\nGli effetti di questa abilità terminano quando Xiao lascia il campo di battaglia.\n\n<i>Indossando la maschera da Yaksha, Xiao assume la terrificante forma di Custode Yaksha, il conquistatore di demoni. Ma questo grande potere comporta anche una grande sofferenza. Alcuni lo chiamano il \"Castigo di ogni male\".</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Conquistatore del male: Domatore di demoni",
         "Description": "#Sotto gli effetti di <color=#FFD780FF>Castigo di ogni male</color>, tutti i DAN inflitti da Xiao aumentano di un 5%. I DAN aumentano di un ulteriore 5% ogni 3{NON_BREAK_SPACE}s finché l'abilità è attiva.\nIl bonus DAN massimo corrisponde a un 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Dissoluzione cosmica: Caduta celeste",
         "Description": "#Usare <color=#FFD780FF>Ciclone lemniscatico</color> aumenta di un 15% i DAN dei suoi usi successivi.\nQuesto effetto dura per 7{NON_BREAK_SPACE}s ed è cumulabile per un massimo di 3 volte. Ottenere un nuovo accumulo ripristina la durata dell'effetto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Trascendenza: Sfida alla gravità",
         "Description": "Riduce di un 20% il consumo di vigore durante l'arrampicata per i membri del tuo gruppo.\nNon è cumulabile con talenti passivi che conferiscono gli stessi effetti.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Stile per la carta giocatore.\nBrama ardentemente il giorno in cui potrà mettersi la maschera e danzare, non per vincere i demoni, ma per seguire la melodia di quel flauto in mezzo a un mare di fiori.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Eco: Custode Yaksha",
+    "Description": "L'Eco immaginario di Xiao. \"Combattiamo per estirpare le forze maligne: a ciò immoliamo le nostre vite.\"",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

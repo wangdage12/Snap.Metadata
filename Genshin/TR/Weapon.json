@@ -231,23 +231,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Bir Yüksek Voltaj, Süper İletim, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%20</color> artar."
+          "Description": "Bir Yüksek Voltaj, Süper İletim, Yıldız İletimi, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%20</color> artar."
         },
         {
           "Level": 1,
-          "Description": "Bir Yüksek Voltaj, Süper İletim, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%25</color> artar."
+          "Description": "Bir Yüksek Voltaj, Süper İletim, Yıldız İletimi, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%25</color> artar."
         },
         {
           "Level": 2,
-          "Description": "Bir Yüksek Voltaj, Süper İletim, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%30</color> artar."
+          "Description": "Bir Yüksek Voltaj, Süper İletim, Yıldız İletimi, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%30</color> artar."
         },
         {
           "Level": 3,
-          "Description": "Bir Yüksek Voltaj, Süper İletim, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%35</color> artar."
+          "Description": "Bir Yüksek Voltaj, Süper İletim, Yıldız İletimi, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%35</color> artar."
         },
         {
           "Level": 4,
-          "Description": "Bir Yüksek Voltaj, Süper İletim, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%40</color> artar."
+          "Description": "Bir Yüksek Voltaj, Süper İletim, Yıldız İletimi, Elektrik Yüklü, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme, Ay Yüklü veya Elektrik Tesirli Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%40</color> artar."
         }
       ]
     },
@@ -1816,6 +1816,112 @@
     ]
   },
   {
+    "Id": 11435,
+    "PromoteId": 11435,
+    "Sort": 4129,
+    "WeaponType": 1,
+    "RankLevel": 4,
+    "Name": "Kafirin Kızgın Kılıcı",
+    "Description": "Herkesin saygı duyduğu Ateş Tanrısı'yla ilk karşılaştığında bu silahı çekti, lakin silahı son kullanışının üzerinden epey vakit geçmişti.",
+    "Icon": "UI_EquipIcon_Sword_SerpentTooth",
+    "AwakenIcon": "UI_EquipIcon_Sword_SerpentTooth_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Yalnız Işığın Kutsaması",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Kuşanan karakter Element Becerisini kullandığında \"İlk Işığın Parıltısı\" etkisini kazanır. Bu etki aktifken kuşanan karakterin katettiği mesafeyi kaydeder. Her saniye kuşanan karakter, önceki saniye katettiği mesafeye bağlı olarak <color=#99FFFFFF>%18</color> ila <color=#99FFFFFF>%36</color> Saldırı Bonusu kazanır. İlk Işığın Parıltısı 14sn sürer ve her 14 saniyede bir tetiklenebilir. Kuşanan karakter alandan ayrıldığında bu etki kaldırılır."
+        },
+        {
+          "Level": 1,
+          "Description": "Kuşanan karakter Element Becerisini kullandığında \"İlk Işığın Parıltısı\" etkisini kazanır. Bu etki aktifken kuşanan karakterin katettiği mesafeyi kaydeder. Her saniye kuşanan karakter, önceki saniye katettiği mesafeye bağlı olarak <color=#99FFFFFF>%22,5</color> ila <color=#99FFFFFF>%45</color> Saldırı Bonusu kazanır. İlk Işığın Parıltısı 14sn sürer ve her 14 saniyede bir tetiklenebilir. Kuşanan karakter alandan ayrıldığında bu etki kaldırılır."
+        },
+        {
+          "Level": 2,
+          "Description": "Kuşanan karakter Element Becerisini kullandığında \"İlk Işığın Parıltısı\" etkisini kazanır. Bu etki aktifken kuşanan karakterin katettiği mesafeyi kaydeder. Her saniye kuşanan karakter, önceki saniye katettiği mesafeye bağlı olarak <color=#99FFFFFF>%27</color> ila <color=#99FFFFFF>%54</color> Saldırı Bonusu kazanır. İlk Işığın Parıltısı 14sn sürer ve her 14 saniyede bir tetiklenebilir. Kuşanan karakter alandan ayrıldığında bu etki kaldırılır."
+        },
+        {
+          "Level": 3,
+          "Description": "Kuşanan karakter Element Becerisini kullandığında \"İlk Işığın Parıltısı\" etkisini kazanır. Bu etki aktifken kuşanan karakterin katettiği mesafeyi kaydeder. Her saniye kuşanan karakter, önceki saniye katettiği mesafeye bağlı olarak <color=#99FFFFFF>%31,5</color> ila <color=#99FFFFFF>%63</color> Saldırı Bonusu kazanır. İlk Işığın Parıltısı 14sn sürer ve her 14 saniyede bir tetiklenebilir. Kuşanan karakter alandan ayrıldığında bu etki kaldırılır."
+        },
+        {
+          "Level": 4,
+          "Description": "Kuşanan karakter Element Becerisini kullandığında \"İlk Işığın Parıltısı\" etkisini kazanır. Bu etki aktifken kuşanan karakterin katettiği mesafeyi kaydeder. Her saniye kuşanan karakter, önceki saniye katettiği mesafeye bağlı olarak <color=#99FFFFFF>%36</color> ila <color=#99FFFFFF>%72</color> Saldırı Bonusu kazanır. İlk Işığın Parıltısı 14sn sürer ve her 14 saniyede bir tetiklenebilir. Kuşanan karakter alandan ayrıldığında bu etki kaldırılır."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114064,
+      112121,
+      112106
+    ]
+  },
+  {
+    "Id": 11436,
+    "PromoteId": 11436,
+    "Sort": 4130,
+    "WeaponType": 1,
+    "RankLevel": 4,
+    "Name": "Kor Pınarı",
+    "Description": "Doğruluk yolu için dövüldüğü söylenen, tamamen değerli taştan yapılma uzun kılıç. Kınından çıkarıldığında mavi alevin ışıltısıyla parlar.",
+    "Icon": "UI_EquipIcon_Sword_GlintstoneSword",
+    "AwakenIcon": "UI_EquipIcon_Sword_GlintstoneSword_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 36,
+        "Type": 28,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Karlı Ovalarda Yıldız Ateşi",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%16</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%16</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%20</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%20</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%24</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%24</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%28</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%28</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%32</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%32</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112154,
+      112148
+    ]
+  },
+  {
     "Id": 11501,
     "PromoteId": 11501,
     "Sort": 5101,
@@ -2661,6 +2767,112 @@
       114024,
       112136,
       112124
+    ]
+  },
+  {
+    "Id": 11520,
+    "PromoteId": 11520,
+    "Sort": 5117,
+    "WeaponType": 1,
+    "RankLevel": 5,
+    "Name": "Beyaz Gölün Buz Tüyü",
+    "Description": "Bir kar kuğusunun tüyleri kadar hafif bir uzun kılıç. Her daim saf ve lekesiz kalır.",
+    "Icon": "UI_EquipIcon_Sword_Swanlake",
+    "AwakenIcon": "UI_EquipIcon_Sword_Swanlake_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Kar Kuğusunun Finali",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Kuşanan karakter bir düşmana Element Becerisiyle vurduğunda \"Göl Rengi Ağıt\" etkisini kazanır: 8 saniyeliğine Saldırısı <color=#99FFFFFF>%8</color> artar. Bu etki 0,1 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde kuşanan karakterin Yıldız Parıltısı Tepkimesi Hasarıyla verdiği Kritik Hasar <color=#99FFFFFF>%50</color> artar ve Yıldız Parıltısı tepkimeleri tetiklemek ya da Yıldız Parıltısı Tepkimesi Hasarı vermek karaktere <color=#99FFFFFF>4</color> Element Enerjisi yeniler. Bu Enerji yenileme etkisi 3,5 saniyede bir tetiklenebilir. Kuşanan karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Kuşanan karakter bir düşmana Element Becerisiyle vurduğunda \"Göl Rengi Ağıt\" etkisini kazanır: 8 saniyeliğine Saldırısı <color=#99FFFFFF>%10</color> artar. Bu etki 0,1 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde kuşanan karakterin Yıldız Parıltısı Tepkimesi Hasarıyla verdiği Kritik Hasar <color=#99FFFFFF>%65</color> artar ve Yıldız Parıltısı tepkimeleri tetiklediğinde ya da Yıldız Parıltısı Tepkimesi Hasarı verdiğinde karakter <color=#99FFFFFF>4,5</color> Element Enerjisi yeniler. Bu Enerji yenileme etkisi 3,5 saniyede bir tetiklenebilir. Kuşanan karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Kuşanan karakter bir düşmana Element Becerisiyle vurduğunda \"Göl Rengi Ağıt\" etkisini kazanır: 8 saniyeliğine Saldırısı <color=#99FFFFFF>%12</color> artar. Bu etki 0,1 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde kuşanan karakterin Yıldız Parıltısı Tepkimesi Hasarıyla verdiği Kritik Hasar <color=#99FFFFFF>%80</color> artar ve Yıldız Parıltısı tepkimeleri tetiklediğinde ya da Yıldız Parıltısı Tepkimesi Hasarı verdiğinde karakter <color=#99FFFFFF>5</color> Element Enerjisi yeniler. Bu Enerji yenileme etkisi 3,5 saniyede bir tetiklenebilir. Kuşanan karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Kuşanan karakter bir düşmana Element Becerisiyle vurduğunda \"Göl Rengi Ağıt\" etkisini kazanır: 8 saniyeliğine Saldırısı <color=#99FFFFFF>%14</color> artar. Bu etki 0,1 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde kuşanan karakterin Yıldız Parıltısı Tepkimesi Hasarıyla verdiği Kritik Hasar <color=#99FFFFFF>%95</color> artar ve Yıldız Parıltısı tepkimeleri tetiklediğinde ya da Yıldız Parıltısı Tepkimesi Hasarı verdiğinde karakter <color=#99FFFFFF>5,5</color> Element Enerjisi yeniler. Bu Enerji yenileme etkisi 3,5 saniyede bir tetiklenebilir. Kuşanan karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Kuşanan karakter bir düşmana Element Becerisiyle vurduğunda \"Göl Rengi Ağıt\" etkisini kazanır: 8 saniyeliğine Saldırısı <color=#99FFFFFF>%16</color> artar. Bu etki 0,1 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir ve her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde kuşanan karakterin Yıldız Parıltısı Tepkimesi Hasarıyla verdiği Kritik Hasar <color=#99FFFFFF>%110</color> artar ve Yıldız Parıltısı tepkimeleri tetiklediğinde ya da Yıldız Parıltısı Tepkimesi Hasarı verdiğinde karakter <color=#99FFFFFF>6</color> Element Enerjisi yeniler. Bu Enerji yenileme etkisi 3,5 saniyede bir tetiklenebilir. Kuşanan karakter alanda olmasa da tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114092,
+      112157,
+      112151
+    ]
+  },
+  {
+    "Id": 11521,
+    "PromoteId": 11521,
+    "Sort": 5118,
+    "WeaponType": 1,
+    "RankLevel": 5,
+    "Name": "Exaiphanes Kılıcı",
+    "Description": "Bir zamanlar yıldızların ışığıyla parlayan bir uzun kılıç. Yolcunun elindeyken geçmiş çağlarla hiçbir bağlantısı kalmamış yepyeni bir ışığa bürünür.",
+    "Icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "AwakenIcon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1301
+      },
+      {
+        "InitValue": 0.072,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "Gezginin Yolu",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Gezgin bunu kuşandığında, bir düşmana vurduğunda <color=#99FFFFFF>8</color> saniyeliğine Saldırısı <color=#99FFFFFF>%16</color> artar. Aynı zamanda <color=#99FFFFFF>3</color> Element Enerjisi yeniler. Bu etki her <color=#99FFFFFF>5</color> saniyede bir ve karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Gezgin bunu kuşandığında etkileşime girdiği her Element başına Kritik Hasarı %6 artar. Ayrıca Gezgin bir düşmana saldırıp isabet ettirdiğinde 8 saniyeliğine Saldırısı <color=#99FFFFFF>%20</color> artar ve <color=#99FFFFFF>3</color> Element Enerjisi yeniler. Bu etki her 5 saniyede bir ve karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Gezgin bunu kuşandığında etkileşime girdiği her Element başına Kritik Hasarı %6 artar. Ayrıca Gezgin bir düşmana saldırıp isabet ettirdiğinde 8 saniyeliğine Saldırısı <color=#99FFFFFF>%24</color> artar ve <color=#99FFFFFF>5</color> Element Enerjisi yeniler. Bu etki her 5 saniyede bir ve karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Gezgin bunu kuşandığında etkileşime girdiği her Element başına Kritik Hasarı %6 artar. Ayrıca Gezgin bir düşmana saldırıp isabet ettirdiğinde 8 saniyeliğine Saldırısı <color=#99FFFFFF>%32</color> artar ve <color=#99FFFFFF>5</color> Element Enerjisi yeniler. Bu etki her 5 saniyede bir ve karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Gezgin bunu kuşandığında etkileşime girdiği her Element başına Kritik Hasarı %6 artar. Ayrıca Gezgin bir düşmana saldırıp isabet ettirdiğinde 8 saniyeliğine Saldırısı <color=#99FFFFFF>%40</color> artar ve <color=#99FFFFFF>5</color> Element Enerjisi yeniler. Bu etki her 5 saniyede bir ve karakter alanda olmasa da tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114096,
+      112154,
+      112148
     ]
   },
   {
@@ -4300,6 +4512,112 @@
     ]
   },
   {
+    "Id": 12435,
+    "PromoteId": 12435,
+    "Sort": 4226,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Altın Melodiyle Dövülen",
+    "Description": "Altınla süslenmiş bir büyük kılıç. Efsaneye göre uzak geçmişte ulu bir Harmostun en sevdiği silahmış.",
+    "Icon": "UI_EquipIcon_Claymore_EscapeWheel",
+    "AwakenIcon": "UI_EquipIcon_Claymore_EscapeWheel_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Gece ve Gündüz Karşıtlığı",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Kuşanan karakter her 10 saniyede bir ilgili türde \"Armonik Parça\" çalarak şu sırada güçlendirme kazanır: <color=#99FFFFFF>+%18</color> Saldırı > <color=#99FFFFFF>+120</color> Element Ustalığı > <color=#99FFFFFF>+%28</color> Yıldız Parıltısı Tepkimesi Hasarı. Her bir Armonik Parça 10 saniye sürer. Bu etki, kuşanan karakter alanda olmasa da tetiklenebilir.\nAyrıca bir Yıldız Parıltısı tepkimesi tetiklemek, bu tepkime tetiklendiğinde etkin olan Armonik Parça ile aynı etkileri kazandıran ve 12 saniye süren ek bir \"Armonik Parça: Kontrpuan\" etkisi verir. Bu etki orijinal Armonik Parça etkisiyle birikir ve 12 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Kuşanan karakter her 10 saniyede bir ilgili türde \"Armonik Parça\" çalarak şu sırada güçlendirme kazanır: <color=#99FFFFFF>+%22,5</color> Saldırı > <color=#99FFFFFF>+150</color> Element Ustalığı > <color=#99FFFFFF>+%35</color> Yıldız Parıltısı Tepkimesi Hasarı. Her bir Armonik Parça 10 saniye sürer. Bu etki, kuşanan karakter alanda olmasa da tetiklenebilir.\nAyrıca bir Yıldız Parıltısı tepkimesi tetiklemek, bu tepkime tetiklendiğinde etkin olan Armonik Parça ile aynı etkileri kazandıran ve 12 saniye süren ek bir \"Armonik Parça: Kontrpuan\" etkisi verir. Bu etki orijinal Armonik Parça etkisiyle birikir ve 12 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Kuşanan karakter her 10 saniyede bir ilgili türde \"Armonik Parça\" çalarak şu sırada güçlendirme kazanır: <color=#99FFFFFF>+%27</color> Saldırı > <color=#99FFFFFF>+180</color> Element Ustalığı > <color=#99FFFFFF>+%42</color> Yıldız Parıltısı Tepkimesi Hasarı. Her bir Armonik Parça 10 saniye sürer. Bu etki, kuşanan karakter alanda olmasa da tetiklenebilir.\nAyrıca bir Yıldız Parıltısı tepkimesi tetiklemek, bu tepkime tetiklendiğinde etkin olan Armonik Parça ile aynı etkileri kazandıran ve 12 saniye süren ek bir \"Armonik Parça: Kontrpuan\" etkisi verir. Bu etki orijinal Armonik Parça etkisiyle birikir ve 12 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Kuşanan karakter her 10 saniyede bir ilgili türde \"Armonik Parça\" çalarak şu sırada güçlendirme kazanır: <color=#99FFFFFF>+%31,5</color> Saldırı > <color=#99FFFFFF>+210</color> Element Ustalığı > <color=#99FFFFFF>+%49</color> Yıldız Parıltısı Tepkimesi Hasarı. Her bir Armonik Parça 10 saniye sürer. Bu etki, kuşanan karakter alanda olmasa da tetiklenebilir.\nAyrıca bir Yıldız Parıltısı tepkimesi tetiklemek, bu tepkime tetiklendiğinde etkin olan Armonik Parça ile aynı etkileri kazandıran ve 12 saniye süren ek bir \"Armonik Parça: Kontrpuan\" etkisi verir. Bu etki orijinal Armonik Parça etkisiyle birikir ve 12 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Kuşanan karakter her 10 saniyede bir ilgili türde \"Armonik Parça\" çalarak şu sırada güçlendirme kazanır: <color=#99FFFFFF>+%36</color> Saldırı > <color=#99FFFFFF>+240</color> Element Ustalığı > <color=#99FFFFFF>+%56</color> Yıldız Parıltısı Tepkimesi Hasarı. Her bir Armonik Parça 10 saniye sürer. Bu etki, kuşanan karakter alanda olmasa da tetiklenebilir.\nAyrıca bir Yıldız Parıltısı tepkimesi tetiklemek, bu tepkime tetiklendiğinde etkin olan Armonik Parça ile aynı etkileri kazandıran ve 12 saniye süren ek bir \"Armonik Parça: Kontrpuan\" etkisi verir. Bu etki orijinal Armonik Parça etkisiyle birikir ve 12 saniyede bir tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114056,
+      112100,
+      112082
+    ]
+  },
+  {
+    "Id": 12436,
+    "PromoteId": 12436,
+    "Sort": 4227,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "Kefaret Kılıcı",
+    "Description": "Luchkinler tarafından nesilden nesile aktarılan bir büyük kılıç. Yalnızca en cesur savaşçının bu kılıcı kullanmaya layık olduğu söylenir.",
+    "Icon": "UI_EquipIcon_Claymore_GlintstoneClaymore",
+    "AwakenIcon": "UI_EquipIcon_Claymore_GlintstoneClaymore_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Tövbe ve Kurtuluş",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>64</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%16</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>80</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%20</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>96</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%24</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>112</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%28</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>128</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%32</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112157,
+      112151
+    ]
+  },
+  {
     "Id": 12501,
     "PromoteId": 12501,
     "Sort": 5201,
@@ -4856,23 +5174,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Saldırı <color=#99FFFFFF>%28</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi Hasarı <color=#99FFFFFF>%16</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
+          "Description": "Saldırı <color=#99FFFFFF>%28</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi ve Yıldız Girdabı Tepkimesi Hasarı <color=#99FFFFFF>%16</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
         },
         {
           "Level": 1,
-          "Description": "Saldırı <color=#99FFFFFF>%35</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi Hasarı <color=#99FFFFFF>%20</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
+          "Description": "Saldırı <color=#99FFFFFF>%35</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi ve Yıldız Girdabı Tepkimesi Hasarı <color=#99FFFFFF>%20</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
         },
         {
           "Level": 2,
-          "Description": "Saldırı <color=#99FFFFFF>%42</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi Hasarı <color=#99FFFFFF>%24</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
+          "Description": "Saldırı <color=#99FFFFFF>%42</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi ve Yıldız Girdabı Tepkimesi Hasarı <color=#99FFFFFF>%24</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
         },
         {
           "Level": 3,
-          "Description": "Saldırı <color=#99FFFFFF>%49</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi Hasarı <color=#99FFFFFF>%28</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
+          "Description": "Saldırı <color=#99FFFFFF>%49</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi ve Yıldız Girdabı Tepkimesi Hasarı <color=#99FFFFFF>%28</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
         },
         {
           "Level": 4,
-          "Description": "Saldırı <color=#99FFFFFF>%56</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi Hasarı <color=#99FFFFFF>%32</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
+          "Description": "Saldırı <color=#99FFFFFF>%56</color> artar.\nAyrıca kuşanan karakter Yüklü Saldırı ile bir düşmana her vurduğunda kısa süreliğine \"Aşkınlık\" kazanır: 5 saniyeliğine Yıldız İletimi ve Yıldız Girdabı Tepkimesi Hasarı <color=#99FFFFFF>%32</color> artar. Bu etki her 0,2 saniyede bir kademe, toplamda en fazla 3 kademe birikebilir."
         }
       ]
     },
@@ -6307,6 +6625,112 @@
     ]
   },
   {
+    "Id": 13435,
+    "PromoteId": 13435,
+    "Sort": 4324,
+    "WeaponType": 13,
+    "RankLevel": 4,
+    "Name": "Buznefes",
+    "Description": "Dondurucu soğukla kaplı bir buz mızrağı. Uzak geçmişte Snezhnaya'ya hükmeden Çar Belyi'ye ait olduğu söylenir.",
+    "Icon": "UI_EquipIcon_Pole_FaesCrystalle",
+    "AwakenIcon": "UI_EquipIcon_Pole_FaesCrystalle_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.1,
+        "Type": 23,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Uzaklardan Bir Atış",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Buz veya Su ile ilgili bir Element Tepkimesi tetiklediğinde, 15sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%20</color> artar ve gruptaki diğer üyeler için <color=#99FFFFFF>6</color> Element Enerjisi yenilenir. Bu etki her 16 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Buz veya Su ile ilgili bir Element Tepkimesi tetiklediğinde, 15sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%25</color> artar ve gruptaki diğer üyeler için <color=#99FFFFFF>7,5</color> Element Enerjisi yenilenir. Bu etki her 16 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Buz veya Su ile ilgili bir Element Tepkimesi tetiklediğinde, 15sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%30</color> artar ve gruptaki diğer üyeler için <color=#99FFFFFF>9</color> Element Enerjisi yenilenir. Bu etki her 16 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Buz veya Su ile ilgili bir Element Tepkimesi tetiklediğinde, 15sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%35</color> artar ve gruptaki diğer üyeler için <color=#99FFFFFF>10,5</color> Element Enerjisi yenilenir. Bu etki her 16 saniyede bir tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Buz veya Su ile ilgili bir Element Tepkimesi tetiklediğinde, 15sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%40</color> artar ve gruptaki diğer üyeler için <color=#99FFFFFF>12</color> Element Enerjisi yenilenir. Bu etki her 16 saniyede bir tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114092,
+      112154,
+      112151
+    ]
+  },
+  {
+    "Id": 13436,
+    "PromoteId": 13436,
+    "Sort": 4325,
+    "WeaponType": 13,
+    "RankLevel": 4,
+    "Name": "Nöbet Türküsü",
+    "Description": "Bir zamanlar her yere muhafızlık eden uzun bir mızrak. Bugün ise çocuklar ve onların hayali oyunlarıyla yeni bir amaç buldu.",
+    "Icon": "UI_EquipIcon_Pole_GlintstonePolearm",
+    "AwakenIcon": "UI_EquipIcon_Pole_GlintstonePolearm_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 24,
+        "Type": 28,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Geçmiş Günlerin Ahengi",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Bir Element Tepkimesi tetiklediğinde kuşanan karakter için <color=#99FFFFFF>4</color> Element Enerjisi yenilenir. Bu etki her 9 saniyede bir tetiklenebilir. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%20</color> artar. Bu etkiler karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Bir Element Tepkimesi tetiklediğinde kuşanan karakter için <color=#99FFFFFF>5</color> Element Enerjisi yenilenir. Bu etki her 9 saniyede bir tetiklenebilir. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%25</color> artar. Bu etkiler karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Bir Element Tepkimesi tetiklediğinde kuşanan karakter için <color=#99FFFFFF>6</color> Element Enerjisi yenilenir. Bu etki her 9 saniyede bir tetiklenebilir. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%30</color> artar. Bu etkiler karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Bir Element Tepkimesi tetiklediğinde kuşanan karakter için <color=#99FFFFFF>7</color> Element Enerjisi yenilenir. Bu etki her 9 saniyede bir tetiklenebilir. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%35</color> artar. Bu etkiler karakter alanda olmasa da tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Bir Element Tepkimesi tetiklediğinde kuşanan karakter için <color=#99FFFFFF>8</color> Element Enerjisi yenilenir. Bu etki her 9 saniyede bir tetiklenebilir. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin Saldırısı <color=#99FFFFFF>%40</color> artar. Bu etkiler karakter alanda olmasa da tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114096,
+      112157,
+      112148
+    ]
+  },
+  {
     "Id": 13501,
     "PromoteId": 13501,
     "Sort": 5304,
@@ -6969,23 +7393,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%40</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%40</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı ve Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi ve Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%40</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%40</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı veya Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
         },
         {
           "Level": 1,
-          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%50</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%50</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı ve Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%50</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%50</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı veya Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
         },
         {
           "Level": 2,
-          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%60</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%60</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı ve Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi ve Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%60</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%60</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı veya Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
         },
         {
           "Level": 3,
-          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%70</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%70</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı ve Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi ve Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%70</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%70</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı veya Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
         },
         {
           "Level": 4,
-          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%80</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%80</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı ve Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi ve Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 17 saniyeliğine \"Çatışma Yolu\" etkisini ve 3 saniyeliğine \"Affedilemez\" ve \"Onarılamaz\" etkilerini kazanır. Bu etki 18 saniyede bir tetiklenebilir.\nAffedilemez: Kuşanan karakterin Normal Saldırı ve Yüklü Saldırı Hasarı <color=#99FFFFFF>%80</color> artar.\nOnarılamaz: Kuşanan karakterin Element Becerisi ve Element Patlaması Hasarı <color=#99FFFFFF>%80</color> artar.\nÇatışma Yolu etkinken, kuşanan karakterin Normal Saldırısı veya Yüklü Saldırısı bir düşmana isabet ettiğinde Onarılamaz etkisinin süresi 1sn uzar. Kuşanan karakterin Element Becerisi veya Element Patlaması bir düşmana isabet ettiğinde Affedilemez etkisinin süresi 1sn uzar. Yukarıdaki etkilerin her biri 0,1 saniyede bir tetiklenebilir. Çatışma Yolu sona erdiğinde veya kuşanan karakter alandan ayrıldığında, hem Affedilemez hem de Onarılamaz kaldırılır.\nCadılık: Saklı Ayin: Yukarıdaki Hasar güçlendirmeleri %75 artar."
         }
       ]
     },
@@ -8632,6 +9056,112 @@
     ]
   },
   {
+    "Id": 14435,
+    "PromoteId": 14435,
+    "Sort": 4427,
+    "WeaponType": 10,
+    "RankLevel": 4,
+    "Name": "Kralların Çarpışması",
+    "Description": "Değerli mücevherlerle süslenmiş lüks bir altın kutu. İçinde kumların kralları tarafından çok sevilen bir oyunu barındırır.",
+    "Icon": "UI_EquipIcon_Catalyst_SandMemoria",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_SandMemoria_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Geceyi Gündüzü Düşünmeden",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Bir Element Becerisi kullandığında kuşanan karakter \"Tahtanın Kanunları\" etkisi kazanır: Saldırısı <color=#99FFFFFF>%20</color>, Element Ustalığı ise <color=#99FFFFFF>100</color> artar. Bu etki 6sn sürer ve 12 saniyede bir tetiklenebilir. Birikmez. Kuşanan karakter bu etki aktifken bir düşmana Yüklü Saldırı ile vurursa etkinin süresi 6sn uzar. Bu etki, bu yöntemle en fazla 6sn uzatılabilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Bir Element Becerisi kullandığında kuşanan karakter \"Tahtanın Kanunları\" etkisi kazanır: Saldırısı <color=#99FFFFFF>%25</color>, Element Ustalığı ise <color=#99FFFFFF>125</color> artar. Bu etki 6sn sürer ve 12 saniyede bir tetiklenebilir. Birikmez. Kuşanan karakter bu etki aktifken bir düşmana Yüklü Saldırı ile vurursa etkinin süresi 6sn uzar. Bu etki, bu yöntemle en fazla 6sn uzatılabilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Bir Element Becerisi kullandığında kuşanan karakter \"Tahtanın Kanunları\" etkisi kazanır: Saldırısı <color=#99FFFFFF>%30</color>, Element Ustalığı ise <color=#99FFFFFF>150</color> artar. Birikmez. Bu etki 6sn sürer ve 12 saniyede bir tetiklenebilir. Kuşanan karakter bu etki aktifken bir düşmana Yüklü Saldırı ile vurursa etkinin süresi 6sn uzar. Bu etki, bu yöntemle en fazla 6sn uzatılabilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Bir Element Becerisi kullandığında kuşanan karakter \"Tahtanın Kanunları\" etkisi kazanır: Saldırısı <color=#99FFFFFF>%35</color>, Element Ustalığı ise <color=#99FFFFFF>175</color> artar. Bu etki 6sn sürer ve 12 saniyede bir tetiklenebilir. Birikmez. Kuşanan karakter bu etki aktifken bir düşmana Yüklü Saldırı ile vurursa etkinin süresi 6sn uzar. Bu etki, bu yöntemle en fazla 6sn uzatılabilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Bir Element Becerisi kullandığında kuşanan karakter \"Tahtanın Kanunları\" etkisi kazanır: Saldırısı <color=#99FFFFFF>%40</color>, Element Ustalığı ise <color=#99FFFFFF>200</color> artar. Bu etki 6sn sürer ve 12 saniyede bir tetiklenebilir. Birikmez. Kuşanan karakter bu etki aktifken bir düşmana Yüklü Saldırı ile vurursa etkinin süresi 6sn uzar. Bu etki, bu yöntemle en fazla 6sn uzatılabilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114040,
+      112073,
+      112067
+    ]
+  },
+  {
+    "Id": 14436,
+    "PromoteId": 14436,
+    "Sort": 4428,
+    "WeaponType": 10,
+    "RankLevel": 4,
+    "Name": "Kalbin Yankıları",
+    "Description": "Sesi kristalleştirdiği söylenen bir katalizör. İçinde mühürlü bir sadakat yemini ve insanlık tarafından çoktan unutulmuş bir kalp yatıyor.",
+    "Icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Bir Yeminin Yankısı",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>60</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%16</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 1,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>75</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%20</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 2,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>90</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%24</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 3,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>105</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%28</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        },
+        {
+          "Level": 4,
+          "Description": "Bir Element Tepkimesi tetiklediğinde 12sn boyunca kuşanan karakterin Element Ustalığı <color=#99FFFFFF>120</color> artar. Bir Yıldız Parıltısı tepkimesi tetiklediğinde ise 12sn boyunca kuşanan karakterin verdiği Yıldız Parıltısı Tepkimesi Hasarı <color=#99FFFFFF>%32</color> artar. Bu etkiler karakter alanda olmasa bile tetiklenebilir."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112154,
+      112148
+    ]
+  },
+  {
     "Id": 14501,
     "PromoteId": 14501,
     "Sort": 5401,
@@ -8923,23 +9453,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Bir Element Becerisi kullanıldığında Kagura Dansı etkisi devreye girer. 16 saniyeliğine bu silahı kullanan karakterin Element Beceri Hasarı <color=#99FFFFFF>%12</color> artar. En fazla 3 kademe birikebilir. Karakter 3 kademe biriktirdiğinde tüm elementler için <color=#99FFFFFF>%12</color> Element Hasarı Bonusu kazanır."
+          "Description": "Element Becerisi kullanmak, Kagura Dansı etkisi sağlayarak kuşanan karakterin Element Becerisi Hasarını <color=#99FFFFFF>%12</color> ve Yıldız İletimi Hasarını <color=#99FFFFFF>%12</color> artırır. Bu etki 24 saniye sürer. 3 kademeye kadar birikebilir. Bu karakter 3 kademeye sahip olduğunda <color=#99FFFFFF>%12</color> Tüm Element Hasarları Bonusu kazanır."
         },
         {
           "Level": 1,
-          "Description": "Bir Element Becerisi kullanıldığında Kagura Dansı etkisi devreye girer. 16 saniyeliğine bu silahı kullanan karakterin Element Beceri Hasarı <color=#99FFFFFF>%15</color> artar. En fazla 3 kademe birikebilir. Karakter 3 kademe biriktirdiğinde tüm elementler için <color=#99FFFFFF>%15</color> Element Hasarı Bonusu kazanır."
+          "Description": "Element Becerisi kullanmak, Kagura Dansı etkisi sağlayarak kuşanan karakterin Element Becerisi Hasarını <color=#99FFFFFF>%15</color> ve Yıldız İletimi Hasarını <color=#99FFFFFF>%15</color> artırır. Bu etki 24 saniye sürer. 3 kademeye kadar birikebilir. Bu karakter 3 kademeye sahip olduğunda <color=#99FFFFFF>%15</color> Tüm Element Hasarları Bonusu kazanır."
         },
         {
           "Level": 2,
-          "Description": "Bir Element Becerisi kullanıldığında Kagura Dansı etkisi devreye girer. 16 saniyeliğine bu silahı kullanan karakterin Element Beceri Hasarı <color=#99FFFFFF>%18</color> artar. En fazla 3 kademe birikebilir. Karakter 3 kademe biriktirdiğinde tüm elementler için <color=#99FFFFFF>%18</color> Element Hasarı Bonusu kazanır."
+          "Description": "Element Becerisi kullanmak, Kagura Dansı etkisi sağlayarak kuşanan karakterin Element Becerisi Hasarını <color=#99FFFFFF>%18</color> ve Yıldız İletimi Hasarını <color=#99FFFFFF>%18</color> artırır. Bu etki 24 saniye sürer. 3 kademeye kadar birikebilir. Bu karakter 3 kademeye sahip olduğunda <color=#99FFFFFF>%18</color> Tüm Element Hasarları Bonusu kazanır."
         },
         {
           "Level": 3,
-          "Description": "Bir Element Becerisi kullanıldığında Kagura Dansı etkisi devreye girer. 16 saniyeliğine bu silahı kullanan karakterin Element Beceri Hasarı <color=#99FFFFFF>%21</color> artar. En fazla 3 kademe birikebilir. Karakter 3 kademe biriktirdiğinde tüm elementler için <color=#99FFFFFF>%21</color> Element Hasarı Bonusu kazanır."
+          "Description": "Element Becerisi kullanmak, Kagura Dansı etkisi sağlayarak kuşanan karakterin Element Becerisi Hasarını <color=#99FFFFFF>%21</color> ve Yıldız İletimi Hasarını <color=#99FFFFFF>%21</color> artırır. Bu etki 24 saniye sürer. 3 kademeye kadar birikebilir. Bu karakter 3 kademeye sahip olduğunda <color=#99FFFFFF>%21</color> Tüm Element Hasarları Bonusu kazanır."
         },
         {
           "Level": 4,
-          "Description": "Bir Element Becerisi kullanıldığında Kagura Dansı etkisi devreye girer. 16 saniyeliğine bu silahı kullanan karakterin Element Beceri Hasarı <color=#99FFFFFF>%24</color> artar. En fazla 3 kademe birikebilir. Karakter 3 kademe biriktirdiğinde tüm elementler için <color=#99FFFFFF>%24</color> Element Hasarı Bonusu kazanır."
+          "Description": "Element Becerisi kullanmak, Kagura Dansı etkisi sağlayarak kuşanan karakterin Element Becerisi Hasarını <color=#99FFFFFF>%24</color> ve Yıldız İletimi Hasarını <color=#99FFFFFF>%24</color> artırır. Bu etki 24 saniye sürer. 3 kademeye kadar birikebilir. Bu karakter 3 kademeye sahip olduğunda <color=#99FFFFFF>%24</color> Tüm Element Hasarları Bonusu kazanır."
         }
       ]
     },
@@ -9082,23 +9612,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Saldırı <color=#99FFFFFF>%16</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%16</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%14</color> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%8</color> artar."
+          "Description": "Saldırı <color=#99FFFFFF>%16</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%16</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%14</color> ve Yıldız İletimi Hasarı <color=#99FFFFFF>%14</color> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%8</color> artar."
         },
         {
           "Level": 1,
-          "Description": "Saldırı <color=#99FFFFFF>%20</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%20</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%17,5</color> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%10</color> artar."
+          "Description": "Saldırı <color=#99FFFFFF>%20</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%20</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%17,5</color> ve Yıldız İletimi Hasarı <color=#99FFFFFF>%17,5</color> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%10</color> artar."
         },
         {
           "Level": 2,
-          "Description": "Saldırı <color=#99FFFFFF>%24</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%24</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%21</color> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%12</color> artar."
+          "Description": "Saldırı <color=#99FFFFFF>%24</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%24</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%21</color> ve Yıldız İletimi Hasarı <color=#99FFFFFF>%21</color> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%12</color> artar."
         },
         {
           "Level": 3,
-          "Description": "Saldırı <color=#99FFFFFF>%28</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%28</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%24,5</color> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%14</color> artar."
+          "Description": "Saldırı <color=#99FFFFFF>%28</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%28</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%24,5</color> ve Yıldız İletimi Hasarı <color=#99FFFFFF>%24,5</color> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%14</color> artar."
         },
         {
           "Level": 4,
-          "Description": "Saldırı <color=#99FFFFFF>%32</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%32</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%28</color> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%16</color> artar."
+          "Description": "Saldırı <color=#99FFFFFF>%32</color> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <color=#99FFFFFF>%32</color>, Yüklü Saldırı Hasarı <color=#99FFFFFF>%28</color> ve Yıldız İletimi Hasarı <color=#99FFFFFF>%28</color> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <color=#99FFFFFF>%16</color> artar."
         }
       ]
     },
@@ -9347,23 +9877,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 6 saniyeliğine Element Ustalığı <color=#99FFFFFF>120</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>96</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>32</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetiklendiğinde 6sn boyunca Element Ustalığı <color=#99FFFFFF>120</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>96</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>32</color> artar."
         },
         {
           "Level": 1,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 6 saniyeliğine Element Ustalığı <color=#99FFFFFF>150</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>120</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>40</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetiklendiğinde 6sn boyunca Element Ustalığı <color=#99FFFFFF>150</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>120</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>40</color> artar."
         },
         {
           "Level": 2,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 6 saniyeliğine Element Ustalığı <color=#99FFFFFF>180</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>144</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>48</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetiklendiğinde 6sn boyunca Element Ustalığı <color=#99FFFFFF>180</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>144</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>48</color> artar."
         },
         {
           "Level": 3,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 6 saniyeliğine Element Ustalığı <color=#99FFFFFF>210</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>168</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>56</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetiklendiğinde 6sn boyunca Element Ustalığı <color=#99FFFFFF>210</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>168</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>56</color> artar."
         },
         {
           "Level": 4,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 6 saniyeliğine Element Ustalığı <color=#99FFFFFF>240</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>192</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>64</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetiklendiğinde 6sn boyunca Element Ustalığı <color=#99FFFFFF>240</color> artar. Silahı kuşanan karakterin Element Becerisi bir düşmanı vurduğunda 9 saniyeliğine Element Ustalığı <color=#99FFFFFF>192</color> artar. Silahı kuşanan karakterin Element Patlaması bir düşmanı vurduğunda 30 saniyeliğine Element Ustalığı <color=#99FFFFFF>64</color> artar."
         }
       ]
     },
@@ -11418,6 +11948,112 @@
     ]
   },
   {
+    "Id": 15435,
+    "PromoteId": 15435,
+    "Sort": 4529,
+    "WeaponType": 12,
+    "RankLevel": 4,
+    "Name": "Yeşim Ufuklar",
+    "Description": "Muazzam kuvvete sahip bir uzun yay. En karanlık gecelerde bile rüyaların ışığıyla parlar.",
+    "Icon": "UI_EquipIcon_Bow_ShatteredMirror",
+    "AwakenIcon": "UI_EquipIcon_Bow_ShatteredMirror_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Geceden Örülen Mum",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Kuşanan karakter hariç her grup üyesi için:\nKuşanan karakterle aynı Element Türündeyse kuşanan karakterin Element Ustalığı <color=#99FFFFFF>64</color> artar.\nKuşanan karakterle aynı Element Türünde değilse kuşanan karakterin Saldırısı <color=#99FFFFFF>%12</color> artar.\nYukarıdaki iki etki toplam 3 defaya kadar birikebilir, önce Element Ustalığı güçlendirmeleri uygulanır."
+        },
+        {
+          "Level": 1,
+          "Description": "Kuşanan karakter hariç her grup üyesi için:\nKuşanan karakterle aynı Element Türündeyse kuşanan karakterin Element Ustalığı <color=#99FFFFFF>80</color> artar.\nKuşanan karakterle aynı Element Türünde değilse kuşanan karakterin Saldırısı <color=#99FFFFFF>%15</color> artar.\nYukarıdaki iki etki toplam 3 defaya kadar birikebilir, önce Element Ustalığı güçlendirmeleri uygulanır."
+        },
+        {
+          "Level": 2,
+          "Description": "Kuşanan karakter hariç her grup üyesi için:\nKuşanan karakterle aynı Element Türündeyse kuşanan karakterin Element Ustalığı <color=#99FFFFFF>96</color> artar.\nKuşanan karakterle aynı Element Türünde değilse kuşanan karakterin Saldırısı <color=#99FFFFFF>%18</color> artar.\nYukarıdaki iki etki toplam 3 defaya kadar birikebilir, önce Element Ustalığı güçlendirmeleri uygulanır."
+        },
+        {
+          "Level": 3,
+          "Description": "Kuşanan karakter hariç her grup üyesi için:\nKuşanan karakterle aynı Element Türündeyse kuşanan karakterin Element Ustalığı <color=#99FFFFFF>112</color> artar.\nKuşanan karakterle aynı Element Türünde değilse kuşanan karakterin Saldırısı <color=#99FFFFFF>%21</color> artar.\nYukarıdaki iki etki toplam 3 defaya kadar birikebilir, önce Element Ustalığı güçlendirmeleri uygulanır."
+        },
+        {
+          "Level": 4,
+          "Description": "Kuşanan karakter hariç her grup üyesi için:\nKuşanan karakterle aynı Element Türündeyse kuşanan karakterin Element Ustalığı <color=#99FFFFFF>128</color> artar.\nKuşanan karakterle aynı Element Türünde değilse kuşanan karakterin Saldırısı <color=#99FFFFFF>%24</color> artar.\nYukarıdaki iki etki toplam 3 defaya kadar birikebilir, önce Element Ustalığı güçlendirmeleri uygulanır."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114024,
+      112043,
+      112034
+    ]
+  },
+  {
+    "Id": 15436,
+    "PromoteId": 15436,
+    "Sort": 4530,
+    "WeaponType": 12,
+    "RankLevel": 4,
+    "Name": "Kar ve Ayazın Yemini",
+    "Description": "Düzeni korumak için üretilmiş bir uzun yay. Soğuk ışıltısı, mutlak eşitlik ve adalet ideallerini kusursuz biçimde yansıtıyor.",
+    "Icon": "UI_EquipIcon_Bow_GlintstoneBow",
+    "AwakenIcon": "UI_EquipIcon_Bow_GlintstoneBow_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.1126,
+        "Type": 9,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "Kanunun Dengesi",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 12sn boyunca Element Ustalığı <color=#99FFFFFF>120</color> artar."
+        },
+        {
+          "Level": 1,
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 12sn boyunca Element Ustalığı <color=#99FFFFFF>150</color> artar."
+        },
+        {
+          "Level": 2,
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 12sn boyunca Element Ustalığı <color=#99FFFFFF>180</color> artar."
+        },
+        {
+          "Level": 3,
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 12sn boyunca Element Ustalığı <color=#99FFFFFF>210</color> artar."
+        },
+        {
+          "Level": 4,
+          "Description": "Kuşanan karakter bir Element Becerisi kullandıktan sonra 12sn boyunca Element Ustalığı <color=#99FFFFFF>240</color> artar."
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112157,
+      112151
+    ]
+  },
+  {
     "Id": 15501,
     "PromoteId": 15501,
     "Sort": 5501,
@@ -11921,23 +12557,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%24</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%20/%48</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%10/%24</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%24</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%20/%48</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%10/%24</color> artar."
         },
         {
           "Level": 1,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%30</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%25/%60</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%12,5/%30</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%30</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%25/%60</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%12,5/%30</color> artar."
         },
         {
           "Level": 2,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%36</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%30/%72</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%15/%36</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%36</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%30/%72</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%15/%36</color> artar."
         },
         {
           "Level": 3,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%42</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%35/%84</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%17,5/%42</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%42</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%35/%84</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%17,5/%42</color> artar."
         },
         {
           "Level": 4,
-          "Description": "Bir Girdap tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%48</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%40/%96</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%20/%48</color> artar."
+          "Description": "Bir Girdap veya Yıldız Girdabı tepkimesi tetikledikten sonra 12 saniyeliğine Saldırı <color=#99FFFFFF>%48</color> artar. Ayrıca grupta bunu kuşanan karakterden farklı bir Element Türünde 1/2 veya daha fazla karakter varsa kuşanan karakterin Yüklü Saldırı Hasarı <color=#99FFFFFF>%40/%96</color>, Element Patlaması Hasarı ise <color=#99FFFFFF>%20/%48</color> artar."
         }
       ]
     },

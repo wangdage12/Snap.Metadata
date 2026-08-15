@@ -324,6 +324,7 @@
         "Id": 10891,
         "Name": "Soloist's Solicitation",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina, melancarkan tarian tunggal yang mengakibatkan Physical DMG terhadap musuh di sekitarnya, lalu mengganti Karakteristik Arkhe diri sendiri. Jika \"Salon Members\" atau \"Singer of Many Waters\" yang dipanggil oleh Elemental Skill \"Salon Solitaires\" miliknya berada di medan perang, barisan mereka juga akan turut berubah.\n\n<color=#FFD780FF>Arkhe: Seats Sacred and Secular</color>\nSetiap satu kurun waktu tertentu, saat Normal Attack Furina mengenai musuh, akan menurunkan Spiritbreath Thorn atau Surging Blade berdasarkan Karakteristiknya saat ini dan mengakibatkan <color=#80C0FFFF>Hydro DMG</color> Pneuma-Aligned atau Ousia-Aligned.\nSaat Furina berada di medan pertempuran, Arkhe awalnya adalah Ousia.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -603,6 +604,7 @@
         "Id": 10892,
         "Name": "Salon Solitaire",
         "Description": "Mengundang tamu-tamu dari Salon Solitaire untuk bergabung ke dalam barisan dan membantu pertunjukan Furina. Tamu yang diundang termasuk \"Salon Members\" atau \"Singer of Many Waters\", ditentukan berdasarkan <color=#FFD780FF>Karakteristik Arkhe</color> Furina saat ini.\n\n<color=#FFD780FF>Ousia</color>\nMembentuk gelembung yang berpesta ria dan mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> yang didasarkan pada Max HP Furina, dan memanggil tiga \"Salon Members\", yaitu: \"Gentilhomme Usher\" yang berbentuk Ball Octopus, \"Surintendante Chevalmarin\" yang berbentuk Bubbly Seahorse, dan \"Mademoiselle Crabaletta\" yang berbentuk Armored Crab.\nSalon Members akan menyerang musuh di sekitar secara berkala, dengan prioritas menyerang target Karakter aktif lebih dulu, dan mengakibatkan <color=#80C0FFFF>Hydro DMG</color> yang didasarkan pada Max HP.\nSaat Salon Members menyerang, akan meningkatkan serangan tersebut berdasarkan jumlah anggota party di sekitar yang memiliki HP di atas 50%, dan akan mengonsumsi HP Karakter yang bersangkutan. Saat jumlah Karakter yang memenuhi syarat berjumlah 1/2/3/4 atau lebih, maka DMG serangan akan menjadi 110%/120%/130%/140% dari nilai awalnya.\n\n<color=#FFD780FF>Pneuma</color>\nMemanggil \"Singer of Many Waters\" untuk memulihkan HP Karakter aktif di sekitar setiap satu kurun waktu tertentu. Jumlah pemulihan didasarkan pada Max HP.\n\nSalon Members dan Singer of Many Waters berbagi durasi yang sama. Saat Furina mengganti formasi tamu melalui Charged Attack, tamu baru akan melanjutkan sisa durasi awal.\nFurina dapat bergerak di atas permukaan air selama Salon Members atau Singer of Many Waters berada di medan pertempuran.\n\n<i>Daftar pengunjung tetap yang sering mengunjungi Salon Solitaire Furina. Di waktu yang lain, Mademoiselle Crabaletta, Surintendante Chevalmarin, dan Gentilhomme Usher akan berkunjung, dan di hari Rabu yang suram, para penyanyi yang akan datang.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Furina_01"
       }
     ],
@@ -835,6 +837,7 @@
       "Id": 10895,
       "Name": "Let the People Rejoice",
       "Description": "Mengumpulkan sukacita kebahagiaan dan membentuk panggung gelembung, mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> yang didasarkan pada Max HP Furina, juga membuat anggota party di sekitar memasuki status Universal Revelry: Selama durasi berlangsung, saat HP Karakter tersebut bertambah atau berkurang, akan memberikan 1 Fanfare Point kepada Furina berdasarkan setiap persentase perubahan HP Karakter yang bersangkutan.\nSelain itu, DMG yang diakibatkan dan bonus pemulihan yang diterima seluruh anggota party di sekitar akan meningkat berdasarkan jumlah Fanfare Point yang dimiliki Furina.\nSaat durasinya berakhir, Fanfare Point yang dimiliki oleh Furina akan dihapus.\n\n<i>\"Bersoraklah! Pujilah! Terpesonalah! Angkat gelasmu! Karena setiap malam tanpa pesta adalah sebuah kesia-siaan terhadap siang hari yang menderita dan terjaga ... Dan, uh ... yang masih di bawah umur boleh minum jus anggur saja!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Furina_01"
     },
     "Inherents": [
@@ -858,6 +861,7 @@
         "Id": 892101,
         "Name": "Endless Waltz",
         "Description": "Saat Karakter aktif di dalam party menerima pemulihan, jika pemulihan tersebut bukan berasal dari Furina sendiri dan pemulihannya berlebih, maka dalam 4 detik selanjutnya, Furina akan memberikan satu kali pemulihan terhadap Karakter di dalam party yang berada sekitar setiap 2 detik. Jumlah pemulihan adalah 2% Max HP Karakter yang bersangkutan.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_05"
       },
       {
@@ -881,6 +885,7 @@
         "Id": 892201,
         "Name": "Unheard Confession",
         "Description": "Untuk setiap 1.000 poin Max HP Furina, akan memberikan buff yang berbeda berdasarkan <color=#FFD780FF>Salon Solitaire</color> Furina yang berada dalam karakteristik Arkhe yang berbeda:\nMeningkatkan 0,7% DMG yang diakibatkan oleh Salon Members. Maksimum peningkatan DMG yang dapat diperoleh Salon Members dengan cara ini adalah 28%.\nMengurangi jeda pemulihan Singer of Many Waters terhadap Karakter aktif di sekitar sebesar 0,4%. Maksimum pengurangan jeda yang dapat diperoleh dengan cara ini adalah 16%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_06"
       },
       {
@@ -899,6 +904,7 @@
         "Id": 892301,
         "Name": "The Sea is My Stage",
         "Description": "Cooldown kemampuan Xenochromatic Fontemer Aberrant berkurang 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_07"
       }
     ],

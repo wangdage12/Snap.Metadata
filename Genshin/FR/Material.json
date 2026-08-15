@@ -413,7 +413,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Sceau Cryo",
-    "Description": "Marque de reconnaissance de la part de Mondstadt que vous pouvez échanger contre des objets rares chez certains marchands de la cité.",
+    "Description": "Un sceau qui sert de signe de reconnaissance du gel et de la neige de Snezhnaya.\nOffrez-les aux points de rassemblement pour recevoir les récompenses de la glace.",
     "TypeDescription": "Sceau des sept cités-états",
     "Icon": "UI_ItemIcon_306"
   },
@@ -1827,6 +1827,28 @@
   },
   {
     "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Orbe d'énergie de puissance snezhnayien",
+    "Description": "Orbe d'énergie de puissance snezhnayien",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Orbe d'énergie de matériel snezhnayien",
+    "Description": "Orbe d'énergie de matériel snezhnayien",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
     "MaterialType": 7,
     "Id": 3004,
     "RankLevel": 5,
@@ -2273,6 +2295,28 @@
     "ItemType": 2,
     "Name": "Stella Fortuna de Sandrone",
     "Description": "Matériau d'activation de la constellation de Sandrone.",
+    "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 20,
+    "Id": 5148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna d'Alyosha",
+    "Description": "Matériau d'activation de la constellation d'Alyosha.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna d'Odette",
+    "Description": "Matériau d'activation de la constellation d'Odette.",
     "TypeDescription": "Matériau d'activation de constellation",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -3572,6 +3616,28 @@
     "Name": "Stella Fortuna de Sandrone",
     "Description": "Matériau d'activation de la constellation de Sandrone.",
     "TypeDescription": "Matériau d'activation de constellation",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 73,
+    "Id": 6148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Stella Fortuna d'Alyosha",
+    "Description": "Matériau d'activation de la constellation d'Alyosha.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Stella Fortuna d'Odette",
+    "Description": "Matériau d'activation de la constellation d'Odette.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_1102"
   },
   {
@@ -13773,6 +13839,94 @@
     "Icon": "UI_ItemIcon_101272"
   },
   {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fleur de féegivre",
+    "Description": "Une fleur sacrée qui s'épanouit quelles que soient les rigueurs du vent et de la neige. Elle irradie toujours une douce lueur envoûtante qui captive le cœur de tous ceux qui la contemplent.",
+    "TypeDescription": "Produit de Snezhnaya",
+    "Icon": "UI_ItemIcon_101275"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Floc-d'herbe",
+    "Description": "Une plante étrange, un temps soupçonnée d'être un hybride de plante et d'animal, bien qu'il ait été prouvé par la suite qu'il ne s'agissait que d'une plante ordinaire recouverte d'un duvet semblable à celui d'un animal.",
+    "TypeDescription": "Produit de Snezhnaya",
+    "Icon": "UI_ItemIcon_101276"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fougère dorée",
+    "Description": "Une fougère dont les bords présentent de légers reflets dorés. On dit qu'elle développe une saveur remarquablement unique une fois mijotée.",
+    "TypeDescription": "Produit de Snezhnaya",
+    "Icon": "UI_ItemIcon_101277"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Betterave rouge",
+    "Description": "Une plante herbacée robuste, capable de prospérer même dans le sol gelé. Pour survivre dans un environnement aussi hostile, elle développe une racine épaisse et succulente.",
+    "TypeDescription": "Ingrédient",
+    "Icon": "UI_ItemIcon_101278"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Glacia-fruit",
+    "Description": "Un fruit en forme d'étoile, né de la glace primale et ayant subi une transformation singulière dans le pergélisol. Une fois la branche sur laquelle il pousse coupée, le fruit tombe naturellement sur la neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101279"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Viorne de neige",
+    "Description": "Une fleur charmante aux pétales disposés en un amas sphérique. Sous la neige, elle ressemble à une minuscule boule de neige.",
+    "TypeDescription": "Ingrédient",
+    "Icon": "UI_ItemIcon_101280"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Givroseille",
+    "Description": "Une baie au goût riche qui pousse sur des branches givrées.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101281"
+  },
+  {
+    "Rank": 320,
+    "MaterialType": 4,
+    "Id": 101282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sombréfluorite",
+    "Description": "Une étrange fluorite formée sous l'influence des pouvoirs de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101282"
+  },
+  {
     "Rank": 330,
     "MaterialType": 25,
     "Id": 101301,
@@ -14090,6 +14244,50 @@
     "Description": "Bois obtenu à partir d'aulne. Il présente une résistance considérable à l'humidité et au froid, ce qui en fait une matière première de choix pour les meubles et les instruments de musique.",
     "TypeDescription": "Matériau",
     "Icon": "UI_ItemIcon_101330"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101331,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Bois de peuplier des neiges",
+    "Description": "Le bois des peupliers des neiges a une surface lisse et un grain léger et doux. C'est un excellent choix pour la fabrication de petits objets en bois.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101332"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101332,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Bois de bouleau blanc",
+    "Description": "Le bois des bouleaux blancs est réputé pour sa haute densité et sa robustesse. Il est utilisé pour la construction de structures exigeant une grande résistance à la flexion.",
+    "TypeDescription": "Matériau",
+    "Icon": "UI_ItemIcon_101331"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101333,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Bois de hêtre bleu",
+    "Description": "Le bois des hêtres bleus, au grain régulier, offre une meilleure résistance à l'usure. À Snezhnaya, il est fréquemment utilisé pour la fabrication de panneaux multicouches entrant dans la composition de structures et d'outils destinés à un usage durable.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101333"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101334,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Bois de mélèze",
+    "Description": "Le bois des mélèzes possède une dureté considérable et est très résistant à la corrosion. Les Snezhnayiens l'utilisent souvent pour construire des piliers et des planches.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101334"
   },
   {
     "Rank": 331,
@@ -20334,6 +20532,105 @@
     "Icon": "UI_ItemIcon_104364"
   },
   {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104365,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Enseignement de la Charité",
+    "Description": "Matériau d'amélioration d'aptitude\nLa charité est le salut du royaume glacé.\nC'est l'amour et la vigilance partagés entre les mortels. À travers cette terre immense et infinie, c'est la chaleur qui permet aux peuples de résister au froid mordant, apaisant les profondes blessures gravées dans leurs mémoires.",
+    "TypeDescription": "Matériau d'aptitude de personnage",
+    "Icon": "UI_ItemIcon_104365"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104366,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Guide de la Charité",
+    "Description": "Matériau d'amélioration d'aptitude\nLa charité est le salut du royaume glacé.\nElle engendre la miséricorde envers autrui. Au royaume du vent et de la neige, quiconque se repent sincèrement des péchés de son âme trouvera l'absolution au nom de la charité.",
+    "TypeDescription": "Matériau d'aptitude de personnage",
+    "Icon": "UI_ItemIcon_104366"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104367,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Philosophie de la Charité",
+    "Description": "Matériau d'amélioration d'aptitude\nLa charité est le salut du royaume glacé.\nC'est une grâce infinie qui s'étend à tous les êtres vivants. Elle abolit la frontière entre nobles et humbles, transcendant les lignées et les nations. Son regard bienveillant embrasse l'humanité entière, offrant refuge aux malheureux et promettant la libération éternelle à tous.",
+    "TypeDescription": "Matériau d'aptitude de personnage",
+    "Icon": "UI_ItemIcon_104367"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104368,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Enseignement de la Persévérance",
+    "Description": "Matériau d'amélioration d'aptitude\nLa persévérance est la caractéristique déterminante du royaume glacé.\nElle naît d'un instinct de survie viscéral. Même semée loin des terres fertiles, une graine fragile peut compter sur ce désir ardent pour ancrer ses racines profondément sous la toundra gelée.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104368"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104369,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Guide de la Persévérance",
+    "Description": "Matériau d'amélioration d'aptitude\nLa persévérance est la caractéristique déterminante du royaume glacé.\nElle fait naître la volonté de croître. Même brisée par le froid glacial, une graine fragile peut encore puiser dans cette volonté pour percer la terre gelée et faire jaillir de jeunes pousses au milieu d'un paysage balayé par le vent et la neige.",
+    "TypeDescription": "Matériau d'aptitude de personnage",
+    "Icon": "UI_ItemIcon_104369"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104370,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Philosophie de la Persévérance",
+    "Description": "Matériau d'amélioration d'aptitude\nLa persévérance est la caractéristique déterminante du royaume glacé.\nElle engendre la prospérité même de la vie. Les gens ici n'ont jamais faibli face au froid mordant, à l'image d'une graine fragile qui, avec audace, choisit de fleurir au milieu des blizzards. Cette civilisation a traversé des siècles d'hivers rigoureux, et pourtant, elle demeure vibrante, telle la fleur de féegivre qui s'épanouit saison après saison.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104370"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104371,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Enseignement de la Gloire",
+    "Description": "Matériau d'amélioration d'aptitude\nLa gloire est la foi sacrée du royaume glacé.\nC'est une étincelle enfouie profondément sous le sol gelé : si l'on parvient à en déceler la véritable forme, on trouvera le courage de résister au froid mordant.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104371"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104372,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Guide de la Gloire",
+    "Description": "Matériau d'amélioration d'aptitude\nLa gloire est la foi sacrée du royaume glacé.\nC'est une braise qui vacille dans la nuit profonde, un phare vers lequel se tournent tous ceux qui traversent les champs de neige. De même qu'ils sont certains que les blizzards s'apaiseront et que l'aube se lèvera, ils sont certains que le chemin qu'ils empruntent demeure le bon.",
+    "TypeDescription": "Matériau d'aptitude de personnage",
+    "Icon": "UI_ItemIcon_104372"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104373,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Philosophie de la Gloire",
+    "Description": "Matériau d'amélioration d'aptitude\nLa gloire est la foi sacrée du royaume glacé.\nC'est la flamme immortelle des balises enflammées, désormais liée à la vie et à la mort du royaume glacé. Cette flamme attise une noble passion, et pour entretenir son feu éternel, le peuple serait prêt à tout sacrifier.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104373"
+  },
+  {
     "Rank": 6,
     "MaterialType": 13,
     "Id": 105002,
@@ -20680,8 +20977,8 @@
     "Id": 107032,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "Clé de Sanctuaire des profondeurs de la Lune de givre",
-    "Description": "Une clé qui peut briser le scellé des anciens sanctuaires des profondeurs disséminés sur les terres de la Lune de givre.\nCes Sanctuaires des profondeurs ont été scellés lorsque l'ancienne civilisation qui les a construits a disparu. Les clés secrètes trouvées au fond des donjons peuvent briser les scellés, ou peut-être qu'elles font oublier aux sanctuaires divins ce qu'ils ont perdu le temps d'un instant.",
+    "Name": "Clé de Sanctuaire des kuuhenkis",
+    "Description": "Une clé qui peut briser le scellé des anciens sanctuaires des kuuhenkis disséminés sur les terres de la Lune de givre.\nCes sanctuaires, érigés à la surface de la lune, ont perdu l'être bienveillant en qui la foi était jadis placée, à mesure que la volonté lunaire s'estompait. Ces clés secrètes, découvertes sur le sol lunaire glacé, pourraient briser les sceaux... Ou peut-être ne font-elles appel qu'aux voix vacillantes du passé pour aider ces sanctuaires à oublier leur ruine...",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_107032"
   },
@@ -20695,6 +20992,39 @@
     "Description": "#Les éléments fondamentaux de la «{NON_BREAK_SPACE}civilisation ».\nToute création de la « civilisation » qui s'efface de la mémoire collective de l'humanité finit par se désintégrer en facteurs de mémoire. Offrez-les au noyau de mémoire situé dans le Temple de l'espace, et vous recevrez peut-être la bénédiction des souvenirs qui flottent dans les interstices...",
     "TypeDescription": "Objet d'aventure",
     "Icon": "UI_ItemIcon_107034"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 10,
+    "Id": 107035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Cryoculus",
+    "Description": "De l'énergie Cryo accumulée au fil du temps qui a fini par durcir. Faites-en une offrande à la Statue et restaurez son pouvoir qui s'est amenuisé avec le temps.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107035"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 5,
+    "Id": 107036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Goutte ailée d'ombre",
+    "Description": "Une étrange substance liquéfiée, laissée par une créature née dans un Royaume de pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 410011,
+    "MaterialType": 5,
+    "Id": 107037,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé de Sanctuaire des profondeurs de Snezhnaya",
+    "Description": "Une clé qui peut briser le scellé des anciens sanctuaires des profondeurs disséminés sur les terres de Snezhnaya.\nCes Sanctuaires des profondeurs ont été scellés lorsque l'ancienne civilisation qui les a construits a disparu. Les clés secrètes trouvées au fond des donjons peuvent briser les scellés, ou peut-être qu'elles font oublier aux sanctuaires divins ce qu'ils ont perdu le temps d'un instant.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107037"
   },
   {
     "Rank": 100000,
@@ -32334,6 +32664,186 @@
     "Icon": "UI_ItemIcon_108884"
   },
   {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires.",
+    "Id": 108985,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye (suspect)",
+    "Description": "Un plat de viande servi dans une cocotte en terre cuite. La cuisson ayant été excessivement longue, la viande s'est effilochée en filaments si fins qu'on a l'impression de mâcher une vieille couverture. Une seule bouchée suffit à vous donner envie de cacher discrètement la cocotte...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires.",
+    "Id": 108986,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye",
+    "Description": "Un plat de viande servi dans une cocotte en terre cuite. Les ingrédients coupés en dés sont placés dans la cocotte, recouverts de pâte, puis cuits au four. Une fois la cuisson terminée, on retire la croûte croustillante et on ajoute de la crème fraîche pour l'assaisonnement. La méthode en elle-même n'est pas compliquée, mais maîtriser la température du four et le temps de cuisson demande une certaine expérience.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires.",
+    "Id": 108987,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye (délicieux)",
+    "Description": "Un plat de viande servi dans une cocotte en terre cuite. En soulevant la croûte croustillante de pâte feuilletée, une vague soudaine de parfum savoureux et beurré s'échappe, accompagnée d'une chaleur réconfortante. C'est comme se prélasser dans une douce chaleur après avoir allumé une bûche dans la cheminée par une froide nuit d'hiver.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 8 % des PV max du personnage sélectionné et 800 PV supplémentaires.",
+    "Id": 108988,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Saucisse fumée de Podvorye (suspecte)",
+    "Description": "Une saucisse en tranches. Les morceaux sont coupés de façon irrégulière, certains étant encore collés ensemble. Si vous la levez, la saucisse ressemble à une guirlande délabrée et noircie par la fumée...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 9 % des PV max du personnage sélectionné et 1 000 PV supplémentaires.",
+    "Id": 108989,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Saucisse fumée de Podvorye",
+    "Description": "Une saucisse en tranches. Elle a été assaisonnée et fumée, puis finement tranchée et servie telle quelle. Plat emblématique du Restaurant Podvorye, c'est un choix sûr que personne à table ne refuserait.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure 10 % des PV max du personnage sélectionné et 1 200 PV supplémentaires.",
+    "Id": 108990,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Saucisse fumée de Podvorye (délicieuse)",
+    "Description": "Une saucisse en tranches. Sa texture ferme donne le rythme tandis que ses saveurs fumées et savoureuses portent la mélodie, dansant sur le palais dans un duo d'une harmonie parfaite. Pas étonnant que ce soit toujours la première assiette à se vider...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 66 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108991,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina (suspecte)",
+    "Description": "De longues lamelles de poisson, semblables à des rubans. Les parties les plus épaisses sont tellement congelées qu'elles pourraient ébrécher une dent, tandis que les parties les plus fines sont déjà réduites en bouillie... Au moins, sous les températures glaciales de Snezhnaya, vous n'aurez probablement pas à vous soucier de maux d'estomac.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 81 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108992,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina",
+    "Description": "De longues lamelles de poisson, semblables à des rubans. Découpées en biais à l'aide d'une lame tranchante, elles sont prélevées sur un poisson entier congelé, formant de fines lamelles ondulées. Servies généralement avec du gros sel, elles constituent un plat froid cru courant à Snezhnaya.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 95 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108993,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina (délicieuse)",
+    "Description": "De longues lamelles de poisson, semblables à des rubans. La viande est disposée dans le plat comme un petit bouquet de pétales sculptés dans la glace. Glissez-en un morceau dans votre bouche, et une douceur croquante et pure caresse le bout de votre langue avec la fraîcheur de la neige fondante.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 165 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108994,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Okrochka des neiges (suspecte)",
+    "Description": "Un bol de soupe froide. Il faut un certain effort pour distinguer les ingrédients qui flottent dans le bouillon trouble. Les légumes, réduits en miettes, sont noyés sous d'énormes morceaux de jambon. On dirait que le cuisinier s'est souvenu du jambon à la toute dernière minute, l'ajoutant dans un geste de panique...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "#Augmente la DÉF de tous les personnages de l'équipe de 200{NON_BREAK_SPACE}pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Okrochka des neiges",
+    "Description": "Un bol de soupe froide. Les ingrédients cuits sont disposés uniformément dans un bol, puis recouverts d'un bouillon à base de crème fraîche. Certains Snezhnayiens se lancent le défi d'engloutir un grand bol de cette soupe en une seule fois lors des journées les plus froides, y voyant la preuve de leur force et de leur capacité à vaincre le froid glacial.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente la DÉF de tous les personnages de l'équipe de 235 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Okrochka des neiges (délicieuse)",
+    "Description": "Un bol de soupe froide. Le bouillon, d'un blanc laiteux et scintillant, offre une sensation de fraîcheur comparable à celle de la neige fraîche, instantanément suivie d'une explosion de saveurs revigorantes grâce à la crème fraîche onctueuse. Avec ses légumes croquants, son jaune d'œuf ferme et ses savoureux dés de jambon, chaque cuillerée révèle une texture unique, comme si l'on ouvrait une délicieuse boîte mystère.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue légèrement la vitesse à laquelle s'accumulent les effets du Grand froid pour tous les personnages de l'équipe pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108997,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bortsch (suspect)",
+    "Description": "Une soupe d'un rouge éclatant. Ce plat manque cruellement d'âme, comme si on avait simplement jeté les restes d'un repas précédent dans la casserole. Le finir procure certes une sensation de chaleur éphémère, mais c'est comme une étincelle qui s'allume, ne procurant qu'un bref instant de réconfort.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue quelque peu la vitesse à laquelle s'accumulent les effets du Grand froid pour tous les personnages de l'équipe pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108998,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bortsch",
+    "Description": "Une soupe d'un rouge éclatant. Une fois le bouillon prêt, on y ajoute progressivement divers ingrédients et on laisse mijoter doucement jusqu'à ce que leurs saveurs se mélangent. On rajoute souvent une cuillerée de crème fraîche juste avant de servir. À chaque gorgée, une douce chaleur se répand dans le corps, suffisamment réconfortante pour chasser le froid mordant de l'extérieur.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la vitesse à laquelle s'accumulent les effets du Grand froid pour tous les personnages de l'équipe pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 108999,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Bortsch (délicieux)",
+    "Description": "Une soupe d'un rouge éclatant. Dès que le bouillon chaud glisse dans votre gorge, une chaleur intense vous envahit, comme si un feu s'était allumé en vous. La chaleur se diffuse doucement jusqu'à réchauffer le bout de vos oreilles. Lors d'une traversée en pleine tempête de neige, ce bol de soupe vaut bien plus qu'un manteau supplémentaire !",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109000,
@@ -35315,6 +35825,127 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109655,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Zharkoye",
+    "Description": "Étapes de préparation du zharkoye.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109656,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Recette : Saucisse fumée de Podvorye",
+    "Description": "Étapes de préparation de la saucisse fumée de Podvorye.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Stroganina",
+    "Description": "Étapes de préparation du stroganina.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Okrochka des neiges",
+    "Description": "Étapes de préparation de l'okrochka des neiges.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Bortsch",
+    "Description": "Étapes de préparation du bortsch.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109660,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Glace à la givroseille",
+    "Description": "Étapes de préparation de la glace à la givroseille.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109661,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Pain de seigle de Glupov",
+    "Description": "Étapes de préparation du pain de seigle de Glupov.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109662,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Medovik",
+    "Description": "Étapes de préparation du medovik.",
+    "TypeDescription": "Recette",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Chachlyks snezhnayiens",
+    "Description": "Étapes de préparation des chachlyks snezhnayiens.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Recette : Viornes en fleurs sur champ de neige",
+    "Description": "Étapes de préparation des viornes en fleurs sur champ de neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109665,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Recette : Coupes sucrées",
+    "Description": "Étapes de préparation des coupes sucrées.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "Rank": 322,
     "MaterialType": 4,
     "Id": 110000,
@@ -35467,6 +36098,17 @@
     "Description": "Une poudre noire et grossièrement moulue obtenue à partir du seigle. Elle confère une texture unique et un goût acide à la nourriture qui l'incorpore.",
     "TypeDescription": "Ingrédient",
     "Icon": "UI_ItemIcon_110016"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 110017,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Miel",
+    "Description": "Un liquide ambré et riche, à la douceur classique, disponible toute l'année dans le commerce. Il peut servir à sucrer les boissons, à préparer des sauces ou à mariner diverses viandes.",
+    "TypeDescription": "Ingrédient",
+    "Icon": "UI_ItemIcon_110017"
   },
   {
     "Rank": 900000,
@@ -35824,6 +36466,17 @@
     "Description": "Un appât fabriqué à partir de lakkabaies et de menthe. Il a l'air ordinaire, mais son mélange de parfums et de couleurs est irrésistible pour certains poissons et en font un favori des pêcheurs expérimentés.\n\nAdapté pour les requins végé et les cristieux.",
     "TypeDescription": "Appât de pêche",
     "Icon": "UI_ItemIcon_111036"
+  },
+  {
+    "Rank": 340,
+    "MaterialType": 32,
+    "Id": 111037,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Appât scintillant",
+    "Description": "Un appât principalement composé de paillettes et recouvert d'une infime quantité de matériau fluorescent. Utilisé correctement, il émet une brillance scintillante. La sphère centrale contient de petites billes de hochet qui imitent les vibrations des petits poissons, le rendant particulièrement attractif pour les poissons de Snezhnaya.\n\nAdapté pour les neigeoires et les florastres.",
+    "TypeDescription": "Appât de pêche",
+    "Icon": "UI_ItemIcon_111037"
   },
   {
     "Rank": 10100,
@@ -37421,6 +38074,138 @@
     "Icon": "UI_ItemIcon_112145"
   },
   {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112146,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Paillette éthérée",
+    "Description": "Les restes d'un nivéole snezhnayien après une bataille.\nCes fragments recouvraient autrefois le corps de la créature comme des écailles cristallines. En se détachant, ils se dépouillèrent de toute couleur, prenant l'aspect de la poussière des ailes d'un papillon de nuit.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112146"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112147,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Cristal éthéré",
+    "Description": "Les restes d'un nivéole snezhnayien après une bataille.\nC'est un fragment brisé des écailles cristallines qui recouvraient jadis le corps d'un nivéole. Bien qu'il ne s'agisse plus que d'une coquille vide, on peut encore percevoir l'écho du pouvoir unique qui l'habitait.",
+    "TypeDescription": "Matériau d'amélioration de personnage et d'arme",
+    "Icon": "UI_ItemIcon_112147"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112148,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Écaille éthérée",
+    "Description": "Les restes d'un nivéole snezhnayien après une bataille.\nCe genre d'écailles cristallines poussait autrefois sur le corps d'un nivéole. On dit que les nivéoles possédant une plus grande quantité de ces écailles détiennent un pouvoir bien plus grand. Pourtant, nul ne peut affirmer si cette magie provient véritablement de leur être, simplement canalisée vers l'extérieur par les morceaux de cristal, ou si ces morceaux sont les réceptacles mêmes de leur pouvoir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112148"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112149,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Graine chimérique",
+    "Description": "Le noyau interne extrait d'une Bête chimérique mystique.\nIl s'agit du noyau le plus fondamental qui se développe au sein d'un monstre artificiel. Pourtant, aussi simple soit-il, il contient le plan primordial de la croissance de toutes les créations humaines.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112149"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112150,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Noyau chimérique",
+    "Description": "Le noyau interne extrait d'une Bête chimérique mystique.\nRelativement complexe, ce noyau symbiotique, extrait d'un monstre artificiel, est conçu pour maintenir les cycles biologiques de deux formes de vie distinctes, les intégrant harmonieusement en un seul organisme.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112150"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112151,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cœur chimérique",
+    "Description": "Le noyau interne extrait d'une Bête chimérique mystique.\nNoyau le plus complexe qu'un monstre artificiel puisse abriter, c'est un véritable germe de vie artificiellement façonné et pourtant parfait. Celui qui a donné vie à cette création a assurément percé les secrets mêmes de la formation de la vie.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112151"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112152,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Fragment sédimenté",
+    "Description": "Une concrétion formée par un puissant volkodlak.\nCette concrétion commençait à peine à se fixer à un organe interne ou à un os. À mesure que la puissance d'un volkodlak grandit, elle peut finir par recouvrir une région entière du corps, voire un organe entier.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112152"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112153,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Masse sédimentée",
+    "Description": "Une concrétion formée par un puissant volkodlak.\nCette concrétion s'est fixée à un organe interne ou à un os pendant une longue période. Une fois retirées, ces concrétions sont considérées comme des symboles de pouvoir et précieusement conservées par les descendants de la créature.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112153"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112154,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Excroissance sédimentée",
+    "Description": "Une concrétion formée par un puissant volkodlak.\nCette concrétion a fusionné avec un organe ou un os. On pourrait même dire qu'il s'agit d'un os ou d'un organe nouvellement formé aux points de convergence de la circulation énergétique du volkodlak. Seuls les volkodlak à la longévité exceptionnelle, ayant sans cesse perfectionné leur force, peuvent développer de telles excroissances dans leur corps.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112154"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112155,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Racine creuse de vie",
+    "Description": "Une branche qu'un leshy a laissée tomber avant de retomber dans le silence.\nAvec seulement quelques cristaux qui y ont poussé, cette branche ne possède que peu de pouvoir et émet une faible lueur.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112155"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112156,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bourgeon de vie",
+    "Description": "Une branche qu'un leshy a laissée tomber avant de retomber dans le silence.\nPortant de nombreux cristaux, cette branche est lourde en main. On y perçoit encore des traces de vitalité, même après qu'elle se soit détachée du corps du leshy.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112156"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112157,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Noyau de vie",
+    "Description": "Une branche qu'un leshy a laissée tomber avant de retomber dans le silence.\nAvec son cœur cristallin parfaitement formé, cette branche renferme une vitalité qui ne s'éteindra pas facilement. Enterrée dans le sol, elle donnerait probablement naissance à un nouveau leshy sous peu.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112157"
+  },
+  {
     "Rank": 11101,
     "MaterialType": 14,
     "Id": 113001,
@@ -38400,6 +39185,28 @@
     "Icon": "UI_ItemIcon_113089"
   },
   {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113090,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Branche fleurie imbrûlable",
+    "Description": "Une branche fleurie récupérée sur un monstre créé par un être égoïste. Elle ne se fanera pas et ne brûlera pas.\nAvant que le sombre alchimiste ne découvre le moyen d'octroyer l'éternité à la vie et ne le mette en pratique, il caressa doucement le corps de sa création : un monstre dont les feuilles ressemblaient à des plumes cramoisies. Il imagina la créature immortelle accueillant, des flammes, l'ami qu'il attendait depuis si longtemps. Et alors... Peut-être devrait-il cueillir une fleur sur le corps de sa créature en guise de présent pour célébrer la libération de cet ami du Royaume de pénombre...",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113090"
+  },
+  {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Queue coupée du rôdeur céleste",
+    "Description": "La plume caudale d'une puissante bête chimérique.\nPeut-être que même un monstre créé devrait-il chercher son propre destin, de peur d'être condamné à la souffrance par la main d'autrui. C'est dans cet esprit que celui qui créa ces monstres aimait doter ses créatures d'ailes. Pourtant, nombreux sont les êtres ailés en ce monde, et seuls quelques-uns parviennent véritablement à voler. Peut-être est-ce là aussi ce qu'on appelle la providence...",
+    "TypeDescription": "Matériau d'amélioration de personnage",
+    "Icon": "UI_ItemIcon_113091"
+  },
+  {
     "Rank": 15101,
     "MaterialType": 14,
     "Id": 114001,
@@ -39324,6 +40131,138 @@
     "Icon": "UI_ItemIcon_114084"
   },
   {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114085,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Montée de l'armée pâle",
+    "Description": "Matériau d'élévation d'arme.\nÀ l'est de la toundra, ce monstre arrogant, né au cœur de la montagne aux allures d'ailes, n'est qu'un misérable colporteur de malt et de minéraux.\nLes vila sous ses ordres ne sont que des êtres faibles dotés d'ailes d'insectes, tandis que les domovoy, avec leurs bras atrophiés, sont incapables de soulever des armes.\nQui prêterait attention aux clameurs d'une telle populace ? Quelle force pourraient-ils bien avoir pour résister à l'assaut des rois des volkodlak ?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114085"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114086,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Rassemblement de l'armée pâle",
+    "Description": "#Matériau d'élévation d'arme.\n« Ils ont conquis le canyon par pur hasard. Cet imbécile d'une arrogance risible n'est plus qu'un éclair épuisé, un vent qui s'éteint.{NON_BREAK_SPACE}»\n« Malgré toute leur force, ils peuvent à peine retenir une fraction de nos troupes. Bientôt, leur défaite sera manifeste. »\n« Soldats, en avant ! Car notre roi l'a déjà prédit, car toute cette campagne se terminera par une victoire sans effort ! »",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114086"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114087,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Clairon de l'armée pâle",
+    "Description": "Matériau d'élévation d'arme.\n« Monomakh, notre ennemi, a bâti son palais au-delà de la vallée, signe qu'il est pleinement confiant en sa capacité à nous affronter. »\n« En l'état actuel des choses, il mérite toute notre prudence. Toute idée de victoire rapide doit être abandonnée. »\n« Mais peu importe. Fort de sa sagesse, le roi se tiendra aux côtés des clans pour surmonter toutes les épreuves et inaugurer une ère nouvelle et glorieuse ! »",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114087"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114088,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Triomphe de l'armée pâle",
+    "Description": "Matériau d'élévation d'arme.\n« Gloire au Tsar, protecteur de tous les nivéoles, héritier de l'étoile pâle, souverain né du sang sacré, le Tsar Belyi ! »\n« Loué soit-il, car la toundra entière ne fait plus qu'un sous l'éclat de l'étoile polaire ! »\n« Loué soit-il, car Sa Majesté a vaincu le faux roi et embrassé toutes les nivéoles. Telle est sa bienveillance, telle est sa miséricorde ! »",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114088"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114089,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Versement mesuré de nectar spirituel en cave",
+    "Description": "Matériau d'élévation d'arme.\nL'éclat qui jadis scintillait comme une aurore boréale dans le ciel du nord s'éteignit lorsqu'il croisa le regard venu d'en haut.\nLa calamité du froid mordant et du cristal noir faillit détruire les fondements sur lesquels reposait toute vie.\nSeuls les nivéoles, insensibles au froid, purent émerger de la glace et de la neige pour régner sur le royaume déserté.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114089"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114090,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ébriété de nectar spirituel en cave",
+    "Description": "Matériau d'élévation d'arme.\nCe que d'autres savourent de manière festive après une abondante récolte de céréales est une nécessité de survie pour les clans qui traversent le froid glacial.\nOn raconte que les domovoy, dont la maîtrise du brassage était sans égale, s'appuyaient jadis sur cet art pour enrichir le trésor du roi qu'ils servaient.\nAinsi, transmise de clan en clan par le commerce, la boisson des nivéoles se répandait sur les terres gelées comme un miel empoisonné.",
+    "TypeDescription": "Matériau d'élévation d'arme",
+    "Icon": "UI_ItemIcon_114090"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ivresse de nectar spirituel en cave",
+    "Description": "Matériau d'élévation d'arme.\nLa légende raconte qu'il y a fort longtemps, d'innombrables tonneaux de vin fin furent déversés dans un lac gelé.\nCertains disent que ce vin était destiné à constituer des provisions de guerre, qui durent être détruites suite à un incident. D'autres prétendent qu'un certain grand-duc domovoy avait perdu un pari contre le seigneur des diableautins.\nCe n'est que lorsque des flammes azurées infernales et inextinguibles se répandirent sur le lac, et que les ennemis en contrebas se tordirent dans des vagues suffocantes, qu'ils comprirent...\nEntre les mains de ceux qui connaissent bien les lois de l'univers, l'eau elle-même pouvait brûler, et même le nectar le plus doux pouvait se révéler plus mortel que le poison.",
+    "TypeDescription": "Matériau d'élévation d'arme",
+    "Icon": "UI_ItemIcon_114091"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114092,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Rêverie de nectar spirituel en cave",
+    "Description": "Matériau d'élévation d'arme.\nLe grand-duc des domovoy régnait sur les mines de cristal et le développement des terres gelées. À ses yeux, creuser une oasis dans les étendues polaires n'était qu'un jeu d'enfant, et importer du seigle de meilleure qualité ne représentait pas une difficulté majeure.\nMême parmi les nombreux nobles nivéoles qui avaient subsisté à Snezhnaya jusqu'à ce jour, aucun ne pouvait rivaliser avec le prestige de son rang.\nPourtant, la flamme de l'ambition brûlait toujours plus fort, le rongeant de l'intérieur, tandis que la cupidité ancestrale des nivéoles, enflée d'année en année, demeurait sans limite.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114092"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114093,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Renaissance de l'empereur glacial",
+    "Description": "Matériau d'élévation d'arme.\nLe héros qui émergea des champs de neige n'était pas encore devenu le souverain de ce royaume glacé, mais déjà, il avait la fâcheuse habitude de se confier bien trop à son entourage.\nAussi fut-il d'autant plus surpris de recevoir un présent des nivéoles des neiges, qui n'avaient pas encore pris forme humaine.\nÀ sa connaissance, il ne leur avait jamais révélé être né d'un œuf aussi pâle que la glace, enfoui au cœur des montagnes aux allures d'ailes, ni même mentionné la date de sa naissance.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114093"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114094,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cérémonie de l'empereur glacial",
+    "Description": "Matériau d'élévation d'arme.\nLes nivéoles de la cour ne comprenaient pas pourquoi un présent destiné au Tsar devait revêtir une telle forme. Ils ne savaient que déployer leur art pour créer des ornements aussi brillants que des joyaux.\nSeuls le Tsar, assis sur son trône, et les nivéoles des neiges en comprenaient le sens.\nCar ce qui importait n'était jamais la cérémonie, mais la vérité ancestrale qu'elle véhiculait.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114094"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Complainte de l'empereur glacial",
+    "Description": "Matériau d'élévation d'arme.\nLa nuit où la vérité se déchaîna comme une vague amère, elle prépara ce présent pour son ami sur le trône, bien qu'elle-même n'ait plus été la même.\nTous deux semblaient comprendre qu'ils ne se parleraient peut-être plus jamais ainsi.\nCar après cette nuit, le chemin qu'ils avaient jadis parcouru ensemble se sépara, brisé par la faiblesse de l'un et la fureur de l'autre.",
+    "TypeDescription": "Matériau d'élévation d'arme",
+    "Icon": "UI_ItemIcon_114095"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114096,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Adieu de l'empereur glacial",
+    "Description": "Matériau d'élévation d'arme.\nUn objet apparu sur la table à la veille de la guerre, sans que personne ne sache quand ni comment il était arrivé là...\nIl reconnut l'œuvre de l'amie qu'il n'avait pas vue depuis de longues années.\nC'est alors seulement qu'il comprit que c'était le commencement de chaque calamité, le fruit amer de chaque désir et le présage de chaque destruction.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114096"
+  },
+  {
     "Rank": 100201,
     "MaterialType": 12,
     "Id": 115010,
@@ -40094,6 +41033,28 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117030,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Reliquaire des profondeurs - Catégorie II",
+    "Description": "Un reliquaire utilisé pour ranger des artéfacts. Que celui qui le voit soit béni.\n\nChaque reliquaire vous accordera un artéfact des sets suivants :\n· Preuve écarlate\n· Cœur de la fournaise\n· Berserker\n· Instructeur\n· Exilé",
+    "TypeDescription": "Reliquaire",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117031,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Reliquaire des profondeurs - Catégorie I",
+    "Description": "Un reliquaire utilisé pour ranger des artéfacts. Que celui qui le voit soit miraculé.\n\nChaque reliquaire vous accordera un artéfact des sets suivants :\n· Preuve écarlate\n· Cœur de la fournaise",
+    "TypeDescription": "Reliquaire",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
     "Rank": 260101,
     "MaterialType": 12,
     "Id": 118001,
@@ -40224,6 +41185,28 @@
     "Description": "#Un cadeau offert lors d'un jour spécial.\n\nPour vous, {M#voyageur}{F#voyageuse} admirant le feu de camp vacillant.\nQue vous trouviez chaleur et bonheur au cours de votre voyage{NON_BREAK_SPACE}!\n\n« Toutes les semaines, on met à jour les plats recommandés, et tous les mois, la lune donne de nouvelles bénédictions. Mais il va falloir attendre plus de neuf mille heures avant que ça ne se reproduise ! Le temps passé ensemble est comme du chocolat : doux, moelleux et trop bon pour être fini en une seule bouchée... Miam ! Tu es le compagnon de voyage préféré de Paimon ! »",
     "TypeDescription": "Objet spécial",
     "Icon": "UI_ItemIcon_118011"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 12,
+    "Id": 118013,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#Gâteau {M#du voyageur}{F#de la voyageuse}",
+    "Description": "Un cadeau offert lors d'un jour spécial.\n\nPour vous, qui voyagez à travers les ombres éclairées par la lune et les forêts infinies.\nBon et heureux voyage dans ce monde de surprises !",
+    "TypeDescription": "Objet spécial",
+    "Icon": "UI_ItemIcon_118013"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 5,
+    "Id": 118014,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#Gâteau {M#du voyageur}{F#de la voyageuse}",
+    "Description": "#Un cadeau offert lors d'un jour spécial.\n\nPour vous, qui voyagez à travers les ombres éclairées par la lune et les forêts infinies.\nBon et heureux voyage dans ce monde de surprises !\n\n« Toutes les semaines, on met à jour les plats recommandés, et tous les mois, la lune donne de nouvelles bénédictions. Mais il va falloir attendre plus de neuf mille heures avant que ça ne se reproduise ! Mais tout comme la lune se lève chaque jour, je continuerai à voyager à tes côtés, {M#voyageur}{F#voyageuse}... Oui, pour laisser de beaux souvenirs en chaque endroit{NON_BREAK_SPACE}!{NON_BREAK_SPACE}»",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_118013"
   },
   {
     "Rank": 10,
@@ -52011,6 +52994,39 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121411,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caillou d'essence cristalline",
+    "Description": "Une pierre ovoïde imprégnée du pouvoir nécessaire à Œil de Graie pour recouvrer sa forme physique.\nAutrefois divisé et saisi par Alvis, le grand-duc domovoy, son pouvoir fut acquis par Aksinya par des moyens inconnus et placé dans les vestiges de Hvergelmir. Le secret permettant à un simple mortel de transcender, par la renaissance, en un être plus parfait pourrait s'y cacher.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121411"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121412,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé du laboratoire snegovik",
+    "Description": "Une clé en forme d'aiguille.\nElle ouvre les portes du laboratoire de la grande-duchesse snegurochka, à l'intérieur de Hvergelmir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121412"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121413,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nourriture pour chat",
+    "Description": "Il semblerait que ce soit de la nourriture préparée par Pavlina, la grande-duchesse snegurochka, pour un chat nommé Lara qui vivait à Hvergelmir... L'odeur est plutôt appétissante, mais au final, ce n'est que de la nourriture pour chat, alors ça a probablement le goût de carton.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121413"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121414,
     "RankLevel": 4,
     "ItemType": 2,
@@ -52238,6 +53254,61 @@
     "Description": "Un coffret spécial de sculpture en sucre fait sur mesure, apparemment conçu pour quelqu'un de particulier. À déguster de préférence avant que ça ne commence à fondre !",
     "TypeDescription": "Consommable",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121442,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé rouge",
+    "Description": "Une des trois clés nécessaires pour ouvrir la porte de la salle de contrôle des égouts. Celle-ci est rouge.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121442"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121443,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé blanche",
+    "Description": "Une des trois clés nécessaires pour ouvrir la porte de la salle de contrôle des égouts. Celle-ci est blanche.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121443"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121444,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé bleue",
+    "Description": "Une des trois clés nécessaires pour ouvrir la porte de la salle de contrôle des égouts. Celle-ci est bleue.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121444"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121445,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Invitation au « rituel »",
+    "Description": "Une invitation merveilleuse qui semble toujours parvenir entre les mains de son destinataire légitime.\nGrâce à cette invitation, on peut se rendre au Manoir des Hespérides, au sommet des pics glacés de Snezhnaya, pour assister au mariage de Pavlina, la princesse des snegurochka.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121445"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121446,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Fragment d'Ikhor séparé",
+    "Description": "#Un fragment du pouvoir d'Ikhor, détaché par Aksinya lors de l'interruption du « rituel ».\nIl a pris la forme d'une poupée lumineuse. Peut-être parce que le désir d'«{NON_BREAK_SPACE}exaucer les vœux d'autrui{NON_BREAK_SPACE}» a autrefois été le fil conducteur qui le contrôlait, et qu'il n'est plus qu'une marionnette porteuse d'une forme de pouvoir transcendant.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121446"
   },
   {
     "Rank": 410007,
@@ -52759,6 +53830,28 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121541,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caillou de cœur glacé",
+    "Description": "Une pierre ovoïde imprégnée du pouvoir nécessaire à Œil de Graie pour recouvrer sa forme physique.\nElle était autrefois utilisé par Pavlina la grande-duchesse nivéole pour remédier aux défauts inhérents aux nivéoles.\nCachée en son sein peut se trouver l'aspiration à la manière dont un simple mortel pourrait accéder à un statut supérieur grâce à la renaissance.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121541"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121542,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Caillou d'algue serpentine",
+    "Description": "Une pierre ovoïde imprégnée du pouvoir nécessaire à Œil de Graie pour recouvrer sa forme physique.\nElle était autrefois utilisée par l'alchimiste nommé Koshchei pour créer la vie dans sa quête d'éternité.\nCette formule recèle peut-être la révélation de la manière dont un simple mortel pourrait forger l'immortalité par la renaissance.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121542"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121543,
     "RankLevel": 0,
     "ItemType": 2,
@@ -52832,6 +53925,17 @@
     "Description": "Un coffret spécial de sculpture en sucre fait sur mesure, apparemment conçu pour quelqu'un de particulier. À déguster de préférence avant que ça ne commence à fondre !",
     "TypeDescription": "Consommable",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121551,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Emplacement du trésor légendaire du voleur",
+    "Description": "Une piste apparemment obtenue par un membre de gang surnommé le Boucher alors qu'il cherchait à réunir de l'argent... Peut-être qu'un butin colossal attend d'être découvert !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100173"
   },
   {
     "Rank": 10,
@@ -52957,6 +54061,83 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121567,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Formule de potion sans nom",
+    "Description": "Formule de potion sans nom",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121568,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (1)",
+    "Description": "Notes d'une personne noble (1)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121569,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (2)",
+    "Description": "Notes d'une personne noble (2)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121570,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (3)",
+    "Description": "Notes d'une personne noble (3)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121571,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (4)",
+    "Description": "Notes d'une personne noble (4)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121572,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (5)",
+    "Description": "Notes d'une personne noble (5)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121573,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'une personne noble (6)",
+    "Description": "Notes d'une personne noble (6)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121574,
     "RankLevel": 4,
     "ItemType": 2,
@@ -53054,6 +54235,39 @@
     "Icon": "UI_ItemIcon_121596"
   },
   {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121597,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Roue de contrôle en métal",
+    "Description": "Une roue de contrôle métallique servant à ouvrir une certaine porte dans les égouts.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121598,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Roue de contrôle de l'élévateur des égouts",
+    "Description": "Une roue de contrôle servant à actionner l'élévateur des égouts.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121599,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Roue de contrôle d'élévateur",
+    "Description": "Une roue de contrôle permettant d'actionner l'élévateur menant à la Grande salle.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
     "Rank": 410007,
     "MaterialType": 5,
     "Id": 121601,
@@ -53111,6 +54325,149 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121610,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Emblème de forme étrange",
+    "Description": "Un emblème au design particulier, trouvé par Nastya dans une pièce étrange. Il semble capable de désamorcer les pièges...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121610"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121611,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Pass VIP",
+    "Description": "Une lettre dorée.\nCensée avoir été émise par la personne en charge du manoir de montagne, cette lettre permettait autrefois à son détenteur d'être fréquemment invité au Manoir des Hespérides.\nLe porteur pouvait profiter d'un bref répit dans le salon VIP du manoir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121596"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121612,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé oubliée des membres d'un gang",
+    "Description": "Vous avez trouvé une clé dans un coffre abandonné par les membres d'un gang. On dirait qu'elle pourrait ouvrir une porte quelque part...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121612"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121613,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Minerai de kristall fondu",
+    "Description": "Un cristal raffiné et fondu à partir de kristall de Kresnik. Il pourrait bien avoir une utilité unique.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121613"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121614,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Guide d'accès aux égouts",
+    "Description": "Un guide trouvé à l'intérieur de la salle de contrôle, expliquant en détail comment ouvrir la porte de la salle de contrôle des égouts.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121614"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121615,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte étrange",
+    "Description": "Une étrange carte trouvée dans la Cabane de chasse. Elle est d'une facture exquise, mais son utilité demeure un mystère...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121615"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121616,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121616"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121617,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121617"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121618,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121618"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121619,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121619"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121620,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121620"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121621,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Carte d'accès aux butins de la pénombre",
+    "Description": "Une carte obtenue dans la Cabane de chasse, qui semble être une carte d'accès permettant d'ouvrir les butins de la pénombre situés en dessous.\nExplorez les Royaumes de pénombre de Snezhnaya et améliorez le niveau de cette carte d'accès pour ouvrir encore plus de butins de la pénombre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121621"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121622,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bloc de données incomplet",
+    "Description": "D'étranges blocs de données sont disséminés dans les Royaumes de pénombre, apparemment placés là intentionnellement pour servir de repères. Peut-être que rassembler ces fragments singuliers vous aidera dans votre exploration de ces domaines...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121625,
     "RankLevel": 3,
     "ItemType": 2,
@@ -53129,6 +54486,567 @@
     "Description": "Une ancienne tablette de pierre découverte sur la lune. Bien que l'inscription soit totalement indéchiffrable, pour une raison inconnue, quiconque la lit peut en comprendre le sens dans sa langue maternelle.",
     "TypeDescription": "Objet de quête",
     "Icon": "UI_ItemIcon_121625"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121627,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bouton à motifs complexes",
+    "Description": "Un bouton très apprécié par les jack frost. Peut-être les aiment-ils tant parce que leurs petites mains rondes sont incapables de confectionner des objets aussi fins et légers. Vous pouvez les échanger dans la Boutique branchée.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121627"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121630,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Bloc de données incomplet",
+    "Description": "D'étranges blocs de données sont disséminés dans les Royaumes de pénombre, apparemment placés là intentionnellement pour servir de repères. Peut-être que rassembler ces fragments singuliers vous aidera dans votre exploration de ces domaines...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Trophée du champion du 1er Tournoi des aventuriers",
+    "Description": "Un trophée décerné par le siège de la Guilde des aventuriers de Snezhnaya. Il témoigne des exploits exceptionnels que Paimon et vous avez accomplis dans le domaine de l'aventure.\nLes discussions lors de la Conférence pour le développement de la Guilde des aventuriers n'ayant pas progressé comme prévu, le 1er Tournoi des aventuriers, initialement conçu pour promouvoir les échanges amicaux entre aventuriers de différentes nations, est devenu l'occasion de déterminer qui aurait le dernier mot...\nPersonnes clés pour débloquer la situation, Paimon et vous avez rejoint la compétition en cours de route. Gravissant rapidement les échelons, vous avez remporté le championnat, influencé le cours de la conférence et finalisé plusieurs résolutions importantes...\nBien que ces résolutions n'aient pas d'effet immédiat, elles permettront sans aucun doute à la Guilde de rester en phase avec son temps et d'apporter de plus grands avantages à un plus grand nombre d'aventuriers...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121631"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121632,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Brindille paratonnerre",
+    "Description": "Une brindille qui a poussé sur une branche paratonnerre.\nLa placer sur une branche paratonnerre peut invoquer la foudre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121632"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chapeau « Seau »",
+    "Description": "Un accessoire pour bonhomme de neige. Bien qu'il ne s'agisse que d'un simple seau en fer, bien placé, il suffit amplement à donner une touche d'originalité à un bonhomme de neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chapeau « Courtoisie »",
+    "Description": "Un accessoire pour bonhomme de neige. Ce chapeau d'une grande élégance parvient même à donner une allure exceptionnellement distinguée à un bonhomme de neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121634"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chapeau « Pointe »",
+    "Description": "Un accessoire pour bonhomme de neige. Ce chapeau déborde de joie festive. Tant que vous êtes de bonne humeur, chaque jour peut être un jour férié.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121635"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121636,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chapeau « Fun »",
+    "Description": "Un accessoire pour bonhomme de neige. Ce chapeau a un design plutôt... original ? En tout cas, le lui mettre pourrait bien rendre un bonhomme de neige un peu plus... amusant...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121636"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121637,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Plume de cygne des neiges",
+    "Description": "Un accessoire pour bonhomme de neige. Son design s'inspire d'une certaine ballerine connue pour son jeu de jambes sublime.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121637"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121638,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Givrofleur de Marélodie",
+    "Description": "Un accessoire pour bonhomme de neige. Son design s'inspire d'une certaine diableautine, célèbre pour ses mélodies envolées.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121638"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121639,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Écharpe « Rouge doux »",
+    "Description": "Un accessoire pour bonhomme de neige. Cette écharpe a l'air particulièrement chaude. Une fois enroulée autour du cou d'un bonhomme de neige, elle offre aux enfants l'endroit idéal pour lui faire un câlin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121639"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121640,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Écharpe « Étoile »",
+    "Description": "Un accessoire pour bonhomme de neige. Cette écharpe évoque les étoiles d'un rêve. Quand un bonhomme de neige rêve, imagine-t-il un ciel rempli de neige qui tombe du ciel, ou l'océan profond où coule l'eau une fois la neige fondue ?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121640"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121641,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Écharpe « Rayures »",
+    "Description": "Un accessoire pour bonhomme de neige. Cette écharpe d'une grande élégance parvient même à donner une allure exceptionnellement distinguée à un bonhomme de neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121641"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Écharpe « Nouveauté »",
+    "Description": "Un accessoire pour bonhomme de neige. Cette écharpe a un design plutôt... original ? Ou bien est-ce une minerve ? En tout cas, la lui mettre pourrait bien rendre un bonhomme de neige un peu plus... amusant...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121642"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Capuche de pisteur",
+    "Description": "Un accessoire pour bonhomme de neige. Son design s'inspire d'un certain chasseur réputé pour son agilité hors pair.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121643"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121644,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Clé de conception ancienne",
+    "Description": "Une clé à la conception résolument ancienne. Elle semble capable d'ouvrir une porte quelque part dans le Manoir des Hespérides.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121644"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121652,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Guide de décoration des trains",
+    "Description": "Un guide recensant différents styles de décoration. Après sa lecture, peut-être pourrez-vous ajouter quelques touches personnelles à votre propre train...?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121652"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 85,
+    "Id": 121653,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Album du cygne noir des neiges",
+    "Description": "Un album commémoratif conçu à l'image du cygne noir des neiges, capturant les moments passés avec Odette en tant que manager.\nTout ce qui s'est estompé devient un souvenir précieux.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121653"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121654,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Photo de représentation d'Odette",
+    "Description": "#Une image tirée du spectacle «{NON_BREAK_SPACE}Le cygne noir des neiges{NON_BREAK_SPACE}», capturant Odette dansant avec élégance tel un noble cygne noir.\nLa regarder ravive de vifs souvenirs de ce magnifique ballet.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121654"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Affiche dédicacée du cygne noir des neiges",
+    "Description": "Odette vous a offert cette précieuse affiche dédicacée pour vous remercier de tout votre soutien durant cette période.\nPourtant, comparé à ce cadeau, son sourire est peut-être le trésor le plus véritable.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121655"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Marque-page à plume blanche",
+    "Description": "Odette vous a offert ce magnifique marque-page après vous avoir raconté son histoire.\nPuisse-t-elle bientôt déployer de fortes plumes et s'envoler librement vers le ciel infini !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121656"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 88,
+    "Id": 121657,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sentier de poussière d'étoiles : Lueur radieuse",
+    "Description": "Obtenir cet objet modifie l'apparence visuelle de la cape de votre tenue de combat dans les Royaumes de pénombre...\n\n« Le sillage d'une météorite et la trajectoire d'une balle... Peut-être ne sont-ils pas si différents après tout. »",
+    "TypeDescription": "Objet spécial",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121659,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Guide d'encens : Sépulcre",
+    "Description": "#Rassembler trois morceaux du guide d'encens « Sépulcre » vous permettra d'ouvrir le butin de Royaume de pénombre au sépulcre.\nLa légende raconte que les premières escouades explorant les Royaumes de pénombre se retrouvaient parfois incapables de ramener les trésors qu'elles trouvaient. Dans de tels cas, elles auraient laissé derrière elles des «{NON_BREAK_SPACE}traces olfactives{NON_BREAK_SPACE}» spécifiques. Ce n'est qu'en reconstituant la piste de l'encens que l'on pourra retrouver l'emplacement de ces reliques perdues depuis longtemps.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121659"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121660,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Guide d'encens : Cime de givrefuneste",
+    "Description": "#Rassembler trois morceaux du guide d'encens « Cime de givrefuneste » vous permettra d'ouvrir le butin de Royaume de pénombre à la Cime de givrefuneste.\nLa légende raconte que les premières escouades explorant les Royaumes de pénombre se retrouvaient parfois incapables de ramener les trésors qu'elles trouvaient. Dans de tels cas, elles auraient laissé derrière elles des «{NON_BREAK_SPACE}traces olfactives{NON_BREAK_SPACE}» spécifiques. Ce n'est qu'en reconstituant la piste de l'encens que l'on pourra retrouver l'emplacement de ces reliques perdues depuis longtemps.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121660"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121661,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Guide d'encens : Terre permagelée",
+    "Description": "#Rassembler trois morceaux du guide d'encens « Terre permagelée{NON_BREAK_SPACE}» vous permettra d'ouvrir le butin de Royaume de pénombre à la Terre permagelée.\nLa légende raconte que les premières escouades explorant les Royaumes de pénombre se retrouvaient parfois incapables de ramener les trésors qu'elles trouvaient. Dans de tels cas, elles auraient laissé derrière elles des «{NON_BREAK_SPACE}traces olfactives{NON_BREAK_SPACE}» spécifiques. Ce n'est qu'en reconstituant la piste de l'encens que l'on pourra retrouver l'emplacement de ces reliques perdues depuis longtemps.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121661"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 86,
+    "Id": 121663,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#Photo commémorative de l'avant-première de «{NON_BREAK_SPACE}L'âme errante{NON_BREAK_SPACE}»",
+    "Description": "#La Troupe Korolevskiy a donné l'avant-première publique du ballet «{NON_BREAK_SPACE}L'âme errante{NON_BREAK_SPACE}», immortalisée par cette photo commémorative réunissant tous les membres de la distribution, de l'équipe technique et du public.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121663"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121664,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Branches de la tête de Nastya",
+    "Description": "Une partie du corps de Nastya. C'est un élément clé pour ouvrir la porte menant à la « maison ».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121665,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Diagramme dessiné à la main par Nastya",
+    "Description": "Un schéma dessiné à la main par Nastya montrant comment ouvrir la porte menant à la « maison ».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121666,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Guide d'accès aux égouts",
+    "Description": "Un guide trouvé à l'intérieur de la salle de contrôle, expliquant en détail comment ouvrir la porte de la salle de contrôle des égouts.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121668,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Levier de porte d'entrée pour une pièce du sous-sol",
+    "Description": "Un levier servant à ouvrir la porte d'entrée d'une certaine pièce du sous-sol.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121669,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Levier de porte de sortie pour une pièce du sous-sol",
+    "Description": "Un levier servant à ouvrir la porte de sortie d'une certaine pièce du sous-sol.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121671,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Énergie de Kresnik",
+    "Description": "L'énergie nécessaire au fonctionnement d'Œil de Graie.\nL'énergie de Kresnik peut être restaurée soit en entrant à portée des sources de chaleur alimentées par le kristall de Kresnik à Snezhnaya, soit en collectant du kristall de Kresnik lors de l'exploration.",
+    "TypeDescription": "Ressource d'exploration",
+    "Icon": "UI_ItemIcon_121671"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121672,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Échantillon de réactif particulier",
+    "Description": "Un échantillon prélevé sur la « cargaison spéciale » transportée hors des Izmaylov. Serait-il réellement lié aux Royaumes de pénombre ?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 260103,
+    "MaterialType": 5,
+    "Id": 121674,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sceau de sentier de poussière d'étoiles : Lueur radieuse",
+    "Description": "Un sceau merveilleux qui modifie l'apparence visuelle de la cape de votre tenue de combat dans les Royaumes de pénombre. Il est déjà actif...\n\n« Le sillage d'une météorite et la trajectoire d'une balle... Peut-être ne sont-ils pas si différents après tout. »",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121675,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Collection de ballets de l'étoile polaire (1)",
+    "Description": "Une anthologie de textes de la Troupe Korolevskiy, contenant des extraits du ballet « Le cygne noir des neiges ».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121676,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Collection de ballets de l'étoile polaire (2)",
+    "Description": "Une anthologie de textes de la Troupe Korolevskiy, contenant des extraits du ballet «\u202FL'oiseau marin\u202F».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121677,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Collection de ballets de l'étoile polaire (3)",
+    "Description": "Une anthologie de textes de la Troupe Korolevskiy, contenant des extraits du ballet «\u202FL'émissaire\u202F».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121678,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Collection de ballets de l'étoile polaire (4)",
+    "Description": "Une anthologie de textes de la Troupe Korolevskiy, contenant des extraits du ballet « L'oiseau de feu ».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121679,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Histoire générale de Snezhnaya (1)",
+    "Description": "Un ouvrage historique rédigé par des chercheurs humains. Ce volume se concentre principalement sur la légendaire cité dorée.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Histoire générale de Snezhnaya (2)",
+    "Description": "Un ouvrage historique rédigé par des chercheurs humains. Ce volume se concentre principalement des hauts faits du Tsar Belyi et de ses plus proches confidents.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121681,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Contenant de glace",
+    "Description": "Un récipient pour conserver la crème glacée. À déguster de préférence avant qu'elle ne fonde !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121682,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Contenant spécial de glace",
+    "Description": "Un récipient pour conserver la crème glacée, apparemment conçu pour quelqu'un de particulier. À déguster de préférence avant que ça ne commence à fondre !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121683,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Contenant spécial de glace",
+    "Description": "Un récipient pour conserver la crème glacée, apparemment conçu pour quelqu'un de particulier. À déguster de préférence avant que ça ne commence à fondre !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121685,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Photo de Nastya avec sa maman",
+    "Description": "Une vieille photo aux bords légèrement usés, capturant un tendre moment entre Nastya et sa maman.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121686,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Registre du porteur d'ordre",
+    "Description": "Registre du porteur d'ordre",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121687,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes d'enquête",
+    "Description": "Notes d'enquête",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121688,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de l'alchimiste (1)",
+    "Description": "Notes de l'alchimiste (1)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121689,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes de l'alchimiste (2)",
+    "Description": "Notes de l'alchimiste (2)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121690,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Notes du grand-duc",
+    "Description": "Notes du grand-duc",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121701,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Carnet du voyageur cendré",
+    "Description": "Carnet du voyageur cendré",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121702,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Document aux pages jaunies",
+    "Description": "Document aux pages jaunies",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
   },
   {
     "Rank": 0,
@@ -53646,6 +55564,72 @@
     "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra un ambre de pin.",
     "TypeDescription": "Matériau",
     "Icon": "UI_ItemIcon_130044"
+  },
+  {
+    "Rank": 246,
+    "MaterialType": 31,
+    "Id": 130045,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de fleur de féegivre",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une fleur de féegivre.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130045"
+  },
+  {
+    "Rank": 245,
+    "MaterialType": 31,
+    "Id": 130046,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de floc-d'herbe",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une floc-d'herbe.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130046"
+  },
+  {
+    "Rank": 244,
+    "MaterialType": 31,
+    "Id": 130047,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de fougère dorée",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une fougère dorée.",
+    "TypeDescription": "Matériau",
+    "Icon": "UI_ItemIcon_130047"
+  },
+  {
+    "Rank": 243,
+    "MaterialType": 31,
+    "Id": 130048,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de betterave rouge",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une betterave rouge.",
+    "TypeDescription": "Matériau",
+    "Icon": "UI_ItemIcon_130048"
+  },
+  {
+    "Rank": 242,
+    "MaterialType": 31,
+    "Id": 130049,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de givroseille",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une givroseille.",
+    "TypeDescription": "Matériau",
+    "Icon": "UI_ItemIcon_130049"
+  },
+  {
+    "Rank": 241,
+    "MaterialType": 31,
+    "Id": 130050,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Graine de viorne de neige",
+    "Description": "Une graine obtenue dans la boîte à graines. Une graine de qualité, pleine de vie, qui n'attend qu'à être plantée dans les champs de votre royaume intérieur. Après un certain temps, elle deviendra une viorne de neige.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130050"
   },
   {
     "Rank": 341,
@@ -54229,6 +56213,381 @@
     "Description": "Un gros poisson dont on dit qu'il serait un descendant des dragons.\nAppartenant à la famille des koïs, son corps arbore une couleur bleu-noir profonde et sombre, contrastant avec un ventre d'un or pâle éclatant. Comparée à ses nombreux cousins, cette espèce est exceptionnellement douce et calme. Elle n'engage jamais le conflit avec les autres créatures aquatiques. Cependant, il ne faut pas confondre cela avec de la faiblesse. Provoqué, il peut lancer une attaque soudaine et aussi féroce qu'une lance d'or, repoussant avec une rapidité fulgurante des intrus plusieurs fois plus gros que lui et suscitant l'admiration de tous les habitants des eaux environnantes.",
     "TypeDescription": "Poisson",
     "Icon": "UI_ItemIcon_131053"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Neigeoire charbonnée",
+    "Description": "Poisson dodu et sphérique de Snezhnaya, cette espèce pourrait ressembler à un cousin éloigné du poisson-globe que l'on trouve partout en Teyvat. Pourtant, les deux appartiennent à des lignées totalement distinctes. Lorsque l'Association des pêcheurs l'a répertorié pour la première fois, son nom de code était « neige-nageoire ». Après plus d'une douzaine de générations de pêcheurs, ce nom informel a progressivement évolué en « neigeoire ».\nLa neigeoire charbonnée est la sous-espèce la plus commune de cette famille. On dit que ses écailles fines et poudreuses contiennent des composants spéciaux. Séchées et broyées, puis mélangées à la poudre séchée de racines de fougère dorée, elles constituent un allume-feu remarquablement efficace, très prisé par de nombreux aventuriers de Snezhnaya.",
+    "TypeDescription": "Poisson",
+    "Icon": "UI_ItemIcon_131054"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Neigeoire crémée",
+    "Description": "Poisson dodu et sphérique de Snezhnaya, cette espèce pourrait ressembler à un cousin éloigné du poisson-globe que l'on trouve partout en Teyvat. Pourtant, les deux appartiennent à des lignées totalement distinctes. Lorsque l'Association des pêcheurs l'a répertorié pour la première fois, son nom de code était « neige-nageoire ». Après plus d'une douzaine de générations de pêcheurs, ce nom informel a progressivement évolué en « neigeoire ».\nLa neigeoire crémée, grâce à sa couleur d'un blanc presque pur et à sa rareté, est considérée comme le plus précieux des poissons de Snezhnaya. La légende raconte que dès que les eaux deviennent légèrement impures, d'autres couleurs commencent à imprégner son corps. Plusieurs contes de fées la mettent en scène, narrant l'histoire onirique d'un jeune pêcheur talentueux suivant l'une de ces neigeoires crémées jusqu'au Royaume crémée... Une histoire qui provoqua brièvement une pénurie de crème dans toute la ville.",
+    "TypeDescription": "Poisson",
+    "Icon": "UI_ItemIcon_131055"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Neigeoire lunée",
+    "Description": "Poisson dodu et sphérique de Snezhnaya, cette espèce pourrait ressembler à un cousin éloigné du poisson-globe que l'on trouve partout en Teyvat. Pourtant, les deux appartiennent à des lignées totalement distinctes. Lorsque l'Association des pêcheurs l'a répertorié pour la première fois, son nom de code était « neige-nageoire ». Après plus d'une douzaine de générations de pêcheurs, ce nom informel a progressivement évolué en « neigeoire ».\nLa légende raconte que la neigeoire lunée possède l'endurance la plus grande et le meilleur sens de l'orientation de tous les poissons de Snezhnaya, sa coloration inhabituelle étant un don du clair de lune : ses ancêtres, selon la légende, auraient jadis voyagé jusqu'aux eaux de Nod-Krai et auraient été baptisés sous les rayons de la lune. Les marchands de retour de Nod-Krai nient cette histoire et les biologistes soulignent que la couleur provient très probablement des plantes sous-marines dont elle se nourrit. Mais comme « lunée » est un préfixe si agréable et facile à retenir, le nom est resté.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131056"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131057,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Florastre rouge-sucré",
+    "Description": "Une espèce particulière qui peuple les eaux de Snezhnaya. Vue de face, ses six nageoires forment une silhouette évoquant des étoiles et des pétales, ce qui valut à ce poisson le surnom de « florastre » donné par le pêcheur qui l'a découvert. La sous-espèce rouge, dont la couleur rappelle celle de la betterave rouge, a reçu le préfixe « rouge-sucré ». Toutefois, ce préfixe ne fait que décrire son apparence. Certains chercheurs ont découvert que cette coloration sert principalement à intimider les prédateurs, assurant ainsi la protection du poisson. Il est donc quelque peu ironique que, pour l'homme, cela le rende d'autant plus appétissant.",
+    "TypeDescription": "Poisson",
+    "Icon": "UI_ItemIcon_131057"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131058,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Florastre céladon-fée",
+    "Description": "Une espèce particulière qui peuple les eaux de Snezhnaya. Vue de face, ses six nageoires forment une silhouette évoquant des étoiles et des pétales, ce qui valut à ce poisson le surnom de « florastre » donné par le pêcheur qui l'a découvert. La sous-espèce azur arbore une coloration semblable aux bords extérieurs des pétales d'une fleur de féegivre, d'où son surnom de « céladon-fée ». Parmi ses congénères, le florastre céladon-fée possède les sens les plus aiguisés, capable de déceler le danger de loin... et, grâce à l'avantage propulsif de ses six nageoires, de le fuir rapidement.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131058"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131059,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Florastre iri-cristalé",
+    "Description": "Une espèce particulière qui peuple les eaux de Snezhnaya. Vue de face, ses six nageoires forment une silhouette évoquant des étoiles et des pétales, ce qui valut à ce poisson le surnom de « florastre » donné par le pêcheur qui l'a découvert. Les écailles de la sous-espèce bleue présentent une texture et une coloration superbes : sous certaines lumières, elles ressemblent à du cristal aux reflets irisés, d'où son appellation élégante d'« iri-cristalé ». Grâce à cet aspect chatoyant, le florastre iri-cristalé est un poisson très prisé des collectionneurs de poissons de Snezhnaya. Certains ont même aménagé des aquariums somptueux spécialement pour lui, sans parvenir à en capturer un seul pendant de longues périodes...",
+    "TypeDescription": "Poisson",
+    "Icon": "UI_ItemIcon_131059"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 900 PV.",
+    "Id": 132001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Glace à la givroseille (suspecte)",
+    "Description": "Un dessert servi dans un verre. Solide comme de la pierre, il faut un effort surhumain pour en détacher une minuscule lamelle avec une cuillère en fer. Une fois en bouche, le froid mordant fait claquer les dents instantanément. Plus aucune trace de douceur, comme si chaque once de saveur n'avait jamais eu l'occasion de s'exprimer...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 1 200 PV.",
+    "Id": 132002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Glace à la givroseille",
+    "Description": "Un dessert servi dans un verre. Crème, lait, miel et fruits rouges écrasés sont mélangés, puis congelés pour obtenir une glace onctueuse et veloutée. Les saveurs fruitées et laitières se fondent en un goût riche et délicieux, un régal que certains savoureront avec plaisir, quelle que soit la température.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Réanime un personnage et restaure 1 500 PV.",
+    "Id": 132003,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Glace à la givroseille (délicieuse)",
+    "Description": "Un dessert servi dans un verre. En y regardant de plus près, on distingue à peine la texture délicate de la pulpe des fruits, comme un minuscule éclat de coucher de soleil figé sous la glace. Si le climat glacial de Snezhnaya pouvait aisément préserver ce doux paysage pendant toute une journée, son parfait équilibre entre le sucré et l'acidulé garantit qu'il sera dévoré bien avant...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132004,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle de Glupov (suspect)",
+    "Description": "Un pain dense et nourrissant. Il est si dense qu'on se demande si la fermentation n'a pas été tout simplement omise. Même trempé dans du bouillon, il ne parvient pas à s'attendrir le moins du monde... Serait-ce un outil d'entraînement destiné à forger la détermination d'un guerrier ?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132005,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle de Glupov",
+    "Description": "Un pain dense et nourrissant. La pâte doit subir une longue fermentation à froid, et une fois cuite, elle forme une croûte dure et une mie ferme et fine. Ce pain se conserve longtemps, ce qui en fait une ration courante pour les marchands ambulants, les soldats et les chasseurs de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132006,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pain de seigle de Glupov (délicieux)",
+    "Description": "Un pain dense et nourrissant. Une seule bouchée révèle une acidité douce et constante, suivie de l'arôme rustique et céréalier unique du seigle. Sa richesse intense rend chaque mastication incroyablement satisfaisante, culminant en une douce saveur persistante au fond de la gorge, telle une étincelle de vie enfouie sous la terre gelée.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132007,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik (suspect)",
+    "Description": "Un gâteau au miel. Toute trace de douceur a été réduite en cendres par les flammes du four, ne laissant qu'un amas amer et brûlé. Si le glaçage à la crème aigre remplit parfaitement son rôle acidulé, il reste totalement dénué de saveur, sans la moindre douceur pour l'accompagner...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132008,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik",
+    "Description": "Un gâteau au miel. De fines feuilles de pâte au miel sont cuites au four, puis superposées en alternant avec une couche de crème fraîche épaisse. Le gâteau est ensuite saupoudré de miettes et arrosé d'un filet de sirop de miel. Chaque étape doit être réalisée avec soin pour un résultat impeccable.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "Id": 132009,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik (délicieux)",
+    "Description": "Un gâteau au miel. La pâte ambrée et la crème d'une blancheur immaculée s'entrelacent en couches successives dans une harmonie parfaite. Le contempler, c'est comme tourner les pages d'une chronique, chacune dévoilant un récit aussi brillant qu'envoûtant.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 15 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132010,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chachlyks snezhnayiens (suspects)",
+    "Description": "De gros morceaux de viande grillée en brochettes. La croûte noircie est si amère et dure qu'on a l'impression de mâcher un morceau de charbon. Pire encore, l'intérieur, trop cuit, est si sec et dur, comme si le jus avait disparu avant même que la viande ne quitte le gril...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "Id": 132011,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chachlyks snezhnayiens",
+    "Description": "De gros morceaux de viande grillée en brochettes. Des morceaux de viande marinés sont enfilés sur des brochettes en fer et grillés sur des braises ardentes, retournés jusqu'à ce qu'ils soient bien grillés à l'extérieur et tendres à l'intérieur. Que ce soit lors de réunions de famille dans un jardin, à la chasse ou sur un coin de neige dégagé juste assez grand, on trouve ces brochettes partout à Snezhnaya où l'on peut allumer un feu.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 900 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132012,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Chachlyks snezhnayiens (délicieux)",
+    "Description": "De gros morceaux de viande grillée en brochettes. En croquant l'extérieur croustillant, on découvre une explosion de saveurs et de jus. Tandis que la brochette rôtit sur le feu, la marinade développe une saveur riche et profonde qui sublime la fraîcheur et la douceur de la viande. La bouche pétille de gras et de jus, mais le goût est tellement intense qu'on en oublie les bonnes manières à table...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "Id": 132013,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Viornes en fleurs sur champ de neige (suspectes)",
+    "Description": "Une salade composée classique. Après avoir longtemps reposé à l'air libre, sa forme s'est affaissée. Pire encore, tous les ingrédients semblent avoir migré de façon chaotique, brouillant les saveurs distinctes de chaque couche... Bien qu'encore comestible, elle a perdu le croquant qu'une salade se doit d'avoir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 194 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132014,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Viornes en fleurs sur champ de neige",
+    "Description": "Une salade composée classique. Chaque ingrédient est préparé séparément, puis superposé en couches avec une vinaigrette à la crème fraîche assaisonnée. Une fois assemblée, la salade repose généralement un moment pour que les saveurs se mélangent harmonieusement. Le plat final évoque des viornes de neige épanouies sur un champ enneigé, d'où son nom.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 228 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132015,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Viornes en fleurs sur champ de neige (délicieuses)",
+    "Description": "Une salade composée classique. Les viornes blanches qui ornent le bord semblent éclore au bout d'un désert hivernal, et le jaune d'œuf doré et onctueux évoque un soleil couchant qui illumine l'horizon. On reste complètement absorbé par cette délicieuse œuvre d'art culinaire, jusqu'à ce que la cuillère touche le fond d'une assiette vide. Attendez... Quand ai-je fini ?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "Diminue la consommation d'endurance de tous les personnages de l'équipe de 25 % lors de l'escalade et du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132016,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Rôti dans le mille",
+    "Description": "Spécialité culinaire d'Alyosha. Au son des aboiements enthousiastes de Tugarin, il tend une énorme brochette. La viande, grésillante de graisse chaude, est coupée en tranches bien plus épaisses que sur une brochette ordinaire. Une seule bouchée révèle une saveur riche et giboyeuse, parfaitement maîtrisée par le feu. Visiblement, sa maîtrise du gril est aussi impeccable que son adresse au tir !",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108895"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 274 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Cygne nivéal du lac",
+    "Description": "Spécialité culinaire d'Odette. Une petite portion de salade repose délicatement au centre de l'assiette, comme illuminée par un projecteur, chaque couche soigneusement disposée avec la précision d'une danse. Les ingrédients ont été si minutieusement dosés que finir l'assiette n'aura aucune incidence sur votre poids demain... Alors faites-vous plaisir sans culpabiliser !",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108896"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 224 pts et leur taux CRIT de 6 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132018,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Coupes sucrées (suspectes)",
+    "Description": "Un assortiment de boules de glace. La surface cratérisée ressemble à des boules de papier froissé qui peinent à conserver leur forme. Une fois en bouche, une couche granuleuse de glace solide masque complètement la saveur, ne laissant aucune place à la moindre subtilité gustative. À cet instant précis, votre seul désir est de fermer les yeux et de vous demander pourquoi vous avez osé relever le défi...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 272 pts et leur taux CRIT de 8 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132019,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Coupes sucrées",
+    "Description": "Un assortiment de boules de glace. Quatre parfums différents sont servis dans des bols en papier séparés et emballés ensemble dans une seule boîte. Les dégustateurs se divisent généralement en deux catégories : ceux qui choisissent le parfum qui leur fait envie sur le moment et ceux qui finissent chaque bol dans le même ordre. Quoi qu'il en soit, il ne reste jamais rien au fond de la boîte à la fin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 320 pts et leur taux CRIT de 10 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132020,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Coupes sucrées (délicieuses)",
+    "Description": "Un assortiment de boules de glace. Onctueuse et riche, chaque cuillerée fond délicatement en bouche, laissant place à une douceur vive et rafraîchissante qui enveloppe les sens d'une douce caresse. Même longtemps après avoir terminé, on a du mal à poser sa coupe, on ferme les yeux pour savourer la longue saveur de pur bonheur...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "Id": 132021,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glace d'Alyosha",
+    "Description": "Une glace conçue pour capturer l'essence d'une personne. Façonnée en une minuscule boule blanche comme neige ornée de petites oreilles de chien, elle évoque parfaitement l'image d'Alyosha à la chasse avec Tugarin à ses côtés.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108898"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "Id": 132022,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glace d'Odette",
+    "Description": "Une glace conçue pour capturer l'essence d'une personne. Façonnée en un élégant cygne des neiges immobile et gracieux, elle évoque parfaitement l'image d'Odette, la ballerine de la Troupe Korolevskiy.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108899"
+  },
+  {
+    "Rank": 531099,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente l'ATQ de tous les personnages de l'équipe de 114 pts pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132023,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Kvass",
+    "Description": "Boisson emblématique du Kvasnik, elle semble totalement sans alcool. Son arôme prononcé de pain de seigle acidulé et sa légère effervescence s'accompagnent d'une douce saveur sucrée, jamais lourde. Merveilleusement rafraîchissante lorsqu'elle est servie fraîche, c'est une boisson à laquelle aucun Snezhnayien ne saurait résister.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108900"
+  },
+  {
+    "Rank": 231099,
+    "MaterialType": 15,
+    "EffectDescription": "Restaure immédiatement 26 % des PV max, puis 570 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+    "Id": 132024,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Infusion épicée de miel",
+    "Description": "Une boisson chaude d'exception, préparée en infusant de l'eau chaude au miel avec une sélection d'épices séchées. Vos doigts engourdis par le froid ressentent une vague de réconfort immédiate rien qu'en tenant le verre. Une seule gorgée vous enveloppe d'une douce chaleur aromatique, vous préparant parfaitement à affronter le froid glacial.",
+    "TypeDescription": "Nourriture",
+    "Icon": "UI_ItemIcon_108901"
+  },
+  {
+    "Rank": 530099,
+    "MaterialType": 1,
+    "EffectDescription": "Augmente le taux CRIT de tous les personnages de l'équipe de 16 % pendant 300 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+    "Id": 132025,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Brassée glacée étoilée",
+    "Description": "Une boisson glacée élaborée à partir de glacia-fruits. D'une clarté rose-bleu irréelle, elle tranche nettement avec l'immensité de la neige immaculée. Elle semble être un petit miracle, cueilli à même le ciel à l'aube.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108902"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "C'est joli et ça a bon goût, mais ça n'a pas vraiment d'effet.",
+    "Id": 132026,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glace classique",
+    "Description": "Une glace typique de Snezhnaya, froide comme la neige de sa région d'origine.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
   },
   {
     "Rank": 500101,
@@ -56508,6 +58867,127 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141291,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 189",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141292,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 190",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141293,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 191",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141294,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 192",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141295,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 193",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141296,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 194",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141298,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 196",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141299,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 197",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141300,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 198",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141301,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 199",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "Objet d'aventure",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141302,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gyrocristal radiant 200",
+    "Description": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Snezhnaya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "Rank": 100,
     "MaterialType": 4,
     "Id": 200001,
@@ -57685,6 +60165,17 @@
     "Icon": "UI_ItemIcon_200908"
   },
   {
+    "Rank": 62009,
+    "MaterialType": 33,
+    "Id": 200909,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sceptre du roi pêcheur des neiges",
+    "Description": "#Si vous arrivez à rester dans la zone de tension idéale pendant que vous pêchez avec cette canne, le poisson se débattra moins longtemps au bout de la ligne et vos chances de prise réussie augmenteront. Cet effet ne fonctionne que dans la région de Snezhnaya.\n\nUne canne à pêche fabriquée à partir de glace primale par un artisan inconnu, surnommée le «{NON_BREAK_SPACE}sceptre du roi pêcheur des neiges{NON_BREAK_SPACE}». Elle est actuellement confiée à l'Association des pêcheurs de Snezhnaya. On dit que seuls les pêcheurs d'une habileté exceptionnelle, forgés par le vent et la neige hurlants, sont dignes de manier cette canne...",
+    "TypeDescription": "Canne à pêche",
+    "Icon": "UI_ItemIcon_200909"
+  },
+  {
     "Rank": 145000,
     "MaterialType": 21,
     "Id": 220001,
@@ -58010,7 +60501,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Boîte à graines",
-    "Description": "Une boîte magique obtenue auprès de Madame Ping. Selon elle, cette boîte a le pouvoir de « générer des graines »... C'est-à-dire qu'elle peut créer des graines de diverses plantes selon leurs caractéristiques particulières, qui peuvent ensuite être plantées dans les champs appropriés de votre Sérénithéière.\nLes plantes qui peuvent être semées sont les suivantes : fleur de soie, fleur sucrante, cécilia, lys vernis, chrysanthème à aubes, fleur de Qingxin, muguet bleu, tombaie, herbe à lampe, piment de Jueyun, carotte, radis, menthe, champignon, herbe à sanglots, queue de cheval, gueule-de-loup, fruit du lotus, lys calla, herbe marine, ganoderma marin, fruit harra, pêche zaytun, rose sumérienne, lotus pluvieux, marcotte, clochette de Lumidouce, rose arc-en-ciel, granifruit, cacahuatl, patte saurienne, baie de quenettier, chrysanthème brillant, branchie mousseplume, champicorne brillant, floraigemme brise-ciel, fleur lampe-de-givre, baie du solstice, lakkabaie, ambre de pin et glacelée d'hiver.",
+    "Description": "Une boîte magique obtenue auprès de Madame Ping. Selon elle, cette boîte a le pouvoir de « générer des graines »... C'est-à-dire qu'elle peut créer des graines de diverses plantes selon leurs caractéristiques particulières, qui peuvent ensuite être plantées dans les champs appropriés de votre Sérénithéière.\nLes plantes qui peuvent être semées sont les suivantes : fleur de soie, fleur sucrante, cécilia, lys vernis, chrysanthème à aubes, fleur de Qingxin, muguet bleu, tombaie, herbe à lampe, piment de Jueyun, carotte, radis, menthe, champignon, herbe à sanglots, queue de cheval, gueule-de-loup, fruit du lotus, lys calla, herbe marine, ganoderma marin, fruit harra, pêche zaytun, rose sumérienne, lotus pluvieux, marcotte, clochette de Lumidouce, rose arc-en-ciel, granifruit, cacahuatl, patte saurienne, baie de quenettier, chrysanthème brillant, branchie mousseplume, champicorne brillant, floraigemme brise-ciel, fleur lampe-de-givre, baie du solstice, lakkabaie, ambre de pin, glacelée d'hiver, fleur de féegivre, floc-d'herbe, fougère dorée, betterave rouge, givroseille et viorne de neige.",
     "TypeDescription": "Gadget",
     "Icon": "UI_ItemIcon_220033"
   },
@@ -58945,7 +61436,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Détecteur de trésors Luna",
-    "Description": "Une boussole permettant de détecter les coffres proches et des indices les concernant à Nod-Krai.\nLa sphère sublunaire renferme d'innombrables trésors qui n'attendent que d'être découverts par des aventuriers courageux et sages.",
+    "Description": "Une boussole permettant de détecter les coffres proches et des indices les concernant à Nod-Krai et sur la Lune de givre.\nLa sphère sublunaire renferme d'innombrables trésors qui n'attendent que d'être découverts par des aventuriers courageux et sages.",
     "TypeDescription": "Gadget",
     "Icon": "UI_ItemIcon_220123"
   },
@@ -59049,6 +61540,17 @@
     "Icon": "UI_ItemIcon_220132"
   },
   {
+    "Rank": 35072,
+    "MaterialType": 21,
+    "Id": 220133,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Œil de Graie",
+    "Description": "Un étrange mécanisme découvert dans une gare abandonnée. Il prend souvent la forme d'un monocle.\nIl semble posséder de nombreuses fonctions pratiques...",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220133"
+  },
+  {
     "Rank": 5021,
     "MaterialType": 21,
     "Id": 220134,
@@ -59058,6 +61560,28 @@
     "Description": "La boîte que Barbeloth transportait autrefois est désormais entre vos mains. Elle renferme tous les oracles, tant ceux qui ont déjà été révélés que ceux qui n'ont pas encore ouvert les yeux. Quant à savoir si leurs paroles pourraient un jour influencer le cours du destin... Barbeloth se contenterait de dire ceci : « Héhéhé... La véritable nature du destin n'est pas censée être dévoilée à la légère. D'ailleurs, un avenir dont les secrets restent à découvrir est bien plus enchanteur, vous ne trouvez pas ? »",
     "TypeDescription": "Gadget",
     "Icon": "UI_ItemIcon_220134"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 21,
+    "Id": 220135,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Daguerréotype d'entraide renforcée",
+    "Description": "Un Daguerréotype spécial fourni par Chichikova, servant d'équipement spécial au Réseau d'entraide renforcée. Une fois la cible désignée capturée conformément au plan d'exploration, l'image est traitée pour en extraire des renseignements cruciaux, éclairant ainsi la voie pour les nouvelles recrues...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_220094"
+  },
+  {
+    "Rank": 45004,
+    "MaterialType": 21,
+    "Id": 220136,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Détecteur de trésors Cryo",
+    "Description": "Outil permettant de détecter les coffres proches et des indices les concernant à Snezhnaya\nDe nombreux trésors gisent prisonniers des glaces, cachés dans des lieux secrets à travers le pays des neiges. Ceux qui parviendront à briser les sceaux pourront s'emparer des présents enfouis sous la glace.",
+    "TypeDescription": "Gadget",
+    "Icon": "UI_ItemIcon_220136"
   },
   {
     "Rank": 300201,
@@ -59579,6 +62103,61 @@
   {
     "Rank": 300201,
     "MaterialType": 5,
+    "Id": 221052,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan : Puits-de-braises",
+    "Description": "#Un plan recréé par Kuzmichev d'après des récits de légendes anciennes. Une fois maîtrisé, il vous permettra de reproduire l'épée à une main «{NON_BREAK_SPACE}Puits-de-braises ».",
+    "TypeDescription": "Plan de forge",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221053,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan : Alliance du givre et de la neige",
+    "Description": "Un plan recréé par Kuzmichev d'après des récits de légendes anciennes. Une fois maîtrisé, il vous permettra de reproduire l'arc « Alliance du givre et de la neige ».",
+    "TypeDescription": "Plan de forge",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221054,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan : Lame de rédemption",
+    "Description": "Un plan recréé par Kuzmichev d'après des récits de légendes anciennes. Une fois maîtrisé, il vous permettra de reproduire l'épée à deux mains « Lame de rédemption ».",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221055,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan : Écho du cœur",
+    "Description": "Un plan recréé par Kuzmichev d'après des récits de légendes anciennes. Une fois maîtrisé, il vous permettra de reproduire le catalyseur « Écho du cœur ».",
+    "TypeDescription": "Plan de forge",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221056,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan : Chant de la veillée",
+    "Description": "#Un plan recréé par Kuzmichev d'après des récits de légendes anciennes. Une fois maîtrisé, il vous permettra de reproduire l'arme d'hast « Chant de la veillée{NON_BREAK_SPACE}».",
+    "TypeDescription": "Plan de forge",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
     "Id": 221057,
     "RankLevel": 3,
     "ItemType": 2,
@@ -59716,6 +62295,17 @@
     "ItemType": 2,
     "Name": "Recette : Appât-lakka",
     "Description": "Étapes de préparation d'un appât-lakka.",
+    "TypeDescription": "Plan d'appât",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221070,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Recette : Appât scintillant",
+    "Description": "Étapes de fabrication d'un appât scintillant.",
     "TypeDescription": "Plan d'appât",
     "Icon": "UI_ItemIcon_221035"
   },
@@ -59971,6 +62561,61 @@
     "Description": "Un feu d'artifice inspiré par une petite fille chaleureuse.\nDe nombreuses personnes ont reçu son aide, mais personne ne connaît son nom. Tout ce qu'ils savent, c'est qu'elle appelait son compagnon « Yuegui ». Ce feu d'artifice a donc été commandé en guise d'expression de leur gratitude et de leurs vœux.",
     "TypeDescription": "Feu d'artifice",
     "Icon": "UI_ItemIcon_223018"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223301,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Apparence de structure : Jack frost",
+    "Description": "Une apparence pour la structure de glace primale « Cube ».\nLe jack frost semble totalement obsédé par les structures glacées à son image. Même avec une structure aussi simple qu'un cube, il déploie des efforts considérables pour y intégrer ses caractéristiques distinctives.",
+    "TypeDescription": "Apparence de structure de glace primale",
+    "Icon": "UI_ItemIcon_223301"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223302,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Apparence de structure : Polarours",
+    "Description": "Une apparence pour la structure de glace primale « Dispositif de stockage ».\nIl existe un vieux dicton parmi les chasseurs qui dit : « Si un ours le serre contre lui, vous savez que c'est un trésor. »\nBien que l'idée d'arracher quoi que ce soit à un véritable polarours semble terrifiante, un simple dispositif de stockage inspiré de celui-ci ne devrait pas représenter une grande menace... Hein ?",
+    "TypeDescription": "Apparence de structure de glace primale",
+    "Icon": "UI_ItemIcon_223302"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223303,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Apparence de structure : Ballerine",
+    "Description": "Une apparence pour la structure de glace primale « Borne ambiante ».\nLorsqu'on assiste à un spectacle, les émotions changent naturellement au rythme des mouvements gracieux de la danseuse. Chaque représentation procure un profond sentiment de force intérieure.\nC'est peut-être de ce sentiment même qu'est née cette apparence particulière de structure glace primale.",
+    "TypeDescription": "Apparence de structure de glace primale",
+    "Icon": "UI_ItemIcon_223303"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223304,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Apparence de structure : Limier",
+    "Description": "Une apparence pour la structure de glace primale « Borne ambiante ».\nLes bonus continus proviennent non seulement des bornes ambiantes, mais aussi des compagnons qui nous accompagnent. Parfois, leur simple présence confère une force bien supérieure à n'importe quel renforcement magique... Cela dit, il serait formidable que ces bornes puissent nous suivre comme de véritables compagnons.",
+    "TypeDescription": "Apparence de structure de glace primale",
+    "Icon": "UI_ItemIcon_223304"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223305,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Apparence de structure : Marée",
+    "Description": "Une apparence pour la structure de glace primale « Borne ambiante ».\nOn raconte que si l'on se tient près d'une borne de cette forme, on peut parfois entendre le léger murmure des marées. Pourtant, la structure elle-même est silencieuse... La mélodie appartient entièrement à votre esprit et à votre imagination, comme une chanson qui résonne soudain dans votre cœur par une nuit paisible.",
+    "TypeDescription": "Apparence de structure de glace primale",
+    "Icon": "UI_ItemIcon_223305"
   },
   {
     "Rank": 0,
@@ -60936,7 +63581,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Couleurs tachetées de la nation Hydro",
-    "Description": "Une scène de campagne envahie par des plantes luxuriantes. Nous y trouvons toutes sortes de fleurs et d'arbustes endémiques de plusieurs régions de Fontaine. Les plantes sont un thème courant dans la peinture et elles constituent un point de départ pour expérimenter la « couleur ». Certains peintres de Fontaine pensent que la palette de couleurs de notre monde leur donne un exemple de « combinaison parfaite » à travers les végétaux. Ainsi, si toutes les couleurs d'un tableau peuvent trouver leur source dans les plantes, celui-ci a certainement une beauté harmonieuse égale à celle d'un paysage naturel. Bien entendu, cela suppose que vous ne mélangiez pas toutes les couleurs d'origine végétale dans un seul creuset...\nCompagnons préférant ce set : Clorinde, Émilie, Escoffier.",
+    "Description": "Une scène de campagne envahie par des plantes luxuriantes. Nous y trouvons toutes sortes de fleurs et d'arbustes endémiques de plusieurs régions de Fontaine. Les plantes sont un thème courant dans la peinture et elles constituent un point de départ pour expérimenter la « couleur ». Certains peintres de Fontaine pensent que la palette de couleurs de notre monde leur donne un exemple de « combinaison parfaite » à travers les végétaux. Ainsi, si toutes les couleurs d'un tableau peuvent trouver leur source dans les plantes, celui-ci a certainement une beauté harmonieuse égale à celle d'un paysage naturel. Bien entendu, cela suppose que vous ne mélangiez pas toutes les couleurs d'origine végétale dans un seul creuset...\nCompagnons préférant ce set : Clorinde, Émilie, Escoffier, Sandrone.",
     "TypeDescription": "Plan de set de décorations",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -62241,6 +64886,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 380484,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Gazouillis des oiseaux »",
+    "Description": "#Étapes de fabrication du «{NON_BREAK_SPACE}Gazouillis des oiseaux{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 380504,
     "RankLevel": 3,
     "ItemType": 2,
@@ -62555,6 +65211,28 @@
     "Name": "Armoire d'hôtel « Espace supplémentaire »",
     "Description": "Étapes de fabrication de l'armoire d'hôtel « Espace supplémentaire ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Heures d'ouverture »",
+    "Description": "#Étapes de fabrication des «{NON_BREAK_SPACE}Heures d'ouverture{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Armoire d'intérieur « Petite maison à toit pointu »",
+    "Description": "#Étapes de fabrication de l'armoire d'intérieur «{NON_BREAK_SPACE}Petite maison à toit pointu{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -63275,6 +65953,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 381350,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Table carrée haute « Perchoir aux chandelles »",
+    "Description": "#Étapes de fabrication de la table carrée haute «{NON_BREAK_SPACE}Perchoir aux chandelles{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 381401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63424,6 +66113,17 @@
     "Name": "Lit de givrelune « Fraîcheur givrée »",
     "Description": "Étapes de fabrication du lit de givrelune « Fraîcheur givrée ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381415,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Doux sommeil sans souci »",
+    "Description": "Étapes de fabrication du « Doux sommeil sans souci ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -63897,6 +66597,28 @@
     "Name": "#Chaise de goûteron «{NON_BREAK_SPACE}Rouge et or{NON_BREAK_SPACE}»",
     "Description": "#Étapes de fabrication de la chaise de goûteron «{NON_BREAK_SPACE}Rouge et or{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382136,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Un paisible soupir par une nuit de neige »",
+    "Description": "#Étapes de fabrication d'«{NON_BREAK_SPACE}Un paisible soupir par une nuit de neige{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382137,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Siège d'intérieur « Couleurs contrastées »",
+    "Description": "#Étapes de fabrication du siège d'intérieur «{NON_BREAK_SPACE}Couleurs contrastées{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -64903,6 +67625,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 382325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tapis d'intérieur « Fleur sous la glace »",
+    "Description": "#Étapes de fabrication du tapis d'intérieur «{NON_BREAK_SPACE}Fleur sous la glace{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382326,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tapis d'intérieur « Chaleureux confort »",
+    "Description": "#Étapes de fabrication du tapis d'intérieur «{NON_BREAK_SPACE}Chaleureux confort{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 382401,
     "RankLevel": 2,
     "ItemType": 2,
@@ -64964,6 +67708,17 @@
     "Name": "Cri de guerre héroïque",
     "Description": "Étapes de fabrication du cri de guerre héroïque.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382408,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sentinelle à capuche haute",
+    "Description": "Étapes de fabrication de la sentinelle à capuche haute.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65162,6 +67917,28 @@
     "Name": "Champignon tortueux",
     "Description": "Étapes de fabrication du champignon tortueux.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Pour qui cela brille »",
+    "Description": "#Étapes de fabrication de «{NON_BREAK_SPACE}Pour qui cela brille{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Lampe d'intérieur « Douce lumière »",
+    "Description": "#Étapes de fabrication de la lampe d'intérieur «{NON_BREAK_SPACE}Douce lumière{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65783,6 +68560,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383399,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "#« Tourne, tourne, petit poisson{NON_BREAK_SPACE}»",
+    "Description": "#Étapes de fabrication de «{NON_BREAK_SPACE}Tourne, tourne, petit poisson{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383400,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Perce-vent-et-neige",
+    "Description": "Étapes de fabrication du perce-vent-et-neige.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -65959,6 +68758,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383441,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Art du thé »",
+    "Description": "#Étapes de fabrication de l'«{NON_BREAK_SPACE}Art du thé{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Branches en équilibre »",
+    "Description": "#Étapes de fabrication des «{NON_BREAK_SPACE}Branches en équilibre{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383443,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Fidèle compagnon des rêves",
+    "Description": "Étapes de fabrication du fidèle compagnon des rêves.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383501,
     "RankLevel": 3,
     "ItemType": 2,
@@ -66075,6 +68907,28 @@
     "Name": "#Plante décorative en pot «{NON_BREAK_SPACE}Parfum bourgeonnant{NON_BREAK_SPACE}»",
     "Description": "Étapes de fabrication de la plante décorative en pot « Parfum bourgeonnant ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383513,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Composition florale « Prunellier élégant »",
+    "Description": "#Étapes de fabrication de la composition florale «{NON_BREAK_SPACE}Prunellier élégant{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383514,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Massif floral décoratif « Floraison lumineuse »",
+    "Description": "#Étapes de fabrication du massif floral décoratif «{NON_BREAK_SPACE}Floraison lumineuse{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -66515,6 +69369,28 @@
     "Name": "« Moment suspendu »",
     "Description": "#Étapes de fabrication du «{NON_BREAK_SPACE}Moment suspendu ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384524,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Un hiver doré »",
+    "Description": "#Étapes de fabrication d'«{NON_BREAK_SPACE}Un hiver doré{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384525,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Amour tant recherché »",
+    "Description": "#Étapes de fabrication de l'«{NON_BREAK_SPACE}Amour tant recherché{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -69506,6 +72382,83 @@
     "ItemType": 2,
     "Name": "Pilier de base « Balise universelle »",
     "Description": "Étapes de fabrication du pilier de base « Balise universelle ».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391050,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Grue à treuil sur essieux",
+    "Description": "Étapes de fabrication de la grue à treuil sur essieux.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391051,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Habitation urbaine « Chaleur douillette »",
+    "Description": "#Étapes de fabrication de l'habitation urbaine «{NON_BREAK_SPACE}Chaleur douillette{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391052,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Boule de neige ronde",
+    "Description": "Étapes de fabrication de la boule de neige ronde.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391053,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Quai « Silencieuse anticipation »",
+    "Description": "#Étapes de fabrication du quai «{NON_BREAK_SPACE}Silencieuse anticipation{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Habitation snezhnayienne « Portique aux teintes chaleureuses »",
+    "Description": "#Étapes de fabrication de l'habitation snezhnayienne «{NON_BREAK_SPACE}Portique aux teintes chaleureuses{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Oignon rond",
+    "Description": "Étapes de fabrication de l'oignon rond.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Habitation snezhnayienne « Sculptures raffinées »",
+    "Description": "#Étapes de fabrication de l'habitation snezhnayienne «{NON_BREAK_SPACE}Sculptures raffinées{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -73978,6 +76931,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 393942,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "« Appréciation du présent »",
+    "Description": "#Étapes de fabrication de l'«{NON_BREAK_SPACE}Appréciation du présent{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393943,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Foyer qui ne fond pas »",
+    "Description": "#Étapes de fabrication du «{NON_BREAK_SPACE}Foyer qui ne fond pas{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393944,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Grand ouvert ! »",
+    "Description": "#Étapes de fabrication de «{NON_BREAK_SPACE}Grand ouvert{NON_BREAK_SPACE}!{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394101,
     "RankLevel": 2,
     "ItemType": 2,
@@ -74561,6 +77547,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Banc de gare « Lire entre deux trains »",
+    "Description": "#Étapes de fabrication du banc de gare «{NON_BREAK_SPACE}Lire entre deux trains{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394225,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Douce chaleur de l'attente »",
+    "Description": "#Étapes de fabrication de la «{NON_BREAK_SPACE}Douce chaleur de l'attente{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394301,
     "RankLevel": 3,
     "ItemType": 2,
@@ -74896,6 +77904,17 @@
     "ItemType": 2,
     "Name": "Chaleur accueillante",
     "Description": "Étapes de fabrication de la chaleur accueillante.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394334,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Conseil superflu",
+    "Description": "Étapes de fabrication du conseil superflu.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -75573,6 +78592,72 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394661,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Traîneau de transport standard",
+    "Description": "Étapes de fabrication du traîneau de transport standard.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394662,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tente rudimentaire « Somme sous la neige »",
+    "Description": "#Étapes de fabrication de la tente rudimentaire «{NON_BREAK_SPACE}Somme sous la neige{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "« Solide comme la glace »",
+    "Description": "#Étapes de fabrication de «{NON_BREAK_SPACE}Solide comme la glace{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Petit chauffage portable",
+    "Description": "Étapes de fabrication du petit chauffage portable.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394665,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Minerai de glace primale « Soigneusement disposé »",
+    "Description": "#Étapes de fabrication du minerai de glace primale «{NON_BREAK_SPACE}Soigneusement disposé{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394666,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Petite console de contrôle « Panneau à jauge »",
+    "Description": "#Étapes de fabrication de la petite console de contrôle «{NON_BREAK_SPACE}Panneau à jauge{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394800,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75711,6 +78796,17 @@
     "Name": "Émissaire lunaire de l'éclat argenté",
     "Description": "Étapes de fabrication de l'émissaire lunaire de l'éclat argenté.\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
     "TypeDescription": "Plan de décoration",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394847,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "« Danse sous des ailes d'argent »",
+    "Description": "#Étapes de fabrication de la «{NON_BREAK_SPACE}Danse sous des ailes d'argent{NON_BREAK_SPACE}».\nAprès utilisation, ce plan sera disponible dans l'interface de fabrication des décorations.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   }
 ]

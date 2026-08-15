@@ -293,6 +293,7 @@
         "Id": 10881,
         "Name": "Criografía",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nApunta a un objetivo con su particular Daguerrotipo llamado “Monsieur Vérité” para realizar hasta 3 ataques que infligen <color=#99FFFFFF>Daño Cryo</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante y usa a Monsieur Vérité para infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del hielo y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#99FFFFFF>Daño Cryo en el AdE</color> en el momento del impacto.\n\n<color=#FFD780FF>Arjé: pneuma</color>\nCada cierto tiempo, aparecerá una espina halitoespiritual que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> cargado de energía pneuma.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 10882,
         "Name": "Enfoque: Composición gélida",
         "Description": "#Con su agudo instinto de periodista, usa sus habilidades fotográficas para crear diferentes efectos dependiendo de si {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} la habilidad o la mantiene pulsada.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nHace una captura rápida utilizando a Monsieur Vérité para infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> a los enemigos frente a sí misma, y aplica el efecto de “fotosilueta” a un máximo de 5 enemigos afectados. Mientras la fotosilueta está activa, infligirá <color=#99FFFFFF>Daño Cryo</color> periódicamente a los enemigos a los que afecta.\n\n<color=#FFD780FF>Mantener pulsado</color>\nAbre el visor de Monsieur Vérité y entra en el estado de “composición”. Al mantener pulsado, el visor irá ampliándose hasta llegar al tamaño máximo. Mientras está en el estado de composición, Charlotte puede moverse y cambiar de dirección libremente.\nAl dejar de mantener pulsado, Monsieur Vérité infligirá <color=#99FFFFFF>Daño Cryo</color> a los enemigos fijados por el visor y, igual que al {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}, les aplicará el efecto de fotosilueta. Si dejas de pulsar la habilidad cuando el visor haya alcanzado el tamaño máximo, Charlotte aplicará el efecto de “imagen encuadrada”, el cual tiene una mayor duración e inflige más daño, pero también dejará a esta habilidad con un mayor TdE.\nEl estado de composición dura hasta 15{NON_BREAK_SPACE}s y permite seleccionar hasta 5 enemigos.\n\n<i>“Para la captura de imágenes periodísticas, hay que ser capaz de tomar imágenes sencillas con un tema claro. Aun así, ¡lo más importante sigue siendo tener talento para capturar el momento!”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Charlotte_01"
       }
     ],
@@ -804,6 +806,7 @@
       "Id": 10885,
       "Name": "Encuadre: Corroboración integral",
       "Description": "Concentra la escarcha para formar la insignia de «El Pájaro de Vapor», crear un “área de flashes” que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> y curar a todos los miembros del equipo cercanos en función del ATQ de Charlotte.\n\n<color=#FFD780FF>Área de flashes</color>\n·Mientras está activa, Monsieur Vérité atacará periódicamente a los enemigos que haya dentro del área para infligirles <color=#99FFFFFF>Daño Cryo</color>.\n·Cura continuamente a los personajes en uso que haya dentro del área en función del ATQ de Charlotte.\n\n<i>“Conocer la posición de todas las partes, reconstruir los hechos... ¡Para hacer un buen reportaje, se debe investigar desde diferentes perspectivas y así decidir cuál de ellas es la mejor!”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Charlotte_01"
     },
     "Inherents": [
@@ -827,6 +830,7 @@
         "Id": 882101,
         "Name": "Instante impactante",
         "Description": "#Cuando un enemigo marcado con imagen encuadrada es derrotado, el TdE de <color=#FFD780FF>Enfoque: Composición gélida</color> se reduce en 2{NON_BREAK_SPACE}s. El TdE de la Habilidad Elemental solo se puede reducir un máximo de 4 veces cada 12{NON_BREAK_SPACE}s de esta manera.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_05"
       },
       {
@@ -848,6 +852,7 @@
         "Id": 882201,
         "Name": "Investigación diversificada",
         "Description": "Charlotte obtiene un 5/10/15% de Bono de Curación por cada 1/2/3 personajes de Fontaine (a excepción de sí misma) que haya en el equipo. Por otro lado, obtiene un 5/10/15% de Bono de Daño Cryo por cada 1/2/3 personajes del equipo que no sean de Fontaine.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_06"
       },
       {
@@ -866,6 +871,7 @@
         "Id": 882301,
         "Name": "Obturador de primera persona",
         "Description": "Cuando Charlotte activa el Objetivo zoom de análisis especial, mantener pulsada la Habilidad Elemental, “Enfoque: Composición gélida”, no tendrá el efecto original, sino que pasará a tomar fotografías de un modo muy especial...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_07"
       }
     ],

@@ -261,6 +261,7 @@
         "Id": 11131,
         "Name": "Rito disperdiventi",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 attacchi, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore e spara un colpo che infligge <color=#80FFD7FF>DAN da Anemo ad area</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nSi scaglia contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria. Infligge <color=#80FFD7FF>DAN da Anemo ad area</color> all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -444,6 +445,7 @@
         "Id": 11132,
         "Name": "Prevenzione delle malattie trasmesse per via aerea",
         "Description": "La coppia esplosiva entra finalmente in azione! Ifa chiama Cacucu a dargli manforte.\nDopo aver usato l'abilità, Ifa ottiene 80 punti Anima della Notte ed entra nello {LINK#N11130003}<color=#FFD780FF>stato di Grazia dell'Anima della Notte</color>{/LINK}, che gli permette di librarsi in aria con l'aiuto di Cacucu. Quando sferra attacchi normali in questo stato, usa diversi tipi di {LINK#N11130001}<color=#FFD780FF>Fuoco di supporto</color>{/LINK} in base alla durata della pressione, sparando dei Colpi rinvigorenti in grado di ripristinare PS di tutti i membri del gruppo.\n\nInoltre, quando è nello stato di Grazia dell'Anima della Notte, la pressione prolungata dell'abilità elementale <color=#FFD780FF>Prevenzione delle malattie trasmesse per via aerea</color> permette a Ifa di eseguire un attacco in picchiata con attributo Anima della Notte. Interrompere la pressione dell'abilità interrompe a sua volta l'attacco in picchiata, permettendo a Ifa di rimanere a mezz'aria. Se l'attacco in picchiata colpisce il suolo, lo stato di Grazia dell'Anima della Notte di Ifa termina.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ifa_01"
       }
     ],
@@ -613,6 +615,7 @@
       "Id": 11135,
       "Name": "Campo di sedazione composito",
       "Description": "Spara un Sedativo terapeutico a un avversario (temporaneamente aggressivo). Il sedativo esplode all'impatto e crea una corrente d'aria vincolante che attira a sé oggetti e avversari vicini, infliggendo al contempo <color=#80FFD7FF>DAN da Anemo ad area</color> con attributo Anima della Notte.\nQuando il Sedativo terapeutico colpisce un avversario affetto da <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, gli applica un {LINK#N11130004}<color=#FFD780FF>Marchio di sedazione</color>{/LINK}.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ifa_01"
     },
     "Inherents": [
@@ -628,7 +631,8 @@
                 1,
                 1,
                 150,
-                0.015
+                0.015,
+                0.0024
               ]
             }
           ],
@@ -636,7 +640,8 @@
         },
         "Id": 1132101,
         "Name": "Visione del medico di campo",
-        "Description": "Quando Ifa è nello stato di Grazia dell'Anima della Notte, ogni punto Anima della Notte posseduto dall'intero gruppo gli conferisce 1 punto di {LINK#N11130002}<color=#FFD780FF>Fondamentali di soccorso</color>{/LINK}. Ogni punto aumenta i DAN da Turbinio, Electrocarica e Carica lunare inflitti dai membri vicini del gruppo.",
+        "Description": "Quando Ifa è nello stato di Grazia dell'Anima della Notte, ogni punto Anima della Notte posseduto attualmente dall'intero gruppo gli conferisce 1 punto di {LINK#N11130002}<color=#FFD780FF>Fondamentali di soccorso</color>{/LINK}. Ogni punto aumenta i DAN da Turbinio, Turbinio astrale, Electrocarica e Carica lunare inflitti dai membri vicini del gruppo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_05"
       },
       {
@@ -658,6 +663,7 @@
         "Id": 1132201,
         "Name": "Accordo di mutuo soccorso",
         "Description": "#Quando i membri del gruppo vicini innescano un Impeto dell'Anima della Notte, la maestria elementale di Ifa aumenta di 80 per 10{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_06"
       },
       {
@@ -676,6 +682,7 @@
         "Id": 1132301,
         "Name": "Dono del Reame notturno: Salvataggio di emergenza mirato",
         "Description": "#Dopo aver esaurito i punti Anima della Notte, Ifa consuma il Flogisto per conservare la sua Grazia dell'Anima della Notte.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Ifa. Quando il personaggio attivo è sospeso in aria a una certa altezza, passare il controllo a Ifa attiva il seguente effetto: Ifa entra nello stato di Grazia dell'Anima della Notte e ottiene 32 punti Anima della Notte. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del tuo gruppo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_07"
       },
       {
@@ -699,6 +706,7 @@
         "Id": 1132501,
         "Name": "Impacco caldo tattico",
         "Description": "#Se si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, quando i PS del membro attivo del gruppo o del Saurico posseduto sono inferiori a un 40%, Ifa consuma 10 punti Flogisto per ripristinare un 40% dei loro PS. Quest'effetto può attivarsi una volta ogni 10{NON_BREAK_SPACE}s e non ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_08"
       }
     ],

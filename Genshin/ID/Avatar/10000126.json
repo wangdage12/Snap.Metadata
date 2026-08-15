@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Golden Blade's Petaled Touch",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Heaven and Earth Made Manifest",
         "Description": "Memanggil bayangan dari kekuasaan masa lalu dan berganti ke mode {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK}.\nDalam mode ini, Normal Attack dan Charged Attack Zibai akan dikonversi menjadi <color=#FFE699FF>Geo DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya, dan akan mengakumulasi <color=#FFD780FF>Phase Shift Radiance</color> yang khusus dengan berbagai cara. Zibai dapat mengonsumsi Phase Shift Radiance untuk melancarkan Elemental Skill khusus <color=#FFD780FF>Spirit Steed's Stride</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nSaat berada dalam mode <color=#FFD780FF>Lunar Phase Shift</color> dan Zibai melancarkan Normal Attack, maka serangan tahap keempat akan mengakibatkan satu kali <color=#FFE699FF>Geo DMG</color> tambahan. DMG ini dianggap sebagai DMG reaksi Lunar-Crystallize.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Tri-Sphere Eminence",
       "Description": "Zibai memanggil Jadelight Canopy untuk mengakibatkan dua kali <color=#FFE699FF>Geo DMG</color>. DMG tahap kedua dianggap sebagai DMG reaksi Lunar-Crystallize.\nJika Zibai melancarkan skill ini saat berada dalam mode {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK}, maka durasi Lunar Phase Shift ini akan diperpanjang 1,7 detik.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "The Selenic Adeptus Descends",
         "Description": "Saat melancarkan Elemental Skill <color=#FFD780FF>{LINK#S11262}Heaven and Earth Made Manifest{/LINK}</color>, atau saat Karakter party di sekitar memicu Moondrift Harmony, Zibai akan mendapatkan efek <color=#FFD780FF>Selenic Descent</color> yang bertahan 4 detik: DMG serangan tahap 2 {LINK#N11260001}<color=#FFD780FF>Spirit Steed's Stride</color>{/LINK} meningkat sebesar 60% DEF Zibai.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Layered Peaks Pierce the Clouds",
         "Description": "Untuk setiap 1 Karakter <color=#FFE699FF>Geo</color> lain di party, DEF Zibai akan meningkat 15%. Untuk setiap Karakter <color=#80C0FFFF>Hydro</color> lain di party, Elemental Mastery Zibai akan meningkat 60 poin.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Moonsign Benediction: The Coursing Sun and Moon",
         "Description": "Saat Karakter dalam party memicu reaksi Hydro Crystallize, reaksi tersebut akan dikonversi menjadi Lunar-Crystallize. Untuk setiap 100 poin DEF Zibai, DMG dasar reaksi Lunar-Crystallize meningkat 0,7%, dengan maksimum 14% peningkatan yang bisa didapatkan dengan cara ini.\n\nSelain itu, saat Zibai ada di dalam party, <color=#FFD780FF>Moonsign</color> party akan meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Moonlit Flower Forest",
         "Description": "Saat tidak dalam kondisi bertempur di malam hari (pukul 18:00 - 06:00), Zibai akan memulihkan 1 Energy setiap 2 detik.\n\nEfek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

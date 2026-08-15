@@ -42,9 +42,10 @@
             "DMG Tembakan Beruntun Charged Attack|{param4:F1P}",
             "DMG Sinar Terkondensasi Charged Attack|{param5:F1P}",
             "DMG Stellar-Conduct Sinar Terkondensasi dari Charged Attack|{param6:F1P}",
+            "DMG Stellar Swirl dari Sinar Terkondensasi Charged Attack|{param11:F1P}",
             "DMG Saat Power Overdrive|{param7:F1P}",
             "DMG Selama Plunging|{param8:F1P}",
-            "DMG Plunging Attack Rendah/Tinggi|{param9:P}/{param10:P}"
+            "DMG Plunging Attack Min./Maks.|{param9:P}/{param10:P}"
           ],
           "Parameters": [
             {
@@ -60,7 +61,8 @@
                 0.43,
                 0.745878,
                 1.49144,
-                1.862889
+                1.862889,
+                1.2255
               ]
             },
             {
@@ -76,7 +78,8 @@
                 0.465,
                 0.806589,
                 1.612836,
-                2.01452
+                2.01452,
+                1.32525
               ]
             },
             {
@@ -92,7 +95,8 @@
                 0.5,
                 0.8673,
                 1.734233,
-                2.16615
+                2.16615,
+                1.425
               ]
             },
             {
@@ -108,7 +112,8 @@
                 0.55,
                 0.95403,
                 1.907656,
-                2.382765
+                2.382765,
+                1.5675
               ]
             },
             {
@@ -124,7 +129,8 @@
                 0.585,
                 1.014741,
                 2.029052,
-                2.534396
+                2.534396,
+                1.66725
               ]
             },
             {
@@ -140,7 +146,8 @@
                 0.625,
                 1.084125,
                 2.167791,
-                2.707688
+                2.707688,
+                1.78125
               ]
             },
             {
@@ -156,7 +163,8 @@
                 0.68,
                 1.179528,
                 2.358556,
-                2.945964
+                2.945964,
+                1.938
               ]
             },
             {
@@ -172,7 +180,8 @@
                 0.735,
                 1.274931,
                 2.549322,
-                3.184241
+                3.184241,
+                2.09475
               ]
             },
             {
@@ -188,7 +197,8 @@
                 0.79,
                 1.370334,
                 2.740087,
-                3.422517
+                3.422517,
+                2.2515
               ]
             },
             {
@@ -204,7 +214,8 @@
                 0.85,
                 1.47441,
                 2.948195,
-                3.682455
+                3.682455,
+                2.4225
               ]
             },
             {
@@ -220,7 +231,8 @@
                 0.91,
                 1.578486,
                 3.156303,
-                3.942393
+                3.942393,
+                2.5935
               ]
             },
             {
@@ -236,7 +248,8 @@
                 0.97,
                 1.682562,
                 3.364411,
-                4.202331
+                4.202331,
+                2.7645
               ]
             },
             {
@@ -252,7 +265,8 @@
                 1.03,
                 1.786638,
                 3.572519,
-                4.462269
+                4.462269,
+                2.9355
               ]
             },
             {
@@ -268,7 +282,8 @@
                 1.09,
                 1.890714,
                 3.780627,
-                4.722207
+                4.722207,
+                3.1065
               ]
             },
             {
@@ -284,7 +299,8 @@
                 1.15,
                 1.99479,
                 3.988735,
-                4.982145
+                4.982145,
+                3.2775
               ]
             }
           ],
@@ -292,7 +308,8 @@
         },
         "Id": 11331,
         "Name": "Formule Phenomenale: Self-Evident Proposition",
-        "Description": "<color=#FFD780FF>Normal Attack</color>\nMenenun benang untuk memanipulasi senjatanya dengan formula numerik dan melakukan hingga 3 serangan tebasan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMemanggil Facilitatrice Automatisee Generaliste Interactive et Omnitache, atau <color=#FFD780FF> \"Fagio\"</color>, dan mengalihkannya ke mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>: Melancarkan tembakan beruntun ke musuh di depan, serta menembakkan sinar terkondensasi secara berkala, mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG dari sinar terkondensasinya berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.\nDalam mode <color=#FFD780FF>Decoding</color>, jumlah <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan terus bertambah. Decoding Power juga akan bertambah saat Fagio menembakkan sinar terkondensasinya.\nSaat Decoding Power mencapai batas maksimum (100 poin), Fagio akan beralih ke mode <color=#FFD780FF>Power Overdrive</color>. Dalam mode ini, ia akan menembak musuh dengan jeda yang lebih panjang, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>, dan menjadi tidak bisa beralih ke mode Decoding.\nSaat tidak berada dalam mode <color=#FFD780FF>Decoding</color>, <color=#FFD780FF>Decoding Power</color> Fagio akan terus berkurang secara perlahan. Saat Sandrone ada di dalam party namun sedang tidak berada di medan pertempuran, dia akan fokus memperbaiki Fagio dan mempercepat kecepatan pengurangan Decoding Power menjadi 300% dari kecepatan semulanya.\nFagio akan keluar dari mode <color=#FFD780FF>Power Overdrive</color> saat <color=#FFD780FF>Decoding Power</color>-nya menurun hingga di bawah 50 poin.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang ke tanah dari udara, menyerang musuh di jalur jatuhnya, dan mengakibatkan DMG Area saat mendarat.",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMenenun benang untuk memanipulasi senjatanya dengan formula numerik dan melakukan hingga 3 serangan tebasan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMemanggil Facilitatrice Automatisee Generaliste Interactive et Omnitache, atau <color=#FFD780FF> \"Fagio\"</color>, dan mengalihkannya ke mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>: Melancarkan tembakan beruntun ke musuh di depan, serta menembakkan sinar terkondensasi secara berkala, mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: DMG dari sinar terkondensasinya berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar Glimmer yang sesuai.\nDalam mode <color=#FFD780FF>Decoding</color>, jumlah <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan terus bertambah. Decoding Power juga akan bertambah saat Fagio menembakkan sinar terkondensasinya.\nSaat Decoding Power mencapai batas maksimum (100 poin), Fagio akan beralih ke mode <color=#FFD780FF>Power Overdrive</color>. Dalam mode ini, ia akan menembak musuh dengan jeda yang lebih panjang, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>, dan menjadi tidak bisa beralih ke mode Decoding.\nSaat tidak berada dalam mode <color=#FFD780FF>Decoding</color>, <color=#FFD780FF>Decoding Power</color> Fagio akan terus berkurang secara perlahan. Saat Sandrone ada di dalam party namun sedang tidak berada di medan pertempuran, dia akan fokus memperbaiki Fagio dan mempercepat kecepatan pengurangan Decoding Power menjadi 300% dari kecepatan semulanya.\nFagio akan keluar dari mode <color=#FFD780FF>Power Overdrive</color> saat <color=#FFD780FF>Decoding Power</color>-nya menurun hingga di bawah 50 poin.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang ke tanah dari udara, menyerang musuh di jalur jatuhnya, dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -301,6 +318,7 @@
           "Descriptions": [
             "DMG Prism Shot|{param1:F1P}",
             "DMG Stellar-Conduct Prism Shot|{param2:F1P}",
+            "DMG Stellar Swirl dari Prism Shot|{param4:F1P}",
             "Cooldown|{param3:F1} dtk"
           ],
           "Parameters": [
@@ -310,7 +328,8 @@
               "Parameters": [
                 0.324,
                 0.216,
-                4
+                4,
+                0.324
               ]
             },
             {
@@ -319,7 +338,8 @@
               "Parameters": [
                 0.3483,
                 0.2322,
-                4
+                4,
+                0.3483
               ]
             },
             {
@@ -328,7 +348,8 @@
               "Parameters": [
                 0.3726,
                 0.2484,
-                4
+                4,
+                0.3726
               ]
             },
             {
@@ -337,7 +358,8 @@
               "Parameters": [
                 0.405,
                 0.27,
-                4
+                4,
+                0.405
               ]
             },
             {
@@ -346,7 +368,8 @@
               "Parameters": [
                 0.4293,
                 0.2862,
-                4
+                4,
+                0.4293
               ]
             },
             {
@@ -355,7 +378,8 @@
               "Parameters": [
                 0.4536,
                 0.3024,
-                4
+                4,
+                0.4536
               ]
             },
             {
@@ -364,7 +388,8 @@
               "Parameters": [
                 0.486,
                 0.324,
-                4
+                4,
+                0.486
               ]
             },
             {
@@ -373,7 +398,8 @@
               "Parameters": [
                 0.5184,
                 0.3456,
-                4
+                4,
+                0.5184
               ]
             },
             {
@@ -382,7 +408,8 @@
               "Parameters": [
                 0.5508,
                 0.3672,
-                4
+                4,
+                0.5508
               ]
             },
             {
@@ -391,7 +418,8 @@
               "Parameters": [
                 0.5832,
                 0.3888,
-                4
+                4,
+                0.5832
               ]
             },
             {
@@ -400,7 +428,8 @@
               "Parameters": [
                 0.6156,
                 0.4104,
-                4
+                4,
+                0.6156
               ]
             },
             {
@@ -409,7 +438,8 @@
               "Parameters": [
                 0.648,
                 0.432,
-                4
+                4,
+                0.648
               ]
             },
             {
@@ -418,7 +448,8 @@
               "Parameters": [
                 0.6885,
                 0.459,
-                4
+                4,
+                0.6885
               ]
             },
             {
@@ -427,7 +458,8 @@
               "Parameters": [
                 0.729,
                 0.486,
-                4
+                4,
+                0.729
               ]
             },
             {
@@ -436,7 +468,8 @@
               "Parameters": [
                 0.7695,
                 0.513,
-                4
+                4,
+                0.7695
               ]
             }
           ],
@@ -444,7 +477,8 @@
         },
         "Id": 11332,
         "Name": "Formule Phenomenale: Differential Analysis",
-        "Description": "Dengan gerakannya yang elegan bak seorang wanita sejati, Sandrone akan duduk di atas <color=#FFD780FF>Tea Party Tactical Assault Hovermech</color> miliknya dan terus melayang maju selama 6 detik. Selama durasi ini, Sandrone juga dapat mengontrol arah terbangnya. Menekan tombol Lari akan mengonsumsi 10 Stamina untuk memasuki mode melayang berkecepatan tinggi yang anggun, tapi mengonsumsi 15 poin Stamina per detik untuk melayang dengan lebih cepat.\n\nJika ada musuh di sekitar Sandrone saat ia mulai melayang, maka Sandrone juga akan memanggil sebuah Prismatic Resonance Cannon untuk menembakkan dua Prism Shot ke musuh yang tidak bisa diam, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG Prism Shot kedua akan berubah menjadi <color=#99FFFFFF>Cryo DMG</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.\n\nSaat sedang menaiki Tea Party Tactical Assault Hovermech, Sandrone juga akan dengan anggunnya memperbaiki Fagio secara diam-diam, sehingga <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan berkurang dengan cepat.",
+        "Description": "Dengan gerakannya yang elegan bak seorang wanita sejati, Sandrone akan duduk di atas <color=#FFD780FF>Tea Party Tactical Assault Hovermech</color> miliknya dan terus melayang maju selama 6 detik. Selama durasi ini, Sandrone juga dapat mengontrol arah terbangnya. Menekan tombol Lari akan mengonsumsi 10 Stamina untuk memasuki mode melayang berkecepatan tinggi yang anggun, tapi mengonsumsi 15 poin Stamina per detik untuk melayang dengan lebih cepat.\n\nJika ada musuh di sekitar Sandrone saat ia mulai melayang, maka Sandrone juga akan memanggil sebuah Prismatic Resonance Cannon untuk menembakkan dua Prism Shot ke musuh yang tidak bisa diam, mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>:{/LINK} DMG Prism Shot kedua akan berubah menjadi <color=#99FFFFFF>Cryo DMG</color> yang dianggap sebagai DMG reaksi Stellar Glimmer yang sesuai.\n\nSaat sedang menaiki Tea Party Tactical Assault Hovermech, Sandrone juga akan dengan anggunnya memperbaiki Fagio secara diam-diam, sehingga <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio akan berkurang dengan cepat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_MarionetteNew_01"
       }
     ],
@@ -455,6 +489,7 @@
           "DMG Bombardir|{param1:F1P}×3",
           "DMG Convective Inhibition Ray|{param2:F1P}",
           "DMG Stellar-Conduct Convective Inhibition Ray|{param3:F1P}",
+          "DMG Stellar Swirl dari Convective Inhibition Ray|{param6:F1P}",
           "Cooldown|{param4:F1} dtk",
           "Konsumsi Energy|{param5:I}"
         ],
@@ -467,7 +502,8 @@
               3.308,
               2.205333,
               15,
-              60
+              60,
+              3.308
             ]
           },
           {
@@ -478,7 +514,8 @@
               3.5561,
               2.370733,
               15,
-              60
+              60,
+              3.5561
             ]
           },
           {
@@ -489,7 +526,8 @@
               3.8042,
               2.536133,
               15,
-              60
+              60,
+              3.8042
             ]
           },
           {
@@ -500,7 +538,8 @@
               4.135,
               2.756667,
               15,
-              60
+              60,
+              4.135
             ]
           },
           {
@@ -511,7 +550,8 @@
               4.3831,
               2.922067,
               15,
-              60
+              60,
+              4.3831
             ]
           },
           {
@@ -522,7 +562,8 @@
               4.6312,
               3.087467,
               15,
-              60
+              60,
+              4.6312
             ]
           },
           {
@@ -533,7 +574,8 @@
               4.962,
               3.308,
               15,
-              60
+              60,
+              4.962
             ]
           },
           {
@@ -544,7 +586,8 @@
               5.2928,
               3.528533,
               15,
-              60
+              60,
+              5.2928
             ]
           },
           {
@@ -555,7 +598,8 @@
               5.6236,
               3.749067,
               15,
-              60
+              60,
+              5.6236
             ]
           },
           {
@@ -566,7 +610,8 @@
               5.9544,
               3.9696,
               15,
-              60
+              60,
+              5.9544
             ]
           },
           {
@@ -577,7 +622,8 @@
               6.2852,
               4.190133,
               15,
-              60
+              60,
+              6.2852
             ]
           },
           {
@@ -588,7 +634,8 @@
               6.616,
               4.410667,
               15,
-              60
+              60,
+              6.616
             ]
           },
           {
@@ -599,7 +646,8 @@
               7.0295,
               4.686333,
               15,
-              60
+              60,
+              7.0295
             ]
           },
           {
@@ -610,7 +658,8 @@
               7.443,
               4.962,
               15,
-              60
+              60,
+              7.443
             ]
           },
           {
@@ -621,7 +670,8 @@
               7.8565,
               5.237667,
               15,
-              60
+              60,
+              7.8565
             ]
           }
         ],
@@ -629,7 +679,8 @@
       },
       "Id": 11335,
       "Name": "Formule Phenomenale: Q.E.D.",
-      "Description": "Masih sambil menjunjung tinggi etiket seorang wanita sejati, Sandrone memanggil sejumlah besar Prismatic Resonance Cannon untuk melakukan bombardir luas ke hadapannya, lalu menembakkan Convective Inhibition Ray bersuhu negatif untuk menghantam musuh dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG Convective Inhibition Ray akan berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar-Conduct.",
+      "Description": "Masih sambil menjunjung tinggi etiket seorang wanita sejati, Sandrone memanggil sejumlah besar Prismatic Resonance Cannon untuk melakukan bombardir luas ke hadapannya, lalu menembakkan Convective Inhibition Ray bersuhu negatif untuk menghantam musuh dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: DMG Convective Inhibition Ray akan berubah menjadi <color=#99FFFFFF>Cryo DMG Area</color> yang dianggap sebagai DMG reaksi Stellar Glimmer yang sesuai.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_MarionetteNew_01"
     },
     "Inherents": [
@@ -651,7 +702,8 @@
         },
         "Id": 1332101,
         "Name": "Eternal Speculation Engine",
-        "Description": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Saat melancarkan Elemental Skill {LINK#S11332}<color=#FFD780FF>Formule Phenomenale: Differential Analysis</color>{/LINK}, jika <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK} </color>Fagio melebihi 50 poin, maka Prism Shot kedua yang ditembakkan ke musuh di sekitar akan mengakibatkan 400% DMG dari DMG aslinya seiring berkurangnya Decoding Power Fagio.\nSelain itu, setiap kali <color=#FFD780FF>Decoding Power</color> Fagio berkurang 10 poin, ia akan memperoleh 1 lapis efek <color=#FFD780FF>Refined Tactics</color> yang bertahan selama 60 detik. Efek ini dapat ditumpuk sampai 10 lapis. Saat Sandrone melancarkan Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D</color>{/LINK} dalam status <color=#FFD780FF>Radiance: Stellar-Conduct</color>, semua lapisan Refined Tactics akan terhapus dan membuat Convective Inhibition Ray mengakibatkan DMG sebesar 100% + (jumlah lapisan yang dihapus ×10%) dari DMG aslinya.",
+        "Description": "{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: Saat melancarkan Elemental Skill {LINK#S11332}<color=#FFD780FF>Formule Phenomenale: Differential Analysis</color>{/LINK}, jika <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK} </color>Fagio melebihi 50 poin, maka Prism Shot kedua yang ditembakkan ke musuh di sekitar akan mengakibatkan 400% DMG dari DMG aslinya seiring berkurangnya Decoding Power Fagio.\nSelain itu, setiap kali <color=#FFD780FF>Decoding Power</color> Fagio berkurang 10 poin, ia akan memperoleh 1 lapis efek <color=#FFD780FF>Refined Tactics</color> yang bertahan selama 60 detik. Efek ini dapat ditumpuk sampai 10 lapis. Saat Sandrone melancarkan Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D</color>{/LINK} dalam status <color=#FFD780FF>Radiance: Stellar Glimmer</color>, semua lapisan Refined Tactics akan terhapus dan membuat Convective Inhibition Ray mengakibatkan DMG sebesar 100% + (jumlah lapisan yang dihapus ×10%) dari DMG aslinya.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_05"
       },
       {
@@ -673,6 +725,7 @@
         "Id": 1332201,
         "Name": "A Lady's Code of Conduct",
         "Description": "Meningkatkan Elemental Mastery Sandrone berdasarkan ATK-nya. Setiap 100 poin ATK akan meningkatkan Elemental Mastery Sandrone sebesar 8 poin. Maksimal dapat meningkatkan 160 poin Elemental Mastery dengan cara ini.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_06"
       },
       {
@@ -693,7 +746,8 @@
         },
         "Id": 1332301,
         "Name": "Light of Rationalisme",
-        "Description": "Saat Karakter di dalam party memicu reaksi Superconduct, reaksi ini akan diubah menjadi reaksi Stellar-Conduct. DMG dasar reaksi Stellar-Conduct Karakter di dalam party meningkat berdasarkan ATK Sandrone: Untuk setiap 100 poin ATK, DMG dasarnya meningkat 0,7%, dapat meningkat hingga maksimum 14% dengan cara ini.\nSelain itu, saat Sandrone berada dalam area {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, ia akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Description": "Sandrone akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color> saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} atau <color=#FFD780FF>Radiance: Stellar Swirl</color> selama 8 detik setelah Karakter dalam party di sekitar memicu reaksi Stellar Swirl.\nKetika Karakter dalam party memicu reaksi Superconduct/Cryo Swirl, reaksi ini akan berubah menjadi reaksi Stellar-Conduct/Stellar Swirl dan DMG dasar dari reaksi yang disebutkan di atas akan meningkat berdasarkan ATK Sandrone: Setiap 100 poin ATK akan meningkatkan DMG dasar yang disebutkan di atas sebesar 0,7%. Peningkatan DMG maksimum yang bisa didapatkan dengan cara ini adalah 14%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_07"
       },
       {
@@ -712,6 +766,7 @@
         "Id": 1332501,
         "Name": "A Caucus Prelude and a Long Tale",
         "Description": "Saat Sandrone berada dalam party, kamu akan mendapatkan hadiah camilan tambahan saat menyerahkan Misi Harian ke Katheryne.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_08"
       }
     ],
@@ -719,13 +774,13 @@
       {
         "Id": 1331,
         "Name": "Morrow After the Golden Dusk",
-        "Description": "Saat berada dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, kecepatan meningkatnya <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio berkurang 50%, dan DMG reaksi Stellar-Conduct yang diakibatkan oleh seluruh Karakter dalam party meningkat 30%.",
+        "Description": "Saat berada dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, kecepatan meningkatnya <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> Fagio berkurang 50%, dan DMG reaksi Stellar Glimmer yang diakibatkan oleh seluruh Karakter dalam party meningkat 30%.",
         "Icon": "UI_Talent_S_MarionetteNew_01"
       },
       {
         "Id": 1332,
         "Name": "An Heiress Gazed Into the Looking-Glass",
-        "Description": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: CRIT DMG sinar terkondensasi dari Charged Attack meningkat 40%. Dan setiap kali sinar terkondensasi ini ditembakkan, CRIT DMG yang diakibatkan semua sinar terkondensasi yang ditembakkan selama mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> kali ini akan meningkat lagi sebesar 20%. Efek ini dapat ditumpuk sampai 3 lapis.",
+        "Description": "<color=#FFD780FF>Radiance: Stellar Glimmer</color>: CRIT DMG sinar terkondensasi dari Charged Attack meningkat 40%. Dan setiap kali sinar terkondensasi ini ditembakkan, CRIT DMG yang diakibatkan semua sinar terkondensasi yang ditembakkan selama mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> kali ini akan meningkat lagi sebesar 20%. Efek ini dapat ditumpuk sampai 3 lapis.",
         "Icon": "UI_Talent_S_MarionetteNew_02"
       },
       {
@@ -741,7 +796,7 @@
       {
         "Id": 1334,
         "Name": "In Knowledge Lies the World's True Ground",
-        "Description": "Saat DMG reaksi Stellar-Conduct Sandrone mengenai musuh, ia akan memanggil 1 Prismatic Resonance Cannon tambahan untuk melancarkan serangan terkoordinasi yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> sebesar 125% ATK Sandrone kepada musuh. DMG ini dianggap sebagai DMG reaksi Stellar-Conduct dan efek ini dapat terpicu sekali setiap 4 detik.",
+        "Description": "Saat DMG reaksi Stellar-Conduct/Stellar Swirl Sandrone mengenai musuh, ia akan memanggil 1 Prismatic Resonance Cannon tambahan untuk melancarkan serangan terkoordinasi yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> sebesar 125%/187,5% ATK Sandrone kepada musuh. DMG ini dianggap sebagai DMG reaksi Stellar Glimmer yang sesuai. Efek ini dapat terpicu sekali setiap 4 detik.",
         "Icon": "UI_Talent_S_MarionetteNew_03"
       },
       {
@@ -757,7 +812,7 @@
       {
         "Id": 1336,
         "Name": "Narcissus Wakes, Her Eyes Upon the Dawn",
-        "Description": "Dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, saat Fagio menembakkan sinar terkondensasi untuk ketiga kalinya, serangan ini akan berubah menjadi <color=#FFD780FF>Condensed Cluster Beam</color> yang terus-menerus dan lebih kuat. Serangan ini akan mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan sebesar 100% ATK Sandrone di luar sinar terkondensasi dasar yang terus ditembakkan.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Tembakan <color=#FFD780FF>Condensed Cluster Beam</color> berubah menjadi: mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan sebesar 80% ATK Sandrone, dan DMG ini dianggap sebagai DMG reaksi Stellar-Conduct.\nSelain itu, semua DMG reaksi Stellar-Conduct yang diakibatkan oleh Sandrone {LINK#N11190007}<color=#FFD780FF>bertumbuh</color>{/LINK} sebesar 20%.",
+        "Description": "Dalam mode <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color>, saat Fagio menembakkan sinar terkondensasi untuk ketiga kalinya, serangan ini akan berubah menjadi <color=#FFD780FF>Condensed Cluster Beam</color> yang terus-menerus dan lebih kuat. Serangan ini akan mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan sebesar 100% ATK Sandrone di luar sinar terkondensasi dasar yang terus ditembakkan.\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: Tembakan <color=#FFD780FF>Condensed Cluster Beam</color> berubah menjadi: mengakibatkan hingga 4 kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan yang akan dianggap sebagai DMG reaksi Stellar Glimmer yang sesuai, dan akan didasarkan pada ATK Sandrone sebesar:\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: 80%;\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: 120%.\nSelain itu, semua DMG reaksi Stellar Glimmer yang diakibatkan oleh Sandrone {LINK#N11190007}<color=#FFD780FF>bertumbuh</color>{/LINK} sebesar 20%.",
         "Icon": "UI_Talent_S_MarionetteNew_04"
       }
     ]
@@ -773,10 +828,10 @@
     "VisionOverrideLocked": "Stellar Linchpin",
     "VisionOverrideUnlocked": "Vision",
     "ConstellationBefore": "Narcissorolegium",
-    "CvChinese": "Haitian HONG",
-    "CvJapanese": "HONDA Mariko",
-    "CvEnglish": "Deneen MELODY",
-    "CvKorean": "KANG Eun-ae",
+    "CvChinese": "洪海天",
+    "CvJapanese": "本多真梨子",
+    "CvEnglish": "Deneen Melody",
+    "CvKorean": "Kang Eun-ae",
     "CookBonus": {
       "OriginItemId": 108534,
       "ItemId": 108976,
@@ -1120,7 +1175,7 @@
       },
       {
         "Title": "Kisah Karakter 3",
-        "Context": "Dia tidak pernah menyangka dirinya sendiri akan tinggal selama itu di Snezhnaya. Dia juga tidak pernah menyangka ada tempat sedingin ini di dunia, sampai-sampai otaknya perlu dicairkan dulu biar bisa berpikir jernih!\nKehidupan di Fatui terasa ringan baginya, bahkan bisa dibilang menyenangkan. Tidak perlu belanja sendiri ke pasar, tidak perlu mengurus kebutuhan orang lain, malah di mana-mana ada kemudahan yang menjadi hak seorang Harbinger. Tugas yang diberikan Tsaritsa pun sangat mudah bagi seorang jenius seperti dirinya.\nSuatu hari, ketika dia menuliskan tanggal di buku hariannya, dia terkejut menemukan kalau waktu yang dia habiskan di sini ternyata sudah begitu mudah melampaui waktu yang pernah dilewatkannya bersama Alain di Fontaine.\nRasanya seperti sudah jadi rumah kedua bagi dirinya sendiri. Begitu pikirnya.\nLalu, sebenarnya mana yang jadi rumahnya sendiri? tanyanya pada diri sendiri. Apa itu \"rumah\"?\nTempat di mana dirinya dibutuhkan? Lumayan cocok. Pekerjaannya di Fatui memang tidak bisa digantikan, atau lebih tepatnya, sulit untuk digantikan. Tsaritsa pun jelas membutuhkannya.\nAtau tempat yang nyaman untuk ditinggali? Snezhnaya juga cukup nyaman, dan peralatan penelitian yang dibutuhkannya pun lengkap sekali. Sesekali, dia masih bisa pergi menonton opera.\nAtau tempat di mana ada \"keluarga\"? Keluarga ... yang dia punya sekarang hanyalah Pulonia. Apakah tempat Pulonia berada itu yang disebut rumah? Kalau begitu, kalau dia pergi ke bangsa lain bersama Pulonia, misalnya Mondstadt, apakah Mondstadt akan menjadi rumah mereka?\nPada akhirnya, akar masalahnya tetap sama: Dia tidak tahu apa yang ingin dia lakukan dan apa keinginannya sendiri. Dia sadar akan hal itu. Dia hanya ikut arus saja, meneruskan kebiasaan \"merasa dibutuhkan\" itu.\nDia merasa dirinya yang seperti itu sangat menyedihkan. Tapi tidak tahu cara mengubahnya. Menyebalkan.\nKalau harus mengungkit hal yang menyebalkan dari Snezhnaya, mungkin itu karena terlalu banyak rekan kerja yang tidak bisa dia tolerir dan benci.\nAwalnya dia mengamati perasaannya sendiri dengan penuh kehati-hatian. Dia khawatir, seperti saat dia awalnya membenci Alain lalu akhirnya menemukan ada bagian dari dirinya yang ternyata bisa disukai olehnya, hal yang sama mungkin terjadi pada rekan-rekan kerjanya.\nTapi tidak bisa. Dia menemukan bahwa ada orang yang meski waktu sudah lama berlalu, seberapa pun objektifnya dia dalam mencatat, dia tetap tidak bisa menahan rasa tidak sukanya pada mereka. Berbeda dengan kasus Alain, bagian yang tidak dia sukai dari orang-orang ini jauh lebih banyak daripada yang dia sukai. Bahkan, tidak ada bagian yang dia sukai sama sekali.\nDia juga tidak tahu cara mengubah situasi ini. Dia tidak ingin mengubah orang lain, apalagi mengubah dirinya sendiri. Ah, menyebalkan!\nMungkin dirinya masih dalam proses belajar, masih berlatih bagaimana cara menjalani hidup. Mungkin referensi yang bisa didapatnya tidak cukup, pengetahuannya tidak cukup. Pengetahuan adalah fondasi dunia, begitu yang sering didengarnya dari Alain, dan begitu pula yang sering dikatakannya pada diri sendiri.\nSemoga dalam proses menumpuk batu demi batu di masa depan, dia bisa menemukan jawaban atas masalah-masalah itu. Tidak perlu buru-buru, dia punya banyak waktu.\nSoal sekarang ... katanya Tsaritsa merekrut Harbinger baru, yang kerjanya seharian nyanyi-nyanyi di taman? Hmm, agak penasaran juga, coba lihat ah ...."
+        "Context": "Dia tidak pernah menyangka dirinya sendiri akan tinggal selama itu di Snezhnaya. Dia juga tidak pernah menyangka ada tempat sedingin ini di dunia, sampai-sampai otaknya perlu dicairkan dulu biar bisa berpikir jernih!\nKehidupan di Fatui terasa ringan baginya, bahkan bisa dibilang menyenangkan. Tidak perlu belanja sendiri ke pasar, tidak perlu mengurus kebutuhan orang lain, malah di mana-mana ada kemudahan yang menjadi hak seorang Harbinger. Tugas yang diberikan Tsaritsa pun sangat mudah bagi seorang jenius seperti dirinya.\nSuatu hari, ketika dia menuliskan tanggal di buku hariannya, dia terkejut menemukan kalau waktu yang dia habiskan di sini ternyata sudah begitu mudah melampaui waktu yang pernah dilewatkannya bersama Alain di Fontaine.\nRasanya seperti sudah jadi rumah kedua bagi dirinya sendiri. Begitu pikirnya.\nLalu, sebenarnya mana yang jadi rumahnya sendiri? tanyanya pada diri sendiri. Apa itu \"rumah\"?\nTempat di mana dirinya dibutuhkan? Lumayan cocok. Pekerjaannya di Fatui memang tidak bisa digantikan, atau lebih tepatnya, sulit untuk digantikan. Tsaritsa pun jelas membutuhkannya.\nAtau tempat yang nyaman untuk ditinggali? Snezhnaya juga cukup nyaman, dan peralatan penelitian yang dibutuhkannya pun lengkap sekali. Sesekali, dia masih bisa pergi menonton opera.\nAtau tempat di mana ada \"keluarga\"? Keluarga ... yang dia punya sekarang hanyalah Pulonia. Apakah tempat Pulonia berada itu yang disebut rumah? Kalau begitu, kalau dia pergi ke bangsa lain bersama Pulonia, misalnya Mondstadt, apakah Mondstadt akan menjadi rumah mereka?\nPada akhirnya, akar masalahnya tetap sama: Dia tidak tahu apa yang ingin dia lakukan dan apa keinginannya sendiri. Dia sadar akan hal itu. Dia hanya ikut arus saja, meneruskan kebiasaan \"merasa dibutuhkan\" itu.\nDia merasa dirinya yang seperti itu sangat menyedihkan. Tapi tidak tahu cara mengubahnya. Menyebalkan.\nKalau harus mengungkit hal yang menyebalkan dari Snezhnaya, mungkin itu karena terlalu banyak rekan kerja yang tidak bisa dia tolerir dan benci.\nAwalnya dia mengamati perasaannya sendiri dengan penuh kehati-hatian. Dia khawatir, seperti saat dia awalnya membenci Alain lalu akhirnya menemukan ada bagian dari dirinya yang ternyata bisa disukai olehnya, hal yang sama mungkin terjadi pada rekan-rekan kerjanya.\nNamun, ternyata tidak bisa. Dia sadar bahwa ada beberapa orang yang tetap membuatnya merasa muak, sekalipun waktu sudah berlalu begitu lama dan sekalipun dia sudah mencatat semuanya seobjektif mungkin. Berbeda dengan Alain, pada diri orang-orang ini, hal yang tidak dia sukai jauh lebih banyak daripada hal yang dia sukai. Tidak, bahkan mungkin tidak ada satu pun hal yang dia sukai dari mereka.\nDia juga tidak tahu cara mengubah situasi ini. Dia tidak ingin mengubah orang lain, apalagi mengubah dirinya sendiri. Ah, menyebalkan!\nMungkin dirinya masih dalam proses belajar, masih berlatih bagaimana cara menjalani hidup. Mungkin referensi yang bisa didapatnya tidak cukup, pengetahuannya tidak cukup. Pengetahuan adalah fondasi dunia, begitu yang sering didengarnya dari Alain, dan begitu pula yang sering dikatakannya pada diri sendiri.\nSemoga dalam proses menumpuk batu demi batu di masa depan, dia bisa menemukan jawaban atas masalah-masalah itu. Tidak perlu buru-buru, dia punya banyak waktu.\nSoal sekarang ... katanya Tsaritsa merekrut Harbinger baru, yang kerjanya seharian nyanyi-nyanyi di taman? Hmm, agak penasaran juga, coba lihat ah ...."
       },
       {
         "Title": "Kisah Karakter 4",

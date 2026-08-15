@@ -1,0 +1,1369 @@
+{
+  "Id": 10000150,
+  "PromoteId": 150,
+  "Sort": 120,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Odette",
+  "SideIcon": "UI_AvatarIcon_Side_Odette",
+  "Name": "Odette",
+  "Description": "Una célebre bailarina de ballet de Snezhnaya que florece en las nieves con una belleza tan nítida como la escarcha.",
+  "BeginTime": "2026-08-11T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1010.5192,
+    "AttackBase": 26.068,
+    "DefenseBase": 61.26592
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 15031,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "#Daño de 3er golpe|{param3:F1P}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param4:F1P}",
+            "Daño de 4.º golpe|{param5:F1P}",
+            "Daño de 5.º golpe|{param6:F1P}",
+            "Daño de ATQ Cargado|{param7:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param8:F1} pts.",
+            "Daño de Caída|{param9:F1P}",
+            "Daño de impacto de caída baja/alta|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503101,
+              "Level": 1,
+              "Parameters": [
+                0.518571,
+                0.515106,
+                0.326112,
+                0.382786,
+                0.745732,
+                0.902123,
+                1.07414,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1503102,
+              "Level": 2,
+              "Parameters": [
+                0.560781,
+                0.557033,
+                0.352656,
+                0.413943,
+                0.806431,
+                0.975551,
+                1.16157,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1503103,
+              "Level": 3,
+              "Parameters": [
+                0.60299,
+                0.59896,
+                0.3792,
+                0.4451,
+                0.86713,
+                1.04898,
+                1.249,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1503104,
+              "Level": 4,
+              "Parameters": [
+                0.663289,
+                0.658856,
+                0.41712,
+                0.48961,
+                0.953843,
+                1.153878,
+                1.3739,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1503105,
+              "Level": 5,
+              "Parameters": [
+                0.705498,
+                0.700783,
+                0.443664,
+                0.520767,
+                1.014542,
+                1.227307,
+                1.46133,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1503106,
+              "Level": 6,
+              "Parameters": [
+                0.753738,
+                0.7487,
+                0.474,
+                0.556375,
+                1.083912,
+                1.311225,
+                1.56125,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1503107,
+              "Level": 7,
+              "Parameters": [
+                0.820066,
+                0.814586,
+                0.515712,
+                0.605336,
+                1.179297,
+                1.426613,
+                1.69864,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1503108,
+              "Level": 8,
+              "Parameters": [
+                0.886395,
+                0.880471,
+                0.557424,
+                0.654297,
+                1.274681,
+                1.542001,
+                1.83603,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1503109,
+              "Level": 9,
+              "Parameters": [
+                0.952724,
+                0.946357,
+                0.599136,
+                0.703258,
+                1.370065,
+                1.657388,
+                1.97342,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1503110,
+              "Level": 10,
+              "Parameters": [
+                1.025083,
+                1.018232,
+                0.64464,
+                0.75667,
+                1.474121,
+                1.783266,
+                2.1233,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1503111,
+              "Level": 11,
+              "Parameters": [
+                1.097442,
+                1.090107,
+                0.690144,
+                0.810082,
+                1.578177,
+                1.909144,
+                2.27318,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1503112,
+              "Level": 12,
+              "Parameters": [
+                1.169801,
+                1.161982,
+                0.735648,
+                0.863494,
+                1.682232,
+                2.035021,
+                2.42306,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1503113,
+              "Level": 13,
+              "Parameters": [
+                1.242159,
+                1.233858,
+                0.781152,
+                0.916906,
+                1.786288,
+                2.160899,
+                2.57294,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1503114,
+              "Level": 14,
+              "Parameters": [
+                1.314518,
+                1.305733,
+                0.826656,
+                0.970318,
+                1.890343,
+                2.286776,
+                2.72282,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1503115,
+              "Level": 15,
+              "Parameters": [
+                1.386877,
+                1.377608,
+                0.87216,
+                1.02373,
+                1.994399,
+                2.412654,
+                2.8727,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11501,
+        "Name": "Variación del cisne níveo",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para ejecutar un tajo cegador hacia delante.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 15032,
+        "Proud": {
+          "Descriptions": [
+            "Daño de habilidad|{param1:F1P}",
+            "Daño continuo de Coda del amanecer|{param2:F1P}",
+            "Daño de Superconductor Estelar/Torbellino Estelar de Coda del amanecer|{param3:P}/{param4:P}",
+            "Daño de paso de baile plumífero|{param5:F1P}",
+            "Daño de Superconductor Estelar/Torbellino Estelar de paso de baile plumífero|{param6:P}/{param7:P}",
+            "Daño de paso de baile alado|{param8:F1P}",
+            "Daño de Superconductor Estelar/Torbellino Estelar de paso de baile alado|{param9:P}/{param10:P}",
+            "#TdE de Coda del amanecer|{param13:F1}{NON_BREAK_SPACE}s",
+            "#Duración de doble bailarina|{param11:F1}{NON_BREAK_SPACE}s",
+            "#TdE de habilidad|{param12:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503201,
+              "Level": 1,
+              "Parameters": [
+                1.0808,
+                0.9584,
+                3.0576,
+                4.5864,
+                0.4304,
+                0.27024,
+                0.40528,
+                0.51464,
+                0.32312,
+                0.48464,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503202,
+              "Level": 2,
+              "Parameters": [
+                1.16186,
+                1.03028,
+                3.28692,
+                4.93038,
+                0.46268,
+                0.290508,
+                0.435676,
+                0.553238,
+                0.347354,
+                0.520988,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503203,
+              "Level": 3,
+              "Parameters": [
+                1.24292,
+                1.10216,
+                3.51624,
+                5.27436,
+                0.49496,
+                0.310776,
+                0.466072,
+                0.591836,
+                0.371588,
+                0.557336,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503204,
+              "Level": 4,
+              "Parameters": [
+                1.351,
+                1.198,
+                3.822,
+                5.733,
+                0.538,
+                0.3378,
+                0.5066,
+                0.6433,
+                0.4039,
+                0.6058,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503205,
+              "Level": 5,
+              "Parameters": [
+                1.43206,
+                1.26988,
+                4.05132,
+                6.07698,
+                0.57028,
+                0.358068,
+                0.536996,
+                0.681898,
+                0.428134,
+                0.642148,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503206,
+              "Level": 6,
+              "Parameters": [
+                1.51312,
+                1.34176,
+                4.28064,
+                6.42096,
+                0.60256,
+                0.378336,
+                0.567392,
+                0.720496,
+                0.452368,
+                0.678496,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503207,
+              "Level": 7,
+              "Parameters": [
+                1.6212,
+                1.4376,
+                4.5864,
+                6.8796,
+                0.6456,
+                0.40536,
+                0.60792,
+                0.77196,
+                0.48468,
+                0.72696,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503208,
+              "Level": 8,
+              "Parameters": [
+                1.72928,
+                1.53344,
+                4.89216,
+                7.33824,
+                0.68864,
+                0.432384,
+                0.648448,
+                0.823424,
+                0.516992,
+                0.775424,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503209,
+              "Level": 9,
+              "Parameters": [
+                1.83736,
+                1.62928,
+                5.19792,
+                7.79688,
+                0.73168,
+                0.459408,
+                0.688976,
+                0.874888,
+                0.549304,
+                0.823888,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503210,
+              "Level": 10,
+              "Parameters": [
+                1.94544,
+                1.72512,
+                5.50368,
+                8.25552,
+                0.77472,
+                0.486432,
+                0.729504,
+                0.926352,
+                0.581616,
+                0.872352,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503211,
+              "Level": 11,
+              "Parameters": [
+                2.05352,
+                1.82096,
+                5.80944,
+                8.71416,
+                0.81776,
+                0.513456,
+                0.770032,
+                0.977816,
+                0.613928,
+                0.920816,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503212,
+              "Level": 12,
+              "Parameters": [
+                2.1616,
+                1.9168,
+                6.1152,
+                9.1728,
+                0.8608,
+                0.54048,
+                0.81056,
+                1.02928,
+                0.64624,
+                0.96928,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503213,
+              "Level": 13,
+              "Parameters": [
+                2.2967,
+                2.0366,
+                6.4974,
+                9.7461,
+                0.9146,
+                0.57426,
+                0.86122,
+                1.09361,
+                0.68663,
+                1.02986,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503214,
+              "Level": 14,
+              "Parameters": [
+                2.4318,
+                2.1564,
+                6.8796,
+                10.3194,
+                0.9684,
+                0.60804,
+                0.91188,
+                1.15794,
+                0.72702,
+                1.09044,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503215,
+              "Level": 15,
+              "Parameters": [
+                2.5669,
+                2.2762,
+                7.2618,
+                10.8927,
+                1.0222,
+                0.64182,
+                0.96254,
+                1.22227,
+                0.76741,
+                1.15102,
+                20,
+                15,
+                15
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11502,
+        "Name": "Adagio: Danza nocturna fantasmagórica",
+        "Description": "#Con unos gráciles pasos de baile, inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> e invoca a una {LINK#N11500001}<color=#FFD780FF>doble bailarina</color>{/LINK} de sí misma.\nSi en el campo de batalla ya hay una <color=#FFD780FF>doble bailarina</color> invocada por Odette, volverá a invocarla y reiniciará su duración.\n\n<color=#FFD780FF>Doble bailarina</color>\nAlterna entre dos tipos de pasos de baile, el <color=#FFD780FF>plumífero</color> y el <color=#FFD780FF>alado</color>, para atacar cada cierto tiempo a los enemigos cercanos con unos movimientos gráciles y elegantes que infligen <color=#99FFFFFF>Daño Cryo en el AdE</color>.\nAdemás, durante 6{NON_BREAK_SPACE}s después de usar la Habilidad Elemental, <color=#FFD780FF>Adagio: Danza nocturna fantasmagórica</color>, esta se remplazará por la Habilidad Elemental especial {LINK#N11500002}<color=#FFD780FF>Adagio: Coda del amanecer</color>{/LINK}{LINK#N11500004}{/LINK}, con la cual realizará un dueto que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> repetidas veces a los enemigos cercanos. Al finalizar el dueto, infligirá una vez <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de Superconductor Estelar o Torbellino Estelar.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Odette_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 15039,
+      "Proud": {
+        "Descriptions": [
+          "Daño de tajo|{param1:F1P} ×3",
+          "Daño del último tajo|{param2:F1P}",
+          "Aumento de daño de Destello Estelar de sueño del cisne níveo|{param3:F1P}",
+          "#Duración de sueño del cisne níveo|{param4:F1}{NON_BREAK_SPACE}s",
+          "#Duración de doble bailarina|{param5:F1}{NON_BREAK_SPACE}s",
+          "#TdE|{param6:F1}{NON_BREAK_SPACE}s",
+          "Energía Elemental|{param7:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1503901,
+            "Level": 1,
+            "Parameters": [
+              1.10176,
+              1.70272,
+              0.14,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503902,
+            "Level": 2,
+            "Parameters": [
+              1.184392,
+              1.830424,
+              0.18,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503903,
+            "Level": 3,
+            "Parameters": [
+              1.267024,
+              1.958128,
+              0.22,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503904,
+            "Level": 4,
+            "Parameters": [
+              1.3772,
+              2.1284,
+              0.26,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503905,
+            "Level": 5,
+            "Parameters": [
+              1.459832,
+              2.256104,
+              0.3,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503906,
+            "Level": 6,
+            "Parameters": [
+              1.542464,
+              2.383808,
+              0.34,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503907,
+            "Level": 7,
+            "Parameters": [
+              1.65264,
+              2.55408,
+              0.38,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503908,
+            "Level": 8,
+            "Parameters": [
+              1.762816,
+              2.724352,
+              0.42,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503909,
+            "Level": 9,
+            "Parameters": [
+              1.872992,
+              2.894624,
+              0.46,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503910,
+            "Level": 10,
+            "Parameters": [
+              1.983168,
+              3.064896,
+              0.5,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503911,
+            "Level": 11,
+            "Parameters": [
+              2.093344,
+              3.235168,
+              0.54,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503912,
+            "Level": 12,
+            "Parameters": [
+              2.20352,
+              3.40544,
+              0.58,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503913,
+            "Level": 13,
+            "Parameters": [
+              2.34124,
+              3.61828,
+              0.62,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503914,
+            "Level": 14,
+            "Parameters": [
+              2.47896,
+              3.83112,
+              0.66,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503915,
+            "Level": 15,
+            "Parameters": [
+              2.61668,
+              4.04396,
+              0.7,
+              20,
+              20,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11505,
+      "Name": "Presto: Sueño de plumas umbrías",
+      "Description": "#Con unos ágiles pasos de baile, inflige varias veces <color=#99FFFFFF>Daño Cryo en el AdE</color>, invoca una {LINK#N11500001}<color=#FFD780FF>doble bailarina</color>{/LINK} de sí misma y obtiene el efecto de <color=#FFD780FF>sueño del cisne níveo</color>, el cual aumenta el daño de Destello Estelar infligido por Odette.\nAdemás, durante 6{NON_BREAK_SPACE}s después de usar la Habilidad Definitiva, <color=#FFD780FF>Presto: Sueño de plumas umbrías</color>, la Habilidad Elemental de Odette, <color=#FFD780FF>Adagio: Danza nocturna fantasmagórica</color>, se remplazará por la Habilidad Elemental especial {LINK#N11500002}<color=#FFD780FF>Adagio: Coda del amanecer</color>{/LINK}{LINK#N11500004}{/LINK}.\n\nSi en el campo de batalla ya hay una doble bailarina invocada por Odette, aparecerá a su lado y reiniciará su duración.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Odette_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 15021,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502101,
+              "Level": 1,
+              "Parameters": [
+                4,
+                0.15,
+                1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502101,
+        "Name": "Primavera de la elegida",
+        "Description": "Cuando Odette invoque a su {LINK#N11500001}<color=#FFD780FF>doble bailarina</color>{/LINK}, obtendrá también 4 cargas de {LINK#N11500003}<color=#FFD780FF>cadenza</color>{/LINK}.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_05"
+      },
+      {
+        "GroupId": 15022,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502201,
+              "Level": 1,
+              "Parameters": [
+                1000,
+                0.015,
+                0.3
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502201,
+        "Name": "Patética de la Patetícheskaya",
+        "Description": "#Por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Odette por encima de los 1000{NON_BREAK_SPACE}pts., el daño de Destello Estelar que inflige aumentará en un 1.5% adicional del daño original. Como máximo, podrá infligir un 30% adicional del daño original de esta manera.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_06"
+      },
+      {
+        "GroupId": 15023,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502301,
+        "Name": "Bendición fulgorestelar: Danza de la aurora",
+        "Description": "#Al estar dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK} o durante 8{NON_BREAK_SPACE}s después de que un personaje del equipo cause una reacción de Torbellino Estelar en las cercanías, Odette entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> o el de <color=#FFD780FF>esplendor: Torbellino Estelar</color>, respectivamente.\nCuando un personaje del equipo cause una reacción de Superconductor o Torbellino Cryo, esta se transformará respectivamente en una reacción de Superconductor Estelar o Torbellino Estelar. El daño base de estas reacciones de los personajes del equipo aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Odette. Como máximo, dicho daño puede aumentar en un 14% de esta manera.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_07"
+      },
+      {
+        "GroupId": 15025,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502501,
+        "Name": "Eco del sueño invernal",
+        "Description": "Muestra la ubicación de los <color=#FFD780FF>objetos típicos de Snezhnaya</color> cercanos en el minimapa.\nPracticar danza en el tiempo libre podría activar otros efectos...",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1501,
+        "Name": "“En una mañana sin danza, ella observó su reflejo”",
+        "Description": "Tras usar la Habilidad Elemental especial {LINK#N11500002}<color=#FFD780FF>Adagio: Coda del amanecer</color>{/LINK}, al finalizar el dueto, Odette infligirá <color=#99FFFFFF>Daño Cryo en el AdE</color> una vez más a los enemigos cercanos considerado de una naturaleza distinta:\n·Al encontrarse en estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> o en ningún estado de esplendor, dicho daño se considerará de Superconductor Estelar y será equivalente al 300% del ATQ de Odette.\n·Al encontrarse en estado de <color=#FFD780FF>esplendor: Torbellino Estelar</color>, dicho daño se considerará de Torbellino Estelar y será equivalente al 450% del ATQ de Odette.\n\nAdemás, fortalece el talento de ascensión “Primavera de la elegida”, de manera que, al invocar a la {LINK#N11500001}<color=#FFD780FF>doble bailarina</color>{/LINK}, Odette obtendrá 2 cargas adicionales de {LINK#N11500003}<color=#FFD780FF>cadenza</color>{/LINK} y, cuando esté en tu equipo pero no en uso, la velocidad a la que se eliminan las cargas de <color=#FFD780FF>cadenza</color> aumentará a 2 cargas por segundo.",
+        "Icon": "UI_Talent_S_Odette_01"
+      },
+      {
+        "Id": 1502,
+        "Name": "“Quiero ver los sueños nunca vistos por el cisne níveo”",
+        "Description": "Fortalece el talento de ascensión “Primavera de la elegida”, de manera que cada carga de {LINK#N11500003}<color=#FFD780FF>cadenza</color>{/LINK} también aumenta en un 7% el ATQ del personaje.\nAdemás, cuando la {LINK#N11500001}<color=#FFD780FF>doble bailarina</color>{/LINK} esté activa y Odette se encuentre en estado de {LINK#N11500004}<color=#FFD780FF>esplendor: Destello Estelar</color>{/LINK}, las RES Elementales correspondientes de los enemigos cercanos a la <color=#FFD780FF>doble bailarina</color> se reducirán en un 20%:\n·<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nReduce las RES <color=#99FFFFFF>Cryo</color> y <color=#FFACFFFF>Electro</color>.\n·<color=#FFD780FF>Esplendor: Torbellino Estelar</color>\nReduce las RES <color=#99FFFFFF>Cryo</color> y <color=#80FFD7FF>Anemo</color>.",
+        "Icon": "UI_Talent_S_Odette_02"
+      },
+      {
+        "Id": 1503,
+        "Name": "“Seguiré al viento aullante y ascenderé solitaria”",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11502}Adagio: Danza nocturna fantasmagórica{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Odette_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1504,
+        "Name": "“Hacia arriba, cayendo a un cielo borroso y ardiente”",
+        "Description": "#Fortalece la Habilidad Definitiva, <color=#FFD780FF>Presto: Sueño de plumas umbrías</color>, de manera que, cuando Odette obtiene el efecto de <color=#FFD780FF>sueño del cisne níveo</color>, el daño de Destello Estelar de los demás personajes cercanos del equipo también aumenta en una cantidad equivalente al 50% del efecto de <color=#FFD780FF>sueño del cisne níveo</color>.\n\nAdemás, cuando un personaje del equipo inflija daño de Destello Estelar a un enemigo, Odette también realizará un ataque coordinado contra dicho enemigo que le infligirá una vez <color=#99FFFFFF>Daño Cryo en el AdE</color>. Esto solo puede ocurrir una vez cada 3.5{NON_BREAK_SPACE}s y la naturaleza del daño infligido será distinta dependiendo de lo siguiente:\n·Al encontrarse en estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> o en ningún estado de esplendor, dicho daño se considerará daño de Superconductor Estelar y será equivalente al 66% del ATQ de Odette.\n·Al encontrarse en estado de <color=#FFD780FF>esplendor: Torbellino Estelar</color>, dicho daño se considerará daño de Torbellino Estelar y será equivalente al 99% del ATQ de Odette.",
+        "Icon": "UI_Talent_S_Odette_03"
+      },
+      {
+        "Id": 1505,
+        "Name": "“Observa, pues ya me he liberado del sufrimiento mundano”",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11505}Presto: Sueño de plumas umbrías{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Odette_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1506,
+        "Name": "“Extiende la mano y toca el rostro eterno del firmamento”",
+        "Description": "Fortalece el talento de ascensión “Primavera de la elegida”, de manera que, cuando Odette otorga {LINK#N11500003}<color=#FFD780FF>cadenza</color>{/LINK} a todos los personajes cercanos del equipo, la que ella tenga no se reducirá.\nAdemás, el daño de Destello Estelar que los personajes afectados por <color=#FFD780FF>cadenza</color> infligen a los enemigos {LINK#N11190007}<color=#FFD780FF>asciende</color>{/LINK} en un 25%, y el daño de Destello Estelar que Odette inflige a los enemigos asciende en un 20% adicional.",
+        "Icon": "UI_Talent_S_Odette_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Danzarina Nívea",
+    "Detail": "Una célebre bailarina de ballet de Snezhnaya que florece en las nieves con una belleza tan nítida como la escarcha.",
+    "Association": 15,
+    "Native": "Compañía Korolevski",
+    "BirthMonth": 2,
+    "BirthDay": 20,
+    "VisionBefore": "Cryo",
+    "VisionOverrideLocked": "Cuña Estelar",
+    "VisionOverrideUnlocked": "Visión",
+    "ConstellationBefore": "Cygnus Olor",
+    "CvChinese": "潘丹妮",
+    "CvJapanese": "上坂すみれ",
+    "CvEnglish": "Alexis Tipton",
+    "CvKorean": "Choi Hyun-ji",
+    "CookBonus": {
+      "OriginItemId": 132014,
+      "ItemId": 132017,
+      "InputList": [
+        101280,
+        100084,
+        110009,
+        100062
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Gracias por tu apoyo. Quieres un autógrafo, ¿verdad? ¿Qué quieres que dibuje al lado? ¿Qué tal una pluma? Ah, espera, ¿no eres uno de mis seguidores? Supongo que te he malinterpretado. Entonces, déjame empezar desde el principio. Soy Odette, una bailarina de la Compañía Korolevski... Bueno, gracias por tu apoyo, de todos modos."
+      },
+      {
+        "Title": "Charla - Ocupada",
+        "Context": "Bueno, si eso es todo, me voy a ensayar."
+      },
+      {
+        "Title": "Charla - No te compliques",
+        "Context": "Si basta con una respuesta sencilla, ¿por qué iba a decir algo más?"
+      },
+      {
+        "Title": "Charla - El tiempo",
+        "Context": "Ojalá el día tuviera el doble de horas... De hecho, mejor que sea el triple."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "El golpeteo de las gotas de lluvia siempre me hace sentir muy tranquila. Este tipo de tiempo es perfecto para bailar sola."
+      },
+      {
+        "Title": "Tras la lluvia...",
+        "Context": "Los momentos más hermosos y serenos son siempre los más fugaces."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "La nieve en Snezhnaya siempre es gélida y parece que nunca se acaba."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Mi peinado... Lo arreglaré más tarde."
+      },
+      {
+        "Title": "En el desierto...",
+        "Context": "Al menos no puede haber un encuentro con seguidores en un lugar como este."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Ya hice el calentamiento y estoy lista para empezar."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "No soy de las que duermen la siesta. El mediodía tampoco es un buen momento para entrenar, así que suelo pasar el tiempo leyendo los guiones de nuestras obras de danza. ¿Eh? ¿Que qué son estas cartas? Son de mis admiradores. Vodyanitsa prácticamente me las puso en la mano. Quiere que las lea aunque sea por una vez."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Ah, ¿ya es hora de cenar? Tengo que salir al escenario en un rato, así que solo me comeré un huevo duro. Ya tomaré algo más cuando termine el espectáculo."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Misiones completadas, cuota de entrenamiento cumplida, nueva rutina ensayada a la perfección. Aunque no estoy satisfecha con mis expresiones faciales. Necesito practicar un poco más frente al espejo... ¿Ya es tan tarde? Siéntete libre de retirarte. Todavía tengo cosas que hacer."
+      },
+      {
+        "Title": "Sobre Odette - Rókot",
+        "Context": "Desde que se puso en marcha el Plan Stuzha, nuestra audiencia ha ido disminuyendo. Mientras la mayoría de la gente lucha por salir adelante, las sanguijuelas corruptas siguen aprovechándose del público. Me niego a hacer la vista gorda. Sé que no puedo cambiar el rumbo por mi cuenta, pero aun así quiero hacer lo que esté a mi alcance."
+      },
+      {
+        "Title": "Sobre Odette - Su memoria",
+        "Context": "Los recuerdos de mi pasado están grabados para siempre en mi mente. Como una kinografía, se reproducen una y otra vez en plena noche... No hace falta decir que tener una memoria perfecta no siempre es algo bueno."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Confianza",
+        "Context": "Confiar en los demás para que me protejan es como apoyarse en una delgada capa de hielo recién formada. No pongo mis esperanzas en nadie más que en mí misma."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Heridas",
+        "Context": "Mi sensibilidad al dolor es bastante baja. Muchas veces ni siquiera me doy cuenta de que estoy lesionada hasta que la herida ya empieza a formar una costra. Pero prefiero que sea así. Ya sea en un ensayo de baile o en un entrenamiento especial de los Fatui, es mejor que algo tan trivial como mi estado físico no se interponga."
+      },
+      {
+        "Title": "Sobre la Cuña Estelar...",
+        "Context": "Una vez, durante una intensa sesión de entrenamiento, sufrí congelación en los pies y las piernas debido al frío extremo, y casi perdí el conocimiento por completo. Cuando volví en mí, lo primero que noté fue una luz brillante que emanaba de la Cuña Estelar que tenía enfrente. Nunca había oído que las Cuñas Estelares pudieran despertar a la gente de esa manera... Así que, si eso no fue lo que me despertó... quizás fue algún deseo instintivo de sobrevivir."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "Me tomo cada ensayo con la misma seriedad que una actuación real."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "Puedes resaltar el sabor dulce de las grosellas escarchadas espolvoreándolas con un poco de sal. Al parecer, el contraste ayuda a realzar su dulzura natural. Eso me lo dijo un seguidor."
+      },
+      {
+        "Title": "Sobre Rosalyne - El pasado",
+        "Context": "Estoy en deuda con Rosalyne, pero también hubo un tiempo en el que realmente la odiaba. Era muy exigente e increíblemente estricta. Congelarme de frío, desplomarme de agotamiento, lesionarme, enfermarme... todo eso era algo habitual cuando entrenaba con ella. Solía albergar ese sueño ingenuo de que solo tenía que triunfar como bailarina, ganar lo suficiente para mantener a mi madre y, luego, algún día, dejarla a ella y a los Fatui atrás."
+      },
+      {
+        "Title": "Sobre Rosalyne - Cor ignis",
+        "Context": "Cuando alguien ya no está, de repente hay muchas cosas que no vale la pena decir. Podría romper este cor ignis en un santiamén, pero eso haría que el dolor y los malentendidos que causó parecieran aún más ridículos... ¿Por qué es solo ahora, después de todo este tiempo, cuando por fin nos entendemos?"
+      },
+      {
+        "Title": "Sobre la Zarina...",
+        "Context": "Su majestad la Zarina es el pilar de la fe de Snezhnaya. Sus obligaciones la mantienen muy ocupada, por lo que rara vez hace apariciones públicas. De hecho, solo la he visto en unas pocas ocasiones, pero siempre me parece una figura increíblemente majestuosa y solemne. No importa dónde se pose su mirada, es tan fría e inquebrantable como una capa de hielo, una que ni siquiera el paso del tiempo podría derretir."
+      },
+      {
+        "Title": "Sobre La Damisela...",
+        "Context": "Camina con una gracia casi etérea que sería la envidia de cualquier bailarina. Según Vodyanitsa, también tiene una voz cautivadora. Aunque supongo que lo que vemos y envidiamos es la imagen que proyecta en apariencia. Quién sabe qué dolor oculto se esconde en su interior..."
+      },
+      {
+        "Title": "Sobre La Sota...",
+        "Context": "Los niños de la Casa de la Hoguera la consideran su “Padre”. Ojalá eso les ahorre algo del frío punzante y las tormentas furiosas que trae la vida. Al fin y al cabo, el papel de un padre es el de proteger."
+      },
+      {
+        "Title": "Sobre la Srta. Títere...",
+        "Context": "Las horas del té de la Srta. Títere siempre le levantaban el ánimo a Rosalyne. Era igual de estricta, pero su tono se volvía un poco más suave. La diferencia resultaba bastante notable."
+      },
+      {
+        "Title": "Sobre Vodyanitsa - Sonrisa",
+        "Context": "La primera vez que la Zarina vino a ver una de las presentaciones de la Compañía Korolevski, fue Vodyanitsa quien me lo dijo. Respondí con un simple movimiento de cabeza. Luego, ella me obligó a sonreír levantándome las comisuras de los labios y me hizo repetir después de ella: “Qué-gran-noticia”.\nQuizás fuera un ensayo para cuando tuviera que presentarme ante la Zarina, pero sigo sin creer que Su Majestad aprecie ese tipo de sonrisa."
+      },
+      {
+        "Title": "Sobre Vodyanitsa - Enfermarse",
+        "Context": "Cada vez que Vodyanitsa se enferma, se pone muy melosa y prácticamente se pega a mi lado. Dice que es porque le da miedo que le pongan una inyección o que tenga que tomar un medicamento amargo, así que necesita algo a lo que aferrarse, y supongo que mi brazo es su opción preferida. Sin embargo, tengo una gran tolerancia al dolor, así que no hay razón para quitármela de encima."
+      },
+      {
+        "Title": "Sobre Aliosha...",
+        "Context": "Podría ganarse la vida fácilmente solo con la caza si no le importara nada más que él mismo, pero aun así acepta trabajos ocasionales en el teatro para poder ayudar a otros que están pasándolo mal... No me sorprende que se haya unido a Rókot."
+      },
+      {
+        "Title": "Sobre Mitya...",
+        "Context": "Humm... Supongo que se le podría llamar un “seguidor” del teatro. Viene a vernos actuar a mí y a Vodyanitsa con bastante frecuencia. Pero en cuanto empieza la función, siempre se sumerge en sus notas, escribiendo sin parar sobre quién sabe qué. Es difícil no fijarse en él, sobre todo cuando el resto del público tiene los ojos clavados en el escenario. No me sorprendería que su bufanda apreciara más las artes que él mismo."
+      },
+      {
+        "Title": "Sobre Valeri...",
+        "Context": "El comandante Valeri es un oficial de los Fatui muy estricto en cuanto al cumplimiento de los horarios. Escuché que dirige con una actitud sensata que también puede resultar bastante aterradora... Pero pertenecemos a divisiones diferentes, así que casi nunca tenemos la oportunidad de interactuar. Además... no necesito que nadie me recuerde lo que debo hacer."
+      },
+      {
+        "Title": "Sobre Vesna...",
+        "Context": "No creas que es una mariposa delicada e inofensiva solo por esas alas. Puede que la gente se acerque a ella en masa, pero es la comandante en jefe de la Druzhna, uno de los depredadores más feroces de la tundra. Mantén los ojos bien abiertos y no te dejes engañar por su sonrisa."
+      },
+      {
+        "Title": "Más sobre Odette (I)",
+        "Context": "Tendrás que disculparme. Tengo el día bastante ocupado y más tarde debo ir a ensayar, así que si quieres charlar, por favor, que sea breve."
+      },
+      {
+        "Title": "Más sobre Odette (II)",
+        "Context": "Mi madre venía de una familia de bailarinas de ballet, y mi padre servía en los Fatui. Se conocieron después de una de sus actuaciones y se enamoraron rápidamente. Es una historia bonita que seguro que le sacaría una sonrisa a cualquiera. Cuando era pequeña, pasaba los días bailando junto a mi madre, vestida con uno de los muchos tutús hermosos que mi padre me compraba. No tenía preocupaciones... excepto, tal vez, decidir qué tomar cada día del frasco de dulces."
+      },
+      {
+        "Title": "Más sobre Odette (III)",
+        "Context": "Por supuesto, al poco tiempo recibimos la trágica noticia de que mi padre había fallecido en el cumplimiento de su deber. Mi madre quedó devastada y terminó rompiéndose la pierna durante una actuación. Antes de eso, la vida era dulce como el azúcar. Pero después, sentía como si el frasco de dulces estuviera vacío y yo estuviera atrapada dentro."
+      },
+      {
+        "Title": "Más sobre Odette (IV)",
+        "Context": "Después de eso, bueno... Ya sabes lo que pasó. He revivido esos recuerdos tantas veces que ya no pueden hacerme daño. Luchar contra lo que el destino me deparó... me hizo fuerte, y esa fortaleza es solo mía. No lo olvidaré."
+      },
+      {
+        "Title": "Más sobre Odette (V)",
+        "Context": "#Nunca les contaría nada de esto a mis seguidores, así que menos mal que no eres un{F#a}{M#o} de ellos. Ya tengo demasiadas versiones de mí misma que mantener, y prefiero que no se mezclen entre sí... Por supuesto, en mi corazón, seguiré bailando para siempre en busca de la perfección."
+      },
+      {
+        "Title": "Aficiones de Odette...",
+        "Context": "Siempre me ha encantado el ballet, y hago todo lo posible por dar lo mejor de mí cada vez que subo al escenario."
+      },
+      {
+        "Title": "Preocupaciones de Odette...",
+        "Context": "La verdad, siento que los animalitos me odian. Vodyanitsa siempre me hace acompañarla a alimentar a los gatos callejeros que hay cerca del teatro, pero en cuanto me acerco, empiezan a afilarse las garras... ¿Eh? ¿Eso significa que se alegran de verme? Humm..."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Justo antes de cerrar, las ensaladas del comedor están a mitad de precio, así que solía comerlas mucho. Obviamente, las ensaladas que han estado fuera todo el día no saben tan bien como las frescas, pero hay algo familiar en ellas que me resulta bastante reconfortante."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "Para ser sincera, no creo que haya ningún alimento que me resulte particularmente desagradable. Pero, como bailarina de ballet, tengo que ser estricta con mi dieta, así que todas mis comidas están cuidadosamente planificadas. Suelo evitar todo lo que no esté incluido en ese plan."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "He tenido bastantes actuaciones estos últimos días. Quizás un poco más no estaría... *Ejem*, no importa. Está delicioso. Gracias."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "¿Esto es solo un plato? Parece más bien... la comida de todo un día."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Ah, no, gracias. Estoy cuidando lo que como."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "¡Feliz cumpleaños! Estaba pensando qué regalarte... Normalmente me regalan cosas como flores, zapatos de ballet y cajas de música, pero dudo que eso sea lo que tienes en mente. ¿Qué tal si simplemente... pides un deseo, aquí y ahora? Ojalá sea algo que esté a mi alcance conceder, claro."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "Humm, todavía me falta... Necesito entrenar aún más duro."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Humm, siento que mis movimientos son más precisos. Debería mantener esta intensidad."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Mis fouettés ya son perfectos. Pero no es momento de bajar la guardia."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "“La emoción es una parte indispensable del ballet”. Ahora entiendo lo que eso significa. Gracias por tu fiel compañía y apoyo. Si te interesa venir a mi actuación más tarde, aquí tienes una entrada."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "Comencemos."
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "Sígueme."
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Juntos."
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "Pas de deux."
+      },
+      {
+        "Title": "Habilidad Elemental (V)",
+        "Context": "Pirouette."
+      },
+      {
+        "Title": "Habilidad Elemental (VI)",
+        "Context": "Je."
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Vals de los copos de nieve."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Adagio cristalino."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "Contempla la elegancia del cisne níveo."
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "No necesito nada de esto. Quédatelo tú."
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Un viaje se parece mucho a un ensayo de baile: cada paso cuenta."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "El esfuerzo da sus frutos."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "No es nada."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "No es más que un rasguño."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "Estoy bien."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¿Estás bien?"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Cambiemos."
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "Debí haberme... esforzado... más..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "No. Tengo... que... levantarme..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "Así que esto es... el dolor..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "... ¿Eh?"
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (II)",
+        "Context": "Esfuérzate más."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "¿Solo eso?"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "¿Eso se supone que duele?"
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Estoy preparada."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "¿Me estás invitando a actuar?"
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "¿A dónde vamos esta vez?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "En otras tierras, la palabra “bailarina” suele evocar a una persona cálida y cercana, una presencia serena que brinda consuelo a lo largo del camino de la vida.\nSin embargo, en Snezhnaya la imagen es mucho más fría. La mayoría de la gente piensa primero en Odette Spessiva, prima ballerina de la Compañía Korolevski.\nAparece en todos los carteles promocionales con la misma expresión serena. Su mirada es calma y distante, los labios ligeramente apretados, el rostro tan inmóvil como una estatua tocada por la escarcha.\nEsa fría reserva no hace sino resaltar aún más el fervor de sus admiradores. Y no es difícil entender por qué. Odette posee un físico impecable, y sus actuaciones combinan una austeridad cortante con una tremenda tensión dramática. Cada paso y cada movimiento de su mano poseen la precisión de una gema tallada a la perfección, y cada gesto capta la luz con un brillo que atrapa la mirada.\nNadie puede presenciar semejante maestría sin reconocer el esfuerzo que hay detrás. En el instante en que Odette pisa el escenario, toda voz de duda se desvanece.\nSin embargo, una vez cae el telón, rara vez vuelve a salir a escena. Sus admiradores pueden acercarse con flores y elogios, pero apenas recibirán unas pocas palabras por respuesta.\n“Gracias por tu apoyo. Adiós”.\nSu brevedad puede confundirse fácilmente con una frialdad deliberada, pero Odette no tiene intención de darse aires. Más allá del escenario y del resplandor de sus luces, la esperan otras responsabilidades. Su vida es como el calendario en su pared: cada espacio ya está ocupado, sin un solo hueco libre para sí misma.\nSi llegas a vislumbrar, en la profundidad de una noche nevada, una figura silenciosa que avanza con una ligereza impropia de cualquier viajero, lo más prudente será no seguirla. Las noches de Snezhnaya son despiadadamente frías, y la gente de bien ya duerme tras las ventanas cerradas. Quienes se aventuran a salir a semejante hora rara vez lo hacen sin un propósito.\nSin importar lo que la noche le exija, Odette regresa al teatro a tiempo a la mañana siguiente. Desde la sala de ensayos llegan las tenues notas de una melodía o el suave y amortiguado golpeteo de sus zapatillas de punta contra el suelo. Su reflejo se desliza por la pared de espejos mientras repite una y otra vez la misma elevación y descenso, cada movimiento medido con la precisión de un metrónomo.\nCuando el amanecer empieza a iluminar la sala y el resto de la compañía comienza a entrar, a menudo se detienen al verla.\n¿Había pasado toda la noche allí su prima ballerina?"
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "Al finalizar cada temporada de la Compañía Korolevski de Snezhnaya, las páginas de arte de los principales periódicos se llenaban invariablemente de apasionados comentarios sobre Odette, la prima ballerina de la Compañía.\n“Perfección, pulida hasta un brillo gélido”. Un periódico cultural repitió tanto ese veredicto que dejó de sonar a crítica y se convirtió, en cambio, en el epíteto por el que se la conocía.\nTripolev, uno de los críticos más célebres de Snezhnaya, ofreció una valoración más vívida: “Odette baila como una daga afilada hasta la perfección, cortando el aire con limpieza. El público solo puede maravillarse ante la belleza de su filo y la precisión de su movimiento, a sabiendas de que es mejor no intentar alcanzarla”.\nPara cualquier otra bailarina, una fama así podría haberse convertido en una carga silenciosa. El público puede admirar la belleza, pero abraza con más facilidad aquella que se siente cálida, lírica y emocionalmente cercana. La belleza es más fácil de comprender cuando parece dispuesta a encontrarse con el espectador a medio camino.\nSin embargo, Odette no ofrecía tal invitación. De la pasión y la emoción que el público anhelaba vislumbrar en ella, no concedía nada... ni siquiera la sonrisa sincera que se espera al caer el telón.\nFuera de las expresiones que exigía el papel que interpretaba, sus rasgos permanecían fríos y contenidos, tanto en público como en privado.\nParecía haber volcado todas sus fuerzas en perfeccionar su arte. Se imponía estándares muy por encima de los que se esperaban incluso de una prima ballerina, y los resultados hablaban por sí solos. ¿Qué más estaba obligada a dar? Fingir emociones solo para complacer al público no formaba parte del deber de una bailarina principal. Al menos, Odette no creía que lo fuera.\nLas historias sobre ella no escaseaban.\nUna de las más conocidas es la de un noble que pagó una pequeña fortuna por reservar una fila entera de asientos de primera clase. Al terminar la función, esperó dos horas frente a la puerta del escenario con un enorme ramo de flores azul hielo entre los brazos. Lo que recibió al final no fue a Odette, sino un mensaje del personal del teatro: “La Srta. Odette ya se marchó por la entrada lateral”.\nOtro admirador plasmó en una carta diez páginas de ferviente devoción. Odette respondió con las mismas palabras de siempre: “Gracias por tu apoyo”. De no haber coincidido la caligrafía exactamente con la de su firma, cualquiera habría creído que la respuesta era obra de otra persona.\nY luego estaba el admirador ebrio que bloqueó la entrada del teatro e intentó entablar con Odette una conversación sobre la influencia del ballet en Snezhnaya, hilando una sucesión de palabras sin conexión alguna. Ella no hizo ningún intento por esquivarlo. Simplemente se detuvo y lo miró... “Se quedó paralizado durante varios segundos”, recordaría después un testigo. “Entonces, como si le hubieran arrojado encima un balde de agua helada, murmuró algo entre dientes, se dio la vuelta y se marchó”.\n...\nOdette no adornaba sus sentimientos ni suavizaba las realidades de la vida. No había artificio alguno en su fortaleza. Clara y auténtica, poseía la misma fría determinación y la misma obstinada resistencia que las tierras heladas bajo sus pies, una cualidad que resonaba profundamente en el pueblo de Snezhnaya.\nSu actitud no cambió nunca, tan distante como siempre. Y, aun así, la fila fuera del teatro nunca disminuía, del mismo modo que la nieve no dejaba de caer."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Incluso dentro de la Compañía Korolevski, solo un puñado de personas pueden hablar con libertad con Odette fuera de sus actuaciones.\nVodyanitsa es, sin lugar a dudas, una de ellas.\nSin embargo, su relación comenzó con poco más que las exigencias prácticas del escenario: organizar el programa, preparar los vestuarios y tranquilizar a los artistas vencidos por los nervios antes de su primera aparición.\n“Igual que en los ensayos. Escuchen el ritmo, recuerden los pasos y ejecútenlos uno a uno”. Serena y casi inexpresiva, la prima ballerina les ofreció el mismo consejo que les habría dado durante una práctica, como si pisar el escenario no fuera distinto a ensayar para él. Las bailarinas intercambiaron miradas de incertidumbre y sus preguntas pasaron en silencio de un rostro a otro. Aun así, sus corazones agitados comenzaron a calmarse bajo la serena firmeza de su voz, como la nieve recién caída que cubre un campo y borra cada huella apresurada y vacilante.\n“Muy bien, chicas. ¡Dense unos golpecitos en el pecho y dejen que sus corazones se aceleren! ¡Van a vivir una experiencia inolvidable sobre el escenario!”. La voz de la soprano principal resonó, exuberante y casi estridente, y sus chicas respondieron golpeándose el pecho con los rostros encendidos de emoción. Su voz las recorrió como olas en el mar, arrastrándolas en su corriente y llevándose consigo a toda aquella lo bastante valiente y perspicaz como para dejarse llevar.\nUna a una, las intérpretes fueron subiendo al escenario, dejando a las dos protagonistas descansando entre bastidores. Sus partes ya habían concluido con éxito y habían hecho todo lo posible por la función. El acto final pertenecía ahora a las recién llegadas.\nDurante un instante, el silencio reinó en el camerino. Entonces, la música comenzó en el escenario y sus tenues notas se filtraron entre bastidores, rompiendo la quietud.\nUn caramelo de miel se deslizó dentro de la taza de la nixie. Cayó con un leve chapoteo, como una perla deslizándose entre pliegues de seda.\n“... Es bueno para la garganta”.\nEso fue todo lo que dijo Odette. Se dio la vuelta y volvió a atarse con cuidado las zapatillas de ballet, dejando a Vodyanitsa con la mirada perdida en el agua caliente azucarada que tenía delante.\nSolo más tarde quedaría claro el significado de aquel pequeño gesto. Odette solía guardar esos caramelos para sí misma, reservándolos para recuperar fuerzas tras las largas y exigentes horas de entrenamiento. El que le dio a Vodyanitsa aquel día era el último que le quedaba. Lo que Odette aún no sabía era que Vodyanitsa poseía un don excepcional para el canto. Como nixie, apenas sentía esfuerzo alguno en su voz.\nSin embargo, en aquel momento, Vodyanitsa aceptó con gusto aquella muestra de amabilidad ofrecida con sinceridad, sobre todo viniendo de alguien tan cristalina y pura como un trozo de hielo fino.\nAl fin y al cabo, en el frío extremo de Snezhnaya, la bondad era demasiado escasa como para dejarla desatendida. En cuanto uno la encontraba, debía acercarla a su pecho. De lo contrario, podría congelarse antes de que alguien pudiera volver a alcanzarla.\n...\n“No me quedan caramelos”.\n“No es cierto. Esta mañana puse tres cajas en tu bolsa. Dame una”.\n“No los necesitas para la garganta”.\n“Entonces los necesito para recuperar fuerzas”.\n“¿De qué? Si la que estaba bailando era yo”.\n“¡Y yo estaba cantando! Se supone que tienes que decir: ‘Ay, querida Vodyanitsa, tu voz era tan hermosa que podría escucharla por siempre’, y luego darme otro caramelo”.\n“... Puedo darte mi opinión cuando termine la función”.\n“¡Acabas de sonreír! ¡Lo vi! ¡Sonreíste! Espera, ¿sigues bailando? ¡Oye! Ya basta. ¡Vamos a comer!”.\nVodyanitsa no se lo imaginó. Por un brevísimo instante, la comisura de los labios de Odette se elevó en una sonrisa.\nSin embargo, Odette jamás reconoce aquel gesto como una sonrisa.\n“Simplemente era la expresión que el papel requería”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "Cuando Odette nació, la gloria de la familia Spessiva se había desvanecido hace mucho tiempo. Lo único que quedaba de ella eran un puñado de retratos amarillentos en las paredes de la vieja casa, cada uno preservando la imagen de un antepasado que alguna vez brilló sobre el escenario. Su madre, Violetta, acababa de obtener un papel secundario importante en un ballet, pero sus pensamientos ya estaban puestos en el papel principal. Decidió que cuando llegara ese día, añadiría un retrato suyo a la pared. Como si hubiera escuchado aquel pensamiento, la pequeña Odette comenzó de pronto a llorar dentro de sus mantillas, protestando con todas las fuerzas de sus diminutos pulmones.\n“Oh, perdóname, Odette”. Violetta sonrió y tocó suavemente la nariz de su hija. “Por supuesto que tú también saldrás en el cuadro... Mejor aún, haremos un retrato familiar, todos juntos”.\nTum, tum, tum... El pesado y acompasado taconeo de unas botas militares resonó al otro lado de la puerta. Era una señal destinada únicamente a ese hogar, y Violetta supo al instante a quién anunciaba. Su esposo aún estaba en el umbral, sacudiendo la nieve de sus botas, cuando ella fue a recibirlo con una sonrisa.\nLa vieja casa era demasiado grande para mantenerla debidamente cálida. El fuego del hogar ardía débilmente, y la calefacción nunca llegaba a hacer frente al frío. Aun así, entre los brazos de los demás, la familia encontraba todo el calor que necesitaba.\nA medida que Odette crecía, aquel ritmo se volvió tan familiar para ella como el rostro de su padre. Tum, tum, tum... Significaba la cena, los cuentos y la serena certeza de que la noche transcurriría en paz.\nEl padre de Odette era soldado y entendía poco de arte. El olor a cuero y a pólvora lo acompañaba todo el año, a menudo mezclado con un rastro del aire gélido del exterior. Aun así, nadie en la familia era un público más entusiasta que él. Cada vez que Violetta ensayaba, él acercaba una silla al rincón y se sentaba a observar. De vez en cuando, intentaba seguir la música con el pie, aunque rara vez acertaba con el ritmo. Violetta se reía y lo llamaba “el hombre con peor sentido del ritmo en toda Snezhnaya”. Él nunca lo discutía. Solo sonreía y decía entre risas: “Pero soy el mejor aplaudiendo en toda Snezhnaya”.\nEso, al menos, era cierto. Ya interpretara Violetta una pieza formal o simplemente tarareara una melodía e improvisara sobre la marcha, él siempre recibía el final con un aplauso atronador. Radiante y sincero, espantaba a los pájaros del alféizar y hacía que la pequeña Odette estallara en carcajadas.\nTodavía era demasiado pequeña para bailar. En su lugar, se deslizaba por el suelo con los calcetines puestos, o se subía sobre las botas militares de su padre, sujetando sus dedos con ambas manos. Él daba un paso y ella lo seguía, tambaleándose como un polluelo que aún no confiaba del todo en sus patas.\n“¿Ves?”, le decía su padre a Violetta. “Tenemos nuestro propio cisne níveo”.\n“Como mucho, tenemos un patito”, respondía Violetta entre risas. “Los cisnes níveos mantienen la espalda recta”.\nEntonces, su padre se agachaba junto a Odette y le tocaba la espalda suavemente con dos dedos: “Eso es. Espalda recta, pequeño cisne níveo”.\nNo pasó mucho tiempo antes de que los juegos dieran paso a las lecciones formales. Violetta comenzó a enseñarle a Odette los fundamentos con seriedad: estiramientos, tendus, petits battements. Eran tediosos ejercicios para principiantes, repetidos una y otra vez, cien veces y luego cien veces más. Como maestra, Violetta no permitía concesiones. Un pie mal colocado significaba empezar de nuevo. No había lugar para negociar. A veces, el esfuerzo dejaba los ojos de Odette enrojecidos, pero ella se limitaba a apretar los labios en una línea obstinada y continuaba.\nY, al final de cada práctica, su padre siempre la esperaba en la puerta.\n“¿Y bien? ¿Qué ha aprendido hoy mi pequeña bailarina?”.\nOdette repetía el nuevo movimiento para él lo mejor que podía, aún torpe e inestable por haberlo aprendido hace apenas unos minutos. No importaba si lo ejecutaba bien o mal. Su respuesta siempre era la misma: primero venía el aplauso, fuerte y solemne. Después se agachaba hasta quedar a su altura, mirándola a los ojos.\n“Maravilloso”, decía con total seriedad. “Algún día, mi hija será una prima ballerina”.\nVioletta apoyaba con suavidad la cabeza sobre el hombro de su esposo, y la tensión de su rostro acababa por desvanecerse en una sonrisa. Odette aún era demasiado pequeña para entender lo que significaba convertirse en prima ballerina. Pero entendía el orgullo en el rostro de su padre al decirlo, y la callada esperanza en la sonrisa de su madre al mirarla. Sin que Odette lo supiera, la primera pequeña semilla de un sueño había sido plantada en su corazón."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Hubo un tiempo en que Odette creyó que aquella vida cálida y apacible continuaría para siempre.\nEntonces, un día, los pasos de su padre dejaron de regresar. Esperó el primer día, luego el segundo, después el tercero... Pero cuando por fin el sonido de unas botas militares llegó hasta la casa, no eran las suyas.\nDos soldados de los Fatui se detuvieron con semblante solemne en el umbral y depositaron una carta en las manos de Violetta. La bailarina, capaz de dominar cada parte de su cuerpo con una precisión impecable, no pudo evitar que sus dedos temblaran al desdoblarla. A su lado, Odette se alzó inquieta sobre las puntas de los pies, estirándose para alcanzar a leer las palabras. Solo logró distinguir una única línea, escrita con sencillez... una que pasaría años deseando no haber visto jamás.\nAquella noche, la casa quedó sumida en un silencio absoluto, como si le hubieran arrebatado hasta el último sonido. A la mañana siguiente, Violetta regresó a la sala de ensayos del teatro y retomó su rutina. Luego vino el tercer día, y tras él, el cuarto...\nFue durante la función cuando Odette, que observaba desde debajo del escenario, vio a su madre desplomarse. Por un instante desesperado, se dijo a sí misma que era parte de la coreografía. Violetta nunca perdía el control. Quizá la caída había sido ensayada. Quizá Odette seguía soñando. Quizá nunca había despertado realmente de la pesadilla. Entonces el telón descendió a toda prisa. En medio de la confusión entre bastidores, Odette alcanzó a vislumbrar el rostro de su madre. Todo el resplandor que alguna vez tuvo había desaparecido, dejando solo una palidez mortecina.\nCuando terminó el tratamiento, el médico habló con un pesar contenido. Las lesiones de Violetta sanarían con el tiempo, pero, aun así, era probable que nunca volviera a ejecutar los pasos más exigentes.\n...\nEn los días que siguieron, la casa comenzó a cambiar. La silla que el padre de Odette siempre había ocupado fue arrinconada en una esquina, donde poco a poco desapareció bajo un desorden de cosas olvidadas. El periódico que antes desplegaba cada mañana comenzó a curvarse por los bordes y a amarillear, sin que nadie volviera a tomarlo entre sus manos. A veces el fuego se consumía sin que ninguna de las dos lo notara, hasta que las habitaciones se enfriaban tanto como el mundo helado al otro lado de las ventanas. Odette y su madre se sentaban envueltas en mantas en extremos opuestos del sofá. Entre ellas, dejaban intacto el lugar donde él solía sentarse. Ninguna se movió jamás para ocuparlo.\nAunque ya no podía ejecutar los movimientos correctamente, Violetta continuó las lecciones de Odette desde su silla de ruedas. Marcaba el ritmo golpeando el suelo con su bastón: “Toc. Toc. Toc”.\nOdette nunca se quejó. El ballet siempre había extraído su belleza del dolor, y ella soportaba el suyo en silencio. Vendaba sus dedos ampollados capa tras capa hasta que, pasado cierto punto, el dolor se disolvía en entumecimiento. Cada vez que se detenía para secarse el sudor de la frente, encontraba a su madre observándola. La misma herida pasaba en silencio entre ambas. Entonces las dos apartaban la mirada. Violetta retomaba el conteo y Odette retomaba los pasos. Enseñando y aprendiendo, ocupaban cada hora que no podían permitirse dejar vacía. Porque el vacío daba cabida a los recuerdos.\nEntonces, un día, un nuevo ritmo irrumpió en la casa. El inconfundible repiqueteo de unos tacones desconocidos interrumpió la lección.\nSignora había acudido en nombre del Capitán para dar el pésame a Violetta. Era la octava de Los Once de los Fatui y en el pasado había sido la oficial al mando del padre de Odette.\nA medida que avanzaba la visita, la atención de Signora se posó en Odette y en la agilidad natural de su danza.\n“Sra. Spessiva”, dijo Signora, “no tengo intención de tomarme a la ligera su dolor. Pero ahora se encuentra sin ingresos, y una pensión por sí sola difícilmente bastará para criar a una niña. Los Fatui podríamos acogerla bajo nuestra tutela. Siempre estamos dispuestos a cultivar a jóvenes talentos con potencial. A cambio, usted recibiría una remuneración”.\nVioletta se negó de inmediato. No necesitaba que nadie le recordara los peligros que acompañaban a los Fatui. Ya le habían arrebatado al esposo que amaba. La sola idea de que algún día pudieran llevarse también a su hija era más de lo que podía soportar.\nPero Odette lo había oído todo. Corrió al lado de su madre antes de que la conversación terminara. Aunque su voz era, sin lugar a dudas, la de una niña, no había nada infantil en su determinación. Prometió que haría todo lo que le pidieran. Tendría cuidado. No correría peligro. Que encontraría la forma de seguir con el ballet mientras se entrenaba con los Fatui.\nLos ojos azul violáceo de Odette se encontraron con los de Signora, ardiendo con un fuego que parecía abrirse paso a través del hielo.\n“Puedo hacerlo”, repitió Odette en el silencio. Sus labios formaban una línea obstinada, con una fiera expresión de determinación y completamente indiferente al precio... Signora conocía esa mirada. La muchacha ya se consumía por dentro, y aun así procuraba hacer pasar ese desgaste por fortaleza.\nSignora la observó con un frío desdén. Por muchas dudas que comenzaran a surgir en su interior, su orgullo no le permitió retirar la oferta.\n“Entonces ven”, dijo. “Veamos cuánto dura esa determinación tuya”."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Cuando la misión llegó a su fin, el cielo seguía envuelto en la misma oscuridad fría y sin luz.\nOdette volvió a guardar la daga en su funda y se examinó brevemente con una mirada impasible. Su ropa no presentaba manchas visibles y, aunque sus botas estaban húmedas, esto no entorpecería sus pasos. Todo había salido según lo previsto. El objetivo se había asustado lo suficiente como para recordar la lección. No se atrevería a causar problemas de nuevo.\nLa nieve cubría Snezhnaya con un manto de silencio durante la noche. Engullía los sonidos de la ciudad y amortiguaba los pasos de Odette hasta el punto de que ni ella misma los oía. Sin nada que quebrara aquel silencio, sus pensamientos vagaban a su antojo. Y siempre encontraban el camino de regreso a cosas que habría preferido olvidar.\nEsta vez, su mente se detuvo en el movimiento final de la misión. Para cualquier observador, habría parecido impecable. La hoja había desaparecido con un giro rápido de su muñeca hacia dentro, cada movimiento preciso y controlado. Sin embargo, Odette sabía que la ejecución no había sido del todo limpia. Al retraer la daga, hubo un leve titubeo, y cuando su brazo derecho regresó a su costado, las yemas de sus dedos trazaron una tenue línea hacia afuera.\nSabía lo que su mano había recordado. El gesto final de un ballet.\nEse parecido no había pasado desapercibido. En el informe de evaluación de los Fatui, su estilo de combate había sido comparado con el ballet. Su madre, sin embargo, había visto el defecto opuesto. Decía que, cada vez que Odette bailaba, le faltaba sentimiento.\nLa gracia de una bailarina se deslizaba en sus movimientos de combate, mientras que la fuerza forjada en batalla moldeaba cada paso que daba en el escenario. Ninguna necesitaba ser invocada. Ambas afloraban sin pensarlo, tan naturales como la respiración y el latido del corazón, sepultadas en algún lugar más allá de la memoria consciente, entre huesos y músculos.\nLa espada y las puntas se habían convertido en dos expresiones del mismo instinto.\nQuizá Odette nunca había estado realmente dividida entre todas aquellas identidades. De principio a fin, siempre había sido la misma persona bajo todas ellas: alguien a quien el invierno había congelado hasta los huesos, aferrándose con fuerza a todo aquello que aún permanecía a su alcance.\n...\nOdette se coló en el Teatro Korolevski por la puerta trasera, tan silenciosa como la nieve que caía afuera.\nSe dirigió a la sala de ensayo, se cambió las zapatillas de ballet y dejó las lámparas apagadas. La fría luz de la luna se filtraba por los ventanales altos, dividiendo el suelo en dos mundos: uno pálido y luminoso, el otro sumido en las sombras.\nBailaba entre ellas, entrando y saliendo de los cambiantes charcos de luz. Una soledad así era poco común. Más aún lo era un tiempo que no perteneciera a nadie más que a ella.\nEn la sala no había música, solo silencio. Ni el golpeteo acompasado del bastón de su madre, ni el sonido de los pasos de su padre acercándose. El único ritmo era el de su respiración y el leve roce de sus zapatillas de punta contra el suelo. Sin coreografía que obedecer ni público al que complacer, dejó que cada movimiento tomara forma por sí solo.\nSus giros se volvieron cada vez más rápidos, hasta que el sudor y las lágrimas se hicieron indistinguibles en su rostro. La danza se convirtió en su resistencia, en su anhelo y en el único lenguaje con el que podía darles forma.\nY quizás, si un copo de nieve se hubiera colado por la ventana y se hubiera detenido a observar, le habría costado creer aquellos rumores.\nEn ese momento, la prima ballerina de la Compañía Korolevski no parecía fría en absoluto."
+      },
+      {
+        "Title": "Una vieja imagen borrosa",
+        "Context": "Pocas cosas en el mundo eran más preciadas para Violetta que el ballet. Así que cuando Odette eligió seguir el mismo camino, encontró en su madre a una maestra mucho más estricta que cualquier instructora común. Para la joven, incluso una sola palabra de elogio de Violetta era una recompensa excepcional.\nDe todas las lecciones de aquellos años de infancia, hubo un momento que permaneció especialmente vívido en la memoria de Odette. Fue la primera vez que completó un giro entero en puntas. El movimiento vaciló ligeramente y el final distó mucho de ser perfecto, pero había logrado dar la vuelta completa. Por lo general, su madre la corregía en cuanto se detenía. Esa vez, Violetta no dijo nada. Se detuvo un instante y las comisuras de sus labios se elevaron apenas.\n“Bien. Has mejorado rápido”.\nSu padre se levantó al instante, incapaz de contener su felicidad.\n“¡Otra vez! Espera, tengo que...”. Se interrumpió y se apresuró hacia el armario, rebuscando a tientas el viejo Daguerrotipo que guardaba encima. “¡Quédate ahí! ¡No te muevas!”.\nVioletta se limitó a negar con la cabeza. “No es una bailarina de cuerda. ¿Cómo esperas que se quede así?”.\nLa imagen salió irremediablemente borrosa.\nOdette no era más que una bruma sonriente en la imagen, mientras que su madre había quedado capturada con una mano alzada hacia los labios, como si intentara contener una risa. Su padre no había llegado a tiempo antes de que se disparara el obturador, dejando únicamente el apresurado desenfoque de su figura. Las llamas del hogar, en cambio, habían quedado capturadas con perfecta nitidez.\nAun así, su padre manipuló la fotografía con todo el cuidado que se le daría a una obra maestra y la guardó en su reloj de bolsillo.\n“Nuestro mejor retrato familiar hasta la fecha”, declaró con absoluta seriedad. “En él podemos ver a nuestra pequeña bailarina principal creciendo ante nuestros propios ojos”. Y añadió, con la misma solemnidad: “Y habrá muchos más”.\nAl mirar atrás, Odette recordaba su infancia en fragmentos. La instrucción estricta pero paciente de su madre. Los aplausos de su padre, siempre esperándola cada vez que terminaba. El crepitar del fuego en la chimenea. Y después, los tres apiñados en el sofá de terciopelo, compartiendo una porción de medovik tan dulce que casi empalagaba. Su padre siempre le daba el trozo más grande. Cada vez que ella lo tomaba con ambas manos, su madre le daba un toquecito en la nariz.\nCuando Odette volvió a ver aquella vieja imagen borrosa, estaba oculta dentro de un reloj de bolsillo manchado de óxido y sangre. Su madre permanecía sentada cerca, en una silla de ruedas, contemplando en silencio la densa nieve al otro lado de la ventana. Afuera, el viento aullaba como si pretendiera arrastrar todo el crudo invierno hacia el interior de la habitación. Odette nunca había tenido dificultades para dominar sus manos al bailar. Cada gesto siempre le había salido con una precisión y una gracia sin esfuerzo. Pero ahora parecían pesarle como piedras. Apretando los dientes, reunió hasta la última gota de fuerza antes de lograr, por fin, abrir el reloj.\nParecía que el invierno en Snezhnaya no tendría fin. La nieve seguía cayendo, sofocando toda esperanza, hasta que la primavera misma dejó de parecer más que un cuento."
+      },
+      {
+        "Title": "Cuña Estelar",
+        "Context": "Cualquier rastro de inocencia infantil que alguna vez hubiera suavizado los rasgos de Odette se desvaneció rápidamente bajo la vida entre los Fatui.\nSus días pertenecían al ballet. Sus noches, al riguroso entrenamiento de los Fatui. Entre ambos, sobrevivía robando los escasos momentos de descanso que podía.\nSu cuerpo le fue advirtiendo por etapas. Primero llegó el dolor punzante en los tobillos. Luego, las rodillas empezaron a crujir con cada salto. Incluso el moretón bajo las costillas, producto de un golpe recibido durante una misión, no daba señales de desvanecerse. Los dolores se acumulaban uno tras otro, como si cada uno hubiera estado esperando su turno.\nOdette lo ignoró todo y entrenó con más intensidad. Cuando las vendas dejaron de ser suficientes, las apretó más. Cuando las protecciones no lograban amortiguar los golpes, añadió otra capa. Todo lo que aún dolía lo empujó bien al fondo, sepultándolo bajo más y más entrenamiento.\nSu madre notó el repentino aumento de intensidad y la necesidad ansiosa de demostrar algo que parecía impulsarla. Sin embargo, por mucho que intentara intervenir, Odette descartaba su preocupación con una simple afirmación de que estaba bien.\nSiguió esforzándose mucho después de que la perseverancia se transformara en una exigencia dañina para sí misma. Con el tiempo, el dolor se fue alejando, luego se volvió tenue y, finalmente, desapareció.\nLo primero que Odette notó al volver del entrenamiento esa noche fue la mancha oscura que se extendía por sus vendajes. El entrenamiento de combate se había alargado hasta entrada la noche. Agotada, se quitó la capa y bajó la mirada, solo para descubrir que la vieja herida había vuelto a abrirse. Esta vez, la sangre era mucho más abundante que de costumbre.\nDurante varios segundos, se quedó observando cómo la sangre se filtraba a través de la tela.\nDesapegada e imperturbable, como si la pierna herida perteneciera a otra persona.\nPara asegurarse, hundió los dedos en el músculo lesionado hasta dejar una leve marca bajo la presión. Su pierna debería haber reaccionado. Pero no lo hizo.\nY no sintió dolor alguno.\nSin decir una palabra, Odette volvió a vendar la herida y permaneció sentada durante un largo rato en la oscuridad.\nPoco a poco, las implicaciones de aquello se hicieron presentes. Nunca más tendría que embotar sus sentidos ni reprimir lo que sentía solo para aguantar. El dolor ya no podría poner fin antes de tiempo a ninguna de sus dos formas de entrenamiento. Ahora podía aguantar más.\nEse pensamiento trajo consigo una leve sensación de alivio. A ese ritmo, quizá su sueño de convertirse en la prima ballerina de la Compañía Korolevski pronto estaría a su alcance.\nUn ballet daba paso a otro mientras Odette giraba y surcaba el escenario, incansable, trazando con sus tensos pies en punta cada visión que el amor había moldeado.\nPasó sin esfuerzo de un papel a otro: la dama perfecta, la noble princesa, el ave acuática tan grácil como la escarcha al amanecer, la bailarina ardiente como el sol de verano. Se convirtió en Milady, hermosa como un pavo real; en Anli, compañera de Reed Miller; en Coppélia; en Odelia.\nPero ninguna de ellas era Odette.\n“Entonces, ¿qué se supone que debo hacer con mi vida?”.\nLa pregunta solo apareció cuando el telón cayó, susurrada por una voz que no pertenecía a ningún otro lugar más que al interior de su propio ser.\n“Algún día llegará un mundo nuevo, eso dicen todos. Y si quienes lo hereden deciden contar mi vida sobre el escenario, ¿en quién querría convertirme ante sus ojos?”.\nNo tenía respuesta. Quizá, en otro tiempo, la historia podría haber comenzado con un hogar apacible y una infancia llena de risas, la clase de belleza que un ballet exige para su primer acto. Pero aquellos días se habían alejado más allá de todo alcance, más lejos incluso que el resplandor de las luces del escenario. Odette clavó la mirada en su brillo pálido y abrasador hasta que pareció que los ojos le arderían. Solo entonces comprendió que ya no echaba de menos la calidez que imitaban, ni deseaba la ternura que fingían ofrecer.\nLo único que verdaderamente le pertenecía era el dolor: frío, profundo hasta los huesos y solemne como una ventisca aullante, casi sagrado por su intensidad.\nEl dolor había moldeado a la persona llamada Odette. La había templado en cada prueba y había permanecido a su lado más tiempo que cualquier otro compañero.\n“Sí. Cuando el viejo mundo muera, que recuerde que me negué a ceder”.\n“Que el dolor se convierta en las alas que me eleven. Ascenderé más alto de lo que nadie se ha atrevido y contemplaré el sueño que ni siquiera el cisne níveo ha visto jamás. Eso, y nada menos, es lo que deseo”.\nCon aquella determinación arraigándose en su interior, Odette entrecerró los ojos y alzó la mirada hacia la luz suspendida en lo alto del escenario.\nBrillaba allí arriba, difusa y vacilante, imposiblemente lejana y, sin embargo, casi al alcance de la mano.\nY una vez más, bailó con todo lo que tenía, entregándose por completo hasta tal punto que parecía que la actuación podría consumir su cuerpo hasta el último aliento.\nTras la caída del telón, Odette regresó a los bastidores y encontró un cristal azul gélido que se había formado bajo el tenue resplandor frío.\nLo recogió en silencio y estudió el objeto que descansaba en su palma. Una Cuña Estelar, si los rumores que había oído entre los Fatui eran ciertos. Sin embargo, no se parecía en nada a lo que había imaginado. Era frío y liviano, no más pesado más que una lágrima atrapada por el hielo en medio de una ventisca.\nOdette no sabría decir si había sido una muestra de piedad, una bendición o una maldición, al igual que tampoco podía explicar la pérdida de su sentido del dolor. Nunca había creído en las lágrimas, del mismo modo que había muchas otras cosas en las que tampoco creía.\nPero fuera lo que fuera, sabía que lo aceptaría con gusto. Sus alas eran lo único que verdaderamente le pertenecía. Incluso la escarcha y la nieve que las azotaban acabarían formando parte de ellas con el tiempo.\nDesde ese momento, ni el dolor ni el frío la detendrían. El malestar no la haría vacilar antes de desenvainar su espada, y el invierno no ralentizaría sus pasos bajo la nieve que caía.\nOdette alzó la mirada hacia el cielo más allá de la ventana. La nieve se posó sobre unas mejillas que durante tanto tiempo había creído frías, y allí se derritió con calidez."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 215000,
+      "Name": "Danza del cisne níveo",
+      "Description": "Modelo de vestimenta de Odette. Un traje de ballet de confección excepcional, inspirado en los cisnes níveos, que ha sido el fiel compañero de esta diligente bailarina a lo largo de innumerables noches. Las gemas que lo adornan brillan con una elegancia discreta bajo las luces del escenario, al igual que la propia bailarina, que resplandece con su presencia.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113090,
+    101275,
+    112148,
+    104367,
+    113088
+  ],
+  "NameCard": {
+    "Name": "Odette - Cisne",
+    "Description": "Diseño de tarjeta de presentación.\nTanto en Liyue como en Snezhnaya, se considera que los cisnes son aves grandes y orgullosas. Entre los cisnes níveos, que tienen hábitos gregarios, hay uno solo que es de color negro. Por supuesto, esto no es más que la historia de «El cisne níveo negro».",
+    "Icon": "UI_NameCardIcon_Odette",
+    "PicturePrefix": "UI_NameCardPic_Odette"
+  }
+}

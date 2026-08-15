@@ -324,6 +324,7 @@
         "Id": 10461,
         "Name": "Lancia segreta di Wangsheng",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 6 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10462,
         "Name": "Guida all'aldilà",
         "Description": "#Solo una fiamma risoluta può purificare le impurità di questo mondo.\nHu Tao consuma una data porzione dei suoi PS per respingere i nemici circostanti ed entrare nello stato di Paramita Papilio.\n\n<color=#FFD780FF>Paramita Papilio</color>\n· Aumenta l'ATT di Hu Tao in base ai suoi PS max al momento dell'entrata in questo stato. Il bonus ATT ottenuto in questo modo non può superare un 400% dell'ATT di base di Hu Tao.\n· Converte i DAN da attacco in <color=#FF9999FF>DAN da Pyro</color> non influenzabili da altre infusioni elementali.\n· Gli attacchi caricati applicano l'effetto Bocciolo di sangue ai nemici colpiti.\n· Aumenta la resistenza di Hu Tao all'interruzione.\n\n<color=#FFD780FF>Bocciolo di sangue</color>\nI nemici affetti da Bocciolo di sangue subiscono <color=#FF9999FF>DAN da Pyro</color> ogni 4{NON_BREAK_SPACE}s. Questo tipo di DAN è considerato DAN da abilità elementale.\nOgni nemico può subire un solo effetto di Bocciolo di sangue alla volta e la durata può essere ripristinata da Hu Tao.\n\n<color=#FFD780FF>Paramita Papilio</color> smette di avere effetto al termine della sua durata, quando Hu Tao lascia il campo di battaglia o quando viene sconfitta.\n\n<i>La tecnica segreta di Hu Tao con la lancia si basa su varie regole, la prima delle quali è: \"La lancia apre le porte dell'aldilà e le farfalle formano un ponte tra questo e l'altro mondo\".</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Hutao_01"
       }
     ],
@@ -755,6 +757,7 @@
       "Id": 10463,
       "Name": "Sollievo dello spirito",
       "Description": "Ordina a uno spirito infuocato di attaccare, infliggendo <color=#FF9999FF>DAN da Pyro</color> in un'ampia area d'effetto.\nDopo aver colpito il nemico, rigenera una percentuale dei PS max di Hu Tao. Questo effetto può attivarsi fino a 5 volte, in base al numero di nemici colpiti.\nSe i PS di Hu Tao sono inferiori o pari a un 50% quando il nemico viene colpito, sia i DAN che la RIGEN PS aumentano.\n\n<i>Le attività soprannaturali di coloro che hanno già lasciato questo mondo è fonte di grande ansia per i Servizi Funebri Wangsheng. In questi casi, la cremazione porta sempre sollievo a Hu Tao. Più ansia prova, più forte è la fiamma.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Hutao_01"
     },
     "Inherents": [
@@ -777,6 +780,7 @@
         "Id": 462101,
         "Name": "Farfalla nascosta",
         "Description": "#Quando lo stato di <color=#FFD780FF>Paramita Papilio</color> attivato da <color=#FFD780FF>Guida all'aldilà</color> termina, il tasso di CRIT di tutti gli alleati nel gruppo (esclusa Hu Tao) aumenta di un 12% per 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Hutao_05"
       },
       {
@@ -798,6 +802,7 @@
         "Id": 462201,
         "Name": "Rosso sangue",
         "Description": "Quando i PS di Hu Tao sono pari o inferiori a un 50%, il suo <color=#FF9999FF>bonus DAN da Pyro</color> aumenta di un 33%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Hutao_06"
       },
       {
@@ -816,6 +821,7 @@
         "Id": 462301,
         "Name": "Meglio abbondare",
         "Description": "Quando Hu Tao prepara alla perfezione un piatto, ha un 18% di probabilità di ricevere anche una versione \"sospetta\" dello stesso tipo di piatto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_ExtraFailedItem"
       }
     ],

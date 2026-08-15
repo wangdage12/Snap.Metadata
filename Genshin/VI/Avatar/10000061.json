@@ -322,6 +322,7 @@
         "Id": 10611,
         "Name": "Cào Rách Hộp",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 4 lần tấn công liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, cào 3 lần về phía trước.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10612,
         "Name": "Mèo Tung Cước",
         "Description": "<color=#FFD780FF>Nhấn</color>\nTận dụng sự nhanh nhẹn của mèo để thi triển Vẫy Đuôi Tung Cước hạ gục kẻ địch, gây <color=#99FF88FF>Sát Thương Phạm Vi Nguyên Tố Thảo</color>, đồng thời triển khai Khiên Vận Chuyển An Toàn, khiến Kirara <color=#99FF88FF>nhận ấn Nguyên Tố Thảo</color> trong thời gian ngắn. Khiên Vận Chuyển An Toàn có 250% hiệu quả hấp thụ với <color=#99FF88FF>Sát Thương Nguyên Tố Thảo</color>. Lượng sát thương hấp thụ của khiên căn cứ vào giới hạn HP của Kirara và không vượt quá một tỉ lệ giới hạn HP nhất định, lượng sát thương hấp thụ còn dư sẽ được cộng dồn khi nhận Khiên Vận Chuyển An Toàn mới, đồng thời làm mới thời gian duy trì.\n\n<color=#FFD780FF>Nhấn Giữ</color>\n\"Nhanh giao xong hàng trong nửa ngày\", triển khai Khiên Vận Chuyển An Toàn tương đồng với khi Nhấn, đồng thời rúc vào trong hộp chuyển phát, vào trạng thái Bưu Kiện Mèo Khẩn Cấp để di chuyển và chiến đấu nhanh nhẹn hơn.\n\n<color=#FFD780FF>Trạng thái Bưu Kiện Mèo Khẩn Cấp</color>\n·Khi đụng vào kẻ địch sẽ gây <color=#99FF88FF>Sát Thương Nguyên Tố Thảo</color>, hiệu quả này mỗi 0.5s tối đa kích hoạt một lần cho mỗi kẻ địch;\n·Khi ở trong trạng thái này sẽ tăng tốc độ di chuyển, tốc độ leo trèo và khả năng nhảy; Tăng thể lực tiêu hao khi leo trèo;\n·Khi thời gian duy trì kết thúc hoặc thi triển kỹ năng lần nữa, sẽ tung ra Vuốt Mèo Đột Kích mạnh mẽ hơn đòn tấn công khi Nhấn, gây <color=#99FF88FF>Sát Thương Phạm Vi Nguyên Tố Thảo</color>;\n·Trạng thái Bưu Kiện Mèo Khẩn Cấp duy trì tối đa 10s, khi hiệu quả kết thúc thì kỹ năng mới tính thời gian chờ. Thời gian duy trì của Bưu Kiện Mèo Khẩn Cấp càng lâu, thời gian chờ kỹ năng sẽ càng dài;\n·Trong thời gian duy trì nếu xung kích hoặc hủy leo trèo sẽ kết thúc sớm trạng thái Bưu Kiện Mèo Khẩn Cấp.\n\n<i>\"Hửm? bí quyết giao hàng nhanh sao? Đương nhiên là do sức mạnh đôi chân rồi!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Momoka_01"
       }
     ],
@@ -784,6 +786,7 @@
       "Id": 10615,
       "Name": "Bí Pháp - Chuyển Phát Đặc Biệt",
       "Description": "Sử dụng Hộp Chuyển Phát Đặc Biệt chuyên đối phó với trộm cướp để tấn công kẻ địch, gây <color=#99FF88FF>Sát Thương Phạm Vi Nguyên Tố Thảo</color>. Hộp Chuyển Phát Đặc Biệt khi phát nổ sẽ tách thành nhiều <color=#FFD780FF>Đậu Khấu Cỏ Mèo</color> gây nổ khi chạm trúng kẻ địch hoặc sau một khoảng thời gian, gây <color=#99FF88FF>Sát Thương Phạm Vi Nguyên Tố Thảo</color>.\n\n<i>\"Hì hì, thứ này là dành cho những tên thích cướp hàng đấy. Những tên đáng ghét, nhận được rồi thì nhớ đánh giá tốt nhé!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Momoka_01"
     },
     "Inherents": [
@@ -807,6 +810,7 @@
         "Id": 612101,
         "Name": "Đuôi Mèo Mê Hoặc",
         "Description": "Khi Kirara ở trong trạng thái Bưu Kiện Mèo Khẩn Cấp của kỹ năng <color=#FFD780FF>Mèo Tung Cước</color>, mỗi lần va chạm trúng kẻ địch sẽ nhận được một tầng <color=#FFD780FF>Gia Cố Đóng Gói</color>, hiệu quả này mỗi 0.5s tối đa kích hoạt một lần cho mỗi kẻ địch, tối đa cộng dồn 3 tầng. Khi trạng thái Bưu Kiện Mèo Khẩn Cấp kết thúc, mỗi tầng Gia Cố Đóng Gói sẽ sản sinh cho Kirara một Khiên Vận Chuyển An Toàn. Lượng sát thương hấp thụ của lớp khiên sản sinh từ cách thức này sẽ tương ứng với 20% lượng sát thương hấp thụ của Khiên Vận Chuyển An Toàn từ kỹ năng <color=#FFD780FF>Mèo Tung Cước</color>, nếu Kirara đã có Khiên Vận Chuyển An Toàn từ kỹ năng Mèo Tung Cước, lượng sát thương hấp thụ còn dư sẽ cộng dồn, đồng thời làm mới thời gian duy trì.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_05"
       },
       {
@@ -828,6 +832,7 @@
         "Id": 612201,
         "Name": "Linh Hồn Rực Rỡ",
         "Description": "Mỗi 1000 giới hạn HP của Kirara sẽ khiến sát thương <color=#FFD780FF>Mèo Tung Cước</color> gây ra tăng 0.4%, sát thương <color=#FFD780FF>Bí Pháp - Chuyển Phát Đặc Biệt</color> gây ra tăng 0.3%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_06"
       },
       {
@@ -846,6 +851,7 @@
         "Id": 612301,
         "Name": "Mèo Đi Rón Rén",
         "Description": "Khi có Kirara trong đội, nhân vật khi tiếp cận các động vật nhỏ tạo Thịt Rừng, Thịt Gia Cầm và Thịt Tươi Lạnh sẽ không làm kinh động đến chúng.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_07"
       }
     ],

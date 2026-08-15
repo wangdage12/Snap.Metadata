@@ -292,6 +292,7 @@
         "Id": 10711,
         "Name": "Çağrı Mızrağı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 mızrak saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nİleri atılırken belirli miktarda Dayanıklılık harcar ve önündeki düşmanlara hasar verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -477,6 +478,7 @@
         "Name": "Saklı Ayin: Ahir Rehberi",
         "Description": "Hızla öne atılır ve yoluna çıkan düşmanlara <color=#FFACFFFF>Elektrik Hasarı</color> verir.\n\nCyno Kutsal Ayin: Kurt Çevikliği tarafından tetiklenen Sadık Öncü durumundayken korkunç bir <color=#FFD780FF>Elektrik Alan Hasarı</color> veren ve Sadık Öncünün süresini uzatan bir <color=#FFACFFFF>Ölüm Ayini</color> gerçekleştirir.\n\n<i>\"Bu hüküm başka bir seçenek bırakmıyor. Burada ne kabul ne de inkar var... Bu hükme ezelden beri bağlıyız.\"</i>",
         "SpecialDescription": "Hızla öne atılır ve yoluna çıkan düşmanlara <color=#FFACFFFF>Elektrik Hasarı</color> verir.\n\nCyno, Sadık Öncü durumundayken bunun yerine <color=#FFACFFFF>Elektrik Alan Hasarı</color> veren bir <color=#FFD780FF>Ölüm Ayini</color> gerçekleştirir. Cyno, Sadık Öncü durumuna <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> Element Patlaması aracılığıyla girerse <color=#FFD780FF>Ölüm Ayini</color> gerçekleştirmek mevcut Sadık Öncü durumunun süresini de uzatır.\n\n<i>\"Bu hüküm başka bir seçenek bırakmıyor. Burada ne kabul ne de inkar var... Bu hükme ezelden beri bağlıyız.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Cyno_01"
       }
     ],
@@ -497,6 +499,7 @@
         "Id": 712401,
         "Name": "Yolculuğun Başlangıcındaki Yıldız",
         "Description": "Cyno, Sadık Öncü durumunda değilken <color=#FFD780FF>Saklı Ayin: Ahir Rehberi</color> Element Becerisini kullanırsa 6 saniyeliğine Sadık Öncü durumuna girer.\nAyrıca Cyno bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_08"
       }
     ],
@@ -840,6 +843,7 @@
       "Id": 10715,
       "Name": "Kutsal Ayin: Kurt Çevikliği",
       "Description": "Kutsal bir ruhu kendisini kullanması için çağırır ve Sadık Öncüye dönüşür.\n\n<color=#FFD780FF>Sadık Öncü</color>\nCyno'nun Normal, Yüklü ve Havadan Saldırıları <color=#FFACFFFF>Elektrik Hasarına</color> çevrilir. Bu sonradan değiştirilemez.\n·Cyno'nun Element Ustalığı ve müdahaleye karşı direnci artar. Elektrik Yüklü Hasara karşı bağışıklık kazanır.\n\nBu etki, 18sn sonrasında veya Cyno savaş alanında ayrıldığında kaybolur.\n\n<i>Kadim ulustan geçen saklı ayinler General Mahamatra'nın hükmündedir.</i>\n<i>Ne geçmişte ne de şimdi; ister büyük fırtına, ister yılan olsun, kimse kanunların hükümdarını deviremez.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Cyno_01"
     },
     "Inherents": [
@@ -863,6 +867,7 @@
         "Id": 712101,
         "Name": "Tüy Yargısı",
         "Description": "Cyno, <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> tarafından tetiklenen Sadık Öncü durumundayken aralıklarla Akıbet Gören duruşuna girer. Cyno, bu duruşun etkisi altındayken <color=#FFD780FF>Saklı Ayin: Ahir Rehberini</color> etkinleştirirse Saklı Ayin: Ahir Rehberi Hasarını %35 artıran ve Cyno'nun Saldırısının %100'ü kadar <color=#FFACFFFF>Elektrik Hasarı</color> veren 3 adet Yaban Yıldırımı atan Hakim etkisini etkinleştirir.\nYaban Yıldırımı Hasarı, Element Becerisi Hasarı olarak sayılır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 712201,
         "Name": "Dokuz Okun Hakimi",
         "Description": "Cyno'nun Hasar değerleri Element Ustalığına göre şu şekilde artar:\n·Sadık Öncünün Normal Saldırı Hasarı Element Ustalığının %150'si kadar artar.\n·Tüy Yargısı Yükseltme Yeteneğinden gelen Yaban Yıldırımı Hasarı Element Ustalığının %250'si kadar artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 712301,
         "Name": "Sessizliğin Lütfu",
         "Description": "20 saatliğine bir Sumeru Keşfine gönderildiğinde %25 daha fazla ödül kazanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_07"
       }
     ],
@@ -934,7 +941,7 @@
       {
         "Id": 714,
         "Name": "İdare: Kısıtlayıcı Muhafız",
-        "Description": "Cyno, <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> tarafından tetiklenen Sadık Öncü durumundayken Elektrik Yüklü, Ay Yüklü, Süper İletim, Yüksek Voltaj, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme veya Elektrik Girdabı tepkimelerini tetiklerse kendisi hariç tüm grup üyeleri için 3 Element Enerjisi yeniler.\nBu etki her <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> sırasında 5 kere tetiklenebilir.",
+        "Description": "Cyno, <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> ile tetiklenen Sadık Öncü durumundayken Elektrik Yüklü, Ay Yüklü, Süper İletim, Yıldız İletimi, Yüksek Voltaj, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme veya Elektrik Girdabı tepkimelerini tetiklediğinde kendisi hariç yakındaki tüm grup üyeleri için 3 Element Enerjisi yeniler.\nBu etki <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> her kullanıldığında 5 defa tetiklenebilir.",
         "SpecialDescription": "Cyno, <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> ile tetiklenen Sadık Öncü durumundayken Elektrik Yüklü, Ay Yüklü, Süper İletim, Yıldız İletimi, Yüksek Voltaj, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme veya Elektrik Girdabı tepkimelerini tetiklediğinde kendisi hariç yakındaki tüm grup üyeleri için 3 Element Enerjisi yeniler. Bu etki <color=#FFD780FF>Kutsal Ayin: Kurt Çevikliği</color> her kullanıldığında 5 defa tetiklenebilir.\n\n<color=#FFD780FF>Birlikte Yükseliyoruz</color> etkisindeki diğer karakterler yukarıda bahsedilen tepkimeyi tetiklediğinde Cyno için de 20 Element Enerjisi yenilerler. Bu etki 18 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Cyno_03"
       },

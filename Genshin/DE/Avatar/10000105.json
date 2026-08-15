@@ -42,6 +42,7 @@
         "Id": 30506,
         "Name": "Spezialsprung",
         "Description": "Halte, wenn sich diese Figur in Natlan befindet, gedrückt, um Phlogiston zu verbrauchen und einen Raketen-Doppelsprung zu vollführen. Sobald das Phlogiston verbraucht ist, wird für den Doppelsprung Ausdauer verbraucht.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_E_Olorun_03"
       },
       {
@@ -273,6 +274,7 @@
         "Id": 30501,
         "Name": "Blitzender Pfeil der schlummernden Seelen",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Elektro-Kraft während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#FFACFFFF>Elektro-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -409,6 +411,7 @@
         "Id": 30502,
         "Name": "Kette des Zwielichts",
         "Description": "Ororon lässt die aus der Ewigkeit ererbte geheime Kunst der Meister des Nachtwinds als eine nachtfarbene <color=#FFD780FF>Seelenkugel</color> erscheinen und wirft sie auf einen Gegner, wobei mit Nachtseelen versehener <color=#FFACFFFF>Elektro-Schaden</color> verursacht wird.\nWenn es andere Gegner in der Nähe gibt, hüpft die Seelenkugel zwischen Gegnern in der Nähe hin und her und verursacht dabei mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Schaden</color>. Nach einem einzelnen Einsetzen der „Kette des Zwielichts“ kann jeder Gegner höchstens einmal als Ziel des Herumhüpfens ausgewählt werden.\nWenn sie 3-mal herumgehüpft ist oder sich in der Nähe keine Gegner befinden, die als Ziel ausgewählt werden können, verschwindet die Seelenkugel.\n\n<i>„Die Menschen wollen immer die Zukunft voraussagen, aber das liegt vielleicht daran, dass sie noch nicht entdeckt haben, was sie tun sollten ... Tut mir leid, ich rede wieder unverständliches Zeug.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Olorun_01"
       }
     ],
@@ -594,6 +597,7 @@
       "Id": 30505,
       "Name": "Gedämpftes Echo der Finsternis",
       "Description": "Ororon erweckt ein uraltes geheimes Ritual, verursacht mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Flächenschaden</color> und beschwört ein „Ultraschall-Seelenauge“.\n\n<color=#FFD780FF>Ultraschall-Seelenauge</color>\n· Verspottet fortlaufend Gegner in der Umgebung und zieht ihre Angriffe auf sich.\n· Dreht sich fortlaufend und sendet dabei Schallwellen aus, die Gegnern in der Umgebung mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Schaden</color> zufügen.\n\n<i>Wer genügend Wahrnehmung besitzt, kann die subtilen Klänge von allem hören. So verirrt man sich auch in einer langen, lichtlosen Nacht nicht.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Olorun_01"
     },
     "Inherents": [
@@ -618,6 +622,7 @@
         "Id": 1052101,
         "Name": "Nachtschatten-Synästhesie",
         "Description": "#Verleiht Ororon, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst, 40{NON_BREAK_SPACE}Nachtseelenpunkte. Verleiht Ororon 5{NON_BREAK_SPACE}Nachtseelenpunkte, wenn sein Truppenmitglied innerhalb von 15{NON_BREAK_SPACE}s, nachdem Ororon Elementarfähigkeit angewendet hat, Gegner mit Angriffen der Elemente <color=#80C0FFFF>Hydro</color> oder <color=#FFACFFFF>Elektro</color> getroffen hat; 0,3{NON_BREAK_SPACE}s Abklingzeit; während der Wirkungsdauer bis zu 10-mal auslösbar.\nMax. Nachtseelenpunkte für Ororon liegen bei 80{NON_BREAK_SPACE}Pkt.\n\nVerbraucht außerdem, wenn Ororon mindestens 10{NON_BREAK_SPACE}Nachtseelenpunkte hat und ein Gegner in der Nähe Schaden von der Reaktion <color=#FFACFFFF>„Unter Strom“ oder „Mond unter Strom“</color> oder mit Nachtseelen versehenen Schaden durch sein Truppenmitglied in der Nähe erleidet, 10{NON_BREAK_SPACE}Nachtseelenpunkte und geht in den Zustand des Nachtseelensegens über. Löst dabei den Effekt „Feinfühligkeit“ aus: Fügt bis zu 4 Gegnern in der Umgebung mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Schaden</color> in Höhe von 160{NON_BREAK_SPACE}% von Ororons ANG zu, 1,8{NON_BREAK_SPACE}s Abklingzeit.\n\n<color=#FFD780FF>Nachtseelensegen – Ororon</color>\nOrorons Nachtseelensegen hält bis zu 6{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_05"
       },
       {
@@ -642,6 +647,7 @@
         "Id": 1052201,
         "Name": "Aspekt-Katalysator",
         "Description": "#Verleiht Ororon, wenn die <color=#FFD780FF>Seelenkugel</color> der Elementarfähigkeit <color=#FFD780FF>Kette des Zwielichts</color> Gegner trifft, 15{NON_BREAK_SPACE}s lang den Effekt „Aspektsiegel“.\n\n<color=#FFD780FF>Aspektsiegel</color>\nStellt aktuellen Figuren der Truppe in der Nähe, wenn diese mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall Gegner treffen, 3{NON_BREAK_SPACE}Punkte Elementarenergie wieder her. Stellt, wenn Ororon inaktiv in der Truppe ist, ihm ebenfalls 3{NON_BREAK_SPACE}Punkte Elementarenergie wieder her. 1{NON_BREAK_SPACE}s Abklingzeit, während der Wirkungsdauer bis zu 3-mal auszulösen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_06"
       },
       {
@@ -660,6 +666,7 @@
         "Id": 1052301,
         "Name": "Geschenk des Nachtreichs – Hüpfende Schatten im fließenden Nebel",
         "Description": "#Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Ororon verwendet werden. Wenn die aktuelle Figur sich in der Luft befindet, wird beim Wechsel zu Ororon Folgendes ausgelöst: Ororon springt hoch hinauf. 10{NON_BREAK_SPACE}s Abklingzeit für das Auslösen der Nachtseelen-Übertragung in der eigenen Truppe.\n\nBeim Gedrückthalten zum Zielen wechselt Ororon in den „Seelensprecher“-Zustand, der es ihm ermöglicht, mit „Nachtgeist-Graffitis“ und „Nachtgeist-Mustern“ zu interagieren und ihre Informationen und Kräfte zu extrahieren. Die Regeln für die Interaktion mit diesen Objekten folgen den Regeln der Iktomisaurier.\n\nOroron verbraucht außerdem beim Gedrückthalten zum Springen 75{NON_BREAK_SPACE}Punkte Ausdauer und springt dann hoch. Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan verbraucht Ororon vorrangig 5{NON_BREAK_SPACE}Punkte Phlogiston und springt damit noch höher.\nIn der Luft kann der Standardangriff gedrückt gehalten werden, damit Ororon Phlogiston oder Ausdauer verbraucht, um zu zielen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_07"
       },
       {
@@ -678,6 +685,7 @@
         "Id": 1052501,
         "Name": "Raffinierte Alltagsfertigkeit",
         "Description": "#Erhöht die Bewegungs-GSW aller eigenen Truppenmitglieder beim Gleiten um 15{NON_BREAK_SPACE}%.\nNicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_08"
       }
     ],

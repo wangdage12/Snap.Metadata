@@ -307,6 +307,7 @@
         "Id": 10971,
         "Name": "Técnica do Arco Real",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 disparos consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso com Dano aumentado.\nAo mirar, o poder do Electro irá se acumular na ponta da flecha antes que ela seja lançada. Possui diferentes efeitos baseados em quanto tempo a energia foi carregada:\n· Carga Nv.1: Dispara uma flecha carregando o poder Electro que inflige <color=#FFACFFFF>Dano Electro</color>.\n· Carga Nv.2: Dispara uma <color=#FFD780FF>Flecha Perfura-Sombra</color> que perfura os inimigos e causa <color=#FFACFFFF>Dano Electro</color>. contra os inimigos. Depois da Flecha Perfura-Sombra carregar completamente, Sethos não pode mais se mover.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas do ar antes de cair e atingir o chão, causando Dano em uma AdE no impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -458,7 +459,8 @@
         },
         "Id": 10972,
         "Name": "Ritual Antigo: Rugido Trovejante da Areia",
-        "Description": "Reúne o poder do trovão, causando <color=#FFACFFFF>Dano Electro em AdE</color> contra os inimigos e recuando rapidamente. Se esse ataque desencadear Eletricamente Carregado, Carga Lunar, Supercondutor, Sobrecarga, Aceleração, Intensificação, Superflorescimento ou Redemoinho Electro, Sethos recupera uma certa quantidade de Energia Elemental.\n\n<i>\"O Deus que reside no Sacerdote, os magos que se viraram para as nascentes, os cantores do mar de areia ainda falavam suas histórias... Mas agora sei que isso não eram lendas, pois eles são nossos ancestrais.\"</i>",
+        "Description": "Reúne o poder do trovão, causando <color=#FFACFFFF>Dano Electro em uma AdE</color> contra os inimigos e recuando rapidamente. Se esse ataque desencadear Eletricamente Carregado, Carga Lunar, Supercondutor, Supercondutor Estelar, Sobrecarga, Aceleração, Intensificação, Superflorescimento ou Redemoinho Electro, Sethos recupera uma certa quantidade de Energia Elemental.\n\n<i>\"O Deus que reside no Sacerdote, os magos que se viraram para as nascentes, os cantores do mar de areia ainda falavam suas histórias... Mas agora sei que isso não eram lendas, pois eles são nossos ancestrais.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sethos_01"
       }
     ],
@@ -628,6 +630,7 @@
       "Id": 10975,
       "Name": "Ritual Secreto: Perfura-Sombra do Crepúsculo",
       "Description": "Realiza um ritual secreto, entrando no estado \"Meditação do Ocaso\", em que os Ataques Normais de Sethos são convertidos em <color=#FFD780FF>Flechas do Crepúsculo</color> que perfuram os inimigos: causa <color=#FFACFFFF>Dano Electro</color> contra os inimigos em seu caminho, com aumento de Dano baseado na Proficiência Elemental de Sethos.\nDurante a habilidade, Sethos não pode realizar Disparo com Mira .\nO Dano causado pelas Flechas do Crepúsculo é considerado Dano de Ataque Carregado.\nO efeito é removido quando Sethos sai de campo.\n\n\n<i>Os arquivos do Templo do Silêncio preservam muitos volumes deixados por Akhtamun, da era do Rei Deshret. Muitos dos rituais secretos de grande poder estão registrados dentro, mas até entre aqueles do Templo do Silêncio, poucos podem dominá-lo.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sethos_01"
     },
     "Inherents": [
@@ -650,6 +653,7 @@
         "Id": 972101,
         "Name": "Enigma da Pipa Escura",
         "Description": "Ao mirar, o tempo de carregamento é reduzido em 0.285s baseado em cada ponto atual da Energia Elemental de Sethos. O tempo de carregamento pode ser reduzido no mínimo 0.3s dessa forma e um máximo de 20 de Energia Elemental pode ser contado. Se uma <color=#FFD780FF>Flecha Perfura-Sombra</color> for disparada, consome a quantidade contada de Energia Elemental. Se for uma Flecha de Carga nível 1, então consome 50% da quantidade contada de Energia Elemental.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 972201,
         "Name": "Bênção do Rei das Areias",
         "Description": "Sethos ganha o efeito \"Sombra da Areia Escaldante\", aumentando o Dano causado por <color=#FFD780FF>Flecha Perfura-Sombra</color> em 700% da Proficiência Elemental de Sethos.\nO efeito Sombra da Areia Escaldante será cancelado quando alguma das seguintes condições for cumprida:\n· 5s após uma Flecha Perfura-Sombra atingir o primeiro inimigo.\n· Depois de 4 Flechas Perfura-Sombra atingirem os oponentes.\n\nQuando uma Flecha Perfura-Sombra afetada pelo efeito Sombra da Areia Escaldante atinge um oponente pela primeira vez, Sethos obterá novamente o efeito Sombra da Areia Escaldante depois de 15s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 972301,
         "Name": "Revelação Refletida",
         "Description": "Mostra a localização de <color=#FFD780FF>Especialidades de Sumeru</color> próximas no mapa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tighnari_07"
       }
     ],

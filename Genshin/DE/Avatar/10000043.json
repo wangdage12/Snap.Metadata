@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Vereinfachte Windseelenschaffung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Windseelen-Angriffe aus und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit <color=#80FFD7FF>Anemo-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft der Windseelen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Windseelenschaffung – Experiment 6308",
         "Description": "Beschwört eine kleine Windseele, die Gegner sowie Objekte anzieht und dann wegschleudert, und fügt den Gegnern im Wirkungsbereich <color=#80FFD7FF>Anemo-Schaden</color> zu.\n\n<i>Es ist mir schon ein bisschen peinlich. Die bei diesem Verfahren entstehenden elementaren Lebensformen schwinden zwar nach kurzer Zeit, sind auf Abenteuern aber höchst nützlich. Fehlgeschlagene Experimente haben also auch ihren praktischen Nutzen.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Geschenk der Hexennacht – Die sieben Prinzipien",
         "Description": "#Wandelt Saccharose nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von den Blumen des Wunderlandes</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\n· Erhöht innerhalb von 15{NON_BREAK_SPACE}s nach der Beschwörung einer kleinen Windseele den von Truppenmitgliedern in der Nähe durch Standardangriffe, heftige Schläge, Angriffe aus dem Fall, Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um 5,71428{NON_BREAK_SPACE}%.\n· Erhöht innerhalb von 20{NON_BREAK_SPACE}s nach der Beschwörung einer großen Windseele den von Hexerei-Truppenmitgliedern in der Nähe durch Standardangriffe, heftige Schläge, Angriffe aus dem Fall, Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um 7,14285{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Verbotene Windseelenschaffung – Isomorpher Typ 75-II",
       "Description": "Saccharose wirft einen Glaskolben mit leicht reagierenden Stoffen und erschafft so eine große Windseele.\nZieht während der Wirkungsdauer fortlaufend Gegner und Objekte in der Nähe an, schleudert die angezogenen Gegner weg und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Elementarumwandlung</color>\nVerleiht der Windseele beim Treffen auf <color=#80C0FFFF>Hydro</color>-, <color=#FF9999FF>Pyro</color>-, <color=#99FFFFFF>Kryo</color>- oder <color=#FFACFFFF>Elektro</color>-Effekte während der Wirkungsdauer das jeweilige Element und verursacht dementsprechend zusätzlichen Schaden.\nElementarumwandlung nur einmal während der Wirkungsdauer möglich.\n\n<i>Saccharose wollte ursprünglich jeder instabilen Anemo-Hypostase einen Namen geben. Dieses Vorhaben musste sie jedoch aufgeben, da bald mehr Hypostasen als Generationen von Graf von Hoppel zusammenkamen.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Katalysatorenkonversion",
-        "Description": "Erhöht die Elementarkunde aller Figuren in der Truppe des jeweiligen Elements (außer sich selbst) 8 s lang um 50 Punkte, wenn Saccharose eine Verwirbelung auslöst.",
+        "Description": "#Erhöht die Elementarkunde aller Figuren in der Truppe des jeweiligen Elements (außer sich selbst) 8{NON_BREAK_SPACE}s lang um 50 Punkte, wenn Saccharose die Reaktion Verwirbelung oder Stellar-Verwirbelung auslöst.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Favonius Mollis",
         "Description": "Erhöht die Elementarkunde aller Figuren in der Truppe (außer sich selbst) beim Treffen von Gegnern mit <color=#FFD780FF>Windseelenschaffung – Experiment 6308</color> oder <color=#FFD780FF>Verbotene Windseelenschaffung – Isomorpher Typ 75-II</color> 8 s lang in Höhe von 20 % von Saccharoses Elementarkunde.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Instabile Entdeckung",
         "Description": "Stellt beim Zusammensetzen von Material zur Verbesserung von Figuren und Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

@@ -42,6 +42,7 @@
         "Id": 30506,
         "Name": "Saut spécial",
         "Description": "Si le personnage est à Natlan, un appui long permet de consommer du phlogistique pour effectuer un double saut-fusée. Une fois le phlogistique épuisé, le personnage consomme à la place de l'endurance pour effectuer le double saut.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_E_Olorun_03"
       },
       {
@@ -273,6 +274,7 @@
         "Id": 30501,
         "Name": "Flèche spirituellement habitée",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Électro, infligeant des <color=#FFACFFFF>DGT Électro</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -409,6 +411,7 @@
         "Id": 30502,
         "Name": "Cordon fermement crépusculaire",
         "Description": "#Ororon manifeste une ancienne technique mystique des Maîtres du vent nocturne sous la forme d'un <color=#FFD780FF>spiritorbe</color> de couleur nocturne et le lance sur un ennemi pour infliger des <color=#FFACFFFF>DGT Électro</color> infusés de noctâme.\nLorsque d'autres ennemis sont présents à proximité, le spiritorbe rebondit entre les ennemis proches pour infliger des <color=#FFACFFFF>DGT Électro</color> infusés de noctâme, chaque ennemi ne pouvant être ciblé qu'une seule fois par utilisation de Cordon fermement crépusculaire.\nLe spiritorbe disparaît après 3 rebonds ou si aucun ennemi ne peut être ciblé.\n\n<i>« Les gens veulent toujours prédire l'avenir, mais c'est peut-être parce qu'ils n'ont pas encore découvert ce qu'ils doivent faire... Désolé, je dis encore des choses compliquées, je sais...{NON_BREAK_SPACE}»</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Olorun_01"
       }
     ],
@@ -594,6 +597,7 @@
       "Id": 30505,
       "Name": "Écho opaquement étouffé",
       "Description": "Ororon accomplit un ancien rituel pour infliger des <color=#FFACFFFF>DGT Électro de zone</color> infusés de noctâme et invoquer un spiroculus sonique.\n\n<color=#FFD780FF>Spiroculus sonique</color>\n· Nargue les ennemis proches et attire leurs attaques.\n· Tournoie de façon continue et envoie des ondes sonores infligeant des <color=#FFACFFFF>DGT Électro</color> infusés de noctâme aux ennemis proches.\n\n<i>Ceux aux sens suffisamment aiguisés peuvent entendre les petites voix avec lesquelles toutes choses parlent. Ainsi, ils ne se perdront jamais, même pendant les longues nuits sans lumière.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Olorun_01"
     },
     "Inherents": [
@@ -618,6 +622,7 @@
         "Id": 1052101,
         "Name": "Synesthésie sombrement nocturne",
         "Description": "Lorsqu'un membre de l'équipe à proximité a déclenché une éruption noctâme, Ororon obtient 40 pts de noctâme. Pendant 15 s après l'utilisation d'une compétence élémentaire, Ororon obtient 5 pts de noctâme lorsqu'un autre personnage <color=#80C0FFFF>Hydro</color> ou <color=#FFACFFFF>Électro</color> de l'équipe touche un ennemi, cet effet pouvant être déclenché une fois toutes les 0,3 s et un maximum de 10 fois pendant cette durée de 15 s.\nOroron peut avoir un maximum de 80 pts de noctâme.\n\nDe plus, lorsqu'un ennemi proche subit des DGT d'une <color=#FFACFFFF>réaction d'Électrocution ou de Sélénocution</color> ou des DGT infusés de noctâme d'un autre personnage de l'équipe à proximité, Ororon consomme, si possible, 10 pts de noctâme pour entrer dans l'état Bénédiction noctâme et déclencher l'effet Hyper-sens : inflige des <color=#FFACFFFF>DGT Électro</color> infusés de noctâme d'une valeur équivalant à 160 % de l'ATQ d'Ororon à un maximum de 4 ennemis à proximité. Cet effet peut être déclenché une fois toutes les 1,8 s.\n\n<color=#FFD780FF>Bénédiction noctâme : Ororon</color>\nLa bénédiction noctâme d'Ororon dure un maximum de 6 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_05"
       },
       {
@@ -642,6 +647,7 @@
         "Id": 1052201,
         "Name": "Catalyseur manifestement spirituel",
         "Description": "Lorsqu'un <color=#FFD780FF>spiritorbe</color> de la compétence élémentaire <color=#FFD780FF>Cordon fermement crépusculaire</color> a touché un ennemi, Ororon obtient une marque manifeste pendant 15 s.\n\n<color=#FFD780FF>Marque manifeste</color>\nLorsqu'un personnage déployé de l'équipe à proximité a touché un ennemi avec une attaque normale, chargée ou plongeante, il récupère 3 pts d'énergie élémentaire. Si Ororon fait partie de l'équipe mais n'est pas déployé, il récupère également 3 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les secondes, et un maximum de 3 fois pendant la durée de cette marque.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_06"
       },
       {
@@ -660,6 +666,7 @@
         "Id": 1052301,
         "Name": "Don de la nuit : Ombre nettement bondissante",
         "Description": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Ororon » peut être utilisée. Lorsque le personnage déployé est dans les airs, le déploiement d'Ororon déclenche l'effet suivant : Ororon fait un bond très haut. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nMaintenir pour viser fait passer Ororon dans l'état de spiritoraison, ce qui lui permet d'interagir avec les graffitis et insignes de spirinocturne pour extraire les informations et la puissance à l'intérieur. Les règles d'interaction avec ces éléments suivent les mêmes règles que celles régissant les interactions avec les iktomisaures.\n\nDe plus, maintenir le saut fait consommer 75 pts d'endurance à Ororon pour sauter. Dans une zone de Natlan avec des mécanismes phlogistiques, Ororon consomme en priorité 5 pts de phlogistique pour sauter encore plus haut.\nDans les airs, Ororon peut maintenir l'attaque normale et consommer du phlogistique ou de l'endurance pour passer en mode visée.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_07"
       },
       {
@@ -678,6 +685,7 @@
         "Id": 1052501,
         "Name": "Peau artisanalement modifiée",
         "Description": "Augmente la VIT de planage de vos personnages dans l'équipe de 15 %.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_08"
       }
     ],

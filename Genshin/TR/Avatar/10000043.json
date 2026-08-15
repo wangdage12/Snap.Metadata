@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Rüzgar Ruhu Saldırısı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nRüzgar Ruhlarıyla en fazla 4 saldırı yaparak <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nKısa süre kullanıldıktan sonra belirli miktarda Dayanıklılık harcayarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nSucrose, Rüzgar Ruhlarının gücünü çağırarak havadayken yere doğru atılır ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Dengesiz Rüzgar Hipostazı - Denek 6308",
         "Description": "Düşmanları ve nesneleri kendine çeken, etki alanındaki düşmanları fırlatan ve <color=#80FFD7FF>Rüzgar Hasarı</color> veren küçük bir Rüzgar Ruhu oluşturur.\n\n<i>Biraz utanç verici ama bu yöntemle doğan element yaşam formları çok hızlı dağılsa da maceralarda çok işe yararlar. Başarısız deneylerin bile pratik kullanımları olabilir.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Cadının Gece Ayini: Yedi Katlı Dönüşüm",
         "Description": "<color=#FFD780FF>Cadının Ödevi: Harikalar Diyarı Çiçekleri</color> tamamlandıktan sonra Sucrose bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini geliştiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n·Sucrose bir Küçük Rüzgar Ruhu oluşturduktan sonra yakındaki grup üyelerinin 15sn boyunca Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi ve Element Patlaması Hasarı %5,71428 artar.\n·Sucrose bir Büyük Rüzgar Ruhu oluşturduktan sonra yakındaki grup üyesi Cadılık karakterlerinin 20sn boyunca Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi ve Element Patlaması Hasarı %7,14285 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Yasaklı İcat - İzomer 75 / Tip II",
       "Description": "Sucrose, Büyük Rüzgar Ruhu oluşturan dengesiz bir karışım fırlatır.\nBüyük Rüzgar Ruhu, etki süresince durmadan etrafındaki düşmanları ve nesneleri çeker, yakındaki düşmanları fırlatır ve <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Element Emilimi</color>\nRüzgar Ruhu, <color=#80C0FFFF>Su</color>/<color=#FF9999FF>Ateş</color>/<color=#99FFFFFF>Buz</color>/<color=#FFACFFFF>Elektrik</color> enerjisi ile etkileşime girdiğinde o element türünden ek Element Hasarı verir.\nHer kullanıldığında Element Emilimi yalnızca bir defa uygulanabilir.\n\n<i>Sucrose eskiden uçucu Rüzgar Hipostazlarına isim verirdi ama hipostazların sayısı kısa sürede o kadar çok arttı ki 893. Baron Tavşanı bile geçti.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Katalizör Dönüşümü",
-        "Description": "Sucrose bir Girdap tepkimesi tetiklediğinde 8 saniyeliğine gruptaki aynı elemente sahip tüm karakterlerin (Sucrose hariç) Element Ustalığı 50 artar.",
+        "Description": "Sucrose bir Girdap veya Yıldız Girdabı tepkimesi tetiklediğinde 8 saniyeliğine gruptaki aynı elemente sahip tüm karakterlerin (Sucrose hariç) Element Ustalığı 50 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Hafif Bir Meltem",
         "Description": "<color=#FFD780FF>Dengesiz Rüzgar Hipostazı - Denek 6308</color> veya <color=#FFD780FF>Yasaklı İcat - İzomer 75 / Tip II</color> bir düşmana vurduğunda tüm grup üyelerinin (Sucrose hariç) 8 saniyeliğine Element Ustalığı, Sucrose'un Element Ustalığının %20'si kadar artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Dengesiz İcat",
         "Description": "Sucrose, Karakter ve Silah Geliştirme Malzemeleri ürettiğinde elde edilen ürün %10 ihtimalle iki katına çıkar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

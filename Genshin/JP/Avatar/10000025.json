@@ -338,6 +338,7 @@
         "Id": 10381,
         "Name": "古華剣法",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 10382,
         "Name": "古華剣·画雨籠山",
         "Description": "2段連続の攻撃を仕掛け、前方の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、出場している自身のキャラクターの周りに最大本数の「雨すだれの剣」を生成する。\n「雨すだれの剣」は以下の特性を持つ。\n·キャラクターが攻撃を受ける時、「雨すだれの剣」が破壊される代わりに、キャラクターが受けるダメージを減少させる。\n·キャラクターの中断耐性をアップする。\n行秋の<color=#80C0FFFF>水元素ダメージアップ</color>の20%分は「雨すだれの剣」のダメージ軽減効果に転換される。\n\n最大24%のダメージ軽減効果を得られる。\n「雨すだれの剣」の初期最大数は3本。\n発動した瞬間、キャラクターに<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<i>「蛟竜斬り易く、雨描き難し。」</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xingqiu_01"
       }
     ],
@@ -690,6 +692,7 @@
       "Id": 10385,
       "Name": "古華剣·裁雨留虹",
       "Description": "虹剣勢を展開し、幻影の剣雨を使い、キャラクターに最大数の雨すだれの剣を付与する。\n\n<color=#FFD780FF>虹剣勢</color>\n·出場している自身のキャラクターの通常攻撃時に剣雨攻撃を発動し、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n·雨すだれの剣の数は終始最大数をキープする。\n\n<i>「裁雨の法」、古華派秘伝の秘技の一つである。</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xingqiu_01"
     },
     "Inherents": [
@@ -709,6 +712,7 @@
         "Id": 252101,
         "Name": "水生みの要訣",
         "Description": "雨すだれの剣が破壊、または継続時間終了時に、キャラクターのHPを行秋のHP上限の6%分回復する。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_05"
       },
       {
@@ -727,6 +731,7 @@
         "Id": 252201,
         "Name": "虚実の筆",
         "Description": "行秋の<color=#80C0FFFF>水元素ダメージ</color>+20%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_06"
       },
       {
@@ -745,6 +750,7 @@
         "Id": 252301,
         "Name": "靈光突如",
         "Description": "キャラクター天賦素材を合成する時、25%の確率で一部の材料が返還される。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Talent"
       }
     ],

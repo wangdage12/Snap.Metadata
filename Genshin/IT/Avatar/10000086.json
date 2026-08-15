@@ -308,6 +308,7 @@
         "Id": 10861,
         "Name": "Pugni del gelo veemente",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nWriothesley convoglia il gelo sul suo pugno per sferrare dei potenti <color=#FFD780FF>Pugni espulsori</color>, eseguendo fino a 5 attacchi rapidi che infliggono <color=#99FFFFFF>DAN da Cryo</color>.\nAnche dopo aver usato un Assalto della zanna di ghiaccio o uno Scatto, la combo di attacchi normali non si azzera per alcuni istanti.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una data quantità di vigore per eseguire un balzo e sferrare un <color=#FFD780FF>Pugno guizzante</color>, infliggendo <color=#99FFFFFF>DAN da Cryo ad area</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e <color=#99FFFFFF>DAN da Cryo ad area</color> all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -536,6 +537,7 @@
         "Id": 10862,
         "Name": "Assalto della zanna di ghiaccio",
         "Description": "#Regolando il respiro, il ritmo e l'andatura, Wriothesley esegue uno Scatto in avanti per un breve tratto ed entra nello stato di <color=#FFD780FF>Punizione rigente</color>, scatenando attacchi più potenti del normale.\n\n<color=#FFD780FF>Punizione rigente</color>\n· Aumenta la resistenza all'interruzione di Wriothesley.\n· Se i suoi PS sono superiori a un 50%, potenzia i Pugni espulsori di <color=#FFD780FF>Attacco normale: Pugni del gelo veemente</color> aumentando i DAN inflitti. Quando uno di tali attacchi va a segno, una certa quantità dei PS di Wriothesley si consuma. Tale perdita di PS può verificarsi solo una volta ogni 0,1{NON_BREAK_SPACE}s.\nQuesto effetto viene annullato se Wriothesley lascia il campo.\n\n<i>\"Le condanne del passato sono solo un ricordo. Ciò che davvero importa sono le scelte future.\nSe non vuoi che il peccato di un singolo istante ti consumi, allora fai tesoro di quell'istante.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
@@ -562,7 +564,8 @@
         },
         "Id": 865101,
         "Name": "L'ingiustizia verrà rivelata",
-        "Description": "#Nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, il talento d'ascensione Supplica di giustizia di Wriothesley viene modificato come segue.\nQuando i PS di Wriothesley sono inferiori a un 60%, ottiene un \"Rimprovero magnanimo: Rivelazione\": il successivo attacco caricato del suo attacco normale, <color=#FFD780FF>Pugni del gelo veemente</color>, diventa Lustro: Pugno guizzante, che non consuma vigore e ripristina i PS di Wriothesley di un 30% dei suoi PS max all'impatto. Il ripristino dei PS può verificarsi una volta ogni 2{NON_BREAK_SPACE}s.\nInoltre, il terzo e il quinto colpo del Pugno espulsore potenziato da <color=#FFD780FF>Punizione rigente</color> infliggono rispettivamente un 60% e un 80% dei loro <color=#99FFFFFF>DAN da Cryo</color> originali, mentre Lustro: Pugno guizzante infligge un 100% dei suoi <color=#99FFFFFF>DAN da Cryo ad area</color> originali. I DAN sopracitati sono considerati DAN da Astroconduzione. Wriothesley infligge un 30% di DAN da Astroconduzione in più.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Wriothesley entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "Description": "#Nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, il talento d'ascensione Supplica di giustizia di Wriothesley viene modificato come segue.\nQuando i PS di Wriothesley sono inferiori a un 60%, ottiene un \"Rimprovero magnanimo: Rivelazione\"， trasformando l'attacco caricato del suo attacco normale, <color=#FFD780FF>Pugni del gelo veemente</color>, nella sua versione potenziata Lustro: Pugno guizzante, che non consuma vigore e ripristina i PS di Wriothesley di un 30% dei suoi PS max all'impatto. Il ripristino dei PS può verificarsi una volta ogni 2{NON_BREAK_SPACE}s.\nInoltre, il terzo e il quinto colpo del Pugno espulsore potenziato da <color=#FFD780FF>Punizione rigente</color> infliggono rispettivamente un 60% e un 80% dei loro <color=#99FFFFFF>DAN da Cryo</color> originali, mentre Lustro: Pugno guizzante infligge un 100% dei suoi <color=#99FFFFFF>DAN da Cryo ad area</color> originali. I DAN sopracitati sono considerati DAN da Astroconduzione. Wriothesley infligge un 30% di DAN da Astroconduzione in più.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Wriothesley entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_08"
       }
     ],
@@ -748,6 +751,7 @@
       "Id": 10865,
       "Name": "Morso del lupo brunauro",
       "Description": "Attivando i suoi guantoni da pugile, Wriothesley sferra un diretto di ghiaccio condensato, dopodiché usa un Impatto glaciale per infliggere più iterazioni di <color=#99FFFFFF>DAN da Cryo ad area</color> di fronte a sé.\n\n<color=#FFD780FF>Archè: Ousia</color>\nQuando l'effetto dell'Impatto glaciale termina, una Lama nascente precipita nella posizione dell'avversario, infliggendo <color=#99FFFFFF>DAN da Cryo</color> di polarità Ousia.\n\n<i>Ci sono cose su cui perfino il Duca di Forte Méropide non ha alcun controllo... Le scartoffie complicate, per esempio. O le frivolezze di un supervisore. Oppure... i bambini che incollano sui guantoni da pugile una sfilza di adesivi bellissimi da vedere ma difficili da rimuovere.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wriothesley_01"
     },
     "Inherents": [
@@ -772,6 +776,7 @@
         "Id": 862101,
         "Name": "Supplica di giustizia",
         "Description": "#Se Wriothesley possiede meno di un 60% dei PS, il personaggio ottiene un Rimprovero magnanimo. Il successivo attacco caricato di <color=#FFD780FF>Attacco normale: Pugni del gelo veemente</color> si potenzia per diventare Rimprovero: Pugno guizzante. Quest'ultimo non consuma vigore, infligge un 50% di DAN in più e ripristina un 30% dei PS max di Wriothesley all'impatto.\nÈ possibile ottenere Rimprovero magnanimo in questo modo ogni 5{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_05"
       },
       {
@@ -793,6 +798,7 @@
         "Id": 862201,
         "Name": "Ascrizione del peccato",
         "Description": "Quando i PS attuali di Wriothesley aumentano o diminuiscono mentre è nello stato di Punizione rigente conferito da <color=#FFD780FF>Assalto della zanna di ghiaccio</color>, Punizione rigente ottiene 1 accumulo di Editto d'accusa, fino a un massimo di 5. Ogni accumulo aumenta di un 6% l'ATT di Wriothesley.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_06"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 862301,
         "Name": "Grazia del Duca",
         "Description": "Quando Wriothesley crea materiali d'ascensione delle armi, ha un 10% di probabilità di ricevere il doppio del prodotto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],
@@ -818,7 +825,7 @@
       {
         "Id": 861,
         "Name": "Terrore per i malfattori",
-        "Description": "#Il Rimprovero magnanimo del talento d'ascensione Supplica di giustizia riceve le seguenti modifiche.\nQuando i PS di Wriothesley sono inferiori a un 60%, o se il personaggio è nello stato di Punizione rigente scatenato da <color=#FFD780FF>Assalto della zanna di ghiaccio</color>, quando il quinto Pugno espulsore va a segno, il personaggio ottiene 1 effetto di Rimprovero magnanimo. È possibile ottenere tale effetto una volta ogni 2,5{NON_BREAK_SPACE}s.\n\nInoltre, Rimprovero: Pugno guizzante ottiene i seguenti potenziamenti:\n· il bonus DAN ottenuto aumenta ulteriormente a 200%;\n· quando lo si usa per colpire un nemico mentre Wriothesley è in stato di Punizione rigente, la durata dello stato viene estesa di 4{NON_BREAK_SPACE}s. È possibile ottenere solo una di tali estensioni in tutta la durata di Punizione rigente.\n\nRichiede il talento d'ascensione Supplica di giustizia.",
+        "Description": "#Il Rimprovero magnanimo del talento d'ascensione Supplica di giustizia riceve la seguente modifica.\nQuando i PS di Wriothesley sono inferiori a un 60%, o se il personaggio è nello stato di Punizione rigente scatenato da <color=#FFD780FF>Assalto della zanna di ghiaccio</color>, quando il quinto attacco dei Pugni espulsori va a segno, il personaggio ottiene 1 effetto Rimprovero magnanimo. È possibile ottenere tale effetto una volta ogni 2,5{NON_BREAK_SPACE}s.\n\nInoltre, Rimprovero: Pugno guizzante ottiene i seguenti potenziamenti:\n· il bonus DAN ottenuto aumenta ulteriormente a 200%;\n· quando lo si usa per colpire un nemico mentre Wriothesley è in stato di Punizione rigente, la durata dello stato viene estesa di 4{NON_BREAK_SPACE}s. È possibile ottenere solo una di tali estensioni in tutta la durata di Punizione rigente.\n\nRichiede il talento d'ascensione Supplica di giustizia.",
         "SpecialDescription": "#Il Rimprovero magnanimo del talento d'ascensione Supplica di giustizia riceve la seguente modifica.\nQuando i PS di Wriothesley sono inferiori a un 60%, o se il personaggio è nello stato di Punizione rigente scatenato da <color=#FFD780FF>Assalto della zanna di ghiaccio</color>, quando il quinto attacco dei Pugni espulsori va a segno, il personaggio ottiene 1 effetto Rimprovero magnanimo. È possibile ottenere tale effetto una volta ogni 2,5{NON_BREAK_SPACE}s.\n\nInoltre, Rimprovero: Pugno guizzante ottiene i seguenti potenziamenti:\n· il bonus DAN ottenuto aumenta ulteriormente a 200%;\n· quando lo si usa per colpire un nemico mentre Wriothesley è in stato di Punizione rigente, la durata dello stato viene estesa di 4{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Splendore: Astroconduzione</color>\n· Dopo aver colpito un avversario con Lustro: Pugno guizzante, il quinto attacco dei Pugni espulsori potenziati da Punizione rigente che colpisce entro i 5{NON_BREAK_SPACE}s successivi infligge un 50% di DAN da Astroconduzione in più.\n· Dopo aver colpito un avversario con il quinto attacco dei Pugni espulsori potenziati da Punizione rigente, il Lustro: Pugno guizzante che colpisce entro i 5{NON_BREAK_SPACE}s successivi infligge un 50% di DAN in più.\n· Se Lustro: Pugno guizzante colpisce un avversario mentre Wriothesley è nello stato di Punizione rigente, la durata del suddetto stato viene estesa di 4{NON_BREAK_SPACE}s.\n\nÈ possibile ottenere solo una di tali estensioni in tutta la durata di Punizione rigente.\n\nRichiede il talento d'ascensione Supplica di giustizia.",
         "Icon": "UI_Talent_S_Wriothesley_01"
       },
@@ -842,7 +849,7 @@
       {
         "Id": 864,
         "Name": "Redenzione per i sofferenti",
-        "Description": "#I PS ripristinati tramite Rimprovero: Pugno guizzante aumentano di un 50% dei PS max di Wriothesley. Richiede il talento d'ascensione Supplica di giustizia.\nInoltre, quando i PS di Wriothesley si ripristinano, se la quantità di PS ripristinati supera il limite massimo, si verificano i seguenti effetti in base a se il personaggio è in campo o meno. Se Wriothesley è in campo, la sua VEL d'ATT aumenta di un 20% per 4{NON_BREAK_SPACE}s. Se non è in campo, la VEL d'ATT di tutti i personaggi del tuo gruppo aumenta di un 10% per 6{NON_BREAK_SPACE}s. Questi due metodi di aumento della VEL d'ATT non possono accumularsi.",
+        "Description": "#I PS ripristinati tramite Rimprovero: Pugno guizzante aumentano a un 50% dei PS max di Wriothesley. Richiede il talento d'ascensione Supplica di giustizia.\nInoltre, quando i PS di Wriothesley si ripristinano, se la quantità di PS ripristinati supera il limite massimo, si verificano i seguenti effetti in base a se il personaggio è in campo o meno. Se Wriothesley è in campo, la sua VEL d'ATT aumenta di un 20% per 4{NON_BREAK_SPACE}s. Se non è in campo, la VEL d'ATT di tutti i personaggi del tuo gruppo aumenta di un 10% per 6{NON_BREAK_SPACE}s. Questi due metodi di aumento della VEL d'ATT non possono accumularsi.",
         "SpecialDescription": "#I PS ripristinati tramite Rimprovero: Pugno guizzante aumentano a un 50% dei PS max di Wriothesley. Richiede il talento d'ascensione Supplica di giustizia.\nInoltre, quando i PS di Wriothesley si ripristinano, se la quantità di PS ripristinati supera il limite massimo, si verificano i seguenti effetti in base a se il personaggio è in campo o meno. Se Wriothesley è in campo, la sua VEL d'ATT aumenta di un 20% per 4{NON_BREAK_SPACE}s. Se non è in campo, la VEL d'ATT di tutti i personaggi del tuo gruppo aumenta di un 10% per 6{NON_BREAK_SPACE}s. Questi due metodi di aumento della VEL d'ATT non possono accumularsi.\n\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, l'effetto sopracitato viene sostituito con il seguente effetto:\nWriothesley subisce un 25% di DAN in meno, e la sua VEL d'ATT aumenta di un 20%. La VEL d'ATT degli altri membri vicini del gruppo aumenta di un 10%.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
@@ -859,8 +866,8 @@
       {
         "Id": 866,
         "Name": "Salvaguardia per gli innocenti",
-        "Description": "Il tasso di CRIT e i DAN da CRIT di Rimprovero: Pugno guizzante aumentano rispettivamente di un 10% e di un 80%. Quando viene sprigionato, si materializza un ulteriore spuntone di ghiaccio che infligge un 100% dei DAN base di Rimprovero: Pugno guizzante come <color=#99FFFFFF>DAN da Cryo</color>. I DAN inflitti in questo modo sono considerati DAN da attacco caricato.\nRichiede il talento d'ascensione Supplica di giustizia.",
-        "SpecialDescription": "Il tasso di CRIT e i DAN da CRIT di Rimprovero: Pugno guizzante aumentano rispettivamente di un 10% e di un 80%. Quando viene sprigionato, si materializza un ulteriore spuntone di ghiaccio che infligge un 100% dei DAN originali di Rimprovero: Pugno guizzante come <color=#99FFFFFF>DAN da Cryo</color>. I DAN inflitti in questo modo sono considerati DAN da attacco caricato.\n\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, l'effetto sopracitato viene sostituito con il seguente effetto:\n· il Pugno espulsore potenziato da <color=#FFD780FF>Punizione rigente</color> e Lustro: Pugno guizzante ottengono un 10% di tasso di CRIT e un 80% di DAN da CRIT in più. Inoltre, il quinto attacco dei Pugni espulsori potenziati da <color=#FFD780FF>Punizione rigente</color> e Lustro: Pugno guizzante generano ciascuno uno spuntone di ghiaccio aggiuntivo che infligge <color=#99FFFFFF>DAN da Cryo</color> pari a un 60% dei DAN originali, considerati DAN da Astroconduzione.\n\nRichiede il talento d'ascensione Supplica di giustizia.",
+        "Description": "Il tasso di CRIT e i DAN da CRIT di Rimprovero: Pugno guizzante aumentano rispettivamente di un 10% e di un 80%. Quando viene sprigionato, si materializza uno spuntone di ghiaccio aggiuntivo che infligge <color=#99FFFFFF>DAN da Cryo</color> pari a un 100% dei DAN base di Rimprovero: Pugno guizzante. I DAN inflitti in questo modo sono considerati DAN da attacco caricato.\nRichiede il talento d'ascensione Supplica di giustizia.",
+        "SpecialDescription": "Il tasso di CRIT e i DAN da CRIT di Rimprovero: Pugno guizzante aumentano rispettivamente di un 10% e di un 80%. Quando viene sprigionato, si materializza uno spuntone di ghiaccio aggiuntivo che infligge <color=#99FFFFFF>DAN da Cryo</color> pari a un 100% dei DAN base di Rimprovero: Pugno guizzante. I DAN inflitti in questo modo sono considerati DAN da attacco caricato.\n\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, l'effetto sopracitato viene sostituito con il seguente effetto:\n· il Pugno espulsore potenziato da <color=#FFD780FF>Punizione rigente</color> e Lustro: Pugno guizzante ottengono un 10% di tasso di CRIT e un 80% di DAN da CRIT in più. Inoltre, il quinto attacco dei Pugni espulsori potenziati da <color=#FFD780FF>Punizione rigente</color> e Lustro: Pugno guizzante materializzano ciascuno uno spuntone di ghiaccio aggiuntivo che infligge <color=#99FFFFFF>DAN da Cryo</color> pari a un 20% dei DAN originali, considerati DAN da Astroconduzione.\n\nRichiede il talento d'ascensione Supplica di giustizia.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

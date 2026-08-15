@@ -308,6 +308,7 @@
         "Id": 10521,
         "Name": "Prémisse",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher une attaque ascendante.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 10522,
         "Name": "Transcendance : Présage funeste",
         "Description": "La Shogun Raiden dévoile un fragment de son euthymie, infligeant des <color=#FFACFFFF>DGT Électro</color> aux ennemis proches, et accordant à tous les personnages de l'équipe à proximité un œil de jugement orageux.\n\n<color=#FFD780FF>Œil de jugement orageux</color>\n· Lorsqu'un personnage bénéficiant de cet effet attaque et inflige des DGT à un ennemi, l'œil déclenche une attaque coordonnée, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> à l'emplacement de l'ennemi.\n· Les personnages qui obtiennent un œil de jugement orageux voient les DGT de leurs déchaînements élémentaires augmenter pendant la durée de l'œil, en fonction de l'énergie élémentaire consommée par le déchaînement.\n\nL'œil peut déclencher une attaque coordonnée toutes les 0,9 s par équipe.\nLes attaques coordonnées générées par des personnages hors de votre équipe infligent 20 % des DGT normaux.\n\n<i>Les êtres d'une grande divinité peuvent affecter tout ce qui les entoure, et l'Archon Électro peut manipuler les étoiles menaçantes pour protéger ses partisans et infliger une sentence fulgurante à ses ennemis.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Shougun_01"
       }
     ],
@@ -913,6 +915,7 @@
       "Id": 10525,
       "Name": "Art secret : Dogme d'idéal",
       "Description": "Rassemblant des vérités innombrables et des souhaits inquantifiables, la Shogun Raiden libère le Kendo d'idéal et inflige des <color=#FFACFFFF>DGT Électro de zone</color>, avant d'utiliser l'Harmonie d'idéal au combat pendant un certain temps. Les DGT infligés par le Kendo d'idéal et ceux infligés par les attaques sous l'Harmonie d'idéal augmentent selon le nombre de cumuls de résolution de Chakra Desiderata consommés en utilisant l'aptitude.\n\n<color=#FFD780FF>Harmonie d'idéal</color>\nDans cet état, la Shogun Raiden utilisera son tachi au combat, tandis que ses attaques normales, chargées et plongeantes seront imprégnées de <color=#FFACFFFF>DGT Électro</color> ne pouvant pas être enchantés. Lorsque de telles attaques touchent des ennemis, la Shogun restaure l'énergie élémentaire de tous les personnages de l'équipe à proximité. La restauration peut être déclenchée une fois toutes les secondes de cette manière, et un maximum de 5 fois pendant toute la durée de cette aptitude.\nDans cet état, la RÉS à l'interruption de la Shogun Raiden augmente, et elle est immunisée contre les <color=#FFACFFFF>Électrocutions</color>.\nTant que l'Harmonie d'idéal est active, les DGT des attaques normales, chargées et plongeantes de la Shogun Raiden sont considérés comme des DGT de déchaînement élémentaire.\n\nLes effets de l'Harmonie d'idéal seront annulés lorsque la Shogun Raiden quitte le champ de bataille.\n\n<color=#FFD780FF>Chakra Desiderata</color>\nLorsque les personnages de l'équipe à proximité utilisent un déchaînement élémentaire (hormis la Shogun Raiden), le Chakra Desiderata de la Shogun Raiden accumule de la résolution en fonction de l'énergie élémentaire consommée par le déchaînement.\nIl est possible d'obtenir jusqu'à 60 cumuls de résolution.\n\nLa résolution obtenue par le Chakra Desiderata sera annulée après 300 s si la Shogun Raiden quitte le combat.\n\n<i>C'est la nouvelle technique secrète de la Shogun Raiden. Abandonnant son « insouciance » dénuée de substance, elle porte désormais sur ses épaules un nouvel « idéal » : les rêves et les ambitions de tous. Tout comme « dogme », la « vérité », signifie également le « renouveau », Inazuma est aussi entrée dans un nouveau chapitre.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Shougun_01"
     },
     "Inherents": [
@@ -935,6 +938,7 @@
         "Id": 522101,
         "Name": "Souhaits innombrables",
         "Description": "Lorsque les personnages de l'équipe à proximité obtiennent un orbe ou une particule élémentaire, le <color=#FFD780FF>Chakra Desiderata</color> obtient 2 cumuls de résolution.\nCet effet peut être déclenché une fois toutes les 3 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_05"
       },
       {
@@ -957,6 +961,7 @@
         "Id": 522201,
         "Name": "L'illuminée",
         "Description": "Pour chaque tranche de 1 % de recharge d'énergie qu'elle possède au-dessus de 100 %, la Shogun Raiden bénéficie des effets suivants :\n· La restauration d'énergie élémentaire accordée par l'<color=#FFD780FF>Harmonie d'idéal</color> augmente de 0,6 %.\n· Le <color=#FFACFFFF>bonus de DGT Électro</color> augmente de 0,4 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_06"
       },
       {
@@ -975,6 +980,7 @@
         "Id": 522301,
         "Name": "暂缺",
         "Description": "无法参与料理",
+        "SpecialEnergyType": 0,
         "Icon": ""
       },
       {
@@ -993,6 +999,7 @@
         "Id": 522501,
         "Name": "Préservation suprême",
         "Description": "#Les moras utilisés lors de l'élévation d'épées à une main et d'armes d'hast diminuent de 50{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_07"
       }
     ],

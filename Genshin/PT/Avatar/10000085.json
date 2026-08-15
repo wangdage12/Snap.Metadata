@@ -309,6 +309,7 @@
         "Id": 10851,
         "Name": "Espada do Fluxo",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -618,6 +619,7 @@
         "Id": 10852,
         "Name": "Fluxo Pressurizado",
         "Description": "Faz um Ataque de Impulso Ascendente que causa <color=#99FFFFFF>Dano Cryo</color> e entra no estado Tempo Pers por 10s.\nEnquanto estiver no estado Tempo Pers, a Habilidade Elemental será convertida em Pressão Esmagadora.\n\n<color=#FFD780FF>Pressão Esmagadora</color>\nRealiza ataques diferentes segundo o Nível de Pressão de Tempo Pers, e remove o estado Tempo Pers:\n· Nível 0: lança um corte vertical que causa <color=#99FFFFFF>Dano Cryo</color>.\n· Nível 1 a 3: lança cortes verticais junto com Pers, causando <color=#99FFFFFF>Dano Cryo</color> e Dano Físico. O Dano é diferente segundo o nível da Pressão Esmagadora.\n· Nível 4: pega o poder emprestado de um Pers totalmente pressurizado para causar Dano Físico. Neste momento, o Ataque Normal: Espada do Fluxo será substituído pela Pressão Esmagadora. \n\n<color=#FFD780FF>Tempo Pers</color>\nQuando Freminet faz um Ataque Normal, lançará ao mesmo tempo um Gelo Congelante que causa <color=#99FFFFFF>Dano Cryo</color> e eleva o nível de Pressão Esmagadora de Tempo Pers.\nO <color=#99FFFFFF>Dano Cryo</color> causado dessa forma nesse tempo é considerado Dano de Habilidade Elemental.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nPeriodicamente, depois de lançar um Ataque de Impulso Ascendente, criará um Espinho Espiritual na forma de outro Impulso Ascendente que causará <color=#99FFFFFF>Dano Cryo</color> com Pneuma.\n\n<i>Imobilizar o seu oponente sem tirar sua vida também pode ser considerado uma estratégia de sobrevivência que alguém pode escolher.</i>\n<i>\"Pers... deixo o resto nas suas mãos.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Freminet_01"
       }
     ],
@@ -787,6 +789,7 @@
       "Id": 10855,
       "Name": "Emboscada das Sombras",
       "Description": "Liberta um ar frio que não pode ser tocado, causando <color=#99FFFFFF>Dano Cryo em AdE</color>, redefinindo a recarga da Habilidade \"Fluxo Pressurizado\" e entrando no modo Caçador Secreto por 10s.\n\nQuando estiver no modo Caçador Secreto, aumenta a RES contra Interrupção de Freminet, e sua Habilidade Elemental \"Fluxo Pressurizado\" obtém os seguintes fortalecimentos:\n· Redução da Recarga em 70%.\n· Ao fazer um Ataque Normal, aumenta um nível adicional do Nível de Pressão de Tempo Pers, e aumenta o Dano causado pelo Gelo Congelante ao lançar um Ataque Normal em 200% do Dano original causado.\n\nEsse efeito será removido quando Freminet sair do campo de batalha.\n\n<i>\"Agora... eu não preciso de nenhum barulho extra.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Freminet_01"
     },
     "Inherents": [
@@ -808,6 +811,7 @@
         "Id": 852101,
         "Name": "Mergulho da Saturação",
         "Description": "Ao lançar <color=#FFD780FF>Fluxo Pressurizado: Pressão Esmagadora</color>, se o Nível de Pressão do Tempo Pers for menor que 4, a recarga de Fluxo Pressurizado será reduzida em 1s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 852201,
         "Name": "Condensadores Paralelos",
         "Description": "Quando Freminet desencadeia a reação de Quebrar Gelo contra um inimigo, o dano causado pelo <color=#FFD780FF>Fluxo Pressurizado: Pressão Esmagadora</color> será aumentado em 40% por 5s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_06"
       },
       {
@@ -847,6 +852,7 @@
         "Id": 852301,
         "Name": "Navegando em Águas Profundas",
         "Description": "Reduz o consumo de Fôlego dos membros da equipe em 35%.\nNão acumulável com outros Talentos Passivos que concedem exatamente os mesmos efeitos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_07"
       }
     ],
@@ -876,7 +882,7 @@
       {
         "Id": 854,
         "Name": "Dança da Lua Nevada e Flauta",
-        "Description": "Após Freminet desencadear uma reação de Congelamento, Quebrar Gelo ou Supercondução, aumenta seu ATQ em 9%. Esse efeito dura 6s e pode ser acumulado 2 vezes, podendo ser desencadeado uma vez a cada 0.3s.",
+        "Description": "Após Freminet desencadear uma reação de Congelamento, Quebrar Gelo, Supercondutor ou Supercondutor Estelar, aumenta seu ATQ em 9%. Esse efeito dura 6s e pode ser acumulado 2 vezes, podendo ser desencadeado uma vez a cada 0.3s.",
         "Icon": "UI_Talent_S_Freminet_03"
       },
       {
@@ -892,7 +898,7 @@
       {
         "Id": 856,
         "Name": "Momento do Despertar",
-        "Description": "Após Freminet desencadear uma reação de Congelamento, Quebrar Gelo ou Supercondução, aumenta seu Dano CRIT em 12%. Esse efeito dura 6s e pode ser acumulado 3 vezes, podendo ser desencadeado uma vez a cada 0.3s.",
+        "Description": "Após Freminet desencadear uma reação de Congelamento, Quebrar Gelo, Supercondutor ou Supercondutor Estelar aumenta seu Dano CRIT em 12%. Esse efeito dura 6s e pode ser acumulado 3 vezes, podendo ser desencadeado uma vez a cada 0.3s.",
         "Icon": "UI_Talent_S_Freminet_04"
       }
     ]

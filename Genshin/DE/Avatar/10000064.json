@@ -323,6 +323,7 @@
         "Id": 10641,
         "Name": "Wolkenfetzer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -522,6 +523,7 @@
         "Id": 10642,
         "Name": "Wolkenöffnung",
         "Description": "Mit den theatralischen Aufführungen ihrer Kampfkünste kommt Fräulein Yun sogar gegen ihre Feinde an.\n\n<color=#FFD780FF>Drücken</color>\nVerursacht mit dem Speertanz des Wolkenzupfens <color=#FFE699FF>Geo-Schaden</color>.\n\n<color=#FFD780FF>Gedrückt halten</color>\nNimmt die Stellung der Wolkenöffnung ein, lädt auf und erschafft einen Schutzschild, der Schaden basierend auf Yun Jins max. LP und bei elementarem sowie physischem Schaden 150 % abhält. Der Schutzschild hält bis zum Ende der Elementarfähigkeit.\nYun Jin wirbelt beim Loslassen der Taste, beim Ende der Wirkungsdauer oder dann, wenn der Schild zerstört wird, ihre Stangenwaffe mit der aufgeladenen Kraft und verursacht <color=#FFE699FF>Geo-Schaden</color>.\nErhält beim Auslösen je nach Zeit der Aufladung den Zustand von Aufladung Phase 1 oder Phase 2.\n\n<i>Ein Moment des Ruhms auf der Bühne entspricht einem Jahrzehnt harter Arbeit hinter der Bühne.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Yunjin_01"
       }
     ],
@@ -723,6 +725,7 @@
       "Id": 10643,
       "Name": "Banner der brechenden Klippen",
       "Description": "Verursacht <color=#FFE699FF>Geo-Flächenschaden</color> und verleiht allen Truppenmitgliedern in der Nähe die „Formation der fliegenden Wolken“.\n\n<color=#FFD780FF>Formation der fliegenden Wolken</color>\nErhöht, wenn Gegnern mit Standardangriffen Schaden zugefügt wird, den verursachten Schaden basierend auf Yun Jins eigener aktueller VTD.\n\nDer Effekt „Formation der fliegenden Wolken“ erlischt am Ende der Wirkungszeit oder nach dem Inkrafttreten einer bestimmten Menge an Stapelungen.\nVerbraucht beim Treffen mehrerer Gegner mit einem einzelnen Standardangriff eine der Anzahl der getroffenen Gegner entsprechende Menge an wirksamen Stapelungen. Die wirksamen Stapelungen jedes Truppenmitglieds mit dem Effekt Formation der fliegenden Wolken werden unabhängig voneinander berechnet.\n\n<i>„Mit dem Klang der Trommeln sowie dem Geklirr der Schwerter, Speere und Hellebarden in der Luft, wird die Bühnenschönheit zu einer führenden Generalin.“</i>\n<i>„Auf dem roten Teppich begleiten Harfen, Flöten, Glocken und Zimbeln sie im Kampf gegen die Dämonen.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Yunjin_01"
     },
     "Inherents": [
@@ -742,6 +745,7 @@
         "Id": 642101,
         "Name": "Selbstsicherheit",
         "Description": "Löst <color=#FFD780FF>Wolkenöffnung</color> bei Anwendung im Augenblick des Erleidens eines Angriffs wie beim Gedrückthalten für Aufladung Phase 2 aus.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_05"
       },
       {
@@ -765,6 +769,7 @@
         "Id": 642201,
         "Name": "Nieder mit den alten Werten",
         "Description": "Erhöht den Schadensbonus für Standardangriffe von <color=#FFD780FF>Formation der fliegenden Wolken</color> bei Truppenmitgliedern mit 1/2/3/4 verschiedenen Elementartypen zusätzlich um 2,5/5/7,5/11,5 % von Yun Jins VTD.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_06"
       },
       {
@@ -783,6 +788,7 @@
         "Id": 642301,
         "Name": "Leichte Nahrung",
         "Description": "Stellt bei der perfekten Zubereitung eines Gerichts mit Abenteuer-Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_07"
       }
     ],

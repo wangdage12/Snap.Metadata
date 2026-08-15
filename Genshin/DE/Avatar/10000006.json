@@ -277,6 +277,7 @@
         "Id": 10060,
         "Name": "Elektrisierende Berührung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Elektro-Angriffe aus und verursacht <color=#FFACFFFF>Elektro-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft der Blitze, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FFACFFFF>Elektro-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -493,6 +494,7 @@
         "Id": 10061,
         "Name": "Lila Lichtbogen",
         "Description": "Bündelt die Elektro-Kraft, um lästige Dinge wegzufegen.\n\n<color=#FFD780FF>Drücken</color>\nErschafft einen Kugelblitz, der automatisch nach Gegnern sucht.\nVerursacht bei einem Treffer <color=#FFACFFFF>Elektro-Schaden</color> und fügt Gegnern mit geringer Reichweite den bis zu 3-fachen Zustand Blitzleiter zu.\n\n<color=#FFD780FF>Gedrückt halten</color>\nRuft nach dem Aufladen einen Blitz aus dem Himmel, der allen Gegnern in der Umgebung hohen <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\nFügt Gegnern im Zustand Blitzleiter je nach gestapeltem Effekt zusätzlich hohen Schaden zu und entfernt den Effekt Blitzleiter von diesen Gegnern.\n\n<i>Die Farbe des Blitzes ist die Farbe der Rosenhexe.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lisa_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 10062,
       "Name": "Rosenblitz",
       "Description": "Erschafft Rosenblitze, stößt Gegner in der Umgebung mit starker Elektro-Kraft zurück und verursacht <color=#FFACFFFF>Elektro-Schaden</color>.\nErschafft während der Wirkungsdauer fortlaufend Blitze, die Gegner in der Nähe angreifen und <color=#FFACFFFF>Elektro-Schaden</color> verursachen.\n\n<i>Die Schönheit dieser Rose wird von ihren Dornen nur hervorgehoben.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lisa_01"
     },
     "Inherents": [
@@ -683,6 +686,7 @@
         "Id": 42101,
         "Name": "Elektrisches Nachbeben",
         "Description": "Fügt mit heftigen Schlägen getroffenen Gegnern den Effekt Blitzleiter von <color=#FFD780FF>Lila Lichtbogen</color> zu.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lisa_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 42201,
         "Name": "Elektrostatisches Feld",
         "Description": "Verringert die VTD von den Gegnern, die von <color=#FFD780FF>Rosenblitz</color> angegriffen werden, 10 s lang um 15 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lisa_06"
       },
       {
@@ -722,6 +727,7 @@
         "Id": 42301,
         "Name": "Allgemeinwissen über Tränke",
         "Description": "Gibt beim Herstellen von Tränken mit einer Wahrscheinlichkeit von 20 % einen Teil der Materialien zurück.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Potion"
       }
     ],

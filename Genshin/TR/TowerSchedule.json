@@ -1817,7 +1817,7 @@
     ],
     "Open": "2025-12-16T04:00:00+08:00",
     "Close": "2026-01-16T03:59:59+08:00",
-    "BuffName": "Kasırga Ay",
+    "BuffName": "",
     "Descriptions": [
       "Aktif karakter bir düşman üzerinde Girdap etkisi tetikledikten sonra düşmanın olduğu yerde Gerçek Hasar veren bir <color=#F39000>şok dalgası çıkar</color>. Bu etki 2 saniyede bir tetiklenebilir."
     ],
@@ -1865,7 +1865,7 @@
     ],
     "Open": "2026-03-16T04:00:00+08:00",
     "Close": "2026-04-16T03:59:59+08:00",
-    "BuffName": "",
+    "BuffName": "Rüzgar Darbeli Ay",
     "Descriptions": [
       "Bir karakter bir düşman üzerinde Girdap tepkimesi tetiklediğinde 1 Rüzgar Darbesi kademesi kazanır. 4 Rüzgar Darbesi kademesine ulaşıldığında düşmanın konumunda <color=#F39000>bir şok dalgası ortaya çıkar</color> ve Gerçek Hasar verip tüm aktif Rüzgar Darbesi kademelerini tüketir. Her 0,1 saniyede en fazla 1 Rüzgar Darbesi kademesi kazanılabilir. Bu şekilde her 6 saniyede bir şok dalgası ortaya çıkabilir."
     ],
@@ -1934,5 +1934,37 @@
       "Aktif karakter Yüklü Saldırılarla düşmanlara Buz Hasarı verdiğinde düşmanın olduğu yerde Gerçek Hasar veren <color=#F39000>bir şok dalgası oluşur</color>. 3 saniyede bir tetiklenebilir."
     ],
     "Icon": "UI_TowerBlessing_105"
+  },
+  {
+    "Id": 122,
+    "FloorIds": [
+      1134,
+      1135,
+      1136,
+      1137
+    ],
+    "Open": "2026-08-16T04:00:00+08:00",
+    "Close": "2026-09-16T03:59:59+08:00",
+    "BuffName": "Işıltı Delen Ay",
+    "Descriptions": [
+      "Aktif karakter bir Kutup Yıldızı Alanı içindeyken düşmanlara Hasar verdiğinde, saldırısıyla düşmanın olduğu yerde Gerçek Hasar veren <color=#F39000>bir şok dalgası çıkarır</color>. 4 saniyede bir tetiklenebilir."
+    ],
+    "Icon": "UI_TowerBlessing_106"
+  },
+  {
+    "Id": 123,
+    "FloorIds": [
+      1134,
+      1135,
+      1138,
+      1139
+    ],
+    "Open": "2026-09-16T04:00:00+08:00",
+    "Close": "2026-10-16T03:59:59+08:00",
+    "BuffName": "Çağlayan Ay",
+    "Descriptions": [
+      "Bir karakter bir düşmana Girdap veya Yıldız Girdabı Hasarı verdiğinde düşmanın olduğu yerde Gerçek Hasar veren <color=#F39000>bir şok dalgası çıkar</color>. Bu etki 4 saniyede bir tetiklenebilir."
+    ],
+    "Icon": "UI_TowerBlessing_107"
   }
 ]

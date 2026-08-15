@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "Schießkunst der Jäger",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "Eistatzen",
         "Description": "Schießt Eistatzen ab, die Gegnern <color=#99FFFFFF>Kryo-Schaden</color> zufügen und bei Treffern Schilde erstellen.\nDie Schildstärke hängt von Dionas max. LP ab, die Wirkungsdauer von der Anzahl der am Treffer beteiligten Eistatzen.\n\n<color=#FFD780FF>Drücken</color>\nSchießt schnell zwei Eistatzen ab.\n\n<color=#FFD780FF>Gedrückt halten</color>\nSpringt geschwind zurück und feuert fünf Eistatzen ab.\nDurch Gedrückthalten entstehende Schilde halten 75 % mehr Schaden ab.\n\nSchilde halten bei <color=#99FFFFFF>Kryo-Schaden</color> 250 % ab und verleihen der aktuellen Figur beim Entstehen für kurze Zeit das <color=#99FFFFFF>Kryo-Attribut</color>.\n\n<i>Das Eis im Schnaps hatte bisher noch keinem Trunkenbold geschadet, bis Diona ihr Göttliches Auge erhielt und Eis herstellte, das einem die Zunge taub werden lässt. Einsame Spitze!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "Auserwählter Geheimschatz",
-        "Description": "#Innerhalb von 20{NON_BREAK_SPACE}s nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Eistatzen</color> führt Diona einen abgestimmten Angriff durchs Abschießen von 3 <color=#FFD780FF>Eistatzen</color> aus, wenn ein Truppenmitglied die Reaktion Supraleiter oder Stellar-Supraleiter auslöst. Die auf diese Weise abgeschossenen <color=#FFD780FF>Eistatzen</color> erzeugen keine Elementarteilchen und generieren auch keinen Schild, wenn sie Gegner treffen. Dieser Effekt hat eine Abklingzeit von 3,5{NON_BREAK_SPACE}s.\nVersetzt Diona zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Description": "#Innerhalb von 20{NON_BREAK_SPACE}s nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Eistatzen</color> führt Diona einen abgestimmten Angriff durchs Abschießen von 3 <color=#FFD780FF>Eistatzen</color> aus, wenn ein Truppenmitglied die Reaktion Stellar-Supraleiter, Supraleiter, Kryo-Verwirbelung oder Stellar-Verwirbelung auslöst. Die auf diese Weise abgeschossenen <color=#FFD780FF>Eistatzen</color> erzeugen keine Elementarteilchen und generieren auch keinen Schild, wenn sie Gegner treffen. Dieser Effekt hat eine Abklingzeit von 3,5{NON_BREAK_SPACE}s.\nVersetzt Diona zudem, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet oder ein Truppenmitglied in der Nähe die Reaktion Stellar-Verwirbelung auslöst, innerhalb von 8{NON_BREAK_SPACE}s jeweils in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>/<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "Eisgekühlter Branntwein",
       "Description": "Wirft besonders starken eisgekühlten Alkohol, verursacht <color=#99FFFFFF>Kryo-Flächenschaden</color> und erzeugt ein Kältedunstfeld.\n\n<color=#FFD780FF>Kältedunstfeld</color>\n· Fügt Gegnern darin fortlaufend <color=#99FFFFFF>Kryo-Schaden</color> zu.\n· Stellt Figuren darin fortlaufend LP wieder her.\n\n<i>Dieses Gebräu hält Diona selbst sogar für unmenschlich. Deswegen bleibt der erste Eindruck nur ihren Gegnern überlassen. Der Nachgeschmack ist eher erquickend, ist aber nur in der Nase und auf der Haut zu spüren.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "Geheimes Menü Zum Katzenschwanz",
         "Description": "Erhöht die Bewegungs-GSW von Figuren im Schutz eines Schilds von <color=#FFD780FF>Eistatzen</color> um 10 % und verringert ihren Ausdauerverbrauch um 10 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "Hundert Weinpossen",
         "Description": "Verringert den ANG von Gegnern im Feld von <color=#FFD780FF>Eisgekühlter Branntwein</color> nach dem Betreten 15 s lang um 10 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "Appetitsanreger",
         "Description": "Stellt bei der perfekten Zubereitung eines Gerichts mit wiederherstellender Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -853,7 +860,7 @@
         "Id": 396,
         "Name": "Vorzeitiger Feierabend",
         "Description": "Verleiht Figuren im Feld von <color=#FFD780FF>Eisgekühlter Branntwein</color> je nach ihren LP folgende Effekte:\n· Erhöht den passiven Heilungsbonus bei bis zu 50 % LP um 30 %.\n· Erhöht die Elementarkunde bei mehr als 50 % LP um 200 Punkte.",
-        "SpecialDescription": "#Verleiht Figuren im Bereich von <color=#FFD780FF>Eisgekühlter Branntwein</color> je nach ihren LP folgende Effekte:\n· Erhöht den passiven Heilungsbonus bei bis zu 50{NON_BREAK_SPACE}% LP um 30{NON_BREAK_SPACE}%.\n· Erhöht die Elementarkunde bei mehr als 50{NON_BREAK_SPACE}% LP um 200 Punkte.\n\nErhöht zusätzlich Dionas max. LP um 25{NON_BREAK_SPACE}%.\n\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht zudem den von Figuren im Bereich von <color=#FFD780FF>Eisgekühlter Branntwein</color> durch die Reaktionen Supraleiter und Stellar-Supraleiter verursachten Schaden um 40{NON_BREAK_SPACE}%.",
+        "SpecialDescription": "#Verleiht Figuren im Bereich von <color=#FFD780FF>Eisgekühlter Branntwein</color> je nach ihren LP folgende Effekte:\n· Erhöht den passiven Heilungsbonus bei bis zu 50{NON_BREAK_SPACE}% LP um 30{NON_BREAK_SPACE}%.\n· Erhöht die Elementarkunde bei mehr als 50{NON_BREAK_SPACE}% LP um 200 Punkte.\n\nErhöht zusätzlich Dionas max. LP um 25{NON_BREAK_SPACE}%.\n<color=#FFD780FF>Leuchten – Stellarfunkeln</color>: Erhöht den von Figuren im Bereich von „Eisgekühlter Branntwein“ verursachten Schaden der entsprechenden Reaktion:\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Erhöht den durch die Reaktionen Supraleiter und Stellar-Supraleiter verursachten Schaden um 40{NON_BREAK_SPACE}%.\n<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Erhöht den durch die Reaktionen Kryo-Verwirbelung und Stellar-Verwirbelung verursachten Schaden um 40{NON_BREAK_SPACE}%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

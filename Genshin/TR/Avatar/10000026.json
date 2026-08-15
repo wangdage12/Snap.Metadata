@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Kasırga Saldırısı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 mızrak saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak yukarı doğru bir saldırı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.\nXiao, Havadan Saldırı yaparken Hasar almaz.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Sonsuz Rüzgar Türbini",
         "Description": "Xiao, ileri atılarak yoluna çıkan düşmanlara <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\nHavadayken kullanılabilir.\n2 yük ile başlar.\n\n<i>Başka bir diyardaki efsanelere göre dünya bir gün iki hortumla yok olacakmış. Xiao, mızrak kullanmakta oldukça yetenekli. Düşmanlarını efsanelerdeki o iki hortum gibi paramparça eder.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Tüm Şerlerin Laneti",
       "Description": "Xiao, binlerce yıl önce tanrıları ve iblisleri korkudan titreten Yaksha Maskesini takar.\n\n<color=#FFD780FF>Yaksha Maskesi</color>\n·Xiao'nun sıçrama becerisini artırır.\n·Saldırılarının etki alanını ve saldırı Hasarını artırır.\n·Saldırı Hasarını, farklı herhangi bir element tesiri tarafından değiştirilemeyen <color=#80FFD7FF>Rüzgar Hasarına</color> dönüştürür.\n\nXiao, bu etki altındayken sürekli Can kaybeder.\nBu becerinin etkisi Xiao alandan ayrılınca kaybolur.\n\n<i>Xiao, Yaksha Maskesini takarak Bekçi Yaksha'nın iblisleri korkutan haline bürünür ama bu büyük güç aynı zamanda ona çok acı çektirir. Bazıları ona \"Tüm Şerlerin Laneti\" der.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Şer Fatihi: İblis Terbiyecisi",
         "Description": "<color=#FFD780FF>Tüm Şerlerin Laneti</color> etkisindeyken Xiao'nun verdiği tüm Hasar %5 artar. Becerinin etkin kaldığı her 3 saniyede bir Hasar %5 daha artar.\nMaksimum Hasar Bonusu %25'tir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Ebedi Çözünme: Göklerin Düşüşü",
         "Description": "<color=#FFD780FF>Sonsuz Rüzgar Türbini</color> becerisinin sonraki kullanımlarında Hasarı %15 artar.\nBu etki 7sn sürer ve maksimum kademe sayısı 3'tür. Yeni bir kademe elde ettiğinde etki süresi yenilenir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Doğaüstü: Yorulmaz Tırmanıcı",
         "Description": "Kendi grup üyelerinin tırmanma Dayanıklılık tüketimini %20 azaltır.\nAynı etkiyi veren Pasif Yeteneklerle birikmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "İsim Kartı arka planı.\nMaskeyi takıp dans edeceği günü dört gözle bekliyor. İblisleri yenmek için değil, flüt melodisi eşliğinde çiçek denizinin ortasında dans etmek için.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Yankı: Bekçi Yaksha",
+    "Description": "Xiao'nun Hayali Yankısı. \"Kötülüğü savaşarak yeneceğiz. Hayatlarımızı buna adıyoruz.\"",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

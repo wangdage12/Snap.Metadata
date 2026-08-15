@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Tây Phong Kiếm Thuật - Vũ Điệu Ánh Sáng",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nMô phỏng vũ điệu chiến đấu của kỵ sĩ cổ xưa, hai tay vung trọng kiếm thực hiện tối đa 5 lần tấn công liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, đột kích về phía trước và thực hiện một đòn chém đôi uy lực hơn.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Cuồng Phong Ập Đến",
         "Description": "Dùng sức mạnh tuyệt đối, thể hiện cốt lõi thực sự của Tây Phong Kiếm Thuật, căn cứ vào nhấn, nhấn giữ để sản sinh hiệu quả khác nhau.\n\n<color=#FFD780FF>Nhấn</color>\nNhảy về phía trước và vung chém theo đà, gây <color=#80FFD7FF>Sát Thương Phạm Vi Nguyên Tố Phong</color>, đồng thời chuyển sang chế độ {LINK#N11280001}<color=#FFD780FF>Bão Táp Đột Kích</color>{/LINK}.\nKhi trong chế độ <color=#FFD780FF>Bão Táp Đột Kích</color>, Varka sẽ tăng sát thương Tấn Công Thường và Trọng Kích, không thể thực hiện Tấn Công Khi Đáp, đồng thời khi thực hiện Tấn Công Thường và Trọng Kích, sẽ căn cứ vào Loại Nguyên Tố của nhân vật trong đội, khiến hai thanh trọng kiếm lần lượt gây sát thương nguyên tố tương ứng không thể bị thay thế.\nNgoài ra, khi trong chế độ <color=#FFD780FF>Bão Táp Đột Kích</color>, nếu trong đội có nhân vật nguyên tố <color=#FF9999FF>Hỏa</color>, <color=#80C0FFFF>Thủy</color>, <color=#FFACFFFF>Lôi</color> hoặc <color=#99FFFFFF>Băng</color>, Kỹ Năng Nguyên Tố <color=#FFD780FF>Cuồng Phong Ập Đến</color> của Varka sẽ được thay thế bằng Kỹ Năng Nguyên Tố đặc biệt {LINK#N11280002}<color=#FFD780FF>Tứ Phong Trỗi Dậy</color>{/LINK}, gây sát thương nguyên tố tương ứng và <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>. Ngoài ra, Varka còn có thể tiêu hao số lần khả dụng của Kỹ Năng Nguyên Tố đặc biệt <color=#FFD780FF>Tứ Phong Trỗi Dậy</color> để thực hiện Trọng Kích đặc biệt <color=#FFD780FF>Trời Xanh Cắn Xé</color> không tiêu hao thể lực, gây sát thương nguyên tố tương ứng và <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nThực hiện tụ lực sau đó nhảy vọt về phía trước, tụ lực lâu hơn sẽ tăng cự ly nhảy.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Đêm Lễ Ma Nữ - Bình Minh Trở Lại",
         "Description": "Sau khi hoàn thành <color=#FFD780FF>Bài Tập Của Ma Nữ - Câu Hỏi Không Đề</color>, Varka sẽ trở thành nhân vật <color=#FFD780FF>Hexerei</color>. Khi đội hình có ít nhất 2 nhân vật Hexerei, sẽ nhận được hiệu quả <color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>, giúp nhân vật Hexerei nhận được cường hóa.\n\n<color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>\nKỹ Năng Nguyên Tố đặc biệt {LINK#N11280002}<color=#FFD780FF>Tứ Phong Trỗi Dậy</color>{/LINK} sẽ được cường hóa: Khi Varka trong chế độ {LINK#N11280001}<color=#FFD780FF>Bão Táp Đột Kích</color>{/LINK} Tấn Công Thường trúng kẻ địch, thời gian chờ của <color=#FFD780FF>Tứ Phong Trỗi Dậy</color> sẽ chuyển sang rút ngắn 1s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Ta Là Gió Bắc",
       "Description": "Dưới danh nghĩa Kỵ Sĩ Bắc Phong hùng mạnh nhất, vung hai đòn chém liên tiếp cực mạnh về phía trước, gây hai lần <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\nNếu trong đội có nhân vật nguyên tố <color=#FF9999FF>Hỏa</color>, <color=#80C0FFFF>Thủy</color>, <color=#FFACFFFF>Lôi</color> hoặc <color=#99FFFFFF>Băng</color>, thì đòn chém đầu tiên sẽ chuyển sang gây sát thương nguyên tố tương ứng dựa trên độ ưu tiên nguyên tố kể trên.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Hành Quân Trong Gió Sớm",
         "Description": "Khi trong đội có nhân vật nguyên tố <color=#FF9999FF>Hỏa</color>, <color=#80C0FFFF>Thủy</color>, <color=#FFACFFFF>Lôi</color> hoặc <color=#99FFFFFF>Băng</color>, sẽ căn cứ vào độ ưu tiên nguyên tố kể trên và dựa trên Tấn Công của Varka, mỗi 1000 điểm Tấn Công sẽ khiến Varka nhận 10% buff sát thương <color=#80FFD7FF>Nguyên Tố Phong</color> và nguyên tố tương ứng (trong số các nguyên tố kể trên, tối đa một loại nguyên tố được nhận buff sát thương theo cách này). Tối đa nhận 25% thông qua cách này.\n\nNgoài ra, nếu trong đội có ít nhất 2 nhân vật <color=#80FFD7FF>Nguyên Tố Phong</color>, hoặc có ít nhất 2 nhân vật cùng loại nguyên tố là <color=#FF9999FF>Hỏa</color>, <color=#80C0FFFF>Thủy</color>, <color=#FFACFFFF>Lôi</color> hoặc <color=#99FFFFFF>Băng</color>, Varka trong chế độ {LINK#N11280001}<color=#FFD780FF>Bão Táp Đột Kích</color>{/LINK} khi thực hiện Tấn Công Thường, Trọng Kích, Trọng Kích đặc biệt <color=#FFD780FF>Trời Xanh Cắn Xé</color> và thi triển Kỹ Năng Nguyên Tố đặc biệt {LINK#N11280002}<color=#FFD780FF>Tứ Phong Trỗi Dậy</color>{/LINK}, sẽ gây ra 140% sát thương gốc. Nếu trong đội đồng thời tồn tại ít nhất 2 nhân vật <color=#80FFD7FF>Nguyên Tố Phong</color> và ít nhất 2 nhân vật cùng loại nguyên tố là <color=#FF9999FF>Hỏa</color>, <color=#80C0FFFF>Thủy</color>, <color=#FFACFFFF>Lôi</color> hoặc <color=#99FFFFFF>Băng</color>, thì hiệu quả nêu trên sẽ tăng đến 220%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Ngọn Cờ Gió Dẫn Đầu",
-        "Description": "Khi nhân vật trong đội ở gần kích hoạt phản ứng Khuếch Tán, Varka sẽ nhận được một tầng <color=#FFD780FF>Lời Thề Nanh Xanh</color>, khiến Tấn Công Thường, Trọng Kích, Trọng Kích đặc biệt <color=#FFD780FF>Trời Xanh Cắn Xé</color> và Kỹ Năng Nguyên Tố đặc biệt {LINK#N11280002}<color=#FFD780FF>Tứ Phong Trỗi Dậy</color>{/LINK} của Varka sẽ tăng 7.5% sát thương gây ra. Hiệu quả này duy trì 8s, tối đa cộng dồn 4 tầng, mỗi nhân vật mỗi 1s tối đa giúp Varka nhận một tầng <color=#FFD780FF>Lời Thề Nanh Xanh</color> theo cách này.",
+        "Description": "Khi nhân vật trong đội ở gần kích hoạt phản ứng Khuếch Tán hoặc Tinh-Khuếch Tán, Varka sẽ nhận được một tầng <color=#FFD780FF>Lời Thề Nanh Xanh</color>, khiến Tấn Công Thường, Trọng Kích, Trọng Kích đặc biệt <color=#FFD780FF>Trời Xanh Cắn Xé</color> và Kỹ Năng Nguyên Tố đặc biệt {LINK#N11280002}<color=#FFD780FF>Tứ Phong Trỗi Dậy</color>{/LINK} của Varka sẽ tăng 7.5% sát thương gây ra. Hiệu quả này duy trì 8s, tối đa cộng dồn 4 tầng, mỗi nhân vật mỗi 1s tối đa giúp Varka nhận một tầng <color=#FFD780FF>Lời Thề Nanh Xanh</color> theo cách này.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Khúc Khải Hoàn Của Gió",
         "Description": "Với mỗi nhân vật Mondstadt trong đội, Kỹ Năng Nguyên Tố <color=#FFD780FF>Cuồng Phong Ập Đến</color> thi triển bằng cách nhấn giữ sẽ rút ngắn 5% thời gian hồi chiêu.\nHiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "\"Không Ai Cướp Được, Tự Do Ca Hát Của Chúng Ta\"",
-        "Description": "Khi Varka kích hoạt phản ứng Khuếch Tán, căn cứ vào loại nguyên tố tham gia phản ứng, tất cả nhân vật trong đội ở gần sẽ nhận 20% buff sát thương <color=#80FFD7FF>Nguyên Tố Phong</color> và nguyên tố tương ứng, duy trì 10s.",
+        "Description": "Khi Varka kích hoạt phản ứng Khuếch Tán hoặc Tinh-Khuếch Tán, căn cứ vào loại nguyên tố tham gia phản ứng, tất cả nhân vật trong đội ở gần sẽ nhận 20% buff sát thương <color=#80FFD7FF>Nguyên Tố Phong</color> và nguyên tố tương ứng, duy trì 10s.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

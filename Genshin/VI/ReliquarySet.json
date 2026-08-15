@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "Nhận 15% buff sát thương nguyên tố Phong.",
-      "Sát thương phản ứng khuếch tán tạo thành tăng 60%. Dựa theo loại Nguyên Tố khuếch tán, giảm 40% kháng Nguyên Tố của kẻ địch bị ảnh hưởng, kéo dài 10s."
+      "Sát thương phản ứng Khuếch Tán tăng 60%, sát thương phản ứng Tinh-Khuếch Tán tăng 20%. Dựa theo loại nguyên tố khuếch tán, giảm 40% Kháng Nguyên Tố tương ứng của kẻ địch bị ảnh hưởng, duy trì 10s. Khi kích hoạt phản ứng Tinh-Khuếch Tán lên kẻ địch, cũng sẽ giảm 40% Kháng Nguyên Tố Băng của mục tiêu. Hiệu quả giảm Kháng Nguyên Tố cùng loại sẽ không thể cộng dồn."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "Nhận 15% buff sát thương nguyên tố Lôi",
-      "Sát thương tạo thành từ phản ứng Quá Tải, Điện Cảm, Siêu Dẫn, Nở Rộ tăng 40%; sát thương từ phản ứng Tăng Cường tăng 20%; sát thương từ phản ứng Nguyệt-Điện Cảm tăng 20%. Khi kích hoạt phản ứng Sinh Trưởng hoặc những phản ứng nêu trên, CD Kỹ Năng Nguyên Tố giảm 1s. Hiệu quả này mỗi 0.8s tối đa kích hoạt một lần."
+      "Sát thương gây ra từ phản ứng Quá Tải, Điện Cảm, Siêu Dẫn, Nở Rộ tăng 40%. Sát thương từ phản ứng Tăng Cường tăng 20%. Sát thương từ phản ứng Nguyệt-Điện Cảm, Tinh-Siêu Dẫn tăng 20%. Khi kích hoạt phản ứng Sinh Trưởng hoặc những phản ứng nêu trên, CD Kỹ Năng Nguyên Tố giảm 1s. Hiệu quả này mỗi 0.8s tối đa kích hoạt một lần."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "Tấn Công tăng 18%.",
-      "Sát thương phản ứng Siêu Dẫn tăng 80%. Khi người trang bị tấn công kẻ địch bị ảnh hưởng bởi phản ứng Siêu Dẫn, lần tấn công này tăng 16% Tỷ Lệ Bạo Kích. Trên đường đến Snezhnaya, có lẽ sẽ nhận được sự chúc phúc hoàn toàn mới..."
+      "Sát thương phản ứng Siêu Dẫn tăng 80%, sát thương phản ứng Tinh-Siêu Dẫn tăng 40%. Khi người trang bị tấn công kẻ địch bị ảnh hưởng bởi phản ứng Siêu Dẫn hoặc Tinh-Siêu Dẫn, lần tấn công này tăng 16% Tỷ Lệ Bạo Kích."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "Tấn Công tăng 18%.",
+      "Trong 10s sau khi người trang bị kích hoạt phản ứng Tinh-Khuếch Tán, Tỷ Lệ Bạo Kích tăng 16%, sát thương phản ứng Tinh-Khuếch Tán tăng 40%."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Trái Tim Lửa Nung",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "Tấn Công tăng 18%.",
+      "Trong 12s sau khi người trang bị kích hoạt phản ứng Tinh Tú Lấp Lánh hoặc gây sát thương Tinh Tú Lấp Lánh, Tấn Công tăng 12%, tất cả nhân vật trong đội ở gần tăng 50% sát thương phản ứng Tinh Tú Lấp Lánh. Người trang bị khi không ra trận cũng có thể kích hoạt hiệu quả nêu trên. Hiệu quả tăng sát thương sản sinh từ bộ Thánh Di Vật cùng tên sẽ không thể cộng dồn."
     ]
   },
   {

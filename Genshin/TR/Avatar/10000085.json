@@ -309,6 +309,7 @@
         "Id": 10851,
         "Name": "Girdap Akıntısı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nZamanla Dayanıklılık harcar ve yakındaki tüm düşmanlara dönerek saldırır.\nSaldırıları daha güçlü bir darbeyle bitirir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -618,6 +619,7 @@
         "Id": 10852,
         "Name": "Tazyikli Buz",
         "Description": "Freminet, <color=#99FFFFFF>Buz Hasarı</color> veren yukarı doğru bir saldırı yapar ve 10 saniyeliğine Pers Göstergesine girer.\nPers Göstergesi etkin durumdayken Freminet'nin Element Becerisi, Parçalayıcı Basınca dönüşür.\n\n<color=#FFD780FF>Parçalayıcı Basınç</color>\nPers Göstergesinin Basınç Seviyesine göre farklı türlerde saldırılar yapar ve ardından Pers Göstergesini sonlandırır.\n·0. Seviye: <color=#99FFFFFF>Buz Hasarı</color> veren dikey bir darbe vurur.\n·1 ila 3. Seviyeler: Pers'in yanında <color=#99FFFFFF>Buz Hasarı</color> ve Fiziksel Hasar veren dikey bir darbe vurur. Verilen Hasar, Basınç seviyesine göre değişir.\n·4. Seviye: Tam basınçtaki Pers'in gücünü kullanarak Fiziksel Hasar verir. Bu sırada Normal Saldırı: Girdap Akıntısının yerini Parçalayıcı Basınç alır.\n\n<color=#FFD780FF>Pers Göstergesi</color>\nFreminet, Normal Saldırı yaparken <color=#99FFFFFF>Buz Hasarı</color> veren buzul dalgaları çıkarır ve Pers'in Basınç Seviyesini artırır.\nBu şekilde verilen <color=#99FFFFFF>Buz Hasarı</color>, Element Becerisi Hasarı sayılır.\n\n<color=#FFD780FF>Arkhe: Ruh</color>\nBelirli aralıklarla Freminet, yukarı doğru bir saldırı yaptıktan sonra Ruh Nefesi Dikeni oluşturur ve Ruh tesirli <color=#99FFFFFF>Buz Hasarı</color> veren yukarı doğru başka bir saldırı daha gerçekleşir.\n\n<i>Düşmanı öldürmeden etkisiz hale getirmek, bazı kişiler için \"hayatta kalma\" stratejisi olarak görülebilir.</i>\n<i>\"Pers... Gerisini sana bırakıyorum.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Freminet_01"
       }
     ],
@@ -787,6 +789,7 @@
       "Id": 10855,
       "Name": "Gölge Avcısının Pususu",
       "Description": "Dokunulmaz derecede soğuk olan bir dalgalar zinciri çıkararak <color=#99FFFFFF>Buz Alan Hasarı</color> verir, \"Tazyikli Buz\" Element Becerisinin Bekleme Süresini sıfırlar ve Freminet'nin 10 saniyeliğine Su Altı Avcısı moduna girmesine neden olur.\n\nSu Altı Avcısı modundayken Freminet'nin müdahaleye karşı direnci artar ve Element Becerisi \"Tazyikli Buz\" şu güçlendirmeleri alır:\n·Bekleme Süresi %70 azalır.\n·Normal Saldırılar Pers Göstergesine ek 1 Basınç kademesi sağlar ve Normal Saldırısıyla çıkardığı buzullar, asıl Hasarlarının %200'ü oranında Hasar verir.\n\nBu etkiler, Freminet savaş alanından ayrıldığında kaybolur.\n\n<i>\"Artık... Dışarıdan hiçbir sese ihtiyacım yok.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Freminet_01"
     },
     "Inherents": [
@@ -808,6 +811,7 @@
         "Id": 852101,
         "Name": "Derin Satürasyon Dalışı",
         "Description": "Freminet, <color=#FFD780FF>Tazyikli Buz: Parçalayıcı Basınç</color> becerisini kullanırken Pers Göstergesinin Basınç Seviyesi 4'ten azsa Tazyikli Buzun Bekleme Süresi 1 saniye azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 852201,
         "Name": "Paralel Akışlı Kondansatörler",
         "Description": "Freminet düşmanlarına karşı Tuzla Buz tetiklediğinde, 5 saniyeliğine <color=#FFD780FF>Tazyikli Buz: Parçalayıcı Basınç</color> Hasarı %40 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_06"
       },
       {
@@ -847,6 +852,7 @@
         "Id": 852301,
         "Name": "Derin Sularda Seyir",
         "Description": "Kendi grup üyelerinin Yüzme Dayanıklılığı tüketimini %35 azaltır.\nAynı etkiyi veren Pasif Yeteneklerle birikmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_07"
       }
     ],
@@ -876,7 +882,7 @@
       {
         "Id": 854,
         "Name": "Karlı Ay ve Flüt Dansı",
-        "Description": "Freminet düşman üzerinde Donma, Tuzla Buz veya Süper İletim tetikledikten sonra 6 saniyeliğine Saldırısı %9 artar. En fazla 2 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir.",
+        "Description": "Freminet düşman üzerinde Donma, Tuzla Buz, Süper İletim veya Yıldız İletimi tetikledikten sonra 6 saniyeliğine Saldırısı %9 artar. 2 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Freminet_03"
       },
       {
@@ -892,7 +898,7 @@
       {
         "Id": 856,
         "Name": "Farkındalık ve Kararlılık Anı",
-        "Description": "Freminet düşman üzerinde Donma, Tuzla Buz veya Süper İletim tetikledikten sonra 6 saniyeliğine Kritik Hasarı %12 artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir.",
+        "Description": "Freminet düşman üzerinde Donma, Tuzla Buz, Süper İletim veya Yıldız İletimi tetikledikten sonra 6 saniyeliğine Kritik Hasarı %12 artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Freminet_04"
       }
     ]

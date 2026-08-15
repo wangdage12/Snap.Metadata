@@ -277,6 +277,7 @@
         "Id": 10551,
         "Name": "Freccia lacerante",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 4 tiri consecutivi con un arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>attacco mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, sulla punta della freccia si accumuleranno cristalli di pietra. Una freccia cristallina caricata al massimo infligge <color=#FFE699FF>DAN da Geo</color>.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -461,6 +462,7 @@
         "Id": 10552,
         "Name": "Difesa a tutto tondo Inuzaka",
         "Description": "#Infligge <color=#FFE699FF>DAN da Geo ad area</color> e issa uno Stendardo bellico del generale.\n\n<color=#FFD780FF>Stendardo bellico del generale</color>\nConferisce fino a 3 effetti positivi ai personaggi attivi nell'area d'effetto dell'abilità, in base al numero di personaggi di <color=#FFE699FF>Geo</color> presenti nel gruppo al momento del lancio.\n· 1 personaggio di Geo: aggiunge Irremovibilità (bonus DIF).\n· 2 personaggi di Geo: aggiunge Impenetrabilità (resistenza all'interruzione aumentata).\n· 3 personaggi di Geo: aggiunge Scricchiolio (<color=#FFE699FF>bonus DAN da Geo</color>).\n\nGorou può schierare sul campo solo 1 Stendardo bellico del generale alla volta. I personaggi possono trarre vantaggio da solo 1 Stendardo bellico del generale alla volta. Quando un membro del gruppo lascia il campo di battaglia, l'effetto positivo attivo dura per 2{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Pressione prolungata</color>\nRegola la posizione dell'abilità.\n\n<i>\"Assumete questa formazione e saremo al sicuro, ve lo garantisco!\" Come generale e capo delle truppe, l'ultima cosa che Gorou vuole è vedere i suoi seguaci farsi male.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Gorou_01"
       }
     ],
@@ -646,6 +648,7 @@
       "Id": 10555,
       "Name": "Juuga: Avanti verso la vittoria",
       "Description": "#Dimostrando il suo valore come generale, Gorou infligge <color=#FFE699FF>DAN da Geo ad area</color> e crea un campo conosciuto come Gloria del generale per rinforzare i suoi compagni.\n\n<color=#FFD780FF>Gloria del generale</color>\nIl campo ha le seguenti proprietà:\n· similmente allo Stendardo bellico del generale creato da Difesa a tutto tondo Inuzaka, esso conferisce effetti positivi ai personaggi attivi all'interno dell'area d'effetto dell'abilità in base al numero di personaggi di <color=#FFE699FF>Geo</color> presenti nel gruppo. Inoltre, si muove insieme al tuo personaggio attivo;\n· genera 1 Crollo cristallino ogni 1,5{NON_BREAK_SPACE}s che infligge <color=#FFE699FF>DAN da Geo ad area</color> a 1 avversario all'interno dell'area d'effetto dell'abilità;\n· attira 1 frammento elementale nell'area d'effetto dell'abilità verso la posizione del tuo personaggio attivo ogni 1,5{NON_BREAK_SPACE}s (i frammenti elementali sono creati dalle reazioni di Cristallizzazione).\n\nSe uno Stendardo bellico del generale creato da Gorou è presente sul campo quando quest'abilità viene usata, sarà distrutto. Inoltre, mentre il campo Gloria del generale è attivo, l'abilità elementale di Gorou Difesa a tutto tondo Inuzaka non creerà lo Stendardo bellico del generale.\nSe Gorou finisce fuori combattimento, gli effetti di Gloria del generale saranno annullati.\n\n<i>\"Siamo in vantaggio!\" Gorou può modificare leggermente il terreno del campo di battaglia per aggiudicarsi la vittoria. Questa tecnica gli ha permesso di superare tante battaglie contro avversari apparentemente superiori.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Gorou_01"
     },
     "Inherents": [
@@ -668,6 +671,7 @@
         "Id": 552101,
         "Name": "Sprezzo delle intemperie",
         "Description": "#Dopo aver usato <color=#FFD780FF>Juuga: Avanti verso la vittoria</color>, la DIF di tutti i membri vicini del gruppo aumenta di un 25% per 12{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_05"
       },
       {
@@ -689,6 +693,7 @@
         "Id": 552201,
         "Name": "Favore ripagato",
         "Description": "Gli attacchi di Gorou ricevono i seguenti bonus DAN in base alla sua DIF:\n· i DAN da abilità di <color=#FFD780FF>Difesa a tutto tondo Inuzaka</color> aumentano di una quantità pari a un 156% della DIF;\n· i DAN da abilità di <color=#FFD780FF>Juuga: Avanti verso la vittoria</color> e i DAN di Crollo cristallino aumentano di una quantità pari a un 15,6% della DIF.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_06"
       },
       {
@@ -707,6 +712,7 @@
         "Id": 552301,
         "Name": "Fiuto canino",
         "Description": "Mostra sulla minimappa la posizione delle <color=#FFD780FF>risorse uniche di Inazuma</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_07"
       }
     ],

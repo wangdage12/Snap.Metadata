@@ -308,6 +308,7 @@
         "Id": 10861,
         "Name": "Poing vigoureux du givre",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nCondense du givre sur son poing et déclenche un puissant <color=#FFD780FF>poing de réprimande</color>, enchaînant jusqu'à 5 attaques rapides qui infligent des <color=#99FFFFFF>DGT Cryo</color>.\nDe plus, l'enchaînement d'attaques normales ne sera pas réinitialisé pendant une courte période après la compétence élémentaire « Ruée glaciale du croc » ou l'initiation d'un sprint.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour sauter et déclencher un <color=#FFD780FF>poing bondissant</color> qui inflige des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des <color=#99FFFFFF>DGT Cryo de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -536,6 +537,7 @@
         "Id": 10862,
         "Name": "Ruée glaciale du croc",
         "Description": "En ajustant sa respiration, son rythme et sa cadence, Wriothesley sprinte vers l'avant sur une courte distance, entrant dans l'état <color=#FFD780FF>Châtiment algide</color> qui lui permet de déclencher des attaques encore plus puissantes.\n\n<color=#FFD780FF>Châtiment algide</color>\n· Augmente la RÉS à l'interruption de Wriothesley.\n· Lorsque les PV de Wriothesley sont supérieurs à 50 % : le poing de réprimande de l'<color=#FFD780FF>attaque normale « Poing vigoureux du givre »</color> est renforcé et ses DGT augmentés, et toucher avec ce poing consomme une quantité fixe des PV de Wriothesley, les PV pouvant être perdus une fois toutes les 0,1 s de cette manière.\nCet effet cesse lorsque Wriothesley quitte le champ de bataille.\n\n<i>« Les condamnations passées sont passées. Ce sont nos choix futurs que nous devons appréhender.\nSi vous ne voulez pas vous faire consumer par les péchés du moment, alors s'il vous plaît, chérissez cet instant. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
@@ -562,7 +564,8 @@
         },
         "Id": 865101,
         "Name": "L'injustice sera dévoilée",
-        "Description": "<color=#FFD780FF>Radiance « Astroconduction »</color> : L'aptitude d'élévation « Plaidoirie pour la justice » est modifiée :\nLorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse « Dévoilement » qui convertit la prochaine attaque chargée de son <color=#FFD780FF>attaque normale « Poing vigoureux du givre »</color> en poing bondissant de lustre : ne consomme pas d'endurance, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant, les PV pouvant être restaurés une fois toutes les 2 s de cette manière.\nLa 3e attaque et la 5e attaque du poing repousseur renforcé par le <color=#FFD780FF>châtiment algide</color> infligent respectivement des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 60 % et 80 % des DGT d'origine, tandis que le poing bondissant de lustre inflige des <color=#99FFFFFF>DGT Cryo de zone</color> d'une valeur équivalant à 100 % des DGT d'origine, tous ces DGT étant considérés comme des DGT de réaction d'Astroconduction. De plus, les DGT de réaction d'Astroconduction infligés par Wriothesley augmentent de 30 %.\nDe plus, Wriothesley passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'il est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "Description": "<color=#FFD780FF>Radiance « Astroconduction »</color> : L'aptitude d'élévation « Plaidoirie pour la justice » est modifiée :\nLorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse « Dévoilement » qui convertit l'attaque chargée de son <color=#FFD780FF>attaque normale « Poing vigoureux du givre »</color> en poing bondissant de lustre : ne consomme pas d'endurance, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant, les PV pouvant être restaurés une fois toutes les 2 s de cette manière.\nLa 3e attaque et la 5e attaque du poing repousseur renforcé par le <color=#FFD780FF>châtiment algide</color> infligent respectivement des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 60 % et 80 % des DGT d'origine, tandis que le poing bondissant de lustre inflige des <color=#99FFFFFF>DGT Cryo de zone</color> d'une valeur équivalant à 100 % des DGT d'origine, tous ces DGT étant considérés comme des DGT de réaction d'Astroconduction. De plus, les DGT de réaction d'Astroconduction infligés par Wriothesley augmentent de 30 %.\nDe plus, Wriothesley passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'il est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_08"
       }
     ],
@@ -748,6 +751,7 @@
       "Id": 10865,
       "Name": "Morsure lupine de l'or",
       "Description": "Activant ses gants de boxe, Wriothesley déclenche un coup droit condensé de givre, puis utilise un impact de stalactite vers l'avant pour infliger plusieurs fois des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<color=#FFD780FF>Arkhe : Ousia</color>\nAprès la fin de l'impact de stalactite, une lame fluide descend à l'emplacement de l'ennemi pour infliger des <color=#99FFFFFF>DGT Cryo</color> chargés d'énergie ousia.\n\n<i>Il y a des choses contre lesquelles même le duc de la Forteresse de Méropide ne peut pas faire grand-chose : par exemple, la paperasserie compliquée, les futilités d'un superviseur ou bien... les petits enfants qui collent toute une série d'autocollants mignons mais difficiles à enlever sur ses gants de boxe...</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wriothesley_01"
     },
     "Inherents": [
@@ -772,6 +776,7 @@
         "Id": 862101,
         "Name": "Plaidoirie pour la justice",
         "Description": "Lorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse qui convertit la prochaine attaque chargée de son <color=#FFD780FF>attaque normale « Poing vigoureux du givre »</color> en poing bondissant de réprimande : ne consomme pas d'endurance, augmente les DGT infligés de 50 %, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant.\nUne réprimande miséricordieuse peut être obtenue une fois toutes les 5 s de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_05"
       },
       {
@@ -793,6 +798,7 @@
         "Id": 862201,
         "Name": "Rétribution pour le péché",
         "Description": "Lorsque les PV actuels de Wriothesley augmentent ou diminuent et s'il est sous l'effet du châtiment algide accordé par <color=#FFD780FF>Ruée glaciale du croc</color>, le châtiment algide obtient un cumul d'édit d'accusation. Cet effet peut être cumulé 5 fois maximum, chaque cumul permettant d'augmenter l'ATQ de Wriothesley de 6 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_06"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 862301,
         "Name": "Clémence du duc",
         "Description": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'élévation d'arme.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],
@@ -860,7 +867,7 @@
         "Id": 866,
         "Name": "Estime pour les irréprochables",
         "Description": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
-        "SpecialDescription": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> : L'effet précédent est modifié :\n· Le taux CRIT du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le taux CRIT du poing bondissant de lustre augmentent de 10 % et leurs DGT CRIT de 80 %. De plus, la 5e attaque du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le poing bondissant de lustre génèrent un pic de glace supplémentaire qui inflige des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 60 % des DGT d'origine, ces DGT étant considérés comme des DGT de réaction d'Astroconduction.\n\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
+        "SpecialDescription": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.\n\n<color=#FFD780FF>Radiance « Astroconduction »</color> : L'effet précédent est modifié :\n· Le taux CRIT du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le taux CRIT du poing bondissant de lustre augmentent de 10 % et leurs DGT CRIT de 80 %. De plus, la 5e attaque du poing de réprimande renforcé par le <color=#FFD780FF>châtiment algide</color> et le poing bondissant de lustre génèrent un pic de glace supplémentaire qui inflige des <color=#99FFFFFF>DGT Cryo</color> d'une valeur équivalant à 20 % des DGT d'origine, ces DGT étant considérés comme des DGT de réaction d'Astroconduction.\n\nL'aptitude d'élévation « Plaidoirie pour la justice » doit être déjà débloquée.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

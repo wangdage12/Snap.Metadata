@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "페보니우스 검술·빛의 검무",
         "Description": "<color=#FFD780FF>일반 공격</color>\n고대 기사의 검무를 모방해 양손의 대검으로 최대 5번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 전방으로 돌진한 후, 쌍검으로 베기 공격을 1회 진행한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "열풍의 추락",
         "Description": "절대적인 힘으로 페보니우스 검술의 진수를 선보인다. 짧은 터치 또는 홀드에 따라 각기 다른 효과가 발생한다.\n\n<color=#FFD780FF>짧은 터치</color>\n전방으로 도약하며 검을 내려 찍어 <color=#80FFD7FF>바람 원소 범위 피해</color>를 주고, {LINK#N11280001}<color=#FFD780FF>광풍</color>{/LINK} 모드로 전환한다.\n<color=#FFD780FF>광풍</color> 모드에서 바르카의 일반 공격과 강공격으로 주는 피해가 증가하고 낙하 공격을 할 수 없다. 또한 일반 공격과 강공격 시, 파티 내 캐릭터의 원소 타입에 따라, 양손의 대검이 각각 다른 원소 부여 효과로 대체될 수 없는 대응하는 원소 피해를 준다.\n또한 <color=#FFD780FF>광풍</color> 모드에서 파티에 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 존재할 경우, 바르카의 원소전투 스킬 <color=#FFD780FF>열풍의 추락</color>이 특수 원소전투 스킬 {LINK#N11280002}<color=#FFD780FF>사풍의 도래</color>{/LINK}로 대체되어, 대응하는 원소 피해와 <color=#80FFD7FF>바람 원소 피해</color>를 준다. 또한, 바르카는 특수 원소전투 스킬 <color=#FFD780FF>사풍의 도래</color>의 사용 가능 횟수를 소모해, 스태미나를 소모하지 않는 특수 강공격 <color=#FFD780FF>푸른 포식</color>을 발동하여 대응하는 원소 피해와 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>홀드</color>\n차지 후 전방으로 도약한다. 차지 시간에 따라 도약 거리가 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "마녀의 전야제·돌아온 여명",
         "Description": "<color=#FFD780FF>마녀의 과제·무제</color>를 완료하면 바르카는 <color=#FFD780FF>마도</color> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <color=#FFD780FF>마도·비밀 의식</color> 효과를 획득해 마도 캐릭터가 강화된다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n특수 원소전투 스킬 {LINK#N11280002}<color=#FFD780FF>사풍의 도래</color>{/LINK} 강화: 바르카가 {LINK#N11280001}<color=#FFD780FF>광풍</color>{/LINK} 모드에서 일반 공격으로 적 명중 시, <color=#FFD780FF>사풍의 도래</color> 재사용 대기시간 감소량이 1초로 변경된다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "내가 곧 북풍이다",
       "Description": "최강 북풍 기사의 이름으로 전방에 강력한 2연속 참격을 날려 <color=#80FFD7FF>바람 원소 피해</color>를 2회 준다.\n파티에 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 존재할 경우, 첫 번째 참격은 상술한 원소 타입의 우선순위에 따라 대응하는 원소 피해로 전환된다",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "새벽 바람의 행군",
         "Description": "파티에 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 존재할 시, 상술한 원소 타입의 우선순위에 따라 바르카의 공격력에 기반해 공격력 1000pt마다 바르카가 <color=#80FFD7FF>바람 원소 피해 보너스</color>와 대응하는 원소 피해 보너스를 10% 획득한다(해당 방식으로 상술한 원소 타입 중 최대 한 가지 원소 타입의 피해 보너스만 획득 가능). 해당 방식으로 최대 25%의 보너스를 획득할 수 있다.\n\n또한 파티에 <color=#80FFD7FF>바람 원소</color> 캐릭터가 2명 이상 존재하거나, 원소 타입이 동일한 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 존재할 경우, 바르카가 {LINK#N11280001}<color=#FFD780FF>광풍</color>{/LINK} 모드에서 일반 공격, 강공격, 특수 강공격 <color=#FFD780FF>푸른 포식</color> 및 특수 원소전투 스킬 {LINK#N11280002}<color=#FFD780FF>사풍의 도래</color>{/LINK} 발동 시 기존의 140%에 해당하는 피해를 준다. 파티에 <color=#80FFD7FF>바람 원소</color> 캐릭터가 2명 이상 존재하는 동시에 원소 타입이 동일한 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 존재할 경우, 상술한 효과가 220%까지 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "선봉의 바람 깃발",
-        "Description": "주변에 있는 파티 내 캐릭터가 확산 반응 발동 시, 바르카가 <color=#FFD780FF>「푸른 송곳니」</color>를 1스택 획득하고, 바르카가 일반 공격, 강공격, 특수 강공격 <color=#FFD780FF>푸른 포식</color> 및 특수 원소전투 스킬 {LINK#N11280002}<color=#FFD780FF>사풍의 도래</color>{/LINK}로 주는 피해가 7.5% 증가한다. 지속 시간: 8초, 최대 중첩수: 4스택. 해당 방식을 통해 캐릭터당 바르카에게 1초마다 최대 1스택의 <color=#FFD780FF>「푸른 송곳니」</color> 효과를 부여할 수 있다",
+        "Description": "주변에 있는 파티 내 캐릭터가 확산 또는 별 확산 반응 발동 시, 바르카가 <color=#FFD780FF>「푸른 송곳니」</color>를 1스택 획득하고, 바르카가 일반 공격, 강공격, 특수 강공격 <color=#FFD780FF>푸른 포식</color> 및 특수 원소전투 스킬 {LINK#N11280002}<color=#FFD780FF>사풍의 도래</color>{/LINK}로 주는 피해가 7.5% 증가한다. 지속 시간: 8초, 최대 중첩수: 4스택. 해당 방식을 통해 캐릭터당 바르카에게 1초마다 최대 1스택의 <color=#FFD780FF>「푸른 송곳니」</color> 효과를 부여할 수 있다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "바람의 승전가",
         "Description": "파티 내 몬드 캐릭터 1명당 홀드로 발동하는 원소전투 스킬 <color=#FFD780FF>열풍의 추락</color>의 재사용 대기시간이 5% 감소한다.\n해당 효과는 비경, 영역 토벌, 나선 비경에서 적용되지 않는다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "「누구도 노래할 자유를 빼앗을 수 없으니」",
-        "Description": "바르카가 확산 반응 발동 시, 반응에 참여한 원소 타입에 따라, 주변에 있는 파티 내 모든 캐릭터가 각각 <color=#80FFD7FF>바람 원소 피해 보너스</color>와 대응하는 원소 피해 보너스를 20% 획득한다. 지속 시간: 10초",
+        "Description": "바르카가 확산 또는 별 확산 반응 발동 시, 반응에 참여한 원소 타입에 따라, 주변에 있는 파티 내 모든 캐릭터가 각각 <color=#80FFD7FF>바람 원소 피해 보너스</color>와 대응하는 원소 피해 보너스를 20% 획득한다. 지속 시간: 10초",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

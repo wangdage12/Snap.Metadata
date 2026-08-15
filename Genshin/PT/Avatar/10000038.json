@@ -308,6 +308,7 @@
         "Id": 10386,
         "Name": "Técnica da Espada de Favonius - Branco",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -476,6 +477,7 @@
         "Id": 10387,
         "Name": "Abiogênese - Radiação Solar",
         "Description": "A criação da Radiação Solar causa <color=#FFE699FF>Dano Geo em uma AdE</color>\n\n<color=#FFD780FF>Radiação Solar</color>\nTem as seguintes propriedades:\nQuando inimigos dentro da área da Radiação Solar são atingidos, a Radiação Solar gerará Flores Transitórias que causam <color=#FFE699FF>Dano Geo em uma AdE</color>. Dano causado escala conforme a DEF de Albedo.\nFlores Transitórias só podem ser gerada uma vez a cada 2s.\nQuando um personagem está localizado no local da Radiação Solar, a Radiação Solar irá acumular o poder Geo, erguendo-os em um pódio cristalizado. Apenas um pódio cristalizado pode existir por vez.\nSomente é possível existir uma Radiação Solar por vez feita por Albedo, e é considerada como uma <color=#FFE699FF>Construção Geo</color>.\n\n<color=#FFD780FF>Manter pressionado</color> para designar a localização da habilidade.\n\n<i>Esta espécie de flor Geo tem uma propriedade incomum espelhada na mesma da alquimia. Para levantar-se da terra, elevar-se para o céu e tornar-se o sol.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Albedo_01"
       }
     ],
@@ -503,6 +505,7 @@
         "Id": 385101,
         "Name": "Presente da Noite da Bruxa: Livro da Ponta Branca",
         "Description": "Ao concluir <color=#FFD780FF>Tarefa da Bruxa: Além da Lição</color>, Albedo se tornará um Personagem do tipo <color=#FFD780FF>Mágico</color>. Quando houver pelo menos 2 Personagens Mágicos na equipe, será ativado o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo os Personagens Mágicos.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\n· Nos 20 segundos após usar a Habilidade Elemental, quando Albedo, ao causar Dano de Habilidade Elemental nos inimigos, será refinada uma <color=#FFD780FF>Aurelita</color> próxima ao inimigo, com duração de 10 segundos. Caso não exista uma Radiação Solar criada por Albedo em campo e ele não esteja derrotado, a Aurelita receberá o mesmo efeito de geração de Flores Transitórias da Radiação Solar. Somente duas Aurelitas criadas por Albedo podem existir simultaneamente.\n· Nos 20 segundos após refinar uma Radiação Solar, com base na DEF de Albedo, o Dano causado por Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidade Elemental e Supremo dos Personagens próximos da equipe será aumentado: para cada 1.000 pontos de DEF, o Dano é aumentado em 4%, até um máximo de 12%.\n· Nos 20 segundos após refinar uma Aurelita, com base na DEF de Albedo, o Dano causado por Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidade Elemental e Supremo dos Personagens Mágicos próximos da equipe será aumentado: para cada 1.000 pontos de DEF, o Dano é aumentado em 10%, até um máximo de 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Albedo_07"
       }
     ],
@@ -672,6 +675,7 @@
       "Id": 10388,
       "Name": "Ritual da Progenitura - Maré Tectônica",
       "Description": "Sob o comando de Albedo, os cristais Geo surgem e explodem, causando <color=#FFE699FF>Dano Geo em uma AdE</color> na frente dele.\nSe houver Radiação Solar no campo criado pelo próprio Albedo, 7 Flores Fatais serão geradas na zona da Radiação Solar, florescendo violentamente e causando <color=#FFE699FF>Dano Geo em uma AdE</color>.\n\nO Dano causado pela explosão e da Flor Fatal não gerará Flores Transitórias.\n\n<i>Sob o comando do Príncipe do Giz, a maré tectônica da criação se infiltra na vida.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Albedo_01"
     },
     "Inherents": [
@@ -695,6 +699,7 @@
         "Id": 382101,
         "Name": "Pressão Calcária",
         "Description": "Flores transitórias geradas por <color=#FFD780FF>Abiogênese - Radiação Solar</color> causam mais 25% de Dano aos inimigos cuja Vida esteja abaixo de 50%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Albedo_05"
       },
       {
@@ -716,6 +721,7 @@
         "Id": 382201,
         "Name": "Sabedoria em Uma Garrafa",
         "Description": "<color=#FFD780FF>Ritual da Progenitura - Maré Tectônica</color> aumenta a Proficiência Elemental dos membros próximos do grupo em 125 por 10s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Albedo_06"
       },
       {
@@ -737,6 +743,7 @@
         "Id": 382301,
         "Name": "Gênio Despertado",
         "Description": "Quando Albedo fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],

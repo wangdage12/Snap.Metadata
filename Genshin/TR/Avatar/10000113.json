@@ -261,6 +261,7 @@
         "Id": 11131,
         "Name": "Rüzgarları Dindirme Ayini",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\n<color=#80FFD7FF>Rüzgar Hasarı</color> veren en fazla 3 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak bir atış yapar ve <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yere doğru dalışa geçer ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -444,6 +445,7 @@
         "Id": 11132,
         "Name": "Havadan Bulaşan Hastalıkları Önleme",
         "Description": "Gerçek dostluk budur! Ifa, Cacucu'yu desteğe çağırır.\nBu Beceriyi kullandıktan sonra Ifa 80 Gece Ruhu puanı kazanır ve {LINK#N11130003}<color=#FFD780FF>Gece Ruhunun Lütfu</color>{/LINK} durumuna girer. Gece Ruhunun Lütfu durumundayken Ifa, Cacucu'nun yardımıyla havada süzülür. Ifa bu durumdayken Normal Saldırı yaptığında Dokunma veya Basılı Tutma durumuna göre farklı türlerde {LINK#N11130001}<color=#FFD780FF>Destek Ateşi</color>{/LINK} kullanır ve tüm grup üyelerini iyileştiren Tonik Atışları yapar.\n\nAyrıca Ifa, Gece Ruhunun Lütfu durumundayken <color=#FFD780FF>Havadan Bulaşan Hastalıkları Önleme</color> Element Becerisi Basılı Tutulduğunda Gece Ruhu tesirli bir Havadan Saldırı kullanır. Element Becerisi butonu bırakıldığında bu Havadan Saldırı yarıda kesilir ve Ifa süzülmeye devam eder. Ifa eğer bu Havadan Saldırıyla yere inerse Gece Ruhunun Lütfu durumu sona erer.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ifa_01"
       }
     ],
@@ -613,6 +615,7 @@
       "Id": 11135,
       "Name": "Güçlü Sakinleştirici Alan",
       "Description": "\"Geçici\" saldırganlık gösteren bir düşmana bir Sakinleştirici ateşler. Sakinleştirici isabet ettiğinde patlayarak yakındaki nesnelerle düşmanları içine çekip hapseden ve Gece Ruhu tesirli <color=#80FFD7FF>Rüzgar Alan Hasarı</color> veren bir rüzgar akımı oluşturur.\nSakinleştirici, <color=#80C0FFFF>Su</color>/<color=#FF9999FF>Ateş</color>/<color=#99FFFFFF>Buz</color>/<color=#FFACFFFF>Elektrik</color> etkisindeki bir düşmana isabet ettiğinde bir {LINK#N11130004}<color=#FFD780FF>Sakinleştirici İşaret</color>{/LINK} uygular.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ifa_01"
     },
     "Inherents": [
@@ -628,7 +631,8 @@
                 1,
                 1,
                 150,
-                0.015
+                0.015,
+                0.0024
               ]
             }
           ],
@@ -636,7 +640,8 @@
         },
         "Id": 1132101,
         "Name": "Saha Doktorunun Gayreti",
-        "Description": "Ifa Gece Ruhunun Lütfu durumundayken tüm grubun sahip olduğu her 1 Gece Ruhu puanı başına 1 {LINK#N11130002}<color=#FFD780FF>Kurtarma Kiti</color>{/LINK} puanı kazanır. Kurtarma Kiti, yakındaki grup üyelerinin verdiği Girdap, Elektrik Yüklü ve Ay Yüklü Hasarını artırır.",
+        "Description": "Ifa Gece Ruhunun Lütfu durumundayken tüm grubun mevcut sahip olduğu her 1 Gece Ruhu puanı başına 1 {LINK#N11130002}<color=#FFD780FF>Kurtarma Kiti</color>{/LINK} puanı kazanır. Kurtarma Kiti, yakındaki grup üyelerinin verdiği Girdap, Yıldız Girdabı, Elektrik Yüklü ve Ay Yüklü Tepkime Hasarını artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_05"
       },
       {
@@ -658,6 +663,7 @@
         "Id": 1132201,
         "Name": "Karşılıklı Yardımlaşma Protokolü",
         "Description": "Yakındaki grup üyeleri Gece Ruhu Patlaması tetiklediğinde 10 saniyeliğine Ifa'nın Element Ustalığı 80 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_06"
       },
       {
@@ -676,6 +682,7 @@
         "Id": 1132301,
         "Name": "Gece Diyarının Armağanı: Kritik İlk Yardım",
         "Description": "Ifa, Gece Ruhu puanları tükendiğinde Filojiston harcayarak Gece Ruhunun Lütfu durumunda kalmaya devam eder.\nIfa, Natlan'da Filojiston Mekanikleri olan bir bölgedeyken \"Gece Ruhu Aktarımı: Ifa\" kullanabilir. Aktif karakter havada belirli bir yükseklikteyken Ifa'ya geçildiğinde şu etkiler tetiklenir: Ifa Gece Ruhunun Lütfu durumuna girer ve 32 Gece Ruhu puanı kazanır. Gece Ruhu Aktarımı kendi takımın tarafından 10 saniyede bir tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_07"
       },
       {
@@ -699,6 +706,7 @@
         "Id": 1132501,
         "Name": "Taktik Sıcak Kompres Pansumanı",
         "Description": "Natlan'da Filojiston Mekanikleri olan bir bölgedeyken mevcut aktif grup üyesinin veya ele geçirilen Sürüngenin Canı %40'ın altındaysa Ifa 10 Filojiston tüketerek Canlarının %40'ını iyileştirir. Bu etki her 10 saniyede bir tetiklenebilir. Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_08"
       }
     ],

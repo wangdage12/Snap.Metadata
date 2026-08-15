@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "+%15 Rüzgar Hasarı Bonusu.",
-      "Girdap Hasarını %60 artırır. Girdapta kullanılan elemente karşı 10 saniyeliğine düşmanın Element Direncini %40 azaltır."
+      "Girdap Tepkimesi Hasarını %60, Yıldız Girdabı Tepkimesi Hasarını ise %20 artırır. 10sn boyunca Girdaptaki elemente karşı düşmanın Element Direncini %40 azaltır. Düşman üzerinde bir Yıldız Girdabı tetiklediğinde ayrıca düşmanın Buz Direnci %40 azalır. Direnç azaltma, aynı element türleri için birikmez."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "+%15 Elektrik Hasarı Bonusu.",
-      "Yüksek Voltaj, Elektrik Yüklü, Süper İletim ve Aşırı Çiçeklenme ile verilen Hasarı %40 artırır. Ayrıca Şiddetlenme ile verilen Hasar Bonusu %20, Ay Yüklü ile verilen Hasar %20 artar. Hızlanma veya yukarıda belirtilen Element Tepkimeleri tetiklendiğinde Element Becerisinin Bekleme Süresi 1 saniye azalır. Bu etki 0,8 saniyede bir tetiklenebilir."
+      "Yüksek Voltaj, Elektrik Yüklü, Süper İletim ve Aşırı Çiçeklenme ile verilen Hasarı %40 artırır. Ayrıca Şiddetlenme ile verilen Hasar Bonusu %20, Ay Yüklü ve Yıldız İletimi ile verilen Hasar %20 artar. Hızlanma veya yukarıda belirtilen Element Tepkimeleri tetiklendiğinde Element Becerisi Bekleme Süresi 1 saniye azalır. Bu etki 0,8 saniyede bir tetiklenebilir."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "+%18 Saldırı.",
-      "Süper İletim Tepkimesi Hasarını %80 artırır. Kuşanan karakter Süper İletim etkisindeki düşmanlara saldırdığında bu saldırının Kritik Oranı %16 artar. Snezhnaya'ya yaklaşırken yeni bir lütuf elde edebilirsin..."
+      "Süper İletim Tepkimesi Hasarını %80 ve Yıldız İletimi Tepkimesi Hasarını %40 artırır. Kuşanan karakter Süper İletim veya Yıldız İletiminden etkilenen düşmanlara saldırdığında bu saldırının Kritik Oranı %16 artar."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "+%18 Saldırı.",
+      "Kuşanan karakter bir Yıldız Girdabı tepkimesi tetiklediğinde 10 saniyeliğine Kritik Oranı %16, verdiği Yıldız Girdabı Hasarı %40 artar."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Ocağın Kalbi",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "+%18 Saldırı.",
+      "Kuşanan karakter bir Yıldız Parıltısı tepkimesi tetiklediğinde veya Yıldız Parıltısı Tepkimesi Hasarı verdiğinde 12 saniyeliğine Saldırısı %12 artar. Ayrıca yakındaki tüm grup üyelerinin verdiği Yıldız Parıltısı Tepkimesi Hasarı da %50 artar. Bu etkiler kuşanan karakter savaş alanında olmasa da tetiklenebilir. Birden fazla Yadigar Setinden gelen aynı isimdeki Hasar bonusları birikmez."
     ]
   },
   {

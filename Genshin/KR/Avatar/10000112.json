@@ -276,6 +276,7 @@
         "Id": 11121,
         "Name": "셰프의 비결",
         "Description": "<color=#FFD780FF>일반 공격</color>\n창으로 최대 3번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 올려치기 공격을 한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11122,
         "Name": "저온 조리법",
         "Description": "진심을 담은 「요리」를 기대해! 짧은 터치 또는 홀드에 따라 각기 다른 방식으로 자랑스러운 폰타인 요리 기술을 선보인다.\n\n<color=#FFD780FF>짧은 터치</color>\n「냉장」 모드로 전방위 다목적 요리 장치를 가동해 주변의 적에게 <color=#99FFFFFF>얼음 원소 범위 피해</color>를 준다.\n\n<color=#FFD780FF>요리 장치·냉장 모드</color>\n현재 필드 위 캐릭터를 따라다니며, 간헐적으로 주변의 적에게 「서리 파르페」를 발사해 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<color=#FFD780FF>아르케의 힘: 우시아</color>\n일정 시간마다 에스코피에가 「냉장」 모드로 요리 장치 가동 시, 솟구치는 칼날을 소환해 우시아 성질의 <color=#99FFFFFF>얼음 원소 범위 피해</color>를 준다.\n\n<color=#FFD780FF>홀드</color>\n{LINK#N11120002}<color=#FFD780FF>즉흥 요리</color>{/LINK} 모드로 전방위 다목적 요리 장치를 가동한다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Escoffier_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 11125,
       "Name": "현란한 칼솜씨",
       "Description": "극한의 칼솜씨로 <color=#99FFFFFF>얼음 원소 범위 피해</color>를 주고 주변에 있는 파티 내 모든 캐릭터의 HP 회복한다. 회복량은 에스코피에 공격력의 영향을 받는다",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Escoffier_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 1122101,
         "Name": "밥이 보약",
         "Description": "원소폭발 <color=#FFD780FF>{LINK#S11125}현란한 칼솜씨{/LINK}</color> 발동 후, 에스코피에가 9초 동안 지속되는 「식이요법」 효과를 획득한다: 1초마다 주변에 있는 현재 필드 위 캐릭터의 HP를 회복한다. 회복량: 에스코피에 자신의 공격력의 138.24%",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_05"
       },
       {
@@ -722,6 +726,7 @@
         "Id": 1122201,
         "Name": "영감의 조미료",
         "Description": "파티 내 <color=#80C0FFFF>물 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 캐릭터가 1/2/3/4명 존재할 경우, 에스코피에의 원소전투 스킬 <color=#FFD780FF>{LINK#S11122}저온 조리법{/LINK}</color> 또는 원소폭발 <color=#FFD780FF>{LINK#S11125}현란한 칼솜씨{/LINK}</color>가 적에게 명중 시, 해당 적의 <color=#80C0FFFF>물 원소 내성</color>과 <color=#99FFFFFF>얼음 원소 내성</color>이 5%/10%/15%/55% 감소한다. 지속 시간: 12초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_06"
       },
       {
@@ -740,6 +745,7 @@
         "Id": 1122301,
         "Name": "시시각각 즉흥 요리",
         "Description": "홀드로 원소전투 스킬 <color=#FFD780FF>{LINK#S11122}저온 조리법{/LINK}</color> 발동 시, 「즉흥 요리」 모드로 전방위 다목적 요리 장치를 가동한다.\n\n<color=#FFD780FF>요리 장치·즉흥 요리 모드</color>\n·필드 위에 요리 장치를 배치한다. 요리 장치는 원소 공격을 흡수한다. 흡수한 원소 에너지가 임계치 도달 시, 에스코피에가 사전에 장치에 배치해 놓은 재료를 요리로 전환한다.\n·에스코피에가 새로운 재료를 구매할 시간이 필요하기 때문에, 이 방법으로는 매주 일정량의 요리만 제작할 수 있다. 제작 가능 횟수는 매주 월요일 오전 5시(KST)에 초기화된다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_08"
       }
     ],

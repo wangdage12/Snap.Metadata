@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Técnica de espada Favonius: Vals fulgurante",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nEmula una antigua danza de batalla caballeresca y empuña sus dos mandobles para realizar hasta 5 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para arremeter hacia delante y ejecutar un tajo más poderoso con sus dos mandobles.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Tempestad precipitante",
         "Description": "#Muestra la esencia de la Técnica de espada Favonius con una fuerza absoluta y produce diferentes efectos dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSalta hacia delante para realizar un tajo que inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> y entra en el modo de {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}.\nEn este modo, el daño de los Ataques Normales y Cargados de Varka aumentará y no podrá realizar Ataques Descendentes. Además, al ejecutar un Ataque Normal o Cargado, empuñará sus dos mandobles para infligir daño del elemento correspondiente en función de los tipos elementales de los personajes del equipo, el cual no puede sustituirse imbuyéndose de otro elemento.\nAsimismo, si en el equipo hay algún personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color> mientras Varka está en el modo de <color=#FFD780FF>Sturm und Drang</color>, su Habilidad Elemental, <color=#FFD780FF>Tempestad precipitante</color>, se remplazará por la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK}, la cual infligirá tanto daño del elemento correspondiente como <color=#80FFD7FF>Daño Anemo</color>. Varka también podrá consumir usos de la Habilidad Elemental especial <color=#FFD780FF>Alzamiento de los Cuatro Vientos</color> para realizar el Ataque Cargado especial <color=#FFD780FF>Devorazul</color>, el cual no consume Aguante e inflige tanto daño del elemento correspondiente como <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nSalta hacia delante tras un tiempo de carga. Cuanto más largo sea este tiempo, más lejos saltará.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Rito de la noche de brujas: Retorno del alba",
         "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: De preguntas enigmáticas»</color>, Varka se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nFortalece la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK}, de manera que, cuando Varka golpea a un enemigo con un Ataque Normal mientras está en modo {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}, el TdE de <color=#FFD780FF>Alzamiento de los Cuatro Vientos</color> se reduce en 1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Soy el viento boreal",
       "Description": "Invocando el título del Caballero de Boreas más poderoso, ejecuta hacia delante dos potentes tajos consecutivos que infligen <color=#80FFD7FF>Daño Anemo</color> dos veces.\nSi en el equipo hay algún personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, el primer tajo infligirá daño del elemento correspondiente según dicho orden de prioridad.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Marcha del viento del alba",
         "Description": "#Cuando en el equipo haya algún personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, por cada 1000{NON_BREAK_SPACE}pts. de ATQ que tenga Varka, obtendrá un 10% de <color=#80FFD7FF>Bono de Daño Anemo</color> y de bono de daño del elemento correspondiente según dicho orden de prioridad (de los elementos anteriormente mencionados, solamente uno podrá beneficiarse del bono de daño obtenido de esta manera). Como máximo, el bono de daño obtenido de este modo podrá ser del 25%.\n\nAdemás, si en el equipo hay al menos 2 personajes <color=#80FFD7FF>Anemo</color> o 2 personajes del mismo elemento entre <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, los Ataques Normales y Cargados, el Ataque Cargado especial <color=#FFD780FF>Devorazul</color> y la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK} que Varka ejecute en el modo {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK} infligirán un 140% de su daño original. Si en el equipo hay al menos 2 personajes <color=#80FFD7FF>Anemo</color> y 2 personajes del mismo elemento entre <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color> al mismo tiempo, dicho efecto aumentará a un 220%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Estandarte del viento",
-        "Description": "#Cuando un personaje cercano del equipo causa una reacción de Torbellino, Varka obtiene 1 carga de <color=#FFD780FF>juramento colmilloazur</color>, lo cual aumenta en un 7.5% el daño infligido por los Ataques Normales, Ataques Cargados, el Ataque Cargado especial <color=#FFD780FF>Devorazul</color> y la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK} de Varka. Este efecto dura 8{NON_BREAK_SPACE}s y puede acumularse hasta 4 veces. Como máximo, cada personaje puede otorgar a Varka 1 carga de <color=#FFD780FF>juramento colmilloazur</color> por segundo de esta forma.",
+        "Description": "#Cuando un personaje cercano del equipo causa una reacción de Torbellino o Torbellino Estelar, Varka obtiene 1 carga de <color=#FFD780FF>juramento colmilloazur</color>, lo cual aumenta en un 7.5% el daño infligido por los Ataques Normales, Ataques Cargados, el Ataque Cargado especial <color=#FFD780FF>Devorazul</color> y la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK} de Varka. Este efecto dura 8{NON_BREAK_SPACE}s y puede acumularse hasta 4 veces. Como máximo, cada personaje puede otorgar a Varka 1 carga de <color=#FFD780FF>juramento colmilloazur</color> por segundo de esta forma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Peán del viento retornante",
         "Description": "Por cada personaje de Mondstadt que haya en el equipo, el TdE de la Habilidad Elemental <color=#FFD780FF>Tempestad precipitante</color> se reduce en un 5% al lanzarla manteniéndola pulsada.\nEste efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "“Pues nadie puede arrebatarnos la libertad de cantar”",
-        "Description": "#Cuando Varka causa una reacción de Torbellino, todos los personajes cercanos del equipo obtienen durante 10{NON_BREAK_SPACE}s un 20% de <color=#80FFD7FF>Bono de Daño Anemo</color> y bono de daño del elemento correspondiente en función de los elementos que hayan contribuido a la reacción.",
+        "Description": "#Cuando Varka causa una reacción de Torbellino o Torbellino Estelar, todos los personajes cercanos del equipo obtienen durante 10{NON_BREAK_SPACE}s un 20% de <color=#80FFD7FF>Bono de Daño Anemo</color> y bono de daño del elemento correspondiente en función de los elementos que hayan contribuido a la reacción.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

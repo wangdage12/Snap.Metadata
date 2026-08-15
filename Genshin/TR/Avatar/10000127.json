@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Söz Erinin Mızrağı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 mızrak saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nİleri atılırken belirli miktarda Dayanıklılık harcar ve önündeki düşmanlara hasar verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Şafak Şarkısı Kuşu",
         "Description": "Güvenilir ulak kuşu \"Aedon\"u çağırır. Becerinin Dokunularak veya Basılı Tutularak kullanılmasına bağlı olarak farklı etkiler oluşur.\n\n<color=#FFD780FF>Dokun</color>\nAedon öndeki düşmanlara doğru atılır ve temas ettiği düşmanlara <color=#FFE699FF>Toprak Hasarı</color> verir.\n\n<color=#FFD780FF>Basılı Tut</color>\nNişan alma modu açılır. Aedon, nişan alınan düşmanlara doğru atılır ve temas ettiği düşmanlara <color=#FFE699FF>Toprak Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Gölgesiz Yansıma",
       "Description": "Lambayı yakmak <color=#FFE699FF>Toprak Alan Hasarı</color> verir ve 20 saniyeliğine Lanetli Gecede Öten Sarıasma etkisi kazanılır. Bu etki aktifken Illuga 21 kademe {LINK#N11270001}<color=#FFD780FF>Bülbülün Şarkısı</color>{/LINK} kazanır. Yakındaki aktif grup üyelerinin Normal Saldırıları, Yüklü Saldırıları, Havadan Saldırıları, Element Becerileri ve Element Patlamaları düşmanlara <color=#FFE699FF>Toprak Hasarı</color> verdiğinde 1 kademe Bülbülün Şarkısı tüketilir ve verilen Hasar artar. Hasar artışı Illuga'nın Element Ustalığına bağlıdır. Hasar, Ay Kristalleşmesi ile verilirse daha da artar.\nBu şekilde verilen <color=#FFE699FF>Toprak Hasarı</color> birden fazla düşmana isabet ettiğinde isabet alan düşman sayısına bağlı olarak birden fazla Bülbülün Şarkısı kademesi tüketilir.\n\nAyrıca savaş alanında yakındaki grup üyeleri tarafından oluşturulmuş <color=#FFE699FF>Toprak Yapıları</color> varken Illuga Element Patlamasını kullandığında veya Lanetli Gecede Öten Sarıasma aktifken yakındaki grup üyeleri <color=#FFE699FF>Toprak Yapıları</color> oluşturduğunda, savaş alanındaki her bir <color=#FFE699FF>Toprak Yapısı</color> Illuga'ya ilave 5 Bülbülün Şarkısı kademesi kazandırır. Illuga Element Patlamasını kullandıktan sonraki 20sn içinde bu şekilde en fazla 15 ilave Bülbülün Şarkısı kademesi kazanabilir.\n\nTüm Bülbülün Şarkısı kademeleri tüketildiğinde veya durumun süresi sona erdiğinde Lanetli Gecede Öten Sarıasma etkisi sona erer.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Meşale Ustasının Ahdi",
         "Description": "<color=#FFD780FF>{LINK#S11272}Şafak Şarkısı Kuşu{/LINK}</color> Element Becerisi veya <color=#FFD780FF>{LINK#S11275}Gölgesiz Yansıma{/LINK}</color> Element Patlaması kullanıldıktan sonra 20 saniyeliğine yakındaki diğer grup üyeleri Işık Muhafızı Yemini etkisini kazanır: Düşmanlara verilen <color=#FFE699FF>Toprak Hasarı</color> için Kritik Oranı %5, Kritik Hasar ise %10 artar.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>\nIşık Muhafızı Yemini etkisindeki grup üyelerinin Element Ustalığı 50 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "İblis Avcısının Alacakaranlığı",
         "Description": "{LINK#N11270001}<color=#FFD780FF>Bülbülün Şarkısı</color>{/LINK} etkileri gelişir: Grupta 1/2/3 <color=#80C0FFFF>Su</color> veya <color=#FFE699FF>Toprak</color> karakteri olduğunda Bülbülün Şarkısı Hasarı daha da artar. Hasar artışı, Illuga'nın Element Ustalığının %7/%14/%24'üne eşittir. Söz konusu Hasar bir Ay Kristalleşmesi tepkimesiyle verilirse Hasar artışı, Illuga'nın Element Ustalığının %48/%96/%160'ına eşit olur.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Ay Sembolü Kutsaması: Kışın Solmayan",
         "Description": "Illuga gruptayken grubun <color=#FFD780FF>Ay Sembolü</color> 1 seviye yükselir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Gece Nöbetçisinin Adımları",
         "Description": "Geceleri (18:00 - 06:00) grup üyelerin Hızlı Adım etkisi kazanır: Hareket Hızı %10 artar.\nZindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında etkili değildir. Hızlı Adım etkileri birikmez.\nAyrıca Illuga, Vahşi Avın fısıltılarını deşifre edebiliyor...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

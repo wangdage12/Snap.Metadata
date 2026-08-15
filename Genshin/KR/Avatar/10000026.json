@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "권적미진",
         "Description": "<color=#FFD780FF>일반 공격</color>\n창으로 최대 6번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 올려치기 공격을 한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다.\n소는 낙하 공격 시 추락 피해를 입지 않는다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "풍륜양립",
         "Description": "아주 빠르게 돌진하여 경로상의 적에게 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n공중에서 발동 가능.\n초기 사용 가능 횟수: 2회\n\n<i>타국에선 세계가 두 개의 거대한 풍륜에 의해 파괴될 것이라는 전설이 있다. 소(魈)의 창술은 절정에 이르러 마치 두 개의 풍륜이 동시에 적을 찢어 버리는 것처럼 보인다</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "나자의 춤",
       "Description": "수천 년 전 악마와 요괴들을 두려움에 떨게 했던 야차의 가면을 착용한다.\n\n<color=#FFD780FF>야차의 가면</color>\n·소의 점프력이 대폭 증가한다.\n·공격 범위와 주는 피해가 증가한다.\n·공격은 <color=#80FFD7FF>바람 원소 피해</color>로 전환되며, 해당 원소 전환은 다른 원소 부여 효과로 대체될 수 없다.\n\n해당 상태일 때 소는 HP를 지속해서 잃는다.\n해당 효과는 소가 퇴장할 때 사라진다.\n\n<i>항마의 가면을 쓰면 요마를 소멸시키는 잔인한 「호법야차」가 나타난다. 강한 힘을 얻었으나, 큰 고통도 함께 따라올지니 그 이름은 「나자의 춤」이다</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "항마·평요대성",
         "Description": "<color=#FFD780FF>나자의 춤</color> 상태에서 소(魈)가 주는 모든 피해가 5% 증가하고 이후 스킬 지속 시간 동안 3초가 지날 때마다 주는 피해가 추가로 5% 증가한다.\n피해 보너스는 최대 25%까지 획득한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "괴겁·국토연진",
         "Description": "<color=#FFD780FF>풍륜양립</color> 발동 후 7초 동안 풍륜양립으로 주는 피해가 15% 증가한다.\n지속 시간: 7초. 중첩 시 지속 시간이 갱신된다. 최대 중첩수: 3회",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "신통·공중 유희",
         "Description": "파티 내 자신의 캐릭터의 등반 시 소모하는 스태미나가 20% 감소한다.\n같은 효과의 고유 특성과 중첩되지 않는다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "명함 스킨.\n그는 언젠가 이 가면을 쓰고 요마 제거를 위해서가 아닌 화주의 피리 소리에 맞춰 춤추길 원한다",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "궤적·호법야차",
+    "Description": "소의 그림 속 궤적. 「재액을 멸하겠다고 맹세했지만」",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

@@ -292,6 +292,7 @@
         "Id": 11161,
         "Name": "Dépoussiéreur cyclonique",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher une attaque tournoyante.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 11162,
         "Name": "Mode purificateur : Fréquence porteuse",
         "Description": "Ineffa active son module de nettoyage avancé, infligeant une fois des <color=#FFACFFFF>DGT Électro de zone</color> aux ennemis à proximité, déployant sa barrière de protection à flux optique et invoquant son unité d'assistance intelligente polyvalente, {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}.\nL'absorption de DGT de la barrière de protection à flux optique est basée sur l'ATQ d'Ineffa et cette dernière absorbe les <color=#FFACFFFF>DGT Électro</color> 250 % plus efficacement.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ineffa_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11165,
       "Name": "Commande suprême : Exterminateur cyclonique",
       "Description": "#{LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, l'unité d'assistance intelligente polyvalente, utilise un poing-fusée pour éradiquer rapidement les ennemis{NON_BREAK_SPACE}! Ineffa éjecte Birgitta, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> et lui permettant de rester sur le terrain.\n\nSi Birgitta est déjà sur le terrain, ayant été invoquée par Ineffa, elle est à la place invoquée à nouveau à l'emplacement cible et sa durée est réinitialisée.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ineffa_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1162101,
         "Name": "Circuit de surcadençage",
         "Description": "Si des nuages orageux créés par une réaction de Sélénocution sont à proximité de {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK} lorsqu'elle déclenche une décharge électrique, elle lance une attaque supplémentaire infligeant des <color=#FFACFFFF>DGT Électro de zone</color> d'une valeur équivalant à 65 % de l'ATQ d'Ineffa, ces DGT étant considérés comme des DGT de réaction de Sélénocution.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 1162201,
         "Name": "Protocole de permutation panoramique",
         "Description": "Utiliser le déchaînement élémentaire <color=#FFD780FF>{LINK#S11165}Commande suprême : Exterminateur cyclonique{/LINK}</color> accorde l'effet Refactorisation des paramètres à tous vos personnages de l'équipe : augmente la maîtrise élémentaire de votre personnage déployé et d'Ineffa d'une valeur équivalant à 6 % de l'ATQ d'Ineffa pendant 20 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 1162301,
         "Name": "Bénédiction de signelune : Ensemble de moyeu",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Électrocution, elle est convertie en réaction de Sélénocution, dont les DGT de base augmentent selon l'ATQ d'Ineffa : chaque tranche de 100 pts d'ATQ augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Ineffa fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -742,6 +748,7 @@
         "Id": 1162501,
         "Name": "Unité de synthèse aromatique",
         "Description": "#En utilisant de la nourriture, Ineffa a 30{NON_BREAK_SPACE}% de chances d'obtenir un ingrédient d'assaisonnement.\n\nDe plus, il semble que vous pourrez changer l'apparence de Birgitta par certains moyens dans Nod-Krai...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_08"
       }
     ],

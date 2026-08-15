@@ -292,6 +292,7 @@
         "Id": 10651,
         "Name": "忍流飛刃斬り",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n剣による最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10652,
         "Name": "越祓雷草の輪",
         "Description": "越祓草輪を編み、一定のHPを消費して周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>越祓草輪</color>\nフィールド上のキャラクターと共に移動する。1.5秒毎に周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、範囲内のフィールド上キャラクターのHPを回復する。回復量は久岐忍のHP上限によって決まる。\n\nスキル発動によるHP消費によって、久岐忍の残りHPが20%を下回ることはない。\n\n<i>腰に鳴草の輪を結び、邪祟を祓わん。</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Shinobu_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 10655,
       "Name": "御詠鳴神刈山祭",
       "Description": "退邪の刃を地面に突き刺し、邪悪なるものを祓う結界を前方に張って、その中にいる敵に<color=#FFACFFFF>雷元素ダメージ</color>を継続的に与える。ダメージ量は久岐忍のHP上限によって決まる。\n発動時、久岐忍のHPが50%以下の際、結界の継続時間が延びる。\n\n<i>元々は雑草を刈り、来年の豊作を祈るための祈祷術である。忍は巫女をやめた後も、この術を忘れなかった。</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Shinobu_01"
     },
     "Inherents": [
@@ -744,6 +747,7 @@
         "Id": 652101,
         "Name": "檻を破る志",
         "Description": "久岐忍のHPが50%以下の時、与える治療効果+15%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shinobu_05"
       },
       {
@@ -765,6 +769,7 @@
         "Id": 652201,
         "Name": "安心の処",
         "Description": "久岐忍の元素熟知を基準に、<color=#FFD780FF>越祓雷草の輪</color>は以下の強化を得る。\n·アップする治療量：元素熟知の75%。\n·アップするダメージ量：元素熟知の25%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shinobu_06"
       },
       {
@@ -783,6 +788,7 @@
         "Id": 652301,
         "Name": "永き刻の祈り",
         "Description": "稲妻で20時間かかる探索任務を完了した時、獲得する報酬+25%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shinobu_07"
       }
     ],

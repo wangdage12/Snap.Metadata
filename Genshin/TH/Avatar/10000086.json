@@ -308,6 +308,7 @@
         "Id": 10861,
         "Name": "Forceful Fists of Frost",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nรวบรวมน้ำแข็งมาไว้ที่กำปั้น และปล่อย <color=#FFD780FF>Repelling Fist</color> อันทรงพลัง โดยจะออกหมัดโจมตีต่อเนื่องอย่างรวดเร็วมากสุด 5 ครั้ง เพื่อสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color>\nนอกจากนั้น ภายในระยะเวลาสั้น ๆ หลังจากปล่อยสกิลธาตุ Icefang Rush หรือหลังจากวิ่ง จำนวนคอมโบการโจมตีปกติจะไม่ถูกรีเซ็ต\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายส่วนหนึ่งในการกระโดดขึ้น และปล่อย <color=#FFD780FF>Vaulting Fist</color> เพื่อสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color>\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color>เมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -536,6 +537,7 @@
         "Id": 10862,
         "Name": "Icefang Rush",
         "Description": "ปรับการหายใจ จังหวะ และการเดินอย่างรวดเร็ว พุ่งตัววิ่งไปข้างหน้าเป็นระยะสั้น ๆ และเข้าสู่สถานะ <color=#FFD780FF>Chilling Penalty (ทัณฑ์ยะเยือก)</color> เพื่อทำการโจมตีที่รุนแรงขึ้น\n\n<color=#FFD780FF>Chilling Penalty</color>\n·เพิ่มความสามารถในการต้านทานการหยุดชะงักของ Wriothesley\n·เมื่อค่าพลังชีวิตสูงกว่า 50% จะเสริมพลังให้กับ Repelling Fist ของ <color=#FFD780FF>\"โจมตีปกติ: Forceful Fists of Frost\"</color> ทำให้ความเสียหายที่สร้างเพิ่มขึ้น และเมื่อโจมตีโดนเป้าหมาย Wriothesley จะสูญเสียพลังชีวิตส่วนหนึ่ง โดยจะสูญเสียพลังชีวิตได้มากสุดหนึ่งครั้ง ในทุก 0.1 วินาที\nเอฟเฟกต์นี้จะหายไปเมื่อ Wriothesley ออกจากการต่อสู้\n\n<i>\"โทษทัณฑ์ในอดีตเป็นสิ่งที่ถูกตัดสินไปแล้ว แต่ทางเลือกในอนาคตยังอยู่ในกำมือเรา\"\n\"ถ้าไม่อยากให้ชะตาถูกบาปชั่วขณะกลืนกิน ก็จงรักษาช่วงเวลานี้ไว้ให้ดี\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
@@ -562,7 +564,8 @@
         },
         "Id": 865101,
         "Name": "There Shall Be an Unveiling for Injustice",
-        "Description": "<color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>: เอฟเฟกต์ของพรสวรรค์เพิ่มเติม \"There Shall Be a Plea for Justice\" จะเปลี่ยนเป็น:\nเมื่อพลังชีวิตของ Wriothesley ต่ำกว่า 60% จะได้รับ \"Gracious Rebuke: Unveiling\" ทำให้การชาร์จโจมตีของ<color=#FFD780FF>โจมตีปกติ - Forceful Fists of Frost</color> ในครั้งต่อไปได้รับการเสริมพลังเป็น Luster: Vaulting Fist : การโจมตีดังกล่าวจะไม่ใช้พลังกาย และหลังจากโดนเป้าหมาย จะฟื้นฟูพลังชีวิตให้กับ Wriothesley เท่ากับ 30% ของพลังชีวิตสูงสุดของ Wriothesley โดยจะฟื้นฟูพลังชีวิตให้กับ Wriothesley ด้วยวิธีนี้ได้มากสุดหนึ่งครั้งทุก 2 วินาที\nนอกจากนี้ การโจมตีครั้งที่ 3 และครั้งที่ 5 ของ Repelling Fist ที่ถูกเสริมพลังโดย <color=#FFD780FF>Chilling Penalty</color> จะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 60%/80% ของความเสียหายเดิมตามลำดับ และ Luster: Vaulting Fist จะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color> 100% ของความเสียหายเดิม ความเสียหายดังกล่าวจะถูกนับเป็นความเสียหายปฏิกิริยานำไฟฟ้าดารา; Wriothesley จะสร้างความเสียหายปฏิกิริยานำไฟฟ้าดาราเพิ่มขึ้น 30%\nนอกจากนี้ เมื่ออยู่ใน{LINK#N11330003}<color=#FFD780FF>เขตแดนดาราฉาย</color>{/LINK} Wriothesley จะเข้าสู่สถานะ <color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>",
+        "Description": "<color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>: เอฟเฟกต์ของพรสวรรค์เพิ่มเติม \"There Shall Be a Plea for Justice\" จะเปลี่ยนเป็น:\nเมื่อพลังชีวิตของ Wriothesley ต่ำกว่า 60% จะได้รับ \"Gracious Rebuke: Unveiling\" ทำให้การชาร์จโจมตีของ<color=#FFD780FF>โจมตีปกติ - Forceful Fists of Frost</color> ของ Wriothesley ได้รับการเสริมพลังเป็น Luster: Vaulting Fist : การโจมตีดังกล่าวจะไม่ใช้พลังกาย และหลังจากโดนเป้าหมาย จะฟื้นฟูพลังชีวิตให้กับ Wriothesley เท่ากับ 30% ของพลังชีวิตสูงสุดของ Wriothesley โดยจะฟื้นฟูพลังชีวิตให้กับ Wriothesley ด้วยวิธีนี้ได้มากสุดหนึ่งครั้งทุก 2 วินาที\nนอกจากนี้ การโจมตีครั้งที่ 3 และครั้งที่ 5 ของ Repelling Fist ที่ถูกเสริมพลังโดย <color=#FFD780FF>Chilling Penalty</color> จะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 60%/80% ของความเสียหายเดิมตามลำดับ และ Luster: Vaulting Fist จะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color> 100% ของความเสียหายเดิม ความเสียหายดังกล่าวจะถูกนับเป็นความเสียหายปฏิกิริยานำไฟฟ้าดารา; Wriothesley จะสร้างความเสียหายปฏิกิริยานำไฟฟ้าดาราเพิ่มขึ้น 30%\nนอกจากนี้ เมื่ออยู่ใน{LINK#N11330003}<color=#FFD780FF>เขตแดนดาราฉาย</color>{/LINK} Wriothesley จะเข้าสู่สถานะ <color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_08"
       }
     ],
@@ -748,6 +751,7 @@
       "Id": 10865,
       "Name": "Darkgold Wolfbite",
       "Description": "เรียกนวมขึ้นมา ชกโจมตีตรงไปข้างหน้าด้วยหมัดที่สะสมพลังน้ำแข็ง และปล่อย Icicle Impact ใส่พื้นที่ด้านหน้าอย่างต่อเนื่อง เพื่อสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color>หลายครั้ง\n\n<color=#FFD780FF>พลังปฐมภูมิ: สสาร</color>\nหลังจาก Icicle Impact สิ้นสุดลง จะทำการปล่อย Surging Blade ในตำแหน่งศัตรู และสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color>ที่มีพลังสสารอยู่\n\n<i>มีหลายเรื่องที่แม้แต่ดยุกแห่งป้อมปราการ Meropide ก็ทำอะไรไม่ได้... เช่น งานเอกสารที่ซับซ้อน การกำกับดูแลเรื่องยิบย่อย หรือ... ความดื้อรั้นของเหล่าเพื่อนตัวน้อย ที่ชอบแอบแปะสติกเกอร์แสนน่ารักแต่ลอกยากไว้บนนวมของเขาก็ตาม</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wriothesley_01"
     },
     "Inherents": [
@@ -772,6 +776,7 @@
         "Id": 862101,
         "Name": "There Shall Be a Plea for Justice",
         "Description": "เมื่อค่าพลังชีวิตของ Wriothesley ต่ำกว่า 60% จะได้รับ \"Gracious Rebuke\" (บัญญัติแห่งเมตตา) ที่ทำให้การชาร์จโจมตีครั้งต่อไปของ <color=#FFD780FF>โจมตีปกติ: Forceful Fists of Frost</color> ได้รับการเสริมพลังเป็น Rebuke: Vaulting Fist โดยไม่เสียพลังกาย และสร้างความเสียหายเพิ่มขึ้น 50% และเมื่อโจมตีโดนเป้าหมายจะฟื้นฟูพลังชีวิตให้แก่ Wriothesley โดยที่ปริมาณการฟื้นฟูจะเท่ากับ 30% ของพลังชีวิตสูงสุดของ Wriothesley\nสามารถรับ Gracious Rebuke ด้วยวิธีนี้ได้มากสุดหนึ่งครั้งในทุก 5 วินาที",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_05"
       },
       {
@@ -793,6 +798,7 @@
         "Id": 862201,
         "Name": "There Shall Be a Reckoning for Sin",
         "Description": "เมื่อพลังชีวิตปัจจุบันของ Wriothesley เพิ่มขึ้นหรือลดลง หาก Wriothesley อยู่ภายใต้สถานะ Chilling Penalty ที่เกิดจาก <color=#FFD780FF>Icefang Rush</color> จะทำให้ Chilling Penalty ได้รับเอฟเฟกต์ Prosecution Edict 1 ชั้น เอฟเฟกต์นี้จะซ้อนทับได้มากสุด 5 ชั้น แต่ละชั้นจะทำให้ Wriothesley มีพลังโจมตีเพิ่มขึ้น 6%",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_06"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 862301,
         "Name": "The Duke's Grace",
         "Description": "เมื่อสร้างวัสดุเลื่อนขั้นอาวุธ จะมีโอกาส 10% ที่จะได้รับผลผลิตเพิ่มเป็น 2 เท่า",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],
@@ -860,7 +867,7 @@
         "Id": 866,
         "Name": "Esteem for the Innocent",
         "Description": "Rebuke: Vaulting Fist จะมีอัตราคริเพิ่มขึ้น 10% และมีความแรงคริเพิ่มขึ้น 80% และสามารถสร้างแท่งน้ำแข็งเพิ่มเติม โดยจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 100% ของความเสียหายพื้นฐานของ Rebuke: Vaulting Fist ความเสียหายที่สร้างด้วยวิธีนี้ จะถือว่าเป็นความเสียหายชาร์จโจมตี\nต้องปลดล็อกพรสวรรค์เพิ่มเติม \"There Shall Be a Plea for Justice\" ก่อน",
-        "SpecialDescription": "Rebuke: Vaulting Fist จะมีอัตราคริเพิ่มขึ้น 10% และมีความแรงคริเพิ่มขึ้น 80% และสามารถสร้างแท่งน้ำแข็งเพิ่มเติม โดยจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 100% ของความเสียหายพื้นฐานของ Rebuke: Vaulting Fist ความเสียหายที่สร้างด้วยวิธีนี้ จะถือว่าเป็นความเสียหายชาร์จโจมตี\n\n<color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>: เอฟเฟกต์ข้างต้นจะเปลี่ยนเป็น:\n·อัตราคริของ Repelling Fist และ Luster: Vaulting Fist ที่ได้รับการเสริมพลังด้วย <color=#FFD780FF>Chilling Penalty</color> เพิ่มขึ้น 10% ความแรงคริเพิ่มขึ้น 80% และการโจมตีครั้งที่ 5 ของ Repelling Fist และ Luster: Vaulting Fist ที่ได้รับการเสริมพลังด้วย <color=#FFD780FF>Chilling Penalty</color> จะสร้างแท่งน้ำแข็งเพิ่มเติม ซึ่งจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 60% ของความเสียหายเดิม โดยความเสียหายดังกล่าวจะถือเป็นความเสียหายปฏิกิริยานำไฟฟ้าดารา\n\nต้องปลดล็อกพรสวรรค์เพิ่มเติม \"There Shall Be a Plea for Justice\" ก่อน",
+        "SpecialDescription": "Rebuke: Vaulting Fist จะมีอัตราคริเพิ่มขึ้น 10% และมีความแรงคริเพิ่มขึ้น 80% และสามารถสร้างแท่งน้ำแข็งเพิ่มเติม โดยจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 100% ของความเสียหายพื้นฐานของ Rebuke: Vaulting Fist ความเสียหายที่สร้างด้วยวิธีนี้ จะถือว่าเป็นความเสียหายชาร์จโจมตี\n\n<color=#FFD780FF>เจิดจรัส: นำไฟฟ้าดารา</color>: เอฟเฟกต์ข้างต้นจะเปลี่ยนเป็น:\n·อัตราคริของ Repelling Fist และ Luster: Vaulting Fist ที่ได้รับการเสริมพลังด้วย <color=#FFD780FF>Chilling Penalty</color> เพิ่มขึ้น 10% ความแรงคริเพิ่มขึ้น 80% และการโจมตีครั้งที่ 5 ของ Repelling Fist และ Luster: Vaulting Fist ที่ได้รับการเสริมพลังด้วย <color=#FFD780FF>Chilling Penalty</color> จะสร้างแท่งน้ำแข็งเพิ่มเติม ซึ่งจะสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 20% ของความเสียหายเดิม โดยความเสียหายดังกล่าวจะถือเป็นความเสียหายปฏิกิริยานำไฟฟ้าดารา\n\nต้องปลดล็อกพรสวรรค์เพิ่มเติม \"There Shall Be a Plea for Justice\" ก่อน",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

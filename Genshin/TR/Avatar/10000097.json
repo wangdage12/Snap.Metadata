@@ -307,6 +307,7 @@
         "Id": 10971,
         "Name": "Kraliyet Saz Okçuluğu",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 ok atışı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha fazla Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda Elektrik gücü birikir. Gösterdiği etki, enerjinin ne kadar süre yük topladığına göre belirlenir:\n·1. Seviye Yük: Yıldırım gücü taşıyan ve <color=#FFACFFFF>Elektrik Hasarı</color> veren bir ok atar.\n·2. Seviye Yük: Atış yönündeki düşmanları delip geçerek <color=#FFACFFFF>Elektrik Hasarı</color> veren bir <color=#FFD780FF>Gölgedelen Atışı</color> yapar. Gölgedelen Atışı tamamen yüklendikten sonra Sethos hareket edemez.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -458,7 +459,8 @@
         },
         "Id": 10972,
         "Name": "Kadim Ayin: Gürleyen Kumlar",
-        "Description": "Yıldırımın gücünü toplar ve <color=#FFACFFFF>Elektrik Alan Hasarı</color> vererek hızla geriye kaçar. Eğer bu saldırı bir Elektrik Yüklü, Ay Yüklü, Süper İletim, Yüksek Voltaj, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme veya Elektrik Girdabı tepkimesi tetiklerse Sethos belirli bir miktar Element Enerjisi yeniler.\n\n<i>\"İçinde Tanrıyı barındıran Rahip ile çukurları vahaya dönüştüren Büyücü. Kum denizi şarkıcıları onların hikayelerini anlatmaya devam ediyor... Ancak ben bilirim onların efsane olmadığını, çünkü onlar benim atalarım.\"</i>",
+        "Description": "Yıldırımın gücünü toplar ve <color=#FFACFFFF>Elektrik Alan Hasarı</color> vererek hızla geriye kaçar. Eğer bu saldırı bir Elektrik Yüklü, Ay Yüklü, Süper İletim, Yıldız İletimi, Yüksek Voltaj, Hızlanma, Şiddetlenme, Aşırı Çiçeklenme veya Elektrik Girdabı tepkimesi tetiklerse Sethos belirli bir miktar Element Enerjisi yeniler.\n\n<i>\"İçinde Tanrıyı barındıran Rahip ile çukurları vahaya dönüştüren Büyücü. Kum denizi şarkıcıları onların hikayelerini anlatmaya devam ediyor... Ancak ben bilirim onların efsane olmadığını, çünkü onlar benim atalarım.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sethos_01"
       }
     ],
@@ -628,6 +630,7 @@
       "Id": 10975,
       "Name": "Saklı Ayin: Gölgedelen Alacakaranlık",
       "Description": "Sethos gizli bir ayin gerçekleştirir ve \"Alacakaranlık Meditasyonu\" durumuna girer. Bu durumdayken Sethos'un Normal Saldırıları düşmanları delen <color=#FFD780FF>Gün Batımı Oklarına</color> dönüşür. Oklar, yoluna çıkan düşmanlara <color=#FFACFFFF>Elektrik Hasarı</color> verir, verdiği Hasar miktarı Sethos'un Element Ustalığına göre artar.\nSethos bu durumdayken Hedefli Atış yapamaz.\nGün Batımı Oku ile verilen Hasar, Yüklü Saldırı Hasarı sayılır.\nBu etki, Sethos savaş alanından ayrıldığında kaybolur.\n\n<i>Sessizlik Tapınağında Kral Deshret zamanından Akhtamun'un ardında bıraktığı birçok kitap saklanmaktadır. Bunların içerisinde kudretli gizli ayinler bulunmasına rağmen Tapınaktakiler dahil çok az kişi bunlarda ustalaşabilmiştir.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sethos_01"
     },
     "Inherents": [
@@ -650,6 +653,7 @@
         "Id": 972101,
         "Name": "Kara Çaylağın Sırrı",
         "Description": "Nişan Alırkenki yükleme süresi, Sethos'un her Element Enerjisi puanı başına 0,285sn azalır. Bu yöntemle yükleme süresi en az 0,3 saniyeye kadar düşürülebilir ve en fazla 20 Enerji eklenebilir. Bir <color=#FFD780FF>Gölgedelen Atışı</color> ateşlendiğinde eklenen miktarda Element Enerjisi tüketilir. 1. Seviye Yük atışı yapılırsa eklenen miktardaki Element Enerjisinin %50'si tüketilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 972201,
         "Name": "Kum Kralının Nimeti",
         "Description": "Sethos \"Kavurucu Kum Gölgesi\" etkisi kazanır ve <color=#FFD780FF>Gölgedelen Atışı</color> ile verdiği Hasar, Sethos'un Element Ustalığının %700'ü kadar artar.\nŞu koşullardan herhangi biri karşılandığında Kavurucu Kum Gölgesi etkisi kaldırılır:\n·Gölgedelen Atışı bir düşmana ilk isabet ettikten 5sn sonra.\n·4 Gölgedelen Atışı düşmanlara isabet ettikten sonra.\n\nKavurucu Kum Gölgesi etkisine sahip bir Gölgedelen Atışı düşmana ilk isabet ettikten 15sn sonra Sethos Kavurucu Kum Gölgesi etkisini yeniden kazanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 972301,
         "Name": "Thoth'un Keşfi",
         "Description": "Yakınlardaki <color=#FFD780FF>Sumeru'ya özgü kaynakların</color> yerini mini haritada gösterir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tighnari_07"
       }
     ],

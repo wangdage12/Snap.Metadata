@@ -309,6 +309,7 @@
         "Id": 10491,
         "Name": "Flambée pyrotechnique",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis et infligeant davantage de DGT.\nEn visant, des flammes viennent se concentrer sur le carreau de la flèche avant d'être tirées lors de l'attaque. L'effet varie selon le nombre de charges :\n· 1 charge : Tire une flèche enflammée qui inflige des <color=#FF9999FF>DGT Pyro</color>.\n· 2 charges : Génère jusqu'à 3 flèches chercheuses en fonction du temps de charge, qui sont libérées lors du tir visé. Les flèches suivent les ennemis proches, et infligent lorsqu'elles touchent des <color=#FF9999FF>DGT Pyro</color>.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -476,6 +477,7 @@
         "Id": 10492,
         "Name": "Danse du feu « Niwabi »",
         "Description": "Yoimiya brandit un cierge magique, s'entourant d'un champ de salpêtres.\n\n<color=#FFD780FF>Niwabi Enshou</color>\nPendant la durée de cette aptitude, les flèches tirées lors de l'attaque normale de Yoimiya sont des flèches enflammées, infligeant davantage de DGT, et dont les DGT sont convertis en <color=#FF9999FF>DGT Pyro</color>. Pendant cette période, le second niveau de charge de son attaque normale Flambée pyrotechnique ne génère pas de flèches chercheuses.\n\nL'effet s'arrête lorsque Yoimiya quitte le champ de bataille.\n\n<i>Le « Niwabi » est une sorte de feu d'artifice à base d'encens inventé par Yoimiya, qui ne requiert aucune formation ou préparation préalable, ce qui le rend particulièrement populaire. Après plusieurs incidents, la Commission administrative a interdit l'usage du « Niwabi » dans l'enceinte de la ville, mais il arrive encore que de discrètes étincelles illuminent la nuit. Vues des hauteurs, on dirait de petites étoiles filantes.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Yoimiya_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 10495,
       "Name": "Saxifrage Ryuukin",
       "Description": "Yoimiya s'élance dans les airs avec sa création originale, le « Saxifrage Ryuukin » et tire des roquettes flamboyantes pleines de surprises, qui infligent des <color=#FF9999FF>DGT Pyro de zone</color>, et marquent un ennemi d'une « Flamme Ryuukin ».\n\n<color=#FFD780FF>Flamme Ryuukin</color>\nLes attaques normales, chargées et plongeantes, les compétences élémentaires et les déchaînements élémentaires de tous les personnages de l'équipe (hormis Yoimiya) génèrent une explosion lorsqu'elles touchent un ennemi marqué d'une Flamme Ryuukin, infligeant des <color=#FF9999FF>DGT Pyro de zone</color>.\nLorsqu'un ennemi marqué d'une Flamme Ryuukin est vaincu avant la fin de l'effet, ce dernier est transféré à un ennemi proche qui hérite de la durée restante.\n\nIl est possible de générer ainsi une explosion une fois toutes les 2 s. Quand Yoimiya est vaincue, l'effet Flammes Ryuukin généré par ses compétences prend fin.\n\n<i>Les feux d'artifice sont les étoiles créées par l'homme, comètes destinées aux cieux. Et même si elle n'est qu'éphémère, la lumière qu'ils génèrent peut demeurer longtemps dans le cœur des hommes.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Yoimiya_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 492101,
         "Name": "Tour de passe-passe",
         "Description": "Tant que <color=#FFD780FF>Danse du feu « Niwabi »</color> est active, les attaques normales de Yoimiya augmentent son <color=#FF9999FF>bonus de DGT Pyro</color> de 2 %. Cet effet dure 3 s et peut être cumulé 10 fois maximum.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_05"
       },
       {
@@ -720,6 +724,7 @@
         "Id": 492201,
         "Name": "Aube d'une nuit d'été",
         "Description": "Lorsque Yoimiya libère <color=#FFD780FF>Saxifrage Ryuukin</color>, l'ATQ de tous les autres personnages de l'équipe (hormis Yoimiya) augmente de 10 % pendant 15 s. De plus, chaque cumul de l'aptitude d'élévation « Tour de passe-passe » que Yoimiya possède lorsqu'elle exécute <color=#FFD780FF>Saxifrage Ryuukin</color> augmente ce bonus d'ATQ de 1 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_06"
       },
       {
@@ -738,6 +743,7 @@
         "Id": 492301,
         "Name": "Rentabilisation maximum",
         "Description": "Lors de la fabrication de décorations de type aménagement, ornement ou paysage, une partie des matériaux est récupérée.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_07"
       }
     ],

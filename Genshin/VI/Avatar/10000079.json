@@ -309,6 +309,7 @@
         "Id": 10791,
         "Name": "Kiếm Thuật Quét Vàng",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nKết hợp trọng kiếm và thể thuật, tiến hành tối đa 4 lần tấn công liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nDuy trì tiêu hao thể lực, chém nhanh liên tiếp.\nSau khi Trọng Kích kết thúc, sẽ bổ một nhát cực mạnh.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường, đồng thời gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10792,
         "Name": "Địa Ngục Nóng Chảy",
         "Description": "Dehya dựa vào tình hình chiến trận để thi triển các loại kỹ thuật chiến đấu khác nhau.\n\n<color=#FFD780FF>Lửa Thiêng Bất Khuất</color>\nThi triển khi trong trận không có \"Thánh Địa Sôi Trào\" của bản thân Dehya.\nGây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color>, đồng thời sản sinh khu vực Thánh Địa Sôi Trào.\n\n<color=#FFD780FF>Lửa Thiêng Bùng Cháy</color>\nThi triển khi trong trận có \"Thánh Địa Sôi Trào\" của bản thân Dehya.\nDehya nhảy đánh, gây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color>, đồng thời sản sinh lại Thánh Địa Sôi Trào ở vị trí mới.\nThánh Địa Sôi Trào sản sinh lại qua cách thức này sẽ kế thừa thời gian duy trì vốn có.\n\nTrong một lần thời gian duy trì Thánh Địa Sôi Trào, chỉ có thể thi triển một lần Lửa Thiêng Bùng Cháy.\n\n<color=#FFD780FF>Thánh Địa Sôi Trào</color>\nKẻ địch trong khu vực khi chịu phải sát thương, Thánh Địa Sôi Trào sẽ hỗ trợ tấn công, gây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color> căn cứ vào giới hạn HP và tấn công của Dehya. Hiệu quả này mỗi 2.5s tối đa kích hoạt một lần.\nTăng khả năng kháng gián đoạn của nhân vật trong trận khi đứng trên khu vực đó, đồng thời khi những nhân vật này chịu phải sát thương, sẽ tiêu giảm một phần rồi chuyển vào \"Huyết Mạch Lửa Đỏ\", sẽ do Dehya gánh chịu trong 10s. Lượng sát thương mà Huyết Mạch Lửa Đỏ thu nhận khi đạt hoặc vượt quá một tỉ lệ nhất định so với giới hạn HP của Dehya thì sẽ không tiêu giảm sát thương nữa.\n\nCùng lúc chỉ tồn tại 1 Thánh Địa Sôi Trào do bản thân Dehya tạo ra.\n\n<i>Hãy cùng tôi vượt qua thử thách rực lửa này, tẩy sạch mọi ô uế, giống như một con thú lửa phải bùng cháy.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dehya_01"
       }
     ],
@@ -755,6 +757,7 @@
       "Id": 10795,
       "Name": "Sư Tử Lửa Ngấu Nghiến",
       "Description": "Kích hoạt sức nóng của lửa, vứt thanh trọng kiếm vướng víu đi để vào trạng thái \"Sư Tử Lửa\", tăng kháng gián đoạn.\nTrong trạng thái này, Dehya sẽ liên tục tung ra Nắm Đấm Lửa, gây <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> căn cứ vào giới hạn HP và tấn công của Dehya, đồng thời khi kết thúc thời gian duy trì sẽ tung ra Cú Đá Nóng, gây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color> căn cứ vào giới hạn HP và tấn công của Dehya.\nKhi thi triển, nếu trong trận có khu vực \"Thánh Địa Sôi Trào\" từ Kỹ Năng Nguyên Tố \"Địa Ngục Nóng Chảy\" thì Dehya sẽ thu hồi nó, đồng thời sản sinh lại ở vị trí mới khi trạng thái Sư Tử Lửa kết thúc. Khi sản sinh lại sẽ kế thừa thời gian duy trì lúc thu hồi.\nTrong trạng thái này, Dehya không thể thi triển Kỹ Năng Nguyên Tố, không thể dùng tấn công thường, trọng kích và tấn công khi đáp. \"Tấn Công Thường - Kiếm Thuật Quét Vàng\" và Kỹ Năng Nguyên Tố \"Địa Ngục Nóng Chảy\" sẽ được đổi thành \"Liên Hoàn Đấm\".\n\n<color=#FFD780FF>Liên Hoàn Đấm</color>\nThi triển Liên Hoàn Đấm trong 0.4s sau khi dùng Nắm Đấm Lửa sẽ tăng tốc độ thi triển của lần Nắm Đấm Lửa tiếp theo.\n\n<i>Ngọn lửa nóng cũng chuyển hóa thành móng sắc nanh nhọn theo ý chí của cô ấy.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dehya_01"
     },
     "Inherents": [
@@ -780,6 +783,7 @@
         "Id": 792101,
         "Name": "Không Ngại Giúp Đỡ",
         "Description": "Trong 6s sau khi Dehya thu hồi Thánh Địa Sôi Trào từ kỹ năng <color=#FFD780FF>Địa Ngục Nóng Chảy - Lửa Thiêng Bùng Cháy</color> hoặc <color=#FFD780FF>Sư Tử Lửa Ngấu Nghiến</color>, giảm 60% sát thương phải chịu từ Huyết Mạch Lửa Đỏ mà Dehya phải gánh chịu, hiệu quả này mỗi 2s tối đa kích hoạt một lần.\nNgoài ra, trong 9s sau khi Dehya thi triển <color=#FFD780FF>Địa Ngục Nóng Chảy - Lửa Thiêng Bất Khuất</color> sẽ khiến tất cả nhân vật trong đội nhận được trạng thái \"Thể Trạng Thép\". Nhân vật trong trạng thái Thể Trạng Thép khi ở trong khu vực Thánh Địa Sôi Trào sẽ nhận thêm khả năng kháng gián đoạn. Mỗi 18s tối đa sản sinh trạng thái Thể Trạng Thép một lần.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 792201,
         "Name": "Kiên Cường Chính Trực",
         "Description": "Khi HP thấp hơn 40%, Dehya sẽ hồi phục 20% giới hạn HP, đồng thời trong 10s tiếp theo mỗi 2s hồi phục 6% giới hạn HP của Dehya. Hiệu quả này mỗi 20s tối đa kích hoạt một lần.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_06"
       },
       {
@@ -825,6 +830,7 @@
         "Id": 792301,
         "Name": "Hành Trình Nắng Nóng",
         "Description": "Ban ngày (6h đến 18h), nhân vật trong đội của bản thân nhận hiệu ứng Tốc Hành: Tốc độ di chuyển tăng 10%.\nHiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh. Hiệu quả Tốc Hành không thể cộng dồn.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

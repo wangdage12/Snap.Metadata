@@ -261,6 +261,7 @@
         "Id": 11091,
         "Name": "Saf Kalp, Saf Düşler",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\n<color=#80FFD7FF>Rüzgar Hasarı</color> veren en fazla 3 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nKısa süre kullanıldıktan sonra belirli miktarda Dayanıklılık harcayarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nMizuki, Rüzgar gücünü çağırarak havadayken yere doğru atılır ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -270,7 +271,8 @@
             "Beceri Hasarı|{param4:F1P}",
             "Sürekli Saldırı Hasarı|{param1:F1P}",
             "Düşgezen Süresi|{param5:F1}sn",
-            "Element Ustalığı Temelli Girdap Hasarı Artışı|Puan Başına {param2:F2P}",
+            "Element Ustalığına Göre Girdap Hasarı Artışı|100 Puan Başına {param2:F2P}",
+            "Element Ustalığına Göre Yıldız Girdabı Hasarı Artışı|100 Puan Başına {param6:F2P}",
             "BS|{param3:F1}sn"
           ],
           "Parameters": [
@@ -279,10 +281,11 @@
               "Level": 1,
               "Parameters": [
                 0.44912,
-                0.0018,
+                0.18,
                 15,
                 0.57744,
-                5
+                5,
+                0.018
               ]
             },
             {
@@ -290,10 +293,11 @@
               "Level": 2,
               "Parameters": [
                 0.482804,
-                0.0021,
+                0.21,
                 15,
                 0.620748,
-                5
+                5,
+                0.021
               ]
             },
             {
@@ -301,10 +305,11 @@
               "Level": 3,
               "Parameters": [
                 0.516488,
-                0.0024,
+                0.24,
                 15,
                 0.664056,
-                5
+                5,
+                0.024
               ]
             },
             {
@@ -312,10 +317,11 @@
               "Level": 4,
               "Parameters": [
                 0.5614,
-                0.0027,
+                0.27,
                 15,
                 0.7218,
-                5
+                5,
+                0.027
               ]
             },
             {
@@ -323,10 +329,11 @@
               "Level": 5,
               "Parameters": [
                 0.595084,
-                0.003,
+                0.3,
                 15,
                 0.765108,
-                5
+                5,
+                0.03
               ]
             },
             {
@@ -334,10 +341,11 @@
               "Level": 6,
               "Parameters": [
                 0.628768,
-                0.0033,
+                0.33,
                 15,
                 0.808416,
-                5
+                5,
+                0.033
               ]
             },
             {
@@ -345,10 +353,11 @@
               "Level": 7,
               "Parameters": [
                 0.67368,
-                0.0036,
+                0.36,
                 15,
                 0.86616,
-                5
+                5,
+                0.036
               ]
             },
             {
@@ -356,10 +365,11 @@
               "Level": 8,
               "Parameters": [
                 0.718592,
-                0.0039,
+                0.39,
                 15,
                 0.923904,
-                5
+                5,
+                0.039
               ]
             },
             {
@@ -367,10 +377,11 @@
               "Level": 9,
               "Parameters": [
                 0.763504,
-                0.0042,
+                0.42,
                 15,
                 0.981648,
-                5
+                5,
+                0.042
               ]
             },
             {
@@ -378,10 +389,11 @@
               "Level": 10,
               "Parameters": [
                 0.808416,
-                0.0045,
+                0.45,
                 15,
                 1.039392,
-                5
+                5,
+                0.045
               ]
             },
             {
@@ -389,10 +401,11 @@
               "Level": 11,
               "Parameters": [
                 0.853328,
-                0.0048,
+                0.48,
                 15,
                 1.097136,
-                5
+                5,
+                0.048
               ]
             },
             {
@@ -400,10 +413,11 @@
               "Level": 12,
               "Parameters": [
                 0.89824,
-                0.0051,
+                0.51,
                 15,
                 1.15488,
-                5
+                5,
+                0.051
               ]
             },
             {
@@ -411,10 +425,11 @@
               "Level": 13,
               "Parameters": [
                 0.95438,
-                0.0054,
+                0.54,
                 15,
                 1.22706,
-                5
+                5,
+                0.054
               ]
             },
             {
@@ -422,10 +437,11 @@
               "Level": 14,
               "Parameters": [
                 1.01052,
-                0.0057,
+                0.57,
                 15,
                 1.29924,
-                5
+                5,
+                0.057
               ]
             },
             {
@@ -433,10 +449,11 @@
               "Level": 15,
               "Parameters": [
                 1.06666,
-                0.006,
+                0.6,
                 15,
                 1.37142,
-                5
+                5,
+                0.06
               ]
             }
           ],
@@ -444,7 +461,8 @@
         },
         "Id": 11092,
         "Name": "Aisa Utamakura Kutsal Yolculuğu",
-        "Description": "Tatlı düşlerin anılarını dokuyarak havada uçabildiği <color=#FFD780FF>Düşgezen</color> durumuna girer ve yakındaki düşmanlara 1 defa <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Düşgezen</color>\n·Yumemizuki Mizuki, Düşgezen durumundayken sürekli ileri doğru süzülür ve düzenli aralıklarla yakındaki düşmanlara <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n·Bu süre boyunca Yumemizuki Mizuki süzülme yönünü kontrol edebilir ve Element Patlaması <color=#FFD780FF>Anraku Gizli Kaplıca Terapisini</color> kullandığı zaman <color=#FFD780FF>Yumemi Tarzı Özel Atıştırmalıkları</color> alma mesafesi artar.\n·Yakındaki grup üyelerinin Yumemizuki Mizuki'nin Element Ustalığına bağlı olarak verdiği Girdap Hasarını artırır.\n·Mizuki savaş alanından ayrıldığında veya Element Becerisini tekrar kullandığında Düşgezen durumu sona erer.\n\n<i>\"Gece yarısı buluşuruz düşlerde, şarkılar yankılanır kalplerimizde.\"</i>",
+        "Description": "Tatlı düşlerin anılarını dokuyarak havada uçabildiği <color=#FFD780FF>Düşgezen</color> durumuna girer ve yakındaki düşmanlara 1 defa <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Düşgezen</color>\n·Yumemizuki Mizuki, Düşgezen durumundayken sürekli ileri doğru süzülür ve düzenli aralıklarla yakındaki düşmanlara <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n·Bu süre boyunca Yumemizuki Mizuki süzülme yönünü kontrol edebilir ve <color=#FFD780FF>Anraku Gizli Kaplıca Terapisi</color> Element Patlamasının oluşturduğu <color=#FFD780FF>Yumemi Tarzı Özel Atıştırmalıkları</color> alma mesafesi artar.\n·Yakındaki grup üyelerinin verdiği Girdap Hasarını ve Yıldız Girdabı Tepkimesi Hasarını Yumemizuki Mizuki'nin Element Ustalığına bağlı olarak artırır.\n·Mizuki savaş alanından ayrıldığında veya Element Becerisini tekrar kullandığında Düşgezen durumu sona erer.\n\n<i>\"Gece yarısı buluşuruz düşlerde, şarkılar yankılanır kalplerimizde.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mizuki_01"
       }
     ],
@@ -461,7 +479,7 @@
                 10,
                 2.5,
                 0.1,
-                5
+                10
               ]
             }
           ],
@@ -469,7 +487,8 @@
         },
         "Id": 1095101,
         "Name": "Engin Olsun Düşler",
-        "Description": "Yumemizuki Mizuki Düşgezen durumundayken bir Girdap Tepkimesi tetiklediğinde, aynı durumun bir sonraki döngüsünde yakındaki düşmanlara verdiği <color=#80FFD7FF>Rüzgar Alan Hasarı</color> kendi Element Ustalığının %1.000'i kadar artar. Bu etki her 2,5 saniyede bir tetiklenebilir.\nAyrıca, Yumemizuki Mizuki Düşgezen durumundayken, yakındaki grup karakterlerinin Element Ustalığı, Yumemizuki Mizuki'nin Element Ustalığının %10'u kadar artar.",
+        "Description": "Yumemizuki Mizuki Düşgezen durumundayken bir Girdap veya Yıldız Girdabı tepkimesi tetiklediğinde, aynı durumun bir sonraki döngüsünde yakındaki düşmanlara verdiği <color=#80FFD7FF>Rüzgar Alan Hasarı</color> kendi Element Ustalığının %1.000'i kadar artar. Bu etki her 2,5 saniyede bir tetiklenebilir.\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: Yumemizuki Mizuki, bir düşmana yukarıdaki gelişmiş <color=#80FFD7FF>Rüzgar Alan Hasarını</color> verdiğinde ayrıca Element Ustalığının %1000'i kadar ek <color=#80FFD7FF>Rüzgar Hasarı</color> verir. Bu Hasar, Yıldız Girdabı Tepkimesi Hasarı sayılır.\n\nYumemizuki Mizuki Düşgezen durumundayken, yakındaki grup karakterlerinin Element Ustalığı, Yumemizuki Mizuki'nin Element Ustalığının %10'u kadar artar.\nAyrıca Yumemizuki Mizuki, yakındaki bir grup üyesi bir Yıldız Girdabı tepkimesi tetiklediğinde 8 saniyeliğine <color=#FFD780FF>Işıltı: Yıldız Girdabı</color> durumuna girer.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_08"
       }
     ],
@@ -686,6 +705,7 @@
       "Id": 11095,
       "Name": "Anraku Gizli Kaplıca Terapisi",
       "Description": "Yakındaki nesne ve düşmanları kendine çeken sayısız tatlı rüyayı ve kabusu çağırarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir ve bir Mini Baku çağırır.\n\n<color=#FFD780FF>Mini Baku:</color>\nMevcut aktif karakteri takip eder. Mini Baku düzenli aralıklarla yakınlarda 1 Yumemi Tarzı Özel Atıştırmalık oluşturur. Özel Atıştırmalığı alan bir grup üyesinin Canı %70'ten fazlaysa Atıştırmalık patlar ve 1 Munen Şok Dalgası ateşleyerek yakındaki düşmanlara <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir. Canı %70'ten fazla değilse Yumemizuki Mizuki'nin Element Ustalığına bağlı olarak atıştırmalığı alan karakteri iyileştirir. Yumemizuki Mizuki bir Yumemi Tarzı Özel Atıştırmalık alarak iyileştirme tetiklediğinde iyileşme oranı %100 artar. Belirli bir süre içinde Atıştırmalığı kimse almazsa Atıştırmalık patlar ve yakındaki düşmanlara 1 defa <color=#80FFD7FF>Rüzgar Alan Hasarı</color> veren bir Munen Şok Dalgası ortaya çıkar.\n\n<i>\"Karanlık duygularını sürekli görmezden gelirsen kabusa dönüşürler. O halde hâlâ vaktimiz varken neden onlardan lezzetli atıştırmalıklar yapmıyoruz?\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mizuki_01"
     },
     "Inherents": [
@@ -704,7 +724,8 @@
         },
         "Id": 1092101,
         "Name": "Parlak Ayın Huzursuz Sesi",
-        "Description": "Yumemizuki Mizuki Düşgezen durumundayken Girdap tetiklerse Düşgezenin süresi 2,5sn artar. Bu etki her 0,3 saniyede bir defa ve her Düşgezen durumunda en fazla 2 defa tetiklenebilir.",
+        "Description": "Yumemizuki Mizuki Düşgezen durumundayken bir Girdap veya Yıldız Girdabı tepkimesi tetiklerse Düşgezenin süresi 2,5sn artar. Bu etki her 0,3 saniyede bir defa ve her Düşgezen durumunda en fazla 2 defa tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_05"
       },
       {
@@ -726,6 +747,7 @@
         "Id": 1092201,
         "Name": "Gündüz Düşüncelerinden Gece Düşlerine",
         "Description": "Yumemizuki Mizuki, Düşgezen durumundayken yakındaki grup üyeleri <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#99FFFFFF>Buz</color> ya da <color=#FFACFFFF>Elektrik</color> saldırısıyla düşmanları vurduğunda 4 saniyeliğine Mizuki'nin Element Ustalığı 100 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_06"
       },
       {
@@ -746,6 +768,7 @@
         "Id": 1092301,
         "Name": "Tüm İlletler Bitti",
         "Description": "Yumemizuki Mizuki gruptayken, grup üyeleri canlandırma özelliği olmayan iyileştirme yiyecekleri kullandığında ek %30 Can yenileme olasılığı bulunur. Bu etkinin tetiklenme olasılığı ilgili karakterin Arkadaşlık Seviyesiyle birlikte artar. (Bu etki, iyileştirme yiyeceğini tüketen karakter Gezgin olduğunda her zaman tetiklenir.)",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_07"
       }
     ],
@@ -753,8 +776,8 @@
       {
         "Id": 1091,
         "Name": "Sisli Sularda",
-        "Description": "Yumemizuki Mizuki, Düşgezen durumundayken sürekli olarak yakındaki düşmanlara 3,5 saniyede bir \"Yirmi Üç Gecenin Beklentisi\" etkisini uygular ve 3sn sürer. Bu etki aktifken, bir düşman Rüzgar Hasarıyla tetiklenen Girdap tepkimelerinden etkilenirse etki kaldırılır ve Girdabın verdiği Hasar, Mizuki'nin Element Ustalığının %1.100'ü kadar artar.",
-        "SpecialDescription": "Yumemizuki Mizuki, Düşgezen durumundayken sürekli olarak yakındaki düşmanlara her 3,5 saniyede bir \"Yirmi Üç Gecenin Beklentisi\" etkisini uygular ve 3sn sürer. Bu etki aktifken, bir düşman Rüzgar Hasarıyla tetiklenen Girdap tepkimelerinden etkilenirse etki kaldırılır ve Girdabın bu düşmana verdiği Hasar, Mizuki'nin Element Ustalığının %1.100'ü kadar artar. Ayrıca, aynı düşmana ek bir saldırı yaparak Yumemizuki Mizuki'nin Element Ustalığının %1.000'i kadar <color=#80FFD7FF>Rüzgar Hasarı</color> verir.",
+        "Description": "Yumemizuki Mizuki, Düşgezen durumundayken sürekli olarak yakındaki düşmanlara 3,5 saniyede bir \"Yirmi Üç Gecenin Beklentisi\" etkisini uygular, bu etki 3sn sürer. Bu etki aktifken bir düşman üzerinde Rüzgar Hasarı ile bir Girdap veya Yıldız Girdabı tepkimesi tetiklenirse etki kaldırılır ve bu Girdabın/Yıldız Girdabının düşmana verdiği Hasar, Mizuki'nin Element Ustalığının %1.100'ü/%550'si kadar artar.",
+        "SpecialDescription": "Yumemizuki Mizuki, Düşgezen durumundayken sürekli olarak yakındaki düşmanlara her 3,5 saniyede bir \"Yirmi Üç Gecenin Beklentisi\" etkisini uygular ve 3sn sürer. Bu etki aktifken bir düşman üzerinde Rüzgar Hasarı tarafından bir Girdap veya Yıldız Girdabı tepkimesi tetiklenirse etki kaldırılır ve bu Girdabın/Yıldız Girdabının bu düşmana verdiği Hasar, Mizuki'nin Element Ustalığının %1.100'ü/%550'si kadar artar. Yumemizuki Mizuki ayrıca aynı düşmana ek bir saldırı yaparak Element Ustalığının %1.000'i kadar <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: Yukarıda bahsedilen ek Hasar, Yumemizuki Mizuki'nin Element Ustalığının %400'ü kadar <color=#80FFD7FF>Rüzgar Hasarı</color> olarak değişir. Bu Hasar, Yıldız Girdabı Tepkimesi Hasarı sayılır.",
         "Icon": "UI_Talent_S_Mizuki_01"
       },
       {
@@ -794,8 +817,8 @@
       {
         "Id": 1096,
         "Name": "Kalp Özlem Dolar",
-        "Description": "Yumemizuki Mizuki Düşgezen durumundayken yakındaki grup üyelerinin verdiği Girdap Hasarı Kritik Vuruş yapabilir. Kritik Oranı %30, Kritik Hasarı ise %100 olarak sabittir.",
-        "SpecialDescription": "Yumemizuki Mizuki Düşgezen durumundayken yakındaki grup üyelerinin verdiği Girdap Hasarı Kritik Vuruş yapabilir. Kritik Oranı %30, Kritik Hasarı ise %100 olarak sabittir.\nYumemizuki Mizuki'nin 500'ü aşan her Element Ustalığı puanı, Kritik Oranını %0,04 ve Kritik Hasarını %0,16 artırır. Yumemizuki Mizuki'nin Kritik Oranı ve Kritik Hasarı bu şekilde sırasıyla en fazla %20 ve %80 artırılabilir.",
+        "Description": "Yumemizuki Mizuki Düşgezen durumundayken, yakındaki grup üyelerinin verdiği Girdap Tepkimesi Hasarı Kritik Vuruş yapabilir, Kritik Oranı %30 ve Kritik Hasar %100 olarak sabittir. Bu karakterlerin verdiği herhangi bir Yıldız Girdabı Tepkimesi Hasarının da Kritik Oranı %10, Kritik Hasarı %20 artar.",
+        "SpecialDescription": "Yumemizuki Mizuki Düşgezen durumundayken yakındaki grup üyelerinin verdiği Girdap Hasarı Kritik Vuruş yapabilir. Kritik Oranı %30, Kritik Hasarı ise %100 olarak sabittir. Bu grup üyelerinin verdiği herhangi bir Yıldız Girdabı Hasarının Kritik Oranı %10, Kritik Hasarı ise %20 artar.\nYumemizuki Mizuki'nin 500'ün üzerindeki her Element Ustalığı puanı Kritik Oranını %0,04 ve Kritik Hasarını %0,16 artırır. Yumemizuki Mizuki'nin Kritik Oranı ve Kritik Hasarı bu şekilde sırasıyla en fazla %20 ve %80 artırılabilir.",
         "Icon": "UI_Talent_S_Mizuki_04"
       }
     ]

@@ -322,6 +322,7 @@
         "Id": 10611,
         "Name": "Maket Bıçağı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nEn fazla 4 hızlı saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak 3 hızlı pençe saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10612,
         "Name": "Miyav Jitsu",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Dokun}{LAYOUT_PC#Bas}{LAYOUT_PS#Bas}</color>\nDamdan dama atlayan bir kedinin çevikliğiyle havaya sıçrar, düşmanlarına <color=#99FF88FF>Doğa Alan Hasarı</color> veren bir tekme savurur ve Güvenli Teslimat Kalkanı oluşturur. Bu saldırı ayrıca Kirara'ya kısa süreliğine <color=#99FF88FF>Doğa etkisi uygular</color>. Kalkan <color=#99FF88FF>Doğa Hasarını</color> %250 verimlilikle emer. Kalkanın Hasar Emilimi, Kirara'nın Maks. Canına göre belirlenir ve Maks. Canın belirli bir oranını aşamaz. Bir Güvenli Teslimat Kalkanında geriye kalan Hasar emilimi, yeni bir kalkan oluşturulduğunda o kalkana eklenir ve yeni kalkanın süresi sıfırlanır.\n\n<color=#FFD780FF>Basılı Tut</color>\nKirara, \"yarım günde teslimat\" hedefini tutturmak için {LAYOUT_MOBILE#dokunarak}{LAYOUT_PC#basılarak}{LAYOUT_PS#basılarak} oluşturulan kalkanın aynısı bir Güvenli Teslimat Kalkanı oluşturur. Ayrıca daha hızlı hareket etmek ve dövüşmek için özel bir ekspres teslimat kutusuna kıvrılıp Acil Neko Kargo durumuna girer.\n\n<color=#FFD780FF>Acil Neko Kargo</color>\n·Çarptığı düşmanlara <color=#99FF88FF>Doğa Hasarı</color> verir. Bu etki her düşmanda 0,5 saniyede bir tetiklenebilir.\n·Bu durumdayken Kirara'nın hareket hızı, tırmanma hızı ve sıçrama gücü artar, tırmanırkenki Dayanıklılık Tüketimi de artar.\n·Acil Neko Kargo süresi bittiğinde veya beceri yeniden kullanıldığında Kirara, {LAYOUT_MOBILE#Dokunma}{LAYOUT_PC#Basma}{LAYOUT_PS#Basma} Modundaki saldırıdan daha güçlü bir Terspençe Darbesi gerçekleştirerek <color=#99FF88FF>Doğa Alan Hasarı</color> verir.\n·Acil Neko Kargo durumu en fazla 10 saniye sürer. Durum bittiğinde beceri Bekleme Süresine girer. Kirara bu durumda ne kadar süre geçirirse Bekleme Süresi de o kadar artar.\n·Depar atmak veya tırmanmayı isteyerek iptal etmek bu durumu erken sonlandırır.\n\n<i>\"Hızlı teslimatın sırrını mı soruyorsun? Her şey bacak gücünde bitiyor!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Momoka_01"
       }
     ],
@@ -784,6 +786,7 @@
       "Id": 10615,
       "Name": "Gizli Sanat: Sürpriz Dağıtım",
       "Description": "Kargo hırsızlarını kovalamak için kullanılan Özel Teslimat Paketiyle düşmanlara vurarak <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Özel Teslimat Paketi patladıktan sonra bir sürü <color=#FFD780FF>Kedi Otu Kakulesi</color> oluşturur. Bu kakuleler düşmanla temas ettikten veya bir süre geçtikten sonra patlayarak <color=#99FF88FF>Doğa Alan Hasarı verir</color>.\n\n<i>\"Hehe, doğru duydun. Bunları şu kargo hırsızlarıyla başa çıkmak için hazırladım! Kargonu teslim aldığında 5 yıldızlı yorum bırakırsan çok sevinirim!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Momoka_01"
     },
     "Inherents": [
@@ -807,6 +810,7 @@
         "Id": 612101,
         "Name": "Ayın Elemanı",
         "Description": "Kirara, <color=#FFD780FF>Miyav Jitsunun</color> Acil Neko Kargo durumundayken düşmanlara her çarptığında bir <color=#FFD780FF>Sağlam Paketleme</color> kademesi kazanır. Bu etki, vurulan her düşman için 0,5 saniyede bir tetiklenebilir. 3 kademeye kadar birikir. Acil Neko Kargo durumu bittiğinde Kirara, Sağlam Paketleme kademesi başına 1 Güvenli Teslimat Kalkanı kazanır. Bu yöntemle oluşturulan kalkanlar, <color=#FFD780FF>Miyav Jitsu</color> ile oluşturulan Güvenli Teslimat Kalkanının %20'si kadar Hasar emebilir. Kirara halihazırda Miyav Jitsunun oluşturduğu bir Güvenli Teslimat Kalkanıyla korunuyorsa o kalkanın Hasar emilimine bu yeni kalkanlar da eklenir ve süresi sıfırlanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_05"
       },
       {
@@ -828,6 +832,7 @@
         "Id": 612201,
         "Name": "Birbirinden Canlı Dokuz Can",
         "Description": "Kirara'nın sahip olduğu her 1.000 Maks. Can, <color=#FFD780FF>Miyav Jitsu</color> Hasarını %0,4 ve <color=#FFD780FF>Gizli Sanat: Sürpriz Dağıtım</color> Hasarını %0,3 artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_06"
       },
       {
@@ -846,6 +851,7 @@
         "Id": 612301,
         "Name": "Sessiz Patiler",
         "Description": "Kirara gruptayken grup üyeleri Kuş Eti, Çiğ Et veya Dondurulmuş Et veren hayvanlara yaklaştığında onları ürkütmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_07"
       }
     ],

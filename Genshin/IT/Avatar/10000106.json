@@ -277,6 +277,7 @@
         "Id": 11061,
         "Name": "Intreccio vitale delle fiamme",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi di claymore consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare un Fendente fulgido particolarmente potente davanti a sé.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -605,6 +606,7 @@
         "Id": 11062,
         "Name": "Nomen omen",
         "Description": "#Esercitando la sua autorità sul \"conflitto\", Mavuika evoca gli Armamenti fiammeggianti tramandati da generazioni tra gli Archon umani, infliggendo <color=#FF9999FF>DAN da Pyro</color> con attributo Anima della Notte.\nDopo aver usato l'abilità, Mavuika recupera tutti i suoi punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\n\n<color=#FFD780FF>Armamenti fiammeggianti</color>\nLa durata della pressione ne modifica la forma.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nLiberazione del Nome divino: gli Armamenti fiammeggianti si manifestano sotto forma di un Anello dell'ardore fulgido. L'Anello segue il personaggio attivo e attacca a intervalli gli avversari vicini, infliggendo <color=#FF9999FF>DAN da Pyro</color> con attributo Anima della Notte.\n\n<color=#FFD780FF>Pressione prolungata</color>\nLiberazione del Nome antico: gli Armamenti fiammeggianti si manifestano sotto forma di una Pyromoto. In questo stato, Mavuika può salirci a bordo e muoversi rapidamente, nonché attivare le funzioni di supporto che le permettono di attraversare vari tipi di terreno o di planare a mezz'aria. Gli attacchi normali, caricati e in picchiata di Mavuika subiscono una conversione per infliggere <color=#FF9999FF>DAN da Pyro</color> con attributo Anima della Notte non influenzabili da altre infusioni elementali. Anche durante lo Scatto, Mavuika infligge <color=#FF9999FF>DAN da Pyro</color> con attributo Anima della Notte agli avversari sul suo percorso.\n\nQuando è nello stato di Grazia dell'Anima della Notte, {LAYOUT_MOBILE#toccare}{LAYOUT_PC#premere}{LAYOUT_PS#premere} di nuovo rapidamente l'abilità elementale permette agli Armamenti fiammeggianti di cambiare forma. Questi spariscono quando lo stato di Grazia dell'Anima della Notte di Mavuika termina.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Mavuika</color>\nConsuma costantemente punti Anima della Notte in base alla forma degli Armamenti fiammeggianti. Lo stato di Grazia dell'Anima della Notte di Mavuika termina quando i punti Anima della Notte si esauriscono.\n\n<i>Se si dicesse a Mavuika che, in un altro mondo, dei veicoli come la Pyromoto richiedono delle targhe identificative, ne sarebbe decisamente contenta.\n\"Beh, la mia Pyromoto è unica al mondo. Significa che posso decidere io il numero nella targa, giusto?\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mavuika_01"
       }
     ],
@@ -852,6 +854,7 @@
       "Id": 11065,
       "Name": "L'ora dei cieli in fiamme",
       "Description": "#Lascia che le voci interiori del popolo raggiungano il trono divino nei cieli.\n<color=#FFD780FF>Il Tripudio elementale di Mavuika non consuma energia, ma Spirito combattivo.</color>\n\n<color=#FFD780FF>Spirito combattivo</color>\nQuando Mavuika ha almeno un 50% di Spirito combattivo, può consumarlo tutto per scatenare il suo Tripudio elementale.\nMavuika può ottenere Spirito combattivo nei modi seguenti:\n· durante i combattimenti, i punti Anima della Notte consumati dai membri vicini del gruppo vengono convertiti in Spirito combattivo;\n· quando gli attacchi normali dei membri del gruppo vicini colpiscono gli avversari, Mavuika ottiene 1,5 punti di Spirito combattivo. Quest'effetto può essere attivato una volta ogni 0,1{NON_BREAK_SPACE}s.\n\nDopo aver usato il Tripudio, Mavuika ottiene 10 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte. Saltando in alto nel cielo in sella alla sua Pyromoto, utilizza un potente Taglio del Sole cadente contro gli avversari a terra, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color> con attributo Anima della Notte. Dopodiché, entra nello stato di Crogiolo di vita e morte.\n\n<color=#FFD780FF>Crogiolo di vita e morte</color>\nMentre questo stato è attivo, Mavuika non consuma punti Anima della Notte e aumenta la resistenza alle interruzioni. Inoltre, i DAN inflitti dal Taglio del Sole cadente e dagli attacchi normali e caricati della Liberazione del Nome antico aumentano in base alla quantità di Spirito combattivo posseduto da Mavuika all'attivazione del Tripudio elementale.\nLo stato di Crogiolo di vita e morte termina se Mavuika abbandona il campo.\n\n<i>\"...Ma questa volta, distruggerò il destino con le mie stesse mani.\"</i>",
+      "SpecialEnergyType": 1,
       "Icon": "Skill_E_Mavuika_01"
     },
     "Inherents": [
@@ -874,6 +877,7 @@
         "Id": 1062101,
         "Name": "Dono dei Fiorardenti",
         "Description": "#Quando un membro del gruppo innesca un Impeto dell'Anima della Notte, l'ATT di Mavuika aumenta di un 30% per 10{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_05"
       },
       {
@@ -896,6 +900,7 @@
         "Id": 1062201,
         "Name": "\"Kiongozi\"",
         "Description": "#Dopo aver usato il Tripudio elementale <color=#FFD780FF>L'ora dei cieli in fiamme</color>, ogni punto di Spirito combattivo presente al suo utilizzo aumenta i DAN inflitti dal membro attivo del gruppo di uno 0,2%. L'incremento massimo ottenibile in questo modo è di un 40%. L'effetto dura 20{NON_BREAK_SPACE}s, durante i quali l'incremento si riduce progressivamente fino ad azzerarsi.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_06"
       },
       {
@@ -914,6 +919,7 @@
         "Id": 1062301,
         "Name": "Dono del Reame notturno: Modalità Scappamento",
         "Description": "#Dopo aver esaurito completamente i punti Anima della Notte, Mavuika consuma il Flogisto per continuare a usare gli Armamenti fiammeggianti sotto forma di Pyromoto.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Mavuika. Quando il personaggio attivo sta eseguendo uno Scatto, si sta arrampicando, sta nuotando o compiendo un movimento causato da determinati talenti, oppure è sospeso in aria a una certa altezza, passare il controllo a Mavuika innesca il seguente effetto: Mavuika entra nello stato di Grazia dell'Anima della Notte e ottiene un 50% dei suoi punti Anima della Notte massimi. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del proprio gruppo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_07"
       },
       {
@@ -932,6 +938,7 @@
         "Id": 1062501,
         "Name": "Radiosità franginotte",
         "Description": "Il TdR della Trasmissione dell'Anima della Notte del gruppo si riduce di un 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Citlali_07"
       }
     ],

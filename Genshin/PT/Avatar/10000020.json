@@ -309,6 +309,7 @@
         "Id": 10201,
         "Name": "Presa de Aço",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -525,6 +526,7 @@
         "Id": 10202,
         "Name": "Garra e Trovão",
         "Description": "Caça sua presa usando as técnicas ensinadas para ele por seu mestre e seu Lupical.\n\n<color=#FFD780FF>Pressionar</color>\nBalança suas Garras de Lobo do Trovão, causando <color=#FFACFFFF>Dano Electro</color> nos inimigos em frente do Razor.\nAo atacar um inimigo, Razor ganha um Selo Electro que aumenta sua taxa de Recarga de Energia.\nRazor pode ter até 3 Selos Electro simultaneamente, e ganhar um novo Selo Electro recarrega sua duração.\n\n<color=#FFD780FF>Manter pressionado</color>\nReúne energia Electro para desencadear uma tempestade de raios em uma pequena AdE, causando <color=#FFACFFFF>Dano Electro</color> massivo e removendo todos os Selos Electro de Razor.\nCada Selo Electro removido dessa maneira será convertido em Energia para o Razor.\n\n<i>É quando relâmpagos caem que às vezes você pode ver de relance o olhar de um predador, analisando sua presa profundamente dentro dos olhos do Razor.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Razor_01"
       }
     ],
@@ -550,6 +552,7 @@
         "Id": 205101,
         "Name": "Presente da Noite da Bruxa: Torrente Elétrica",
         "Description": "Depois de completar <color=#FFD780FF>Tarefa da Bruxa: Dos Pequenos Lobos</color>, Razor se torna um personagem <color=#FFD780FF>Mágico</color>. Quando possuir pelo menos 2 personagens Mágicos na equipe, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo os personagens Mágicos.\nAlém disso, o Supremo <color=#FFD780FF>Dente de Relâmpago</color> de Razor é fortalecido: aumenta o Dano causado de <color=#FFD780FF>Lobo do Trovão</color> em 70% do ATQ de Razor.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nDurante a invocação do Lobo do Trovão do Supremo <color=#FFD780FF>Dente de Relâmpago</color>, se os Selos Electro da Habilidade Elemental de Razor <color=#FFD780FF>Garra e Trovão</color> sobre-acumularem, o Lobo do Trovão causará ataques de raios elétricos contra os inimigos próximos equivalente a 150% do ATQ de Razor como Dano Electro em AdE, e regenera 7 de Energia Elemental para Razor. Esse efeito pode ser desencadeado uma vez por segundo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_07"
       }
     ],
@@ -767,6 +770,7 @@
       "Id": 10203,
       "Name": "Dente de Relâmpago",
       "Description": "Evoca o Lobo Interior que causa <color=#FFACFFFF>Dano Electro</color> a todos os inimigos ao redor. Isso remove todos os Selos Electro do Razor, que serão convertidos em energia elemental para ele.\nO Lobo Interior irá lutar ao lado de Razor durante o período de duração da habilidade.\n\n<color=#FFD780FF>O Lobo Interior</color>\n Ataca juntamente com os ataques normais do Razor, causando <color=#FFACFFFF>Dano Electro</color>. Aumenta a Vel. de ATQ e <color=#FFACFFFF>RES Electro</color>.\nCausa imunidade a Razor por Dano infligido pelo estado de <color=#FFACFFFF>Eletricamente Carregado</color>\nDesabilita o Ataque Carregado do Razor. Aumenta a capacidade de RES à Interrupção de Razor.\n\nEsses efeitos terminam quando Razor sai de batalha.\nQuando Razor deixa o campo, um máximo de 10 de Energia irá ser retornada para ele baseado na duração restante da habilidade.\n\n<i>O lobo acordou. A caça começou.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Razor_01"
     },
     "Inherents": [
@@ -786,6 +790,7 @@
         "Id": 202101,
         "Name": "Despertamento",
         "Description": "Diminui a Recarga da <color=#FFD780FF>Garra e Trovão</color> em 18%. Usar <color=#FFD780FF>Dente de Relâmpago</color> redefine a Recarga da <color=#FFD780FF>Garra e Trovão</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_05"
       },
       {
@@ -804,6 +809,7 @@
         "Id": 202201,
         "Name": "Fome",
         "Description": "Quando a Energia de Razor está abaixo de 50%, aumenta a Recarga de Energia em 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_06"
       },
       {
@@ -822,6 +828,7 @@
         "Id": 202301,
         "Name": "Corrida de Lobos",
         "Description": "Diminui o consumo de Stamina ao Correr de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

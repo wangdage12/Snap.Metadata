@@ -292,6 +292,7 @@
         "Id": 11001,
         "Name": "Mangiaroccia",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti e infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -460,6 +461,7 @@
         "Id": 11002,
         "Name": "Vai, Trottolino, vai!",
         "Description": "Combatte insieme a Trottolino, la sua fidata turbotrottola!\nEvoca Trottolino. La pressione prolungata dell'abilità permette a Kachina di evocare Trottolino e salirci a bordo immediatamente.\nDopo l'attivazione dell'abilità, Kachina ottiene 60 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Kachina</color>\nLe azioni eseguite da Trottolino consumano punti Anima della Notte.\nLo stato termina quando tutti i punti vengono consumati.\n\n<color=#FFD780FF>Trottolino</color>\nPuò sia agire in autonomia che essere manovrato da Kachina quando quest'ultima ci si trova sopra. Quando Trottolino è in campo, l'abilità elementale di Kachina \"Vai, Trottolino, vai!\" viene sostituita da un comando che permette a Kachina di salire a bordo e scendere da Trottolino.\n· Quando agisce in autonomia, Trottolino colpisce il terreno con violenza a intervalli regolari, infliggendo <color=#FFE699FF>DAN da Geo ad area</color> basati sulla DIF di Kachina e con attributo Anima della Notte.\n· Quando Kachina è a bordo di Trottolino, quest'ultima può controllarne i movimenti, usarlo per arrampicarsi rapidamente e sferrare l'attacco normale per colpire il terreno con violenza, infliggendo <color=#FFE699FF>DAN da Geo ad area</color> basati sulla DIF di Kachina e con attributo Anima della Notte.\n\nTrottolino è considerato un costrutto di Geo, e scompare al termine dello stato di Grazia dell'Anima della Notte di Kachina. Può esistere soltanto 1 Trottolino creato da Kachina in campo alla volta.\n\n<i>Trottolino può sembrare una trottola, ma l'apparenza inganna: in realtà è una trivella in grado di spaccare anche la roccia più dura!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kachina_01"
       }
     ],
@@ -629,6 +631,7 @@
       "Id": 11005,
       "Name": "Ora si fa sul serio!",
       "Description": "Kachina colpisce il terreno infliggendo <color=#FFE699FF>DAN da Geo ad area</color> in base alla sua DIF, schierando un Campo Turbotrivella.\nIl Campo aumenta l'area d'effetto degli attacchi di Trottolino e la sua VEL di movimento quando Kachina si trova sopra di lui.\n\nSe il Trottolino di Kachina è già presente in campo quando viene usata questa abilità, Trottolino riappare nuovamente al suo fianco.\n\n<i>Come gli interpreti agitati tendono a paragonare gli spettatori a dei pupazzi di legno, a Kachina piace immaginare i suoi avversari come minerali pieni di splendide gemme preziose, di quelle che non vedi l'ora di raccogliere e portarti a casa.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kachina_01"
     },
     "Inherents": [
@@ -651,6 +654,7 @@
         "Id": 1002101,
         "Name": "Echi della montagna",
         "Description": "#Dopo che un membro vicino del gruppo innesca un Impeto dell'Anima della Notte, il <color=#FFE699FF>bonus DAN da Geo</color> di Kachina aumenta di un 20% per 12{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_05"
       },
       {
@@ -671,6 +675,7 @@
         "Id": 1002201,
         "Name": "Peso della pietra",
         "Description": "I DAN inflitti da <color=#FFD780FF>Trottolino</color> aumentano di un 20% della DIF di Kachina.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_06"
       },
       {
@@ -689,6 +694,7 @@
         "Id": 1002301,
         "Name": "Dono del Reame notturno: Cuore dell'unità",
         "Description": "#Dopo aver esaurito i punti Anima della Notte, Kachina consuma il Flogisto per conservare la sua Grazia dell'Anima della Notte.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Kachina. Quando il personaggio attivo sta eseguendo uno Scatto, si sta arrampicando o compiendo un movimento causato da determinati talenti, oppure è sospeso in aria a una certa altezza, passare il controllo a Kachina attiva il seguente effetto: Kachina entra nello stato di Grazia dell'Anima della Notte, sale a bordo di <color=#FFD780FF>Trottolino</color> appena entra in campo e ottiene 30 punti Anima della Notte. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del tuo gruppo.\n\nInoltre, quando si trova a Natlan, Kachina consuma un 90% di vigore in meno durante le arrampicate quando si trova a bordo di <color=#FFD780FF>Trottolino</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_07"
       },
       {
@@ -709,6 +715,7 @@
         "Id": 1002501,
         "Name": "Favore della fiamma di cristallo",
         "Description": "Quando si trova in un'area di Natlan dove sono presenti dei Meccanismi flogistici, interagire con alcuni materiali da raccolta ripristina 20 di vigore. Inoltre, la posizione delle <color=#FFD780FF>risorse uniche di Natlan</color> circostanti viene mostrata sulla minimappa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

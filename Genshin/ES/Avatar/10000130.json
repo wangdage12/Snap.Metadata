@@ -261,6 +261,7 @@
         "Id": 11301,
         "Name": "Protocolo de captura",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, se acumularán fragmentos de roca en la punta de flecha. Una flecha rocosa totalmente cargada infligirá <color=#FFE699FF>Daño Geo</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11302,
         "Name": "Contramedida: ¡Grito de guerra de Lumi!",
         "Description": "#¡A la aventura junto a Lumi! Lumi atacará de distintas formas dependiendo de cómo {LAYOUT_MOBILE#toques}{LAYOUT_PC#pulses}{LAYOUT_PS#pulses} esta habilidad.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nLumi adoptará su <color=#FFD780FF>{LINK#N11300001}forma superpoderosa{/LINK}</color> para atacar sin parar a los enemigos cercanos e infligirles <color=#FFE699FF>Daño Geo en el AdE</color>. Si hay algún pilar lunar en las cercanías, también infligirá a los enemigos cercanos <color=#FFE699FF>Daño Geo en el AdE</color> considerado como daño de Cristalización Lunar.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocar}{LAYOUT_PC#Pulsar}{LAYOUT_PS#Pulsar} repetidamente</color>\n¡Hora de mostrar su verdadero superpoder! Tras usar la Habilidad Elemental, si se {LAYOUT_MOBILE#toca}{LAYOUT_PC#pulsa}{LAYOUT_PS#pulsa} repetidamente dicha habilidad o el Ataque Normal, Linnéa alimentará a Lumi con gemas relucientes. Tras saciarse, Lumi adoptará su <color=#FFD780FF>{LINK#N11300001}forma ultrapoderosa{/LINK}</color> para infligir a los enemigos cercanos un potentísimo golpe de <color=#FFE699FF>Daño Geo en el AdE</color> considerado como daño de Cristalización Lunar, tras lo que cambiará a su <color=#FFD780FF>{LINK#N11300001}forma poderosa{/LINK}</color>.\nAdemás, al {LAYOUT_MOBILE#tocar}{LAYOUT_PC#pulsar}{LAYOUT_PS#pulsar} repetidamente la Habilidad Elemental, la RES a interrupción de Linnéa aumentará.\n\n<i>“¡Adelante, Lumi!”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linnea_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11305,
       "Name": "Memorando: Guía de supervivencia extrema",
       "Description": "¡Incluso los maestros aventureros necesitan descansar de vez en cuando! Linnéa invoca a Lumi en su <color=#FFD780FF>{LINK#N11300001}forma superpoderosa{/LINK}</color> para que restaure Vida a todos los miembros del equipo cercanos. Además, también regenerará continuamente la Vida de los personajes en uso cercanos durante un tiempo en función de la DEF de Linnéa.\nSi, al usar la Habilidad Definitiva, Lumi ya había sido invocada, en su lugar, se reiniciará la duración de Lumi sin que cambie su forma actual.\n\n<i>“Para un aventurero profesional, ¡salir vivo de una situación de vida o muerte es una regla mucho más importante que realizar un hallazgo sin precedentes!”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linnea_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1302101,
         "Name": "Notas de observación de campo",
         "Description": "Mientras Lumi está en el campo de batalla, la <color=#FFE699FF>RES Geo</color> de los enemigos que haya cerca de ella se reduce en un 15%.\n\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color>\nSe fortalecen la Habilidad Elemental de Linnéa, <color=#FFD780FF>{LINK#S11302}Contramedida: ¡Grito de guerra de Lumi!{/LINK}</color>, y la Habilidad Definitiva, <color=#FFD780FF>{LINK#S11305}Memorando: Guía de supervivencia extrema{/LINK}</color>, de manera que, tras invocar a Lumi, la <color=#FFE699FF>RES Geo</color> de los enemigos que haya cerca de ella se reduce en un 15% adicional.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_05"
       },
       {
@@ -702,6 +706,7 @@
         "Id": 1302201,
         "Name": "Archivo de especies naturales",
         "Description": "La Maestría Elemental de un determinado personaje del equipo aumentará en una cantidad equivalente al 5% de la DEF de Linnéa en función de quién sea tu personaje en uso.\n·Si es un personaje con presagio lunar, aumenta la Maestría Elemental de dicho personaje.\n·Si no lo es, aumenta la Maestría Elemental de Linnéa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 1302301,
         "Name": "Bendición presagiolunar: Estudio del hábitat",
         "Description": "#Cuando un personaje del equipo cause una reacción de Cristalización Hydro, esta se transformará en una reacción de Cristalización Lunar. El daño base de las reacciones de Cristalización Lunar de los personajes del equipo aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de DEF que tenga Linnéa. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\n\nAdemás, cuando Linnéa esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_07"
       },
       {
@@ -743,6 +749,7 @@
         "Id": 1302501,
         "Name": "Aventurera maestra",
         "Description": "Cuando Linnéa no está en combate, el tiempo de carga necesario para realizar un <color=#FFD780FF>Disparo Preciso</color> se reduce considerablemente, y dispara una <color=#FFD780FF>flecha rápida y práctica</color> especial que tiene diferentes efectos según el objetivo golpeado:\n·Ciertos animales: la <color=#FFD780FF>flecha rápida y práctica</color> se transforma en una “red” especial que puede capturar la esencia de animales pequeños y usarla para materializar de nuevo su forma física. La cantidad de redes que se pueden usar semanalmente es limitada.\n·Minerales de forja: Linnéa envía a Lumi a destruir rápidamente los minerales marcados por la <color=#FFD780FF>flecha rápida y práctica</color> y recoger los fragmentos que caigan. Si Lumi no está activa, Linnéa la invocará durante un breve periodo de tiempo para que la ayude a recoger los minerales.\n\nEl daño que la <color=#FFD780FF>flecha rápida y práctica</color> inflige a los enemigos se reduce a un 20% del daño original. Además, tras disparar cierta cantidad de <color=#FFD780FF>flechas rápidas y prácticas</color> en un corto periodo de tiempo, Linnéa necesitará descansar brevemente antes de poder seguir disparando.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_08"
       }
     ],

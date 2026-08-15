@@ -277,6 +277,7 @@
         "Id": 10951,
         "Name": "Gezielte Behandlung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Hydro-Kraft während des Zielens an der Pfeilspitze. Nachdem der Pfeil vollständig aufgeladen ist, feuert Sigewinne in regelmäßigen Abständen sich langsam bewegende „kleine Kümmerblase“ auf die Richtung des Zielens, die <color=#80C0FFFF>Hydro-Schaden</color> verursacht. Beim Loslassen fügt der mit Stromschnellen aufgeladene Pfeil, wenn er einen Gegner trifft, diesem <color=#80C0FFFF>Hydro-Schaden</color> zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -552,6 +553,7 @@
         "Id": 10952,
         "Name": "Hüpfende Hydrotherapie",
         "Description": "#Verwendet eine spezielle Blasenpistole aus dem Fort Méropide, die einen <color=#FFD780FF>heilenden Wasserballon</color> verschießt, der sowohl die Blutzirkulation anregen, als auch den Patienten in Schlaf versetzen kann.\nDer Wasserballon hüpft zwischen Gegnern in der Nähe hin und her und fügt diesen, wenn er sie trifft, <color=#80C0FFFF>Hydro-Schaden</color> basierend auf Sigewinnes max. LP zu. Stellt beim Hüpfen die LP aller Truppenmitglieder in der Nähe außer Sigewinne selbst basierend auf Sigewinnes eigenen max. LP wieder her.\nNach 5 Hüpfern verschwindet der heilende Wasserballon und stellt Sigewinne dabei LP basierend auf ihren max. LP wieder her.\nSollten keine Gegner in der Nähe sein, wird der heilende Wasserballon in der Gegend herumhüpfen. Es kann nur ein von Sigewinne selbst erschaffener Wasserballon zur gleichen Zeit existieren.\nBeim Gedrückthalten wird der heilende Wasserballon mit geladener Kraft losgelassen.\n\n<color=#FFD780FF>Gedrückt halten</color>\nWechselt in den Zielmodus und tankt Kraft, um einen noch größeren Wasserballon abzufeuern, der noch mehr Schaden verursacht!\nDer heilende Wasserballon wird mit der Zeit, die gedrückt gehalten wird, immer größer, bis zu einem Maximum von zwei Stufen. Mit jeder Stufe, die er größer wird, erhöhen sich der Schaden, den er zufügt, um 5{NON_BREAK_SPACE}% und die LP, die er wiederherstellt, um 5{NON_BREAK_SPACE}%. Der heilende Wasserballon wird nach jedem Hüpfer um eine Stufe kleiner, bis er wieder seine normale Größe erreicht hat.\nSchwächere Gegner werden durch Treffer eines größeren Ballons gefesselt und können sich nicht mehr bewegen.\n\nErschafft außerdem beim Auslösen 2 Quellwassertropfen in Sigewinnes Nähe. Jeder aufgenommene Quellwassertropfen gewährt ihr dabei Eid des Lebens in Höhe von 10{NON_BREAK_SPACE}% ihrer max. LP.\nWird Sigewinnes Eid des Lebens entfernt, wird ihr für je 2.000 Punkte entfernten Eid des Lebens 1 Punkt Elementarenergie wiederhergestellt, wobei ihr auf diese Weise bis zu 5 Punkte Elementarenergie wiederhergestellt werden können.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nIn regelmäßigen Abständen lässt der heilende Wasserballon an den Stellen, an denen er auftrifft, eine Wogenklinge niedergehen, die mit Ousia versehenen <color=#80C0FFFF>Hydro-Schaden</color> basierend auf Sigewinnes max. LP verursacht.\n\n<i>„Wie wäre das? Nutzen wir diese Art der Hydrotherapie. Sie regt den Kreislauf an, macht den Patienten Spaß und lässt die, die eigentlich schlafen sollten, ein kleines Nickerchen halten ...“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sigewinne_01"
       }
     ],
@@ -721,6 +723,7 @@
       "Id": 10955,
       "Name": "Übereifrige Injektion",
       "Description": "Zieht eine spezielle Spritze aus dem Fort Méropide hervor, gießt voller Leidenschaft und vollen Tranks den Bereich vor sich und verursacht basierend auf Sigewinnes max. LP fortlaufend <color=#80C0FFFF>Hydro-Flächenschaden</color>.\nSigewinne sammelt außerdem beim Auslösen bis zu 2 Quellwassertropfen in einem bestimmten Umkreis in der Nähe ein.\n\n<i>„Ach, eine Überschreitung der Dosis ist genauso wie Gift. Das ist ziemlich gefährlich. Aber ein Patient braucht Fürsorge und Liebe, egal wie viel, es gibt nie zu viel.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sigewinne_01"
     },
     "Inherents": [
@@ -747,6 +750,7 @@
         "Id": 952101,
         "Name": "Erfordert angemessene Ruhezeiten",
         "Description": "#Sigewinne verleiht sich beim Auslösen von <color=#FFD780FF>Hüpfende Hydrotherapie</color> den 18{NON_BREAK_SPACE}s haltenden Effekt „Halb-obligatorische Genesung“: Verleiht ihr während der Wirkungsdauer einen <color=#80C0FFFF>Hydro-SCH-Bonus</color> von 8{NON_BREAK_SPACE}% sowie 10 Stapelungen Ruhezählung, von denen jedes Mal, wenn mit der Elementarfähigkeit eines inaktiven Truppenmitglieds in der Nähe mit Ausnahme von Sigewinne Schaden verursacht wird, eine Stapelung verbraucht wird, wodurch der durch diese Elementarfähigkeit verursachte Schaden erhöht wird: Erhöht für je 1.000 Punkte der max. LP von Sigewinne über 30.000 den Schaden um 80 Punkte. Auf diese Weise kann der verursachte Schaden der Elementarfähigkeit um bis zu 2.800 Punkte erhöht werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sigewinne_05"
       },
       {
@@ -768,6 +772,7 @@
         "Id": 952201,
         "Name": "Detaillierte Diagnose, sorgfältige Behandlung",
         "Description": "#Erhöht bei aktiver Heilung durch Sigewinne entsprechend dem Gesamtwert von Eid des Lebens aller Truppenmitglieder zusammen die Heilung um 3{NON_BREAK_SPACE}% für je 1.000 Punkte Eid des Lebens. Bis zu 30{NON_BREAK_SPACE}% Heilungs-Bonus auf diese Weise möglich.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sigewinne_06"
       },
       {
@@ -786,6 +791,7 @@
         "Id": 952301,
         "Name": "Notfalldosis",
         "Description": "#Stellt unter Wasser deiner eigenen aktiven Figur, wenn deren LP unter 50{NON_BREAK_SPACE}% fallen, innerhalb von 2,5{NON_BREAK_SPACE}s fortlaufend LP in Höhe von 50{NON_BREAK_SPACE}% ihrer max. LP wieder her und reduziert für 10{NON_BREAK_SPACE}s ihren WDS gegen alle Elemente sowie ihren phys. WDS um 10{NON_BREAK_SPACE}%. 20{NON_BREAK_SPACE}s Abklingzeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sigewinne_07"
       }
     ],

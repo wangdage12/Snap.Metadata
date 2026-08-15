@@ -309,6 +309,7 @@
         "Id": 11221,
         "Name": "Gespaltene Zunge",
         "Description": "#<color=#FFD780FF>Standardangriff</color> \nFührt mit schlangenartiger Wildheit und anmutiger Haltung bis zu vier Tritte aus und fügt <color=#99FF88FF>Dendro-Schaden</color> zu.\n\n<color=#FFD780FF>Heftiger Schlag</color> \nWechselt in den Schlangenzustand und verbraucht Ausdauer, um sich bis zu 2,5{NON_BREAK_SPACE}s lang schnell zu bewegen. Beim Loslassen der Fähigkeit, bei der Beendigung der Dauer oder beim Aufbrauchen der Ausdauer verlässt Nefer den Schlangenzustand und verbraucht zusätzlich eine bestimmte Menge Ausdauer, um Gegnern <color=#99FF88FF>Dendro-Schaden</color> zuzufügen. Im Zustand {LINK#N11220001}<color=#FFD780FF>Schattentanz</color>{/LINK} verringert sich die zusätzlich verbrauchte Ausdauer.\nBeim Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S11222}Spielstrategie – Tanz der tausend Nächte{/LINK}</color> im Schlangenzustand oder beim Rennen im Schlangenzustand verlässt Nefer diesen nicht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color> \nKonzentriert die Dendro-Kraft, um sich aus der Luft auf den Boden zu stürzen, Gegner in der Bahn anzugreifen und beim Aufprall auf den Boden <color=#99FF88FF>Dendro-Flächenschaden</color> zu verursachen.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -602,6 +603,7 @@
         "Id": 11222,
         "Name": "Spielstrategie – Tanz der tausend Nächte",
         "Description": "Ein überwältigender Tanz, so sanft wie ein mondbeschienener Schleier, doch so durchdringend wie ein Sandmeer in der kalten Nacht. Nefer stürmt eine gewisse Strecke nach vorne, verursacht <color=#99FF88FF>Dendro-Flächenschaden</color> und tritt in den Zustand {LINK#N11220001}<color=#FFD780FF>Schattentanz</color>{/LINK} ein.\nWandelt, wenn Nefer sich im Zustand „Schattentanz“ befindet und über mindestens 1 Stapelung {LINK#N11190008}<color=#FFD780FF>Grünender Tau</color>{/LINK} verfügt, ihren heftigen Schlag in den keine Ausdauer verbrauchenden, besonderen heftigen Schlag {LINK#N11220002}<color=#FFD780FF>Fantasmaauftritt</color>{/LINK} um. Im Zustand „Schattentanz“ wird Nefers Unterbrechungs-WDS erhöht.\n\nKann anfänglich zweimal angewendet werden.\n\n<i>„Die Welt ist wie ein Spielbrett, auf dem die Spieler ständig hinter dem Vorhang verborgen bleiben. Um nicht unabsichtlich in eine Falle zu tappen, musst du über ausreichend Informationen verfügen – darin liegt die Bedeutung von ‚Geheimnissen‘.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nefer_01"
       }
     ],
@@ -817,6 +819,7 @@
       "Id": 11225,
       "Name": "Heiliger Pakt – Fantasmaauftritt vor wahren Augen",
       "Description": "Schenkt dem Rätsel der Fälschung mithilfe von Thoths wahrer Sicht eine „Erleuchtung“ und fügt Gegnern vor sich <color=#99FF88FF>Dendro-Flächenschaden</color> zu. Beim Anwenden verbraucht Nefer alle {LINK#N11220003}<color=#FFD780FF>Schleier der Scheingeheimnisse</color>{/LINK}, um den durch diese Spezialfähigkeit verursachten Schaden zu erhöhen.\n\n<i>In den alten Versen, die von den Sängern der Sandwüsten gesungen werden, ist die Gabe des Königs der Ibisse weniger ein Segen als vielmehr ein Fluch.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nefer_01"
     },
     "Inherents": [
@@ -843,6 +846,7 @@
         "Id": 1222101,
         "Name": "Glücksspiel im Mondschein",
         "Description": "#Verleiht Nefer basierend auf dem in der Truppe vorhandenen <color=#FFD780FF>Mondomen</color> den entsprechenden Verstärkungseffekt.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Wandelt beim Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S11222}Spielstrategie – Tanz der tausend Nächte{/LINK}</color> die sich aktuell auf dem Feld befindenden „Dendro-Kerne“ in „Kerne der List“ um. Erzeugt beim Auslösen der Reaktion Mondspross durch alle Figuren in der Nähe zudem 15{NON_BREAK_SPACE}s lang „Kerne der List“ anstelle von „Dendro-Kernen“ und „Kernen der Fülle“. „Kerne der List“ können weder die Reaktionen Supraspross oder Flammenspross auslösen, noch aufbrechen.\nBei heftigen Schlägen oder {LINK#N11220002}<color=#FFD780FF>Fantasmaauftritten</color>{/LINK} kann Nefer „Kerne der List“ in einem bestimmten Bereich absorbieren. Für jeden absorbierten „Kern der List“ erhält sie 1 Stapelung des Effekts {LINK#N11220003}<color=#FFD780FF>Schleier der Scheingeheimnisse</color>{/LINK}. Wenn dieser Effekt 3-fach gestapelt oder die Dauer der 3 Stapelungen aktualisiert wird, erhöht sich Nefers Elementarkunde um 100 Punkte, hält 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_05"
       },
       {
@@ -867,6 +871,7 @@
         "Id": 1222201,
         "Name": "Tochter von Staub und Sand",
         "Description": "#Während Nefer sich im Zustand {LINK#N11220001}<color=#FFD780FF>Schattentanz</color>{/LINK} befindet, gewährt ihr <color=#FFD780FF>{LINK#S11221}Schlangenzustand{/LINK}</color> der Truppe für 5{NON_BREAK_SPACE}s, nachdem eine Figur in der Truppe die Mondspross-Reaktion ausgelöst hat, zusätzlichen {LINK#N11190008}<color=#FFD780FF>Grünenden Tau</color>{/LINK}. Für je 100 Punkte Elementarkunde über 500 erhöht sich dieser zusätzlichen Grünenden Tau spendende Effekt um 10{NON_BREAK_SPACE}%, höchstens um 50{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_06"
       },
       {
@@ -888,6 +893,7 @@
         "Id": 1222301,
         "Name": "Mondomen-Segen – Schatten unter dem Sims",
         "Description": "#Wandelt, wenn eine Figur in der Truppe die Reaktion Sprießen auslöst, diese in die Reaktion Mondspross um, wobei der Basis-SCH der Reaktion Mondspross, die durch Truppenmitglieder ausgelöst wird, auf der Grundlage von Nefers Elementarkunde erhöht wird: Erhöht für jeden Punkt Elementarkunde den Basis-SCH der Reaktion Mondspross um 0,0175{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Nefer in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_07"
       },
       {
@@ -906,6 +912,7 @@
         "Id": 1222501,
         "Name": "Verschwörung der Goldenen Kammer",
         "Description": "#Bringt bei 20-stündigen Erkundungsentsendungen in Nod-Krai 25{NON_BREAK_SPACE}% mehr Belohnungen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_08"
       }
     ],

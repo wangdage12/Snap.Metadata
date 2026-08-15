@@ -325,6 +325,7 @@
         "Id": 10241,
         "Name": "Portato dall'oceano",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore nel tempo per sferrare fendenti continui.\nAl termine della sequenza, sferra un fendente più potente.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10242,
         "Name": "Governamaree",
         "Description": "#Niente di cui preoccuparsi. Se qualcuno alzasse un dito contro di lei o i suoi uomini, si vendicherebbe dieci volte più ferocemente con la spada e il tuono.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nConvogliando il potere del fulmine, Beidou agita la sua lama con fervore, infliggendo <color=#FFACFFFF>DAN da Electro</color>.\n\n<color=#FFD780FF>Pressione prolungata</color>\nLeva la sua arma come uno scudo. I DAN massimi assorbiti variano in base ai PS max di Beidou.\nAttacca usando l'energia contenuta nello spadone quando viene rilasciata o al termine della durata dell'abilità infliggendo <color=#FFACFFFF>DAN da Electro</color>. I DAN inflitti variano in base al numero di volte in cui Beidou viene attaccata per la durata dell'abilità. Il bonus DAN più alto viene raggiunto quando l'effetto viene attivato due volte.\nLo scudo possiede le seguenti proprietà:\n· ha un 250% di efficienza di assorbimento <color=#FFACFFFF>DAN da Electro</color>;\n· applica l'<color=#FFACFFFF>elemento Electro</color> a Beidou quando si attiva.\n\n<i>Conquista i mari profondi! Cerca le onde e insegui la tempesta!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Beidou_01"
       }
     ],
@@ -532,6 +534,7 @@
         "Id": 242401,
         "Name": "Polaris",
         "Description": "#Tenendo premuta l'abilità elementale <color=#FFD780FF>Governamaree</color> si ottiene 1 accumulo di potere ogni 0,8{NON_BREAK_SPACE}s, anche quando non si è sotto attacco. Questo aumenta i DAN inflitti quando si sprigiona l'abilità elementale.\nInoltre, tenere premuto in maniera prolungata <color=#FFD780FF>Governamaree</color> e colpire l'avversario conferisce degli effetti positivi aggiuntivi in base al potere accumulato. Ogni accumulo attivo riduce il TdR dell'abilità elementale di Beidou di 4{NON_BREAK_SPACE}s, e rigenera 8 della sua energia elementale. Quest'effetto può attivarsi una volta ogni 15{NON_BREAK_SPACE}s.\nInoltre, quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, Beidou entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_08"
       }
     ],
@@ -733,6 +736,7 @@
       "Id": 10245,
       "Name": "Tempesta tagliente",
       "Description": "Ricordando quando ha ucciso la grande bestia Haishan, Beidou richiama quella forza mostruosa e il fulmine per creare un'Egida della bestia di tuono intorno a sé, infliggendo <color=#FFACFFFF>DAN da Electro</color> agli avversari circostanti.\n\n<color=#FFD780FF>Egida della bestia di tuono</color>\n· Quando gli attacchi normali e caricati vanno a segno, creano una scarica di fulmini che salta da un avversario all'altro, infliggendo <color=#FFACFFFF>DAN da Electro</color>.\n· Aumenta la resistenza all'interruzione del personaggio e riduce i DAN subiti.\n\nSi può innescare al massimo 1 scarica di fulmini al secondo.\n\n<i>Col fragore di un tuono, Haishan è sconfitto.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Beidou_01"
     },
     "Inherents": [
@@ -754,6 +758,7 @@
         "Id": 242101,
         "Name": "Ritorsione",
         "Description": "Contrattaccare con <color=#FFD780FF>Governamaree</color> nel preciso momento in cui il personaggio viene colpito conferisce il bonus DAN massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_05"
       },
       {
@@ -774,6 +779,7 @@
         "Id": 242201,
         "Name": "Tempesta di fulmini",
         "Description": "Ottieni i seguenti effetti per 10 s dopo aver usato <color=#FFD780FF>Governamaree</color> con il bonus DAN massimo: \n· i DAN inflitti dagli attacchi normali e caricati aumentano di un 15%. La VEL d'ATT di attacchi normali e caricati aumenta di un 15%;\n· lo scarto di tempo è molto più breve dopo il rilascio di un attacco caricato.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_06"
       },
       {
@@ -792,6 +798,7 @@
         "Id": 242301,
         "Name": "Conquistamaree",
         "Description": "Diminuisce di un 20% il consumo di vigore durante il nuoto per i membri del tuo gruppo.\nNon è cumulabile con talenti passivi che conferiscono gli stessi effetti.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Swim"
       }
     ],

@@ -443,6 +443,7 @@
         "Id": 10481,
         "Name": "Sigillo d'approvazione",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nLancia sfere di fuoco che infliggono <color=#FF9999FF>DAN da Pyro</color> fino a 3 volte.\nQuando gli attacchi normali di Yanfei colpiscono i nemici, le conferiscono un singolo Sigillo scarlatto. Yanfei può possedere un massimo di 3 Sigilli scarlatti e, ogni volta che questo effetto si attiva, la durata dei Sigilli scarlatti posseduti in quel momento si ripristina.\nOgni Sigillo scarlatto riduce il consumo di vigore di Yanfei e svanisce quando lei lascia il campo di battaglia.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore e tutti i Sigilli scarlatti per infliggere <color=#FF9999FF>DAN da Pyro ad area</color> agli avversari dopo un breve periodo di lancio.\nL'area d'effetto e i DAN di questo attacco caricato aumentano in base alla quantità di Sigilli scarlatti consumati.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nConvogliando la forza di Pyro, Yanfei si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#FF9999FF>DAN da Pyro ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -579,6 +580,7 @@
         "Id": 10482,
         "Name": "Editto firmato",
         "Description": "Evoca fiamme scoppiettanti che infliggono <color=#FF9999FF>DAN da Pyro ad area</color>.\nGli avversari colpiti dalle fiamme conferiscono a Yanfei il numero massimo di Sigilli scarlatti.\n\n<i>Oltre a svolgere una funzione legale, i Sigilli di Yanfei riportano anche dei termini e condizioni aggiuntivi personalizzati. Beh, non è che il Ministero degli Affari Civili possa cambiare le leggi della natura.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Feiyan_01"
       }
     ],
@@ -780,6 +782,7 @@
       "Id": 10485,
       "Name": "Affare fatto",
       "Description": "Innesca una fiammata intensa che si scaglia sugli avversari vicini, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>, conferendo a Yanfei il numero massimo di Sigilli scarlatti e applicandole Fulgore.\n\n<color=#FFD780FF>Fulgore</color>\nHa i seguenti effetti:\n· conferisce a Yanfei un Sigillo scarlatto a intervalli regolari;\n· aumenta i DAN inflitti dai suoi attacchi caricati.\nL'effetto Fulgore termina se Yanfei lascia il campo di battaglia o se fuori combattimento.\n\n<i>\"Qui troverai i termini completi sulla suddetta questione di vita o di morte, ossia la mia vita e la tua morte!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Feiyan_01"
     },
     "Inherents": [
@@ -803,6 +806,7 @@
         "Id": 482101,
         "Name": "Clausola condizionale",
         "Description": "#Quando Yanfei consuma Sigilli scarlatti usando un attacco caricato, ciascuno di essi aumenta il suo <color=#FF9999FF>bonus DAN da Pyro</color> di un 5%. Quest'effetto dura per 6{NON_BREAK_SPACE}s. Quando un attacco caricato viene usato di nuovo mentre l'effetto è attivo, l'effetto precedente svanirà.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_05"
       },
       {
@@ -823,6 +827,7 @@
         "Id": 482201,
         "Name": "Sguardo di fuoco",
         "Description": "Quando l'attacco caricato di Yanfei infligge un colpo CRIT agli avversari, infliggerà <color=#FF9999FF>DAN da Pyro ad area</color> aggiuntivi pari a un 80% del suo ATT, che vengono considerati come DAN da attacco caricato.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_06"
       },
       {
@@ -841,6 +846,7 @@
         "Id": 482301,
         "Name": "Conoscenza enciclopedica",
         "Description": "Mostra sulla minimappa la posizione delle <color=#FFD780FF>risorse uniche di Liyue</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],

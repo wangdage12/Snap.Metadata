@@ -404,6 +404,7 @@
         "Id": 10841,
         "Name": "Cartomagie",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la puissance du feu vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :\n· 1 charge : Tire une flèche enflammée qui inflige des <color=#FF9999FF>DGT Pyro</color>.\n· 2 charges : Tire une flèche postiche qui inflige des <color=#FF9999FF>DGT Pyro</color> et invoque un chapeau félinois après avoir touché.\nSi Lyney tire une flèche postiche en ayant plus de 60 % de PV, il consomme une partie de ses PV pour obtenir un cumul de fantasmagorie. Cet effet peut être cumulé 5 fois maximum, et sera annulé après 30 s si Lyney quitte le combat.\nLes PV de Lyney peuvent être diminués jusqu'à 60 % de cette manière.\n\n<color=#FFD780FF>Chapeau félinois</color>\n· Permet de narguer les ennemis proches pour attirer leurs attaques, chaque ennemi pouvant être nargué par le chapeau une fois toutes les 5 s.\n· La durabilité du chapeau est proportionnelle aux PV max de Lyney.\n· Lorsque le chapeau est éliminé ou expire, il tire une <color=#FFD780FF>balle d'artifice</color> sur un ennemi proche, infligeant des <color=#FF9999FF>DGT Pyro</color>.\nIl ne peut exister qu'un seul chapeau félinois à la fois.\n\n<color=#FFD780FF>Arkhe : Pneuma</color>\nRégulièrement, une épine d'inhalation descend à l'emplacement touché par une flèche postiche pour infliger des <color=#FF9999FF>DGT Pyro</color> chargés d'énergie pneuma.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -632,6 +633,7 @@
         "Id": 10842,
         "Name": "Lumières de fioriture",
         "Description": "Lyney agite son chapeau pour déclencher un feu d'artifice surprise.\nL'utilisation de cette capacité consomme tous les cumuls de fantasmagorie possédés et inflige des <color=#FF9999FF>DGT Pyro de zone</color> aux ennemis en face. Les DGT augmentent selon la quantité de cumuls consommés, et les PV de Lyney sont aussi restaurés selon ses PV max.\n\nLorsqu'un chapeau félinois créé par Lyney est présent sur le champ de bataille, le feu d'artifice le fait exploser pour infliger des <color=#FF9999FF>DGT Pyro de zone</color> d'une valeur équivalant aux DGT d'une balle d'artifice.\nLes DGT infligés par un chapeau félinois de cette manière sont considérés comme des DGT d'attaque chargée.\n\n<i>« Tout le monde sait que les magiciens détournent intentionnellement le public... Eh oui, pendant que vous me regardiez, mon chapeau et mon assistant là-bas ont tous deux disparu... Fascinant, n'est-ce pas ? »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Liney_01"
       }
     ],
@@ -817,6 +819,7 @@
       "Id": 10845,
       "Name": "Clou du spectacle : Parade prodigieuse",
       "Description": "Libérant sa magie, Lyney se transforme en un félin chaponois qui peut se déplacer rapidement. (À ne pas confondre avec son chapeau félinois. Ce sont deux accessoires bien différents !)\nLorsque le félin chaponois s'approche des ennemis, il fait pleuvoir des flammes sur ces derniers, infligeant une fois des <color=#FF9999FF>DGT Pyro</color> à chaque ennemi. Une fois la durée terminée, le félin chaponois se dissipe en faisant exploser un magnifique feu d'artifice, ce qui inflige des <color=#FF9999FF>DGT Pyro de zone</color>, invoque un chapeau félinois et lui accorde un cumul de fantasmagorie.\n\nUn félin chaponois peut être dissipé manuellement.\n\n<i>« Regardez attentivement. C'est le moment du miracle, et il n'appartient qu'à nous ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Liney_01"
     },
     "Inherents": [
@@ -839,6 +842,7 @@
         "Id": 842101,
         "Name": "Performance périlleuse",
         "Description": "Si Lyney consomme des PV en tirant une <color=#FFD780FF>flèche postiche</color>, lorsque le chapeau félinois invoqué touche un ennemi, Lyney récupère 3 pts d'énergie élémentaire et les DGT infligés augmentent d'une valeur équivalant à 80 % de l'ATQ.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liney_05"
       },
       {
@@ -860,6 +864,7 @@
         "Id": 842201,
         "Name": "Ovation concluante",
         "Description": "Les DGT infligés par Lyney aux ennemis affectés par l'<color=#FF9999FF>élément Pyro</color> bénéficient des augmentations suivantes :\n· +60 % de base.\n· +20 % pour chacun des personnages de type <color=#FF9999FF>Pyro</color> (hormis Lyney) dans l'équipe.\nLes DGT infligés par Lyney aux ennemis affectés par l'<color=#FF9999FF>élément Pyro</color> peuvent être augmentés d'un maximum de 100 % de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liney_06"
       },
       {
@@ -878,6 +883,7 @@
         "Id": 842301,
         "Name": "Observation triviale",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Fontaine</color> sur la mini-carte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Liney_07"
       }
     ],

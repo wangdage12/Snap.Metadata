@@ -309,6 +309,7 @@
         "Id": 10791,
         "Name": "Técnica da Espada Dourada",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos com seu Espadão e artes marciais.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando danos aos inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10792,
         "Name": "Inferno Derretido",
         "Description": "Dependendo da situação de combate, Dehya utiliza técnicas de combate diferentes.\n\n<color=#FFD780FF>Coragem Flamejante</color>\nLança quando não houver uma \"Prisão Flamejante\" criada por Dehya ativa no campo de batalha.\nCausa <color=#FF9999FF>Dano Pyro em AdE</color> e gera um campo da Prisão Flamejante.\n\n<color=#FFD780FF>Campo da Espada Incinerante</color>\nLança quando houver uma Prisão Flamejante criada por Dehya ativa no campo de batalha.\nRealiza um ataque de salto, causando <color=#FF9999FF>Dano Pyro em AdE</color> e novamente gerando um campo da Prisão Flamejante numa nova posição.\nO campo da Prisão Flamejante gerado novamente dessa forma herdará a duração do campo original.\n\nSó é possível lançar um Campo da Espada Incinerante na duração de um campo de Prisão Flamejante.\n\n<color=#FFD780FF>Prisão Flamejante</color>\nQuando os inimigos dentro desse campo sofrem Dano, a Prisão Flamejante realizará um Ataque Coordenado baseado no ATQ e Vida Máxima de Dehya, causando <color=#FF9999FF>Dano Pyro em AdE</color>. Esse efeito pode ser desencadeado uma vez a cada 2.5s.\nAumenta a Resistência contra Interrupção dos personagens ativos dentro do campo, e quando esses personagens sofrem Dano, mitiga parte desse Dano, convertendo-o em \"Sangue da Leoa Vermelha\", com Dehya sofrendo esse Dano por 10s. Quando o Dano armazenado alcançar ou ultrapassar uma certa proporção da Vida Máxima de Dehya, o dano deixará de ser mitigado.\n\nSó é possível existir uma Prisão Flamejante criada por Dehya simultaneamente.\n\n<i>Caminhe nesse julgamento de chamas comigo, expurgando todas as impurezas, como uma besta flamejante incinerando tudo com suas garras e presas.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dehya_01"
       }
     ],
@@ -755,6 +757,7 @@
       "Id": 10795,
       "Name": "Mordida da Leoa",
       "Description": "Liberando sua fúria flamejante e jogando sua lâmina de lado, Dehya entra no estado \"Leoa Chamejante\", aumentando sua Resistência contra Interrupção.\nNesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando <color=#FF9999FF>Dano Pyro</color>. Quando a duração acabar, ela fará um Chute-Labareda que causará <color=#FF9999FF>Dano Pyro em AdE</color> baseado em seu ATQ e Vida Máxima.\nSe ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, o gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.\nNesse estado, Dehya não poderá lançar sua Habilidade Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".\n<color=#FFD780FF>Golpes do Rugido</color>\nLançar um Golpe do Rugido nos 0.4s após lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. \n\n<i>Até mesmo as chamas devem obedecer sua fúria, e sob seu comando se tornarão suas presas e garras.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dehya_01"
     },
     "Inherents": [
@@ -780,6 +783,7 @@
         "Id": 792101,
         "Name": "Socorro Generoso",
         "Description": "Nos 6s após Dehya recolher Prisão Flamejante com <color=#FFD780FF>Inferno Derretido - Campo da Espada Incinerante</color> ou <color=#FFD780FF>Mordida da Leoa</color>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.\nAlém disso, nos 9s após lançar <color=#FFD780FF>Inferno Derretido - Coragem Flamejante</color>, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem na Prisão Flamejante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 792201,
         "Name": "Verdade Honesta",
         "Description": "Quando a Vida é inferior a 40%, Dehya regenerará Vida baseado em 20% de sua Vida Máxima, e nos 10s seguintes, Dehya regenerará Vida a cada 2s baseado em 6% de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 20s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_06"
       },
       {
@@ -825,6 +830,7 @@
         "Id": 792301,
         "Name": "Jornada Iluminada",
         "Description": "Durante o dia (06:00 - 18:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nNão tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

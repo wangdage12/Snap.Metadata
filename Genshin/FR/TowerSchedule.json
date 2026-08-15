@@ -1817,7 +1817,7 @@
     ],
     "Open": "2025-12-16T04:00:00+08:00",
     "Close": "2026-01-16T03:59:59+08:00",
-    "BuffName": "Lune tournoyante",
+    "BuffName": "",
     "Descriptions": [
       "Lorsque le personnage déployé déclenche une réaction de Dispersion sur un ennemi, <color=#F39000>une onde de choc est libérée</color> à l'emplacement de ce dernier, infligeant des DGT réels. Cet effet peut être déclenché une fois toutes les 2 s."
     ],
@@ -1865,7 +1865,7 @@
     ],
     "Open": "2026-03-16T04:00:00+08:00",
     "Close": "2026-04-16T03:59:59+08:00",
-    "BuffName": "",
+    "BuffName": "Lune ventée",
     "Descriptions": [
       "Lorsqu'un personnage déclenche une réaction de Dispersion sur un ennemi, il obtient 1 cumul de coupe de vent. Avec 4 cumuls, <color=#F39000>une onde de choc est libérée</color> à l'emplacement de l'ennemi, infligeant des DGT réels et consommant tous les cumuls de coupe de vent. Le personnage peut obtenir 1 cumul de coupe de vent toutes les 0,1 s et une onde de choc peut être libérée une fois toutes les 6 s."
     ],
@@ -1934,5 +1934,37 @@
       "Lorsqu'un personnage déployé inflige des DGT Cryo à un ennemi avec une attaque chargée, une <color=#F39000>onde de choc</color> infligeant des DGT réels est libérée à l'emplacement de ce dernier, cet effet pouvant être déclenché une fois toutes les 3 s."
     ],
     "Icon": "UI_TowerBlessing_105"
+  },
+  {
+    "Id": 122,
+    "FloorIds": [
+      1134,
+      1135,
+      1136,
+      1137
+    ],
+    "Open": "2026-08-16T04:00:00+08:00",
+    "Close": "2026-09-16T03:59:59+08:00",
+    "BuffName": "Lune perçante",
+    "Descriptions": [
+      "Lorsqu'un personnage déployé dans une étendue polaris inflige des DGT à un ennemi, une <color=#F39000>onde de choc</color> infligeant des DGT réels est libérée à l'emplacement de ce dernier, cet effet pouvant être déclenché une fois toutes les 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_106"
+  },
+  {
+    "Id": 123,
+    "FloorIds": [
+      1134,
+      1135,
+      1138,
+      1139
+    ],
+    "Open": "2026-09-16T04:00:00+08:00",
+    "Close": "2026-10-16T03:59:59+08:00",
+    "BuffName": "Lune cascadante",
+    "Descriptions": [
+      "Lorsqu'un personnage inflige des DGT de réaction de Dispersion ou de réaction d'Astrodispersion à un ennemi, <color=#F39000>une onde de choc est libérée</color> à l'emplacement de ce dernier, infligeant des DGT réels. Cet effet peut être déclenché une fois toutes les 4 s."
+    ],
+    "Icon": "UI_TowerBlessing_107"
   }
 ]

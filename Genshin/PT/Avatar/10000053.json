@@ -324,6 +324,7 @@
         "Id": 10531,
         "Name": "Lâmina de Ninja Shiyuumatsu-Ban",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -555,6 +556,7 @@
         "Id": 10532,
         "Name": "Arte Yoohoo: Ataque Fuuin",
         "Description": "A técnica especial das Artes Ninja Yoohoo! Uma técnica veloz como um raio que circula por todo o campo!\nForma uma Roda Fuufuu e colide nos inimigos em alta velocidade, causando <color=#80FFD7FF>Dano Anemo</color>. Quando a duração termina, lança um Chute da Roda Fuufuu, causando <color=#80FFD7FF>Dano Anemo em uma AdE</color>.\n\n<color=#FFD780FF>Pressionar</color>\nEntra no estado da Roda Fuufuu, rebola para a frente em uma distância curta antes de usar o Chute da Roda Fuufuu.\n\n<color=#FFD780FF>Manter pressionado</color>\nGira continuamente no estado da Roda Fuufuu, aumentando a resistência de Sayu à interrupção durante esse estado.\nDurante este tempo, Sayu pode controlar a direção da Roda e pode usar a habilidade novamente para terminar seu estado de Roda e liberar uma versão mais forte do Chute da Roda Fuufuu. A versão dessa habilidade com Manter Pressionado pode desencadear uma Absorção Elemental.\n\nDura até 10s, ao final do efeito, a habilidade entrará em Recarga. Quanto maior o tempo sob o estado da Roda Fuufuu, maior será a Recarga.\n\n<color=#FFD780FF>Absorção Elemental</color>\nSe Sayu entrar em contato com os elementos <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> durante seu estado de Roda, ela irá causar Dano elemental adicional baseado naquele tipo.\nAbsorção Elemental pode ocorrer apenas uma vez por uso.\n\n<i>Sayu pode usar essa habilidade com seus olhos fechados. Esta técnica foi originalmente criada para escapar, mas agora que ela tem uma Visão, pode também servir para dificultar a vida dos seus inimigos enquanto ela usa a habilidade.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sayu_01"
       }
     ],
@@ -802,6 +804,7 @@
       "Id": 10535,
       "Name": "Arte Yoohoo: Agitação Mujina",
       "Description": "Outra técnica muito especial das Artes Ninja Yoohoo! Ela invoca um par de mãos ajudantes para Sayu.\nInflige <color=#80FFD7FF>Dano Anemo</color> aos inimigos ao redor e cura todos os personagens da equipe ao redor. A quantidade de Vida restaurada é baseada no ATQ de Sayu. A habilidade invoca então Daruma Muji-Muji.\n\n<color=#FFD780FF>Daruma Muji-Muji</color>\nEm intervalos específicos, Daruma irá tomar uma das muitas ações com base na situação ao seu redor:\n·Se houver personagens ativos ao redor com mais de 70% de Vida, Daruma irá atacar um inimigo por perto infligindo <color=#80FFD7FF>Dano Anemo</color>;\n·Se houver personagens ativos por perto com 70% ou menos de Vida, Daruma irá curar o personagem ativo com menos porcentagem de Vida. Se não houver oponentes ao redor e os personagens tiverem mais de 70% de Vida, ele irá curar os personagens.\n\n<i>As pessoas que não entendem nada sobre ninjutsu adoram ver Sayu mostrando sua habilidade, e alguns tentaram aprender com ela. Mas Sayu apenas quer dormir e não ser incomodada.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sayu_01"
     },
     "Inherents": [
@@ -824,7 +827,8 @@
         },
         "Id": 532101,
         "Name": "Alguém Mais Adequado",
-        "Description": "Quando Sayu desencadeia uma reação de Redemoinho enquanto ela estiver no campo de batalha, ela cura todos os seus personagens e aliados próximos em 300 de Vida. Ela também curará um adicional de 1.2 de Vida para cada ponto de Proficiência Elemental que ela possuir.\nEsse efeito pode ocorrer uma vez a cada 2s.",
+        "Description": "Quando Sayu desencadeia uma reação de Redemoinho ou Redemoinho Estelar, enquanto ela estiver no campo de batalha, ela cura todos os seus personagens e aliados próximos em 300 de Vida. Ela também curará um adicional de 1.2 de Vida para cada ponto de Proficiência Elemental que ela possuir.\nEsse efeito pode ocorrer uma vez a cada 2s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_05"
       },
       {
@@ -845,6 +849,7 @@
         "Id": 532201,
         "Name": "Não Tem Trabalho Hoje!",
         "Description": "O Daruma Muji-Muji invocado pela <color=#FFD780FF>Arte Yoohoo: Agitação Mujina</color> ganha os seguintes efeitos: \nQuando um personagem é curado, outros personagens próximos a ele e em combate recuperam uma quantidade de Vida de 20% do que foi recuperado pelo primeiro personagem. \nAumenta a área de Danos durante o ataque contra inimigos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_06"
       },
       {
@@ -863,6 +868,7 @@
         "Id": 532301,
         "Name": "Arte Yoohoo: Segredo da Dissimulação",
         "Description": "Quando Sayu estiver na equipe, seus personagens não irão assustar as Borboletas de Cristais e alguns outros animais ao chegar perto deles.\nCheque a sub-categoria \"Outros\" da seção \"Seres Vivos/Animais Selvagens\" do Arquivo, para descobrir com quais criaturas esta habilidade funciona.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_07"
       }
     ],
@@ -892,7 +898,7 @@
       {
         "Id": 534,
         "Name": "Novo Método de Ser Preguiçosa",
-        "Description": "Sayu regenera 1.2 de Energia quando ela desencadeia uma reação de Redemoinho.\nEste efeito ocorre uma vez a cada 2s.",
+        "Description": "Sayu regenera 1.2 de Energia quando ela desencadeia uma reação de Redemoinho ou Redemoinho Estelar.\nEste efeito ocorre uma vez a cada 2s.",
         "Icon": "UI_Talent_S_Sayu_03"
       },
       {

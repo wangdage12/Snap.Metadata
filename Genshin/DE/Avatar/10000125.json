@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Mondtau-Kaskade",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nRuft Gezeiten des Mondlichts herbei, führt bis zu 3 Angriffe aus und verursacht <color=#80C0FFFF>Hydro-SCH</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit <color=#80C0FFFF>Hydro-Flächenschaden</color>.\nErsetzt, wenn du über mindestens 1 Stapelung {LINK#N11190008}<color=#FFD780FF>Grünender Tau</color>{/LINK} verfügst, den von Columbina angewendeten heftigen Schlag durch den besonderen heftigen Schlag <color=#FFD780FF>Mondtau-Reinigung</color>, der keine Ausdauer verbraucht: Verbraucht 1 Stapelung Grünender Tau und fügt den Gegnern vor sich 3-mal <color=#99FF88FF>Dendro-Flächenschaden</color> zu. Hierdurch verursachter Schaden gilt als Schaden durch die Reaktion Mondspross.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80C0FFFF>Hydro-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Ewige Gezeiten",
         "Description": "Ruft Gezeiten des Mondmeeres herbei, verursacht <color=#80C0FFFF>Hydro-Flächenschaden</color> und erschafft eine {LINK#N11250001}<color=#FFD780FF>Gravitationswelle</color>{/LINK}.\nDie <color=#FFD780FF>Gravitationswelle</color> folgt der aktuellen Figur und fügt Gegnern in der Umgebung fortlaufend <color=#80C0FFFF>Hydro-Flächenschaden</color> zu. Während die <color=#FFD780FF>Gravitationswelle</color> existiert und wenn Truppenmitglieder in der Nähe eine Mondleuchten-Reaktion auslösen oder Schaden durch eine Mondleuchten-Reaktion verursachen, wird ein bestimmter Wert von einer besonderen <color=#FFD780FF>Gravitation</color> für Columbina angesammelt. Fügt, wenn deren Maximalwert erreicht ist, Gegnern basierend auf der Art der Mondleuchten-Reaktion, durch die Columbina am meisten <color=#FFD780FF>Gravitation</color> gesammelt hat, unterschiedliche Arten von Schaden zu.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Die <color=#FFD780FF>Gravitationswelle</color> verursacht <color=#80C0FFFF>Hydro-Flächenschaden</color> mit größerer Reichweite.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Melancholie unterm Mond",
       "Description": "Berge und Meer verbinden sich unter dem Namen des makellosen neuen Mondes. Verwandelt das Gelände um sich herum kurzzeitig in ein {LINK#N11250002}<color=#FFD780FF>Mondgebiet</color>{/LINK} und verursacht <color=#80C0FFFF>Hydro-Flächenschaden</color>.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Mondbedingter Wahnsinn",
         "Description": "#Verleiht Columbina beim Auslösen der {LINK#N11250001}<color=#FFD780FF>Gravitations-Interferenz</color>{/LINK} den Effekt „Mond-Wahnsinn“, der die eigenen KT 10{NON_BREAK_SPACE}s lang um 5{NON_BREAK_SPACE}% erhöht, max. 3-fach stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "Gesetz des Neumonds",
         "Description": "#Verleiht Figuren, die sich im {LINK#N11250002}<color=#FFD780FF>Mondgebiet</color>{/LINK} befinden und eine Mondleuchten-Reaktion auslösen, jeweils den folgenden Effekt:\n· <color=#FFD780FF>Mond unter Strom</color>: Wenn Ziele, die bestimmte Bedingungen erfüllen, mit Blitzen der Gewitterwolken betroffen sind, besteht eine Wahrscheinlichkeit von 33{NON_BREAK_SPACE}%, dass die Gewitterwolken zusätzlich einmal auf die Ziele mit Blitzen einschlagen.\n· <color=#FFD780FF>Mondspross</color>: Verleiht der Truppe beim Auslösen der Reaktion „Mondspross“ 1 Stapelung besonderen {LINK#N11250003}<color=#FFD780FF>Grünenden Mondtau</color>{/LINK}. Auf diese Weise können alle 18{NON_BREAK_SPACE}s bis zu 3 Stapelungen „Grünender Mondtau“ für die Truppe generiert werden.\n· <color=#FFD780FF>Mond-Kristallisation</color>: Gibt beim Auslösen von „Harmonie der Mondkäfige“ jedem Mondkäfig eine Möglichkeit von 33{NON_BREAK_SPACE}%, zusätzlich einen Angriff auszuführen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Mondomen-Segen – Geliehenes Mondlicht",
         "Description": "#Wandelt, wenn eine Figur in der Truppe die Reaktion Unter Strom / Sprießen / Hydro-Kristallisation auslöst, diese in die Reaktion Mond unter Strom / Mondspross / Mond-Kristallisation um, wobei der Basis-SCH der Mondleuchten-Reaktion, die durch Truppenmitglieder ausgelöst wird, auf der Grundlage von Columbinas max. LP erhöht wird: Erhöht pro 1.000 Punkte der max. LP den Basis-SCH der Mondleuchten-Reaktion um 0,2{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 7{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Columbina in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Mondwache",
-        "Description": "#Wenn in Nod-Krai ein Truppenmitglied ohnmächtig wird, belebt Columbina diese Figur wieder und stellt ihre LP wieder her; der Wiederherstellungswert ist abhängig von Columbinas Freundschaftsstufe; 100{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen und im Gewundenen Abgrund.\nAußerdem scheint Columbina eine besondere Verbindung zu einigen kleinen Tieren zu haben, die von Kuuvahki beeinflusst sind ...",
+        "Description": "#Wenn in Nod-Krai oder in der Region um den Frostmond ein eigenes Truppenmitglied ohnmächtig wird, belebt Columbina diese Figur wieder und stellt ihre LP wieder her; der Wiederherstellungswert ist abhängig von Columbinas Freundschaftsstufe; 100{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen und im Gewundenen Abgrund.\nAußerdem scheint Columbina eine besondere Verbindung zu einigen kleinen Tieren zu haben, die von Kuuvahki beeinflusst sind ...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

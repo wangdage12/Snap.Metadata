@@ -292,6 +292,7 @@
         "Id": 10721,
         "Name": "Lanza radiante - En guardia",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10722,
         "Name": "Rito sagrado: Garza guardiana",
         "Description": "#Con su estilo de combate, Candace es capaz de resistir contra toda una marea de enemigos.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nAtaca con su escudo para infligir <color=#80C0FFFF>Daño Hydro</color> contra los enemigos frente a ella.\n\n<color=#FFD780FF>Mantener pulsado</color>\nUsa su escudo para resistir los ataques de los enemigos de alrededor, lo que crea un escudo que absorbe daño en función de la Vida Máx. de Candace. Dicho escudo tiene un 250% de efectividad de absorción de <color=#80C0FFFF>Daño Hydro</color> y dura hasta que se libera la Habilidad Elemental.\nTras mantener pulsado durante cierto tiempo, el escudo se carga por completo y, al dejar de mantener pulsada la habilidad, cuando termine su duración o cuando el escudo se rompa, Candace ejecuta un salto ofensivo que inflige <color=#80C0FFFF>Daño Hydro</color> contra los enemigos frente a ella.\n\n<i>El juramento que hereda un custodio debe ser aún más firme que el escudo que hereda de sus ancestros.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Candace_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10725,
       "Name": "Rito sagrado: Marea de aguzanieves",
       "Description": "Candace alza su arma para implorar una bendición divina que inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> en función de su Vida Máx. y otorga continuamente el estado de “oración de la corona escarlata” al personaje en uso.\n\n<color=#FFD780FF>Oración de la corona escarlata</color>\nTiene las siguientes propiedades:\n·Aumenta el Daño Elemental que infligen los personajes con sus Ataques Normales.\n·Cuando un personaje entra en el campo de batalla, libera una onda de agua que inflige <color=#80C0FFFF>Daño Hydro</color> contra los enemigos cercanos. Esto solo se puede activar un determinado número de veces mientras este efecto está activo.\n·<color=#80C0FFFF>Imbuye del elemento Hydro</color> a los personajes que utilizan espada ligera, mandoble o lanza y que están bajo los efectos de este estado.\n\n<i>Este es el ritual secreto heredado por generaciones en el clan de Candace. Aunque estas viejas creencias ya se han perdido con el paso del tiempo, el desierto sigue protegiendo a los descendientes del antiguo reino.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Candace_01"
     },
     "Inherents": [
@@ -727,6 +730,7 @@
         "Id": 722101,
         "Name": "Escudo antiflechas",
         "Description": "Si Candace recibe un ataque mientras mantiene pulsado <color=#FFD780FF>Rito sagrado: Garza guardiana</color>, la habilidad se cargará por completo inmediatamente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Candace_05"
       },
       {
@@ -747,6 +751,7 @@
         "Id": 722201,
         "Name": "Bóveda celestial de las arenas",
         "Description": "Cuando un personaje en el estado de oración de la corona escarlata de <color=#FFD780FF>Rito sagrado: Marea de aguzanieves</color> inflige Daño Elemental contra un enemigo con un Ataque Normal, este daño aumenta en un 0.5% por cada 1000 pts. de Vida Máx. que tenga Candace.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Candace_06"
       },
       {
@@ -765,6 +770,7 @@
         "Id": 722301,
         "Name": "Luz del alba",
         "Description": "Disminuye en un 20% el Coste de Aguante al escalar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],

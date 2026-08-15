@@ -292,6 +292,7 @@
         "Id": 11161,
         "Name": "Antipolvere ciclonico",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per eseguire un attacco rotante.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 11162,
         "Name": "Modalità Pulizia: Frequenza stabile",
         "Description": "Ineffa attiva il suo Modulo di pulizia potenziato per infliggere una singola iterazione di <color=#FFACFFFF>DAN da Electro ad area</color> agli avversari vicini, crea uno Scudo flussottico ed evoca {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, la sua unità d'assistenza intelligente multifunzione.\nLo Scudo flussottico assorbe i DAN in base all'ATT di Ineffa, e possiede un'efficienza di assorbimento dei <color=#FFACFFFF>DAN da Electro</color> pari a un 250%.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ineffa_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11165,
       "Name": "Ordine supremo: Disinfestazione ciclonica",
       "Description": "{LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, l'unità d'assistenza intelligente multifunzione, permette a Ineffa di sbarazzarsi facilmente degli avversari con i suoi Pugni a razzo! Ineffa lancia Birgitta per infliggere <color=#FFACFFFF>DAN da Electro ad area</color> e permetterle di restare in campo.\n\nSe Birgitta è già stata evocata in campo da Ineffa, utilizzare quest'abilità rievoca Birgitta nella posizione del bersaglio e ripristina la sua durata.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ineffa_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1162101,
         "Name": "Circuito overcloccato",
         "Description": "Se nelle vicinanze sono presenti delle nubi temporalesche create da reazioni di Carica lunare quando {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK} rilascia delle Scariche, quest'ultima sferra un attacco aggiuntivo che infligge <color=#FFACFFFF>DAN da Electro ad area</color> pari a un 65% dell'ATT di Ineffa. Tali DAN sono considerati DAN da Carica lunare.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 1162201,
         "Name": "Protocollo di permutazione panoramica",
         "Description": "#Quando usa il Tripudio elementale <color=#FFD780FF>{LINK#S11165}Ordine supremo: Disinfestazione ciclonica{/LINK}</color>, tutti i membri del tuo gruppo ottengono l'effetto Permutazione parametrica, che aumenta la maestria elementale di Ineffa e del membro attivo del gruppo di un 6% dell'ATT di Ineffa per 20{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 1162301,
         "Name": "Benedizione del presagio lunare: Centro di assemblaggio",
         "Description": "Quando un membro del gruppo innesca una reazione di Electrocarica, questa si converte in una reazione di Carica lunare, i cui DAN base aumentano di uno 0,7% per ogni 100 di ATT di Ineffa, fino a un 14% massimo.\n\nInoltre, quando Ineffa è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -742,6 +748,7 @@
         "Id": 1162501,
         "Name": "Unità di sintesi aromatica",
         "Description": "Quando Ineffa consuma del cibo, c'è un 30% di probabilità di ottenere un condimento.\n\nInoltre, sembra che a Nod-Krai esistano dei metodi per modificare l'aspetto esteriore di Birgitta...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_08"
       }
     ],

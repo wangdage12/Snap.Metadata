@@ -309,6 +309,7 @@
         "Id": 10201,
         "Name": "Colmillo de acero",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 tajos de espada consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.\nAl final del Ataque Cargado, realizará un golpe de espada más poderoso.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -525,6 +526,7 @@
         "Id": 10202,
         "Name": "Garra y trueno",
         "Description": "#Caza su presa usando las técnicas que le enseñó su maestro y su lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nAtaca con las garras del Lobo del Trueno, infligiendo <color=#FFACFFFF>Daño Electro</color> a los enemigos frente a Razor.\nAl golpear a un enemigo, Razor obtendrá una carga Electro, la cual aumentará su Recarga de Energía.\nRazor puede tener hasta 3 cargas Electro al mismo tiempo. Obtener una nueva carga Electro reiniciará su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne energía eléctrica para desatar una tormenta de rayos sobre una AdE, infligiendo una gran cantidad de <color=#FFACFFFF>Daño Electro</color>, y eliminando todas las cargas Electro de Razor.\nCada carga Electro eliminada de esta manera se convertirá en Energía Elemental.\n\n<i>En el momento en que cae el rayo , a veces se puede ver en lo más profundo de los ojos de Razor la mirada de un depredador observando a su presa.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Razor_01"
       }
     ],
@@ -550,6 +552,7 @@
         "Id": 205101,
         "Name": "Rito de la noche de brujas: Surgimiento atronador",
         "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: De la manada del Lobezno»</color>, Razor se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\nAdemás, fortalece la Habilidad Definitiva de Razor, <color=#FFD780FF>Colmillo relámpago</color>, de manera que el daño infligido por el <color=#FFD780FF>lobo interior</color> aumenta en una cantidad equivalente al 70% del ATQ de Razor.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nMientras el lobo interior invocado con la Habilidad Definitiva, <color=#FFD780FF>Colmillo relámpago</color>, esté activo, si Razor obtiene un exceso de cargas Electro creadas mediante la Habilidad Elemental, <color=#FFD780FF>Garra y trueno</color>, el lobo interior hará caer un rayo que atacará a los enemigos cercanos y les infligirá un Daño Electro en el AdE equivalente al 150% del ATQ de Razor, y que regenerará 7{NON_BREAK_SPACE}pts. de Energía Elemental para Razor. Este efecto solo puede activarse una vez por segundo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_07"
       }
     ],
@@ -767,6 +770,7 @@
       "Id": 10203,
       "Name": "Colmillo relámpago",
       "Description": "Razor invoca a su lobo interior, infligiendo <color=#FFACFFFF>Daño Electro</color> a todos los enemigos cercanos. Esto elimina todas sus cargas Electro, que se convertirán en Energía Elemental.\nEl lobo interior luchará junto a Razor mientras dure la habilidad.\n\n<color=#FFD780FF>Lobo interior</color>\n·Ataca junto a los Ataques Normales de Razor, infligiendo <color=#FFACFFFF>Daño Electro</color>.\n·Aumenta la Vel. de Ataque de Razor y su <color=#FFACFFFF>RES Electro</color>.\n·Hace que Razor sea inmune al daño que recibe por la reacción de <color=#FFACFFFF>Electrocargado</color>.\n·Desactiva los Ataques Cargados de Razor.\n·Aumenta la RES a interrupción de Razor.\n\nEstos efectos terminan cuando Razor abandona el campo de batalla.\nAl hacerlo, obtendrá una cierta cantidad de Energía Elemental en proporción a la duración restante de la habilidad. Razor solo podrá recuperar un máximo de 10 pts. de Energía de esta manera.\n\n<i>El lobo se ha despertado. La cacería está en marcha.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Razor_01"
     },
     "Inherents": [
@@ -786,6 +790,7 @@
         "Id": 202101,
         "Name": "Despertar",
         "Description": "Reduce en un 18% el TdE de <color=#FFD780FF>Garra y trueno</color>.\nAdemás, activar <color=#FFD780FF>Colmillo relámpago</color> reiniciará el TdE de <color=#FFD780FF>Garra y trueno</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_05"
       },
       {
@@ -804,6 +809,7 @@
         "Id": 202201,
         "Name": "Hambre",
         "Description": "Cuando la Energía Elemental de Razor es inferior al 50%, la Recarga de Energía aumenta en un 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_06"
       },
       {
@@ -822,6 +828,7 @@
         "Id": 202301,
         "Name": "Velocidad de lobo",
         "Description": "Disminuye en un 20% el Coste de Aguante al esprintar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

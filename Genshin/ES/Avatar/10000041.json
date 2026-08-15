@@ -277,6 +277,7 @@
         "Id": 10411,
         "Name": "Destino revelado",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 salpicaduras de agua que infligen <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para infligir <color=#80C0FFFF>Daño Hydro en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del agua y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10412,
         "Name": "Espejismo del agua",
         "Description": "Invoca unos chorros de agua para crear una ilusión del destino.\n\nLa <color=#FFD780FF>ilusión</color> tiene las siguientes características:\n·Provoca a los enemigos cercanos, atrayendo la atención de sus ataques.\n·Inflige intermitentemente <color=#80C0FFFF>Daño Hydro</color> a los enemigos cercanos.\nAl terminar su efecto, la ilusión explota e inflige <color=#80C0FFFF>Daño Hydro en el AdE</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nUtiliza una corriente de agua para impulsarse hacia atrás rápidamente y conjurar una ilusión.\n\nSolo puede existir una ilusión creada por Espejismo del agua a la vez.\n\n<i>Los astrólogos expertos siempre han soñado con usar una copia ilusoria de ellos mismos para protegerse de la inminente mala suerte, pero Mona debe ser la primera en burlarse de la mala suerte en todo Teyvat.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mona_01"
       },
       {
@@ -483,6 +485,7 @@
         "Id": 10413,
         "Name": "Torrente ilusorio",
         "Description": "<color=#FFD780FF>Reemplaza a Esprintar</color>\nMona se oculta bajo un flujo de agua, consumiendo su Aguante para moverse rápidamente.\n\nCuando está bajo el efecto de Torrente ilusorio, Mona puede moverse a gran velocidad sobre el agua.\nAl reaparecer, aplica el estado de <color=#80C0FFFF>Mojado</color> sobre los enemigos cercanos.\n\n<i>Esto es algo que Mona puede hacer, pero su maestra no. Bueno, tampoco es que su maestra esté interesada en asuntos relacionados con las Visiones Hydro...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mona_02"
       }
     ],
@@ -510,6 +513,7 @@
         "Id": 415101,
         "Name": "Rito de la noche de brujas: Fundamentos astrológicos",
         "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: De una percepción sin poner a prueba»</color>, Mona se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nCuando Mona golpee a un enemigo con un Ataque Normal o Cargado, obtendrá 1 carga de “resplandor astroacuático”. Este efecto dura 8{NON_BREAK_SPACE}s y puede acumularse hasta 3 veces. Solo puede obtenerse una acumulación de resplandor astroacuático cada 0.1{NON_BREAK_SPACE}s de esta manera. Cuando tus personajes del equipo (a excepción de Mona) causen una reacción de Vaporización contra un enemigo, se consumirán todas las cargas de resplandor astroacuático y el daño de esa reacción de Vaporización aumentará en un 5% por cada carga consumida.\nAdemás, cuando Mona golpee a un enemigo con un Ataque Normal o Cargado, también prolongará en 2{NON_BREAK_SPACE}s la duración del <color=#FFD780FF>presagio</color> en dicho enemigo. Este efecto solo puede activarse una vez cada 0.5{NON_BREAK_SPACE}s, y el <color=#FFD780FF>presagio</color> del enemigo solo se puede prolongar un máximo de 8{NON_BREAK_SPACE}s de esta manera.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_07"
       }
     ],
@@ -771,6 +775,7 @@
       "Id": 10415,
       "Name": "Órbita divina",
       "Description": "Mona invoca unas olas cristalinas para crear un reflejo del cielo estrellado, aplicando el estado de burbuja ilusoria sobre los enemigos en una gran AdE.\n\n<color=#FFD780FF>Burbuja ilusoria</color>\nInvoca una burbuja estrellada que envuelve a sus enemigos, aplicando el efecto de <color=#80C0FFFF>Mojado</color> sobre ellos. La burbuja inmoviliza a los enemigos más débiles, los cuales no podrán moverse.\nCuando un enemigo que está bajo los efectos de la burbuja ilusoria recibe daño, se producen los siguientes efectos:\n·Coloca un presagio sobre el enemigo, lo que otorga un bono de daño y también aumenta el daño del ataque que lo causa.\n·Elimina la burbuja ilusoria, infligiendo <color=#80C0FFFF>Daño Hydro</color> adicional.\n\n<color=#FFD780FF>Presagio</color>\nMientras dura la habilidad, aumenta el daño que reciben los enemigos.\n\n<i>Fue en la época en la que los dioses dibujaron por primera vez luces en el cielo cuando el “destino” comenzó a ser llamado como tal.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mona_01"
     },
     "Inherents": [
@@ -794,6 +799,7 @@
         "Id": 412101,
         "Name": "¡Atrápame si puedes!",
         "Description": "Tras haber usado <color=#FFD780FF>Torrente ilusorio</color> durante 2 s, si hay algún enemigo cerca, Mona creará automáticamente un fantasma.\nUn fantasma creado de esta manera durará 2 s, y su daño de explosión será igual al 50% del daño de <color=#FFD780FF>Espejismo del agua</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_05"
       },
       {
@@ -815,6 +821,7 @@
         "Id": 412201,
         "Name": "¡Que el destino decida!",
         "Description": "Mona obtiene un <color=#80C0FFFF>Bono de Daño Hydro</color> adicional equivalente al 20% de su Recarga de Energía.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mona_06"
       },
       {
@@ -833,6 +840,7 @@
         "Id": 412301,
         "Name": "Principios de la astrología",
         "Description": "Al fabricar materiales de ascensión de arma, hay una probabilidad del 25% de recuperar los materiales usados.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon"
       }
     ],

@@ -261,6 +261,7 @@
         "Id": 11311,
         "Name": "Allegorie",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nErlässt mit den Worten der Ursprache Befehle und führt bis zu 3 Angriffe aus, die <color=#FF9999FF>Pyro-Schaden</color> verursachen.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit im Bereich vor der Figur <color=#FF9999FF>Pyro-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FF9999FF>Pyro-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11312,
         "Name": "Verheißung des Wortes – Licht des Ungesehenen",
         "Description": "#Lässt einen Schatten vergangener Tage wiederaufleben, als die Engel noch auf Geheiß des Himmels agierten. Nicole verleiht allen Truppenmitgliedern in der Nähe den Effekt {LINK#N11310001}<color=#FFD780FF>Gabe der Kenosis</color>{/LINK}{LINK#N11310002}{/LINK}, der ihren ANG erhöht, verursacht <color=#FF9999FF>Pyro-Flächenschaden</color> und generiert einen Schild aus glühendem Licht.\nDie Schildstärke des Schilds aus glühendem Licht hängt von Nicoles ANG ab und hält bei <color=#FF9999FF>Pyro-Schaden</color> 250{NON_BREAK_SPACE}% ab.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nicole_01"
       }
     ],
@@ -514,6 +516,7 @@
         "Id": 1315101,
         "Name": "Geschenk der Hexennacht – Licht aus der Dunkelheit",
         "Description": "#Wandelt Nicole nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Die Aufgabe von Führung ...?</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht den von <color=#FFD780FF>{LINK#S11315}Arkanen Abbildern{/LINK}</color> der Hexerei-Figuren verursachten Schaden um 300{NON_BREAK_SPACE}% von Nicoles ANG.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_07"
       }
     ],
@@ -715,6 +718,7 @@
       "Id": 11315,
       "Name": "Verheißung des Wortes – Reise zum Himmel",
       "Description": "#Spinnt aus den goldenen Fäden des Lichts des Himmels den „verankerten“ Schicksalsweg, verursacht <color=#FF9999FF>Pyro-Flächenschaden</color> und wechselt in den Modus „Stille Andacht“.\nBeschwört, wenn Nicole sich in diesem Modus befindet und aktive Truppenmitglieder in der Nähe Gegner treffen, ein „Arkanes Abbild“ herbei. Dieses führt abgestimmte Angriffe gegen Gegner aus und verursacht Flächenschaden des Elementartyps des Truppenmitglieds. Dieser Schaden hängt vom ANG des Truppenmitglieds ab und gilt als von ihm verursachter Schaden.\nDieser Effekt hat eine Abklingzeit von 3{NON_BREAK_SPACE}s. Nachdem Nicole in den Modus „Stille Andacht“ gewechselt ist, kann er maximal 4-mal ausgelöst werden.\n\nDarüber hinaus scheinen die „Arkanen Abbilder“ von Hexerei-Figuren optisch etwas anders auszusehen ...",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nicole_01"
     },
     "Inherents": [
@@ -738,6 +742,7 @@
         "Id": 1312101,
         "Name": "Methexis",
         "Description": "#Nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S11312}Verheißung des Wortes – Licht des Ungesehenen{/LINK}</color> „beobachtet“ Nicole die anderen eigenen aktuellen Truppenmitglieder 20{NON_BREAK_SPACE}s lang. Stuft, nachdem die beobachtete Figur 3{NON_BREAK_SPACE}s lang fortlaufend auf dem Feld war, deren Effekt {LINK#N11310001}<color=#FFD780FF>Gabe der Kenosis</color>{/LINK} zu {LINK#N11310002}<color=#FFD780FF>Führung der Theosis</color>{/LINK} hoch, wodurch ihr ANG zusätzlich um 300 Pkt. erhöht wird. Stuft, wenn es sich bei der beobachteten Figur um eine Hexerei-Figur handelt, deren Effekt <color=#FFD780FF>Gabe der Kenosis</color> direkt zu <color=#FFD780FF>Führung der Theosis</color> hoch.\nAbgesehen von Nicole wird <color=#FFD780FF>Führung der Theosis</color> aller anderen Figuren nach dem Verlassen des Felds wieder auf <color=#FFD780FF>Gabe der Kenosis</color> zurückgestuft.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_05"
       },
       {
@@ -758,6 +763,7 @@
         "Id": 1312201,
         "Name": "Philokalie",
         "Description": "#Stuft, nachdem ein aktuelles Truppenmitglied in der Nähe einem Gegner Elementar-Schaden zugefügt hat, Nicoles eigene {LINK#N11310001}<color=#FFD780FF>Gabe der Kenosis</color>{/LINK} 8{NON_BREAK_SPACE}s lang zu {LINK#N11310002}<color=#FFD780FF>Führung der Theosis</color>{/LINK} hoch.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_06"
       },
       {
@@ -778,6 +784,7 @@
         "Id": 1312301,
         "Name": "Nepsis",
         "Description": "#Wandelt, wenn du dich in Teyvat nicht im Kampf befindest und bereits den Schatzkompass für das aktuelle Gebiet erhalten hast, Nicoles heftigen Schlag in „Führung des Boten“ um: Ruft eine Seelie in der Nähe herbei, die den Weg aufzeigt, und löst den gleichen Effekt wie der Schatzkompass des aktuellen Gebiets aus.\nDieser Effekt hat eine Abklingzeit von 5{NON_BREAK_SPACE}s und ist in Sphären, Gebietssäuberungen und im Gewundenen Abgrund nicht wirksam.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_08"
       }
     ],

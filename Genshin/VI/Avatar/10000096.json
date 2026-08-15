@@ -371,6 +371,7 @@
         "Id": 10961,
         "Name": "Lời Mời Trảm Thủ",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần đánh liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, xông về phía kẻ địch gần đó và chém một nhát.\nTiếp tục nhấn giữ, Arlecchino sẽ tiêu hao thể lực để thực hiện di chuyển nhanh tối đa 5s.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.\n\n<color=#FFD780FF>Bữa Tiệc Cái Chết Đỏ</color>\nKhế Ước Sinh Mệnh vốn có của Arlecchino khi lớn hơn hoặc bằng 30% Giới Hạn HP thì cô ấy sẽ tiến vào trạng thái Bữa Tiệc Cái Chết Đỏ: Sát thương Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp gây ra sẽ chuyển thành <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> không thể bị thay thế.\nTrong trạng thái Bữa Tiệc Cái Chết Đỏ, Tấn Công Thường của Arlecchino khi trúng kẻ địch sẽ tăng sát thương gây ra của lần đó, mức tăng tương đương với Tấn Công của Arlecchino nhân với phần trăm nhất định của Khế Ước Sinh Mệnh hiện tại, đồng thời tiêu hao 7.5% Khế Ước Sinh Mệnh hiện có. Mỗi 0.03s tối đa tiêu hao một lần Khế Ước Sinh Mệnh theo cách này. Khi tiêu hao Khế Ước Sinh Mệnh theo cách này, sẽ khiến Kỹ Năng Nguyên Tố \"Vạn Vật Hóa Tro\" giảm 0.8s thời gian chờ.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -584,6 +585,7 @@
         "Id": 10962,
         "Name": "Vạn Vật Hóa Tro",
         "Description": "Hiệu lệnh Ách Nguyệt Huyết Hỏa để gây <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> cho nhiều kẻ địch gần đó, đồng thời lao đến chém vào một kẻ địch trong số đó, gây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color>.\nĐòn tấn công nêu trên khi trúng kẻ địch sẽ khiến chúng chịu hiệu ứng Chỉ Lệnh Nợ Máu.\n\n<color=#FFD780FF>Chỉ Lệnh Nợ Máu</color>\n·Chỉ Lệnh Nợ Máu duy trì 30s, mỗi 5s sẽ gây cho kẻ địch một lần <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, tối đa gây ra 2 lần sát thương, sát thương này được xem là sát thương Kỹ Năng Nguyên Tố;\n·Khi Arlecchino thi triển Trọng Kích hoặc Kỹ Năng Nộ \"Ách Nguyệt Trỗi Dậy\", sẽ thu hồi và xóa Chỉ Lệnh Nợ Máu ở xung quanh, mỗi thu hồi một Chỉ Lệnh Nợ Máu sẽ cho Arlecchino Khế Ước Sinh Mệnh tương đương 65% Giới Hạn HP.\n·Trong 35s sau khi thi triển Kỹ Năng Nguyên Tố, tối đa có thể cung cấp cho Arlecchino Khế Ước Sinh Mệnh tương đương 145% Giới Hạn HP thông qua Chỉ Lệnh Nợ Máu. Trong thời gian duy trì, nếu lần nữa thi triển Kỹ Năng Nguyên Tố sẽ làm mới thời gian duy trì và giới hạn Khế Ước Sinh Mệnh mà Chỉ Lệnh Nợ Máu cung cấp.\n\n<i>Theo quan điểm của cô ấy, không phải hạt lúa mì nào rơi xuống đất cũng sẽ mọc thành bông lúa, có thể sẽ bị mục rữa trong im lặng. Nhưng những kẻ cản trở cô thì khi hóa thành tro chắc chắn có thể dùng để nuôi dưỡng hoa màu.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Arlecchino_01"
       }
     ],
@@ -783,6 +785,7 @@
       "Id": 10965,
       "Name": "Ách Nguyệt Trỗi Dậy",
       "Description": "Arlecchino tung ra Ách Nguyệt Huyết Hỏa Dực, thu hồi và xóa Chỉ Lệnh Nợ Máu ở xung quanh, gây <color=#FF9999FF>Sát Thương Phạm Vi Nguyên Tố Hỏa</color>, đồng thời xóa thời gian chờ của Kỹ Năng Nguyên Tố \"Vạn Vật Hóa Tro\" và hồi phục HP cho bản thân, lượng hồi phục căn cứ vào giá trị Khế Ước Sinh Mệnh và Tấn Công.\n\n<i>Theo lý thuyết thường ngày của Teyvat thì mặt trăng ngoài trăng tròn ra đều là ẩn dụ của điềm xấu, chỉ được sử dụng bởi thuật giả kim và chiêm tinh.\nLiệu vầng trăng đỏ mà cô ấy mơ thấy có phải là điềm báo không? Phải, nhưng số phận bi thảm đó thuộc về những kẻ chọc giận cô.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Arlecchino_01"
     },
     "Inherents": [
@@ -806,6 +809,7 @@
         "Id": 962101,
         "Name": "Chỉ Khổ Đau Mới Có Thể Bù Đắp",
         "Description": "<color=#FFD780FF>Chỉ Lệnh Nợ Máu</color> có đặc tính sau:\n·Khi đánh bại kẻ địch mang Chỉ Lệnh Nợ Máu do bản thân Arlecchino gán lên, sẽ cung cấp cho Arlecchino Khế Ước Sinh Mệnh tương đương 130% Giới Hạn HP;\n·5s sau khi gán ấn, sẽ tăng cấp thành Chỉ Lệnh Nợ Máu - Kết. Khi thu hồi sẽ chuyển thành cung cấp Khế Ước Sinh Mệnh cho Arlecchino tương đương 130%.\nKhế Ước Sinh Mệnh được cung cấp bằng cách thức trên, giới hạn giá trị Khế Ước Sinh Mệnh sẽ không thể vượt quá giới hạn vốn có của <color=#FFD780FF>Vạn Vật Hóa Tro</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 962201,
         "Name": "Chỉ Sức Mạnh Mới Có Thể Bảo Vệ",
         "Description": "Căn cứ vào mức Tấn Công vượt quá 1000 của Arlecchino, mỗi 100 điểm Tấn Công sẽ khiến Arlecchino nhận được 1% Kháng Vật Lý và Kháng Tất Cả Nguyên Tố. Tối đa tăng đến 20% Kháng Vật Lý và Kháng Tất Cả Nguyên Tố bằng cách này.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_06"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 962301,
         "Name": "Chỉ Ách Nguyệt Mới Có Thể Thấu Hiểu",
         "Description": "Trong trạng thái chiến đấu, Arlecchino nhận 40% <color=#FF9999FF>buff Sát Thương Nguyên Tố Hỏa</color>, đồng thời chỉ có thể hồi phục HP thông qua <color=#FFD780FF>Ách Nguyệt Trỗi Dậy</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_07"
       }
     ],
@@ -1051,7 +1057,7 @@
         "Context": "Giống như ông ta không thích tôi, tôi cũng không có ấn tượng tốt gì về ông ta. Pulcinella là một thị trưởng đạt chuẩn, hoặc có thể nói là xuất sắc. Ông ta có thể dùng cái giá rất nhỏ để mang về lợi ích khổng lồ, được đánh giá cao trong giới chính trị. Nhưng tiếc là trong cái giá \"rất nhỏ\" ấy thường xuất hiện bóng dáng của Căn Nhà Hơi Ấm, nên sớm muộn gì chúng tôi cũng sẽ... Hừm."
       },
       {
-        "Title": "Về \"Sandrone\"...",
+        "Title": "Về Sandrone - Nghiên Cứu",
         "Context": "Tôi không có hứng thú với cô ấy. Cô ấy đam mê nghiên cứu, nên rất ít khi lộ diện trước công chúng, rất nhiều sĩ quan thậm chí còn chưa từng gặp mặt. So với cái tên chia bản thân thành nhiều mảnh để phân công đi khắp nơi trên thế giới thì có thể nói rằng cô ấy nằm ở một thái cực khác."
       },
       {

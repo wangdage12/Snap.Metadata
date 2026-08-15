@@ -357,6 +357,7 @@
         "Id": 10331,
         "Name": "Torrente cortante",
         "Description": "#<color=#FFD780FF>Ataque Normal\n</color>Realiza hasta 6 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, el poder de Hydro se acumulará en la punta de la flecha. Una flecha totalmente cargada con un torrente infligirá <color=#80C0FFFF>Daño Hydro</color> al golpear, y aplicará el estado de obstrucción del flujo.\n\n<color=#FFD780FF>Obstrucción del flujo</color>\nInflige <color=#80C0FFFF>Daño Hydro en el AdE</color> cuando Tartaglia ataca a un objetivo afectado por obstrucción del flujo. El daño infligido por este estado se considera daño de Ataque Normal.\n·Obstrucción del flujo - Destello: cuando se dispara un Disparo Preciso totalmente cargado contra un enemigo bajo los efectos de obstrucción del flujo, inflige daño continuo en el AdE. Solo puede activarse una vez cada 0.7{NON_BREAK_SPACE}s.\n·Obstrucción del flujo - Explosión: al derrotar a un enemigo bajo los efectos de obstrucción del flujo, se provocará una explosión Hydro que aplicará dicho efecto sobre los enemigos cercanos.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.\nNo es posible activar el Ataque Descendente cuando Tartaglia se encuentra en posición de combate cuerpo a cuerpo de Legado del mal: Olas furiosas.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -714,6 +715,7 @@
         "Id": 10332,
         "Name": "Legado del mal: Olas furiosas",
         "Description": "#Lanza un arsenal hecho de agua pura que inflige <color=#80C0FFFF>Daño Hydro</color> a los enemigos cercanos y entra en posición de combate cuerpo a cuerpo.\nEn esta posición, los ataques Normales y Cargados de Tartaglia se convierten en <color=#80C0FFFF>Daño Hydro</color>, el cual no puede ser sustituido imbuyéndolo de otro elemento, y cambian de la siguiente manera:\n\n<color=#FFD780FF>Ataque Normal </color>\nRealiza hasta 6 tajos <color=#80C0FFFF>Hydro</color> consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para desatar un doble golpe de espadas que inflige <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Obstrucción del flujo - Corte</color>\nAl golpear con un ataque cuerpo a cuerpo a un enemigo bajo los efectos de obstrucción del flujo, Tartaglia realiza Obstrucción del flujo - Corte, infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color>. Este daño es considerado como daño de Habilidad Elemental, y solo se puede activar una vez cada 1.5{NON_BREAK_SPACE}s.\n\nDespués de 30{NON_BREAK_SPACE}s, o tras volver a activar la habilidad, Tartaglia regresa a su posición de combate a distancia, y esta habilidad entra en TdE. Cuanto más tiempo permanezca Tartaglia en su posición de combate cuerpo a cuerpo, más durará el TdE.\nSi el retorno a la posición de combate a distancia se produce automáticamente después de 30{NON_BREAK_SPACE}s, el TdE será aún más largo.\n\n<i>Elige usar un arco para superar su torpe manejo de dicha arma. Cuando la ocasión lo requiere, usará su verdadera fuerza...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Tartaglia_01"
       }
     ],
@@ -915,6 +917,7 @@
       "Id": 10333,
       "Name": "Caos: Obliteración",
       "Description": "Realiza diferentes ataques dependiendo de la posición de combate de Tartaglia:\n\n<color=#FFD780FF>Combate a distancia: Flecha del caos</color>\nDispara rápidamente una flecha mágica Hydro, infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> y aplicando el estado de obstrucción del flujo.\nTras lanzar la habilidad, recupera una parte de su coste de Energía Elemental.\n\n<color=#FFD780FF>Combate cuerpo a cuerpo: Luz de obliteración</color>\nRealiza un corte con una gran AdE, infligiendo una gran cantidad de <color=#80C0FFFF>Daño Hydro</color> a todos los enemigos cercanos y provocando Obstrucción del flujo - Estallido.\n\n<color=#FFD780FF>Obstrucción del flujo - Estallido</color>\nAl atacar con Luz de obliteración a un enemigo afectado por obstrucción del flujo, consumirá dicho efecto y creará una hidroexplosión, infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color>.\nEl daño que inflige Obstrucción del flujo - Estallido se considera daño de Habilidad Definitiva.\n\n<i>Rara vez se ven aguas turbulentas en su nevada tierra natal. Tal vez su habilidad para controlar el agua se debe a su comprensión de lo preciada que es.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Tartaglia_01"
     },
     "Inherents": [
@@ -936,6 +939,7 @@
         "Id": 332101,
         "Name": "Infinito sinfín",
         "Description": "Aumenta en 8 s la duración de obstrucción del flujo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_03"
       },
       {
@@ -954,6 +958,7 @@
         "Id": 332201,
         "Name": "Espada hidromorfa",
         "Description": "Cuando Tartaglia está en la posición de combate cuerpo a cuerpo de <color=#FFD780FF>Legado del mal: Olas furiosas</color>, si los Ataques Normales o Cargados hacen Daño CRIT, el enemigo golpeado será afectado por obstrucción del flujo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_06"
       },
       {
@@ -972,6 +977,7 @@
         "Id": 332301,
         "Name": "Maestro de armas",
         "Description": "Aumenta en 1 el nivel del <color=#FFD780FF>Ataque Normal</color> de todos los miembros de tu equipo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_07"
       }
     ],
@@ -1398,7 +1404,7 @@
       },
       {
         "Title": "Historia del personaje (5)",
-        "Context": "Cuando regresó a casa, el joven ya no era el mismo.\nYa no estaba asustado ni indeciso, sino que se había vuelto frívolo y confiado. Actuaba como si este mundo girara en torno a él, y como si la guerra existiera por y para él.\nLos conflictos provocan cambios, y este cambio caprichoso e impredecible atrajo a Ajax como un hipnótico caleidoscopio.\nA ojos de su padre, Ajax, su tercer hijo y por quien tanto se preocupaba, había cambiado para peor y provocado estragos innecesarios en su pacífica vida en la costa.\nO quizás sería más exacto decir que Ajax se había vuelto una persona muy problemática, porque fuera adonde fuera, había peleas y disputas, con las que el se deleitaba.\nHasta que un día, después de una violenta pelea en la que hubo incluso víctimas, su padre no tuvo más remedio que entregar a su querido hijo como recluta de los Fatui.\nEsperaba que el estricto entrenamiento militar de los Fatui pudiera afinar su temperamento, pero Ajax acabó venciendo a todos los soldados, que llegaban completamente armados y huían despavoridos.\nEsto fue una gran decepción para su padre, pero también llamó la atención de Pulcinella, el quinto de Los Once.\nConmocionado por la gran fuerza de Ajax, e interesado en cómo este se convirtió en el centro de la discordia, Pulcinella introdujo a Ajax en los Fatui con el pretexto de “imponerle un castigo”, obligándolo a comenzar desde abajo y a aceptar el deber de servir a la Emperatriz del Hielo.\nSus insaciables deseos de victoria siempre estarían saciados si luchaba con los Fatui, y su ego, en constante aumento, se alimentaría de la euforia de vencer a poderosos enemigos.\nHasta que por fin, Ajax fue elegido para ser uno de Los Once de los Fatui bajo el nombre de Tartaglia “Nobile” y convirtiéndose en una de las personas más poderosas de Snezhnaya.\nPero convertirse en Tartaglia no era su objetivo final. Para alguien que buscaba conquistar el mundo, aquel solo era un pequeño paso en su largo viaje."
+        "Context": "Cuando regresó a casa, el joven ya no era el mismo.\nYa no estaba asustado ni indeciso, sino que se había vuelto frívolo y confiado. Actuaba como si este mundo girara en torno a él, y como si la guerra existiera por y para él.\nLos conflictos provocan cambios, y este cambio caprichoso e impredecible atrajo a Ajax como un hipnótico caleidoscopio.\nA ojos de su padre, Ajax, su tercer hijo y por quien tanto se preocupaba, había cambiado para peor y provocado estragos innecesarios en el pacífico pueblo de Morepesok.\nO quizás sería más exacto decir que Ajax se había vuelto una persona muy problemática, porque fuera adonde fuera, había peleas y disputas, con las que el se deleitaba.\nHasta que un día, después de una violenta pelea en la que hubo incluso víctimas, su padre no tuvo más remedio que entregar a su querido hijo como recluta de los Fatui.\nEsperaba que el estricto entrenamiento militar de los Fatui pudiera afinar su temperamento, pero Ajax acabó venciendo a todos los soldados, que llegaban completamente armados y huían despavoridos.\nEsto fue una gran decepción para su padre, pero también llamó la atención de Pulcinella, el quinto de Los Once.\nConmocionado por la gran fuerza de Ajax, e interesado en cómo este se convirtió en el centro de la discordia, Pulcinella introdujo a Ajax en los Fatui con el pretexto de “imponerle un castigo”, obligándolo a comenzar desde abajo y a aceptar el deber de servir a la Emperatriz del Hielo.\nSus insaciables deseos de victoria siempre estarían saciados si luchaba con los Fatui, y su ego, en constante aumento, se alimentaría de la euforia de vencer a poderosos enemigos.\nHasta que por fin, Ajax fue elegido para ser uno de Los Once de los Fatui bajo el nombre de Tartaglia “Nobile” y convirtiéndose en una de las personas más poderosas de Snezhnaya.\nPero convertirse en Tartaglia no era su objetivo final. Para alguien que buscaba conquistar el mundo, aquel solo era un pequeño paso en su largo viaje."
       },
       {
         "Title": "Carta de Tartaglia a su familia",
@@ -1431,5 +1437,11 @@
     "Description": "Diseño de tarjeta de presentación.\nEsta tarjeta marca el paso de Nobile por el mundo con su dinámica y cambiante técnica de combate. Sin embargo, esta, llamada “Legado del mal”, no era originalmente suya, sino que se la enseñó esa joven solitaria que habitaba en los rincones más oscuros del universo.",
     "Icon": "UI_NameCardIcon_Tartaglia",
     "PicturePrefix": "UI_NameCardPic_Tartaglia"
+  },
+  "TraceEffect": {
+    "Id": 215022,
+    "Name": "Estela: Nobile",
+    "Description": "La estela epopéyica de Tartaglia. “No bajes la guardia”.",
+    "Icon": "UI_TraceEffectIcon_Tartaglia"
   }
 }

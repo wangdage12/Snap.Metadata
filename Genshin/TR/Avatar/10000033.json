@@ -357,6 +357,7 @@
         "Id": 10331,
         "Name": "Keskin Sel",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda Suyun gücü birikir. Tam yüklü bu sel oku <color=#80C0FFFF>Su Hasarı</color> verir ve Dalga durum etkisi uygular.\n\n<color=#FFD780FF>Dalga</color>\nTartaglia'nın Dalgadan etkilenen düşmanlara yaptığı çeşitli saldırılar, düşmanlara <color=#80C0FFFF>Su Alan Hasarı</color> verir. Bu şekilde verilen Hasar, Normal Saldırı Hasarı olarak geçer.\n·Dalga Parıltısı: Dalgadan etkilenen bir düşmanı vuran ve arka arkaya Alan Hasarı veren tam yüklü bir Hedefli Atış. 0,7 saniyede bir uygulanabilir.\n·Dalga Patlaması: Dalgadan etkilenen bir düşman yenildiğinde yakındaki düşmanlara vurunca Dalga etkisi veren bir Su patlaması ortaya çıkar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.\nTartaglia, Kötülüğün Mirası: Dalgaların Öfkesi Yakın Saldırı duruşundayken havadan saldırı yapamaz.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -714,6 +715,7 @@
         "Id": 10332,
         "Name": "Kötülüğün Mirası: Dalgaların Öfkesi",
         "Description": "Saf sudan üretilmiş silahlar çıkararak etrafındaki düşmanlara <color=#80C0FFFF>Su Hasarı</color> verir ve Yakın Saldırı duruşuna geçer.\nBu duruştayken Tartaglia'nın Normal ve Yüklü Saldırıları diğer herhangi bir element tesiriyle değişmeyecek şekilde <color=#80C0FFFF>Su Hasarına</color> dönüşür ve şu şekilde değişir:\n\n<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 <color=#80C0FFFF>Su</color> saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak çapraz saldırı yapar ve <color=#80C0FFFF>Su Hasarı</color> verir.\n\n<color=#FFD780FF>Dalga Darbesi</color>\nDalgadan etkilenen bir düşmana yakından saldırdığında <color=#80C0FFFF>Su Alan Hasarı</color> veren Dalga Darbesi açığa çıkar. Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır ve 1,5 saniyede bir uygulanabilir.\n\n30sn sonra veya yetenek tekrar kullanıldığında bu beceri sona erer. Tartaglia, Menzilli Saldırı Duruşuna geri döner ve bu becerinin Bekleme Süresi başlar. Tartaglia, Yakın Saldırı duruşunda ne kadar uzun kalırsa Bekleme Süresi de o kadar uzun olur.\n30sn sonunda menzilli saldırı duruşuna otomatik olarak dönülürse Bekleme Süresi daha da uzun olur.\n\n<i>Yay kullanmasının amacı yay kullanmaktaki zayıflığını yenmekti ama savaş ciddiyse onun da ciddileşmesi gerekir...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Tartaglia_01"
       }
     ],
@@ -915,6 +917,7 @@
       "Id": 10333,
       "Name": "Yıkım: Yok Etme",
       "Description": "Kullanıldığında Tartaglia'nın duruşuna bağlı olarak farklı saldırılar yapar.\n\n<color=#FFD780FF>Menzilli Saldırı Duruşu: Yıkım Atışı</color>\nSu etkisine sahip büyülü bir oku hızla atar ve <color=#80C0FFFF>Su Alan Hasarı</color> vererek Dalga durumu uygular.\nKullanıldıktan sonra Enerji Maliyetinin bir kısmı geri verilir.\n\n<color=#FFD780FF>Yakın Saldırı Duruşu: Yok Eden Işık</color>\nGeniş bir etki alanı olan bir darbe indirir ve etraftaki tüm düşmanlara vurarak çok büyük miktarda <color=#80C0FFFF>Su Hasarı</color> verir. Böylece Dalga Saldırısı tetiklenir.\n\n<color=#FFD780FF>Dalga Saldırısı</color>\nYok edici sular, Dalgadan etkilenen bir düşmana vurduğunda Dalga durumu düşmanlardan kalkar ve <color=#80C0FFFF>Su Alan Hasarı</color> veren bir Su Patlaması tetiklenir.\nBu şekilde verilen Hasar, Element Patlaması Hasarı olarak geçer.\n\n<i>Karlı vatanında akarsular nadir görülür. Belki suya hükmetme becerisi suyun ne kadar kıymetli olduğunu bilmesinden geliyordur.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Tartaglia_01"
     },
     "Inherents": [
@@ -936,6 +939,7 @@
         "Id": 332101,
         "Name": "Ebediyet",
         "Description": "Dalga süresini 8 saniye uzatır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_03"
       },
       {
@@ -954,6 +958,7 @@
         "Id": 332201,
         "Name": "Akıntı Kılıcı",
         "Description": "Tartaglia <color=#FFD780FF>Kötülüğün Mirası: Dalgaların Öfkesi</color> Yakın Saldırı duruşundayken Kritik Vuruş yaptığında Normal ve Yüklü Saldırılar düşmanlara Dalga etkisi uygular.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_06"
       },
       {
@@ -972,6 +977,7 @@
         "Id": 332301,
         "Name": "Silah Ustası",
         "Description": "Kendi grup üyelerinin <color=#FFD780FF>Normal Saldırı</color> Seviyesini 1 artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tartaglia_07"
       }
     ],
@@ -1431,5 +1437,11 @@
     "Description": "İsim Kartı arka planı.\nSürekli değişen savaş tarzıyla kıtada sürekli gezip tozan ve gününü gün eden birinin tüm izlerini taşıyor. Yine de \"Kötülüğün Mirası\" aslında kendisinin değil. Bu, evrenin en karanlık köşelerinde oturan yalnız kızın ona öğrettiği bir gerçek.",
     "Icon": "UI_NameCardIcon_Tartaglia",
     "PicturePrefix": "UI_NameCardPic_Tartaglia"
+  },
+  "TraceEffect": {
+    "Id": 215022,
+    "Name": "Yankı: Asilzade",
+    "Description": "Tartaglia'nın Hayali Yankısı. \"Kusurlar göz açıp kapayıncaya kadar yok olur.\"",
+    "Icon": "UI_TraceEffectIcon_Tartaglia"
   }
 }

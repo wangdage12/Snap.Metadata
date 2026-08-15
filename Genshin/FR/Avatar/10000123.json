@@ -292,6 +292,7 @@
         "Id": 11231,
         "Name": "Coupe d'aile radieuse",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour exécuter une entaille vers l'avant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -490,6 +491,7 @@
         "Id": 11232,
         "Name": "Forme binaire : Convergence et division",
         "Description": "Purifie la substance des âmes et en appelle au désir de la {LINK#N11230001}<color=#FFD780FF>transmutation essentielle</color>{/LINK}. Pendant la transmutation de Durin, sa compétence élémentaire <color=#FFD780FF>Forme binaire : Convergence et division</color> est convertie en compétence élémentaire spéciale <color=#FFD780FF>Transmutation : Confirmation de pureté</color> et son attaque normale <color=#FFD780FF>Coupe d'aile radieuse</color> en la compétence élémentaire spéciale <color=#FFD780FF>Transmutation : Déni de ténèbre</color>.\n\n<color=#FFD780FF>Transmutation : Confirmation de pureté</color>\nInflige une fois des <color=#FF9999FF>DGT Pyro de zone</color> aux ennemis proches, annule la transmutation essentielle et active l'état <color=#FFD780FF>Confirmation de pureté</color> pendant 30 s.\n\n<color=#FFD780FF>Transmutation : Déni de ténèbre</color>\nInflige 3 fois de suite des <color=#FF9999FF>DGT Pyro</color> aux ennemis en face, annule la transmutation essentielle et active l'état <color=#FFD780FF>Déni de ténèbre</color> pendant 30 s.\n\nLorsque Durin entre dans l'état <color=#FFD780FF>Confirmation de pureté</color> ou <color=#FFD780FF>Déni de ténèbre</color> en combat, il récupère de l'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 6 s de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Durin_01"
       }
     ],
@@ -512,6 +514,7 @@
         "Id": 1235101,
         "Name": "Veillée de la sorcière : Ode à l'ascension",
         "Description": "Après avoir terminé le <color=#FFD780FF>devoir de la sorcière « De ce monde »</color>, Durin devient un personnage <color=#FFD780FF>héxère</color>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <color=#FFD780FF>Hexerei : Rituel secret</color> qui améliore les personnages héxères.\n\n<color=#FFD780FF>Hexerei : Rituel secret</color>\nTous les effets, sauf la durée, de l'aptitude d'élévation {LINK#P1232101}<color=#FFD780FF>Manifestation lumineuse du calcul divin</color>{/LINK} augmentent de 75 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_03"
       }
     ],
@@ -805,6 +808,7 @@
       "Id": 11235,
       "Name": "Principe de pureté : Comme la lumière qui fluctue",
       "Description": "Libère la puissance de la « bête » de différentes manières. Durin peut utiliser différents déchaînements élémentaires selon sa {LINK#N11230001}<color=#FFD780FF>transmutation essentielle</color>{/LINK}.\n\n<color=#FFD780FF>Principe de pureté : Comme la lumière qui fluctue</color>\nEn <color=#FFD780FF>confirmation de pureté</color>, Durin utilise le déchaînement élémentaire <color=#FFD780FF>Principe de pureté : Comme la lumière qui fluctue</color> pour infliger 3 fois des <color=#FF9999FF>DGT Pyro de zone</color> aux ennemis en avant et matérialiser sa puissance en un <color=#FFD780FF>dragon de flamme blanche</color>. Le dragon de flamme blanche suit le personnage déployé et attaque de façon intermittente les ennemis à portée, infligeant des <color=#FF9999FF>DGT Pyro de zone</color> considérés comme des DGT de déchaînement élémentaire.\n\n<color=#FFD780FF>Principe de ténèbre : Comme les étoiles qui brûlent</color>\nEn <color=#FFD780FF>déni de ténèbre</color>, Durin utilise le déchaînement élémentaire <color=#FFD780FF>Principe de ténèbre : Comme les étoiles qui brûlent</color> pour infliger 3 fois des <color=#FF9999FF>DGT Pyro de zone</color> aux ennemis en avant et matérialiser sa puissance en un <color=#FFD780FF>dragon de corrosion noire</color>. Le dragon de corrosion noire suit le personnage déployé et attaque de façon intermittente un ennemi à portée, infligeant des <color=#FF9999FF>DGT Pyro</color> considérés comme des DGT de déchaînement élémentaire.\n\nDe plus, Durin déclenche le déchaînement élémentaire <color=#FFD780FF>Principe de pureté : Comme la lumière qui fluctue</color> s'il n'est pas dans un état spécial de sa transmutation essentielle.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Durin_01"
     },
     "Inherents": [
@@ -829,6 +833,7 @@
         "Id": 1232101,
         "Name": "Manifestation lumineuse du calcul divin",
         "Description": "Durin déclenche différents bonus selon la forme sous laquelle il matérialise son pouvoir lors de son déchaînement élémentaire :\n\n<color=#FFD780FF>Dragon de flamme blanche</color>\nLorsqu'un personnage de l'équipe à proximité a déclenché une réaction de Brûlure, de Surcharge, de Dispersion Pyro ou de Cristallisation Pyro sur un ennemi ou inflige des <color=#FF9999FF>DGT Pyro</color> ou des <color=#99FF88FF>DGT Dendro</color> sur un ennemi brûlé, la <color=#FF9999FF>RÉS Pyro</color> et la RÉS de l'élément impliqué dans la réaction de l'ennemi diminuent de 20 % pendant 6 s.\n\n<color=#FFD780FF>Dragon de corrosion noire</color>\nLes DGT infligés par les réactions d'Évaporation et de Fonte déclenchées par Durin augmentent de 40 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_01"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 1232201,
         "Name": "Chaos, semblable à la nuit",
         "Description": "Après avoir utilisé un déchaînement élémentaire, Durin obtient l'effet Fusion primordiale des formes pendant 20 s, lui accordant 10 cumuls de fusion primordiale. Lorsqu'une attaque intermittente du <color=#FFD780FF>dragon de flamme blanche</color> ou du <color=#FFD780FF>dragon de corrosion noire</color> inflige des DGT, 1 cumul de fusion primordiale est consommé pour augmenter davantage les DGT d'une valeur équivalant à 3 % des DGT d'origine par tranche de 100 pts d'ATQ, les DGT pouvant être augmentés d'un maximum de 75 % de cette manière. Un seul cumul est consommé si un <color=#FFD780FF>dragon de flamme blanche</color> ou un <color=#FFD780FF>dragon de corrosion noire</color> touche plusieurs ennemis en même temps.\nDéclencher à nouveau un déchaînement élémentaire réinitialise la quantité de cumuls de fusion primordiale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_02"
       },
       {
@@ -869,6 +875,7 @@
         "Id": 1232301,
         "Name": "Échos de la terre jaillissante",
         "Description": "Augmente les récompenses d'une expédition de 20 h à Mondstadt de 25 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_07"
       }
     ],

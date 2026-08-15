@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "Anemo DMG Bonus +15%.",
-      "Meningkatkan 60% Swirl DMG. Mengurangi 40% Elemental RES musuh sesuai elemen yang terkandung dalam swirl selama 10 detik."
+      "DMG yang diakibatkan reaksi Swirl +60% dan DMG yang diakibatkan reaksi Stellar Swirl +20%. Elemental RES musuh yang terpengaruh -40% selama 10 detik untuk jenis elemen yang terlibat dalam reaksi Swirl. Saat memicu reaksi Stellar Swirl terhadap musuh, Cryo RES mereka juga akan berkurang 40%. Efek pengurangan RES dengan jenis elemen yang sama tidak dapat ditumpuk."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "Electro DMG Bonus +15%.",
-      "DMG yang diakibatkan Overloaded, Electro-Charged, Superconduct, dan Hyperbloom +40%. DMG yang diakibatkan Aggravate +20%. DMG yang diakibatkan Lunar-Charged +20%. Saat memicu reaksi-reaksi elemental di atas atau reaksi Quicken, CD Elemental Skill -1 detik. Efek ini dapat terpicu sekali setiap 0,8 detik."
+      "DMG yang diakibatkan Overloaded, Electro-Charged, Superconduct, dan Hyperbloom +40%. Bonus DMG dari reaksi Aggravate +20%. DMG yang diakibatkan Lunar-Charged dan Stellar-Conduct +20%. Saat memicu Reaksi Elemental di atas atau reaksi Quicken, CD Elemental Skill -1 detik. Efek ini dapat terpicu sekali setiap 0,8 detik."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "ATK +18%.",
-      "DMG reaksi Superconduct +80%. Saat Karakter yang mengenakan menyerang musuh yang terpengaruh oleh reaksi Superconduct, CRIT Rate dari serangan ini +16%. Dalam perjalanan ke Snezhnaya, mungkin kamu akan mendapatkan berkah baru ...."
+      "DMG yang diakibatkan reaksi Superconduct +80%, DMG yang diakibatkan reaksi Stellar-Conduct +40%. Saat Karakter yang mengenakan menyerang musuh yang terpengaruh oleh reaksi Superconduct atau Stellar-Conduct, CRIT Rate serangan ini +16%."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "ATK +18%.",
+      "Setelah Karakter yang mengenakan memicu reaksi Stellar Swirl, maka CRIT Rate +16% dan DMG Stellar Swirl +40% selama 10 detik."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Heart of the Furnace",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "ATK +18%.",
+      "Saat Karakter yang mengenakan memicu reaksi Stellar Glimmer atau mengakibatkan DMG reaksi Stellar Glimmer, maka ATK +12% dan DMG reaksi Stellar Glimmer yang diakibatkan Karakter party di sekitar +50% selama 12 detik. Efek di atas juga dapat terpicu saat Karakter yang mengenakan ada di dalam party namun tidak berada dalam medan pertempuran. Bonus DMG dari Set Artefak dengan nama yang sama tidak dapat ditumpuk."
     ]
   },
   {

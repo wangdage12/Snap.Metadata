@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Whirlwind Thrust",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 6 serangan tombak berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melakukan serangan ke arah atas.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.\nSaat melakukan Plunging Attack, Xiao tidak akan terkena DMG karena terjatuh dari ketinggian.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Lemniscatic Wind Cycling",
         "Description": "Xiao menerjang ke depan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> pada musuh di jalurnya.\nDapat digunakan di udara.\nMemiliki 2 kali penggunaan (charge) dari awal.\n\n<i>Menurut legenda dari dataran lain, dunia ini suatu hari akan dihancurkan oleh dua roda angin raksasa. Keahlian Xiao dalam menggunakan tombak tiada duanya, dan dapat menebas musuh seperti dua roda angin raksasa di legenda tersebut.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Bane of All Evil",
       "Description": "Xiao mengenakan Yaksha Mask yang ditakuti oleh para iblis dan juga Archon pada ribuan tahun lalu.\n\n<color=#FFD780FF>Yaksha Mask</color>\n·Meningkatkan kekuatan melompat Xiao secara drastis.\n·Meningkatkan DMG dan area serangan.\n·Mengonversi DMG serangan menjadi <color=#80FFD7FF>Anemo DMG</color> yang tidak dapat ditimpa oleh Elemental Infusion lainnya.\n\nDalam status ini, Xiao akan terus kehilangan HP.\nEfek ini akan hilang saat Xiao keluar dari medan pertempuran.\n\n<i>Saat mengenakan topeng Yaksha-nya, Xiao berubah wujud menjadi Vigilant Yaksha — sang penakluk iblis yang ditakuti. Kekuatan yang sangat besar harus dibayar dengan rasa sakit yang sama besarnya. Dia juga disebut sebagai \"The Bane of All Evil.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Conqueror of Evil: Tamer of Demons",
         "Description": "Meningkatkan 5% DMG Xiao saat berada dalam status <color=#FFD780FF>Bane of All Evil</color>. Selama durasi skill, DMG Xiao akan terus meningkat sebesar 5% setiap 3 detik.\nBatas maksimum peningkatan DMG adalah 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Dissolution Eon: Heaven Fall",
         "Description": "Menggunakan <color=#FFD780FF>Lemniscatic Wind Cycling</color> akan meningkatkan 15% DMG Lemniscatic Wind Cycling selanjutnya selama 7 detik.\nEfek dapat ditumpuk hingga 3 lapis. Durasi akan diperbarui setiap mendapat tumpukan baru.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Transcension: Gravity Defier",
         "Description": "Mengurangi 20% konsumsi Stamina Karakter party sendiri saat memanjat.\nEfek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Style kartu nama.\nDia menanti datangnya hari di mana dia bisa mengenakan topeng itu sambil berdansa. Bukan untuk membasmi iblis, tetapi untuk menikmati suara seruling di tengah lautan bunga.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Echo: Vigilant Yaksha",
+    "Description": "Envisaged Echo milik Xiao. \"Bertempur demi membersihkan kejahatan, dan kami akan melakukannya semasa hidup kami.\"",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

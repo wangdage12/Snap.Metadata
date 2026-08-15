@@ -261,6 +261,7 @@
         "Id": 11311,
         "Name": "Alegoría",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nProclama un decreto en el lenguaje primigenio y realiza hasta 3 ataques que infligen <color=#FF9999FF>Daño Pyro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para infligir <color=#FF9999FF>Daño Pyro en el AdE</color> frente a sí misma tras un breve periodo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#FF9999FF>Daño Pyro en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11312,
         "Name": "Revelación: Luz no manifiesta",
         "Description": "Recrea un fugaz destello de la autoridad que llegó a ejercerse en nombre de los cielos en una era pasada para otorgar a todos los personajes cercanos del equipo el efecto de {LINK#N11310001}<color=#FFD780FF>gracia de la kénosis</color>{/LINK}{LINK#N11310002}{/LINK}, el cual aumenta el ATQ de dichos personajes. Además, inflige <color=#FF9999FF>Daño Pyro en el AdE</color> y crea un escudo refulgellamas.\nLa absorción de daño del escudo refulgellamas dependerá del ATQ de Nicole, y tiene un 250% de efectividad de absorción de <color=#FF9999FF>Daño Pyro</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nicole_01"
       }
     ],
@@ -514,6 +516,7 @@
         "Id": 1315101,
         "Name": "Rito de la noche de brujas: Luz en la oscuridad",
         "Description": "Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: ¿El deber de una guía?»</color>, Nicole se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nAumenta el daño que infligen las <color=#FFD780FF>{LINK#S11315}proyecciones arcanas{/LINK}</color> de los personajes taumatúrgicos en una cantidad equivalente al 300% del ATQ de Nicole.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_07"
       }
     ],
@@ -715,6 +718,7 @@
       "Id": 11315,
       "Name": "Revelación: Escalinata del ascenso divino",
       "Description": "#Nicole teje el camino del destino “anclado” con hilos de luz dorada, inflige <color=#FF9999FF>Daño Pyro en el AdE</color> y pasa al modo de “plegaria contemplativa”.\nMientras Nicole se encuentre en dicho modo, cuando un personaje en uso cercano del equipo golpee a un enemigo, se invocará una proyección arcana que realizará un ataque coordinado contra el enemigo e infligirá Daño en el AdE del elemento correspondiente al tipo elemental del personaje en cuestión. Dicho daño se beneficiará del ATQ del personaje y se considerará infligido por este mismo.\nEste efecto puede ocurrir, como máximo, una vez cada 3{NON_BREAK_SPACE}s, y solo podrá activarse 4 veces cada vez que Nicole cambie al modo de plegaria contemplativa.\n\nAdemás, las proyecciones arcanas de los personajes taumatúrgicos parecen tener un aspecto diferente...",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nicole_01"
     },
     "Inherents": [
@@ -738,6 +742,7 @@
         "Id": 1312101,
         "Name": "Méthexis",
         "Description": "#Tras usar la Habilidad Elemental, <color=#FFD780FF>{LINK#S11312}Revelación: Luz no manifiesta{/LINK}</color>, Nicole “observará” continuamente a tu personaje en uso del equipo (a excepción de ella misma) durante 20{NON_BREAK_SPACE}s. Cuando un personaje observado permanezca en el campo de batalla durante 3{NON_BREAK_SPACE}s, su {LINK#N11310001}<color=#FFD780FF>gracia de la kénosis</color>{/LINK} mejorará a {LINK#N11310002}<color=#FFD780FF>guía de la teosis</color>{/LINK}, lo que aumentará su ATQ de forma adicional en 300{NON_BREAK_SPACE}pts. Si el personaje observado es un personaje taumatúrgico, el efecto de <color=#FFD780FF>gracia de la kénosis</color> se convertirá directamente en <color=#FFD780FF>guía de la teosis</color>.\nA excepción de Nicole, cuando los demás personajes se retiren del combate, su <color=#FFD780FF>guía de la teosis</color> volverá a convertirse en <color=#FFD780FF>gracia de la kénosis</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_05"
       },
       {
@@ -758,6 +763,7 @@
         "Id": 1312201,
         "Name": "Filocalia",
         "Description": "#Cuando un personaje en uso cercano del equipo golpee a un enemigo con Daño Elemental, la {LINK#N11310001}<color=#FFD780FF>gracia de la kénosis</color>{/LINK} de Nicole mejorará a {LINK#N11310002}<color=#FFD780FF>guía de la teosis</color>{/LINK} durante 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_06"
       },
       {
@@ -778,6 +784,7 @@
         "Id": 1312301,
         "Name": "Nepsis",
         "Description": "#Cuando Nicole se encuentre fuera de combate en una región de Teyvat en la que se haya desbloqueado la Brújula buscatesoros, su Ataque Cargado se convertirá en “Emisaria guía”, con lo que invocará a un Seelie cercano para que muestre el camino, activando un efecto similar al de la Brújula buscatesoros de la región.\nEste efecto tiene un TdE de 5{NON_BREAK_SPACE}s, y no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_08"
       }
     ],

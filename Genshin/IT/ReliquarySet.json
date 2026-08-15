@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "Bonus DAN da Anemo +15%.",
-      "Aumenta di un 60% i DAN da Turbinio. Riduce di un 40% la RES dell'avversario all'elemento infuso dal Turbinio per 10{NON_BREAK_SPACE}s."
+      "Aumenta i DAN da reazione di Turbinio di un 60%, e quelli da Turbinio astrale di un 20%. Riduce di un 40% la RES dell'avversario all'elemento infuso dal Turbinio per 10{NON_BREAK_SPACE}s. Dopo aver innescato Turbinio astrale su un avversario, diminuisce anche la RES a Cryo di un 40%. Le riduzioni alla RES dello stesso tipo elementale non si accumulano."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "Bonus DAN da Electro +15%.",
-      "Aumenta di un 40% i DAN da Sovraccarico, Electrocarica, Superconduzione e Iperfioritura, di un 20% il bonus DAN conferito da Accentuazione, e di un 20% i DAN causati da Carica lunare. Innescare Vivificazione o una delle suddette reazioni elementali riduce il TdR dell'abilità elementale di 1{NON_BREAK_SPACE}s. Si può verificare una sola volta ogni 0,8{NON_BREAK_SPACE}s."
+      "Aumenta di un 40% i DAN da Sovraccarico, Electrocarica, Superconduzione e Iperfioritura, di un 20% il bonus DAN conferito da Accentuazione, e di un 20% i DAN causati da Carica lunare e Astroconduzione. Innescare Vivificazione o una delle suddette reazioni elementali riduce il TdR dell'abilità elementale di 1{NON_BREAK_SPACE}s. Si può verificare una sola volta ogni 0,8{NON_BREAK_SPACE}s."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "ATT +18%.",
-      "I DAN da reazione di Superconduzione aumentano di un 80%. Quando il personaggio che equipaggia il set sferra un attacco a un avversario affetto da Superconduzione, il tasso di CRIT di tale attacco aumenta di un 16%. Percorrendo la strada verso Snezhnaya, sarà possibile ottenere una nuova benedizione..."
+      "I DAN da reazione di Superconduzione e Astroconduzione aumentano rispettivamente di un 80% e di un 40%. Quando il personaggio che equipaggia il set sferra un attacco a un avversario affetto da Superconduzione o Astroconduzione, il tasso di CRIT di tale attacco aumenta di un 16%."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "ATT +18%.",
+      "Per 10{NON_BREAK_SPACE}s dopo aver innescato una reazione di Turbinio astrale, il tasso di CRIT e i DAN da reazione di Turbinio astrale inflitti dal personaggio aumentano rispettivamente di un 16% e di un 40%."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Cuore della fornace",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "ATT +18%.",
+      "Quando il personaggio innesca una reazione di Barlume astrale o quando infligge DAN da reazione di Barlume astrale, il suo ATT aumenta di un 12% per 12{NON_BREAK_SPACE}s. Inoltre, i DAN da reazione di Barlume astrale inflitti dai membri vicini del gruppo aumentano di un 50%. Gli effetti sopracitati possono attivarsi anche quando il personaggio non è in campo, e i bonus DAN forniti da set di manufatti con lo stesso nome non si accumulano."
     ]
   },
   {

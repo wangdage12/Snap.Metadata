@@ -307,6 +307,7 @@
         "Id": 11151,
         "Name": "Tecnica di Favonius - Rituale",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo il percorso e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -443,6 +444,7 @@
         "Id": 11152,
         "Name": "Ordinazione immersiva",
         "Description": "#È ora di un trucchetto divertente! Evoca la Pioggia sacramentale in modi diversi in base al tipo di pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nDopo una breve preghiera, Dahlia evoca la Pioggia sacramentale davanti a sé.\n\n<color=#FFD780FF>Pressione prolungata</color>\nDahlia inizia a pregare e, una volta finito, evoca una Pioggia sacramentale nella posizione designata.\n\n<color=#FFD780FF>Pioggia sacramentale</color>\nSi innescano degli effetti diversi a seconda di chi ci entra in contatto:\n· se a toccare la Pioggia è un avversario, la Pioggia esplode e infligge <color=#80C0FFFF>DAN da Hydro ad area</color> agli avversari vicini;\n· se a toccare la Pioggia è un membro del gruppo, quest'ultimo rimbalza in aria verso l'alto.\n\nIn campo può esistere solo 1 Pioggia sacramentale evocata da Dahlia alla volta.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dahlia_01"
       }
     ],
@@ -643,6 +645,7 @@
       "Id": 11155,
       "Name": "Salterio radioso",
       "Description": "Appellandosi al divino con sincerità e lodi, Dahlia infligge <color=#80C0FFFF>DAN da Hydro ad area</color> agli avversari vicini, e conferisce ai membri del gruppo una Grazia di Favonius evocando uno Scudo di Grazia sacra.\nL'assorbimento DAN dello Scudo di Grazia sacra si basa sui PS max di Dahlia e possiede un 250% di efficienza di assorbimento DAN contro i <color=#80C0FFFF>DAN da Hydro</color>.\n\n<color=#FFD780FF>Grazia di Favonius</color>\nMentre l'effetto è attivo, Dahlia può consumare 1 accumulo di Benedizione per generare un nuovo Scudo di Grazia sacra quando questo viene infranto a causa dei DAN subiti.\n\nDahlia può ottenere Benedizione nei modi seguenti:\n· quando il membro attivo del suo gruppo colpisce 4 volte gli avversari con attacchi normali mentre è sotto l'effetto di Grazia di Favonius (conferendo a Dahlia 1 accumulo di Benedizione);\n· dopo aver innescato l'effetto del suo talento d'ascensione Grazia gentile del vento (se sbloccato).\nDahlia può ottenere fino a un massimo di 4 accumuli di Benedizione nel corso della durata di Grazia di Favonius.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dahlia_01"
     },
     "Inherents": [
@@ -664,6 +667,7 @@
         "Id": 1152101,
         "Name": "Grazia gentile del vento",
         "Description": "#Quando i personaggi sotto l'effetto di Grazia di Favonius del Tripudio elementale <color=#FFD780FF>{LINK#S11155}Salterio radioso{/LINK}</color> innescano reazioni di Congelamento sugli avversari, conferiscono a Dahlia 2 accumuli di Benedizione. Quest'effetto può attivarsi una volta ogni 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_05"
       },
       {
@@ -685,6 +689,7 @@
         "Id": 1152201,
         "Name": "Preghiera di gioia benedetta",
         "Description": "Quando il membro attivo del gruppo è sotto l'effetto di Grazia di Favonius del Tripudio elementale <color=#FFD780FF>{LINK#S11155}Salterio radioso{/LINK}</color>, la sua VEL d'ATT aumenta in base ai PS max di Dahlia. Per ogni 1.000 di PS max, la VEL d'ATT aumenta di uno 0,5%, fino a un 20% massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_06"
       },
       {
@@ -703,6 +708,7 @@
         "Id": 1152301,
         "Name": "Venti pellegrini",
         "Description": "Durante il giorno (06:00-18:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.\nNon ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale. Piè veloce non è cumulabile.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

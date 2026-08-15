@@ -324,6 +324,7 @@
         "Id": 10461,
         "Name": "Lance secrète de Wangsheng",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 6 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10462,
         "Name": "Chaperon de la renaissance",
         "Description": "Seule la flamme éternelle peut purifier le mal de ce monde.\nHu Tao consomme un certain montant de PV pour repousser les ennemis proches, et entre dans l'état Paramita Papilio.\n\n<color=#FFD780FF>Paramita Papilio</color>\n· L'ATQ de Hu Tao augmente proportionnellement à ses PV max au moment où elle entre dans cet état. Le bonus ainsi conféré ne peut pas dépasser 400 % de son ATQ de base.\n· Les DGT d'attaque sont convertis en <color=#FF9999FF>DGT Pyro</color>, et ne peuvent pas être enchantés.\n· Les attaques chargées infligent l'effet Bourgeon de prune.\n· Augmente la RÉS à l'interruption de Hu Tao.\n\n<color=#FFD780FF>Bourgeon de prune</color>\nLes ennemis affectés par Bourgeon de prune subissent des <color=#FF9999FF>DGT Pyro</color> toutes les 4 s, qui sont considérés comme des DGT de compétence élémentaire.\nLa même cible ne peut être affectée que par un seul Bourgeon de prune à la fois, et la durée de cet effet ne peut être rafraîchie que par Hu Tao.\n\nL'état <color=#FFD780FF>Paramita Papilio</color> se termine à la fin de sa durée, lorsque Hu Tao quitte le champ de bataille ou lorsqu'elle est vaincue.\n\n<i>La technique de la lance secrète est basée sur plusieurs principes, dont le premier est : « la lance ouvre les portes de l'au-delà et les papillons forment un pont entre les deux mondes. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Hutao_01"
       }
     ],
@@ -755,6 +757,7 @@
       "Id": 10463,
       "Name": "Apaisement divin",
       "Description": "Faisant appel aux âmes ardentes, Hu Tao inflige des <color=#FF9999FF>DGT Pyro</color> dans une large zone.\nHu Tao récupère à chaque ennemi touché (5 ennemis maximum) une quantité de PV proportionnelle à ses PV max.\nLes DGT infligés et les PV récupérés sont plus importants si les PV de Hu Tao sont inférieurs ou égaux à 50 % lorsque la compétence touche.\n\n<i>Le Funérarium Wangsheng ne voit pas d'un bon œil les âmes refusant de quitter ce monde. La crémation est pour Hu Tao le meilleur moyen d'avoir l'esprit tranquille – mais plus elle est anxieuse et plus son feu est puissant.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Hutao_01"
     },
     "Inherents": [
@@ -777,6 +780,7 @@
         "Id": 462101,
         "Name": "Chrysalide",
         "Description": "Le taux CRIT de tous les personnages de l'équipe (hormis Hu Tao) augmente de 12 % pendant 8 s lorsque l'état <color=#FFD780FF>Paramita Papilio</color> conféré par <color=#FFD780FF>Chaperon de la renaissance</color> prend fin.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Hutao_05"
       },
       {
@@ -798,6 +802,7 @@
         "Id": 462201,
         "Name": "Sang bouillant",
         "Description": "Hu Tao obtient un <color=#FF9999FF>bonus de DGT Pyro</color> de 33 % lorsque ses PV sont inférieurs ou égaux à 50 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Hutao_06"
       },
       {
@@ -816,6 +821,7 @@
         "Id": 462301,
         "Name": "Plus il y en a, mieux c'est",
         "Description": "18 % de chances d'obtenir un plat suspect supplémentaire du même type lorsque vous cuisinez un plat parfait.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_ExtraFailedItem"
       }
     ],

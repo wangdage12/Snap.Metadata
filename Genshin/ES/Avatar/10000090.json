@@ -292,6 +292,7 @@
         "Id": 10901,
         "Name": "Bayoneta de vanguardia (modificada)",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente e infligir daño a los enemigos en el camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10902,
         "Name": "Fuego rápido de proximidad e intercepción",
         "Description": "Chevreuse apoya rápidamente su rifle contra el hombro para disparar al enemigo e infligir <color=#FF9999FF>Daño Pyro en el AdE</color>.\nDurante un tiempo después de que Chevreuse realice su disparo, restaura Vida a tu personaje en uso de forma continua en función de la Vida Máx. de Chevreuse.\nEsta habilidad se libera de manera distinta al mantener pulsado.\n\n<color=#FFD780FF>Mantener pulsado</color>\nApunta y fija a un enemigo en su campo de visión para dispararle con un fuego de intercepción de mayor precisión. Si Chevreuse posee una bala de punta sobrecargada, la disparará e infligirá mayor cantidad de <color=#FF9999FF>Daño Pyro</color> con una mayor AdE.\nChevreuse obtiene una bala de punta sobrecargada cuando un miembro del equipo cercano causa una reacción de Sobrecarga. Solo se puede tener 1 bala de punta sobrecargada al mismo tiempo.\n\n<color=#FFD780FF>Arjé: ousía</color>\nCada cierto tiempo, cuando el Fuego rápido de proximidad e intercepción de Chevreuse alcance a un objetivo, caerá un filo fluyente que inflige <color=#FF9999FF>Daño Pyro</color> cargado de energía ousía.\n\n<i>“De hecho, el único término que aparece en el reglamento de entrenamiento es ‘fuego de intercepción’, pero según el protagonista de una novela, usar vocabulario técnico para ponerle nombres llamativos a las habilidades es más motivador, y además puede hacer que el enemigo pierda empuje desde un principio. Me pareció algo muy lógico, ¡así que modifiqué el reglamento!”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Chevreuse_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10905,
       "Name": "Bombardeo radial",
       "Description": "Chevreuse utiliza su rifle para lanzar una granada explosiva a sus enemigos e infligir <color=#FF9999FF>Daño Pyro en el AdE</color>. Al impactar, la granada se divide en varias bombas secundarias.\nDichas bombas explotan tras un breve intervalo de tiempo e infligen <color=#FF9999FF>Daño Pyro</color> a los enemigos cercanos.\n\n<i>“Por regla general, bombardear un área cuadrada es lo más eficaz contra un enemigo en formación cerrada, pero por desgracia, la sección transversal de la onda expansiva de la explosión es circular como un pastel, por lo que las granadas solo pueden esparcirse en círculo, al igual que la fruta alrededor de un pastel”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Chevreuse_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 902101,
         "Name": "Vigilancia coordinada",
         "Description": "#Si el equipo está formado únicamente por personajes <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> y hay al menos un personaje Pyro y uno Electro en él, Chevreuse otorga el efecto de “maniobra coordinada” a los miembros del equipo cercanos. Cuando un personaje bajo este efecto causa una reacción de Sobrecarga, la RES <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> del enemigo afectado por dicha reacción se reduce en un 40% durante 6{NON_BREAK_SPACE}s.\nEl efecto de maniobra coordinada desaparecerá cuando el tipo elemental de los miembros de tu equipo no cumpla con los requisitos del talento de ascensión.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chevreuse_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 902201,
         "Name": "Formación lineal integral",
         "Description": "#Cuando Chevreuse dispara una bala de punta sobrecargada de <color=#FFD780FF>Fuego rápido de proximidad e intercepción</color>, el ATQ de todos los personajes <color=#FF9999FF>Pyro</color> y <color=#FFACFFFF>Electro</color> cercanos del equipo aumenta en un 1% durante 30{NON_BREAK_SPACE}s por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Chevreuse. El ATQ puede aumentar en un máximo de un 40% de esta manera.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chevreuse_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 902301,
         "Name": "Marcha rápida táctica",
         "Description": "Disminuye en un 20% el Coste de Aguante al esprintar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

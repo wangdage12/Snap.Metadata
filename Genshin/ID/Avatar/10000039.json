@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "Kätzlein Style",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan berturut-turut menggunakan busur.\n\n<color=#FFD780FF>Charged Attack</color>\nMengerahkan sebuah <color=#FFD780FF>Serangan Membidik</color> yang lebih akurat untuk mengakibatkan DMG lebih besar.\nSaat membidik, es akan berkumpul di ujung anak panah. Panah dengan es yang terkumpul penuh akan mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "Icy Paws",
         "Description": "Menembakkan Icy Paws yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> dan membentuk Perisai saat Icy Paws mengenai musuh.\nJumlah DMG yang dapat ditahan Perisai ditentukan berdasarkan Max HP Diona, dan durasinya ditentukan berdasarkan jumlah musuh yang terkena Icy Paws.\n\n<color=#FFD780FF>Tekan</color>\nMenembakkan 2 Icy Paws dengan cepat\n\n<color=#FFD780FF>Tahan</color>\nBergerak mundur dengan cepat, kemudian menembakkan 5 Icy Paws.\nPerisai yang terbentuk setelah tombol skill ditahan, akan memperoleh bonus 75% penyerapan DMG.\n\nPerisai ini memiliki bonus 250% penyerapan <color=#99FFFFFF>Cryo DMG</color>. Saat Perisai terbentuk, karakter yang sedang digunakan akan terpengaruh <color=#99FFFFFF>Cryo</color> dalam waktu singkat.\n\n<i>Saat Diona baru menjadi bartender, sebanyak apa pun es yang dimasukkannya ke dalam koktail, tidak pernah ada seorang pun pemabuk yang terluka karena dingin. Tetapi setelah Diona mendapatkan Vision — kini dia bisa membuat minuman sangat dingin yang membuat para pemabuk kedinginan hingga sakit kepala. Hebat!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "Choice Treasures",
-        "Description": "Selama 20 detik setelah melancarkan Elemental Skill <color=#FFD780FF>Icy Paws</color>, saat Karakter party memicu reaksi Superconduct atau Stellar-Conduct, maka Diona juga akan melancarkan 3 <color=#FFD780FF>Icy Paw</color> secara bersamaan. <color=#FFD780FF>Icy Paw</color> yang dilancarkan dengan cara ini tidak dapat menghasilkan Elemental Particle, dan tidak akan menciptakan Perisai saat mengenai musuh. Efek ini dapat terpicu sekali setiap 3,5 detik.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Diona akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Description": "Selama 20 detik setelah melancarkan Elemental Skill <color=#FFD780FF>Icy Paws</color>, saat Karakter party memicu reaksi Stellar-Conduct, Superconduct, Cryo Swirl, atau Stellar Swirl, maka Diona juga akan melancarkan 3 <color=#FFD780FF>Icy Paw</color> secara bersamaan. <color=#FFD780FF>Icy Paw</color> yang dilancarkan dengan cara ini tidak dapat menghasilkan Elemental Particle, dan tidak akan menciptakan Perisai saat mengenai musuh. Efek ini dapat terpicu sekali setiap 3,5 detik.\nSelain itu, Diona juga akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color> saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} atau memasuki status <color=#FFD780FF>Radiance: Stellar Swirl</color> selama 8 detik setelah Karakter dalam party di sekitar memicu reaksi Stellar Swirl.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "Signature Mix",
       "Description": "Melemparkan minuman dingin spesial yang mengakibatkan <color=#99FFFFFF>Cryo DMG area</color> dan menciptakan Drunken Mist dalam area tersebut.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Mengakibatkan <color=#99FFFFFF>Cryo DMG</color> berkelanjutan terhadap semua musuh yang berada di dalam area.\n·Memulihkan HP karakter yang berada di dalam lingkup area secara terus-menerus.\n\n<i> Racikan mengerikan yang bahkan dianggap tidak manusiawi oleh Diona. Rasa mengerikan yang muncul di awal kecapan harus disuguhkan kepada musuh. Sedangkan rasa dingin dan aroma manis yang muncul setelahnya... sayang sekali, hanya bisa dinikmati dengan hidung dan permukaan kulit saja.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "Cat's Tail Secret Menu",
         "Description": "Meningkatkan 10% Movement SPD dan mengurangi 10% konsumsi Stamina untuk Karakter yang dilindungi oleh Perisai dari skill <color=#FFD780FF>Icy Paws</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "Drunkards' Farce",
         "Description": "Mengurangi 10% ATK musuh yang masuk ke area skill <color=#FFD780FF>Signature Mix</color> selama 15 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "Complimentary Bar Food",
         "Description": "Saat masakan jenis pemulihan dimasak dengan sempurna, memiliki 12% kemungkinan mendapatkan hasil 2 kali lipat.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -853,7 +860,7 @@
         "Id": 396,
         "Name": "Cat's Tail Closing Time",
         "Description": "Karakter dalam area <color=#FFD780FF>Signature Mix</color> akan mendapatkan efek berikut berdasarkan jumlah HP mereka:\n·Meningkatkan 30% Bonus Pemulihan HP saat HP sama dengan atau kurang dari 50%.\n·Elemental Mastery +200 ketika HP di atas 50%.",
-        "SpecialDescription": "Karakter dalam area <color=#FFD780FF>Signature Mix</color> akan mendapatkan efek berikut berdasarkan jumlah HP mereka:\n·Meningkatkan 30% Incoming Healing Bonus saat HP sama dengan atau kurang dari 50%.\n·Elemental Mastery +200 ketika HP di atas 50%.\n\nSelain itu, Max HP Diona meningkat 25%.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Meningkatkan 40% DMG Superconduct dan Stellar-Conduct yang diakibatkan oleh Karakter yang berada di dalam area <color=#FFD780FF>Signature Mix</color>.",
+        "SpecialDescription": "Karakter dalam area <color=#FFD780FF>Signature Mix</color> akan mendapatkan efek berikut berdasarkan jumlah HP mereka:\n·Meningkatkan 30% Incoming Healing Bonus saat HP sama dengan atau kurang dari 50%.\n·Elemental Mastery +200 ketika HP di atas 50%.\n\nSelain itu, Max HP Diona meningkat 25%.\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: DMG reaksi yang sesuai yang diakibatkan oleh Karakter dalam area Signature Mix meningkat:\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG reaksi Superconduct dan Stellar-Conduct meningkat 40%;\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG reaksi Cryo Swirl dan Stellar Swirl meningkat 40%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

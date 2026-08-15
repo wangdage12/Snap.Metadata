@@ -292,6 +292,7 @@
         "Id": 11231,
         "Name": "Parlak Kanat Darbesi",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 kılıç saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak ileri doğru bir darbe yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -490,6 +491,7 @@
         "Id": 11232,
         "Name": "İkili Form: Birleşme ve Ayrılma",
         "Description": "Ruhların ve dileklerin özünü saflaştırarak {LINK#N11230001}<color=#FFD780FF>Temel Dönüşüm</color>{/LINK} geçirir. Dönüşüm sırasında Durin'in <color=#FFD780FF>İkili Form: Birleşme ve Ayrılma</color> Element Becerisi, <color=#FFD780FF>Dönüşüm: Saflığın Kabulü</color> özel Element Becerisi olarak değişir. <color=#FFD780FF>Parlak Kanat Darbesi</color> Normal Saldırısı ise <color=#FFD780FF>Dönüşüm: Karanlığın Reddi</color> özel Element Becerisi olarak değişir.\n\n<color=#FFD780FF>Dönüşüm: Saflığın Kabulü</color>\nYakındaki düşmanlara 1 defa <color=#FF9999FF>Ateş Alan Hasarı</color> verir, Temel Dönüşümü tersine çevirir ve 30 saniyeliğine <color=#FFD780FF>Saflığın Kabulü</color> durumuna girer.\n\n<color=#FFD780FF>Dönüşüm: Karanlığın Reddi</color>\nÖndeki düşmanlara art arda 3 defa <color=#FF9999FF>Ateş Hasarı</color> verir, Temel Dönüşümü tersine çevirir ve 30 saniyeliğine <color=#FFD780FF>Karanlığın Reddi</color> durumuna girer.\n\nDurin savaştayken <color=#FFD780FF>Saflığın Kabulü</color> veya <color=#FFD780FF>Karanlığın Reddi</color> durumuna girdiğinde belirli miktarda Element Enerjisi yeniler. Element Enerjisi bu şekilde her 6 saniyede bir yenilenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Durin_01"
       }
     ],
@@ -512,6 +514,7 @@
         "Id": 1235101,
         "Name": "Cadının Gece Ayini: Yükselişe Övgü",
         "Description": "<color=#FFD780FF>Cadının Ödevi: Bu Dünyaya Ait</color> tamamlandıktan sonra Durin bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n{LINK#P1232101}<color=#FFD780FF>Kutsal Hesabın Işık Tezahürü</color>{/LINK} Yükseltme Yeteneğinin süresi hariç tüm etkilerini %75 artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_03"
       }
     ],
@@ -805,6 +808,7 @@
       "Id": 11235,
       "Name": "Saflık İlkesi: Değişen Işık Misali",
       "Description": "\"Canavar\"ın gücünü farklı şekillerde ortaya çıkar. Durin, {LINK#N11230001}<color=#FFD780FF>Temel Dönüşüm</color>{/LINK} durumuna bağlı olarak farklı Element Patlamaları kullanabilir.\n\n<color=#FFD780FF>Saflık İlkesi: Değişen Işık Misali</color>\nDurin, <color=#FFD780FF>Saflığın Kabulü</color> durumundayken <color=#FFD780FF>Saflık İlkesi: Değişen Işık Misali</color> Element Patlamasını kullanarak önündeki düşmanlara 3 defa <color=#FF9999FF>Ateş Alan Hasarı</color> verir ve gücünü <color=#FFD780FF>Beyaz Alev Ejderhası</color> formunda ortaya çıkarır. Beyaz Alev Ejderhası mevcut aktif karakteri takip eder ve belirli aralıklarla yakındaki düşmanlara saldırarak <color=#FF9999FF>Ateş Alan Hasarı</color> verir. Bu Hasar Element Patlaması Hasarı sayılır.\n\n<color=#FFD780FF>Karanlık İlkesi: Korlaşan Yıldız Misali</color>\nDurin, <color=#FFD780FF>Karanlığın Reddi</color> durumundayken <color=#FFD780FF>Karanlık İlkesi: Korlaşan Yıldız Misali</color> Element Patlamasını kullanarak önündeki düşmanlara 3 defa <color=#FF9999FF>Ateş Alan Hasarı</color> verir ve gücünü <color=#FFD780FF>Karanlık Çürüme Ejderhası</color> formunda ortaya çıkarır. Karanlık Çürüme Ejderhası mevcut aktif karakteri takip eder ve belirli aralıklarla yakındaki tek bir düşmana saldırarak <color=#FF9999FF>Ateş Hasarı</color> verir. Bu Hasar Element Patlaması Hasarı sayılır.\n\nDurin, Temel Dönüşüm sonucunda özel bir durumda değilse <color=#FFD780FF>Saflık İlkesi: Değişen Işık Misali</color> Element Patlamasını kullanır.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Durin_01"
     },
     "Inherents": [
@@ -829,6 +833,7 @@
         "Id": 1232101,
         "Name": "Kutsal Hesabın Işık Tezahürü",
         "Description": "Durin, Element Patlamasını kullandığında gücünün ortaya çıktığı forma bağlı olarak farklı güçlendirmeler tetikler.\n\n<color=#FFD780FF>Beyaz Alev Ejderhası</color> formunda:\nYakındaki grup üyeleri bir düşman üzerinde Yanma, Yüksek Voltaj, Ateş Girdabı veya Ateş Kristalleşmesi tepkimelerini tetiklediğinde ya da Yanma etkisindeki bir düşmana <color=#FF9999FF>Ateş Hasarı</color> veya <color=#99FF88FF>Doğa Hasarı</color> verdiğinde, 6sn boyunca o düşmanın <color=#FF9999FF>Ateş Direnci</color> ve tepkimeye dahil olan ilgili Elementin Direnci %20 azalır.\n\n<color=#FFD780FF>Karanlık Çürüme Ejderhası</color> formunda:\nDurin'in Buharlaşma ve Erime Tepkimesi Hasarı %40 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_01"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 1232201,
         "Name": "Gecenin Formuna Bürünen Kaos",
         "Description": "Durin, bir Element Patlaması kullandıktan sonra 20 saniyeliğine Ezeli Form Birleşimi etkisi kazanır ve 10 kademe Ezeli Birleşim elde eder. <color=#FFD780FF>Beyaz Alev Ejderhası</color> veya <color=#FFD780FF>Karanlık Çürüme Ejderhası</color> tarafından aralıklarla yapılan bir saldırı Hasar verdiğinde 1 kademe Ezeli Birleşim tüketilir ve verilen Hasar, her 100 Saldırı için orijinal Hasarın %3'ü kadar artar . Bu şekilde en fazla %75 ek Hasar verilebilir. <color=#FFD780FF>Beyaz Alev Ejderhası</color> veya <color=#FFD780FF>Karanlık Çürüme Ejderhası</color> tarafından yapılan tek bir saldırı birden fazla düşmana isabet ettiğinde yalnızca bir kademe Ezeli Birleşim tüketilir.\nElement Patlaması tekrar kullanıldığında Ezeli Kaynaşım kademeleri sıfırlanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_02"
       },
       {
@@ -869,6 +875,7 @@
         "Id": 1232301,
         "Name": "Kabaran Toprağın Yankıları",
         "Description": "20 saatliğine bir Mondstadt Keşfine gönderildiğinde %25 daha fazla ödül kazanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_07"
       }
     ],

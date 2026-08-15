@@ -261,6 +261,7 @@
         "Id": 11301,
         "Name": "Erfassungsprotokoll",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Steinkristalle während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#FFE699FF>Geo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11302,
         "Name": "Gegenmaßnahme – Lumis Kampfschrei!",
         "Description": "Abenteuer mit Lumi! Abhängig von der Art, wie du drückst, führt Lumi unterschiedliche Angriffe aus.\n\n<color=#FFD780FF>Drücken</color>\nLumi greift im <color=#FFD780FF>{LINK#N11300001}Super-Modus{/LINK}</color> an und fügt Gegnern in der Nähe fortlaufend <color=#FFE699FF>Geo-Flächenschaden</color> zu. Lumi fügt, wenn ein Mondkäfig in der Nähe ist, Gegnern in der Nähe zusätzlich <color=#FFE699FF>Geo-Flächenschaden</color> zu, der als Schaden durch die Reaktion Mond-Kristallisation gewertet wird.\n\n<color=#FFD780FF>Wiederholtes Drücken</color>\nJetzt zeigen wir ihnen, was wir wirklich draufhaben! Durch wiederholtes Drücken der Elementarfähigkeit oder des Standardangriffs nach dem Anwenden der Elementarfähigkeit füttert Linnea Lumi mit funkelnden Edelsteinen. Die sattgefressene Lumi greift dann im <color=#FFD780FF>{LINK#N11300001}Ultra-Modus{/LINK}</color> an, fügt Gegnern in der Nähe einmalig besonders starken <color=#FFE699FF>Geo-Flächenschaden</color> zu, der als Mond-Kristallisations-SCH gewertet wird, und wechselt dann in den <color=#FFD780FF>{LINK#N11300001}Standard-Modus{/LINK}</color>.\nErhöht bei wiederholtem Drücken der Elementarfähigkeit Linneas Unterbrechungs-WDS.\n\n<i>„Jetzt bist du dran, Lumi!“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linnea_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11305,
       "Name": "Notiz – Überlebensratgeber für ausweglose Lagen",
       "Description": "Selbst ein Experte unter den Abenteurern braucht mal eine Pause! Linnea ruft Lumi herbei, um im <color=#FFD780FF>{LINK#N11300001}Super-Modus{/LINK}</color> anzugreifen, stellt allen Truppenmitgliedern in der Nähe LP wieder her und stellt anschließend eine Zeit lang fortlaufend die LP der aktiven Figuren in der Nähe wieder her. Die Menge der wiederhergestellten LP ist abhängig von Linneas VTD.\nWenn Lumi beim Anwenden der Spezialfähigkeit bereits im Einsatz ist, wird stattdessen Lumis Dauer zurückgesetzt, ohne ihren Angriffsmodus zu ändern.\n\n<i>„Für professionelle Abenteurer gilt: Wichtiger als noch nie dagewesene Entdeckungen ist es, aus einer ausweglosen Situation unversehrt herauszukommen!“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linnea_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1302101,
         "Name": "Notizen der Feldbeobachtung",
         "Description": "#Verringert, wenn Lumi sich auf dem Feld befindet, den <color=#FFE699FF>Geo-WDS</color> von Gegnern in Lumis Nähe um 15{NON_BREAK_SPACE}%.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Verstärkt Linneas Elementarfähigkeit <color=#FFD780FF>{LINK#S11302}Gegenmaßnahme – Lumis Kampfschrei!{/LINK}</color> und Spezialfähigkeit <color=#FFD780FF>{LINK#S11305}Notiz – Überlebensratgeber für ausweglose Lagen{/LINK}</color>. Verringert, nachdem Lumi auf das Schlachtfeld gerufen wurde, den <color=#FFE699FF>Geo-WDS</color> von Gegnern in Lumis Nähe zusätzlich um 15{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_05"
       },
       {
@@ -702,6 +706,7 @@
         "Id": 1302201,
         "Name": "Umfassendes Naturkundearchiv",
         "Description": "#Linnea erhöht basierend auf 5{NON_BREAK_SPACE}% ihrer VTD die Elementarkunde bestimmter Figuren in der Truppe abhängig von der aktuellen Figur auf dem Feld. Wenn es sich bei der aktuellen Figur um folgende handelt:\n· Mondomen-Figur: Erhöht die Elementarkunde dieser Figur.\n· Keine Mondomen-Figur: Erhöht Linneas eigene Elementarkunde.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 1302301,
         "Name": "Mondomen-Segen – Lebensraum-Erkundung",
         "Description": "#Wenn eine Figur in der Truppe die Reaktion „Hydro-Kristallisation“ auslöst, wird diese in die Reaktion „Mond-Kristallisation“ umgewandelt, wobei der durch Figuren in der Truppe verursachte Basis-SCH der Reaktion „Mond-Kristallisation“ auf der Grundlage von Linneas VTD erhöht wird: Für je 100 Punkte VTD wird der Basis-SCH der Reaktion „Mond-Kristallisation“ um 0,7{NON_BREAK_SPACE}% erhöht. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Linnea in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_07"
       },
       {
@@ -743,6 +749,7 @@
         "Id": 1302501,
         "Name": "Abenteuerexpertin",
         "Description": "#Verringert, wenn Linnea sich nicht im Kampf befindet, die für einen <color=#FFD780FF>gezielten Schuss</color> benötigte Aufladezeit enorm und verschießt zudem einen speziellen <color=#FFD780FF>superduperpraktischen Pfeil</color>, der abhängig vom Ziel unterschiedliche Effekte hervorruft. Art des Ziels:\n· Bestimmtes Tier: Der <color=#FFD780FF>superduperpraktische Pfeil</color> wird zu einem speziellen „Netz“, das die essenzielle Form eines Tierchens festhalten und diese als Medium nutzen kann, um die Form des Tierchens nachzubilden. Die wöchentliche Anzahl benutzbarer „Netze“ ist begrenzt.\n· Erzadern mit zum Schmieden geeignetem Erz: Linnea setzt Lumi ein, um das vom <color=#FFD780FF>superduperpraktischen Pfeil</color> als Ziel markierte Erz zu zerstören und die verstreuten Erze einzusammeln. Wenn Lumi sich nicht auf dem Feld befindet, wird sie kurz herbeigerufen, um Linnea beim Erhalt von Erz zu helfen.\n\nVerringert in diesem Fall den Schaden, den der <color=#FFD780FF>superduperpraktische Pfeil</color> den Gegnern zufügt, auf 20{NON_BREAK_SPACE}% des ursprünglichen Schadens. Außerdem muss sich Linnea nach dem Abschießen einer bestimmten Anzahl <color=#FFD780FF>superduperpraktischer Pfeile</color> innerhalb kurzer Zeit kurz ausruhen, bevor sie erneut Pfeile abschießen kann.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_08"
       }
     ],

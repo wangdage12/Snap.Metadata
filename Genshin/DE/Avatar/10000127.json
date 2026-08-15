@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Speer der Eidwächter",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden auf, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Singvogel der Morgendämmerung",
         "Description": "Ruft den an seiner Seite kämpfenden Botenvogel „Aedon“ herbei und verursacht je nach einfachem Drücken oder Gedrückthalten unterschiedliche Effekte.\n\n<color=#FFD780FF>Drücken</color>\nAedon stürzt sich auf Gegner vor ihm und fügt den Gegnern, mit denen er in Kontakt kommt, <color=#FFE699FF>Geo-SCH</color> zu.\n\n<color=#FFD780FF>Gedrückthalten</color>\nVisiert Gegner an, woraufhin Aedon sich auf diese stürzt und den Gegnern, mit denen er in Kontakt kommt, <color=#FFE699FF>Geo-SCH</color> zufügt.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Schattenlose Reflektion",
       "Description": "#Entfacht ein Licht, das <color=#FFE699FF>Geo-Flächenschaden</color> verursacht und den Effekt „Lied des nächtlichen Albtraums“ verleiht, hält 20{NON_BREAK_SPACE}s: Verleiht Illuga während der Wirkungsdauer 21 Stapelungen {LINK#N11270001}<color=#FFD780FF>Lied der Nachtigall</color>{/LINK}. Verbraucht, wenn aktuelle Truppenmitglieder in der Nähe Gegnern mit einem Standardangriff, heftigen Schlag, Angriff aus dem Fall, der Elementarfähigkeit oder Spezialfähigkeit <color=#FFE699FF>Geo-SCH</color> zufügen, 1 Stapelung „Lied der Nachtigall“ und erhöht den verursachten Schaden basierend auf Illugas Elementarkunde. Erhöht den Schaden zusätzlich, wenn es sich bei diesem Schaden um Schaden durch die Reaktion Mond-Kristallisation handelt.\nVerbraucht, wenn auf obige Art verursachter <color=#FFE699FF>Geo-SCH</color> gleichzeitig mehrere Gegner trifft, so viele Stapelungen „Lied der Nachtigall“ wie Gegner getroffen wurden.\n\nVerleiht Illuga zudem für jedes <color=#FFE699FF>Geo-Objekt</color> 5 Stapelungen „Lied der Nachtigall“, wenn sich von Truppenmitgliedern in der Nähe generierte <color=#FFE699FF>Geo-Objekte</color> auf dem Feld befinden und Illuga seine Spezialfähigkeit anwendet, oder wenn ein Truppenmitglied in der Nähe während der Wirkungsdauer von „Lied des nächtlichen Albtraums“ <color=#FFE699FF>Geo-Objekte</color> erschafft. Innerhalb von 20{NON_BREAK_SPACE}s nach Anwendung der Spezialfähigkeit kann Illuga zusätzlich bis zu 15 Stapelungen „Lied der Nachtigall“ auf diese Weise erhalten.\n\nDer Effekt „Lied des nächtlichen Albtraums“ wird beendet, wenn die Stapelungen von „Lied der Nachtigall“ aufgebraucht sind oder die Wirkungsdauer abgelaufen ist.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Pakt der Fackelmacher",
         "Description": "#Verleiht anderen Truppenmitgliedern in der Nähe nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S11272}Singvogel der Morgendämmerung{/LINK}</color> oder der Spezialfähigkeit <color=#FFD780FF>{LINK#S11275}Schattenlose Reflektion{/LINK}</color> 20{NON_BREAK_SPACE}s lang den Effekt „Schwur der Lichthüter“: Erhöht, wenn Gegnern <color=#FFE699FF>Geo-SCH</color> zugefügt wird, die KT des Geo-SCH um 5{NON_BREAK_SPACE}% und den kritischen Schaden des Geo-SCH um 10{NON_BREAK_SPACE}%.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color> \nErhöht die Elementarkunde von Figuren, die von „Schwur der Lichthüter“ betroffen sind, um 50 Punkte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "Dämmerung der Dämonenjäger",
         "Description": "#Verstärkt den Effekt {LINK#N11270001}<color=#FFD780FF>Lied der Nachtigall</color>{/LINK}: Erhöht, wenn sich in der Truppe 1/2/3 <color=#80C0FFFF>Hydro</color>- oder <color=#FFE699FF>Geo</color>-Figuren befinden, den verursachten Schaden mithilfe von „Lied der Nachtigall“ weiter. Die SCH-Erhöhung beträgt 7{NON_BREAK_SPACE}% / 14{NON_BREAK_SPACE}% / 24{NON_BREAK_SPACE}% der Elementarkunde von Illuga. Erhöht, wenn es sich bei obigem Schaden um Schaden durch die Reaktion Mond-Kristallisation handelt, den Schaden stattdessen um 48{NON_BREAK_SPACE}% / 96{NON_BREAK_SPACE}% / 160{NON_BREAK_SPACE}% der Elementarkunde von Illuga.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Mondomen-Segen – Unvergänglich im Winter",
         "Description": "Erhöht die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Illuga in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Schritte der Nachtwächter",
         "Description": "#Verleiht den eigenen Figuren in der Truppe nachts (18 bis 6 Uhr) den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10{NON_BREAK_SPACE}%.\nDieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund und ist nicht stapelbar.\nAußerdem scheint Illuga das Flüstern der Wilden Jagd zu verstehen ...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

@@ -292,6 +292,7 @@
         "Id": 11231,
         "Name": "輝炎の翼斬り",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n剣による最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -490,6 +491,7 @@
         "Id": 11232,
         "Name": "二元術式・融合精錬",
         "Description": "魂と願いの材料を純化し、{LINK#N11230001}<color=#FFD780FF>本質変転</color>{/LINK}を行う。この間、ドゥリンの元素スキル<color=#FFD780FF>二元術式・融合精錬</color>は特殊な元素スキル<color=#FFD780FF>変転・純白の正</color>に切り替わり、通常攻撃<color=#FFD780FF>輝炎の翼斬り</color>は特殊な元素スキル<color=#FFD780FF>変転・漆黒の否</color>へと変わる。\n\n<color=#FFD780FF>変転・純白の正</color>\n周囲の敵に<color=#FF9999FF>炎元素範囲ダメージ</color>を1回与え、本質変転を解除して<color=#FFD780FF>純白の正</color>状態になる。継続時間30秒。\n\n<color=#FFD780FF>変転・漆黒の否</color>\n前方の敵に<color=#FF9999FF>炎元素ダメージ</color>を3回連続で与え、本質変転を解除して<color=#FFD780FF>漆黒の否</color>状態になる。継続時間30秒。\n\n戦闘状態にある時、<color=#FFD780FF>純白の正</color>または<color=#FFD780FF>漆黒の否</color>状態に入ると、ドゥリンは元素エネルギーを一定量回復する。この方法による元素エネルギーの回復は、6秒毎に1回のみ可能。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Durin_01"
       }
     ],
@@ -512,6 +514,7 @@
         "Id": 1235101,
         "Name": "魔女からの贈り物・昇華の讃歌",
         "Description": "<color=#FFD780FF>魔女の課題・現世の題</color>を完了すると、ドゥリンは<color=#FFD780FF>魔導</color>キャラクターとして扱われるようになる。チームに魔導キャラクターを2名以上編成すると、<color=#FFD780FF>魔導秘儀</color>効果が発動し、魔導キャラクターは強化される。\n\n<color=#FFD780FF>魔導秘儀</color>\n継続時間を除き、固有天賦{LINK#P1232101}<color=#FFD780FF>「顕現せし光霊」</color>{/LINK}の効果が全て元の75%アップする。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_03"
       }
     ],
@@ -805,6 +808,7 @@
       "Id": 11235,
       "Name": "純白の法則・変転する光",
       "Description": "異なる方法で「獣」の力を解き放つ。ドゥリンの{LINK#N11230001}<color=#FFD780FF>本質変転</color>{/LINK}状態に応じて、ドゥリンは異なる元素爆発を発動できる。\n\n<color=#FFD780FF>純白の法則・変転する光</color>\nドゥリンが<color=#FFD780FF>純白の正</color>状態の時、元素爆発<color=#FFD780FF>純白の法則・変転する光</color>を発動し、前方の敵に3回の<color=#FF9999FF>炎元素範囲ダメージ</color>を与え、自身の力を<color=#FFD780FF>「白焔の龍」</color>の姿で具現化する。「白焔の龍」はフィールド上キャラクターにつき従い、一定時間ごとに周囲の敵を攻撃して<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。このダメージは元素爆発ダメージと見なされる。\n\n<color=#FFD780FF>漆黒の法則・燻る星</color>\nドゥリンが<color=#FFD780FF>漆黒の否</color>状態の時、代わりに元素爆発<color=#FFD780FF>漆黒の法則・燻る星</color>を発動し、前方の敵に3回の<color=#FF9999FF>炎元素範囲ダメージ</color>を与え、自身の力を<color=#FFD780FF>「黒蝕の龍」</color>の姿で具現化する。「黒蝕の龍」はフィールド上キャラクターにつき従い、一定時間ごとに周囲の敵1体を攻撃して<color=#FF9999FF>炎元素ダメージ</color>を与える。このダメージは元素爆発ダメージと見なされる。\n\nなお、ドゥリンが本質変転の特殊状態にない場合、元素爆発<color=#FFD780FF>純白の法則・変転する光</color>が発動される。",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Durin_01"
     },
     "Inherents": [
@@ -829,6 +833,7 @@
         "Id": 1232101,
         "Name": "顕現せし光霊",
         "Description": "ドゥリンが元素爆発で具現化した力の形に応じて、異なる強化効果が発動する。\n\n<color=#FFD780FF>白焔の龍</color>\n付近にいるチーム内キャラクターが敵に燃焼、過負荷、炎元素拡散、炎元素結晶反応を起こした後、または燃焼状態の敵に<color=#FF9999FF>炎元素ダメージ</color>や<color=#99FF88FF>草元素ダメージ</color>を与えた時、その敵の<color=#FF9999FF>炎元素耐性</color>と反応に関与した対応する元素耐性-20%、継続時間6秒。\n\n<color=#FFD780FF>黒蝕の龍</color>\nドゥリンが起こす蒸発反応によるダメージ+40%、溶解反応によるダメージ+40%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_01"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 1232201,
         "Name": "混沌を創りし闇夜",
         "Description": "元素爆発を発動した後の20秒間、ドゥリンは「原象精錬」効果を獲得する。継続時間中、ドゥリンは「原象」を10層獲得し、<color=#FFD780FF>白焔の龍</color>と<color=#FFD780FF>黒蝕の龍</color>による定期的な攻撃がダメージを与える時、「原象」を1層消費してそのダメージをアップする。攻撃力100ごとにダメージが元の3%分アップし、この方法により最大で元の75%分アップできる。1回の<color=#FFD780FF>白焔の龍</color>や<color=#FFD780FF>黒蝕の龍</color>が同時に複数の敵に命中した時、「原象」は1層しか消費されない。\nまた、再び元素爆発を発動すると、「原象」の層数はリセットされる。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_02"
       },
       {
@@ -869,6 +875,7 @@
         "Id": 1232301,
         "Name": "大地の残響",
         "Description": "モンドで20時間かかる探索任務を完了した時、獲得する報酬+25%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_07"
       }
     ],

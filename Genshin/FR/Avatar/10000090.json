@@ -292,6 +292,7 @@
         "Id": 10901,
         "Name": "Pique de baïonnette (modifiée)",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10902,
         "Name": "Tir de suppression rapide à courte portée",
         "Description": "Chevreuse place rapidement son mousquet sur son épaule et tire sur l'ennemi pour infliger des <color=#FF9999FF>DGT Pyro de zone</color>.\nPendant une courte durée après que Chevreuse tire un coup de feu, les PV de votre personnage déployé sont restaurés de façon continue selon les PV max de Chevreuse.\nEn cas d'appui long, la compétence est déclenchée différemment.\n\n<color=#FFD780FF>Appui long</color>\nBascule en mode visée, ce qui permet à Chevreuse de verrouiller une cible dans son réticule pour déclencher un tir de suppression précis. Si Chevreuse en possède une, elle tire une cartouche surchargée à la place pour infliger des <color=#FF9999FF>DGT Pyro</color> plus importants sur une zone plus grande.\nChevreuse obtient 1 cartouche surchargée chaque fois qu'un personnage de l'équipe à proximité déclenche une réaction de Surcharge, mais ne peut posséder qu'une seule cartouche surchargée à la fois.\n\n<color=#FFD780FF>Arkhe : Ousia</color>\nRégulièrement, lorsque Chevreuse touche avec Tir de suppression rapide à courte portée, elle déclenche une lame fluide pour infliger des <color=#FF9999FF>DGT Pyro</color> chargés d'énergie ousia.\n\n<i>« En fait, le règlement d'entraînement ne comportait que le terme « Tir de suppression », mais le protagoniste de ce roman estime qu'une terminologie élégante peut affecter la motivation des troupes, et même acculer les adversaires dès le départ... Je pense que c'est un bon point, alors j'ai modifié le règlement ! »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Chevreuse_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10905,
       "Name": "Anneau de grenades éclatantes",
       "Description": "Chevreuse tire une grenade explosive sur les ennemis avec son mousquet pour infliger des <color=#FF9999FF>DGT Pyro de zone</color>. Lorsque la grenade a touché, elle se divise en plusieurs obus explosifs secondaires.\nCes obus explosent après un court intervalle pour infliger des <color=#FF9999FF>DGT Pyro</color> aux ennemis proches.\n\n<i>« Théoriquement, une explosion rectangulaire serait la plus efficace pour détruire les formations ennemies. Cependant, la section transversale de l'onde de choc d'une explosion est ronde, comme la plupart des gâteaux. Ainsi, les obus explosifs secondaires ne peuvent être disposés que comme les fruits sur un gâteau, formant un anneau sur le pourtour. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Chevreuse_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 902101,
         "Name": "Tactique coordonnée",
         "Description": "Lorsque les personnages de l'équipe sont de l'élément <color=#FF9999FF>Pyro</color> ou <color=#FFACFFFF>Électro</color> et qu'il y a au moins un personnage Pyro et un personnage Électro :\nChevreuse accorde une coordination aux personnages de l'équipe à proximité : lorsqu'un personnage a déclenché une réaction de Surcharge, les RÉS <color=#FF9999FF>Pyro</color> et <color=#FFACFFFF>Électro</color> des ennemis touchés par cette réaction de Surcharge diminuent de 40 % pendant 6 s.\nLa coordination est annulée lorsque les types élémentaires des personnages de l'équipe ne répondent pas aux conditions de base de l'aptitude d'élévation.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chevreuse_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 902201,
         "Name": "Agencement vertical",
         "Description": "Lorsque Chevreuse a tiré une cartouche surchargée de <color=#FFD780FF>Tir de suppression rapide à courte portée</color>, l'ATQ de tous les personnages <color=#FF9999FF>Pyro</color> et <color=#FFACFFFF>Électro</color> de l'équipe à proximité augmente, pendant 30 s, de 1 % pour chaque tranche de 1 000 PV max de Chevreuse. L'ATQ peut être augmentée d'un maximum de 40 % de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chevreuse_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 902301,
         "Name": "Pas redoublé",
         "Description": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du sprint.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Aufgewirbelter Staub",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 6 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen nach oben gerichteten Angriff aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.\nXiao erleidet bei Angriffen aus dem Fall keinen Schaden durch den Fall.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Doppeltes Windrad",
         "Description": "Sticht mit hoher Geschwindigkeit nach vorn und fügt den Gegnern in der Bahn <color=#80FFD7FF>Anemo-Schaden</color> zu.\nKann in der Luft angewendet werden.\nKann anfänglich 2-mal angewendet werden.\n\n<i>In den Legenden fremder Länder würde die Welt von zwei riesigen Windrädern zermalmt werden. Xiao hat den Umgang mit der Lanze bereits perfektioniert und zerschneidet seine Gegner wie die beiden Windräder.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Geistervertreibung",
       "Description": "Setzt die Yaksha-Maske auf, die Götter und Monster schon vor Jahrtausenden gleichermaßen in Angst und Schrecken versetzt hat.\n\n<color=#FFD780FF>Yaksha-Maske</color>\n· Erhöht Xiaos Sprungkraft enorm.\n· Vergrößert den Angriffsradius und erhöht den verursachten Schaden.\n· Wandelt den verursachten Schaden in <color=#80FFD7FF>Anemo-Schaden</color> um. Diese Elementarumwandlung kann nicht von anderen Elementen überdeckt werden.\n\nXiao verbraucht in diesem Zustand fortlaufend LP.\nEffekt erlischt, wenn Xiao ausgewechselt wird.\n\n<i>Xiao setzt die Monster unterdrückende Maske auf und nimmt die Gestalt des „Schützenden Yaksha“ an, der das Böse erstarren lässt und Geistwesen vertreibt. Er erhält damit große Kraft, aber auch große Schmerzen. Dies wird als „Geistervertreibung“ bezeichnet.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Eroberung – Dämonenbändiger",
         "Description": "Erhöht Xiaos gesamten Schaden im Zustand <color=#FFD780FF>Geistervertreibung</color> um 5 % und danach während der Dauer der Fähigkeit alle 3 s um zusätzliche 5 %.\nErhöht den Schaden dabei um bis zu 25 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Untergang – Zermalmtes Land",
         "Description": "Erhöht den mit <color=#FFD780FF>Doppeltes Windrad</color> verursachten Schaden bei erneuter Anwendung von Doppeltes Windrad innerhalb von 7 s um 15 %.\nHält 7 s, 3-fach stapelbar, aktualisiert die Dauer beim Stapeln.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Transzendenz – Schwerelosigkeit",
         "Description": "Verringert die beim Klettern verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.\nNicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Ein Motiv für Namenskärtchen.\nEr sehnt sich nach dem Tag, an dem er die Maske tragen und tanzen wird – nicht, um Dämonen zu besiegen, sondern zur Melodie dieser Flöte inmitten des Dihua-Moors.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Echo – Schützender Yaksha",
+    "Description": "Xiaos Gemalte Echos. „Das Böse durch den Kampf zu beseitigen, dem widmen wir unser ganzes Leben.“",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

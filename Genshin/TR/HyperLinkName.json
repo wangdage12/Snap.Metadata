@@ -277,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Kurtarma Kiti",
-    "Description": "En fazla 150 puan birikebilir. Ifa'nın sahip olduğu her Kurtarma Kiti puanı, yakındaki grup üyelerinin verdiği Elektrik Yüklü ve Girdap Hasarını %1,5 artırır, Ay Yüklü Hasarını ise %0,2 artırır. Ifa'nın Gece Ruhunun Lütfu durumu sona erdiğinde puanlar sıfırlanır."
+    "Description": "En fazla 150 puan birikebilir. Ifa'nın sahip olduğu her Kurtarma Kiti puanı, yakındaki grup üyelerinin verdiği Elektrik Yüklü ve Girdap Hasarını %1,5 artırır, Ay Yüklü Hasarını %0,2 artırır, Yıldız Girdabı Tepkimesi Hasarını ise %{PARAM#P1132101|5S100} artırır. Ifa'nın Gece Ruhunun Lütfu durumu sona erdiğinde puanlar sıfırlanır."
   },
   {
     "Id": 11130003,
@@ -302,7 +302,7 @@
   {
     "Id": 11130007,
     "Name": "Akıl Almaz Mantık",
-    "Description": "Yakındaki grup üyeleri düşman üzerinde Donma, Süper İletim, Buz Girdabı veya Buz Kristalleşmesi tepkimelerini tetiklediğinde o düşmanın yakınında bir Boşluk Yarığı oluşur. Bu etki 2,5 saniyede bir tetiklenebilir. Savaş alanında aynı anda Skirk'ün yarattığı en fazla 3 Boşluk Yarığı bulunabilir.\n\nSkirk, yakınındaki Boşluk Yarıklarını aşağıdaki yollarla soğurur:\n·Yedi Aşamalı Parıltı modundayken bir düşmana Yüklü Saldırı ile vurarak.\n·Yedi Aşamalı Parıltı modundayken <color=#FFD780FF>Yıkım: Tükeniş</color> Element Patlamasını kullanarak.\n·<color=#FFD780FF>Yıkım: Bükme</color> Element Becerisine Basılı Tutup hızlı hareket etmeye başlayarak.\n\nSkirk, soğurduğu her Yarık için 8 Yılan Kurnazlığı puanı kazanır."
+    "Description": "Yakındaki grup üyeleri düşman üzerinde Donma, Süper İletim, Yıldız İletimi, Buz Girdabı, Yıldız Girdabı veya Buz Kristalleşmesi tepkimelerini tetiklediğinde o düşmanın yakınında bir Boşluk Yarığı oluşur. Bu etki 2,5 saniyede bir tetiklenebilir. Savaş alanında aynı anda Skirk'ün yarattığı en fazla 3 Boşluk Yarığı bulunabilir.\n\nSkirk, yakınındaki Boşluk Yarıklarını aşağıdaki yollarla soğurur:\n·Yedi Aşamalı Parıltı modundayken bir düşmana Yüklü Saldırı ile vurarak.\n·Yedi Aşamalı Parıltı modundayken <color=#FFD780FF>Yıkım: Tükeniş</color> özel Element Patlamasını kullanarak.\n·<color=#FFD780FF>Yıkım: Bükme</color> Element Becerisine Basılı Tutup hızlı hareket etmeye başlayarak.\n\nSkirk, soğurduğu her Yarık için 8 Yılan Kurnazlığı puanı kazanır."
   },
   {
     "Id": 11130008,
@@ -477,7 +477,7 @@
   {
     "Id": 11320001,
     "Name": "Bela Kovan Ant Çekici",
-    "Description": "Cadı avcısının güvenilir yoldaşı! Bela Kovan Ant Çekici doğru koşullar altında Element Dönüşümü geçirerek tüm Hasarını ilgili Element Türünün Hasarına dönüştürür.\nPrune, Element Dönüşümüne uğramış Bela Kovan Ant Çekicini aşağıdaki şekillerde çağırabilir:\n· Prune <color=#FFD780FF>Ding Ding! Büyü Avı Zili</color> Element Becerisi ile bir düşman üzerinde Girdap Tepkimesi tetiklendikten sonra belirli bir süreliğine <color=#FFD780FF>Çın Çın! Cadıyı Cezalandırma Zamanı!</color> özel Element Becerisini kullanabilir. Bu özel Element Becerisi kullanıldığında Bela Kovan Ant Çekici, söz konusu Girdap Tepkimesinde yer alan diğer Element Türüne dönüşür.\n·\"Yargı ve Ceza\" Yükseltme Yeteneği açıldıktan sonra, Avcı-Arayıcı modundaki Cadıkapan Çanı bir düşman üzerinde Girdap tetiklediğinde düşmana saldırmak için ilgili Element Dönüşümüne uğramış bir Bela Kovan Ant Çekici çağırır."
+    "Description": "Cadı avcısının güvenilir yoldaşı! Bela Kovan Ant Çekici doğru koşullar altında Element Dönüşümü geçirerek tüm Hasarını ilgili Element Türünün Hasarına dönüştürür.\nPrune, Element Dönüşümüne uğramış Bela Kovan Ant Çekicini aşağıdaki şekillerde çağırabilir:\n· Prune <color=#FFD780FF>Ding Ding! Büyü Avı Zili</color> Element Becerisi ile bir düşman üzerinde Girdap ya da Yıldız Girdabı Tepkimesi tetiklendikten sonra belirli bir süreliğine <color=#FFD780FF>Çın Çın! Cadıyı Cezalandırma Zamanı!</color> özel Element Becerisini kullanabilir. Bu özel Element Becerisi kullanıldığında Bela Kovan Ant Çekici, söz konusu Girdap ya da Yıldız Girdabı Tepkimesinde yer alan diğer Element Türüne dönüşür.\n·\"Yargı ve Ceza\" Yükseltme Yeteneği açıldıktan sonra, Avcı-Arayıcı modundaki Cadıkapan Çanı bir düşman üzerinde Girdap ya da Yıldız Girdabı tetiklediğinde düşmana saldırmak için ilgili Element Dönüşümüne uğramış bir Bela Kovan Ant Çekici çağırır."
   },
   {
     "Id": 11320002,
@@ -492,7 +492,7 @@
   {
     "Id": 11330001,
     "Name": "Deşifre",
-    "Description": "Yüklü Saldırı kullanıldığında Fagio bu moda geçer.\nBu moddayken Fagio önündeki düşmanlara bir tarama ateşi saldırısı yapar ve belirli aralıklarla yoğunlaştırılmış ışınlar ateşleyerek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yoğunlaştırılmış ışınlar bunun yerine Yıldız İletimi Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir."
+    "Description": "Yüklü Saldırı kullanıldığında Fagio bu moda geçer.\nBu moddayken Fagio önündeki düşmanlara bir tarama ateşi saldırısı yapar ve belirli aralıklarla yoğunlaştırılmış ışınlar ateşleyerek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>: Yoğunlaştırılmış ışınlar bunun yerine ilgili Yıldız Parıltısı Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir."
   },
   {
     "Id": 11330002,
@@ -503,5 +503,45 @@
     "Id": 11330003,
     "Name": "Kutup Yıldızı Alanı",
     "Description": "Yıldız İletimi tetiklendiğinde çevredeki alan kısa süreliğine bir <color=#FFD780FF>Kutup Yıldızı Alanına</color> dönüşür ve belirli karakterler bir Kutup Yıldızı Alanı içindeyken çeşitli beceri güçlendirmeleri sağlayan <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer."
+  },
+  {
+    "Id": 11400001,
+    "Name": "Ruh Kılıcı",
+    "Description": "\"Ruh Kılıcı\" Hakkında"
+  },
+  {
+    "Id": 10050002,
+    "Name": "Buz Işıltısı",
+    "Description": "Gezgin tarafından oluşturulan bir <color=#FFD780FF>Buzdelen Yıldızının</color> buz kristali bir düşmana isabet ettiğinde veya Gezgin, <color=#FFD780FF>Yabancı Buz Tabakası</color> Yeteneğini açtıktan sonra <color=#FFD780FF>Yüklü Saldırı: Donduran Buz</color> kullandığında özel bir etki tetiklenir. 8 kademeye kadar birikir.\n<color=#FFD780FF>Donuk Mızrak</color> Element Patlamasını kullanmak, Gezginin tüm <color=#FFD780FF>Buz Işıltısı</color> kademelerini tüketir ve mevcut Element Patlamasının verdiği Hasarı artırır. Eğer 8 kademe tüketilirse Element Patlamasında gerçekleştirilen saldırı sayısı da artar."
+  },
+  {
+    "Id": 11500001,
+    "Name": "Solo Dans Gölgesi",
+    "Description": "Odette ile dans düeti yapan psişik gölgesi. Element Becerisini veya Element Patlamasını kullanarak savaş alanına çağırabilir.\n<color=#FFD780FF>Tüy</color> ve <color=#FFD780FF>Kanat</color> dans hareketleri arasında geçiş yaparak belirli aralıklarla yakındaki düşmanlara saldırır ve <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\nSavaş alanında aynı anda Odette'in çağırdığı yalnızca bir <color=#FFD780FF>Solo Dans Gölgesi</color> bulunabilir.\n\nAyrıca yakında Odette'in çağırdığı bir <color=#FFD780FF>Dans Gölgesi</color> varken Odette'in <color=#FFD780FF>Yavaş Tempo: Hayalet Gece Dansçıları</color> Element Becerisi değişerek <color=#FFD780FF>Yavaş Tempo: Şafakla Gelen Son</color> özel Element Becerisi olur."
+  },
+  {
+    "Id": 11500002,
+    "Name": "Yavaş Tempo: Şafakla Gelen Son",
+    "Description": "Odette'in özel Element Becerisi. Yakındaki düşmanlara zamanla <color=#99FFFFFF>Buz Alan Hasarı</color> verir. Sonrasında dans düeti sona erdiğinde bir defa daha <color=#99FFFFFF>Buz Alan Hasarı</color> verir; bu Hasar, Yıldız İletimi Hasarı sayılır. Dans düeti sırasında Odette, dans adımlarının yönünü kontrol edebilir.\n<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>: Dans düeti sona erince verilen Hasar, ilgili Yıldız tepkimesi türünün <color=#99FFFFFF>Buz Alan Hasarına</color> dönüşür.\n\nAyrıca Odette, <color=#FFD780FF>Yavaş Tempo: Şafakla Gelen Son</color> özel Element Becerisini kullandığında eğer <color=#FFD780FF>Işıltı: Yıldız Parıltısı</color> durumundaysa ve <color=#FFD780FF>Dans Gölgesi</color> de savaş alanındaysa; <color=#FFD780FF>Dans Gölgesinin</color> iki dans türü, ilgili Yıldız Parıltısı tepkimesi türünde ek <color=#99FFFFFF>Buz Alan Hasarı</color> verir."
+  },
+  {
+    "Id": 11500003,
+    "Name": "Mucizevi İhtişam",
+    "Description": "Odette, \"Seçilmiş Kişinin Bahar Ayini\" Yükseltme Yeteneğini açtıktan sonra <color=#FFD780FF>Solo Dans Gölgesini</color> çağırdığında özel bir etki kazanır.\nAktif her <color=#FFD780FF>Mucizevi İhtişam</color> kademesi, karakterin Yıldız Parıltısı Hasarını %15 artırır. Bu etki, <color=#FFD780FF>Dans Gölgesi</color> savaş alanından çıkana veya <color=#FFD780FF>Solo Dans Gölgesi</color> yeniden çağrılana kadar sürer.\nOdette alanda değilken her saniye 1 kademe <color=#FFD780FF>Mucizevi İhtişam</color> kaybeder, aynı zamanda yakındaki diğer grup üyeleri de aynı miktarda <color=#FFD780FF>Mucizevi İhtişam</color> kademesi kazanır."
+  },
+  {
+    "Id": 11500004,
+    "Name": "Işıltı: Yıldız Parıltısı",
+    "Description": "<color=#FFD780FF>Işıltı: Yıldız İletimi</color> ve <color=#FFD780FF>Işıltı: Yıldız Girdabı</color>, <color=#FFD780FF>Işıltı: Yıldız Parıltısı</color> durumu sayılır.\nKarakterler aynı anda yalnızca bir Işıltı durumunda olabilir. Birden fazla durumun tetiklenebileceği durumlarda önce <color=#FFD780FF>Işıltı: Yıldız İletimi</color> uygulanır."
+  },
+  {
+    "Id": 11480001,
+    "Name": "Avcının İşareti",
+    "Description": "Alyosha'nın düşmana uygulayabileceği özel bir etki.\nBu etki, önceden <color=#FFD780FF>Avcının İşareti</color> etkisi altında olan bir düşmana uygulandığında <color=#FFD780FF>Avcının İşareti</color> etkinleşir ve işaret kalkarak yakındaki tüm grup üyelerine <color=#FFD780FF>Avcının Keskinliği</color> etkisini verip karakterler alandayken Saldırılarını artırır."
+  },
+  {
+    "Id": 11480002,
+    "Name": "Tugarin",
+    "Description": "<color=#FFD780FF>Avcının İlerleyişi</color> Element Patlaması ile alana çağrılabilen, Alyosha'nın güvenilir av köpeği ve yoldaşı.\nDüzenli aralıklarla bir düşmana yaklaşıp ona saldırır ve mevcut tüm <color=#FFD780FF>Avcının İşaretlerini</color> etkinleştirir."
   }
 ]

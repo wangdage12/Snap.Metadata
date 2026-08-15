@@ -261,6 +261,7 @@
         "Id": 11301,
         "Name": "Protocole de capture",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de cristaux de pierre, infligeant des <color=#FFE699FF>DGT Géo</color> quand elle est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11302,
         "Name": "Contre-mesure : Cri de guerre de Lumi !",
         "Description": "Partez à l'aventure avec Lumi ! L'attaque de Lumi est différente selon le type d'appui simple utilisé.\n\n<color=#FFD780FF>Appui simple</color>\nLumi attaque sans cesse en <color=#FFD780FF>{LINK#N11300001}forme super puissante{/LINK}</color> les ennemis proches, infligeant des <color=#FFE699FF>DGT Géo de zone</color>. Si un voile lunaire est présent à proximité, Lumi inflige également des <color=#FFE699FF>DGT Géo de zone</color> considérés comme des DGT de réaction de Sélénocristallisation aux ennemis à proximité.\n\n<color=#FFD780FF>Appui simple répété</color>\nIl est temps de montrer ce dont vous êtes vraiment capables ! Après avoir utilisé une compétence élémentaire, Linnea peut utiliser un appui simple répété avec sa compétence élémentaire ou son attaque normale pour nourrir Lumi avec des gemmes scintillantes. Lumi, le ventre plein, frappe alors en <color=#FFD780FF>{LINK#N11300001}forme ultra puissante{/LINK}</color>, infligeant une fois de puissants <color=#FFE699FF>DGT Géo de zone</color> considérés comme des DGT de réaction de Sélénocristallisation aux ennemis proches, puis passe en <color=#FFD780FF>{LINK#N11300001}forme puissante{/LINK}</color>.\nDe plus, utiliser sa compétence élémentaire avec un appui simple répété augmente la RÉS à l'interruption de Linnea.\n\n<i>« À toi, Lumi ! »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linnea_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11305,
       "Name": "Mémo : Guide de survie en conditions extrêmes",
       "Description": "Même les aventuriers les plus aguerris ont besoin de repos ! Linnea invoque Lumi pour frapper en <color=#FFD780FF>{LINK#N11300001}forme super puissante{/LINK}</color> : elle soigne tous les personnages de l'équipe à proximité et, pendant un certain temps, soigne de façon continue tous les personnages déployés à proximité selon la DÉF de Linnea.\nSi Lumi est déjà sur le terrain lors du déclenchement du déchaînement élémentaire, sa durée est réinitialisée, tandis que sa forme d'attaque reste inchangée.\n\n<i>« Tout aventurier professionnel digne de ce nom préfère se sortir d'une situation périlleuse plutôt que de faire des découvertes, aussi incroyables soient-elles ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linnea_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1302101,
         "Name": "Notes d'observation sur le terrain",
         "Description": "Lorsque Lumi est sur le terrain, la <color=#FFE699FF>RÉS Géo</color> des ennemis près d'elle diminue de 15 %.\n\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : la compétence élémentaire <color=#FFD780FF>{LINK#S11302}Contre-mesure : Cri de guerre de Lumi !{/LINK}</color> et le déchaînement élémentaire <color=#FFD780FF>{LINK#S11305}Mémo : Guide de survie en conditions extrêmes{/LINK}</color> de Linnea sont renforcés, et après avoir invoqué Lumi, la <color=#FFE699FF>RÉS Géo</color> des ennemis près d'elle diminue de 15 % supplémentaires.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_05"
       },
       {
@@ -702,6 +706,7 @@
         "Id": 1302201,
         "Name": "Archive naturaliste universelle",
         "Description": "Linnea augmente la maîtrise élémentaire selon votre personnage déployé d'une valeur équivalant à 5 % de sa DÉF : \n· Si votre personnage déployé est un personnage signelunaire : la maîtrise élémentaire de ce dernier augmente.\n· Si votre personnage déployé n'est pas un personnage signelunaire : la maîtrise élémentaire de Linnea augmente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 1302301,
         "Name": "Bénédiction de signelune : Enquête sur l'habitat",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction de Cristallisation Hydro, elle est convertie en réaction de Sélénocristallisation, dont les DGT de base augmentent selon la DÉF de Linnea : chaque tranche de 100 pts de DÉF augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Linnea fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_07"
       },
       {
@@ -743,6 +749,7 @@
         "Id": 1302501,
         "Name": "Aventurière experte",
         "Description": "#Lorsqu'elle n'est pas en combat, le temps de charge requis lorsque Linnea effectue un <color=#FFD780FF>tir visé</color> diminue grandement et elle tire une <color=#FFD780FF>flèche ultra-rapide</color> à la place, déclenchant divers effets selon la cible touchée : \n· Animal spécifique : la <color=#FFD780FF>flèche ultra-rapide</color> se transforme en filet spécial capable de capturer l'essence et la forme de l'animal, et de les utiliser comme support pour manifester à nouveau sa forme physique. Ce filet ne peut être utilisé qu'un nombre limité de fois par semaine.\n· Filon de minerai utilisable en forge : Linnea envoie Lumi, qui frappe rapidement le minerai marqué par la <color=#FFD780FF>flèche ultra-rapide</color> et récupère le minerai délogé. Si Lumi n'est pas sur le terrain, Linnea l'invoque brièvement pour l'aider à récupérer le minerai.\n\nLes DGT infligés aux ennemis par les <color=#FFD780FF>flèches ultra-rapides</color> diminuent à 20{NON_BREAK_SPACE}% des DGT d'origine. De plus, Linnea doit se reposer un certain temps après avoir tiré un certain nombre de <color=#FFD780FF>flèches ultra-rapides</color> avant de pouvoir continuer à en tirer.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linnea_08"
       }
     ],

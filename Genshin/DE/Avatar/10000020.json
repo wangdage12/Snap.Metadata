@@ -309,6 +309,7 @@
         "Id": 10201,
         "Name": "Stählernes Kreuz",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Schwünge mit dem Schwert hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht fortlaufend Ausdauer, wirbelt das Großschwert und greift Gegner in der Umgebung an.\nSchwingt das Schwert am Ende mit besonders großer Wucht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -525,6 +526,7 @@
         "Id": 10202,
         "Name": "Klauen und Donner",
         "Description": "Erledigt seine Beute mithilfe der Methoden, die ihm sein Meister und seine Familie beigebracht haben.\n\n<color=#FFD780FF>Drücken</color>\nFügt den Gegnern vor ihm mit den Klauen des Blitzwolfs <color=#FFACFFFF>Elektro-Schaden</color> zu.\nSammelt beim Treffen von Gegnern ein Elektro-Siegel, das Razors Aufladerate erhöht.\nBis zu 3 Elektro-Siegel sammelbar. Aktualisiert bei weiteren Elektro-Siegeln die Dauer.\n\n<color=#FFD780FF>Gedrückt halten</color>\nKonzentriert die Kraft des Blitzes zu einer Explosion mit geringer Reichweite, verursacht hohen <color=#FFACFFFF>Elektro-Schaden</color> und entfernt vorhandene Elektro-Siegel.\nVerleiht Razor zusätzliche Elementarenergie für jedes entfernte Elektro-Siegel.\n\n<i>Siehst du gerade in Razors Augen, während der Blitzschlag eintrifft, erhaschst du vielleicht einen Blick auf den Wolf in seinem Innern, der auf die Jagd geht.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Razor_01"
       }
     ],
@@ -550,6 +552,7 @@
         "Id": 205101,
         "Name": "Geschenk der Hexennacht – Dunkler Donnersturm",
         "Description": "#Wandelt Razor nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von den kleinen Wölfen</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\nVerstärkt zudem Razors Spezialfähigkeit <color=#FFD780FF>Blitzklauen</color>: Erhöht den durch <color=#FFD780FF>Blitzwolf</color> verursachten SCH um 70{NON_BREAK_SPACE}% von Razors ANG.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nLässt den durch die Spezialfähigkeit <color=#FFD780FF>Blitzklauen</color> herbeigerufener Blitzwolf, solange dieser auf dem Feld existiert und die von Razor durch die Elementarfähigkeit <color=#FFD780FF>Klauen und Donner</color> gesammelten Elektro-Siegel überschüssig sind, Gegner in der Nähe mit Blitzschlägen treffen, die Elektro-Flächenschaden in Höhe von 150{NON_BREAK_SPACE}% von Razors ANG verursachen, und Razor 7{NON_BREAK_SPACE}Punkte Elementarenergie wiederherstellen, 1{NON_BREAK_SPACE}s Abklingzeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_07"
       }
     ],
@@ -767,6 +770,7 @@
       "Id": 10203,
       "Name": "Blitzklauen",
       "Description": "Erweckt den formlosen Blitzwolf, um sich zu schützen, und fügt Gegnern in der Umgebung <color=#FFACFFFF>Elektro-Schaden</color> zu. Verbraucht alle Elektro-Siegel, um Razors Elementarenergie wiederherzustellen.\nDer Blitzwolf kämpft gemeinsam mit Razor, solange er auf dem Feld ist.\n\n<color=#FFD780FF>Blitzwolf</color>\n· Greift an, sobald Razor einen Standardangriff ausführt, und verursacht <color=#FFACFFFF>Elektro-Schaden</color>.\n· Erhöht Razors Angriffs-GSW und <color=#FFACFFFF>Elektro-WDS</color>.\n· Macht Razor immun gegen Schaden durch die Reaktion <color=#FFACFFFF>Unter Strom</color>.\n· Anwendung heftiger Schläge nicht möglich.\n· Erhöht Razors Unterbrechungs-WDS.\n\nEffekt erlischt, wenn Razor ausgewechselt wird.\nGibt bis zu 10 Punkte Elementarenergie zurück, wenn Razor während der Dauer der Fähigkeit ausgewechselt wird.\n\n<i>Der Wolf ist erwacht. Die Zeit der Jagd ist gekommen.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Razor_01"
     },
     "Inherents": [
@@ -786,6 +790,7 @@
         "Id": 202101,
         "Name": "Erwachen",
         "Description": "Verkürzt die Abklingzeit von <color=#FFD780FF>Klauen und Donner</color> um 18 %.\nÜberspringt die Abklingzeit von <color=#FFD780FF>Klauen und Donner</color> bei Anwendung von <color=#FFD780FF>Blitzklauen</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_05"
       },
       {
@@ -804,6 +809,7 @@
         "Id": 202201,
         "Name": "Hunger",
         "Description": "Erhöht Razors Aufladerate bei weniger als 50 % Elementarenergie um 30 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_06"
       },
       {
@@ -822,6 +828,7 @@
         "Id": 202301,
         "Name": "Laufender Wolf",
         "Description": "Verringert die beim Rennen verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.\nNicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

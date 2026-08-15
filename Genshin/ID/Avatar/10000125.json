@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Moondew Cascade",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMemanggil Moonlit Tides, melancarkan hingga 3 serangan yang mengakibatkan <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk mengakibatkan <color=#80C0FFFF>Hydro DMG area</color> setelah jeda singkat.\nJika memiliki setidaknya 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}, Charged Attack Columbina akan digantikan oleh Charged Attack khusus yang tidak mengonsumsi Stamina, yaitu <color=#FFD780FF>Moondew Cleanse</color>: Mengonsumsi 1 Verdant Dew untuk mengakibatkan 3 kali <color=#99FF88FF>Dendro DMG Area</color> terhadap musuh di depan. DMG ini dianggap sebagai DMG reaksi Lunar-Bloom.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80C0FFFF>Hydro DMG area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Eternal Tides",
         "Description": "Membangkitkan Moonbound Tides untuk mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> dan memanggil {LINK#N11250001}<color=#FFD780FF>Gravity Ripple</color>{/LINK}.\n<color=#FFD780FF>Gravity Ripple</color> akan mengikuti Karakter aktif, dan terus mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> terhadap musuh di sekitar. Selama <color=#FFD780FF>Gravity Ripple</color> aktif, jika Karakter party di sekitar memicu atau mengakibatkan DMG reaksi Lunar, maka Columbina akan mengakumulasi nilai <color=#FFD780FF>Gravity</color> yang spesial. Saat mencapai nilai Gravity maksimum, Columbina akan mengakibatkan DMG yang berbeda berdasarkan reaksi Lunar yang paling banyak mengakumulasi nilai <color=#FFD780FF>Gravity</color> untuk Columbina.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: <color=#FFD780FF>Gravity Ripple</color> mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> dalam radius yang lebih luas.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Moonlit Melancholy",
       "Description": "Menghubungkan gunung dan laut atas nama bulan baru yang tak ternoda. Columbina membuat tanah di sekitarnya berubah menjadi {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} untuk sementara dan mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color>.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Lunacy's Lure",
         "Description": "Saat memicu {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}, Columbina akan mendapatkan efek Lunacy, membuat CRIT Rate diri sendiri meningkat 5% selama 10 detik. Efek ini dapat ditumpuk sampai 3 lapis.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "Law of the New Moon",
         "Description": "Karakter yang berada dalam {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} akan mendapatkan efek berikut saat memicu reaksi Lunar:\n·<color=#FFD780FF>Reaksi Lunar-Charged</color>: Saat awan petir menyambar target yang memenuhi syarat, ada 33% kemungkinan untuk menyambar sekali lagi.\n·<color=#FFD780FF>Reaksi Lunar-Bloom</color>: Saat memicu reaksi Lunar-Bloom, party akan mendapatkan 1 lapis efek {LINK#N11250003}<color=#FFD780FF>Moonridge Dew</color>{/LINK} khusus, maksimum 3 Moonridge Dew dapat diperoleh dengan cara ini setiap 18 detik.\n·<color=#FFD780FF>Reaksi Lunar-Crystallize</color>: Saat memicu Moondrift Harmony, setiap Moondrift memiliki 33% kemungkinan untuk melakukan 1 kali serangan tambahan.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Moonsign Benediction: Moonlight, Lent Unto You",
         "Description": "Saat Karakter di dalam party memicu reaksi Electro-Charged/Bloom/Hydro-Crystallize, reaksi tersebut akan dikonversi menjadi reaksi Lunar-Charged/Lunar-Bloom/Lunar-Crystallize. DMG dasar reaksi ini meningkat berdasarkan Max HP Columbina. Setiap 1.000 poin Max HP akan membuat DMG dasar reaksi Lunar meningkat 0,2%, hingga maksimum 7%.\n\nSelain itu saat Columbina berada di dalam party, <color=#FFD780FF>Moonsign</color> party meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Lunar Vigil",
-        "Description": "Jika Karakter sendiri di dalam party gugur saat berada di area Nod-Krai, Columbina akan membangkitkan Karakter ini dan memulihkan HP-nya. Jumlah HP yang dipulihkan akan didasarkan pada level Persahabatan Columbina. Efek ini dapat terpicu sekali setiap 100 detik. Efek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss.\nSelain itu, Columbina sepertinya memiliki kedekatan khusus dengan sebagian hewan yang dipengaruhi oleh kuuvahki ....",
+        "Description": "Jika Karakter sendiri di dalam party gugur saat berada di area Nod-Krai atau Frost Moon, Columbina akan membangkitkan Karakter ini dan memulihkan HP-nya. Jumlah HP yang dipulihkan akan didasarkan pada Level Persahabatan Columbina. Efek ini dapat terpicu sekali setiap 100 detik. Efek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss.\nSelain itu, Columbina sepertinya memiliki kedekatan khusus dengan sebagian hewan yang dipengaruhi oleh kuuvahki ....",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

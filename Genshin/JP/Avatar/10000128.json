@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "西風剣術・流光の舞",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n古代騎士の剣舞を真似て、両手に持った剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に突進し、より強力な一撃を放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "堕ちる烈風",
         "Description": "絶対的な力で西風剣術の真髄を示す。一回押しと長押しで異なる効果を発動する。\n\n<color=#FFD780FF>一回押し</color>\n前方へ跳躍して繰り出す斬撃によって<color=#80FFD7FF>風元素範囲ダメージ</color>を与え、{LINK#N11280001}<color=#FFD780FF>疾風怒濤</color>{/LINK}状態に入る。\n<color=#FFD780FF>疾風怒濤</color>状態の時、ファルカの通常攻撃と重撃ダメージがアップし、落下攻撃ができなくなる。また、両手に持った大剣による通常攻撃と重撃が、チーム内キャラクターの元素タイプに応じて、それぞれ元素付与によって他の元素に変化しない元素ダメージに変わる。\nまた、<color=#FFD780FF>疾風怒濤</color>状態の時、チーム内に<color=#FF9999FF>炎元素</color>、<color=#80C0FFFF>水元素</color>、<color=#FFACFFFF>雷元素</color>または<color=#99FFFFFF>氷元素</color>キャラクターが存在する場合、ファルカの元素スキル<color=#FFD780FF>堕ちる烈風</color>は特殊元素スキル{LINK#N11280002}<color=#FFD780FF>出づる四風</color>{/LINK}へと変わり、それに対応する元素ダメージと<color=#80FFD7FF>風元素ダメージ</color>を与える。さらに、ファルカは特殊元素スキル<color=#FFD780FF>出づる四風</color>の使用可能回数を消費することで、スタミナを消費しない特殊重撃<color=#FFD780FF>蒼牙</color>を行い、対応する元素ダメージと<color=#80FFD7FF>風元素ダメージ</color>を与えることができる。\n\n<color=#FFD780FF>長押し</color>\n力を溜めた後、前方へ跳躍する。力を溜めた時間に応じて跳躍距離が長くなる。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "魔女からの贈り物・朝を迎える光",
         "Description": "<color=#FFD780FF>魔女の課題・無題の題</color>を完了すると、ファルカは<color=#FFD780FF>魔導</color>キャラクターとして扱われるようになる。チームに魔導キャラクターを2名以上編成すると、<color=#FFD780FF>魔導秘儀</color>効果が発動し、魔導キャラクターは強化される。\n\n<color=#FFD780FF>魔導秘儀</color>\n特殊元素スキル{LINK#N11280002}<color=#FFD780FF>出づる四風</color>{/LINK}が強化され、ファルカが{LINK#N11280001}<color=#FFD780FF>疾風怒濤</color>{/LINK}状態の時、敵に通常攻撃を与えると、<color=#FFD780FF>出づる四風</color>で短縮できるクールタイムが1秒に変わる。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "我こそ朔風",
       "Description": "最強の北風騎士の名において、前方に強力な二連斬を繰り出し、<color=#80FFD7FF>風元素ダメージ</color>を2回与える。\nチーム内に<color=#FF9999FF>炎元素</color>、<color=#80C0FFFF>水元素</color>、<color=#FFACFFFF>雷元素</color>または<color=#99FFFFFF>氷元素</color>キャラクターが存在する場合、この優先順位に従って、1撃目が対応する元素ダメージに変換される。",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "暁の風の行軍",
         "Description": "チーム内に<color=#FF9999FF>炎元素</color>、<color=#80C0FFFF>水元素</color>、<color=#FFACFFFF>雷元素</color>または<color=#99FFFFFF>氷元素</color>キャラクターが存在する時、この優先順位に従って、ファルカの攻撃力を基準として、攻撃力1000ごとにファルカは10%の<color=#80FFD7FF>風元素ダメージアップ効果</color>と対応する元素のダメージアップ効果を獲得する。この方法でダメージアップ効果を獲得できるのは、1種類の元素タイプのみ。また、最大25%まで。\n\nさらに、チーム内に2名以上の<color=#80FFD7FF>風元素</color>キャラクターが存在する場合、または2名以上の同じ元素タイプ（<color=#FF9999FF>炎元素</color>、<color=#80C0FFFF>水元素</color>、<color=#FFACFFFF>雷元素</color>または<color=#99FFFFFF>氷元素</color>）のキャラクターが存在する場合、ファルカが{LINK#N11280001}<color=#FFD780FF>疾風怒濤</color>{/LINK}状態で行う通常攻撃、重撃、特殊重撃<color=#FFD780FF>蒼牙</color>、および発動する特殊元素スキル{LINK#N11280002}<color=#FFD780FF>出づる四風</color>{/LINK}は、本来の140%のダメージを与える。チーム内に2名以上の<color=#80FFD7FF>風元素</color>キャラクターと、前述した2名以上の同じ元素タイプのキャラクターが同時に存在する場合、上記の効果は220%にアップする。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "風の御旗の導き",
-        "Description": "付近にいるチーム内キャラクターが拡散反応を起こした時、ファルカは<color=#FFD780FF>「蒼牙の誓い」</color>を1層獲得し、ファルカの通常攻撃、重撃、特殊重撃<color=#FFD780FF>蒼牙</color>および発動した特殊元素スキル{LINK#N11280002}<color=#FFD780FF>出づる四風</color>{/LINK}の与えるダメージ+7.5%。この効果は継続時間8秒、最大4層まで重ねられる。この方法によって、各キャラクターがファルカに付与できる<color=#FFD780FF>「蒼牙の誓い」</color>は1秒毎に1層のみ。",
+        "Description": "付近にいるチーム内キャラクターが拡散または星拡散反応を起こした時、ファルカは<color=#FFD780FF>「蒼牙の誓い」</color>を1層獲得し、ファルカの通常攻撃、重撃、特殊重撃<color=#FFD780FF>蒼牙</color>および発動した特殊元素スキル{LINK#N11280002}<color=#FFD780FF>出づる四風</color>{/LINK}の与えるダメージ+7.5%。この効果は継続時間8秒、最大4層まで重ねられる。この方法によって、各キャラクターがファルカに付与できる<color=#FFD780FF>「蒼牙の誓い」</color>は1秒毎に1層のみ。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "帰風の凱歌",
         "Description": "チームにモンド出身のキャラクターが1人いる毎に、長押しで発動した元素スキル<color=#FFD780FF>堕ちる烈風</color>のクールタイム-5%。\nこの効果は秘境、征討領域、深境螺旋では発動しない。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "「謳え、誰にも奪えない自由を」",
-        "Description": "ファルカが拡散反応を起こした時、反応に関わった元素タイプに応じて、周囲のチーム全員がそれぞれ20%の<color=#80FFD7FF>風元素</color>と対応する元素のダメージアップ効果を獲得する。継続時間10秒。",
+        "Description": "ファルカが拡散または星拡散反応を起こした時、反応に関わった元素タイプに応じて、周囲のチーム全員がそれぞれ20%の<color=#80FFD7FF>風元素</color>と対応する元素のダメージアップ効果を獲得する。継続時間10秒。",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

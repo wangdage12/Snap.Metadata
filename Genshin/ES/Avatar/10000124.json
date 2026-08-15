@@ -261,6 +261,7 @@
         "Id": 11241,
         "Name": "Flechazo oportuno",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, un fuerte viento se acumulará en la punta de la flecha que, al estar totalmente cargada con la fuerza del viento, infligirá <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire y desciende rápidamente mientras ataca a los enemigos a su paso, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 11242,
         "Name": "Estratagema: Plan de reparto de riqueza",
         "Description": "#Jahoda carga contra el enemigo y, al golpearlo, entra en el estado “persecución saqueasombras”. Mientras esté en este estado, Jahoda se moverá continuamente a gran velocidad. Si los enemigos cercanos están afectados por <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, el {LINK#N11240001}<color=#FFD780FF>frasco maullisecreto</color>{/LINK} que Jahoda lleva consigo cambiará al tipo elemental correspondiente y empezará a llenarse continuamente. Cuando termine la duración o se vuelva a usar la habilidad, Jahoda vaciará el contenido del <color=#FFD780FF>frasco maullisecreto</color> para infligir una vez <color=#80FFD7FF>Daño Anemo</color> a los enemigos cercanos. Cuando el frasco se llene por completo, Jahoda también lo vaciará, saldrá del estado de persecución saqueasombras e infligirá una vez un mayor <color=#80FFD7FF>Daño Anemo</color>.\nSi Jahoda no golpea a ningún enemigo al cargar, arrojará una bomba de humo en la ubicación original e infligirá una vez <color=#80FFD7FF>Daño Anemo</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color>\nCuando el <color=#FFD780FF>frasco maullisecreto</color> esté lleno, Jahoda no lo vaciará de inmediato, sino que consumirá continuamente el elemento del frasco durante un tiempo para disparar periódicamente <color=#FFD780FF>gatibolitas blandisuaves</color> a los enemigos cercanos, las cuales infligen daño del mismo tipo elemental que el frasco. Cuando una <color=#FFD780FF>gatibolita blandisuave</color> golpee a un enemigo, Jahoda recuperará 2{NON_BREAK_SPACE}pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 3.5{NON_BREAK_SPACE}s.\n\n<i>Hay muchas formas de distribuir la riqueza en este mundo, pero, para los cazadores de tesoros y los Ladrones de Tesoros de Nod Krai, solo existe una única manera eficiente de hacerlo.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Jahoda_01"
       }
     ],
@@ -798,6 +800,7 @@
       "Id": 11245,
       "Name": "Dispositivo secreto: Los siete artilugios de una cazadora",
       "Description": "¡Hora de usar por fin ese tesoro que quedaba en el fondo del baúl! Jahoda saca dos {LINK#N11240002}<color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color>{/LINK} e inflige una vez <color=#80FFD7FF>Daño Anemo</color> a los enemigos cercanos.\n\n<i>“Eso de ‘coordinación de asistencia’ quiere decir que tú prestas ‘asistencia’ sacando tus Moras y nosotros ya nos encargamos de la ‘coordinación’. ¿Qué te parece? ¿A que no está nada mal?”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Jahoda_01"
     },
     "Inherents": [
@@ -821,6 +824,7 @@
         "Id": 1242101,
         "Name": "Argucia remunerativa",
         "Description": "Cuando en el equipo haya al menos 1 personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, los {LINK#N11240002}<color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color>{/LINK} de la Habilidad Definitiva, <color=#FFD780FF>Dispositivo secreto: Los siete artilugios de una cazadora</color>, se fortalecerán en función del número de personajes de cada tipo elemental.\nJahoda hará una nota mental de los personajes de los tipos elementales anteriormente mencionados. Si entre estos personajes el tipo elemental más numeroso es:\n·<color=#FF9999FF>Pyro</color>: los <color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color> infligirán un 130% de su daño original.\n·<color=#80C0FFFF>Hydro</color>: los <color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color> curarán un 120% de su cantidad original.\n·<color=#FFACFFFF>Electro</color>: aumentará en 1 el número de <color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color>.\n·<color=#99FFFFFF>Cryo</color>: el intervalo de ataque de los <color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color> se reducirá en un 10%.\n\nSi existe el mismo número de personajes de los tipos elementales mencionados, el registro se llevará a cabo en el siguiente orden: <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, <color=#99FFFFFF>Cryo</color>. Inicialmente solo se podrá obtener el efecto correspondiente a un único tipo elemental.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_05"
       },
       {
@@ -842,6 +846,7 @@
         "Id": 1242201,
         "Name": "Dulce recompensa",
         "Description": "#Cuando los {LINK#N11240002}<color=#FFD780FF>coordinadores gatunos de asistencia doméstica</color>{/LINK} de la Habilidad Definitiva, <color=#FFD780FF>Dispositivo secreto: Los siete artilugios de una cazadora</color>, curen a tu personaje en uso del equipo, si este tiene más del 70% de la Vida, su Maestría Elemental aumentará en 100{NON_BREAK_SPACE}pts. durante 6{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_06"
       },
       {
@@ -860,6 +865,7 @@
         "Id": 1242301,
         "Name": "Bendición presagiolunar: Carrera por los aleros",
         "Description": "#Cuando Jahoda esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_07"
       },
       {
@@ -878,6 +884,7 @@
         "Id": 1242501,
         "Name": "Astucia callejera",
         "Description": "Reduce en un 25% el tiempo necesario para completar una expedición en Nod Krai.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_08"
       }
     ],
@@ -1241,7 +1248,7 @@
       },
       {
         "Title": "Visión",
-        "Context": "La noticia de que Jahoda poseía una Visión había sido difundida por Néfer.\nSegún Néfer, si ella misma tenía aquel tesoro, lo lógico era que Jahoda, como empleada, también lo tuviera. De no ser así, cuando saliera a realizar algún encargo, estaría en clara desventaja en lo que a inspirar respeto se refería.\n“Jefa, pero yo no tengo una Visión...”.\n“Eso da igual, te haré una esfera de cristal para que la lleves contigo”.\n“¡Eso lo descubrirán enseguida!”.\n“No pasa nada. Aparte de los portadores de una Visión, ¿quién podría detectar si es verdadera o falsa?”.\n“¿Oh? Bueno... parece que... tiene razón...”.\nY así fue como, llevando la esfera de cristal verdosa que Néfer había sacado de quién sabía dónde, Jahoda empezó sus labores como cualquier otro día.\nTal y como había dicho Néfer, cuando la gente se enteró de que Jahoda tenía una “Visión”, su actitud mejoró notablemente en más de un nivel. No solo le entregaban recompensas ligeramente más cuantiosas, sino que también estaban dispuestos a asignarle encargos más difíciles...\nPor supuesto, bajo la presión de las mejores recompensas, la alta dificultad y las expectativas de la gente, Jahoda, que sabía perfectamente que no tenía una Visión, se vio obligada a trabajar aún más duro casi por instinto, como si fuera una pequeña peonza que giraba sin parar todo el día. Sin embargo, en general, se sentía más feliz por poder ayudar a todos, ganar más dinero y hacerse con la confianza de los demás.\nIncluso cuando dormía, Jahoda solía soñar con que ayudaba a alguien o que acababa causando una gran sensación.\n“N-no se preocupen, tengo una... Visión...”.\nJahoda agitaba los puños mientras murmuraba aquello entre dientes, como si acabara de derrotar a algún poderoso adversario en sueños.\nEn la realidad, Néfer, que acababa de regresar de una charla nocturna, se sentó junto a Jahoda. La “única empleada oficial de la Cámara de Secretos” tenía la mochila abierta, y aquella esfera de cristal verdosa estaba envuelta cuidadosamente entre varias capas de tela para que no se rompiera fácilmente ni pudiera ser vista por miradas indiscretas.\nJahoda agitó inconscientemente el brazo y murmuró vagamente:\n“Yo te ayudaré, tengo una... Visión...”.\n“Con una Visión... podré hacer el bien...”.\n“Con una Visión... podré...”.\nNéfer, que ya se había levantado para marcharse, vislumbró de repente un destello verdoso que se desvaneció en un instante.\nLa jefa de la Cámara de Secretos se mostró un tanto sorprendida, pero luego no pudo evitar soltar una carcajada.\nUna mentira repetida hasta la saciedad se había hecho realidad."
+        "Context": "La noticia de que Jahoda poseía una Visión había sido difundida por Néfer.\nSegún Néfer, si ella misma tenía aquel tesoro, lo lógico era que Jahoda, como empleada, también lo tuviera. De no ser así, cuando saliera a realizar algún encargo, estaría en clara desventaja en lo que a inspirar respeto se refería.\n“Jefa, pero yo no tengo una Visión...”.\n“Eso da igual, te haré una esfera de cristal para que la lleves contigo”.\n“¡Eso lo descubrirán enseguida!”.\n“No pasa nada. Aparte de los portadores de una Visión, ¿quién podría detectar si es verdadera o falsa?”.\n“¿Oh? Bueno... parece que... tienes razón...”.\nY así fue como, llevando la esfera de cristal verdosa que Néfer había sacado de quién sabía dónde, Jahoda empezó sus labores como cualquier otro día.\nTal y como había dicho Néfer, cuando la gente se enteró de que Jahoda tenía una “Visión”, su actitud mejoró notablemente en más de un nivel. No solo le entregaban recompensas ligeramente más cuantiosas, sino que también estaban dispuestos a asignarle encargos más difíciles...\nPor supuesto, bajo la presión de las mejores recompensas, la alta dificultad y las expectativas de la gente, Jahoda, que sabía perfectamente que no tenía una Visión, se vio obligada a trabajar aún más duro casi por instinto, como si fuera una pequeña peonza que giraba sin parar todo el día. Sin embargo, en general, se sentía más feliz por poder ayudar a todos, ganar más dinero y hacerse con la confianza de los demás.\nIncluso cuando dormía, Jahoda solía soñar con que ayudaba a alguien o que acababa causando una gran sensación.\n“N-no se preocupen, tengo una... Visión...”.\nJahoda agitaba los puños mientras murmuraba aquello entre dientes, como si acabara de derrotar a algún poderoso adversario en sueños.\nEn la realidad, Néfer, que acababa de regresar de una charla nocturna, se sentó junto a Jahoda. La “única empleada oficial de la Cámara de Secretos” tenía la mochila abierta, y aquella esfera de cristal verdosa estaba envuelta cuidadosamente entre varias capas de tela para que no se rompiera fácilmente ni pudiera ser vista por miradas indiscretas.\nJahoda agitó inconscientemente el brazo y murmuró vagamente:\n“Yo te ayudaré, tengo una... Visión...”.\n“Con una Visión... podré hacer el bien...”.\n“Con una Visión... podré...”.\nNéfer, que ya se había levantado para marcharse, vislumbró de repente un destello verdoso que se desvaneció en un instante.\nLa jefa de la Cámara de Secretos se mostró un tanto sorprendida, pero luego no pudo evitar soltar una carcajada.\nUna mentira repetida hasta la saciedad se había hecho realidad."
       }
     ]
   },

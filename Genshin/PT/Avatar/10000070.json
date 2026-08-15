@@ -276,6 +276,7 @@
         "Id": 10701,
         "Name": "Dança da Meia-Lua",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um golpe giratório.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -553,6 +554,7 @@
         "Id": 10702,
         "Name": "Dança dos Sete Reinos",
         "Description": "Entra no estado de \"Pirueta\", infligindo <color=#80C0FFFF>Dano Hydro</color> baseado na Vida Máxima de Nilou.\nEnquanto estiver no estado de Pirueta, ao desferir Ataques Normais ou lançar sua Habilidade Elemental, Nilou entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em <color=#80C0FFFF>Dano Hydro</color> que não pode ser substituído, e é considerado Dano de Habilidade Elemental.\n\nNesse estado, o terceiro passo da dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:\n· Dança de Espadas: lança uma Lua Aquática, que inflige <color=#80C0FFFF>Dano Hydro</color> contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar Ataques Normais, eles serão convertidos em Dança de Espadas e, ao realizar o último ataque, será lançada uma Lua Aquática;\n· Dança Rodopiante: lança uma Roda d'Água, infligindo <color=#80C0FFFF>Dano Hydro em AdE</color>, e gerando uma \"Aura da Tranquilidade\" que segue o personagem ativo, continuamente aplicando o estado <color=#80C0FFFF>Molhado</color> aos oponentes.\n\nEnquanto Nilou estiver no estado de Pirueta ou da Súplica Lunar, ela não poderá desferir Ataques Carregados; esses estados serão eliminados quando Nilou sair do campo de batalha.\n\n<i>\"Quando seus pés delicados tocam suavemente a água, ela cria ondulações tão resplandecentes quanto os sete céus.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nilou_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 10705,
       "Name": "Dança da Lótus: Nascente Longínqua Onírica",
       "Description": "Inicia a Dança da Nascente Longínqua Onírica, desabrochando a Lótus de Águas Longínquas, que inflige <color=#80C0FFFF>Dano Hydro em AdE</color> baseado na Vida Máxima de Nilou e aplicando o estado \"Inundação Eterna\" aos inimigos atingidos.\nApós um curto intervalo, inimigos sob o estado Inundação Eterna sofrerão <color=#80C0FFFF>Dano Hydro</color>.\n\n<i>\"Nunca testemunhamos sonho tão distante, mas essa dança pode trazê-lo à vida.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nilou_01"
     },
     "Inherents": [
@@ -745,6 +748,7 @@
         "Id": 702101,
         "Name": "Corte das Pétalas Dançantes",
         "Description": "Quando todos os personagens da equipe são do tipo elemental <color=#99FF88FF>Dendro</color> e <color=#80C0FFFF>Hydro</color>, e quando há pelo menos um personagem Dendro e Hydro:\nAo completar a terceira etapa da <color=#FFD780FF>Dança dos Sete Reinos</color>, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.\nPersonagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um <color=#99FF88FF>Ataque Dendro</color>, aumentarão a Proficiência Elemental de todos os personagens próximos em 100 por 10s; além disso, ao desencadearem a reação de Florescimento ou Florescimento Lunar, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".\nDiferente do Núcleo Dendro, o Núcleo da Riqueza explode rapidamente e tem uma AdE maior.\nO Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.\nQuando os requisitos de Talento de Ascensão do tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nilou_05"
       },
       {
@@ -767,6 +771,7 @@
         "Id": 702201,
         "Name": "Sonhos da Dança de Eras",
         "Description": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 9%.\nO aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 400%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nilou_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 702301,
         "Name": "Lótus da Jade Branca",
         "Description": "Ao fazer uma comida Perfeita relacionada a efeitos de Aventura, há 12% de chance de se obter o dobro de produção.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_07"
       }
     ],

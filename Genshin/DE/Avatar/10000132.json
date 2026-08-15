@@ -261,6 +261,7 @@
         "Id": 11321,
         "Name": "Babäääm! Hexenjäger-Hammer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nSchwingt den „Hammer des Jagdschwurs“, führt bis zu drei Angriffe aus und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Hammerhieb nach oben aus, der Gegnern vorne <color=#80FFD7FF>Anemo-Schaden</color> zufügt.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft des Windes, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -412,7 +413,8 @@
         },
         "Id": 11322,
         "Name": "Klingeling! Klang der Hexenjagd",
-        "Description": "#Mit der Entschlossenheit, die böse Hexe zu besiegen und Descartes zu retten, entfessle die Kraft des Windes! Prune schlägt mit dem „Hammer des Jagdschwurs“ auf das „Köderglöckchen“ und verursacht <color=#80FFD7FF>Anemo-SCH</color>.\nWenn Prune durch diesen Angriff bei einem Gegner eine Verwirbelung auslöst, wird innerhalb der nächsten 6{NON_BREAK_SPACE}s <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> durch <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color> ersetzt.\n\n<color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>\nDie Elementarenergie vom Typ der vorigen Verwirbelung umhüllt jetzt den „Hammer des Jagdschwurs“, der nun eine Elementarumwandlung durchläuft. Bei Anwendung durch Drücken springt Prune hoch und tritt den {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK} nach vorne, wodurch sie Gegnern vor ihr SCH des entsprechenden Elementartyps zufügt.",
+        "Description": "#Mit der Entschlossenheit, die böse Hexe zu besiegen und Descartes zu retten, entfessle die Kraft des Windes! Prune schlägt mit dem „Hammer des Jagdschwurs“ auf das „Köderglöckchen“ und verursacht <color=#80FFD7FF>Anemo-SCH</color>.\nWenn Prune durch diesen Angriff bei einem Gegner eine Verwirbelung oder Stellar-Verwirbelung auslöst, wird innerhalb der nächsten 6{NON_BREAK_SPACE}s <color=#FFD780FF>Klingeling! Klang der Hexenjagd</color> durch <color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color> ersetzt.\n\n<color=#FFD780FF>Bumm-Bumm! Strafe des Hexenrichters</color>\nDie Elementarenergie vom Typ der vorigen Verwirbelung oder Stellar-Verwirbelung umhüllt jetzt den „Hammer des Jagdschwurs“, der nun eine Elementarumwandlung durchläuft. Bei Anwendung durch Drücken springt Prune hoch und tritt den {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK} nach vorne, wodurch sie Gegnern vor ihr SCH des entsprechenden Elementartyps zufügt.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Prune_01"
       }
     ],
@@ -437,7 +439,8 @@
         },
         "Id": 1325101,
         "Name": "Geschenk der Hexennacht – Schwur der Hexenjäger",
-        "Description": "#Wandelt Prune nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von Widerlegung</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht, nachdem ein Hexerei-Truppenmitglied, das unter dem Einfluss von „Trommelwirbel“ steht, eine beliebige Elementarreaktion an einem Gegner auslöst, Prunes eigenen ANG 5{NON_BREAK_SPACE}s lang um 60{NON_BREAK_SPACE}%. Erhöht ihren eigenen ANG, wenn es sich bei der Elementarreaktion dieser Figur um eine Verwirbelungsreaktion handelt, 5{NON_BREAK_SPACE}s lang zusätzlich um 30{NON_BREAK_SPACE}%.",
+        "Description": "#Wandelt Prune nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von Widerlegung</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht, nachdem eine Hexerei-Figur in der Truppe, die unter dem Einfluss von „Trommelwirbel“ steht, eine beliebige Elementarreaktion an einem Gegner auslöst, Prunes eigenen ANG 5{NON_BREAK_SPACE}s lang um 60{NON_BREAK_SPACE}%. Wenn es sich bei der Elementarreaktion der Figur um die Reaktion Verwirbelung oder Stellar-Verwirbelung handelt, wird der ANG dieser Figur 5{NON_BREAK_SPACE}s lang zusätzlich um 30{NON_BREAK_SPACE}% erhöht.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 11325,
       "Name": "Glockenläuten! Die Jagd ist eröffnet!",
       "Description": "Prune schwingt das „Köderglöckchen“ leicht und fügt Gegnern in der Umgebung <color=#80FFD7FF>Anemo-SCH</color> zu. Danach wechselt das „Köderglöckchen“ in den Modus „Jagdsuche“.\n\n<color=#FFD780FF>Köderglöckchen – Jagdsuche</color>\nIn diesem Modus folgt das „Köderglöckchen“ der aktuellen Figur, greift in regelmäßigen Abständen Gegner in der Umgebung an und verursacht <color=#80FFD7FF>Anemo-Flächenschaden</color>. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Prune_01"
     },
     "Inherents": [
@@ -643,7 +647,8 @@
         },
         "Id": 1322101,
         "Name": "Entscheidung und Strafe",
-        "Description": "#Beschwört, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> einem Gegner Schaden zufügt und dieser Schaden eine Verwirbelung auslöst, die den Gegner trifft, vor dem Gegner einen {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}. Dieser führt eine Elementarumwandlung basierend auf der ausgelösten Verwirbelung durch, schlägt auf den Gegner ein und verursacht dabei Elementar-Schaden des entsprechenden Typs in Höhe von 150{NON_BREAK_SPACE}% von Prunes ANG. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit.",
+        "Description": "#Beschwört, wenn das „Köderglöckchen“ im Modus „Jagdsuche“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> einem Gegner Schaden zufügt und dieser Schaden die Reaktion Verwirbelung oder Stellar-Verwirbelung auslöst, die den Gegner trifft, vor dem Gegner einen {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}. Dieser führt eine Elementarumwandlung basierend auf der ausgelösten Verwirbelung oder Stellar-Verwirbelung durch, schlägt auf den Gegner ein und verursacht dabei Elementar-Schaden des entsprechenden Typs in Höhe von 150{NON_BREAK_SPACE}% von Prunes ANG. Hierdurch verursachter Schaden gilt als Schaden der Spezialfähigkeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_05"
       },
       {
@@ -667,6 +672,7 @@
         "Id": 1322201,
         "Name": "Herzschlag in Eintracht",
         "Description": "#Verleiht, wenn Prune einen Gegner mit dem {LINK#N11320001}<color=#FFD780FF>Hammer des Jagdschwurs</color>{/LINK}, der bereits eine Elementarumwandlung durchlaufen hat, trifft, anderen Truppenmitgliedern in der Nähe 5{NON_BREAK_SPACE}s lang den Effekt Trommelwirbel: Erhöht, wenn Standardangriffe, heftige Schläge, Angriffe aus dem Fall, Elementarfähigkeiten oder Spezialfähigkeiten Gegnern Schaden zufügen, den durch diesen Angriff verursachte Schaden basierend auf dem Teil von Prunes ANG, der über 2.000 liegt, zu dem Zeitpunkt, an dem sie den Effekt „Trommelwirbel“ erhielten: Erhöht für jeden Punkt ANG den durch diesen Angriff verursachte Schaden um 0,025{NON_BREAK_SPACE}%, bis zu 50{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_06"
       },
       {
@@ -685,6 +691,7 @@
         "Id": 1322301,
         "Name": "Umbau! Krach, bumm!",
         "Description": "#Erschafft mit einer Wahrscheinlichkeit von 10{NON_BREAK_SPACE}% extra ein anderes zufälliges Material für Figurentalente aus demselben Gebiet mit einer dem erhaltenen Material entsprechenden Stufe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_08"
       }
     ],
@@ -730,7 +737,7 @@
       {
         "Id": 1326,
         "Name": "Das war’s. Erzähl die Geschichte deinen Freunden!",
-        "Description": "#Verlängert die Dauer des Modus „Jagdsuche“ des „Köderglöckchens“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> um 4{NON_BREAK_SPACE}s.\nErhöht zudem den ANG von Prune und der aktuellen Figuren in der Nähe, die unter dem Einfluss des Effekts „Trommelwirbel“ stehen, 5{NON_BREAK_SPACE}s um 350 Punkte, wenn von „Trommelwirbel“ beeinflusste Truppenmitgliedern eine beliebige Elementarreaktion an einem Gegner ausgelöst haben.",
+        "Description": "#Verlängert die Dauer des Modus „Jagdsuche“ des „Köderglöckchens“ der Spezialfähigkeit <color=#FFD780FF>{LINK#S11325}Glockenläuten! Die Jagd ist eröffnet!{/LINK}</color> um 4{NON_BREAK_SPACE}s.\nErhöht zudem den ANG von Prune und der aktuellen Figuren in der Nähe, die unter dem Einfluss des Effekts „Trommelwirbel“ stehen, 5{NON_BREAK_SPACE}s lang um 350 Punkte, wenn von „Trommelwirbel“ beeinflusste Truppenmitgliedern eine beliebige Elementarreaktion an einem Gegner ausgelöst haben.",
         "Icon": "UI_Talent_S_Prune_04"
       }
     ]
@@ -1104,7 +1111,7 @@
       },
       {
         "Title": "„Köderglöckchen“ und „Hammer des Jagdschwurs“",
-        "Context": "\nNach der „Entführung“ von Descartes verfiel Prune in eine noch nie erlebte Panik.\nSie schloss sich in ihrem Zimmer ein und ging dann, wie ein Soldat, der bald auf das Schlachtfeld zieht, jedes Detail ihrer vorherigen Konfrontation mit Alice nochmal durch: Sobald Alice die Worte ausgegangen waren, da geschah es und diese Frau holte plötzlich lächelnd ein „Sammlerstück“ hervor, als Belohnung für Prune, die die Hexe in der Debatte erfolgreich besiegt hatte.\nDamals dachte sie nur, das sei eine Art Trick, um Kinder zu beruhigen, so wie Erwachsene es eben gewöhnlich tun, indem sie dir ein Stück Zucker geben, damit du nur den Mund hältst.\nAber jetzt kam ihr eine brennende Frage in den Sinn: Wenn die Hexe über eine derart große magische Macht verfügte, waren diese „Kleinigkeiten“, die sie einfach so hervorgeholt hatte, dann wirklich nur Spielzeug?\nAlso breitete sie ihre Beute nacheinander vor sich aus und nahm eine ernsthafte Evaluierung ihrer Kampfkraft vor. Sie sortierte die offensichtlichen „Störfaktoren“ aus: verschiedene bunt verpackte Snacks, glitzernde Sticker mit kindischen Motiven und Kuscheltiere ohne besondere Funktionen. Schließlich traten zwei Gegenstände in ihr Blickfeld, die das größte Potenzial für echte Kämpfe boten.\nErstens: ein sehr fein gearbeitetes Glöckchen. „Beim Läuten erscheint mit gewisser Wahrscheinlichkeit eine Hexe.“ Alices Erklärung war jedoch sehr vage. Prune vermutete dahinter also sofort eine echte Hexenfalle, den Begriff „Wahrscheinlichkeit“ ignorierte sie. Daher dachte sie natürlich nicht an den wahren Zweck: Früher kündigte man damit Teepartys an, und Hexen mit Freizeit kamen dann einfach nach Lust und Laune. Prune definierte die Glocke aber völlig neu und auf ihren Abenteuern war sie jetzt wirklich sehr nützlich. Dabei erschien zwar nicht immer eine Hexe, doch sie führte stets zu unglaublichen magischen Begegnungen.\nZweitens gibt es einen schweren Hammer. Er sieht auf den allerersten Blick einfach unglaublich wuchtig und beeindruckend aus. Er ist das größte Stück der Beute. Gleichzeitig ist er auch das mit Abstand schwerste Teil, sodass er beim Schwingen extrem wild umhersaust, was wirklich sehr bedrohlich aussieht. Von seiner Vergangenheit wusste Prune jedoch nichts. Alice wollte ihn der anderen Hexe Nicole ursprünglich einfach als Geschenk geben. Er sollte als ein nützliches Bildhauerwerkzeug dienen. Nicole aber lehnte diese etwas zu grobe und doch gut gemeinte Geste ab. Ihre Begründung dafür war simpel: „Mein Hobby ist die Bildhauerei, ganz bestimmt nicht Abrissarbeiten.“ So blieb dieser riesige Hammer einfach übrig und wurde zur logischen Wahl, als Alice endlich mal ihr Lager aufräumte.\nDiese Geschenke vom „Großen Dämonenkönig“ erhielten durch Prunes rationale Neuinterpretation und den praktischen Umbau zu Waffen feierlich neue Namen:\n„Köderglöckchen“ und „Hammer des Jagdschwurs“."
+        "Context": "Nach der „Entführung“ von Descartes verfiel Prune in eine noch nie erlebte Panik.\nSie schloss sich in ihrem Zimmer ein und ging dann, wie ein Soldat, der bald auf das Schlachtfeld zieht, jedes Detail ihrer vorherigen Konfrontation mit Alice nochmal durch: Sobald Alice die Worte ausgegangen waren, da geschah es und diese Frau holte plötzlich lächelnd ein „Sammlerstück“ hervor, als Belohnung für Prune, die die Hexe in der Debatte erfolgreich besiegt hatte.\nDamals dachte sie nur, das sei eine Art Trick, um Kinder zu beruhigen, so wie Erwachsene es eben gewöhnlich tun, indem sie dir ein Stück Zucker geben, damit du nur den Mund hältst.\nAber jetzt kam ihr eine brennende Frage in den Sinn: Wenn die Hexe über eine derart große magische Macht verfügte, waren diese „Kleinigkeiten“, die sie einfach so hervorgeholt hatte, dann wirklich nur Spielzeug?\nAlso breitete sie ihre Beute nacheinander vor sich aus und nahm eine ernsthafte Evaluierung ihrer Kampfkraft vor. Sie sortierte die offensichtlichen „Störfaktoren“ aus: verschiedene bunt verpackte Snacks, glitzernde Sticker mit kindischen Motiven und Kuscheltiere ohne besondere Funktionen. Schließlich traten zwei Gegenstände in ihr Blickfeld, die das größte Potenzial für echte Kämpfe boten.\nErstens: ein sehr fein gearbeitetes Glöckchen. „Beim Läuten erscheint mit gewisser Wahrscheinlichkeit eine Hexe.“ Alices Erklärung war jedoch sehr vage. Prune vermutete dahinter also sofort eine echte Hexenfalle, den Begriff „Wahrscheinlichkeit“ ignorierte sie. Daher dachte sie natürlich nicht an den wahren Zweck: Früher kündigte man damit Teegesellschaften an, und Hexen mit Freizeit kamen dann einfach nach Lust und Laune. Prune definierte die Glocke aber völlig neu und auf ihren Abenteuern war sie jetzt wirklich sehr nützlich. Dabei erschien zwar nicht immer eine Hexe, doch sie führte stets zu unglaublichen magischen Begegnungen.\nZweitens gibt es einen schweren Hammer. Er sieht auf den allerersten Blick einfach unglaublich wuchtig und beeindruckend aus. Er ist das größte Stück der Beute. Gleichzeitig ist er auch das mit Abstand schwerste Teil, sodass er beim Schwingen extrem wild umhersaust, was wirklich sehr bedrohlich aussieht. Von seiner Vergangenheit wusste Prune jedoch nichts. Alice wollte ihn der anderen Hexe Nicole ursprünglich einfach als Geschenk geben. Er sollte als ein nützliches Bildhauerwerkzeug dienen. Nicole aber lehnte diese etwas zu grobe und doch gut gemeinte Geste ab. Ihre Begründung dafür war simpel: „Mein Hobby ist die Bildhauerei, ganz bestimmt nicht Abrissarbeiten.“ So blieb dieser riesige Hammer einfach übrig und wurde zur logischen Wahl, als Alice endlich mal ihr Lager aufräumte.\nDiese Geschenke vom „Großen Dämonenkönig“ erhielten durch Prunes rationale Neuinterpretation und den praktischen Umbau zu Waffen feierlich neue Namen:\n„Köderglöckchen“ und „Hammer des Jagdschwurs“."
       },
       {
         "Title": "Göttliches Auge",

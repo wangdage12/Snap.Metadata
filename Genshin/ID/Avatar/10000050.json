@@ -277,6 +277,7 @@
         "Id": 10501,
         "Name": "Swiftshatter Spear",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan tombak berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menerjang ke depan, mengakibatkan DMG pada musuh di jalur terjangan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10502,
         "Name": "Blazing Blessing",
         "Description": "Thoma menggunakan ujung tombaknya sebagai poros untuk menyalurkan apinya dan melakukan tendangan yang mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>, kemudian menciptakan sebuah Blazing Barrier. Saat melancarkan Elemental Skill, Thoma akan terkena <color=#FF9999FF>efek elemen Pyro</color> selama sekejap.\nDMG yang dapat ditahan oleh Barrier didasarkan pada Max HP Thoma.\nBlazing Barrier mempunyai efek sebagai berikut:\n·Menahan <color=#FF9999FF>Pyro DMG</color> 250% lebih efektif.\n·Saat menciptakan Blazing Barrier baru, sisa DMG yang dapat ditahan oleh Blazing Barrier akan ditumpuk dan durasinya diperbarui.\n\nDMG maksimum yang dapat ditahan oleh Barrier tidak akan melebihi persentase tertentu dari Max HP Thoma.\n\n<i>Sebagai pendatang asing, hanya gairah membara yang memungkinkan Thoma bisa menguasai seni tombak Inazuma yang murni dan akurat. Penguasaan ilmu tombak Thoma memang tidak terbatas pada julukannya sebagai \"murid paling cepat belajar\" atau \"si ahli ilmu tombak\", tapi dia juga menanamkan tekad untuk melindungi orang lain dan mengusir musuh ke dalam seni tombaknya.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Tohma_01"
       }
     ],
@@ -738,6 +740,7 @@
       "Id": 10505,
       "Name": "Crimson Ooyoroi",
       "Description": "Thoma memutar tombaknya untuk menebas musuh-musuh di sekitar dengan api membara yang mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>, kemudian menciptakan efek Scorching Ooyoroi.\n\n<color=#FFD780FF>Scorching Ooyoroi</color>\nNormal Attack dari Karakter aktif yang memiliki efek Scorching Ooyoroi akan memicu Fiery Collapse yang mengakibatkan <color=#FF9999FF>Pyro DMG Area</color> dan menciptakan Blazing Barrier.\nFiery Collapse dapat terpicu setiap 1 detik.\n\nBlazing Barrier yang diciptakan dengan cara ini mempunyai karakteristik yang sama dengan yang terbuat dari Elemental Skill Thoma \"Blazing Blessing\", kecuali pada jumlah DMG yang dapat ditahan:\n·Menahan <color=#FF9999FF>Pyro DMG</color> 250% lebih efektif.\n·Saat menciptakan Blazing Barrier baru, sisa DMG yang dapat ditahan oleh Blazing Barrier akan ditumpuk dan durasinya diperbarui.\n\nDMG maksimum yang dapat ditahan oleh Barrier tidak akan melebihi persentase tertentu dari Max HP Thoma.\n\nJika Thoma gugur, efek Scorching Ooyoroi akan hilang.\n\n<i>\"Aku tidak akan melupakan janjiku. Biarlah api yang melindungi orang-orang yang kusayang, terus membara dan tidak pernah padam.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Tohma_01"
     },
     "Inherents": [
@@ -762,6 +765,7 @@
         "Id": 502101,
         "Name": "Imbricated Armor",
         "Description": "Saat Karakter yang sedang digunakan mendapatkan atau memperbarui <color=#FFD780FF>Blazing Barrier</color>, maka Kekuatan Perisai akan meningkat 5% selama 6 detik.\nEfek ini dapat terpicu setiap 0,3 detik. Maks. 5 lapis.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_05"
       },
       {
@@ -782,6 +786,7 @@
         "Id": 502201,
         "Name": "Flaming Assault",
         "Description": "DMG Fiery Collapse dari <color=#FFD780FF>Crimson Ooyoroi</color> meningkat sebesar 2,2 % dari Max HP Thoma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_06"
       },
       {
@@ -800,6 +805,7 @@
         "Id": 502301,
         "Name": "Snap and Swing",
         "Description": "Saat Traveler sukses <color=#FFD780FF>memancing</color> di Inazuma, terdapat 20% kemungkinan untuk mendapatkan hasil dua kali lipat berkat bantuan Thoma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_07"
       }
     ],

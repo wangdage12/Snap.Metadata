@@ -391,7 +391,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Buz Mührü",
-    "Description": "Mondstadt çevresinde bulunabilecek özel bir hatıra parası. Dükkandaki nadir eşyalarla takas edilebilir.",
+    "Description": "Snezhnaya'nın kar ve ayazının onayını gösteren bir mühür.\nBuzun ödüllerini almak için bu mührü Buluşma Noktasına sun.",
     "TypeDescription": "Şehir Devleti Mührü",
     "Icon": "UI_ItemIcon_306"
   },
@@ -1805,6 +1805,28 @@
   },
   {
     "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Snezhnaya Güç Enerji Küresi",
+    "Description": "Snezhnaya Güç Enerji Küresi",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Snezhnaya Malzeme Enerji Küresi",
+    "Description": "Snezhnaya Malzeme Enerji Küresi",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
     "MaterialType": 7,
     "Id": 3021,
     "RankLevel": 4,
@@ -2174,6 +2196,28 @@
     "ItemType": 2,
     "Name": "Sandrone'nin Yaşam Yıldızı",
     "Description": "Sandrone'nin Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 20,
+    "Id": 5148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Alyosha'nın Yaşam Yıldızı",
+    "Description": "Alyosha'nın Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Odette'in Yaşam Yıldızı",
+    "Description": "Odette'in Takımyıldız Etkinleştirme Malzemesi",
     "TypeDescription": "Takımyıldızı Etkinleştirir",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -3473,6 +3517,28 @@
     "Name": "Sandrone'nin Yaşam Yıldızı",
     "Description": "Sandrone'nin Takımyıldız Etkinleştirme Malzemesi",
     "TypeDescription": "Takımyıldızı Etkinleştirir",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 73,
+    "Id": 6148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Alyosha'nın Yaşam Yıldızı",
+    "Description": "Alyosha'nın Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Odette'in Yaşam Yıldızı",
+    "Description": "Odette'in Takımyıldız Etkinleştirme Malzemesi",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_1102"
   },
   {
@@ -13432,6 +13498,94 @@
     "Icon": "UI_ItemIcon_101272"
   },
   {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buz Perisi Çiçeği",
+    "Description": "Rüzgar ve kar ne kadar çetin olursa olsun açan kutsal bir çiçek. Görenlerin kalbini kendine çeken hafif ve büyüleyici bir ışıltı saçar daima.",
+    "TypeDescription": "Snezhnaya Yöresel Ürünü",
+    "Icon": "UI_ItemIcon_101275"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kadife Otu",
+    "Description": "Bir zamanlar bitki ve hayvan melezi olduğundan şüphelenilen ancak sonradan hayvan tüyüne benzer bir tabakayla kaplı sıradan bir bitkiden ibaret olduğu kanıtlanan tuhaf bir bitki.",
+    "TypeDescription": "Snezhnaya Yöresel Ürünü",
+    "Icon": "UI_ItemIcon_101276"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Altın Eğrelti Otu",
+    "Description": "Kenarlarından hafif bir altın sarısı ışıltı yayan bir eğrelti otu. Haşlandığında eşsiz bir lezzete sahip olduğu söylenir.",
+    "TypeDescription": "Snezhnaya Yöresel Ürünü",
+    "Icon": "UI_ItemIcon_101277"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kırmızı Pancar",
+    "Description": "Donmuş toprakta bile yetişebilen dayanıklı otsu bir bitki. Böylesine çetin bir ortamda hayatta kalabilmek için kalın ve sulu bir kök salar.",
+    "TypeDescription": "Yemek Malzemesi",
+    "Icon": "UI_ItemIcon_101278"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buzyıldız Meyvesi",
+    "Description": "Saf Buzdan doğan ve daimi donmuş topraklarda tuhaf bir dönüşüm geçiren yıldız şeklinde bir meyve. Üzerinde büyüdüğü dal koparıldığında meyvesi kendiliğinden karların üzerine düşer.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101279"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kartopu Çiçeği",
+    "Description": "Küresel bir taç yaprağı kümesine sahip büyüleyici bir çiçek. Üzerinde kar biriktiğinde, çiçeğin tamamı tıpkı minik bir kar topu gibi görünür.",
+    "TypeDescription": "Yemek Malzemesi",
+    "Icon": "UI_ItemIcon_101280"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buz Yemişi",
+    "Description": "Kırağı kaplı, buzlu dallardan filizlenen zengin aromalı bir böğürtlen.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101281"
+  },
+  {
+    "Rank": 320,
+    "MaterialType": 4,
+    "Id": 101282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Lumiflorit",
+    "Description": "Gölge Diyarı güçlerinin etkisi altında oluşan tuhaf bir florit.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101282"
+  },
+  {
     "Rank": 330,
     "MaterialType": 25,
     "Id": 101301,
@@ -13749,6 +13903,50 @@
     "Description": "Kızılağaçtan elde edilen kütük. Neme ve soğuğa karşı yüksek direnci sayesinde mobilya ve müzik enstrümanları için uygun bir ham maddedir.",
     "TypeDescription": "Malzeme",
     "Icon": "UI_ItemIcon_101330"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101331,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Kar Kavağı Kütüğü",
+    "Description": "Kar Kavaklarından elde edilen pürüzsüz yüzeyli, hafif ve yumuşak dokulu kütük. Her türlü küçük ahşap işçiliği için harika bir tercih...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101332"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101332,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Beyaz Huş Ağacı Kütüğü",
+    "Description": "Yüksek yoğunluğu ve dayanıklılığıyla bilinen Beyaz Huş kütüğü. Bükülme direncinin çok önemli olduğu binaların inşaatında kullanılır...",
+    "TypeDescription": "Malzeme",
+    "Icon": "UI_ItemIcon_101331"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101333,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Mavi Gürgen Kütüğü",
+    "Description": "Mavi Gürgen ağaçlarından elde edilen, düzgün damar desenlerine sahip, aşınma ve yıpranmaya karşı dirençli bir kütük. Snezhnaya'da genellikle uzun süreli kullanım gerektiren yapılarda ve aletlerde yer alan katmanlı panellerin yapımında kullanılır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101333"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101334,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Karaçam Kütüğü",
+    "Description": "Karaçam ağaçlarından elde edilen kütük. Oldukça serttir ve aşınmaya karşı son derece dayanıklıdır. Snezhnayalılar bunu genellikle sütun ve tahta yapımında kullanır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101334"
   },
   {
     "Rank": 331,
@@ -19900,7 +20098,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Ay Işığı Öğretisi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nNesneler farklı boyutlarda, insanlar farklı bilgi düzeylerinde olurlar. Fakat ay ışığının altında her şey eşittir.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nNesneler farklı boyutlarda, insanlar farklı bilgi düzeylerinde olurlar. Fakat ay ışığının altında her şey eşittir.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104356"
   },
@@ -19911,7 +20109,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Ay Işığı Rehberi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nBulutlarla örtülü ay ışığı, uçsuz bucaksız karanlıkta hafifçe ışıldar. Fakat bu zayıf parıltı, sonsuz gecede bir rehberdir.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nBulutlarla örtülü ay ışığı, uçsuz bucaksız karanlıkta hafifçe ışıldar. Fakat bu zayıf parıltı, sonsuz gecede bir rehberdir.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104357"
   },
@@ -19922,7 +20120,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Ay Işığı Felsefesi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nRehberlik ve talih için yeni aya dua etmek, ilk insanlardan günümüze dek gelmiş bir ayindir. Bu geceki ay ışığı da önceki gecelerden farklı görünmüyor, peki insanların bir zamanlar güvendiği o yeni ay şimdi nerede?",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Ay Işığı\", ayın altındaki topraklara bahşedilmiş bir lütuftur.\nRehberlik ve talih için yeni aya dua etmek, ilk insanlardan günümüze dek gelmiş bir ayindir. Bu geceki ay ışığı da önceki gecelerden farklı görünmüyor, peki insanların bir zamanlar güvendiği o yeni ay şimdi nerede?",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104358"
   },
@@ -19933,7 +20131,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Cennet Öğretisi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nKimisi oraya girmek, kimisi de oradan çıkmak için can atar. Belki de Cennet, asla varılamayacak bir yerdir.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nKimisi oraya girmek, kimisi de oradan çıkmak için can atar. Belki de Cennet, asla varılamayacak bir yerdir.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104359"
   },
@@ -19944,7 +20142,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Cennet Rehberi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nAcı ve kederle dolu bir diyar üzerinde, sınırları ve ayrımları olmayan bir cennet yaratmak... Her ne kadar çocuksu bir hayal gibi dursa da geleceğin temelini oluşturabilir.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nAcı ve kederle dolu bir diyar üzerinde, sınırları ve ayrımları olmayan bir cennet yaratmak... Her ne kadar çocuksu bir hayal gibi dursa da geleceğin temelini oluşturabilir.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104360"
   },
@@ -19955,7 +20153,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Cennet Felsefesi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nÇoğu zaman farklı cennet hayalleri kurarız. Şimdikiyle yetinmek istemeyenler için Nod-Krai eşsiz bir cennettir. Ancak geri kalanlar içinse bunun tersi doğrudur.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Cennet\", ayın altındaki toprakların hayalidir.\nÇoğu zaman farklı cennet hayalleri kurarız. Şimdikiyle yetinmek istemeyenler için Nod-Krai eşsiz bir cennettir. Ancak geri kalanlar içinse bunun tersi doğrudur.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104361"
   },
@@ -19966,7 +20164,7 @@
     "RankLevel": 2,
     "ItemType": 2,
     "Name": "Avarelik Öğretisi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nKısa bir süre dinlen, sonra da gece çökmeden yola koyul. Şafak bir son değil, başka bir yolculuğun başlangıcıdır.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nKısa bir süre dinlen, sonra da gece çökmeden yola koyul. Şafak bir son değil, başka bir yolculuğun başlangıcıdır.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104362"
   },
@@ -19977,7 +20175,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "Avarelik Rehberi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nYaşamak yolda olmak demektir, zira hiçbirimiz bu dünyaya kök salamayız. Hatırlamaya değer olan vardığımız yer değil, yol boyunca bıraktığımız ayak izleridir.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nYaşamak yolda olmak demektir, zira hiçbirimiz bu dünyaya kök salamayız. Hatırlamaya değer olan vardığımız yer değil, yol boyunca bıraktığımız ayak izleridir.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104363"
   },
@@ -19988,9 +20186,108 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Avarelik Felsefesi",
-    "Description": "Yetenek Seviyesi Yükseltme malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nFırtınalara ve yıldırımlara göğüs gererken, dağları ve karlı arazileri güç bela aşarken bile pes etmez avareler. Ev diyebilecekleri bir yer bulana dek durmazlar.",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\n\"Avarelik\", ayın altındaki topraklarda yaşamaktır.\nFırtınalara ve yıldırımlara göğüs gererken, dağları ve karlı arazileri güç bela aşarken bile pes etmez avareler. Ev diyebilecekleri bir yer bulana dek durmazlar.",
     "TypeDescription": "Karakter Yeteneği Malzemesi",
     "Icon": "UI_ItemIcon_104364"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104365,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Merhamet Öğretisi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMerhamet, donmuş diyarın kurtuluşudur.\nFaniler arasında paylaşılan sevgi ve daima hazır olan özendir. Bu uçsuz bucaksız topraklarda, halkın keskin soğuğa göğüs germesini sağlayan ve anılarına kazınmış derin yaralara merhem olan teskin edici bir sıcaklıktır.",
+    "TypeDescription": "Karakter Yeteneği Malzemesi",
+    "Icon": "UI_ItemIcon_104365"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104366,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Merhamet Rehberi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMerhamet, donmuş diyarın kurtuluşudur.\nBaşkalarına karşı insafı besler. Rüzgar ve kar diyarında, ruhunun günahları için içtenlikle tövbe eden herkesin günahları Merhamet adına bağışlanacaktır.",
+    "TypeDescription": "Karakter Yeteneği Malzemesi",
+    "Icon": "UI_ItemIcon_104366"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104367,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Merhamet Felsefesi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMerhamet, donmuş diyarın kurtuluşudur.\nTüm canlılara bahşedilen sınırsız bir lütuftur. Hem kan bağını hem de ulusları aşarak soylular ile avam arasındaki ayrımı ortadan kaldırır. Dikkatli bakışları tüm insanlığı gözetir, talihsizlere sığınak olur ve herkese sonsuz bir özgürlük vadeder.",
+    "TypeDescription": "Karakter Yeteneği Malzemesi",
+    "Icon": "UI_ItemIcon_104367"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104368,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Metanet Öğretisi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMetanet, donmuş diyarın belirleyici niteliğidir.\nHayatta kalmaya duyulan saf bir hasretten doğar. Verimli topraklardan çok uzağa savrulmuş kırılgan bir tohum bile, köklerini donmuş tundranın derinliklerine salabilmek için çaresizce bu hasrete tutunabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104368"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104369,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Metanet Rehberi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMetanet, donmuş diyarın belirleyici niteliğidir.\nBüyüme iradesini uyandırır. Yakıcı soğuk tarafından tuzla buz edilse de kırılgan bir tohum, bu iradeden güç alarak donmuş toprağı yarıp geçebilir; rüzgar ve karla kaplı yeryüzü boyunca taze filizlere can verebilir.",
+    "TypeDescription": "Karakter Yeteneği Malzemesi",
+    "Icon": "UI_ItemIcon_104369"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104370,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Metanet Felsefesi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nMetanet, donmuş diyarın belirleyici niteliğidir.\nBizzat hayatın refahını doğurur. Tıpkı narin bir tohumun kar fırtınalarının ortasında inatla çiçek açmayı seçmesi gibi, buranın halkı da dondurucu soğuğa asla boyun eğmemiştir. Bu medeniyet yüzyıllar süren çetin kışlara tanık olmuştur ancak yine de mevsimler boyu serpilen Buz Perisi Çiçeği gibi canlılığını korumaktadır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104370"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104371,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "İhtişam Öğretisi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nİhtişam, donmuş diyarın kutsal inancıdır.\nO, donmuş toprağın derinliklerine gömülü bir kıvılcımdır; eğer ki bir kimse onun gerçek formunun izini sürebilirse, dondurucu soğuğa karşı duracak cesareti kendine bahşedecektir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104371"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104372,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İhtişam Rehberi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nİhtişam, donmuş diyarın kutsal inancıdır.\nO, gecenin derinliklerinde titreyen bir köz; karlı arazileri aşan herkesin bakışlarını diktiği bir fenerdir. Onlar ki kar fırtınalarının hafifleyeceğinden ve şafağın sökeceğinden emin oldukları gibi, izledikleri yolun hakiki yol olmaya devam ettiğinden de emindirler.",
+    "TypeDescription": "Karakter Yeteneği Malzemesi",
+    "Icon": "UI_ItemIcon_104372"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104373,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "İhtişam Felsefesi",
+    "Description": "Yetenek Seviyesi Yükseltme Malzemesi.\nİhtişam, donmuş diyarın kutsal inancıdır.\nO, işaret ateşinin sönmeyen alevidir; kaderi ise donmuş diyarla birlikte var olmak ya da yok olmaktır. Bu alev asil bir tutkuyu körükler ve halk, ateşin ebediyen yanmasını sağlamak uğruna her şeyini seve seve adar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104373"
   },
   {
     "Rank": 6,
@@ -20361,8 +20658,8 @@
     "Id": 107032,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "Donuk Ay Derinlikler Tapınağı Anahtarı",
-    "Description": "Donuk Ay çevresinde bulunan kadim Derinlikler Tapınaklarının mührünü kırabilen bir anahtar.\nDerinlikler Tapınaklarını inşa eden medeniyet yok olup gidince tapınaklar kendilerini mühürledi. Zindanların derinliklerinde bulunabilen anahtarlar bu mühürleri kırabilir. Belki de bu anahtarlar, bir anlığına mühürlerin kaybettiklerini unutmasına yardımcı oluyordur.",
+    "Name": "Kuuhenki Tapınağı Anahtarı",
+    "Description": "Donuk Ay çevresinde bulunan kadim Kuuhenki Tapınaklarının mührünü kırabilen bir anahtar.\nAyın yüzeyine inşa edilen bu tapınaklar, ayın iradesinin de solmasıyla beraber kadim günlerde inandıkları varlığı da kaybetti. Soğuk ay topraklarında bulunabilen bu gizli anahtarlar, tapınakların mühürlerini kırmak için kullanılabilir. Öte yandan bu anahtarlar belki de yalnızca geçmişin giderek azalan seslerini kullanarak tapınakların yaşanan felaketi unutmasına yardımcı oluyordur...",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_107032"
   },
@@ -20376,6 +20673,39 @@
     "Description": "\"Uygarlığın\" temel yapı taşları.\nİnsanlığın kolektif hafızasından silinen herhangi bir \"Uygarlık\" eseri, zamanla parçalanarak Hafıza Faktörlerine dönüşür. Onları Uzay Tapınağı'ndaki Hafıza Çekirdeğine sunarak boşluklarda süzülen anıların lütfunu alabilirsin...",
     "TypeDescription": "Macera Eşyası",
     "Icon": "UI_ItemIcon_107034"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 10,
+    "Id": 107035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buz Özü",
+    "Description": "Yoğun miktarda Buz enerjisi içeren bir madde. Bu özü Heykele sunarak zaman içinde kaybettiği gücünü geri kazanmasına yardım et.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107035"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 5,
+    "Id": 107036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gölge Kanat Damlası",
+    "Description": "Gölge Diyarında doğmuş bir yaratığın geride bıraktığı tuhaf, sıvılaşmış bir madde.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 410011,
+    "MaterialType": 5,
+    "Id": 107037,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Snezhnaya Derinlikler Tapınağı Anahtarı",
+    "Description": "Snezhnaya çevresinde bulunan kadim Derinlikler Tapınaklarının mührünü kırabilen bir anahtar.\nDerinlikler Tapınaklarını inşa eden medeniyet yok olup gidince tapınaklar kendilerini mühürledi. Zindanların derinliklerinde bulunabilen anahtarlar bu mühürleri kırabilir. Belki de bu anahtarlar, bir anlığına mühürlerin kaybettiklerini unutmasına yardımcı oluyordur.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107037"
   },
   {
     "Rank": 100000,
@@ -32015,6 +32345,186 @@
     "Icon": "UI_ItemIcon_108884"
   },
   {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %30 yeniler, ardından 600 Can verir.",
+    "Id": 108985,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye (Tuhaf)",
+    "Description": "Toprak güveçte servis edilen bir et yemeği. Güvecin içinde aşırı uzun süre pişirildiğinden etler parçalanıp tel tel olmuş, sanki eski bir battaniyeyi çiğniyormuşsun hissi veriyor. Tek bir lokma bile güveci yavaşça iterek gözünün önünden uzaklaştırman için yeterli...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %32 yeniler, ardından 1.250 Can verir.",
+    "Id": 108986,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye",
+    "Description": "Toprak güveçte servis edilen bir et yemeği. Küp küp doğranan malzemeler güvece yerleştirilir, ağzı hamurla kapatılır ve fırına verilir. Piştikten sonra çıtır hamur kapağı kaldırılır ve ekşi krema eklenir. Pişirme yöntemi karmaşık olmamasına rağmen fırın sıcaklığını ve pişirme süresini kontrol etmek oldukça fazla deneyim gerektirir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %34 yeniler, ardından 1.900 Can verir.",
+    "Id": 108987,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Zharkoye (Lezzetli)",
+    "Description": "Toprak güveçte servis edilen bir et yemeği. Üzerindeki çıtır hamur kapağını kırarak açınca davetkar bir sıcaklık eşliğinde aniden etrafa iştah kabartan, buram buram bir tereyağı kokusu yayılır. Tıpkı karlı bir kış gecesinde şömineye taze bir kütük attıktan sonraki o huzur verici sıcaklık gibi insanın içini ısıtır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %8 yeniler, ardından 800 Can verir.",
+    "Id": 108988,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tütsülenmiş Podvorye Sosisi (Tuhaf)",
+    "Description": "Dilimlenmiş sosis. Eğri büğrü kesilmiş parçaların birkaçı hâlâ birbirine yapışık. Eline aldığında tıpkı dumandan is bağlamış, kurumuş asma dallarını andırıyorlar...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %9 yeniler, ardından 1.000 Can verir.",
+    "Id": 108989,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tütsülenmiş Podvorye Sosisi",
+    "Description": "Dilimlenmiş sosis. Et ve baharatlarla doldurularak tütsülenen sosis, ince dilimlenerek doğrudan servis edilir. Podvorye Restoranının imza yemeği ve sofrada kimsenin geri çevirmeyeceği güvenilir bir tercihtir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %10 yeniler, ardından 1.200 Can verir.",
+    "Id": 108990,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tütsülenmiş Podvorye Sosisi (Lezzetli)",
+    "Description": "Dilimlenmiş sosis. Sıkı dokusu ritmi belirlerken tütsülenmiş, leziz aromaları melodiyi taşıyarak damakta mükemmel uyumlu bir düet halinde dans eder. Bunun her zaman masada ilk biten tabak olmasına şaşmamalı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 66 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108991,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina (Tuhaf)",
+    "Description": "Dilimlenmiş balık şeritleri. Kalın kısımları diş kıracak kadar donmuşken ince kısımları çoktan eriyip lapa olmuş... En azından Snezhnaya'nın dondurucu soğuğunda muhtemelen mideni bozma konusunda endişelenmene gerek kalmayacak.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 81 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108992,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina",
+    "Description": "Dilimlenmiş balık şeritleri. Donuk haldeki balık, yüzeyi boyunca keskin bir bıçakla açılı kesimler yapılarak ince, kıvrık şeritler halinde kesilir. Genellikle iri parçalı tuz ile servis edilen bu yemek, Snezhnaya'da yaygın tüketilen bir soğuk çiğ meze tabağıdır.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 95 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108993,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Stroganina (Lezzetli)",
+    "Description": "Dilimlenmiş balık şeritleri. Kağıt inceliğindeki et şeritleri, buzdan yontulmuş küçük bir taç yaprağı kümesi gibi tabakta üst üste yığılır. Ağzına bir parça attığında taze ve duru bir tatlılık, eriyen karın ferah kucaklayışıyla dilinin ucunu sarar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 165 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108994,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kar Diyarı Akroşkası (Tuhaf)",
+    "Description": "Kasede servis edilen soğuk bir çorba. Bulanık et suyunun içinde yüzen yemek malzemelerini ayırt etmek biraz çaba gerektiriyor. Sebzeler konfeti gibi doğranıp devasa jambon parçalarıyla birlikte suya atılmış. Görünüşe göre yemeği pişiren kişi jambonu ancak son saniyede hatırlamış ve çaresiz bir telaşla içine fırlatmış...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 200 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kar Diyarı Akroşkası",
+    "Description": "Kasede servis edilen soğuk bir çorba. Önceden pişirilen malzemeler kaseye eşit şekilde dizilir, ardından ekşi krema bazlı bir et suyuyla kapatılır. Bazı Snezhnayalılar en soğuk günlerde büyük bir kase çorbayı tek oturuşta bitirmeyi bir tür mücadele olarak görür ve bunu soğuğa göğüs gerebilen savaşçılar olduklarının kanıtı sayarlar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Savunmasını 235 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kar Diyarı Akroşkası (Lezzetli)",
+    "Description": "Kasede servis edilen soğuk bir çorba. Parıldayan süt beyazı suyu damakta taze kar gibi ferah bir his bırakır ve bunu anında zengin ekşi kremanın canlandırıcı tat patlaması izler. Kıtır sebzeler, katı yumurta sarısı ve küp küp doğranmış iştah açıcı jambonla her bir kaşık, sanki lezzetli bir gizem kutusu açıyormuşsun gibi benzersiz bir doku sunar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyeleri için Dondurucu Soğuk birikim oranını hafif azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108997,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Borş Çorbası (Tuhaf)",
+    "Description": "Canlı kırmızı renkli bir çorba. Bu yemekteki her detay insana baştan savma yapılmış hissi veriyor; sanki biri önceki öğünden artan yemek malzemelerini öylesine tencereye boca etmiş gibi bir görünümü var. Çorbayı bitirmek içini biraz ısıtıyor ancak tıpkı çakılan tek bir kibrit gibi yalnızca anlık bir sıcaklık sunuyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyeleri için Dondurucu Soğuk birikim oranını biraz azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108998,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Borş Çorbası",
+    "Description": "Canlı kırmızı renkli bir çorba. Et suyu hazırlandıktan sonra malzemeler sırayla eklenir ve tatlar birbirine karışana kadar kısık ateşte pişirilir. Servis edilmeden hemen önce genellikle bir kaşık ekşi krema eklenir. Her yudumda vücuda yayılan sıcaklık, sert soğuğu uzak tutmaya yeterlidir.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyeleri için Dondurucu Soğuk birikim oranını azaltır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 108999,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Borş Çorbası (Lezzetli)",
+    "Description": "Canlı kırmızı renkli bir çorba. Sıcak çorba boğazından geçtiği an sanki biri tam göğsünün ortasında ateş yakmış gibi rahatlatıcı bir sıcaklık işliyor içine. Bu sıcaklık, kulakların bile ısınana kadar sessizce yayılıyor. Şiddetli bir kar fırtınasında yol alırken bu çorbadan bir kase içmek, fazladan bir paltoya sarınmaktan çok daha değerlidir!",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109000,
@@ -34996,6 +35506,127 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109655,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Zharkoye",
+    "Description": "Zharkoye yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109656,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Tarif: Tütsülenmiş Podvorye Sosisi",
+    "Description": "Tütsülenmiş Podvorye Sosisi yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Stroganina",
+    "Description": "Stroganina yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Kar Diyarı Akroşkası",
+    "Description": "Kar Diyarı Akroşkası yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Borş Çorbası",
+    "Description": "Borş Çorbası yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109660,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Buz Yemişi Dondurması",
+    "Description": "Buz Yemişi Dondurması yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109661,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tarif: Glupov Çavdar Ekmeği",
+    "Description": "Glupov Çavdar Ekmeği yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109662,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Medovik",
+    "Description": "Medovik yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "Tarif",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Snezhnaya Usulü Şaşlık",
+    "Description": "Snezhnaya Usulü Şaşlık yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tarif: Karlar Üstünde Kartopu Çiçekleri",
+    "Description": "Karlar Üstünde Kartopu Çiçekleri yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109665,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tarif: Tatlı Toplar",
+    "Description": "Tatlı Toplar yapımını adım adım anlatan detaylı bir tarif.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "Rank": 322,
     "MaterialType": 4,
     "Id": 110000,
@@ -35148,6 +35779,17 @@
     "Description": "Çavdarın öğütülmesiyle elde edilen, koyu renkli ve iri taneli bir un. Bu unla yapılan yiyeceklerin kendine has bir dokusu ve hafif ekşimsi bir lezzeti vardır.",
     "TypeDescription": "Yemek Malzemesi",
     "Icon": "UI_ItemIcon_110016"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 110017,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bal",
+    "Description": "Yıl boyunca dükkanlarda kolayca bulunabilen, klasik bir tatlılığa sahip, zengin ve kehribar renkli bir sıvı. İçecekleri tatlandırmak, çeşitli etleri marine etmek için ya da soslarda kullanılabilir.",
+    "TypeDescription": "Yemek Malzemesi",
+    "Icon": "UI_ItemIcon_110017"
   },
   {
     "Rank": 900000,
@@ -35505,6 +36147,17 @@
     "Description": "Lakka Böğürtlenleri ve Nane karışımıyla yapılan bir balık yemi. Basit görünse de eşsiz kokusu ve rengi bazı balık türleri için karşı konulmazdır ve tecrübeli balıkçıların beğenisini kazanmıştır.\n\nVahşi Köpek Balığı ve Kristal Göz yakalamak için uygundur.",
     "TypeDescription": "Yem",
     "Icon": "UI_ItemIcon_111036"
+  },
+  {
+    "Rank": 340,
+    "MaterialType": 32,
+    "Id": 111037,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Pırıltılı Yem",
+    "Description": "Esas olarak pullardan üretilen ve eser miktarda floresan malzemeyle kaplı bir yem. Doğru kullanıldığında ışıltılı bir parlaklık yayar. Merkezindeki küre, küçük balıkların titreşimlerini taklit eden daha küçük çıngıraklı boncuklar içerir, bu da onu Snezhnaya balıkları için son derece cazip kılar.\n\nUygunluk: Karyüzgeç ve Yıldız Çiçeği Balığı.",
+    "TypeDescription": "Yem",
+    "Icon": "UI_ItemIcon_111037"
   },
   {
     "Rank": 10100,
@@ -37102,6 +37755,138 @@
     "Icon": "UI_ItemIcon_112145"
   },
   {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112146,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Ruhani Işıltı Parçası",
+    "Description": "Bir Snezhnaya Feyinin savaştan sonra geride bıraktığı kalıntılar.\nBu parçalar bir zamanlar yaratığın bedenini kristal pullar gibi kaplıyordu. Döküldüklerinde tüm renklerinden sıyrılarak, adeta bir güvenin kanatlarındaki toz zerreciklerini andıran bir hale büründüler.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112146"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112147,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ruhani Kristal",
+    "Description": "Bir Snezhnaya Feyinin savaştan sonra geride bıraktığı kalıntılar.\nBir zamanlar Feyin bedenini kaplayan kristal pullardan kalan bir parça. Artık sadece boş bir kabuktan ibaret olsa da, bir zamanlar içinde barındırdığı o eşsiz gücün yankısı hâlâ hissedilebiliyor.",
+    "TypeDescription": "Karakter ve Silah Geliştirme Malzemesi",
+    "Icon": "UI_ItemIcon_112147"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112148,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ruhani Kristal Pul Taşı",
+    "Description": "Bir Snezhnaya Feyinin savaştan sonra geride bıraktığı kalıntılar.\nBir zamanlar Feyin bedeninde büyüyen kristalimsi bir pul. Rivayete göre bir Fey bu pullardan ne kadar fazlasını taşıyorsa, hükmettiği güç de o denli muazzam olurmuş. Ne var ki bu büyünün gerçekten onların özünden doğup yalnızca bu kristal parçaları aracılığıyla mı dışa vurduğunu, yoksa gücün asıl taşıyıcısının bizzat bu parçalar mı olduğunu kesin olarak söyleyebilen yok.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112148"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112149,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "Kimerik Çekirdek",
+    "Description": "İnsan yapımı anormal canavarlardan elde edilen iç çekirdek.\nBu, insan yapımı bir canavarın içinde büyüyen en temel çekirdektir. Yine de ne kadar basit olursa olsun, tüm insan yapımı oluşumların büyümesi için gereken esas taslağı barındırır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112149"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112150,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Simbiyotik Kimerik Çekirdek",
+    "Description": "İnsan yapımı anormal canavarlardan elde edilen iç çekirdek.\nİnsan yapımı bir canavardan elde edilen nispeten karmaşık bir çekirdek. Bu simbiyotik çekirdek, iki farklı yaşam formunun biyolojik döngülerini sürdürmek ve onları tek bir organizmada kusursuzca harmanlamak için tasarlanmıştır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112150"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112151,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Asal Kimerik Düğüm",
+    "Description": "İnsan yapımı anormal canavarlardan elde edilen iç çekirdek.\nİnsan yapımı bir canavarın barındırabileceği en karmaşık çekirdek olup, yapay bir mühendislik ürünü olmasına rağmen kusursuz bir yaşam tohumu işlevi görür. Bu oluşumu hayata geçiren her kimse, hiç şüphesiz yaşamın kendisinin nasıl şekillendiğinin sırlarını açığa çıkarmıştır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112151"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112152,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ufak Kitle",
+    "Description": "Güçlü Volkodlakların vücudunda oluşan bir kitle.\nBir iç organa veya kemiğe henüz yeni tutunmaya başlamış bir oluşum. Volkodlakların gücü büyüdükçe, zamanla bedenin büyük bir bölgesini ya da bütün bir organı tamamen kaplayabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112152"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112153,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Öbeklenmiş Kitle",
+    "Description": "Güçlü Volkodlakların vücudunda oluşan bir kitle.\nUzun bir süre bir iç organa veya kemiğe tutunmuş bir oluşum. Çıkarıldıktan sonra bir güç sembolü sayılan bu tür kitleler, yaratığın soyundan gelenler tarafından büyük bir özenle muhafaza edilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112153"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112154,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Büyümüş Kitle",
+    "Description": "Güçlü Volkodlakların vücudunda oluşan bir kitle.\nBir organ ya da kemikle tamamen bütünleşmiş bir kitle. Öyle ki Volkodlakların güç dolaşım düğümlerinde yeni büyüyen bir kemik ya da organ bile denebilir buna. Yalnızca kuvvetini devamlı artıran uzun ömürlü Volkodlakların bedenlerinde böyle büyümeler meydana gelebilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112154"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112155,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Oyuk Yaşam Kökü",
+    "Description": "Bir Leshinin sessizliğe gömülmeden önce düşürdüğü bir dal.\nÜzerinde büyümüş yalnızca birkaç kristal bulunan bu dal pek bir güç barındırmaz ve etrafa soluk bir ışıltı saçar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112155"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112156,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Filizlenmiş Yaşam Düğümü",
+    "Description": "Bir Leshinin sessizliğe gömülmeden önce düşürdüğü bir dal.\nÜzerinde epeyce kristal bulunuyor. Ele alındığında ağır olduğu hissediliyor ve Leshinin bedeninden kopmuş olsa bile içindeki canlılık izleri hâlâ seçilebiliyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112156"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112157,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Sarmal Yaşam Çekirdeği",
+    "Description": "Bir Leshinin sessizliğe gömülmeden önce düşürdüğü bir dal.\nTamamen şekillenmiş bir kristal çekirdeğe sahip. İçinde kolay kolay solmayacak bir canlılık barındırıyor. Toprağa gömülürse çok geçmeden büyüyerek yeni bir Leshiye dönüşmesi oldukça muhtemel.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112157"
+  },
+  {
     "Rank": 11101,
     "MaterialType": 14,
     "Id": 113001,
@@ -38081,6 +38866,28 @@
     "Icon": "UI_ItemIcon_113089"
   },
   {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113090,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Yanmamış Çiçek Dalı",
+    "Description": "Birinin kendi bencil arzuları uğruna yarattığı bir canavardan koparılmış bir çiçek dalı. Ne solar ne de alevlerde yanar.\nHüzünlü simyager, hayata sonsuzluk bahşetmenin bir yolunu bulup bunu eyleme dökmeden evvel, ellerini usulca oluşumunun, yaprakları kızıl tüyleri andıran o canavarın bedeni üzerinde gezdirmişti. Bu ölümsüz yaratığın, onca zamandır yolunu gözlediği dostunu alevlerin içinden selamlayacağı günü düşledi. O gün geldiğinde... Belki de dostunun gölgeler diyarından kaçışını taçlandırmak adına, ona bir hediye olarak oluşumunun bedeninden bir çiçek koparmalıydı.",
+    "TypeDescription": "Karakter Seviyesi Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_113090"
+  },
+  {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gökgezenin Kopmuş Kuyruğu",
+    "Description": "Güçlü bir kimerik canavarın kuyruk tüyü.\nBelki de yapay bir canavar bile, bir başkasının elinde eziyet görmemek adına kendi kaderinin peşinden gitmelidir. Tam da bu düşünceyle, bu canavarları var eden kişi kendi oluşumlarına kanat bahşetmeyi seviyordu. Ne var ki bu dünyada pek çok kanatlı yaratık yaşasa da aralarından yalnızca birkaçı gerçekten uçmayı öğrenebiliyor. Belki de ilahi takdir dedikleri şey budur.",
+    "TypeDescription": "Karakter Seviyesi Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_113091"
+  },
+  {
     "Rank": 15101,
     "MaterialType": 14,
     "Id": 114001,
@@ -39005,6 +39812,138 @@
     "Icon": "UI_ItemIcon_114084"
   },
   {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114085,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Soluk Yıldız Ordusunun Yükselişi",
+    "Description": "Silah Yükseltme Malzemesi.\nTundranın doğusunda, kanadı andıran dağın bağrında doğan o küstah canavar, sefil bir malt ve mineral tüccarından farksızdır.\nEmrindeki Vilalar böcek kanatlı aciz mahluklardır, Domovoylar ise o güdük kollarıyla silah dahi kaldıramaz.\nBöylesi bir ayaktakımının velvelesine kim kulak asar? Volkodlak krallarının amansız akınına karşı duracak nasıl bir kuvvetleri olabilir ki?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114085"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114086,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Soluk Yıldız Ordusunun İçtiması",
+    "Description": "Silah Yükseltme Malzemesi.\n\"Kanyonu sadece şans eseri ele geçirdiler. O gülünç derecede kibirli ahmak, artık hızını yitirmiş bir oktan ya da dinmekte olan bir fırtınadan farksız.\"\n\"Tüm güçlerini kullansalar bile ordumuzun çok ufak bir kısmını ancak durdurabiliyorlar. Çok yakında bozguna uğradıkları açıkça görülecek.\"\n\"Askerler, ileri! Kralımız çoktan müjdeyi verdi, bu seferimiz zahmetsiz bir zaferle nihayete erecek!\"",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114086"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114087,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Soluk Yıldız Ordusunun Çağrısı",
+    "Description": "Silah Yükseltme Malzemesi.\n\"Düşmanımız Monomakh, sarayını vadinin ötesine inşa etti; demek ki bizimle boy ölçüşebilme konusunda kendine tamamen güveniyor.\"\n\"Hal böyleyken, ona karşı son derece temkinli olmalıyız. Hızlı bir zafer kazanma düşüncesi artık rafa kaldırılmalıdır.\"\n\"Fakat bunun bir önemi yok. Bize yol gösteren bilgelik sayesinde Kral, her türlü zorluğun üstesinden gelmek ve fevkalade yeni bir çağı müjdelemek için klanlarla omuz omuza duracaktır!\"",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114087"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114088,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Soluk Yıldız Ordusunun Zaferi",
+    "Description": "Silah Yükseltme Malzemesi.\n\"Tüm Feylerin Koruyucusu, Soluk Yıldız'ın Varisi, kutsal kandan doğan hükümdar Çar çok yaşa!\"\n\"Şükürler olsun ki tüm tundra artık Kutup Yıldızının parlaklığı altında tek vücut oldu!\"\n\"Şükürler olsun ki Majesteleri sahte kralı katletti ve tüm Feyleri kucakladı. İşte onun lütfu, işte onun merhameti!\"",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114088"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114089,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Tadımlık Yıllanmış Ruhani Nektar",
+    "Description": "Silah Yükseltme Malzemesi.\nBir zamanlar kuzeyin en uç noktasındaki göklerin renkli ışıkları misali parlayan o ışıltı, yücelerden gelen bakışla karşılaştığı an sönüp gitti.\nDondurucu soğuk ve siyah kristal felaketi, tüm yaşamın tutunduğu temelleri neredeyse yerle bir ediyordu.\nYalnızca soğuğa meydan okuyan Feyler bu ıssız diyara hükmetmek üzere buzun ve karın içinden yükselebildi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114089"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114090,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Mest Eden Yıllanmış Ruhani Nektar",
+    "Description": "Silah Yükseltme Malzemesi.\nKimilerinin bereketli bir tahıl hasadının ardından şenliklerde keyifle tükettiği bu içki, yakıcı soğuğa göğüs geren klanlar için hayatta kalmanın tek çaresidir.\nRivayete göre içki mayalama sanatındaki eşsiz ustalıklarıyla bilinen Domovoylar, bir zamanlar hizmet ettikleri kralın hazinesini zenginleştirmek için bu zanaata bel bağlarmış.\nBöylece ticaret yoluyla klandan klana geçen Fey içkisi, donmuş topraklar boyunca zehir katılmış bir bal misali akıp gitmiş.",
+    "TypeDescription": "Silah Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_114090"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Coşturan Yıllanmış Ruhani Nektar",
+    "Description": "Silah Yükseltme Malzemesi.\nEfsaneye göre uzun zaman önce, donmuş bir göle sayısız fıçı dolusu kaliteli şarap dökülmüştür.\nKimileri bu şarabın savaş erzakı olduğunu ve bir aksilik sonucu yok edilmeleri gerektiğini söylerdi. Kimileri de bir Domovoy Grandükünün, Su İfritlerinin lideri ile girdiği iddiayı kaybettiğini anlatırdı.\nAncak sönmek bilmeyen buz mavisi cehennem alevleri göle yayıldığında ve aşağıda kalan düşmanlar boğucu dalgaların pençesinde kıvrandığında asıl gerçeği kavrayabilmişlerdi:\nDünyanın işleyişini çok iyi bilenlerin ellerinde su bile alev alabilir ve en tatlı nektar bile zehirden daha ölümcül olabilirdi.",
+    "TypeDescription": "Silah Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_114091"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114092,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Yıllanmış Ruhani Nektar Neşesi",
+    "Description": "Silah Yükseltme Malzemesi.\nDomovoy Grandükü kristal madenlerine hükmediyor ve donmuş toprakların gelişimine yön veriyordu. Kutbun çorak diyarında bir vaha yeşertmek onun için ufak bir teferruattı; daha kaliteli çavdar getirtmek ise işten bile değildi.\nBugüne dek Snezhnaya'da ayakta kalmayı başarmış nice Fey soylusu arasında dahi onun ihtişamlı statüsüyle boy ölçüşebilecek kimse yoktu.\nNe var ki ihtiras alevi boğazından aşağı indikçe daha da harlanıyor, kadim Feyin açgözlülüğü yıllar geçtikçe çığ gibi büyüyerek hiçbir sınır tanımıyordu.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114092"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114093,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Ayaz İmparatorunun Dirilişi",
+    "Description": "Silah Yükseltme Malzemesi.\nKarlı düzlüklerden çıkan kahraman henüz donmuş diyarın hükümdarı olmamıştı ama o zamanlar bile etrafındakilere gereğinden fazla içini dökme gibi bir alışkanlığı vardı.\nBu yüzden, o dönemde henüz insan suretine bürünmemiş olan kar Feylerinden bir hediye aldığında çok şaşırdı.\nBildiği kadarıyla onlara, kanatları andıran dağların derinliklerinde buz kadar soluk renkli bir yumurtadan doğduğunu hiç söylememiş ve doğum tarihinden de hiç bahsetmemişti.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114093"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114094,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ayaz İmparatorunun Töreni",
+    "Description": "Silah Yükseltme Malzemesi.\nSaray Feyleri, Çar'a sunulacak bir hediyenin neden böyle bir biçimde olması gerektiğine anlam veremiyordu. Onların tek bildiği, tüm hünerlerini mücevherler kadar parlak süs eşyaları üretmeye adamaktı.\nBunun ardındaki manayı, yalnızca tahtında oturan Çar ve kar Feyleri anlıyordu.\nZira asıl önemli olan hiçbir zaman tören değil, onun muhafaza ettiği kadim hakikatti.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114094"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Ayaz İmparatorunun Ağıdı",
+    "Description": "Silah Yükseltme Malzemesi.\nGerçeğin acı dalgalar gibi çalkalandığı o gece, kendisi artık eskiden olduğu kişi olmasa da bu hediyeyi tahttaki arkadaşı için hazırladı.\nİkisi de bir daha asla birbirleriyle bu şekilde konuşamayacaklarını anlamış gibiydi.\nÇünkü o geceden sonra, bir zamanlar birlikte yürüdükleri yol ayrıldı; birinin zayıf noktası ve diğerinin öfkesiyle parçalandı.",
+    "TypeDescription": "Silah Yükseltme Malzemesi",
+    "Icon": "UI_ItemIcon_114095"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114096,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Ayaz İmparatorunun Vedası",
+    "Description": "Silah Yükseltme Malzemesi.\nSavaşın arifesinde masanın üzerinde beliren, oraya ne zaman ya da nasıl geldiğini kimsenin bilmediği bir nesne.\nUzun yıllardır görmediği bir dostunun elinden çıktığını hemen tanıdı.\nAncak o zaman; bunun her felaketin başlangıcı, her arzunun acı meyvesi ve her yıkımın alameti olduğunu fark etti.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114096"
+  },
+  {
     "Rank": 100201,
     "MaterialType": 12,
     "Id": 115010,
@@ -39775,6 +40714,28 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117030,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Zindan Yadigar Sandığı: Kademe II",
+    "Description": "Yadigarları saklamak için kullanılan bir yadigar sandığı. Görenlerin bahtı açık olsun.\n\nHer yadigar sandığı şu setlerden bir yadigar verir:\n·Kızıl Kanıt\n·Ocağın Kalbi\n·Vahşi Savaşçı\n·Eğitmen\n·Sürgün",
+    "TypeDescription": "Yadigar Sandığı",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117031,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "Zindan Yadigar Sandığı: Kademe I",
+    "Description": "Yadigarları saklamak için kullanılan bir yadigar sandığı. Görenlerin bahtı açık olsun.\n\nHer yadigar sandığı şu setlerden bir yadigar verir:\n·Kızıl Kanıt\n·Ocağın Kalbi",
+    "TypeDescription": "Yadigar Sandığı",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
     "Rank": 260101,
     "MaterialType": 12,
     "Id": 118001,
@@ -39905,6 +40866,28 @@
     "Description": "Çok özel bir günde çok özel birine verilen hediye.\n\nKamp ateşinin titrek alevlerini izleyen sana gelsin.\nYolculuğunda sıcaklık ve mutluluk bulman dileğiyle.\n\n\"Önerilen yemekler her hafta güncelleniyor. Ay otuz günde bir yeni lütuflar gönderiyor ama gel gör ki bugünü yeniden kutlayabilmemiz için neredeyse dokuz bin saat daha beklememiz gerekiyor! Birlikte geçirdiğimiz zaman çikolata gibi tatlı, yumuşak ve tek seferde bitirmeye kıyamayacak kadar güzel... Mmmm! Sen Paimon'un bir numaralı seyahat yoldaşısın!\"",
     "TypeDescription": "Çok Özel Eşya",
     "Icon": "UI_ItemIcon_118011"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 12,
+    "Id": 118013,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gezginin Pastası",
+    "Description": "Çok özel bir günde çok özel birine verilen bir hediye.\n\nMehtaplı gölgelerde ve uçsuz bucaksız ormanlarda yolculuk eden sana adanmıştır.\nBu dünyadaki yolculuğun her daim haz ve sürprizlerle taçlansın.",
+    "TypeDescription": "Çok Özel Eşya",
+    "Icon": "UI_ItemIcon_118013"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 5,
+    "Id": 118014,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gezginin Pastası",
+    "Description": "Çok özel bir günde çok özel birine verilen bir hediye.\n\nMehtaplı gölgelerde ve uçsuz bucaksız ormanlarda yolculuk eden sana adanmıştır.\nBu dünyadaki yolculuğun her daim haz ve sürprizlerle taçlansın.\n\n\"Her hafta tavsiye edilen yemekler güncellenir. Her ay da ayın yeni lütuflarını alırız. Tekrar bugünü kutlamamıza neredeyse dokuz bin saat var! Yine de tıpkı ayın her gün doğması gibi Paimon daima burada, tam senin yanı başında yolculuk ediyor olacak! Hadi gittiğimiz her yerde harika anılar biriktirelim!\"",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_118013"
   },
   {
     "Rank": 10,
@@ -51692,6 +52675,39 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121411,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kristal Özlü Çakıl Taşı",
+    "Description": "Graeae'in Gözü'nün fiziksel formunu geri kazanması için gereken güçle aşılanmış, yumurta şeklinde bir taş.\nBir zamanlar Domovoy Grandükü Alvis tarafından bölünüp ele geçirilen bu güç, bilinmeyen yollarla Aksinya'nın eline geçmiş ve Alypium'un oyuk kalıntılarına yerleştirilmişti. Sıradan bir ölümlünün, yeniden doğuş aracılığıyla nasıl daha mükemmel bir varlığa yükselebileceğinin sırrı bu taşın içinde saklı olabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121411"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121412,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Snegovik Laboratuvarı Anahtarı",
+    "Description": "İğne benzeri bir anahtar.\nAlypium'daki Snegurochka Grandüşesi'nin laboratuvar kapılarını açar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121412"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121413,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kedi Maması",
+    "Description": "Snegurochka Grandüşesi Pavlina tarafından, Alypium'da tutulan Lala adında bir kedi için hazırlanmış bir yiyecek... Kokusu oldukça cazip olsa da günün sonunda bir kedi maması, haliyle tadı muhtemelen karton gibidir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121413"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121414,
     "RankLevel": 4,
     "ItemType": 2,
@@ -51919,6 +52935,61 @@
     "Description": "Özel yapım şeker heykelcikler içeren bir kutu. Birisi düşünülerek üretilmiş gibi duruyor. Erimeye başlamadan yense iyi olur.",
     "TypeDescription": "Sarf Malzemesi",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121442,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kırmızı Anahtar",
+    "Description": "Kanalizasyon kontrol odası kapısını açmak için gereken üç anahtardan biri. Bu kırmızı olanı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121442"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121443,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Beyaz Anahtar",
+    "Description": "Kanalizasyon kontrol odası kapısını açmak için gereken üç anahtardan biri. Bu beyaz olanı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121443"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121444,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Mavi Anahtar",
+    "Description": "Kanalizasyon kontrol odası kapısını açmak için gereken üç anahtardan biri. Bu mavi olanı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121444"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121445,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Ayin\" Davetiyesi",
+    "Description": "Her zaman gerçek sahibinin eline ulaşmanın bir yolunu bulabilen olağanüstü bir davetiye.\nBu davetiye ile Snegurochka Prensesi Pavlina'nın düğününe katılmak üzere Snezhnaya'nın buzlu zirvelerindeki Hesperides Köşkü'ne gidilebilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121445"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121446,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ikhor'un Kopmuş Parçası",
+    "Description": "Ikhor'un gücünün, \"ayin\" yarıda kesildiğinde Aksinya tarafından koparılan bir parçası.\nNedense parlayan bir oyuncak bebek şeklini almıştır. Belki de \"başkalarının dileklerini gerçekleştirme\" arzusu uzun zaman önce onu kontrol eden iplere dönüşmüştür ve şimdi o, aşkın bir gücü taşıyan bir kukladan ibarettir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121446"
   },
   {
     "Rank": 410007,
@@ -52440,6 +53511,28 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121541,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Donmuş Kalp Çakılı",
+    "Description": "Graeae'in Gözü'nün fiziksel formunu geri kazanması için gereken güçle aşılanmış yumurta şeklinde bir taş.\nBir zamanlar Fey Grandüşesi Pavlina tarafından Feylerin doğuştan gelen kusurlarına deva olması için kullanılmıştı.\nİçinde, sıradan bir ölümlünün yeniden doğuş yoluyla daha yüksek bir statüye nasıl yükselebileceğinin arzusu gizli olabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121541"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121542,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Yılankavi Yosun Çakılı",
+    "Description": "Graeae'in Gözü'nün fiziksel formunu geri kazanması için gereken güçle aşılanmış yumurta şeklinde bir taş.\nBir zamanlar Koshchei adlı simyager tarafından sonsuzluğun peşinde yaşam yaratmak için kullanılmıştı.\nİçinde, sıradan bir ölümlünün yeniden doğuş yoluyla ölümsüzlüğü nasıl elde edebileceğinin sırrı gizli olabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121542"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121543,
     "RankLevel": 0,
     "ItemType": 2,
@@ -52513,6 +53606,17 @@
     "Description": "Özel yapım şeker heykelcikler içeren bir kutu. Birisi düşünülerek üretilmiş gibi duruyor. Erimeye başlamadan yense iyi olur.",
     "TypeDescription": "Sarf Malzemesi",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121551,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "\"Efsanevi Hırsızın Hazinesi\" Konumu",
+    "Description": "\"Kasap\" lakaplı bir çete üyesinin zar zor sermaye denkleştirmeye çalışırken ele geçirdiği bir ipucu... Belki de devasa bir ganimet gün yüzüne çıkarılmayı bekliyordur.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100173"
   },
   {
     "Rank": 10,
@@ -52638,6 +53742,83 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121567,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "İsimsiz İksir Formülü",
+    "Description": "İsimsiz İksir Formülü",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121568,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (I)",
+    "Description": "Bir Soylunun Notları (I)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121569,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (II)",
+    "Description": "Bir Soylunun Notları (II)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121570,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (III)",
+    "Description": "Bir Soylunun Notları (III)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121571,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (IV)",
+    "Description": "Bir Soylunun Notları (IV)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121572,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (V)",
+    "Description": "Bir Soylunun Notları (V)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121573,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Soylunun Notları (VI)",
+    "Description": "Bir Soylunun Notları (VI)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121574,
     "RankLevel": 4,
     "ItemType": 2,
@@ -52735,6 +53916,39 @@
     "Icon": "UI_ItemIcon_121596"
   },
   {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121597,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Metal Kontrol Çarkı",
+    "Description": "Kanalizasyondaki bir kapıyı açmak için kullanılan metal bir kontrol çarkı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121598,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kanalizasyon Asansörü Kontrol Çarkı",
+    "Description": "Kanalizasyon asansörünü çalıştırmak için kullanılan bir kontrol çarkı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121599,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Asansör Kontrol Çarkı",
+    "Description": "Toplanma Salonuna giden asansörü çalıştırmak için kullanılan bir kontrol çarkı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
     "Rank": 410007,
     "MaterialType": 5,
     "Id": 121601,
@@ -52792,6 +54006,149 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121610,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tuhaf Şekilli Arma",
+    "Description": "Nastya tarafından tuhaf bir odada bulunan, garip tasarımlı bir arma. Tuzakları devre dışı bırakabiliyor gibi görünüyor...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121610"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121611,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "VIP Bileti",
+    "Description": "Yaldızlı bir mektup.\nDağ köşkünün efendisi tarafından verildiği söylenen bu mektubu taşıyanlar, bir zamanlar sık sık Hesperides Köşkü'ne davet edilirdi.\nMektubu taşıyan kişi, dağ köşkünün VIP salonunda kısa bir molanın tadını çıkarabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121596"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121612,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Çete Üyesinin Unuttuğu Anahtar",
+    "Description": "Çete üyelerinin geride bıraktığı bir sandıktan bir anahtar buldun. Belki bir yerin kapısını açabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121612"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121613,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Eritilmiş Kristal Cevheri",
+    "Description": "Kresnik Kristalinden rafine edilip eritilmiş bir kristal. Benzersiz bir amaca hizmet ediyor olabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121613"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121614,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kanalizasyon Giriş/Çıkış Rehberi",
+    "Description": "Kontrol odasında bulunan, kanalizasyon kontrol odası kapısının nasıl açılacağını detaylıca anlatan bir rehber.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121614"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121615,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tuhaf Kart",
+    "Description": "Avcı Kulübesi'nden elde edilen tuhaf bir kart. İnce bir işçilikle üretilmiş, ancak amacı hâlâ meçhul...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121615"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121616,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.\nSnezhnaya Gölge Diyarını keşfet ve daha da fazla Gölge Diyarı Mahzeni açmak için kartın erişim iznini yükselt.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121616"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121617,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.\nSnezhnaya Gölge Diyarını keşfet ve daha da fazla Gölge Diyarı Mahzeni açmak için kartın erişim iznini yükselt.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121617"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121618,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.\nSnezhnaya Gölge Diyarını keşfet ve daha da fazla Gölge Diyarı Mahzeni açmak için kartın erişim iznini yükselt.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121618"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121619,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.\nSnezhnaya Gölge Diyarını keşfet ve daha da fazla Gölge Diyarı Mahzeni açmak için kartın erişim iznini yükselt.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121619"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121620,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.\nSnezhnaya Gölge Diyarını keşfet ve daha da fazla Gölge Diyarı Mahzeni açmak için kartın erişim iznini yükselt.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121620"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121621,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Gölge Diyarı Mahzeni Erişim Kartı",
+    "Description": "Avcı Kulübesi'nden elde edilen bir kart. Altındaki Gölge Diyarı Mahzeninin kilidini açmaya yarıyor gibi görünüyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121621"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121622,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Eksik Veri Bloku",
+    "Description": "Gölge Diyarının dört bir yanına dağılmış, görünüşe göre işaret görevi görmesi için kasten yerleştirilmiş garip veri blokları. Belki bu tuhaf parçaları toplamak, diyardaki keşfine yardımcı olur...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121625,
     "RankLevel": 3,
     "ItemType": 2,
@@ -52810,6 +54167,567 @@
     "Description": "Ayda keşfedilen kadim bir taş tablet. Nedendir bilinmez, üzerindeki yazı tamamen çözülemez olsa da onu okuyan herkes, anlatılanları sanki kendi ana dilindeymiş gibi kavrayabiliyor.",
     "TypeDescription": "Görev Eşyası",
     "Icon": "UI_ItemIcon_121625"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121627,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Karmaşık Desenli Düğme",
+    "Description": "Ayaz Perilerinin çok sevdiği bir düğme. Belki de düğmeleri bu kadar çok sevmelerinin nedeni, yuvarlak küçük elleriyle bu kadar ince ve hafif bir şey yapamamalarıdır. Ayaz Perilerinin Eşya Dükkanında eşyalarla takas edilebilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121627"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121630,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Eksik Veri Bloku",
+    "Description": "Gölge Diyarının dört bir yanına dağılmış, görünüşe göre işaret görevi görmesi için kasten yerleştirilmiş garip veri blokları. Belki bu tuhaf parçaları toplamak, diyardaki keşfine yardımcı olur...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Birinci Maceracılar Turnuvası Şampiyonluk Kupası",
+    "Description": "Snezhnaya'daki Maceracılar Loncası Genel Merkezi tarafından verilen bir kupa. Paimon ile macera alanında elde ettiğiniz olağanüstü başarıların bir kanıtı niteliğindedir.\nMaceracılar Loncası Kalkınma Konferansındaki tartışmalar sorunsuz bir şekilde ilerlemeyince, aslen farklı uluslardan maceracılar arasındaki dostça etkileşimi teşvik etmesi amaçlanan birinci Maceracılar Turnuvası, son sözü kimin söyleyeceğini belirleyen bir arenaya dönüştü...\nÇıkmazın aşılmasında kilit isimler olan sen ve Paimon, yarışmaya sonradan dahil oldunuz. Hızla yükselerek en nihayetinde şampiyonluğu elde ettiniz, konferansın gidişatını yönlendirip birkaç önemli kararı da sonuca bağladınız...\nBu kararların hemen bir etkisi olmasa da Loncanın çağa ayak uydurmasına kesinlikle yardımcı olacak ve bir sürü maceracıya büyük faydalar sağlayacaklar...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121631"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121632,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Gümbürdal",
+    "Description": "Gümbürdaldan filizlenen bir dal.\nGümbürdala yerleştirildiğinde yıldırım çağırabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121632"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Şapka: Kova",
+    "Description": "Bir kardan adam aksesuarı. Yalnızca sıradan bir demir kova olsa da doğru yerleştirildiğinde kardan adama havalı bir dokunuş katmak için fazlasıyla yeterlidir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Şapka: Kibar",
+    "Description": "Bir kardan adam aksesuarı. Bir kardan adamı bile son derece görgülü göstermeyi başaran, fevkalade zarif bir şapka.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121634"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Şapka: Sivri",
+    "Description": "Bir kardan adam aksesuarı. Şenlik havasını yansıtan bir şapka. Keyfin yerinde olduğu sürece sana her gün bayram olabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121635"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121636,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Şapka: Eğlenceli Başlık",
+    "Description": "Bir kardan adam aksesuarı. Tasarımı oldukça... Sıra dışı bir şapka. Bunu takmak kardan adamı biraz daha... Matrak gösterebilir belki.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121636"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121637,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kar Kuğusu Tüyü",
+    "Description": "Bir kardan adam aksesuarı. Tasarımı, kusursuz ayak hareketleriyle tanınan bir balerinden ilham alır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121637"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121638,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Gelgit Şarkısı Buz Çiçeği",
+    "Description": "Bir kardan adam aksesuarı. Tasarımı, güzel şarkı söylemesiyle bilinen bir Rusalkadan ilham alır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121638"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121639,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Atkı: Sıcak Kırmızı",
+    "Description": "Bir kardan adam aksesuarı. Son derece sıcak görünen bir atkı. Kardan adamın boynuna dolandığında çocuklara sarılabilecekleri bir yer sunar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121639"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121640,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Atkı: Rüya Yıldızı",
+    "Description": "Bir kardan adam aksesuarı. Bu atkının üzerindeki desenler, düşlerdeki yıldızları yansıtıyor. Bir kardan adam rüyaya daldığında karların savrulduğu bir gökyüzünü mü düşler, yoksa eriyip giden sularının aktığı derin okyanusları mı?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121640"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121641,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Atkı: Ekose",
+    "Description": "Bir kardan adam aksesuarı. Bir kardan adamı bile son derece görgülü göstermeyi başaran, fevkalade zarif bir atkı.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121641"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Atkı: Tuhaf Boyunluk",
+    "Description": "Bir kardan adam aksesuarı. Tasarımı oldukça... Sıra dışı bir atkı. Boyunluk da olabilir gerçi. Bunu takmak kardan adamı biraz daha... Matrak gösterebilir belki.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121642"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Avcı Başlığı",
+    "Description": "Bir kardan adam aksesuarı. Tasarımı, muhteşem çevikliğiyle tanınan bir avcıdan ilham alır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121643"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121644,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Antik Tasarımlı Anahtar",
+    "Description": "Oldukça antik bir tasarıma sahip bir anahtar. Hesperides Köşkü'ndeki bir kapıyı açabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121644"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121652,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tren Dekorasyon Rehberi",
+    "Description": "Çeşitli dekorasyon tarzlarını belgeleyen bir rehber kitap. Okuduktan sonra belki kendi trenine bazı benzersiz dokunuşlar ekleyebilirsin...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121652"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 85,
+    "Id": 121653,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Siyah Kar Kuğusu Arşivi",
+    "Description": "Siyah Kar Kuğusu görünümünde tasarlanan, menajeri olarak Odette ile geçirdiğin anları ölümsüzleştiren bir arşiv.\nUzaklaşıp giden her şey değerli bir anıya dönüşür.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121653"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121654,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Odette'in Gösteri Fotoğrafı",
+    "Description": "Siyah Kar Kuğusundan, Odette'i asil bir siyah kuğu misali zarafetle dans ederken yakalayan bir sahne karesi.\nBu kareye bakmak, o muhteşem balenin hatıralarını zihninde tüm canlılığıyla yeniden uyandırıyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121654"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "İmzalı Siyah Kar Kuğusu Afişi",
+    "Description": "Odette, o dönemki tüm desteğin için sana teşekkür etmek amacıyla bu değerli imzalı afişi hediye etti.\nYine de bu hediyeyle karşılaştırıldığında, belki de asıl hazine onun gülümsemesidir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121655"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Beyaz Tüy Kitap Ayracı",
+    "Description": "Odette, hikayesini seninle paylaştıktan sonra sana bu zarif kitap ayracını hediye etti.\nYakında kuvvetli tüylerinin büyümesi ve uçsuz bucaksız gökyüzüne özgürce yükselmesi dileğiyle.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121656"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 88,
+    "Id": 121657,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Yıldız Tozu İzi: Parlak Işıltı",
+    "Description": "Bunu elde etmek, savaş giysinin pelerininin Gölge Diyarındaki görünümünü değiştirir...\n\n\"Bir meteorun izi ve bir merminin yolu... Belki de aslında o kadar da farklı değillerdir.\"",
+    "TypeDescription": "Çok Özel Eşya",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121659,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tütsü İzinin Rehberliği - Kar Mezarı",
+    "Description": "Tütsü İzinin Rehberliği - Kar Mezarı'nın üç parçasını topladığında Kar Mezarı'nda bulunan Gölge Diyarı Mahzeninin mührünü açabilirsin.\nEfsanelere göre Gölge Diyarını keşfe çıkan ilk bölükler, buldukları hazineleri kimi zaman yanlarına alamazmış. Böyle durumlarda arkalarında özel bir \"tütsü izi\" bırakırlarmış. Uzun süredir kayıp olan bu yadigarların yerini tespit etmenin tek yolu, bu tütsü izlerini bir araya getirmektir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121659"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121660,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tütsü İzinin Rehberliği - Kara Ayaz Tepesi",
+    "Description": "Tütsü İzinin Rehberliği - Kara Ayaz Tepesi'nin üç parçasını topladığında Kara Ayaz Tepesi'nde bulunan Gölge Diyarı Mahzeninin mührünü açabilirsin.\nEfsanelere göre Gölge Diyarını keşfe çıkan ilk bölükler, buldukları hazineleri kimi zaman yanlarına alamazmış. Böyle durumlarda arkalarında özel bir \"tütsü izi\" bırakırlarmış. Uzun süredir kayıp olan bu yadigarların yerini tespit etmenin tek yolu, bu tütsü izlerini bir araya getirmektir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121660"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121661,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tütsü İzinin Rehberliği - Ebedi Buz Diyarı",
+    "Description": "Tütsü İzinin Rehberliği - Ebedi Buz Diyarı'nın üç parçasını topladığında Ebedi Buz Diyarı'nda bulunan Gölge Diyarı Mahzeninin mührünü açabilirsin.\nEfsanelere göre Gölge Diyarını keşfe çıkan ilk bölükler, buldukları hazineleri kimi zaman yanlarına alamazmış. Böyle durumlarda arkalarında özel bir \"tütsü izi\" bırakırlarmış. Uzun süredir kayıp olan bu yadigarların yerini tespit etmenin tek yolu, bu tütsü izlerini bir araya getirmektir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121661"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 86,
+    "Id": 121663,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Ruh Arayıcısı\" Ön Gösterimi Hatıra Fotoğrafı",
+    "Description": "Korolevskiy Topluluğu, \"Ruh Arayıcısı\" balesinin halka açık ilk deneme gösterisini gerçekleştirdi ve katılan tüm oyuncu kadrosu, ekip ve izleyicilerle birlikte bu hatıra fotoğrafını çekildi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121663"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121664,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nastya'nın Kafasının Dalları",
+    "Description": "Nastya'nın bedeninin bir parçası. \"Yuvaya\" giden kapıyı açmak için anahtar bir eşya.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121665,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nastya'nın El Çizimi Planı",
+    "Description": "Nastya'nın elle çizdiği, \"yuvaya\" giden kapının nasıl açılacağını gösteren bir plan.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121666,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kanalizasyon Giriş/Çıkış Rehberi",
+    "Description": "Kontrol odasında bulunan, kanalizasyon kontrol odası kapısının nasıl açılacağını detaylıca anlatan bir rehber.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121668,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bodrum Odası Giriş Kapısı Kolu",
+    "Description": "Belirli bir bodrum odasının giriş kapısını açmak için kullanılan bir kol.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121669,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Bir Bodrum Odasının Çıkış Kapısı Kolu",
+    "Description": "Belirli bir bodrum odasının çıkış kapısını açmak için kullanılan bir kol.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121671,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kresnik Enerjisi",
+    "Description": "Graeae'in Gözü'nü çalıştırmak için gereken enerji.\nKresnik Enerjisi, Snezhnaya'da Kresnik Kristali ile çalışan ısı kaynaklarının menziline girerek veya keşif sırasında Kresnik Kristali toplayarak yenilenebilir.",
+    "TypeDescription": "Keşif Kaynakları",
+    "Icon": "UI_ItemIcon_121671"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121672,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Tuhaf Reaktif Numunesi",
+    "Description": "Izmaylov dışına taşınan \"özel kargo\"dan alınan bir örnek. Gerçekten de Gölge Diyarı ile bağlantılı olabilir mi?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 260103,
+    "MaterialType": 5,
+    "Id": 121674,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Yıldız Tozu İzi: Parlak Işıltı Mührü",
+    "Description": "Gölge Diyarındaki savaş giysinin pelerininin görsel görünümünü değiştiren harika bir mühür. Zaten etkin...\n\n\"Bir meteorun izi ve bir merminin yolu... Belki de aslında o kadar da farklı değillerdir.\"",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121675,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutup Yıldızı Balesi Antolojisi (I)",
+    "Description": "Korolevskiy Topluluğuna ait, Siyah Kar Kuğusu balesinden kesitler içeren bir senaryo antolojisi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121676,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutup Yıldızı Balesi Antolojisi (II)",
+    "Description": "Korolevskiy Topluluğuna ait, Denizkuşu balesinden kesitler içeren bir senaryo antolojisi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121677,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutup Yıldızı Balesi Antolojisi (III)",
+    "Description": "Korolevskiy Topluluğuna ait, Elçi balesinden kesitler içeren bir senaryo antolojisi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121678,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kutup Yıldızı Balesi Antolojisi (IV)",
+    "Description": "Korolevskiy Topluluğuna ait, Ateşkuşu balesinden kesitler içeren bir senaryo antolojisi.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121679,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya'nın Kapsamlı Tarihçesi (I)",
+    "Description": "Araştırmacılar tarafından derlenmiş tarihi bir eser. Bu cilt ağırlıklı olarak efsanevi Altın Şehir'i konu almaktadır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya'nın Kapsamlı Tarihçesi (II)",
+    "Description": "Araştırmacılar tarafından derlenmiş tarihi bir eser. Bu cilt ağırlıklı olarak Çar Belyi ve hizmetkarlarını konu almaktadır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121681,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Dondurma Kabı",
+    "Description": "Dondurmaların saklanması için kullanılan bir kap. Erimeden hemen yesen iyi olur.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121682,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Özel Dondurma Kabı",
+    "Description": "Özel yapım dondurmaların saklanması için kullanılan bir kap. Biri için özel yapılmış. Her halükarda, lütfen erimeden önce en kısa sürede tadını çıkar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121683,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Özel Dondurma Kabı",
+    "Description": "Özel yapım dondurmaların saklanması için kullanılan bir kap. Biri için özel yapılmış. Her halükarda, lütfen erimeden önce en kısa sürede tadını çıkar.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121685,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Nastya'nın Annesiyle Fotoğrafı",
+    "Description": "Nastya ve annesi arasındaki sıcak bir anı yakalayan eski, biraz yıpranmış bir fotoğraf.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121686,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Ferman Elçisinin Kayıtları",
+    "Description": "Ferman Elçisinin Kayıtları",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121687,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Soruşturma Notları",
+    "Description": "Soruşturma Notları",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121688,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Simyagerin Notları (I)",
+    "Description": "Simyagerin Notları (I)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121689,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Simyagerin Notları (II)",
+    "Description": "Simyagerin Notları (II)",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121690,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Grandük Alvis'in Notları",
+    "Description": "Grandük Alvis'in Notları",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121701,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Külgezginin Notları",
+    "Description": "Külgezginin Notları",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121702,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Sayfaları Sararmış Belge",
+    "Description": "Sayfaları Sararmış Belge",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
   },
   {
     "Rank": 0,
@@ -53327,6 +55245,72 @@
     "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Çam Reçinesine dönüşür.",
     "TypeDescription": "Malzeme",
     "Icon": "UI_ItemIcon_130044"
+  },
+  {
+    "Rank": 246,
+    "MaterialType": 31,
+    "Id": 130045,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buz Perisi Çiçeği Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Buz Perisi Çiçeğine dönüşür.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130045"
+  },
+  {
+    "Rank": 245,
+    "MaterialType": 31,
+    "Id": 130046,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kadife Otu Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Kadife Otuna dönüşür.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130046"
+  },
+  {
+    "Rank": 244,
+    "MaterialType": 31,
+    "Id": 130047,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Altın Eğrelti Otu Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Altın Eğrelti Otuna dönüşür.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130047"
+  },
+  {
+    "Rank": 243,
+    "MaterialType": 31,
+    "Id": 130048,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kırmızı Pancar Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Kırmızı Pancara dönüşür.",
+    "TypeDescription": "Malzeme",
+    "Icon": "UI_ItemIcon_130048"
+  },
+  {
+    "Rank": 242,
+    "MaterialType": 31,
+    "Id": 130049,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Buz Yemişi Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Buz Yemişine dönüşür.",
+    "TypeDescription": "Malzeme",
+    "Icon": "UI_ItemIcon_130049"
+  },
+  {
+    "Rank": 241,
+    "MaterialType": 31,
+    "Id": 130050,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "Kartopu Çiçeği Tohumu",
+    "Description": "Tohum Kutusundan elde edilen hayat dolu, kaliteli bir tohum. Çaydanlığın büyüleyici tarlalarına ekildikten bir süre sonra büyüyerek Kartopu Çiçeğine dönüşür.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130050"
   },
   {
     "Rank": 341,
@@ -53910,6 +55894,381 @@
     "Description": "Ejderhaların soyundan geldiği söylenen büyük bir balık.\nEjder Balığı ailesinin bir kolu olan bu türün vücudu ağırlıklı olarak koyu, kasvetli bir mavimsi-siyah renktedir ve karnının altındaki çarpıcı soluk altın rengiyle tezat oluşturur. Birçok kuzenine kıyasla bu tür son derece uysaldır. Diğer su canlılarıyla asla bir çatışma başlatmaz. Ancak bu bir zayıflık olarak görülmemelidir. Kışkırtıldıklarında altın bir mızrak kadar şiddetli ve doğrudan ani bir saldırıyla ortaya çıkabilir, kendilerinden birkaç kat büyük davetsiz misafirleri hızla püskürtebilir ve çevrelerindeki tüm suları hayretler içinde bırakabilirler.",
     "TypeDescription": "Balık",
     "Icon": "UI_ItemIcon_131053"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Kömür Karyüzgeç",
+    "Description": "Tombul, küre şeklinde bir Snezhnaya balığı olan bu tür, Teyvat'ın dört bir yanında bulunan balon balığının uzak bir akrabası gibi görünebilir. Ancak bu ikisi aslında tamamen farklı soylara aittir. Balıkçılık Derneği onu ilk kaydettiğinde kod adı \"Kar Diyarı Yuvarlakyüzgeci\"ydi. Bir düzineden fazla balıkçı neslinin ardından, bu gayriresmi isim yavaş yavaş \"Karyüzgeç\"e evrildi.\nKömür Karyüzgeç, bu familyadaki en yaygın alt türdür. İnce, tozlu pullarının özel bileşenler içerdiği söylenir. Kurutulup öğütüldüğünde ve ardından Altın Eğrelti Otu köklerinin kurutulmuş tozuyla karıştırıldığında, pek çok Snezhnayalı maceracı tarafından el üstünde tutulan, son derece verimli bir ateş başlatıcı görevi görebilir.",
+    "TypeDescription": "Balık",
+    "Icon": "UI_ItemIcon_131054"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Krem Karyüzgeç",
+    "Description": "Tombul, küre şeklinde bir Snezhnaya balığı olan bu tür, Teyvat'ın dört bir yanında bulunan balon balığının uzak bir akrabası gibi görünebilir. Ancak bu ikisi aslında tamamen farklı soylara aittir. Balıkçılık Derneği onu ilk kaydettiğinde kod adı \"Kar Diyarı Yuvarlakyüzgeci\"ydi. Bir düzineden fazla balıkçı neslinin ardından, bu gayriresmi isim yavaş yavaş \"Karyüzgeç\"e evrildi.\nKrem Karyüzgeç, neredeyse saf beyaz rengi ve nadir bulunan bir tür olması nedeniyle Snezhnaya balıklarının en değerlisi olarak kabul edilir. Efsaneye göre, yaşadığı sular en ufak bir şekilde kirlendiği an, diğer renkler vücuduna sızmaya başlarmış. Birçok masala baş kahraman olan bu balık, yetenekli genç bir balıkçı çocuğun Karyüzgeçlerden birinin peşine takılıp \"Krema Krallığı\"na gittiği rüya gibi bir hikayede de yer alır. Öyle ki bir dönem bu masal yüzünden şehir genelinde kısa süreli bir krema kıtlığı bile yaşanmıştır.",
+    "TypeDescription": "Balık",
+    "Icon": "UI_ItemIcon_131055"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Ay Işığı Karyüzgeç",
+    "Description": "Tombul, küre şeklinde bir Snezhnaya balığı olan bu tür, Teyvat'ın dört bir yanında bulunan balon balığının uzak bir akrabası gibi görünebilir. Ancak bu ikisi aslında tamamen farklı soylara aittir. Balıkçılık Derneği onu ilk kaydettiğinde kod adı \"Kar Diyarı Yuvarlakyüzgeci\"ydi. Bir düzineden fazla balıkçı neslinin ardından, bu gayriresmi isim yavaş yavaş \"Karyüzgeç\"e evrildi.\nHalk arasındaki rivayetlere göre Ay Işığı Karyüzgeç, tüm Snezhnaya balıkları arasında en sağlam dayanıklılığa ve en keskin yön duygusuna sahiptir, o sıra dışı renkleri ise ona ay ışığının bir lütfudur. Söylentilere göre ataları bir zamanlar Nod-Krai'ın uzak sularına kadar yüzmüş ve ay ışığı hüzmeleriyle vaftiz edilmiştir. Nod-Krai'dan dönen tüccarlar bu masalı yalanlarken biyologlar da bu rengin büyük ihtimalle balığın yiyecek olarak çok sevdiği su altı bitkilerinden kaynaklandığına dikkat çeker. Yine de \"ay ışığı\" son derece hoş ve akılda kalıcı bir ifade olduğundan, bu isim günümüze kadar kalıcılığını korumuştur.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131056"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131057,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yakut Yıldız Çiçeği Balığı",
+    "Description": "Snezhnaya sularında yüzen özel bir tür. Önden bakıldığında altı yüzgeci, yıldızlara ve kar tanelerine benzeyen bir şekil oluşturur; bu yüzden onları ilk keşfeden balıkçı onlara \"Yıldız Çiçeği Balığı\" adını vermiştir. Kırmızı alt türünün rengi kırmızı pancara yakındır ve bu nedenle \"Yakut\" sıfatını almıştır. Bununla birlikte, bu sıfat yalnızca görünüşünün bir tasviridir. Bazı alimler, yüzey renginin esas olarak yırtıcıları korkutmaya yaradığını ve böylece balığı koruduğunu keşfetmiştir. Bu nedenle insan gözünden bakıldığında bunun onları çok daha lezzetli göstermesi biraz ironiktir.",
+    "TypeDescription": "Balık",
+    "Icon": "UI_ItemIcon_131057"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131058,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Buzyaprak Yıldız Çiçeği Balığı",
+    "Description": "Snezhnaya sularında yüzen özel bir tür. Önden bakıldığında altı yüzgeci, yıldızlara ve kar tanelerine benzeyen bir şekil oluşturur; bu yüzden onları ilk keşfeden balıkçı onlara \"Yıldız Çiçeği Balığı\" adını vermiştir. Buz mavisi alt türünün rengi bir Buz Perisi Çiçeğinin dış taçyapraklarının kenarlarını andırır, bu nedenle isminin başına \"Buzyaprak\" sıfatını almıştır. Türdeşleri arasında en keskin duyulara sahip olan Buzyaprak Yıldız Çiçeği Balığı tehlikeyi her zaman ta uzaklardan sezebilir. Ayrıca altı yüzgecinin sağladığı itme gücü avantajı sayesinde tehlike anında kaşla göz arasında sıyrılıp kaçabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131058"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131059,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Sedefli Yıldız Çiçeği Balığı",
+    "Description": "Snezhnaya sularında yüzen özel bir tür. Önden bakıldığında altı yüzgeci, yıldızlara ve kar tanelerine benzeyen bir şekil oluşturur; bu yüzden onları ilk keşfeden balıkçı onlara \"Yıldız Çiçeği Balığı\" adını vermiştir. Mavi alt türün pulları göz alıcı bir dokuya ve renklere sahiptir, belirli bir ışık altında gökkuşağını yansıtan bir kristal gibi parıldar ve bu da ona o zarif \"Sedefli\" unvanını kazandırır. Bu ışıltılı görünümü sayesinde Sedefli Yıldız Çiçeği Balıkları, Snezhnayalı balık koleksiyoncularının el üstünde tuttuğu misafirleridir. Öyle ki bazıları sırf bu balık için pahalı akvaryum peyzajları inşa etmiş, ancak uzun bir süre boyunca bir tane bile yakalayamamıştır...",
+    "TypeDescription": "Balık",
+    "Icon": "UI_ItemIcon_131059"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 900 Can yeniler.",
+    "Id": 132001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Buz Yemişi Dondurması (Tuhaf)",
+    "Description": "Bardakta servis edilen bir tatlı. Taş gibi donmuş; hatta öyle ki demir bir kaşıkla ucundan ufacık bir parça kazımak bile insanüstü bir çaba istiyor. Ağzına aldığın an o keskin soğuk, anında dişlerinin takırdamasına sebep oluyor. Tatlılıktan eser yok, sanki lezzet kavramı sahneye çıkma fırsatını hiç bulamamış gibi...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 1.200 Can yeniler.",
+    "Id": 132002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Buz Yemişi Dondurması",
+    "Description": "Bardakta servis edilen bir tatlı. Krema, süt, bal ve ezilmiş meyveler birlikte karıştırılır ve ardından pürüzsüz, kadifemsi dondurma topları haline getirilir. Meyve ve süt tadı zengin, lezzetli bir aroma oluşturur. Hava sıcaklığına bakmaksızın bu lezzetin tadını çıkarmak isteyenler hep vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "Bir karakteri diriltir ve 1.500 Can yeniler.",
+    "Id": 132003,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Buz Yemişi Dondurması (Lezzetli)",
+    "Description": "Bardakta servis edilen bir tatlı. Yakından baktığında, buzun altına kıstırılmış küçük bir gün batımı parçasını andıran meyve posasının narin dokusunu belli belirsiz seçebiliyorsun. Snezhnaya'nın dondurucu iklimi bu tatlı manzarayı koca bir gün boyunca kolaylıkla muhafaza edebilse de tatlı ve ekşinin o kusursuz dengesi, çok daha öncesinde silinip süpürülmesini kaçınılmaz kılıyor...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %18 yeniler ve 30 saniye boyunca 5 saniyede bir 300 Can verir.",
+    "Id": 132004,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glupov Çavdar Ekmeği (Tuhaf)",
+    "Description": "Dolgun ve doyurucu bir somun ekmek. O kadar ağır ki insan mayalanma aşamasının tamamen atlanıp atlanmadığını merak etmeden edemiyor. Çorbaya batırmak bile somunu zerre kadar yumuşatmıyor... Yoksa bu gerçekten de bir savaşçının kararlılığını pekiştirmek için tasarlanmış bir eğitim aracı olabilir mi?",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %20 yeniler ve 30 saniye boyunca 5 saniyede bir 390 Can verir.",
+    "Id": 132005,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glupov Çavdar Ekmeği",
+    "Description": "Dolgun ve doyurucu bir somun ekmek. Hamur, uzun ve soğuk bir fermantasyondan geçmelidir. Pişirildiğinde sert bir kabuk ve sıkı, ince dokulu bir iç oluşturur. Hazır olduktan sonra ekmek uzun süre dayanır, bu da onu Snezhnaya'nın gezgin tüccarları, askerleri ve avcıları arasında yaygın bir erzak haline getirir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %22 yeniler ve 30 saniye boyunca 5 saniyede bir 470 Can verir.",
+    "Id": 132006,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Glupov Çavdar Ekmeği (Lezzetli)",
+    "Description": "Dolgun ve doyurucu bir somun ekmek. Tek bir ısırık beraberinde dengeli, hafif bir mayhoşluk getiriyor ve bunu çavdarın eşsiz rustik ve tahılsı aroması takip ediyor. Her ısırığı inanılmaz derecede tatmin edici kılan ağır bir zenginlik taşıyor; donmuş toprağın altına gömülü canlı bir yaşam kıvılcımı misali, boğazının gerisinde bıraktığı kalıcı bir tatlılıkla doruğa ulaşıyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %26 yeniler ve 30 saniye boyunca 5 saniyede bir 450 Can verir.",
+    "Id": 132007,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik (Tuhaf)",
+    "Description": "Bal ile yapılan bir pasta. Tüm tatlılık belirtileri, gürül gürül yanan fırın ateşinde kavrularak acı ve yanık bir felakete dönüşmüş. Üzerindeki ekşi krema üstüne düşeni mükemmel bir şekilde yerine getirse de, pastada en ufak bir tatlılık belirtisi olmadığı için tamamen havada kalıyor...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %28 yeniler ve 30 saniye boyunca 5 saniyede bir 620 Can verir.",
+    "Id": 132008,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik",
+    "Description": "Bal ile yapılan bir pasta. İnce ballı hamur katmanları fırınlanır, ardından her tabakanın arasına ekşi krema sürülerek üst üste dizilir. Pasta, üzerine serpilen kırıntılar ve bal şurubu ile tamamlanır. Düzgün ve pürüzsüz bir sonuç elde etmek için her adım özenle yapılmalıdır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "Id": 132009,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Medovik (Lezzetli)",
+    "Description": "Bal ile yapılan bir pasta. Kehribar rengi hamur ve kar beyazı krema, muhteşem bir uyum içinde kat kat birbirini sarmalar. Bu pastaya bakmak bir tarihçenin sayfalarını çevirmeye benzer, her biri eşit derecede görkemli ve büyüleyici bir hikayeyi gözler önüne serer.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %15 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132010,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya Usulü Şaşlık (Tuhaf)",
+    "Description": "Büyük parçalar halinde ızgara edilen et şişleri. Kararmış dış yüzeyi o kadar acı ve sert ki sanki bir kömür parçası çiğniyormuşsun gibi hissettiriyor. Daha da kötüsü, aşırı pişen içi o kadar kuru, o kadar kayış gibi ki sanki bütün suyu daha ızgaradan inmeden buhar olup uçmuş...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "Id": 132011,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya Usulü Şaşlık",
+    "Description": "Büyük parçalar halinde ızgara edilen et şişleri. Marine edilmiş et parçaları demir şişlere dizilir ve kızgın kömür üzerinde, dışı kızarıp içi yumuşayana kadar çevrilerek pişirilir. İster avlu toplantılarında ister avda veya karların üzerinde ufak bir açıklıkta; özetle Snezhnaya'da ateş yakılabilen her yerde bu şişlere rastlanabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "900 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132012,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya Usulü Şaşlık (Lezzetli)",
+    "Description": "Büyük parçalar halinde ızgara edilen et şişleri. Gevrek dış yüzeyi ısırıldığında tatmin edici bir çıtırtı duyulur ve ardından iştah açıcı bir et suyu patlaması yaşanır. Şiş ateşte kızarırken marine sosu, etin taze tatlılığını öne çıkaran doyurucu bir alt notaya dönüşür. Ağzının kenarları yağ ve et suyuyla parlasa da bu eşsiz lezzet söz konusu olduğunda aklına gelecek en son şey sofra adabı olabilir...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "Id": 132013,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Karlar Üstünde Kartopu Çiçekleri (Tuhaf)",
+    "Description": "Klasik bir katmanlı salata. Uzun süre açıkta beklediği için şekli şemali kaymış. Daha da fenası, içindeki tüm malzemeler adeta kaotik bir göçe çıkıp her katmanın o kendine has lezzetini birbirine katmış... Hâlâ yenilebilir durumda olsa da o kütür kütür salata dokusundan eser kalmamış.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 194 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132014,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Karlar Üstünde Kartopu Çiçekleri",
+    "Description": "Klasik bir katmanlı salata. Her malzeme ayrı ayrı hazırlanır, ardından aralarına baharatlı ekşi krema sosu yayılarak katmanlar halinde üst üste dizilir. Hazırlandıktan sonra tatların tam olarak kaynaşması için salata genellikle bir süre dinlenmeye bırakılır. Tamamlanan yemek, karlı bir ovada açan Kartopu Çiçeklerine benzer ve adını da buradan alır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 228 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132015,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Karlar Üstünde Kartopu Çiçekleri (Lezzetli)",
+    "Description": "Klasik bir katmanlı salata. Tabağın kenarını süsleyen Kartopu Çiçekleri çorak bir kış arazisinin ta ucunda açmış gibi duruyor, altın benzeri yoğun yumurta sarısı ise batarken ufku ışığıyla boyayan güneşi andırıyor. Kaşığın boş tabağın dibine çarpana dek bu enfes mutfak eserinin büyüsüne tamamen kapılıp gidiyorsun. \"Hepsini ne ara bitirdim?\" diye soruyor insan kendine.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "1.500 saniyeliğine tüm grup üyelerinin tırmanma ve depar esnasında harcadığı Dayanıklılık %25 azalır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132016,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Tam İsabet Rostosu",
+    "Description": "Alyosha'nın özel tarifi. Tugarin'in heyecanlı havlamaları eşliğinde kocaman bir şiş uzatıyor. Sıcak yağı cızırdayan et, standart bir şiştekinden çok daha kalın dilimlenmiş. Tek bir ısırık, açık ateşin mükemmel bir şekilde terbiye ettiği o zengin av eti lezzetini ortaya çıkarıyor. Belli ki ızgara başındaki ustalığı da nişancılığı kadar kusursuz!",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108895"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 274 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Göl Kenarında Kar Kuğusu",
+    "Description": "Odette'nin özel tarifi. Küçük bir porsiyon salata, sanki ana sahnedeki bir spot ışığıyla aydınlatılmışçasına tabağın ortasında usulca duruyor; her bir özenli katman kendi dans adımlarındaki hassasiyetle dizilmiş. Malzemeler o kadar titizlikle hesaplanmış ki porsiyonun tamamını bitirmek yarınki kilonu hiç etkilemeyecek... Öyleyse hiç durma, hiçbir suçluluk duymadan tadını çıkar!",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108896"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 224, Kritik Oranını %6 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132018,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tatlı Toplar (Tuhaf)",
+    "Description": "Çeşit çeşit dondurma topları. Çukurlu yüzeyleri, orijinal şekillerini korumakta zorlanan buruşuk kağıt toplarına benziyor. Ağzındayken pütürlü bir buz parçacığı tabakası tadı tamamen bastırıyor ve lezzet adına hiçbir inceliğe yer bırakmıyor. Şu an tek istediğin, gözlerini yumup neden buna meydan okumaya kalkıştığını sorgulamak...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 272, Kritik Oranını %8 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132019,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tatlı Toplar",
+    "Description": "Çeşit çeşit dondurma topları. Dört farklı aroma ayrı kağıt kaselere konup tek bir kutuda bir araya getirilir. Sevenleri genellikle iki gruba ayrılır: istedikleri tattan başlayarak yiyenler ve her kaseyi sırayla bitirenler. Her ikisinde de sonunda kutunun dibinde hiçbir şey kalmaz.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 320, Kritik Oranını %10 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132020,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Tatlı Toplar (Lezzetli)",
+    "Description": "Çeşit çeşit dondurma topları. İpeksi ve yoğun dokusuyla damakta zarifçe eriyen her bir top, duyuları şefkatle sarmalayan canlı ve ferahlatıcı bir tatlılığa bırakır yerini. Kutu çoktan bitmiş olsa bile onu elinden bırakmak istemiyorsun ve saf mutluluğun damakta kalan tadını doyasıya çıkarmak için gözlerini yumuyorsun...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "Güzel görünüyor, üstelik lezzetli de ama pek bir etkisi yok.",
+    "Id": 132021,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Alyosha Temalı Dondurma",
+    "Description": "Karakterden ilham alan dondurmalı bir tatlı. Minik tazı kulaklarına sahip, kar beyazı ufak bir top şeklinde tasarlanan bu lezzet; Alyosha'nın yanında Tugarin ile ava çıktığı görüntüyü mükemmel bir şekilde gözünde canlandırmanı sağlıyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108898"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "Güzel görünüyor, üstelik lezzetli de ama pek bir etkisi yok.",
+    "Id": 132022,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Odette Temalı Dondurma",
+    "Description": "Karakterden ilham alan dondurmalı bir tatlı. Vakur ve hareketsiz bir biçimde ayakta duran zarif bir kar kuğusu şeklinde tasarlanan bu tatlı, Korolevskiy Topluluğunun balerini Odette'in imajını kusursuz bir şekilde yakalıyor.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108899"
+  },
+  {
+    "Rank": 531099,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Saldırısını 114 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132023,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Kvas",
+    "Description": "Kvasnik Meşrubat Dükkanının tamamen alkolsüz imza içeceği. Belirgin bir ekşi çavdar ekmeği aroması ile hafif gazlı bir yapısı vardır ve asla ağır gelmeyen hafif bir tatlılığa sahiptir. Soğutulduğunda muhteşem bir ferahlık verir, hiçbir Snezhnayalının asla geri çeviremeyeceği bir içecektir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108900"
+  },
+  {
+    "Rank": 231099,
+    "MaterialType": 15,
+    "EffectDescription": "Seçili karakterin Maks. Canını %26 yeniler ve 30 saniye boyunca 5 saniyede bir 570 Can verir.",
+    "Id": 132024,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Baharatlı Ballı İçecek",
+    "Description": "Kurutulmuş baharatların sıcak ballı suda demlenmesiyle üretilen özel bir sıcak içecek. Sadece bardağı tutmak bile buz kesmiş parmaklarına anında bir memnuniyet dalgası yayar. Tek bir yudum, içine hafif ve aromatik bir sıcaklık dalgası yayarak bedenini dondurucu fırtınaya karşı mükemmel bir şekilde korur.",
+    "TypeDescription": "Yiyecek",
+    "Icon": "UI_ItemIcon_108901"
+  },
+  {
+    "Rank": 530099,
+    "MaterialType": 1,
+    "EffectDescription": "300 saniyeliğine tüm grup üyelerinin Kritik Oranını %16 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
+    "Id": 132025,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Buzyıldız Şerbeti",
+    "Description": "Buzyıldız Meyvesi ile üretilen soğuk bir içecek. Bambaşka bir dünyaya aitmiş gibi duran pembe-mavi berraklığıyla, saf kardan ibaret uçsuz bucaksız bir diyarın ortasında keskin bir şekilde göze çarpar. Tam şafak vakti doğrudan gökyüzünden koparılmış ufak bir mucize gibidir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108902"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "Güzel görünüyor, üstelik lezzetli de ama pek bir etkisi yok.",
+    "Id": 132026,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Sıradan Dondurma",
+    "Description": "Sık karşılaşılan bir Snezhnaya dondurması. Kökeni olan toprakların karları kadar soğuk.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
   },
   {
     "Rank": 500101,
@@ -56189,6 +58548,127 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141291,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 189",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141292,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 190",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141293,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 191",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141294,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 192",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141295,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 193",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141296,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 194",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141298,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 196",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141299,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 197",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141300,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 198",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141301,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 199",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "Macera Eşyası",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141302,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Parlak Burgu Kristal 200",
+    "Description": "Bu harikulade kristal, narin ipekten güzel bir örgü misali çok hoş bir melodi çalar. Bu eşyayı ana karanın farklı yerlerinden veya nadir nesne toplayan tüccarlardan bulabilirsin. Kristalin içinde çalan ezgiyi, Dinginçay Çaydanlığındaki \"Ebedi Ahenk: Dingin Yankılar\" veya \"Ebedi Ahenk: Rüzgarın Ezgileri\" eşyalarını kullanarak dinleyebilirsin. Bu Parlak Burgu Kristalde Snezhnaya'dan gelen gizemli bir müzik vardır.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "Rank": 100,
     "MaterialType": 4,
     "Id": 200001,
@@ -57366,6 +59846,17 @@
     "Icon": "UI_ItemIcon_200908"
   },
   {
+    "Rank": 62009,
+    "MaterialType": 33,
+    "Id": 200909,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kar Balıkçısı Kralın Asası",
+    "Description": "Balık tutarken İdeal Misina Gerginliği alanında kalabilirsen, bu oltayı kullanmak balıkların çabalama süresini istikrarlı bir şekilde kısaltır ve başarı şansını artırır. Sadece Snezhnaya'da etkilidir.\n\nBilinmeyen bir zanaatkar tarafından Saf Buzdan yapılan ve \"karlar diyarının balıkçı kralının asası\" olarak methedilen bir olta. Şu anda Snezhnaya Balıkçılık Derneğine emanet edilmiştir. Yalnızca uğuldayan rüzgar ve karla yoğrulmuş, üstün beceriye sahip balıkçıların bu oltayı kullanmaya layık olduğu söylenir...",
+    "TypeDescription": "Olta",
+    "Icon": "UI_ItemIcon_200909"
+  },
+  {
     "Rank": 145000,
     "MaterialType": 21,
     "Id": 220001,
@@ -57691,7 +60182,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Tohum Kutusu",
-    "Description": "Madam Ping'den alınmış özel bir kutu. Madam Ping bu kutunun \"tohum üretme\" gücü olduğunu söylüyor. Yani özel niteliklerine göre farklı bitki tohumları üretebilir. Sonrasında bu tohumlar Dinginçay Çaydanlığındaki tarıma uygun topraklara ekilebilir.\nYetiştirilebilen bitkiler ise şunlardır: İpek Çiçeği, Tatlı Çiçek, Sesilya, Parlak Zambak, Rüzgargülü Çiçeği, Qingxin, Mor Ot, Valyemiş, Küçük Lamba Otu, Jueyun Biberi, Havuç, Turp, Nane, Mantar, Gözyaşı Otu, Atkuyruğu, Aslanağzı, Nilüfer Başı, Gelin Çiçeği, Yosun, Deniz Mantarı, Harra Meyvesi, Zaytun Şeftalisi, Sumeru Gülü, Yağmur Nilüferi, Marcotte, Lumidouce Çanı, Gökkuşağı Gülü, Tahıl Meyvesi, Cacahuatl, Sürüngen Pençesi Kaktüsü, Quenepa Böğürtleni, Parlak Kasımpatı, Tüylü Solungaç, Parlak Boynuz Mantarı, Taşyaran Kristal Çiçeği, Donuk Lamba Çiçeği, Yazdönümü Böğürtleni, Lakka Böğürtleni, Çam Reçinesi, Kış Buzotu.",
+    "Description": "Madam Ping'den alınmış özel bir kutu. Madam Ping bu kutunun \"tohum üretme\" gücü olduğunu söylüyor. Yani özel niteliklerine göre farklı bitki tohumları üretebilir. Sonrasında bu tohumlar Dinginçay Çaydanlığındaki tarıma uygun topraklara ekilebilir.\nYetiştirilebilen bitkiler ise şunlardır: İpek Çiçeği, Tatlı Çiçek, Sesilya, Parlak Zambak, Rüzgargülü Çiçeği, Qingxin, Mor Ot, Valyemiş, Küçük Lamba Otu, Jueyun Biberi, Havuç, Turp, Nane, Mantar, Gözyaşı Otu, Atkuyruğu, Aslanağzı, Nilüfer Başı, Gelin Çiçeği, Yosun, Deniz Mantarı, Harra Meyvesi, Zaytun Şeftalisi, Sumeru Gülü, Yağmur Nilüferi, Marcotte, Lumidouce Çanı, Gökkuşağı Gülü, Tahıl Meyvesi, Cacahuatl, Sürüngen Pençesi Kaktüsü, Quenepa Böğürtleni, Parlak Kasımpatı, Tüylü Solungaç, Parlak Boynuz Mantarı, Taşyaran Kristal Çiçeği, Donuk Lamba Çiçeği, Yazdönümü Böğürtleni, Lakka Böğürtleni, Çam Reçinesi, Kış Buzotu, Buz Perisi Çiçeği, Kadife Otu, Altın Eğrelti Otu, Kırmızı Pancar, Buz Yemişi, Kartopu Çiçeği.",
     "TypeDescription": "Aygıt",
     "Icon": "UI_ItemIcon_220033"
   },
@@ -58626,7 +61117,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Mehtap Hazine Pusulası",
-    "Description": "Nod-Krai'da yakınlardaki hazineleri ve ipuçlarını bulmak için kullanılabilen bir pusula.\nBu mehtaplı küre, cesur ve zeki maceracılar tarafından ortaya çıkarılmayı bekleyen nice gizli hazineye ev sahipliği yapıyor.",
+    "Description": "Nod-Krai'da ve Donuk Ay'da yakınlardaki hazineleri ve ipuçlarını bulmak için kullanılabilen bir pusula.\nBu mehtaplı küre; cesur ve zeki maceracılar tarafından ortaya çıkarılmayı bekleyen nice gizli hazineye ev sahipliği yapıyor.",
     "TypeDescription": "Aygıt",
     "Icon": "UI_ItemIcon_220123"
   },
@@ -58730,6 +61221,17 @@
     "Icon": "UI_ItemIcon_220132"
   },
   {
+    "Rank": 35072,
+    "MaterialType": 21,
+    "Id": 220133,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Graeae'in Gözü",
+    "Description": "Terk edilmiş bir istasyonda rastladığın tuhaf bir mekanizma. Genellikle tekli gözlük şeklinde görünür.\nBirçok kullanışlı işlevi var gibi duruyor...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_220133"
+  },
+  {
     "Rank": 5021,
     "MaterialType": 21,
     "Id": 220134,
@@ -58739,6 +61241,28 @@
     "Description": "Bir zamanlar Barbeloth'un taşıdığı kutu artık sende. İçinde hem çoktan gün yüzüne çıkmış hem de henüz uyanmamış tüm kehanetler yatıyor. Bu sözlerin bir gün kaderin akışını değiştirip değiştirmeyeceğine gelince... Barbeloth'un bu konuda söylediği tek şey şu oldu: \"Hehehe... Kaderin gerçek yüzü öyle kolayca açığa çıkarılmamalıdır. Kaldı ki içinde hâlâ keşfedilmemiş sırlar barındıran bir gelecek çok daha keyifli olmaz mı sence de?\"",
     "TypeDescription": "Aygıt",
     "Icon": "UI_ItemIcon_220134"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 21,
+    "Id": 220135,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "KYKD Kamerası",
+    "Description": "Chichikova tarafından sağlanan ve Karşılıklı Yardımlaşma ve Kalkınma Derneğinin özel bir ekipmanı olarak işlev gören, özel amaçlı bir Kamera. Keşif planı doğrultusunda belirlenen bir hedef kadraja alındığında, elde edilen bu görüntü işlenerek hayati bir istihbarata dönüştürülür ve onların izinden giden çaylaklara ışık tutar...",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_220094"
+  },
+  {
+    "Rank": 45004,
+    "MaterialType": 21,
+    "Id": 220136,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Buz Hazine Pusulası",
+    "Description": "Snezhnaya'da yakındaki hazineleri ve ipuçlarını aramak için kullanılabilen bir pusula.\nKarlar diyarının dört bir yanındaki gizli yerlerde birçok hazine donmuş halde yatmaktadır. Mühürleri bozabilenler, buzun içine bırakılan hediyeleri alabilir.",
+    "TypeDescription": "Aygıt",
+    "Icon": "UI_ItemIcon_220136"
   },
   {
     "Rank": 300201,
@@ -59260,6 +61784,61 @@
   {
     "Rank": 300201,
     "MaterialType": 5,
+    "Id": 221052,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan: Kor Pınarı",
+    "Description": "Kuzmichev'in eski efsanelerin kayıtlarına dayanarak yeniden oluşturduğu bir taslak. Bunu öğrendikten sonra Kor Pınarı (Kılıç) yeniden oluşturulabilir.",
+    "TypeDescription": "Dövme Taslağı",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221053,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan: Kar ve Ayazın Yemini",
+    "Description": "Kuzmichev'in eski efsanelerin kayıtlarına dayanarak yeniden oluşturduğu bir taslak. Bunu öğrendikten sonra Kar ve Ayazın Yemini (Yay) yeniden oluşturulabilir.",
+    "TypeDescription": "Dövme Taslağı",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221054,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan: Kefaret Kılıcı",
+    "Description": "Kuzmichev'in eski efsanelerin kayıtlarına dayanarak yeniden oluşturduğu bir taslak. Bunu öğrendikten sonra Kefaret Kılıcı (Çift Elli Kılıç) yeniden oluşturulabilir.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221055,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan: Kalbin Yankıları",
+    "Description": "Kuzmichev'in eski efsanelerin kayıtlarına dayanarak yeniden oluşturduğu bir taslak. Bunu öğrendikten sonra Kalbin Yankıları (Katalizör) yeniden oluşturulabilir.",
+    "TypeDescription": "Dövme Taslağı",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221056,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Plan: Nöbet Türküsü",
+    "Description": "Kuzmichev'in eski efsanelerin kayıtlarına dayanarak yeniden oluşturduğu bir taslak. Bunu öğrendikten sonra Nöbet Türküsü (Mızrak) yeniden oluşturulabilir.",
+    "TypeDescription": "Dövme Taslağı",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
     "Id": 221057,
     "RankLevel": 3,
     "ItemType": 2,
@@ -59397,6 +61976,17 @@
     "ItemType": 2,
     "Name": "Formül: Ferahlatıcı Lakka Yemi",
     "Description": "Ferahlatıcı Lakka Yemi yapımını adım adım anlatan ayrıntılı bir reçete.",
+    "TypeDescription": "Yem Taslağı",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221070,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Formül: Pırıltılı Yem",
+    "Description": "Pırıltılı Yem yapımını adım adım anlatan ayrıntılı bir reçete.",
     "TypeDescription": "Yem Taslağı",
     "Icon": "UI_ItemIcon_221035"
   },
@@ -59652,6 +62242,61 @@
     "Description": "Cana yakın küçük bir kızdan ilham alan bir havai fişek.\nBu küçük kızın pek çok kişiye yardımı dokunmuştur ancak hiç kimse onun adını bilmiyor, bildikleri tek şey bu kızın arkadaşının adının \"Yuegui\" olduğu. Bu havai fişek onların teşekkürlerinin ve iyi dileklerinin bir ifadesi olarak tasarlandı.",
     "TypeDescription": "Havai Fişek",
     "Icon": "UI_ItemIcon_223018"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223301,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yapı Görünümü: Ayaz Perisi",
+    "Description": "\"Saf Buz Yapısı: Küp\" için bir görünüm çeşidi.\nAyaz Perileri, kendi suretlerinde tuhaf buzdan oluşumlar yaratmaya son derece takıntılı görünüyor. Küp kadar basit bir yapıda bile, kendine has özelliklerini dahil etmek için muazzam bir çaba sarf etmiş.",
+    "TypeDescription": "Saf Buz Yapısı Görünümü",
+    "Icon": "UI_ItemIcon_223301"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223302,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yapı Görünümü: Kutup Ayısı",
+    "Description": "\"Saf Buz Yapısı: Depolama Cihazı\" için bir görünüm çeşidi.\nAvcılar arasında şöyle eski bir söz vardır: \"Bir ayı bir şeye sıkıca sarılıyorsa, bil ki o bir hazinedir.\"\nGerçek bir Kutup Ayısının elinden bir şeyi zorla çekip alma fikri kulağa korkutucu gelse de, ona benzetilerek modellenmiş sıradan bir depolama ünitesi pek bir tehdit oluşturmamalı... Değil mi?",
+    "TypeDescription": "Saf Buz Yapısı Görünümü",
+    "Icon": "UI_ItemIcon_223302"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223303,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yapı Görünümü: Balerin",
+    "Description": "\"Saf Buz Yapısı: Atmosferik Sütun\" için bir görünüm çeşidi.\nİnsan bir gösteriyi izlerken, duyguları balerinin her bir zarif hareketiyle adeta dalgalanıp durulur. Her seyrediş, ruha derin bir içsel kuvvet aşılar.\nBelki de bu özel Saf Buz Yapısı görünümünün tasarımı tam da bu hissiyattan doğmuştur.",
+    "TypeDescription": "Saf Buz Yapısı Görünümü",
+    "Icon": "UI_ItemIcon_223303"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223304,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yapı Görünümü: Tazı",
+    "Description": "\"Saf Buz Yapısı: Atmosferik Sütun\" için bir görünüm çeşidi.\nSürekli güçlendirmeler sadece atmosferik sütunlardan değil, aynı zamanda yanımızdaki yoldaşlardan da elde edilir. Bazen sadece var olmaları bile herhangi bir sihirli güçlendirmeyi fazlasıyla aşan bir kuvvet sağlar... Bir de bu sütunlar tıpkı gerçek bir yoldaş gibi bizi takip edebilse harika olurdu.",
+    "TypeDescription": "Saf Buz Yapısı Görünümü",
+    "Icon": "UI_ItemIcon_223304"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223305,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Yapı Görünümü: Metcezir",
+    "Description": "\"Saf Buz Yapısı: Atmosferik Sütun\" için bir görünüm çeşidi.\nSöylenenlere göre, bu görünümde üretilmiş bir sütunun yanında durunca bazen metcezirin o hafif mırıltısı çalınır insanın kulağına. Oysa yapının kendisinden hiçbir ses çıkmaz; bu melodi tıpkı sessiz bir gecede aniden kalbinde yankılanan bir şarkı gibi, bütünüyle zihninin ve hayal gücünün bir eseridir.",
+    "TypeDescription": "Saf Buz Yapısı Görünümü",
+    "Icon": "UI_ItemIcon_223305"
   },
   {
     "Rank": 0,
@@ -60617,7 +63262,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "Su Ulusunun Ebruli Renkleri",
-    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın renk paletinin, bitkileri kullanarak muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...\nYoldaşların arasından Clorinde, Emilie ve Escoffier bu Dekorasyon Setini tercih eder.",
+    "Description": "Gösterişli bitkilerle dolu bir kır manzarası. Fontaine'in dört bir yanında görülebilecek her türden çiçek ve çalı vardır. Çiçekler ve çalılar resimlerde sık görülen bir temadır ve \"renk\" keşfinin de başlangıcıdır. Fontaineli bazı ressamlar dünyanın renk paletinin, bitkileri kullanarak muhteşem renk birleşimlerini gösterdiğine inanırlar. Dolayısıyla bir tabloda yer alan tüm renklerin kaynağı bir çiçekte bulunabiliyorsa o zaman bu tablonun doğal manzaralara eş bir güzelliği vardır. Tabii bitkilerden gelen renkleri birbiriyle fazla karıştırmaman gerekir...\nYoldaşların arasından Clorinde, Emilie, Escoffier ve Sandrone bu Dekorasyon Setini tercih eder.",
     "TypeDescription": "Dekorasyon Seti Taslağı",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -61922,6 +64567,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 380484,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Kuşlar Gibi Cıvıl Cıvıl\"",
+    "Description": "\"Kuşlar Gibi Cıvıl Cıvıl\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 380504,
     "RankLevel": 3,
     "ItemType": 2,
@@ -62236,6 +64892,28 @@
     "Name": "Otel Gardırobu: Fazladan Yer",
     "Description": "Otel Gardırobu: Fazladan Yer yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Mesai Başlangıcı\"",
+    "Description": "\"Mesai Başlangıcı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İç Mekan Dolabı: \"Dik Çatılı Küçük Ev\"",
+    "Description": "İç Mekan Dolabı: \"Dik Çatılı Küçük Ev\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -62956,6 +65634,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 381350,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Mum Ayaklığı\" Yüksek Kare Masa",
+    "Description": "\"Mum Ayaklığı\" Yüksek Kare Masa yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 381401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63105,6 +65794,17 @@
     "Name": "Donuk Ay Taş Yatağı: Ferah ve Serin",
     "Description": "Donuk Ay Taş Yatağı: Ferah ve Serin yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381415,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Tatlı, Kaygısız Uyku\"",
+    "Description": "\"Tatlı, Kaygısız Uyku\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -63578,6 +66278,28 @@
     "Name": "Çay Saati Sandalyesi: Kızıl ve Altın",
     "Description": "\"Çay Saati Sandalyesi: Kızıl ve Altın\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382136,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Karlı Bir Gecenin Sessiz İsyanı\"",
+    "Description": "\"Karlı Bir Gecenin Sessiz İsyanı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382137,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İç Mekan Koltuğu: \"Çakışan Renkler\"",
+    "Description": "İç Mekan Koltuğu: \"Çakışan Renkler\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -64584,6 +67306,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 382325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İç Mekan Halısı: \"Buzun Altındaki Ayaz Çiçeği\"",
+    "Description": "İç Mekan Halısı: \"Buzun Altındaki Ayaz Çiçeği\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382326,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İç Mekan Halısı: \"Sıcaklık\"",
+    "Description": "İç Mekan Halısı: \"Sıcaklık\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 382401,
     "RankLevel": 2,
     "ItemType": 2,
@@ -64645,6 +67389,17 @@
     "Name": "Güçlü Savaş Narası",
     "Description": "\"Güçlü Savaş Narası\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382408,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Uzun Şapkalı Nöbetçi\"",
+    "Description": "\"Uzun Şapkalı Nöbetçi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -64843,6 +67598,28 @@
     "Name": "Kıvrımlı Mantar",
     "Description": "\"Kıvrımlı Mantar\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Kimin İçin Parlıyor\"",
+    "Description": "\"Kimin İçin Parlıyor\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "İç Mekan Masa Lambası: \"Yumuşak Işık\"",
+    "Description": "İç Mekan Masa Lambası: \"Yumuşak Işık\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65464,6 +68241,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383399,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Döne Döne Giden Küçük Balıklar\"",
+    "Description": "\"Döne Döne Giden Küçük Balıklar\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383400,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Rüzgarı ve Karları Aşan\"",
+    "Description": "\"Rüzgarı ve Karları Aşan\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -65640,6 +68439,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383441,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Çay Vakti Adabı\"",
+    "Description": "\"Çay Vakti Adabı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Dengeli Dallar\"",
+    "Description": "\"Dengeli Dallar\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383443,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Rüyalarda Hep Var Olan Yoldaş\"",
+    "Description": "\"Rüyalarda Hep Var Olan Yoldaş\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383501,
     "RankLevel": 3,
     "ItemType": 2,
@@ -65756,6 +68588,28 @@
     "Name": "Dekoratif Saksı Bitkisi: \"Tomurcuklanan Koku\"",
     "Description": "Dekoratif Saksı Bitkisi: \"Tomurcuklanan Koku\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383513,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Vazoda Buket: \"Zarif Karadiken\"",
+    "Description": "Vazoda Buket: \"Zarif Karadiken\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383514,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Dekoratif Çiçek Tarhı: \"Parlak Çiçekler\"",
+    "Description": "Dekoratif Çiçek Tarhı: \"Parlak Çiçekler\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -66196,6 +69050,28 @@
     "Name": "Ölümsüz An",
     "Description": "Ölümsüz An yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384524,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Altın Kış\"",
+    "Description": "\"Altın Kış\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384525,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Aşkın Peşinde\"",
+    "Description": "\"Aşkın Peşinde\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -69187,6 +72063,83 @@
     "ItemType": 2,
     "Name": "Üs Sütunu: Evrensel İşaret Feneri",
     "Description": "Üs Sütunu: Evrensel İşaret Feneri yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391050,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Büyük Çıkrıklı ve Akslı Vinç",
+    "Description": "\"Büyük Çıkrıklı ve Akslı Vinç\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391051,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "Kasaba Evi: \"Rahat Sıcaklık\"",
+    "Description": "Kasaba Evi: \"Rahat Sıcaklık\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391052,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Yuvarlak Kar Topu\"",
+    "Description": "\"Yuvarlak Kar Topu\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391053,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Bekleme Platformu: \"Sessiz Bekleyiş\"",
+    "Description": "Bekleme Platformu: \"Sessiz Bekleyiş\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya Evi: \"Sıcak Tonlu Revak\"",
+    "Description": "Snezhnaya Evi: \"Sıcak Tonlu Revak\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Yuvarlak Soğan\"",
+    "Description": "\"Yuvarlak Soğan\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Snezhnaya Evi: \"Zarif Oymalar\"",
+    "Description": "Snezhnaya Evi: \"Zarif Oymalar\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -73659,6 +76612,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 393942,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "\"Anın Kıymetini Bil\"",
+    "Description": "\"Anın Kıymetini Bil\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393943,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Erimemiş Bir Ev\"",
+    "Description": "\"Erimemiş Bir Ev\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393944,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Kocaman Aç!\"",
+    "Description": "\"Kocaman Aç!\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394101,
     "RankLevel": 2,
     "ItemType": 2,
@@ -74242,6 +77228,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "İstasyon Bankı: \"Trenler Arası Okuma\"",
+    "Description": "İstasyon Bankı: \"Trenler Arası Okuma\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394225,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Bekleyişin Sonsuz Sıcaklığı\"",
+    "Description": "\"Bekleyişin Sonsuz Sıcaklığı\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394301,
     "RankLevel": 3,
     "ItemType": 2,
@@ -74577,6 +77585,17 @@
     "ItemType": 2,
     "Name": "\"Sıcak ve Rahat\"",
     "Description": "\"Sıcak ve Rahat\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394334,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"İşe Yaramaz Tavsiye\"",
+    "Description": "\"İşe Yaramaz Tavsiye\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -75254,6 +78273,72 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394661,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Basit Taşıma Kızağı",
+    "Description": "Basit Taşıma Kızağı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394662,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "Basit Çadır: \"Kar Altında Şekerleme\"",
+    "Description": "Basit Çadır: \"Kar Altında Şekerleme\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "\"Sert Buz Kadar Sağlam\"",
+    "Description": "\"Sert Buz Kadar Sağlam\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Taşınabilir Küçük Isıtıcı",
+    "Description": "Taşınabilir Küçük Isıtıcı yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394665,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Saf Buz Cevheri: \"Özenle Dizilmiş\"",
+    "Description": "Saf Buz Cevheri: \"Özenle Dizilmiş\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394666,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "Küçük \"Gösterge Paneli\" Kontrol Konsolu",
+    "Description": "Küçük \"Gösterge Paneli\" Kontrol Konsolu yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394800,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75392,6 +78477,17 @@
     "Name": "Gümüşi Işıltılı Ay Elçisi",
     "Description": "\"Gümüşi Işıltılı Ay Elçisi\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
     "TypeDescription": "Dekorasyon Taslağı",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394847,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "\"Gümüş Beyazı Kanatların Altında Dans\"",
+    "Description": "\"Gümüş Beyazı Kanatların Altında Dans\" yapımını adım adım anlatan detaylı bir taslak.\nEşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin.",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   }
 ]

@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Ay Çiyi Çağlayanı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nMehtap Gelgitleri çağırarak <color=#80C0FFFF>Su Hasarı</color> veren en fazla 3 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nKısa bir süre kullanıldıktan sonra belirli miktarda Dayanıklılık harcayarak <color=#80C0FFFF>Su Alan Hasarı</color> verir.\nEğer en az 1 {LINK#N11190008}<color=#FFD780FF>Taze Çiye</color>{/LINK} sahipsen Columbina'nın Yüklü Saldırısı değişerek özel Yüklü Saldırı <color=#FFD780FF>Ay Çiyi Arınması</color> olur. Bu özel Yüklü Saldırı Dayanıklılık harcamaz, 1 Taze Çiy tüketerek önündeki düşmanlara 3 defa <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Bu Hasar Ay Çiçeklenmesi Hasarı sayılır.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nYere doğru atılır ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <color=#80C0FFFF>Su Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Ebedi Metcezir",
         "Description": "Aya Bağlı Metcezirleri uyandırarak <color=#80C0FFFF>Su Alan Hasarı</color> verir ve bir {LINK#N11250001}<color=#FFD780FF>Yer Çekimi Dalgası</color>{/LINK} çağırır.\n<color=#FFD780FF>Yer Çekimi Dalgası</color>, alandaki aktif karakteri takip eder ve etrafındaki düşmanlara sürekli <color=#80C0FFFF>Su Alan Hasarı</color> verir. <color=#FFD780FF>Yer Çekimi Dalgası</color> alandayken yakındaki grup üyeleri Ay Tepkimelerini tetiklerse veya Ay Tepkimesi Hasarı verirse Columbina özel bir <color=#FFD780FF>Yer Çekimi</color> biriktirir. Yer Çekimi sınıra ulaştığında Columbina için en çok <color=#FFD780FF>Yer Çekimi</color> biriktiren Ay Tepkimesi türüne göre düşmanlara farklı türde hasarlar verilir.\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: <color=#FFD780FF>Yer Çekimi Dalgası</color> daha geniş bir alanda <color=#80C0FFFF>Su Alan Hasarı</color> verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Mehtap Melankolisi",
       "Description": "Tepeler ve dalgalar, yeni ayın gümüş ışığı altında birleşir. Çevredeki araziyi geçici olarak {LINK#N11250002}<color=#FFD780FF>Ay Alanına</color>{/LINK} dönüştürür ve <color=#80C0FFFF>Su Alan Hasarı</color> verir.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Ayın Delirten Çağrısı",
         "Description": "{LINK#N11250001}<color=#FFD780FF>Yer Çekimi Müdahalesi</color>{/LINK} tetiklendiğinde Columbina, Delilik etkisi kazanır ve 10 saniyeliğine Kritik Oranını %5 artırır. Bu etki 3 kademeye kadar birikebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "Yeni Ayın Kanunu",
         "Description": "{LINK#N11250002}<color=#FFD780FF>Ay Alanı</color>{/LINK} içindeki karakterler Ay Tepkimeleri tetiklediğinde sırasıyla şu etkileri kazanırlar:\n·<color=#FFD780FF>Ay Yüklü</color>: Şimşek Bulutu geçerli bir hedefe yıldırım darbeleri gönderdiğinde %33 ihtimalle ilave bir yıldırım darbesi daha gönderir.\n·<color=#FFD780FF>Ay Çiçeklenmesi</color>: Ay Çiçeklenmesi tepkimeleri tetiklendiğinde grup, özel bir <color=#FFD780FF>{LINK#N11250003}Ay Sırtı Çiyi{/LINK}</color> kazanır. Her 18 saniyede bir en fazla 3 Ay Sırtı Çiyi kazanılabilir.\n·<color=#FFD780FF>Ay Kristalleşmesi</color>: Ay Akıntısı Ahengi tetiklendiğinde her Ay Akıntısı %33 ihtimalle fazladan bir saldırı daha yapar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Ay Sembolü Kutsaması: Ödünç Verilen Ay Işığı",
         "Description": "Bir grup üyesi Elektrik Yüklü, Çiçeklenme veya Su Kristalleşmesi tepkimesi tetiklediğinde bu tepkime sırasıyla Ay Yüklü, Ay Çiçeklenmesi veya Ay Kristalleşmesi tepkimesine dönüşür. Grup üyeleri tarafından verilen Ay Tepkimesi Hasarı, Columbina'nın Maks. Can değerine göre bir Temel Hasar artışı kazanır. Her 1.000 Maks. Can başına Ay Tepkimelerinin Temel Hasarı %0,2 artar. Bu artış en fazla %7 olabilir.\n\nAyrıca Columbina gruptayken grubun <color=#FFD780FF>Ay Sembolü</color> 1 seviye artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Ay Nöbeti",
-        "Description": "Nod-Krai bölgesindeyken bir grup üyesi saf dışı kaldığında Columbina o karakteri diriltir. Karakterin dirildiğinde sahip olacağı Can miktarı, Columbina'nın Arkadaşlık Seviyesine bağlıdır. Bu etki her 100 saniyede bir gerçekleşebilir. Bu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenemez.\nAyrıca Columbina'nın Kuuvahkiden etkilenen hayvanlara karşı özel bir yakınlığı vardır...",
+        "Description": "Nod-Krai veya Donuk Ay bölgelerindeyken bir grup üyesi saf dışı kaldığında Columbina o karakteri diriltir. Karakterin dirildiğinde sahip olacağı Can miktarı, Columbina'nın Arkadaşlık Seviyesine bağlıdır. Bu etki her 100 saniyede bir gerçekleşebilir. Bu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenemez.\nAyrıca Columbina'nın Kuuvahkiden etkilenen hayvanlara karşı özel bir yakınlığı vardır...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

@@ -309,6 +309,7 @@
         "Id": 10301,
         "Name": "Mưa Đá",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần đánh liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, lao nhanh về phía trước, ném thương đá trên đường đi và điểm cuối.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường, đồng thời gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10302,
         "Name": "Tâm Trái Đất",
         "Description": "Trong rặng núi, trên mặt đất, giữa những tảng đá đều chất chứa sức mạnh của nham. Nhưng rất ít người có thể điều khiển được sức mạnh này.\n\n<color=#FFD780FF>Nhấn</color>\nRa lệnh cho các nguyên tố Nham trên mặt đất tụ hợp lại, kết thành vách đá.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nLệnh cho nguyên tố Nham xung quanh phát nổ, gây hiệu quả như sau:\n·Nếu số lượng vách đá chưa đạt giới hạn, thì sẽ tạo ra vách đá;\n·Tạo ra Khiên Ngọc, lượng hấp thu sát thương phụ thuộc vào giới hạn HP của Zhongli;\n·Gây <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color>;\n·Nếu bên cạnh có mục tiêu <color=#FFE699FF>Nguyên Tố Nham</color>, sẽ tiêu hao lượng lớn <color=#FFE699FF>Nguyên Tố Nham</color> của tối đa 2 mục tiêu. Hiệu quả này sẽ không gây sát thương.\n\n<color=#FFD780FF>Vách Đá</color>\nKhi tạo vách đá sẽ gây <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color>.\nNgoài ra, trong thời gian vách đá tồn tại, thỉnh thoảng sẽ tạo thành cộng hưởng với <color=#FFE699FF>tạo vật Nguyên Tố Nham</color> khác ở xung quanh, gây <color=#FFE699FF>sát thương Nguyên Tố Nham</color> cho kẻ địch xung quanh.\nVách đá được xem là <color=#FFE699FF>tạo vật Nguyên Tố Nham</color>, có thể ngăn chặn tấn công, có thể leo trèo.\nBan đầu chỉ được tồn tại đồng thời 1 vách đá duy nhất do Zhongli tạo ra.\n\n<color=#FFD780FF>Khiên Ngọc</color>\nCó hiệu quả hấp thu 150% tất cả sát thương nguyên tố và sát thương vật lý.\nNhân vật đang được Khiên Ngọc bảo vệ, sẽ khiến cho kẻ địch trong phạm vi nhỏ bị giảm 20% tất cả kháng nguyên tố và kháng vật lý, hiệu quả này không được cộng dồn.\n\n<i>Đá kiên cố có thể đánh ngọc khắc vàng.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zhongli_01"
       }
     ],
@@ -709,6 +711,7 @@
       "Id": 10303,
       "Name": "Thiên Tinh",
       "Description": "Thiên thạch cực lớn rơi xuống, gây <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> cực lớn cho kẻ địch trong phạm vi rơi, và khiến địch <color=#FFE699FF>Hóa Thạch</color>.\n\n<color=#FFD780FF>Hóa Thạch</color>\nKẻ địch trong trạng thái <color=#FFE699FF>Hóa Thạch</color> không thể chuyển động.\n\n<i>Dùng ngôi sao trên cao soi sáng cho người đang mê muội.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zhongli_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 302101,
         "Name": "Huyền Nham Thần Đoạn",
         "Description": "Khi Khiên Ngọc chịu sát thương sẽ tạo ra hiệu quả kiên cố:\n·Nhân vật khi đang được Khiên Ngọc bảo vệ, hiệu quả khiên +5%.\n·Hiệu quả này tối đa cộng dồn 5 lần, duy trì đến khi Khiên Ngọc mất đi.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 302201,
         "Name": "Xuy Kim Soạn Ngọc",
         "Description": "Sát thương gây ra bởi những đòn tấn công dưới đây của Zhongli sẽ tăng tùy theo giới hạn HP:\n·Lượng tăng sát thương của tấn công thường, trọng kích và tấn công khi đáp: 1.39% giới hạn HP\n·Lượng tăng sát thương của nhấn giữ, sát thương cộng hưởng và Vách Đá của <color=#FFD780FF>Tâm Trái Đất</color>: 1.9% giới hạn HP\n·Lượng tăng sát thương của <color=#FFD780FF>Thiên Tinh</color>: 33% giới hạn HP",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 302301,
         "Name": "Mệnh Lý Tinh Thạch",
         "Description": "Khi rèn vũ khí cán dài, hoàn trả 15% Khoáng Thạch tiêu hao.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Forge_Pole"
       }
     ],

@@ -292,6 +292,7 @@
         "Id": 11231,
         "Name": "Flammenflügel-Hieb",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Hieb nach vorne aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -490,6 +491,7 @@
         "Id": 11232,
         "Name": "Zweifach – Spannung und Schmelzung",
         "Description": "#Reinigt Seele und Wünsche und unterzieht sie einer {LINK#N11230001}<color=#FFD780FF>Essenzumwandlung</color>{/LINK}. Ersetzt währenddessen Durins Elementarfähigkeit <color=#FFD780FF>Zweifach – Spannung und Schmelzung</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Umwandlung – Bestätigung der Helligkeit</color> und den Standardangriff <color=#FFD780FF>Flammenflügel-Hieb</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Umwandlung – Leugnung der Dunkelheit</color>.\n\n<color=#FFD780FF>Umwandlung – Bestätigung der Helligkeit</color>\nFügt Gegnern in der Nähe einmal <color=#FF9999FF>Pyro-Flächenschaden</color> zu, beendet die Essenzumwandlung und tritt in den Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> ein, hält 30{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Umwandlung – Leugnung der Dunkelheit</color>\nFügt den Gegnern vor sich dreimal hintereinander <color=#FF9999FF>Pyro-Schaden</color> zu, beendet die Essenzumwandlung und tritt in den Zustand <color=#FFD780FF>Leugnung der Dunkelheit</color> ein, hält 30{NON_BREAK_SPACE}s.\n\nStellt Durin im Kampf, wenn dieser in den Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> oder <color=#FFD780FF>Leugnung der Dunkelheit</color> eintritt, eine bestimmte Menge Elementarenergie wieder her, 6{NON_BREAK_SPACE}s Abklingzeit.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Durin_01"
       }
     ],
@@ -512,6 +514,7 @@
         "Id": 1235101,
         "Name": "Geschenk der Hexennacht – Hymne der Erhabenheit",
         "Description": "#Wandelt Durin nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von dieser Welt</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nVerstärkt alle Effekte des Aufstiegstalents {LINK#P1232101}<color=#FFD780FF>Erscheinen des Lichtgeistes</color>{/LINK} außer der Wirkungsdauer um 75{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_03"
       }
     ],
@@ -805,6 +808,7 @@
       "Id": 11235,
       "Name": "Prinzip der Helligkeit – Fluss des Lichts",
       "Description": "Setzt auf unterschiedliche Art und Weise die Kraft der „Bestie“ frei. Abhängig vom Zustand seiner {LINK#N11230001}<color=#FFD780FF>Essenzumwandlung</color>{/LINK} kann Durin unterschiedliche Spezialfähigkeiten anwenden.\n\n<color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color>\nWendet, wenn Durin sich im Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color> an, die Gegnern vorne dreimal <color=#FF9999FF>Pyro-Flächenschaden</color> zufügt und die eigene Kraft als <color=#FFD780FF>Drache der weißen Flammen</color> manifestiert. Der „Drache der weißen Flammen“ folgt der aktuellen Figur, greift Gegner in der Umgebung in bestimmten Abständen an und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>. Hierdurch verursachter Schaden gilt als Spezialfähigkeits-SCH.\n\n<color=#FFD780FF>Prinzip der Dunkelheit – Sternen-Schwelbrand</color>\nWendet, wenn Durin sich im Zustand <color=#FFD780FF>Leugnung der Dunkelheit</color> befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Dunkelheit – Sternen-Schwelbrand</color> an, die Gegnern vorne dreimal <color=#FF9999FF>Pyro-Flächenschaden</color> zufügt und die eigene Kraft als <color=#FFD780FF>Drache des dunklen Verfalls</color> manifestiert. Der „Drache des dunklen Verfalls“ folgt der aktuellen Figur, greift einen Gegner in der Umgebung in bestimmten Abständen an und verursacht <color=#FF9999FF>Pyro-SCH</color>. Hierdurch verursachter Schaden gilt als Spezialfähigkeits-SCH.\n\nWendet, wenn Durin sich nicht im besonderen Zustand Essenzumwandlung befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color> an.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Durin_01"
     },
     "Inherents": [
@@ -829,6 +833,7 @@
         "Id": 1232101,
         "Name": "Erscheinen des Lichtgeistes",
         "Description": "#Generiert, abhängig von der manifestierten Form der Kraft von Durins Spezialfähigkeit, unterschiedliche Verstärkungseffekte:\n\n<color=#FFD780FF>Drache der weißen Flammen</color>\nVerringert, nachdem Truppenmitglieder in der Nähe die Reaktionen „In Flammen“, „Überladen“, „Pyro-Verwirbelung“ oder „Pyro-Kristallisation“ an Gegnern ausgelöst haben, oder wenn sie Gegnern in Flammen <color=#FF9999FF>Pyro-Schaden</color> oder <color=#99FF88FF>Dendro-Schaden</color> zufügen, den <color=#FF9999FF>Pyro-WDS</color> der Gegner und ihren WDS gegen das andere Element der jeweiligen Reaktion um 20{NON_BREAK_SPACE}%, hält 6{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Drache des dunklen Verfalls</color>\nErhöht den Schaden der durch Durin ausgelösten Reaktionen „Verdampfen“ und „Schmelzen“ um 40{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_01"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 1232201,
         "Name": "Chaos wie die Nacht",
         "Description": "#Gewährt Durin innerhalb von 20{NON_BREAK_SPACE}s nach Anwenden seiner Spezialfähigkeit den Effekt „Schmelzende Urform“: Durin erhält während der Wirkungsdauer 10 Stapelungen der „Urform“. Wenn der <color=#FFD780FF>Drache der weißen Flammen</color> oder der <color=#FFD780FF>Drache des dunklen Verfalls</color> mit ihren periodischen Angriffen Schaden verursacht, wird eine Stapelung der „Urform“ verbraucht, um den verursachten Schaden zu erhöhen: Für je 100 Punkte ANG wird zusätzlich Schaden in Höhe von 3{NON_BREAK_SPACE}% des ursprünglichen Schadens verursacht, maximal zusätzlich 75{NON_BREAK_SPACE}% des ursprünglichen Schadens. Wenn ein Angriff des <color=#FFD780FF>Drachen der weißen Flammen</color> oder des <color=#FFD780FF>Drachen des dunklen Verfalls</color> gleichzeitig mehrere Gegner trifft, wird nur eine Stapelung der „Urform“ verbraucht.\nBeim erneuten Anwenden der Spezialfähigkeit werden die Stapelungen der „Urform“ zurückgesetzt.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_02"
       },
       {
@@ -869,6 +875,7 @@
         "Id": 1232301,
         "Name": "Echo der Erde",
         "Description": "#Bringt bei 20-stündigen Erkundungsentsendungen in Mondstadt 25{NON_BREAK_SPACE}% mehr Belohnungen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Durin_07"
       }
     ],

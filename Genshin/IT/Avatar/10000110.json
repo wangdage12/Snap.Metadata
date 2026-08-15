@@ -277,6 +277,7 @@
         "Id": 11101,
         "Name": "Spuntone pesante",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.\n\n<color=#FFD780FF>Stato di Anima della Notte: Tempesta scattante</color>\nMentre è nello stato di Grazia dell'Anima della Notte, l'attacco caricato di Iansan si trasforma in una formidabile Tempesta scattante, durante la quale consuma una determinata quantità di vigore per eseguire una violenta pestata sul terreno, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color> con attributo Anima della Notte.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -429,6 +430,7 @@
         "Id": 11102,
         "Name": "Carica fulminea",
         "Description": "#Iansan si lancia in avanti per una certa distanza, infliggendo <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte a tutti gli avversari sul suo percorso.\nDopo aver usato questa abilità, Iansan recupera 54 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte. Entro 5{NON_BREAK_SPACE}s da quest'azione, se Iansan usa un attacco normale, esegue una pestata Tempesta scattante rapida che non consuma vigore.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Iansan</color>\nConsuma costantemente punti Anima della Notte. Lo stato termina quando tutti i punti si esauriscono o se l'abilità viene usata di nuovo. Questo stato ha le seguenti proprietà:\n· la VEL di movimento di Iansan aumenta;\n· la pressione prolungata dello Scatto permette a Iansan di passare alla modalità Assalto fulmineo, aumentando notevolmente la sua VEL di movimento per alcuni istanti. In questa modalità, Iansan può sfruttare il terreno per compiere dei lunghi salti in avanti o consumare punti Anima della Notte aggiuntivi per muoversi sull'acqua e sul Flogisto liquido senza subire DAN.\n\n<i>\"Essere più veloce e più forte! È per questo che mi alleno!\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Iansan_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 11105,
       "Name": "I tre princìpi della potenza",
       "Description": "#Grazie alla \"potenza\" della sua pestata, Iansan distrugge la terra sotto i suoi piedi infliggendo <color=#FFACFFFF>DAN da Electro ad area</color> con attributo Anima della Notte. Dopodiché, estrae il suo \"Misuratore di Energia cinetica in edizione limitata (per gli allenamenti)\".\nQuando usa il Tripudio, Iansan ottiene 15 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\nQuando il Misuratore di Energia cinetica lascia il campo, lo stato di Grazia dell'Anima della Notte di Iansan termina.\n\n<color=#FFD780FF>Misuratore di Energia cinetica</color>\nSegue il personaggio attivo, conferendogli un bonus ATT in modi diversi in base ai punti Anima della Notte di Iansan.\n· Se Iansan possiede meno di 42 punti Anima della Notte, il bonus ATT conferito si basa sui punti Anima della Notte e sull'ATT di Iansan.\n· Se Iansan possiede almeno 42 punti Anima della Notte, il Misuratore di Energia cinetica entra nello stato di \"Supporto ardente!\", durante il quale il bonus ATT conferito è ancora più alto, e si basa interamente sull'ATT di Iansan.\nInoltre, finché rimane attivo, il Misuratore registra la distanza percorsa dal personaggio attivo (esclusa Iansan), e ripristina i punti Anima della Notte di Iansan ogni secondo in base alla distanza percorsa nel secondo precedente.\nIl Misuratore scompare al termine dello stato di Grazia dell'Anima della Notte di Iansan o dopo 1{NON_BREAK_SPACE}s quando ci si trova fuori da un combattimento. Finché è attivo, la Grazia dell'Anima della Notte di Iansan non termina anche se quest'ultima non si trova in campo.\n\n<i>\"La potenza non è una questione di talento naturale, ma di pratica costante. E deve essere allenata nel modo corretto.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Iansan_01"
     },
     "Inherents": [
@@ -687,6 +690,7 @@
         "Id": 1102101,
         "Name": "Allenamento di resistenza migliorato",
         "Description": "#Quando Tempesta scattante colpisce gli avversari, Iansan ottiene l'effetto \"Movimento preciso\" per 15{NON_BREAK_SPACE}s.\nMentre l'effetto è attivo, l'ATT di Iansan aumenta di un 20%, e ogni volta che recupera punti Anima della Notte tramite il Misuratore di Energia cinetica del suo Tripudio elementale, <color=#FFD780FF>I tre princìpi della potenza</color>, Iansan ottiene 1 punto Anima della Notte aggiuntivo. Inoltre, quando il membro attivo del tuo gruppo consuma o ripristina punti Anima della Notte, i punti Anima della Notte aggiuntivi ottenuti da Iansan salgono a 4 durante la successiva iterazione di ripristino del Misuratore di Energia cinetica. Quest'effetto può verificarsi una volta ogni 2,8{NON_BREAK_SPACE}s.\n\"Movimento preciso\" cessa quando lo stato di Grazia dell'Anima della Notte di Iansan termina.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_05"
       },
       {
@@ -709,6 +713,7 @@
         "Id": 1102201,
         "Name": "Test di pendenza a Energia cinetica",
         "Description": "#Quando un membro del gruppo vicino innesca un Impeto dell'Anima della Notte, Iansan ottiene l'effetto Riscaldamento per 10{NON_BREAK_SPACE}s.\nMentre l'effetto è attivo, quando Iansan recupera almeno 1 punto Anima della Notte, i PS del personaggio attivo vengono ripristinati in base a un 60% dell'ATT di Iansan. Quest'effetto può attivarsi una volta ogni 2,8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_06"
       },
       {
@@ -727,6 +732,7 @@
         "Id": 1102301,
         "Name": "Dono del Reame notturno: Impegno e motivazione",
         "Description": "#Dopo aver esaurito completamente i punti Anima della Notte e se è in campo, Iansan consuma il Flogisto per continuare a usare la Grazia dell'Anima della Notte.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Iansan. Quando il personaggio attivo sta eseguendo uno Scatto o compiendo un movimento causato da determinati talenti, oppure è sospeso in aria a una certa altezza, passare il controllo a Iansan innesca il seguente effetto: Iansan entra nello stato di Grazia dell'Anima della Notte e ottiene 25 punti Anima della Notte. Trasmissione dell'Anima della Notte può attivarsi una volta ogni 10{NON_BREAK_SPACE}s all'interno del proprio gruppo.\nSe si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, quando Iansan sfrutta i dislivelli del terreno per saltare, non subisce DAN da caduta.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varesa_07"
       },
       {
@@ -749,6 +755,7 @@
         "Id": 1102501,
         "Name": "Piano di bilanciamento calorico",
         "Description": "#Se Iansan si trova in un'area di Natlan dove sono presenti Meccanismi flogistici, si ripristinano 10 punti Flogisto quando il livello di Flogisto scende al di sotto del 50%. Quest'effetto può verificarsi una sola volta ogni 10{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Iansan_08"
       }
     ],

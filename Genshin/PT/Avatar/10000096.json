@@ -371,6 +371,7 @@
         "Id": 10961,
         "Name": "Convite para Decapitação",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina, avançando contra os inimigos em frente e os atacando uma vez.\nQuando você mantiver pressionado, Arlecchino se moverá rapidamente, consumindo Stamina. Esse movimento durará até 5s.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha no ar para atacar no chão, causando Dano contra os oponentes no caminho e causando Dano em AdE ao atingir o chão.\n\n<color=#FFD780FF>Máscara Vermelha da Morte</color>\nQuando Arlecchino tem um Contrato de Vida igual ou maior que 30% de sua Vida Máxima, o Dano do Ataque Normal, Carregado e Imersivo de Arlecchino é convertido para <color=#FF9999FF>Dano Pyro</color> que não pode ser substituído.\nQuando estiver no estado \"Máscara Vermelha da Morte\", e quando os Ataques Normais de Arlecchino atingirem um oponente, esse Ataque causará Dano adicional baseado no ATQ multiplicado por uma certa porcentagem do Contrato de Vida atual. Isso consumirá 7.5% desse Contrato de Vida. Um Contrato de Vida pode ser consumido dessa forma uma vez a cada 0.03s. Quando o Contrato de Vida é consumido dessa forma, reduz a recarga da Habilidade Elemental \"Tudo são Cinzas\" em 0.8s.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -584,6 +585,7 @@
         "Id": 10962,
         "Name": "Tudo são Cinzas",
         "Description": "Invoca a Lua de Sangue, causando <color=#FF9999FF>Dano Pyro</color> contra vários inimigos próximos, fazendo um golpe contra um deles que causa <color=#FF9999FF>Dano Pyro em AdE</color>.\nInimigos atingidos por esse ataque serão marcados com o Comando da Dívida de Sangue.\n\n<color=#FFD780FF>Comando da Dívida de Sangue</color>\n· Dura 30s. A cada 5s, causa 1 instância de <color=#FF9999FF>Dano Pyro</color> contra o oponente. Máximo de 2 instâncias. Esse Dano é considerado Dano de Habilidade Elemental\n· Quando Arlecchino usa um Ataque Carregado ou lança seu Supremo \"Ascensão da Lua Ominosa\", absorve e elimina os Comandos das Dívidas de Sangue que aplicou. Cada Comando absorvido a dá um Contrato de Vida equivalente a 65% de sua Vida Máxima.\n· Ela pode ganhar um Contrato de Vida equivalente a 145% de sua Vida Máxima dentro nos 35s após usar sua Habilidade Elemental. Lançar a Habilidade Elemental novamente durante esse período redefinirá a contagem da duração e o limite do Contrato de Vida que ganha de Comando da Dívida de Sangue.\n\n<i>Da forma que ela vê, não é todo grão de trigo que cai na terra que vai crescer, enquanto aqueles que ficam em seu caminho, quando queimados em chamas, podem ser usados novamente para nutrir as flores.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Arlecchino_01"
       }
     ],
@@ -783,6 +785,7 @@
       "Id": 10965,
       "Name": "Ascensão da Lua Ominosa",
       "Description": "Arlecchino bate as asas da Lua de Sangue, absorvendo e eliminando os Comandos da Dívida de Sangue ao seu redor, causando <color=#FF9999FF>Dano Pyro em AdE</color>, depois disso remove a recarga da Habilidade Elemental \"Tudo são Cinzas\" e regenera a própria Vida. A quantidade regenerada é baseada no valor do Contrato de Vida e no ATQ.\n\n<i>É comum se acreditar em Teyvat que as fases da lua são metáforas de presságios, usadas por àqueles que praticam a alquimia e astrologia.\nEla viu a lua carmesim muitas vezes em seus sonhos. Eram presságios de desastres? Sim, mas as catástrofes previstas eram daqueles que a haviam enfurecido.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Arlecchino_01"
     },
     "Inherents": [
@@ -806,6 +809,7 @@
         "Id": 962101,
         "Name": "Somente a Dor pode ser Compensada",
         "Description": "<color=#FFD780FF>Comando da Dívida de Sangue</color> tem as seguintes características:\n· Quando um oponente afetado por Comando da Dívida de Sangue de Arlecchino é derrotado, será concedido a ela um Contrato de Vida equivalente a 130% de sua Vida Máxima.\n· 5s depois de um Comando da Dívida de Sangue ser aplicado, ele será elevado à Comando da Dívida de Sangue: Pagamento. Ao ser absorvido, fornecerá para Arlecchino um Contrato de Vida equivalente a 130% da sua Vida Máxima.\nUm Contrato de Vida criado dessa forma não pode ultrapassar o limite original do valor do Contrato de Vida obtido através de <color=#FFD780FF>Tudo são Cinzas</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 962201,
         "Name": "Somente a Força Defende",
         "Description": "Arlecchino ganha 1% de RES contra Todos os Elementos e RES Física para cada 100 pontos de ATQ que possui acima de 1.000. O aumento máximo de RES que Arlecchino pode obter dessa forma para a RES contra Todos Elementos e RES Física é de 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_06"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 962301,
         "Name": "Somente a Lua Ominosa Sabe",
         "Description": "Enquanto em combate, Arlecchino ganha 40% de <color=#FF9999FF>Bônus de Dano Pyro</color> e somente pode ser curada através de <color=#FFD780FF>Ascensão da Lua Ominosa</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_07"
       }
     ],
@@ -1051,7 +1057,7 @@
         "Context": "O Galo não gosta de mim, e o sentimento é mútuo. Ele é um prefeito aceitável, eu acho... talvez até um excepcional. Ele possui uma habilidade incrível de conseguir muitos ganhos a um preço baixo, o que deu a ele aclamação substancial em seus círculos políticos. Não importa quão \"pequeno\" seja o preço, se continuar a ver às custas da minha organização, cedo ou tarde... Hunf."
       },
       {
-        "Title": "Sobre Sandrone...",
+        "Title": "Sobre Marionette - Pesquisas",
         "Context": "Tenho pouco interesse nela. Ela é extremamente... apaixonada por sua pesquisa e não aparece em público com frequência. Na verdade, muitos de nossos oficiais jamais a viram. Comparado a, digamos, alguém que até criaria segmentos de si para vagar melhor pela terra, acho que você poderia dizer que ela está no outro extremo do espectro."
       },
       {

@@ -325,6 +325,7 @@
         "Id": 10241,
         "Name": "Conquête des mers",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10242,
         "Name": "Invocation des marées",
         "Description": "N'ayez crainte. Que quelqu'un ose s'en prendre à Beidou ou aux siens, et sa lame et le tonnerre lui feront payer au centuple.\n\n<color=#FFD780FF>Appui simple</color>\nBeidou concentre le pouvoir de la foudre sur son épée, et exécute un coup violent qui inflige aux ennemis en face des <color=#FFACFFFF>DGT Électro</color>.\n\n<color=#FFD780FF>Appui long</color>\nBeidou brandit son arme, qu'elle utilise comme bouclier. La quantité de DGT absorbés est proportionnelle aux PV max de Beidou.\nLorsque vous relâchez la compétence ou que celle-ci prend fin, Beidou brandit sa longue épée et effectue une contre-attaque libérant toute l'énergie accumulée, infligeant des <color=#FFACFFFF>DGT Électro</color>.\nLes DGT infligés augmentent en fonction du nombre d'attaques subies par Beidou pendant la durée de la compétence. Le bonus de DGT maximum est atteint lorsque l'effet est déclenché deux fois.\nLe bouclier a les propriétés suivantes :\n· A 250 % d'efficacité contre les <color=#FFACFFFF>DGT Électro</color>.\n· Applique l'<color=#FFACFFFF>élément Électro</color> à Beidou à l'activation.\n\n<i>À l'assaut des mers ! À la poursuite des vagues et de la tempête !</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Beidou_01"
       }
     ],
@@ -532,6 +534,7 @@
         "Id": 242401,
         "Name": "En tête d'affiche",
         "Description": "Utiliser la compétence élémentaire <color=#FFD780FF>Invocation des marées</color> avec un appui long permet d'obtenir 1 cumul de puissance toutes les 0,8 s, même hors attaque, afin d'augmenter les DGT infligés lors du déclenchement.\nDe plus, toucher un ennemi en utilisant la compétence élémentaire <color=#FFD780FF>Invocation des marées</color> avec un appui long accorde également un effet bonus supplémentaire selon la puissance cumulée : chaque cumul diminue le TdR de la compétence élémentaire de 4 s et restaure 8 pts d'énergie élémentaire à Beidou, cet effet pouvant être déclenché une fois toutes les 15 s.\nDe plus, Beidou passe en <color=#FFD780FF>radiance « Astroconduction »</color> lorsqu'elle est dans une {LINK#N11330003}<color=#FFD780FF>étendue polaris</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_08"
       }
     ],
@@ -733,6 +736,7 @@
       "Id": 10245,
       "Name": "Brisure d'orage",
       "Description": "Se remémorant son combat contre Haishan, la bête géante, Beidou fait appel à la même force destructrice, et crée un bouclier de foudre qui inflige des <color=#FFACFFFF>DGT Électro</color> aux ennemis proches.\n\n<color=#FFD780FF>Bouclier de foudre</color>\n· Les attaques normales et chargées, lorsqu'elles touchent, libèrent une décharge électrique qui se propage d'ennemi en ennemi et inflige des <color=#FFACFFFF>DGT Électro</color>.\n· Augmente la RÉS à l'interruption du personnage et diminue les DGT subis.\n\nUne décharge peut être libérée une fois toutes les secondes.\n\n<i>Le plus puissant des éclairs peut fendre mers et montagnes.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Beidou_01"
     },
     "Inherents": [
@@ -754,6 +758,7 @@
         "Id": 242101,
         "Name": "Châtiment",
         "Description": "La contre-attaque d'<color=#FFD780FF>Invocation des marées</color> inflige le maximum de DGT lorsqu'elle est exécutée juste après une attaque.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_05"
       },
       {
@@ -774,6 +779,7 @@
         "Id": 242201,
         "Name": "Tempête de coups de tonnerre",
         "Description": "<color=#FFD780FF>Invocation des marées</color> confère pendant 10 s les effets suivants lorsque cette aptitude est exécutée avec le maximum de bonus de DGT :\n· Les attaques normales et chargées infligent 15 % de DGT supplémentaires.\n· La VIT des attaques normales et chargées augmente de 15 %.\n· Diminue considérablement le temps de préparation des attaques chargées.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Beidou_06"
       },
       {
@@ -792,6 +798,7 @@
         "Id": 242301,
         "Name": "Braveuse de marée",
         "Description": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors de la nage.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Swim"
       }
     ],

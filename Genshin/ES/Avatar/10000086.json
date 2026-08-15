@@ -308,6 +308,7 @@
         "Id": 10861,
         "Name": "Combo glaciodemoledor",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nAcumula hielo en los puños para ejecutar hasta 5 potentes <color=#FFD780FF>puñetazos expeledores</color> que infligen <color=#99FFFFFF>Daño Cryo</color>.\nAdemás, al usar la Habilidad Elemental, “Envite ateridor”, o durante un breve periodo de tiempo después de esprintar, la secuencia de los Ataques Normales no se reiniciará.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para dar un salto y ejecutar un <color=#FFD780FF>gancho alto</color> que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#99FFFFFF>Daño Cryo en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -536,6 +537,7 @@
         "Id": 10862,
         "Name": "Envite ateridor",
         "Description": "#Regula la respiración y el ritmo, avanza ligeramente hacia delante y entra en el estado de “<color=#FFD780FF>sentencia gélida</color>” para ejecutar ataques más potentes.\n\n<color=#FFD780FF>Sentencia gélida</color>\n·Aumenta la RES a interrupción de Wriothesley.\n·Cuando la Vida de Wriothesley está por encima del 50%, los puñetazos expeledores de su <color=#FFD780FF>Ataque Normal: Combo glaciodemoledor</color> se fortalecen, de modo que infligen más daño y, al golpear al objetivo, Wriothesley pierde cierta cantidad de Vida. Solo podrá perder Vida una vez cada 0.1{NON_BREAK_SPACE}s de esta manera.\nEste efecto se anula cuando Wriothesley se retira del campo de batalla.\n\n<i>Las sentencias del pasado pertenecen al pasado, pero en nuestras manos está decidir el futuro.\nSi no deseas que las ofensas acaben con tu destino, será mejor que aprecies el presente.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
@@ -562,7 +564,8 @@
         },
         "Id": 865101,
         "Name": "Las injusticias siempre salen a la luz",
-        "Description": "#<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nTransforma el efecto del talento de ascensión “Refutación del dogma”:\nCuando la Vida de Wriothesley está por debajo del 60%, obtiene el efecto de “merced reprensora: manifestación”, el cual fortalece el siguiente Ataque Cargado de <color=#FFD780FF>Ataque Normal: Combo glaciodemoledor</color> para convertirlo en un gancho alto cenital que no consume Aguante y que, al golpear al enemigo, restaura Vida a Wriothesley en una cantidad equivalente al 30% de su propia Vida Máx. Como máximo, podrá restaurar Vida de esta manera una vez cada 2{NON_BREAK_SPACE}s.\nAdemás, los puñetazos expeledores tercero y quinto fortalecidos por <color=#FFD780FF>sentencia gélida</color> infligirán, respectivamente, el 60/80% del <color=#99FFFFFF>Daño Cryo</color> original, y el gancho alto cenital infligirá el 100% del <color=#99FFFFFF>Daño Cryo en el AdE</color> original. Estos se consideran daño de Superconductor Estelar, y el daño de esta reacción infligido por Wriothesley aumenta en un 30%.\nAdemás, Wriothesley entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "Description": "#<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nTransforma el efecto del talento de ascensión “Refutación del dogma”:\nCuando la Vida de Wriothesley está por debajo del 60%, obtiene el efecto de “merced reprensora: manifestación”, el cual fortalece el Ataque Cargado de <color=#FFD780FF>Ataque Normal: Combo glaciodemoledor</color> para convertirlo en un gancho alto cenital que no consume Aguante y que, al golpear al enemigo, restaura Vida a Wriothesley en una cantidad equivalente al 30% de su propia Vida Máx. Como máximo, podrá restaurar Vida de esta manera una vez cada 2{NON_BREAK_SPACE}s.\nAdemás, los puñetazos expeledores tercero y quinto fortalecidos por <color=#FFD780FF>sentencia gélida</color> infligirán, respectivamente, el 60/80% del <color=#99FFFFFF>Daño Cryo</color> original, y el gancho alto cenital infligirá el 100% del <color=#99FFFFFF>Daño Cryo en el AdE</color> original. Estos se consideran daño de Superconductor Estelar, y el daño de esta reacción infligido por Wriothesley aumenta en un 30%.\nAdemás, Wriothesley entrará en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color> mientras se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_08"
       }
     ],
@@ -748,6 +751,7 @@
       "Id": 10865,
       "Name": "Devoración aureosombría",
       "Description": "Ejecuta un puñetazo de escarcha directo y, después, crea un carámbano apisonador enfrente de sí mismo, el cual inflige varias veces <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n\n<color=#FFD780FF>Arjé: ousía</color>\nTras liberar el carámbano apisonador, en la ubicación del enemigo caerá un filo fluyente que inflige <color=#99FFFFFF>Daño Cryo</color> cargado de energía ousía.\n\n<i>Hay cosas que sacan de quicio hasta al mismísimo duque del Fuerte Merópide, como por ejemplo, la tediosa burocracia, el trabajo de vigilancia o... la insistencia de ciertas criaturas de baja estatura en pegar en los guantes de combate del duque unas calcomanías muy difíciles de despegar.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wriothesley_01"
     },
     "Inherents": [
@@ -772,6 +776,7 @@
         "Id": 862101,
         "Name": "Refutación del dogma",
         "Description": "#Cuando la Vida de Wriothesley está por debajo del 60%, obtiene el efecto de “merced reprensora”, el cual fortalece su siguiente Ataque Cargado de <color=#FFD780FF>Ataque Normal: Combo glaciodemoledor</color> para convertirlo en un gancho alto disciplinario que no consume Aguante, inflige un 50% más de daño y, al golpear al enemigo, restaura Vida a Wriothesley en una cantidad equivalente al 30% de su propia Vida Máx.\nComo máximo, el efecto de merced reprensora solo se puede obtener una vez cada 5{NON_BREAK_SPACE}s de esta forma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_05"
       },
       {
@@ -793,6 +798,7 @@
         "Id": 862201,
         "Name": "Redención del pecado",
         "Description": "Cuando la Vida de Wriothesley aumenta o disminuye, si se encuentra en el estado de sentencia gélida de <color=#FFD780FF>Envite ateridor</color>, dicho estado obtiene el efecto de “decreto punitivo”. Este puede acumularse hasta 5 veces y cada acumulación aumenta el ATQ de Wriothesley en un 6%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_06"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 862301,
         "Name": "Dádiva ducal",
         "Description": "Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],
@@ -842,7 +849,7 @@
       {
         "Id": 864,
         "Name": "Redimir a los diligentes",
-        "Description": "#La Vida que el gancho alto disciplinario restaura a Wriothesley aumenta hasta un 50% de su Vida Máx. (es necesario desbloquear el talento de ascensión “Refutación del dogma”).\nAdemás, cuando Wriothesley recibe curación, si su Vida está al máximo, obtendrá distintos efectos dependiendo de si es el personaje en uso o no al recibir dicha curación. Si estaba en uso, su Vel. de Ataque aumenta en un 20% durante 4{NON_BREAK_SPACE}s; si estaba en tu equipo pero no en uso, la Vel. de Ataque de todos tus personajes del equipo aumenta en un 10% durante 6{NON_BREAK_SPACE}s. Estos dos aumentos de Vel. de Ataque no se pueden acumular.",
+        "Description": "#La Vida que el gancho alto disciplinario restaura a Wriothesley aumenta hasta un 50% de su Vida Máx. (es necesario desbloquear el talento de ascensión “Refutación del dogma”).\nAdemás, cuando Wriothesley reciba exceso de curación, obtendrá distintos efectos dependiendo de si es el personaje en uso o no al recibir dicha curación. Si estaba en uso, su Vel. de Ataque aumenta en un 20% durante 4{NON_BREAK_SPACE}s; si estaba en tu equipo pero no en uso, la Vel. de Ataque de todos tus personajes del equipo aumenta en un 10% durante 6{NON_BREAK_SPACE}s. Estos dos aumentos de Vel. de Ataque no se pueden acumular.",
         "SpecialDescription": "#La Vida que el gancho alto disciplinario restaura a Wriothesley aumenta a un 50% de su Vida Máx. Es necesario desbloquear el talento de ascensión “Refutación del dogma”.\nAdemás, cuando Wriothesley reciba exceso de curación, obtendrá distintos efectos dependiendo de si es el personaje en uso o no al recibir dicha curación: si está en uso, su Vel. de Ataque aumentará en un 20% durante 4{NON_BREAK_SPACE}s; si está en tu equipo pero no en uso, la Vel. de Ataque de todos tus personajes del equipo aumentará en un 10% durante 6{NON_BREAK_SPACE}s. Estos dos aumentos de Vel. de Ataque no se pueden acumular.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nLos efectos anteriormente mencionados cambian a:\nEl daño que recibe Wriothesley se reduce en un 25%, y su Vel. de Ataque aumenta en un 20%; la Vel. de Ataque de los demás personajes cercanos del equipo aumenta en un 10%.",
         "Icon": "UI_Talent_S_Wriothesley_03"
       },
@@ -859,8 +866,8 @@
       {
         "Id": 866,
         "Name": "Confortar a los inocentes",
-        "Description": "La Prob. CRIT del gancho alto disciplinario aumenta en un 10%, su Daño CRIT aumenta en un 80% y crea un carámbano adicional que inflige un 100% del <color=#99FFFFFF>Daño Cryo</color> del carámbano original. El daño infligido de esta manera se considera daño de Ataque Cargado.\nEs necesario desbloquear el talento de ascensión “Refutación del dogma”.",
-        "SpecialDescription": "Aumenta en un 10% la Prob. CRIT y en un 80% el Daño CRIT del gancho alto disciplinario, y crea un carámbano adicional que inflige un 100% del <color=#99FFFFFF>Daño Cryo</color> original. El daño infligido de esta manera se considera daño de Ataque Cargado.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl efecto anterior cambia a:\n·Aumenta en un 10% la Prob. CRIT y en un 80% el Daño CRIT del puñetazo expeledor fortalecido por <color=#FFD780FF>sentencia gélida</color> y del gancho alto cenital. Además, el quinto puñetazo expeledor fortalecido por <color=#FFD780FF>sentencia gélida</color> y el gancho alto cenital pueden crear un carámbano adicional que inflige el 60% del <color=#99FFFFFF>Daño Cryo</color> original considerado como daño de Superconductor Estelar.\n\nEs necesario desbloquear el talento de ascensión “Refutación del dogma”.",
+        "Description": "La Prob. CRIT del gancho alto disciplinario aumenta en un 10%, su Daño CRIT aumenta en un 80% y crea un carámbano adicional que inflige un 100% del <color=#99FFFFFF>Daño Cryo</color> original. El daño infligido de esta manera se considera daño de Ataque Cargado.\nEs necesario desbloquear el talento de ascensión “Refutación del dogma”.",
+        "SpecialDescription": "Aumenta en un 10% la Prob. CRIT y en un 80% el Daño CRIT del gancho alto disciplinario, y crea un carámbano adicional que inflige un 100% del <color=#99FFFFFF>Daño Cryo</color> original. El daño infligido de esta manera se considera daño de Ataque Cargado.\n\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl efecto anterior cambia a:\n·Aumenta en un 10% la Prob. CRIT y en un 80% el Daño CRIT del puñetazo expeledor fortalecido por <color=#FFD780FF>sentencia gélida</color> y del gancho alto cenital. Además, el quinto puñetazo expeledor fortalecido por <color=#FFD780FF>sentencia gélida</color> y el gancho alto cenital pueden crear un carámbano adicional que inflige el 20% del <color=#99FFFFFF>Daño Cryo</color> original considerado como daño de Superconductor Estelar.\n\nEs necesario desbloquear el talento de ascensión “Refutación del dogma”.",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

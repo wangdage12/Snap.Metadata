@@ -309,6 +309,7 @@
         "Id": 10301,
         "Name": "岩雨",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n槍による最大6段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に疾行し、行動経路上と終着点に雨のような岩槍を投下する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10302,
         "Name": "地心",
         "Description": "山脈の中、大地の上、盤石の間に岩の力が宿っている。しかしこの力を自由に扱える者は少ない。\n\n<color=#FFD780FF>一回押し</color>\n大地の至るところにある岩元素を積み上げ、岩柱を生成する。\n\n<color=#FFD780FF>長押し</color>\n付近の岩元素を爆発させ、下記の効果を発動する。\n·岩柱が数の上限に達していない場合、岩柱を生成する。\n·玉璋シールドを生成する。シールドのダメージ吸収量は鍾離のHP上限によって決まる。\n·<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n·周りに<color=#FFE699FF>岩元素</color>を持つターゲットがいる場合、最大2つのターゲットの<color=#FFE699FF>岩元素</color>を大量に消耗させる。この効果によるダメージは発生しない。\n\n<color=#FFD780FF>岩柱</color>\n岩柱が生成された時、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\nまた、岩柱が存在している間、周囲の他の<color=#FFE699FF>岩元素創造物</color>と一定時間の間隔で原岩共鳴をし、持続的に周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与える。\n岩柱は<color=#FFE699FF>岩元素創造物</color>と見なされ、攻撃を防ぐことができ、登ることもできる。\n鍾離自身が生成した「岩柱」は1つのみ存在可能。\n\n<color=#FFD780FF>玉璋シールド</color>\n全元素ダメージと物理ダメージに150%の吸収効果がある。\n玉璋シールドに守られたキャラクターは、付近範囲内の敵の全元素耐性と物理耐性-20%。この効果は重ねがけ不可。\n\n<i>岩の堅きこと、物に於いて陥さざる無きなり。</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zhongli_01"
       }
     ],
@@ -709,6 +711,7 @@
       "Id": 10303,
       "Name": "天星",
       "Description": "巨大な星岩を落下させ、落下範囲内の敵に大量の<color=#FFE699FF>岩元素ダメージ</color>を与え、<color=#FFE699FF>石化</color>状態にする。\n\n<color=#FFD780FF>石化</color>\n<color=#FFE699FF>石化</color>状態の敵は行動不能になる。\n\n<i>蒼天の星岩を落とし、暗闇の運命を照らす。</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zhongli_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 302101,
         "Name": "岩の宸断",
         "Description": "玉璋シールドはダメージを受けた際に防御効果を発動する。\n玉璋シールドに守られたキャラクターのシールド強化+5%。\nシールドが消えるまで、最大5回強度を上げることができる。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 302201,
         "Name": "贅沢な食饌",
         "Description": "HP上限を基準に、鍾離の下記攻撃のダメージが増加する。\n·通常攻撃、重撃と落下攻撃のダメージ増加量：HP上限の1.39%\n·<color=#FFD780FF>地心</color>の岩柱、共鳴と長押しダメージ増加量：HP上限の1.9%\n·<color=#FFD780FF>天星</color>ダメージ増加量：HP上限の33%",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 302301,
         "Name": "結晶推命",
         "Description": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Forge_Pole"
       }
     ],

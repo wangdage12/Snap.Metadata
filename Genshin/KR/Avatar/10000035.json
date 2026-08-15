@@ -293,6 +293,7 @@
         "Id": 10351,
         "Name": "운래의 고대 검법",
         "Description": "<color=#FFD780FF>일반 공격</color>\n검으로 최대 5번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고, 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -590,6 +591,7 @@
         "Name": "선법·한병의 귀차",
         "Description": "얼음과 피로 만들어진 부적으로 한병의 귀차를 소환해 주변의 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<color=#FFD780FF>한병의 귀차</color>\n·치치의 일반 공격과 강공격이 명중 시 파티 내 자신의 캐릭터 및 근처 아군 캐릭터의 HP를 회복한다. 회복량은 치치의 공격력의 영향을 받는다.\n·일정 시간이 지날 때마다 현재 필드 위에 있는 자신의 캐릭터의 HP를 회복한다.\n·캐릭터를 따라다니며 경로상의 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<i>「얘는 주로 온도가 올라서 부패하는 걸 방지해줘요…. 음, 그러니까 백 선생님의 진귀한 약재들 말이에요」</i>",
         "SpecialDescription": "얼음과 피로 만들어진 부적으로 한병의 귀차를 소환해 주변의 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<color=#FFD780FF>한병의 귀차</color>\n·치치의 일반 공격과 강공격이 명중 시 파티 내 자신의 캐릭터 및 근처 아군 캐릭터의 HP를 회복한다. 회복량은 치치의 공격력의 영향을 받는다.\n·일정 시간이 지날 때마다 현재 필드 위에 있는 자신의 캐릭터의 HP를 회복한다.\n·캐릭터를 따라다니며 경로상의 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n·현재 필드 위에 있는 파티 내 자신의 캐릭터의 공격이 적에게 명중 시, 한병의 귀차가 협동 공격을 1회 발동해 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<i>「얘는 주로 온도가 올라서 부패하는 걸 방지해줘요…. 음, 그러니까 백 선생님의 진귀한 약재들 말이에요」</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Qiqi_01"
       }
     ],
@@ -612,7 +614,8 @@
         },
         "Id": 355101,
         "Name": "선인의 일곱 보물",
-        "Description": "원소전투 스킬<color=#FFD780FF> 선법·한병의 귀차</color>의 재사용 대기시간이 15초로 감소한다.\n<color=#FFD780FF>섬광·별 초전도</color>: 한병의 귀차 지속 시간 동안, 파티 내 자신의 캐릭터가 주는 초전도, 별 초전도 반응 피해가 50% 증가한다.\n또한 {LINK#N11330003}<color=#FFD780FF>극지의 별영역</color>{/LINK} 내에 있을 경우, 치치가 <color=#FFD780FF>섬광·별 초전도</color> 상태에 진입한다",
+        "Description": "원소전투 스킬<color=#FFD780FF> 선법·한병의 귀차</color>의 재사용 대기시간이 15초로 감소한다.\n<color=#FFD780FF>섬광·별빛</color>: 한병의 귀차 지속 시간 동안, 파티 내 자신의 캐릭터가 주는 상응하는 반응의 피해가 증가한다:\n<color=#FFD780FF>섬광·별 초전도</color>: 초전도, 별 초전도 반응 피해가 50% 증가한다.\n<color=#FFD780FF>섬광·별 확산</color>: 얼음 원소 확산, 별 확산 반응 피해가 50% 증가한다.\n또한 {LINK#N11330003}<color=#FFD780FF>극지의 별영역</color>{/LINK} 내에 있을 때/파티 내 캐릭터가 주변에 별 확산 반응 발동 후 8초 동안, 치치가 각각 <color=#FFD780FF>섬광·별 초전도</color>/<color=#FFD780FF>섬광·별 확산</color> 상태에 진입한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
@@ -845,6 +848,7 @@
       "Name": "선법·구고도액",
       "Description": "치치가 체내에 봉인된 선력을 해방해 주변의 적에게 도액 부적 표식을 남기고 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<color=#FFD780FF>도액 부적</color>\n도액 부적 표식이 있는 적에게 피해를 주면, 해당 피해를 가한 캐릭터의 HP가 회복된다.\n\n<i>「본명, 구고도액진군. 죽다 살아난 해골 동자」</i>\n<i>——치치는 이 말을 기억하지 못한다</i>",
       "SpecialDescription": "치치가 체내에 봉인된 선력을 해방해 주변의 적에게 도액 부적 표식을 남기고 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n<color=#FFD780FF>섬광·별 초전도</color>: 추가로 별 초전도 반응 피해로 간주되는 <color=#99FFFFFF>얼음 원소 피해</color>를 1회 준다.\n\n<color=#FFD780FF>도액 부적</color>\n도액 부적 표식이 있는 적에게 피해를 주면, 해당 피해를 준 캐릭터의 HP가 회복된다.\n\n<i>「본명, 구고도액진군. 죽다 살아난 해골 동자」</i>\n<i>——치치는 이 말을 기억하지 못한다</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -864,6 +868,7 @@
         "Id": 352101,
         "Name": "생명 연장의 묘법",
         "Description": "<color=#FFD780FF>선법·한병의 귀차</color> 상태의 캐릭터가 원소 반응을 일으키면 받는 치유 보너스가 20% 증가한다. 지속 시간: 8초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 352201,
         "Name": "우연히 얻은 옥첨",
         "Description": "치치의 일반 공격과 강공격이 적에게 명중 시 50%의 확률로 적에게 도액 부적을 한 장 부여한다. 지속 시간: 6초. 해당 효과는 30초마다 1회만 발동한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 352301,
         "Name": "지나간 기억",
         "Description": "미니맵에 주위의 <color=#FFD780FF>리월 지역 특산물</color> 위치가 나타난다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],
@@ -911,14 +918,14 @@
         "Id": 351,
         "Name": "한고의 회향",
         "Description": "한병의 귀차의 공격이 도액 부적 표식이 있는 적에게 명중 시 치치의 원소 에너지를 2pt 회복한다",
-        "SpecialDescription": "한병의 귀차의 공격이 도액 부적 표식이 있는 적에게 명중 시 치치의 원소 에너지를 2pt 회복한다.\n<color=#FFD780FF>섬광·별 초전도</color>: 한병의 귀차 공격과 협동 공격이 적에게 명중 시, 치치의 원소 에너지를 6pt 회복한다. 해당 효과는 6초마다 최대 1회 발동된다",
+        "SpecialDescription": "한병의 귀차의 공격이 도액 부적 표식이 있는 적에게 명중 시, 치치의 원소 에너지를 2pt 회복한다.\n{LINK#N11500004}<color=#FFD780FF>섬광·별빛</color>{/LINK}: 한병의 귀차 공격과 협동 공격이 적에게 명중 시, 치치의 원소 에너지를 6pt 회복한다. 해당 효과는 6초마다 최대 1회 발동된다",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "뼛속까지 스며드는 한기",
         "Description": "<color=#99FFFFFF>얼음 원소</color>의 영향을 받은 적을 공격 시 치치가 일반 공격과 강공격으로 주는 피해가 15% 증가한다",
-        "SpecialDescription": "<color=#99FFFFFF>얼음 원소</color>의 영향을 받은 적을 공격 시 치치가 일반 공격과 강공격으로 주는 피해가 15% 증가한다.\n<color=#FFD780FF>섬광·별 초전도</color>: 치치의 공격력이 50% 증가한다",
+        "SpecialDescription": "<color=#99FFFFFF>얼음 원소</color>의 영향을 받은 적을 공격 시 치치가 일반 공격과 강공격으로 주는 피해가 15% 증가한다.\n{LINK#N11500004}<color=#FFD780FF>섬광·별빛</color>{/LINK}: 치치의 공격력이 50% 증가한다",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -951,8 +958,8 @@
       {
         "Id": 356,
         "Name": "기사회해",
-        "Description": "<color=#FFD780FF>선법·구고도액</color> 발동 시 근처 파티 내 전투 불능이 된 모든 캐릭터를 부활시키고 HP를 50% 회복한다.\n해당 효과는 15분마다 1회만 발동한다",
-        "SpecialDescription": "<color=#FFD780FF>선법·구고도액</color> 발동 시, 주변에 있는 파티 내 전투 불능이 된 모든 캐릭터를 부활시키고 HP를 50%까지 회복시킨다.\n해당 효과는 15분마다 1회만 발동된다.\n또한, <color=#FFD780FF>선법·구고도액</color> 발동 후 치치가 <color=#FFD780FF>통찰</color>을 4스택 획득한다. 치치를 제외한 파티 내 자신의 현재 필드 위 캐릭터가 별 초전도 반응 피해를 줄 시, <color=#FFD780FF>통찰</color> 1스택을 소모하고 별 초전도 반응으로 주는 피해가 치치 공격력의 600%만큼 증가한다. <color=#FFD780FF>통찰</color>은 최대 12초 동안 지속되며, <color=#FFD780FF>선법·구고도액</color> 발동 시 스택 수가 갱신된다",
+        "Description": "<color=#FFD780FF>선법·구고도액</color> 발동 시, 주변에 있는 파티 내 전투 불능이 된 모든 캐릭터를 부활시키고 HP를 50%까지 회복시킨다.\n해당 효과는 15분마다 1회만 발동된다",
+        "SpecialDescription": "<color=#FFD780FF>선법·구고도액</color> 발동 시, 주변에 있는 파티 내 전투 불능이 된 모든 캐릭터를 부활시키고 HP를 50%까지 회복시킨다.\n해당 효과는 15분마다 1회만 발동된다.\n또한, <color=#FFD780FF>선법·구고도액</color> 발동 후 치치가 <color=#FFD780FF>통찰</color>을 4스택 획득한다. 치치를 제외한 파티 내 자신의 현재 필드 위 캐릭터가 특성과 스킬을 통해 직접 별 초전도와 별 확산 반응 피해를 줄 시, <color=#FFD780FF>통찰</color> 1스택을 소모하고 주는 피해가 치치 공격력의 600%만큼 증가한다. <color=#FFD780FF>통찰</color>은 최대 12초 동안 지속되며, <color=#FFD780FF>선법·구고도액</color> 발동 시 스택 수가 갱신된다",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

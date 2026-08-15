@@ -261,6 +261,7 @@
         "Id": 11311,
         "Name": "Allegoria",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMemberikan perintah dengan bahasa purba untuk melancarkan hingga 3 serangan dan mengakibatkan <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk mengakibatkan <color=#FF9999FF>Pyro DMG Area</color> ke area di depannya setelah jeda singkat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang tanah dan menyerang musuh di jalur terjangan dan mengakibatkan <color=#FF9999FF>Pyro DMG Area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11312,
         "Name": "Revelation: Uncreated Light",
         "Description": "Memanifestasikan bayangan kekuasaan langit masa lalu, memberikan efek {LINK#N11310002}{/LINK}{LINK#N11310001}<color=#FFD780FF>Grace of Kenosis</color>{/LINK} kepada seluruh anggota party di sekitar yang akan meningkatkan ATK Karakter-Karakter tersebut, mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>, dan menciptakan Shield of Blazing Light.\nKetahanan DMG Shield of Blazing Light bergantung pada ATK Nicole dan memiliki 250% pertahanan terhadap <color=#FF9999FF>Pyro DMG</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nicole_01"
       }
     ],
@@ -514,6 +516,7 @@
         "Id": 1315101,
         "Name": "Witch's Eve Rite: Light in the Darkness",
         "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Peran Seorang Pemandu ...?</color>, Nicole akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nDMG yang diakibatkan <color=#FFD780FF>{LINK#S11315}Arcane Projection{/LINK}</color> milik Karakter Hexerei meningkat sebesar 300% ATK Nicole.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_07"
       }
     ],
@@ -715,6 +718,7 @@
       "Id": 11315,
       "Name": "Revelation: Ladder of Divine Ascent",
       "Description": "Menenun jalan takdir yang tertambat dengan benang emas dari langit, Nicole mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>, dan beralih ke mode \"Silent Contemplation\".\nSaat Nicole berada dalam mode ini, ketika serangan Karakter aktif di sekitar dalam party mengenai musuh, Arcane Projection akan dipanggil untuk melancarkan serangan terkoordinasi terhadap musuh. Serangan ini akan mengakibatkan Elemental DMG Area yang sesuai berdasarkan jenis elemen Karakter tersebut. DMG ini didasarkan pada ATK Karakter tersebut, dan juga dianggap sebagai DMG yang diakibatkan oleh Karakter tersebut.\nEfek ini dapat terpicu maksimum sekali setiap 3 detik dan dapat terpicu hingga 4 kali setiap kali Nicole beralih ke mode Silent Contemplation.\n\nSelain itu, Arcane Projection dari Karakter Hexerei sepertinya akan memiliki tampilan visual yang berbeda ....",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nicole_01"
     },
     "Inherents": [
@@ -738,6 +742,7 @@
         "Id": 1312101,
         "Name": "Methexis",
         "Description": "Selama 20 detik setelah melancarkan Elemental Skill <color=#FFD780FF>{LINK#S11312}Revelation: Uncreated Light{/LINK}</color>, Nicole akan terus \"mengobservasi\" Karakter aktif lain dalam party. Setelah Karakter yang diobservasi berada di medan pertempuran selama 3 detik, efek {LINK#N11310001}<color=#FFD780FF>Grace of Kenosis</color>{/LINK} miliknya akan meningkat menjadi {LINK#N11310002}<color=#FFD780FF>Guidance of Theosis</color>{/LINK} dan memberikan tambahan 300 poin ATK. Jika Karakter yang diobservasi adalah Karakter Hexerei, maka efek <color=#FFD780FF>Grace of Kenosis</color> akan langsung ditingkatkan menjadi <color=#FFD780FF>Guidance of Theosis</color>.\nSelain Nicole, <color=#FFD780FF>Guidance of Theosis</color> yang dimiliki Karakter lain akan langsung kembali menjadi <color=#FFD780FF>Grace of Kenosis</color> saat Karakter itu meninggalkan medan pertempuran.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_05"
       },
       {
@@ -758,6 +763,7 @@
         "Id": 1312201,
         "Name": "Philokalia",
         "Description": "Saat Elemental DMG anggota party aktif di sekitar mengenai musuh, {LINK#N11310001}<color=#FFD780FF>Grace of Kenosis</color>{/LINK} yang dimiliki Nicole sendiri akan meningkat menjadi {LINK#N11310002}<color=#FFD780FF>Guidance of Theosis</color>{/LINK} selama 8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_06"
       },
       {
@@ -778,6 +784,7 @@
         "Id": 1312301,
         "Name": "Nepsis",
         "Description": "Saat tidak dalam kondisi bertempur dan sudah memperoleh Treasure Compass untuk area yang sedang dijelajahi di Teyvat, Charged Attack Nicole akan dikonversi menjadi \"Emissarial Guidance\": Memanggil Seelie terdekat untuk memberi petunjuk, memicu efek yang sama dengan Treasure Compass untuk area tersebut.\nEfek ini memiliki cooldown selama 5 detik, dan tidak berlaku di Domain, Domain Trounce, dan Spiral Abyss.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_08"
       }
     ],
@@ -1153,7 +1160,7 @@
       },
       {
         "Title": "Vision",
-        "Context": "Manusia selalu membutuhkan dewa, karena mereka berharap doanya didengar, juga berharap ada yang bisa memikul beban berat mereka.\nSetelah orang-orang kehilangan para malaikat, bumi dijaga oleh sekelompok Archon yang bentuknya aneh bin ajaib. Hanya dengan melambaikan tangan, orang-orang yang putus asa langsung ikut dan berkumpul di sekitar mereka. Hanya dengan sedikit janji, para pendengar sudah menari-nari dan bersorak-sorai kegirangan. Hanya cukup menunjukkan sedikit keajaiban saja, para jemaat sudah dipenuhi rasa syukur yang sangat besar.\n\"Manusia zaman sekarang benar-benar tidak dilahirkan di era yang tepat.\"\nNicole menjauh dari kerumunan sambil berpikir dalam hati. Bukannya kakak-kakaknya dulu terlihat jauh lebih suci dan cantik daripada para dewa yang bentuknya aneh-aneh sekarang? Meskipun di antara para dewa itu, memang ada beberapa yang penampilannya cukup menarik sih ....\nDia menatap salah satu \"kakak\" yang melingkari kakinya dalam bentuk Seelie dan mendesah dalam hati. Karena bentuk \"kakak\"nya sekarang terlalu mirip dengan manusia, dia malah ingin mengajaknya mencari peti harta.\nNicole menatap pantulan wajahnya di permukaan air. Sekeras apa pun dia mengatur ekspresinya, sepertinya tidak ada sedikit pun aura suci yang bisa dia pancarkan.\n\"Malaikat\" sudah memudar dari dunia, tetapi manusia selalu membutuhkan dewa.\n\nSetelah lama waktu berlalu, Nicole yang sangat peka terhadap perubahan dunia merasakan adanya perubahan kecil pada hukum alam.\nTanda yang disebut \"Vision\" ini, perjalanan agung yang hanya bisa ditempuh oleh manusia, hati Nicole tergerak. Nicole memahami prinsip di balik Vision, dia juga tahu bagaimana akhir jalan ini. Dia ingin tahu apakah statusnya yang begitu dekat dengan manusia bisa membuatnya mendapatkan sedikit perhatian. Meski pada akhirnya, dia tidak terlalu peduli, karena kesadaran yang lahir dari cahaya, meskipun sudah jatuh ke dunia fana, selalu ingin naik kembali ke cahaya.\nTapi Nicole sudah mencoba segala cara, namun tetap tak bisa mendapat pengakuan dari langit. Ribuan tahun kata-kata yang tidak bisa diucapkan sudah cukup untuk melampaui batas ukuran kerinduan apa pun. Dia hanya diabaikan.\nDengan kecewa, dia mengembara ke Natlan dan menemukan satu-satunya keluarga yang masih bisa diajak berkomunikasi dengan bahasa manusia, untuk saling berbagi pengetahuan.\n\"Malaikat sudah disingkirkan dari desain dan tatanan dunia, kamu cuma akan diabaikan.\"\n\"Aku mengerti. Jadi intinya, aku harus berusaha mati-matian supaya bisa masuk ke dalam dunia manusia ya\"?\nKalau tidak ada koneksi, ya bangun. Kalau tidak ada di dalam rencana, ya pastikan cetak birunya penuh dengan bayangannya sendiri.\nDia tidak lagi hanya mengamati dari jauh. Dia menerima beberapa misi membuat patung (bayarannya diletakkan di dalam peti harta karun), diam-diam memandu orang-orang yang tersesat (peti harta karunnya diserahkan ke mereka dulu sebelum mereka menemukan jalan yang tepat), diam-diam memberi petunjuk kepada para pelajar yang bingung ....\n\nSaat Nicole mendapatkan Vision, tidak ada ketegangan sama sekali. Hanya saja, setelah dia selesai membantu seorang orang tua, langit tidak bisa lagi mengabaikan pengaruh yang dia ciptakan, yang terakumulasi seiring berjalannya waktu.\nOrang-orang selalu membutuhkan dewa. Malaikat juga demikian. Diabaikan dan tidak lagi dibutuhkan adalah hal yang menakutkan.\nNicole memegang Vision-nya, menutupi siluet Celestia dengan Vision itu.\nOh, Penciptaku ....\n\"Engkau akhirnya mengakuiku sebagai manusia. Engkau harus menyayangiku, memaafkanku. Mulai sekarang, aku akan menjalani hidup dengan lebih bebas.\""
+        "Context": "Manusia selalu membutuhkan dewa, karena mereka berharap doanya didengar, juga berharap ada yang bisa memikul beban berat mereka.\nSetelah orang-orang kehilangan para malaikat, bumi dijaga oleh sekelompok Archon yang bentuknya aneh bin ajaib. Hanya dengan melambaikan tangan, orang-orang yang putus asa langsung ikut dan berkumpul di sekitar mereka. Hanya dengan sedikit janji, para pendengar sudah menari-nari dan bersorak-sorai kegirangan. Hanya cukup menunjukkan sedikit keajaiban saja, para jemaat sudah dipenuhi rasa syukur yang sangat besar.\n\"Manusia zaman sekarang benar-benar tidak dilahirkan di era yang tepat.\"\nNicole menjauh dari kerumunan sambil berpikir dalam hati. Bukannya kakak-kakaknya dulu terlihat jauh lebih suci dan cantik daripada para dewa yang bentuknya aneh-aneh sekarang? Meskipun di antara para dewa itu, memang ada beberapa yang penampilannya cukup menarik sih ....\nDia menatap salah satu \"kakak\" yang melingkari kakinya dalam bentuk Seelie dan mendesah dalam hati. Karena bentuk \"kakak\"nya sekarang terlalu mirip dengan manusia, dia malah ingin mengajaknya mencari peti harta.\nNicole menatap pantulan wajahnya di permukaan air. Sekeras apa pun dia mengatur ekspresinya, sepertinya tidak ada sedikit pun aura suci yang bisa dia pancarkan.\n\"Malaikat\" sudah memudar dari dunia, tetapi manusia selalu membutuhkan dewa.\n\nSetelah sekian lama waktu berlalu, Nicole yang sangat peka terhadap perubahan dunia merasakan adanya perubahan kecil pada hukum alam.\nTanda yang disebut \"Vision\" ini, perjalanan agung yang hanya bisa ditempuh oleh manusia, hati Nicole tergerak. Nicole memahami prinsip di balik Vision, dia juga tahu bagaimana akhir jalan ini. Dia ingin tahu apakah statusnya yang begitu dekat dengan manusia bisa membuatnya mendapatkan sedikit perhatian. Meski pada akhirnya, dia tidak terlalu peduli, karena kesadaran yang lahir dari cahaya, meskipun sudah jatuh ke dunia fana, selalu ingin naik kembali ke cahaya.\nTapi Nicole sudah mencoba segala cara, namun tetap tak bisa mendapat pengakuan dari langit. Ribuan tahun kata-kata yang tidak bisa diucapkan sudah cukup untuk melampaui batas ukuran kerinduan apa pun. Dia hanya diabaikan.\nDengan kecewa, dia mengembara ke Natlan dan menemukan satu-satunya keluarga yang masih bisa diajak berkomunikasi dengan bahasa manusia, untuk saling berbagi pengetahuan.\n\"Malaikat sudah disingkirkan dari desain dan tatanan dunia, kamu cuma akan diabaikan.\"\n\"Aku mengerti. Jadi intinya, aku harus berusaha mati-matian supaya bisa masuk ke dalam dunia manusia ya\"?\nKalau tidak ada koneksi, ya bangun. Kalau tidak ada di dalam rencana, ya pastikan blueprintnya penuh dengan bayangannya sendiri.\nDia tidak lagi hanya mengamati dari jauh. Dia menerima beberapa misi membuat patung (bayarannya diletakkan di dalam peti harta karun), diam-diam memandu orang-orang yang tersesat (peti harta karunnya diserahkan ke mereka dulu sebelum mereka menemukan jalan yang tepat), diam-diam memberi petunjuk kepada para pelajar yang bingung ....\n\nSaat Nicole mendapatkan Vision, tidak ada ketegangan sama sekali. Hanya saja, setelah dia selesai membantu seorang orang tua, langit tidak bisa lagi mengabaikan pengaruh yang dia ciptakan, yang terakumulasi seiring berjalannya waktu.\nOrang-orang selalu membutuhkan dewa. Malaikat juga demikian. Diabaikan dan tidak lagi dibutuhkan adalah hal yang menakutkan.\nNicole memegang Vision-nya, menutupi siluet Celestia dengan Vision itu.\nOh, Penciptaku ....\n\"Engkau akhirnya mengakuiku sebagai manusia. Engkau harus menyayangiku, memaafkanku. Mulai sekarang, aku akan menjalani hidup dengan lebih bebas.\""
       }
     ]
   },

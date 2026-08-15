@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Altın Kılıcın Çiçekli Dokunuşu",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nEn fazla 4 hızlı saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak 2 hızlı kılıç saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Yerin ve Göğün Tezahürü",
         "Description": "Eski güçlerinin bir gölgesini çağırarak {LINK#N11260001}<color=#FFD780FF>Ay Döngüsü Değişimi</color>{/LINK} moduna geçer.\nBu moddayken Zibai'ın Normal Saldırıları ve Yüklü Saldırıları, başka tesirlerle değiştirilemez şekilde <color=#FFE699FF>Toprak Hasarı</color> verir. Zibai bu moddayken farklı yöntemlerle özel <color=#FFD780FF>Döngü Değişimi Işıltısı</color> biriktirebilir ve Döngü Değişimi Işıltısı tüketerek özel <color=#FFD780FF>Ruh Atının Koşusu</color> Element Becerisini kullanabilir.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>\n<color=#FFD780FF>Ay Döngüsü Değişimi</color> modundayken Zibai Normal Saldırı yaptığında dördüncü saldırısı fazladan bir defa daha <color=#FFE699FF>Toprak Hasarı</color> verir. Bu ek Hasar Ay Kristalleşmesi Tepkimesi Hasarı sayılır.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Üç Küreli Kudret",
       "Description": "Zibai, Yeşim Işığı Gölgeliğini kullanarak iki defa <color=#FFE699FF>Toprak Hasarı</color> verir. İkinci hasar, Ay Kristalleşmesi Tepkimesi Hasarı olarak kabul edilir.\nKullanıldığında eğer Zibai {LINK#N11260001}<color=#FFD780FF>Ay Döngüsü Değişimi</color>{/LINK} modundaysa mevcut Ay Döngüsü Değişiminin süresi ilave 1,7sn uzar.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "Ay Adeptusunun İnişi",
         "Description": "<color=#FFD780FF>{LINK#S11262}Yerin ve Göğün Tezahürü{/LINK}</color> Element Becerisi kullanıldığında veya yakındaki grup üyeleri Ay Akıntısı Ahengi tetiklediğinde Zibai 4 saniyeliğine <color=#FFD780FF>Aydan İniş</color> etkisi kazanır: {LINK#N11260001}<color=#FFD780FF>Ruh Atının Koşusunun</color>{/LINK} ikinci vuruşu tarafından verilen Hasar, Zibai'ın Savunmasının %60'ı kadar artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Katmanlı Zirveler Bulutları Deler",
         "Description": "Diğer <color=#FFE699FF>Toprak</color> elementi grup üyelerinin her biri Zibai'ın Savunmasını %15 artırır. <color=#80C0FFFF>Su</color> elementi grup üyelerinin her biri ise Zibai'ın Element Ustalığını 60 artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Ay Sembolü Kutsaması: Güneşin ve Ayın Seyri",
         "Description": "Bir grup üyesi Su Kristalleşmesi tepkimesi tetiklediğinde bu, Ay Kristalleşmesi tepkimesine dönüşür. Zibai'ın sahip olduğu her 100 Savunma, Ay Kristalleşmesi tepkimesinin Temel Hasarını %0,7 artırır; en fazla %14 artabilir.\n\nAyrıca grubunda Zibai olduğunda, grubunun <color=#FFD780FF>Ay Sembolü</color> 1 seviye yükselir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Mehtaplı Çiçek Ormanı",
         "Description": "Gece (18:00 - 06:00) savaşta değilken Zibai her 2 saniyede 1 Element Enerjisi yeniler.\nBu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

@@ -351,6 +351,7 @@
         "Name": "Kutsal Nişancı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda elverişli rüzgarlar toplanır. Tam yüklü bu rüzgar oku <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
         "SpecialDescription": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda uğurlu rüzgarlar toplanır. Tam yüklü bu rüzgar oku <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması ile oluşturulan Fırtına Gözü etkinken Venti ek güçlendirme etkileri kazanır:\n·Venti'nin Normal Saldırıları, düşmanları delen ve yoluna çıkan düşmanlara daha da fazla <color=#80FFD7FF>Rüzgar Hasarı</color> veren <color=#FFD780FF>Rüzgaryaran Oklara</color> dönüşür.\n·Venti'nin Normal Saldırıları düşmanlara isabet ettiğinde Fırtına Gözünün süresi 1sn, Bekleme Süresi ise 0,5sn artar. Bu etki 0,1 saniyede bir tetiklenebilir ve <color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması her kullanıldıktan sonra en fazla 2 defa tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -519,6 +520,7 @@
         "Id": 10224,
         "Name": "Göklerin Sonesi",
         "Description": "#Ey tüm şarkıları taşıyan rüzgar, yerde yürüyen bu varlıkları göğe çıkar!\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Dokun}{LAYOUT_PC#Bas}{LAYOUT_PS#Bas}</color>\nDüşmanın olduğu yerde bir Rüzgar Alanı oluşturur ve <color=#80FFD7FF>Rüzgar Alan Hasarı</color> vererek düşmanları havaya fırlatır.\n\n<color=#FFD780FF>Basılı Tut</color>\nVenti'nin etrafında daha geniş bir Rüzgar Alanı oluşturarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir ve etkilenen düşmanları havaya fırlatır.\nBu beceriyi Basılı Tutarak kullandığında Venti rüzgarla havalanır.\n\nGöklerin Sonesi ile vurulan düşmanlar yavaşça yere inerler.\n\n<i>Tanrılar ve insanlar birlikte dünyada gezerken gökler sayısız şarkıyla doluydu. Bu melodi uzun zaman önce unutuldu.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Venti_01"
       }
     ],
@@ -542,7 +544,8 @@
         },
         "Id": 225101,
         "Name": "Cadının Gece Ayini: Zaman Rüzgarına Methiye",
-        "Description": "<color=#FFD780FF>Cadının Ödevi: Rüzgarın Uyanışı</color> tamamlandıktan sonra Venti bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması tarafından oluşturulan Fırtına Gözü etkinken, yakındaki aktif bir karakter Girdap tepkimesi tetiklediğinde 4sn boyunca o karakterin Hasarı %50 artar ve Fırtına Gözü, orijinal Hasarının %135'i kadar Hasar verir.",
+        "Description": "<color=#FFD780FF>Cadının Ödevi: Rüzgarın Uyanışı</color> tamamlandıktan sonra Venti bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> Element Patlaması tarafından oluşturulan Fırtına Gözü etkinken, yakındaki aktif bir karakter Girdap veya Yıldız Girdabı tepkimesi tetiklediğinde 4sn boyunca o karakterin Hasarı %50 artar ve Fırtına Gözü, orijinal Hasarının %135'i kadar Hasar verir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_07"
       }
     ],
@@ -728,6 +731,7 @@
       "Id": 10225,
       "Name": "Rüzgarın Büyük Kasidesi",
       "Description": "Sayısız rüzgardan oluşan bir ok atarak düşmanları içine çeken ve sürekli <color=#80FFD7FF>Rüzgar Hasarı</color> veren dev bir Fırtına Gözü oluşturur.\n\n<color=#FFD780FF>Element Emilimi</color>\nFırtına Gözü, <color=#80C0FFFF>Su</color>/<color=#FF9999FF>Ateş</color>/<color=#99FFFFFF>Buz</color>/<color=#FFACFFFF>Elektrik</color> ile etkileşime girdiğinde o element türünden ek Element Hasarı verir.\nHer kullanıldığında Element Emilimi yalnızca bir defa gerçekleşebilir.\n\n<i>Rüzgar Hükümdarı'na övgü olarak yazılan birçok şarkı mazide kayboldu. Bu şarkı, onun rüzgara nasıl hükmettiğini anlatır.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Venti_01"
     },
     "Inherents": [
@@ -749,6 +753,7 @@
         "Id": 222101,
         "Name": "Rüzgarların Kucaklaması",
         "Description": "<color=#FFD780FF>Göklerin Sonesi</color> basılı tutulduğunda 20sn süren ve yukarı doğru esen bir rüzgar çıkarır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_05"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 222201,
         "Name": "Fırtına Gözü",
         "Description": "<color=#FFD780FF>Rüzgarın Büyük Kasidesi</color> becerisinin etkileri sona erdikten sonra Venti 15 Enerji yeniler.\nElement Emilimi gerçekleştiyse grupta o elementteki tüm karakterler de 15 Enerji yeniler.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_06"
       },
       {
@@ -788,6 +794,7 @@
         "Id": 222301,
         "Name": "Rüzgar Binicisi",
         "Description": "Kendi grup üyelerinin uçma Dayanıklılık tüketimini %20 azaltır.\nAynı etkiyi veren Pasif Yeteneklerle birikmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Glide"
       }
     ],

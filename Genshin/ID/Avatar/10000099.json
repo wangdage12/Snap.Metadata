@@ -277,6 +277,7 @@
         "Id": 10991,
         "Name": "Shadow-Hunting Spear (Custom)",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan tombak berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menebas ke atas.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -493,6 +494,7 @@
         "Id": 10992,
         "Name": "Fragrance Extraction",
         "Description": "Menciptakan Lumidouce Case dan mengakibatkan <color=#99FF88FF>Dendro DMG Area</color>.\n\n<color=#FFD780FF>Lumidouce Case</color>\n·Menembakkan Puff of Puredew secara berkala terhadap musuh yang ada di dekatnya dan mengakibatkan <color=#99FF88FF>Dendro DMG</color>.\n·Saat musuh yang ada di dekatnya berada dalam status Burning, akan tercipta Scent secara berkala. Scent yang bisa dihasilkan dengan cara ini adalah satu buah setiap 2 detik. Lumidouce Case akan mengumpulkan Scent yang ada di sekitarnya dan levelnya akan meningkat setelah berhasil mengumpulkan dua Scent. Setelah levelnya meningkat, Lumidouce Case akan menembakkan satu Puff of Puredew tambahan saat menembakkan Puff of Puredew. Radius serangan dan DMG yang diakibatkan serangan di atas juga akan meningkat.\n·Hanya bisa ada satu Lumidouce Case yang diciptakan Emilie sendiri dalam satu waktu. Saat diciptakan, level awal Lumidouce Case adalah level 1 dan bisa meningkat hingga level 2. Saat ada di medan pertempuran, jika Lumidouce Case tidak mengumpulkan Scent dalam kurun 8 detik, maka levelnya akan kembali menjadi level 1.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nSetiap satu kurun waktu, setelah Emilie menggunakan cara ini untuk menciptakan Lumidouce Case, dia akan menjatuhkan Spiritbreath Thorn yang menembus musuh di hadapannya, dan mengakibatkan Pneuma-aligned <color=#99FF88FF>Dendro DMG</color>.\n\n<i>\"Pemandangan di dunia bagaikan perpaduan dari wewangian, keindahan, dan suara nyanyian yang tiada habisnya.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Emilie_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 10995,
       "Name": "Aromatic Explication",
       "Description": "Memandu wewangian yang dikumpulkan Lumidouce Case dan mengubahnya menjadi kekuatan Dendro murni, menciptakan Lumidouce Case level 3, dan menarik Lumidouce Case yang sudah ada.\nSelama Lumidouce Case level 3 ini ada di medan pertempuran, tidak akan mengumpulkan Scent yang ada di sekitar, sebagai gantinya, akan terus menjatuhkan Scented Dew, menyerang musuh yang ada di dalam radiusnya, dan mengakibatkan <color=#99FF88FF>Dendro DMG</color>. Selama berlangsung, akan menjatuhkan satu buah Scented Dew setiap 0,3 detik, dan setiap musuh hanya bisa terpilih menjadi target satu kali setiap 0,7 detik.\nSetelah durasinya berakhir, Lumidouce Case level 1 akan kembali tercipta; Jika saat melancarkan Aromatic Explication, ada Lumidouce Case yang berhasil tersimpan, maka Lumidouce Case yang disimpan tersebut akan dikerahkan dan durasinya akan di-reset.\nSelama <color=#FFD780FF>Aromatic Explication</color> berlangsung, Elemental Skill \"Fragrance Extraction\" tidak akan menciptakan Lumidouce Case lagi.\n\n<i>Apa pun parfumnya, semuanya akan berubah begitu berhubungan dengan udara, dan pada akhirnya akan menguap seiring dengan embusan angin, pepohonan, dan dedaunan. Sehingga, tidak ada dua orang yang sama yang akan bisa menikmati wewangian yang sama.\nDemikian juga dengan jalur seluruh manusia. Oleh sebab itu, kamu boleh mengibaratkan wewangian sebagai penjelasan dari kehidupan manusia.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Emilie_01"
     },
     "Inherents": [
@@ -683,6 +686,7 @@
         "Id": 992101,
         "Name": "Lingering Fragrance",
         "Description": "Untuk setiap dua <color=#FFD780FF>Scent</color> yang dikumpulkan, Lumidouce Case level 2 akan mengonsumsi Scent dan mengeluarkan Cleardew Cologne, yang mengakibatkan <color=#99FF88FF>Dendro DMG Area</color> sebesar 600% ATK Emilie terhadap musuh. DMG ini tidak dianggap sebagai DMG Elemental Skill.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 992201,
         "Name": "Rectification",
         "Description": "DMG yang diakibatkan Emilie terhadap musuh dalam status Burning akan meningkat berdasarkan ATK Emilie: Untuk setiap 1.000 poin ATK, DMG meningkat 15%, maksimum peningkatan yang bisa diperoleh dengan cara ini adalah 36%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 992301,
         "Name": "Headspace Capture",
         "Description": "Saat ada Lumidouce Case yang diciptakan oleh Emilie sendiri di medan pertempuran, akan meningkatkan 85% <color=#FF9999FF>Pyro RES</color> seluruh anggota party yang ada di sekitar terhadap DMG Burning.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_07"
       }
     ],

@@ -308,6 +308,7 @@
         "Id": 11141,
         "Name": "Verdorbene Kunst – Zerteilung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schleudert eine wirbelnde Kristalllanze, die den Gegnern vor sich Schaden zufügt.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -649,6 +650,7 @@
         "Id": 11142,
         "Name": "Verdorbene Kunst – Verzerrung",
         "Description": "#Imitiert den Kampfstil des „Reiters des Bösen“ und erzeugt je nachdem, ob gedrückt oder gedrückt gehalten wird, unterschiedliche Effekte.\n\n<color=#FFD780FF>Drücken</color>\nSkirk erhält 45{NON_BREAK_SPACE}Pkt. {LINK#N11130005}<color=#FFD780FF>„List der Schlange“</color>{/LINK} und wechselt in den {LINK#N11130006}<color=#FFD780FF>„Sieben-Phasen-Blitzmodus“</color>{/LINK}.\n\n<color=#FFD780FF>Gedrückt halten</color>\nSkirk erhält 45{NON_BREAK_SPACE}Pkt. „List der Schlange“ und bewegt sich fortlaufend mit hoher Geschwindigkeit. In diesem Zustand ist Skirks Unterbrechungs-WDS erhöht.\nWährenddessen kann sich Skirk auf der Wasseroberfläche bewegen sowie kontrollieren, in welche Richtung sie sich schnell bewegt. Durch erneutes Auslösen dieser Fähigkeit kann sie den Zustand des schnellen Bewegens vorzeitig beenden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_SkirkNew_01"
       }
     ],
@@ -879,6 +881,7 @@
       "Id": 11145,
       "Name": "Verdorbene Kunst – Zerstörung",
       "Description": "#Skirks Spezialfähigkeit ist nicht auf Elementarenergie angewiesen, sondern auf {LINK#N11130005}<color=#FFD780FF>„List der Schlange“</color>{/LINK}.\nWenn Skirk mindestens 50{NON_BREAK_SPACE}Pkt. „List der Schlange“ hat, kann sie all ihre „List der Schlange“ verbrauchen, um ihre Spezialfähigkeit auszulösen: Sie zerreißt den Raum vor ihr und führt viele schnell aufeinanderfolgende Hiebe aus, die <color=#99FFFFFF>Kryo-Flächenschaden</color> verursachen. Gleichzeitig wird beim Auslösen der Fähigkeit der von der diesmaligen Spezialfähigkeit verursachte Schaden basierend auf jedem Punkt ihrer „List der Schlange“, der über 50{NON_BREAK_SPACE}Pkt. liegt, erhöht. Auf diese Weise können bis zu 12{NON_BREAK_SPACE}Pkt. „List der Schlange“ angerechnet werden.\n\nWenn sich Skirk im {LINK#N11130006}<color=#FFD780FF>Sieben-Phasen-Blitzmodus</color>{/LINK} befindet, wird ihre Spezialfähigkeit „Verdorbene Kunst – Zerstörung“ durch „Verdorbene Kunst – Vernichtung“ ersetzt.\n\n<color=#FFD780FF>Verdorbene Kunst – Vernichtung</color>\nEine besondere Spezialfähigkeit, die ohne den Verbrauch von „List der Schlange“ ausgelöst werden kann.\nNach dem Auslösen erhält Skirk den Effekt „Verwelkt“, der bis zum Ende des „Sieben-Phasen-Blitzmodus“ andauert. Nach dem Freischalten des Aufstiegstalents {LINK#N11130007}<color=#FFD780FF>„Vernunft jenseits der Vernunft“</color>{/LINK} kann Skirk auch Leere-Risse in einem bestimmten Umkreis absorbieren.\nWährend der Wirkungsdauer des Effekts „Verwelkt“ verursachen die Standardangriffe von Skirk, die Gegner treffen, alle 0,1{NON_BREAK_SPACE}s erhöhten Schaden. Wenn Skirk bei der Verwendung von <color=#FFD780FF>„Verdorbene Kunst – Vernichtung“</color> Leere-Risse absorbiert hat, dann erhöht sich der Schaden des diesmaligen Standardangriffs basierend auf der Anzahl der absorbierten Leere-Risse.\nDieser Effekt wird entfernt, sobald er 10-mal ausgelöst wurde.",
+      "SpecialEnergyType": 2,
       "Icon": "Skill_E_SkirkNew_01"
     },
     "Inherents": [
@@ -899,7 +902,8 @@
         },
         "Id": 1142101,
         "Name": "Vernunft jenseits der Vernunft",
-        "Description": "#Erzeugt, wenn Truppenmitglieder in der Nähe an Gegnern die Reaktionen Gefroren, Supraleiter, Kryo-Verwirbelung oder Kryo-Kristall auslösen, in der Nähe des Gegners einen Leere-Riss, 2,5{NON_BREAK_SPACE}s Abklingzeit. Es können gleichzeitig nur 3 von Skirk selbst erzeugte Leere-Risse auf dem Feld existieren.\n\nSkirk kann auf die folgenden Weisen Leere-Risse in einem bestimmten Umkreis absorbieren:\n· Wenn sie im {LINK#N11130006}<color=#FFD780FF>„Sieben-Phasen-Blitzmodus“</color>{/LINK} Gegner mit heftigen Schlägen trifft.\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ ihre besondere Spezialfähigkeit <color=#FFD780FF>„Verdorbene Kunst – Vernichtung“</color> auslöst.\n· Wenn sie durch Gedrückthalten ihre Elementarfähigkeit <color=#FFD780FF>Verdorbene Kunst – Verzerrung</color> auslöst, um sich schnell zu bewegen.\n\nSkirk erhält für jeden absorbierten Riss 8{NON_BREAK_SPACE}Pkt. {LINK#N11130005}<color=#FFD780FF>„List der Schlange“</color>{/LINK}.",
+        "Description": "#Erzeugt, wenn Truppenmitglieder in der Nähe an Gegnern die Reaktionen Gefroren, Supraleiter, Stellar-Supraleiter, Kryo-Verwirbelung, Stellar-Verwirbelung oder Kryo-Kristall auslösen, in der Nähe des Gegners einen Leere-Riss, 2,5{NON_BREAK_SPACE}s Abklingzeit. Es können gleichzeitig nur 3 von Skirk selbst erzeugte Leere-Risse auf dem Feld existieren.\n\nSkirk kann auf die folgenden Weisen Leere-Risse in einem bestimmten Umkreis absorbieren:\n· Wenn sie im {LINK#N11130006}<color=#FFD780FF>Sieben-Phasen-Blitzmodus</color>{/LINK} Gegner mit heftigen Schlägen trifft.\n· Wenn sie im „Sieben-Phasen-Blitzmodus“ ihre besondere Spezialfähigkeit <color=#FFD780FF>Verdorbene Kunst – Vernichtung</color> auslöst.\n· Wenn sie durch Gedrückthalten ihre Elementarfähigkeit <color=#FFD780FF>Verdorbene Kunst – Verzerrung</color> auslöst, um sich schnell zu bewegen.\n\nSkirk erhält für jeden absorbierten Riss 8{NON_BREAK_SPACE}Pkt. {LINK#N11130005}<color=#FFD780FF>List der Schlange</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_05"
       },
       {
@@ -926,6 +930,7 @@
         "Id": 1142201,
         "Name": "Rückkehr ins Vergessen",
         "Description": "#Verleiht Skirk jedes Mal, wenn <color=#80C0FFFF>Hydro</color>-Truppenmitglieder in der Nähe mit ihren <color=#80C0FFFF>Hydro</color>-Angriffen Gegner treffen oder andere <color=#99FFFFFF>Kryo</color>-Truppenmitglieder außer Skirk in der Nähe mit ihren <color=#99FFFFFF>Kryo</color>-Angriffen Gegner treffen, für 20{NON_BREAK_SPACE}s den Effekt „Kreuzung des Todes“. 3-fach stapelbar, Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet.\nJede Figur kann Skirk auf diese Weise maximal 1 Stapelung „Kreuzung des Todes“ verleihen.\nFür jede Stapelung „Kreuzung des Todes“ beträgt der von Skirk in ihrem {LINK#N11130006}<color=#FFD780FF>Sieben-Phasen-Blitzmodus</color>{/LINK} mit Standardangriffen verursachte Schaden 110/120/170{NON_BREAK_SPACE}% des ursprünglichen Schadens und der durch ihre Spezialfähigkeit <color=#FFD780FF>Verdorbene Kunst – Zerstörung</color> verursachte Schaden 105/115/160{NON_BREAK_SPACE}% des ursprünglichen Schadens.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_06"
       },
       {
@@ -944,6 +949,7 @@
         "Id": 1142301,
         "Name": "Mentorin aller Waffenkampfkünste",
         "Description": "Die Stufe der <color=#FFD780FF>Elementarfähigkeit</color> der eigenen Truppenmitglieder erhöht sich um 1, wenn die Truppe nur aus <color=#80C0FFFF>Hydro</color>- und <color=#99FFFFFF>Kryo</color>-Figuren besteht und sich mindestens 1 Hydro- und 1 Kryo-Figur darin befinden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_08"
       }
     ],

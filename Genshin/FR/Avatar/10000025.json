@@ -338,6 +338,7 @@
         "Id": 10381,
         "Name": "Style Guhua",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 10382,
         "Name": "Épée Guhua : Pluie battante",
         "Description": "Lance une succession de 2 coups d'épée qui infligent des <color=#80C0FFFF>DGT Hydro</color> aux ennemis en face. En même temps, le personnage déployé s'entoure du nombre maximum d'épées de pluie.\nLes épées de pluie ont les propriétés suivantes :\n· Les épées se brisent lorsque Xingqiu subit des DGT, et ce faisant, réduisent les DGT subis.\n· Augmentent la RÉS à l'interruption du personnage.\n20 % du <color=#80C0FFFF>bonus de DGT Hydro</color> de Xingqiu est converti en réduction de DGT supplémentaire par les épées de pluie.\n\nUn maximum de 24 % de réduction de DGT supplémentaire peut être obtenu de cette manière.\nXingqiu commence avec 3 épées de pluie maximum.\nApplique l'état <color=#80C0FFFF>Trempé</color> à Xingqiu lors du lancement.\n\n<i>« Le dragon est facile à vaincre, mais la goutte de pluie est insaisissable. »</i>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xingqiu_01"
       }
     ],
@@ -690,6 +692,7 @@
       "Id": 10385,
       "Name": "Épée Guhua : Pluie et arc-en-ciel",
       "Description": "Xingqiu fait appel à un déluge d'épées et combat avec une lame arc-en-ciel, tout en s'entourant du nombre maximum d'épées de pluie.\n\n<color=#FFD780FF>Lame arc-en-ciel</color>\n· Les attaques normales infligées par votre personnage déployé libèrent un déluge d'épées et infligent des <color=#80C0FFFF>DGT Hydro</color>.\n· Le nombre d'épées de pluie ne diminue pas.\n\n<i>La Voie des Lames de Pluie est l'un des trois secrets jalousement gardés par le Clan Guhua.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xingqiu_01"
     },
     "Inherents": [
@@ -709,6 +712,7 @@
         "Id": 252101,
         "Name": "Clé d'invocation d'eau",
         "Description": "Lorsqu'une épée de pluie est brisée par des attaques ou se termine, elle restaure les PV du personnage déployé d'une quantité de PV équivalant à 6 % des PV max de Xingqiu.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_05"
       },
       {
@@ -727,6 +731,7 @@
         "Id": 252201,
         "Name": "Lames et gouttes de pluie",
         "Description": "Confère un <color=#80C0FFFF>bonus de DGT Hydro</color> de 20 % à Xingqiu.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xingqiu_06"
       },
       {
@@ -745,6 +750,7 @@
         "Id": 252301,
         "Name": "Illumination",
         "Description": "25 % de chances de récupérer des ressources lors de la synthèse de matériaux d'amélioration d'aptitude.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Talent"
       }
     ],

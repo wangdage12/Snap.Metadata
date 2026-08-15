@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Coup de tourbillon",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 6 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher une attaque ascendante.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.\nXiao ne subit pas de DGT lorsqu'il exécute une attaque plongeante.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Cycle du vent lemniscatique",
         "Description": "Xiao se précipite vers l'avant, infligeant des <color=#80FFD7FF>DGT Anémo</color> aux ennemis sur sa route.\nFonctionne aussi dans les airs.\nXiao commence avec 2 utilisations disponibles.\n\n<i>La légende d'un lointain pays raconte qu'un jour, le monde périra entre deux roues à aubes. La maîtrise totale de la lance permet à Xiao d'écraser ses ennemis, à l'image des roues légendaires écrasant le monde.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Fléau du mal",
       "Description": "Xiao revêt le Masque du Yaksha, qui, il y a bien longtemps, fit trembler dieux et démons.\n\n<color=#FFD780FF>Masque du Yaksha</color>\n· Améliore considérablement la capacité de saut de Xiao.\n· Augmente la portée et les DGT d'attaque.\n· Les DGT d'attaque sont convertis en <color=#80FFD7FF>DGT Anémo</color> ne pouvant pas être enchantés.\n\nCet effet consomme des PV de façon continue.\n\nL'état prend fin lorsque Xiao quitte le champ de bataille.\n\n<i>En revêtant le Masque du Yaksha, Xiao prend la forme terrifiante du Gardien Yaksha Dompteur de démons. Mais un tel pouvoir a un prix... Aussi l'appelle-t-on : le Fléau du mal.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Dompteur de démons : Conquérant du mal",
         "Description": "Xiao inflige 5 % de DGT supplémentaires tant que <color=#FFD780FF>Fléau du mal</color> est actif. Un cumul de 5 % de DGT supplémentaires est ensuite appliqué toutes les 3 s tant que dure la compétence.\nCumul maximum : 25 % de DGT supplémentaires.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Dissolution d'éon : Chute des cieux",
         "Description": "<color=#FFD780FF>Cycle du vent lemniscatique</color> inflige 15 % de DGT en plus lorsqu'il est relancé dans les 7 s.\nCet effet dure 7 s et peut être cumulé 3 fois maximum. Le délai est réinitialisé à chaque nouveau cumul.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Transcendance : Contrôleur de gravité",
         "Description": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors de l'escalade.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Thème.\nIl attend avec impatience le jour où il pourra porter le masque et danser non pas pour conquérir des démons mais au son de cette fameuse flûte, dans un océan de fleurs.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Écho : Gardien Yaksha",
+    "Description": "L'écho peinturé de Xiao. « Protéger le juste, abroger les souffrances... »",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

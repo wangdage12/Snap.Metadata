@@ -277,6 +277,7 @@
         "Id": 10731,
         "Name": "Akara",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 attaques qui infligent des <color=#99FF88FF>DGT Dendro</color> vers l'avant.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour infliger des <color=#99FF88FF>DGT Dendro de zone</color> vers l'avant après un court délai.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <color=#99FF88FF>DGT Dendro de zone</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10732,
         "Name": "Omniscience des plans",
         "Description": "Envoie des liens karmiques des bois autour d'elle, infligeant des <color=#99FF88FF>DGT Dendro de zone</color> et apposant une graine de Skandha à un maximum de 8 ennemis touchés.\nEn cas d'appui long, la compétence est déclenchée différemment.\n\n<color=#FFD780FF>Appui long</color>\nBascule en mode visée, ce qui permet de sélectionner une certaine quantité d'ennemis dans une zone limitée, tout en augmentant la RÉS à l'interruption de Nahida pendant le processus.\nLorsque le mode visée se termine, cette compétence leur inflige des <color=#99FF88FF>DGT Dendro</color> et leur appose une graine de Skandha.\nLe mode visée dure 5 s maximum et permet de sélectionner jusqu'à 8 ennemis.\n\n<color=#FFD780FF>Graine de Skandha</color>\nLes ennemis marqués par une graine de Skandha sont liés les uns aux autres jusqu'à une certaine distance.\nAprès avoir déclenché une réaction élémentaire sur un ennemi affecté par une graine de Skandha ou lui avoir infligé des DGT grâce à un noyau Dendro (incluant Bourgeonnement et Exubérance), Nahida déclenche une purification trikarmique sur cet ennemi et tous les ennemis liés, infligeant des <color=#99FF88FF>DGT Dendro</color> selon son ATQ et sa maîtrise élémentaire.\nLa purification trikarmique ne peut être déclenchée qu'une fois par intervalle de temps défini.\n\n<i>Toisez, la divinité de l'herbe et des arbres fait briller sa vérité ultime dans le vide, éclairant l'origine et la destruction des trois karmas.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nahida_01"
       }
     ],
@@ -757,6 +759,7 @@
       "Id": 10735,
       "Name": "Cœur illusoire",
       "Description": "Manifeste la cour des rêves et déploie le sanctuaire de Maya.\n\nLorsque le champ du sanctuaire de Maya est déclenché, les effets suivants s'appliquent séparément selon les types élémentaires présents dans l'équipe :\n· <color=#FF9999FF>Pyro</color> : lorsque Nahida est dans le sanctuaire de Maya, les DGT infligés par la purification trikarmique d'Omniscience des plans augmentent.\n· <color=#FFACFFFF>Électro</color> : lorsque Nahida est dans le sanctuaire de Maya, l'intervalle de déclenchement entre chaque purification trikarmique d'Omniscience des plans diminue.\n· <color=#80C0FFFF>Hydro</color> : la durée du sanctuaire de Maya augmente.\n\nSi un minimum de 2 personnages des types élémentaires susmentionnés sont présents lorsque le champ est déployé, ces effets augmentent davantage.\n\nMême si Nahida fait partie de l'équipe mais n'est pas déployée, les effets mentionnés ci-dessus peuvent être obtenus tant que l'équipe est dans le sanctuaire de Maya.\n\n<i>Peut-être que tout ce qui habite sous les berceaux des arbres n'est qu'un rêve éphémère inversé aux yeux de la divinité de la sagesse...</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nahida_01"
     },
     "Inherents": [
@@ -779,6 +782,7 @@
         "Id": 732101,
         "Name": "Compassion illuminée",
         "Description": "<color=#FFD780FF>Cœur illusoire</color> accorde l'effet suivant au sanctuaire de Maya :\nAugmente la maîtrise élémentaire du personnage déployé à portée d'une valeur équivalant à 25 % de la maîtrise élémentaire du personnage de l'équipe en ayant le plus.\nLa maîtrise élémentaire peut être augmentée d'un maximum de 250 pts de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nahida_05"
       },
       {
@@ -802,6 +806,7 @@
         "Id": 732201,
         "Name": "Éveil élucidé",
         "Description": "Pour chaque point de maîtrise élémentaire que Nahida possède au-delà de 200 pts, les DGT infligés par la purification trikarmique d'<color=#FFD780FF>Omniscience des plans</color> augmentent de 0,1 % et son taux CRIT de 0,03 %.\nLes DGT de la purification trikarmique peuvent être augmentés d'un maximum de 80 % et son taux CRIT d'un maximum de 24 % de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nahida_06"
       },
       {
@@ -820,6 +825,7 @@
         "Id": 732301,
         "Name": "Universalité méditée",
         "Description": "Nahida peut utiliser <color=#FFD780FF>Omniscience des plans</color> pour interagir avec certains objets récoltables dans une zone d'effet fixe.\nCette compétence peut même avoir d'autres effets...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nahida_07"
       }
     ],

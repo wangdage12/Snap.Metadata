@@ -308,6 +308,7 @@
         "Id": 10801,
         "Name": "Lance de Favonius : Carreau filant",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups d'arbalète et de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10802,
         "Name": "Tourbillon de givre étoilé",
         "Description": "Utilise son arbalète pour attaquer les ennemis et accorde l'état Spirivent à tous les personnages de l'équipe à proximité, tout personnage affecté par cet état voyant sa VIT d'attaque augmenter une fois déployé.\nDifférents effets se produisent selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nTire rapidement une flèche de givreflux qui transperce les ennemis, leur infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Appui long</color>\nBascule en mode visée pour tirer une balise de givrétoile sur un ennemi verrouillé, infligeant des <color=#99FFFFFF>DGT Cryo</color>. Après avoir touché, la balise de givrétoile s'envole avant d'exploser, ce qui projette des éclats de givrétoile sur un maximum de 3 autres ennemis proches, leur infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n\n<i>Les étoiles éclatent sous les cieux givrés.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mika_01"
       }
     ],
@@ -739,6 +741,7 @@
       "Id": 10805,
       "Name": "Chant de plume céleste",
       "Description": "Trouve la force d'encourager ses coéquipiers à partir des prières de l'Ordre de Favonius, restaurant les PV de tous les personnages de l'équipe à proximité selon les PV max de Mika et leur accordant l'état Plume d'alérion.\n\n<color=#FFD780FF>Plume d'alérion</color>\nLorsque l'attaque normale d'un personnage déployé affecté par l'état Plume d'alérion touche un ennemi, Mika restaure les PV de ce dernier selon ses propres PV max.\nLes personnages affectés par ce type d'état ne peuvent restaurer leurs PV de cette manière qu'une fois par court intervalle de temps.\n\n<i>« Porte l'espoir lors d'une situation désespérée, et veille quand tout va bien... Car ce panache blanc finira par guider les voyageurs perdus. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mika_01"
     },
     "Inherents": [
@@ -761,6 +764,7 @@
         "Id": 802101,
         "Name": "Épinglage rapide",
         "Description": "L'état Spirivent de <color=#FFD780FF>Tourbillon de givre étoilé</color> accorde une amélioration de l'effet Localisation dans les situations suivantes afin d'augmenter les DGT physiques infligés par le personnage sur le terrain de 10 % :\n· Si la flèche de givreflux touche plus d'un ennemi, chaque ennemi supplémentaire touché accorde 1 cumul de localisation.\n· Lorsqu'un éclat de givrétoile touche un ennemi, 1 cumul de localisation est accordé. Chaque éclat de givrétoile peut déclencher cet effet une fois.\n\nL'effet Localisation de l'état Spirivent peut être cumulé 3 fois maximum. Si Tourbillon de givre étoilé est utilisé une nouvelle fois pendant la durée, l'état Spirivent existant et l'effet Localisation sont supprimés.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mika_05"
       },
       {
@@ -781,6 +785,7 @@
         "Id": 802201,
         "Name": "Cartographie géomorphologique",
         "Description": "Lorsqu'un personnage déployé affecté simultanément par les états Plume d'alérion de <color=#FFD780FF>Chant de plume céleste</color> et Spirivent de <color=#FFD780FF>Tourbillon de givre étoilé</color> inflige un coup CRIT, l'état Spirivent lui accorde 1 cumul de localisation de l'aptitude d'élévation « Épinglage rapide ». Un état Spirivent peut accorder un maximum de 1 cumul de localisation de cette manière.\nDe plus, le nombre maximum de cumuls de localisation pouvant être obtenus grâce à l'état Spirivent augmente de 1.\nL'aptitude d'élévation « Épinglage rapide » doit être déjà débloquée.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mika_06"
       },
       {
@@ -799,6 +804,7 @@
         "Id": 802301,
         "Name": "Démarcation",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Mondstadt</color> sur la mini-carte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Mengde"
       }
     ],

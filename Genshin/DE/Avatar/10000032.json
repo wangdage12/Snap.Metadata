@@ -308,6 +308,7 @@
         "Id": 10321,
         "Name": "Glücksbringer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -552,6 +553,7 @@
         "Id": 10322,
         "Name": "Überschwänglichkeit",
         "Description": "Bennett konzentriert die Pyro-Kraft und seine Leidenschaft für Abenteuer in seinem Schwert. Je nach Stärke der Konzentration werden verschiedene Effekte erzielt.\n\n<color=#FFD780FF>Drücken</color>\nSchwingt sein mit Flammen überzogenes Schwert einmal nach vorn und verursacht <color=#FF9999FF>Pyro-Schaden</color>.\n\n<color=#FFD780FF>Gedrückt halten</color>\nVerursacht je nach Dauer des Gedrückthaltens unterschiedliche Effekte.\n· Phase 1: Startet einen zweistufigen Angriff, der <color=#FF9999FF>Pyro-Schaden</color> verursacht und Gegner wegschleudert.\n· Phase 2: Startet einen dreistufigen Angriff, der beachtlichen <color=#FF9999FF>Pyro-Schaden</color> und am Ende eine Explosion verursacht, bei der Bennett und seine Gegner weggeschleudert werden. Dabei erleidet Bennett jedoch keinen Schaden.\n\n<i>Bennett steckt seine ganze Leidenschaft und Träume in diesen Pyro-Angriff. Manchmal übertreibt er es aber damit und verursacht eine Explosion.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Bennett_01"
       }
     ],
@@ -768,6 +770,7 @@
       "Id": 10323,
       "Name": "Fantastische Reise",
       "Description": "Bennett springt auf seine Gegner zu, greift sie aus der Luft an, verursacht dabei <color=#FF9999FF>Pyro-Schaden</color> und erstellt ein Feld der Aufmunterung.\n\n<color=#FFD780FF>Feld der Aufmunterung</color>\n· Heilt Figuren mit 70 % oder weniger LP auf diesem Feld fortlaufend basierend auf Bennetts max. LP.\n· Erhöht den ANG der Figuren mit mehr als 70 % LP auf diesem Feld basierend auf Bennetts Basis-ANG.\n· Verleiht den Figuren auf dem Feld das <color=#FF9999FF>Pyro-Attribut</color>.\n\n<i>Bennys Abenteurergruppe gerät jedes Mal aufs Neue in Gefahr. Als einziges Mitglied findet Bennett aber, dass die Abenteuer dadurch überhaupt erst an Spaß und Spannung gewinnen.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Bennett_01"
     },
     "Inherents": [
@@ -787,6 +790,7 @@
         "Id": 322101,
         "Name": "Aufflammen",
         "Description": "Verkürzt die Abklingzeit von <color=#FFD780FF>Überschwänglichkeit</color> um 20 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 322201,
         "Name": "Unerschrockenheit",
         "Description": "Effekte von <color=#FFD780FF>Überschwänglichkeit</color> im Wirkungsbereich von <color=#FFD780FF>Fantastische Reise</color>:\n· Verringert die Abklingzeit um 50 %.\n· Schleudert Bennett beim Aufladen Phase 2 nicht mehr weg.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_06"
       },
       {
@@ -823,6 +828,7 @@
         "Id": 322301,
         "Name": "Vermutlich sicher",
         "Description": "Verkürzt die bei Erkundungen innerhalb des Einflussbereichs von Mondstadt verbrauchte Zeit um 25 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Mengde"
       }
     ],

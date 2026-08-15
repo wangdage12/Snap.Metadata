@@ -292,6 +292,7 @@
         "Id": 10711,
         "Name": "Lança da Invocação",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -477,6 +478,7 @@
         "Name": "Ritual Secreto: Travessia Abissal",
         "Description": "Avança rapidamente, infligindo <color=#FFACFFFF>Dano Electro</color> contra os inimigos no caminho.\n\nQuando Cyno está sob o estado \"Juramento Desbravador\" de seu Supremo \"Ritual Sagrado: Agilidade Lupina\", lançará <color=#FFD780FF>Ritual Mortuário</color>, usando o poder dos raios para infligir <color=#FFACFFFF>Dano Electro em AdE</color> e prolongar a duração de \"Juramento Desbravador\".\n\n<i>\"Esse julgamento não possui escolha. Não há rejeição ou aceitação... Pois já fomos julgados há muito tempo.\"</i>",
         "SpecialDescription": "Avança rapidamente, infligindo <color=#FFACFFFF>Dano Electro</color> contra os inimigos no caminho.\n\nQuando Cyno está sob o estado Juramento Desbravador, lançará <color=#FFD780FF>Ritual Mortuário</color>, usando o poder dos raios para infligir <color=#FFACFFFF>Dano Electro em uma AdE</color>. Se Cyno entrar no estado Juramento Desbravador ao lançar o Supremo <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>, ao lançar <color=#FFD780FF>Ritual Mortuário</color>, prolongará a duração do estado Juramento Desbravador atual.\n\n<i>\"Esse julgamento não possui escolha. Não há rejeição ou aceitação... Pois já fomos julgados há muito tempo.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Cyno_01"
       }
     ],
@@ -497,6 +499,7 @@
         "Id": 712401,
         "Name": "Companheiro Astral Revelador de Caminhos",
         "Description": "Quando não está no estado Juramento Desbravador, depois de lançar a Habilidade Elemental <color=#FFD780FF>Ritual Secreto: Travessia Abissal</color>, Cyno entrará no estado Juramento Desbravador por 6s.\nAlém disso, quando está em {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}, Cyno entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_08"
       }
     ],
@@ -840,6 +843,7 @@
       "Id": 10715,
       "Name": "Ritual Sagrado: Agilidade Lupina",
       "Description": "Invoca um espírito divino para possuí-lo, transformando-o no Juramento Desbravador.\n\n<color=#FFD780FF>Juramento Desbravador</color>\nO Dano que Cyno inflige por Ataques Normais, Carregados e Imersivos é convertido para <color=#FFACFFFF>Dano Electro</color> que não pode ser substituído;\n· Aumenta a Proficiência Elemental de Cyno, aumenta sua Resistência contra Interrupção e o torna imune ao Dano infligido pela reação Eletricamente Carregado.\n\nEsse efeito desaparecerá quando Cyno sair do campo de batalha, e dura até 18s.\n\n<i>Os rituais secretos passados pela nação antiga são como o julgamento final do General Mahamatra.</i>\n<i>Não importa se agora ou no passado, se uma grande tempestade ou serpente, ninguém abalará o poder da lei.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Cyno_01"
     },
     "Inherents": [
@@ -863,6 +867,7 @@
         "Id": 712101,
         "Name": "Julgamento das Plumas",
         "Description": "Quando Cyno está com o estado Juramento Desbravador ativado pelo <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>, Cyno entrará periodicamente no estado \"Vidente do Fim\". Se ele lançar <color=#FFD780FF>Ritual Secreto: Travessia Abissal</color> enquanto estiver neste estado, desencadeará o efeito \"Adjudicação\", aumentando o Dano deste Ritual Secreto: Travessia Abissal em 35%, e disparando 3 Raios da Desolação que infligem 100% do ATQ de Cyno como <color=#FFACFFFF>Dano Electro.</color>\nO Dano do Raio da Desolação é considerado Dano de Habilidade Elemental.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 712201,
         "Name": "Soberania dos Nove Arcos",
         "Description": "Os valores de Dano de Cyno aumentam baseados na Proficiência Elemental do seguinte modo:\n· O Dano de Ataque Normal no estado Juramento Desbravador é aumentado em 150% da Proficiência Elemental.\n· O Dano do Raio da Desolação do seu Talento de Ascensão \"Julgamento das Plumas\" é aumentado em 250% da Proficiência Elemental.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 712301,
         "Name": "O Dom do Silêncio",
         "Description": "Ganha 25% a mais de recompensas quando enviado numa Expedição em Sumeru por 20 horas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_07"
       }
     ],
@@ -934,7 +941,7 @@
       {
         "Id": 714,
         "Name": "Austeridade: Defesa Intimidante",
-        "Description": "Quando Cyno está no estado Juramento Desbravador de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>, ao desencadear as reações Eletricamente Carregado, Carga Lunar, Supercondutor, Sobrecarga, Aceleração, Intensificação, Superflorescimento e Redemoinho Electro, regenerará 3 de Energia Elemental para todos os membros próximos da equipe (com exceção do próprio Cyno).\nEsse efeito pode ser desencadeado até 5 vezes por uso de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>.",
+        "Description": "Quando Cyno está no estado Juramento Desbravador de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>, ao desencadear as reações Eletricamente Carregado, Carga Lunar, Supercondutor, Supercondutor Estelar, Sobrecarga, Aceleração, Intensificação, Superflorescimento e Redemoinho Electro, regenerará 3 de Energia Elemental para todos os personagens próximos da equipe (com exceção do próprio Cyno).\nEsse efeito pode ser desencadeado até 5 vezes por uso de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>.",
         "SpecialDescription": "Quando Cyno está no estado Juramento Desbravador de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>, ao desencadear as reações Eletricamente Carregado, Carga Lunar, Supercondutor, Supercondutor Estelar, Sobrecarga, Aceleração, Intensificação, Superflorescimento e Redemoinho Electro, regenerará 3 de Energia Elemental para todos os membros próximos da equipe (com exceção do próprio Cyno). Esse efeito pode ser desencadeado até 5 vezes por uso de <color=#FFD780FF>Ritual Sagrado: Agilidade Lupina</color>.\n\nQuando outros personagens afetados por <color=#FFD780FF>Acompanhado pelo Sol</color> desencadearem as reações acima, regeneram 20 de Energia Elemental para Cyno. Esse efeito pode ser desencadeado uma vez a cada 18s.",
         "Icon": "UI_Talent_S_Cyno_03"
       },

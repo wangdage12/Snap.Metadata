@@ -261,6 +261,7 @@
         "Id": 11241,
         "Name": "Strike While the Arrow's Hot",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 3 tembakan panah berturut-turut menggunakan busur.\n\n<color=#FFD780FF>Charged Attack</color>\nMelancarkan sebuah <color=#FFD780FF>Serangan Membidik</color> yang lebih akurat untuk mengakibatkan DMG yang lebih besar.\nSaat membidik, angin kuat akan berkumpul di ujung anak panah. Panah dengan angin kuat yang terkumpul penuh akan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nMelancarkan hujan panah dari udara, menerjang tanah dengan kecepatan tinggi, menyerang musuh di jalur terjangan, dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 11242,
         "Name": "Savvy Strategy: Splitting the Spoils",
         "Description": "Jahoda menerjang ke arah musuh, dan memasuki status Shadow Pursuit saat menyentuh musuh. Dalam status ini, Jahoda akan terus bergerak cepat. Jika musuh di sekitar sedang terpengaruh oleh <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color>, maka Jahoda akan diam-diam mengonversi {LINK#N11240001}<color=#FFD780FF>Purr-loined Treasure Flask</color>{/LINK} yang dibawanya menjadi jenis elemen yang sesuai dan akan terus mengisinya. Saat durasi skill ini berakhir atau saat dilancarkan sekali lagi, Jahoda akan mengosongkan <color=#FFD780FF>Purr-loined Treasure Flask</color> ini dan mengakibatkan satu kali <color=#80FFD7FF>Anemo DMG</color> terhadap musuh-musuh di sekitar. Saat <color=#FFD780FF>Purr-loined Treasure Flask</color> sudah penuh, Jahoda juga akan langsung mengosongkannya, keluar dari status Shadow Pursuit, dan mengakibatkan satu kali <color=#80FFD7FF>Anemo DMG</color> yang lebih kuat terhadap musuh di sekitar.\nJika terjangannya tidak mengenai musuh, Jahoda akan melemparkan sebuah bom asap di posisi berdirinya dan mengakibatkan satu kali <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di sekitar.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Saat <color=#FFD780FF>Purr-loined Treasure Flask</color> penuh, Jahoda tidak akan langsung mengosongkannya, melainkan akan terus mengonsumsi elemen yang terkumpul dalam botol selama beberapa waktu, dan secara berkala menembakkan <color=#FFD780FF>Fluffy Meowball</color> terhadap musuh di sekitar, mengakibatkan DMG dengan jenis elemen yang tersimpan di <color=#FFD780FF>Purr-loined Treasure Flask</color>. <color=#FFD780FF>Fluffy Meowball</color> yang mengenai musuh akan memulihkan 2 poin Energy Jahoda. Efek ini hanya dapat terpicu sekali setiap 3,5 detik.\n\n<i>Sebenarnya di dunia ini ada banyak cara untuk membagi-bagi kekayaan, tapi bagi para pemburu dan penimbun harta karun di Nod-Krai, hanya ada satu cara yang sudah terbukti efektif.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Jahoda_01"
       }
     ],
@@ -798,6 +800,7 @@
       "Id": 11245,
       "Name": "Hidden Aces: Seven Tools of the Hunter",
       "Description": "Saatnya mengeluarkan senjata pamungkas! Jahoda mengeluarkan dua buah {LINK#N11240002}<color=#FFD780FF>Purrsonal Coordinated Assistance Robot</color>{/LINK} dan mengakibatkan satu kali <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di sekitar.\n\n<i>\"Saling bantu dan koordinasi? Itu maksudnya kamu 'bantu' kasih Mora, lalu kami yang urus 'koordinasi'-nya. Masuk akal banget, kan?\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Jahoda_01"
     },
     "Inherents": [
@@ -821,6 +824,7 @@
         "Id": 1242101,
         "Name": "Plan to Get Paid",
         "Description": "Saat terdapat setidaknya 1 Karakter dengan jenis elemen <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> dalam party, {LINK#N11240002}<color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color>{/LINK} dari Elemental Burst <color=#FFD780FF>Hidden Aces: Seven Tools of the Hunter</color> akan diperkuat berdasarkan jumlah Karakter dengan jenis elemen yang sesuai dalam party.\n\nJahoda akan diam-diam mencatat Karakter party dengan jenis elemen yang disebutkan di atas. Di antara Karakter tersebut, jika jumlah Karakter terbanyak adalah:\n·<color=#FF9999FF>Pyro</color>: DMG <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> meningkat menjadi 130% DMG awalnya.\n·<color=#80C0FFFF>Hydro</color>: Pemulihan HP <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> menjadi 120% jumlah awalnya.\n·<color=#FFACFFFF>Electro</color>: Jumlah <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> bertambah satu.\n·<color=#99FFFFFF>Cryo</color>: Jeda antar serangan <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> berkurang 10%.\n\nJika jumlah Karakter dengan jenis elemen di atas berjumlah sama, maka prioritas buff yang didapat akan mengikuti sesuai urutan berikut: <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, kemudian <color=#99FFFFFF>Cryo</color>. Pada awalnya, paling banyak hanya efek dari satu jenis elemen yang dapat aktif.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_05"
       },
       {
@@ -842,6 +846,7 @@
         "Id": 1242201,
         "Name": "Sweet Berry Bounty",
         "Description": "Saat {LINK#N11240002}<color=#FFD780FF>Purrsonal Coordinated Assistance Robot</color>{/LINK} dari Elemental Burst <color=#FFD780FF>Hidden Aces: Seven Tools of the Hunter</color> memicu pemulihan HP terhadap Karakter aktif di dalam party dan jika HP Karakter yang dipulihkan lebih tinggi dari 70%, maka Elemental Mastery Karakter ini meningkat 100 poin selama 6 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_06"
       },
       {
@@ -860,6 +865,7 @@
         "Id": 1242301,
         "Name": "Moonsign Benediction: Rooftop Dash",
         "Description": "Saat Jahoda berada di dalam party, <color=#FFD780FF>Moonsign</color> party meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_07"
       },
       {
@@ -878,6 +884,7 @@
         "Id": 1242501,
         "Name": "Backstreet Guile",
         "Description": "Ketika dikirim untuk melakukan ekspedisi di Nod-Krai, waktu yang dibutuhkan berkurang 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_08"
       }
     ],

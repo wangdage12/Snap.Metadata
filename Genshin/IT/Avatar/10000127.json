@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Lancia del giuramento",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti e infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Uccello canterino dell'alba",
         "Description": "#Evoca Aedon, il suo fidato uccello messaggero. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nAedon si scaglia contro i nemici di fronte a sé, infliggendo <color=#FFE699FF>DAN da Geo</color> ai nemici con cui entra in contatto.\n\n<color=#FFD780FF>Pressione prolungata</color>\nEntra in modalità di mira e dà a Aedon l'ordine di scagliarsi contro i nemici puntati, infliggendo <color=#FFE699FF>DAN da Geo</color> agli avversari con cui entra in contatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Riflesso senz'ombra",
       "Description": "#Illuga accende la lanterna, infliggendo <color=#FFE699FF>DAN da Geo ad area</color>, e attiva l'effetto Canto dell'oriolo nella notte spettrale per 20{NON_BREAK_SPACE}s, ottenendo 21 accumuli di {LINK#N11270001}<color=#FFD780FF>Canzone dell'usignolo</color>{/LINK}. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <color=#FFE699FF>DAN da Geo</color> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti in base alla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, si verifica un ulteriore aumento.\nQuando i <color=#FFE699FF>DAN da Geo</color> inflitti in questo modo colpiscono più avversari, vengono consumati più accumuli di Canzone dell'usignolo in base al numero di avversari colpiti.\n\nInoltre, se in campo sono presenti dei <color=#FFE699FF>costrutti di Geo</color> creati dai membri vicini del gruppo quando Illuga scatena il suo Tripudio elementale, o se i membri vicini del gruppo creano dei <color=#FFE699FF>costrutti di Geo</color> mentre l'effetto di Canto dell'oriolo nella notte spettrale è attivo, ogni <color=#FFE699FF>costrutto di Geo</color> in campo permette a Illuga di ottenere 5 accumuli aggiuntivi di Canzone dell'usignolo. Illuga può ottenere in questo modo un massimo di 15 accumuli aggiuntivi nei 20{NON_BREAK_SPACE}s successivi all'attivazione del Tripudio elementale.\n\nQuando vengono consumati tutti gli accumuli di Canzone dell'usignolo, o quando la durata di questo stato termina, anche l'effetto Canto dell'oriolo nella notte spettrale finisce.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Patto del Forgialuce",
         "Description": "#Dopo aver usato l'abilità elementale <color=#FFD780FF>{LINK#S11272}Uccello canterino dell'alba{/LINK}</color> o il Tripudio elementale <color=#FFD780FF>{LINK#S11275}Riflesso senz'ombra{/LINK}</color>, gli altri membri vicini del gruppo ottengono l'effetto Giuramento del Guardaluce per 20{NON_BREAK_SPACE}s: per i <color=#FFE699FF>DAN da Geo</color> inflitti agli avversari, il tasso di CRIT e i DAN da CRIT aumentano rispettivamente di un 5% e di un 10%.\n\n<color=#FFD780FF>Presagio lunare: Barlume ascendente</color>\nLa maestria elementale dei personaggi del gruppo potenziati dall'effetto Giuramento del Guardaluce aumenta di 50.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "Crepuscolo del Cacciademoni",
         "Description": "Gli effetti di {LINK#N11270001}<color=#FFD780FF>Canzone dell'usignolo</color>{/LINK} sono potenziati. Quando ci sono 1/2/3 personaggi di <color=#80C0FFFF>Hydro</color> o <color=#FFE699FF>Geo</color> nel gruppo, i DAN di Canzone dell'usignolo aumentano ulteriormente. L'aumento dei DAN è pari a un 7%/14%/24% della maestria elementale di Illuga. Se i DAN sopracitati vengono inflitti da una reazione di Cristallizzazione lunare, l'aumento dei DAN è pari a un 48%/96%/160% della maestria elementale di Illuga.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Benedizione del Presagio lunare: Resilienza d'inverno",
         "Description": "Quando Illuga è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Marcia del guardiano della notte",
         "Description": "Di notte (18:00-06:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.\nNon ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.\nInoltre, Illuga sembra in grado di decifrare i sussurri della Caccia selvaggia...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

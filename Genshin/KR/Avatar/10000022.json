@@ -351,6 +351,7 @@
         "Name": "신성한 사격술",
         "Description": "<color=#FFD780FF>일반 공격</color>\n활로 최대 6번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n피해가 더 크고 정확한 <color=#FFD780FF>조준 사격</color>을 한다.\n조준 시 천지를 보살피는 바람이 화살 촉에 계속해서 모인다. 바람의 힘이 가득 찬 화살은 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
         "SpecialDescription": "<color=#FFD780FF>일반 공격</color>\n활로 최대 6번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n피해가 더 크고 정확한 <color=#FFD780FF>조준 사격</color>을 한다.\n조준 시 천지를 보살피는 바람이 화살 촉에 계속해서 모인다. 바람의 힘이 가득 찬 화살은 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n원소폭발 <color=#FFD780FF>바람 신의 시</color>가 만든 폭풍의 눈이 존재하는 동안, 벤티가 추가 강화 효과를 획득한다:\n·벤티의 일반 공격이 적을 관통하는 <color=#FFD780FF>폭풍 화살</color>로 변경되어 경로상의 적에게 더 큰 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n·벤티의 일반 공격이 적에게 명중 시, 폭풍의 눈 지속 시간이 1초 연장되고 재사용 대기시간이 0.5초 연장된다. 해당 효과는 0.1초마다 최대 1회 발동되며, 원소폭발 <color=#FFD780FF>바람 신의 시</color>를 발동할 때마다, 최대 2번 발동할 수 있다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -519,6 +520,7 @@
         "Id": 10224,
         "Name": "높은 하늘의 노래",
         "Description": "시와 노래와 함께 울려 퍼지는 바람을 소환해 흙먼지 위를 걷는 사물을 높은 하늘로 띄워보자.\n\n<color=#FFD780FF>짧은 터치</color>\n적이 있는 위치에 바람의 영역을 소환해 <color=#80FFD7FF>바람 원소 범위 피해</color>를 주고 적을 공중에 띄운다.\n\n<color=#FFD780FF>홀드</color>\n자신을 중심으로 더 큰 바람의 영역을 만들어내 <color=#80FFD7FF>바람 원소 범위 피해</color>를 주고 적을 공중에 띄운다.\n홀드하여 발동한 뒤 벤티는 바람을 타고 공중에 떠오른다.\n\n공중에 띄워진 적은 짧은 시간 내에 천천히 추락한다.\n\n<i>사람과 신이 함께했던 시대에 수많은 노래가 사방으로 울려 퍼졌다. 이건 이미 오래전에 잊혀진 멜로디이다</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Venti_01"
       }
     ],
@@ -542,7 +544,8 @@
         },
         "Id": 225101,
         "Name": "마녀의 전야제·시간과 바람",
-        "Description": "<color=#FFD780FF>마녀의 과제·바람이 시작되는 곳</color>을 완료하면, 벤티가 <color=#FFD780FF>마도</color> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <color=#FFD780FF>마도·비밀 의식</color> 효과를 획득해 마도 캐릭터가 강화된다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n원소폭발 <color=#FFD780FF>바람 신의 시</color>로 생성된 폭풍의 눈이 존재하는 경우, 주변의 현재 필드 위 캐릭터가 확산 반응을 발동한 후 4초 동안 해당 캐릭터가 주는 피해가 50% 증가하며, 벤티 자신의 폭풍의 눈이 기존의 135%에 해당하는 피해를 준다",
+        "Description": "<color=#FFD780FF>마녀의 과제·바람이 시작되는 곳</color>을 완료하면, 벤티가 <color=#FFD780FF>마도</color> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <color=#FFD780FF>마도·비밀 의식</color> 효과를 획득해 마도 캐릭터가 강화된다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n원소폭발 <color=#FFD780FF>바람 신의 시</color>로 생성된 폭풍의 눈이 존재하는 경우, 주변의 현재 필드 위 캐릭터가 확산 또는 별 확산 반응을 발동한 후 4초 동안 해당 캐릭터가 주는 피해가 50% 증가하며, 벤티 자신의 폭풍의 눈이 기존의 135%에 해당하는 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_07"
       }
     ],
@@ -728,6 +731,7 @@
       "Id": 10225,
       "Name": "바람신의 시",
       "Description": "천풍이 모여 만들어진 화살을 쏴 전방에 거대한 폭풍의 눈을 만들어내 적을 감아올려 <color=#80FFD7FF>바람 원소 피해</color>를 계속 준다.\n\n<color=#FFD780FF>원소 전환</color>\n폭풍의 눈은 스킬을 발동하는 동안 <color=#80C0FFFF>물 원소</color>/<color=#FF9999FF>불 원소</color>/<color=#99FFFFFF>얼음 원소</color>/<color=#FFACFFFF>번개 원소</color>에 닿으면 상응하는 원소 속성을 획득하고 추가로 해당 속성 피해를 준다.\n원소 전환은 스킬이 발동되는 동안 1회만 발생한다.\n\n<i>바람의 신을 칭송하는 수많은 잃어버린 시편 중 하나인 이 시는 그와 바람의 힘을 묘사했다</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Venti_01"
     },
     "Inherents": [
@@ -749,6 +753,7 @@
         "Id": 222101,
         "Name": "여풍의 포옹",
         "Description": "<color=#FFD780FF>높은 하늘의 노래</color>를 홀드하면 상승 기류가 생성된다. 지속 시간: 20초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_05"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 222201,
         "Name": "폭풍의 눈",
         "Description": "<color=#FFD780FF>바람 신의 시</color> 효과 종료 후 벤티의 원소 에너지를 15pt 회복한다.\n만약 원소 전환이 발생하면 같은 원소에 해당하는 파티 내 모든 캐릭터의 원소 에너지를 15pt 회복한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_06"
       },
       {
@@ -788,6 +794,7 @@
         "Id": 222301,
         "Name": "항풍과 함께",
         "Description": "파티 내 자신의 캐릭터의 활강 시 소모하는 스태미나가 20% 감소한다.\n같은 효과의 고유 특성과 중첩되지 않는다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Glide"
       }
     ],

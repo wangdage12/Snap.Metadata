@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "Spear of Favonius — Broken Oath",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nโจมตีต่อเนื่องมากสุด 5 ครั้ง\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายส่วนหนึ่ง ทำการพุ่งไปข้างหน้าเพื่อโจมตี\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "Unforeseen Strike",
         "Description": "ค้นหาช่องโหว่ของศัตรู แล้วเปลี่ยนเข้าสู่สถานะ {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} ภายใต้สถานะนี้:\n·Lohen สามารถสะสม {LINK#N11290003}<color=#FFD780FF>ความสำราญ</color>{/LINK}ด้วยตัวเอง เพื่อปล่อยสกิลธาตุพิเศษ {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK};\n·ตัวละครอื่นในทีมที่อยู่ใกล้เคียงสามารถสะสม {LINK#N11290004}<color=#FFD780FF>จิตชิงชัย</color>{/LINK} ให้กับ Lohen เพื่อเพิ่มความเสียหายของ <color=#FFD780FF>Etched Into Bone and Soul</color> ได้\nหลังจากปล่อย <color=#FFD780FF>Etched Into Bone and Soul</color> มากสุด 3 ครั้งขณะอยู่ในสถานะ <color=#FFD780FF>Masterstroke</color> จะไม่สามารถรับ <color=#FFD780FF>ความสำราญ</color> ได้อีก\n\n<i>\"วิถีอัศวินเหรอ? ฮ่า นั่นน่ะเป็นเหยื่อล่อชั้นดีเลยล่ะ เวลาที่ศัตรูยังเพ้อฝันว่า จะตัดสินแพ้ชนะกันอย่างยุติธรรม คงนึกไม่ถึงหรอกว่ามี 'เซอร์ไพรส์' แบบไหนรอพวกเขาอยู่\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "Witch's Eve Rite: Unhealing Thorn",
         "Description": "หลังจากสำเร็จ <color=#FFD780FF>แบบฝึกหัดของแม่มด: ปริศนาแห่งอริศัตรู</color> Lohen จะกลายเป็นตัวละคร<color=#FFD780FF>มนตรา</color> เมื่อจัดทีมที่มีตัวละครมนตราอย่างน้อย 2 ตัว จะได้รับเอฟเฟกต์ <color=#FFD780FF>Hexerei: Secret Rite</color> ซึ่งจะเสริมพลังให้กับตัวละครมนตรา\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nเมื่อสกิลธาตุพิเศษ {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK} โจมตีโดนศัตรูหรือเมื่อปล่อยท่าไม้ตาย <color=#FFD780FF>Manifest Judgment</color> หากมี{LINK#N11290004}<color=#FFD780FF>จิตชิงชัย</color>{/LINK}อย่างน้อย 50% ของขีดจำกัดสูงสุด การโจมตีปกติและชาร์จโจมตีของ Lohen จะสร้างความเสียหายเพิ่มขึ้น 40% เป็นเวลา 6 วินาที",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -903,6 +906,7 @@
       "Id": 11295,
       "Name": "Manifest Judgment",
       "Description": "ฟาดโจมตีไปข้างหน้าอย่างรวดเร็วและต่อเนื่อง ใช้ {LINK#N11290004}<color=#FFD780FF>จิตชิงชัย</color>{/LINK} ทั้งหมด สร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> และเพิ่มความเสียหายในครั้งนี้ตาม<color=#FFD780FF>จิตชิงชัย</color>ที่ใช้ไป หาก Lohen อยู่ในสถานะ {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} ในขณะที่ปล่อย จะขยายระยะเวลาต่อเนื่องของสถานะ <color=#FFD780FF>Masterstroke</color> ออกไปอีก 1.65 วินาที\n\n<i>\"ยอมแพ้เร็วจัง? ฉันยังสนุกไม่หนำใจเลย\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "Moratorium on Questioning",
         "Description": "ขณะอยู่ในสถานะ {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} เมื่อตัวละครอื่นในทีมที่อยู่ใกล้เคียงสะสม{LINK#N11290004}<color=#FFD780FF>จิตชิงชัย</color>{/LINK}ให้กับ Lohen ด้วยการสร้างความเสียหาย หากความเสียหายในครั้งนี้ไม่ต่ำกว่า 3,000% ของพลังโจมตีพื้นฐานของ Lohen จะสะสม<color=#FFD780FF>จิตชิงชัย</color>ให้กับ Lohen เพิ่มเติมอีก 60 หน่วย",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "Flippant Masterpiece",
         "Description": "ภายใต้สถานะ {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} ภายใน 8 วินาที หลังจากตัวละครอื่นในทีมที่อยู่ใกล้เคียงทำให้เกิด<color=#99FFFFFF>ปฏิกิริยาที่เกี่ยวข้องกับธาตุน้ำแข็ง</color> กับศัตรู พลังโจมตีของตัวละครดังกล่าวจะเพิ่มขึ้น 15% และพลังโจมตีของ Lohen จะเพิ่มขึ้น 15%",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "When the Mood Strikes",
         "Description": "หลังจากปล่อยสกิลธาตุ <color=#FFD780FF>Unforeseen Strike</color> แล้ว Lohen จะได้รับเอฟเฟกต์ \"High Spirits\" เป็นเวลา 9 วินาที: ในช่วงเวลาต่อเนื่อง เลเวลสกิลของสกิลธาตุ <color=#FFD780FF>Unforeseen Strike</color> จะเพิ่มขึ้น 1 ระดับ\nเมื่อใช้สกิลธาตุ หากในบรรดาการโจมตีปกติ สกิลธาตุ หรือท่าไม้ตายของตัวละครอื่นในทีม มีเลเวลสกิลใดสกิลหนึ่งไม่ต่ำกว่าเลเวลของสกิลธาตุของ Lohen ระยะเวลาของเอฟเฟกต์ \"High Spirits\" ในครั้งนี้จะเพิ่มขึ้นอีก 6 วินาที\nทุก 18 วินาที จะได้รับเอฟเฟกต์ \"High Spirits\" มากสุดหนึ่งครั้ง",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],

@@ -323,6 +323,7 @@
         "Id": 10641,
         "Name": "Caresse des nuages",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -522,6 +523,7 @@
         "Id": 10642,
         "Name": "Épanouissement ouvert",
         "Description": "Bien que maître Yun ne fasse que jouer la comédie lors de ses combats sur scène, ses talents avec une lance sont bien réels.\n\n<color=#FFD780FF>Appui simple</color>\nBrandit sa lance pour caresser les nuages, infligeant des <color=#FFE699FF>DGT Géo</color>.\n\n<color=#FFD780FF>Appui long</color>\nAdopte la posture de l'épanouissement ouvert pour se charger, formant ainsi un bouclier. L'absorption de DGT du bouclier est fonction des PV max de Yun Jin, et il est efficace à 150 % contre les DGT élémentaires et physiques. Le bouclier dure jusqu'à ce qu'elle finisse de libérer sa compétence élémentaire.\nLorsque vous relâchez la compétence, que la durée prend fin ou que le bouclier est détruit, Yun Jin libère l'énergie stockée sous forme d'attaque, infligeant des <color=#FFE699FF>DGT Géo</color>.\nEn fonction du temps passé à charger, une attaque de 1e ou 2e charge sera déclenchée.\n\n<i>Pour un unique moment glorieux sur scène, une décennie de préparation en coulisses...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Yunjin_01"
       }
     ],
@@ -723,6 +725,7 @@
       "Id": 10643,
       "Name": "Bannière de rupture des falaises",
       "Description": "Inflige des <color=#FFE699FF>DGT Géo de zone</color> et accorde une formation de bannière de nuagerie à tous les personnages de l'équipe à proximité.\n\n<color=#FFD780FF>Formation de bannière de nuagerie</color>\nLorsque le personnage inflige des DGT d'attaque normale à un ennemi, les DGT infligés augmentent en fonction de la DÉF actuelle de Yun Jin.\n\nLes effets de la formation de bannière de nuagerie disparaissent à la fin de sa durée ou après avoir activé un certain nombre de cumuls.\nLorsqu'une attaque normale touche plusieurs ennemis en même temps, les cumuls sont consommés selon le nombre d'ennemis touchés. Les cumuls de formation de bannière de nuagerie sont calculés indépendamment pour tous les personnages de l'équipe.\n\n<i>« Alors que les tambours résonnent et que les épées et les hallebardes s'entrechoquent, la doyenne se transforme en un puissant général. »</i>\n<i>« Tandis que les instruments sur scène vibrent à l'unisson, voyons comment elle vainc ces démons ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Yunjin_01"
     },
     "Inherents": [
@@ -742,6 +745,7 @@
         "Id": 642101,
         "Name": "Fidèle à soi-même",
         "Description": "Lorsque Yun Jin utilise <color=#FFD780FF>Épanouissement ouvert</color> au moment exact où elle est attaquée, elle déclenche sa 2e charge.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_05"
       },
       {
@@ -765,6 +769,7 @@
         "Id": 642201,
         "Name": "Rejet des conventions",
         "Description": "Lorsque l'équipe comprend des personnages de 1/2/3/4 types élémentaires, le bonus de DGT d'attaque normale accordé par une <color=#FFD780FF>formation de bannière de nuagerie</color> augmente davantage d'une valeur équivalant à 2,5 %/5 %/7,5 %/11,5 % de la DÉF de Yun Jin.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_06"
       },
       {
@@ -783,6 +788,7 @@
         "Id": 642301,
         "Name": "Nutrition optimisée",
         "Description": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui a des effets sur l'exploration.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yunjin_07"
       }
     ],

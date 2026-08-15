@@ -261,6 +261,7 @@
         "Id": 11091,
         "Name": "Corazón puro, sueños puros",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques, los cuales infligen <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante e inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder Anemo y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -270,7 +271,8 @@
             "Daño de habilidad|{param4:F1P}",
             "Daño de ataque continuo|{param1:F1P}",
             "#Duración de navegasueños|{param5:F1}{NON_BREAK_SPACE}s",
-            "Aumento de daño de Torbellino|{param2:F2P}/pt. de Maestría Elemental",
+            "#Aumento de daño de Torbellino|{param2:F2P}/100{NON_BREAK_SPACE}pts. de Maestría Elemental",
+            "#Aumento de daño de Torbellino Estelar|{param6:F2P}/100{NON_BREAK_SPACE}pts. de Maestría Elemental",
             "TdE|{param3:F1} s"
           ],
           "Parameters": [
@@ -279,10 +281,11 @@
               "Level": 1,
               "Parameters": [
                 0.44912,
-                0.0018,
+                0.18,
                 15,
                 0.57744,
-                5
+                5,
+                0.018
               ]
             },
             {
@@ -290,10 +293,11 @@
               "Level": 2,
               "Parameters": [
                 0.482804,
-                0.0021,
+                0.21,
                 15,
                 0.620748,
-                5
+                5,
+                0.021
               ]
             },
             {
@@ -301,10 +305,11 @@
               "Level": 3,
               "Parameters": [
                 0.516488,
-                0.0024,
+                0.24,
                 15,
                 0.664056,
-                5
+                5,
+                0.024
               ]
             },
             {
@@ -312,10 +317,11 @@
               "Level": 4,
               "Parameters": [
                 0.5614,
-                0.0027,
+                0.27,
                 15,
                 0.7218,
-                5
+                5,
+                0.027
               ]
             },
             {
@@ -323,10 +329,11 @@
               "Level": 5,
               "Parameters": [
                 0.595084,
-                0.003,
+                0.3,
                 15,
                 0.765108,
-                5
+                5,
+                0.03
               ]
             },
             {
@@ -334,10 +341,11 @@
               "Level": 6,
               "Parameters": [
                 0.628768,
-                0.0033,
+                0.33,
                 15,
                 0.808416,
-                5
+                5,
+                0.033
               ]
             },
             {
@@ -345,10 +353,11 @@
               "Level": 7,
               "Parameters": [
                 0.67368,
-                0.0036,
+                0.36,
                 15,
                 0.86616,
-                5
+                5,
+                0.036
               ]
             },
             {
@@ -356,10 +365,11 @@
               "Level": 8,
               "Parameters": [
                 0.718592,
-                0.0039,
+                0.39,
                 15,
                 0.923904,
-                5
+                5,
+                0.039
               ]
             },
             {
@@ -367,10 +377,11 @@
               "Level": 9,
               "Parameters": [
                 0.763504,
-                0.0042,
+                0.42,
                 15,
                 0.981648,
-                5
+                5,
+                0.042
               ]
             },
             {
@@ -378,10 +389,11 @@
               "Level": 10,
               "Parameters": [
                 0.808416,
-                0.0045,
+                0.45,
                 15,
                 1.039392,
-                5
+                5,
+                0.045
               ]
             },
             {
@@ -389,10 +401,11 @@
               "Level": 11,
               "Parameters": [
                 0.853328,
-                0.0048,
+                0.48,
                 15,
                 1.097136,
-                5
+                5,
+                0.048
               ]
             },
             {
@@ -400,10 +413,11 @@
               "Level": 12,
               "Parameters": [
                 0.89824,
-                0.0051,
+                0.51,
                 15,
                 1.15488,
-                5
+                5,
+                0.051
               ]
             },
             {
@@ -411,10 +425,11 @@
               "Level": 13,
               "Parameters": [
                 0.95438,
-                0.0054,
+                0.54,
                 15,
                 1.22706,
-                5
+                5,
+                0.054
               ]
             },
             {
@@ -422,10 +437,11 @@
               "Level": 14,
               "Parameters": [
                 1.01052,
-                0.0057,
+                0.57,
                 15,
                 1.29924,
-                5
+                5,
+                0.057
               ]
             },
             {
@@ -433,10 +449,11 @@
               "Level": 15,
               "Parameters": [
                 1.06666,
-                0.006,
+                0.6,
                 15,
                 1.37142,
-                5
+                5,
+                0.06
               ]
             }
           ],
@@ -444,7 +461,8 @@
         },
         "Id": 11092,
         "Name": "Peregrinaje de Aisa Utamakura",
-        "Description": "Teje dulces recuerdos oníricos y entra en el estado de <color=#FFD780FF>navegasueños</color>, durante el cual flota a ras de suelo e inflige una vez <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Navegasueños</color>\n·Mientras está en este estado, Yumemizuki Mizuki flota continuamente hacia delante e inflige cada cierto tiempo <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos.\n·Mientras el estado de navegasueños está activo, Yumemizuki Mizuki puede controlar la dirección en la que flota y aumenta la distancia desde la que se pueden recoger los <color=#FFD780FF>dulces especiales de Yumemizuki</color> de la Habilidad Definitiva, <color=#FFD780FF>Terapia del manantial de Anraku</color>.\n·Aumenta el daño de la reacción de Torbellino causada por los personajes cercanos del equipo en función de la Maestría Elemental de Yumemizuki Mizuki.\n·El estado de navegasueños termina cuando Mizuki sea retirada del campo de batalla o utilice de nuevo su Habilidad Elemental.\n\n<i>“Noche y luna sueñan con encontrarse, mas su canción resuena en nuestros corazones”.</i>",
+        "Description": "Teje dulces recuerdos oníricos y entra en el estado de <color=#FFD780FF>navegasueños</color>, durante el cual flota a ras de suelo e inflige una vez <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Navegasueños</color>\n·Mientras está en este estado, Yumemizuki Mizuki flota continuamente hacia delante e inflige cada cierto tiempo <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos.\n·Mientras el estado de navegasueños está activo, Yumemizuki Mizuki puede controlar la dirección en la que flota y aumenta la distancia desde la que se pueden recoger los <color=#FFD780FF>dulces especiales de Yumemizuki</color> de la Habilidad Definitiva, <color=#FFD780FF>Terapia del manantial de Anraku</color>.\n·Aumenta el daño de las reacciones de Torbellino y Torbellino Estelar causadas por los personajes cercanos del equipo en función de la Maestría Elemental de Yumemizuki Mizuki.\n·El estado de navegasueños termina cuando Mizuki sea retirada del campo de batalla o utilice de nuevo su Habilidad Elemental.\n\n<i>“Noche y luna sueñan con encontrarse, mas su canción resuena en nuestros corazones”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mizuki_01"
       }
     ],
@@ -461,7 +479,7 @@
                 10,
                 2.5,
                 0.1,
-                5
+                10
               ]
             }
           ],
@@ -469,7 +487,8 @@
         },
         "Id": 1095101,
         "Name": "Inmensidad del ensueño",
-        "Description": "#Cuando Yumemizuki Mizuki cause una reacción de Torbellino en estado de navegasueños, el próximo <color=#80FFD7FF>Daño Anemo en el AdE</color> periódico que inflija a los enemigos cercanos durante ese estado de navegasueños aumentará en una cantidad equivalente al 1000% de su Maestría Elemental. Este efecto solo se puede activar una vez cada 2.5{NON_BREAK_SPACE}s.\nAdemás, mientras esté en estado de navegasueños, la Maestría Elemental de los personajes cercanos del equipo aumentará en una cantidad equivalente al 10% de la Maestría Elemental de Yumemizuki Mizuki.",
+        "Description": "#Cuando Yumemizuki Mizuki cause una reacción de Torbellino o Torbellino Estelar en estado de navegasueños, el próximo <color=#80FFD7FF>Daño Anemo en el AdE</color> periódico que inflija a los enemigos cercanos durante ese estado de navegasueños aumentará en una cantidad equivalente al 1000% de su Maestría Elemental. Este efecto solo se puede activar una vez cada 2.5{NON_BREAK_SPACE}s.\n<color=#FFD780FF>Esplendor: Torbellino Estelar</color>\nCuando Yumemizuki Mizuki inflija a un enemigo <color=#80FFD7FF>Daño Anemo en el AdE</color> potenciado de la anterior manera, también infligirá una vez adicional <color=#80FFD7FF>Daño Anemo</color> en una cantidad equivalente al 1000% de su Maestría Elemental. Este daño se considera daño de Torbellino Estelar.\n\nAdemás, mientras esté en estado de navegasueños, la Maestría Elemental de los personajes cercanos del equipo aumentará en una cantidad equivalente al 10% de la Maestría Elemental de Yumemizuki Mizuki.\nDurante 8{NON_BREAK_SPACE}s después de que un personaje del equipo cause una reacción de Torbellino Estelar en las cercanías, Yumemizuki Mizuki entrará en el estado de <color=#FFD780FF>esplendor: Torbellino Estelar</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_08"
       }
     ],
@@ -686,6 +705,7 @@
       "Id": 11095,
       "Name": "Terapia del manantial de Anraku",
       "Description": "Invoca los recuerdos de innumerables sueños y pesadillas para atraer los objetos y enemigos cercanos, infligir <color=#80FFD7FF>Daño Anemo en el AdE</color> e invocar a una minibaku para que la ayude.\n\n<color=#FFD780FF>Minibaku</color>\nAcompaña al personaje en uso. Cada cierto tiempo, la minibaku crea 1 dulce especial de Yumemizuki en un lugar cercano. Cuando alguno de tus personajes recoja un dulce, si su Vida es superior al 70%, el dulce explota y libera una onda de choque munen que inflige una vez <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos. Si la Vida no es superior al 70%, restaurará Vida a quien lo recogió en función de la Maestría Elemental de Yumemizuki Mizuki. Si es ella quien recupera Vida por haber recogido un dulce, la cantidad de Vida restaurada aumenta en un 100%. Los dulces que no se recojan después de cierto tiempo explotarán y liberarán una onda de choque munen que inflige una vez <color=#80FFD7FF>Daño Anemo en el AdE</color> a los enemigos cercanos.\n\n<i>“Si ocultas una emoción oscura durante demasiado tiempo, se convertirá en una pesadilla. Con eso en mente, ¿por qué no convertirla en un ‘dulce delicioso’ y comértela para hacerla desaparecer?”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mizuki_01"
     },
     "Inherents": [
@@ -704,7 +724,8 @@
         },
         "Id": 1092101,
         "Name": "Voz trémula de la luna",
-        "Description": "#Cuando Yumemizuki Mizuki causa una reacción de Torbellino mientras se encuentra en estado de navegasueños, la duración de dicho estado aumenta en 2.5{NON_BREAK_SPACE}s. Este efecto solo puede activarse una vez cada 0.3{NON_BREAK_SPACE}s y puede ocurrir, como máximo, 2 veces durante un mismo estado de navegasueños.",
+        "Description": "#Cuando Yumemizuki Mizuki causa una reacción de Torbellino o Torbellino Estelar mientras se encuentra en estado de navegasueños, la duración de dicho estado aumenta en 2.5{NON_BREAK_SPACE}s. Este efecto solo puede activarse una vez cada 0.3{NON_BREAK_SPACE}s y puede ocurrir, como máximo, 2 veces durante un mismo estado de navegasueños.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_05"
       },
       {
@@ -726,6 +747,7 @@
         "Id": 1092201,
         "Name": "Pensamientos diurnos, sueños nocturnos",
         "Description": "#Mientras Yumemizuki Mizuki se encuentre en estado de navegasueños, cuando otros miembros del equipo cercanos golpeen a un enemigo con un ataque <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> o <color=#FFACFFFF>Electro</color>, la Maestría Elemental de Yumemizuki Mizuki aumenta en 100{NON_BREAK_SPACE}pts. durante 4{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_06"
       },
       {
@@ -746,6 +768,7 @@
         "Id": 1092301,
         "Name": "Desvanecimiento del dolor",
         "Description": "#Cuando Yumemizuki Mizuki está en el equipo y tus personajes del equipo usan comida regenerativa que no tenga la función de revivir, hay cierta probabilidad de que sus efectos regenerativos se potencien un 30%. La probabilidad de que se active este efecto depende del Niv. de Amistad del personaje correspondiente (este efecto siempre se activará si {F#la Viajera}{M#el Viajero} es quien consume la comida regenerativa).",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_07"
       }
     ],
@@ -753,8 +776,8 @@
       {
         "Id": 1091,
         "Name": "Aguas brumosas",
-        "Description": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará continuamente el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Cuando un enemigo se vea afectado por una reacción de Torbellino causada con Daño Anemo, este efecto se cancelará y el daño de dicha reacción de Torbellino contra este enemigo aumentará en una cantidad equivalente al 1100% de la Maestría Elemental de Mizuki.",
-        "SpecialDescription": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Al infligir Daño Anemo a estos enemigos y causar contra ellos una reacción de Torbellino, este efecto se cancelará y el daño de dicha reacción de Torbellino contra esos enemigos aumentará en una cantidad equivalente al 1100% de la Maestría Elemental de Yumemizuki Mizuki, además de realizar un ataque adicional contra dichos enemigos que inflige <color=#80FFD7FF>Daño Anemo</color> en una cantidad equivalente al 1000% de la Maestría Elemental de Yumemizuki Mizuki.",
+        "Description": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Al infligir Daño Anemo a estos enemigos y causar contra ellos una reacción de Torbellino o Torbellino Estelar, este efecto se cancelará y el daño de dicha reacción de Torbellino o Torbellino Estelar contra esos enemigos aumentará respectivamente en una cantidad equivalente al 1100/550% de la Maestría Elemental de Yumemizuki Mizuki.",
+        "SpecialDescription": "#Cuando Yumemizuki Mizuki se encuentra en estado de navegasueños, aplicará el efecto de “veintitrés noches de espera” a los enemigos cercanos durante 3{NON_BREAK_SPACE}s cada 3.5{NON_BREAK_SPACE}s. Al infligir Daño Anemo a estos enemigos y causar contra ellos una reacción de Torbellino o Torbellino Estelar, este efecto se cancelará y el daño de dicha reacción de Torbellino o Torbellino Estelar contra esos enemigos aumentará respectivamente en una cantidad equivalente al 1100/550% de la Maestría Elemental de Yumemizuki Mizuki, además de realizar un ataque adicional contra dichos enemigos que inflige <color=#80FFD7FF>Daño Anemo</color> en una cantidad equivalente al 1000% de la Maestría Elemental de Yumemizuki Mizuki.\n<color=#FFD780FF>Esplendor: Torbellino Estelar</color>\nEl daño adicional anteriormente mencionado se convierte en <color=#80FFD7FF>Daño Anemo</color> equivalente al 400% de la Maestría Elemental de Yumemizuki Mizuki, y se considera daño de Torbellino Estelar.",
         "Icon": "UI_Talent_S_Mizuki_01"
       },
       {
@@ -794,8 +817,8 @@
       {
         "Id": 1096,
         "Name": "Anhelo persistente",
-        "Description": "Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo puede asestar golpes CRIT, con un índice fijo de Prob. CRIT del 30% y un Daño CRIT del 100%.",
-        "SpecialDescription": "#Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo puede asestar golpes CRIT, con unos índices fijos de Prob. CRIT y Daño CRIT del 30% y 100% respectivamente.\nPor cada punto de Maestría Elemental que Yumemizuki Mizuki tenga por encima de los 500{NON_BREAK_SPACE}pts., su Prob. CRIT aumentará en un 0.04% y su Daño CRIT en un 0.16%. Como máximo, la Prob. CRIT y el Daño CRIT de Yumemizuki Mizuki pueden aumentar en un 20% y un 80% respectivamente de esta forma.",
+        "Description": "Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo puede asestar golpes CRIT, con un índice fijo de Prob. CRIT del 30% y un Daño CRIT del 100%, y además, aumenta en un 10% la Prob. CRIT y en un 20% el Daño CRIT del daño de Torbellino Estelar infligido por dichos personajes.",
+        "SpecialDescription": "#Mientras Yumemizuki Mizuki esté en el estado de navegasueños, el daño de Torbellino infligido por los personajes cercanos del equipo podrá asestar golpes CRIT, con unos índices fijos de Prob. CRIT y Daño CRIT del 30% y 100% respectivamente. La Prob. CRIT y el Daño CRIT de las reacciones de Torbellino Estelar causadas por dichos personajes aumentarán en un 10% y un 20% respectivamente.\nPor cada punto de Maestría Elemental que Yumemizuki Mizuki tenga por encima de los 500{NON_BREAK_SPACE}pts., su Prob. CRIT aumentará en un 0.04% y su Daño CRIT en un 0.16%. Como máximo, la Prob. CRIT y el Daño CRIT de Yumemizuki Mizuki pueden aumentar en un 20% y un 80% respectivamente de esta forma.",
         "Icon": "UI_Talent_S_Mizuki_04"
       }
     ]

@@ -307,6 +307,7 @@
         "Id": 11151,
         "Name": "Escrime de Favonius - Rituel",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -443,6 +444,7 @@
         "Id": 11152,
         "Name": "Ordonnance immersive",
         "Description": "#Il est temps de faire un petit truc amusant ! Différents effets se produisent selon la méthode de déclenchement, chacun invoquant un mystère bruineux.\n\n<color=#FFD780FF>Appui simple</color>\nAprès une courte prière, invoque un mystère bruineux en face.\n\n<color=#FFD780FF>Appui long</color>\nEffectue une prière continue qui, une fois terminée, invoque un mystère bruineux à l'emplacement désigné.\n\n<color=#FFD780FF>Mystère bruineux</color>\nLorsqu'un ennemi ou un membre de l'équipe à proximité touche un mystère bruineux, différents effets se produisent selon la personne concernée{NON_BREAK_SPACE}:\nSi un ennemi touche un mystère bruineux, ce dernier explose et inflige des <color=#80C0FFFF>DGT Hydro de zone</color> aux ennemis à proximité.\nSi un membre de l'équipe à proximité touche un mystère bruineux, il se fait projeter dans les airs.\n\nIl ne peut exister qu'un seul mystère bruineux invoqué par Dahlia à la fois.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dahlia_01"
       }
     ],
@@ -643,6 +645,7 @@
       "Id": 11155,
       "Name": "Psautier radieux",
       "Description": "Invoque le divin avec ferveur et chant, infligeant des <color=#80C0FFFF>DGT Hydro de zone</color> aux ennemis proches, accordant à vos personnages dans l'équipe l'effet Faveur favonienne et invoquant un bouclier de faveur sacrée.\nL'absorption de DGT du bouclier de faveur sacrée est basée sur les PV max de Dahlia et ce dernier absorbe les <color=#80C0FFFF>DGT Hydro</color> 250 % plus efficacement.\n\n<color=#FFD780FF>Faveur favonienne</color>\nPendant cet effet, Dahlia peut consommer un cumul de sacrement pour invoquer à nouveau un bouclier de faveur sacrée lorsqu'un précédent bouclier a été détruit en subissant des DGT.\n\nDahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient 1 cumul de sacrement à chaque fois que votre personnage déployé touche des ennemis 4 fois avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude d'élévation « La douce grâce du vent », l'aptitude en question devant être déjà débloquée.\nDahlia peut obtenir un maximum de 4 cumuls de sacrement pendant la durée une faveur favonienne.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dahlia_01"
     },
     "Inherents": [
@@ -664,6 +667,7 @@
         "Id": 1152101,
         "Name": "La douce grâce du vent",
         "Description": "Lorsqu'un personnage affecté par une faveur favonienne du déchaînement élémentaire <color=#FFD780FF>{LINK#S11155}Psautier radieux{/LINK}</color> déclenche une réaction de Gel sur un ennemi, Dahlia obtient 2 cumuls de sacrement. Cet effet peut être déclenché une fois toutes les 8 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_05"
       },
       {
@@ -685,6 +689,7 @@
         "Id": 1152201,
         "Name": "Prière de joie ingénieuse",
         "Description": "Lorsque votre personnage déployé est affecté par une faveur favonienne du déchaînement élémentaire <color=#FFD780FF>{LINK#S11155}Psautier radieux{/LINK}</color>, sa VIT d'attaque augmente selon les PV max de Dahlia : chaque tranche de 1 000 PV max augmente la VIT d'attaque de 0,5 %, la VIT d'attaque pouvant être augmentée d'un maximum de 20 % de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_06"
       },
       {
@@ -703,6 +708,7 @@
         "Id": 1152301,
         "Name": "Pèlerinage sur le vent de retour",
         "Description": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

@@ -292,6 +292,7 @@
         "Id": 10621,
         "Name": "Schnellfeuer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -554,6 +555,7 @@
         "Id": 10622,
         "Name": "Frostüberzogene Felder",
         "Description": "Wirft eine Eisbombe in die Richtung des Ziels, die beim Aufkommen explodiert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht, sich nach der Explosion aber in viele Kälteminen aufteilt, die bei Berührung mit Gegnern oder nach einer gewissen Zeit explodieren und dabei <color=#99FFFFFF>Kryo-Schaden</color> verursachen.\nVerringert den ANG mit Eisbomben oder Kälteminen getroffener Gegner und verleiht Aloy eine Stapelung des Effekts „Spule“.\nErhält alle 0,1 s höchstens 1 Stapelung des Effekts Spule.\n\n<color=#FFD780FF>Spule</color>\n· Erhöht den mit Aloys Standardangriffen verursachten Schaden gemäß der Menge an Stapelungen.\n· Beseitigt bei 4 Stapelungen Spule den gesamten Effekt von Spule und verleiht Aloy „Eisige Eile“, die den mit Standardangriffen verursachten Schaden zusätzlich erhöht und den mit Standardangriffen verursachten Schaden in <color=#99FFFFFF>Kryo-Schaden</color> umwandelt.\n\nAloy kann während des Zustands Eisige Eile nicht den Effekt Spule erhalten.\nDer Effekt Spule wird 30 s nach dem Verlassen des Kampfs entfernt.\n\n<i>Glaub mir, am Schnitt ist es noch viel kälter.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Aloy_01"
       }
     ],
@@ -707,6 +709,7 @@
       "Id": 10625,
       "Name": "Weissagung des Morgenlichts",
       "Description": "Wirft eine Energiezelle voller Kryo-Energie und lässt sie mit einem Pfeil explodieren, um <color=#99FFFFFF>Kryo-Flächenschaden</color> zu verursachen.\n\n<i>Ob „Zero Dawn“ nun Hoffnung oder Auslöschung bedeutet, ist mittlerweile unwichtig. Aloy hat bereits ihre eigene Welt gerettet, um deren Schicksal sich die Helden darin sorgen.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Aloy_01"
     },
     "Inherents": [
@@ -729,6 +732,7 @@
         "Id": 622101,
         "Name": "Kampf-Überbrückung",
         "Description": "Erhöht beim Erhalten des Effekts Spule von <color=#FFD780FF>Frostüberzogene Felder</color> durch Aloy 10 s lang ihren eigenen ANG um 16 % und den ANG aller anderen Truppenmitglieder in der Nähe um 8 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_05"
       },
       {
@@ -749,6 +753,7 @@
         "Id": 622201,
         "Name": "Wuchtangriff",
         "Description": "Erhöht Aloys <color=#99FFFFFF>Kryo-SCH-Bonus</color> im Zustand Eisige Eile von <color=#FFD780FF>Frostüberzogene Felder</color> pro s um 3,5 %. Bis zu 35 % <color=#99FFFFFF>Kryo-SCH-Bonus</color> auf diese Weise möglich.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_06"
       },
       {
@@ -767,6 +772,7 @@
         "Id": 622301,
         "Name": "Jäger der Wildnis",
         "Description": "Führt dazu, dass eigene Figuren in der Truppe kleine Tiere in der Nähe, die rohes Geflügel, rohes Fleisch oder kaltes Gourmetfleisch als Beute abgeben, nicht leicht aufscheuchen, wenn Aloy in der Truppe ist.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_07"
       }
     ],

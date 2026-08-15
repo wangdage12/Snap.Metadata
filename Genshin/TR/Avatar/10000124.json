@@ -261,6 +261,7 @@
         "Id": 11241,
         "Name": "Ok Kızgınken Atılır",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 3 ok atar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nDaha isabetli ve daha yüksek Hasar veren bir <color=#FFD780FF>Hedefli Atış</color> yapar.\nNişan alırken okun ucunda güçlü rüzgarlar toplanır. Tam yüklü bu rüzgar oku <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yoluna çıkan düşmanlara saldırır ve yere vurduğunda Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 11242,
         "Name": "Kurnaz Strateji: Ganimet Paylaşımı",
         "Description": "Jahoda düşmana doğru atılır ve düşmana temas ettiğinde Gölge Takibi durumuna girer. Bu durumdayken Jahoda hızla ve sürekli olarak hareket eder: Yakındaki düşmanlar <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> etkisindeyse Jahoda {LINK#N11240001}<color=#FFD780FF>Miyavtastik Hazine Şişesini</color>{/LINK} sessizce ilgili elemente dönüştürür ve kademeli olarak doldurur. Süre sona erdiğinde veya beceri tekrar kullanıldığında Jahoda <color=#FFD780FF>Miyavtastik Hazine Şişesini</color> boşaltarak yakındaki düşmanlara tek seferlik <color=#80FFD7FF>Rüzgar Hasarı</color> verir. <color=#FFD780FF>Miyavtastik Hazine Şişesi</color> dolduğunda Jahoda onu anında boşaltır, Gölge Takibi durumundan çıkar ve daha güçlü bir <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\nJahoda ileri atıldığında düşmanla temas edemezse bunun yerine bulunduğu yere bir Sis Bombası bırakarak yakındaki düşmanlara tek seferlik <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: <color=#FFD780FF>Miyavtastik Hazine Şişesi</color> dolduğunda Jahoda onu hemen boşaltmaz. Bunun yerine kısa bir süre boyunca, depolanan element enerjisini sürekli olarak tüketir ve yakındaki düşmanlara belirli aralıklarla <color=#FFD780FF>Pofuduk Kedi Yumakları</color> fırlatarak <color=#FFD780FF>Miyavtastik Hazine Şişesinde</color> depolanan element türünde Hasar verir. Bir <color=#FFD780FF>Pofuduk Kedi Yumağı</color> düşmana isabet ettiğinde Jahoda 2 Element Enerjisi yeniler. Bu etki 3,5 saniyede bir tetiklenebilir.\n\n<i>Bu dünyada serveti dağıtmanın birçok yolu vardır, ancak Nod-Krai definecileri ve hazine avcıları için bu yollardan yalnızca bir tanesi gerçekten etkili olduğunu kanıtlamıştır.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Jahoda_01"
       }
     ],
@@ -798,6 +800,7 @@
       "Id": 11245,
       "Name": "Gizli Yetenekler: Avcının Yedi Aleti",
       "Description": "Saklı kozları ortaya çıkarma zamanı! Jahoda, 2 {LINK#N11240002}<color=#FFD780FF>Kedisel Koordineli Destek Robotu</color>{/LINK} çağırır ve yakındaki düşmanlara bir defa <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<i>\"Koordineli destek ne mi demek? Yani sen Morayla 'destek' sağlarsın, biz de 'koordine' ederiz. Kulağa mivkemmel geliyor, öyle değil mi?\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Jahoda_01"
     },
     "Inherents": [
@@ -821,6 +824,7 @@
         "Id": 1242101,
         "Name": "Ödeme Alma Taktiği",
         "Description": "Takımında en az bir <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> karakteri olduğunda <color=#FFD780FF>Gizli Yetenekler: Avcının Yedi Aleti</color> Element Patlamasından gelen {LINK#N11240002}<color=#FFD780FF>Kedisel Koordineli Destek Robotları</color>{/LINK}, ilgili her bir elementin karakter sayısına bağlı olarak güçlendirilir.\nJahoda gizlice bu karakterlerin hesabını tutar. Bunlar arasında en yüksek karakter sayısına sahip element, güçlendirme etkisinin ne olacağını belirler:\n·<color=#FF9999FF>Ateş</color>: <color=#FFD780FF>Kedisel Koordineli Destek Robotları</color> orijinal Hasarlarının %130'u kadar Hasar verir.\n·<color=#80C0FFFF>Su</color>: <color=#FFD780FF>Kedisel Koordineli Destek Robotları</color> orijinal iyileştirme miktarlarının %120'si kadar Can yeniler.\n·<color=#FFACFFFF>Elektrik</color>: <color=#FFD780FF>Kedisel Koordineli Destek Robotlarının</color> sayısı 1 artar.\n·<color=#99FFFFFF>Buz</color>: <color=#FFD780FF>Kedisel Koordineli Destek Robotlarının</color> saldırı aralığı %10 kısalır.\n\nEn yüksek karakter sayısına sahip birden fazla element varsa şu öncelik sırasına göre güçlendirme yapılır: <color=#FF9999FF>Ateş</color> > <color=#80C0FFFF>Su</color> > <color=#FFACFFFF>Elektrik</color> > <color=#99FFFFFF>Buz</color>. Başlangıçta yalnızca bir element etkisi tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_05"
       },
       {
@@ -842,6 +846,7 @@
         "Id": 1242201,
         "Name": "Tatlı Böğürtlen Ganimeti",
         "Description": "<color=#FFD780FF>Gizli Yetenekler: Avcının Yedi Aleti</color> Element Patlamasından gelen bir {LINK#N11240002}<color=#FFD780FF>Kedisel Koordineli Destek Robotu</color>{/LINK}, aktif bir takım üyesi üzerinde İyileştirme tetiklediğinde eğer o karakterin Canı %70'in üzerindeyse 6 saniyeliğine Element Ustalığı 100 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_06"
       },
       {
@@ -860,6 +865,7 @@
         "Id": 1242301,
         "Name": "Ay Sembolü Kutsaması: Çatı Koşuşturması",
         "Description": "Jahoda gruptayken grubun <color=#FFD780FF>Ay Sembolü</color> 1 seviye yükselir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_07"
       },
       {
@@ -878,6 +884,7 @@
         "Id": 1242501,
         "Name": "Arka Sokak Kurnazlığı",
         "Description": "Nod-Krai içinde keşfe gönderildiğinde harcanan zaman %25 azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_08"
       }
     ],
@@ -1241,7 +1248,7 @@
       },
       {
         "Title": "Önsezi",
-        "Context": "Jahoda'nın bir Önseziye sahip olduğu haberi Nefer tarafından yayıldı.\nNefer'ın de dediği gibi, patronun bir hazinesi varsa çalışanın da olmalıydı. Aksi takdirde Jahoda, gelecekteki işlerde dezavantajlı duruma düşebilirdi.\n\"İyi de benim Önsezim yok ki patron...\"\n\"Sorun değil. Sana takman için bir cam boncuk alırım.\"\n\"İnsanlar sahte olduğunu hemen anlar!\"\n\"Orası belli olmaz. Önsezilerin hakikiliğini sahipleri dışında kim doğrulayabilir ki?\"\n\"Hı? Peki... Galiba haklısın...\"\nVe böylece patronu tarafından aniden kendisine verilen camgöbeği bir cam küreyi takan Jahoda, her zamanki gibi yoğun hayatına devam etti.\nTıpkı Nefer'ın öngördüğü gibi insanlar Jahoda'nın bir Önsezisi olduğunu öğrendikten sonra ona karşı tavırları gözle görülür şekilde iyileşti. Sadece ona verilen ücretler biraz artmakla kalmadı, aynı zamanda daha zorlu görevler de ona emanet edildi...\nElbette yüksek ücretler, görevlerin zorluğu ve müşterilerin beklentileri, gerçek bir Önsezisi olmadığını çok iyi bilen Jahoda'ya ağır geliyordu. Bu baskı, onun bütün gün küçük bir topaç gibi dönerek daha da çok çalışmasına neden oldu. Ama genel olarak daha faydalı olmak, daha fazla para kazanmak ve nihayet biraz güven kazanmak ona gerçek bir mutluluk veriyordu.\nRüyasında bile kendini başkalarına yardım ederken veya büyük başarılar elde ederken görüyordu.\n\"Merak... Etmeyin... Benim... Önsezim var...\"\nSanki uykusunda zorlu bir düşmanı yeni yenmiş gibi yumruklarını savurarak mırıldandı.\nO sırada gece gezintisinden yeni dönmüş olan Nefer, Jahoda'nın yatağının yanına oturdu. \"Sırlar Arşivi'nin tam zamanlı tek çalışanı\"nın sırt çantası açıktı ve içindeki yeşil cam boncuk, hem kırılmasını önlemek hem de meraklı gözleri uzak tutmak için kat kat kumaşa sarılmıştı.\nJahoda bilinçsizce kolunu salladı ve geveledi:\n\"Sana yardım edeceğim... Benim... Önsezim var...\"\n\"Önseziyle... İyilik yapabilirsin...\"\n\"Önseziyle...\"\nNefer odadan için ayağa kalkarken gözüne deniz yeşili bir ışık parıltısı çarptı.\nSırlar Arşivi'nin sahibi şaşkınlıkla duraksadı, sonra hafifçe kıkırdadı.\nBinlerce kez tekrarlanan bir yalan, bir şekilde kendini gerçeğe dönüştürmüştü."
+        "Context": "Jahoda'nın bir Önseziye sahip olduğu haberi Nefer tarafından yayıldı.\nNefer'in de dediği gibi, patronun bir hazinesi varsa çalışanın da olmalıydı. Aksi takdirde Jahoda, gelecekteki işlerde dezavantajlı duruma düşebilirdi.\n\"İyi de benim Önsezim yok ki patron...\"\n\"Sorun değil. Sana takman için bir cam boncuk alırım.\"\n\"İnsanlar sahte olduğunu hemen anlar!\"\n\"Orası belli olmaz. Önsezilerin hakikiliğini sahipleri dışında kim doğrulayabilir ki?\"\n\"Hı? Peki... Galiba haklısın...\"\nVe böylece patronu tarafından aniden kendisine verilen camgöbeği bir cam küreyi takan Jahoda, her zamanki gibi yoğun hayatına devam etti.\nTıpkı Nefer'ın öngördüğü gibi insanlar Jahoda'nın bir Önsezisi olduğunu öğrendikten sonra ona karşı tavırları gözle görülür şekilde iyileşti. Sadece ona verilen ücretler biraz artmakla kalmadı, aynı zamanda daha zorlu görevler de ona emanet edildi...\nElbette yüksek ücretler, görevlerin zorluğu ve müşterilerin beklentileri, gerçek bir Önsezisi olmadığını çok iyi bilen Jahoda'ya ağır geliyordu. Bu baskı, onun bütün gün küçük bir topaç gibi dönerek daha da çok çalışmasına neden oldu. Ama genel olarak daha faydalı olmak, daha fazla para kazanmak ve nihayet biraz güven kazanmak ona gerçek bir mutluluk veriyordu.\nRüyasında bile kendini başkalarına yardım ederken veya büyük başarılar elde ederken görüyordu.\n\"Merak... Etmeyin... Benim... Önsezim var...\"\nSanki uykusunda zorlu bir düşmanı yeni yenmiş gibi yumruklarını savurarak mırıldandı.\nO sırada gece gezintisinden yeni dönmüş olan Nefer, Jahoda'nın yatağının yanına oturdu. \"Sırlar Arşivi'nin tam zamanlı tek çalışanı\"nın sırt çantası açıktı ve içindeki yeşil cam boncuk, hem kırılmasını önlemek hem de meraklı gözleri uzak tutmak için kat kat kumaşa sarılmıştı.\nJahoda bilinçsizce kolunu salladı ve geveledi:\n\"Sana yardım edeceğim... Benim... Önsezim var...\"\n\"Önseziyle... İyilik yapabilirsin...\"\n\"Önseziyle...\"\nNefer odadan için ayağa kalkarken gözüne deniz yeşili bir ışık parıltısı çarptı.\nSırlar Arşivi'nin sahibi şaşkınlıkla duraksadı, sonra hafifçe kıkırdadı.\nBinlerce kez tekrarlanan bir yalan, bir şekilde kendini gerçeğe dönüştürmüştü."
       }
     ]
   },

@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Berührende Kraft der goldenen Klinge",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Himmel und Erde in Gestalt",
         "Description": "Ruft einen Schatten ihrer alten Kräfte herbei und wechselt in den Modus {LINK#N11260001}<color=#FFD780FF>Wechsel des Mondabschnitts</color>{/LINK}.\nIn diesem Modus verursacht Zibai mit Standardangriffen und heftigen Schlägen <color=#FFE699FF>Geo-SCH</color>, der nicht von anderen Elementen überdeckt werden kann. Durch verschiedene Methoden kann sie zudem speziellen <color=#FFD780FF>Abschnittswechsel-Glanz</color> sammeln. Durch Verbrauchen von Abschnittswechsel-Glanz kann Zibai die besondere Elementarfähigkeit <color=#FFD780FF>Galopp des Geisterrosses</color> anwenden.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>\nWenn Zibai im Modus <color=#FFD780FF>Wechsel des Mondabschnitts</color> Standardangriffe ausführt, verursacht die 4. Angriffsphase zusätzlich einmal <color=#FFE699FF>Geo-SCH</color>. Hierdurch verursachter Schaden gilt als Schaden durch Mond-Kristallisation.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Dreisphären-Eminenz",
       "Description": "#Zibai dreht den Baldachin des Himmels und verursacht zweimal <color=#FFE699FF>Geo-SCH</color>, wobei die zweite Schadens-Phase als Schaden durch die Reaktion Mond-Kristallisation gilt.\nBefindet sich Zibai beim Anwenden der Fähigkeit im Modus {LINK#N11260001}<color=#FFD780FF>Wechsel des Mondabschnitts</color>{/LINK}, verlängert sich die diesmalige Dauer des Modus „Wechsel des Mondabschnitts“ um 1,7{NON_BREAK_SPACE}s.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "Ankunft des selenischen Adepten",
         "Description": "#Verleiht Zibai beim Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S11262}Himmel und Erde in Gestalt{/LINK}</color> durch Zibai oder beim Auslösen von „Harmonie der Mondkäfige“ durch Truppenmitglieder in der Nähe 4{NON_BREAK_SPACE}s lang den Effekt <color=#FFD780FF>Selenische Ankunft</color>: Erhöht den durch die zweite Angriffsphase von {LINK#N11260001}<color=#FFD780FF>Galopp des Geisterrosses</color>{/LINK} verursachten Schaden um 60{NON_BREAK_SPACE}% von Zibais VTD.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Berge und Gipfel in den Wolken",
         "Description": "#Erhöht für jede andere <color=#FFE699FF>Geo</color>-Figur in der Truppe Zibais VTD um 15{NON_BREAK_SPACE}%. Erhöht für jede andere <color=#80C0FFFF>Hydro</color>-Figur in der Truppe Zibais Elementarkunde um 60 Punkte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Mondomen-Segen – Fließende Klarheit",
         "Description": "#Wenn eine Figur in der Truppe die Reaktion „Hydro-Kristallisation“ auslöst, wird diese in die Reaktion „Mond-Kristallisation“ umgewandelt, wobei der durch Figuren in der Truppe verursachte Basis-SCH der Reaktion „Mond-Kristallisation“ auf der Grundlage von Zibais VTD erhöht wird: Für je 100 Punkte VTD wird der Basis-SCH der Reaktion „Mond-Kristallisation“ um 0,7{NON_BREAK_SPACE}% erhöht. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Zibai in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Mondbeschienener Blumenwald",
         "Description": "#Stellt Zibai nachts (18:00 bis 06:00 Uhr), wenn sie sich nicht im Kampf befindet, alle 2{NON_BREAK_SPACE}s 1 Punkt Elementarenergie wieder her.\nDieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

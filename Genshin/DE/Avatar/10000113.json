@@ -261,6 +261,7 @@
         "Id": 11131,
         "Name": "Ritual des Windbanns",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 aufeinanderfolgende Angriffe aus und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schießt nach vorn, verursacht dabei <color=#80FFD7FF>Anemo-Flächenschaden</color>.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -444,6 +445,7 @@
         "Id": 11132,
         "Name": "Prophylaxe aus der Luft",
         "Description": "Zeit für die echten Kampfbrüder! Ifa fordert Cacucus Unterstützung an.\nNach dem Auslösen erhält Ifa 80 Nachtseelenpunkte und tritt in den Zustand {LINK#N11130003}<color=#FFD780FF>Nachtseelensegen</color>{/LINK} ein. Ifa schwebt in diesem Zustand dank Cacucus Unterstützung. Wenn Ifa während des Schwebens einen Standardangriff ausführt, verwendet er je nachdem, ob gedrückt oder gedrückt gehalten wird, unterschiedliche Arten von {LINK#N11130001}<color=#FFD780FF>„Unterstützungsfeuer“</color>{/LINK} und schießt dabei Elixierkugeln ab, die allen Truppenmitgliedern LP wiederherstellen können.\n\nFührt, wenn sich Ifa im Zustand Nachtseelensegen befindet und seine Elementarfähigkeit <color=#FFD780FF>Prophylaxe aus der Luft</color> durch Gedrückthalten einsetzt, einen mit Nachtseelen versehenen Angriff aus dem Fall aus. Wird die Fähigkeit losgelassen, so wird der Angriff aus dem Fall unterbrochen und der Schwebezustand wird aufrechterhalten. Beim Aufkommen des Angriffs aus dem Fall endet Ifas Nachtseelensegen.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ifa_01"
       }
     ],
@@ -613,6 +615,7 @@
       "Id": 11135,
       "Name": "Sammelsedierungsfeld",
       "Description": "Schießt ein therapeutisches Sedativum auf Gegner, die sich noch immer nicht beruhigt haben. Beim Treffen des Gegners explodiert das Sedativum und erzeugt ein bändigendes Windfeld, das Gegner und Objekte in der Nähe anzieht und dabei mit Nachtseelen versehenen <color=#80FFD7FF>Anemo-Flächenschaden</color> verursacht.\nFügt, wenn die vom therapeutischen Sedativum getroffenen Gegner von <color=#80C0FFFF>Hydro</color>-, <color=#FF9999FF>Pyro</color>-, <color=#99FFFFFF>Kryo</color>- oder <color=#FFACFFFF>Elektro</color>-Kraft betroffen sind, diesen Gegnern den Effekt {LINK#N11130004}<color=#FFD780FF>„Sedierungsmarker“</color>{/LINK} zu.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ifa_01"
     },
     "Inherents": [
@@ -628,7 +631,8 @@
                 1,
                 1,
                 150,
-                0.015
+                0.015,
+                0.0024
               ]
             }
           ],
@@ -636,7 +640,8 @@
         },
         "Id": 1132101,
         "Name": "Sichtfeld des Feldarztes",
-        "Description": "Verleiht Ifa im Zustand Nachtseelensegen für jeden Nachtseelenpunkt aller Truppenmitglieder 1 Punkt {LINK#N11130002}<color=#FFD780FF>„Rettungsprinzipien“</color>{/LINK}. Rettungsprinzipien erhöhen den von Truppenmitgliedern in der Nähe mit den Reaktionen „Verwirbelung“, „Unter Strom“ und „Mond unter Strom“ verursachten Schaden.",
+        "Description": "Verleiht Ifa im Zustand Nachtseelensegen für jeden Nachtseelenpunkt aller Truppenmitglieder 1 Punkt {LINK#N11130002}<color=#FFD780FF>„Rettungsprinzipien“</color>{/LINK}. Rettungsprinzipien erhöhen den von Truppenmitgliedern in der Nähe mit den Reaktionen „Verwirbelung“, „Stellar-Verwirbelung“, „Unter Strom“ und „Mond unter Strom“ verursachten Schaden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_05"
       },
       {
@@ -658,6 +663,7 @@
         "Id": 1132201,
         "Name": "Vereinbarung zur gegenseitigen Hilfe",
         "Description": "#Erhöht Ifas Elementarkunde 10{NON_BREAK_SPACE}s lang um 80{NON_BREAK_SPACE}Punkte, sobald ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_06"
       },
       {
@@ -676,6 +682,7 @@
         "Id": 1132301,
         "Name": "Geschenk des Nachtreichs – Intensivtherapie",
         "Description": "#Nachdem seine Nachtseelenpunkte aufgebraucht sind, wechselt Ifa zum Verbrauch von Phlogiston, um seinen „Nachtseelensegen“ aufrechtzuerhalten.\nBeim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Ifa verwendet werden. Wenn die aktuelle Figur sich in einer gewissen Höhe in der Luft befindet, wird beim Wechsel zu Ifa Folgendes ausgelöst: Ifa tritt in den Zustand des Nachtseelensegens ein und erhält 32{NON_BREAK_SPACE}Nachtseelenpunkte. 10{NON_BREAK_SPACE}s Abklingzeit für das Auslösen der Nachtseelen-Übertragung innerhalb der eigenen Truppe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_07"
       },
       {
@@ -699,6 +706,7 @@
         "Id": 1132501,
         "Name": "Wärmender Kompressionsverband",
         "Description": "#Ifa verbraucht beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan, wenn die LP der aktuellen eigenen Figur oder eines übernommenen Sauriers in der Truppe unter 40{NON_BREAK_SPACE}% liegen, 10{NON_BREAK_SPACE}Punkte Phlogiston, um dieser Figur oder diesem Saurier 40{NON_BREAK_SPACE}% LP wiederherzustellen, 10{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ifa_08"
       }
     ],

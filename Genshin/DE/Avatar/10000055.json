@@ -277,6 +277,7 @@
         "Id": 10551,
         "Name": "Gefletschte Zähne",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert die Steinkristalle während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#FFE699FF>Geo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -461,6 +462,7 @@
         "Id": 10552,
         "Name": "Inuzuka-Allzweckaufstellung",
         "Description": "Verursacht <color=#FFE699FF>Geo-Flächenschaden</color> und stellt ein Generalbanner auf.\n\n<color=#FFD780FF>Generalbanner</color>\nVerleiht den aktuellen Figuren im Wirkungsbereich gemäß der Anzahl an Figuren in der Truppe mit dem <color=#FFE699FF>Geo-Element</color> zum Zeitpunkt der Anwendung folgende Effekte:\n· 1 Figur: „Zähigkeit“, erhöht die VTD.\n· 2 Figuren: „Unbeirrbarkeit“, verleiht den obigen Effekt und erhöht den Unterbrechungs-WDS.\n· 3 Figuren: „Trümmer“, verleiht die obigen Effekte und erhöht den <color=#FFE699FF>Geo-Schaden</color>.\n\nZu einem Zeitpunkt kann nur ein von Gorou selbst erschaffenes Generalbanner existieren. Figuren können nur die Boni eines einzigen Generalbanners erhalten. Der Effekt innerhalb des Wirkungsbereichs bleibt für Figuren bis 2 s nach dem Verlassen des Wirkungsbereichs bestehen.\n\n<color=#FFD780FF>Gedrückt halten</color>\nWirkungsbereich der Fähigkeit kann angepasst werden.\n\n<i>„Wir müssen nur diese Formation einnehmen und wir werden in Sicherheit sein!“ Als General und Truppenführer ist das Letzte, was Gorou will, dass diejenigen verletzt werden, die ihm folgen.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Gorou_01"
       }
     ],
@@ -646,6 +648,7 @@
       "Id": 10555,
       "Name": "Juuga – Vorwärts zum Sieg",
       "Description": "Gorou zeigt seine Macht als General, verursacht <color=#FFE699FF>Geo-Flächenschaden</color> und erstellt ein Feld der „Würde des Generals“, um seine Kameraden zu ermuntern.\n\n<color=#FFD780FF>Würde des Generals</color>\nMerkmale:\n· Das Feld verleiht aktuellen Figuren im Wirkungsbereich gemäß der Anzahl an Figuren in der Truppe mit dem <color=#FFE699FF>Geo-Element</color> die gleichen Effekte wie das Generalbanner der Elementarfähigkeit „Inuzuka-Allzweckaufstellung“ und folgt den Bewegungen der aktuellen Figur.\n· Erschafft alle 1,5 s einen Kristallzusammenbruch, der einem Gegner im Wirkungsbereich <color=#FFE699FF>Geo-Flächenschaden</color> zufügt.\n· Zieht alle 1,5 s 1 durch Kristallisationsreaktionen entstehenden Splitter im Wirkungsbereich zur Position der aktuellen Figur.\n\nZerstört, wenn ein von Gorou selbst erschaffenes Generalbanner bei der Anwendung dieser Fähigkeit vorhanden ist, dieses Generalbanner. Erschafft kein Generalbanner, wenn Gorou selbst während der Wirkungsdauer von Würde des Generals seine Elementarfähigkeit „Inuzuka-Allzweckaufstellung“ anwendet.\nDer Effekt von Würde des Generals, den Gorou selbst geschaffen hat, erlischt, wenn Gorou ohnmächtig wird.\n\n<i>„Das Terrain ist uns zum Vorteil!“ Gorou kann das Terrain des Schlachtfelds ein wenig verändern, um den Sieg zu erlangen. Diese einzigartige Technik hat ihn schon durch viele Kämpfe gegen mächtige Feinde gebracht.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Gorou_01"
     },
     "Inherents": [
@@ -668,6 +671,7 @@
         "Id": 552101,
         "Name": "Bei Wind und Regen",
         "Description": "Erhöht bei Anwendung von <color=#FFD780FF>Juuga – Vorwärts zum Sieg</color> die VTD aller Truppenmitglieder in der Nähe 12 s lang um 25 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_05"
       },
       {
@@ -689,6 +693,7 @@
         "Id": 552201,
         "Name": "Unvergessene Dankbarkeit",
         "Description": "Erhöht den mit folgenden Angriffen von Gorou verursachten Schaden basierend auf seiner VTD:\n· Erhöht den Schaden der Fähigkeit <color=#FFD780FF>Inuzuka-Allzweckaufstellung</color> um 156 % der VTD.\n· Erhöht den Schaden der Fähigkeit <color=#FFD780FF>Juuga – Vorwärts zum Sieg</color> sowie den Schaden von Kristallzusammenbruch um 15,6 % der VTD.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_06"
       },
       {
@@ -707,6 +712,7 @@
         "Id": 552301,
         "Name": "Gespür für Geglitzer",
         "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Inazumas</color> in der Nähe auf der Minikarte an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gorou_07"
       }
     ],

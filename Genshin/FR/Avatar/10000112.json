@@ -276,6 +276,7 @@
         "Id": 11121,
         "Name": "Aisance culinaire",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher une attaque ascendante.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11122,
         "Name": "Cuisson à basse température",
         "Description": "#Contemplez le véritable sens de la «{NON_BREAK_SPACE}cuisine » ! Différents effets se produisent selon la méthode de déclenchement, chacun vous dévoilant les diverses techniques culinaires qui font la fierté de Fontaine.\n\n<color=#FFD780FF>Appui simple</color>\nEscoffier active son mek cuistot multi-usages à palette complète en mode « Stockage à froid », infligeant des <color=#99FFFFFF>DGT Cryo de zone</color> aux ennemis proches.\n\n<color=#FFD780FF>Mek cuistot : mode « Stockage à froid{NON_BREAK_SPACE}»</color>\nLe mek cuistot suit le personnage déployé et tire des parfaits glacés de façon intermittente sur les ennemis proches, infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Arkhe : Ousia</color>\nRégulièrement, une lame fluide descend lorsque Escoffier active son mek cuistot en mode « Stockage à froid{NON_BREAK_SPACE}» pour infliger des <color=#99FFFFFF>DGT Cryo de zone</color> chargés d'énergie ousia.\n\n<color=#FFD780FF>Appui long</color>\nEscoffier active son mek cuistot multi-usages à palette complète en {LINK#N11120002}mode « <color=#FFD780FF>Cuisson impromptue</color> »{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Escoffier_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 11125,
       "Name": "Art de la découpe",
       "Description": "Faisant preuve de compétences exceptionnelles en matière de couteau, Escoffier inflige des <color=#99FFFFFF>DGT Cryo de zone</color> et restaure les PV de tous les personnages de l'équipe à proximité selon son ATQ.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Escoffier_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 1122101,
         "Name": "Mieux vaut saliver que soigner",
         "Description": "Après avoir utilisé son déchaînement élémentaire <color=#FFD780FF>{LINK#S11125}Art de la découpe{/LINK}</color>, Escoffier obtient l'effet Régime rééducateur pendant 9 s : restaure les PV des personnages déployés de l'équipe à proximité pour une valeur équivalant à 138,24 % de l'ATQ d'Escoffier toutes les secondes.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_05"
       },
       {
@@ -722,6 +726,7 @@
         "Id": 1122201,
         "Name": "Assaisonnement plein d'inspiration",
         "Description": "#Lorsque l'équipe comprend 1/2/3/4 personnages <color=#80C0FFFF>Hydro</color> ou <color=#99FFFFFF>Cryo</color>, les RÉS <color=#80C0FFFF>Hydro</color> et <color=#99FFFFFF>Cryo</color> des ennemis touchés par la compétence élémentaire <color=#FFD780FF>{LINK#S11122}Cuisson à basse température{/LINK}</color> d'Escoffier ou par son déchaînement élémentaire <color=#FFD780FF>{LINK#S11125}Art de la découpe{/LINK}</color> diminuent de 5{NON_BREAK_SPACE}%/10{NON_BREAK_SPACE}%/15{NON_BREAK_SPACE}%/55{NON_BREAK_SPACE}% pendant 12 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_06"
       },
       {
@@ -740,6 +745,7 @@
         "Id": 1122301,
         "Name": "Cuisson impromptue constante",
         "Description": "#En utilisant sa compétence élémentaire <color=#FFD780FF>{LINK#S11122}Cuisson à basse température{/LINK}</color> avec un appui long, Escoffier active son mek cuistot multi-usages à palette complète en mode « Cuisson impromptue ».\n\n<color=#FFD780FF>Mek cuistot : mode « Cuisson impromptue »</color>\n· Place le mek cuistot sur le terrain, ce dernier pouvant absorber les attaques élémentaires. Lorsque l'énergie élémentaire absorbée atteint une certaine limite, Escoffier peut convertir les ingrédients placés à l'intérieur de son mek en délicieuse nourriture.\n· Escoffier a besoin de temps pour acheter de nouveaux ingrédients et ne peut donc préparer qu'un certain nombre de plats chaque semaine de cette manière. La quantité de plats qu'Escoffier peut préparer chaque semaine est réinitialisée tous les lundis à 04 h 00 ({TIMEZONE}).",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_08"
       }
     ],

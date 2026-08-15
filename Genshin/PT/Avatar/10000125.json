@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Cascata do Orvalho do Luar",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nInvoca uma maré do luar, realizando até 3 golpes consecutivos e causando <color=#80C0FFFF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina e, após uma canalização, causa <color=#80C0FFFF>Dano Hydro em AdE</color>.\nSe possuir pelo menos 1 {LINK#N11190008}<color=#FFD780FF>Orvalho Verdejante</color>{/LINK}, o Ataque Carregado de Columbina será substituído pelo Ataque Carregado especial <color=#FFD780FF>Lavagem do Orvalho Lunar</color> que não consome Stamina: consome 1 Orvalho Verdejante para causar <color=#99FF88FF>Dano Dendro em AdE</color> 3 vezes contra os inimigos em frente. Esse Dano é considerado Dano de Florescimento Lunar.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80C0FFFF>Dano Hydro em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Maré Eterna",
         "Description": "Invoca as marés da Lua, causando <color=#80C0FFFF>Dano Hydro em AdE</color> e invocando a {LINK#N11250001}<color=#FFD780FF>Onda Gravitacional</color>{/LINK}.\n<color=#FFD780FF>Onda Gravitacional</color> segue o personagem ativo e causa <color=#80C0FFFF>Dano Hydro em AdE</color> continuamente contra os inimigos próximos. Enquanto <color=#FFD780FF>Onda Gravitacional</color> existir, quando um personagem próximo desencadear Reações Lunares ou causar Dano de Reações Lunares, Columbina acumulará <color=#FFD780FF>Gravitação</color> especial. Ao acumular até o valor máximo, causará tipos de Danos diferentes contra os inimigos de acordo com o valor máximo de <color=#FFD780FF>Gravitação</color> acumulado do tipo de Reação Lunar.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: <color=#FFD780FF>Onda Gravitacional</color> causa <color=#80C0FFFF>Dano Hydro em AdE</color> de maior alcance.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Melancolia Sob o Luar",
       "Description": "Colinas e marés se unem sob o luar prateado de uma lua nova. Temporariamente transforma o terreno próximo em {LINK#N11250002}<color=#FFD780FF>Domínio Lunar</color>{/LINK} e causa <color=#80C0FFFF>Dano Hydro em AdE</color>.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Mania Lunar",
         "Description": "Ao desencadear{LINK#N11250001}<color=#FFD780FF>Interferência Kuuvahki</color>{/LINK}, Columbina obtém o efeito Indução Lunar, aumentando sua Taxa CRIT em 5% por 10s. Esse efeito pode acumular até 3 vezes.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "Regras Próprias da Lua Nova",
         "Description": "Quando personagens dentro do {LINK#N11250002}<color=#FFD780FF>Domínio Lunar</color>{/LINK} desencadeiam reações Lunares, eles ganham os seguintes efeitos, respectivamente: \n· <color=#FFD780FF>Carga Lunar</color>: Quando as Nuvens Trovejantes realizam golpe(s) de relâmpago contra um alvo válido, há 33% de chance de realizar um golpe de relâmpago adicional. \n· <color=#FFD780FF>Florescimento Lunar</color>: Ao desencadear reações de Florescimento Lunar, o grupo ganha um {LINK#N11250003}<color=#FFD780FF>Orvalho Verdejante da Montanha Lunar</color>{/LINK} especial. Até 3 Orvalhos Verdejantes da Montanha Lunar podem ser obtidos a cada 18s. \n· <color=#FFD780FF>Cristalização Lunar</color>: Quando a Sonata da Jaula Lunar é desencadeada, cada Jaula Lunar tem 33% de chance de aplicar um ataque extra.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Bênção do Presságio Lunar: Serenata sob o Luar",
         "Description": "Quando o personagem desencadeia uma reação de Eletricamente Carregado/Florescimento/Cristalização Hydro, será convertido para Carga Lunar/Florescimento Lunar/Cristalização Lunar respectivamente, e aumenta o Dano Básico de Reações Lunares causado pelos personagens com base na Vida Máxima de Columbina: cada 1000 de Vida Máxima aumenta o Dano Básico em 0.2%. É possível aumentar o Dano até 7% dessa forma.\n\nAlém disso, quando Columbina está na equipe, aumenta o nível de <color=#FFD780FF>Presságio Lunar</color> em 1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Vigília Lunar",
-        "Description": "Quando está em Nod-Krai e um personagem da equipe é derrotado, Columbina revive esse personagem e regenera a Vida desse personagem com base no nível de Amizade de Columbina. Esse efeito pode ser desencadeado uma vez a cada 100s. Esse efeito não funciona em domínios, domínios dizimados e no Abismo do Espiral.\nAlém disso, Columbina parece possuir afinidade especial com certos animais influenciados por Kuuvahki...",
+        "Description": "Quando está em Nod-Krai ou na Lua Gelada e um personagem da equipe é derrotado, Columbina revive esse personagem e regenera a Vida desse personagem com base no nível de Amizade de Columbina. Esse efeito pode ser desencadeado uma vez a cada 100s. Esse efeito não funciona em domínios, domínios dizimados e no Abismo do Espiral.\nAlém disso, Columbina parece possuir afinidade especial com certos animais influenciados por Kuuvahki...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

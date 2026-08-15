@@ -322,6 +322,7 @@
         "Id": 10611,
         "Name": "Kirigami",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para ejecutar tres zarpazos hacia delante.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10612,
         "Name": "Nekopatada voladora",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSalta con la destreza de un gato que se mueve entre la maleza y golpea al enemigo con una patada voladora que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>. A su vez, crea un escudo de transporte seguro que aplica <color=#99FF88FF>Dendro</color> sobre Kirara durante un corto periodo de tiempo y tiene un 250% de efectividad de absorción de <color=#99FF88FF>Daño Dendro</color>. La cantidad de absorción de daño del escudo aumenta en función de la Vida Máx. de Kirara, y no superará cierto porcentaje de dicha Vida Máx. La absorción de daño restante del escudo podrá acumularse con la otorgada por un nuevo escudo de transporte seguro, reiniciando su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne la determinación de una repartidora entregada a su trabajo para crear un escudo de transporte seguro idéntico al que obtiene al {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez} y se acurruca en una caja de entrega especial, lo que hace que Kirara entre en el estado de “paquete minino” para moverse y pelear más velozmente.\n\n<color=#FFD780FF>Paquete minino</color>\n·Inflige <color=#99FF88FF>Daño Dendro</color> a los enemigos contra los que impacta. Este efecto solo puede ocurrir una vez cada 0.5{NON_BREAK_SPACE}s por cada enemigo.\n·En este estado, la Vel. Movimiento, Vel. de Escalada y la capacidad de salto de Kirara aumentan, pero el Coste de Aguante al escalar también es mayor.\n·Cuando termina la duración o esta habilidad se vuelve a usar, ejecuta un zarpazo más poderoso que el de {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}, y que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>.\n·El estado de paquete minino tiene una duración máxima de 10{NON_BREAK_SPACE}s y, cuando el efecto termina, la habilidad entra en TdE. Cuanto más tiempo permanezca Kirara en este estado, mayor será el TdE.\n·Esprintar o dejar de escalar cancelará este estado.\n\n<i>“¿Quieres saber cuál es el secreto para entregar algo tan rápidamente? Evidentemente, ¡la clave está en las patas!”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Momoka_01"
       }
     ],
@@ -784,6 +786,7 @@
       "Id": 10615,
       "Name": "Técnica secreta: Entrega sorpresa",
       "Description": "Utiliza un paquete especial antiladrones para castigar y aplastar a sus enemigos e infligir <color=#99FF88FF>Daño Dendro en el AdE</color>. Cuando el paquete explota, se divide en múltiples <color=#FFD780FF>briznas cardamiau-miau</color>, las cuales a su vez explotan cuando entran en contacto con un enemigo o tras un periodo de tiempo e infligen <color=#99FF88FF>Daño Dendro en el AdE</color>.\n\n<i>“Jeje, esto es para los que les gusta robar paquetes. Delincuentes, ¡no olviden dejar una reseña de 5 estrellas tras recibir el suyo!”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Momoka_01"
     },
     "Inherents": [
@@ -807,6 +810,7 @@
         "Id": 612101,
         "Name": "Cola exorcizadora",
         "Description": "#Cuando Kirara se encuentra en el estado de paquete minino de <color=#FFD780FF>Nekopatada voladora</color>, cada impacto contra un oponente otorga una carga de <color=#FFD780FF>paquete reforzado</color>. Este efecto solo puede ocurrir una vez cada 0.5{NON_BREAK_SPACE}s por cada enemigo impactado y puede acumularse hasta 3 veces. Cuando termina el estado de paquete minino, cada carga de paquete reforzado otorga a Kirara un escudo de transporte seguro con una absorción de daño equivalente al 20% de la que tendría un escudo obtenido al utilizar <color=#FFD780FF>Nekopatada voladora</color>. Si Kirara ya se encuentra bajo la protección de un escudo de transporte seguro de Nekopatada voladora, su absorción de daño restante se acumula y su duración se reinicia.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_05"
       },
       {
@@ -828,6 +832,7 @@
         "Id": 612201,
         "Name": "Distracción oportuna",
         "Description": "#Por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Kirara, el daño infligido por <color=#FFD780FF>Nekopatada voladora</color> aumenta en un 0.4%, y el de <color=#FFD780FF>Técnica secreta: Entrega sorpresa</color> aumenta en un 0.3%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Momoka_06"
       },
       {
@@ -846,6 +851,7 @@
         "Id": 612301,
         "Name": "Acecho furtivo",
         "Description": "Cuando Kirara está en el equipo, tus personajes no asustarán a los animales de los que se puede obtener carne de ave, carne cruda y carne congelada.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aloy_07"
       }
     ],

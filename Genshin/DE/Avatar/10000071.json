@@ -292,6 +292,7 @@
         "Id": 10711,
         "Name": "Speertechnik der Beschwörer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -476,7 +477,8 @@
         "Id": 10712,
         "Name": "Geheimer Ritus – Abgründiger Seelenwanderer",
         "Description": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\n\nWenn Cyno sich im Modus „Paktverschworener Pfadklärer“ befindet, den die Spezialfähigkeit „Heiliger Ritus – Schnelligkeit des Wolfs“ ausgelöst hat, führt er stattdessen den <color=#FFD780FF>Bestattungsritus</color> aus, der donnernd <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht und die Dauer des Modus „Paktverschworener Pfadklärer“ verlängert.\n\n<i>„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“</i>",
-        "SpecialDescription": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\n\nWenn Cyno sich im Modus „Paktverschworener Pfadklärer“ befindet, führt er stattdessen den <color=#FFD780FF>Bestattungsritus</color> aus, der donnernd <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht. Verlängert, wenn Cyno durch die Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> in den Modus „Paktverschworener Pfadklärer“ eintritt, beim Anwenden von <color=#FFD780FF>Bestattungsritus</color> zudem die Dauer des aktuellen Modus „Paktverschworener Pfadklärer“.\n\n<i>„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“</i>",
+        "SpecialDescription": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\n\nWenn Cyno sich im Zustand „Paktverschworener Pfadklärer“ befindet, führt er stattdessen den <color=#FFD780FF>Bestattungsritus</color> aus, der donnernd <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht. Verlängert, wenn Cyno durch die Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> in den Modus „Paktverschworener Pfadklärer“ eintritt, beim Anwenden von <color=#FFD780FF>Bestattungsritus</color> zudem die Dauer des aktuellen Modus „Paktverschworener Pfadklärer“.\n\n<i>„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Cyno_01"
       }
     ],
@@ -496,7 +498,8 @@
         },
         "Id": 712401,
         "Name": "Stern des Aufbruchs",
-        "Description": "#Versetzt Cyno, wenn er sich nicht im Modus „Paktverschworener Pfadklärer“ befindet und doch die Elementarfähigkeit <color=#FFD780FF>Geheimer Ritus – Abgründiger Seelenwanderer</color> anwendet, 6{NON_BREAK_SPACE}s lang in den Zustand „Paktverschworener Pfadklärer“.\nVersetzt Cyno zudem, wenn er sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "Description": "#Versetzt Cyno, wenn er sich nicht im Modus „Paktverschworener Pfadklärer“ befindet und die Elementarfähigkeit <color=#FFD780FF>Geheimer Ritus – Abgründiger Seelenwanderer</color> anwendet, 6{NON_BREAK_SPACE}s lang in den Zustand „Paktverschworener Pfadklärer“.\nVersetzt Cyno zudem, wenn er sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_08"
       }
     ],
@@ -840,6 +843,7 @@
       "Id": 10715,
       "Name": "Heiliger Ritus – Schnelligkeit des Wolfs",
       "Description": "Beschwört einen göttlichen Geist, der Cyno in den „Paktverschworenen Pfadklärer“ verwandelt.\n\n<color=#FFD780FF>Paktverschworener Pfadklärer</color>\nWandelt den durch Cynos Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachten Schaden in <color=#FFACFFFF>Elektro-Schaden</color> um, der nicht von anderen Elementen überdeckt werden kann.\n· Erhöht Cynos Elementarkunde und Unterbrechungs-WDS. Verleiht ihm zugleich Immunität gegen Schaden, den die Reaktion „Unter Strom“ verursacht.\n\nDiese Effekte halten bis zu 18 s und werden entfernt, sobald Cyno ausgewechselt wird.\n\n<i>Die geheimen Riten der alten Zivilisation sind für Mahamatra auch der letzte Prozess.</i>\n<i>Ob die Vergangenheit oder die Gegenwart, ob Sturm oder Riesenschlange, nichts kann die Autorität des Gesetzes erschüttern.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Cyno_01"
     },
     "Inherents": [
@@ -863,6 +867,7 @@
         "Id": 712101,
         "Name": "Urteil der Federn",
         "Description": "Befindet sich Cyno im Modus „Paktverschworener Pfadklärer“ der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color>, wird er in Intervallen den Zustand „Prophet des Endes“ einnehmen. Wendet er in diesem Zustand die Elementarfähigkeit <color=#FFD780FF>Geheimer Ritus – Abgründiger Seelenwanderer</color> an, wird der Effekt „Zumessung“ ausgelöst, der den diesmaligen Schaden von „Geheimer Ritus – Abgründiger Seelenwanderer“ um 35 % erhöht und 3 Staubblitze nach vorn abfeuert, die <color=#FFACFFFF>Elektro-Schaden </color> in Höhe von 100 % von Cynos ANG verursachen.\nSchaden der Staubblitze gilt als Schaden der Elementarfähigkeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 712201,
         "Name": "Autorität der neun Bögen",
         "Description": "#Erhöht den Schaden Cynos folgender Angriffe basierend auf seiner Elementarkunde:\n· Standardangriff im Modus „Paktverschworener Pfadklärer“: um 150{NON_BREAK_SPACE}% seiner Elementarkunde.\n· Staubblitze des Aufstiegstalents „Urteil der Federn“: um 250{NON_BREAK_SPACE}% seiner Elementarkunde.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 712301,
         "Name": "Gnade der Stille",
         "Description": "#Bringt bei 20-stündigen Erkundungsentsendungen in Sumeru 25{NON_BREAK_SPACE}% mehr Belohnungen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_07"
       }
     ],
@@ -917,7 +924,7 @@
       {
         "Id": 712,
         "Name": "Zeremonienritus – Heimkehrende Seelen",
-        "Description": "Erhöht 4 s lang nach dem Treffen von Gegnern mit Cynos Standardangriffen Cynos <color=#FFACFFFF>Elektro-SCH</color> um 10 %. 0,1 s Abklingzeit. 5-fach stapelbar.",
+        "Description": "Erhöht 4 s lang nach dem Treffen von Gegnern mit Cynos Standardangriffen Cynos <color=#FFACFFFF>Elektro-SCH-Bonus</color> um 10 %. 0,1 s Abklingzeit. 5-fach stapelbar.",
         "SpecialDescription": "#Erhöht 4{NON_BREAK_SPACE}s lang nach dem Treffen von Gegnern mit Cynos Standardangriffen Cynos <color=#FFACFFFF>Elektro-SCH-Bonus</color> um 10{NON_BREAK_SPACE}%. 0,1{NON_BREAK_SPACE}s Abklingzeit. 5-fach stapelbar.\n\nErhöht zudem den Schaden durch die Reaktion Stellar-Supraleiter von Figuren mit dem Effekt <color=#FFD780FF>Gemeinsam mit der Sonne aufgehen</color> um 16{NON_BREAK_SPACE}%, wenn diese Figuren einen Gegner mit einem Standardangriff oder heftigen Schlag treffen. Dieser Effekt hält an, bis der Effekt <color=#FFD780FF>Gemeinsam mit der Sonne aufgehen</color> endet. 0,1{NON_BREAK_SPACE}s Abklingzeit. 5-fach stapelbar.",
         "Icon": "UI_Talent_S_Cyno_02"
       },
@@ -934,8 +941,8 @@
       {
         "Id": 714,
         "Name": "Austeritätsritus – Beschützender Verbotswächter",
-        "Description": "Befindet sich Cyno im Modus „Paktverschworener Pfadklärer“ der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color>, stellt er nach Auslösen der Reaktionen wie „Unter Strom“, „Mond unter Strom“, „Supraleiter“, „Überladen“, „Urwuchs“, „Suprawuchs“, „Supraspross“ oder „Elektro-Verwirbelung“ allen Truppenmitgliedern in der Nähe (außer Cyno) 3 Punkte Elementarenergie wieder her.\n5-mal während der Wirkungsdauer der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> auslösbar.",
-        "SpecialDescription": "#Befindet sich Cyno im Modus „Paktverschworener Pfadklärer“ der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color>, stellt er nach Auslösen der Reaktionen wie „Unter Strom“, „Mond unter Strom“, „Supraleiter“, „Stellar-Supraleiter“, „Überladen“, „Urwuchs“, „Suprawuchs“, „Supraspross“ oder „Elektro-Verwirbelung“ allen Truppenmitgliedern in der Nähe (außer Cyno) 3 Punkte Elementarenergie wieder her. 5-mal während der Wirkungsdauer der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> auslösbar.\n\nWenn andere Figuren (außer Cyno), die von <color=#FFD780FF>Gemeinsam mit der Sonne aufgehen</color> betroffen sind, die oben genannte Reaktion auslösen, werden Cyno 20{NON_BREAK_SPACE}Punkte Elementarenergie wiederhergestellt, 18{NON_BREAK_SPACE}s Abklingzeit.",
+        "Description": "Befindet sich Cyno im Zustand „Paktverschworener Pfadklärer“ der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color>, stellt er nach Auslösen der Reaktionen wie „Unter Strom“, „Mond unter Strom“, „Supraleiter“, „Stellar-Supraleiter“, „Überladen“, „Urwuchs“, „Suprawuchs“, „Supraspross“ oder „Elektro-Verwirbelung“ allen Truppenmitgliedern in der Nähe (außer Cyno selbst) 3 Punkte Elementarenergie wieder her.\n5-mal während der Wirkungsdauer der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> auslösbar.",
+        "SpecialDescription": "#Befindet sich Cyno im Zustand „Paktverschworener Pfadklärer“ der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color>, stellt er nach Auslösen der Reaktionen wie „Unter Strom“, „Mond unter Strom“, „Supraleiter“, „Stellar-Supraleiter“, „Überladen“, „Urwuchs“, „Suprawuchs“, „Supraspross“ oder „Elektro-Verwirbelung“ allen Truppenmitgliedern in der Nähe (außer Cyno selbst) 3 Punkte Elementarenergie wieder her. 5-mal während der Wirkungsdauer der Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> auslösbar.\n\nWenn andere Figuren (außer Cyno selbst), die von <color=#FFD780FF>Gemeinsam mit der Sonne aufgehen</color> betroffen sind, die oben genannte Reaktion auslösen, werden Cyno 20{NON_BREAK_SPACE}Punkte Elementarenergie wiederhergestellt, 18{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Cyno_03"
       },
       {

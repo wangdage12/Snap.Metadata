@@ -308,6 +308,7 @@
         "Id": 10321,
         "Name": "Colpo di fortuna",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -552,6 +553,7 @@
         "Id": 10322,
         "Name": "Sovraccarico di passione",
         "Description": "#Bennett convoglia nella sua spada tutto il suo ardore e la sua passione per l'avventura. I risultati possono variare in base a quanto è su di giri...\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nUn singolo, rapido colpo di fiamma che infligge <color=#FF9999FF>DAN da Pyro</color>.\n\n<color=#FFD780FF>Pressione prolungata (breve)</color>\nSi carica, provocando diversi effetti in base al livello di carica quando viene rilasciato.\n· Livello 1: colpisce due volte, infliggendo <color=#FF9999FF>DAN da Pyro</color> e scagliando via gli avversari;\n· Livello 2: sferra 3 attacchi consecutivi che infliggono notevoli <color=#FF9999FF>DAN da Pyro</color>, ma l'ultimo attacco innesca un'esplosione che scaglia via sia Bennett che il nemico.\nBennett non subisce danno quando viene scagliato.\n\n<i>Un attacco che combina i sogni e le passioni di Bennett con Pyro. Ma di passione a volte si scoppia, e anche Pyro a volte sa esplodere.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Bennett_01"
       }
     ],
@@ -768,6 +770,7 @@
       "Id": 10323,
       "Name": "Viaggio fantastico",
       "Description": "Bennett effettua un attacco in salto che infligge <color=#FF9999FF>DAN da Pyro</color>, creando un Campo d'ispirazione.\n\n<color=#FFD780FF>Campo d'ispirazione</color>\n· Se la salute di un personaggio all'interno dell'area d'effetto è uguale o inferiore a un 70%, la sua salute si rigenererà costantemente. La quantità di PS rigenerati varia in base ai PS max di Bennett.\n· Se la salute di un personaggio dentro l'area d'effetto è superiore a un 70%, questo acquisisce un bonus ATT in base all'ATT di base di Bennett.\n· Infonde di <color=#FF9999FF>Pyro</color> i personaggi all'interno dell'area d'effetto.\n\n<i>Gli avventurieri della Brigata dell'avventura di Benny si trovano sempre davanti a pericoli inaspettati. Tuttavia, Bennett è più incline a chiamarli \"viaggi colmi di meraviglia, emozione e bellezza.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Bennett_01"
     },
     "Inherents": [
@@ -787,6 +790,7 @@
         "Id": 322101,
         "Name": "Ravvivamento",
         "Description": "Riduce il TdR di <color=#FFD780FF>Sovraccarico di passione</color> di un 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 322201,
         "Name": "Ardimento",
         "Description": "All'interno dell'area creata da <color=#FFD780FF>Viaggio fantastico</color>, <color=#FFD780FF>Sovraccarico di passione</color> ha i seguenti effetti:\n· TdR ridotto di un 50%;\n· Bennett non sarà scagliato via dagli effetti del livello di carica 2.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_06"
       },
       {
@@ -823,6 +828,7 @@
         "Id": 322301,
         "Name": "Dovrebbe essere sicuro...",
         "Description": "Quando intraprende una spedizione a Mondstadt, il tempo impiegato per portarla a termine si riduce di un 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Mengde"
       }
     ],

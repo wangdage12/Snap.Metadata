@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Impulso de torbellino",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 6 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para atacar alzando su lanza.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.\nXiao no recibirá daño al caer con un Ataque Descendente.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Ciclón de viento lemniscático",
         "Description": "Xiao se lanza hacia adelante e inflige <color=#80FFD7FF>Daño Anemo</color> a todos los enemigos que se crucen en su camino.\nPuede activarse en el aire y empieza con un total de 2 cargas.\n\n<i>Cuentan las leyendas de otra tierra que el mundo será aplastado por dos grandes ruedas de viento. El dominio con la lanza de Xiao le permite destrozar a sus enemigos igual que las legendarias ruedas de viento.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Azote de todos los males",
       "Description": "Xiao se pone la máscara de Yaksha que aterrorizó tanto a los demonios como a los dioses hace miles de años.\n\n<color=#FFD780FF>Máscara de Yaksha</color>\n·Mejora la capacidad de salto de Xiao.\n·Mientras dura la habilidad, aumenta el alcance y el daño de los ataques de Xiao.\n·Convierte su daño de ataque en <color=#80FFD7FF>Daño Anemo</color>. Este cambio elemental no puede sustituirse imbuyéndose de otro elemento.\nEstar en esta forma consume la Vida de Xiao de manera continua.\n\n<i>Xiao se pone una máscara y adopta la forma del Guardián Yaksha para aterrorizar a todos los males y eliminar a los monstruos y espíritus del mundo. Sin embargo, un gran poder conlleva un gran dolor. Algunos lo llaman el “Azote de todos los males”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Conquista del mal: Domademonios",
         "Description": "Al estar bajo los efectos de <color=#FFD780FF>Azote de todos los males</color>, el daño infligido por Xiao se incrementa en un 5%. Después, su daño continúa aumentando en un 5% cada 3 s hasta el fin de la habilidad.\nSolo se puede alcanzar un 25% de bono de daño máximo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Desintegración: Caída celestial",
         "Description": "Usar <color=#FFD780FF>Ciclón de viento lemniscático</color> aumenta en un 15% el daño infligido por los siguientes Ciclones de viento lemniscático durante 7 s.\nEste efecto puede acumularse un máximo de 3 veces y, cada vez que se obtenga una nueva carga, la duración de este efecto se reiniciará.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Trascendencia: Desafío a la gravedad",
         "Description": "Disminuye en un 20% el Coste de Aguante al escalar de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Diseño de tarjeta de presentación.\nOjalá llegue el día en que se ponga la máscara y comience a bailar. No para acabar con demonios malvados, sino para acompañar al sonido de las flautas del Pantano Dihua.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Estela: El Guardián Yaksha",
+    "Description": "La estela epopéyica de Xiao. “A través de la batalla purgamos el mal. A ello dedicaremos nuestras vidas”.",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

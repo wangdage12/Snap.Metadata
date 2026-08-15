@@ -261,6 +261,7 @@
         "Id": 11321,
         "Name": "Badabum! Martello spezzamalefici",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 attacchi roteando il Martello Scacciamali, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare una martellata verso l'alto, infliggendo <color=#80FFD7FF>DAN da Anemo</color> agli avversari di fronte a sé.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nEvocando il potere di Anemo, si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#80FFD7FF>DAN da Anemo ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -412,7 +413,8 @@
         },
         "Id": 11322,
         "Name": "Din-din-dan! Scampanio Scacciastreghe",
-        "Description": "#Scatena la potenza del vento al fine di sconfiggere la strega malvagia e salvare Descartes! Prune colpisce la Campana Ammaliastreghe con il suo Martello Scacciamali, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\nSe Prune innesca un Turbinio su un avversario usando questo attacco, <color=#FFD780FF>Din-din-dan! Scampanio Scacciastreghe</color> viene sostituito da <color=#FFD780FF>Don don! Castigo della strega!</color> per i successivi 6{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Don don! Castigo della strega!</color>\nIl martello di Prune viene avvolto dall'elemento coinvolto nella precedente reazione di Turbinio, sottoponendo il {LINK#N11320001}<color=#FFD780FF>Martello Scacciamali</color>{/LINK} a una Conversione elementale. Attivando l'abilità con {LAYOUT_MOBILE#un tocco}{LAYOUT_PC#una pressione}{LAYOUT_PS#una pressione}, Prune compie un balzo in alto e dà un calcio in avanti al Martello Scacciamali, infliggendo DAN elementali del tipo corrispondente agli avversari di fronte a lei.",
+        "Description": "#Determinata a sconfiggere la strega \"malvagia\" e a salvare il suo amato Descartes, Prune sprigiona il potere del vento! Colpisce la Campana Ammaliastreghe usando il suo Martello Scacciamali, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\nSe Prune innesca una reazione di Turbinio o di Turbinio astrale su un avversario usando questo attacco, <color=#FFD780FF>Din-din-dan! Scampanio Scacciastreghe</color> viene sostituito da <color=#FFD780FF>Don don! Castigo della strega!</color> per i successivi 6{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Don don! Castigo della strega!</color>\nAvvolge il {LINK#N11320001}<color=#FFD780FF>Martello Scacciamali</color>{/LINK} nell'elemento coinvolto nella precedente reazione di Turbinio o di Turbinio astrale. Dopo aver attivato l'abilità con {LAYOUT_MOBILE#un tocco}{LAYOUT_PC#una pressione}{LAYOUT_PS#una pressione}, Prune sferra un calcio a mezz'aria contro il Martello Scacciamali, infliggendo agli avversari di fronte a lei DAN del tipo elementale corrispondente.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Prune_01"
       }
     ],
@@ -437,7 +439,8 @@
         },
         "Id": 1325101,
         "Name": "Rito della Vigilia della strega: Voto della Cercastreghe",
-        "Description": "#Dopo aver completato <color=#FFD780FF>Compiti della strega: Sulle controversie</color>, Prune acquisisce l'attributo <color=#FFD780FF>Hexerei</color>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <color=#FFD780FF>Hexerei: Rito segreto</color>.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\nDopo che un personaggio con attributo Hexerei nel gruppo sotto l'effetto di Adunanza del rintocco ha innescato una reazione elementale su un nemico, l'ATT di Prune aumenta di un 60% per 5{NON_BREAK_SPACE}s. Se la reazione elementale innescata è una reazione di Turbinio, l'ATT del personaggio che l'ha innescata aumenta di un ulteriore 30% per 5{NON_BREAK_SPACE}s.",
+        "Description": "#Dopo aver completato <color=#FFD780FF>Compiti della strega: Sulle controversie</color>, Prune acquisisce l'attributo <color=#FFD780FF>Hexerei</color>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <color=#FFD780FF>Hexerei: Rito segreto</color>.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\nDopo che un personaggio con attributo Hexerei nel gruppo sotto l'effetto di Adunanza del rintocco ha innescato una reazione elementale su un nemico, l'ATT di Prune aumenta di un 60% per 5{NON_BREAK_SPACE}s. Se la reazione elementale innescata è una reazione di Turbinio o di Turbinio astrale, l'ATT del personaggio che l'ha innescata aumenta di un ulteriore 30% per 5{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 11325,
       "Name": "La campana rintocca! La caccia è aperta!",
       "Description": "Prune agita delicatamente la Campana Ammaliastreghe, infliggendo <color=#80FFD7FF>DAN da Anemo</color> agli avversari vicini. Successivamente, la Campana entra in modalità Caccia.\n\n<color=#FFD780FF>Campana Ammaliastreghe: Caccia</color>\nIn questa modalità, la Campana Ammaliastreghe segue il personaggio attivo attuale, attaccando gli avversari circostanti a intervalli e infliggendo <color=#80FFD7FF>DAN da Anemo ad area</color>. Tali DAN sono considerati DAN da Tripudio elementale.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Prune_01"
     },
     "Inherents": [
@@ -643,7 +647,8 @@
         },
         "Id": 1322101,
         "Name": "Verdetto e punizione",
-        "Description": "Durante il Tripudio elementale <color=#FFD780FF>{LINK#S11325}La campana rintocca! La caccia è aperta!{/LINK}</color>, dopo aver inflitto DAN tramite la Campana Ammaliastreghe in modalità Caccia, se tali DAN innescano un Turbinio su un avversario, viene evocato anche un {LINK#N11320001}<color=#FFD780FF>Martello Scacciamali</color>{/LINK} che infligge DAN pari a un 150% dell'ATT di Prune del tipo corrispondente alla Conversione elementale del Turbinio. Tali DAN sono considerati DAN da Tripudio elementale.",
+        "Description": "Durante il Tripudio elementale <color=#FFD780FF>{LINK#S11325}La campana rintocca! La caccia è aperta!{/LINK}</color>, dopo aver inflitto DAN tramite la Campana Ammaliastreghe in modalità Caccia, se tali DAN innescano una reazione di Turbinio o di Turbinio astrale su un avversario, viene evocato anche un {LINK#N11320001}<color=#FFD780FF>Martello Scacciamali</color>{/LINK} che infligge DAN pari a un 150% dell'ATT di Prune del tipo corrispondente alla Conversione elementale del Turbinio o del Turbinio astrale. Tali DAN sono considerati DAN da Tripudio elementale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_05"
       },
       {
@@ -667,6 +672,7 @@
         "Id": 1322201,
         "Name": "Rintocchi sincronizzati",
         "Description": "#Dopo che Prune ha colpito un avversario con il {LINK#N11320001}<color=#FFD780FF>Martello Scacciamali</color>{/LINK} sottoposto a Conversione elementale, gli altri membri vicini del gruppo ottengono l'effetto Adunanza del rintocco per 5{NON_BREAK_SPACE}s: quando gli attacchi normali, caricati o in picchiata, le abilità elementali o i Tripudi elementali infliggono DAN agli avversari, i DAN di tali attacchi aumentano in base alla quantità di ATT di Prune superiore a 2.000 nel momento in cui l'effetto Adunanza del rintocco si attiva. Ogni punto di ATT in eccesso aumenta tale iterazione di DAN di uno 0,025%, fino a un 50% massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_06"
       },
       {
@@ -685,6 +691,7 @@
         "Id": 1322301,
         "Name": "Tin-tin, clang e bang!",
         "Description": "Ha un 10% di probabilità di ottenere 1 materiale per talenti dei personaggi regionale (materiali di base esclusi) durante la creazione. La rarità è quella del materiale risultante.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_08"
       }
     ],
@@ -1104,7 +1111,7 @@
       },
       {
         "Title": "\"Campana Ammaliastreghe\" e \"Martello Scacciamali\"",
-        "Context": "\nIl \"rapimento\" di Descartes aveva fatto sprofondare Prune in una preoccupazione che non aveva mai provato prima.\nCome un guerriero che si prepara all'azione imminente, si chiuse nella sua stanza per ripassare ogni dettaglio dei suoi scontri con Alice. Ogni volta che le due raggiungevano un punto in cui Alice non riusciva più a sostenere il dibattito, la maga dell'Hexenzirkel tirava fuori all'improvviso un \"pezzo da collezione\" con un sorriso raggiante per ricompensare Prune della sua vittoria.\nAll'inizio, Prune non diede peso a questi \"pezzi da collezione\". Di sicuro non erano altro che un misero modo per corromperla, come le caramelle che gli adulti ti rifilano per farti stare zitto.\nPoi, un dubbio lancinante la colpì: considerando quanto possono essere potenti le maghe, una \"sciocchezza\" proveniente da una di loro poteva davvero essere nient'altro che un giocattolo?\nRaccolse tutti i premi che aveva vinto da Alice e li dispose per una valutazione approfondita. Ma prima doveva eliminare le ovvie distrazioni: spuntini assortiti in confezioni eleganti, adesivi con disegni infantili, peluche senza funzioni speciali... Alla fine, si concentrò sui due oggetti con il maggior potenziale.\nIl primo era una campana dalla fattura squisita. \"Quando suona, potrebbe apparire una strega\", aveva detto Alice in modo piuttosto ambiguo. Da questo, Prune dedusse che si trattasse di una sorta di \"acchiappa-streghe\". In realtà, era una vecchia campana per un ricevimento; il \"potrebbe\" nell'affermazione di Alice derivava dal fatto che la partecipazione non era mai obbligatoria, lasciando nel mistero se qualcuno si fosse presentato, e chi. Ma ora che Prune ha ridefinito il suo scopo, la campana ha davvero svolto un ruolo fondamentale nelle sue avventure. Suonarla non garantisce mai una strega, ma non manca mai di portare avventure davvero incredibili.\nIl secondo oggetto era un martello pesante e visivamente impressionante. Era il più grande e il più pesante di tutti i premi che Prune aveva vinto da Alice, e appariva davvero formidabile e intimidatorio ogni volta che veniva brandito. Quello che lei non sapeva era che si trattava in realtà di uno strumento da scultura che Alice aveva originariamente pensato di regalare a un'altra maga, Nicole, anche se questo regalo un po' esagerato era stato successivamente (e cortesemente) rifiutato dalla destinataria, che aveva detto: \"Il mio hobby è la scultura, non l'edilizia e la demolizione\". Di conseguenza, era rimasto lì a prendere polvere finché Alice non aveva finalmente trovato la scusa perfetta per liberarsene.\nQuesti due doni del \"Re Dodo\" furono poi cerimoniosamente rinominati dopo alcune modifiche molto logiche e pratiche apportate da Prune alle armi...\n...E ora sono conosciuti come la \"Campana Ammaliastreghe\" e il \"Martello Scacciamali\"."
+        "Context": "Il \"rapimento\" di Descartes aveva fatto sprofondare Prune in una preoccupazione che non aveva mai provato prima.\nCome un guerriero che si prepara all'azione imminente, si chiuse nella sua stanza per ripassare ogni dettaglio dei suoi scontri con Alice. Ogni volta che le due raggiungevano un punto in cui Alice non riusciva più a sostenere il dibattito, la maga dell'Hexenzirkel tirava fuori all'improvviso un \"pezzo da collezione\" con un sorriso raggiante per ricompensare Prune della sua vittoria.\nAll'inizio, Prune non diede peso a questi \"pezzi da collezione\". Di sicuro non erano altro che un misero modo per corromperla, come le caramelle che gli adulti ti rifilano per farti stare zitto.\nPoi un dubbio lancinante la pervase: considerando quanto possano essere potenti le maghe, una loro \"sciocchezza\" avrebbe davvero potuto essere soltanto un giocattolo?\nRaccolse tutti i premi che aveva vinto da Alice e li dispose per una valutazione approfondita. Ma prima doveva eliminare le ovvie distrazioni: spuntini assortiti in confezioni eleganti, adesivi con disegni infantili, peluche senza funzioni speciali... Alla fine, si concentrò sui due oggetti con il maggior potenziale.\nIl primo era una campana di fattura squisita. \"Quando suona, potrebbe apparire una strega\", aveva detto Alice in modo piuttosto ambiguo. Da questo, Prune dedusse che si trattasse di una sorta di \"acchiappastreghe\". In realtà, era una vecchia campana per un ricevimento; il \"potrebbe\" nell'affermazione di Alice derivava dal fatto che la partecipazione non era mai obbligatoria, lasciando nel mistero se qualcuno si fosse presentato, e chi. Ma ora che Prune ha ridefinito il suo scopo, la campana ha davvero svolto un ruolo fondamentale nelle sue avventure. Suonarla non garantisce mai una strega, ma non manca mai di portare avventure davvero incredibili.\nIl secondo oggetto era un martello pesante e visivamente impressionante. Era il più grande e il più pesante di tutti i premi che Prune aveva vinto da Alice, e appariva davvero formidabile e intimidatorio ogni volta che veniva brandito. Quello che lei non sapeva era che si trattava in realtà di uno strumento da scultura che Alice aveva originariamente pensato di regalare a un'altra maga, Nicole, anche se questo regalo un po' esagerato era stato successivamente (e cortesemente) rifiutato dalla destinataria, che aveva detto: \"Il mio hobby è la scultura, non l'edilizia e la demolizione\". Di conseguenza, era rimasto lì a prendere polvere finché Alice non aveva finalmente trovato la scusa perfetta per liberarsene.\nQuesti due doni del \"Re Dodo\" furono poi cerimoniosamente rinominati dopo alcune modifiche molto logiche e pratiche apportate da Prune alle armi...\n...E ora sono conosciuti come la \"Campana Ammaliastreghe\" e il \"Martello Scacciamali\"."
       },
       {
         "Title": "Visione",

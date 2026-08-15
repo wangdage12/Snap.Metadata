@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "桂花に触れる金刃",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n剣による最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "衆生は忽然たるのみ",
         "Description": "古の権能を呼び起こし、{LINK#N11260001}<color=#FFD780FF>「隙を過ぐる月」</color>{/LINK}状態に入る。\nこの状態の時、兹白の通常攻撃と重撃は、元素付与によって他の元素に変化しない<color=#FFE699FF>岩元素ダメージ</color>へと変わる。同時に、異なる方法で特殊な<color=#FFD780FF>「隙に浮かぶ光」</color>を蓄積できるようになる。この「隙に浮かぶ光」を消費することで、特殊な元素スキル<color=#FFD780FF>翔ける霊駒</color>を発動できる。\n\n<color=#FFD780FF>月兆・満照</color>\n<color=#FFD780FF>「隙を過ぐる月」</color>状態にある時、兹白の通常攻撃の4段目は<color=#FFE699FF>岩元素ダメージ</color>を追加で与える。このダメージは、月結晶反応によるダメージと見なされる。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "三垣の威儀法",
       "Description": "青玄陽華の華笠を回して攻撃を行い、<color=#FFE699FF>岩元素ダメージ</color>を2回与える。2回目のダメージは月結晶反応ダメージと見なされる。\n発動時、兹白が{LINK#N11260001}<color=#FFD780FF>「隙を過ぐる月」</color>{/LINK}状態である場合、現在の「隙を過ぐる月」状態の継続時間+1.7秒。",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "月下に舞い降りる天女",
         "Description": "元素スキル<color=#FFD780FF>{LINK#S11262}衆生は忽然たるのみ{/LINK}</color>を発動、または付近にいるチーム内キャラクターが月籠の共鳴を発動した時、兹白は4秒間継続する<color=#FFD780FF>「太陰降」</color>効果を獲得し、{LINK#N11260001}<color=#FFD780FF>翔ける霊駒</color>{/LINK}の与える2段目のダメージが兹白の防御力の60%分アップする。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "雲間に連なる山々",
         "Description": "チーム内に<color=#FFE699FF>岩元素</color>のキャラクターが1名いる毎に（兹白自身を除く）、兹白の防御力+15%。チーム内に<color=#80C0FFFF>水元素</color>のキャラクターが1名いる毎に、兹白の元素熟知+60。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "月兆の祝福・日月は流れるが如し",
         "Description": "チーム内のキャラクターが水元素結晶反応を起こすと、月結晶反応へと変わり、兹白の防御力に基づいて、チーム内キャラクターの与える月結晶反応の基礎ダメージがアップする。防御力100につき、月結晶反応の基礎ダメージ+0.7%。この方法でアップできるダメージは最大14%まで。\n\nまた、兹白がチームにいる時、チームの<color=#FFD780FF>月兆レベル</color>が1アップする。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "花は霰の如し",
         "Description": "夜間（18時から6時まで）、戦闘状態でない時、2秒毎に兹白の元素エネルギーを1回復する。\nこの効果は秘境、征討領域、深境螺旋では発動しない。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

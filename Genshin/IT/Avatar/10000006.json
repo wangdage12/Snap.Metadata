@@ -277,6 +277,7 @@
         "Id": 10060,
         "Name": "Tocco di fulmine",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEffettua fino a 4 attacchi di fulmine che infliggono <color=#FFACFFFF>DAN da Electro</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#FFACFFFF>DAN da Electro ad area</color> dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nConvogliando la forza di Electro, Lisa si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#FFACFFFF>DAN da Electro ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -493,6 +494,7 @@
         "Id": 10061,
         "Name": "Tuono violetto",
         "Description": "#Incanala il potere del fulmine per spazzare via le questioni fastidiose.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nRilascia una Fulminosfera a ricerca.\nQuando va a segno, infligge <color=#FFACFFFF>DAN da Electro</color> e applica lo stato di Conduzione (cumulabile fino a 3 volte) agli avversari in una piccola area d'effetto.\n\n<color=#FFD780FF>Pressione prolungata</color>\nDopo un tempo di lancio esteso, richiama i fulmini dal cielo infliggendo ingenti <color=#FFACFFFF>DAN da Electro</color> a tutti gli avversari vicini.\nInfligge grandi quantità di danni extra agli avversari in base al numero di accumuli di Conduzione applicati, rimuovendo il loro stato di Conduzione.\n\n<i>Il viola di Electro è l'abbigliamento della Strega della Rosa purpurea.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lisa_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 10062,
       "Name": "Rosa fulminante",
       "Description": "Evoca una Rosa fulminante che rilascia potenti saette, scagliando via gli avversari circostanti e infliggendo <color=#FFACFFFF>DAN da Electro</color>.\nLa Rosa fulminante emette continuamente fulmini per respingere gli avversari e infliggere <color=#FFACFFFF>DAN da Electro</color> per tutta la durata dell'abilità.\n\n<i>Questa rosa è splendida, ma attenzione alle sue spine mortali.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lisa_01"
     },
     "Inherents": [
@@ -683,6 +686,7 @@
         "Id": 42101,
         "Name": "Scossa di assestamento indotta",
         "Description": "I colpi degli attacchi caricati applicano lo stato di Conduzione di <color=#FFD780FF>Tuono violetto</color> agli avversari.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lisa_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 42201,
         "Name": "Campo elettrostatico",
         "Description": "#La DIF degli avversari colpiti da <color=#FFD780FF>Rosa fulminante</color> diminuisce di un 15% per 10{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lisa_06"
       },
       {
@@ -722,6 +727,7 @@
         "Id": 42301,
         "Name": "Farmaci generici",
         "Description": "Quando Lisa prepara una pozione, ha un 20% di probabilità di recuperare una parte dei materiali per la creazione utilizzati.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Potion"
       }
     ],

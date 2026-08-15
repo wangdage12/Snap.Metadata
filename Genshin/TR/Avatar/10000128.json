@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Favonius Kılıç Tekniği: Dans Eden Parıltı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nVarka, kadim bir şövalye savaş dansını taklit ederek çift elli kılıçlarıyla arka arkaya en fazla 5 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak ileri doğru atılır ve öne doğru oldukça güçlü bir çift kılıç saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Rüzgarın İnfazı",
         "Description": "Favonius Kılıç Tekniğinin gerçek özünü mutlak güçle ortaya çıkarır. Becerinin Dokunma veya Basılı Tutma durumuna bağlı olarak farklı etkiler yaratır.\n\n<color=#FFD780FF>Dokun</color>\nİleri atılıp tek bir akıcı hareketle keserek <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir ve {LINK#N11280001}<color=#FFD780FF>Fırtına Hücumu</color>{/LINK} moduna geçer.\nVarka <color=#FFD780FF>Fırtına Hücumu</color> modundayken Normal Saldırı ve Yüklü Saldırı Hasarı artar ancak Havadan Saldırı yapamaz. Ayrıca Varka Normal veya Yüklü Saldırı yaptığında çift elli kılıçları sırasıyla gruptaki karakterlerin Element Türlerine göre Element Hasarı verir. Bu Element Hasarı diğer element tesirleriyle değiştirilemez.\nAyrıca <color=#FFD780FF>Fırtına Hücumu</color> modundayken grupta <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> karakterleri varsa Varka'nın <color=#FFD780FF>Rüzgarın İnfazı</color> Element Becerisi değişerek ilgili element türünde Element Hasarı ve <color=#80FFD7FF>Rüzgar Hasarı</color> veren özel Element Becerisi {LINK#N11280002}<color=#FFD780FF>Dört Rüzgarın Yükselişi</color>{/LINK} olur. Ayrıca Varka, <color=#FFD780FF>Dört Rüzgarın Yükselişi</color> özel Element Becerisinin kullanım hakkını harcayarak Dayanıklılık tüketmeden ilgili Element Türünde Element Hasarı ve <color=#80FFD7FF>Rüzgar Hasarı</color> veren özel <color=#FFD780FF>Gök Yutan</color> Yüklü Saldırısı gerçekleştirebilir.\n\n<color=#FFD780FF>Basılı Tut</color>\nBir süre güç topladıktan sonra ileri atılır. Güç toplama süresi atılma mesafesini artırır.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Cadının Gece Ayini: Şafağın Dönüşü",
         "Description": "<color=#FFD780FF>Cadının Ödevi: Başlıksız Soru</color> tamamlandıktan sonra Varka bir <color=#FFD780FF>Cadılık</color> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <color=#FFD780FF>Cadılık: Saklı Ayin</color> etkisi kazanırsın.\n\n<color=#FFD780FF>Cadılık: Saklı Ayin</color>\n{LINK#N11280002}<color=#FFD780FF>Dört Rüzgarın Yükselişi</color>{/LINK} özel Element Becerisini geliştirir: Varka {LINK#N11280001}<color=#FFD780FF>Fırtına Hücumu</color>{/LINK} modundayken Normal Saldırılarıyla bir düşmana vurduğunda <color=#FFD780FF>Dört Rüzgarın Yükselişi</color> bekleme süresi 1sn azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Kuzey Rüzgarının Tezahürü",
       "Description": "En kudretli Poyraz Şövalyesi adına öne doğru güçlü bir ikili kesme saldırısı yaparak 2 defa <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\nGrupta <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> karakteri varsa ilk kesme saldırısı, Element Türlerinin belirtilen öncelik sırasına göre Element Hasarı verir.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Şafak Rüzgarının Yürüyüşü",
         "Description": "Grupta <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> karakteri varken, bu Element Türlerinin belirtilen öncelik sırasına göre, Varka'nın sahip olduğu her 1.000 Saldırı Varka'ya %10 <color=#80FFD7FF>Rüzgar Hasarı Bonusu</color> ve buna karşılık gelen bir Element Hasarı Bonusu verir. Bahsedilen Element Türlerinden yalnızca biri bu şekilde Hasar Bonusu alabilir. Bu şekilde en fazla %25 Hasar Bonusu kazanılabilir.\n\nAyrıca grupta en az 2 <color=#80FFD7FF>Rüzgar</color> karakteri veya aynı elementten en az 2 <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> ya da <color=#99FFFFFF>Buz</color> karakteri varsa Varka'nın {LINK#N11280001}<color=#FFD780FF>Fırtına Hücumu</color>{/LINK} modundayken kullandığı Normal Saldırılar, Yüklü Saldırılar, <color=#FFD780FF>Gök Yutan</color> Özel Yüklü Saldırısı ve {LINK#N11280002}<color=#FFD780FF>Dört Rüzgarın Yükselişi</color>{/LINK} özel Element Becerisi, orijinal Hasarının %140'ı kadar Hasar verir. Grupta aynı anda en az 2 <color=#80FFD7FF>Rüzgar</color> karakteri ve <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> elementlerinden aynı element türünde en az 2 karakter daha varsa bahsedilen etki %220'ye yükseltilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Rüzgarın Öncüsü",
-        "Description": "Yakındaki grup üyeleri Girdap tepkimesi tetiklediğinde Varka bir <color=#FFD780FF>Mavi Dişin Yemini</color> kademesi kazanır ve 8 saniyeliğine Normal Saldırıları, Yüklü Saldırıları, <color=#FFD780FF>Gök Yutan</color> özel Yüklü Saldırısı ve {LINK#N11280002}<color=#FFD780FF>Dört Rüzgarın Yükselişi</color>{/LINK} özel Element Becerisinin verdiği Hasar %7,5 artar. 4 kademeye kadar birikebilir. Her karakter Varka'ya bu şekilde her saniye 1 kademe <color=#FFD780FF>Mavi Dişin Yemini</color> kazandırabilir.",
+        "Description": "Yakındaki grup üyeleri bir Girdap veya Yıldız Girdabı tepkimesi tetiklediğinde Varka 1 <color=#FFD780FF>Mavi Dişin Yemini</color> kademesi kazanır ve 8 saniyeliğine Normal Saldırıları, Yüklü Saldırıları, <color=#FFD780FF>Gök Yutan</color> özel Yüklü Saldırısı ve {LINK#N11280002}<color=#FFD780FF>Dört Rüzgarın Yükselişi</color>{/LINK} özel Element Becerisinin verdiği Hasar %7,5 artar. 4 kademeye kadar birikebilir. Her karakter Varka'ya bu şekilde her saniye 1 kademe <color=#FFD780FF>Mavi Dişin Yemini</color> kazandırabilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Eve Dönen Rüzgarın Şarkısı",
         "Description": "Mondstadtlı her grup üyesi başına Varka'nın <color=#FFD780FF>Rüzgarın İnfazı</color> Element Becerisinin Basılı Tutma halinin bekleme süresi %5 azalır.\nBu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenmez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "\"Kimse Alamaz Şarkı Söyleme Özgürlüğümüzü Elimizden\"",
-        "Description": "Varka bir Girdap tepkimesi tetiklediğinde tepkimeye dahil olan Element Türlerine bağlı olarak 10 saniyeliğine yakındaki tüm grup üyeleri %20 <color=#80FFD7FF>Rüzgar Hasarı Bonusu</color> ve ilgili Element Hasarı Bonusu kazanır.",
+        "Description": "Varka bir Girdap veya Yıldız Girdabı tepkimesi tetiklediğinde tepkimeye dahil olan Element Türlerine bağlı olarak 10 saniyeliğine yakındaki tüm grup üyeleri %20 <color=#80FFD7FF>Rüzgar Hasarı Bonusu</color> ve ilgili Element Hasarı Bonusu kazanır.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

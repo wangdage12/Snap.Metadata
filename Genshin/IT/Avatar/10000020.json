@@ -309,6 +309,7 @@
         "Id": 10201,
         "Name": "Zanna d'acciaio",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore nel tempo per sferrare attacchi rotanti contro tutti gli avversari vicini.\nAl termine della sequenza, sferra un fendente più potente. \n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -525,6 +526,7 @@
         "Id": 10202,
         "Name": "Artiglio tonante",
         "Description": "#Caccia la preda usando la tecnica insegnatagli dal suo maestro e il suo Lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nSferza con l'Artiglio tonante del lupo, infliggendo <color=#FFACFFFF>DAN da Electro</color> agli avversari davanti a Razor.\nQuando colpisce un avversario, Razor ottiene un Sigillo di Electro che incrementa la sua velocità di ricarica d'energia.\nRazor può accumulare fino a un massimo di 3 Sigilli di Electro, e ottenere un nuovo Sigillo di Electro ripristina la loro durata.\n\n<color=#FFD780FF>Pressione prolungata</color>\nConvoglia l'energia di Electro per rilasciare una tempesta di fulmini in una piccola area d'effetto, infliggendo ingenti <color=#FFACFFFF>DAN da Electro</color> e azzerando tutti i Sigilli di Electro di Razor.\nOgni Sigillo di Electro azzerato in questa maniera sarà convertito in energia per Razor.\n\n<i>Nell'istante in cui il fulmine colpisce, nel profondo degli occhi di Razor puoi talvolta scorgere lo sguardo di un predatore che adocchia la sua preda.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Razor_01"
       }
     ],
@@ -550,6 +552,7 @@
         "Id": 205101,
         "Name": "Rito della Vigilia della strega: Ondata di fulmini",
         "Description": "#Dopo aver completato <color=#FFD780FF>Compiti della strega: Sul branco dei lupetti</color>, Razor acquisisce l'attributo <color=#FFD780FF>Hexerei</color>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <color=#FFD780FF>Hexerei: Rito segreto</color>.\nInoltre, il Tripudio elementale <color=#FFD780FF>Zanna fulminante</color> di Razor viene potenziato. I DAN inflitti dal <color=#FFD780FF>Lupo interiore</color> aumentano di un 70% dell'ATT di Razor.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\nQuando il Lupo interiore evocato dal Tripudio elementale <color=#FFD780FF>Zanna fulminante</color> di Razor è attivo, se i Sigilli di Electro ottenuti dall'abilità elementale <color=#FFD780FF>Artiglio tonante</color> superano il limite, il Lupo interiore scaglia un fulmine sui nemici vicini, infliggendo DAN da Electro ad area pari a un 150% dell'ATT di Razor e ripristinandogli 7 di energia. Quest'effetto può attivarsi una volta ogni 1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_07"
       }
     ],
@@ -767,6 +770,7 @@
       "Id": 10203,
       "Name": "Zanna fulminante",
       "Description": "Evoca il Lupo interiore, che infligge <color=#FFACFFFF>DAN da Electro</color> a tutti gli avversari vicini. Questo azzera tutti i Sigilli di Electro di Razor, che vengono convertiti in Energia elementale per lui.\nIl Lupo interiore combatte al fianco di Razor finché l'abilità è attiva.\n\n<color=#FFD780FF>Lupo interiore</color>\n· Colpisce al fianco degli attacchi normali di Razor, infliggendo <color=#FFACFFFF>DAN da Electro</color>.\n· Aumenta la VEL d'ATT e la <color=#FFACFFFF>RES a Electro</color> di Razor.\n· Razor è immune ai DAN inflitti dallo stato di <color=#FFACFFFF>Electrocarica</color>.\n· Disattiva gli attacchi caricati di Razor.\n· Aumenta la resistenza all'interruzione di Razor.\n\nQuesti effetti terminano quando Razor lascia il campo di battaglia.\nQuando Razor esce dal campo, recupera fino a 10 di energia in base alla durata rimanente della sua abilità.\n\n<i>Il lupo si è risvegliato. La caccia ha inizio.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Razor_01"
     },
     "Inherents": [
@@ -786,6 +790,7 @@
         "Id": 202101,
         "Name": "Risveglio",
         "Description": "Riduce il TdR di <color=#FFD780FF>Artiglio tonante</color> di un 18%.\nUsare <color=#FFD780FF>Zanna fulminante</color> azzera il TdR di <color=#FFD780FF>Artiglio tonante</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_05"
       },
       {
@@ -804,6 +809,7 @@
         "Id": 202201,
         "Name": "Appetito",
         "Description": "Quando l'energia di Razor è inferiore a un 50%, aumenta la ricarica d'energia di un 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Razor_06"
       },
       {
@@ -822,6 +828,7 @@
         "Id": 202301,
         "Name": "Lupo scattante",
         "Description": "Diminuisce di un 20% il consumo di vigore durante lo Scatto per i membri del tuo gruppo.\nNon è cumulabile con talenti passivi che conferiscono gli stessi effetti.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

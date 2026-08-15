@@ -307,6 +307,7 @@
         "Id": 11151,
         "Name": "Tây Phong Kiếm Thuật - Nghi Lễ",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 4 lần đánh kiếm liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -443,6 +444,7 @@
         "Id": 11152,
         "Name": "Nghi Thức Rửa Tội",
         "Description": "Đến lúc diễn vài trò hay ho rồi! Dựa vào Nhấn hoặc Nhấn Giữ để triệu hồi Bí Ẩn Mưa Sương theo cách thức khác nhau.\n\n<color=#FFD780FF>Nhấn</color>\nSau khi cầu nguyện ngắn, sẽ triệu hồi Bí Ẩn Mưa Sương ở phía trước.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nCầu nguyện liên tục, khi cầu nguyện kết thúc sẽ triệu hồi Bí Ẩn Mưa Sương ở vị trí chỉ định.\n\n<color=#FFD780FF>Bí Ẩn Mưa Sương</color>\nSau khi kẻ địch hoặc nhân vật trong đội ở gần tiếp xúc với Bí Ẩn Mưa Sương, sẽ tạo ra hiệu quả khác nhau tùy thuộc vào đối tượng tiếp xúc:\nNếu kẻ địch tiếp xúc, Bí Ẩn Mưa Sương sẽ phát nổ và gây <color=#80C0FFFF>Sát Thương Phạm Vi Nguyên Tố Thủy</color> cho kẻ địch xung quanh.\nNếu nhân vật trong đội ở gần tiếp xúc, Bí Ẩn Mưa Sương sẽ đẩy người tiếp xúc lên cao.\n\nCùng lúc chỉ tồn tại một Bí Ẩn Mưa Sương do chính Dahlia tạo ra.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dahlia_01"
       }
     ],
@@ -643,6 +645,7 @@
       "Id": 11155,
       "Name": "Thánh Ca Thuần Khiết",
       "Description": "Cầu nguyện với thần linh bằng cả tấm lòng và giọng hát chân thành, gây <color=#80C0FFFF>Sát Thương Phạm Vi Nguyên Tố Thủy</color> lên kẻ địch xung quanh, ban hiệu quả \"Tây Phong Thân Quyến\" cho nhân vật trong đội bản thân, đồng thời triệu hồi Khiên Thánh.\nLượng hấp thụ sát thương của Khiên Thánh ảnh hưởng bởi Giới Hạn HP của Dahlia, có 250% hiệu quả hấp thụ <color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.\n\n<color=#FFD780FF>Tây Phong Thân Quyến</color>\nTrong thời gian duy trì, khi Khiên Thánh bị phá bởi sát thương, Dahlia có thể tiêu hao một tầng hiệu quả Chúc Tụng để triệu hồi lại Khiên Thánh.\n\nDahlia có thể nhận hiệu quả Chúc Tụng bằng những cách thức sau:\n·Khi nhân vật ra trận trong đội bản thân đang chịu ảnh hưởng bởi hiệu quả Tây Phong Thân Quyến, mỗi khi Tấn Công Thường trúng kẻ địch 4 lần, Dahlia sẽ nhận 1 tầng Chúc Tụng.\n·Sau khi kích hoạt hiệu quả của Thiên Phú Đột Phá \"Sự Dịu Dàng Của Gió\" (Cần mở khóa thiên phú \"Sự Dịu Dàng Của Gió\").\nTrong mỗi lần hiệu quả Tây Phong Thân Quyến, Dahlia tối đa nhận 4 tầng Chúc Tụng.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dahlia_01"
     },
     "Inherents": [
@@ -664,6 +667,7 @@
         "Id": 1152101,
         "Name": "Sự Dịu Dàng Của Gió",
         "Description": "Nhân vật nhận hiệu quả \"Tây Phong Thân Quyến\" từ Kỹ Năng Nộ <color=#FFD780FF>{LINK#S11155}Thánh Ca Thuần Khiết{/LINK}</color> khi kích hoạt phản ứng Đóng Băng lên kẻ địch sẽ cung cấp 2 tầng Chúc Tụng cho Dahlia. Hiệu quả này trong 8s tối đa kích hoạt một lần.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_05"
       },
       {
@@ -685,6 +689,7 @@
         "Id": 1152201,
         "Name": "Hạnh Phúc Của Nguyện Cầu",
         "Description": "Khi nhân vật ra trận hiện tại trong đội bản thân nhận hiệu quả \"Tây Phong Thân Quyến\" từ Kỹ Năng Nộ <color=#FFD780FF>{LINK#S11155}Thánh Ca Thuần Khiết{/LINK}</color> sẽ được gia tăng Tốc Độ Tấn Công, mức tăng dựa trên Giới Hạn HP của Dahlia: Mỗi 1000 điểm Giới Hạn HP sẽ tăng 0.5% Tốc Độ Tấn Công, tối đa tăng 20% Tốc Độ Tấn Công theo cách thức này.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_06"
       },
       {
@@ -703,6 +708,7 @@
         "Id": 1152301,
         "Name": "Chuyến Hành Trình Theo Gió",
         "Description": "Ban ngày (6h đến 18h), nhân vật trong đội của bản thân nhận hiệu ứng Tốc Hành: Tốc độ di chuyển tăng 10%.\nHiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh. Hiệu quả Tốc Hành không thể cộng dồn.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

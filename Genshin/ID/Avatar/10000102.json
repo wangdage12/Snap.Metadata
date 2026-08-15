@@ -261,6 +261,7 @@
         "Id": 30000,
         "Name": "Cooling Treatment",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 3 serangan yang mengakibatkan <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melemparkan Pufferball ke udara yang bisa mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> saat mendarat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Hydro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> saat mendarat di tanah.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -461,6 +462,7 @@
         "Id": 30002,
         "Name": "Surfshark Wavebreaker",
         "Description": "Dengan kemampuan mengendalikan kecepatan dan mengendarai ombak, Mualani bisa berselancar kapan pun dan di mana pun.\nSetelah dilancarkan, Mualani akan mendapatkan 60 poin Nightsoul dan memasuki status Nightsoul's Blessing.\n\n<color=#FFD780FF>Nightsoul's Blessing: Mualani</color>\nTerus mengonsumsi poin Nightsoul. Saat sudah habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul's Blessing Mualani akan berakhir. Nightsoul's Blessing memiliki karakteristik sebagai berikut:\n·Saat menaiki Sharky Surfboard, meningkatkan Movement SPD Mualani dan ketahanannya terhadap interupsi. Dalam status ini, Mualani akan bisa bergerak di atas permukaan air dan di dalam Phlogiston berwujud cairan, dalam kondisi ini Mualani tidak akan menerima DMG dari Phlogiston cair.\n·Saat melancarkan Normal Attack, akan mengubahnya menjadi Sharky's Bites yang mengakibatkan <color=#80C0FFFF>Hydro DMG</color> dengan atribut Nightsoul berdasarkan Max HP Mualani. Sharky's Bites bisa dilancarkan saat melayang di udara, dan DMG yang diakibatkan akan dianggap sebagai DMG Normal Attack.\n·Saat menyentuh musuh dalam kondisi ini, Mualani akan memberikan \"Marked as Prey\" kepada musuh dan mendapatkan 1 lapis Wave Momentum. Wave Momentum dapat ditumpuk sampai 3 lapis. Setiap 0,7 detik, Mualani dapat memperoleh 1 lapis Momentum Wave dari 1 musuh yang sama.\n\n<color=#FFD780FF>Wave Momentum dan Marked as Prey</color>\nSaat melancarkan Sharky's Bite, DMG Mualani akan meningkat berdasarkan jumlah lapisan Wave Momentum yang dimiliki. Saat memiliki 3 lapis Wave Momentum, Normal Attack-nya akan dikonversi menjadi Sharky's Surging Bite yang mengakibatkan DMG yang lebih kuat; Saat mengenai musuh, akan menghapus semua lapisan Wave Momentum setelahnya.\nSaat Sharky's Bite mengenai musuh yang terkena Marked as Prey, akan menghapus status tersebut dari musuh yang bersangkutan, dan menembakkan Shark Missile terhadap maksimum 5 musuh di sekitar yang berada dalam status Marked as Prey tersebut, mengakibatkan DMG yang sama dengan DMG Sharky's Bite kali ini, dan menghapus status Marked as Prey dari seluruh musuh-musuh tersebut. Jika musuh target Sharky's Bite dan Sharky Missile kali ini berjumlah lebih dari 1 target, maka DMG yang diakibatkan akan berkurang, dengan maksimum mengakibatkan 72% DMG awal jika ada 3 musuh yang menjadi target.\n\n<i>Pertama, selain papan selancar, Sharky itu hiu air tawar. Kedua, dia enggak benar-benar makan kok, tapi kalau gigit sih iya.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mualani_01"
       }
     ],
@@ -614,6 +616,7 @@
       "Id": 30007,
       "Name": "Boomsharka-laka",
       "Description": "Menembakkan Super Shark Missile yang bisa mengejar musuh, mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> dengan atribut Nightsoul berdasarkan Max HP Mualani.\n\n<i>Mualani bisa memberi nama Shark Missile seperti itu karena kombinasi api dan air yang terkandung di dalamnya. Yah, maksudnya sih biar terkesan ada unsur mirip pemandian air panas.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mualani_01"
     },
     "Inherents": [
@@ -635,6 +638,7 @@
         "Id": 1022101,
         "Name": "Heat-Resistant Freshwater Floater",
         "Description": "Saat Sharky's Surging Bite mengenai musuh, akan menghasilkan satu Puffer di sekitar. Saat mengambil Puffer, Mualani akan memulihkan 20 poin Nightsoul. Dalam satu kali durasi Nightsoul's Blessing, maksimum 2 Puffer yang bisa dihasilkan dengan cara seperti ini.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_05"
       },
       {
@@ -658,6 +662,7 @@
         "Id": 1022201,
         "Name": "Natlan's Greatest Guide",
         "Description": "Setelah anggota party di sekitar memicu Nightsoul Burst, Mualani mendapatkan 1 lapis Wavechaser's Exploits yang bertahan 20 detik dan dapat ditumpuk sampai 3 lapis. Saat melancarkan <color=#FFD780FF>Boomsharka-laka</color>, Mualani akan membersihkan seluruh lapisan Wavechaser's Exploit dan akan meningkatkan DMG yang diakibatkan Boomsharka-laka kali ini berdasarkan 15%/30%/45% Max HP Mualani.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_06"
       },
       {
@@ -679,6 +684,7 @@
         "Id": 1022301,
         "Name": "Night Realm's Gift: Crests and Troughs",
         "Description": "Setelah Nightsoul habis terkonsumsi, Mualani akan mengonsumsi Phlogiston untuk mempertahankan status Nightsoul's Blessing-nya.\nSaat berada di lokasi yang memiliki Phlogiston Mechanic di Natlan, Mualani bisa melancarkan Nightsoul Transmission: Mualani. Saat Karakter aktif sedang berlari, berenang, atau sedang bergerak yang dikarenakan oleh Talenta tertentu, atau saat melayang di ketinggian tertentu, dan mengganti Karakter menjadi Mualani, akan memicu efek: Mualani akan memasuki status Nightsoul's Blessing dan mendapatkan 40 poin Nightsoul. Nightsoul Transmission party sendiri dapat terpicu sekali setiap 10 detik.\n\nSelain itu, saat Mualani bergerak di permukaan air dan Phlogiston cair, dalam status Nightsoul's Blessing: Nightsoul atau Phlogiston yang dikonsumsi di area Natlan berkurang sebesar 75%, tapi di area selain Natlan akan berkurang sebesar 35%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_07"
       },
       {
@@ -699,6 +705,7 @@
         "Id": 1022501,
         "Name": "The Trick is to Keep Smiling!",
         "Description": "Saat ada area dengan Phlogiston Mechanic di Natlan, berinteraksi dengan item tertentu yang bisa dikumpulkan, akan memulihkan 15 poin Phlogiston. Selain ini, akan menunjukkan posisi <color=#FFD780FF>Produk Khas Natlan</color> yang ada di sekitar pada peta kecil.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

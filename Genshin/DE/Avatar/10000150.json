@@ -1,0 +1,1369 @@
+{
+  "Id": 10000150,
+  "PromoteId": 150,
+  "Sort": 120,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Odette",
+  "SideIcon": "UI_AvatarIcon_Side_Odette",
+  "Name": "Odette",
+  "Description": "Eine berühmte Balletttänzerin aus Snezhnaya – eine kühle Blume, inmitten von Eis und Schnee erblühend.",
+  "BeginTime": "2026-08-11T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1010.5192,
+    "AttackBase": 26.068,
+    "DefenseBase": 61.26592
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 15031,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P} + {param4:F1P}",
+            "SCH Phase 4|{param5:F1P}",
+            "SCH Phase 5|{param6:F1P}",
+            "SCH heftiger Schläge|{param7:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte",
+            "SCH beim Fallen|{param9:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503101,
+              "Level": 1,
+              "Parameters": [
+                0.518571,
+                0.515106,
+                0.326112,
+                0.382786,
+                0.745732,
+                0.902123,
+                1.07414,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1503102,
+              "Level": 2,
+              "Parameters": [
+                0.560781,
+                0.557033,
+                0.352656,
+                0.413943,
+                0.806431,
+                0.975551,
+                1.16157,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1503103,
+              "Level": 3,
+              "Parameters": [
+                0.60299,
+                0.59896,
+                0.3792,
+                0.4451,
+                0.86713,
+                1.04898,
+                1.249,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1503104,
+              "Level": 4,
+              "Parameters": [
+                0.663289,
+                0.658856,
+                0.41712,
+                0.48961,
+                0.953843,
+                1.153878,
+                1.3739,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1503105,
+              "Level": 5,
+              "Parameters": [
+                0.705498,
+                0.700783,
+                0.443664,
+                0.520767,
+                1.014542,
+                1.227307,
+                1.46133,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1503106,
+              "Level": 6,
+              "Parameters": [
+                0.753738,
+                0.7487,
+                0.474,
+                0.556375,
+                1.083912,
+                1.311225,
+                1.56125,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1503107,
+              "Level": 7,
+              "Parameters": [
+                0.820066,
+                0.814586,
+                0.515712,
+                0.605336,
+                1.179297,
+                1.426613,
+                1.69864,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1503108,
+              "Level": 8,
+              "Parameters": [
+                0.886395,
+                0.880471,
+                0.557424,
+                0.654297,
+                1.274681,
+                1.542001,
+                1.83603,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1503109,
+              "Level": 9,
+              "Parameters": [
+                0.952724,
+                0.946357,
+                0.599136,
+                0.703258,
+                1.370065,
+                1.657388,
+                1.97342,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1503110,
+              "Level": 10,
+              "Parameters": [
+                1.025083,
+                1.018232,
+                0.64464,
+                0.75667,
+                1.474121,
+                1.783266,
+                2.1233,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1503111,
+              "Level": 11,
+              "Parameters": [
+                1.097442,
+                1.090107,
+                0.690144,
+                0.810082,
+                1.578177,
+                1.909144,
+                2.27318,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1503112,
+              "Level": 12,
+              "Parameters": [
+                1.169801,
+                1.161982,
+                0.735648,
+                0.863494,
+                1.682232,
+                2.035021,
+                2.42306,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1503113,
+              "Level": 13,
+              "Parameters": [
+                1.242159,
+                1.233858,
+                0.781152,
+                0.916906,
+                1.786288,
+                2.160899,
+                2.57294,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1503114,
+              "Level": 14,
+              "Parameters": [
+                1.314518,
+                1.305733,
+                0.826656,
+                0.970318,
+                1.890343,
+                2.286776,
+                2.72282,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1503115,
+              "Level": 15,
+              "Parameters": [
+                1.386877,
+                1.377608,
+                0.87216,
+                1.02373,
+                1.994399,
+                2.412654,
+                2.8727,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11501,
+        "Name": "Variation des Schneeschwans",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen gleißenden Hieb nach vorn aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 15032,
+        "Proud": {
+          "Descriptions": [
+            "Fähigkeits-SCH|{param1:F1P}",
+            "Fortlaufender SCH durch „Finale bei Tagesanbruch“|{param2:F1P}",
+            "SCH durch Stellar-Supraleiter/Stellar-Verwirbelung bei „Finale bei Tagesanbruch“|{param3:P}/{param4:P}",
+            "SCH durch „Federstreich“-Schritt|{param5:F1P}",
+            "SCH durch „Federstreich“-Schritt bei Stellar-Supraleiter/Stellar-Verwirbelung|{param6:P}/{param7:P}",
+            "SCH durch „Flügelwirbel“-Schritt|{param8:F1P}",
+            "SCH durch „Flügelwirbel“-Schritt bei Stellar-Supraleiter/Stellar-Verwirbelung|{param9:P}/{param10:P}",
+            "#Abklingzeit von „Finale bei Tagesanbruch“|{param13:F1}{NON_BREAK_SPACE}s",
+            "#Dauer von Solotanz-Schatten|{param11:F1}{NON_BREAK_SPACE}s",
+            "#Abklingzeit|{param12:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503201,
+              "Level": 1,
+              "Parameters": [
+                1.0808,
+                0.9584,
+                3.0576,
+                4.5864,
+                0.4304,
+                0.27024,
+                0.40528,
+                0.51464,
+                0.32312,
+                0.48464,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503202,
+              "Level": 2,
+              "Parameters": [
+                1.16186,
+                1.03028,
+                3.28692,
+                4.93038,
+                0.46268,
+                0.290508,
+                0.435676,
+                0.553238,
+                0.347354,
+                0.520988,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503203,
+              "Level": 3,
+              "Parameters": [
+                1.24292,
+                1.10216,
+                3.51624,
+                5.27436,
+                0.49496,
+                0.310776,
+                0.466072,
+                0.591836,
+                0.371588,
+                0.557336,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503204,
+              "Level": 4,
+              "Parameters": [
+                1.351,
+                1.198,
+                3.822,
+                5.733,
+                0.538,
+                0.3378,
+                0.5066,
+                0.6433,
+                0.4039,
+                0.6058,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503205,
+              "Level": 5,
+              "Parameters": [
+                1.43206,
+                1.26988,
+                4.05132,
+                6.07698,
+                0.57028,
+                0.358068,
+                0.536996,
+                0.681898,
+                0.428134,
+                0.642148,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503206,
+              "Level": 6,
+              "Parameters": [
+                1.51312,
+                1.34176,
+                4.28064,
+                6.42096,
+                0.60256,
+                0.378336,
+                0.567392,
+                0.720496,
+                0.452368,
+                0.678496,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503207,
+              "Level": 7,
+              "Parameters": [
+                1.6212,
+                1.4376,
+                4.5864,
+                6.8796,
+                0.6456,
+                0.40536,
+                0.60792,
+                0.77196,
+                0.48468,
+                0.72696,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503208,
+              "Level": 8,
+              "Parameters": [
+                1.72928,
+                1.53344,
+                4.89216,
+                7.33824,
+                0.68864,
+                0.432384,
+                0.648448,
+                0.823424,
+                0.516992,
+                0.775424,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503209,
+              "Level": 9,
+              "Parameters": [
+                1.83736,
+                1.62928,
+                5.19792,
+                7.79688,
+                0.73168,
+                0.459408,
+                0.688976,
+                0.874888,
+                0.549304,
+                0.823888,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503210,
+              "Level": 10,
+              "Parameters": [
+                1.94544,
+                1.72512,
+                5.50368,
+                8.25552,
+                0.77472,
+                0.486432,
+                0.729504,
+                0.926352,
+                0.581616,
+                0.872352,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503211,
+              "Level": 11,
+              "Parameters": [
+                2.05352,
+                1.82096,
+                5.80944,
+                8.71416,
+                0.81776,
+                0.513456,
+                0.770032,
+                0.977816,
+                0.613928,
+                0.920816,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503212,
+              "Level": 12,
+              "Parameters": [
+                2.1616,
+                1.9168,
+                6.1152,
+                9.1728,
+                0.8608,
+                0.54048,
+                0.81056,
+                1.02928,
+                0.64624,
+                0.96928,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503213,
+              "Level": 13,
+              "Parameters": [
+                2.2967,
+                2.0366,
+                6.4974,
+                9.7461,
+                0.9146,
+                0.57426,
+                0.86122,
+                1.09361,
+                0.68663,
+                1.02986,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503214,
+              "Level": 14,
+              "Parameters": [
+                2.4318,
+                2.1564,
+                6.8796,
+                10.3194,
+                0.9684,
+                0.60804,
+                0.91188,
+                1.15794,
+                0.72702,
+                1.09044,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503215,
+              "Level": 15,
+              "Parameters": [
+                2.5669,
+                2.2762,
+                7.2618,
+                10.8927,
+                1.0222,
+                0.64182,
+                0.96254,
+                1.22227,
+                0.76741,
+                1.15102,
+                20,
+                15,
+                15
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11502,
+        "Name": "Langsamer Tanz – Phantomnacht",
+        "Description": "#Verursacht mit sanften Tanzschritten <color=#99FFFFFF>Kryo-Flächenschaden</color> und beschwört den eigenen {LINK#N11500001}<color=#FFD780FF>Solotanz-Schatten</color>{/LINK} herauf.\nBeschwört, wenn auf dem Feld bereits ein von Odette selbst beschworener <color=#FFD780FF>Solotanz-Schatten</color> existiert, diesen erneut herauf und setzt die Dauer zurück.\n\n<color=#FFD780FF>Solotanz-Schatten</color>\nWechselt zwischen den Tanzschritten <color=#FFD780FF>Federstreich</color> und <color=#FFD780FF>Flügelwirbel</color>, greift Gegner in der Nähe in regelmäßigen Abständen elegant und leichtfüßig an, und fügt diesen <color=#99FFFFFF>Kryo-Flächenschaden</color> zu.\nErsetzt zudem innerhalb von 6{NON_BREAK_SPACE}s nach dem Anwenden von Odettes Elementarfähigkeit <color=#FFD780FF>Langsamer Tanz – Phantomnacht</color> diese durch die besondere Elementarfähigkeit {LINK#N11500002}<color=#FFD780FF>Langsamer Tanz – Finale bei Tagesanbruch</color>{/LINK}{LINK#N11500004}{/LINK}. Führt einen gemeinsamen Tanz auf, der Gegnern in der Nähe fortlaufend <color=#99FFFFFF>Kryo-Flächenschaden</color> zufügt. Verursacht nach Ende des Tanzes einmalig <color=#99FFFFFF>Kryo-Flächenschaden</color>, der als Schaden durch die Reaktion Stellar-Supraleiter oder Stellar-Verwirbelung gewertet wird.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Odette_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 15039,
+      "Proud": {
+        "Descriptions": [
+          "Schwerthieb-SCH|{param1:F1P} ×3",
+          "SCH des letzten Hiebs|{param2:F1P}",
+          "SCH-Bonus von Stellarfunkeln-Reaktion bei „Traum der Schneeschwänin“|{param3:F1P}",
+          "#Dauer von „Traum der Schneeschwänin“|{param4:F1}{NON_BREAK_SPACE}s",
+          "#Dauer von Solotanz-Schatten|{param5:F1}{NON_BREAK_SPACE}s",
+          "Abklingzeit|{param6:F1} s",
+          "Elementarenergie|{param7:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1503901,
+            "Level": 1,
+            "Parameters": [
+              1.10176,
+              1.70272,
+              0.14,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503902,
+            "Level": 2,
+            "Parameters": [
+              1.184392,
+              1.830424,
+              0.18,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503903,
+            "Level": 3,
+            "Parameters": [
+              1.267024,
+              1.958128,
+              0.22,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503904,
+            "Level": 4,
+            "Parameters": [
+              1.3772,
+              2.1284,
+              0.26,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503905,
+            "Level": 5,
+            "Parameters": [
+              1.459832,
+              2.256104,
+              0.3,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503906,
+            "Level": 6,
+            "Parameters": [
+              1.542464,
+              2.383808,
+              0.34,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503907,
+            "Level": 7,
+            "Parameters": [
+              1.65264,
+              2.55408,
+              0.38,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503908,
+            "Level": 8,
+            "Parameters": [
+              1.762816,
+              2.724352,
+              0.42,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503909,
+            "Level": 9,
+            "Parameters": [
+              1.872992,
+              2.894624,
+              0.46,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503910,
+            "Level": 10,
+            "Parameters": [
+              1.983168,
+              3.064896,
+              0.5,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503911,
+            "Level": 11,
+            "Parameters": [
+              2.093344,
+              3.235168,
+              0.54,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503912,
+            "Level": 12,
+            "Parameters": [
+              2.20352,
+              3.40544,
+              0.58,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503913,
+            "Level": 13,
+            "Parameters": [
+              2.34124,
+              3.61828,
+              0.62,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503914,
+            "Level": 14,
+            "Parameters": [
+              2.47896,
+              3.83112,
+              0.66,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503915,
+            "Level": 15,
+            "Parameters": [
+              2.61668,
+              4.04396,
+              0.7,
+              20,
+              20,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11505,
+      "Name": "Schneller Tanz – Federntraum",
+      "Description": "#Führt schnelle Tanzschritte aus, verursacht mehrfach <color=#99FFFFFF>Kryo-Flächenschaden</color>, beschwört den eigenen {LINK#N11500001}<color=#FFD780FF>Solotanz-Schatten</color>{/LINK} herauf und verleiht <color=#FFD780FF>Traum der Schneeschwänin</color>: Erhöht den durch Odettes Stellarfunkeln-Reaktionen verursachten Schaden.\nErsetzt nach dem Anwenden der Spezialfähigkeit <color=#FFD780FF>Schneller Tanz – Federntraum</color> innerhalb von 6{NON_BREAK_SPACE}s Odettes Elementarfähigkeit <color=#FFD780FF>Langsamer Tanz – Phantomnacht</color> durch die besondere Elementarfähigkeit {LINK#N11500002}<color=#FFD780FF>Langsamer Tanz – Finale bei Tagesanbruch</color>{/LINK}{LINK#N11500004}{/LINK}.\n\nRuft, wenn auf dem Feld ein von Odette selbst beschworener Solotanz-Schatten vorhanden ist, diesen herbei und setzt dessen Wirkungsdauer zurück.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Odette_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 15021,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502101,
+              "Level": 1,
+              "Parameters": [
+                4,
+                0.15,
+                1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502101,
+        "Name": "Frühling der Auserwählten",
+        "Description": "Verleiht Odette, wenn sie einen {LINK#N11500001}<color=#FFD780FF>Solotanz-Schatten</color>{/LINK} beschwört, zusätzlich 4 Stapelungen {LINK#N11500003}<color=#FFD780FF>Farbenpracht</color>{/LINK}.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_05"
+      },
+      {
+        "GroupId": 15022,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502201,
+              "Level": 1,
+              "Parameters": [
+                1000,
+                0.015,
+                0.3
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502201,
+        "Name": "Klage der Aufrichtigen",
+        "Description": "#Erhöht für den Anteil von Odettes ANG, der 1.000 überschreitet, den durch eine Stellarfunkeln-Reaktion verursachten Schaden pro 100 Punkte ANG zusätzlich um 1,5{NON_BREAK_SPACE}% des ursprünglichen Schaden. Auf diese Weise kann der Schaden um maximal 30{NON_BREAK_SPACE}% des ursprünglichen Schadens erhöht werden.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_06"
+      },
+      {
+        "GroupId": 15023,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502301,
+        "Name": "Sternensegnung – Tanz der Silberdämmerung",
+        "Description": "#Versetzt Odette, wenn sie sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet oder ein Truppenmitglied in der Nähe die Reaktion Stellar-Verwirbelung auslöst, innerhalb von 8{NON_BREAK_SPACE}s in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>/<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>.\nWandelt, wenn ein Truppenmitglied die Reaktion Supraleiter/Kryo-Verwirbelung auslöst, diese stattdessen in die Reaktion Stellar-Supraleiter/Stellar-Verwirbelung um und erhöht den Basis-Schaden der oben genannten Reaktionen von Truppenmitgliedern basierend auf Odettes ANG: Erhöht den Basis-SCH der oben genannten Reaktionen pro 100 Punkte um 0,7{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_07"
+      },
+      {
+        "GroupId": 15025,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502501,
+        "Name": "Widerhall des Wintertraums",
+        "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Snezhnayas</color> in der Nähe auf der Minikarte an.\nDurch Tanzübungen in der Freizeit lassen sich vielleicht auch noch andere Effekte erzielen ...",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1501,
+        "Name": "„Eines Morgens, an dem sie nicht tanzte, blickte sie auf ihr Spiegelbild“",
+        "Description": "#Odette verursacht nach Anwenden der besonderen Elementarfähigkeit {LINK#N11500002}<color=#FFD780FF>Langsamer Tanz – Finale bei Tagesanbruch</color>{/LINK} und beim Ende des Walzers einmalig zusätzlich <color=#99FFFFFF>Kryo-Flächenschaden</color> bei Gegnern in der Nähe. Hierdurch verursachter Schaden gilt als:\n· <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>, oder, wenn nicht im Leuchten-Zustand: Stellar-Supraleiter-Reaktionsschaden in Höhe von 300{NON_BREAK_SPACE}% von Odettes ANG.\n· <color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Stellar-Verwirbelung-Reaktionsschaden in Höhe von 450{NON_BREAK_SPACE}% von Odettes ANG.\n\nVerstärkt zudem das Aufstiegstalent „Frühling der Auserwählten“: Verleiht Odette, wenn sie einen {LINK#N11500001}<color=#FFD780FF>Solotanz-Schatten</color>{/LINK} beschwört, zusätzlich 2 Stapelungen {LINK#N11500003}<color=#FFD780FF>Farbenpracht</color>{/LINK}. Ist Odette inaktiv in der Truppe, erhöht sich die Geschwindigkeit, mit der die Stapelungen von <color=#FFD780FF>Farbenpracht</color> abgebaut werden, auf 2 Stapelungen pro{NON_BREAK_SPACE}s.",
+        "Icon": "UI_Talent_S_Odette_01"
+      },
+      {
+        "Id": 1502,
+        "Name": "„Sie dachte: ‚Ich möchte Zeugin des Traums werden, den die Schneeschwänin nie gesehen hat.‘“",
+        "Description": "#Verstärkt das Aufstiegstalent „Frühling der Auserwählten“: Erhöht für jede Stapelung {LINK#N11500003}<color=#FFD780FF>Farbenpracht</color>{/LINK} zudem den ANG der Figur um 7{NON_BREAK_SPACE}%.\nVerringert außerdem, wenn der {LINK#N11500001}<color=#FFD780FF>Solotanz-Schatten</color>{/LINK} aktiv ist und Odette sich im Zustand {LINK#N11500004}<color=#FFD780FF>Leuchten – Stellarfunkeln</color>{/LINK} befindet, den entsprechenden Elementar-WDS von Gegnern in der Nähe des <color=#FFD780FF>Solotanz-Schattens</color> um 20{NON_BREAK_SPACE}%:\n· <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: <color=#99FFFFFF>Kryo</color> und <color=#FFACFFFF>Elektro</color>.\n· <color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: <color=#99FFFFFF>Kryo</color> und <color=#80FFD7FF>Anemo</color>.",
+        "Icon": "UI_Talent_S_Odette_02"
+      },
+      {
+        "Id": 1503,
+        "Name": "„Ich will dem heulenden Wind nachjagen und allein emporstreben.“",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S11502}Langsamer Tanz – Phantomnacht{/LINK} </color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Odette_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1504,
+        "Name": "„Aufwärts, hinab in den träumerischen, lodernden blauen Himmel“",
+        "Description": "#Verstärkt die Spezialfähigkeit <color=#FFD780FF>Schneller Tanz – Federntraum</color>: Erhöht, wenn Odette <color=#FFD780FF>Traum der Schneeschwänin</color> erhält, den von Truppenmitgliedern in der Nähe durch Stellarfunkeln-Reaktionen verursachten Schaden um 50{NON_BREAK_SPACE}% des Effekts <color=#FFD780FF>Traum der Schneeschwänin</color>.\n\nWenn ein Truppenmitglied einem Gegner Schaden mit der Reaktion Stellarfunkeln zufügt, führt Odette einen abgestimmten Angriff auf den Gegner aus, der diesem einmalig <color=#99FFFFFF>Kryo-Flächenschaden</color> zufügt, 3,5{NON_BREAK_SPACE}s Abklingzeit. Hierdurch verursachter Schaden gilt als:\n· <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>, oder, wenn nicht im Leuchten-Zustand: Stellar-Supraleiter-Reaktionsschaden in Höhe von 66{NON_BREAK_SPACE}% von Odettes ANG.\n· <color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Stellar-Verwirbelung-Reaktionsschaden in Höhe von 99{NON_BREAK_SPACE}% von Odettes ANG.",
+        "Icon": "UI_Talent_S_Odette_03"
+      },
+      {
+        "Id": 1505,
+        "Name": "„Seht, denn ich habe mich vom irdischen Leiden verabschiedet“",
+        "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>{LINK#S11505}Schneller Tanz – Federntraum{/LINK} </color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Odette_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1506,
+        "Name": "„Strecke deine Hand aus und berühre das ewige Antlitz des Himmels“",
+        "Description": "#Verstärkt das Aufstiegstalent „Frühling der Auserwählten“: Reduziert, wenn Odette allen Truppenmitgliedern in der Nähe {LINK#N11500003}<color=#FFD780FF>Farbenpracht</color>{/LINK} verleiht, ihre eigene Farbenpracht nicht mehr.\nErhöht zudem den Schaden durch Stellarfunkeln-Reaktionen, den Figuren unter dem Einfluss von <color=#FFD780FF>Farbenpracht</color> Gegnern zufügen, um {LINK#N11190007}<color=#FFD780FF>25{NON_BREAK_SPACE}%</color>{/LINK}. Steigert außerdem den Schaden durch Stellarfunkeln-Reaktionen, den Odette Gegnern zufügt, um weitere 20{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Odette_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Schneewirbelnde Anmut",
+    "Detail": "Eine berühmte Balletttänzerin aus Snezhnaya – eine kühle Blume, inmitten von Eis und Schnee erblühend.",
+    "Association": 15,
+    "Native": "Korolevskiy-Theaterkompanie",
+    "BirthMonth": 2,
+    "BirthDay": 20,
+    "VisionBefore": "Kryo",
+    "VisionOverrideLocked": "Sternenkeil",
+    "VisionOverrideUnlocked": "Göttliches Auge",
+    "ConstellationBefore": "Cygnus Olor",
+    "CvChinese": "潘丹妮",
+    "CvJapanese": "上坂すみれ",
+    "CvEnglish": "Alexis Tipton",
+    "CvKorean": "Choi Hyun-ji",
+    "CookBonus": {
+      "OriginItemId": 132014,
+      "ItemId": 132017,
+      "InputList": [
+        101280,
+        100084,
+        110009,
+        100062
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "... Ich danke dir sehr für all die Unterstützung. Du willst ein Autogramm, oder? Was genau soll ich dir denn daneben zeichnen? Wie wäre es mit einer Feder? Oh, Moment mal, du bist gar kein Fan von mir? Da habe ich mich wohl geirrt. Lass mich dann einfach noch einmal von vorne anfangen. Ich bin Odette, Ballerina der Korolevskiy-Theaterkompanie ... Nun, ich danke dir trotzdem sehr für all die Unterstützung."
+      },
+      {
+        "Title": "Gespräch – Beschäftigt",
+        "Context": "Gut, wenn das alles ist, gehe ich jetzt proben."
+      },
+      {
+        "Title": "Gespräch – Kurz und knapp",
+        "Context": "Wenn eine einfache Antwort reicht, warum dann den Atem für etwas Längeres verschwenden?"
+      },
+      {
+        "Title": "Gespräch – Zeit",
+        "Context": "Wenn ein Tag doch nur doppelt so viele Stunden hätte ... Hmm. Eigentlich besser gleich das dreimal so viele."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Das Plätschern der Regentropfen gibt mir immer ein so friedliches Gefühl. Dieses Wetter ist perfekt, um ganz alleine zu tanzen."
+      },
+      {
+        "Title": "Es hat aufgehört zu regnen ...",
+        "Context": "Die schönsten und friedlichsten Momente vergehen immer am schnellsten."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Der Schnee in Snezhnaya ist immer bitterkalt und er scheint nie aufzuhören."
+      },
+      {
+        "Title": "Ein Sturm zieht auf.",
+        "Context": "Meine Haare ... Ich richte sie später."
+      },
+      {
+        "Title": "In der Wüste ...",
+        "Context": "... Zumindest würde es an so einem Ort kein Kennenlerntreffen geben."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Ich bin aufgewärmt und startklar."
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Ein Mittagsschlaf ist nichts für mich. Mittags zu trainieren ist auch nicht ideal, also verbringe ich die Zeit meistens damit, die Skripte für unsere Tanzdramen durchzulesen. Hm? Was es mit diesen Briefen auf sich hat? Sie sind von meinen Fans. Vodyanitsa hat sie mir regelrecht in die Hand gedrückt. Sie möchte, dass ich sie mir ausnahmsweise mal durchlese."
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Oh, ist es schon Zeit fürs Abendessen? Ich muss gleich auf die Bühne, also esse ich nur ein hartgekochtes Ei. Ich hole mir noch was anderes, sobald die Aufführung vorbei ist."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "... Missionen abgeschlossen, Trainingspensum erfüllt, neue Choreografie komplett durchgeprobt. Mit meinem Gesichtsausdruck bin ich aber noch nicht zufrieden. Ich muss noch etwas vor dem Spiegel üben ... Oh, ist es schon so spät? Du kannst gerne schon schlafen gehen. Ich habe noch etwas zu erledigen."
+      },
+      {
+        "Title": "Über Odette – Rokot",
+        "Context": "Seit der Umsetzung von Projekt Stuzha wird unser Publikum immer kleiner. Während die meisten Menschen kaum über die Runden kommen, beuten korrupte Schmarotzer die Leute weiter aus. Ich weigere mich, einfach wegzusehen. Ich weiß, dass ich das Ruder nicht allein herumreißen kann, aber ich möchte trotzdem tun, was ich kann."
+      },
+      {
+        "Title": "Über Odette – Gedächtnis",
+        "Context": "Die Erinnerungen an meine Vergangenheit haben sich für immer in mein Gedächtnis eingeprägt. Wie ein Film spielen sie sich in der Stille der Nacht immer wieder ab ... Sagen wir einfach, dass es nicht immer gut ist, ein perfektes Gedächtnis zu haben."
+      },
+      {
+        "Title": "Über uns – Vertrauen",
+        "Context": "Sich beim Schutz auf andere zu verlassen, ist so, als würde man sich auf eine dünne Schicht frisches Eis stützen. Ich setze meine Hoffnungen auf niemanden außer auf mich selbst."
+      },
+      {
+        "Title": "Über uns – Wunden",
+        "Context": "Mein Schmerzempfinden ist ziemlich schwach. Oft bemerke ich gar nicht, dass ich verletzt bin, bis sich schon Schorf auf der Wunde gebildet hat. Aber so ist es mir lieber. Ob bei der Tanzprobe oder beim Spezialtraining der Fatui, es ist besser, wenn mir so eine Kleinigkeit wie meine körperliche Verfassung nicht im Weg steht."
+      },
+      {
+        "Title": "Über „Sternenkeile“ ...",
+        "Context": "Einmal erlitt ich beim harten Training durch extreme Kälte Erfrierungen an Füßen und Beinen. Ich wurde fast komplett ohnmächtig. Als ich wieder zu mir kam, sah ich zuerst ein helles Licht. Es kam vom „Sternenkeil“ vor mir. Aber ich habe noch nie gehört, dass „Sternenkeile“ jemanden so aufwecken können. Wenn mich das also nicht aufgeweckt hat ... War es dann vielleicht ein instinktiver Wille zum Überleben ...?"
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Ich nehme jede Probe genauso ernst wie einen echten Auftritt."
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Du kannst die Süße von Raureifbeeren hervorheben, indem du sie mit ein wenig Speisesalz bestreust. Angeblich hilft der Kontrast dabei, ihre innere Süße zu verstärken. Das habe ich von einem Fan gehört."
+      },
+      {
+        "Title": "Über Rosalyne – Was einst war",
+        "Context": "Ich verdanke Rosalyne viel. Aber es gab auch eine Zeit, in der ich sie wirklich gehasst habe. Sie war extrem anspruchsvoll und unglaublich streng. Frieren vor Kälte, vor Erschöpfung zusammenbrechen, sich verletzen, krank werden ... Das war bei ihrem Training Alltag. Ich hatte damals diesen naiven Traum, dass ich es nur als Ballerina schaffen müsste. Ich wollte genug für meine Mutter verdienen. Und eines Tages würde ich sie und die Fatui einfach hinter mir lassen ..."
+      },
+      {
+        "Title": "Über Rosalyne – Cor Ignis",
+        "Context": "Wenn jemand fort ist, sind viele Dinge es plötzlich nicht mehr wert, gesagt zu werden. Ich könnte dieses Cor Ignis sofort zerschmettern. Aber das würde den Schmerz und die Missverständnisse, die es verursacht hat, nur noch lächerlicher machen ... Warum verstehen wir uns erst jetzt, nach all dieser Zeit?"
+      },
+      {
+        "Title": "Über die Zarin ...",
+        "Context": "Ihre Majestät die Zarin ist Snezhnayas Säule des Glaubens. Sie hat extrem viel zu tun. Deshalb zeigt sie sich in der Öffentlichkeit nur sehr selten. Tatsächlich sah ich sie nur ein paarmal. Dennoch wirkt sie auf mich immer unglaublich königlich und würdevoll. Ihr Blick ist dabei immer gleich: Egal, wohin sie sieht, er ist eiskalt wie eine Eisdecke, die selbst die Zeit nicht schmelzen könnte."
+      },
+      {
+        "Title": "Über „Columbina“ ...",
+        "Context": "Sie bewegt sich mit einer fast federleichten Anmut, um die sie jeder Tänzer beneiden würde. Laut Vodyanitsa hat sie auch eine unheimlich schöne Singstimme. Obwohl ich annehme, dass das, was wir sehen und beneiden, nur die Fassade ist, die sie nach außen hin zeigt. Wer weiß schon, welcher unsagbare Schmerz sich darunter verbirgt ..."
+      },
+      {
+        "Title": "Über „Arlecchino“ ...",
+        "Context": "Die Kinder des Hauses des Kamins sehen sie als ihren „Vater“ an. Hoffentlich wird ihnen das etwas von der bitteren Kälte und den tobenden Stürmen ersparen, die das Leben mit sich bringt. Die Aufgabe eines Vaters ist es schließlich, zu beschützen."
+      },
+      {
+        "Title": "Über „Marionette“ ...",
+        "Context": "Die Teegesellschaften von Herrin Marionette haben Rosalynes Laune früher immer gehoben. Sie war dann zwar genauso streng, aber ihr Tonfall war ein bisschen sanfter. Das war ein ziemlich deutlicher Unterschied."
+      },
+      {
+        "Title": "Über Vodyanitsa – Lächeln",
+        "Context": "Als die Zarin das erste Mal zu einer Aufführung der Korolevskiy-Theaterkompanie kommen wollte, war es Vodyanitsa, die es mir erzählte. Ich antwortete mit einem einfachen Nicken. Daraufhin zwang sie mir ein Lächeln auf, indem sie beide Mundwinkel nach oben drückte, und ließ mich ihr nachsprechen: „Was. Für. Tolle. Neuigkeiten.“\nVielleicht war es eine Übung für den Auftritt vor der Zarin, aber ich glaube trotzdem nicht, dass Ihre Majestät so ein Lächeln mag."
+      },
+      {
+        "Title": "Über Vodyanitsa – Arztbesuche",
+        "Context": "Vodyanitsa ist, wenn sie krank ist, sehr anhänglich. Sie klammert sich dann praktisch an meine Seite ... Sie sagt, sie hat Angst vor Spritzen. Auch vor bitterer Medizin fürchtet sie sich sehr. Sie braucht dann etwas zum Festhalten. Mein Arm ist dabei wohl ihre erste Wahl. Ich halte Schmerzen aber gut aus. Deshalb gibt es auch gar keinen Grund, sie abzuschütteln."
+      },
+      {
+        "Title": "Über Alyosha ...",
+        "Context": "Er könnte ganz leicht allein von der Jagd leben, wenn er nur an sich selbst denken würde. Aber er macht trotzdem kleine Jobs rund um das Theater, um anderen zu helfen, denen es schlecht geht ... Es wundert mich nicht, dass er dem Rokot beigetreten ist."
+      },
+      {
+        "Title": "Über Mitya ...",
+        "Context": "Hm ... Ich denke, man könnte ihn einen „Fan“ des Theaters nennen. Er kommt oft genug, um mir und Vodyanitsa bei unseren Auftritten zuzusehen. Aber sobald die Vorstellung beginnt, vergräbt er immer den Kopf in seinen Notizen und schreibt wer weiß was. Das ist schwer zu übersehen, besonders wenn der Rest des Publikums gebannt auf die Bühne starrt. Es würde mich nicht wundern, wenn in seinem Schal mehr echte Wertschätzung für die Kunst steckt als in seinem ganzen Körper."
+      },
+      {
+        "Title": "Über Valeriy ...",
+        "Context": "Major Valeriy ist ein Fatui-Offizier, der sehr streng auf den Zeitplan achtet. Er soll sehr besonnen befehligen. Das kann auf andere aber auch ziemlich beängstigend wirken ... Wir gehören jedoch zu verschiedenen Abteilungen. Daher haben wir eigentlich nur sehr selten miteinander zu tun. Außerdem ... Mich muss niemand an meine Aufgaben erinnern."
+      },
+      {
+        "Title": "Über Vesna ...",
+        "Context": "Denk bloß nicht, sie sei ein zierlicher, harmloser Schmetterling, nur wegen dieser Flügel. Die Leute mögen sich um sie scharen, aber sie ist die Kommandantin der Druzhna. Sie ist eines der wildesten Raubtiere der Tundra. Halt die Augen weit offen und lass dich nicht von ihrem Lächeln täuschen."
+      },
+      {
+        "Title": "Ich will mehr über Odette erfahren I",
+        "Context": "Du musst mich entschuldigen. Mein Zeitplan für heute ist ziemlich voll und ich habe später noch eine Probe. Wenn du also reden möchtest, fass dich bitte kurz."
+      },
+      {
+        "Title": "Ich will mehr über Odette erfahren II",
+        "Context": "Meine Mutter stammte aus einer Familie von Balletttänzern. Mein Vater diente bei den Fatui. Sie trafen sich nach einem ihrer Auftritte und verliebten sich schnell. Es ist eine sehr süße Geschichte. Ich bin mir sicher, dass sie jedem ein Lächeln ins Gesicht zaubert. Als kleines Kind liebte ich das Tanzen, und ich verbrachte meine Tage tanzend an der Seite meiner Mutter. Dabei trug ich oft ein wunderschönes Tutu, von denen mein Vater mir sehr viele kaufte. Ich hatte damals gar keine Sorgen ... Außer vielleicht, welches Bonbon ich mir jeden Tag aus dem Bonbonglas nehmen sollte."
+      },
+      {
+        "Title": "Ich will mehr über Odette erfahren III",
+        "Context": "Natürlich dauerte es nicht lange, bis uns die tragische Nachricht erreichte: Mein Vater war beim Ausüben seiner Pflicht gefallen. Meine Mutter war am Boden zerstört und brach sich dann auch noch bei einem Auftritt das Bein. Davor war das Leben zuckersüß gewesen, aber jetzt fühlte es sich an, als wäre das Bonbonglas leer. Und ich war darin gefangen."
+      },
+      {
+        "Title": "Ich will mehr über Odette erfahren IV",
+        "Context": "Danach, na ja ... Du weißt ja, was passiert ist. Ich bin diese Erinnerungen so oft durchgegangen, dass sie mir nicht mehr wehtun können. Mich gegen mein Schicksal zu wehren ... Das hat mich stark gemacht, und diese Stärke gehört mir ganz allein. Das werde ich nicht vergessen."
+      },
+      {
+        "Title": "Ich will mehr über Odette erfahren V",
+        "Context": "Das alles würde ich meinen Fans nicht erzählen, also ist es gut, dass du keiner bist. Ich muss schon zu viele Versionen von mir aufrechterhalten und ich möchte nicht, dass sie sich vermischen ... Natürlich werde ich in meinem Herzen für immer der Perfektion entgegentanzen."
+      },
+      {
+        "Title": "Odettes Hobbys ...",
+        "Context": "Ich habe Ballett schon immer geliebt und ich gebe alles, um jedes Mal, wenn ich auf der Bühne stehe, die bestmögliche Vorstellung abzuliefern."
+      },
+      {
+        "Title": "Odettes Sorgen ...",
+        "Context": "Ehrlich gesagt habe ich das Gefühl, dass kleine Tiere mich hassen. Vodyanitsa nimmt mich immer mit, um die Straßenkatzen rund um das Theater zu füttern, aber sobald ich näher komme, fangen sie an, ihre Krallen zu wetzen ... Hm? Das heißt, sie freuen sich, mich zu sehen? Huh ..."
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Kurz bevor der Speisesaal schließt, kosten die Salate nur die Hälfte, deshalb habe ich sie früher oft gegessen. Natürlich schmecken Salate, die schon den ganzen Tag herumstehen, nicht so gut wie frische. Aber dieses vertraute Gefühl hat etwas sehr Beruhigendes für mich."
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Ehrlich gesagt glaube ich nicht, dass es irgendein Essen gibt, das mir überhaupt nicht schmeckt. Aber als Balletttänzerin muss ich streng auf meine Ernährung achten, deshalb sind alle meine Mahlzeiten genau geplant. Alles, was nicht auf meinem Plan steht, meide ich lieber."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Ich hatte in den letzten Tagen ziemlich viele Auftritte. Vielleicht könnte ein bisschen mehr nicht ... Ähm, egal. Es ist lecker. Danke."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Das ist nur ein Gericht? Es sieht eher aus wie ... Essen für einen ganzen Tag."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Ähm, nein danke. Ich achte darauf, was ich esse."
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "Alles Gute zum Geburtstag! Ich habe überlegt, was ich dir schenken könnte ... Meistens bekomme ich Blumen, Ballettschuhe und Spieluhren. Aber das ist wohl nichts für dich. Wie wäre es, wenn du dir einfach etwas wünschst ... Hier und jetzt? Am besten natürlich etwas, das ich dir auch erfüllen kann ..."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Hm, noch nicht ganz ... Ich muss noch härter trainieren."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Mm, meine Bewegungen fühlen sich präziser an. Ich sollte die Intensität beibehalten."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Meine Fouettés sind jetzt perfekt. Aber jetzt ist nicht die Zeit, nachzulassen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "„Gefühle sind ein unverzichtbarer Teil des Balletts.“ Ich verstehe jetzt, was das bedeutet. Danke für deine treue Begleitung und Unterstützung. Wenn du Lust hast, heute noch zu meiner Aufführung zu kommen, ist hier eine Eintrittskarte."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Fangen wir an."
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Beschatte mich."
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Zusammen."
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "Pas de deux."
+      },
+      {
+        "Title": "Elementarfähigkeit V",
+        "Context": "Pirouette."
+      },
+      {
+        "Title": "Elementarfähigkeit VI",
+        "Context": "Hehe."
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Walzer der Schneeflocken."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Kristallines Adagio."
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Bezeuge die Anmut des Schneeschwans."
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Ich brauche nichts davon. Behalte es."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Eine Reise ist wie Tanztraining – jeder Schritt zählt."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Harte Arbeit zahlt sich aus."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Keine Sorge."
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Nur ein Kratzer."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Geht noch."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Alles in Ordnung?"
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Lass uns wechseln."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Ich hätte ... mich mehr ... anstrengen sollen ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Nein. Ich ... muss ... aufstehen ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "So fühlt sich ... Schmerz also an ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "... Hm?"
+      },
+      {
+        "Title": "Leichten Treffer erlitten II",
+        "Context": "Streng dich mehr an."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Ist das alles?"
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Sollte das wehtun?"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Stehe bereit."
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Soll ich ins Rampenlicht treten?"
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Wohin geht’s dieses Mal?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Wenn man in anderen Ländern das Wort „Tänzerin“ erwähnt, denken die Menschen stets an eine warmherzige Gestalt – als wäre sie ein heilsames Licht auf der langen Reise des Lebens.\nDoch in Snezhnaya denken die meisten beim Wort „Tänzerin“ zuerst an eine eisige Silhouette.\nAls Primaballerina der Korolevskiy-Theaterkompanie zeigt Odette Spessiva auf Werbeplakaten stets denselben Ausdruck: ein gleichgültiger Blick, leicht zusammengepresste Lippen – wie eine Statue, überzogen von einem Hauch Frost.\nIm scharfen Kontrast dazu steht die glühende Verehrung ihrer Anhänger. Der Grund ist einfach: eine makellose Figur, kühle, spannungsgeladene Darbietungen – jeder Schritt, jede Handbewegung so präzise wie die Facette eines geschliffenen Edelsteins, die ein atemberaubendes Feuer bricht.\nNiemand kann die Mühe ignorieren, die hinter einer solchen Haltung steckt. Sobald Odette die Bühne betritt, verstummen alle Zweifel im Nu.\nNach dem Schlussapplaus gibt sie nur selten Zugaben. Selbst wenn Fans ihr Blumen schenken und sie überschwänglich loben, fällt ihre Antwort stets äußerst knapp aus:\n„Mhm. Danke für die Unterstützung. Auf Wiedersehen.“\nDas ist aber keine bewusst hochmütige Haltung ihrerseits. Hinter der hell erleuchteten Bühne warten einfach noch andere Pflichten auf sie. Ihr Leben gleicht dem vollgeschriebenen Kalender an der Wand – kein einziger freier Fleck, den sie für sich selbst beanspruchen könnte.\nWenn man in tiefer Nacht eine lautlose Gestalt vorbeihuschen sieht, so leichtfüßig, dass sie kaum ein gewöhnlicher Mensch sein kann, sollte man der Neugier besser nicht nachgeben. Schließlich sind die Schneenächte in Snezhnaya einfach nur bitterkalt. Anständige Bürger schlafen um diese Zeit in ihren Betten. Wer dann noch unterwegs ist, der trägt wohl eine besondere Aufgabe mit sich.\nDoch am nächsten Morgen erscheint Odette pünktlich im Tanzsaal des Theaters. Manchmal dringt leise Musik heraus, manchmal nur das gedämpfte Klopfen der Zehenspitzen auf dem Boden. Die Spiegelwand reflektiert ihre Silhouette, wie sie immer wieder das Bein hebt und senkt – präzise wie ein Metronom.\nWenn das Morgenlicht heller wird und die anderen Ensemblemitglieder die Tür öffnen, steht ihnen oft das Staunen ins Gesicht geschrieben –\nWar die Primaballerina etwa gar nicht zu Hause?"
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Am Ende jeder Saison der Korolevskiy-Theaterkompanie von Snezhnaya füllten sich die Kulturseiten der großen Zeitungen stets mit leidenschaftlichen Kommentaren über Odette, die Primaballerina des Ensembles.\n„Perfektion, zu eisigem Glanz poliert.“ Eine Kulturzeitung wiederholte diese Einschätzung so oft, dass es bald nicht mehr wie eine Kritik klang, sondern zu dem Beinamen wurde, unter dem man sie fortan kannte.\nTripolev, einer der bekanntesten Kritiker aus Snezhnaya, formulierte eine noch bildhaftere Bewertung. „Odette“, schrieb er, „tanzt wie ein perfekt geschliffener Dolch, der sauber durch die Luft schneidet. Das Publikum kann nur die Schönheit seiner Klinge und die Genauigkeit seiner Bewegungen bestaunen, weiß aber ganz genau, dass man besser nicht danach greifen sollte.“\nFür eine andere Tänzerin wäre ein solches Lob vielleicht eine stille Belastung gewesen. Das Publikum bewundert zwar Schönheit, am schnellsten schließt es jedoch jene Schönheit ins Herz, die warm, poetisch und emotional nahbar wirkt. Schönheit ist am leichtesten zu verstehen, wenn sie bereit scheint, dem Zuschauer auf halbem Weg entgegenzukommen.\nOdette jedoch bot keine solche Einladung. Von der Leidenschaft und den Gefühlen, die das Publikum so gerne in ihr gesehen hätte, zeigte sie absolut nichts – nicht einmal das herzliche Lächeln, das man am Ende der Vorstellung erwartet.\nAbgesehen von den Gesichtsausdrücken, die ihre Rolle verlangte, blieb ihr Gesicht immer kühl und zurückhaltend, egal ob in der Öffentlichkeit oder privat.\nAll ihre Kraft schien in die Perfektion ihrer Kunst geflossen zu sein. Sie verlangte extrem viel von sich selbst. Das übertraf bei Weitem das, was man selbst von einer Primaballerina erwartete, und das Ergebnis sprach für sich. Wozu war sie sonst noch verpflichtet? Gefühle vorzutäuschen, nur um dem Publikum zu gefallen, gehörte sicher nicht zu den Pflichten einer Solotänzerin. Odette jedenfalls glaubte das nicht.\nEs mangelte nicht an Geschichten über sie.\nEine der bekanntesten handelt von einem Adligen, der ein kleines Vermögen bezahlte, um eine ganze Reihe erstklassiger Sitze zu reservieren. Nach der Aufführung wartete er, stand ganze zwei Stunden an der Bühnentür, mit einem riesigen Strauß eisblauer Blumen im Arm. Doch am Ende erschien nicht Odette, sondern stattdessen erreichte ihn eine Nachricht vom Theaterpersonal: „Fräulein Odette hat das Theater bereits durch den Seiteneingang verlassen.“\nEin weiterer Bewunderer schrieb einen zehnseitigen Brief voller Hingabe. Odette antwortete mit denselben Worten, wie immer: „Vielen Dank für deine Unterstützung.“ Hätte die Handschrift nicht genau zu ihrer Unterschrift gepasst, hätte jeder gedacht, dass jemand anderes die Antwort geschrieben hätte.\nDann war da dieser betrunkene Bewunderer, der den Eingang des Theaters blockierte und wirr auf Odette einredete. Er wollte über den Einfluss des Balletts auf Snezhnaya diskutieren. Sie wich ihm nicht aus. Sie blieb einfach stehen und sah ihn an ... Ein Zeuge berichtete später: „Er stand einige Sekunden lang wie erstarrt da und murmelte dann etwas vor sich hin. Es war, als hätte man Eiswasser über ihn geschüttet. Dann drehte er sich um und ging weg.“\n...\nOdette beschönigte weder ihre Gefühle, noch milderte sie die harte Realität des Lebens ab. In ihrer Stärke lag keine Falschheit. Klar und wahrhaftig besaß sie dieselbe kalte Entschlossenheit und sture Ausdauer wie der gefrorene Boden unter ihren Füßen, eine Eigenschaft, die bei den Menschen in Snezhnaya großen Anklang fand.\nIhre Art blieb unverändert, distanziert wie eh und je. Doch die Warteschlange vor dem Theater schwand genauso wenig, wie der Schnee aufhörte zu fallen."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Selbst innerhalb der Korolevskiy-Theaterkompanie können nur eine Handvoll Leute außerhalb einer Aufführung frei mit Odette sprechen.\nVodyanitsa ist ohne Frage eine von ihnen.\nIhre Bekanntschaft begann jedoch mit kaum mehr als den praktischen Anforderungen der Bühne: den Ablauf zu planen, die Kostüme vorzubereiten und Darsteller zu beruhigen, die vor ihrem ersten Auftritt furchtbar nervös waren.\n„Genau wie ihr es geübt habt. Hört auf den Rhythmus, merkt euch die Schritte und macht einen Schritt nach dem anderen.“ Sie war ruhig und fast ausdruckslos. Die Primaballerina gab denselben Rat wie bei der Probe, als wäre der Auftritt auf der Bühne nichts anderes als die Proben selbst. Die Darsteller tauschten unsichere Blicke aus. Ihre Fragen wanderten stumm von einem Gesicht zum nächsten. Trotzdem beruhigten sich ihre rasenden Herzen. Ihre ruhige und feste Stimme wirkte wie weicher Neuschnee, der auf ein Feld fällt und jeden hastigen, unsicheren Fußabdruck glättet.\n„Alles klar, Mädels. Schlagt euch auf die Brust und lasst eure Herzen rasen! Ihr werdet auf der Bühne die Zeit eures Lebens haben!“ Die Stimme der Primaballerina erklang. Sie war mitreißend und fast durchdringend. Ihre Mädchen antworteten, indem sie sich auf die Brust schlugen. Ihre Gesichter glühten vor Aufregung. Ihre Stimme durchströmte sie wie Wellen auf dem Meer. Sie zog sie in ihre Strömung. Und sie riss jede mit, die mutig und gewitzt genug war, darauf zu reiten.\nNacheinander zogen die Darstellerinnen auf die Bühne und ließen die beiden Hauptdarstellerinnen zum Ausruhen hinter den Kulissen zurück, denn ihre eigenen Auftritte waren bereits erfolgreich beendet. Sie hatten alles für die Aufführung getan, was sie konnten. Der letzte Akt gehörte nun den Neulingen.\nEine Zeit lang herrschte Stille in der Garderobe. Dann setzte auf der Bühne die Musik ein. Ihre leisen Klänge wehten bis hinter die Bühne und durchbrachen die Ruhe.\nEin Honigbonbon glitt in die Tasse des Wasser-Unholds. Es landete mit einem kaum hörbaren Plop, wie eine Perle, die in weiche Seidenfalten fällt.\n„... Gut für deinen Hals.“\nMehr sagte Odette nicht. Sie wandte sich ab und band ihre Ballettschuhe sorgfältig neu, während Vodyanitsa gedankenverloren in das gesüßte heiße Wasser vor sich starrte.\nErst später wurde die Bedeutung dieser kleinen Geste klar. Odette behielt diese Bonbons meistens für sich: Sie hob sie auf, um nach den vielen anstrengenden Trainingsstunden neue Kraft zu tanken. Damals gab sie dann Vodyanitsa ihr letztes Bonbon. Odette wusste noch nicht, dass Vodyanitsa eine außergewöhnliche Gabe für Gesang besaß, denn als Wasser-Unhold ermüdete ihre Stimme fast nie.\nDamals war Vodyanitsa jedoch sehr gewillt, einen so aufrichtigen Akt der Freundlichkeit anzunehmen, besonders wenn er von jemandem kam, der so klar und makellos wie ein Stück feines Eis war.\nIn der bitteren Kälte von Snezhnaya war Freundlichkeit schließlich viel zu selten, um sie achtlos vorbeiziehen zu lassen. Sobald man auf sie traf, musste man sie einfach fest an sich drücken. Denn andernfalls würde sie womöglich komplett einfrieren, bevor jemand sie je wieder aufbrechen könnte.\n...\n„Ich habe keine Bonbons mehr.“\n„Stimmt nicht. Ich habe dir heute Morgen drei Schachteln in die Tasche gesteckt – gib mir eins.“\n„Du brauchst sie nicht für deinen Hals.“\n„Dann brauche ich sie eben, um wieder zu Kräften zu kommen.“\n„Wovon? Ich war diejenige, die getanzt hat.“\n„Ich habe auch gesungen! Du solltest eigentlich sagen: ‚Oh, liebste Vodyanitsa, deine Stimme war so wunderschön, dass ich ihr ewig zuhören könnte‘ und mir dann noch ein Bonbon geben.“\n„... Ich kann dir meine Meinung sagen, sobald der Auftritt vorbei ist.“\n„Du hast gerade gelächelt, oder? Ich habe es gesehen! Du hast gelächelt! ... Warte, du tanzt immer noch? He! Komm schon, das reicht jetzt. Wir gehen essen!“\nVodyanitsa hat es sich nicht eingebildet. Für einen winzigen Moment hebt sich Odettes Mundwinkel zu einem Lächeln.\nOdette würde das jedoch nie zugeben:\n„Es war einfach der Ausdruck, den die Rolle verlangt hat.“"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Als Odette geboren wurde, war der Ruhm der Familie Spessiva schon lange verblasst. Wenig war davon übriggeblieben, außer ein paar vergilbten Porträts an den Wänden des alten Hauses, von denen jedes stolz einen berühmten Vorfahren zeigte. Sie alle hatten einst auf der großen Bühne ihr Können unter glanzvollen Beweis gestellt. Ihre Mutter Violetta hatte erst kürzlich eine Nebenrolle bekommen, ein sehr wichtiger Auftritt in einem bekannten Ballett. Und gedanklich war sie sogar schon bei der Hauptrolle. Wenn dieser Tag nur endlich käme, würde sie ihr eigenes Bild aufhängen. So lautete ihr entschlossener Plan. Als hätte sie diese Gedanken gehört, weinte die kleine Odette plötzlich. Sie trug noch Windeln, und protestierte lautstark aus voller, kleiner Kehle.\n„Oh, verzeih mir, Odette.“ Violetta lächelte und stupste ihrer Tochter sanft auf den Nasenrücken. „Natürlich wirst du auch auf dem Bild sein ... Besser noch, wir lassen ein Familienporträt machen, auf dem wir alle zu sehen sind.“\nStampf, stampf, stampf ... Die schweren, gleichmäßigen Schritte von Militärstiefeln ertönten vor der Tür. Ein Signal, dass nur für dieses Haus allein galt. Violetta wusste noch im gleichen Moment, wer da gekommen war: Ihr Mann stand noch auf der Schwelle, als er den Schnee von seinen Stiefeln abklopfte, als sie ihm bereits mit einem Lächeln entgegenging.\nDas alte Haus war zu groß, um es richtig warm zu halten. Das Feuer im Kamin brannte nur schwach und die Heizung kam gegen die Kälte nie ganz an. Doch wenn sie sich in den Armen hielten, fand die Familie all die Wärme, die sie brauchte.\nAls Odette älter wurde, wurde ihr dieser Rhythmus so vertraut wie das Gesicht ihres Vaters. Stampf, stampf, stampf ... Das bedeutete Abendessen, Geschichten und die ruhige Gewissheit, dass die kommende Nacht friedlich verlaufen würde.\nOdettes Vater war Soldat. Er verstand nur sehr wenig von der Kunst. Er roch stets nach Leder und Schießpulver, deren Duft sich oft mit einem Hauch der eisigen Luft von draußen mischte. Trotzdem war niemand in der Familie ein begeisterterer Zuschauer als er. Wann immer Violetta übte, zog er sich einen Stuhl in die Ecke und sah ihr dann ruhig zu. Ab und zu versuchte er, der Musik mit seinem Fuß zu folgen, aber sein Tippen traf dabei selten den Takt. Violetta lachte und nannte ihn „den Mann mit dem schlechtesten Taktgefühl in ganz Snezhnaya“. Er widersprach ihr nie, sondern grinste nur vor sich hin: „Aber ich klatsche am besten in ganz Snezhnaya.“\nDas stimmte zumindest. Egal, ob Violetta ein richtiges Stück tanzte oder nur eine Melodie summte und dabei improvisierte, er belohnte sie am Ende stets mit tosendem Applaus, der fröhlich war und von Herzen kam. Das laute Klatschen scheuchte die Vögel vom Fensterbrett auf und brachte die kleine Odette lauthals zum Lachen.\nSie war noch zu jung zum Tanzen. Stattdessen rutschte sie auf ihren Socken über den Boden oder stellte sich auf die Militärstiefel ihres Vaters, während dabei beide Hände seine Finger umschlossen. Wenn er einen Schritt machte, folgte sie ihm und tapste wie ein kleines Vögelchen, das noch unsicher auf den Beinen war.\n„Siehst du?“, sagte ihr Vater immer zu Violetta. „Wir haben unseren ganz eigenen kleinen Schneeschwan.“\n„Wir haben höchstens ein kleines Entlein“, antwortete Violetta lachend. „Schneeschwäne halten den Rücken gerade.“\nSofort hockte sich ihr Vater neben Odette, berührte ihren Rücken leicht mit zwei Fingern und sagte: „So ist es richtig. Rücken gerade, kleiner Schneeschwan.“\nBald wurde aus dem Spiel echter Unterricht. Violetta begann, Odette mit aller Sorgfalt die Grundlagen beizubringen: Dehnen, Tendus, Petits Battements. Allesamt sehr langweilige Übungen für Anfänger, die immer und immer wieder wiederholt wurden, hundertmal und dann nochmal hundertmal. Als Lehrerin duldete Violetta absolut keine Kompromisse. Ein falsch gesetzter Fuß bedeutete, dass man von vorne anfangen musste. Verhandlungsspielraum gab es nicht. Manchmal wurden Odettes Augen vor lauter Anstrengung rot, doch dann presste sie die Lippen stur zusammen und zog ihr Training einfach durch.\nAber am Ende jeder Übungseinheit wartete doch immer wieder ihr Vater in der Tür.\n„Na? Was hat meine kleine Tänzerin heute gelernt?“\nOdette wiederholte die neuen Bewegungen für ihn, so gut sie konnte, auch wenn sie dabei noch etwas schief und wackelig unterwegs war. Sie hatte sie ja gerade erst gelernt. Ob sie es nun gut oder schlecht machte, war völlig egal. Seine Reaktion war immer die gleiche: Zuerst kam der Applaus, laut und feierlich. Dann ging er in die Hocke, bis sie auf Augenhöhe waren.\n„Wunderbar“, verkündete er voller Ernst in der Stimme. „Eines Tages wird meine Tochter eine Primaballerina sein.“\nViolettas Gesicht entspannte sich endlich, als sie ihren Kopf leicht an die Schulter ihres Mannes lehnte, sie lächelte. Odette war noch zu jung, um zu verstehen, was es bedeutete, eine Primaballerina zu werden. Doch sie sah den Stolz, der ihrem Vater ins Gesicht geschrieben stand, als er das sagte, und sie sah auch das stille, hoffnungsvolle Lächeln in Mutters Ausdruck. Sie selbst hatte es zwar nicht gemerkt, aber der erste kleine Samen eines Traums war zu diesem Zeitpunkt in ihr Herz gepflanzt worden."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Odette hatte einmal geglaubt, dass ihr warmes, friedliches Leben immer so weitergehen würde wie bisher.\nDann, eines Tages, blieben die Schritte ihres Vaters aus. Sie wartete den ersten Tag, dann den zweiten, dann den dritten ... Aber als das Geräusch von Militärstiefeln schließlich das Haus erreichte, waren es nicht seine Schritte.\nZwei Fatui-Soldaten standen mit ernsten Mienen an der Türschwelle und legten Violetta einen Brief in die Hände. Die Tänzerin, die ihren Körper für gewöhnlich perfekt unter Kontrolle hatte, konnte nun dem Zittern ihrer Finger keinen Einhalt gebieten, als sie den Brief auffaltete. Neben ihr stand Odette und stellte sich ängstlich auf die Zehenspitzen, um einen Blick auf die Worte zu erhaschen. Ihre Augen konnten nur eine einzige Zeile erwischen; ein einfacher Satz, von dem sie sich jahrelang wünschte, ihn nie gelesen zu haben.\nDas Haus war in dieser Nacht völlig still, als wäre ihm jedes Geräusch genommen worden. Am nächsten Morgen kehrte Violetta in den Proberaum des Theaters zurück und nahm ihre Routine wieder auf. Dann kam der dritte Tag und danach der vierte ...\nWährend der Aufführung sah Odette von unterhalb der Bühne, wie ihre Mutter zusammenbrach. In ihrer Verzweiflung sagte sie sich erst, dass das sicherlich Teil der Vorstellung sei, denn schließlich verlor Violetta sonst niemals die Kontrolle. Vielleicht war dieser Sturz ja also vorher geprobt? Oder vielleicht befand sie sich ja auch immer noch in einem Traum? In einem Albtraum, aus dem sie nie erwacht worden war? Dann aber senkte sich der schwere Vorhang in Windeseile und hinter der Bühne brach das pure Chaos los. Inmitten dieses Durcheinanders erhaschte Odette noch einen kurzen Blick auf das Gesicht ihrer Mutter: Ihr einstiges Strahlen war nun völlig verschwunden und einzig einer tödlichen Blässe gewichen.\nAls die Behandlung beendet war, sprach der Arzt mit leisem Bedauern in der Stimme. Violettas Verletzungen würden mit der Zeit heilen, aber selbst dann würde sie wahrscheinlich nie wieder die schwierigsten Schritte tanzen können.\n...\nIn den Tagen danach veränderte sich das Haus. Der Stuhl ihres Vaters wurde weggeschoben und verschwand in einer Ecke allmählich unter einem großen Haufen ebenso vergessener Dinge. Niemand griff mehr nach der Zeitung, sodass sich das Papier, das er morgens immer aufgeschlagen hatte, wellte und vergilbte. Oft brannte das Feuer nun nur noch sehr schwach und lies die Zimmer ganz unbemerkt so kalt wie die gefrorene Welt vor den Fenstern werden. Odette und ihre Mutter saßen in dicke Decken gehüllt an den gegenüberliegenden Enden des Sofas. Den Platz zwischen ihnen, wo er früher immer gesessen hatte, ließen sie ganz unberührt. Keine von beiden setzte sich jemals wieder dorthin.\nObwohl sie die Bewegungen nicht mehr richtig vormachen konnte, führte Violetta Odettes Unterricht aus dem Rollstuhl heraus weiter. Sie gab den Rhythmus vor, indem sie mit ihrem Stock auf den Boden schlug: „Tock. Tock. Tock.“\nOdette schrie oder weinte nie. Ballett bezog seine Schönheit schon immer aus dem Schmerz, weshalb sie ihn schweigend ertrug. Sie bandagierte ihre schon ziemlich wunden Zehen, bis der Schmerz unter vielen Schichten irgendwann in eine völlige Taubheit überging. Wann immer sie kurz innehielt, wischte sie sich den Schweiß von der Stirn. Dabei spürte sie jedes Mal den durchdringenden Blick ihrer Mutter. Was sie stumm miteinander verband, war ein und dieselbe Wunde. Danach sahen beide schnell wieder in eine andere Richtung, und Violetta zählte dann einfach weiter, während Odette ihre Tanzschritte sogleich wieder aufnahm. Lehren und Lernen füllten nun jede Stunde aus, denn diese Zeit durfte unter gar keinen Umständen einfach so leer bleiben. Denn Leere würde nur zu noch mehr Nachgrübeln und Erinnerungen führen.\nDann, eines Tages, drang ein anderer Rhythmus in das Haus. Das ungewohnte Klacken von Absätzen brachte den Unterricht zum Stillstand.\nLa Signora war auf Bitte des Capitanos gekommen, um Violetta sein Beileid auszusprechen. Sie war die Achte der Elf unter den Fatui und hatte einst als Kommandantin von Odettes Vater gedient.\nIm weiteren Verlauf des Besuchs richtete sich La Signoras Aufmerksamkeit auf Odette und die mühelose Agilität ihres Tanzes.\n„Frau Spessiva“, sagte La Signora, „ich möchte deine Trauer nicht herunterspielen. Aber du bist jetzt ohne Einkommen. Und eine Rente allein reicht kaum aus, um ein Kind großzuziehen. Die Fatui könnten sie in Obhut nehmen. Wir sind immer bereit, vielversprechende junge Talente zu fördern. Im Gegenzug würdest du eine Zulage erhalten.“\nVioletta lehnte sofort ab. Sie musste nicht an die Gefahren erinnert werden, die von den Fatui ausgingen, denn sie hatten ihr bereits ihren geliebten Ehemann genommen. Der Gedanke, dass sie ihr eines Tages auch noch ihre Tochter wegnehmen könnten, war mehr, als sie ertragen konnte.\nAber Odette hatte alles mit angehört. Sie eilte an die Seite ihrer Mutter, bevor das Gespräch endete. Ihre Stimme klang noch immer unverkennbar kindlich, doch an ihrer Entschlossenheit war absolut nichts mehr kindisch. Sie versprach, alles, was von ihr verlangt werden würde, zu tun. Sie würde vorsichtig sein und in Sicherheit bleiben. Sie würde einen Weg finden, neben dem Training bei den Fatui weiter Ballett zu tanzen.\nOdettes klare, blauviolette Augen trafen den Blick von La Signora, hell leuchtend von einem Feuer, das durch das Eis zu lodern schien.\n„Ich kann das“, wiederholte Odette in die Stille. Ihre Lippen waren zu einem sturen Strich zusammengepresst, ihr Ausdruck wild vor Entschlossenheit und völlig ohne Rücksicht auf die möglichen Kosten ... La Signora kannte diesen Blick. Das Mädchen verbrannte sich bereits selbst, versuchte aber, den Ruin als Stärke zu tarnen ...\nLa Signora musterte sie mit kaltem Spott. Welche Zweifel auch immer in ihr aufgestiegen waren, ihr Stolz erlaubte es ihr nicht, das Angebot zurückzuziehen.\n„Dann komm mit“, sagte sie. „Mal sehen, wie lange deine Entschlossenheit anhält.“"
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Als der Auftrag zu Ende war, lag der Himmel noch immer in eisiger Schwärze.\nOdette steckte den Dolch weg und überprüfte ausdruckslos ihren Körper. Die Kleidung wies keine sichtbaren Flecken auf. Die Schuhoberfläche war leicht feucht, behinderte sie aber nicht. Das Ziel war erreicht – der Gegner hatte einen solchen Schrecken bekommen, dass er es wohl kaum wagen würde, noch einmal Ärger zu machen.\nDie Nacht in Snezhnaya war still. Der Schnee schluckte die meisten Geräusche, und ihre Schritte darauf waren beinahe lautlos. Diese Stille gab ihrem Verstand Raum zum Abschweifen. Und freier Raum bedeutete oft, dass man sich an Dinge erinnerte, an die man sich nicht erinnern wollte.\nZum Beispiel die letzte Bewegung von vorhin. Es war ein sehr sauberer Abschluss gewesen, das Handgelenk rotierte nach innen und kehrte in seine Position zurück – schnell und präzise. Doch sie wusste genau: Im Moment, als sie den Dolch zurückzog, gab es eine winzige Verzögerung. Als sie den rechten Arm zurückzog, streckten sich die Fingerspitzen leicht nach außen, aber die Bewegug war kaum wahrnehmbar.\nSie wusste, was das war – die Geste am Ende einer Ballettvorstellung.\nIn den Bewertungsakten der Fatui stand, ihr Kampfstil gleiche einem Ballett. Ihre Mutter hingegen sagte, ihrem Ballett fehle es an Gefühl.\nIm Kampf ließ sie unbewusst Tanzfiguren einfließen, beim Tanzen wiederum nutzte sie die im Training erlangte Kraft. All das schien wie von selbst aus ihrem Körper zu strömen, begleitete jeden ihrer Atemzüge, jeden ihrer Herzschläge – wie etwas, das sich längst in ihre Knochen und ihr Muskelgedächtnis eingeprägt hatte.\nKlinge und Zehenspitze – in ihr waren sie längst zu einem verschmolzen\nVielleicht hatte sie nie so viele Identitäten gehabt, war von Anfang bis Ende immer nur eine einzige Person gewesen – ein Mensch, den der Winter bis ins Mark durchfroren hatte, der sich nur an allem festklammern kann, was die Hände zu fassen bekommen.\n...\nOdette schlich leise zur Hintertür des Korolevskiy-Theaters.\nIm Tanzraum zog sie ihre Tanzschuhe an, ohne das Licht einzuschalten. Kaltes Mondlicht fiel durch die hohen Fenster herein und schnitt den Boden wie eine Klinge in eine helle und eine dunkle Hälfte.\nSie tanzte im flackernden, kaltweißen Licht – einer der seltenen Momente, der ganz und gar ihr allein gehörten.\nKeine Musik, kein Klappern von Mutters Krückstock, erst recht keine Schritte des Vaters. Nur ihr eigener Atem und das leise Geräusch, wenn ihre Zehenspitzen den Boden berührten. Die Bewegungen waren improvisiert, nicht choreografiert, und auch nicht für irgendein Publikum bestimmt.\nSchweiß und Tränen vermischten sich, während sie sich immer schneller drehte. Der Tanz wurde ihr Widerstand, ihre Sehnsucht, und die einzige Sprache, mit der sie ihnen Ausdruck verleihen konnte.\nWenn Schnee durch das Fenster hereingeweht wäre und zum Zuschauer dieser Szene geworden wäre, hätte er wohl gedacht:\nDie Primaballerina der Korolevskiy-Theaterkompanie ist in Wahrheit gar nicht so eiskalt, wie gemunkelt wird."
+      },
+      {
+        "Title": "Ein verwackeltes altes Foto",
+        "Context": "Violettas Liebe zum Ballett war unübertroffen. Als Odette sich entschloss, Ballett zu lernen, waren die Anforderungen ihrer Mutter weit strenger als die jeder gewöhnlichen Lehrerin. In den Augen der kleinen Odette war es nicht leicht, ein Lob von ihrer Mutter zu bekommen.\nOdette erinnert sich noch genau an jenen Tag: Sie hatte zum ersten Mal eine vollständige Drehung auf den Zehenspitzen geschafft. Die Bewegung war leicht schief, nicht perfekt, aber sie hatte sich tatsächlich einmal komplett gedreht. Ihre Mutter korrigierte ausnahmsweise nicht sofort die Schlussposition ihrer Füße, sondern hielt einen Moment inne. Ihre Mundwinkel hoben sich leicht.\n„Gut. Du machst schnell Fortschritte.“\nVater versetzte das so in Freude, dass er sogar regelrecht aufsprang.\n„Noch einmal! Warte, ich muss ...“ Er wühlte hektisch im Wandschrank nach dem alten Fotoapparat. „Nicht bewegen, nicht bewegen! Bleib in der Pose!“\n„Sie ist doch keine kleine Drehfigur auf einer Musikbox. Wie soll sie so stillhalten?“ Ihre Mutter schüttelte ratlos den Kopf.\nEntsprechend verwackelt war dann auch das Foto.\nOdettes Gesicht zierte ein verschwommenes Lächeln, ihre Mutter hob die Hand an die Lippen, als müsse sie ein Lachen unterdrücken, und von ihrem Vater war nur eine hastige Silhouette zu sehen – er hatte es nicht rechtzeitig geschafft, zu ihnen zu laufen. Nur die Flammen im Kamin waren gestochen scharf eingefangen.\nTrotzdem legte Vater das Bild feierlich in seine Taschenuhr.\n„Das ist bisher das interessanteste Familienfoto überhaupt“, verkündete er zufrieden. „Immerhin hält es die Fortschritte unsere kleinen Primaballerina im rechten Augenblick fest. Und von solchen Fotos wird es in der Zukunft noch viel mehr geben.“\nOdettes Kindheit bestand aus solchen Momenten: den strengen, aber geduldigen Lehren der Mutter, dem stets sicheren Applaus des Vaters, dem knisternden Feuer im Kamin und den Pausen, in denen sich die kleine Familie zu dritt auf dem samtenen Sofa aneinander kuschelte, um ein Stück süßen, so unglaublich süßen Medovik zu teilen – der Vater brach ihr immer das größte Stück ab, und die Mutter tippte ihr auf die Nasenspitze, wenn sie gierig beide Hände danach ausstreckte.\nAls Odette das verwackelte alte Foto wieder sah, saß ihre Mutter bereits im Rollstuhl und schaute still hinaus auf den dichten Schnee, der vor dem Fenster wirbelte. Der Wind heulte klagend, als hätte er geschworen, jede eisige Flocke ins Haus zu treiben. Odettes Handbewegungen beim Tanzen waren stets präzise und leicht, doch in jenem Moment fühlten sich ihre Hände so schwer an, dass sie sie nicht heben konnte. Sie biss die Zähne aufeinander und nahm all ihre Kraft zusammen, bis sie endlich die alte Taschenuhr öffnen konnte, an der noch Spuren von Rost und Blut hafteten ...\nDer Winter in Snezhnaya war endlos lang, als wollte er jede Hoffnung begraben, als würde der Frühling niemals kommen."
+      },
+      {
+        "Title": "Sternenkeil",
+        "Context": "Nachdem Odette den Fatui beigetreten war, verschwand die Kindlichkeit aus ihrem Gesicht schnell.\nTagsüber übte sie die Grundlagen des Balletts, nachts folgte das gnadenlose Training der Fatui. Sie sprang von einer Seite zur anderen und rang in der schmalen Lücke zwischen beiden Terminen nach Atem.\nDie Warnsignale ihres Körpers folgten anfangs noch einem Muster: Zuerst kam ein unerträgliches Stechen im Knöchel. Dann knackten die Knie bei jedem Absprung leise. Danach wollte der Bluterguss unter den Rippen, den sie sich auf einer Mission zugezogen hatte, einfach nicht verblassen. Die Schmerzen standen quasi Schlange und meldeten sich einer nach dem anderen zum Dienst.\nAber Odette ignorierte die Schmerzen. Sie wickelte die Bandagen nochmal straffer, fügte ihren Schonern eine zusätzliche Lage hinzu und drückte den Schmerz gewaltsam zurück in die Tiefe ihres Körpers. Und dann begrub sie ihn unter noch härterem Training.\nIn dieser Zeit bemerkte ihre Mutter, dass Odettes Trainingspensum sprunghaft anstieg – als wollte sie verzweifelt etwas beweisen. Doch auf die Ermahnungen ihrer Mutter antwortete Odette stets nur: „Alles gut.“\nMit jedem Mal, da sie die Zähne zusammenbiss und sich beinahe selbst verletzte, stumpfte ihre Schmerzwahrnehmung ab – bis der Schmerz schließlich ganz verschwand.\nDas Kampftraining endete an jenem Abend sehr spät. Zurück in ihrer Unterkunft legte die erschöpfte Odette ihren windabweisenden Umhang ab. Als sie den Blick senkte, sah sie, dass die Bandagen um ihr Bein sich dunkel verfärbt hatten. Viel mehr Blut als sonst. Die alte Wunde war also wieder aufgerissen.\nSie starrte ein paar Sekunden darauf.\nAber sie spürte nichts. Als würde sie die Wunde einer Fremden betrachten.\nSie drückte probehalber fester zu – bis ihr Druck stark genug war, um eine Delle in den Muskel zu pressen ... Doch ihr Bein rührte sich nicht im Geringsten.\nKeinerlei Schmerz.\nOdette schwieg einen Moment. Sie wickelte den Verband neu und saß dann lange still in der Dunkelheit.\nVon nun an musste sie ihre Sinne nicht mehr betäuben und ihre Gefühle nicht mehr verschließen. Egal welches Training – sie konnte nun länger durchhalten.\nSie empfand sogar ein wenig Erleichterung. Wenn es so weiterging, würde sie bestimmt bald ihren Traum verwirklichen und Primaballerina der Korolevskiy-Theaterkompanie werden.\nUnermüdlich sprang und tanzte sie, bis ihre angespannten Zehenspitzen im Drehen und Springen durch jeden Akt einer Balletika glitten, durch jede aus Liebe geformte Fantasie.\nSie ist die perfekte Dame, sie ist die edle Prinzessin. Sie ist der anmutige Wasservogel, kühl wie Winterfrost am Morgen, sie ist die leidenschaftliche Tänzerin, heiß wie die Sommersonne. Sie ist das pfauenschöne Fräulein, sie ist Anli, die Begleiterin des großen Räubers Reed Miller, sie ist Coppelia und auch Odelya.\nDoch all das ist nicht „Odette“.\n... Wie also soll mein Leben aussehen?\nDiese Stimme, die niemand kennt, erhob sich erst in ihrem Herzen, nachdem der Vorhang gefallen war.\n... Sie sagen, eine neue Welt wird stets kommen. Wenn die Menschen der neuen Welt mein Leben als Geschichte auf einer Bühne erzählen wollten ... Was für ein Bild würde ich mir dann wünschen?\nSie wusste es nicht. Der Auftakt einer Balletika sollte romantisch sein, zumindest anmutig. Eine harmonische Familie, eine Kindheit voller Lachen – all das lag bereits so weit zurück, weiter noch als das grelle Licht auf der Bühne. Als wolle es ihr die Augen versengen, starrte sie unverwandt in dieses fahle, lodernd weiße Licht. Doch sie stellte fest, dass sie sich längst nicht mehr nach dieser Wärme sehnte. Sie brauchte keine falsche Zärtlichkeit.\nIhr gehörte nur der Schmerz. Eiskalter, schneidender Schmerz, heilig und feierlich wie ein heulender Schneesturm.\nEs war der Schmerz, der „Odette“ geformt hatte – der sie geschliffen und ihr am längsten als treuster Gefährte zur Seite gestanden hatte.\n... Ja, ich möchte, dass die alte Welt, wenn sie zugrunde geht, sich an meine Beharrlichkeit erinnert.\n... Leid ist mein Gefieder, meine Schwingen. Ich will zum höchsten Ort emporfliegen und hinabschauen. Ich will den Traum sehen, dessen der Schneeschwan nie Zeuge war – das ist mein Wunsch.\nMit diesem Gedanken kniff sie die Augen zusammen und blickte zur Lampe empor, die hoch über der Bühne schwebte.\nVerschwommen, schwebend, unerreichbar – und doch so greifbar nah, diese Lampe.\nWie immer war es wieder ein Tanz mit vollem Einsatz, als wolle sie ihren Körper in Flammen aufgehen lassen.\nDer Vorhang fiel. Zurück hinter der Bühne nahm ein eisblauer Kristall in kühlem, fahlem Schimmer Gestalt an.\nOdette hob ihn schweigend auf und betrachtete ihn auf ihrer Handfläche. Es war ein Sternenkeil. Als Fatua hatte sie schon einmal vage von seiner Herkunft gehört. Doch er fühlte sich anders an als erwartet – eiskalt, federleicht, wie eine Träne, erstarrt in Wind und Schnee.\nSie glaubte nicht an Tränen. So wie sie an vieles andere nicht glaubte. Genau wie ihr verlorenes Schmerzempfinden – ob Mitleid, Gnade oder Fluch, das wusste sie nicht.\nDoch Odette wusste: Ganz gleich, was es war – sie würde es bereitwillig annehmen. Ihre Schwingen waren ihr „Ein und Alles“. Selbst der Frost, der ihr entgegenschlug, würde am Ende ein Teil ihrer Schwingen werden.\nVon nun an würde kein Schmerz sie zögern lassen, bevor sie das Schwert zog. Keine Kälte würde sie in einer verschneiten Nacht langsamer werden lassen\nOdette hob den Kopf und blickte zum Himmel vor dem Fenster. Schneeflocken fielen auf ihre Wangen, die ihr längst ganz kalt vorgekommen waren. Aber dann schmolzen sie in ihrer Wärme dahin."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 215000,
+      "Name": "Tanz des Schneeschwans",
+      "Description": "Odettes Kleidung. Dieses gut gefertigte Ballettkostüm ist vom Schneeschwan inspiriert und hat die fleißige Balletttänzerin durch unzählige lange Nächte begleitet. Die Juwelen darauf brechen das Scheinwerferlicht stets zu einem ruhigen, eleganten Glanz – ganz wie die makellose Tänzerin selbst.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113090,
+    101275,
+    112148,
+    104367,
+    113088
+  ],
+  "NameCard": {
+    "Name": "Odette – Die singuläre Schwänin",
+    "Description": "Ein Motiv für Namenskärtchen.\nSowohl in Liyue als auch in Snezhnaya gelten Schwäne als große und stolze Vögel. Unter den geselligen Schneeschwänen sticht jedoch eine einzige schwarze Schneeschwänin hervor. Aber das ist natürlich nur die Geschichte aus „Die schwarze Schneeschwänin“.",
+    "Icon": "UI_NameCardIcon_Odette",
+    "PicturePrefix": "UI_NameCardPic_Odette"
+  }
+}

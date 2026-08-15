@@ -276,6 +276,7 @@
         "Id": 10751,
         "Name": "Ondeo de estandartes",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nLibera ráfagas de viento cortante para realizar hasta 3 ataques que infligen <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante, crea una acumulación de aire a presión e inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del viento y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -505,6 +506,7 @@
         "Id": 10752,
         "Name": "Ilustración emplumada: Balada del viento",
         "Description": "Concentra el poder del viento para liberarse de las cadenas terrenales. Inflige <color=#80FFD7FF>Daño Anemo</color> alrededor de sí mismo y da un salto con el que entra en el estado de “gracia del viento”.\n\n<color=#FFD780FF>Gracia del viento</color>\nEl Trotamundos no puede ejecutar Ataques Descendentes, y sus Ataques Normales y Cargados se transforman respectivamente en “Obliteración celeste” y “Ráfaga celeste”, los cuales infligen mayor daño y tienen una mayor AdE. El daño de estos dos ataques se considera, respectivamente, daño de Ataque Normal y de Ataque Cargado. Además, Ráfaga celeste no consume Aguante.\nEn el estado de gracia del viento, el Trotamundos queda suspendido en el aire de manera continua, lo que otorga a sus movimientos las siguientes características:\n·Consume continuamente “persistencia celeste” para mantenerse en el aire.\n·Al esprintar, consume una cantidad de persistencia celeste adicional para acelerar mientras está suspendido en el aire. Al mantener pulsado para esprintar, consume continuamente esta persistencia para mantener la velocidad a la que se mueve. Este efecto sustituye al esprint.\n·Cuando salta, vuelve a gastar persistencia celeste para elevarse aún más. Al mantener pulsado para saltar, la persistencia celeste se consume de forma continua para seguir elevándose en el aire.\n\nEste estado terminará al agotar por completo la persistencia celeste o si se vuelve a usar esta habilidad mientras la gracia del viento está activa.\n\n<i>El mundo efectúa una sutil danza para revelar un secreto que se oculta en las flores.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wanderer_01"
       }
     ],
@@ -658,6 +660,7 @@
       "Id": 10755,
       "Name": "Kyougen: Cinco actos",
       "Description": "Comprime el aire y lo transforma en una cavidad vacua capaz de acabar con todas las preocupaciones, y que inflige varias veces <color=#80FFD7FF>Daño Anemo en el AdE</color>.\nSi se usa esta habilidad en el estado de gracia del viento de la Habilidad Elemental, Ilustración emplumada: Balada del viento, dicho estado se terminará.\n\n<i>Poco a poco, el cielo se vuelve a iluminar, mientras los sueños de ayer y hoy flotan en el aire dejando una sombra que se difumina.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wanderer_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 752101,
         "Name": "Flor de jade",
         "Description": "#Al usar <color=#FFD780FF>Ilustración emplumada: Balada del viento</color>, si esta entra en contacto con <color=#80C0FFFF>Hydro</color>, <color=#FF9999FF>Pyro</color>, <color=#99FFFFFF>Cryo</color> o <color=#FFACFFFF>Electro</color>, el actual estado de gracia del viento obtendrá los siguientes fortalecimientos dependiendo del elemento con el que entró en contacto la habilidad:\n·<color=#80C0FFFF>Hydro</color>: el límite máximo de persistencia celeste aumenta en 20{NON_BREAK_SPACE}pts.\n·<color=#FF9999FF>Pyro</color>: el ATQ aumenta en un 30%.\n·<color=#99FFFFFF>Cryo</color>: la Prob. CRIT aumenta en un 20%.\n·<color=#FFACFFFF>Electro</color>: recupera 0.8{NON_BREAK_SPACE}pts. de Energía Elemental cuando golpea a un enemigo con un Ataque Normal o Cargado. Solo se puede recuperar Energía Elemental una vez cada 0.2{NON_BREAK_SPACE}s de esta manera.\n\nSolo pueden obtenerse los fortalecimientos de hasta 2 elementos distintos al mismo tiempo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 752201,
         "Name": "Céfiro de la ensoñación",
         "Description": "#Cuando el Trotamundos golpea a un enemigo con Obliteración celeste o Ráfaga celeste mientras está en el estado de <color=#FFD780FF>gracia del viento</color>, tiene un 16% de probabilidad de obtener el efecto de “precipitación”. Este efecto se eliminará cuando el Trotamundos acelere en el aire mientras esté en el estado de gracia del viento, y hará que dicho acelerón no consuma persistencia celeste y dispare 4 proyectiles ventosos que infligen cada uno <color=#80FFD7FF>Daño Anemo</color> basado en el 35% del ATQ.\nSi Obliteración celeste o Ráfaga celeste no generan el efecto de precipitación, la próxima vez que se ejecuten tendrán un 12% más de probabilidad de generarlo. El cálculo de la generación del efecto de precipitación solo puede ocurrir una vez cada 0.1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_06"
       },
       {
@@ -722,6 +727,7 @@
         "Id": 752301,
         "Name": "Acordes nubosos",
         "Description": "Reduce en un 50% los Moras necesarios para ascender arcos y catalizadores.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_07"
       }
     ],

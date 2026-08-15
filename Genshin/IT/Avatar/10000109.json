@@ -261,6 +261,7 @@
         "Id": 11091,
         "Name": "Cuore puro, sogni puri",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 attacchi, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#80FFD7FF>DAN da Anemo ad area</color> dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nEvocando il potere di Anemo, si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#80FFD7FF>DAN da Anemo ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -270,7 +271,8 @@
             "DAN da abilità|{param4:F1P}",
             "DAN da ATT continui|{param1:F1P}",
             "#Durata Girasogni|{param5:F1}{NON_BREAK_SPACE}s",
-            "Aumento DAN da Turbinio per ogni punto di maestria elementale|{param2:F2P}",
+            "Aumento DAN da Turbinio con maestria elementale|{param2:F2P} ogni 100 punti",
+            "Aumento DAN da Turbinio astrale con maestria elementale|{param6:F2P} ogni 100 punti",
             "#TdR|{param3:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
@@ -279,10 +281,11 @@
               "Level": 1,
               "Parameters": [
                 0.44912,
-                0.0018,
+                0.18,
                 15,
                 0.57744,
-                5
+                5,
+                0.018
               ]
             },
             {
@@ -290,10 +293,11 @@
               "Level": 2,
               "Parameters": [
                 0.482804,
-                0.0021,
+                0.21,
                 15,
                 0.620748,
-                5
+                5,
+                0.021
               ]
             },
             {
@@ -301,10 +305,11 @@
               "Level": 3,
               "Parameters": [
                 0.516488,
-                0.0024,
+                0.24,
                 15,
                 0.664056,
-                5
+                5,
+                0.024
               ]
             },
             {
@@ -312,10 +317,11 @@
               "Level": 4,
               "Parameters": [
                 0.5614,
-                0.0027,
+                0.27,
                 15,
                 0.7218,
-                5
+                5,
+                0.027
               ]
             },
             {
@@ -323,10 +329,11 @@
               "Level": 5,
               "Parameters": [
                 0.595084,
-                0.003,
+                0.3,
                 15,
                 0.765108,
-                5
+                5,
+                0.03
               ]
             },
             {
@@ -334,10 +341,11 @@
               "Level": 6,
               "Parameters": [
                 0.628768,
-                0.0033,
+                0.33,
                 15,
                 0.808416,
-                5
+                5,
+                0.033
               ]
             },
             {
@@ -345,10 +353,11 @@
               "Level": 7,
               "Parameters": [
                 0.67368,
-                0.0036,
+                0.36,
                 15,
                 0.86616,
-                5
+                5,
+                0.036
               ]
             },
             {
@@ -356,10 +365,11 @@
               "Level": 8,
               "Parameters": [
                 0.718592,
-                0.0039,
+                0.39,
                 15,
                 0.923904,
-                5
+                5,
+                0.039
               ]
             },
             {
@@ -367,10 +377,11 @@
               "Level": 9,
               "Parameters": [
                 0.763504,
-                0.0042,
+                0.42,
                 15,
                 0.981648,
-                5
+                5,
+                0.042
               ]
             },
             {
@@ -378,10 +389,11 @@
               "Level": 10,
               "Parameters": [
                 0.808416,
-                0.0045,
+                0.45,
                 15,
                 1.039392,
-                5
+                5,
+                0.045
               ]
             },
             {
@@ -389,10 +401,11 @@
               "Level": 11,
               "Parameters": [
                 0.853328,
-                0.0048,
+                0.48,
                 15,
                 1.097136,
-                5
+                5,
+                0.048
               ]
             },
             {
@@ -400,10 +413,11 @@
               "Level": 12,
               "Parameters": [
                 0.89824,
-                0.0051,
+                0.51,
                 15,
                 1.15488,
-                5
+                5,
+                0.051
               ]
             },
             {
@@ -411,10 +425,11 @@
               "Level": 13,
               "Parameters": [
                 0.95438,
-                0.0054,
+                0.54,
                 15,
                 1.22706,
-                5
+                5,
+                0.054
               ]
             },
             {
@@ -422,10 +437,11 @@
               "Level": 14,
               "Parameters": [
                 1.01052,
-                0.0057,
+                0.57,
                 15,
                 1.29924,
-                5
+                5,
+                0.057
               ]
             },
             {
@@ -433,10 +449,11 @@
               "Level": 15,
               "Parameters": [
                 1.06666,
-                0.006,
+                0.6,
                 15,
                 1.37142,
-                5
+                5,
+                0.06
               ]
             }
           ],
@@ -444,7 +461,8 @@
         },
         "Id": 11092,
         "Name": "Pellegrinaggio di Aisa Utamakura",
-        "Description": "Intrecciando ricordi di sogni meravigliosi, Yumemizuki Mizuki entra nello stato di <color=#FFD780FF>Girasogni</color>, che le permette di fluttuare a mezz'aria, e infligge 1 iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari vicini.\n\n<color=#FFD780FF>Girasogni</color>\n· Quando è nello stato di Girasogni, Yumemizuki Mizuki fluttua continuamente in avanti, infliggendo <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari vicini a intervalli regolari.\n· Mentre lo stato di Girasogni è attivo, Yumemizuki Mizuki può controllare la direzione in cui fluttua e aumentare il raggio di raccolta degli <color=#FFD780FF>Spuntini speciali in stile Yumemi</color> del suo Tripudio elementale <color=#FFD780FF>Terapia della sorgente segreta di Anraku</color>.\n· I DAN da Turbinio dei membri del gruppo vicini aumentano in base alla maestria elementale di Yumemizuki Mizuki.\n· Lo stato di Girasogni termina quando Mizuki lascia il campo o utilizza nuovamente l'abilità elementale.\n\n<i>\"I nostri sogni si toccano a mezzanotte, la loro canzone risuona nei nostri cuori.\"</i>",
+        "Description": "Intrecciando ricordi di sogni meravigliosi, Yumemizuki Mizuki entra nello stato di <color=#FFD780FF>Girasogni</color>, che le permette di fluttuare a mezz'aria, e infligge 1 iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari vicini.\n\n<color=#FFD780FF>Girasogni</color>\n· Quando è nello stato di Girasogni, Yumemizuki Mizuki fluttua continuamente in avanti, infliggendo <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari vicini a intervalli regolari.\n· Mentre lo stato di Girasogni è attivo, Yumemizuki Mizuki può controllare la direzione in cui fluttua, aumentando il raggio di raccolta degli <color=#FFD780FF>Spuntini speciali in stile Yumemi</color> del suo Tripudio elementale <color=#FFD780FF>Terapia della sorgente segreta di Anraku</color>.\n· I DAN delle reazioni di Turbinio e Turbinio astrale dei membri del gruppo vicini aumentano in base alla maestria elementale di Yumemizuki Mizuki.\n· Lo stato di Girasogni termina quando Mizuki lascia il campo o utilizza nuovamente l'abilità elementale.\n\n<i>\"I nostri sogni si toccano a mezzanotte, la loro canzone risuona nei nostri cuori.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mizuki_01"
       }
     ],
@@ -461,7 +479,7 @@
                 10,
                 2.5,
                 0.1,
-                5
+                10
               ]
             }
           ],
@@ -469,7 +487,8 @@
         },
         "Id": 1095101,
         "Name": "Vasto sia il sogno",
-        "Description": "#Quando Yumemizuki Mizuki innesca una reazione di Turbinio mentre è nello stato di Girasogni, la successiva iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> periodici che infligge ai nemici vicini durante il suddetto stato aumenta di un 1.000% della sua maestria elementale. Tale effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s.\nInoltre, mentre Yumemizuki Mizuki è nello stato di Girasogni, la maestria elementale dei membri vicini del gruppo aumenta di un 10% della maestria elementale di Yumemizuki Mizuki.",
+        "Description": "#Quando Yumemizuki Mizuki innesca una reazione di Turbinio o Turbinio astrale mentre è nello stato di Girasogni, la successiva iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> periodici che infligge ai nemici vicini durante il suddetto stato aumenta di un 1.000% della sua maestria elementale. Tale effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s.\nNello stato di <color=#FFD780FF>Splendore: Turbinio astrale</color>, quando Yumemizuki Mizuki infligge a un avversario i suddetti <color=#80FFD7FF>DAN da Anemo ad area</color> potenziati, infligge anche un'iterazione aggiuntiva di <color=#80FFD7FF>DAN da Anemo</color> pari a un 1.000% della sua maestria elementale. Tali DAN sono considerati DAN da reazione di Turbinio astrale.\n\nInoltre, mentre Yumemizuki Mizuki è nello stato di Girasogni, la maestria elementale dei personaggi vicini del gruppo aumenta di un 10% della sua maestria elementale.\nYumemizuki Mizuki entra anche nello stato di <color=#FFD780FF>Splendore: Turbinio astrale</color> per 8{NON_BREAK_SPACE}s dopo che un membro vicino del gruppo ha innescato una reazione di Turbinio astrale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_08"
       }
     ],
@@ -686,6 +705,7 @@
       "Id": 11095,
       "Name": "Terapia della sorgente segreta di Anraku",
       "Description": "Mizuki evoca infiniti sogni e incubi che attirano a sé oggetti e avversari, infliggendo <color=#80FFD7FF>DAN da Anemo ad area</color>, e fa apparire una Mini baku.\n\n<color=#FFD780FF>Mini baku</color>\nSegue il personaggio attivo. A intervalli regolari, crea 1 Spuntino speciale in stile Yumemi nelle vicinanze. Quando viene raccolto da uno dei membri del tuo gruppo, se i PS del personaggio attivo sono superiori a un 70%, lo Spuntino esplode e sprigiona un'Onda d'urto Munen, che infligge 1 iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari vicini; in caso contrario, lo Spuntino ripristina i PS del personaggio in base alla maestria elementale di Yumemizuki Mizuki. Quando Yumemizuki Mizuki innesca un effetto di guarigione raccogliendo uno Spuntino speciale in stile Yumemi, la quantità di PS ripristinati aumenta del 100%. Se lo Spuntino non viene raccolto entro un certo limite di tempo, si autodistrugge sprigionando un'Onda d'urto Munen, che infligge 1 iterazione di <color=#80FFD7FF>DAN da Anemo ad area</color> agli avversari circostanti.\n\n<i>\"Se le emozioni peggiori vengono ignorate troppo a lungo, si trasformano in incubi. Finché c'è tempo, tanto vale trasformarle in 'spuntini deliziosi', non ti pare?\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mizuki_01"
     },
     "Inherents": [
@@ -704,7 +724,8 @@
         },
         "Id": 1092101,
         "Name": "Voce irrequieta della luna splendente",
-        "Description": "#Quando Yumemizuki Mizuki innesca Turbinio nello stato di Girasogni, la durata di quest'ultimo aumenta di 2,5{NON_BREAK_SPACE}s. Quest'effetto può innescarsi una volta ogni 0,3{NON_BREAK_SPACE}s, per un massimo di 2 volte per ciascuna iterazione di Girasogni.",
+        "Description": "#Quando Yumemizuki Mizuki innesca una reazione di Turbinio o di Turbinio astrale nello stato di Girasogni, la durata di quest'ultimo aumenta di 2,5{NON_BREAK_SPACE}s. Quest'effetto può innescarsi una volta ogni 0,3{NON_BREAK_SPACE}s, per un massimo di 2 volte per ciascuna iterazione di Girasogni.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_05"
       },
       {
@@ -726,6 +747,7 @@
         "Id": 1092201,
         "Name": "Sogni notturni da pensieri diurni",
         "Description": "#Mentre Yumemizuki Mizuki è nello stato di Girasogni, quando gli altri membri del gruppo colpiscono gli avversari con attacchi di <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color> o <color=#FFACFFFF>Electro</color>, la sua maestria elementale aumenta di 100 per 4{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_06"
       },
       {
@@ -746,6 +768,7 @@
         "Id": 1092301,
         "Name": "Esilio di ogni malanno",
         "Description": "#Quando Yumemizuki Mizuki è nel gruppo, i membri hanno una probabilità di ripristinare un 30% aggiuntivo dei propri PS quando usano cibi con effetti di guarigione e senza proprietà di rianimazione. La probabilità di innescare quest'effetto aumenta in proporzione al livello amicizia del personaggio corrispondente. Con {F#la viaggiatrice}{M#il viaggiatore}, l'effetto si innesca sempre.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mizuki_07"
       }
     ],
@@ -753,8 +776,8 @@
       {
         "Id": 1091,
         "Name": "Acque nebbiose",
-        "Description": "#Quando Yumemizuki Mizuki è nello stato di Girasogni, applica costantemente l'effetto \"Ventitré notti di attesa\" agli avversari vicini per 3{NON_BREAK_SPACE}s ogni 3,5{NON_BREAK_SPACE}s. Quando l'avversario viene colpito da reazioni di Turbinio innescate da DAN da Anemo mentre l'effetto sopracitato è attivo, l'effetto viene rimosso e i DAN inflitti dall'attuale iterazione di Turbinio aumentano di un 1.100% della maestria elementale di Mizuki.",
-        "SpecialDescription": "#Quando Yumemizuki Mizuki è nello stato di Girasogni, applica costantemente l'effetto \"Ventitré notti di attesa\" agli avversari vicini per 3{NON_BREAK_SPACE}s ogni 3,5{NON_BREAK_SPACE}s. Quando l'avversario viene colpito da reazioni di Turbinio innescate da DAN da Anemo mentre l'effetto sopracitato è attivo, l'effetto viene rimosso e i DAN inflitti dall'attuale iterazione di Turbinio aumentano di un 1.100% della maestria elementale di Mizuki. Inoltre, Mizuki sferra un attacco aggiuntivo contro il medesimo avversario, infliggendo <color=#80FFD7FF>DAN da Anemo</color> pari a un 1.000% della sua maestria elementale.",
+        "Description": "#Quando Yumemizuki Mizuki è nello stato di Girasogni, applica costantemente l'effetto \"Ventitré notti di attesa\" agli avversari vicini per 3{NON_BREAK_SPACE}s ogni 3,5{NON_BREAK_SPACE}s. Quando un avversario subisce una reazione di Turbinio o di Turbinio astrale innescata dai DAN da Anemo mentre l'effetto sopracitato è attivo, l'effetto viene rimosso e i DAN inflitti al suddetto avversario dall'attuale iterazione di Turbinio o di Turbinio astrale aumentano rispettivamente di un 1.100% o un 550% della maestria elementale di Mizuki.",
+        "SpecialDescription": "#Quando Yumemizuki Mizuki è nello stato di Girasogni, applica costantemente l'effetto \"Ventitré notti di attesa\" agli avversari vicini per 3{NON_BREAK_SPACE}s ogni 3,5{NON_BREAK_SPACE}s. Quando un avversario subisce una reazione di Turbinio o di Turbinio astrale innescata dai DAN da Anemo mentre l'effetto sopracitato è attivo, l'effetto viene rimosso e i DAN inflitti al suddetto avversario dall'attuale iterazione di Turbinio o di Turbinio astrale aumentano rispettivamente di un 1.100% o un 550% della maestria elementale di Mizuki. Inoltre, Mizuki sferra un attacco aggiuntivo contro il medesimo avversario, infliggendo <color=#80FFD7FF>DAN da Anemo</color> pari a un 1.000% della sua maestria elementale.\nNello stato di <color=#FFD780FF>Splendore: Turbinio astrale</color>, i DAN aggiuntivi sopracitati vengono convertiti in <color=#80FFD7FF>DAN da Anemo</color> pari a un 400% della maestria elementale di Yumemizuki Mizuki. Tali DAN sono considerati DAN da Turbinio astrale.",
         "Icon": "UI_Talent_S_Mizuki_01"
       },
       {
@@ -794,8 +817,8 @@
       {
         "Id": 1096,
         "Name": "Il cuore indugia a lungo",
-        "Description": "Quando Yumemizuki Mizuki è nello stato di Girasogni, i DAN da Turbinio inflitti dai membri vicini del gruppo possono causare colpi CRIT, con tasso di CRIT e DAN da CRIT fissati rispettivamente a un 30% e a un 100%.",
-        "SpecialDescription": "Quando Yumemizuki Mizuki è nello stato di Girasogni, i DAN da Turbinio inflitti dai membri vicini del gruppo possono causare colpi CRIT, con tasso di CRIT e DAN da CRIT fissati rispettivamente a un 30% e a un 100%.\nOgni punto di maestria elementale di Yumemizuki Mizuki oltre i 500 aumenta il suo tasso di CRIT di uno 0,04% e i suoi DAN da CRIT di uno 0,16%, fino a un 20% e un 80% massimi rispettivamente.",
+        "Description": "Quando Yumemizuki Mizuki è nello stato di Girasogni, i DAN da reazione di Turbinio inflitti dai membri vicini del gruppo possono causare colpi CRIT, con tasso di CRIT e DAN da CRIT fissati rispettivamente a un 30% e a un 100%. Inoltre, il tasso di CRIT e i DAN da CRIT di qualsiasi DAN da Turbinio astrale inflitto dai suddetti membri del gruppo aumentano rispettivamente di un 10% e di un 20%.",
+        "SpecialDescription": "Quando Yumemizuki Mizuki è nello stato di Girasogni, i DAN da reazione di Turbinio inflitti dai membri vicini del gruppo possono causare colpi CRIT, con tasso di CRIT e DAN da CRIT fissati rispettivamente a un 30% e a un 100%. Inoltre, il tasso di CRIT e i DAN da CRIT di qualsiasi DAN da Turbinio astrale inflitto dai suddetti membri del gruppo aumentano rispettivamente di un 10% e di un 20%.\nOgni punto di maestria elementale di Yumemizuki Mizuki oltre i 500 aumenta il suo tasso di CRIT di uno 0,04% e i suoi DAN da CRIT di uno 0,16%, fino a un 20% e un 80% massimi rispettivamente.",
         "Icon": "UI_Talent_S_Mizuki_04"
       }
     ]

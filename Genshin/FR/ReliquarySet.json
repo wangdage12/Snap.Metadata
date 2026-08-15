@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "Confère un bonus de DGT Anémo de 15 %.",
-      "Augmente les DGT infligés par Dispersion de 60 % ; la RÉS élémentaire des ennemis diminue de 40 % pendant 10 s selon le type élémentaire de Dispersion."
+      "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS Cryo de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "Confère un bonus de DGT Électro de 15 %.",
-      "Augmente les DGT infligés par les réactions de Surcharge, d'Électrocution, de Supraconduction et d'Exubérance de 40 %, le bonus de DGT accordé par les réactions de Suractivation de 20 % et les DGT infligés par les réactions de Sélénocution de 20 %. Au déclenchement de ces réactions élémentaires ou d'une réaction de Stimulation, le TdR de la compétence élémentaire diminue de 1 s. Cet effet peut être déclenché une fois toutes les 0,8 s."
+      "Augmente les DGT infligés par les réactions de Surcharge, d'Électrocution, de Supraconduction et d'Exubérance de 40 %, le bonus de DGT accordé par les réactions de Suractivation de 20 % et les DGT infligés par les réactions de Sélénocution et d'Astroconduction de 20 %. Au déclenchement de ces réactions élémentaires ou d'une réaction de Stimulation, le TdR de la compétence élémentaire diminue de 1 s. Cet effet peut être déclenché une fois toutes les 0,8 s."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "Augmente l'ATQ de 18 %.",
-      "Augmente les DGT infligés par les réactions de Supraconduction de 80 %. Lorsque le personnage équipé de l'artéfact attaque un ennemi affecté par une réaction de Supraconduction, le taux CRIT de cette attaque augmente de 16{NON_BREAK_SPACE}%. Une toute nouvelle bénédiction peut vous être accordée en vous rendant à Snezhnaya..."
+      "Augmente les DGT infligés par les réactions de Supraconduction de 80 % et ceux infligés par les réactions d'Astroconduction de 40 %. Lorsque le personnage équipé de l'artéfact attaque un ennemi affecté par une réaction de Supraconduction ou d'Astroconduction, le taux CRIT de cette attaque augmente de 16{NON_BREAK_SPACE}%."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "Augmente l'ATQ de 18 %.",
+      "Augmente le taux CRIT du personnage équipé de l'artéfact de 16 % et ses DGT de réaction d'Astrodispersion de 40 % pendant 10 s lorsqu'il a déclenché une réaction d'Astrodispersion."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Cœur de la fournaise",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "Augmente l'ATQ de 18 %.",
+      "Pendant 12 s après que le personnage équipé de l'artéfact a déclenché une réaction astrale ou infligé des DGT de réaction astrale, son ATQ augmente de 12 % et les DGT de réaction astrale infligés par tous les personnages de l'équipe à proximité augmentent de 50 %. L'effet ci-dessus peut être déclenché même si le personnage n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas."
     ]
   },
   {

@@ -324,6 +324,7 @@
         "Id": 10531,
         "Name": "Sable ninja de Los Ocelos",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 tajos de espada consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.\nAl final del Ataque Cargado, realizará un golpe de espada más poderoso.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -555,6 +556,7 @@
         "Id": 10532,
         "Name": "Técnica “¡Yujuuu!”: Colisión de viento",
         "Description": "#¡La técnica ninja especial “Yujuuu”! ¡Una técnica veloz como el rayo para rodar por todo el campo de batalla!\nSe transforma en una rápida rueda de viento que inflige <color=#80FFD7FF>Daño Anemo</color> al chocar contra un enemigo. Al terminar la duración, ejecuta una tornadopatada que inflige <color=#80FFD7FF>Daño Anemo en el AdE</color>.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSe transforma en una rueda de viento para rodar una pequeña distancia y ejecutar una tornadopatada.\n\n<color=#FFD780FF>Mantener pulsado</color>\nSe transforma en una rueda de viento para rodar continuamente y aumentar la RES a interrupción de Sayu.\nMientras está en este estado, Sayu puede controlar la dirección en la que rueda y, al dejar de pulsar, terminará su duración y ejecutará una tornadopatada más poderosa que la de {LAYOUT_MOBILE#un toque}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}.\nSi se mantiene pulsada esta habilidad, podrá ocurrir un cambio elemental.\n\nLa rueda de viento tiene una duración máxima de 10 s y, al finalizar, la habilidad entrará en TdE. Cuanto más tiempo esté transformada en la rueda de viento, más largo será dicho TdE.\n\n<color=#FFD780FF>Cambio elemental</color>\nSi Sayu entra en contacto con <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> estando transformada en la rueda de viento, tanto dicha rueda como la tornadopatada infligirán un bono de Daño Elemental adicional de ese tipo.\nEl cambio elemental solo puede ocurrir una vez durante la habilidad.\n\n<i>Sayu podría ejecutar a la perfección esta técnica incluso con los ojos cerrados. En un principio, la usaba para huir, pero tras conseguir su Visión, por fin la puede aprovechar para que sus enemigos muerdan el polvo.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sayu_01"
       }
     ],
@@ -802,6 +804,7 @@
       "Id": 10535,
       "Name": "Técnica “¡Yujuuu!”: Frenesí tejón",
       "Description": "¡La otra técnica ninja especial “Yujuuu”! Sirve para crear un ayudante que trabaje por Sayu.\nInflige <color=#80FFD7FF>Daño Anemo</color> contra los enemigos alrededor, recupera Vida para todos los personajes cercanos del equipo en una cantidad proporcional al ATQ de Sayu e invoca un tejón daruma.\n\n<color=#FFD780FF>Tejón daruma</color>\nRealiza alguna de las siguientes acciones dependiendo de la situación de su entorno:\n·Si la Vida de todos los personajes cercanos es superior al 70%, el tejón daruma atacará a un enemigo cercano, infligiendo <color=#80FFD7FF>Daño Anemo</color>.\n·Si en las cercanías hay personajes con una Vida igual o inferior al 70%, curará al personaje con el menor porcentaje de Vida. La cantidad regenerada será proporcional al ATQ de Sayu. Si no hay ningún enemigo cerca, curará a los personajes incluso aunque su Vida esté por encima del 70%.\n\n<i>A aquellos que no dominan las técnicas ninja les encanta que Sayu les muestre cómo realizar esta en concreto. Algunos incluso han intentado aprender de ella. Pero Sayu no quiere que la molesten, solo quiere dormir.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sayu_01"
     },
     "Inherents": [
@@ -824,7 +827,8 @@
         },
         "Id": 532101,
         "Name": "¡Déjame en paz!",
-        "Description": "Cuando Sayu causa una reacción de Torbellino mientras está en combate, todos los miembros de tu equipo y los aliados cercanos recuperan 300 pts. de Vida, además de 1.2 pts. de Vida adicionales por cada punto de Maestría Elemental de Sayu.\nEste efecto solo puede ocurrir una vez cada 2 s.",
+        "Description": "#Cuando Sayu causa una reacción de Torbellino o Torbellino Estelar mientras está en combate, todos los miembros de tu equipo y los aliados cercanos recuperan 300{NON_BREAK_SPACE}pts. de Vida, además de 1.2{NON_BREAK_SPACE}pts. de Vida adicionales por cada punto de Maestría Elemental de Sayu.\nEste efecto solo puede ocurrir una vez cada 2{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_05"
       },
       {
@@ -845,6 +849,7 @@
         "Id": 532201,
         "Name": "¡Sayu no trabaja!",
         "Description": "El tejón daruma invocado con <color=#FFD780FF>Técnica “¡Yujuuu!”: Frenesí tejón</color> obtiene los siguientes efectos:\n·Al curar a un personaje, los demás personajes cercanos a él y que estén en combate recuperan una cantidad de Vida equivalente al 20% de la recuperada por el primer personaje.\n·Aumenta el AdE del ataque ejecutado por el tejón daruma contra los enemigos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_06"
       },
       {
@@ -863,6 +868,7 @@
         "Id": 532301,
         "Name": "Técnica “¡Yujuuu!”: Secreto del sigilo",
         "Description": "Cuando Sayu está en el equipo, tus personajes no asustarán a los cristalópteros u otras criaturas.\nPuedes consultar cuáles son estas criaturas en Archivo - Seres vivos - Fauna - Otros.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sayu_07"
       }
     ],
@@ -892,7 +898,7 @@
       {
         "Id": 534,
         "Name": "Holgazanería innovadora",
-        "Description": "Cuando Sayu causa una reacción de Torbellino, recupera 1.2 pts. de Energía Elemental.\nEsto puede ocurrir una vez cada 2 s.",
+        "Description": "#Cuando Sayu causa una reacción de Torbellino o Torbellino Estelar mientras está en uso, recupera 1.2{NON_BREAK_SPACE}pts. de Energía Elemental.\nEsto solo puede ocurrir una vez cada 2{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_Sayu_03"
       },
       {

@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "Daemolance pocztowy",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher un coup de lance vers l'avant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "Rite ancien : Lumière d'arcane",
         "Description": "Flins invoque l'ancien pouvoir caché dans sa lanterne et passe en mode <color=#FFD780FF>Flamme manifeste</color>. Ce mode possède les caractéristiques suivantes :\n· Les attaques normales et chargées de Flins sont converties pour infliger des <color=#FFACFFFF>DGT Électro</color> ne pouvant pas être enchantés et il ne peut plus déclencher d'attaques plongeantes.\n· La RÉS à l'interruption de Flins augmente.\n· Sa compétence élémentaire <color=#FFD780FF>Rite ancien : Lumière d'arcane</color> est remplacée par la compétence élémentaire spéciale <color=#FFD780FF>Lances du nord</color>.\n\n<color=#FFD780FF>Lances du nord</color>\nFlins invoque une salve de lances devant lui, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> et remplaçant son déchaînement élémentaire <color=#FFD780FF>Rituel ancien : Visite de la nuit</color> par le déchaînement élémentaire spécial {LINK#N11200001}<color=#FFD780FF>Symphonie tonitruante</color>{/LINK} pendant 6 s.\nLe TdR de base de <color=#FFD780FF>Lances du nord</color> est de 6 s, ce TdR n'étant pas affecté par d'autres effets.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "Rituel ancien : Visite de la nuit",
       "Description": "Flins libère la véritable puissance de sa lanterne, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> puis, après un bref délai, 3 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires et 1 phase finale).\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 2 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires).\n\nPendant 6 s après l'utilisation de sa compétence élémentaire spéciale <color=#FFD780FF>Lances du nord</color>, le déchaînement élémentaire <color=#FFD780FF>Rituel ancien : Visite de la nuit</color> de Flins est remplacé par le déchaînement élémentaire spécial <color=#FFD780FF>Symphonie tonitruante</color>.\n\n<color=#FFD780FF>Symphonie tonitruante</color>\nFlins peut consommer moins d'énergie élémentaire pour déclencher un déchaînement élémentaire spécial : il inflige 1 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 1 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "Symphonie d'hiver",
         "Description": "Flins obtient un bonus selon la <color=#FFD780FF>signelune</color> de l'équipe.\n\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : augmente les DGT des réactions de Sélénocution déclenchées par Flins de 20 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "Murmure de flamme",
         "Description": "La maîtrise élémentaire de Flins augmente d'une valeur équivalant à 8 % de son ATQ, la maîtrise élémentaire pouvant être augmentée d'un maximum de 160 pts de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "Bénédiction de signelune : Secrets du vieux monde",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Électrocution, elle est convertie en réaction de Sélénocution, et les DGT de base des réactions de Sélénocution augmentent selon l'ATQ de Flins : chaque tranche de 100 pts d'ATQ augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Flins fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "Lumière dans l'obscurité",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Nod-Krai</color> sur la mini-carte.\nDe plus, Flins semble être capable de déchiffrer les murmures de la Chasse sauvage...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

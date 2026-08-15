@@ -324,6 +324,7 @@
         "Id": 10891,
         "Name": "Solista sollecita",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per eseguire un assolo di danza che infligge DAN fisici agli avversari nelle vicinanze e modifica la polarità Archè di Furina. Se i Membri del Salon o il Cantante delle Mille Acque evocati dalla sua abilità elementale Salon Solitaire sono presenti in campo, le loro rispettive formazioni si scambiano di conseguenza.\n\n<color=#FFD780FF>Archè: Seggi sacri e secolari</color>\nDopo aver colpito gli avversari con attacchi normali, e in base alla sua polarità Archè attuale, Furina genera a determinati intervalli un Aculeo spettrale o una Lama nascente, infliggendo <color=#80C0FFFF>DAN da Hydro</color> della polarità corrispondente.\nQuando Furina entra in campo, il suo Archè di partenza è Ousia.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -603,6 +604,7 @@
         "Id": 10892,
         "Name": "Salon Solitaire",
         "Description": "Furina invita gli ospiti del Salon Solitaire ad avvicinarsi per assistere alla sua esibizione. Evoca i Membri del Salon o il Cantante delle Mille Acque in base alla <color=#FFD780FF>polarità Archè</color> attuale di Furina.\n\n<color=#FFD780FF>Ousia</color>\nDelle bolle spumose danzano giubilanti, infliggendo <color=#80C0FFFF>DAN da Hydro ad area</color> in base ai PS max di Furina ed evocando 3 Membri del Salon: Gentilhomme Usher, a forma di Polpotondo; Surintendante Chevalmarine, a forma di Ippocampo gorgogliante; e Mademoiselle Granchilette, a forma di Granchio corazzato.\nI Membri del Salon attaccano gli avversari circostanti a intervalli regolari, dando priorità al bersaglio del personaggio attivo, infliggendo <color=#80C0FFFF>DAN da Hydro</color> in base ai PS max.\nQuando attaccano, se sono presenti nelle vicinanze uno o più personaggi con più di un 50% di PS, i Membri del Salon aumentano la propria potenza d'attacco in base al numero di tali personaggi, consumandone i PS. Se i personaggi che rispettano questo criterio sono 1/2/3/4 (o più), gli attacchi dei Membri del Salon infliggono un 110%/120%/130%/140% dei loro DAN originali.\n\n<color=#FFD780FF>Pneuma</color>\nEvoca il Cantante delle Mille Acque, che ripristina i PS dei personaggi attivi nelle vicinanze a intervalli regolari, in base ai PS max.\n\nI Membri del Salon e il Cantante delle Mille Acque condividono la medesima durata, e quando Furina usa il suo attacco caricato per cambiare il tipo di ospiti presenti, i nuovi ospiti ereditano la durata rimanente di quelli precedenti.\n\nMentre i Membri del Salon o il Cantante delle Mille Acque sono in campo, Furina può muoversi sulle superfici acquatiche.\n\n<i>Il Salon Solitaire di Furina è frequentato da un numero fisso di ospiti abituali. A giorni alterni, vengono a trovarla Mademoiselle Granchilette, la Surintendante Chevalmarine e il Gentilhomme Usher; nei mercoledì uggiosi, invece, è il Cantante a tenerle compagnia.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Furina_01"
       }
     ],
@@ -835,6 +837,7 @@
       "Id": 10895,
       "Name": "Si rallegri il popolo",
       "Description": "Risveglia lo spirito festaiolo dei presenti creando un palco di schiuma che infligge <color=#80C0FFFF>DAN da Hydro ad area</color> in base ai PS max di Furina, e applica ai membri del gruppo nelle vicinanze lo stato di Baldoria universale. Mentre questo stato è attivo, quando i PS dei membri del gruppo nelle vicinanze aumentano o diminuiscono, Furina riceve 1 punto Fanfara per ogni 1% di PS che i personaggi guadagnano o perdono in relazione ai loro PS max.\nContemporaneamente, in base al numero di punti Fanfara in suo possesso, Furina aumenta sia i DAN inflitti da tutti i membri del gruppo nelle vicinanze sia il loro bonus di guarigione ricevuta.\nQuando la durata dello stato si esaurisce, i punti Fanfara di Furina svaniscono.\n\n<i>\"Gioite! Rendete lode! Lasciatevi estasiare! Levate in alto i calici! Una notte priva di gozzoviglie dopo un mesto giorno è un sordido sperpero della sua luce... E quelli, ehm... quelli ancora troppo giovani possono sempre bere del succo d'uva!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Furina_01"
     },
     "Inherents": [
@@ -858,6 +861,7 @@
         "Id": 892101,
         "Name": "Valzer infinito",
         "Description": "#Quando il personaggio attivo del gruppo riceve effetti di guarigione, se l'effetto non è apportato da Furina e la guarigione supera il limite massimo, Furina guarisce i membri vicini del gruppo di una quantità pari a un 2% dei PS max del membro in questione, una volta ogni 2{NON_BREAK_SPACE}s per i 4{NON_BREAK_SPACE}s successivi.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_05"
       },
       {
@@ -881,6 +885,7 @@
         "Id": 892201,
         "Name": "Confessione inascoltata",
         "Description": "Per ogni 1.000 PS max di Furina, le polarità Archè di <color=#FFD780FF>Salon Solitaire</color> possono essere potenziate nei seguenti modi:\n· i DAN inflitti dai Membri del Salon aumentano di uno 0,7%, fino a un 28% massimo;\n· l'intervallo di guarigione del Cantante delle Mille Acque per i personaggi attivi vicini si riduce di uno 0,4%, fino a un 16% massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_06"
       },
       {
@@ -899,6 +904,7 @@
         "Id": 892301,
         "Name": "Il mare è il mio palcoscenico",
         "Description": "Il TdR delle abilità degli Aberranti del Fontemer xenocromatici si riduce di un 30%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Furina_07"
       }
     ],

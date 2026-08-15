@@ -309,6 +309,7 @@
         "Id": 10811,
         "Name": "Configuration schématique",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nUtilise Mehrak pour enchaîner jusqu'à 4 attaques.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 10812,
         "Name": "Ingéniosité artistique",
         "Description": "Utilise l'énergie de cartographie de Mehrak à des fins offensives, déclenchant un balayage radial qui inflige des <color=#99FF88FF>DGT Dendro de zone</color> et scanne tous les noyaux Dendro dans sa zone d'effet pour les faire éclater immédiatement.\n\n<i>Mehrak a été créé en modifiant une technologie ancienne et peut avoir d'autres fonctions en dehors de la cartographie...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kaveh_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 10815,
       "Name": "Dôme peint",
       "Description": "Libère complètement l'énergie de Mehrak et crée un carroyage de topographie, infligeant des <color=#99FF88FF>DGT Dendro de zone</color> aux ennemis à l'intérieur, faisant éclater immédiatement tous les noyaux Dendro dans la zone d'effet et renforçant les capacités de combat de Kaveh pendant un certain temps :\n· Augmente la portée des attaques normales, chargées et plongeantes de Kaveh et convertit ses DGT d'attaque en <color=#99FF88FF>DGT Dendro</color> ne pouvant pas être enchantés.\n· Augmente les DGT infligés lors de l'éclatement des noyaux Dendro créés par vos personnages dans l'équipe grâce aux réactions de Fleurissement et de Sélénofleurissement.\n· Augmente la RÉS à l'interruption de Kaveh.\nCes effets cessent lorsque Kaveh quitte le champ de bataille.\n\n<i>« Chaque style de construction comprend la vision du monde unique de l'architecte, et sous cet angle, on peut dire que les bâtiments eux-mêmes sont des coalescences de souvenirs humains. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kaveh_01"
     },
     "Inherents": [
@@ -652,6 +655,7 @@
         "Id": 812101,
         "Name": "Responsabilité d'un créateur",
         "Description": "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent Kaveh, il récupère des PV d'une valeur équivalant à 300 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 0,5 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 812201,
         "Name": "Extravagance d'un artisan",
         "Description": "Pendant la durée de <color=#FFD780FF>Dôme peint</color>, la maîtrise élémentaire de Kaveh augmente de 25 pts après avoir touché un ennemi avec une attaque normale, chargée ou plongeante. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum.\nCet effet est annulé lorsque les effets de Dôme peint prennent fin.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 812301,
         "Name": "Finesse d'un financier",
         "Description": "Lors de la fabrication de décorations de type paysage, bâtiment ou enceinte, une partie des matériaux est récupérée.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_07"
       }
     ],

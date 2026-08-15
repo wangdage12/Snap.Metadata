@@ -323,6 +323,7 @@
         "Id": 10591,
         "Name": "Fudou Style Martial Arts",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan tinju yang diperkuat oleh angin, mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk mengakibatkan tendangan yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Anemo, Heizou menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10592,
         "Name": "Heartstopper Strike",
         "Description": "<color=#FFD780FF>Tekan</color>\nMenggunakan angin kencang untuk meluncurkan Heartstopper Strike yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Tahan</color>\nMengisi energi untuk melepaskan pukulan yang lebih kuat. Heizou akan mendapatkan efek Declension saat sedang mengisi energi, efek tersebut akan meningkatkan kekuatan Heartstopper Strike. Saat tombol skill dilepaskan atau saat skill sudah selesai mengisi energi, Heizou akan maju menerjang ke depan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Declension</color>\nMeningkatkan kekuatan Heartstopper Strike berikutnya. Maks. 4 lapis.\nSaat mempunyai 4 lapis Declension, akan tercipta lapisan Conviction yang akan mengakibatkan Heartstopper Strike berikutnya menjadi lebih kuat lagi dan mempunyai Area efek yang lebih besar.\n\n<i>Sekilas jurus ini memang terlihat seperti pukulan tinju biasa namun di dalamnya terkandung niat tulus Heizou yang berharap agar para kriminal dapat jujur mengakui kesalahannya dan bertobat.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Heizo_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 10595,
       "Name": "Windmuster Kick",
       "Description": "Melompat ke udara dan menendang Fudou Style Vacuum Slugger ke arah lawan. Saat mengenai musuh, Fudou Style Vacuum Slugger akan menciptakan area berangin yang menarik objek dan musuh di sekitar, lalu mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>.\nSaat Vacuum Slugger mengenai musuh yang terkena efek <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, maka musuh tersebut akan terkena Windmuster Iris yang akan meledak setelah beberapa saat dan mengakibatkan DMG Area dari tipe elemen yang disebutkan sebelumnya.\nVacuum Slugger dapat memukul maks. 4 musuh dengan menggunakan Windmuster Iris. Musuh tidak bisa terpengaruh efek Windmuster Iris dari elemen berbeda dalam waktu yang bersamaan.\n\n<i>Teknik unik mengumpulkan Anemo di satu tempat sebelum akhirnya dilepaskan dalam satu tendangan. Tendangan ini selalu siap dalam keadaan darurat kapan pun juga untuk mendarat di punggung para kriminal yang berani melarikan diri.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Heizo_01"
     },
     "Inherents": [
@@ -694,7 +697,8 @@
         },
         "Id": 592101,
         "Name": "Paradoxical Practice",
-        "Description": "Saat Shikanoin Heizou mengaktifkan reaksi Swirl saat dalam medan tempur, dia akan mendapatkan 1 lapis Declension untuk <color=#FFD780FF>Heartstopper Strike</color>. Efek ini terpicu setiap 0,1 detik.",
+        "Description": "Saat Shikanoin Heizou mengaktifkan reaksi Swirl dan Stellar Swirl di medan pertempuran, dia akan mendapatkan 1 lapis Declension untuk <color=#FFD780FF>Heartstopper Strike</color>. Efek ini dapat terpicu sekali setiap 0,1 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Heizo_05"
       },
       {
@@ -716,6 +720,7 @@
         "Id": 592201,
         "Name": "Penetrative Reasoning",
         "Description": "Setelah <color=#FFD780FF>Heartstopper Strike</color> milik Shikanoin Heizou mengenai musuh, maka akan meningkatkan Elemental Mastery seluruh anggota party (tidak termasuk Shikanoin Heizou) sebesar 80 selama 10 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Heizo_06"
       },
       {
@@ -734,6 +739,7 @@
         "Id": 592301,
         "Name": "Pre-Existing Guilt",
         "Description": "Mengurangi 20% konsumsi Stamina Karakter party sendiri saat berlari.\nEfek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Toucher pétale de la lame d'or",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Ciel et terre manifestés",
         "Description": "Invoquant une ombre de ses anciens pouvoirs, Zibai passe en mode {LINK#N11260001}<color=#FFD780FF>Déphasage lunaire</color>{/LINK}.\nDans ce mode, les attaques normales et chargées de Zibai sont converties pour infliger des <color=#FFE699FF>DGT Géo</color> ne pouvant pas être enchantés et Zibai peut accumuler du <color=#FFD780FF>rayonnage de déphasage</color> spécial via diverses méthodes, rayonnage que Zibai peut consommer pour déclencher une compétence élémentaire spéciale, <color=#FFD780FF>Foulée de destrier spirituel</color>.\n\n<color=#FFD780FF>Signelune « Lueur ascendante »</color>\nLorsque Zibai effectue une attaque normale pendant son <color=#FFD780FF>déphasage lunaire</color>, le 4e coup inflige une fois supplémentaire des <color=#FFE699FF>DGT Géo</color>, ces DGT étant considérés comme des DGT de réaction de Sélénocristallisation.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Éminence de trisphère",
       "Description": "Zibai utilise sa canopée de jade, infligeant deux fois des <color=#FFE699FF>DGT Géo</color>, les DGT de la seconde fois étant considérés comme des DGT de réaction de Sélénocristallisation.\nSi Zibai est en {LINK#N11260001}<color=#FFD780FF>déphasage lunaire</color>{/LINK} lors de l'utilisation, la durée de ce déphasage est prolongée de 1,7 s.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "L'Adepte de la lune arrive",
         "Description": "En utilisant sa compétence élémentaire <color=#FFD780FF>{LINK#S11262}Ciel et terre manifestés{/LINK}</color> ou si un personnage de l'équipe à proximité déclenche son harmonie de voile lunaire, Zibai obtient l'effet <color=#FFD780FF>Descente sélénique</color> pendant 4 s : augmente les DGT infligés par le 2e coup de ses {LINK#N11260001}<color=#FFD780FF>foulées de destrier spirituel</color>{/LINK} d'une valeur équivalant à 60 % de sa DÉF.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Pics stratifiés perçant les nuages",
         "Description": "La DÉF de Zibai augmente de 15 % pour chaque autre personnage <color=#FFE699FF>Géo</color> dans l'équipe, et sa maîtrise élémentaire augmente de 60 pts pour chaque autre personnage <color=#80C0FFFF>Hydro</color> dans l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Bénédiction de signelune : Soleil et lune en mouvement",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction de Cristallisation Hydro, elle est convertie en réaction de Sélénocristallisation, dont les DGT de base augmentent selon la DÉF de Zibai : chaque tranche de 100 pts de DÉF augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Zibai fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Forêt de fleurs au clair de lune",
         "Description": "La nuit (18 h 00 - 06 h 00), Zibai récupère 1 pt d'énergie élémentaire toutes les 2 secondes en dehors des combats.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

@@ -309,6 +309,7 @@
         "Id": 10301,
         "Name": "Lluvia pétrea",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 6 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10302,
         "Name": "Dominus lapidis",
         "Description": "#Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nOrdena al poder Geo de la tierra que se solidifique en una cresta de piedra.\n\n<color=#FFD780FF>Mantener pulsado</color>\nHace que los elementos Geo cercanos exploten, provocando los siguientes efectos:\n·Si aún no se ha alcanzado la cantidad máxima de crestas de piedra, invocará una cresta de piedra.\n·Crea un escudo de jade. La cantidad de absorción de daño del escudo es proporcional a la Vida Máx. de Zhongli.\n·Inflige <color=#FFE699FF>Daño Geo en el AdE</color>.\n·Si hay objetivos cercanos que contengan el <color=#FFE699FF>elemento Geo</color>, desgastará una gran cantidad de dicho elemento de un máximo de dos objetivos. Este efecto no causa daño.\n\n<color=#FFD780FF>Cresta de piedra</color>\nAl ser creada, inflige <color=#FFE699FF>Daño Geo en el AdE</color>.\nLa cresta de piedra resonará con las <color=#FFE699FF>creaciones Geo</color> cercanas, infligiendo <color=#FFE699FF>Daño Geo</color> a los enemigos cercanos.\nLa cresta de piedra es considerada una <color=#FFE699FF>creación Geo</color>, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.\n\n<color=#FFD780FF>Escudo de jade</color>\nTiene un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.\nCuando un personaje se encuentra protegido por este escudo, todas las RES Elementales y la RES Física de los enemigos cercanos a él en una pequeña AdE se reducen en un 20%. Este efecto no puede acumularse.\n\n<i>Un verdadero maestro de la piedra puede tallar jade y dar forma al oro.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zhongli_01"
       }
     ],
@@ -709,6 +711,7 @@
       "Id": 10303,
       "Name": "Lluvia estelar",
       "Description": "Atrae un meteorito a la tierra, causando <color=#FFE699FF>Daño Geo</color> masivo a los enemigos dentro de su AdE y aplicando el efecto de <color=#FFE699FF>Petrificación</color>.\n\n<color=#FFD780FF>Petrificación</color>\nLos enemigos bajo el efecto de <color=#FFE699FF>Petrificación</color> no pueden moverse.\n\n<i>El meteorito que cae castiga a los injustos.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zhongli_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 302101,
         "Name": "Ondas resonantes",
         "Description": "Cuando el escudo de jade recibe daño, se fortalece.\n·Cuando un personaje que está protegido por el escudo de jade recibe daño, su Protección de Escudo aumenta en un 5%.\n·Este efecto puede acumularse hasta 5 veces y dura hasta que desaparezca el escudo de jade.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 302201,
         "Name": "Dominio de la Tierra",
         "Description": "El daño infligido por los siguientes ataques de Zhongli aumenta en proporción a su Vida Máx.:\n·Aumenta el daño de Ataque Normal, Ataque Cargado y Ataque Descendente en un 1.39% de su Vida Máx.\n·Aumenta en un 1.9% de su Vida Máx. el daño de resonancia de la cresta de piedra de <color=#FFD780FF>Dominus lapidis</color>, así como el daño de mantener pulsado.\n·Aumenta el daño de <color=#FFD780FF>Lluvia estelar</color> en un 33% de la Vida Máx. de Zhongli.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 302301,
         "Name": "Cristal del destino",
         "Description": "Recupera el 15% de los minerales utilizados en la fabricación de lanzas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Forge_Pole"
       }
     ],

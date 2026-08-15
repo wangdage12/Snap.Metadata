@@ -1,0 +1,1369 @@
+{
+  "Id": 10000150,
+  "PromoteId": 150,
+  "Sort": 120,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Odette",
+  "SideIcon": "UI_AvatarIcon_Side_Odette",
+  "Name": "Odette",
+  "Description": "Penari balet ternama dari Snezhnaya, bunga dingin yang mekar di tengah salju dan es.",
+  "BeginTime": "2026-08-11T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1010.5192,
+    "AttackBase": 26.068,
+    "DefenseBase": 61.26592
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 15031,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}+{param4:F1P}",
+            "DMG Tahap 4|{param5:F1P}",
+            "DMG Tahap 5|{param6:F1P}",
+            "DMG Charged Attack|{param7:F1P}",
+            "Konsumsi Stamina Charged Attack|{param8:F1}",
+            "DMG Selama Plunging|{param9:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503101,
+              "Level": 1,
+              "Parameters": [
+                0.518571,
+                0.515106,
+                0.326112,
+                0.382786,
+                0.745732,
+                0.902123,
+                1.07414,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1503102,
+              "Level": 2,
+              "Parameters": [
+                0.560781,
+                0.557033,
+                0.352656,
+                0.413943,
+                0.806431,
+                0.975551,
+                1.16157,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1503103,
+              "Level": 3,
+              "Parameters": [
+                0.60299,
+                0.59896,
+                0.3792,
+                0.4451,
+                0.86713,
+                1.04898,
+                1.249,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1503104,
+              "Level": 4,
+              "Parameters": [
+                0.663289,
+                0.658856,
+                0.41712,
+                0.48961,
+                0.953843,
+                1.153878,
+                1.3739,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1503105,
+              "Level": 5,
+              "Parameters": [
+                0.705498,
+                0.700783,
+                0.443664,
+                0.520767,
+                1.014542,
+                1.227307,
+                1.46133,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1503106,
+              "Level": 6,
+              "Parameters": [
+                0.753738,
+                0.7487,
+                0.474,
+                0.556375,
+                1.083912,
+                1.311225,
+                1.56125,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1503107,
+              "Level": 7,
+              "Parameters": [
+                0.820066,
+                0.814586,
+                0.515712,
+                0.605336,
+                1.179297,
+                1.426613,
+                1.69864,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1503108,
+              "Level": 8,
+              "Parameters": [
+                0.886395,
+                0.880471,
+                0.557424,
+                0.654297,
+                1.274681,
+                1.542001,
+                1.83603,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1503109,
+              "Level": 9,
+              "Parameters": [
+                0.952724,
+                0.946357,
+                0.599136,
+                0.703258,
+                1.370065,
+                1.657388,
+                1.97342,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1503110,
+              "Level": 10,
+              "Parameters": [
+                1.025083,
+                1.018232,
+                0.64464,
+                0.75667,
+                1.474121,
+                1.783266,
+                2.1233,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1503111,
+              "Level": 11,
+              "Parameters": [
+                1.097442,
+                1.090107,
+                0.690144,
+                0.810082,
+                1.578177,
+                1.909144,
+                2.27318,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1503112,
+              "Level": 12,
+              "Parameters": [
+                1.169801,
+                1.161982,
+                0.735648,
+                0.863494,
+                1.682232,
+                2.035021,
+                2.42306,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1503113,
+              "Level": 13,
+              "Parameters": [
+                1.242159,
+                1.233858,
+                0.781152,
+                0.916906,
+                1.786288,
+                2.160899,
+                2.57294,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1503114,
+              "Level": 14,
+              "Parameters": [
+                1.314518,
+                1.305733,
+                0.826656,
+                0.970318,
+                1.890343,
+                2.286776,
+                2.72282,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1503115,
+              "Level": 15,
+              "Parameters": [
+                1.386877,
+                1.377608,
+                0.87216,
+                1.02373,
+                1.994399,
+                2.412654,
+                2.8727,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11501,
+        "Name": "Snow Swan Variation",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melepaskan tebasan memukau ke depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 15032,
+        "Proud": {
+          "Descriptions": [
+            "DMG Skill|{param1:F1P}",
+            "DMG Berkelanjutan dari Coda at Dawn's Tolling|{param2:F1P}",
+            "DMG Stellar-Conduct/Stellar Swirl dari Coda at Dawn's Tolling|{param3:P}/{param4:P}",
+            "DMG Tarian \"Plume\"|{param5:F1P}",
+            "DMG Stellar-Conduct/Stellar Swirl dari Tarian \"Plume\"|{param6:P}/{param7:P}",
+            "DMG Tarian \"Wing\"|{param8:F1P}",
+            "DMG Stellar-Conduct/Stellar Swirl dari Tarian \"Wing\"|{param9:P}/{param10:P}",
+            "Cooldown Coda at Dawn's Tolling|{param13:F1} dtk",
+            "Durasi Solo Dance Double|{param11:F1} detik",
+            "Cooldown|{param12:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1503201,
+              "Level": 1,
+              "Parameters": [
+                1.0808,
+                0.9584,
+                3.0576,
+                4.5864,
+                0.4304,
+                0.27024,
+                0.40528,
+                0.51464,
+                0.32312,
+                0.48464,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503202,
+              "Level": 2,
+              "Parameters": [
+                1.16186,
+                1.03028,
+                3.28692,
+                4.93038,
+                0.46268,
+                0.290508,
+                0.435676,
+                0.553238,
+                0.347354,
+                0.520988,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503203,
+              "Level": 3,
+              "Parameters": [
+                1.24292,
+                1.10216,
+                3.51624,
+                5.27436,
+                0.49496,
+                0.310776,
+                0.466072,
+                0.591836,
+                0.371588,
+                0.557336,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503204,
+              "Level": 4,
+              "Parameters": [
+                1.351,
+                1.198,
+                3.822,
+                5.733,
+                0.538,
+                0.3378,
+                0.5066,
+                0.6433,
+                0.4039,
+                0.6058,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503205,
+              "Level": 5,
+              "Parameters": [
+                1.43206,
+                1.26988,
+                4.05132,
+                6.07698,
+                0.57028,
+                0.358068,
+                0.536996,
+                0.681898,
+                0.428134,
+                0.642148,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503206,
+              "Level": 6,
+              "Parameters": [
+                1.51312,
+                1.34176,
+                4.28064,
+                6.42096,
+                0.60256,
+                0.378336,
+                0.567392,
+                0.720496,
+                0.452368,
+                0.678496,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503207,
+              "Level": 7,
+              "Parameters": [
+                1.6212,
+                1.4376,
+                4.5864,
+                6.8796,
+                0.6456,
+                0.40536,
+                0.60792,
+                0.77196,
+                0.48468,
+                0.72696,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503208,
+              "Level": 8,
+              "Parameters": [
+                1.72928,
+                1.53344,
+                4.89216,
+                7.33824,
+                0.68864,
+                0.432384,
+                0.648448,
+                0.823424,
+                0.516992,
+                0.775424,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503209,
+              "Level": 9,
+              "Parameters": [
+                1.83736,
+                1.62928,
+                5.19792,
+                7.79688,
+                0.73168,
+                0.459408,
+                0.688976,
+                0.874888,
+                0.549304,
+                0.823888,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503210,
+              "Level": 10,
+              "Parameters": [
+                1.94544,
+                1.72512,
+                5.50368,
+                8.25552,
+                0.77472,
+                0.486432,
+                0.729504,
+                0.926352,
+                0.581616,
+                0.872352,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503211,
+              "Level": 11,
+              "Parameters": [
+                2.05352,
+                1.82096,
+                5.80944,
+                8.71416,
+                0.81776,
+                0.513456,
+                0.770032,
+                0.977816,
+                0.613928,
+                0.920816,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503212,
+              "Level": 12,
+              "Parameters": [
+                2.1616,
+                1.9168,
+                6.1152,
+                9.1728,
+                0.8608,
+                0.54048,
+                0.81056,
+                1.02928,
+                0.64624,
+                0.96928,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503213,
+              "Level": 13,
+              "Parameters": [
+                2.2967,
+                2.0366,
+                6.4974,
+                9.7461,
+                0.9146,
+                0.57426,
+                0.86122,
+                1.09361,
+                0.68663,
+                1.02986,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503214,
+              "Level": 14,
+              "Parameters": [
+                2.4318,
+                2.1564,
+                6.8796,
+                10.3194,
+                0.9684,
+                0.60804,
+                0.91188,
+                1.15794,
+                0.72702,
+                1.09044,
+                20,
+                15,
+                15
+              ]
+            },
+            {
+              "Id": 1503215,
+              "Level": 15,
+              "Parameters": [
+                2.5669,
+                2.2762,
+                7.2618,
+                10.8927,
+                1.0222,
+                0.64182,
+                0.96254,
+                1.22227,
+                0.76741,
+                1.15102,
+                20,
+                15,
+                15
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11502,
+        "Name": "Adagio: Phantom Night Dancers",
+        "Description": "Sambil menampilkan gerakan tari yang lembut, Odette mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> dan memanggil {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} miliknya sendiri.\nJika <color=#FFD780FF>Solo Dance Double</color> yang dipanggil Odette sendiri sudah ada di medan, maka ia akan dipanggil ulang dengan durasi yang diperbarui.\n\n<color=#FFD780FF>Dance Double</color>\nMenampilkan dua jenis tarian secara bergantian, yaitu <color=#FFD780FF>Plume</color> dan <color=#FFD780FF>Wing</color>, untuk menyerang musuh di sekitar secara berkala dengan gerakan tarian yang anggun dan ringan, mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>.\nSelain itu, selama 6 detik setelah melancarkan Elemental Skill <color=#FFD780FF>Adagio: Phantom Night Dancers</color>, Elemental Skill Odette <color=#FFD780FF>Adagio: Phantom Night Dancers</color> akan berubah menjadi Elemental Skill khusus {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}{LINK#N11500004}{/LINK} yang terus-menerus mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> terhadap musuh terdekat melalui tarian duet. Pada saat tarian duet ini berakhir, Odette akan mengakibatkan satu kali <color=#99FFFFFF>Cryo DMG Area</color> lagi yang dianggap sebagai DMG reaksi Stellar-Conduct atau Stellar Swirl.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Odette_01"
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 15039,
+      "Proud": {
+        "Descriptions": [
+          "DMG Tebasan|{param1:F1P} ×3",
+          "DMG Tebasan Akhir|{param2:F1P}",
+          "Peningkatan DMG Reaksi Stellar Glimmer dari Snow Swan's Dream|{param3:F1P}",
+          "Durasi Snow Swan's Dream|{param4:F1} dtk",
+          "Durasi Solo Dance Double|{param5:F1} dtk",
+          "Cooldown|{param6:F1} dtk",
+          "Konsumsi Energy|{param7:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1503901,
+            "Level": 1,
+            "Parameters": [
+              1.10176,
+              1.70272,
+              0.14,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503902,
+            "Level": 2,
+            "Parameters": [
+              1.184392,
+              1.830424,
+              0.18,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503903,
+            "Level": 3,
+            "Parameters": [
+              1.267024,
+              1.958128,
+              0.22,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503904,
+            "Level": 4,
+            "Parameters": [
+              1.3772,
+              2.1284,
+              0.26,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503905,
+            "Level": 5,
+            "Parameters": [
+              1.459832,
+              2.256104,
+              0.3,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503906,
+            "Level": 6,
+            "Parameters": [
+              1.542464,
+              2.383808,
+              0.34,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503907,
+            "Level": 7,
+            "Parameters": [
+              1.65264,
+              2.55408,
+              0.38,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503908,
+            "Level": 8,
+            "Parameters": [
+              1.762816,
+              2.724352,
+              0.42,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503909,
+            "Level": 9,
+            "Parameters": [
+              1.872992,
+              2.894624,
+              0.46,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503910,
+            "Level": 10,
+            "Parameters": [
+              1.983168,
+              3.064896,
+              0.5,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503911,
+            "Level": 11,
+            "Parameters": [
+              2.093344,
+              3.235168,
+              0.54,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503912,
+            "Level": 12,
+            "Parameters": [
+              2.20352,
+              3.40544,
+              0.58,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503913,
+            "Level": 13,
+            "Parameters": [
+              2.34124,
+              3.61828,
+              0.62,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503914,
+            "Level": 14,
+            "Parameters": [
+              2.47896,
+              3.83112,
+              0.66,
+              20,
+              20,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1503915,
+            "Level": 15,
+            "Parameters": [
+              2.61668,
+              4.04396,
+              0.7,
+              20,
+              20,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11505,
+      "Name": "Presto: Bluebird Finale",
+      "Description": "Sambil menampilkan gerakan tari yang gesit, Odette mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> beberapa kali, kemudian memanggil {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} dirinya sendiri. Odette juga akan mendapatkan efek <color=#FFD780FF>Snow Swan's Dream</color>: Meningkatkan DMG reaksi Stellar Glimmer yang diakibatkan oleh Odette.\nSelain itu, selama 6 detik setelah melancarkan Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color>, Elemental Skill Odette <color=#FFD780FF>Adagio: Phantom Night Dancers</color> akan berubah menjadi Elemental Skill khusus {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}{LINK#N11500004}{/LINK}.\n\nJika ada Solo Dance Double yang dipanggil Odette sendiri di medan, maka akan memanggilnya ke sisinya dan mengulang durasinya.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Odette_01"
+    },
+    "Inherents": [
+      {
+        "GroupId": 15021,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502101,
+              "Level": 1,
+              "Parameters": [
+                4,
+                0.15,
+                1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502101,
+        "Name": "Spring Rite of the Chosen One",
+        "Description": "Saat Odette memanggil {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK}, dia juga akan mendapatkan 4 lapis {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK}.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_05"
+      },
+      {
+        "GroupId": 15022,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502201,
+              "Level": 1,
+              "Parameters": [
+                1000,
+                0.015,
+                0.3
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1502201,
+        "Name": "Pathetique of Pateticheskaya",
+        "Description": "Untuk setiap 100 poin ATK Odette yang melebihi 1.000 poin, DMG reaksi Stellar Glimmer yang diakibatkan Odette mendapatkan DMG tambahan sebesar 1,5% dari DMG awalnya. Maksimum bisa mendapatkan 30% DMG tambahan dari DMG aslinya melalui cara ini.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_06"
+      },
+      {
+        "GroupId": 15023,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502301,
+        "Name": "Stellar Jubilee: Dance of Aurore",
+        "Description": "Odette akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color> saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} atau <color=#FFD780FF>Radiance: Stellar Swirl</color> selama 8 detik setelah Karakter dalam party di sekitar memicu reaksi Stellar Swirl.\nKetika Karakter dalam party memicu reaksi Superconduct/Cryo Swirl, reaksi ini akan berubah menjadi reaksi Stellar-Conduct/Stellar Swirl dan DMG dasar dari reaksi yang disebutkan di atas akan meningkat berdasarkan ATK Odette: Setiap 100 poin ATK akan meningkatkan DMG dasar reaksi sebesar 0,7%. Peningkatan DMG maksimum yang bisa didapatkan dengan cara ini adalah 14%.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_07"
+      },
+      {
+        "GroupId": 15025,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1502501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1502501,
+        "Name": "Echo of Winter Daydreams",
+        "Description": "Memperlihatkan lokasi <color=#FFD780FF>produk khas Snezhnaya</color> di sekitar pada peta kecil.\nSaat latihan menari di saat senggang, mungkin ada efek lain yang bisa terpicu ....",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Odette_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1501,
+        "Name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
+        "Description": "Setelah melancarkan Elemental Skill Khusus {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}, saat tarian duetnya berakhir, Odette akan mengakibatkan satu kali <color=#99FFFFFF>Cryo DMG Area</color> tambahan terhadap musuh di sekitarnya. DMG ini dianggap sebagai:\n·<color=#FFD780FF>Radiance: Stellar-Conduct</color> atau saat tidak berada dalam status Radiance: DMG reaksi Stellar-Conduct sebesar 300% ATK Odette.\n·<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG reaksi Stellar Swirl sebesar 450% ATK Odette.\n\nSelain itu, Talenta Ascension \"Spring Rite of the Chosen One\" juga akan diperkuat: saat Odette memanggil {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} miliknya, ia juga akan mendapatkan 2 lapis {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK}. Dan saat Odette ada di dalam party namun sedang tidak berada di medan pertempuran, kecepatan penghapusan <color=#FFD780FF>Marvelous Splendor</color> meningkat menjadi 2 lapis per detik.",
+        "Icon": "UI_Talent_S_Odette_01"
+      },
+      {
+        "Id": 1502,
+        "Name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
+        "Description": "Talenta Ascension \"Spring Rite of the Chosen One\" diperkuat: Setiap lapisan {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK} juga meningkatkan 7% ATK Karakter.\nSelain itu, saat {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} berada di medan pertempuran dan Odette sedang berada dalam status <color=#FFD780FF>{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}</color>, maka Elemental RES musuh di sekitar <color=#FFD780FF>Solo Dance Double</color> akan berkurang 20% untuk elemen berikut:\n·<color=#FFD780FF>Radiance: Stellar-Conduct</color>: <color=#99FFFFFF>Cryo</color> dan <color=#FFACFFFF>Electro</color>.\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: <color=#99FFFFFF>Cryo</color> dan <color=#80FFD7FF>Anemo</color>.",
+        "Icon": "UI_Talent_S_Odette_02"
+      },
+      {
+        "Id": 1503,
+        "Name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
+        "Description": "Meningkatkan 3 level Elemental Skill <color=#FFD780FF>{LINK#S11502}Adagio: Phantom Night Dancers{/LINK} </color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Odette_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1504,
+        "Name": "\"Up, Up the Long, Delirious, Burning Blue\"",
+        "Description": "Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color> diperkuat: Saat Odette mendapatkan efek <color=#FFD780FF>Snow Swan's Dream</color>, DMG reaksi Stellar Glimmer yang diakibatkan Karakter lain dalam party di sekitar juga akan meningkat sebesar 50% dari efek <color=#FFD780FF>Snow Swan's Dream</color>.\n\nSelain itu, saat serangan Karakter dalam party mengakibatkan DMG reaksi Stellar Glimmer terhadap musuh, Odette juga akan melancarkan satu kali serangan terkoordinasi terhadap musuh tersebut, mengakibatkan satu kali <color=#99FFFFFF>Cryo DMG Area</color>. Efek ini dapat terpicu sekali setiap 3,5 detik dan dianggap sebagai:\n·<color=#FFD780FF>Radiance: Stellar-Conduct</color> atau saat tidak berada dalam status Radiance: DMG reaksi Stellar-Conduct sebesar 66% ATK Odette.\n·<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG reaksi Stellar Swirl sebesar 99% ATK Odette.",
+        "Icon": "UI_Talent_S_Odette_03"
+      },
+      {
+        "Id": 1505,
+        "Name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
+        "Description": "Meningkatkan 3 level Elemental Burst <color=#FFD780FF>{LINK#S11505}Presto: Bluebird Finale{/LINK} </color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Odette_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1506,
+        "Name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
+        "Description": "Talenta Ascension \"Spring Rite of the Chosen One\" diperkuat: Saat Odette memberikan {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK} kepada semua Karakter party di sekitar, maka Marvelous Splendor milik Odette sendiri tidak akan berkurang lagi.\nSelain itu, untuk Karakter yang berada di bawah pengaruh <color=#FFD780FF>Marvelous Splendor</color>, DMG reaksi Stellar Glimmer yang diakibatkannya terhadap musuh akan {LINK#N11190007}<color=#FFD780FF>bertumbuh</color>{/LINK} 25%, dan DMG reaksi Stellar Glimmer yang diakibatkan Odette terhadap musuh akan bertumbuh lagi sebesar 20%.",
+        "Icon": "UI_Talent_S_Odette_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Swirling Snow",
+    "Detail": "Penari balet ternama dari Snezhnaya, bunga dingin yang mekar di tengah salju dan es.",
+    "Association": 15,
+    "Native": "Rombongan Teater Korolevskiy",
+    "BirthMonth": 2,
+    "BirthDay": 20,
+    "VisionBefore": "Cryo",
+    "VisionOverrideLocked": "Stellar Linchpin",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Cygnus Olor",
+    "CvChinese": "潘丹妮",
+    "CvJapanese": "上坂堇",
+    "CvEnglish": "Alexis Tipton",
+    "CvKorean": "Choi Hyun-ji",
+    "CookBonus": {
+      "OriginItemId": 132014,
+      "ItemId": 132017,
+      "InputList": [
+        101280,
+        100084,
+        110009,
+        100062
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "... Terima kasih atas dukungannya. Kamu mau minta tanda tangan, kan? Mau aku gambar apa di sebelahnya? Bagaimana kalau sehelai bulu? Oh, tunggu, kamu bukan penggemarku? Sepertinya aku salah paham. Kalau begitu, izinkan aku memperkenalkan diri dari awal. Aku Odette, penari balet dari Rombongan Teater Korolevskiy ... Yah, tetap kuucapkan terima kasih atas dukungannya."
+      },
+      {
+        "Title": "Berbincang: Kesibukan",
+        "Context": "Kalau tidak ada apa-apa lagi, aku mau pergi latihan menari."
+      },
+      {
+        "Title": "Berbincang: Santai",
+        "Context": "Kalau jawaban singkat saja sudah cukup, kenapa harus buang tenaga dengan kata-kata yang panjang?"
+      },
+      {
+        "Title": "Berbincang: Waktu",
+        "Context": "Andai saja jumlah waktu dalam sehari bisa jadi dua kali lipat ... tidak, tiga kali lipat deh."
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Suara rintik hujan selalu membuatku merasa tenang. Cuaca seperti ini sangat cocok untuk menari sendiri."
+      },
+      {
+        "Title": "Setelah Hujan",
+        "Context": "Momen-momen yang paling indah dan tenang selalu terasa yang paling singkat."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Salju di Snezhnaya selalu dingin menusuk, dan sepertinya tak pernah berhenti turun."
+      },
+      {
+        "Title": "Ketika Angin Berembus",
+        "Context": "Rambutku ... akan kurapikan nanti."
+      },
+      {
+        "Title": "Di Padang Pasir",
+        "Context": "... Setidaknya tidak akan ada jumpa fans di tempat seperti ini."
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Aku sudah pemanasan dan siap berangkat."
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Aku tidak terbiasa tidur siang. Siang hari juga bukan waktu yang tepat untuk berlatih, jadi biasanya aku mengisi waktu dengan membaca naskah drama tarianku. Hm? Soal surat-surat ini? Itu dari para penggemarku. Vodyanitsa yang memaksaku menerimanya. Ia ingin aku membacanya sekali saja."
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Oh, sudah waktunya makan malam? Aku harus segera naik panggung, jadi aku makan telur rebus saja. Nanti aku baru cari makan lagi setelah pertunjukan selesai."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "... Tugasku selesai, kuota latihan terpenuhi, rutinitas barunya sudah kupelajari sepenuhnya. Tapi ekspresi wajahku masih kurang memuaskan. Aku perlu berlatih lagi di depan cermin ... Oh, sudah semalam ini? Silakan istirahat lebih dulu. Aku masih mau mengurus hal lain."
+      },
+      {
+        "Title": "Tentang Odette: The Rokot",
+        "Context": "Sejak Proyek Stuzha dimulai, jumlah penonton kami terus berkurang. Sementara kebanyakan orang berjuang untuk sekadar bertahan hidup, para lintah darat yang korup terus mengisap masyarakat. Aku tidak bisa berpura-pura tidak melihat. Aku tahu aku tidak bisa membalikkan keadaan sendirian, tapi aku tetap ingin melakukan apa yang aku bisa."
+      },
+      {
+        "Title": "Tentang Odette: Daya Ingat",
+        "Context": "Kenangan masa laluku terukir selamanya di benakku. Seperti sebuah film yang terus berputar berulang kali di tengah malam ... Bisa dibilang, memiliki ingatan yang sempurna tidak selalu merupakan hal yang baik."
+      },
+      {
+        "Title": "Tentang Kita: Kepercayaan",
+        "Context": "Mengandalkan orang lain untuk perlindungan itu seperti bersandar pada lapisan es tipis yang baru terbentuk. Aku tidak menaruh harapanku pada siapa pun selain diriku sendiri."
+      },
+      {
+        "Title": "Tentang Kita: Luka",
+        "Context": "Indra perasa sakitku cukup tumpul. Aku sering kali tidak sadar bahwa aku terluka sampai lukanya sudah mulai mengering. Tapi, aku lebih suka begitu. Baik saat latihan balet maupun pelatihan khusus Fatui, lebih baik kalau hal sepele seperti kondisi fisikku tidak menjadi penghalang."
+      },
+      {
+        "Title": "Tentang Stellar Linchpin",
+        "Context": "Suatu kali, saat sesi latihan yang berat, kakiku mengalami radang dingin karena cuaca ekstrem. Aku hampir kehilangan kesadaran. Saat terbangun, hal pertama yang kulihat adalah cahaya terang dari Stellar Linchpin di depanku. Tapi, setahuku Stellar Linchpin tidak punya kemampuan untuk membangunkan orang. Jadi kalau memang bukan itu yang membuatku sadar, mungkin ... naluri bertahan hidup yang membangunkanku ...?"
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Aku menganggap setiap latihanku sama seriusnya dengan pertunjukan yang sesungguhnya."
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Rasa manis Rimecurrant bisa ditonjolkan dengan cara menaburkan sedikit garam meja. Katanya, kontras rasa itu justru membantu menonjolkan rasa manis di dalamnya. Aku dengar soal ini dari seorang penggemar."
+      },
+      {
+        "Title": "Tentang Rosalyne: Masa Lalu",
+        "Context": "Aku berutang budi pada Rosalyne, tapi dulu ada masanya aku benar-benar membencinya. Tuntutannya sangat tinggi dan ia luar biasa keras. Kedinginan, pingsan karena kelelahan, terluka, jatuh sakit ... semua itu hal yang biasa terjadi saat aku berlatih di bawah asuhannya. Dulu aku punya mimpi yang polos, asalkan aku bisa jadi seorang balerina yang cukup sukses dan menghasilkan cukup uang untuk menghidupi ibuku, maka suatu hari nanti, aku akan bisa meninggalkan dia dan Fatui jauh-jauh ...."
+      },
+      {
+        "Title": "Tentang Rosalyne: Cor Ignis",
+        "Context": "Setelah seseorang sudah tiada, banyak hal yang tiba-tiba tak lagi perlu diucapkan. Aku bisa menghancurkan Cor Ignis ini dalam sekejap, namun itu justru akan membuat rasa sakit dan kesalahpahaman yang ditimbulkannya terasa semakin konyol ... Mengapa baru sekarang—setelah sekian lama—kita akhirnya saling memahami?"
+      },
+      {
+        "Title": "Tentang Tsaritsa",
+        "Context": "Yang Mulia Tsaritsa adalah pilar kepercayaan Snezhnaya. Beliau memiliki begitu banyak kewajiban sehingga jarang tampil di hadapan publik. Sebenarnya, aku juga hanya pernah melihat beliau beberapa kali, namun beliau selalu terkesan sebagai sosok yang luar biasa agung dan penuh wibawa. Ke mana pun pandangan beliau tertuju, selalu dingin dan teguh bagaikan hamparan es yang tidak akan pernah dicairkan oleh waktu."
+      },
+      {
+        "Title": "Tentang Nona Damselette",
+        "Context": "Caranya berjalan begitu anggun, dengan langkah yang seringan bulu, sehingga membuat iri setiap penari. Menurut Vodyanitsa, suara nyanyiannya pun begitu indah hingga terasa menghantui. Meski begitu, aku rasa apa yang kita lihat dan kagumi hanyalah persona yang dia tampilkan di permukaan. Entah ada rasa sakit tak terucap seperti apa yang tersembunyi di baliknya ...."
+      },
+      {
+        "Title": "Tentang Nona Arlecchino",
+        "Context": "Anak-anak di House of the Hearth menganggapnya sebagai \"Ayah\" mereka. Semoga itu bisa melindungi mereka dari dinginnya angin dan kerasnya badai kehidupan. Bagaimanapun juga, peran seorang ayah adalah untuk melindungi."
+      },
+      {
+        "Title": "Tentang Nona Marionette",
+        "Context": "Pesta minum teh Nona Marionette dulu selalu membuat suasana hati Rosalyne menjadi lebih baik. Beliau tetap seketat biasanya, tapi nada bicaranya jadi sedikit lebih lembut. Perbedaannya cukup terasa."
+      },
+      {
+        "Title": "Tentang Vodyanitsa: Senyuman",
+        "Context": "Pertama kali Tsaritsa datang untuk menyaksikan pertunjukan Rombongan Teater Korolevskiy, Vodyanitsa memberitahuku lebih dulu. Aku hanya mengangguk, tapi dia mengangkat kedua sudut bibirku dengan tangannya, memaksaku tersenyum, kemudian menyuruhku mengulang ucapannya \"Sungguh. Kabar. Gembira.\"\nMungkin itu persiapan sebelum menghadap Tsaritsa. Tapi kurasa Yang Mulia tidak akan menyukai senyum seperti itu."
+      },
+      {
+        "Title": "Tentang Vodyanitsa: Jatuh Sakit",
+        "Context": "Setiap kali Vodyanitsa sakit, dia selalu jadi sangat manja dan hampir tidak mau lepas dari sisiku ... Katanya karena dia takut disuntik atau harus minum obat pahit, jadi dia butuh memegang sesuatu, dan sepertinya lenganku menjadi pilihan favoritnya. Namun aku memang tahan terhadap rasa sakit, jadi aku juga tidak perlu melepaskannya."
+      },
+      {
+        "Title": "Tentang Alyosha",
+        "Context": "Kalau hanya mementingkan diri sendiri, ia bisa hidup dengan mudah hanya dari berburu. Tapi ia masih mau mengambil pekerjaan serabutan di teater demi membantu orang-orang yang kesusahan ... Tidak heran ia bergabung dengan Rokot."
+      },
+      {
+        "Title": "Tentang Mitya",
+        "Context": "Hm ... boleh dibilang dia seorang \"penggemar\" teater. Dia cukup sering datang untuk menonton aku dan Vodyanitsa tampil. Tapi begitu pertunjukan dimulai, dia selalu menundukkan kepala dan tenggelam dalam catatannya, entah sibuk menulis apa. Posenya yang seperti itu sulit untuk diabaikan, terutama ketika seluruh penonton lain menatap ke panggung. Kurasa bahkan syal di lehernya lebih bisa mengapresiasi seni pertunjukan daripada dia sendiri."
+      },
+      {
+        "Title": "Tentang Valeriy",
+        "Context": "Mayor Valeriy adalah perwira Fatui yang sangat ketat soal jadwal. Aku pernah dengar bahwa cara ia memimpin terasa tenang, namun sekaligus bisa sangat menakutkan ... Tapi kami berada di divisi yang berbeda, jadi jarang ada kesempatan untuk berinteraksi. Lagi pula ... aku tidak perlu diingatkan oleh siapa pun tentang apa yang seharusnya aku lakukan."
+      },
+      {
+        "Title": "Tentang Vesna",
+        "Context": "Jangan kira dia hanyalah kupu-kupu cantik yang tidak berbahaya hanya karena sayapnya itu. Mungkin banyak orang yang menyukainya, tapi dia adalah komandan tertinggi Druzhna, yang merupakan predator ganas di tundra. Buka matamu baik-baik dan jangan sampai tertipu oleh senyuman manisnya."
+      },
+      {
+        "Title": "Mengenal Odette: I",
+        "Context": "Mohon maaf sebelumnya. Jadwalku hari ini cukup padat, dan aku ada latihan setelah ini. Jadi kalau ingin mengobrol, mohon singkat saja."
+      },
+      {
+        "Title": "Mengenal Odette: II",
+        "Context": "Ibuku berasal dari keluarga penari balet, dan ayahku bertugas di Fatui. Mereka bertemu setelah salah satu pertunjukan ibuku dan langsung jatuh cinta. Sungguh kisah romantis yang pasti akan membuat siapa pun tersenyum. Ketika aku masih kecil, hari-hariku dihabiskan dengan menari bersama ibuku, mengenakan salah satu dari sekian banyak rok tutu cantik yang dibelikan ayahku. Aku tak punya kekhawatiran apa pun ... kecuali mungkin memilih permen mana dari toples permen setiap harinya."
+      },
+      {
+        "Title": "Mengenal Odette: III",
+        "Context": "Tentu saja, tidak lama setelah itu, kami menerima kabar menyedihkan bahwa ayahku gugur dalam tugas. Ibuku sangat terpukul dan akhirnya patah kaki saat sedang tampil. Sebelum semua ini terjadi, hidupku terasa manis bagai gula. Namun kini, rasanya seperti toples permen yang kosong, dan aku terjebak di dalamnya."
+      },
+      {
+        "Title": "Mengenal Odette: IV",
+        "Context": "Setelah itu, yah ... kamu juga sudah tahu yang terjadi. Aku sudah membongkar kembali kenangan-kenangan itu berkali-kali, sampai akhirnya sudah tidak bisa menyakitiku. Berjuang melawan takdir yang menimpaku ... justru membuatku kuat, dan kekuatan itu milikku sendiri. Aku tidak akan melupakannya."
+      },
+      {
+        "Title": "Mengenal Odette: V",
+        "Context": "Aku tidak akan menceritakan semua ini kepada penggemarku, jadi untunglah kamu bukan salah satu dari mereka. Aku sudah punya terlalu banyak versi diriku yang harus kujaga, dan aku lebih suka agar mereka tidak saling bercampur ... Tentu saja, dalam hatiku, aku akan selamanya terus berusaha menari menuju kesempurnaan."
+      },
+      {
+        "Title": "Hobi Odette",
+        "Context": "Aku selalu mencintai balet, dan aku berusaha sepenuh hati untuk memberikan penampilan terbaik setiap kali aku berada di atas panggung."
+      },
+      {
+        "Title": "Kekhawatiran Odette",
+        "Context": "Sejujurnya, aku merasa kalau hewan-hewan kecil tidak menyukaiku. Vodyanitsa selalu mengajakku memberi makan kucing liar di sekitar teater, tapi begitu aku mendekat, mereka langsung mengasah cakar mereka ... Hm? Itu berarti mereka senang melihatku? Hmm ...."
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Tepat sebelum tutup, salad di ruang makan dijual setengah harga, jadi dulu aku sering makan itu. Tentu saja, salad yang sudah dibiarkan sepanjang hari rasanya tidak senikmat yang segar. Tapi rasanya menghibur waktu makan sesuatu yang akrab di lidah."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Sejujurnya, aku rasa tidak ada makanan yang benar-benar tidak aku sukai. Tapi, sebagai penari balet, aku harus mengatur pola makan dengan ketat, jadi semua makananku sudah direncanakan dengan cermat. Aku cenderung menghindari apa pun yang tidak termasuk dalam rencana makanku itu."
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Aku sudah cukup banyak tampil beberapa hari ini. Mungkin sedikit lagi tidak apa-apa ... Ehem, tidak perlu dipikirkan. Ini lezat. Terima kasih."
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Ini hanya satu hidangan? Ini terlihat lebih seperti ... makanan untuk seharian penuh."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Ah, terima kasih, tapi tidak perlu. Aku sedang menjaga pola makanku."
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Selamat ulang tahun! Aku mencoba memikirkan apa yang harus kuberikan padamu ... Biasanya aku menerima hal-hal seperti bunga, sepatu balet, dan kotak musik, tapi rasanya itu bukan seleramu. Bagaimana kalau kamu cukup ... mengucapkan keinginanmu di sini sekarang? Tentu saja bagusnya sih sesuatu yang masih bisa kuwujudkan ya ...."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Hm, masih belum cukup ... aku harus berlatih lebih keras lagi."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Mm, gerakanku terasa lebih tajam. Aku harus terus mempertahankan intensitas ini."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Gerakan fouetté-ku kini sudah sempurna. Tapi bukan berarti aku jadi bisa bersantai."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "\"Emosi adalah bagian yang tak terpisahkan dari balet.\" Kini aku mengerti maksudnya. Terima kasih atas kesetiaan dan dukunganmu selama ini. Kalau kamu tertarik untuk hadir di pertunjukanku nanti, ini tiketnya."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Mari kita mulai."
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Ikuti aku."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Bersama-sama."
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Pas de deux."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Pirouette."
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Heh."
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Wals kepingan salju."
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Adagio kristal."
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Saksikanlah keanggunan sang angsa salju."
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Aku tidak memerlukan semua ini. Kamu simpan saja."
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Sebuah perjalanan sangat mirip dengan latihan balet, setiap langkahnya berarti."
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Hasil tidak akan mengkhianati usaha."
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Tidak perlu khawatir."
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "Ini hanya luka kecil."
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Masih baik-baik saja."
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Kamu baik-baik saja?"
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Biar aku gantikan."
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Seharusnya ... berusaha lebih keras lagi ...."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Tidak. Harus ... bangkit lagi ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Jadi ini ... yang namanya sakit ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Hmmm?"
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Coba lagi."
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Hanya begitu saja?"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Tidak terasa sama sekali."
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Aku siap."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Perlu aku yang tampil di panggung utama?"
+      },
+      {
+        "Title": "Bergabung ke Party: III",
+        "Context": "Kita pergi ke mana kali ini?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Di negeri lain, kata \"penari\" sering mengingatkan orang pada sosok yang hangat dan akrab, kehadiran lembut yang memberi rasa nyaman dalam perjalanan panjang hidup.\nNamun di Snezhnaya, ketika orang menyebut kata \"penari\", sosok dingin nan anggun itulah yang pertama kali terbayang di benak kebanyakan orang.\nSebagai penari balet utama Rombongan Teater Korolevskiy, ekspresi Odette Spessiva di poster promosi selalu sama ... tatapan datar, bibir sedikit mengatup, bagaikan patung yang diselimuti embun beku tipis.\nSikapnya yang dingin dan tertutup justru membuat antusiasme para pengagumnya tampak semakin mencolok. Kekaguman mereka bukanlah hal yang sulit dipahami. Odette memiliki fisik yang nyaris sempurna, dan tiap penampilannya memadukan ketegasan yang tajam dengan ketegangan dramatis yang luar biasa. Setiap langkah dan setiap gerakan tangannya begitu presisi, layaknya permata yang dipotong dengan sempurna. Tiap gerakannya menangkap cahaya dengan kilau yang membuat mata sulit berpaling.\nTidak ada yang bisa mengabaikan kerja keras di balik penampilan seperti itu. Saat Odette melangkah ke atas panggung, segala keraguan hilang dalam sekejap.\nSetelah pertunjukan berakhir, ia jarang menambahkan sesi ekstra. Bahkan saat pengikut memberikan bunga dan pujian, responsnya selalu sangat singkat.\n\"Terima kasih atas dukungannya. Sampai jumpa.\"\nIni bukan karena ia sengaja bersikap angkuh, melainkan karena di balik panggung yang disinari cahaya gemerlap, masih ada tugas-tugas lain yang menunggunya. Hidupnya bagaikan kalender di dinding yang terisi penuh, tanpa satu pun ruang kosong yang tersisa untuk dirinya sendiri.\nKalau tengah malam kamu melihat sosok diam-diam melintas, ringan sekali sampai tak seperti orang biasa, lebih baik jangan sembarangan mengikutinya karena penasaran. Malam bersalju di Snezhnaya sangat dingin, dan warga baik-baik sudah tidur di rumah. Orang yang masih keluar pada jam begini biasanya punya urusan khusus.\nNamun keesokan paginya, Odette kembali muncul tepat waktu di ruang latihan tari teater. Kadang-kadang terdengar alunan musik samar dari dalam, kadang hanya ada bunyi lembut yang teredam saat ujung sepatunya menyentuh lantai. Dinding cermin memantulkan sosoknya yang terus mengangkat dan menurunkan kaki berulang kali, presisi seperti metronom.\nSaat cahaya pagi mulai terang, anggota lain yang masuk ke ruangan sering kali tampak terkejut.\nPenari balet utama ini semalam tidak pulang ke rumah?"
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Setiap kali musim pertunjukan Rombongan Teater Korolevskiy di Snezhnaya berakhir, rubrik sastra di berbagai surat kabar besar selalu dipenuhi ulasan penuh antusiasme tentang Odette, balerina utama rombongan tersebut.\n\"Kesempurnaan yang diasah hingga berkilau bagai es.\" Kalimat ini begitu sering digunakan surat kabar sastra hingga tak lagi terdengar seperti kritik, tapi julukan yang selalu menyertai dirinya.\nTripolev, salah satu kritikus paling ternama di Snezhnaya, pernah memberikan ulasan yang begitu mengesankan. \"Melihat Odette menari bagaikan menyaksikan sebilah belati yang dipoles hingga sempurna membelah udara. Ketajaman dan presisinya mengundang decak kagum, namun tak seorang pun berani menyentuhnya.\"\nBagi penari lain, pujian seperti itu mungkin justru menjadi beban yang menggantung. Penonton selalu menyukai sesuatu yang indah. Namun, keindahan yang paling mudah memikat hati adalah yang terasa lembut, puitis, dan menggetarkan. Semakin mudah ia dijangkau, semakin mudah pula ia menyentuh hati orang yang memandangnya.\nNamun, Odette sama sekali berbeda. Kehangatan dan emosi yang didambakan para penonton, bahkan senyum tulus saat tirai pertunjukan ditutup, tak satu pun disajikannya.\nSelain ekspresi yang memang dituntut oleh perannya di atas panggung, raut wajah Odette hampir tak pernah berubah. Bahkan di acara temu publik maupun dalam kesehariannya, dia selalu memasang ekspresi datar.\nSeolah seluruh kekuatannya telah ia curahkan untuk mengasah seninya hingga sempurna. Standar yang ia tetapkan bagi dirinya sendiri bahkan jauh melampaui tuntutan terhadap seorang prima ballerina, dan hasilnya sudah menjadi bukti. Apa lagi yang harus ia persembahkan? Berpura-pura menghayati emosi hanya demi memuaskan penonton tentu bukan kewajiban seorang penari utama. Setidaknya, begitulah keyakinan Odette.\nAda banyak cerita kecil yang beredar tentang dirinya.\nSalah satu kisah yang paling terkenal berkaitan dengan seorang bangsawan yang mengeluarkan banyak uang untuk memesan satu baris penuh kursi kelas satu. Seusai pertunjukan, dia menunggu selama dua jam di pintu belakang panggung sambil memeluk buket besar berisi bunga-bunga biru es. Namun pada akhirnya, bukan Odette yang menemuinya, melainkan pesan dari staf teater: \"Nona Odette sudah pergi lewat pintu samping.\"\nSebuah surat kekaguman setebal sepuluh halaman hanya dibalas dengan ucapan terima kasih atas dukungannya seperti biasa. Kalau bukan karena tulisan tangannya yang sama persis dengan tanda tangan Odette, orang-orang hampir menyangka surat balasan itu ditulis oleh orang lain.\nAda pula seorang pengikut fanatik yang mabuk dan memblokir pintu teater, mencoba berbicara melantur tentang pengaruh balet terhadap Snezhnaya kepada Odette. Saat keluar, Odette tidak mengambil jalan memutar, ia hanya berhenti sejenak dan memandangnya dengan tenang ... Menurut kesaksian saksi mata: \"Orang itu terdiam beberapa detik, lalu seperti disiram air dingin, ia bergumam sesuatu sendiri sebelum berbalik dan pergi.\"\n...\nODette tidak pernah menyembunyikan perasaannya atau membuat kenyataan hidup terdengar lebih ringan. Kekuatannya benar-benar tulus. Jernih dan nyata, kekuatan itu mengandung tekad yang dingin dan kegigihan yang pantang menyerah, sama seperti tanah beku di bawah kakinya—sifat yang sangat dipahami masyarakat Snezhnaya.\nOdette tetap dingin, antrian pembeli tiket di depan pintu teater tetap ramai tanpa henti, seperti salju yang tak pernah berhenti turun."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Bahkan di dalam Rombongan Teater Korolevskiy pun, hanya segelintir orang yang bisa mengobrol santai dengan Odette di luar pentas.\nNamun tidak diragukan lagi, Vodyanitsa termasuk salah satunya.\nNamun, perkenalan mereka awalnya tidak lebih dari urusan praktis seputar pertunjukan: menyusun program acara, menyiapkan kostum, dan menenangkan para pemain yang gugup menjelang penampilan pertama mereka.\n\"Lakukan seperti yang sudah kalian latih. Dengarkan iramanya, ingat langkah-langkahnya, lalu jalani satu per satu.\" Dengan tenang dan nyaris tanpa ekspresi, balerina utama itu memberi nasihat yang sama seperti saat latihan, seolah tampil di atas panggung tak ada bedanya dengan berlatih. Para penampil saling bertukar pandang dengan ragu, seakan pertanyaan mereka berpindah dalam diam dari satu wajah ke wajah lain. Meski begitu, jantung mereka yang berdegup kencang perlahan mulai tenang oleh suaranya yang begitu teguh, seperti salju baru yang menyelimuti padang dan menghapus setiap jejak kaki yang tergesa dan goyah.\n\"Baiklah, gadis-gadis! Tepuk dada kalian, biar jantung kalian berdetak lebih kencang. Di atas panggung nanti, bersenang-senanglah sepuasnya!\" Sang soprano utama berseru penuh semangat, bahkan nyaris melengking. Gadis-gadisnya pun menepuk dada, wajah mereka memerah karena begitu antusias. Suara sang soprano utama bagai ombak yang bergelora di permukaan laut. Selama mereka cukup berani dan cerdik, mereka bisa menunggangi arus deras itu dan melesat maju bersamanya.\nPara pemain naik ke panggung satu per satu, sementara kedua pemain utama duduk sejenak di belakang panggung. Penampilan mereka telah selesai dengan sempurna, dan babak terakhir ini hanya milik para pendatang baru.\nUntuk sesaat, ruang ganti terdiam dalam keheningan. Kemudian, musik mulai dimainkan di atas panggung. Alunannya yang samar terdengar hingga ke belakang panggung dan memecah kesunyian.\nSebutir permen madu jatuh ke dalam gelas milik Imp Air, bagai mutiara yang meluncur di atas sutra, disusul bunyi \"duk\" yang pelan.\n\"... Bagus untuk tenggorokan.\"\nTanpa berkata apa-apa lagi, Odette langsung pergi, dengan serius mengikat sepatu balet miliknya, meninggalkan Vodyanitsa yang termenung menatap minuman hangat nan manis dan harum di hadapannya.\nMakna di balik tindakan kecil itu baru terungkap kemudian. Odette biasanya menyimpan permen-permen itu untuk dirinya sendiri dan memakannya untuk memulihkan tenaga setelah berlatih berjam-jam hingga kelelahan. Permen yang ia berikan kepada Vodyanitsa hari itu adalah permen terakhir yang ia punya. Namun, Odette belum tahu bahwa Vodyanitsa memiliki bakat menyanyi yang luar biasa. Sebagai Imp Air, ia nyaris tak pernah merasa suaranya lelah.\nSedangkan bagi Vodyanitsa saat itu, ia sangat senang menerima ketulusan dan kebaikan hati dari orang lain. Apalagi jika diberikan oleh seseorang yang sebening dan semurni bongkahan es terbaik.\nDi tengah dinginnya Snezhnaya, kebaikan adalah sesuatu yang terlalu langka untuk disia-siakan. Saat menemukannya, kita harus segera mendekapnya erat. Kalau tidak, kebaikan itu mungkin keburu membeku dan tak bisa dibuka kembali.\n...\n\"Permenku habis.\"\n\"Bohong. Tadi aku baru saja memasukkan tiga kotak ke dalam tasmu. Ambilkan satu untukku.\"\n\"Kamu tidak membutuhkannya untuk melembapkan tenggorokan.\"\n\"Aku perlu untuk mengisi ulang stamina.\"\n\"Kamu kan tidak perlu memulihkan stamina, tadi aku yang menari.\"\n\"Aku juga ikut nyanyi! Harusnya kamu bilang, ‘Oh, Vodyanitsa tersayang, suaramu indah sekali. Aku bisa mendengarnya terus selamanya,’ lalu kasih aku satu permen lagi.\"\n\"... Setelah pertunjukan selesai, barulah aku bisa memberikan penilaian.\"\n\"Tadi kamu senyum, kan? Aku lihat! Kamu senyum! ... Tunggu, kamu masih menari? Hei! Sudah, sudah. Kita mau makan!\"\nImp Air yang tajam penglihatannya itu memang tidak salah lihat, sudut bibir sang penari balet memang sedikit terangkat.\nNamun Odette selalu merespons seperti ini.\n\"Itu adalah ekspresi yang diperlukan oleh pertunjukan balet.\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Saat Odette lahir, kejayaan keluarga Spessiva sudah lama meredup. Yang tersisa hanya beberapa potret yang mulai menguning di dinding rumah tua itu. Masing-masing menampilkan sosok leluhur yang dahulu pernah bersinar di atas panggung. Ibunya, Violetta, baru saja mendapat peran pendukung penting dalam sebuah pertunjukan balet. Namun, pikirannya sudah tertuju pada peran utama. Ia memutuskan bahwa saat hari itu tiba, potretnya sendiri akan ikut dipajang di dinding tersebut. Seolah mendengar isi pikiran ibunya, Odette kecil tiba-tiba menangis keras dari balik kain bedongnya, menyuarakan protes dengan sekuat tenaga dari paru-parunya yang mungil.\n\"Maaf, Odette.\" Sang ibu tersenyum lembut, mengetuk-ketuk hidung mungil putrinya, \"Tentu saja kamu juga akan difoto ... foto keluarga, kita semua akan ada di sana.\"\nDuk, duk, duk .... Langkah berat dan teratur sepatu bot militer terdengar dari balik pintu. Itu adalah isyarat khusus bagi rumah ini, dan Violetta langsung tahu siapa yang dibawanya. Saat ia menghampiri sambil tersenyum, suaminya masih berdiri di ambang pintu, menghentakkan sepatu bot untuk merontokkan salju yang menempel.\nSebenarnya rumah tua itu terlalu besar, perapian yang menyala pun tidak terlalu membara, dan kehangatan selalu terasa kurang. Namun pelukan keluarga jauh lebih Menghangatkan dari apa pun.\nSeiring Odette tumbuh dewasa, irama itu menjadi begitu akrab baginya, sama seperti ia mengingat wajah ayahnya. Duk, duk, duk ... Irama itu menandakan makan malam, cerita-cerita, dan rasa tenteram bahwa malam itu akan berlalu dengan damai.\nAyah Odette adalah seorang prajurit yang tak banyak memahami seni. Aroma kulit dan mesiu selalu melekat padanya sepanjang tahun, sering bercampur dengan sedikit hawa dingin dari luar. Meski begitu, tak ada anggota keluarga lain yang menonton dengan lebih antusias darinya. Setiap kali Violetta berlatih, dia akan menarik sebuah kursi ke sudut ruangan, lalu duduk dan menonton. Sesekali, dia mencoba mengikuti irama musik dengan kakinya, meski ketukannya hampir tak pernah tepat mengikuti tempo. Violetta akan tertawa dan menjulukinya, \"Pria dengan kepekaan irama terburuk di seluruh Snezhnaya.\" Dia tak pernah membantah. Dia hanya akan tersenyum dan terkekeh, \"Tapi aku yang paling jago bertepuk tangan di seluruh Snezhnaya.\"\nSetidaknya, yang satu itu memang benar. Tak peduli Violetta sedang membawakan tarian resmi atau hanya bersenandung sambil berimprovisasi mengikuti suasana, dia selalu menyambut akhir penampilannya dengan tepuk tangan membahana. Tepuk tangannya begitu ceria dan tulus hingga burung-burung di ambang jendela terbang kaget, dan Odette kecil pun tertawa riang.\nWaktu itu dia belum bisa menari. Hanya bisa meluncur di laluantai dengan kaus kaki, atau berdiri di atas sepatu bot militer ayahnya, menggenggam jari-jarinya sambil berjalan sempoyongan. Ayahnya melangkah satu kali, dia ikut satu langkah, seperti seekor anak burung kecil yang belum bisa berdiri tegak.\nSetiap kali, Ayah selalu berkata kepada Ibu, \"Lihat, Angsa Salju Kecil kita sedang menari.\"\n\"Paling itu hanya itik kecil\", Ibu mengoreksi sambil tertawa, \"Angsa Salju harus menegakkan punggungnya.\"\nAyahnya pun segera berjongkok di samping Odette, lalu menyentuhkan dua jarinya dengan lembut ke punggung Odette. \"Nah, begitu. Tegakkan punggungmu, Angsa Salju Kecil.\"\nTak lama kemudian, waktu bermain berganti menjadi pelajaran sebenarnya. Violetta mulai mengajari Odette dasar-dasar balet dengan serius: peregangan, tendu, dan petit battement. Latihan dasar itu terasa membosankan dan harus diulang terus-menerus—seratus kali, lalu seratus kali lagi. Sebagai guru, Violetta tidak mengenal kompromi. Satu kesalahan kecil dalam posisi kaki berarti harus mengulang dari awal. Tidak ada ruang untuk tawar-menawar. Terkadang, latihan berat itu membuat mata Odette memerah. Namun, dia hanya akan mengatupkan bibirnya dengan keras, lalu terus berlatih.\nNamun setiap kali latihan selesai, ayahnya selalu muncul tepat waktu di depan pintu.\n\"Hari ini belajar apa? Tunjukkan padaku?\"\nOdette pun memperagakan gerakan yang baru ia pelajari dengan kaku dan tidak beraturan. Apa pun hasilnya, reaksi ayahnya selalu sama ... bertepuk tangan terlebih dahulu. Tepuk tangan yang lantang dan penuh keseriusan, lalu berjongkok dan berkata dengan sangat serius ...\n\"Luar biasa. Putriku pasti akan menjadi prima ballerina.\"\nVioletta menyandarkan kepalanya pelan di bahu suaminya. Ketegangan di wajahnya pun akhirnya luluh menjadi senyum. Odette masih terlalu kecil untuk memahami arti menjadi seorang prima ballerina. Namun, ia memahami kebanggaan yang terpancar di wajah ayahnya saat mengatakannya, juga harapan yang tersirat dalam senyum ibunya ketika menatapnya. Tanpa Odette sadari, benih kecil sebuah impian telah tertanam di dalam hatinya."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Odette percaya hari-hari akan terus berlanjut dengan tenang dan hangat seperti itu.\nNamun langkah kaki sang ayah menghilang, satu hari, dua hari, tiga hari ... Odette kecil terus menunggu dan menunggu, hingga akhirnya yang datang bukanlah ayahnya, melainkan suara sepatu bot militer yang asing.\nDua Fatui Soldier berdiri di depan pintu dengan ekspresi serius, menyerahkan sebuah surat kepada sang ibu. Seorang penari yang mampu mengontrol setiap sudut tubuhnya dengan presisi, kini tak kuasa menghentikan jari-jarinya yang gemetar. Odette kecil berdiri berjinjit dengan cemas, berusaha keras membaca apa yang tertulis di sana. Ia melihat satu baris kalimat singkat ... dan ia berharap tidak pernah melihatnya.\nMalam itu, rumah tersebut begitu hening, seolah tak ada lagi suara yang tersisa. Keesokan paginya, Violetta kembali ke ruang latihan teater dan meneruskan rutinitasnya. Hari ketiga pun berlalu, lalu hari keempat ....\nSaat pertunjukan berlangsung, Odette yang menonton dari bawah panggung melihat ibunya terjatuh. Sesaat, dalam kepanikan, ia berusaha meyakinkan diri bahwa itu bagian dari koreografi. Violetta tidak pernah kehilangan kendali. Mungkin adegan jatuh itu memang sudah dilatih. Mungkin Odette masih bermimpi. Mungkin sebenarnya ia tidak pernah benar-benar terbangun dari mimpi buruk itu. Lalu, tirai buru-buru diturunkan. Di tengah kekacauan di belakang panggung, Odette sempat melihat wajah ibunya. Segala sinar yang dahulu terpancar dari wajah itu telah lenyap, hanya menyisakan pucat pasi seperti orang mati.\nUsai perawatan, dokter itu menyampaikan dengan nada penuh sesal bahwa luka-luka Violetta akan pulih seiring waktu. Namun, setelah pulih pun, kemungkinan besar dia tidak akan pernah bisa lagi melakukan gerakan tari yang paling sulit.\n...\nHari-hari berikutnya, rumah itu perlahan mulai berubah. Kursi yang selalu diduduki ayah Odette dipindahkan ke sudut ruangan, lalu sedikit demi sedikit tertimbun barang-barang yang terlupakan. Koran yang dulu selalu dibukanya setiap pagi kini tergeletak begitu saja. Ujung-ujungnya mulai melengkung dan kertasnya menguning karena tak ada lagi yang mengambilnya untuk dibaca. Kadang api di perapian mengecil tanpa mereka sadari, sampai ruangan itu tak lebih hangat daripada dunia beku di balik jendela. Odette dan ibunya duduk berselimut di kedua ujung sofa. Di antara mereka, tempat yang dulu didudukinya tetap dibiarkan kosong. Tak satu pun pernah bergeser untuk mengisinya.\nSang ibu tetap mengajarinya menari, namun tidak lagi mampu memberikan contoh yang standar. Ia hanya duduk di kursi roda, mengetuk lantai dengan tongkatnya untuk menghitung ketukan \"duk, duk, duk ...\"\nOdette tak pernah menjerit. Keindahan balet selalu lahir dari rasa sakit, jadi ia menahan sakitnya dalam diam. Ia membalut jari-jari kakinya yang melepuh dengan berlapis-lapis perban, sampai pada satu titik rasa sakit itu berubah menjadi kebas. Setiap kali berhenti sejenak untuk menyeka keringat di dahinya, ia selalu mendapati ibunya sedang menatapnya. Luka yang sama hadir tanpa kata di antara mereka. Lalu, keduanya memalingkan wajah. Violetta kembali menghitung irama, dan Odette kembali mengulang langkahnya. Dengan terus mengajar dan belajar, mereka mengisi setiap waktu yang tak boleh dibiarkan kosong. Sebab, kekosongan akan memberi ruang bagi kenangan.\nYang memutus siklus itu adalah suara sepatu hak tinggi yang asing.\nIa adalah atasan ayahnya semasa hidup, Harbinger Fatui Penguasa Kedelapan, \"La Signora\". Atas isyarat \"Capitano\", ia datang untuk menyampaikan belasungkawa kepada Violetta.\nLa Signora melihat sekilas gerakan tari Odette yang lincah, lalu ia pun berkata ...\n\"Nyonya Spessiva, aku tidak bermaksud menyentuh luka hatimu, tetapi kamu yang sekarang ini telah kehilangan penghasilan, sulit untuk membesarkan anak hanya dengan uang santunan. Bagaimana kalau menyerahkan dia kepada Fatui? Kami dengan senang hati membina bibit-bibit yang berpotensi, dan sebagai imbalannya, kami juga akan memberikan tunjangan.\"\nVioletta langsung menolak. Dia sangat paham bahaya yang dibawa Fatui. Mereka sudah merenggut suami tercintanya. Membayangkan suatu hari nanti putrinya juga akan direnggut adalah hal yang tak sanggup dia tanggung.\nNamun Odette, yang sejak tadi diam-diam mendengarkan percakapan keduanya, tiba-tiba berlari menghampiri dan berkata dengan suara kekanak-kanakan namun penuh keteguhan bahwa ia bisa melakukan apa pun. Ia akan menjamin keselamatan dirinya sendiri, dan pasti bisa menemukan cara untuk tetap berlatih balet sekaligus menjalani pelatihan Fatui.\nMata biru keunguan Odette yang jernih beradu tatap dengan La Signora, menyala oleh api yang seakan berkobar menembus es.\n\"Aku pasti bisa.\" Karena tak ada yang menanggapi, Odette kembali menegaskannya. Raut wajahnya begitu kukuh, pantang menyerah, dan penuh tekad, seolah tak peduli berapa pun harga yang harus dibayar .... Sungguh terasa familier. Dia terus mengorbankan dirinya, lalu mengatupkan bibir rapat-rapat untuk berpura-pura tegar.\nLa Signora mendengus pelan, tetapi harga dirinya tidak mengizinkannya menarik kembali undangan itu.\n\"Kalau begitu ikuti saja, mari kita lihat seberapa cepat kamu menyerah.\""
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "Saat misi selesai, langit masih diselimuti kegelapan pekat yang dingin.\nOdette menyimpan kembali belatinya dan memeriksa keadaan dirinya tanpa ekspresi. Tak ada noda yang terlihat pada pakaiannya. Sepatunya sedikit basah, tetapi tidak mengganggu gerakannya. Tujuannya telah tercapai. Orang itu sudah sangat ketakutan dan tampaknya tak akan berani bertindak lancang lagi.\nMalam di Snezhnaya sangat sunyi. Salju tebal meredam hampir semua suara, hingga langkah kakinya nyaris tak terdengar. Kesunyian itu memberi ruang kosong dalam pikirannya, dan ruang kosong sering kali membuat kenangan yang tak perlu kembali muncul.\nContohnya gerakan terakhir tadi. Penutupnya sangat rapi. Pergelangan tangannya berputar ke dalam saat kembali ke posisi semula, cepat dan tepat. Namun, dia sadar ada sedikit jeda ketika menarik kembali belatinya. Saat lengan kanannya kembali, ujung jarinya bergerak sedikit ke luar. Gerakan yang begitu kecil hingga sulit terlihat.\nIa sendiri tahu apa itu, itu adalah gestur penutup dalam pertunjukan balet.\nKemiripan itu ternyata juga disadari orang lain. Dalam laporan evaluasi Fatui, gaya bertarung Odette disebut mirip balet. Namun, ibunya justru melihat kekurangan yang sebaliknya. Menurutnya, setiap kali Odette menari, tariannya selalu terasa kurang berjiwa.\nKeanggunan seorang penari mengalir dalam setiap gerakannya saat bertarung, sementara kekuatan yang ditempa dalam pertempuran membentuk setiap langkahnya di atas panggung. Tak satu pun perlu ia panggil dengan sengaja. Keduanya muncul begitu saja, sealami tarikan napas dan detak jantung, tersimpan jauh di luar ingatan sadar, dalam tulang dan ototnya.\nBatas antara mata pedang dan ujung jari kaki sudah lama menghilang dalam dirinya.\nMungkin Odette tak pernah benar-benar terpecah menjadi berbagai sosok itu. Dari awal hingga akhir, di balik semuanya, dia tetap orang yang sama ... seseorang yang dibekukan musim dingin sampai ke tulang, dan terus menggenggam apa pun yang masih tersisa dalam jangkauannya.\n...\nOdette menyelinap pelan menuju pintu belakang Korolevskiy Theater.\nDi ruang latihan tari, ia mengenakan sepatu balet tanpa menyalakan lampu. Cahaya bulan yang dingin merembes masuk melalui jendela tinggi, membelah lantai menjadi dua bagian terang dan gelap, bagai bilah pisau.\nDia menari di tengah cahaya putih dingin yang berkelap-kelip. Ini adalah salah satu dari sedikit waktu yang sepenuhnya menjadi miliknya.\nTanpa musik, tanpa suara tongkat ibunya, apalagi langkah kaki ayahnya. Hanya napasnya sendiri dan suara lembut ujung kaki yang menyentuh lantai. Gerakannya improvisasi, tanpa koreografi, dan bukan untuk penonton mana pun.\nKeringat dan air matanya menyatu seiring putarannya yang makin cepat. Dia berjuang, dia berharap, dia mengungkapkan isi hatinya, dia menari.\nDan mungkin, jika ada serpih salju yang melayang masuk lewat jendela dan berhenti untuk melihat, serpih itu pun akan sulit percaya pada desas-desus tersebut.\nPrima ballerina Rombongan Teater Korolevskiy ini ternyata tidak sedingin yang dikabarkan."
+      },
+      {
+        "Title": "Sebuah Foto Lama yang Buram",
+        "Context": "Kecintaan Violetta terhadap balet tidak kalah dari apa pun. Setelah Odette bertekad untuk belajar balet, tuntutan Violetta kepada putrinya jauh lebih ketat dibandingkan guru biasa. Di mata Odette yang masih kecil, mendapatkan satu kalimat pujian dari sang ibu bukanlah hal yang mudah.\nOdette selalu mengingat hari itu, saat pertama kali ia berhasil menyelesaikan satu putaran penuh di atas ujung jari kaki. Gerakannya sedikit miring, belum sempurna, namun benar-benar berhasil menyelesaikan satu putaran penuh. Ibunya, yang biasanya langsung mengoreksi, kali ini justru tidak segera memperbaiki posisi akhir kakinya. Ia berhenti sejenak, lalu sudut bibirnya sedikit terangkat.\n\"Bagus. Kemajuanmu sangat pesat.\"\nAyahnya sampai berdiri karena terlalu bersemangat.\n\"Sekali lagi! Tunggu, aku harus—\" Dengan panik dia menggeledah Kamera lama di lemari dinding, \"Jangan bergerak, jangan bergerak! Pertahankan pose itu!\"\n\"Dia bukan boneka putar di kotak musik, bagaimana mau mempertahankan posisi itu?\" Sang ibu menggeleng tak berdaya.\nAkhirnya foto itu pun jadi buram.\nSosok Odette nyaris hanya terlihat sebagai bayangan samar yang tersenyum. Sementara itu, ibunya tertangkap kamera dengan satu tangan terangkat ke bibir, seolah sedang menahan tawa. Ayahnya belum sempat menyusul mereka saat rana kamera berbunyi, hingga yang tertinggal hanya bayangan tubuhnya yang kabur karena tergesa-gesa. Sebaliknya, nyala api di perapian justru tertangkap dengan sangat jelas.\nNamun Ayah dengan serius tetap memasukkan foto itu ke dalam jam sakunya.\n\"Ini adalah foto keluarga paling berkesan yang kita miliki sampai saat ini, mengabadikan momen tumbuhnya si kursi utama kecil,\" ujarnya dengan serius, \"Foto-foto seperti ini akan semakin banyak ke depannya.\"\nMasa kecil Odette tersusun dari kepingan-kepingan seperti itu ... bimbingan Ibu yang tegas namun penuh kesabaran, tepuk tangan Ayah yang tak pernah absen, gemeretak api di perapian, dan saat beristirahat mereka bertiga berdesakan di sofa beludru sambil berbagi sepotong kue Medovik yang sangat manis. Ayah selalu memilihkan potongan terbesar untuknya, sementara Ibu mencolek ujung hidungnya ketika ia serakah mengulurkan kedua tangan.\nSaat Odette kembali melihat foto lama yang buram itu, sang ibu sudah duduk di kursi roda, menatap dengan tenang ke arah salju lebat yang berjatuhan di luar jendela. Angin meraung, seolah bersumpah akan meniupkan semua salju yang dingin itu masuk ke dalam rumah. Gerakan tangan Odette saat menari selalu tepat dan ringan, namun di saat itu, ia merasa kedua tangannya begitu berat hingga tak bisa diangkat. Ia menggigit bibir dan mengerahkan seluruh tenaganya, hingga akhirnya berhasil membuka jam saku tua yang berkarat dan bernoda darah itu ...\nMusim dingin di Snezhnaya terasa tiada akhirnya, seolah hendak mengubur semua harapan, seolah musim semi tidak akan pernah datang."
+      },
+      {
+        "Title": "Stellar Linchpin",
+        "Context": "Setelah bergabung dengan Fatui, kekanak-kanakan yang terpancar dari wajah Odette pun perlahan sirna.\nSiang hari diisi dengan latihan dasar balet, sementara malam hari menjadi waktu latihan Fatui yang tak bisa diganggu gugat. Ia melompat dari satu sisi ke sisi lainnya, berusaha mencuri waktu untuk menarik napas di antara dua jadwal yang padat.\nAwalnya, tubuhnya masih memberi peringatan yang mudah dikenali ... nyeri menusuk yang tak tertahankan di pergelangan kaki, bunyi kecil dari lutut setiap kali ia melompat, lalu memar di bawah tulang rusuk akibat terbentur saat misi yang tak kunjung hilang. Rasa sakit datang mengantre, satu demi satu.\nIa tidak menghiraukan itu semua, hanya membalut lebih kencang, menambah lapisan pelindung, memaksakan rasa sakit itu kembali ke dalam, lalu menguburnya dengan latihan yang lebih keras.\nSelama periode itu, sang ibu menyadari bahwa intensitas latihannya meningkat drastis, seolah ia sedang berusaha membuktikan sesuatu dengan tergesa-gesa. Dan setiap kali sang ibu mencoba menasihatinya, jawaban Odette selalu sama: \"Tidak apa-apa.\"\nDalam setiap sesi latihan yang hampir menyakiti dirinya sendiri, kepekaan terhadap rasa sakitnya semakin tumpul, hingga akhirnya rasa sakit itu menghilang.\nLatihan tempur malam itu berakhir sangat larut. Setelah kembali ke kamarnya, Odette yang lelah melepas jubah penutup anginnya, dan saat menunduk, ia melihat perban yang melilit kakinya telah basah oleh warna gelap. Darah yang keluar jauh lebih banyak dari biasanya. Luka lamanya telah kembali terbuka.\nIa menatapnya beberapa detik.\nTidak ada rasa apa-apa, seperti melihat luka orang lain.\nDia menekan perlahan sambil menambah tenaga sampai otot itu membentuk cekungan ... tetapi kakinya sama sekali tidak bergerak.\nDia sama sekali tidak merasakan rasa sakit.\nOdette terdiam sejenak, membalut kembali perbannya, lalu duduk tenang dalam kegelapan untuk waktu yang lama.\nMulai sekarang, dia tidak perlu lagi mematikan indranya atau menutup perasaannya. Apa pun jenis latihannya, dia bisa bertahan lebih lama.\nIa bahkan merasa sedikit lega. Dengan begini, impian untuk menjadi prima balerina di Rombongan Teater Korolevskiy seharusnya bisa segera terwujud.\na menari dan terus menari tanpa kenal lelah. Dalam tiap putaran dan lompatan, ujung kakinya yang menegang melintasi setiap babak balet dan setiap khayalan yang lahir dari cinta.\nIa berpindah dari satu peran ke peran berikutnya dengan begitu luwes ... seorang nona sempurna, putri bangsawan, burung air seanggun embun beku di kala fajar, serta penari yang membara bagai mentari musim panas. Ia menjelma menjadi putri yang cantik bak merak, Anli yang merupakan rekan Reed Miller si pencuri ulung, Coppelia, dan Odelya.\nNamun semua itu bukanlah \"Odette\".\nKalau begitu, seperti apa hidupku yang harus kujalani?\nTirai pun turun, dan suara yang tak diketahui siapa pun perlahan bangkit di dalam hati.\nMereka bilang, dunia baru pasti akan tiba. Jika orang-orang di dunia baru kelak mengangkat kisah hidupku ke atas panggung, aku ingin mereka menggambarkanku sebagai sosok seperti apa?\nIa tidak tahu. Pembuka sebuah pertunjukan tari seharusnya romantis, atau setidaknya indah. Keluarga yang harmonis, masa kecil yang dipenuhi tawa ... semua itu sudah terasa begitu jauh, bahkan lebih jauh daripada cahaya menyilaukan di atas panggung. Seolah ingin membakar kedua matanya, ia terus menatap cahaya pucat bagai nyala api itu. Namun, ia sadar bahwa sejak lama ia tak lagi mendambakan kehangatan tersebut, ataupun membutuhkan kasih sayang yang semu.\nMiliknya hanyalah penderitaan. Penderitaan yang dingin, menusuk tulang, serta suci dan khidmat seperti angin dan salju yang menderu.\nItulah sahabat sejati yang membentuk \"Odette\", mengasah sekaligus menemaninya paling lama.\nYa, aku ingin agar dunia lama yang telah mati mengingat ketangguhanku.\nDerita adalah sayapku. Aku akan terbang menuju tempat tertinggi dan melihat dunia dari sana. Aku ingin menyaksikan mimpi yang bahkan belum pernah dilihat oleh angsa salju sekalipun. Itulah keinginanku.\nDengan pikiran itu, ia menyipitkan mata, menatap lampu yang tergantung tinggi di atas panggung.\nCahaya itu samar dan berkelip. Terasa begitu jauh, tetapi seolah ada tepat dalam jangkauan.\nSeperti biasanya, kali ini pun dia mempersembahkan tarian dengan segenap tenaga, seolah ingin membiarkan tubuhnya terbakar hingga tak bersisa.\nSetelah tirai panggung turun, ia kembali ke belakang panggung, dan sebuah kristal biru es perlahan terbentuk dalam cahaya redup yang dingin.\nOdette memungutnya dalam diam, lalu mengamatinya di atas telapak tangan. Stellar Linchpin ... sebagai anggota Fatui, ia pernah mendengar samar asal usul benda ini. Namun rasanya berbeda dari yang dibayangkan. Dingin, ringan seolah tak berbobot, seperti setetes air mata yang membeku di tengah badai salju.\nDia tak percaya pada air mata, sebagaimana dia tak percaya pada banyak hal lainnya. Sama seperti rasa nyeri yang telah hilang darinya, dia tak tahu apakah itu belas kasih, anugerah, atau justru kutukan.\nNamun, Odette tahu bahwa apa pun itu, dia akan menerimanya dengan lapang hati. Baginya, sayap itu adalah segalanya, bahkan embun beku dan salju yang menerpa pun pada akhirnya akan menjadi bagian darinya.\nMulai sekarang, tak ada rasa sakit yang mampu membuat pedangnya tertahan, dan tak ada hawa dingin yang mampu memperlambat langkahnya di malam bersalju.\nOdette mengangkat kepala dan menatap langit di luar jendela. Butiran salju jatuh di pipinya yang ia kira telah lama dingin, lalu mencair dalam kehangatan."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 215000,
+      "Name": "Snow Swan's Dance",
+      "Description": "Model pakaian Odette. Sebuah kostum balet berkualitas tinggi yang terinspirasi dari angsa salju, setia menemani sang balerina yang tekun melewati malam-malam panjang tanpa henti. Permata yang menghiasinya berkilau anggun di bawah sorot lampu panggung, memantulkan pesona sang penari yang memukau.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104164,
+    113090,
+    101275,
+    112148,
+    104367,
+    113088
+  ],
+  "NameCard": {
+    "Name": "Odette: The Singular Swan",
+    "Description": "Style Kartu Nama.\nBaik Liyue maupun Snezhnaya sama-sama menganggap angsa sebagai burung yang besar dan angkuh. Namun, di antara kawanan angsa salju yang hidup berkelompok, terdapat satu ekor angsa salju berwarna hitam. Tentu saja, ini hanyalah kisah dari \"Black Snow Swan\".",
+    "Icon": "UI_NameCardIcon_Odette",
+    "PicturePrefix": "UI_NameCardPic_Odette"
+  }
+}

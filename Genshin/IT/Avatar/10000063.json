@@ -308,6 +308,7 @@
         "Id": 10631,
         "Name": "Affondo Albastella",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per attaccare balzando in avanti infliggendo DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -554,6 +555,7 @@
         "Id": 10632,
         "Name": "Evocazione dello spirito primaverile",
         "Description": "#La rugiada gelata, densa e argentata esorcizzerà tutti i demoni.\nGarantisce a tutti i membri del gruppo vicini l'effetto Aculeo di ghiaccio e infligge <color=#99FFFFFF>DAN da Cryo</color> in modo diverso in caso di {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione} o pressione prolungata.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nScatta in avanti insieme a uno Spirito talismano, infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari lungo il percorso.\n\n<color=#FFD780FF>Pressione prolungata</color>\nOrdina allo Spirito talismano di infliggere <color=#99FFFFFF>DAN da Cryo ad area</color>.\n\n<color=#FFD780FF>Aculeo di ghiaccio</color>\nQuando gli attacchi normali, caricati e in picchiata, le abilità elementali e i Tripudi elementali infliggono <color=#99FFFFFF>DAN da Cryo</color> agli avversari, i DAN inflitti aumentano in base all'ATT attuale di Shenhe.\n\nGli effetti di Aculeo di ghiaccio cesseranno al termine della sua durata o dopo un certo numero di attivazioni. Quando si effettua una pressione prolungata anziché {LAYOUT_MOBILE#un tocco rapido}{LAYOUT_PC#una pressione breve}{LAYOUT_PS#una pressione breve}, l'effetto Aculeo di ghiaccio dura di più e si può attivare più volte.\nQuando un'iterazione di <color=#99FFFFFF>DAN da Cryo</color> colpisce più avversari, l'effetto si attiva più volte in base al numero di avversari colpiti. Il numero di volte in cui si attiva l'effetto si calcola singolarmente per ogni membro del gruppo con Aculeo di ghiaccio.\n\n<i>Il potere degli spiriti non è una falsità. Con l'onere dei suoi ordini, la fanciulla divina si affretta a procedere!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Shenhe_01"
       }
     ],
@@ -755,6 +757,7 @@
       "Id": 10635,
       "Name": "Salvezza della divina damigella",
       "Description": "Libera il potere dello Spirito talismano, permettendogli di aggirarsi liberamente in questo piano infliggendo <color=#99FFFFFF>DAN da Cryo ad area</color>.\nLo Spirito talismano crea poi un campo che riduce la <color=#99FFFFFF>RES a Cryo</color> e la RES fisica degli avversari dentro di esso. Infligge inoltre <color=#99FFFFFF>DAN da Cryo</color> agli avversari all'interno del campo.\n\n<i>La via degli Adepti non è definita esclusivamente dal misterioso e dal fantastico. Solo osservando i cambiamenti nei cieli e nella terra, e comprendendo le leggi di causa ed effetto in questo regno, la sua essenza può essere compresa.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Shenhe_01"
     },
     "Inherents": [
@@ -776,6 +779,7 @@
         "Id": 632101,
         "Name": "Abbraccio deifico",
         "Description": "Un personaggio attivo nel campo creato da <color=#FFD780FF>Salvezza della divina damigella</color> ottiene un 15% di <color=#99FFFFFF>bonus DAN da Cryo</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shenhe_05"
       },
       {
@@ -799,6 +803,7 @@
         "Id": 632201,
         "Name": "Sigillo di comunione dello spirito",
         "Description": "#Dopo aver usato <color=#FFD780FF>Evocazione dello spirito primaverile</color>, Shenhe conferisce a tutti i membri del gruppo vicini i seguenti effetti:\n· {LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}: DAN da abilità elementale e Tripudio elementale aumentati di un 15% per 10{NON_BREAK_SPACE}s;\n· Pressione prolungata: DAN da attacco normale, caricato e in picchiata aumentati di un 15% per 15{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shenhe_06"
       },
       {
@@ -817,6 +822,7 @@
         "Id": 632301,
         "Name": "Puntualità esemplare",
         "Description": "Ottiene un 25% in più di ricompense quando intraprende una spedizione a Liyue per 20 ore.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Liyue"
       }
     ],

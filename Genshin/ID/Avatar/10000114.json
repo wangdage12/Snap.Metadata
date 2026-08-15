@@ -308,6 +308,7 @@
         "Id": 11141,
         "Name": "Havoc: Sunder",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melemparkan tombak kristal berputar dan mengakibatkan DMG pada musuh di depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -649,6 +650,7 @@
         "Id": 11142,
         "Name": "Havoc: Warp",
         "Description": "Meniru gaya pertempuran \"The Foul\", dan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nSkirk mendapatkan 45 poin {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} dan beralih ke mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK}.\n\n<color=#FFD780FF>Mode Tahan</color>\nSkirk mendapatkan 45 poin Serpent's Subtlety dan terus bergerak dengan cepat. Dalam status ini, ketahanan Skirk terhadap interupsi juga akan meningkat.\nDalam status ini, Skirk dapat mengontrol arah pergerakannya dan bergerak di atas air. Lancarkan Elemental Skill sekali lagi untuk mengakhiri status bergerak cepat ini lebih awal.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_SkirkNew_01"
       }
     ],
@@ -879,6 +881,7 @@
       "Id": 11145,
       "Name": "Havoc: Ruin",
       "Description": "Elemental Burst Skirk tidak menggunakan Energy, melainkan menggunakan {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK}.\nSaat Skirk memiliki minimal 50 poin Serpent's Subtlety, Skirk dapat mengonsumsi seluruh Serpent's Subtlety untuk melancarkan Elemental Burst, mengoyak ruang di hadapannya dan melancarkan tebasan beruntun secara cepat yang mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>. Di saat yang sama, DMG yang diakibatkan Elemental Burst kali ini akan meningkat berdasarkan jumlah poin Serpent's Subtlety yang melebihi 50 poin. Setiap 1 poinnya akan meningkatkan DMG Elemental Burst kali ini. Peningkatan DMG ini hanya bisa menghitung maksimum 12 poin Serpent's Subtlety.\n\nSaat Skirk berada dalam mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK}, Havoc: Ruin akan berubah menjadi Havoc: Extinction.\n\n<color=#FFD780FF>Havoc: Extinction</color>\nElemental Burst spesial yang bisa dilancarkan tanpa mengonsumsi Serpent's Subtlety.\nSetelah dilancarkan, Skirk akan mendapatkan efek \"All Shall Wither\" yang berlangsung hingga mode Seven-Phase Flash berakhir. Setelah membuka Talenta Ascension {LINK#N11130007}<color=#FFD780FF>Reason Beyond Reason</color>{/LINK}, dia juga bisa menyerap Void Rift yang ada di sekitarnya dalam radius tertentu.\nSelama efek \"All Shall Wither\" berlangsung, setiap 0,1 detik, Normal Attack Skirk yang mengenai musuh akan mendapatkan peningkatan DMG. Jika Skirk menyerap Void Rift saat melancarkan <color=#FFD780FF>Havoc: Extinction</color>, maka DMG Normal Attack kali ini akan meningkat lebih lanjut berdasarkan jumlah Void Rift yang diserap.\nEfek ini akan hilang setelah terpicu 10 kali.",
+      "SpecialEnergyType": 2,
       "Icon": "Skill_E_SkirkNew_01"
     },
     "Inherents": [
@@ -899,7 +902,8 @@
         },
         "Id": 1142101,
         "Name": "Reason Beyond Reason",
-        "Description": "Saat Karakter di dalam party memicu reaksi Frozen, Superconduct, Cryo Swirl, atau Cryo Crystallize terhadap musuh di sekitar, akan tercipta sebuah Void Rift di sekitar musuh tersebut. Efek ini dapat terpicu sekali setiap 2,5 detik, dan maksimum 3 Void Rift dapat tercipta di medan pertempuran dalam satu waktu.\n\nSkirk bisa menyerap Void Rift di sekitarnya dengan cara berikut:\n·Saat Charged Attack yang dilancarkan Skirk dalam mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mengenai musuh.\n·Saat melancarkan Elemental Burst spesial <color=#FFD780FF>Havoc: Extinction</color> dalam mode Seven-Phase Flash.\n·Saat menahan tombol Elemental Skill <color=#FFD780FF>Havoc: Warp</color> untuk bergerak dengan cepat.\n\nSetiap Void Rift yang diserap akan memberikan Skirk 8 poin {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK}.",
+        "Description": "Saat Karakter party di sekitar memicu reaksi Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, atau Cryo Crystallize terhadap musuh, akan tercipta sebuah Void Rift di sekitar musuh tersebut. Efek ini dapat terpicu sekali setiap 2,5 detik, dan Skirk sendiri hanya dapat menciptakan maksimum 3 Void Rift di medan pertempuran dalam waktu bersamaan.\n\nSkirk bisa menyerap Void Rift di sekitarnya dengan cara berikut:\n·Saat Charged Attack yang dilancarkan Skirk dalam mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mengenai musuh.\n·Saat melancarkan Elemental Burst spesial <color=#FFD780FF>Havoc: Extinction</color> dalam mode Seven-Phase Flash.\n·Saat menahan tombol Elemental Skill <color=#FFD780FF>Havoc: Warp</color> untuk bergerak dengan cepat.\n\nSetiap Void Rift yang diserap akan memberikan Skirk 8 poin {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_05"
       },
       {
@@ -926,6 +930,7 @@
         "Id": 1142201,
         "Name": "Return to Oblivion",
         "Description": "Saat serangan <color=#80C0FFFF>Hydro</color> milik Karakter <color=#80C0FFFF>Hydro</color> dalam party di sekitar mengenai musuh, atau saat serangan <color=#99FFFFFF>Cryo</color> milik Karakter <color=#99FFFFFF>Cryo</color> dalam party di sekitar mengenai musuh, maka Skirk akan mendapatkan satu lapis efek \"Death's Crossing\" selama 20 detik. \"Death's Crossing\" dapat ditumpuk hingga 3 lapis dan durasi setiap lapisannya dihitung terpisah.\nSetiap Karakter hanya bisa memberikan efek Death's Crossing sebanyak 1 kali kepada Skirk dengan cara ini.\nSetiap lapis Death's Crossing memberikan efek: Normal Attack Skirk dalam mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} akan mengakibatkan 110%/120%/170% dari DMG awalnya, Elemental Burst <color=#FFD780FF>Havoc: Ruin</color> juga mengakibatkan 105%/115%/160% dari DMG awalnya.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_06"
       },
       {
@@ -944,6 +949,7 @@
         "Id": 1142301,
         "Name": "Mutual Weapons Mentorship",
         "Description": "Saat jenis elemen seluruh anggota party adalah <color=#80C0FFFF>Hydro</color> atau <color=#99FFFFFF>Cryo</color>, dan setidaknya ada 1 Karakter Hydro dan Cryo, maka level <color=#FFD780FF>Elemental Skill</color> milik Karakter sendiri di dalam party meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_08"
       }
     ],

@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "Lança Demoníaca Pocztowy",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um golpe em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "Lei Antiga: Segredo da Lanterna Solitária",
         "Description": "Flins invoca o poder antigo contido em sua lâmpada, e troca para o modo <color=#FFD780FF>Chama da Manifestação</color>. Nesse modo, ele possui as seguintes características:\n· Os Ataques Normais e Carregados de Flins passam a causar <color=#FFACFFFF>Dano Electro</color> que não pode ser substituído, e não é mais possível realizar Ataques Imersivos.\n· Aumenta a RES contra Interrupção de Flins.\n· Sua Habilidade Elemental <color=#FFD780FF>Lei Antiga: Segredo da Lanterna Solitária</color> será substituída pela Habilidade Elemental Especial <color=#FFD780FF>Lança Tempestuosa do Norte</color>.\n\n<color=#FFD780FF>Lança Tempestuosa do Norte</color>\nFlins invoca uma formação de lanças em sua frente, causando <color=#FFACFFFF>Dano Electro em AdE</color> e, nos próximos 6s seguintes, substitui o Supremo de Flins <color=#FFD780FF>Ritual Antigo: Visita Noturna</color> pelo Supremo especial {LINK#N11200001}<color=#FFD780FF>Sinfonia Trovejante</color>{/LINK}.\nA recarga base de <color=#FFD780FF>Lança Tempestuosa do Norte</color> é de 6s, essa recarga não é afetada por outros efeitos.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "Ritual Antigo: Visita Noturna",
       "Description": "Flins lança o poder real de sua lâmpada, causando <color=#FFACFFFF>Dano Electro em AdE</color>, e depois de um intervalo curto, causa <color=#FFACFFFF>Dano Electro em AdE</color> que divide-se em duas vezes de Fase Intermediária, e uma vez final é considerada Dano de Carga Lunar.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <color=#FFACFFFF>Dano Electro em AdE</color> de Fase Intermediária que é considerado Dano de Carga Lunar duas vezes adicionais.\n\nNos 6s depois de lançar a Habilidade Elemental especial <color=#FFD780FF>Lança Tempestuosa do Norte</color>, o Supremo de Flins <color=#FFD780FF>Ritual Antigo: Visita Noturna</color> será substituído pelo Supremo especial <color=#FFD780FF>Sinfonia Trovejante</color>.\n\n<color=#FFD780FF>Sinfonia Trovejante</color>\nUm Supremo especial que consome menos Energia Elemental para ser lançado. Flins causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez adicional.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "Sinfonia do Inverno",
         "Description": "De acordo com o <color=#FFD780FF>Presságio Lunar</color> da equipe, Flins obtém um fortalecimento correspondente.\n\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: aumenta o Dano de Carga Lunar de Flins em 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "Murmúrios Flamejantes",
         "Description": "Aumenta a Proficiência Elemental de Flins em 8% de seu ATQ. O aumento máximo obtido dessa forma é 160.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "Bênção do Presságio Lunar: Mundo Antigo Sob as Sombras",
         "Description": "Quando um membro da equipe desencadeia uma Reação Eletricamente Carregada, ela será convertida em Carga Lunar. A cada 100 de ATQ que Flins possuir, o Dano Básico de Carga Lunar será aumentado em 0,7% para o personagem que a causou, até um máximo de 14%.\nAlém disso, quando Flins está na equipe, aumenta o <color=#FFD780FF>Presságio Lunar</color> da equipe em 1 nível.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "Caminhada na Escuridão",
         "Description": "Mostra a localização de <color=#FFD780FF>Especialidades de Nod-Krai</color> próximas no mapa.\nAlém disso, Flins parece poder decifrar os sussurros das Caçada Feroz...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Toque floral filoáureo",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para desatar un doble golpe de espada.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Manifestación terraceleste",
         "Description": "Evoca un fragmento de sus antiguos poderes y cambia al modo {LINK#N11260001}<color=#FFD780FF>intersticio faselunar</color>{/LINK}.\nEn este modo, el daño de los Ataques Normales y Cargados de Zibai se convierte en <color=#FFE699FF>Daño Geo</color>, el cual no puede sustituirse imbuyéndose de otro elemento, y también podrá acumular un <color=#FFD780FF>fulgor intersticial</color> especial de diferentes maneras. Zibai podrá consumir el fulgor intersticial para usar la Habilidad Elemental especial <color=#FFD780FF>Pisotón yeguaespiritual</color>.\n\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color>\nCuando Zibai esté en modo <color=#FFD780FF>intersticio faselunar</color>, el cuarto golpe de su Ataque Normal infligirá <color=#FFE699FF>Daño Geo</color> una vez más. Este daño se considera daño de Cristalización Lunar.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Majestuosidad de los tres recintos",
       "Description": "#Zibai despliega un dosel divino e inflige dos golpes de <color=#FFE699FF>Daño Geo</color>. El segundo golpe se considera daño de Cristalización Lunar.\nSi Zibai está en el modo {LINK#N11260001}<color=#FFD780FF>intersticio faselunar</color>{/LINK} al usar esta habilidad, la duración de dicho modo se prolongará en 1.7{NON_BREAK_SPACE}s.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "Descenso de la Adeptus lunar",
         "Description": "#Cuando usa la Habilidad Elemental, <color=#FFD780FF>{LINK#S11262}Manifestación terraceleste{/LINK}</color>, o cuando un personaje cercano del equipo activa la resonancia lunar, Zibai obtiene el efecto de <color=#FFD780FF>descenso lunar</color> durante 4{NON_BREAK_SPACE}s, el cual aumenta el daño del segundo golpe de {LINK#N11260001}<color=#FFD780FF>Pisotón yeguaespiritual</color>{/LINK} en una cantidad equivalente al 60% de su DEF.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Cumbres perforanubes",
         "Description": "#Por cada personaje <color=#FFE699FF>Geo</color> (a excepción de Zibai) que haya en el equipo, la DEF de Zibai aumenta en un 15%. Por cada personaje <color=#80C0FFFF>Hydro</color> que haya en el equipo, la Maestría Elemental de Zibai aumenta en 60{NON_BREAK_SPACE}pts.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Bendición presagiolunar: Fluir del sol y la luna",
         "Description": "#Cuando un personaje del equipo cause una reacción de Cristalización Hydro, esta se transformará en una reacción de Cristalización Lunar. El daño base de las reacciones de Cristalización Lunar de los personajes del equipo aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de DEF que tenga Zibai. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\n\nAdemás, cuando Zibai esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Flores bañadas por la luna",
         "Description": "#Zibai recupera 1{NON_BREAK_SPACE}pt. de Energía Elemental cada 2{NON_BREAK_SPACE}s cuando no está en combate por la noche (18-06{NON_BREAK_SPACE}h).\nEste efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

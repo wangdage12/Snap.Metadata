@@ -323,6 +323,7 @@
         "Id": 10024,
         "Name": "École Kamisato : Sveltesse",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher deux lames du vent rapides.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10018,
         "Name": "École Kamisato : Fleur de glace",
         "Description": "Ayaka invoque une fleur glacée qui projette les ennemis proches, leur infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<i>« Les nuages enveloppent la lune, le désir descend tel un brouillard, emplissant le cœur du voyageur. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ayaka_01"
       },
       {
@@ -485,6 +487,7 @@
         "Id": 10013,
         "Name": "École Kamisato : Sentier de givre",
         "Description": "<color=#FFD780FF>Sprint alternatif</color>\nAyaka consomme de l'endurance pour se déplacer rapidement au milieu d'un brouillard de glace.\n\nSous Sentier de givre, Ayaka peut se déplacer rapidement sur l'eau.\nÀ la fin de l'état, elle réapparaît, et deux choses se produisent alors simultanément :\n· Elle libère une énergie glacée qui applique aux ennemis proches l'<color=#99FFFFFF>élément Cryo</color>.\n· Le froid se concentre sur son épée : les DGT qu'inflige cette dernière sont momentanément convertis en <color=#99FFFFFF>DGT Cryo</color>.\n\n<i>« Volent les ailes mouillées ; le héron blanc marche sur l'eau ; d'une vision parfaite »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ayaka_02"
       }
     ],
@@ -670,6 +673,7 @@
       "Id": 10019,
       "Name": "École Kamisato : Givre mortel",
       "Description": "Ayaka adopte une posture magnifique pour libérer un tourbillon givré qui avance sans s'arrêter.\n\n<color=#FFD780FF>Tourbillon givré</color>\n· Le tourbillon givré lacère de façon continue les ennemis qui se trouvent sur sa route, infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n· Le tourbillon finit par exploser, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<i>« Le blizzard dissimule les pensées du héron, au cœur rempli de pitié. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ayaka"
     },
     "Inherents": [
@@ -692,6 +696,7 @@
         "Id": 22101,
         "Name": "Sanctification de l'impur",
         "Description": "Confère aux attaques normales et chargées d'Ayaka suivant dans les 6 s le lancement d'<color=#FFD780FF>École Kamisato : Fleur de glace</color> un bonus de 30 % de DGT.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ayaka_05"
       },
       {
@@ -714,6 +719,7 @@
         "Id": 22201,
         "Name": "Bénédiction de Kanten Senmyou",
         "Description": "L'énergie glacée libérée à la fin du Sentier de givre d'<color=#FFD780FF>École Kamisato : Sentier de givre</color> confère à Ayaka les effets suivants lorsqu'elle touche l'ennemi :\nRégénération de 10 pts d'endurance.\n<color=#99FFFFFF>Bonus de DGT Cryo</color> de 18 % pendant 10 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ayaka_06"
       },
       {
@@ -735,6 +741,7 @@
         "Id": 22301,
         "Name": "Fruits de Shinsa",
         "Description": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'élévation d'arme.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],

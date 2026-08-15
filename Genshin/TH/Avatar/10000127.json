@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Oathkeeper's Spear",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nโจมตีด้วยหอกต่อเนื่องมากสุด 4 ครั้ง\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายส่วนหนึ่งเพื่อพุ่งตัวไปข้างหน้า และสร้างความเสียหายแก่ศัตรูที่อยู่ในเส้นทาง\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Dawnbearing Songbird",
         "Description": "#เรียกนกสื่อสาร \"Aedon\" ที่ต่อสู้เคียงบ่าเคียงไหล่ออกมา ทำให้เกิดเอฟเฟกต์ที่แตกต่างกันไป โดยขึ้นกับการ{LAYOUT_MOBILE#แตะ}{LAYOUT_PC#กด}{LAYOUT_PS#กด} หรือ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}\n\n<color=#FFD780FF>{LAYOUT_MOBILE#แตะ}{LAYOUT_PC#กด}{LAYOUT_PS#กด}</color>\nAedon จะพุ่งเข้าหาศัตรูที่อยู่ข้างหน้า สร้าง<color=#FFE699FF>ความเสียหายหิน</color>แก่ศัตรูที่มันสัมผัสโดน\n\n<color=#FFD780FF>{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}</color>\nทำการเล็ง และทำให้ Aedon พุ่งเข้าหาศัตรูที่เล็งไว้ สร้าง<color=#FFE699FF>ความเสียหายหิน</color>แก่ศัตรูที่มันสัมผัสโดน",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Shadowless Reflection",
       "Description": "ส่องไฟให้สว่าง สร้าง<color=#FFE699FF>ความเสียหายหินวงกว้าง</color> และได้รับเอฟเฟกต์ \"Haunted Night's Oriole-Song\" เป็นเวลา 20 วินาที: ในช่วงเวลาต่อเนื่อง Illuga จะได้รับ {LINK#N11270001}<color=#FFD780FF>Nightingale's Song (บทเพลงไนติงเกล)</color>{/LINK} 21 ชั้น เมื่อตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้นที่อยู่ใกล้เคียง ใช้การโจมตีปกติ, ชาร์จโจมตี, โจมตีพุ่งลงจากอากาศ, สกิลธาตุ หรือท่าไม้ตาย สร้าง<color=#FFE699FF>ความเสียหายหิน</color>แก่ศัตรู จะใช้ Nightingale's Song 1 ชั้น เพื่อเพิ่มความเสียหายที่สร้างขึ้น โดยค่าที่เพิ่มขึ้นขึ้นอยู่กับความชำนาญธาตุของ Illuga; หากความเสียหายนั้นเกิดจากปฏิกิริยาตกผลึกจันทรา จะเพิ่มความเสียหายที่สร้างขึ้นมากยิ่งขึ้น\nเมื่อ<color=#FFE699FF>ความเสียหายหิน</color>ที่สร้างขึ้นด้วยวิธีข้างต้นโดนศัตรูหลายตัวพร้อมกัน จะใช้จำนวนชั้นของ Nightingale's Song ตามจำนวนศัตรูที่โดนโจมตี\n\nนอกจากนี้ เมื่อ Illuga อยู่ในสนาม และมี<color=#FFE699FF>วัตถุที่สร้างขึ้นจากธาตุหิน</color> ที่สร้างโดยตัวละครในทีมที่อยู่ใกล้เคียง แล้วใช้ท่าไม้ตาย หรือตัวละครในทีมที่อยู่ใกล้เคียงสร้าง<color=#FFE699FF>วัตถุที่สร้างขึ้นจากธาตุหิน</color>ภายในช่วงเวลาต่อเนื่องของ Haunted Night's Oriole-Song แต่ละ<color=#FFE699FF>วัตถุที่สร้างขึ้นจากธาตุหิน</color>ทุก 1 อันที่อยู่ในสนามจะทำให้ Illuga ได้รับ Nightingale's Song เพิ่ม 5 ชั้น โดยภายใน 20 วินาทีหลังจากใช้ท่าไม้ตายแต่ละครั้ง Illuga สามารถรับ Nightingale's Song เพิ่มเติมด้วยวิธีนี้สูงสุด 15 ชั้น\n\nเมื่อจำนวนชั้นของ Nightingale's Song ถูกใช้จนหมด หรือสิ้นสุดช่วงเวลาต่อเนื่อง เอฟเฟกต์ Haunted Night's Oriole-Song จะถูกยกเลิก",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Torchforger's Covenant",
         "Description": "หลังจากใช้สกิลธาตุ <color=#FFD780FF>{LINK#S11272}Dawnbearing Songbird{/LINK}</color> หรือท่าไม้ตาย <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color> ตัวละครอื่น ๆ ในทีมที่อยู่ใกล้เคียงจะได้รับเอฟเฟกต์ Lightkeeper's Oath เป็นเวลา 20 วินาที: <color=#FFE699FF>ความเสียหายหิน</color>ที่สร้างแก่ศัตรูมีอัตราคริเพิ่มขึ้น 5%, ความแรงคริเพิ่มขึ้น 10%\n\n<color=#FFD780FF>ลัคนาจันทร์ - จรัสแสง</color> \nความชำนาญธาตุของตัวละครที่อยู่ภายใต้ผลของเอฟเฟกต์ Lightkeeper's Oath เพิ่มขึ้น 50 หน่วย",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "Demonhunter's Dusk",
         "Description": "เอฟเฟกต์ {LINK#N11270001}<color=#FFD780FF>Nightingale's Song (บทเพลงไนติงเกล)</color>{/LINK} ได้รับการเสริมพลัง: เมื่อในทีมมีตัวละคร<color=#80C0FFFF>ธาตุน้ำ</color>หรือ<color=#FFE699FF>ธาตุหิน</color> 1/2/3 ตัว Nightingale's Song จะเพิ่มความเสียหายที่สร้างขึ้นอีกขั้น โดยค่าที่เพิ่มขึ้นจะเท่ากับ 7%/14%/24% ของความชำนาญธาตุของ Illuga; หากความเสียหายดังกล่าวเกิดจากปฏิกิริยาตกผลึกจันทรา ค่าที่เพิ่มขึ้นจะเท่ากับ 48%/96%/160% ของความชำนาญธาตุของ Illuga",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Moonsign Benediction: Unwithering in Winter",
         "Description": "เมื่อ Illuga อยู่ในทีม <color=#FFD780FF>ลัคนาจันทร์</color>ของทีมจะเพิ่มขึ้น 1 ระดับ",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Night Warden's Stride",
         "Description": "ในตอนกลางคืน (18:00 น. - 6:00 น.) ตัวละครในทีมของตัวเองจะได้รับเอฟเฟกต์ความเร็ว: ความเร็วในการเคลื่อนที่เพิ่มขึ้น 10%\nเอฟเฟกต์ดังกล่าวจะไร้ผล เมื่ออยู่ในดันเจี้ยน, Trounce Domain, Spiral Abyss เอฟเฟกต์ความเร็วไม่สามารถซ้อนทับได้\nนอกจากนี้ Illuga ยังดูเหมือนจะเข้าใจเสียงกระซิบของ การล่าอันบ้าคลั่งด้วย...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Cascada rociolunar",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nInvoca las mareas de la luz lunar para realizar hasta 3 ataques que infligen <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para infligir <color=#80C0FFFF>Daño Hydro en el AdE</color> tras un breve periodo de canalización.\nSi tiene al menos 1 gota de {LINK#N11190008}<color=#FFD780FF>rocío de la espesura</color>{/LINK}, el Ataque Cargado de Colombina se remplaza por el Ataque Cargado especial <color=#FFD780FF>Ablución rociolunar</color>, el cual no consume Aguante. Este ataque consumirá 1 gota de rocío de la espesura para asestar 3 golpes de <color=#99FF88FF>Daño Dendro en el AdE</color> considerado como daño de Florecimiento Lunar a los enemigos que tenga enfrente.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Mareas inmemoriales",
         "Description": "Llama a las mareas lunares para infligir <color=#80C0FFFF>Daño Hydro en el AdE</color> e invocar un {LINK#N11250001}<color=#FFD780FF>oleaje gravitacional</color>{/LINK}.\nEl <color=#FFD780FF>oleaje gravitacional</color> seguirá al personaje en uso e infligirá <color=#80C0FFFF>Daño Hydro en el AdE</color> continuamente a los enemigos cercanos. Mientras el <color=#FFD780FF>oleaje gravitacional</color> esté activo, cuando un personaje cercano del equipo cause una Reacción Lunar o inflija daño de Reacción Lunar, Colombina acumulará una <color=#FFD780FF>fuerza gravitatoria</color> especial. Al alcanzar la cantidad máxima, se infligirá daño de diferentes tipos a los enemigos según la Reacción Lunar que más <color=#FFD780FF>fuerza gravitatoria</color> haya otorgado a Colombina.\n\n<color=#FFD780FF>Presagio lunar: resplandor ascendente</color>\nEl <color=#FFD780FF>oleaje gravitacional</color> infligirá <color=#80C0FFFF>Daño Hydro en el AdE</color> en un área más grande.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Nostalgia de la luz lunar",
       "Description": "Las montañas y las mareas se unen bajo la argéntea luz de la inmaculada Luna Nueva. Colombina transforma temporalmente el terreno a su alrededor en un {LINK#N11250002}<color=#FFD780FF>dominio lunar</color>{/LINK} e inflige <color=#80C0FFFF>Daño Hydro en el AdE</color>.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Delirio selénico",
         "Description": "#Al activar una {LINK#N11250001}<color=#FFD780FF>interferencia gravitacional</color>{/LINK}, Colombina obtiene el efecto de “tentación lunar”, el cual aumenta su Prob. CRIT en un 5% durante 10{NON_BREAK_SPACE}s. Este efecto puede acumularse hasta 3 veces.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "La ley de la Luna Nueva",
         "Description": "#Cuando un personaje que se encuentre en el {LINK#N11250002}<color=#FFD780FF>dominio lunar</color>{/LINK} cause una Reacción Lunar, obtendrá los siguientes efectos respectivamente:\n·<color=#FFD780FF>Electrocargado Lunar</color>: cuando una nube de tormenta descargue un rayo sobre un objetivo válido, habrá un 33% de probabilidad de que descargue otro rayo adicional.\n·<color=#FFD780FF>Florecimiento Lunar</color>: causar una reacción de Florecimiento Lunar otorga al equipo 1 gota de {LINK#N11250003}<color=#FFD780FF>rocío cumbreluna</color>{/LINK} especial. El equipo podrá obtener un máximo de 3 gotas de rocío cumbreluna cada 18{NON_BREAK_SPACE}s de esta manera.\n·<color=#FFD780FF>Cristalización Lunar</color>: al activar la resonancia lunar, cada pilar lunar tendrá un 33% de probabilidad de realizar un ataque adicional.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Bendición presagiolunar: Yo te brindo mi luz",
         "Description": "#Cuando un personaje del equipo cause una reacción de Electrocargado, Florecimiento o Cristalización Hydro, esta se transformará en una reacción de Electrocargado Lunar, Florecimiento Lunar o Cristalización Lunar, respectivamente. El daño base de las Reacciones Lunares de los personajes del equipo aumentará en un 0.2% por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Colombina. Como máximo, dicho daño puede aumentar en un 7% de esta manera.\n\nAdemás, cuando Colombina esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Custodia de la luna",
-        "Description": "#Cuando uno de tus personajes del equipo sea derrotado en Nod Krai, Colombina revivirá a dicho personaje y le restaurará cierta cantidad de Vida según el Niv. de Amistad de Colombina. Este efecto solo puede ocurrir una vez cada 100{NON_BREAK_SPACE}s. Este efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo.\nAdemás, parece que Colombina tiene un vínculo especial con algunos animales pequeños afectados por el kuuvahki...",
+        "Description": "#Cuando uno de tus personajes del equipo sea derrotado en Nod Krai o en la Luna Escarchada, Colombina revivirá a dicho personaje y le restaurará cierta cantidad de Vida según el Niv. de Amistad de Colombina. Este efecto solo puede ocurrir una vez cada 100{NON_BREAK_SPACE}s. Este efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo.\nAdemás, parece que Colombina tiene un vínculo especial con algunos animales pequeños afectados por el kuuvahki...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

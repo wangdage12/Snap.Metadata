@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "페보니우스 창술·깨진 맹세",
         "Description": "<color=#FFD780FF>일반 공격</color>\n최대 5번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 전방으로 돌진해 공격한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "기습",
         "Description": "적의 약점을 찾고, {LINK#N11290001}<color=#FFD780FF>기책</color>{/LINK} 상태로 전환한다. 해당 상태일 때:\n·로엔은 능동적으로 {LINK#N11290003}<color=#FFD780FF>희열</color>{/LINK}을 축적해, 특수한 원소전투 스킬 {LINK#N11290002}<color=#FFD780FF>뼈를 꿰뚫는 창</color>{/LINK}을 발동할 수 있다.\n·파티 내 주변의 다른 캐릭터는 로엔을 위해 {LINK#N11290004}<color=#FFD780FF>투쟁심</color>{/LINK}을 축적해, <color=#FFD780FF>뼈를 꿰뚫는 창</color>의 피해를 증가시킨다.\n<color=#FFD780FF>기책</color> 상태에서 <color=#FFD780FF>뼈를 꿰뚫는 창</color>을 최대 3회 발동하면, 이후 더 이상 <color=#FFD780FF>희열</color>을 획득할 수 없다.\n\n<i>「기사도? 하, 그건 확실히 최고의 미끼지. 적이 정정당당한 승부를 꿈꾸는 순간, 어떤 『깜짝선물』이 기다리고 있는지 상상조차 못 할 테니까」</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "마녀의 전야제·치명적인 가시",
         "Description": "<color=#FFD780FF>마녀의 과제·강적</color>을 완료하면, 로엔은 <color=#FFD780FF>마도</color> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <color=#FFD780FF>마도·비밀 의식</color> 효과를 획득해 마도 캐릭터가 강화된다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n특수 원소전투 스킬 {LINK#N11290002}<color=#FFD780FF>뼈를 꿰뚫는 창</color>{/LINK}으로 적 명중 또는 원소폭발 <color=#FFD780FF>징벌자</color> 발동 시, {LINK#N11290004}<color=#FFD780FF>투쟁심</color>{/LINK}이 최대치의 50% 이상일 경우 로엔의 일반 공격과 강공격으로 주는 피해가 40% 증가한다, 지속 시간: 6초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -903,6 +906,7 @@
       "Id": 11295,
       "Name": "징벌자",
       "Description": "전방으로 빠르게 연속 참격을 가해 모든 {LINK#N11290004}<color=#FFD780FF>투쟁심</color>{/LINK}을 소모하고 <color=#99FFFFFF>얼음 원소 피해</color>를 주며, 소모한 <color=#FFD780FF>투쟁심</color>에 따라 이번 피해가 증가한다. 발동 시 로엔이 {LINK#N11290001}<color=#FFD780FF>기책</color>{/LINK} 상태라면 이번 <color=#FFD780FF>기책</color> 상태의 지속 시간이 1.65초 연장된다.\n\n<i>「벌써 다 불어버렸네? 난 아직 제대로 즐기지도 못했는데」</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "질문 금지",
         "Description": "{LINK#N11290001}<color=#FFD780FF>기책</color>{/LINK} 상태에서 파티 내 주변의 다른 캐릭터가 피해를 발생시켜 로엔의 {LINK#N11290004}<color=#FFD780FF>투쟁심</color>{/LINK}이 축적될 시, 이번 피해가 로엔 기초 공격력의 3000% 이상일 경우 로엔의 <color=#FFD780FF>투쟁심</color>이 추가로 60pt 축적된다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "절묘한 농담",
         "Description": "{LINK#N11290001}<color=#FFD780FF>기책</color>{/LINK} 상태에서 파티 내 주변의 다른 캐릭터가 적에게 <color=#99FFFFFF>얼음 원소 관련 반응</color> 발동 후 8초 동안, 해당 캐릭터의 공격력이 15% 증가하고 로엔의 공격력이 15% 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "흥미 추구",
         "Description": "원소전투 스킬 <color=#FFD780FF>기습</color> 발동 후, 로엔이 9초 동안 지속되는 「흥미」 효과를 획득한다: 지속 시간 동안 원소전투 스킬 <color=#FFD780FF>기습</color>의 스킬 레벨이 1레벨 증가한다.\n원소전투 스킬 발동 시, 파티 내 다른 캐릭터의 일반 공격, 원소전투 스킬 또는 원소폭발의 스킬 레벨 중 하나라도 로엔의 원소전투 스킬 레벨 이상일 경우, 이번 「흥미」 효과의 지속 시간이 추가로 6초 연장된다.\n18초마다 「흥미」 효과를 최대 1회 획득할 수 있다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],

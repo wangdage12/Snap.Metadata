@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Esprit du vent",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 attaques de vent qui infligent des <color=#80FFD7FF>DGT Anémo</color>.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour infliger des <color=#80FFD7FF>DGT Anémo de zone</color> après un court délai.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des <color=#80FFD7FF>DGT Anémo de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Esprit du vent : Sujet 6308",
         "Description": "Sucrose invoque un Esprit du vent de taille réduite, qui attire les ennemis et les objets proches à lui, projetant les ennemis dans les airs et leur infligeant des <color=#80FFD7FF>DGT Anémo</color>.\n\n<i>C'est un peu embarrassant, mais il faut bien reconnaître que malgré leur courte durée de vie, les entités élémentaires créées via ce procédé sont particulièrement utiles pour l'aventure. Comme quoi, même les expériences ratées peuvent servir.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Veillée de la sorcière : Transmutation septuple",
         "Description": "#Après avoir terminé le <color=#FFD780FF>devoir de la sorcière « Des fleurs du pays des merveilles »</color>, Sucrose devient un personnage <color=#FFD780FF>héxère</color>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <color=#FFD780FF>Hexerei{NON_BREAK_SPACE}: Rituel secret</color> qui améliore les personnages héxères.\n\n<color=#FFD780FF>Hexerei : Rituel secret</color>\n· Créer un esprit du vent de taille réduite augmente les DGT infligés par les attaques normales, les attaques chargées, les attaques plongeantes, les compétences élémentaires et les déchaînements élémentaires des personnages de l'équipe à proximité de 5,71428 % pendant 15 s.\n· Créer un esprit du vent de grande taille augmente les DGT infligés par les attaques normales, les attaques chargées, les attaques plongeantes, les compétences élémentaires et les déchaînements élémentaires des personnages héxères de l'équipe à proximité de 7,14285 % pendant 20 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Esprit du vent : Isomorphe 75 Type II",
       "Description": "Sucrose jette une concoction instable qui libère un Esprit du vent de grande taille.\nL'Esprit attire les ennemis et les objets proches à lui, projetant les ennemis dans les airs et leur infligeant des <color=#80FFD7FF>DGT Anémo</color>.\n\n<color=#FFD780FF>Absorption élémentaire</color>\nL'Esprit du vent absorbe les éléments <color=#80C0FFFF>Hydro</color>, <color=#FF9999FF>Pyro</color>, <color=#99FFFFFF>Cryo</color> et <color=#FFACFFFF>Électro</color> avec lesquels il entre en contact, ceux-ci lui conférant leurs attributs et infligeant un bonus de DGT de l'élément correspondant.\nUne seule réaction d'absorption élémentaire peut avoir lieu par utilisation.\n\n<i>Sucrose aime à donner des noms à ses Hypostases Anémo instables... Leur lignée est encore plus longue que celle du Baron Lapinou 893e du nom.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Permutation de catalyste",
-        "Description": "Tous les personnages de l'équipe du type élémentaire concerné (hormis Sucrose) obtiennent un bonus de 50 pts de maîtrise élémentaire pendant 8 s lorsque Sucrose déclenche une réaction de Dispersion.",
+        "Description": "Tous les personnages de l'équipe du type élémentaire concerné (hormis Sucrose) obtiennent un bonus de 50 pts de maîtrise élémentaire pendant 8 s lorsque Sucrose déclenche une réaction de Dispersion ou d'Astrodispersion.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Mollis Favonius",
         "Description": "Lorsque <color=#FFD780FF>Esprit du vent : Sujet 6308</color> ou <color=#FFD780FF>Esprit du vent : Isomorphe 75 Type II</color> touche un ennemi, tous les personnages de l'équipe (hormis Sucrose) bénéficient pendant 8 s d'un bonus de maîtrise élémentaire équivalant à 20 % de la maîtrise élémentaire de Sucrose.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Fragile découverte",
         "Description": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'amélioration de personnage ou d'arme.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

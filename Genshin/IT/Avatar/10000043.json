@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Creazione dello spirito dei venti",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 attacchi usando gli Spiriti dei venti, infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#80FFD7FF>DAN da Anemo ad area</color> dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nRichiamando il potere dei suoi Spiriti dei venti, Sucrose si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#80FFD7FF>DAN da Anemo ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Creazione Anemoipostasi astabile n. 6308",
         "Description": "Crea un Piccolo Spirito dei venti che attira gli avversari e gli oggetti verso la sua posizione, scaglia via gli avversari nella sua area d'effetto e infligge <color=#80FFD7FF>DAN da Anemo</color>.\n\n<i>È un po' imbarazzante ma, nonostante le forme di vita elementali nate attraverso questa procedura si dissipino molto rapidamente, sono incredibilmente utili nelle avventure. Persino gli esperimenti falliti possono avere applicazioni pratiche.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Rito della Vigilia della strega: Trasmutazione in sette parti",
         "Description": "#Dopo aver completato <color=#FFD780FF>Compiti della strega: Sui fiori meravigliosi</color>, Sucrose acquisisce l'attributo <color=#FFD780FF>Hexerei</color>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <color=#FFD780FF>Hexerei: Rito segreto</color>.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\n· Dopo che Sucrose ha creato un Piccolo Spirito dei venti, potenzia di un 5,71428% per 15{NON_BREAK_SPACE}s i DAN da attacco normale, attacco caricato, attacco in picchiata, abilità elementale e Tripudio elementale dei membri del gruppo vicini.\n· Dopo che Sucrose ha creato un Grande Spirito dei venti, potenzia di un 7,14285% per 20{NON_BREAK_SPACE}s i DAN da attacco normale, attacco caricato, attacco in picchiata, abilità elementale e Tripudio elementale dei membri del gruppo vicini dotati di attributo Hexerei.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Creazione proibita: Isomero 75 Tipo II",
       "Description": "Sucrose lancia un miscuglio instabile che crea un Grande Spirito dei venti.\nFinché persiste, tale Spirito attira costantemente gli oggetti e gli avversari circostanti, scagliandoli via e infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Assorbimento elementale</color>\nSe lo Spirito dei venti entra in contatto con energia di <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, infliggerà DAN elementali aggiuntivi di quel tipo.\nL'assorbimento elementale avviene una volta per utilizzo.\n\n<i>Sucrose era solita dare nomi alle sue Ipostasi di Anemo volatili, ma la loro discendenza superò in poco tempo quella di Baron Coniglio DCCCXCIII.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Conversione del catalizzatore",
-        "Description": "#Quando Sucrose innesca una reazione di Turbinio, la maestria elementale di tutti i personaggi del gruppo (esclusa Sucrose) con l'elemento corrispondente aumenta di 50 per 8{NON_BREAK_SPACE}s.",
+        "Description": "#Quando Sucrose innesca una reazione di Turbinio o di Turbinio astrale, la maestria elementale di tutti i personaggi del gruppo (esclusa Sucrose) con l'elemento corrispondente aumenta di 50 per 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Mollis Favonius",
         "Description": "#Quando <color=#FFD780FF>Creazione Anemoipostasi astabile n. 6308</color> o <color=#FFD780FF>Creazione proibita: Isomero 75 Tipo II</color> colpisce un avversario, la maestria elementale di tutti i membri del gruppo (esclusa Sucrose) aumenta di una quantità pari a un 20% della maestria elementale di Sucrose per 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Ingegnosità astabile",
         "Description": "Quando Sucrose crea materiali per il potenziamento di armi e personaggi, ha un 10% di probabilità di ottenere il doppio del prodotto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

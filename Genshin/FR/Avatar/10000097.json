@@ -307,6 +307,7 @@
         "Id": 10971,
         "Name": "Archerie royale des roseaux",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<color=#FFD780FF>Attaque chargée</color>\nEffectue un <color=#FFD780FF>tir visé</color> plus précis et infligeant davantage de DGT.\nLors du tir visé, la puissance du tonnerre vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :\n· 1 charge : Tire une flèche tonitruante qui inflige des <color=#FFACFFFF>DGT Électro</color>.\n· 2 charges : Tire une <color=#FFD780FF>flèche de perce-ombre</color> pouvant transpercer les ennemis qui inflige des <color=#FFACFFFF>DGT Électro</color> aux ennemis en chemin. Sethos ne peut pas se déplacer lorsque sa flèche de perce-ombre est complètement chargée.\n\n<color=#FFD780FF>Attaque plongeante</color>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -458,7 +459,8 @@
         },
         "Id": 10972,
         "Name": "Rituel ancien : Clameur tonitruante des sables",
-        "Description": "Condense la puissance du tonnerre pour infliger des <color=#FFACFFFF>DGT Électro de zone</color> et reculer rapidement. Lorsque l'attaque déclenche une réaction d'Électrocution, de Sélénocution, de Supraconduction, de Surcharge, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro sur un ennemi, Sethos récupère une certaine quantité d'énergie élémentaire.\n\n<i>« Les prêtres divinement habités et les magiciens transformant les fosses en sources... Les chanteurs des sables répandent encore leurs histoires... Mais je sais que ce ne sont pas des légendes, car ce sont nos ancêtres. »</i>",
+        "Description": "Condense la puissance du tonnerre pour infliger des <color=#FFACFFFF>DGT Électro de zone</color> et reculer rapidement. Lorsque l'attaque déclenche une réaction d'Électrocution, de Sélénocution, de Supraconduction, d'Astroconduction, de Surcharge, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro sur un ennemi, Sethos récupère une certaine quantité d'énergie élémentaire.\n\n<i>« Les prêtres divinement habités et les magiciens transformant les fosses en sources... Les chanteurs des sables répandent encore leurs histoires... Mais je sais que ce ne sont pas des légendes, car ce sont nos ancêtres. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sethos_01"
       }
     ],
@@ -628,6 +630,7 @@
       "Id": 10975,
       "Name": "Rituel secret : Percée crépusculaire des ombres",
       "Description": "Sethos déclenche un rituel secret pour entrer dans l'état Méditation crépusculaire, ce qui convertit ses attaques normales pour lui permettre de tirer des <color=#FFD780FF>carreaux crépusculaires</color> pouvant transpercer les ennemis : inflige des <color=#FFACFFFF>DGT Électro</color>, qui augmentent selon la maîtrise élémentaire de Sethos, aux ennemis en chemin.\nSethos ne peut pas utiliser de tirs visés pendant cette durée.\nLes DGT infligés par les carreaux crépusculaires sont considérés comme des DGT d'attaque chargée.\nCet effet cesse lorsque Sethos quitte le champ de bataille.\n\n<i>Les archives du Temple du silence conservent de nombreux tomes laissés par Akhtamun, de l'époque du roi Deshret. De nombreux rituels secrets de grande puissance y sont consignés, mais même au sein du Temple du silence, très peu pourraient les maîtriser.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sethos_01"
     },
     "Inherents": [
@@ -650,6 +653,7 @@
         "Id": 972101,
         "Name": "Énigme du milan noir",
         "Description": "Pendant les tirs visés, le temps de charge diminue de 0,285 s pour chaque point d'énergie élémentaire que Sethos possède. Le temps de charge peut être diminué jusqu'à un minimum de 0,3 s de cette manière, et un maximum de 20 pts d'énergie élémentaire peut être comptabilisé. Tirer une <color=#FFD780FF>flèche de perce-ombre</color> consomme la quantité comptabilisée d'énergie élémentaire, et tirer une flèche de 1e charge consomme 50 % de la quantité comptabilisée d'énergie élémentaire.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 972201,
         "Name": "Bénédiction du roi des sables",
         "Description": "Sethos obtient l'effet Ombre sableuse : augmente les DGT infligés par les <color=#FFD780FF>flèches de perce-ombre</color> d'une valeur équivalant à 700 % de sa maîtrise élémentaire.\nL'effet Ombre sableuse prendra fin :\n· 5 s après qu'une flèche de perce-ombre touche pour la première fois un ennemi.\n· Après que 4 flèches de perce-ombre touchent un ennemi.\n\nSethos obtient un nouvel effet Ombre sableuse 15 s après qu'une flèche de perce-ombre affectée par l'effet touche pour la première fois un ennemi.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 972301,
         "Name": "Révélation de Thoth",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Sumeru</color> sur la mini-carte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tighnari_07"
       }
     ],

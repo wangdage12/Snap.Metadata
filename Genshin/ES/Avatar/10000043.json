@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Creación del espíritu del viento",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques usando espíritus del viento, los cuales infligen <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante e inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> después de un corto tiempo de canalización.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del viento y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Creación del espíritu del viento: Experimento 6308",
         "Description": "Invoca un pequeño espíritu del viento que atrae a enemigos y objetos al lugar de su ubicación, los lanza por los aires e inflige <color=#80FFD7FF>Daño Anemo</color>.\n\n<i>Esto es un poco vergonzoso, pero aunque las formas de vida elementales que nacieron a través de este procedimiento se disipan muy rápidamente, son increíblemente útiles cuando vas de aventura. Incluso los experimentos fallidos pueden tener aplicaciones prácticas.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Rito de la noche de brujas: Transmutación séptuple",
         "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: De flores maravillosas»</color>, Sacarosa se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\n·Tras invocar un espíritu del viento pequeño, el daño de los Ataques Normales, Cargados y Descendentes y de la Habilidad Elemental y Definitiva de los personajes cercanos del equipo aumenta en un 5.71428% durante 15{NON_BREAK_SPACE}s.\n·Tras invocar un gran espíritu del viento, el daño de los Ataques Normales, Cargados y Descendentes y de la Habilidad Elemental y Definitiva de los personajes taumatúrgicos cercanos del equipo aumenta en un 7.14285% durante 20{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
       "Description": "Sacarosa arroja un brebaje inestable que crea un gran espíritu del viento.\nMientras dure, el espíritu del viento atrae a los enemigos y objetos cercanos, lanzándolos por los aires e infligiendo <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Cambio elemental</color>\nSi el espíritu del viento entra en contacto con <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, infligirá Daño Elemental adicional de ese tipo.\nSolo puede ocurrir un cambio elemental en toda la duración de esta habilidad.\n\n<i>Sacarosa solía dar nombres a sus volátiles Hipóstasis Anemo. Pero el linaje de Hipóstasis creció tan rápido que acabó superando al Barón Bunny n.º 893.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Conversión de catalizador",
-        "Description": "Cuando Sacarosa cause una reacción de Torbellino, aumentará en 50 pts. la Maestría Elemental de todos los miembros del equipo (a excepción de Sacarosa) cuyo tipo elemental coincida con el elemento contra el que provocó dicho Torbellino. Este efecto tiene una duración de 8 s.",
+        "Description": "#Cuando Sacarosa cause una reacción de Torbellino o Torbellino Estelar, aumentará en{NON_BREAK_SPACE}50 pts. la Maestría Elemental de todos los miembros del equipo (a excepción de Sacarosa) del tipo elemental correspondiente. Este efecto tiene una duración de 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Mollis Favonius",
         "Description": "Cuando Sacarosa ataca a un enemigo con <color=#FFD780FF>Creación del espíritu del viento: Experimento 6308</color> o <color=#FFD780FF>Creación prohibida del espíritu del viento: Isomorfo 75 tipo II</color>, aumenta durante 8 s la Maestría Elemental de todos los miembros del equipo (a excepción de Sacarosa) en proporción al 20% de la Maestría Elemental de Sacarosa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Invención inestable",
         "Description": "Al crear materiales para personaje y armas, hay una probabilidad del 10% de recibir el doble.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

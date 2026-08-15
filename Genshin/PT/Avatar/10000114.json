@@ -308,6 +308,7 @@
         "Id": 11141,
         "Name": "Devastação: Destruição",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes com a espada.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para brandir uma lâmina cristalina, infligindo Dano em seu trajeto contra os inimigos.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -649,6 +650,7 @@
         "Id": 11142,
         "Name": "Devastação: Lampejo",
         "Description": "Imita o estilo de combate do \"Cavaleiro Abominável\". Produz efeitos diferentes dependendo se você Pressionar ou Manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nSkirk obtém 45 {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} e alterna para o modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}.\n\n<color=#FFD780FF>Manter pressionado</color>\nSkirk obtém 45 Sutileza da Serpente e se moverá continuamente em alta velocidade. Sua Resistência contra Interrupção é aumentada nesse estado.\nDurante esse período, Skirk pode controlar a direção do movimento, e pode se mover sobre a água. Ela também pode usar novamente essa Habilidade para encerrar o movimento rápido antes do tempo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_SkirkNew_01"
       }
     ],
@@ -879,6 +881,7 @@
       "Id": 11145,
       "Name": "Arte Apodrecida: Obliteração",
       "Description": "O Supremo de Skirk não depende de Energia Elemental, mas sim de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}.\nQuando Skirk tiver pelo menos 50 de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}, ela poderá consumir toda a sua {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} para liberar seu Supremo, rasgando o espaço à sua frente e realizando cortes rápidos consecutivos que causam <color=#99FFFFFF>Dano Cryo em uma AdE</color>. Ao mesmo tempo, o Dano causado por cada golpe desse Supremo poderá ser aumentado por cada ponto de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} acima de 50 no momento da ativação. Um máximo de 12 pontos poderá ser considerado para esse aumento.\n\nQuando Skirk estiver no modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}, o Supremo \"Arte Apodrecida: Obliteração\" será substituído por \"Devastação: Obliteração\".\n\n<color=#FFD780FF>Devastação: Obliteração</color>\nUm Supremo especial que pode ser usado mesmo sem consumir Sutileza da Serpente.\nApós usá-lo, Skirk obterá o efeito \"Tudo Há de Murchar\", que durará até o término do Lampejo de Sete Fases. Após desbloquear o Talento de Ascensão {LINK#N11130007}<color=#FFD780FF>Razão Além da Razão</color>{/LINK}, ela também poderá absorver Fendas do Vazio próximas.\nEnquanto \"Tudo Há de Murchar\" estiver ativo, a cada 0.1s, após o Ataque Normal de Skirk acertar um inimigo, esse Ataque Normal causará Dano aumentado. Se ela tiver absorvido alguma Fenda do Vazio ao usar o <color=#FFD780FF>Devastação: Obliteração</color>, o Dano desse Ataque Normal será ainda mais aumentado com base no número de Fendas absorvidas.\nEsse efeito será cancelado após ser acionado 10 vezes.",
+      "SpecialEnergyType": 2,
       "Icon": "Skill_E_SkirkNew_01"
     },
     "Inherents": [
@@ -899,7 +902,8 @@
         },
         "Id": 1142101,
         "Name": "Razão Além da Razão",
-        "Description": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Redemoinho Cryo ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2.5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no {LINK#N11130006}<color=#FFD780FF>modo Lampejo de Sete Fases</color>{/LINK}.\n· Ao usar o Supremo especial <color=#FFD780FF>Devastação: Obliteração</color> enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental <color=#FFD780FF>Devastação: Lampejo</color> para realizar se mover rapidamente.\n\nCada Fenda absorvida concederá a ela 8 pontos de Sutileza da Serpente.",
+        "Description": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Supercondutor Estelar, Redemoinho Cryo, Redemoinho Estelar ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2.5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no {LINK#N11130006}<color=#FFD780FF>modo Lampejo de Sete Fases</color>{/LINK}.\n· Ao usar o Supremo especial <color=#FFD780FF>Devastação: Obliteração</color> enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental <color=#FFD780FF>Devastação: Lampejo</color> para se mover rapidamente.\n\nCada Fenda absorvida concederá a ela 8 pontos de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_05"
       },
       {
@@ -926,6 +930,7 @@
         "Id": 1142201,
         "Name": "Retorno à Desolação",
         "Description": "Quando membros próximos da equipe de Tipo Elemental <color=#80C0FFFF>Hydro</color> atingirem um inimigo com um ataque <color=#80C0FFFF>Hydro</color>, ou quando os outros personagens próximos da equipe de Tipo Elemental <color=#99FFFFFF>Cryo</color>, exceto a própria Skirk, atingirem um inimigo com um ataque <color=#99FFFFFF>Cryo</color>, Skirk receberá o efeito \"Encruzilhada da Morte\" por 20s. Máximo de 3 acúmulos, com a duração de cada acúmulo contada independentemente.\nCada personagem pode conceder no máximo 1 acúmulo de \"Encruzilhada da Morte\" para Skirk dessa maneira.\nCada acúmulo de \"Encruzilhada da Morte\" aumenta o Dano do Ataque Normal causado por Skirk no modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK} em 110%/120%/170% de seu Dano original e também aumenta o Dano causado por seu Supremo <color=#FFD780FF>Arte Apodrecida: Obliteração</color> em 105%/115%/160% de seu Dano original.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_06"
       },
       {
@@ -944,6 +949,7 @@
         "Id": 1142301,
         "Name": "Mentoria Mútua de Armamentos",
         "Description": "Quando todos os membros da equipe forem de Tipo Elemental <color=#80C0FFFF>Hydro</color> ou <color=#99FFFFFF>Cryo</color>, e houver pelo menos 1 personagem Hydro e 1 personagem Cryo, o Nível da <color=#FFD780FF>Habilidade Elemental</color> dos membros da equipe será aumentado em 1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_08"
       }
     ],

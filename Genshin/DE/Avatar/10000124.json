@@ -261,6 +261,7 @@
         "Id": 11241,
         "Name": "Windgeführter Pfeil",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert den Wind während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#80FFD7FF>Anemo-Schaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -521,6 +522,7 @@
         "Id": 11242,
         "Name": "Atemberaubende Kriegslist – Plan zur Reichtumsverteilung",
         "Description": "#Jahoda stürzt auf Gegner zu und tritt beim Kontakt mit ihnen in den Zustand „Schattenverfolgung“ ein. In diesem Zustand bewegt sie sich fortlaufend schnell. Wandelt, wenn sich in der Nähe vom <color=#FF9999FF>Pyro</color>-, <color=#80C0FFFF>Hydro</color>-, <color=#FFACFFFF>Elektro</color>- oder <color=#99FFFFFF>Kryo</color>-Element betroffene Gegner befinden, heimlich Jahodas mitgeführte {LINK#N11240001}<color=#FFD780FF>Hululu-Geheimflasche</color>{/LINK} in den entsprechenden Elementartyp um und füllt sie kontinuierlich auf. Leert nach Ablauf der Dauer oder bei erneuter Anwendung die <color=#FFD780FF>Hululu-Geheimflasche</color> und fügt Gegnern in der Nähe einmal <color=#80FFD7FF>Anemo-SCH</color> zu. Wenn die <color=#FFD780FF>Hululu-Geheimflasche</color> voll ist, leert Jahoda sie ebenfalls, verlässt den Zustand „Schattenverfolgung“ und fügt den Gegnern in der Nähe einmal erhöhten <color=#80FFD7FF>Anemo-SCH</color> zu.\nLässt Jahoda, wenn ihr Vorstoß keinen Gegner trifft, an der Stelle eine Rauchbombe werfen, die den Gegnern in der Nähe einmal <color=#80FFD7FF>Anemo-SCH</color> zufügt.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Wenn die <color=#FFD780FF>Hululu-Geheimflasche</color> voll ist, leert Jahoda diese nicht sofort, sondern verbraucht fortlaufend das gefüllte Element über einen bestimmten Zeitraum und schießt in gewissen Abständen <color=#FFD780FF>flauschige Katzenbälle</color> auf Gegner in der Nähe, die Schaden des entsprechenden Elementartyps der <color=#FFD780FF>Hululu-Geheimflasche</color> verursachen. Stellt, wenn die <color=#FFD780FF>flauschigen Katzenbälle</color> Gegner treffen, Jahoda 2{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, 3,5{NON_BREAK_SPACE}s Abklingzeit.\n\n<i>Es gibt viele Arten, Reichtum zu verteilen, aber für die Schatzjäger und Schatzräuber aus Nod-Krai gab es schon immer nur eine effiziente Methode.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Jahoda_01"
       }
     ],
@@ -798,6 +800,7 @@
       "Id": 11245,
       "Name": "Geheimgeräte – Die sieben Objekte des Jägers",
       "Description": "Zeit, die geheimen Schätze zu verwenden! Jahoda nimmt zwei {LINK#N11240002}<color=#FFD780FF>katzenförmige Geräte für Hilfe und Koordination im Haushalt</color>{/LINK} heraus und fügt Gegnern in der Nähe einmal <color=#80FFD7FF>Anemo-SCH</color> zu.\n\n<i>„Was Hilfe und Koordination angeht: Du hilfst mit Mora aus und wir koordinieren. Na, das klingt doch fair, oder?“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Jahoda_01"
     },
     "Inherents": [
@@ -821,6 +824,7 @@
         "Id": 1242101,
         "Name": "Listiger Belohnungsplan",
         "Description": "#Verstärkt, wenn sich mindestens 1 <color=#FF9999FF>Pyro</color>-, <color=#80C0FFFF>Hydro</color>-, <color=#FFACFFFF>Elektro</color>- oder <color=#99FFFFFF>Kryo</color>-Figur in der Truppe befindet, die {LINK#N11240002}<color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color>{/LINK} der Spezialfähigkeit <color=#FFD780FF>Geheimgeräte – Die sieben Objekte des Jägers</color> basierend auf der Anzahl der Figuren des entsprechenden Elementartyps.\nJahoda merkt sich heimlich die Figuren der oben genannten Elementartypen in der Truppe. Wenn unter diesen Figuren die meisten zu folgendem Elementartyp gehören:\n· <color=#FF9999FF>Pyro</color>: Lässt die <color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color> 130{NON_BREAK_SPACE}% des ursprünglichen Schadens verursachen.\n· <color=#80C0FFFF>Hydro</color>: Lässt die <color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color> 120{NON_BREAK_SPACE}% der ursprünglichen Heilung erzielen.\n· <color=#FFACFFFF>Elektro</color>: Erhöht die Anzahl der <color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color> um 1.\n· <color=#99FFFFFF>Kryo</color>: Verringert das Angriffsintervall der <color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color> um 10{NON_BREAK_SPACE}%.\n\nWenn die Anzahl der Figuren verschiedener Elementartypen gleich ist, gilt die Reihenfolge <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Elektro</color> und <color=#99FFFFFF>Kryo</color>. Anfänglich kann nur für einen Elementartyp der entsprechende Effekt aktiv sein.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_05"
       },
       {
@@ -842,6 +846,7 @@
         "Id": 1242201,
         "Name": "Honigbeeren-Belohnung",
         "Description": "#Erhöht, wenn die {LINK#N11240002}<color=#FFD780FF>katzenförmigen Geräte für Hilfe und Koordination im Haushalt</color>{/LINK} der Spezialfähigkeit <color=#FFD780FF>Geheimgeräte – Die sieben Objekte des Jägers</color> LP beim aktuellen Truppenmitglied wiederherstellen und die LP dieser Figur bei über 70{NON_BREAK_SPACE}% liegen, die Elementarkunde dieser Figur 6{NON_BREAK_SPACE}s lang um 100 Punkte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_06"
       },
       {
@@ -860,6 +865,7 @@
         "Id": 1242301,
         "Name": "Mondomen-Segen – Dächersprint",
         "Description": "Erhöht die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Jahoda in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_07"
       },
       {
@@ -878,6 +884,7 @@
         "Id": 1242501,
         "Name": "Weisheit der Gassen",
         "Description": "#Verkürzt die bei Erkundungen innerhalb des Einflussbereichs von Nod-Krai verbrauchte Zeit um 25{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Jahoda_08"
       }
     ],

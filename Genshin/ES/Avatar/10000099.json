@@ -277,6 +277,7 @@
         "Id": 10991,
         "Name": "Lanza fantasmal (modificada)",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para realizar un ataque hacia arriba.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -493,6 +494,7 @@
         "Id": 10992,
         "Name": "Colección de fragancias",
         "Description": "#Crea un perfume lumidulce que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>.\n\n<color=#FFD780FF>Perfume lumidulce</color>\n·Cada cierto tiempo, dispara “eau de rosée” a los enemigos cercanos para infligirles <color=#99FF88FF>Daño Dendro</color>.\n·Cuando un enemigo cercano esté quemado, emitirá una fragancia. Solo se puede crear una fragancia cada 2{NON_BREAK_SPACE}s de esta manera. El perfume lumidulce recogerá las fragancias cercanas y, tras recoger dos, subirá de nivel, de manera que al disparar una vez “eau de rosée”, disparará otra adicional y aumentará tanto el daño infligido como el AdE de dichos ataques.\n·Solo puede existir un perfume lumidulce creado por Émilie a la vez. El perfume empieza en nivel 1 y puede aumentar hasta el nivel 2. Si un perfume lumidulce activo no recoge ninguna fragancia en 8{NON_BREAK_SPACE}s, volverá a nivel 1.\n\n<color=#FFD780FF>Arjé: pneuma</color>\nCuando Émilie crea un perfume lumidulce de esta forma, cada cierto tiempo cae frente a ella misma una espina halitoespiritual que atraviesa a los enemigos y les inflige <color=#99FF88FF>Daño Dendro</color> cargado de energía pneuma.\n\n<i>El mundo consiste en una armonía interminable de fragancias, colores y canciones.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Emilie_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 10995,
       "Name": "Representación perfumada",
       "Description": "#Transforma en energía Dendro pura las fragancias recogidas en su perfume para crear un perfume lumidulce de nivel 3 y guardar el que ya haya creado.\nMientras el perfume lumidulce de nivel 3 está activo, no recogerá las fragancias cercanas, sino que hará caer continuamente gotas rociofragantes que atacan a los enemigos situados en su AdE para infligirles <color=#99FF88FF>Daño Dendro</color>. Mientras este efecto esté activo, cada 0.3{NON_BREAK_SPACE}s caerá una gota rociofragante. Un mismo enemigo solo puede ser escogido una vez cada 0.7{NON_BREAK_SPACE}s como objetivo de la gota.\nCuando la duración de este efecto termine, se volverá a crear un perfume lumidulce de nivel 1. Si al usar Representación perfumada se guardó un perfume lumidulce, se colocará el perfume guardado y su duración se reiniciará.\nMientras <color=#FFD780FF>Representación perfumada</color> esté activa, la Habilidad Elemental, “Colección de fragancias”, no creará perfumes lumidulces.\n\n<i>Da igual cuál sea el perfume, en cuanto entre en contacto con el aire, su fragancia cambiará con el paso del tiempo hasta fundirse entre los murmullos del viento y las plantas. En cierto sentido, nadie puede apreciar de la misma forma un mismo perfume.\nLo mismo ocurre con el curso que sigue todo ser vivo. Por tanto, se podría decir que un perfume es una representación de la vida misma.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Emilie_01"
     },
     "Inherents": [
@@ -683,6 +686,7 @@
         "Id": 992101,
         "Name": "Fragancia persistente",
         "Description": "Por cada dos <color=#FFD780FF>fragancias</color> recogidas, el perfume lumidulce de nivel 2 las consumirá para liberar una vez “eau de pureté” e infligir a los enemigos <color=#99FF88FF>Daño Dendro en el AdE</color> en una cantidad equivalente al 600% del ATQ de Émilie. Este daño no se considera daño de Habilidad Elemental.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 992201,
         "Name": "Rectificación",
         "Description": "#El daño que inflige Émilie contra los enemigos quemados aumenta en un 15% por cada 1000{NON_BREAK_SPACE}pts. de ATQ que tenga. Como máximo, dicho daño puede aumentar en un 36% de esta manera.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 992301,
         "Name": "Aroma ambiental",
         "Description": "Cuando en el campo de batalla haya algún perfume lumidulce creado por Émilie, aumenta en un 85% la <color=#FF9999FF>RES Pyro</color> de todos los personajes cercanos del equipo contra el daño de la reacción de Quemadura.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_07"
       }
     ],

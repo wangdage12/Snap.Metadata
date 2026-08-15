@@ -309,6 +309,7 @@
         "Id": 10911,
         "Name": "Açık İnkar",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nZamanla Dayanıklılık harcar ve yakındaki tüm düşmanlara dönerek saldırır.\nSaldırıları daha güçlü bir darbeyle bitirir. \n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -508,6 +509,7 @@
         "Id": 10912,
         "Name": "Kristal Tören Atışı",
         "Description": "Gruptaki karakterlerden biri Kristalleşme tepkimesiyle oluşan bir Element Parçası elde ettiğinde veya Ay Kristalleşmesi tepkimesini tetiklediğinde Navia 1 Kristal Şarapnel kazanır. Navia bir seferde en fazla 6 Kristal Şarapnele sahip olabilir. Kristal Şarapnel kazanımı her tetiklendiğinde mevcut Kristal Şarapnellerinin süresi de sıfırlanır. Navia, Ay Kristalleşmesi tepkimesiyle her saniye en fazla 1 Kristal Şarapnel kademesi kazanır.\nNavia ateş ettiğinde Kristal Şarapnellerin tümünü harcar ve şık ama ölümcül Şemsilahını açarak düşmanları delip geçen Rosula Kristal Mermileri ateşleyerek <color=#FFE699FF>Toprak Hasarı</color> verir.\n0/1/2/3 veya daha fazla Kristal Şarapnel harcandığında sırasıyla 5/7/9/11 Rosula Kristal Mermi ateşlenir. Tek bir düşmana ne kadar çok Rosula Kristal Mermi isabet ederse verilen Hasar da o kadar büyük olur. 11 Rosula Kristal Merminin hepsi isabet ettiğinde asıl Hasarın %200'ü kadar Hasar verilir.\nAyrıca 3'ten fazla Kristal Şarapnel harcandığında harcanan ilk 3 Kristal Şarapnelden sonraki her bir Şarapnel, asıl Şemsilah saldırısının verdiği Hasarı %15 artırır.\n\n<color=#FFD780FF>Basılı Tut</color>\nNişan Alma Moduna girerek sürekli olarak Kristalleşme tepkimesiyle oluşan yakındaki Element Parçalarını toplar. Bırakıldığında, Rosula Kristal Mermiler beceriye Dokunulduğunda olduğu gibi aynı etkiyle ateşlenir.\n\nBaşlangıçta 2 defa kullanılabilir.\n\n<color=#FFD780FF>Arkhe: Öz</color>\nBelirli aralıklarla Navia Şemsilahını ateşlediğinde bir Çalkantılı Kılıç çıkar ve Öz tesirli <color=#FFE699FF>Toprak Hasarı</color> verir.\n\n<i>\"Mesafeli olman gereken kişilerle doğru mesafede olmak görgü kurallarının önemli bir parçasıdır. Bunu yapmanın da birçok yolu var tabii...\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Navia_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10915,
       "Name": "Güneşli Gökyüzünün Selamı",
       "Description": "Spina di Rosula Başkanının emri üzerine muhteşem bir Altın Gül Selamı çağrılır. Önündeki düşmanlara ağır bir top bombardımanı yaparak <color=#FFE699FF>Toprak Alan Hasarı</color> verir ve daha sonra bir müddet Top Ateşi Desteği sağlayarak belirli aralıklarla yakındaki düşmanlara <color=#FFE699FF>Toprak Hasarı</color> verir.\nTop saldırıları düşmanlara isabet ettiğinde Navia 1 Kristal Şarapnel kazanır. Bu etki her 2,4 saniyede bir tetiklenebilir.\n\n<i>\"Spina di Rosula'nın selamı, müzakerelerimizin başarıyla sonuçlanacağına dair bir ön kutlamadır ve görüşmeler başlamadan önce ateşlenir. Yanlış anlaşılmasın, hiçbir şekilde ve surette bir tehdit amacı taşımaz.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Navia_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 912101,
         "Name": "Gizli Dağıtım Kanalları",
         "Description": "<color=#FFD780FF>Kristal Tören Atışı</color> kullanıldıktan sonra 4sn boyunca Navia'nın Normal, Yüklü ve Havadan Saldırılarının verdiği Hasar, <color=#FFE699FF>Toprak Hasarına</color> dönüşür ve diğer element tesirleriyle değiştirilemez. Ayrıca Navia'nın Normal, Yüklü ve Havadan Saldırılarının verdiği Hasar %40 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Navia_05"
       },
       {
@@ -750,6 +754,7 @@
         "Id": 912201,
         "Name": "Karşılıklı Yardım Ağı",
         "Description": "Gruptaki her <color=#FF9999FF>Ateş</color>/<color=#FFACFFFF>Elektrik</color>/<color=#99FFFFFF>Buz</color>/<color=#80C0FFFF>Su</color> üyesi için Navia'nın Saldırısı %20 artar. Bu etki 2 kademeye kadar birikebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Navia_06"
       },
       {
@@ -768,6 +773,7 @@
         "Id": 912301,
         "Name": "Titiz Süreç",
         "Description": "20 saatliğine bir Fontaine Keşfine gönderildiğinde %25 daha fazla ödül kazanır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Navia_07"
       }
     ],

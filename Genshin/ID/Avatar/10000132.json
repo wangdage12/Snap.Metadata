@@ -261,6 +261,7 @@
         "Id": 11321,
         "Name": "Badaboom! Hexbuster Hammer",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMengayunkan Banehunter Oathhammer, melancarkan hingga 3 serangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina, melakukan ayunan palu ke atas untuk mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Anemo dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -412,7 +413,8 @@
         },
         "Id": 11322,
         "Name": "Ring-A-Ding-Ding! Hexhunter Chime",
-        "Description": "Mengeluarkan kekuatan angin dengan tekad untuk mengalahkan sang penyihir \"jahat\" menyelamatkan Descartes! Prune menggunakan Banehunter Oathhammer untuk menghantam Witchlure Bell dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nJika Prune memicu reaksi Swirl terhadap musuh melalui serangan ini, maka <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> akan berubah menjadi <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> selama 6 detik ke depan.\n\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\nMembungkus palu Prune dengan jenis elemen yang sebelumnya terlibat dalam reaksi Swirl, dan membuat {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} mengalami Elemental Conversion. Saat dilancarkan dengan Mode Tekan, Prune melompat dan menendang Banehunter Oathhammer ke depan, mengakibatkan Elemental DMG dengan jenis elemen yang sesuai terhadap musuh di depannya.",
+        "Description": "Mengeluarkan kekuatan angin dengan tekad untuk mengalahkan sang penyihir \"jahat\" dan menyelamatkan Descartes! Prune menggunakan Banehunter Oathhammer untuk menghantam Witchlure Bell dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nJika Prune memicu reaksi Swirl atau Stellar Swirl terhadap musuh melalui serangan ini, maka <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> akan berubah menjadi <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> selama 6 detik ke depan.\n\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\nMembungkus palu Prune dengan jenis elemen yang sebelumnya terlibat dalam reaksi Swirl atau Stellar Swirl, dan membuat {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} mengalami Elemental Conversion. Saat dilancarkan dengan Mode Tekan, Prune melompat dan menendang Banehunter Oathhammer ke depan, mengakibatkan Elemental DMG dengan jenis elemen yang sesuai terhadap musuh di depannya.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Prune_01"
       }
     ],
@@ -437,7 +439,8 @@
         },
         "Id": 1325101,
         "Name": "Witch's Eve Rite: Witchseeker's Vow",
-        "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Hal yang Diperdebatkan</color>, Prune akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSaat Karakter Hexerei di dalam party yang sedang terpengaruh efek Tolling Rally memicu Reaksi Elemental apa pun terhadap musuh, ATK Prune akan meningkat 60% selama 5 detik. Jika Reaksi Elemental yang dipicu Karakter ini adalah Swirl, maka ATK-nya akan meningkat 30% lagi selama 5 detik.",
+        "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Hal yang Diperdebatkan</color>, Prune akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nSaat Karakter Hexerei di dalam party yang sedang terpengaruh efek Tolling Rally memicu Reaksi Elemental apa pun terhadap musuh, ATK Prune akan meningkat 60% selama 5 detik. Jika Reaksi Elemental yang dipicu adalah Swirl atau Stellar Swirl, maka ATK Karakter yang memicu akan meningkat 30% lagi selama 5 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 11325,
       "Name": "The Bell Tolls! The Hunt is On!",
       "Description": "Prune mengayunkan Witchlure Bell dengan lembut, mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh di sekitar. Setelahnya, Witchlure Bell akan memasuki mode Hunter-Seeker.\n\n<color=#FFD780FF>Witchlure Bell: Hunter Seeker</color>\nDalam mode ini, Witchlure Bell akan mengikuti Karakter aktif sambil menyerang musuh di sekitar secara berkala dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>. DMG ini dianggap sebagai DMG Elemental Burst.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Prune_01"
     },
     "Inherents": [
@@ -643,7 +647,8 @@
         },
         "Id": 1322101,
         "Name": "Verdict and Punishment",
-        "Description": "Dalam Elemental Burst<color=#FFD780FF> {LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color>, setelah Witchlure Bell dalam mode Hunter-Seeker mengakibatkan DMG terhadap musuh, jika DMG tersebut memicu reaksi Swirl terhadap musuh, maka akan memanggil {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion berdasarkan reaksi Swirl kali ini di depan musuh dan menghantamnya, mengakibatkan Elemental DMG yang sesuai dengan konversi Swirl sebesar 150% ATK Prune. DMG ini dianggap sebagai DMG Elemental Burst.",
+        "Description": "Dalam Elemental Burst<color=#FFD780FF> {LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color>, setelah Witchlure Bell dalam mode Hunter-Seeker mengakibatkan DMG terhadap musuh dan jika DMG tersebut memicu reaksi Swirl atau Stellar Swirl terhadap musuh, maka akan memanggil {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion berdasarkan reaksi Swirl atau Stellar Swirl kali ini di depan musuh dan menghantamnya, mengakibatkan Elemental DMG yang sesuai sebesar 150% ATK Prune. DMG ini dianggap sebagai DMG Elemental Burst.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_05"
       },
       {
@@ -667,6 +672,7 @@
         "Id": 1322201,
         "Name": "Tolling Synchronicity",
         "Description": "Setelah Prune menggunakan {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} yang telah mengalami Elemental Conversion untuk mengenai musuh, anggota party lain di sekitar akan mendapatkan efek Tolling Rally yang berlangsung selama 5 detik: Saat Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, atau Elemental Burst mengakibatkan DMG terhadap musuh, akan meningkatkan DMG yang diakibatkan oleh serangan tersebut berdasarkan ATK Prune saat mendapatkan efek Tolling Rally yang melebihi 2.000 poin. Setiap 1 poin ATK yang berlebih akan meningkatkan DMG yang diakibatkan oleh serangan tersebut sebesar 0,025%, hingga maksimum 50%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_06"
       },
       {
@@ -685,6 +691,7 @@
         "Id": 1322301,
         "Name": "Tinker-Tink, Clank, and Bang!",
         "Description": "Memberikan 10% peluang untuk mendapatkan 1 tambahan Material Talenta acak yang sewilayah saat craft. Kelangkaannya sama dengan material yang dihasilkan.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_08"
       }
     ],
@@ -729,7 +736,7 @@
       },
       {
         "Id": 1326,
-        "Name": "And That’s the Story! Share It With Your Friends!",
+        "Name": "And That's the Story! Share It With Your Friends!",
         "Description": "Durasi mode Hunter-Seeker Witchlure Bell milik Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt is On!{/LINK}</color> diperpanjang 4 detik.\nSelain itu, setelah Karakter dalam party yang terpengaruh oleh efek Tolling Rally memicu Reaksi Elemental apa pun pada musuh, ATK Prune dan Karakter aktif lain yang sedang berada di medan pertempuran yang memiliki efek Tolling Rally di sekitarnya meningkat 350 poin selama 5 detik.",
         "Icon": "UI_Talent_S_Prune_04"
       }
@@ -838,7 +845,7 @@
       },
       {
         "Title": "Kisah Menarik",
-        "Context": "Aku yakin kamu tidak tahu kalau ada lift raksasa di Pelabuhan Yilong ... Hm? Dermaga? Ya, benar. Dermaga Yilong. Aku tahu kok. Oh, kalau kamu pergi ke Sumeru, harus lihat makhluk kecil lucu yang tinggal di hutan. Anak-anak lokal panggilnya Raranara. Huh? Yah, jelas dong. Aku jelas aku tahu namanya Aranara! Ngomong-ngomong ... Bagaimana Snezhnaya? Kamu sudah pernah ke sana? HAH! Ehem, yah, aku pernah kok. sampai ambil banyak foto deh. Sepertinya aku harus tunjukkan tempat itu ke kamu."
+        "Context": "Aku yakin kamu tidak tahu kalau ada lift raksasa di Pelabuhan Yilong ... Hm? Dermaga? Ya, benar. Dermaga Yilong. Aku tahu kok. Oh, kalau kamu pergi ke Sumeru, harus lihat makhluk kecil lucu yang tinggal di hutan. Anak-anak lokal panggilnya Raranara. Huh? Yah, jelas dong aku tahu namanya Aranara! Ngomong-ngomong ... Bagaimana Snezhnaya? Kamu sudah pernah ke sana? HAH! Ehem, yah, aku pernah kok. sampai ambil banyak foto deh. Sepertinya aku harus tunjukkan tempat itu ke kamu."
       },
       {
         "Title": "Tentang Alice: Penyihir",
@@ -1104,7 +1111,7 @@
       },
       {
         "Title": "Witchlure Bell dan Banehunter Oathhammer",
-        "Context": "\nSetelah Descartes \"diculik\", Prune diliputi kegelisahan yang tidak pernah ia rasakan sebelumnya.\nDia mengurung diri di ruangan, seperti prajurit yang akan berangkat ke medan perang. Kemudian ia akan mulai menganalisis ulang setiap detail argumennya dengan Alice: setiap kali debat mencapai titik di mana Alice kehabisan kata-kata, Alice akan tiba-tiba tersenyum sambil mengeluarkan sebuah \"pusaka berharga\" sebagai hadiah untuk Prune yang telah mengalahkan sang penyihir.\nSaat itu dia hanya merasa \"pusaka berharga\" ini adalah trik untuk membujuk anak kecil, seperti yang biasa dilakukan orang dewasa: memberimu permen agar kamu diam.\nTapi sekarang, sebuah pertanyaan penting muncul di benaknya. \"Kalau kekuatan seorang penyihir benar-benar hebat, apa mungkin 'mainan' buatan mereka benar-benar mainan biasa saja?\"\nMaka dia pun meletakkan semua hadiah dari Alice satu per satu dan melakukan evaluasi kekuatan yang serius. Tapi pertama-tama, Prune langsung menyingkirkan \"pengalih perhatian\" yang jelas: berbagai camilan dengan kemasan mencolok, stiker berkilau dengan gambar kekanak-kanakan, dan boneka plushie tanpa fitur khusus. Pada akhirnya, hanya tersisa dua objek dengan potensi tempur terbesar.\nYang pertama, sebuah lonceng kecil yang dibuat dengan sangat detail. \"Saat lonceng berbunyi, kemungkinan akan muncul seorang penyihir\", ucap Alice saat memberikan penjelasan yang tidak jelas. Dari sini, Prune menyimpulkan bahwa ini adalah sejenis perangkap penyihir. Dia tidak mempertanyakan ketidakjelasan kata \"kemungkinan\", sehingga tentu saja tidak akan terpikir bahwa ini awalnya hanya lonceng yang digunakan untuk mengumumkan dimulainya pesta teh, dan penyihir yang sedang senggang akan datang sesuai keinginan hati mereka. Setelah didefinisikan ulang oleh Prune, lonceng itu memang jadi memiliki peran penting dalam petualangannya. Meskipun belum tentu ada penyihir yang datang saat dibunyikan, tapi lonceng ini selalu menuntunnya menuju petualangan yang menakjubkan.\nYang kedua adalah palu berat yang sangat mencolok secara visual. Di antara semua hadiahnya, palu ini yang paling besar, paling berat, dan saat diayunkan menghasilkan suara angin yang paling kuat, sehingga memberikan tampilan yang mengancam. Dia tidak tahu bahwa palu ini awalnya adalah hadiah yang rencananya akan diberikan Alice kepada penyihir lain bernama Nicole sebagai sebuah alat pahat. Namun, Nicole menolak hadiah yang terlalu \"heroik\" ini dengan halus dan memberikan alasan \"hobiku adalah memahat, bukan menghancurkan\". Akhirnya, palu yang tidak memiliki tujuan ini menjadi pilihan yang sempurna untuk Alice saat membersihkan stok barang-barangnya.\nKedua hadiah dari \"Dodo-King\" ini kemudian diberi nama baru oleh Prune, dan juga dimodifikasi secara logis olehnya ....\nWitchlure Bell dan Banehunter Oathhammer."
+        "Context": "Setelah Descartes \"diculik\", Prune diliputi kegelisahan yang tidak pernah ia rasakan sebelumnya.\nDia mengurung diri di ruangan, seperti prajurit yang akan berangkat ke medan perang. Kemudian ia akan mulai menganalisis ulang setiap detail argumennya dengan Alice: setiap kali debat mencapai titik di mana Alice kehabisan kata-kata, Alice akan tiba-tiba tersenyum sambil mengeluarkan sebuah \"pusaka berharga\" sebagai hadiah untuk Prune yang telah mengalahkan sang penyihir.\nSaat itu dia hanya merasa \"pusaka berharga\" ini adalah trik untuk membujuk anak kecil, seperti yang biasa dilakukan orang dewasa: memberimu permen agar kamu diam.\nTapi sekarang, sebuah pertanyaan penting muncul di benaknya. \"Kalau kekuatan seorang penyihir benar-benar hebat, apa mungkin 'mainan' buatan mereka benar-benar mainan biasa saja?\"\nMaka dia pun meletakkan semua hadiah dari Alice satu per satu dan melakukan evaluasi kekuatan yang serius. Tapi pertama-tama, Prune langsung menyingkirkan \"pengalih perhatian\" yang jelas: berbagai camilan dengan kemasan mencolok, stiker berkilau dengan gambar kekanak-kanakan, dan mainan mewah tanpa fitur khusus. Pada akhirnya, hanya tersisa dua objek dengan potensi tempur terbesar.\nYang pertama, sebuah lonceng kecil yang dibuat dengan sangat detail. \"Saat lonceng berbunyi, kemungkinan akan muncul seorang penyihir\", ucap Alice saat memberikan penjelasan yang tidak jelas. Dari sini, Prune menyimpulkan bahwa ini adalah sejenis perangkap penyihir. Dia tidak mempertanyakan ketidakjelasan kata \"kemungkinan\", sehingga tentu saja tidak akan terpikir bahwa ini awalnya hanya lonceng yang digunakan untuk mengumumkan dimulainya pesta teh, dan penyihir yang sedang senggang akan datang sesuai keinginan hati mereka. Setelah didefinisikan ulang oleh Prune, lonceng itu memang jadi memiliki peran penting dalam petualangannya. Meskipun belum tentu ada penyihir yang datang saat dibunyikan, tapi lonceng ini selalu menuntunnya menuju petualangan yang menakjubkan.\nYang kedua adalah palu berat yang sangat mencolok secara visual. Di antara semua hadiahnya, palu ini yang paling besar, paling berat, dan saat diayunkan menghasilkan suara angin yang paling kuat, sehingga memberikan tampilan yang mengancam. Dia tidak tahu bahwa palu ini awalnya adalah hadiah yang rencananya akan diberikan Alice kepada penyihir lain bernama Nicole sebagai sebuah alat pahat. Namun, Nicole menolak hadiah yang terlalu \"heroik\" ini dengan halus dan memberikan alasan \"hobiku adalah memahat, bukan menghancurkan\". Akhirnya, palu yang tidak memiliki tujuan ini menjadi pilihan yang sempurna untuk Alice saat membersihkan stok barang-barangnya.\nKedua hadiah dari \"Dodo-King\" ini kemudian diberi nama baru oleh Prune, dan juga dimodifikasi secara logis olehnya ....\nWitchlure Bell dan Banehunter Oathhammer."
       },
       {
         "Title": "Vision",

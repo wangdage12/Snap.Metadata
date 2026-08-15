@@ -308,6 +308,7 @@
         "Id": 11141,
         "Name": "Caos: Divisione",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per scagliare una lancia di cristallo rotante, che infligge DAN agli avversari lungo la traiettoria.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -649,6 +650,7 @@
         "Id": 11142,
         "Name": "Caos: Distorsione",
         "Description": "#Riproduce lo stile di combattimento dell'Abominevole. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nSkirk ottiene 45 punti {LINK#N11130005}<color=#FFD780FF>Astuzia del serpente</color>{/LINK} e passa alla modalità {LINK#N11130006}<color=#FFD780FF>Lampo eptafasico</color>{/LINK}.\n\n<color=#FFD780FF>Pressione prolungata</color>\nSkirk ottiene 45 punti Astuzia del serpente e si muove costantemente ad alta velocità. Quando è in questo stato, la sua resistenza all'interruzione aumenta.\nIn questo lasso di tempo, Skirk può controllare la direzione di movimento e muoversi sull'acqua. Usare di nuovo l'abilità termina in anticipo il movimento rapido.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_SkirkNew_01"
       }
     ],
@@ -879,6 +881,7 @@
       "Id": 11145,
       "Name": "Caos: Rovina",
       "Description": "#Il Tripudio elementale di Skirk non consuma energia elementale, bensì {LINK#N11130005}<color=#FFD780FF>Astuzia del serpente</color>{/LINK}.\nQuando Skirk ha almeno 50 punti Astuzia del serpente, può consumarli tutti per scatenare il suo Tripudio elementale, dilaniando lo spazio davanti a lei con dei rapidi fendenti consecutivi che infliggono <color=#99FFFFFF>DAN da Cryo ad area</color>. Al tempo stesso, quando il Tripudio elementale viene scatenato, i DAN inflitti da una singola iterazione di quest'ultimo aumentano per ogni punto Astuzia del serpente superiore ai suddetti 50. A questo scopo, possono essere considerati fino a 12 punti.\n\nQuando Skirk è nella modalità {LINK#N11130006}<color=#FFD780FF>Lampo eptafasico</color>{/LINK}, Caos: Rovina viene sostituito da Caos: Estinzione.\n\n<color=#FFD780FF>Caos: Estinzione</color>\nUn Tripudio elementale speciale che può essere usato senza consumare Astuzia del serpente.\nDopo il suo utilizzo, Skirk ottiene l'effetto Avvizzimento totale, che rimane attivo fino al termine di Lampo eptafasico. Dopo aver sbloccato il talento d'ascensione {LINK#N11130007}<color=#FFD780FF>Oltre ogni logica</color>{/LINK}, Skirk può anche assorbire i Varchi nel Vuoto vicini.\nMentre Avvizzimento totale è attivo, ogni 0,1{NON_BREAK_SPACE}s, gli attacchi normali di Skirk che colpiscono gli avversari infliggono DAN aumentati. Se Skirk assorbe dei Varchi nel Vuoto mentre usa <color=#FFD780FF>Caos: Estinzione</color>, i DAN da attacco normale aumentano ulteriormente in base al numero di Varchi assorbiti.\nL'effetto si annulla dopo averlo innescato 10 volte.",
+      "SpecialEnergyType": 2,
       "Icon": "Skill_E_SkirkNew_01"
     },
     "Inherents": [
@@ -899,7 +902,8 @@
         },
         "Id": 1142101,
         "Name": "Oltre ogni logica",
-        "Description": "#Quando i membri del gruppo vicini innescano reazioni di Congelamento, Superconduzione, Turbinio di Cryo o Cristallizzazione di Cryo su un avversario, si genera un Varco nel Vuoto vicino a quest'ultimo. Quest'effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s. Nel campo possono coesistere fino a 3 Varchi nel Vuoto generati da Skirk.\n\nPer assorbire i Varchi nel Vuoto vicini, Skirk può usare i seguenti metodi:\n· colpire un avversario con un attacco caricato nella sua modalità {LINK#N11130006}<color=#FFD780FF>Lampo eptafasico</color>{/LINK};\n· usare il suo Tripudio elementale speciale <color=#FFD780FF>Caos: Estinzione</color> mentre è in modalità Lampo eptafasico;\n· tenere premuta la sua abilità elementale <color=#FFD780FF>Caos: Distorsione</color> per muoversi velocemente.\n\nOgni Varco assorbito le conferisce 8 punti {LINK#N11130005}<color=#FFD780FF>Astuzia del serpente</color>{/LINK}.",
+        "Description": "#Quando i membri del gruppo vicini innescano reazioni di Congelamento, Superconduzione, Astroconduzione, Turbinio di Cryo, Turbinio astrale o Cristallizzazione di Cryo su un avversario, si genera un Varco nel Vuoto vicino a quest'ultimo. Quest'effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s. Nel campo possono coesistere fino a 3 Varchi nel Vuoto generati da Skirk.\n\nPer assorbire i Varchi nel Vuoto vicini, Skirk può usare i seguenti metodi:\n· colpire un avversario con un attacco caricato nella sua modalità {LINK#N11130006}<color=#FFD780FF>Lampo eptafasico</color>{/LINK};\n· usare il suo Tripudio elementale speciale <color=#FFD780FF>Caos: Estinzione</color> mentre è in modalità Lampo eptafasico;\n· tenere premuta la sua abilità elementale <color=#FFD780FF>Caos: Distorsione</color> per muoversi velocemente.\n\nOgni Varco assorbito le conferisce 8 punti {LINK#N11130005}<color=#FFD780FF>Astuzia del serpente</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_05"
       },
       {
@@ -926,6 +930,7 @@
         "Id": 1142201,
         "Name": "Ritorno all'oblio",
         "Description": "#Quando gli attacchi di <color=#80C0FFFF>Hydro</color> dei membri del gruppo di <color=#80C0FFFF>Hydro</color> vicini colpiscono gli avversari, o quando i membri del gruppo di <color=#99FFFFFF>Cryo</color> vicini, a parte Skirk, colpiscono gli avversari con attacchi di <color=#99FFFFFF>Cryo</color>, Skirk ottiene l'effetto Traversata della Morte per 20{NON_BREAK_SPACE}s, cumulabile fino a 3 volte. La durata di ciascun accumulo è calcolata in modo indipendente.\nIn questo modo, ciascun personaggio può conferire a Skirk solo 1 accumulo di Traversata della Morte.\nOgni accumulo di Traversata della Morte aumenta i DAN da attacco normale inflitti da Skirk nella modalità {LINK#N11130006}<color=#FFD780FF>Lampo eptafasico</color>{/LINK} di un 110%/120%/170% dei DAN originali, nonché i DAN inflitti utilizzando il suo Tripudio elementale <color=#FFD780FF>Caos: Rovina</color> di un 105%/115%/160% dei DAN originali.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_06"
       },
       {
@@ -944,6 +949,7 @@
         "Id": 1142301,
         "Name": "Insegnamento marziale reciproco",
         "Description": "Quando tutti i membri del gruppo sono di <color=#80C0FFFF>Hydro</color> o di <color=#99FFFFFF>Cryo</color>, e se c'è almeno 1 personaggio di Hydro e 1 di Cryo, il livello dell'<color=#FFD780FF>abilità elementale</color> dei membri del tuo gruppo aumenta di 1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_SkirkNew_08"
       }
     ],

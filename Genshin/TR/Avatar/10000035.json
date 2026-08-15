@@ -293,6 +293,7 @@
         "Id": 10351,
         "Name": "Kadim Kılıç Sanatı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nEn fazla 5 hızlı saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak 2 hızlı kılıç saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -590,6 +591,7 @@
         "Name": "Adeptus Büyüsü: Ayazın Habercisi",
         "Description": "Qiqi, Buzdamarı Tılsımını kullanarak Ayazın Habercisini çağırır ve etrafındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Ayazın Habercisi</color>\n·Qiqi'nin Normal ve Yüklü Saldırıları isabet ettiğinde grup üyelerinin ve yakındaki takım arkadaşlarının Canını yeniler. İyileştirme, Qiqi'nin Saldırısına göre belirlenir.\n·Aktif karakterinin Canını belirli aralıklarla yeniler.\n·Karakteri takip eder ve yoluna çıkan düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<i>Bunu Dr. Bai'nin kıymetli malzemeleri ısınmasın ve çürümesin diye kullanıyorum. Aynen öyle.</i>",
         "SpecialDescription": "Qiqi, Buzdamarı Tılsımını kullanarak Ayazın Habercisini çağırır ve etrafındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Ayazın Habercisi</color>\n·Qiqi'nin Normal ve Yüklü Saldırıları isabet ettiğinde kendi grup üyelerinin ve yakındaki takım arkadaşlarının Canını yeniler. İyileştirme, Qiqi'nin Saldırısına göre belirlenir.\n·Aktif karakterinin Canını belirli aralıklarla yeniler.\n·Karakteri takip eder ve karakterin yoluna çıkan düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\nMevcut aktif karakterinin bir saldırısı düşmana isabet ettiğinde Ayazın Habercisi düşmana ortak saldırı yaparak <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<i>\"Bunu Doktor Bai'nin kıymetli yemek malzemeleri ısınmasın ve çürümesin diye kullanıyorum. Aynen öyle.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Qiqi_01"
       }
     ],
@@ -612,7 +614,8 @@
         },
         "Id": 355101,
         "Name": "Yedi Kutsal Hazine",
-        "Description": "<color=#FFD780FF>Adeptus Büyüsü: Ayazın Habercisi</color> Element Becerisinin bekleme süresi 15 saniyeye düşer.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Ayazın Habercisi alandayken Qiqi'nin grubundaki karakterlerin Süper İletim ve Yıldız İletimi Tepkime Hasarı %50 artar.\nAyrıca Qiqi bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "Description": "<color=#FFD780FF>Adeptus Büyüsü: Ayazın Habercisi</color> Element Becerisinin bekleme süresi 15 saniyeye düşer.\n<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>: Ayazın Habercisi alandayken Qiqi'nin grup üyelerinin aşağıdaki tepkimelerle verdiği Hasar gelişir:\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Süper İletim ve Yıldız İletimi Tepkimesi Hasarı %50 artar.\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: Buz Girdabı ve Yıldız Girdabı Tepkimesi Hasarı %50 artar.\nAyrıca Qiqi, bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna, yakındaki bir grup üyesi bir Yıldız Girdabı tepkimesi tetiklediğinde ise 8 saniyeliğine <color=#FFD780FF>Işıltı: Yıldız Girdabı</color> durumuna girer.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
@@ -845,6 +848,7 @@
       "Name": "Adeptus Büyüsü: Nazar",
       "Description": "Qiqi, vücudunda saklı olan Adeptus gücünü açığa çıkararak yakındaki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> veren bir Nazar Tılsımıyla işaretler.\n\n<color=#FFD780FF>Nazar Tılsımı</color>\nBu Tılsımdan etkilenen düşmanlar Hasar aldığında bu Hasarı veren karakter Can yeniler.\n\n<i>\"Ben Uğur Getirenim. Dirilişin Hanımıyım.\"</i>\n<i>- Qiqi bu sözleri hatırlamıyor.</i>",
       "SpecialDescription": "Qiqi, vücudunda saklı olan Adeptus gücünü açığa çıkararak yakındaki düşmanları <color=#99FFFFFF>Buz Hasarı</color> veren bir Nazar Tılsımıyla işaretler.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yıldız İletimi Hasarı olarak da sayılan fazladan bir <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Nazar Tılsımı</color>\nBu Tılsımdan etkilenen düşmanlar Hasar aldığında bu Hasarı veren karakter Can yeniler.\n\n<i>\"Ben Uğur Getirenim. Dirilişin Hanımıyım.\"</i>\n<i>- Qiqi bu sözleri hatırlamıyor.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -864,6 +868,7 @@
         "Id": 352101,
         "Name": "Ömür Uzatma Yöntemleri",
         "Description": "<color=#FFD780FF>Adeptus Büyüsü: Ayazın Habercisi</color> etkisindeki bir karakter, bir Element Tepkimesi tetiklediğinde 8 saniyeliğine Gelen İyileştirme Bonusu %20 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 352201,
         "Name": "Bilinmezliğe Bir Bakış",
         "Description": "Qiqi, Normal ve Yüklü Saldırı ile vurduğu düşmanlara %50 ihtimalle 6 saniyeliğine Nazar Tılsımı uygulayabilir. Bu etki 30 saniyede bir uygulanabilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 352301,
         "Name": "Geçmiş Yaşamın Anıları",
         "Description": "Yakınlardaki <color=#FFD780FF>Liyue'ye özgü kaynakların</color> yerini mini haritada gösterir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],
@@ -911,14 +918,14 @@
         "Id": 351,
         "Name": "Buzul Çile",
         "Description": "Ayazın Habercisi, Nazar Tılsımı ile işaretlenmiş bir düşmana vurduğunda Qiqi 2 Enerji yeniler.",
-        "SpecialDescription": "Ayazın Habercisi, Nazar Tılsımı ile işaretlenmiş bir düşmana isabet ettiğinde Qiqi 2 Enerji yeniler.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Ayazın Habercisinin saldırıları ve ortak saldırıları düşmanlara isabet ettiğinde Qiqi ayrıca 6 Element Enerjisi yeniler. Bu etki her 6 saniyede bir tetiklenebilir.",
+        "SpecialDescription": "Ayazın Habercisi, Nazar Tılsımı ile işaretlenmiş bir düşmana isabet ettiğinde Qiqi 2 Enerji yeniler.\n{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: Ayazın Habercisinin saldırıları ve ortak saldırıları düşmanlara isabet ettiğinde Qiqi ayrıca 6 Element Enerjisi yeniler. Bu etki her 6 saniyede bir tetiklenebilir.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "İliklerine Kadar Donmuş",
         "Description": "<color=#99FFFFFF>Buz</color> etkisindeki düşmanlara karşı Qiqi'nin Normal ve Yüklü Saldırı Hasarı %15 artar.",
-        "SpecialDescription": "Qiqi'nin Normal ve Yüklü Saldırı Hasarı <color=#99FFFFFF>Buz</color> etkisindeki düşmanlara karşı %15 artar.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Qiqi'nin Saldırısı %50 artar.",
+        "SpecialDescription": "Qiqi'nin Normal ve Yüklü Saldırı Hasarı, <color=#99FFFFFF>Buz</color> etkisindeki düşmanlara karşı %15 artar.\n{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: Qiqi'nin Saldırısı %50 artar.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -951,8 +958,8 @@
       {
         "Id": 356,
         "Name": "Canlandırma Ayini",
-        "Description": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir uygulanabilir.",
-        "SpecialDescription": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında yakındaki saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir uygulanabilir.\nAyrıca <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullandıktan sonra Qiqi, 4 kademe <color=#FFD780FF>Gizem Parıltısı</color> kazanır ve mevcut aktif karakter (Qiqi hariç) Yıldız İletimi Hasarı verdiğinde 1 kademe <color=#FFD780FF>Gizem Parıltısı</color> tüketilerek verilen Hasar Qiqi'nin Saldırısının %600'ü kadar artar. <color=#FFD780FF>Gizem Parıltısı</color> etkisi en fazla 12 saniye sürer ve <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanmak kademe sayısını yeniler.",
+        "Description": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında yakındaki saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir uygulanabilir.",
+        "SpecialDescription": "<color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanıldığında yakındaki saf dışı kalmış tüm grup üyeleri dirilir ve Canlarının %50'si yenilenir.\nBu etki 15 dakikada bir tetiklenebilir.\nAyrıca <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullandıktan sonra Qiqi, 4 kademe <color=#FFD780FF>Gizem Parıltısı</color> kazanır ve mevcut aktif karakter (Qiqi hariç) bir Yeteneği veya becerisiyle Yıldız İletimi veya Yıldız Girdabı Tepkimesi Hasarı verdiğinde 1 kademe <color=#FFD780FF>Gizem Parıltısı</color> tüketilerek verilen Hasar Qiqi'nin Saldırısının %600'ü kadar artar. <color=#FFD780FF>Gizem Parıltısı</color> etkisi en fazla 12 saniye sürer ve <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanmak kademe sayısını yeniler.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

@@ -351,6 +351,7 @@
         "Name": "Xạ Thuật Của Thần",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, có sát thương cao hơn.\nKhi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
         "SpecialDescription": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, có sát thương cao hơn.\nKhi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên liên tiếp từ trên không và xung kích xuống mặt đất, gây sát thương phạm vi khi chạm đất.\n\n<color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>\nTrong thời gian tồn tại Mắt Bão tạo ra từ Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, Venti sẽ nhận được hiệu ứng cường hóa thêm:\n·Tấn Công Thường của Venti sẽ chuyển sang bắn <color=#FFD780FF>Mũi Tên Bão</color> có thể xuyên thấu kẻ địch, gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> cao hơn lên kẻ địch trên đường đi.\n·Khi Venti Tấn Công Thường trúng kẻ địch, sẽ kéo dài thời gian duy trì Mắt Bão thêm 1s, thời gian chờ tăng thêm 0.5s. Hiệu quả này mỗi 0.1s tối đa kích hoạt một lần, và tối đa kích hoạt 2 lần sau mỗi lần thi triển Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -519,6 +520,7 @@
         "Id": 10224,
         "Name": "Bài Ca Trời Cao",
         "Description": "Triệu hồi ngọn gió kết hợp thơ và nhạc, cuốn mọi thứ trong bụi mù lên không trung.\n\n<color=#FFD780FF>Nhấn</color>\nTại vị trí của mục tiêu gọi ra ngọn gió, gây <color=#80FFD7FF>Sát Thương Phạm Vi Nguyên Tố Phong</color>, và đánh bay địch.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nLấy bản thân làm trung tâm gọi ra ngọn gió, gây <color=#80FFD7FF>Sát Thương Phạm Vi Nguyên Tố Phong</color>, và đánh bay địch.\nSau khi nhấn giữ, Venti cưỡi gió bay lên không trung.\n\nĐịch bị Bài Ca Trời Cao đánh bay, trong thời gian ngắn sẽ rơi chậm.\n\n<i>Trong thời đại mà thần cùng con người cùng sống trên trái đất, có vô số bài hát truyền khắp bốn phương. Đây là giai điệu đã sớm bị lãng quên.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Venti_01"
       }
     ],
@@ -542,7 +544,8 @@
         },
         "Id": 225101,
         "Name": "Đêm Lễ Ma Nữ - Như Gió Ca Tụng",
-        "Description": "Sau khi hoàn thành <color=#FFD780FF>Bài Tập Của Ma Nữ - Về Chuyện Nổi Gió</color>, Venti sẽ trở thành nhân vật <color=#FFD780FF>Hexerei</color>. Khi đội hình có ít nhất 2 nhân vật Hexerei, sẽ nhận được hiệu quả <color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>, giúp nhân vật Hexerei nhận được cường hóa.\n\n<color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>\nTrong thời gian tồn tại Mắt Bão tạo ra từ Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, trong 4s sau khi nhân vật trong trận hiện tại ở gần kích hoạt phản ứng Khuếch Tán, nhân vật này tăng 50% sát thương gây ra, đồng thời khiến Mắt Bão của bản thân Venti gây ra 135% sát thương gốc.",
+        "Description": "Sau khi hoàn thành <color=#FFD780FF>Bài Tập Của Ma Nữ - Về Chuyện Nổi Gió</color>, Venti sẽ trở thành nhân vật <color=#FFD780FF>Hexerei</color>. Khi đội hình có ít nhất 2 nhân vật Hexerei, sẽ nhận được hiệu quả <color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>, giúp nhân vật Hexerei nhận được cường hóa.\n\n<color=#FFD780FF>Hexerei - Nghi Thức Bí Mật</color>\nTrong thời gian tồn tại Mắt Bão tạo ra từ Kỹ Năng Nộ <color=#FFD780FF>Bài Thơ Thần Gió</color>, trong 4s sau khi nhân vật trong trận hiện tại ở gần kích hoạt phản ứng Khuếch Tán hoặc Tinh-Khuếch Tán, nhân vật này tăng 50% sát thương gây ra, đồng thời khiến Mắt Bão của bản thân Venti gây ra 135% sát thương gốc.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_07"
       }
     ],
@@ -728,6 +731,7 @@
       "Id": 10225,
       "Name": "Bài Thơ Thần Gió",
       "Description": "Bắn ra mũi tên được tạo thành từ hàng nghìn ngọn gió, tạo thành bão lớn, cuốn địch vào, duy trì gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\n\n<color=#FFD780FF>Chuyển hóa nguyên tố</color>\nNếu cơn bão trong thời gian duy trì kỹ năng có tiếp xúc <color=#80C0FFFF>Nguyên Tố Thủy</color>/<color=#FF9999FF>Nguyên Tố Hỏa</color>/<color=#99FFFFFF>Nguyên Tố Băng</color>/<color=#FFACFFFF>Nguyên Tố Lôi</color>, sẽ nhận được thuộc tính nguyên tố tương ứng, tạo thêm sát thương thuộc tính.\nChuyển hóa nguyên tố chỉ phát sinh 1 lần.\n\n<i>Có rất nhiều bài thơ ca ngợi Phong Thần đã biến mất. Trong đó bài thơ này miêu tả sức mạnh của ngài ấy cùng với gió.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Venti_01"
     },
     "Inherents": [
@@ -749,6 +753,7 @@
         "Id": 222101,
         "Name": "Cái Ôm Của Gió",
         "Description": "Nhấn giữ <color=#FFD780FF>Bài Ca Trời Cao</color>, sẽ tạo ra luồng gió lên cao, kéo dài 20s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_05"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 222201,
         "Name": "Mắt Bão",
         "Description": "Sau khi kết thúc hiệu quả <color=#FFD780FF>Bài Thơ Thần Gió</color>, hồi phục 15 điểm năng lượng Nguyên Tố cho Venti; \nNếu xảy ra chuyển hoá nguyên tố, hồi phục 15 điểm năng lượng Nguyên Tố cho tất cả nhân vật trong đội có nguyên tố tương ứng.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_06"
       },
       {
@@ -788,6 +794,7 @@
         "Id": 222301,
         "Name": "Đi Theo Cơn Gió",
         "Description": "Giảm 20% tiêu hao thể lực nhân vật của bản thân trong đội khi bay lượn.\nĐối với buff Thiên Phú cố định có hiệu quả hoàn toàn giống sẽ không thể cộng dồn.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Glide"
       }
     ],

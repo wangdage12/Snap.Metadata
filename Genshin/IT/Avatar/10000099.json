@@ -277,6 +277,7 @@
         "Id": 10991,
         "Name": "Lancia scacciaombre (modificata)",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per eseguire un fendente verso l'alto.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -493,6 +494,7 @@
         "Id": 10992,
         "Name": "Estratto fragrante",
         "Description": "#Crea una Teca di Lumidouce che infligge <color=#99FF88FF>DAN da Dendro ad area</color>.\n\n<color=#FFD780FF>Teca di Lumidouce</color>\n· Attacca spargendo Sbuffi di Limpirugiada a intervalli regolari contro gli avversari circostanti, infliggendo <color=#99FF88FF>DAN da Dendro</color>.\n· Quando gli avversari nelle vicinanze sono affetti da Ustione, questi emanano fino a 1 Aroma ogni 2{NON_BREAK_SPACE}s a intervalli regolari. La Teca di Lumidouce accumula tutti gli Aromi circostanti e, dopo averne accumulati 2, il suo livello sale. L'aumento di livello permette alla Teca di spargere 1 Sbuffo di Limpirugiada in più ogni volta che attacca, aumentando al contempo i DAN inflitti e l'area d'effetto del suddetto attacco.\n· La Teca di Lumidouce inizia dal livello 1 e può salire fino al livello 2, e non può esisterne più di 1 contemporaneamente. Se non accumula alcun Aroma per più di 8{NON_BREAK_SPACE}s mentre è in campo, la Teca torna al livello 1.\n\n<color=#FFD780FF>Archè: Pneuma</color>\nA intervalli regolari, quando Émilie crea una Teca di Lumidouce in questo modo, evoca un Aculeo spettrale di fronte a lei che trafigge il suo avversario, infliggendo <color=#99FF88FF>DAN da Dendro</color> di polarità Pneuma.\n\n<i>\"Il mondo è un'armonia di aromi, colori e canzoni senza fine.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Emilie_01"
       }
     ],
@@ -662,6 +664,7 @@
       "Id": 10995,
       "Name": "Rappresentazione aromatica",
       "Description": "#Émilie converte le fragranze accumulate nella Teca in pura energia di Dendro, creando una Teca di Lumidouce di livello 3 e riponendo tutte le altre Teche già esistenti.\nMentre è presente, la Teca di Lumidouce di livello 3 non accumula Aromi, ma crea delle gocce di Rugiada odorosa che precipitano e attaccano gli avversari nel proprio raggio d'azione, infliggendo <color=#99FF88FF>DAN da Dendro</color>. 1 goccia di Rugiada odorosa precipita ogni 0,3{NON_BREAK_SPACE}s, e ciascun avversario può essere designato come bersaglio ogni 0,7{NON_BREAK_SPACE}s.\nQuando la durata si esaurisce, viene ricreata una Teca di Lumidouce di livello 1. Se una Teca di Lumidouce era stata riposta al momento dell'utilizzo di Rappresentazione aromatica, la stessa Teca viene schierata di nuovo, e la sua durata originale viene ripristinata.\nMentre <color=#FFD780FF>Rappresentazione aromatica</color> è attiva, l'abilità elementale Estratto fragrante non crea altre Teche di Lumidouce.\n\n<i>Al diretto contatto con l'aria, ogni profumo inizia a cambiare, per poi dissiparsi nel vento, tra gli alberi e tra i fili d'erba. Ciò significa che nessuno avvertirà mai la medesima fragranza.\nLo stesso vale per il cammino che ognuno di noi sceglie di vivere. In questo senso, potremmo considerare i profumi come un'interpretazione della vita umana.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Emilie_01"
     },
     "Inherents": [
@@ -683,6 +686,7 @@
         "Id": 992101,
         "Name": "Profumo persistente",
         "Description": "Ogni volta che accumula 2 <color=#FFD780FF>Aromi</color>, la Teca di Lumidouce di livello 2 li consuma per effondere della Colonia di Chiarugiada che infligge <color=#99FF88FF>DAN da Dendro ad area</color> agli avversari pari a un 600% dell'ATT di Émilie. Questi DAN non sono considerati DAN da abilità elementale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 992201,
         "Name": "Rettifica",
         "Description": "Émilie infligge DAN bonus agli avversari sotto l'effetto di Ustione in base al suo ATT, aumentando di un 15% i DAN inflitti per ogni 1.000 di ATT. È possibile ottenere in questo modo fino a un 36% di bonus DAN massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 992301,
         "Name": "Spazio di testa",
         "Description": "Quando la Teca di Lumidouce creata da Émilie è in campo, tutti i membri del gruppo ottengono un 85% di <color=#FF9999FF>RES a Pyro</color> contro i DAN da Ustione.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Emilie_07"
       }
     ],

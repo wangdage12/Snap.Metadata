@@ -293,6 +293,7 @@
         "Id": 10351,
         "Name": "Ancient Sword Art",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang secara cepat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -590,6 +591,7 @@
         "Name": "Adeptus Art: Herald of Frost",
         "Description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekelilingnya.\n\n<color=#FFD780FF>Herald of Frost</color>\n·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter teman lain di dekatnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi;\n·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri;\n·Mengikuti gerakan Karakter dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> kepada musuh yang dilewati.\n\n<i>Aku pakai ini supaya tidak jadi hangat dan busuk ... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.</i>",
         "SpecialDescription": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekelilingnya.\n\n<color=#FFD780FF>Herald of Frost</color>\n·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter rekan di sekitarnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi.\n·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri.\n·Herald of Frost akan mengikuti gerakan Karakter dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> kepada musuh yang dilewati.\nSaat serangan Karakter aktif sendiri di dalam party mengenai musuh, Herald of Frost akan melancarkan satu kali serangan terkoordinasi dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> terhadap musuh tersebut.\n\n<i>Aku pakai ini supaya tidak jadi hangat dan busuk ... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Qiqi_01"
       }
     ],
@@ -612,7 +614,8 @@
         },
         "Id": 355101,
         "Name": "Seven Sacred Treasures",
-        "Description": "Cooldown Elemental Skill <color=#FFD780FF>Adeptus Art: Herald of Frost</color> berkurang menjadi 15 detik.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Selama Herald of Frost aktif, DMG reaksi Superconduct dan Stellar-Conduct yang diakibatkan Karakter sendiri di dalam party meningkat 50%.\nSelain itu, saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Qiqi akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "Description": "Cooldown Elemental Skill <color=#FFD780FF>Adeptus Art: Herald of Frost</color> berkurang menjadi 15 detik.\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: Selama Herald of Frost aktif, DMG reaksi bersangkutan yang diakibatkan Karakter sendiri dalam party meningkat:\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: DMG reaksi Superconduct dan Stellar-Conduct meningkat sebesar 50%.\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG reaksi Cryo Swirl dan Stellar Swirl meningkat sebesar 50%.\nSelain itu, Qiqi juga akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color> saat berada di dalam {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} atau memasuki status <color=#FFD780FF>Radiance: Stellar Swirl</color> selama 8 detik setelah Karakter dalam party di sekitar memicu reaksi Stellar Swirl.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
@@ -845,6 +848,7 @@
       "Name": "Adeptus Art: Preserver of Fortune",
       "Description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nSaat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.\n\n<i>\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"</i>\n<i>—Qiqi tidak ingat kata-kata ini.</i>",
       "SpecialDescription": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Mengakibatkan satu kali <color=#99FFFFFF>Cryo DMG</color> tambahan yang dianggap sebagai DMG reaksi Stellar-Conduct.\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nSaat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.\n\n<i>\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"</i>\n<i>—Qiqi tidak ingat kata-kata ini.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -864,6 +868,7 @@
         "Id": 352101,
         "Name": "Life-Prolonging Methods",
         "Description": "Saat Karakter berada dalam efek <color=#FFD780FF>Adeptus Art: Herald of Frost</color> memicu Reaksi Elemental, Incoming Healing Bonus mereka meningkat sebesar 20% selama 8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 352201,
         "Name": "A Glimpse Into Arcanum",
         "Description": "Saat Qiqi menyerang musuh dengan Normal dan Charged Attack, Qiqi memiliki 50% kemungkinan untuk memberikan Fortune-Preserving Talisman kepada musuh selama 6 detik. Efek ini dapat terpicu setiap 30 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 352301,
         "Name": "Former Life Memories",
         "Description": "Memperlihakan lokasi <color=#FFD780FF>produk khas Liyue</color> di sekitar pada peta kecil.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],
@@ -911,14 +918,14 @@
         "Id": 351,
         "Name": "Ascetics of Frost",
         "Description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi memulihkan 2 Energy.",
-        "SpecialDescription": "Saat Herald of Frost mengenai musuh yang ditandai Fortune-Preserving Talisman, Qiqi memulihkan 2 poin Energy.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Saat serangan dan serangan terkoordinasi Herald of Frost mengenai musuh, Qiqi juga memulihkan 6 poin Energy. Efek ini dapat terpicu sekali setiap 6 detik.",
+        "SpecialDescription": "Saat Herald of Frost mengenai musuh yang ditandai Fortune-Preserving Talisman, Qiqi akan memulihkan 2 poin Energy.\n<color=#FFD780FF>{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}</color>: Saat serangan dan serangan terkoordinasi Herald of Frost mengenai musuh, Qiqi juga memulihkan 6 poin Energy. Efek ini dapat terpicu sekali setiap 6 detik.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Frozen to the Bone",
         "Description": "Meningkatkan 15% Normal dan Charged Attack Qiqi terhadap musuh yang terpengaruh <color=#99FFFFFF>Cryo</color>.",
-        "SpecialDescription": "DMG yang diakibatkan Normal Attack dan Charged Attack Qiqi terhadap musuh yang terpengaruh elemen <color=#99FFFFFF>Cryo</color> meningkat 15%.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: ATK Qiqi meningkat 50%.",
+        "SpecialDescription": "DMG yang diakibatkan Normal Attack dan Charged Attack Qiqi terhadap musuh yang terpengaruh elemen <color=#99FFFFFF>Cryo</color> meningkat 15%.\n\n<color=#FFD780FF>{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}</color>: ATK Qiqi meningkat 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -952,7 +959,7 @@
         "Id": 356,
         "Name": "Rite of Resurrection",
         "Description": "Menggunakan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> akan menghidupkan kembali Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.\nEfek ini terpicu setiap 15 menit.",
-        "SpecialDescription": "Menggunakan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> akan menghidupkan kembali semua Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.\nEfek ini dapat terpicu sekali setiap 15 menit.\nSelain itu, saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>, Qiqi juga akan mendapatkan 4 lapis <color=#FFD780FF>Glimpse of Mystery</color>: Saat Karakter aktif sendiri dalam party selain Qiqi mengakibatkan DMG reaksi Stellar-Conduct, akan mengonsumsi 1 lapis <color=#FFD780FF>Glimpse of Mystery</color>, untuk meningkatkan DMG yang diakibatkan sebesar 600% ATK Qiqi. <color=#FFD780FF>Glimpse of Mystery</color> berlangsung maksimum 12 detik dan jumlah lapisannya akan diperbarui saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>.",
+        "SpecialDescription": "Menggunakan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> akan menghidupkan kembali semua Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.\nEfek ini dapat terpicu sekali setiap 15 menit.\nSelain itu, saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>, Qiqi juga akan mendapatkan 4 lapis <color=#FFD780FF>Glimpse of Mystery</color>: Saat Karakter aktif sendiri dalam party selain Qiqi mengakibatkan DMG reaksi Stellar-Conduct atau Stellar Swirl secara langsung melalui Talenta atau Skill, akan mengonsumsi 1 lapis <color=#FFD780FF>Glimpse of Mystery</color> untuk meningkatkan DMG yang diakibatkan sebesar 600% ATK Qiqi. <color=#FFD780FF>Glimpse of Mystery</color> berlangsung maksimum 12 detik dan jumlah lapisannya akan diperbarui saat melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

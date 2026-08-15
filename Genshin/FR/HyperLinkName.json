@@ -277,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Essentiels de sauvetage",
-    "Description": "Chaque point d'essentiels de sauvetage qu'Ifa possède augmente les DGT infligés par les réactions de Dispersion et d'Électrocution des membres de l'équipe à proximité de 1,5 % et ceux des réactions de Sélénocution de 0,2 %, Ifa pouvant posséder un maximum de 150 pts d'essentiels de sauvetage. Tous les points d'essentiels de sauvetage sont annulés lorsque la bénédiction noctâme d'Ifa prend fin."
+    "Description": "#Chaque point d'essentiels de sauvetage qu'Ifa possède augmente les DGT infligés par les réactions de Dispersion et d'Électrocution des membres de l'équipe à proximité de 1,5 %, ceux des réactions de Sélénocution de 0,2 % et ceux des réactions d'Astrodispersion de {PARAM#P1132101|5S100}{NON_BREAK_SPACE}%, Ifa pouvant posséder un maximum de 150 pts d'essentiels de sauvetage. Tous les points d'essentiels de sauvetage sont annulés lorsque la bénédiction noctâme d'Ifa prend fin."
   },
   {
     "Id": 11130003,
@@ -302,7 +302,7 @@
   {
     "Id": 11130007,
     "Name": "Raisonnement outre-raison",
-    "Description": "Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Gel, de Supraconduction, de Dispersion Cryo ou de Cristallisation Cryo sur un ennemi, une faille du néant apparaît à proximité de ce dernier. Cet effet peut être déclenché une fois toutes les 2,5 s et un maximum de 3 failles du néant créées par Skirk peut exister en même temps sur le terrain.\n\nSkirk peut absorber les failles du néant à proximité des manières suivantes :\n· En touchant un ennemi avec une attaque chargée pendant son mode Flash à sept phases.\n· En utilisant son déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color> pendant son mode Flash à sept phases.\n· En se déplaçant rapidement grâce à un appui long de sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>.\n\nChaque faille du néant absorbée permet à Skirk d'obtenir 8 pts de finesse serpentine."
+    "Description": "Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Gel, de Supraconduction, d'Astroconduction, de Dispersion Cryo, d'Astrodispersion ou de Cristallisation Cryo sur un ennemi, une faille du néant apparaît à proximité de ce dernier. Cet effet peut être déclenché une fois toutes les 2,5 s et un maximum de 3 failles du néant créées par Skirk peut exister en même temps sur le terrain.\n\nSkirk peut absorber les failles du néant à proximité des manières suivantes :\n· En touchant un ennemi avec une attaque chargée pendant son mode Flash à sept phases.\n· En utilisant son déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color> pendant son mode Flash à sept phases.\n· En se déplaçant rapidement grâce à un appui long de sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>.\n\nChaque faille du néant absorbée permet à Skirk d'obtenir 8 pts de finesse serpentine."
   },
   {
     "Id": 11130008,
@@ -477,7 +477,7 @@
   {
     "Id": 11320001,
     "Name": "Marteau-serment de chasse des fléaux",
-    "Description": "Le fidèle compagnon de la chasseuse de sorcières ! Dans les conditions adéquates, le marteau-serment de chasse des fléaux subit une absorption élémentaire, convertissant tous ses DGT en l'élément correspondant.\nPrune peut invoquer un marteau-serment de chasse des fléaux dont l'élément a été converti des manières suivantes :\n· Pendant un certain moment après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Ding ding ding ! Carillon de chasse aux sorcières</color> pour déclencher une réaction de Dispersion sur un ennemi, Prune peut utiliser la compétence élémentaire spéciale <color=#FFD780FF>Bang bang ! Arrivée de la rétribution de sorcière</color>. Utiliser cette compétence élémentaire spéciale convertit le marteau-serment de chasse des fléaux en l'autre élément impliqué dans cette réaction de Dispersion.\n· Après avoir débloqué l'aptitude d'élévation « Verdict et peine », déclencher une réaction de Dispersion sur un ennemi avec la cloche de l'ensorceleuse pendant le mode Chasse-traque invoque un marteau-serment de chasse des fléaux de l'élément de la réaction de Dispersion pour attaquer l'ennemi."
+    "Description": "Le fidèle compagnon de la chasseuse de sorcières ! Dans les conditions adéquates, le marteau-serment de chasse des fléaux subit une absorption élémentaire, convertissant tous ses DGT en l'élément correspondant.\nPrune peut invoquer un marteau-serment de chasse des fléaux dont l'élément a été converti des manières suivantes :\n· Pendant un certain moment après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Ding ding ding ! Carillon de chasse aux sorcières</color> pour déclencher une réaction de Dispersion ou d'Astrodispersion sur un ennemi, Prune peut utiliser la compétence élémentaire spéciale <color=#FFD780FF>Bang bang ! Arrivée de la rétribution de sorcière</color>. Utiliser cette compétence élémentaire spéciale convertit le marteau-serment de chasse des fléaux en l'autre élément impliqué dans cette réaction de Dispersion ou d'Astrodispersion.\n· Après avoir débloqué l'aptitude d'élévation « Verdict et peine », déclencher une réaction de Dispersion ou d'Astrodispersion sur un ennemi avec la cloche de l'ensorceleuse pendant le mode Chasse-traque invoque un marteau-serment de chasse des fléaux de l'élément de la réaction de Dispersion ou d'Astrodispersion pour attaquer l'ennemi."
   },
   {
     "Id": 11320002,
@@ -492,7 +492,7 @@
   {
     "Id": 11330001,
     "Name": "Décodage",
-    "Description": "Fagio passe en mode Décodage lors d'une attaque chargée.\nDans ce mode, Fagio déchaîne une attaque de tir dévastatrice sur les ennemis en avant et tire périodiquement des rayons condensés, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>.\n<color=#FFD780FF>Radiance « Astroconduction »</color> : Les rayons condensés infligent à la place des <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction d'Astroconduction."
+    "Description": "Fagio passe en mode Décodage lors d'une attaque chargée.\nDans ce mode, Fagio déchaîne une attaque de tir dévastatrice sur les ennemis en avant et tire périodiquement des rayons condensés, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>.\n<color=#FFD780FF>Radiance astrale</color> : Les rayons condensés infligent à la place des <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction astrale correspondante."
   },
   {
     "Id": 11330002,
@@ -503,5 +503,45 @@
     "Id": 11330003,
     "Name": "Étendue polaris",
     "Description": "Lorsqu'une réaction d'Astroconduction est déclenchée, la zone environnante se transforme temporairement en <color=#FFD780FF>étendue polaris</color>. Dans cette étendue polaris, certains personnages passent en <color=#FFD780FF>radiance « Astroconduction »</color>, ce qui accorde des bonus à leurs capacités."
+  },
+  {
+    "Id": 11400001,
+    "Name": "Pouvoir de la lame spirituelle",
+    "Description": "À propos du pouvoir de la lame spirituelle..."
+  },
+  {
+    "Id": 10050002,
+    "Name": "Lueur givrée",
+    "Description": "#L'effet Lueur givrée est accordé lorsqu'un cristal de glace tiré par une <color=#FFD780FF>étoile perce-givre</color> formée par {M#le voyageur}{F#la voyageuse} touche un ennemi ou que {M#ce dernier}{F#cette dernière} a effectué une <color=#FFD780FF>attaque chargée « Glace givrante »</color> après avoir débloqué l'aptitude <color=#FFD780FF>Pergélisol d'ailleurs</color>, et peut être cumulé 8 fois maximum.\nEn utilisant le déchaînement élémentaire <color=#FFD780FF>Javelot de congélation</color>, {M#le voyageur}{F#la voyageuse} consomme tous les cumuls de <color=#FFD780FF>lueur givrée</color> pour augmenter les DGT infligés cette fois-là. De plus, consommer 8 cumuls augmente également le nombre de coups infligés par le déchaînement élémentaire."
+  },
+  {
+    "Id": 11500001,
+    "Name": "Doublure de danse solo",
+    "Description": "Cette doublure psychique d'Odette qui danse avec elle peut être invoquée sur le terrain grâce à sa compétence élémentaire ou à son déchaînement élémentaire.\nElle alterne entre la danse de type <color=#FFD780FF>Plume</color> et celle de type <color=#FFD780FF>Aile</color>, attaquant de façon intermittente les ennemis proches avec des mouvements élégants et légers afin de leur infliger des <color=#99FFFFFF>DGT Cryo de zone</color>.\nIl ne peut exister qu'une seule <color=#FFD780FF>doublure de danse solo</color> créée par Odette à la fois.\n\nDe plus, si une <color=#FFD780FF>doublure de danse solo</color> invoquée par Odette est à proximité, la compétence élémentaire <color=#FFD780FF>Danse lente : Transe nocturne fantôme</color> d'Odette est remplacée par la compétence élémentaire spéciale <color=#FFD780FF>Danse lente : Final de l'aube</color>."
+  },
+  {
+    "Id": 11500002,
+    "Name": "Danse lente : Final de l'aube",
+    "Description": "Cette compétence élémentaire spéciale d'Odette inflige des <color=#99FFFFFF>DGT Cryo de zone</color> de façon continue aux ennemis proches, puis une instance de <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction d'Astroconduction est infligée à la fin de la danse en duo. De plus, Odette peut contrôler la direction des pas de danse pendant la danse en duo.\n<color=#FFD780FF>Radiance astrale</color> : Les DGT infligés à la fin de la danse en duo sont convertis pour infliger des <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction astrale correspondante.\n\nDe plus, si Odette utilise sa compétence élémentaire spéciale <color=#FFD780FF>Danse lente : Final de l'aube</color> tout en étant en <color=#FFD780FF>radiance astrale</color> alors que sa <color=#FFD780FF>doublure de danse solo</color> est toujours active, les deux types de danse de la <color=#FFD780FF>doublure de danse solo</color> infligent en plus des <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction astrale correspondante."
+  },
+  {
+    "Id": 11500003,
+    "Name": "Splendeur merveilleuse",
+    "Description": "Odette obtient cet effet spécial lorsqu'elle invoque sa <color=#FFD780FF>doublure de danse solo</color> après avoir débloqué l'aptitude d'élévation « Printemps de l'élue ».\nChaque cumul de <color=#FFD780FF>splendeur merveilleuse</color> augmente les DGT de réaction astrale infligés par un personnage de 15 % jusqu'à la fin de la <color=#FFD780FF>doublure de danse solo</color> ou l'invocation d'une nouvelle <color=#FFD780FF>doublure de danse solo</color>.\nLorsque Odette fait partie de l'équipe mais n'est pas déployée, elle perd 1 cumul de <color=#FFD780FF>splendeur merveilleuse</color> toutes les secondes, tandis que les autres membres de l'équipe à proximité obtiennent la quantité correspondante de cumuls de <color=#FFD780FF>splendeur merveilleuse</color>."
+  },
+  {
+    "Id": 11500004,
+    "Name": "Radiance astrale",
+    "Description": "#La <color=#FFD780FF>radiance « Astroconduction »</color> et la <color=#FFD780FF>radiance « Astrodispersion »</color> sont toutes les deux considérées comme des <color=#FFD780FF>radiances astrales</color>.\nLes personnages peuvent être affectés par un seul type de radiance à la fois, la <color=#FFD780FF>radiance «{NON_BREAK_SPACE}Astroconduction »</color> ayant la priorité."
+  },
+  {
+    "Id": 11480001,
+    "Name": "Marque de broussailleur",
+    "Description": "Alyosha peut appliquer cet effet spécial sur les ennemis.\nAppliquer une nouvelle fois cet effet sur un ennemi déjà sous l'effet d'une <color=#FFD780FF>marque de broussailleur</color> permet à la place d'activer la <color=#FFD780FF>marque de broussailleur</color> : retire la marque pour accorder l'effet <color=#FFD780FF>Précision de broussailleur</color> à tous les membres de l'équipe à proximité, augmentant l'ATQ sur le terrain."
+  },
+  {
+    "Id": 11480002,
+    "Name": "Tugarin",
+    "Description": "Fidèle chien de chasse et compagnon d'Alyosha, Tugarin peut être invoqué sur le terrain grâce au déchaînement élémentaire <color=#FFD780FF>Avancée du broussailleur</color>. Il se rapproche de façon intermittente d'un ennemi afin de le mordre et d'activer toute <color=#FFD780FF>marque de broussailleur</color> présente."
   }
 ]

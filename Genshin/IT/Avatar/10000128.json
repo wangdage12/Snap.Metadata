@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Tecnica di Favonius: Splendore danzante",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nImitando un'antica danza di guerra cavalleresca, Varka impugna le sue due claymore per sferrare fino a 5 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per scattare in avanti e sferrare un colpo particolarmente potente davanti a sé con le sue lame.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Turbine della sentenza",
         "Description": "Mostra la vera essenza e l'assoluta forza della Tecnica di Favonius. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.\n\n<color=#FFD780FF>Pressione</color>\nBalza in avanti sferrando un fendente con un unico movimento fluido, infliggendo <color=#80FFD7FF>DAN da Anemo ad area</color> e passando alla modalità {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}.\nDurante <color=#FFD780FF>Sturm und Drang</color>, Varka infligge DAN da attacco normale e da attacco caricato aumentati e non può eseguire attacchi in picchiata. Inoltre, quando sferra attacchi normali o caricati, le due claymore di Varka infliggono DAN elementali in base ai tipi elementali dei personaggi nel gruppo. Tali DAN non sono influenzabili da altre infusioni elementali.\nInoltre, durante <color=#FFD780FF>Sturm und Drang</color>, se nel gruppo sono presenti personaggi di <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, l'abilità elementale di Varka <color=#FFD780FF>Turbine della sentenza</color> viene convertita nell'abilità elementale speciale {LINK#N11280002}<color=#FFD780FF>Ascensione dei Quattro Venti</color>{/LINK}, che infligge DAN elementali corrispondenti e <color=#80FFD7FF>DAN da Anemo</color>. Varka può anche spendere gli utilizzi dell'abilità elementale speciale <color=#FFD780FF>Ascensione dei Quattro Venti</color> per eseguire l'attacco caricato speciale <color=#FFD780FF>Divorazzurro</color> senza consumare vigore, infliggendo DAN elementali corrispondenti e <color=#80FFD7FF>DAN da Anemo</color>.\n\n<color=#FFD780FF>Pressione prolungata</color>\nBalza in avanti dopo un breve caricamento. La durata del caricamento aumenta la distanza del salto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Rito della Vigilia della strega: Ritorno dell'alba",
         "Description": "#Dopo aver completato <color=#FFD780FF>Compiti della strega: Domanda senza titolo</color>, Varka acquisisce l'attributo <color=#FFD780FF>Hexerei</color>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <color=#FFD780FF>Hexerei: Rito segreto</color>.\n\n<color=#FFD780FF>Hexerei: Rito segreto</color>\nPotenzia l'abilità elementale speciale {LINK#N11280002}<color=#FFD780FF>Ascensione dei Quattro Venti</color>{/LINK}: quando Varka colpisce un avversario con degli attacchi normali in modalità {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}, il TdR di <color=#FFD780FF>Ascensione dei Quattro Venti</color> si riduce di 1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Incarnazione del Vento del Nord",
       "Description": "Nel nome del possente Cavaliere di Boreas, sferra un potente fendente con le sue due lame, infliggendo 2 iterazioni di <color=#80FFD7FF>DAN da Anemo</color>.\nSe nel gruppo sono presenti personaggi di <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, i DAN del primo fendente vengono convertiti nei DAN elementali corrispondenti in base al suddetto ordine di priorità dei tipi elementali.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Marcia del vento dell'alba",
         "Description": "Quando nel gruppo sono presenti personaggi di <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, in base al sopracitato ordine di priorità dei tipi elementali, per ogni 1.000 di ATT di Varka, quest'ultimo ottiene un 10% di <color=#80FFD7FF>bonus DAN da Anemo</color> e un bonus DAN elementali corrispondente (tra i tipi elementali sopracitati, solo uno può ottenere il bonus DAN in questo modo) fino a un 25% massimo.\n\nInoltre, se nel gruppo sono presenti almeno 2 personaggi di <color=#80FFD7FF>Anemo</color> o almeno 2 personaggi dello stesso elemento tra <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, gli attacchi normali, gli attacchi caricati, l'attacco caricato speciale <color=#FFD780FF>Divorazzurro</color> e l'abilità elementale speciale {LINK#N11280002}<color=#FFD780FF>Ascensione dei Quattro Venti</color>{/LINK} sferrati o scatenati da Varka mentre è in modalità {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK} infliggono un 140% dei loro DAN originali. Se nel gruppo sono presenti almeno 2 personaggi di <color=#80FFD7FF>Anemo</color> e almeno 2 personaggi dello stesso elemento tra <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color> allo stesso tempo, l'effetto sopracitato aumenta a un 220%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Avanguardia del vento",
-        "Description": "#Quando i membri del gruppo vicini innescano reazioni di Turbinio, Varka ottiene 1 accumulo di <color=#FFD780FF>Giuramento della Zanna azzurra</color>, che aumenta di un 7,5% per 8{NON_BREAK_SPACE}s i DAN inflitti dai suoi attacchi normali, dagli attacchi caricati, dall'attacco caricato speciale <color=#FFD780FF>Divorazzurro</color> e dall'abilità elementale speciale {LINK#N11280002}<color=#FFD780FF>Ascensione dei Quattro Venti</color>{/LINK}. Massimo 4 accumuli. In questo modo, ogni personaggio può fornire a Varka 1 accumulo di <color=#FFD780FF>Giuramento della Zanna azzurra</color> al secondo.",
+        "Description": "#Quando i membri del gruppo vicini innescano una reazione di Turbinio o di Turbinio astrale, Varka ottiene 1 accumulo di <color=#FFD780FF>Giuramento della Zanna azzurra</color>, che aumenta di un 7,5% per 8{NON_BREAK_SPACE}s i DAN inflitti dai suoi attacchi normali, dagli attacchi caricati, dall'attacco caricato speciale <color=#FFD780FF>Divorazzurro</color> e dall'abilità elementale speciale {LINK#N11280002}<color=#FFD780FF>Ascensione dei Quattro Venti</color>{/LINK}. Massimo 4 accumuli. In questo modo, ogni personaggio può fornire a Varka 1 accumulo di <color=#FFD780FF>Giuramento della Zanna azzurra</color> al secondo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Inno al vento del ritorno",
         "Description": "Per ogni membro di Mondstadt presente nel gruppo, il TdR della variante a pressione prolungata dell'abilità elementale <color=#FFD780FF>Turbine della sentenza</color> si riduce di un 5%.\nNon ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "\"Perché nessuno potrà mai privarci della nostra libertà di cantare\"",
-        "Description": "#Quando Varka innesca una reazione di Turbinio, tutti i membri vicini del gruppo ottengono per 10{NON_BREAK_SPACE}s un 20% di <color=#80FFD7FF>bonus DAN da Anemo</color> e il bonus DAN elementali corrispondente in base ai tipi elementali coinvolti nella reazione.",
+        "Description": "#Quando Varka innesca una reazione di Turbinio o di Turbinio astrale, tutti i membri vicini del gruppo ottengono per 10{NON_BREAK_SPACE}s un 20% di <color=#80FFD7FF>bonus DAN da Anemo</color> e il bonus DAN elementali corrispondente in base ai tipi elementali coinvolti nella reazione.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

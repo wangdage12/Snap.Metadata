@@ -293,6 +293,7 @@
         "Id": 11211,
         "Name": "Bish-Bash-Bosh Repair",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nโจมตีต่อเนื่องมากสุด 3 ครั้ง\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายอย่างต่อเนื่อง เพื่อหมุนโจมตีศัตรูรอบตัวด้วยดาบขนาดใหญ่\nเมื่อหยุดหมุนจะทำการฟันเพิ่มอย่างรุนแรงอีกหนึ่งครั้ง\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11212,
         "Name": "Musecatcher",
         "Description": "#ขว้าง <color=#FFD780FF>Musecatcher</color> ไปข้างหน้า เพื่อสร้าง<color=#80C0FFFF>ความเสียหายน้ำ</color> และดึงตัวเองไปข้างหน้าในเวลาเดียวกัน พร้อมทั้งสร้าง<color=#80C0FFFF>ความเสียหายน้ำวงกว้าง</color>แก่ศัตรูที่อยู่ใกล้เมื่อการเคลื่อนที่สิ้นสุดลง\nเมื่อ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง} จะทำการปล่อยด้วยวิธีที่แตกต่างกัน\n\n<color=#FFD780FF>{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}</color>\nเข้าสู่สถานะการเล็ง เพื่อปรับทิศทางการขว้าง \"Musecatcher\"",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Aino_01"
       }
     ],
@@ -614,6 +616,7 @@
       "Id": 11215,
       "Name": "Precision Hydronic Cooler",
       "Description": "ปล่อยซูเปอร์กลไกพ่นน้ำสั่งทำพิเศษ <color=#FFD780FF>\"Cool Your Jets Ducky\"</color> เพื่อสร้าง<color=#FFD780FF>พื้นที่เย็นชุ่มฉ่ำ</color>\nในช่วงเวลาต่อเนื่อง \"Cool Your Jets Ducky\" จะยิงกระสุนน้ำใส่ศัตรูที่อยู่ใกล้เคียงเป็นระยะ เพื่อสร้าง<color=#80C0FFFF>ความเสียหายน้ำ</color>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Aino_01"
     },
     "Inherents": [
@@ -636,6 +639,7 @@
         "Id": 1212101,
         "Name": "Modular Efficiency Protocol",
         "Description": "Aino จะได้รับ เอฟเฟกต์เสริมพลังที่สอดคล้องกัน โดยขึ้นอยู่กับ<color=#FFD780FF>ลัคนาจันทร์</color>ของทีม\n\n<color=#FFD780FF>ลัคนาจันทร์ - จรัสแสง</color>: ท่าไม้ตาย <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color> จะได้รับการเสริมพลัง: <color=#FFD780FF>Cool Your Jets Ducky</color> จะยิงกระสุนน้ำถี่ขึ้นกว่าเดิม และกระสุนน้ำจะสร้าง<color=#80C0FFFF>ความเสียหายน้ำวงกว้าง</color> ที่มีขอบเขตกว้างขึ้น",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aino_05"
       },
       {
@@ -656,6 +660,7 @@
         "Id": 1212201,
         "Name": "Structured Power Booster",
         "Description": "ท่าไม้ตายของ Aino สร้างความเสียหายเพิ่มขึ้น โดยค่าที่เพิ่มขึ้นจะเท่ากับ 50% ของความชำนาญธาตุของ Aino",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aino_06"
       },
       {
@@ -674,6 +679,7 @@
         "Id": 1212301,
         "Name": "Moonsign Benediction: Force Limit Analysis",
         "Description": "เมื่อ Aino อยู่ในทีม <color=#FFD780FF>ลัคนาจันทร์</color>ของทีมจะเพิ่มขึ้น 1 ระดับ",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aino_07"
       },
       {
@@ -692,6 +698,7 @@
         "Id": 1212501,
         "Name": "Miniaturized Detection Sensor",
         "Description": "แสดงตำแหน่ง<color=#FFD780FF>ของพิเศษเฉพาะใน Nod-Krai</color> บนมินิแมป\nนอกจากนี้ Aino ดูเหมือนจะสามารถเปลี่ยนรูปลักษณ์ของ \"Cool Your Jets Ducky\" ได้ด้วยวิธีการบางอย่าง...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Aino_08"
       }
     ],

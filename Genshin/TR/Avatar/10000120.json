@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "Pocztowy İblis Mızrağı",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 5 mızrak saldırısı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcar ve ileri doğru bir mızrak atışı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "Kadim Ayin: Sırlı Işık",
         "Description": "Flins, lambasındaki gizli kadim güçleri çağırarak <color=#FFD780FF>Alev Sureti</color> formuna geçer. Bu formun şu özellikleri vardır:\n·Flins'in Normal ve Yüklü Saldırıları, diğer element tesirleriyle değişmeyecek şekilde <color=#FFACFFFF>Elektrik Hasarı</color> verir, ayrıca Flins Havadan Saldırı yapamaz.\n·Müdahaleye karşı direnci artar.\n·<color=#FFD780FF>Kadim Ayin: Sırlı Işık</color> Element Becerisi, özel <color=#FFD780FF>Kuzey Diyarı Mızrak Fırtınası</color> Element Becerisi olarak değişir.\n\n<color=#FFD780FF>Kuzey Diyarı Mızrak Fırtınası</color>\nFlins önünde bir dizi mızrak çağırarak <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir ve 6sn boyunca <color=#FFD780FF>Kadim Ritüel: Gecenin Varışı</color> Element Patlaması, özel {LINK#N11200001}<color=#FFD780FF>Gürleyen Senfoni</color>{/LINK} olarak değişir.\n<color=#FFD780FF>Kuzey Diyarı Mızrak Fırtınası</color> temel Bekleme Süresi 6 saniyedir ve diğer etkiler tarafından değiştirilemez.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "Kadim Ritüel: Gecenin Varışı",
       "Description": "Flins lambasının gerçek gücünü ortaya çıkarır, <color=#FFACFFFF>Elektrik Alan Hasarı</color> verdikten kısa bir süre sonra 2 defa orta aşama ve 1 defa son aşama <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir ve bunların tümü Ay Yüklü Hasarı sayılır.\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Flins'in Becerisi güçlenir: Yakında Şimşek Bulutları olması halinde fazladan 2 defa daha orta aşama Ay Yüklü <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\n\nFlins <color=#FFD780FF>Kuzey Diyarı Mızrak Fırtınası</color> özel Element Becerisini kullandığında 6sn boyunca <color=#FFD780FF>Kadim Ritüel: Gecenin Varışı</color> Element Patlaması, özel <color=#FFD780FF>Gürleyen Senfoniye</color> dönüşür.\n\n<color=#FFD780FF>Gürleyen Senfoni</color>\nFlins daha az Element Enerjisi tüketerek özel bir Element Patlaması kullanır ve bir defa Ay Yüklü Hasarı sayılan <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Flins'in Becerisi güçlenir: Yakında Şimşek Bulutları olması halinde Flins fazladan bir defa daha Ay Yüklü <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "Kış Senfonisi",
         "Description": "Flins, grubun <color=#FFD780FF>Ay Sembolüne</color> göre güçlendirmeler kazanır.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: Flins'in tetiklediği Ay Yüklü tepkimeleri %20 daha fazla Hasar verir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "Alev Fısıltısı",
         "Description": "Flins'in Element Ustalığı, Saldırısının %8'i kadar artar. Bu şekilde en fazla 160 Element Ustalığı artışı sağlanabilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "Ay Sembolü Kutsaması: Eski Dünyanın Sırları",
         "Description": "Bir grup üyesi Elektrik Yüklü tepkimesi tetiklediğinde bu Ay Yüklü tepkimesine dönüşür. Flins'in sahip olduğu her 100 Saldırı, Ay Yüklü tepkimesinin Temel Hasarını %0,7 artırır; bu Temel Hasar en fazla %14 artabilir.\n\nAyrıca grubunda Flins olduğunda, grubunun <color=#FFD780FF>Ay Sembolü</color> 1 seviye yükselir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "Karanlıktaki Işık",
         "Description": "Yakınlardaki <color=#FFD780FF>Nod-Krai'a özgü kaynakların</color> yerini mini haritada gösterir.\nAyrıca Flins, Vahşi Avın fısıltılarını deşifre edebiliyor...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

@@ -42,6 +42,7 @@
             "Dano de Rajada de Ataque Carregado|{param4:F1P}",
             "Dano de Raio Congelante do Ataque Carregado|{param5:F1P}",
             "Dano de Supercondutor Estelar do Raio Congelante do Ataque Carregado|{param6:F1P}",
+            "Dano de Redemoinho Estelar do Ataque Carregado de Raio Congelante|{param11:F1P}",
             "Dano de Sobrecarga de Poder|{param7:F1P}",
             "Dano Durante a Queda|{param8:F1P}",
             "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
@@ -60,7 +61,8 @@
                 0.43,
                 0.745878,
                 1.49144,
-                1.862889
+                1.862889,
+                1.2255
               ]
             },
             {
@@ -76,7 +78,8 @@
                 0.465,
                 0.806589,
                 1.612836,
-                2.01452
+                2.01452,
+                1.32525
               ]
             },
             {
@@ -92,7 +95,8 @@
                 0.5,
                 0.8673,
                 1.734233,
-                2.16615
+                2.16615,
+                1.425
               ]
             },
             {
@@ -108,7 +112,8 @@
                 0.55,
                 0.95403,
                 1.907656,
-                2.382765
+                2.382765,
+                1.5675
               ]
             },
             {
@@ -124,7 +129,8 @@
                 0.585,
                 1.014741,
                 2.029052,
-                2.534396
+                2.534396,
+                1.66725
               ]
             },
             {
@@ -140,7 +146,8 @@
                 0.625,
                 1.084125,
                 2.167791,
-                2.707688
+                2.707688,
+                1.78125
               ]
             },
             {
@@ -156,7 +163,8 @@
                 0.68,
                 1.179528,
                 2.358556,
-                2.945964
+                2.945964,
+                1.938
               ]
             },
             {
@@ -172,7 +180,8 @@
                 0.735,
                 1.274931,
                 2.549322,
-                3.184241
+                3.184241,
+                2.09475
               ]
             },
             {
@@ -188,7 +197,8 @@
                 0.79,
                 1.370334,
                 2.740087,
-                3.422517
+                3.422517,
+                2.2515
               ]
             },
             {
@@ -204,7 +214,8 @@
                 0.85,
                 1.47441,
                 2.948195,
-                3.682455
+                3.682455,
+                2.4225
               ]
             },
             {
@@ -220,7 +231,8 @@
                 0.91,
                 1.578486,
                 3.156303,
-                3.942393
+                3.942393,
+                2.5935
               ]
             },
             {
@@ -236,7 +248,8 @@
                 0.97,
                 1.682562,
                 3.364411,
-                4.202331
+                4.202331,
+                2.7645
               ]
             },
             {
@@ -252,7 +265,8 @@
                 1.03,
                 1.786638,
                 3.572519,
-                4.462269
+                4.462269,
+                2.9355
               ]
             },
             {
@@ -268,7 +282,8 @@
                 1.09,
                 1.890714,
                 3.780627,
-                4.722207
+                4.722207,
+                3.1065
               ]
             },
             {
@@ -284,7 +299,8 @@
                 1.15,
                 1.99479,
                 3.988735,
-                4.982145
+                4.982145,
+                3.2775
               ]
             }
           ],
@@ -292,7 +308,8 @@
         },
         "Id": 11331,
         "Name": "Fórmula Matemática: Prova Evidente",
-        "Description": "<color=#FFD780FF>Ataque Normal</color>\nGera fios que controlam sua arma usando fórmulas, realizando até 3 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nInvoca Facilitateur Automatise Generaliste Interactifet Omnitache, mais conhecida como <color=#FFD780FF>Fagio</color>, e troca para o modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>: faz um Ataque de Rajada contra os inimigos em frente, disparando periodicamente um Raio Congelante, causando <color=#99FFFFFF>Dano Cryo em AdE</color>.\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o Raio Congelante é convertido para causar <color=#99FFFFFF>Dano Cryo em AdE</color> que é considerado Dano de Supercondutor Estelar.\nQuando está no modo <color=#FFD780FF>Resolução</color>, a <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio será aumentada continuamente. Ao disparar um Raio Congelante, aumenta ainda mais a Capacidade da Resolução.\nQuando Capacidade da Resolução alcançar o limite máximo de 100, Fagio trocará para o modo <color=#FFD780FF>Sobrecarga de Poder</color>, disparando contra inimigos por um intervalo maior, causando <color=#99FFFFFF>Dano Cryo</color>, e não podendo trocar para o modo Resolução.\nQuando não está no modo <color=#FFD780FF>Resolução</color>, a <color=#FFD780FF>Capacidade da Resolução</color> de Fagio será lentamente reduzida. Quando Sandrone não for a personagem ativa, ela focará sua atenção para reparar Fagio, fazendo com que sua velocidade de diminuição de Capacidade da Resolução acelere em 300% do valor original.\n\nQuando <color=#FFD780FF>Capacidade da Resolução</color> está com menos de 50, Fagio sairá do modo <color=#FFD780FF>Sobrecarga de Poder</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nSe lança do ar para atacar o chão, causando dano aos oponentes ao longo do caminho e causando Dano de AdE durante o impacto.",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nGera fios que controlam sua arma usando fórmulas, realizando até 3 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nInvoca Facilitatrice Automatisee Generaliste Interactive et Omnitache, mais conhecida como <color=#FFD780FF>Fagio</color>, e troca para o modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>: faz um Ataque de Rajada contra os inimigos em frente, disparando periodicamente um Raio Congelante, causando <color=#99FFFFFF>Dano Cryo em AdE</color>.\n{LINK#N11500004}<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>{/LINK}: o Raio Congelante é convertido para causar <color=#99FFFFFF>Dano Cryo em AdE</color> que é considerado Dano de Brilho Estelar correspondente.\nQuando está no modo <color=#FFD780FF>Resolução</color>, a <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio será aumentada continuamente. Ao disparar um Raio Congelante, aumenta ainda mais a Capacidade da Resolução.\nQuando Capacidade da Resolução alcançar o limite máximo de 100, Fagio trocará para o modo <color=#FFD780FF>Sobrecarga de Poder</color>, disparando contra inimigos por um intervalo maior, causando <color=#99FFFFFF>Dano Cryo</color>, e não podendo trocar para o modo Resolução.\nQuando não está no modo <color=#FFD780FF>Resolução</color>, a <color=#FFD780FF>Capacidade da Resolução</color> de Fagio será lentamente reduzida. Quando Sandrone não for a personagem ativa, ela focará sua atenção para reparar Fagio, fazendo com que sua velocidade de diminuição de Capacidade da Resolução acelere em 300% do valor original.\n\nQuando <color=#FFD780FF>Capacidade da Resolução</color> está com menos de 50, Fagio sairá do modo <color=#FFD780FF>Sobrecarga de Poder</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nSe lança do ar para atacar o chão, causando dano aos oponentes ao longo do caminho e causando Dano de AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -301,7 +318,8 @@
           "Descriptions": [
             "Dano de Projétil Cristalino|{param1:F1P}",
             "Dano de Supercondutor Estelar do Projétil Cristalino|{param2:F1P}",
-            "Recarga|{param3:F1}s"
+            "Dano de Redemoinho Estelar de Projétil Cristalino|{param4:F1P}",
+            "Tempo de Recarga|{param3:F1}s"
           ],
           "Parameters": [
             {
@@ -310,7 +328,8 @@
               "Parameters": [
                 0.324,
                 0.216,
-                4
+                4,
+                0.324
               ]
             },
             {
@@ -319,7 +338,8 @@
               "Parameters": [
                 0.3483,
                 0.2322,
-                4
+                4,
+                0.3483
               ]
             },
             {
@@ -328,7 +348,8 @@
               "Parameters": [
                 0.3726,
                 0.2484,
-                4
+                4,
+                0.3726
               ]
             },
             {
@@ -337,7 +358,8 @@
               "Parameters": [
                 0.405,
                 0.27,
-                4
+                4,
+                0.405
               ]
             },
             {
@@ -346,7 +368,8 @@
               "Parameters": [
                 0.4293,
                 0.2862,
-                4
+                4,
+                0.4293
               ]
             },
             {
@@ -355,7 +378,8 @@
               "Parameters": [
                 0.4536,
                 0.3024,
-                4
+                4,
+                0.4536
               ]
             },
             {
@@ -364,7 +388,8 @@
               "Parameters": [
                 0.486,
                 0.324,
-                4
+                4,
+                0.486
               ]
             },
             {
@@ -373,7 +398,8 @@
               "Parameters": [
                 0.5184,
                 0.3456,
-                4
+                4,
+                0.5184
               ]
             },
             {
@@ -382,7 +408,8 @@
               "Parameters": [
                 0.5508,
                 0.3672,
-                4
+                4,
+                0.5508
               ]
             },
             {
@@ -391,7 +418,8 @@
               "Parameters": [
                 0.5832,
                 0.3888,
-                4
+                4,
+                0.5832
               ]
             },
             {
@@ -400,7 +428,8 @@
               "Parameters": [
                 0.6156,
                 0.4104,
-                4
+                4,
+                0.6156
               ]
             },
             {
@@ -409,7 +438,8 @@
               "Parameters": [
                 0.648,
                 0.432,
-                4
+                4,
+                0.648
               ]
             },
             {
@@ -418,7 +448,8 @@
               "Parameters": [
                 0.6885,
                 0.459,
-                4
+                4,
+                0.6885
               ]
             },
             {
@@ -427,7 +458,8 @@
               "Parameters": [
                 0.729,
                 0.486,
-                4
+                4,
+                0.729
               ]
             },
             {
@@ -436,7 +468,8 @@
               "Parameters": [
                 0.7695,
                 0.513,
-                4
+                4,
+                0.7695
               ]
             }
           ],
@@ -444,7 +477,8 @@
         },
         "Id": 11332,
         "Name": "Fórmula Matemática: Análise Abrangente",
-        "Description": "Defendendo a perfeição de uma dama, sobe na <color=#FFD780FF>Máquina Flutuante Tática de Assalto da Festa do Chá</color> e flutua em frente continuamente por 6s. Nesse período, Sandrone pode controlar a direção que flutua, e ao pressionar para correr, consome 10 de Stamina para entrar no modo refinado de Flutuação Veloz, consumindo 15 de Stamina por segundo, flutuando mais rápido.\n\nAo começar a flutuar, se houver um inimigo por perto, Sandrone invocará um Canhão Ressonante Prismático que disparará 2 Projéteis Cristalinos contra inimigos nervosos próximos, causando <color=#99FFFFFF>Dano Cryo</color>.\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o segundo Projétil Cristalino será convertido para causar <color=#99FFFFFF>Dano Cryo</color> que é considerado Dano de Supercondutor Estelar.\n\nAo andar na Máquina Flutuante Tática de Assalto da Festa do Chá, Sandrone sofisticadamente reparará Fagio, fazendo com que sua <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> seja reduzida rapidamente.",
+        "Description": "Defendendo a perfeição de uma dama, sobe na <color=#FFD780FF>Máquina Flutuante Tática de Assalto da Festa do Chá</color> e flutua em frente continuamente por 6s. Nesse período, Sandrone pode controlar a direção que flutua e, ao pressionar para correr, consome 10 de Stamina para entrar no modo refinado de Flutuação Veloz, consumindo 15 de Stamina por segundo, flutuando mais rápido.\n\nAo começar a flutuar, se houver um inimigo por perto, Sandrone invocará um Canhão Ressonante Prismático que disparará 2 Projéteis Cristalinos contra inimigos nervosos próximos, causando <color=#99FFFFFF>Dano Cryo</color>.\n{LINK#N11500004}<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>{/LINK}: o segundo Projétil Cristalino será convertido para causar <color=#99FFFFFF>Dano Cryo</color> que é considerado Dano de Brilho Estelar correspondente.\n\nAo andar na Máquina Flutuante Tática de Assalto da Festa do Chá, Sandrone sofisticadamente reparará Fagio, fazendo com que sua <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> seja reduzida rapidamente.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_MarionetteNew_01"
       }
     ],
@@ -455,6 +489,7 @@
           "Dano de Bombardeio|{param1:F1P} x3",
           "Dano de Raio de Luz Energético|{param2:F1P}",
           "Dano de Supercondutor Estelar do Raio de Luz Energético|{param3:F1P}",
+          "Dano de Redemoinho Estelar de Raio de Luz Energético|{param6:F1P}",
           "Tempo de Recarga|{param4:F1}s",
           "Energia Elemental|{param5:I}"
         ],
@@ -467,7 +502,8 @@
               3.308,
               2.205333,
               15,
-              60
+              60,
+              3.308
             ]
           },
           {
@@ -478,7 +514,8 @@
               3.5561,
               2.370733,
               15,
-              60
+              60,
+              3.5561
             ]
           },
           {
@@ -489,7 +526,8 @@
               3.8042,
               2.536133,
               15,
-              60
+              60,
+              3.8042
             ]
           },
           {
@@ -500,7 +538,8 @@
               4.135,
               2.756667,
               15,
-              60
+              60,
+              4.135
             ]
           },
           {
@@ -511,7 +550,8 @@
               4.3831,
               2.922067,
               15,
-              60
+              60,
+              4.3831
             ]
           },
           {
@@ -522,7 +562,8 @@
               4.6312,
               3.087467,
               15,
-              60
+              60,
+              4.6312
             ]
           },
           {
@@ -533,7 +574,8 @@
               4.962,
               3.308,
               15,
-              60
+              60,
+              4.962
             ]
           },
           {
@@ -544,7 +586,8 @@
               5.2928,
               3.528533,
               15,
-              60
+              60,
+              5.2928
             ]
           },
           {
@@ -555,7 +598,8 @@
               5.6236,
               3.749067,
               15,
-              60
+              60,
+              5.6236
             ]
           },
           {
@@ -566,7 +610,8 @@
               5.9544,
               3.9696,
               15,
-              60
+              60,
+              5.9544
             ]
           },
           {
@@ -577,7 +622,8 @@
               6.2852,
               4.190133,
               15,
-              60
+              60,
+              6.2852
             ]
           },
           {
@@ -588,7 +634,8 @@
               6.616,
               4.410667,
               15,
-              60
+              60,
+              6.616
             ]
           },
           {
@@ -599,7 +646,8 @@
               7.0295,
               4.686333,
               15,
-              60
+              60,
+              7.0295
             ]
           },
           {
@@ -610,7 +658,8 @@
               7.443,
               4.962,
               15,
-              60
+              60,
+              7.443
             ]
           },
           {
@@ -621,7 +670,8 @@
               7.8565,
               5.237667,
               15,
-              60
+              60,
+              7.8565
             ]
           }
         ],
@@ -629,7 +679,8 @@
       },
       "Id": 11335,
       "Name": "Fórmula Matemática: Prova Lógica Completa",
-      "Description": "Com a etiqueta de uma refinada dama, invoca um grande número de Canhões Ressonantes Prismáticos para dispararem bombas em frente, para em seguida disparar o Raio de Luz Energético Frio contra os oponentes, causando <color=#99FFFFFF>Dano Cryo em uma AdE</color>.\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o Raio de Luz Energético Frio será convertido para causar <color=#99FFFFFF>Dano Cryo em uma AdE</color> que é considerado Dano de Supercondutor Estelar.",
+      "Description": "Com a etiqueta de uma refinada dama, invoca um grande número de Canhões Ressonantes Prismáticos para dispararem bombas em frente, para em seguida disparar o Raio de Luz Energético Frio contra os oponentes, causando <color=#99FFFFFF>Dano Cryo em uma AdE</color>.\n{LINK#N11500004}<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>{/LINK}: o Raio de Luz Energético Frio será convertido para causar <color=#99FFFFFF>Dano Cryo em uma AdE</color> que é considerado Dano de Brilho Estelar correspondente.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_MarionetteNew_01"
     },
     "Inherents": [
@@ -651,7 +702,8 @@
         },
         "Id": 1332101,
         "Name": "Calculadora Antiga",
-        "Description": "<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: ao lançar a Habilidade Elemental {LINK#S11332}<color=#FFD780FF>Fórmula Matemática: Análise Abrangente</color>{/LINK}, se <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio ultrapassar 50 pontos, o segundo Projétil Cristalino disparado por Fagio contra inimigos próximos causará 400% de seu Dano original a medida que Capacidade da Resolução é reduzida.\nAlém disso, a cada 10 de <color=#FFD780FF>Capacidade da Resolução</color> de Fagio reduzidos, obtém 1 acúmulo do efeito <color=#FFD780FF>Melhoria Tática</color> por 60s. Esse efeito pode ser acumulado até 10 vezes. Quando Sandrone está em <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color> e lança seu Supremo {LINK#S11335}<color=#FFD780FF>Fórmula Matemática: Prova Lógica Completa</color>{/LINK}, consumirá todos os acúmulos de Melhoria Tática para fazer com que o Dano causado pelo Raio de Luz Energético Frio seja 100% do Dano original + x10% de cada acúmulo consumido.",
+        "Description": "{LINK#N11500004}<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>{/LINK}: ao lançar a Habilidade Elemental {LINK#S11332}<color=#FFD780FF>Fórmula Matemática: Análise Abrangente</color>{/LINK}, se <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio ultrapassar 50 pontos, o segundo Projétil Cristalino disparado por Fagio contra inimigos próximos causará 400% de seu Dano original a medida que Capacidade da Resolução é reduzida.\nAlém disso, a cada 10 de <color=#FFD780FF>Capacidade da Resolução</color> de Fagio reduzidos, obtém 1 acúmulo do efeito <color=#FFD780FF>Melhoria Tática</color> por 60s. Esse efeito pode ser acumulado até 10 vezes. Quando Sandrone está em <color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color> e lança seu Supremo {LINK#S11335}<color=#FFD780FF>Fórmula Matemática: Prova Lógica Completa</color>{/LINK}, consumirá todos os acúmulos de Melhoria Tática para fazer com que o Dano causado pelo Raio de Luz Energético Frio seja 100% do Dano original + x10% de cada acúmulo consumido.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_05"
       },
       {
@@ -673,6 +725,7 @@
         "Id": 1332201,
         "Name": "Normas de Etiqueta de uma Dama",
         "Description": "Aumenta a Proficiência Elemental com base no ATQ de Sandrone: cada 100 de ATQ aumenta 8 de Proficiência Elemental. É possível aumentar até 160 dessa forma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_06"
       },
       {
@@ -693,7 +746,8 @@
         },
         "Id": 1332301,
         "Name": "Bênção das Estrelas: Luz do Racionalismo",
-        "Description": "Quando um personagem da equipe desencadear Supercondutor, converterá para Supercondutor Estelar, e aumentará o Dano Básico de Supercondutor Estelar causado pelo personagem da equipe com base no ATQ de Sandrone: cada 100 de ATQ aumenta o Dano Básico de Supercondutor Estelar em 0.7%. É possível aumentar até 14% dessa forma.\nAlém disso, quando está dentro do {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}, Sandrone entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>.",
+        "Description": "Quando estiver dentro do {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}/nos 8s após um personagem próximo desencadear Redemoinho Estelar, Sandrone entrará nos estados <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>/<color=#FFD780FF>Brilho Reluzente: Redemoinho Estelar</color> respectivamente.\nQuando um personagem desencadear Supercondutor/Redemoinho Cryo, converterá para desencadear Supercondutor Estelar/Redemoinho Estelar, e aumenta o Dano Básico dessa reação com base no ATQ de Sandrone: cada 100 de ATQ aumenta o Dano Básico descritos acima em 0.7%. É possível acumular até 14% dessa forma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_07"
       },
       {
@@ -712,6 +766,7 @@
         "Id": 1332501,
         "Name": "Reuniões Privadas e uma Longa História",
         "Description": "Quando Sandrone está na equipe, depois de entregar as Missões Diárias para Katheryne, você receberá um lanche como recompensa adicional.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_08"
       }
     ],
@@ -719,13 +774,13 @@
       {
         "Id": 1331,
         "Name": "Manhã Após o Crepúsculo Dourado",
-        "Description": "Quando está no modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>, aumenta a Redução de Velocidade de <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio em 50%, e aumenta o Dano de Supercondutor Estelar causado por todos os membros da equipe em 30%.",
+        "Description": "Quando está no modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>, aumenta a Redução de Velocidade de <color=#FFD780FF>{LINK#N11330002}Capacidade da Resolução{/LINK}</color> de Fagio em 50%, e aumenta o Dano de Brilho Estelar causado por todos os membros da equipe em 30%.",
         "Icon": "UI_Talent_S_MarionetteNew_01"
       },
       {
         "Id": 1332,
         "Name": "Herdeira que Contemplou o Espelho",
-        "Description": "<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: aumenta o Dano CRIT causado pelo Raio Congelante disparado pelo Ataque Carregado em 40%, e cada vez que disparar um Raio Congelante, aumenta o Dano CRIT de todos os Raios Congelantes disparados em 20% nessa duração do modo de <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>. Esse efeito pode ser acumulado até 3 vezes.",
+        "Description": "<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>: aumenta o Dano CRIT causado pelo Raio Congelante disparado pelo Ataque Carregado em 40%, e cada vez que disparar um Raio Congelante, aumenta o Dano CRIT de todos os Raios Congelantes disparados em 20% nessa duração do modo de <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>. Esse efeito pode ser acumulado até 3 vezes.",
         "Icon": "UI_Talent_S_MarionetteNew_02"
       },
       {
@@ -741,7 +796,7 @@
       {
         "Id": 1334,
         "Name": "Verdade do Mundo Jaz no Conhecimento",
-        "Description": "Quando o Dano de Supercondutor Estelar de Sandrone atingir um inimigo, invoca um Canhão Ressonante Prismático adicional para realizar um Ataque Carregado que causa 125% do ATQ de Sandrone como <color=#99FFFFFF>Dano Cryo</color>. Esse Dano é considerado Dano de Supercondutor Estelar, e pode ser desencadeado uma vez a cada 4s.",
+        "Description": "Quando o Dano de Supercondutor Estelar/Redemoinho Estelar de Sandrone atingir um inimigo, invoca um Canhão Ressonante Prismático adicional para realizar um Ataque Carregado que causa 125%/187.5% do ATQ de Sandrone como <color=#99FFFFFF>Dano Cryo</color>. Esse Dano é considerado Dano de Brilho Estelar correspondente, e pode ser desencadeado uma vez a cada 4s.",
         "Icon": "UI_Talent_S_MarionetteNew_03"
       },
       {
@@ -757,7 +812,7 @@
       {
         "Id": 1336,
         "Name": "Narciso Desperto, Seus Olhos na Alvorada",
-        "Description": "No modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>, o terceiro Raio Congelante disparado de Fagio será convertido para um <color=#FFD780FF>Raio Congelante Conjunto</color> de disparo contínuo mais perigoso, que com base no Raio Congelante disparado em sequência originalmente, cause até 4 instâncias adicionais de 100% do ATQ de Sandrone como <color=#99FFFFFF>Dano Cryo em AdE</color>. \n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: o <color=#FFD780FF>Raio Congelante Conjunto</color> será convertido para causar até 4 instâncias adicionais de 80% do ATQ de Sandrone como <color=#99FFFFFF>Dano Cryo em AdE</color>. Esse Dano é considerado Dano de Supercondutor Estelar.\nAlém disso, todo Dano de Supercondutor Estelar causado por Sandrone será {LINK#N11190007}<color=#FFD780FF>Elevado</color>{/LINK} em 20%.",
+        "Description": "No modo <color=#FFD780FF>{LINK#N11330001}Resolução{/LINK}</color>, o terceiro Raio Congelante disparado de Fagio será convertido para um <color=#FFD780FF>Raio Congelante Conjunto</color> de disparo contínuo mais perigoso, que com base no Raio Congelante disparado em sequência originalmente, cause até 4 instâncias adicionais de 100% do ATQ de Sandrone como <color=#99FFFFFF>Dano Cryo em AdE</color>. \n<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>: o <color=#FFD780FF>Raio Congelante Conjunto</color> será convertido para causar até 4 instâncias adicionais de <color=#99FFFFFF>Dano Cryo em AdE</color> que é considerado Dano de Brilho Estelar. Esse Dano é baseado no ATQ de Sandrone:\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: 80%.\n<color=#FFD780FF>Brilho Reluzente: Redemoinho Estelar</color>: 120%.\nAlém disso, todos os Danos de Brilho Estelar de Sandrone são {LINK#N11190007}<color=#FFD780FF>Elevados</color>{/LINK} em 20%.",
         "Icon": "UI_Talent_S_MarionetteNew_04"
       }
     ]
@@ -1120,7 +1175,7 @@
       },
       {
         "Title": "História 3",
-        "Context": "Ela nunca esperou ficar tanto tempo em Snezhnaya. Ela também não esperava que uma terra pudesse ficar tão fria; ela tinha que, literalmente, aquecer os pensamentos na cabeça dela para conseguir raciocinar!\nDo ponto de vista dela, a vida de um membro dos Fatui era relaxada, fácil até. Ela não precisava sair para fazer compras ou cuidar de todas as necessidades de ninguém. Ao invés disso, ela aproveitava todas as conveniências que um Mensageiro tinha direito. E as tarefas atribuídas a ela pela Tsaritsa? Brincadeira de criança para um gênio como ela.\nEntão, um dia, enquanto ela anotava a data no diário dela, ela percebeu com uma surpresa que já estava em Snezhnaya mais tempo do que passara com Guillotin em Fontaine.\nÉ como se esse tivesse se tornado meu segundo lar, ela pensou.\nE isso levou a outra pergunta: Qual é o verdadeiro lar dela, Fontaine ou Snezhnaya? E o que é um \"lar\", exatamente?\nÉ o lugar onde alguém é necessário? Certamente; o trabalho dela nos Fatui era insubstituível. Ou melhor, seria difícil substituí-la e Vossa Majestade precisa claramente dela.\nOu é o lugar onde alguém se sente mais tranquilo? Sem dúvidas, a vida em Snezhnaya fora bem confortável até então; além disso, lá ela tinha acesso a todos os equipamentos de pesquisa que poderia precisar. E se ela se sentisse entediada, sempre havia apresentações de ópera.\nOu talvez, \"lar\" seja onde a \"família\" está? Mas, família... Ela não tinha mais ninguém, exceto Pulonia agora. Então, lar era onde Pulonia estava? Nesse caso, isso significaria que, se ela e Pulonia viajassem para outro lugar, Mondstadt, por exemplo, esse \"outro lugar\" se tornaria o \"lar\" deles?\nNo fim das contas, a raiz do problema ainda era que ela não sabia o que queria fazer, nem qual era o seu desejo. Ela percebeu isso. Ela não passava de alguém que seguia a correnteza, perpetuando o hábito de \"ser necessária\".\nEla achava essa versão de si mesma muito patética. Mas também não sabia como mudar. Que irritante.\nSe alguém apontasse um mosquete para a cabeça dela e exigisse que ela nomeasse algo que desgostava em Snezhnaya, ela provavelmente acabaria nomeando algumas das pessoas com quem ela preferiria não ter que trabalhar junta.\nNo início, com a memória dos primeiros dias dela com Guillotin ainda fresca na mente, ela tentou uma abordagem circunvente em relação aos sentimentos dela sobre seus colegas.\nMas isso não funcionou. Se eventos futuros ensinaram alguma coisa a ela, foi que alguns indivíduos permaneceriam simplesmente detestáveis para ela, não importando quanto tempo passasse ou quantas observações objetivas fossem feitas sobre eles. Diferentemente de Guillotin, as partes delas das quais ela não gostava continuaram a superar vastamente as partes que gostava. Ou melhor, ela não gostava de nenhuma parte sequer deles.\nEla tampouco sabia como mudar essa situação. Ela não queria mudar os outros, muito menos mudar a si mesma. Ah, que irritante!\nTalvez ainda estivesse no processo de aprender, praticando como viver. Talvez as referências que tinha fossem insuficientes, assim como seu conhecimento. O conhecimento é o alicerce do mundo, ela costumava ouvir Alain dizer, e também costumava dizer isso a si mesma.\nEla esperava que, no futuro, ao continuar empilhando pedras, pudesse encontrar a resposta para resolver esses problemas. Não havia necessidade de ter pressa, ela tinha tempo de sobra.\nQuanto ao presente... Ouvi dizer que a Tsaritsa recrutou um novo Mensageiro, que passa o dia inteiro cantando no jardim? Hm, fiquei curiosa. Vou dar uma olhada..."
+        "Context": "Ela nunca esperou ficar tanto tempo em Snezhnaya. Ela também não esperava que uma terra pudesse ficar tão fria; ela tinha que, literalmente, aquecer os pensamentos na cabeça dela para conseguir raciocinar!\nDo ponto de vista dela, a vida de um membro dos Fatui era relaxada, fácil até. Ela não precisava sair para fazer compras ou cuidar de todas as necessidades de ninguém. Ao invés disso, ela aproveitava todas as conveniências que um Mensageiro tinha direito. E as tarefas atribuídas a ela pela Tsaritsa? Brincadeira de criança para um gênio como ela.\nEntão, um dia, enquanto ela anotava a data no diário dela, ela percebeu com uma surpresa que já estava em Snezhnaya mais tempo do que passara com Alain em Fontaine.\nÉ como se esse tivesse se tornado meu segundo lar, ela pensou.\nE isso levou a outra pergunta: Qual é o verdadeiro lar dela, Fontaine ou Snezhnaya? E o que é um \"lar\", exatamente?\nÉ o lugar onde alguém é necessário? Certamente; o trabalho dela nos Fatui era insubstituível. Ou melhor, seria difícil substituí-la e Vossa Majestade precisa claramente dela.\nOu é o lugar onde alguém se sente mais tranquilo? Sem dúvidas, a vida em Snezhnaya fora bem confortável até então; além disso, lá ela tinha acesso a todos os equipamentos de pesquisa que poderia precisar. E se ela se sentisse entediada, sempre havia apresentações de ópera.\nOu talvez, \"lar\" seja onde a \"família\" está? Mas, família... Ela não tinha mais ninguém, exceto Pulonia agora. Então, lar era onde Pulonia estava? Nesse caso, isso significaria que, se ela e Pulonia viajassem para outro lugar, Mondstadt, por exemplo, esse \"outro lugar\" se tornaria o \"lar\" deles?\nNo fim das contas, a raiz do problema ainda era que ela não sabia o que queria fazer, nem qual era o seu desejo. Ela percebeu isso. Ela não passava de alguém que seguia a correnteza, perpetuando o hábito de \"ser necessária\".\nEla achava essa versão de si mesma muito patética. Mas também não sabia como mudar. Que irritante.\nSe alguém apontasse um mosquete para a cabeça dela e exigisse que ela nomeasse algo que desgostava em Snezhnaya, ela provavelmente acabaria nomeando algumas das pessoas com quem ela preferiria não ter que trabalhar junta.\nNo início, com a memória dos primeiros dias dela com Alain ainda fresca na mente, ela tentou uma abordagem circunvente em relação aos sentimentos dela sobre seus colegas.\nMas isso não funcionou. Se eventos futuros ensinaram alguma coisa a ela, foi que alguns indivíduos permaneceriam simplesmente detestáveis para ela, não importando quanto tempo passasse ou quantas observações objetivas fossem feitas sobre eles. Diferentemente de Guillotin, as partes delas das quais ela não gostava continuaram a superar vastamente as partes que gostava. Ou melhor, ela não gostava de nenhuma parte sequer deles.\nEla tampouco sabia como mudar essa situação. Ela não queria mudar os outros, muito menos mudar a si mesma. Ah, que irritante!\nTalvez ainda estivesse no processo de aprender, praticando como viver. Talvez as referências que tinha fossem insuficientes, assim como seu conhecimento. O conhecimento é o alicerce do mundo, ela costumava ouvir Alain dizer, e também costumava dizer isso a si mesma.\nEla esperava que, no futuro, ao continuar empilhando pedras, pudesse encontrar a resposta para resolver esses problemas. Não havia necessidade de ter pressa, ela tinha tempo de sobra.\nQuanto ao presente... Ouvi dizer que a Tsaritsa recrutou um novo Mensageiro, que passa o dia inteiro cantando no jardim? Hm, fiquei curiosa. Vou dar uma olhada..."
       },
       {
         "Title": "História 4",
@@ -1128,7 +1183,7 @@
       },
       {
         "Title": "História 5",
-        "Context": "Com a \"herança\" que ela recebera de Alain, Sandrone conseguiu ter seu segundo nascimento.\nEla sempre acreditara ser inteligente, ou pelo menos mais inteligente do que a maioria. Foi somente nessa conjuntura que ela percebeu ser, na verdade, muito mais tola do que achava.\nEla deveria ter chegado a essa conclusão há muito tempo. Ela deveria ter ouvido o próprio coração para entender o que palavras como \"perda\" e \"resiliência\" significavam de verdade. Ela deveria ter expressado a própria gratidão mais para os amigos dela e feito ainda mais amigos. Ela deveria ter retornado a Fontaine há muito tempo, para o túmulo de Alain... onde ela contaria a ele tudo que aconteceu desde que ela foi embora enquanto limpava o túmulo.\nMas nunca é tarde demais para começar, Columbina contou a ela. A própria Columbina aprendeu isso com outra pessoa.\nEla murmurou em desaprovação. Nunca havia imaginado que estaria recebendo lições de vida de Columbina um dia. Mas ela aceitou mesmo assim. Não havia como negar: Columbina estava certa.\nQuando notícias da ressurreição de Sandrone chegaram a Snezhnograd, palavras de simpatia e preocupação acompanharam, junto a uma oferta generosa de \"licença pós-morte\" da posição dela. Contudo, quando Sandrone expressou desejo de permanecer nos Fatui, a Tsaritsa concordou sem fazer nenhuma adição, naturalmente.\nEla sabia que essa notícia causaria insatisfação em certos cantos, pois significava que o poder e os interesses surgidos da morte dela tinha simplesmente desaparecido do alcance deles.\nMas ela não se importava com o que os outros achariam. Ela foi dada uma segunda vida e estava pronta para viver exatamente como desejasse. Ela ia viver inteiramente nos termos dela agora e com certeza não ia mais segurar a própria língua quando ficasse furiosa! Ha! Será que alguém achou mesmo que ia tomar controle da Guilda de Aventureiros, de Katheryne e do resto deles a partir de então? Cai fora!\nMas, claro, isso não significa que estava totalmente livre das algemas da vida. Cada vez que ela recebia um aviso de uma reunião dos Fatui, ela revirava os olhos e resmungava como sempre.\n\"Aff. Reuniões e mais reuniões! O dia todo, todo dia! Que chato!\""
+        "Context": "Com a \"herança\" que ela recebera de Alain, Sandrone conseguiu ter seu segundo nascimento.\nEla sempre acreditara ser inteligente, ou pelo menos mais inteligente do que a maioria. Foi somente nessa conjuntura que ela percebeu ser, na verdade, muito mais tola do que achava.\nEla deveria ter chegado a essa conclusão há muito tempo. Ela deveria ter ouvido o próprio coração para entender o que palavras como \"perda\" e \"resiliência\" significavam de verdade. Ela deveria ter expressado a própria gratidão mais para os amigos dela e feito ainda mais amigos. Ela deveria ter retornado a Fontaine há muito tempo, para o túmulo de Alain... onde ela contaria a ele tudo que aconteceu desde que ele foi embora enquanto limpava o túmulo.\nMas nunca é tarde demais para começar, Columbina contou a ela. A própria Columbina aprendeu isso com outra pessoa.\nEla murmurou em desaprovação. Nunca havia imaginado que estaria recebendo lições de vida de Columbina um dia. Mas ela aceitou mesmo assim. Não havia como negar: Columbina estava certa.\nQuando notícias da ressurreição de Sandrone chegaram a Snezhnograd, palavras de simpatia e preocupação acompanharam, junto a uma oferta generosa de \"licença pós-morte\" da posição dela. Contudo, quando Sandrone expressou desejo de permanecer nos Fatui, a Tsaritsa concordou sem fazer nenhuma adição, naturalmente.\nEla sabia que essa notícia causaria insatisfação em certos cantos, pois significava que o poder e os interesses surgidos da morte dela tinha simplesmente desaparecido do alcance deles.\nMas ela não se importava com o que os outros achariam. Ela foi dada uma segunda vida e estava pronta para viver exatamente como desejasse. Ela ia viver inteiramente nos termos dela agora e com certeza não ia mais segurar a própria língua quando ficasse furiosa! Ha! Será que alguém achou mesmo que ia tomar controle da Guilda de Aventureiros, de Katheryne e do resto deles a partir de então? Cai fora!\nMas, claro, isso não significa que estava totalmente livre das algemas da vida. Cada vez que ela recebia um aviso de uma reunião dos Fatui, ela revirava os olhos e resmungava como sempre.\n\"Aff. Reuniões e mais reuniões! O dia todo, todo dia! Que chato!\""
       },
       {
         "Title": "Pulonia",

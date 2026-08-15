@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Técnica da Espada de Favonius: Valsa Radiante",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nImitando uma valsa cavalheiresca antiga, Varka empunha dois espadões para fazer até 5 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para avançar e realiza um golpe duplo de espada especialmente poderoso para a frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha do meio do ar para atingir o solo abaixo, causando Dano aos oponentes ao longo do caminho e Dano em uma AdE no impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Execução Zéfira",
         "Description": "Manifesta a verdadeira essência da esgrima de Favonius com poder absoluto. Produz efeitos diferentes se pressionar ou manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nAvança para frente com um salto e desferindo um golpe, causando <color=#80FFD7FF>Dano Anemo em AdE</color> e troca para o modo {LINK#N11280001}<color=#FFD780FF>Investida Furacão</color>{/LINK}.\nQuando está no modo <color=#FFD780FF>Investida Furacão</color>, aumenta o Dano do Ataque Normal e Carregado de Varka, impossibilita-o de realizar Ataques Imersivos, e ao realizar Ataques Normais e Carregados, usa dois Espadões para causar Dano Elemental que não pode ser substituído de acordo com os Tipos Elementais da equipe.\nAlém disso, quando está no modo <color=#FFD780FF>Investida Furacão</color>, se houver personagens <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> ou <color=#99FFFFFF>Cryo</color> na equipe, a Habilidade Elemental <color=#FFD780FF>Execução Zéfira</color> de Varka será substituída pela Habilidade Elemental especial {LINK#N11280002}<color=#FFD780FF>Ascensão dos Quatro Ventos</color>{/LINK}, causando Dano Elemental correspondente e <color=#80FFD7FF>Dano Anemo</color>. Além disso, Varka consumirá os Usos da Habilidade Elemental especial <color=#FFD780FF>Ascensão dos Quatro Ventos</color> para realizar um Ataque Carregado especial <color=#FFD780FF>Devoração Cerúlea</color> que não consome Stamina, causando Dano Elemental correspondente e <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Manter Pressionado</color>\nDepois de carregar, salta para frente. O tempo de carregamento aumenta a distância do salto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Presente da Noite da Bruxa: Retorno da Alvorada",
         "Description": "Depois de completar <color=#FFD780FF>Tarefa da Bruxa: Pergunta Não Intitulada</color>, Varka se tornará um personagem <color=#FFD780FF>Mágico</color>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo os personagens Mágicos.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nA Habilidade Elemental especial {LINK#N11280002}<color=#FFD780FF>Ascensão dos Quatro Ventos</color>{/LINK} é fortalecida: quando Varka estiver no modo {LINK#N11280001}<color=#FFD780FF>Investida Furacão</color>{/LINK} e atingir um inimigo com um Ataque Normal, reduz a recarga de <color=#FFD780FF>Ascensão dos Quatro Ventos</color> em 1s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Avatar do Vento do Norte",
       "Description": "Em nome do mais poderoso Cavaleiro de Boreas, desfere um poderoso ataque de corte duplo para frente, causando 2 instâncias de <color=#80FFD7FF>Dano Anemo</color>.\nSe houver personagens <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> ou <color=#99FFFFFF>Cryo</color> na equipe, o primeiro golpe será convertido para causar Dano Elemental correspondente, de acordo com a ordem de prioridade dos Tipos Elementais mencionados.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Marcha do Vento da Alvorada",
         "Description": "Quando a equipe possuir personagens <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> ou <color=#99FFFFFF>Cryo</color>, de acordo com a ordem de prioridade Elemental acima, cada 1.000 de ATQ de Varka aumentam o <color=#80FFD7FF>Bônus de Dano Anemo</color> e o Bônus do Dano Elemental correspondente em 10% dele (dentre esses elementos, só um elemento pode ganhar bônus de Dano dessa forma). É possível obter até 25% de bônus de Dano dessa forma.\n\nAlém disso, se a equipe possuir pelo menos 2 personagens <color=#80FFD7FF>Anemo</color> ou possuir pelo menos 2 personagens de Tipo Elemental <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> ou <color=#99FFFFFF>Cryo</color>, os Ataques Normais, Ataques Carregados, Ataque Carregado especial <color=#FFD780FF>Devoração Cerúlea</color> e a Habilidade Elemental especial {LINK#N11280002}<color=#FFD780FF>Ascensão dos Quatro Ventos</color>{/LINK} que Varka causa ou lança enquanto está no modo {LINK#N11280001}<color=#FFD780FF>Investida Furacão</color>{/LINK} causarão 140% do seu Dano original. Se a equipe possuir pelo menos 2 personagens <color=#80FFD7FF>Anemo</color> e pelo menos 2 personagens de Tipo Elemental <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> ou <color=#99FFFFFF>Cryo</color>, esse efeito é aumentado até 220%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Vanguarda do Vento",
-        "Description": "Quando um membro próximo da equipe desencadeia Redemoinho, Varka obterá 1 acúmulo de <color=#FFD780FF>Juramento da Presa Cerúlea</color>, aumentando o Dano de seu Ataque Normal, Ataque Carregado, Ataque Carregado especial <color=#FFD780FF>Devoração Cerúlea</color> e de sua Habilidade Elemental especial {LINK#N11280002}<color=#FFD780FF>Ascensão dos Quatro Ventos</color>{/LINK} em 7.5% por 8s. Esse efeito pode ser acumulado até 4 vezes, e cada personagem pode fazer Varka obter 1 acúmulo de <color=#FFD780FF>Juramento da Presa Cerúlea</color> por segundo.",
+        "Description": "Quando um membro próximo da equipe desencadeia Redemoinho ou Redemoinho Estelar, Varka obterá 1 acúmulo de <color=#FFD780FF>Juramento da Presa Cerúlea</color>, aumentando o Dano de seu Ataque Normal, Ataque Carregado, Ataque Carregado especial <color=#FFD780FF>Devoração Cerúlea</color> e de sua Habilidade Elemental especial {LINK#N11280002}<color=#FFD780FF>Ascensão dos Quatro Ventos</color>{/LINK} em 7.5% por 8s. Esse efeito pode ser acumulado até 4 vezes, e cada personagem pode fazer Varka obter 1 acúmulo de <color=#FFD780FF>Juramento da Presa Cerúlea</color> por segundo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Hino do Retorno do Vento",
         "Description": "Para cada membro de Mondstadt, a recarga da Habilidade Elemental <color=#FFD780FF>Execução Zéfira</color> ao manter pressionado é reduzida em 5%.\nEsse efeito não será produzido em domínios, Domínios Dizimados e Abismo do Espiral.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "\"Que ninguém tome a liberdade de nossa canção.\"",
-        "Description": "Quando Varka desencadear Redemoinho, faz com que todos os membros próximos da equipe obtenham 20% de <color=#80FFD7FF>bônus de Dano Anemo</color> e o bônus de Dano Elemental correspondente participante da reação por 10s.",
+        "Description": "Quando Varka desencadear Redemoinho ou Redemoinho Estelar, faz com que todos os membros próximos da equipe obtenham 20% de <color=#80FFD7FF>bônus de Dano Anemo</color> e o bônus de Dano Elemental correspondente participante da reação por 10s.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

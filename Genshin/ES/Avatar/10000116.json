@@ -292,6 +292,7 @@
         "Id": 11161,
         "Name": "Giro antipolvo",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para realizar un ataque giratorio.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 11162,
         "Name": "Modo depuración: Frecuencia de onda estable",
         "Description": "Ineffa activa su módulo avanzado de limpieza para infligir una vez <color=#FFACFFFF>Daño Electro en el AdE</color> a los enemigos cercanos, crear un escudo lumibarrera e invocar una unidad multiusos de asistencia inteligente llamada {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}.\nLa absorción de daño del escudo lumibarrera aumenta en función del ATQ de Ineffa y tiene un 250% de efectividad de absorción de <color=#FFACFFFF>Daño Electro</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ineffa_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11165,
       "Name": "Orden suprema: Exterminación zonal",
       "Description": "Con la ayuda de {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, la unidad multiusos de asistencia inteligente, ¡limpia a los enemigos con un puñetazo cohete! Ineffa lanza a Birgitta para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> y hacer que esta se quede en el campo de batalla.\n\nSi, al hacer esto, en el campo ya había una Birgitta invocada por Ineffa, en su lugar, invocará una nueva Birgitta en la ubicación del objetivo y su duración se reiniciará.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ineffa_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1162101,
         "Name": "Circuito sobreacelerado",
         "Description": "Si hay alguna nube de tormenta creada con la reacción de Electrocargado Lunar cerca de {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, cuando esta realice un ataque electrizador, ejecutará un ataque adicional que inflige <color=#FFACFFFF>Daño Electro en el AdE</color> en una cantidad equivalente al 65% del ATQ de Ineffa. Este daño se considera daño de Electrocargado Lunar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 1162201,
         "Name": "Protocolo de refactorización holística",
         "Description": "#Al usar la Habilidad Definitiva, <color=#FFD780FF>{LINK#S11165}Orden suprema: Exterminación zonal{/LINK}</color>, todos tus personajes del equipo obtienen el efecto de “refactorización paramétrica”, el cual aumenta durante 20{NON_BREAK_SPACE}s la Maestría Elemental de Ineffa y de tu personaje en uso del equipo en una cantidad equivalente al 6% del ATQ de Ineffa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 1162301,
         "Name": "Bendición presagiolunar: Repetidor simulado",
         "Description": "#Cuando un personaje del equipo cause una reacción de Electrocargado, esta se transformará en una reacción de Electrocargado Lunar cuyo daño base aumentará en un 0.7% por cada 100{NON_BREAK_SPACE}pts. de ATQ que tenga Ineffa. Como máximo, dicho daño puede aumentar en un 14% de esta manera.\n\nAdemás, cuando Ineffa esté en el equipo, el nivel de <color=#FFD780FF>presagio lunar</color> de los personajes aumentará en{NON_BREAK_SPACE}1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -742,6 +748,7 @@
         "Id": 1162501,
         "Name": "Unidad de sabores sintéticos",
         "Description": "Cuando Ineffa consume alguna comida, hay una probabilidad del 30% de obtener un condimento culinario.\n\nAdemás, en Nod Krai, parece que será posible cambiar el aspecto de Birgitta de cierta manera...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_08"
       }
     ],

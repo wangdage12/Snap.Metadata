@@ -309,6 +309,7 @@
         "Id": 10851,
         "Name": "Dòng Chảy Xoáy",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 4 lần tấn công liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực để xoay kiếm tấn công địch xung quanh.\nKhi ngừng quay, sẽ bổ một nhát cực mạnh.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -618,6 +619,7 @@
         "Id": 10852,
         "Name": "Băng Giá Điều Áp",
         "Description": "Thực hiện đòn Vung Đao, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, đồng thời vào trạng thái Thời Khắc Của Pers trong 10s.\nKhi trong trạng thái Thời Khắc Của Pers, Kỹ Năng Nguyên Tố chuyển thành Áp Lực Nghiền Nát.\n\n<color=#FFD780FF>Áp Lực Nghiền Nát</color>\nCăn cứ vào cấp bậc Áp Lực từ Thời Khắc Của Pers mà tiến hành các kiểu tấn công khác nhau, đồng thời xóa bỏ trạng thái Thời Khắc Của Pers:\n·Cấp bậc 0: Tung nhát chém thẳng đứng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>;\n·Cấp bậc 1-3: Tung nhát chém thẳng đứng cùng với Pers, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> và Sát Thương Vật Lý. Lượng sát thương sẽ khác nhau căn cứ vào cấp bậc Áp Lực;\n·Cấp bậc 4: Mượn sức mạnh đã nạp đầy của Pers để gây Sát Thương Vật Lý. Lúc này \"Tấn Công Thường - Dòng Chảy Xoáy\" sẽ chuyển thành Áp Lực Nghiền Nát.\n\n<color=#FFD780FF>Thời Khắc Của Pers</color>\nFreminet khi tấn công thường, sẽ cùng lúc tạo ra Băng Sương gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> và tăng cấp bậc Áp Lực từ Thời Khắc Của Pers.\n<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> gây ra cùng lúc sẽ được tính là sát thương Kỹ Năng Nguyên Tố.\n\n<color=#FFD780FF>Sức Mạnh Nền Tảng: Pneuma</color>\nCứ cách một khoảng thời gian, thực hiện đòn Vung Đao sẽ hình thành Gai Linh Hồn dưới dạng vung đao, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> thuộc tính Pneuma.\n\n<i>Ngăn cản hành động mà không đoạt mạng đối phương, ở góc độ nào đó cũng là một chiến lược vì sinh tồn.</i>\n<i>\"Trông cậy vào Pers rồi.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Freminet_01"
       }
     ],
@@ -787,6 +789,7 @@
       "Id": 10855,
       "Name": "Ảo Ảnh Công Phá",
       "Description": "Thi triển băng giá cực hạn, gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color>, làm mới thời gian chờ của Kỹ Năng Nguyên Tố \"Băng Giá Điều Áp\", đồng thời vào trạng thái Lén Lút trong 10s.\n\nKhi trong trạng thái Lén Lút, Freminet sẽ tăng khả năng kháng gián đoạn và cường hóa Kỹ Năng Nguyên Tố \"Băng Giá Điều Áp\":\n·Thời gian chờ rút ngắn 70%;\n·Tiến hành tấn công thường sẽ tăng thêm một cấp Áp Lực từ Thời Khắc Của Pers, đồng thời gây 200% sát thương Băng Sương của tấn công thường so với mức ban đầu.\n\nHiệu quả này sẽ xóa khi Freminet rời trận.\n\n<i>\"Bây giờ... đã không cần những tạp âm dư thừa nữa.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Freminet_01"
     },
     "Inherents": [
@@ -808,6 +811,7 @@
         "Id": 852101,
         "Name": "Độ Bão Hòa Sâu Thẳm",
         "Description": "Khi thi triển <color=#FFD780FF>Băng Giá Điều Áp - Áp Lực Nghiền Nát</color>, nếu cấp Áp Lực từ Thời Khắc Của Pers nhỏ hơn 4, thời gian chờ của Băng Giá Điều Áp rút ngắn 1s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 852201,
         "Name": "Thiết Bị Ngưng Tụ Song Song",
         "Description": "Freminet khi kích hoạt phản ứng Phá Băng lên kẻ địch, sẽ khiến sát thương gây ra từ <color=#FFD780FF>Băng Giá Điều Áp - Áp Lực Nghiền Nát</color> tăng 40%, duy trì 5s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_06"
       },
       {
@@ -847,6 +852,7 @@
         "Id": 852301,
         "Name": "Người Dẫn Đường Biển Sâu",
         "Description": "Giảm 35% tiêu hao thể lực dưới nước cho nhân vật trong đội của bản thân.\nKhông thể cộng dồn với buff Thiên Phú cố định có cùng hiệu quả.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_07"
       }
     ],
@@ -876,7 +882,7 @@
       {
         "Id": 854,
         "Name": "Vũ Điệu Trăng Tuyết Và Sáo Trúc",
-        "Description": "Freminet sau khi kích hoạt phản ứng Đóng Băng, Phá Băng, Siêu Dẫn lên kẻ địch, tấn công tăng 9%. Hiệu quả này duy trì 6s, tối đa cộng dồn 2 lần, mỗi 0.3s tối đa kích hoạt một lần.",
+        "Description": "Freminet sau khi kích hoạt phản ứng Đóng Băng, Phá Băng, Siêu Dẫn, Tinh-Siêu Dẫn lên kẻ địch, Tấn Công tăng 9%. Hiệu quả này duy trì 6s, tối đa cộng dồn 2 lần, mỗi 0.3s tối đa kích hoạt một lần.",
         "Icon": "UI_Talent_S_Freminet_03"
       },
       {
@@ -892,7 +898,7 @@
       {
         "Id": 856,
         "Name": "Thời Khắc Bừng Tỉnh Và Quyết Tâm",
-        "Description": "Freminet sau khi kích hoạt phản ứng Đóng Băng, Phá Băng, Siêu Dẫn lên kẻ địch, sát thương bạo kích tăng 12%. Hiệu quả này duy trì 6s, tối đa cộng dồn 3 lần, mỗi 0.3s tối đa kích hoạt một lần.",
+        "Description": "Freminet sau khi kích hoạt phản ứng Đóng Băng, Phá Băng, Siêu Dẫn, Tinh-Siêu Dẫn lên kẻ địch, Sát Thương Bạo Kích tăng 12%. Hiệu quả này duy trì 6s, tối đa cộng dồn 3 lần, mỗi 0.3s tối đa kích hoạt một lần.",
         "Icon": "UI_Talent_S_Freminet_04"
       }
     ]

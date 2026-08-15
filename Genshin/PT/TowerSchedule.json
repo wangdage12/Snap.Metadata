@@ -1817,7 +1817,7 @@
     ],
     "Open": "2025-12-16T04:00:00+08:00",
     "Close": "2026-01-16T03:59:59+08:00",
-    "BuffName": "Lua do Furacão",
+    "BuffName": "",
     "Descriptions": [
       "Quando o personagem ativo desencadeia uma reação de Redemoinho em um oponente, uma <color=#F39000>Onda de Choque será desencadeada</color> na posição do inimigo, causando Dano Real. Esse efeito pode ser desencadeado uma vez a cada 2s."
     ],
@@ -1865,7 +1865,7 @@
     ],
     "Open": "2026-03-16T04:00:00+08:00",
     "Close": "2026-04-16T03:59:59+08:00",
-    "BuffName": "",
+    "BuffName": "Lua do Vento Ruidoso",
     "Descriptions": [
       "Quando um personagem desencadeia uma reação de Redemoinho em um oponente, obtém 1 acúmulo de Corte do Vento e quando essa contagem chegar a 4, <color=#F39000>uma Onda de Choque é desencadeada</color> na posição do oponente, causando Dano Real e consumindo todos os acúmulos de Corte do Vento ao mesmo tempo. Até 1 acúmulo de Corte do Vento pode ser ganho a cada 0.1s. Uma Onda de Choque pode ser desencadeada dessa forma a cada 6s."
     ],
@@ -1934,5 +1934,37 @@
       "Quando o personagem ativo causar Dano Cryo a oponentes com Ataques Carregados, seus ataques <color=#F39000>lançarão uma onda de choque</color> na posição do oponente, causando Dano Real. Isso pode ser ativado uma vez a cada 3s."
     ],
     "Icon": "UI_TowerBlessing_105"
+  },
+  {
+    "Id": 122,
+    "FloorIds": [
+      1134,
+      1135,
+      1136,
+      1137
+    ],
+    "Open": "2026-08-16T04:00:00+08:00",
+    "Close": "2026-09-16T03:59:59+08:00",
+    "BuffName": "Lua Perfurante do Esplendor",
+    "Descriptions": [
+      "Enquanto o personagem ativo estiver num Campo da Estrela Polar, ao causar Dano aos inimigos, seus ataques <color=#F39000>liberarão Ondas de Choque</color> nas posições dos inimigos, causando Dano Real. Este efeito pode ocorrer uma vez a cada 4s."
+    ],
+    "Icon": "UI_TowerBlessing_106"
+  },
+  {
+    "Id": 123,
+    "FloorIds": [
+      1134,
+      1135,
+      1138,
+      1139
+    ],
+    "Open": "2026-09-16T04:00:00+08:00",
+    "Close": "2026-10-16T03:59:59+08:00",
+    "BuffName": "Lua em Cascata",
+    "Descriptions": [
+      "Quando um personagem causar Dano de Redemoinho ou Redemoinho Estelar a um oponente, <color=#F39000>uma Onda de Choque será liberada</color> na posição do oponente, causando Dano Real. Este efeito pode ser desencadeado uma vez a cada 4s."
+    ],
+    "Icon": "UI_TowerBlessing_107"
   }
 ]

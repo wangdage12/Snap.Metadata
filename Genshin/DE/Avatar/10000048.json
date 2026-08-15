@@ -443,6 +443,7 @@
         "Id": 10481,
         "Name": "Flammendes Siegel",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nSchießt mehrere Feuerbälle nacheinander ab und verursacht bis zu dreimal <color=#FF9999FF>Pyro-Schaden</color>.\nJeder Treffer gibt Yanfei ein Flammensiegel. Kann anfänglich bis zu drei Flammensiegel besitzen. Bei jedem Auslösen wird die Dauer der vorhandenen Flammensiegel aktualisiert.\nJedes Flammensiegel verringert Yanfeis Ausdauerverbrauch und verschwindet, wenn sie ausgewechselt wird.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht Ausdauer sowie nach kurzem Aufladen alle Flammensiegel und verursacht vor sich <color=#FF9999FF>Pyro-Flächenschaden</color>.\nVerstärkt basierend auf der Anzahl der verbrauchten Flammensiegel die Reichweite und den Schaden des heftigen Schlags.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Kraft des Feuers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#FF9999FF>Pyro-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -579,6 +580,7 @@
         "Id": 10482,
         "Name": "Pakt des Feuers",
         "Description": "Beschwört lodernde Flammen und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>.\nBekommt beim Treffen von Gegnern die Höchstzahl an Flammensiegeln.\n\n<i>Der Pakt des Feuers beinhaltet nicht nur die geltenden Gesetze, sondern auch die von Yanfei selbst formulierten Klauseln, denn der Rat für Allgemeine Angelegenheiten allein ist nicht in der Lage, die Naturgesetze zu ändern.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Feiyan_01"
       }
     ],
@@ -780,6 +782,7 @@
       "Id": 10485,
       "Name": "Pakt des flammenden Infernos",
       "Description": "Beschwört Flammen des Infernos, greift Gegner in der Umgebung an und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>. Gibt dabei Yanfei die Höchstzahl an Flammensiegeln und den Effekt Sengende Hitze.\n\n<color=#FFD780FF>Sengende Hitze</color>\nLöst folgende Effekte aus:\n· Gibt Yanfei in gleichen zeitlichen Abständen je ein Flammensiegel.\n· Erhöht den Schaden heftiger Schläge.\nEndet, wenn Yanfei ausgewechselt oder besiegt wird.\n\n<i>„Der Pakt zwischen uns von Leben und Tod ist nun vollständig. Demgemäß wirst du sterben und ich werde weiterleben!“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Feiyan_01"
     },
     "Inherents": [
@@ -803,6 +806,7 @@
         "Id": 482101,
         "Name": "Koppelungsklausel",
         "Description": "Erhöht mit jedem verbrauchten Flammensiegel durch heftige Schläge den <color=#FF9999FF>Pyro-Schadensbonus</color> 6 s lang um 5 %. Falls die Figur innerhalb der Wirkungsdauer des Effekts nochmals heftige Schläge anwendet, wird der vorige Effekt zuerst entfernt.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_05"
       },
       {
@@ -823,6 +827,7 @@
         "Id": 482201,
         "Name": "Wachsame Argusaugen",
         "Description": "#Verursacht einmal zusätzlichen <color=#FF9999FF>Pyro-Flächenschaden</color> in Höhe von 80{NON_BREAK_SPACE}% ANG, wenn Yanfeis heftige Schläge KT bei Gegnern verursachen. Der Flächenschaden wird als Schaden von heftigen Schlägen betrachtet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_06"
       },
       {
@@ -841,6 +846,7 @@
         "Id": 482301,
         "Name": "Gelehrsamkeit",
         "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Liyues</color> in der Nähe auf der Minikarte an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],

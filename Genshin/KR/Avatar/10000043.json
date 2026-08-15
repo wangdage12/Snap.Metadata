@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "약식 풍령 작성",
         "Description": "<color=#FFD780FF>일반 공격</color>\n풍령으로 최대 4번 공격해 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 짧은 영창 후 <color=#80FFD7FF>바람 원소 범위 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n풍령의 힘을 모은 후 지면을 강타해 경로상의 적을 공격하고 착지 시 <color=#80FFD7FF>바람 원소 범위 피해</color>를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "풍령 작성·육삼공팔",
         "Description": "소형 풍령을 소환해 적과 물체를 풍령이 있는 위치로 끌어당긴 후 공중으로 띄우고 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<i>말하기 쑥스럽지만 실패한 실험에서도 실용적인 기술이 탄생해요. 저의 손에서 탄생한 원소 생명은 쉽게 꺼진다고 하지만 모험에서 분명 도움이 될 거예요</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "마녀의 전야제·일곱 순환의 이치",
         "Description": "<color=#FFD780FF>마녀의 과제·신비한 꽃</color>을 완료하면 설탕이 <color=#FFD780FF>마도</color> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <color=#FFD780FF>마도·비밀 의식</color> 효과를 획득해 마도 캐릭터가 강화된다.\n\n<color=#FFD780FF>마도·비밀 의식</color>\n·소형 풍령을 소환한 후 15초 동안 주변에 있는 파티 내 캐릭터가 일반 공격, 강공격, 낙하 공격, 원소전투 스킬과 원소폭발로 주는 피해가 5.71428% 증가한다.\n·거대 풍령을 소환한 후 20초 동안 주변에 있는 파티 내 마도 캐릭터의 일반 공격, 강공격, 낙하 공격, 원소전투 스킬과 원소폭발로 주는 피해가 7.14285% 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "금기·풍령 작성·칠오 동구 이형",
       "Description": "설탕이 불안정한 플라스크를 던져 대형의 바람 정령을 생성한다.\n존재하는 동안 대형의 바람 정령은 주변의 적과 물체를 지속해서 끌어당긴 후 공중으로 띄우고 <color=#80FFD7FF>바람 원소 피해</color>를 준다.\n\n<color=#FFD780FF>원소 전환</color>\n바람 정령 스킬을 발동하는 동안 <color=#80C0FFFF>물 원소</color>/<color=#FF9999FF>불 원소</color>/<color=#99FFFFFF>얼음 원소</color>/<color=#FFACFFFF>번개 원소</color>에 닿으면 상응하는 원소 속성을 획득하고 추가로 해당 속성 피해를 준다.\n원소 전환은 스킬이 발동되는 동안 1회만 발생한다.\n\n<i>설탕은 예전에 불안정 상태의 무상의 바람마다 이름을 붙여주고 싶었다. 그러나 얼마 안 지나 무상의 바람의 대대로 이어져 온 계보가 토끼 백작의 893세를 초과하면서 그 생각을 접었다</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "촉매 치환술",
-        "Description": "설탕이 원소 확산 반응 발동 후 파티 내 모든 대응하는 원소 타입 캐릭터(설탕 자신을 포함하지 않음)의 원소 마스터리가 50pt 증가한다. 지속 시간: 8초",
+        "Description": "설탕이 확산, 별 확산 반응 발동 시, 파티 내 모든 대응하는 원소 타입 캐릭터(설탕 자신을 포함하지 않음)의 원소 마스터리가 50pt 증가한다. 지속 시간: 8초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "작은 혜풍",
         "Description": "<color=#FFD780FF>풍령 작성·육삼공팔</color> 혹은 <color=#FFD780FF>금기·풍령 작성·칠오 동구 이형</color>이 적에게 명중 시 설탕의 원소 마스터리의 20%를 기반으로 파티 내 모든 캐릭터(설탕 자신 제외)에게 원소 마스터리 보너스를 제공한다. 지속 시간: 8초",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "불안정한 발견",
         "Description": "캐릭터와 무기 육성 소재 합성 시 10%의 확률로 생산량의 2배를 획득한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

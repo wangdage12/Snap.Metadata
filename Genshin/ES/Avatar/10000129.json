@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "Lanza de Favonius: Rompejuramentos",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques rápidos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para arremeter hacia delante.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "Estacazo súbito",
         "Description": "Busca el punto débil del enemigo y cambia al estado de {LINK#N11290001}<color=#FFD780FF>maestro estratega</color>{/LINK}. En este estado:\n·Lohen puede acumular {LINK#N11290003}<color=#FFD780FF>exultación</color>{/LINK} activamente para usar la Habilidad Elemental especial {LINK#N11290002}<color=#FFD780FF>Grabado hasta la médula</color>{/LINK}.\n·Los demás personajes cercanos del equipo pueden otorgar {LINK#N11290004}<color=#FFD780FF>ansia de victoria</color>{/LINK} a Lohen para aumentar el daño de <color=#FFD780FF>Grabado hasta la médula</color>.\nTras usar <color=#FFD780FF>Grabado hasta la médula</color> hasta un máximo de 3 veces en el estado de <color=#FFD780FF>maestro estratega</color>, Lohen no podrá obtener <color=#FFD780FF>exultación</color>.\n\n<i>“¿La caballerosidad? Ja, ese es sin duda alguna el cebo perfecto. Cuando el enemigo aún espera un duelo justo, ni se imagina qué clase de ‘sorpresa’ le espera”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "Rito de la noche de brujas: Punzamiento incurable",
         "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: De diversos enemigos»</color>, Lohen se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nAl golpear a un enemigo con la Habilidad Elemental especial {LINK#N11290002}<color=#FFD780FF>Grabado hasta la médula</color>{/LINK} o al usar la Habilidad Definitiva, <color=#FFD780FF>Sentencia consumada</color>, si el {LINK#N11290004}<color=#FFD780FF>ansia de victoria</color>{/LINK} de Lohen está al menos al 50% de su límite máximo, el daño infligido por sus Ataques Normales y Cargados aumentará en un 40% durante 6{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -903,6 +906,7 @@
       "Id": 11295,
       "Name": "Sentencia consumada",
       "Description": "#Ejecuta unos rápidos tajos consecutivos hacia delante y consume todos los pts. de {LINK#N11290004}<color=#FFD780FF>ansia de victoria</color>{/LINK} para infligir <color=#99FFFFFF>Daño Cryo</color>. El daño infligido será mayor cuanta más <color=#FFD780FF>ansia de victoria</color> se consuma. Si Lohen se encuentra en el estado de {LINK#N11290001}<color=#FFD780FF>maestro estratega</color>{/LINK} al usar esta habilidad, la duración de dicho estado se prolonga 1.65{NON_BREAK_SPACE}s.\n\n<i>“¿Ya te quieres rendir? Pero si solo acabo de empezar...”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "Cuestionamiento prohibido",
         "Description": "#Cuando los demás personajes cercanos del equipo otorgan {LINK#N11290004}<color=#FFD780FF>ansia de victoria</color>{/LINK} a Lohen al infligir daño mientras él está en estado de {LINK#N11290001}<color=#FFD780FF>maestro estratega</color>{/LINK}, si el daño infligido es igual o superior al 3000% del ATQ Base de Lohen, este obtendrá 60{NON_BREAK_SPACE}pts. adicionales de <color=#FFD780FF>ansia de victoria</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "Broma maestra",
         "Description": "#Mientras Lohen se encuentre en estado de {LINK#N11290001}<color=#FFD780FF>maestro estratega</color>{/LINK}, después de que otro personaje cercano del equipo cause una <color=#99FFFFFF>Reacción Elemental Cryo</color> contra un enemigo, tanto el ATQ de dicho personaje como el de Lohen aumentarán en un 15% durante 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "Interés efímero",
         "Description": "#Tras usar la Habilidad Elemental, <color=#FFD780FF>Estacazo súbito</color>, Lohen también obtendrá el efecto de “vehemencia” durante 9{NON_BREAK_SPACE}s. Mientras este efecto esté activo, el nivel de la Habilidad Elemental, <color=#FFD780FF>Estacazo súbito</color>, aumentará en{NON_BREAK_SPACE}1.\nCuando Lohen use su Habilidad Elemental, si el nivel de habilidad del Ataque Normal, la Habilidad Elemental o la Habilidad Definitiva de algún personaje del equipo (a excepción de Lohen) es igual o superior al de su Habilidad Elemental, la duración del efecto de vehemencia activo se prolongará 6{NON_BREAK_SPACE}s más.\nEl efecto de vehemencia solo se puede obtener una vez cada 18{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],
@@ -1193,7 +1200,7 @@
       },
       {
         "Title": "Aficiones de Lohen...",
-        "Context": "Además de la emoción de la matanza en el campo de batalla, mi pasatiempo favorito es preparar pequeñas «sorpresas» para alegrar la vida de mis queridos compañeros de armas. Lo considero parte de su entrenamiento, ya que, al fin y al cabo, los caballeros deben mantenerse alerta en todo momento."
+        "Context": "Además de la emoción de la matanza en el campo de batalla, mi pasatiempo favorito es preparar pequeñas “sorpresas” para alegrar la vida de mis queridos compañeros de armas. Lo considero parte de su entrenamiento, ya que, al fin y al cabo, los caballeros deben mantenerse alerta en todo momento."
       },
       {
         "Title": "Preocupaciones de Lohen...",

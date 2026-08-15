@@ -308,6 +308,7 @@
         "Id": 10073,
         "Name": "Tecnica cerimoniale",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -444,6 +445,7 @@
         "Id": 10074,
         "Name": "Attacco gelante",
         "Description": "Rilascia un'esplosione di ghiaccio infliggendo <color=#99FFFFFF>DAN da Cryo</color> agli avversari davanti a Kaeya.\n\n<i>Kaeya appare affabile, ma la sua natura è gelida e intransigente.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kaeya_01"
       }
     ],
@@ -613,6 +615,7 @@
       "Id": 10075,
       "Name": "Valzer glaciale",
       "Description": "Condensando il gelo nell'aria, Kaeya evoca 3 stalattiti di ghiaccio che gli ruotano intorno.\nLe stalattiti seguono il personaggio e infliggono <color=#99FFFFFF>DAN da Cryo</color> agli avversari sul loro percorso finché l'abilità è attiva.\n\n<i>Un sorriso accattivante, parole geniali e la brina spietata che giace al di sotto... Queste sono le armi di Kaeya.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kaeya_01"
     },
     "Inherents": [
@@ -632,6 +635,7 @@
         "Id": 152101,
         "Name": "A sangue freddo",
         "Description": "Ogni colpo inflitto con <color=#FFD780FF>Attacco gelante</color> rigenera i PS di Kaeya di una quantità pari a un 15% del suo ATT.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaeya_05"
       },
       {
@@ -650,6 +654,7 @@
         "Id": 152201,
         "Name": "Cuore glaciale",
         "Description": "Gli avversari colpiti da <color=#99FFFFFF>Congelamento</color> dopo un <color=#FFD780FF>Attacco gelante</color> lasceranno cadere particelle elementali.\nAttacco gelante può produrre un massimo di 2 particelle elementali aggiuntive a ogni uso.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaeya_06"
       },
       {
@@ -668,6 +673,7 @@
         "Id": 152301,
         "Name": "Forza nascosta",
         "Description": "Diminuisce di un 20% il consumo di vigore durante lo Scatto per i membri del tuo gruppo.\nNon è cumulabile con talenti passivi che conferiscono gli stessi effetti.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Sprint"
       }
     ],

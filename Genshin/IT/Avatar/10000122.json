@@ -309,6 +309,7 @@
         "Id": 11221,
         "Name": "Colpo serpentino",
         "Description": "#<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 calci che infliggono <color=#99FF88FF>DAN da Dendro</color> con la ferocia e la grazia di un serpente.\n\n<color=#FFD780FF>Attacco caricato</color>\nNefer entra nello stato Serpentiforme e consuma vigore per muoversi rapidamente in avanti per un massimo di 2,5{NON_BREAK_SPACE}s. Quando l'abilità viene rilasciata e quando la durata o il vigore terminano, Nefer esce dallo stato Serpentiforme e consuma una certa quantità di vigore aggiuntiva per infliggere <color=#99FF88FF>DAN da Dendro</color> agli avversari. Quando è in stato di {LINK#N11220001}<color=#FFD780FF>Danza dell'ombra</color>{/LINK}, il consumo maggiorato di vigore diminuisce.\nInoltre, quando Nefer è in stato Serpentiforme, scatenare l'abilità elementale <color=#FFD780FF>{LINK#S11222}Strategia del senet: Danza delle mille notti{/LINK}</color> o eseguire uno Scatto non causa il termine del suddetto stato.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nEvocando il potere di Dendro, Nefer si scaglia verso il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria e infliggendo <color=#99FF88FF>DAN da Dendro ad area</color> all'impatto con il suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -602,6 +603,7 @@
         "Id": 11222,
         "Name": "Strategia del senet: Danza delle mille notti",
         "Description": "Una danza che ha dissolto dinastie, fredda come una notte d'inverno nel vasto mare di sabbia, eppure persistente con la tenue delicatezza di un velo illuminato dalla luna. Nefer si lancia in avanti, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color> ed entrando nello stato di {LINK#N11220001}<color=#FFD780FF>Danza dell'ombra</color>{/LINK}.\nQuando Nefer è in questo stato, se ha almeno 1 unità di {LINK#N11190008}<color=#FFD780FF>Rugiada verdeggiante</color>{/LINK} a disposizione, i suoi attacchi caricati vengono sostituiti dall'attacco caricato speciale {LINK#N11220002}<color=#FFD780FF>Spettacolo fantasma</color>{/LINK} che non consuma vigore. Inoltre, la sua resistenza all'interruzione aumenta.\n\nIl numero di cariche iniziali è pari a 2.\n\n<i>\"Il mondo è un grande gioco, in cui le pedine rimangono nascoste sotto un velo. Per evitare di cadere in una trappola, bisogna raccogliere tutte le informazioni possibili. Questo è il significato dei segreti.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nefer_01"
       }
     ],
@@ -817,6 +819,7 @@
       "Id": 11225,
       "Name": "Voto sacro: Fantasma del Vero Occhio",
       "Description": "Conferisce \"rivelazioni\" ai misteri del falso grazie alla visione del vero di Thoth, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color> agli avversari di fronte a lei. Quando viene sprigionato, Nefer consuma tutti i {LINK#N11220003}<color=#FFD780FF>Veli della menzogna</color>{/LINK} per aumentare i DAN inflitti dall'attuale Tripudio elementale.\n\n<i>Le benedizioni del Re Ibis proclamate dai cantori delle sabbie ardenti sono, in realtà, più simili a terribili maledizioni.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nefer_01"
     },
     "Inherents": [
@@ -843,6 +846,7 @@
         "Id": 1222101,
         "Name": "Scommessa al chiaro di luna",
         "Description": "#Nefer ottiene gli effetti positivi corrispondenti in base al <color=#FFD780FF>Presagio lunare</color> del gruppo.\n\nQuando <color=#FFD780FF>Presagio lunare: Barlume ascendente</color> è attivo, scatenare la sua abilità elementale <color=#FFD780FF>{LINK#S11222}Strategia del senet: Danza delle mille notti{/LINK}</color> converte tutti i nuclei di Dendro in campo in Semi dell'inganno. Inoltre, qualsiasi reazione di Fioritura lunare innescata dai personaggi vicini nei successivi 15{NON_BREAK_SPACE}s che creerebbe dei nuclei di Dendro o dei Nuclei munifici, crea Semi dell'inganno al loro posto. Questi ultimi non possono innescare reazioni di Iperfioritura o di Germinazione, né possono esplodere.\nQuando Nefer usa un attacco caricato o uno {LINK#N11220002}<color=#FFD780FF>Spettacolo fantasma</color>{/LINK}, può assorbire i Semi dell'inganno entro una certa area d'effetto e ottenere 1 accumulo di {LINK#N11220003}<color=#FFD780FF>Velo della menzogna</color>{/LINK} per ogni seme assorbito. Quando quest'effetto raggiunge i 3 accumuli, o quando la durata del terzo accumulo viene ripristinata, la maestria elementale di Nefer aumenta di 100 per 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_05"
       },
       {
@@ -867,6 +871,7 @@
         "Id": 1222201,
         "Name": "Figlia della polvere e della sabbia",
         "Description": "#Quando Nefer è nello stato di {LINK#N11220001}<color=#FFD780FF>Danza dell'ombra</color>{/LINK}, per 5{NON_BREAK_SPACE}s dopo che i membri del gruppo hanno innescato reazioni di Fioritura lunare, il suo stato <color=#FFD780FF>{LINK#S11221}Serpentiforme{/LINK}</color> fornisce della {LINK#N11190008}<color=#FFD780FF>Rugiada verdeggiante</color>{/LINK} aggiuntiva. Per ogni 100 punti di maestria elementale di Nefer al di sopra di 500, il suddetto effetto di rigenerazione aumenta di un 10%, fino a un 50% massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_06"
       },
       {
@@ -888,6 +893,7 @@
         "Id": 1222301,
         "Name": "Benedizione del Presagio lunare: Gronde al crepuscolo",
         "Description": "Quando un membro del gruppo innesca una reazione di Fioritura, questa si converte in una reazione di Fioritura lunare, i cui DAN base aumentano di uno 0,0175% per ogni punto di maestria elementale di Nefer, fino a un 14% massimo.\n\nInoltre, quando Nefer è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_07"
       },
       {
@@ -906,6 +912,7 @@
         "Id": 1222501,
         "Name": "Cospirazione della camera dorata",
         "Description": "Ottiene un 25% in più di ricompense quando intraprende una spedizione a Nod-Krai per 20 ore.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_08"
       }
     ],

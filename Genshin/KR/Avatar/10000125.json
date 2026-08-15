@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "달 이슬비",
         "Description": "<color=#FFD780FF>일반 공격</color>\n달빛 조석을 소환하여 최대 3번 공격해 <color=#80C0FFFF>물 원소 피해</color>를 준다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 짧은 영창 후 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다.\n{LINK#N11190008}<color=#FFD780FF>풀 이슬</color>{/LINK}을 1개 이상 보유한 경우, 콜롬비나의 강공격은 스태미나를 소모하지 않는 특수 강공격 <color=#FFD780FF>달 이슬 세례</color>로 대체된다: 풀 이슬 1개를 소모해 전방의 적에게 <color=#99FF88FF>풀 원소 범위 피해</color>를 3회 준다. 해당 피해는 달 개화 반응 피해로 간주된다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "아득한 조석",
         "Description": "달바다의 조석을 일으켜 <color=#80C0FFFF>물 원소 범위 피해</color>를 주고 {LINK#N11250001}<color=#FFD780FF>인력 파동</color>{/LINK}을 소환한다.\n<color=#FFD780FF>인력 파동</color>은 필드 위 캐릭터를 따라다니며 주변의 적에게 지속적으로 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다. <color=#FFD780FF>인력 파동</color> 존재 기간 동안, 주변에 있는 파티 내 캐릭터가 달빛 반응을 발동하거나 달빛 반응 피해를 줄 시, 콜롬비나에게 특수한 <color=#FFD780FF>인력</color>이 축적된다. 최대치에 도달하면 콜롬비나가 가장 많은 <color=#FFD780FF>인력</color>을 축적한 달빛 반응의 타입에 따라 적에게 각기 다른 타입의 피해를 준다.\n<color=#FFD780FF>달빛 징조·보름</color>: <color=#FFD780FF>인력 파동</color>으로 더 큰 범위의 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "향수에 잠긴 달",
       "Description": "무구한 새로운 달의 이름으로 산과 바다를 잇고, 주변의 대지를 잠시 순결한 {LINK#N11250002}<color=#FFD780FF>달 영역</color>{/LINK}으로 바꾸어 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "달의 유혹",
         "Description": "{LINK#N11250001}<color=#FFD780FF>인력 간섭</color>{/LINK} 발동 시, 콜롬비나가 유혹 효과를 획득해 자신의 치명타 확률이 5% 증가한다. 지속 시간: 10초, 최대 중첩수: 3스택",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "새로운 달의 법칙",
         "Description": "{LINK#N11250002}<color=#FFD780FF>달 영역</color>{/LINK} 안에 있는 캐릭터가 달빛 반응 발동 시, 다음과 같은 효과를 각각 획득한다:\n·<color=#FFD780FF>달 감전 반응</color>: 번개구름이 조건에 부합하는 목표에게 뇌격 진행 시, 33%의 확률로 추가 뇌격이 1회 발동된다.\n·<color=#FFD780FF>달 개화 반응</color>: 달 개화 반응 발동 시, 파티에 특수한 {LINK#N11250003}<color=#FFD780FF>달빛 풀 이슬</color>{/LINK}을 1개 제공한다. 18초마다 해당 방식으로 파티가 달빛 풀 이슬을 최대 3개 획득할 수 있다.\n·<color=#FFD780FF>달 결정 반응</color>: 달빛 조각 화음 발동 시, 달빛 조각마다 33% 확률로 1회의 추가 공격을 한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "달빛 징조의 축복·월광",
         "Description": "파티 내 캐릭터가 감전/개화/물 원소 결정 반응 발동 시, 달 감전/달 개화/달 결정 반응 발동으로 전환되며, 콜롬비나의 HP 최대치에 기반해 파티 내 캐릭터가 주는 달빛 반응의 기본 피해가 증가한다: HP 최대치 1000pt마다 달빛 반응의 기본 피해가 0.2% 증가한다. 해당 방식으로 피해가 최대 7% 증가한다.\n\n또한, 콜롬비나가 파티에 있을 경우 파티의 <color=#FFD780FF>달빛 징조</color>가 1레벨 상승한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "달의 가호",
-        "Description": "노드크라이 구역에 있을 때, 파티 내 자신의 캐릭터가 전투 불능 상태가 되면 콜롬비나가 해당 캐릭터를 부활시키고 HP를 회복시킨다. 회복량은 콜롬비나 호감도 레벨에 따라 결정되며, 이 효과는 100초마다 최대 1회 발동된다. 해당 효과는 비경, 영역 토벌, 나선 비경에서 적용되지 않는다.\n또한, 콜롬비나는 달의 힘의 영향을 받은 일부 동물들에게 특별한 친화력을 가지고 있다",
+        "Description": "노드크라이 또는 서리달 구역에 있을 때, 파티 내 자신의 캐릭터가 전투 불능 상태가 되면 콜롬비나가 해당 캐릭터를 부활시키고 HP를 회복시킨다. 회복량은 콜롬비나 호감도 레벨에 따라 결정되며, 이 효과는 100초마다 최대 1회 발동된다. 해당 효과는 비경, 영역 토벌, 나선 비경에서 적용되지 않는다.\n또한, 콜롬비나는 달의 힘의 영향을 받은 일부 동물들에게 특별한 친화력을 가지고 있다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

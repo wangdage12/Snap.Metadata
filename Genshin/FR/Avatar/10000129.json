@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "Lance de Favonius : Serment rompu",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 attaques.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déclencher un coup vers l'avant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "Frappe imprévue",
         "Description": "Tandis qu'il traque les points faibles, Lohen entre dans l'état {LINK#N11290001}<color=#FFD780FF>Coup de maître</color>{/LINK}, état pendant lequel :\n· Lohen peut accumuler activement de la {LINK#N11290003}<color=#FFD780FF>joie</color>{/LINK} pour déclencher sa compétence élémentaire spéciale {LINK#N11290002}<color=#FFD780FF>Gravé dans les os et l'âme</color>{/LINK}.\n· Les autres personnages de l'équipe à proximité peuvent accumuler de la {LINK#N11290004}<color=#FFD780FF>détermination</color>{/LINK} pour Lohen afin d'augmenter les DGT de <color=#FFD780FF>Gravé dans les os et l'âme</color>.\nAprès avoir utilisé <color=#FFD780FF>Gravé dans les os et l'âme</color> un maximum de 3 fois pendant l'état <color=#FFD780FF>Coup de maître</color>, Lohen ne peut plus obtenir de <color=#FFD780FF>joie</color>.\n\n<i>« La chevalerie ? Ah ! Quel meilleur moyen de tendre un piège ? Quand un ennemi rêve d'une victoire honorable, il ne se doute jamais de la « bonne surprise » qui l'attend. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "Veillée de la sorcière : Épine inguérissable",
         "Description": "Après avoir terminé le <color=#FFD780FF>devoir de la sorcière « Question d'opposition »</color>, Lohen devient un personnage <color=#FFD780FF>héxère</color>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <color=#FFD780FF>Hexerei : Rituel secret</color> qui améliore les personnages héxères.\n\n<color=#FFD780FF>Hexerei : Rituel secret</color>\nEn touchant un ennemi avec sa compétence élémentaire spéciale {LINK#N11290002}<color=#FFD780FF>Gravé dans les os et l'âme</color>{/LINK} ou en utilisant son déchaînement élémentaire <color=#FFD780FF>Jugement manifeste</color>, les DGT des attaques normales et chargées de Lohen augmentent de 40 % pendant 6 s si sa {LINK#N11290004}<color=#FFD780FF>détermination</color>{/LINK} a atteint au moins 50 % de son maximum.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -903,6 +906,7 @@
       "Id": 11295,
       "Name": "Jugement manifeste",
       "Description": "Exécute une série rapide de frappes vers l'avant, consommant toute la {LINK#N11290004}<color=#FFD780FF>détermination</color>{/LINK} pour infliger des <color=#99FFFFFF>DGT Cryo</color>, les DGT étant augmentés selon la quantité de <color=#FFD780FF>détermination</color> consommée. Si Lohen est dans l'état {LINK#N11290001}<color=#FFD780FF>Coup de maître</color>{/LINK} lors de l'utilisation, la durée de ce <color=#FFD780FF>Coup de maître</color> augmente de 1,65 s.\n\n<i>« Si prompt à céder ? Quel dommage, je ne faisais que commencer... »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "Moratoire sur les interrogatoires",
         "Description": "Pendant l'état {LINK#N11290001}<color=#FFD780FF>Coup de maître</color>{/LINK}, Lohen obtient 60 pts de <color=#FFD780FF>détermination</color> supplémentaires lorsqu'un autre personnage de l'équipe à proximité l'aide à cumuler de la {LINK#N11290004}<color=#FFD780FF>détermination</color>{/LINK} si les DGT infligés sont supérieurs ou égaux à 3 000 % de l'ATQ de base de Lohen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "Chef-d'œuvre désinvolte",
         "Description": "Pendant l'état {LINK#N11290001}<color=#FFD780FF>Coup de maître</color>{/LINK}, lorsqu'un autre personnage de l'équipe à proximité a déclenché une <color=#99FFFFFF>réaction liée à l'élément Cryo</color>, son ATQ et celle de Lohen augmentent de 15 % pendant 8 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "Quand l'envie prend",
         "Description": "Après avoir utilisé sa compétence élémentaire <color=#FFD780FF>Frappe imprévue</color>, Lohen obtient l'effet Esprit exalté pendant 9 s : augmente le niveau de <color=#FFD780FF>Frappe imprévue</color> de 1.\nSi une des attaques normales, une des compétences élémentaires ou un des déchaînements élémentaires d'un autre personnage de l'équipe n'a pas un niveau inférieur à celui de la compétence élémentaire de Lohen lors de son déclenchement, la durée de cet effet Esprit exalté est prolongée de 6 s supplémentaires.\nL'effet Esprit exalté peut être obtenu une fois toutes les 18 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],

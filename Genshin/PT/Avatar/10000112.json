@@ -276,6 +276,7 @@
         "Id": 11121,
         "Name": "Habilidades Culinárias",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um Ataque de Impulso Ascendente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11122,
         "Name": "Culinária ao Fogo Baixo",
         "Description": "Contemple o verdadeiro significado de cozinhar! Demonstre as diferentes técnicas culinárias de Fontaine ao pressionar ou manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nAtiva o Robô Culinário Multiuso no seu modo de Armazenamento Frio, causando <color=#99FFFFFF>Dano Cryo em AdE</color> contra os inimigos ao redor.\n\n<color=#FFD780FF>Modo Robô Culinário: Armazenamento Frio</color>\nAcompanha o personagem ativo e periodicamente dispara um Parfait Congelado contra os inimigos próximos, causando <color=#99FFFFFF>Dano Cryo.\n\n<color=#FFD780FF>Arkhe: Ousia</color></color>\nQuando Escoffier periodicamente ativar o Robô Culinário com o modo Armazenamento Frio, invoca uma Lâmina da Fluidez, causando <color=#99FFFFFF>Dano Cryo em AdE</color> com Ousia.\n\n<color=#FFD780FF>Manter pressionado</color>\nUsa o modo {LINK#N11120002}<color=#FFD780FF>Culinária Improvisada</color>{/LINK} para ativar o Robô Culinário Multiuso.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Escoffier_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 11125,
       "Name": "Técnica de Corte Refinado",
       "Description": "Demonstrando suas habilidades excepcionais com a faca, Escoffier causa <color=#99FFFFFF>Dano Cryo em uma AdE</color> e restaura a Vida de todos os membros próximos da equipe com base em seu ATQ.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Escoffier_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 1122101,
         "Name": "A Comida é o Melhor Remédio",
         "Description": "Após usar o Supremo <color=#FFD780FF>{LINK#S11125}Técnica de Corte Refinado{/LINK}</color>, Escoffier obterá o efeito de Terapia Alimentar por 9s: Restaura Vida para o personagem ativo próximo a cada 1 segundo em 138.24% do ATQ de Escoffier.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_05"
       },
       {
@@ -722,6 +726,7 @@
         "Id": 1122201,
         "Name": "Inspiração Temperada",
         "Description": "Quando o grupo tiver 1/2/3/4 personagens <color=#80C0FFFF>Hydro</color> ou <color=#99FFFFFF>Cryo</color>, Escoffier reduzirá a <color=#80C0FFFF>RES Hydro</color> e a <color=#99FFFFFF>RES Cryo</color> de inimigos atingidos por sua Habilidade Elemental, <color=#FFD780FF>{LINK#S11122}Culinária ao Fogo Baixo{/LINK}</color>, ou por seu Supremo, <color=#FFD780FF>{LINK#S11125}Técnica de Corte Refinado{/LINK}</color>, em 5%/10%/15%/55% por 12s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_06"
       },
       {
@@ -740,6 +745,7 @@
         "Id": 1122301,
         "Name": "A Postos para Improvisar",
         "Description": "#Ao manter pressionado para lançar a Habilidade Elemental <color=#FFD780FF>{LINK#S11122}Culinária ao Fogo Baixo{/LINK}</color>, usará o modo Culinária Improvisada para ativar o Robô Culinário Multiuso.\n\n<color=#FFD780FF>Robô Culinário: Modo Culinária Improvisada</color>\n· Coloca o Robô Culinário no campo. O Robô Culinário pode absorver os ataques Elementais. Quando a Energia Elemental absorvida alcançar o limite, Escoffier poderá converter os ingredientes colocados dentro em comidas fantásticas.\n· Escoffier precisa de tempo para coletar ingredientes novos. É possível fazer uma certa quantidade de Pratos por semana dessa maneira. A contagem de Prato é redefinida toda segunda-feira às 04:00 da manhã {TIMEZONE}.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_08"
       }
     ],

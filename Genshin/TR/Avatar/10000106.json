@@ -277,6 +277,7 @@
         "Id": 11061,
         "Name": "Alevle Örülür Yaşam",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 4 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak ileri doğru güçlü bir Kesici İhtişam saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -605,6 +606,7 @@
         "Id": 11062,
         "Name": "Adı Konulmuş An",
         "Description": "\"Çatışma\" üzerindeki iktidarını kullanan Mavuika, insan Hükümdarlar arasında aktarılan Saf Ateşin Silahlarını çağırarak Gece Ruhu tesirli <color=#FF9999FF>Ateş Hasarı</color> verir.\nBunu kullandıktan sonra Mavuika'nın Gece Ruhu puanları tamamen yenilenir ve Mavuika, Gece Ruhunun Lütfu durumuna girer.\n\n<color=#FFD780FF>Saf Ateşin Silahları</color>\nDokunulduğunda veya Basılı Tutulduğunda farklı biçimlere girer.\n\n<color=#FFD780FF>Dokun</color>\n\"Serbest Kalan Kutsal Ad\": Saf Ateşin Silahları, Yakıcı Işık Halkası olarak tezahür eder. Halka, mevcut aktif karakteri takip ederek belirli aralıklarla yakındaki düşmanlara saldırır ve Gece Ruhu tesirli <color=#FF9999FF>Ateş Hasarı</color> verir.\n\n<color=#FFD780FF>Basılı Tut</color>\n\"Özgür Kalan Kadim Ad\": Saf Ateşin Silahları, Alevgezer olarak tezahür eder. Mavuika bu durumdayken Alevgezeri yüksek hızla sürebilir veya gizli yedek itiş modülünü etkinleştirerek geçici olarak farklı arazileri aşabilir ve havada süzülebilir. Mavuika'nın Normal, Yüklü ve Havadan Saldırıları, farklı herhangi bir element tesiriyle değişmeyecek şekilde Gece Ruhu tesirli <color=#FF9999FF>Ateş Hasarı</color> verir. Ayrıca Mavuika depar atarken yoluna çıkan düşmanlara Gece Ruhu tesirli <color=#FF9999FF>Ateş Hasarı</color> verir.\n\nGece Ruhunun Lütfu durumundayken Element Becerisine Dokunmak, Saf Ateşin Silahlarının biçimini değiştirir. Silahlar, Mavuika'nın Gece Ruhunun Lütfu durumu sona erdiğinde kaybolur.\n\n<color=#FFD780FF>Gece Ruhunun Lütfu: Mavuika</color>\nSaf Ateşin Silahlarının biçimine göre devamlı olarak Gece Ruhu puanı tüketir. Mavuika'nın Gece Ruhu puanları tükendiğinde Gece Ruhunun Lütfu durumu da sona erer.\n\n<i>Başka bir dünyada Alevgezer gibi araçların kimlik amaçlı plakalara ihtiyacı olduğunu söylesen Mavuika çok sevinir:\n\"Buradaki tek Alevgezer benimki. O zaman istediğim plakayı seçebilirim, değil mi?\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mavuika_01"
       }
     ],
@@ -852,6 +854,7 @@
       "Id": 11065,
       "Name": "Göklerin Yandığı Vakit",
       "Description": "Halkın kalbindeki sesler gökteki kutsal tahta ulaşsın.\n<color=#FFD780FF>Mavuika'nın Element Patlaması Enerji değil, \"Savaşma Ruhu\" kullanır.</color>\n\n<color=#FFD780FF>Savaşma Ruhu</color>\nMavuika en az %50 Savaşma Ruhuna sahip olduğunda tamamını harcayarak Element Patlamasını kullanabilir.\nMavuika, aşağıdaki yöntemlerle Savaşma Ruhu kazanabilir:\n·Savaştayken yakındaki grup üyelerinin harcadığı Gece Ruhu puanları, Savaşma Ruhuna dönüştürülür.\n·Yakındaki grup üyelerinin Normal Saldırıları düşmanlara isabet ettiğinde Mavuika 1,5 Savaşma Ruhu kazanır. Bu etki 0,1 saniyede bir tetiklenebilir.\n\nMavuika, Element Patlamasını kullandıktan sonra 10 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girer. Havada Alevgezerine binerek yerdeki düşmanlara karşı güçlü bir Güneş Kesiği saldırısı yaparak Gece Ruhu tesirli <color=#FF9999FF>Ateş Alan Hasarı</color> verir ve \"Ölüm ve Yaşam Potası\" durumuna girer.\n\n<color=#FFD780FF>Ölüm ve Yaşam Potası</color>\nBu süre boyunca Mavuika'nın çeşitli eylemleri Gece Ruhu puanı tüketmez ve Mavuika'nın müdahaleye karşı direnci artar. Ayrıca Güneş Kesiği ile \"Özgür Kalan Kadim Ad\"ın Normal ve Yüklü Saldırılarının verdiği Hasar, Mavuika'nın Element Patlamasını kullanırken sahip olduğu Savaşma Ruhu miktarına göre artar.\nMavuika alandan ayrıldığında Ölüm ve Yaşam Potası iptal edilir.\n\n<i>\"... Ama ben bu sefer döngüyü kırmak ve bizi bu kaderden temelli kurtarmak istiyorum.\"</i>",
+      "SpecialEnergyType": 1,
       "Icon": "Skill_E_Mavuika_01"
     },
     "Inherents": [
@@ -874,6 +877,7 @@
         "Id": 1062101,
         "Name": "Alev Çiçeği Hediyesi",
         "Description": "Yakındaki bir grup üyesi Gece Ruhu Patlaması tetiklediğinde 10 saniyeliğine Mavuika'nın Saldırısı %30 artar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_05"
       },
       {
@@ -896,6 +900,7 @@
         "Id": 1062201,
         "Name": "\"Kiongozi\"",
         "Description": "Mavuika, <color=#FFD780FF>Göklerin Yandığı Vakit</color> Element Patlamasını kullandığındaki mevcut Savaşma Ruhu puanı başına aktif grup üyesinin verdiği Hasarı %0,2 artırır. Bu şekilde en fazla %40 Hasar artışı kazanılabilir ve bu etki 20sn sürer. Etki bu süre boyunca 0'a ulaşana kadar giderek azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_06"
       },
       {
@@ -914,6 +919,7 @@
         "Id": 1062301,
         "Name": "Gece Diyarının Armağanı: Tüketim Modu",
         "Description": "Mavuika, Gece Ruhu puanı tükendiğinde Saf Ateşin Silahlarının Alevgezer formunu sürdürmek için Filojiston harcar.\nMavuika, Natlan'da Filojiston Mekanikleri bulunan bir bölgedeyken \"Gece Ruhu Aktarımı: Mavuika\" kullanabilir. Aktif karakter depar atarken, tırmanırken, yüzerken, belirli Yeteneklerden kaynaklı bir hareket modundayken veya havada belirli bir yükseklikteyken Mavuika'ya geçildiğinde şu etkiler tetiklenir: Mavuika Gece Ruhunun Lütfu durumuna girer ve maksimum Gece Ruhu puanının %50'sini kazanır. Gece Ruhu Aktarımı kendi grubun tarafından her 10 saniyede bir tetiklenebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mavuika_07"
       },
       {
@@ -932,6 +938,7 @@
         "Id": 1062501,
         "Name": "Geceyi Bozan Aydınlık",
         "Description": "Grubun Gece Ruhu Aktarımı Bekleme Süresi %20 azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Citlali_07"
       }
     ],

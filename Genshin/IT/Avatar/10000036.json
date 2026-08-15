@@ -309,6 +309,7 @@
         "Id": 10401,
         "Name": "Assillo demoniaco",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore nel tempo per sferrare attacchi rotanti contro tutti gli avversari vicini.\nAl termine della sequenza, sferra un fendente più potente. \n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -477,6 +478,7 @@
         "Id": 10402,
         "Name": "Lama spirituale: Gelo stratificato di Chonghua",
         "Description": "Chongyun colpisce il suolo con il suo spadone, causando un'esplosione di Cryo in un'area d'effetto circolare davanti a lui, che infligge <color=#99FFFFFF>DAN da Cryo</color>.\nDopo un breve lasso di tempo, l'aria fredda creata dall'esplosione di Cryo si condensa in un Campo di gelo Chonghua, dentro il quale tutte le armi dei personaggi che usano spada, claymore o lancia vengono infuse di <color=#99FFFFFF>Cryo</color>.\n\n<i>\"Un anello puro come il cristallo, circondato dal silenzio. I fiumi non scorrono, e le nuvole sono cariche di gelo. Quando i cancelli dell'altare si aprono, il male è scacciato.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Chongyun_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 10403,
       "Name": "Lama spirituale: Stella squarcianuvole",
       "Description": "Chongyun disegna con le mani i sigilli segreti per evocare 3 lame spirituali giganti a mezz'aria che cadono a terra una dopo l'altra, esplodendo a contatto col suolo.\nQuando le lame spirituali esplodono, infliggono <color=#99FFFFFF>DAN da Cryo ad area</color> e scagliano via gli avversari.\n\n<i>\"Così come il ghiaccio genera il gelo pungente, la mia lama trascendentale scuote il cielo e la terra. Ascolta il mio richiamo e vieni avanti!\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Chongyun_01"
     },
     "Inherents": [
@@ -651,6 +654,7 @@
         "Id": 362101,
         "Name": "Respiro regolare",
         "Description": "La VEL d'ATT normale dei personaggi con spada, claymore o lancia all'interno del campo creato da <color=#FFD780FF>Lama spirituale: Gelo stratificato di Chonghua</color> aumenta di un 8%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chongyun_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 362201,
         "Name": "Lama del cacciatore di brina",
         "Description": "#Quando il campo creato da <color=#FFD780FF>Lama spirituale: Gelo stratificato di Chonghua</color> scompare, viene evocata un'altra lama spirituale per colpire gli avversari vicini, infliggendo <color=#99FFFFFF>DAN da Cryo ad area</color> pari a un 100% dei DAN da abilità di Gelo stratificato di Chonghua. La <color=#99FFFFFF>RES a Cryo</color> degli avversari colpiti dalla lama si riduce di un 10% per 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Chongyun_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 362301,
         "Name": "Avventuriero valoroso",
         "Description": "Quando intraprende una spedizione a Liyue, il tempo impiegato per portarla a termine si riduce di un 25%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Liyue"
       }
     ],

@@ -323,6 +323,7 @@
         "Id": 10421,
         "Name": "雲来剣法",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10422,
         "Name": "星辰帰位",
         "Description": "雷楔を素早く投げ出し、疾雷の勢いで敵を殲滅する。\n雷楔が命中した時に狭範囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、命中した位置に雷楔マークを残す。\n\n<color=#FFD780FF>長押し</color>\n雷楔マークの投げる方向を調整できる。\n長押しで投げ出した雷楔は空中に浮遊させることができる。刻晴が再び星辰帰位を発動する時、地形を無視できる。\n\n<color=#FFD780FF>雷楔</color>\n雷楔継続中、刻晴が再び星辰帰位また重撃を発動すると、雷楔マークは消され、異なる効果を発動できる。\n·再び星辰帰位を発動すると、マークした位置に瞬間移動し斬撃を1回仕掛け、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。長押しで投げ出した雷楔の位置に瞬間移動する場合は地形を無視する。\n·重撃を行った場合、マークした位置に暴雷連斬を引き起こし、数回の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n<i>「人は蛾のように、飛んで神という火の光に入る。だが私の光は私自身が灯す。」</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Keqing_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 10425,
       "Name": "天街巡遊",
       "Description": "雷電の力を爆発させ、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\nその後、剣影に隠れ、敵に迅雷の如き高速連斬を発動し、連続で<color=#FFACFFFF>雷元素ダメージ</color>を与える。最後の一撃は大量の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n<i>刻晴が生み出した剣術の中で最も速い技、満天の星すらも斬り落とせる。</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Keqing_01"
     },
     "Inherents": [
@@ -697,6 +700,7 @@
         "Id": 422101,
         "Name": "抵天の雷罰",
         "Description": "雷楔継続中に再び<color=#FFD780FF>星辰帰位</color>を発動すると、刻晴は<color=#FFACFFFF>雷元素付与</color>状態を獲得する。継続時間5秒。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Keqing_05"
       },
       {
@@ -719,6 +723,7 @@
         "Id": 422201,
         "Name": "玉衡の貴",
         "Description": "<color=#FFD780FF>天街巡遊</color>発動時、刻晴の会心率+15%、元素チャージ効率+15%、継続時間8秒。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Keqing_06"
       },
       {
@@ -737,6 +742,7 @@
         "Id": 422301,
         "Name": "総務土地",
         "Description": "璃月の探索任務の所要時間-25%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Liyue"
       }
     ],
@@ -750,7 +756,7 @@
       {
         "Id": 422,
         "Name": "苛捐",
-        "Description": "刻晴の通常攻撃と重撃が<color=#FFACFFFF>雷元素</color>の影響を受けた敵に命中した時、50%の確率で元素粒子を1個生成する。\n5秒毎に1回のみ発動可能。",
+        "Description": "刻晴の通常攻撃または重撃が<color=#FFACFFFF>雷元素</color>の影響を受けた敵に命中した時、50%の確率で元素粒子を1個生成する。\n5秒毎に1回のみ発動可能。",
         "Icon": "UI_Talent_S_Keqing_02"
       },
       {

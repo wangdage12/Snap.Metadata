@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "Pontaria do Caçador",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um ataque <color=#FFD780FF>Disparo com Mira</color> mais preciso e com mais dano.\nEnquanto mira, gelo será acumulado na flecha. Uma flecha totalmente carregada causará <color=#99FFFFFF>Dano Cryo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color> Dispara uma chuva de flechas no ar antes de cair e impactar o chão, causando Dano AdE no impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "Garra de Gato Gelada",
         "Description": "Dispara uma Garra de Gato Gelada que causa <color=#99FFFFFF>Dano Cryo</color> e cria um escudo.\nA Absorção de Dano do escudo é baseada na Vida Máxima de Diona, e sua duração depende do número de garras que atingem seu objetivo.\n\n<color=#FFD780FF>Tocar</color>\nDispara rapidamente 2 Garras de Gato Gelada.\n\n<color=#FFD780FF>Manter Pressionado</color> Retrocede rapidamente e dispara 5 Garras de Gato Geladas.\nO escudo criado pelo ataque Manter Pressionado ganhará um bônus de 75% de Absorção de Dano.\n\nO escudo tem um bônus de 250% de Absorção de <color=#99FFFFFF>Dano Cryo</color>, e ao ser formado aplica o <color=#99FFFFFF>Elemento Cryo</color> em seu próprio personagem por uma curta duração.\n\n<i>Normalmente, nenhuma quantidade de gelo no copo de um bêbado faria mal algum, até que Diona usou sua Visão para criar gelo frio o suficiente para congelar o cérebro. Nota 10!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "Seleção Refinada",
-        "Description": "Nos 20s após lançar a Habilidade Elemental <color=#FFD780FF>Garra de Gato Gelada</color>, quando um personagem da equipe desencadear Supercondutor ou Supercondutor Estelar, Diona disparará 3 <color=#FFD780FF>Garras de Gato Gelada</color> coordenadas. As <color=#FFD780FF>Garras de Gato Geladas</color> disparadas dessa forma não gerarão Partículas Elementais, e também não gerarão um Escudo ao atingirem um inimigo. Esse efeito pode ser desencadeado uma vez a cada 3.5s.\nAlém disso, quando está no {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK}, Diona entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>.",
+        "Description": "Nos 20s após lançar a Habilidade Elemental <color=#FFD780FF>Garra de Gato Gelada</color>, quando um personagem da equipe desencadear Supercondutor Estelar, Supercondutor, Redemoinho Cryo ou Redemoinho Estelar, Diona disparará 3 <color=#FFD780FF>Garras de Gato Gelada</color>. As <color=#FFD780FF>Garras de Gato Gelada</color> disparadas dessa forma não geram Partículas Elementais, e ao atingir um inimigo, não geram um Escudo. Esse efeito pode ser desencadeado uma vez a cada 3.5s.\nAlém disso, quando estiver dentro de um {LINK#N11330003}<color=#FFD780FF>Campo da Estrela Polar</color>{/LINK} nos 8s após um personagem próximo da equipe desencadear Redemoinho Estelar, Diona entrará nos estados <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>\n<color=#FFD780FF>Brilho Reluzente: Redemoinho Estelar</color> respectivamente.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "Coquetel Assassino",
       "Description": "Atira um coquetel gelado especial que causa <color=#99FFFFFF>Dano Cryo em uma AdE</color> e cria uma Névoa Embriagada em uma AdE.\n\n<color=#FFD780FF>Névoa Embriagada</color>\nCausa <color=#99FFFFFF>Dano Cryo</color> contínuo nos inimigos dentro da AdE.\nRegenera continuamente a Vida dos personagens dentro da AdE.\n\n<i>Uma mistura horrível que até mesmo Diona considera desumana. O gosto horrível deve ser deixado apenas para os inimigos. Tem um sabor muito fresco, mas infelizmente só se pode sentir no nariz e na pele.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "Menu Secreto da Cauda do Gato",
         "Description": "Os personagens protegidos por <color=#FFD780FF>Garras de Gato Gelado</color> têm sua Veloc. Mov. aumentado em 10% e seu Consumo de Stamina diminuído em 10%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "Diversão dos Bêbados",
         "Description": "Inimigos que entram na AdE do <color=#FFD780FF>Coquetel Assassino</color> tem seu ATQ reduzido em 10% por 15s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "Aperitivos Grátis",
         "Description": "Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -853,7 +860,7 @@
         "Id": 396,
         "Name": "Encerrando o Expediente na Cauda do Gato",
         "Description": "Os personagens dentro da AdE do <color=#FFD780FF>Coquetel Assassino</color> de acordo com a Vida obtém o seguinte efeito:\nQuando a Vida é igual ou inferior a 50%, o Bônus de Cura Recebida aumenta 30%;\nQuando a Vida é superior a 50%, a Proficiência Elemental aumenta 200.",
-        "SpecialDescription": "Os personagens dentro da AdE do <color=#FFD780FF>Coquetel Assassino</color>,de acordo com a Vida, obtêm o seguinte efeito:\nQuando a Vida é igual ou inferior a 50%, o Bônus de Cura Recebida aumenta 30%;\nQuando a Vida é superior a 50%, a Proficiência Elemental aumenta 200.\n\nAlém disso, aumenta a Vida Máxima de Diona em 25%.\n\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: aumenta o Dano de Supercondutor e Supercondutor Estelar em 40% para os personagens que estiverem dentro da AdE de <color=#FFD780FF>Coquetel Assassino</color>.",
+        "SpecialDescription": "Os personagens dentro da AdE do <color=#FFD780FF>Coquetel Assassino</color> obtêm o seguinte efeito, de acordo com a Vida:\nQuando a Vida é igual ou inferior a 50%, o Bônus de Cura Recebida aumenta 30%;\nQuando a Vida é superior a 50%, a Proficiência Elemental aumenta 200.\n\nAlém disso, aumenta a Vida Máxima de Diona em 25%.\n\n<color=#FFD780FF>Brilho Reluzente: Brilho Estelar</color>: aumenta o Dano causado por personagens que estiverem dentro de Coquetel Assassino:\n<color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color>: aumenta o Dano de Supercondutor e Supercondutor Estelar em 40%.\n<color=#FFD780FF>Brilho Reluzente: Redemoinho Estelar</color>: aumenta o Dano de Redemoinho Cryo e Redemoinho Estelar em 40%.",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

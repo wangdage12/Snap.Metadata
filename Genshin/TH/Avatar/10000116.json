@@ -292,6 +292,7 @@
         "Id": 11161,
         "Name": "Cyclonic Duster",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nโจมตีด้วยหอกต่อเนื่องมากสุด 4 ครั้ง\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายส่วนหนึ่ง เพื่อทำการหมุนตัวโจมตี\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 11162,
         "Name": "Cleaning Mode: Carrier Frequency",
         "Description": "Ineffa เปิดใช้งานโมดูลกวาดล้างขั้นสูง สร้าง<color=#FFACFFFF>ความเสียหายไฟฟ้าวงกว้าง</color> ให้กับศัตรูโดยรอบหนึ่งครั้ง กางโล่บาเรียลำแสง และเรียกหน่วยผู้ช่วยอัจฉริยะสารพัดประโยชน์ {LINK#N11160001}<color=#FFD780FF>\"Birgitta\"</color>{/LINK} ออกมา\nปริมาณการดูดซับความเสียหายของโล่บาเรียลำแสง จะขึ้นอยู่กับพลังโจมตีของ Ineffa และมีเอฟเฟกต์ดูดซับต่อ<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 250%",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Ineffa_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 11165,
       "Name": "Supreme Instruction: Cyclonic Exterminator",
       "Description": "ใช้หน่วยผู้ช่วยอัจฉริยะสารพัดประโยชน์ {LINK#N11160001}<color=#FFD780FF>\"Birgitta\"</color> {/LINK} เพื่อกวาดล้างศัตรูด้วยหมัดจรวด! Ineffa จะยิง Birgitta ออกไป สร้าง<color=#FFACFFFF>ความเสียหายไฟฟ้าวงกว้าง</color> และทำให้ Birgitta อยู่ในสนามต่อไป\n\nหากมี Birgitta ที่ Ineffa เรียกออกมาอยู่ในสนามอยู่แล้ว จะเปลี่ยนไปเรียก Birgitta ออกมาใหม่ในตำแหน่งเป้าหมายอีกครั้ง และรีเซ็ตเวลาต่อเนื่อง",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Ineffa_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 1162101,
         "Name": "Overclocking Circuit",
         "Description": "หากบริเวณใกล้เคียง {LINK#N11160001}<color=#FFD780FF>\"Birgitta\"</color>{/LINK} มีเมฆสายฟ้าที่เกิดจากปฏิกิริยาชาร์จจันทราอยู่ Birgitta จะปล่อยไฟฟ้าโจมตี และทำการโจมตีเพิ่มอีกหนึ่งครั้ง โดยจะสร้าง<color=#FFACFFFF>ความเสียหายไฟฟ้าวงกว้าง</color>เท่ากับ 65% ของพลังโจมตีของ Ineffa ซึ่งความเสียหายนี้จะนับเป็นความเสียหาย ที่เกิดจากปฏิกิริยาชาร์จจันทรา",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 1162201,
         "Name": "Panoramic Permutation Protocol",
         "Description": "เมื่อใช้ท่าไม้ตาย <color=#FFD780FF>{LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}</color> จะมอบเอฟเฟกต์ \"Parameter Permutation\" ให้แก่ตัวละครทั้งหมดในทีม: เพิ่มความชำนาญธาตุของ Ineffa และตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นของทีมตนเอง ตาม 6% ของพลังโจมตีของ Ineffa เป็นเวลา 20 วินาที",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_06"
       },
       {
@@ -724,6 +729,7 @@
         "Id": 1162301,
         "Name": "Moonsign Benediction: Assemblage Hub",
         "Description": "เมื่อตัวละครในทีมทำให้เกิดปฏิกิริยาชาร์จไฟฟ้า จะเปลี่ยนเป็นปฏิกิริยาชาร์จจันทราแทน และเพิ่มความเสียหายพื้นฐานของปฏิกิริยาชาร์จจันทรา ตามพลังโจมตีของ Ineffa: ทุก 100 หน่วยของพลังโจมตี จะเพิ่มความเสียหายพื้นฐานขึ้น 0.7% โดยจะสามารถเพิ่มความเสียหายด้วยวิธีนี้ได้มากสุด 14%\n\nนอกจากนี้ เมื่อมี Ineffa อยู่ในทีม <color=#FFD780FF>ลัคนาจันทร์</color>ของทีมจะเพิ่มขึ้น 1 ระดับ",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_07"
       },
       {
@@ -742,6 +748,7 @@
         "Id": 1162501,
         "Name": "Flavor Synthesis Unit",
         "Description": "เมื่อ Ineffa ใช้อาหาร จะมีโอกาส 30% ที่จะได้รับเครื่องปรุงรสหนึ่งอย่าง\n\nนอกจากนี้ ดูเหมือนว่าใน Nod-Krai จะสามารถเปลี่ยนรูปลักษณ์ของ Birgitta ได้ด้วยวิธีการบางอย่าง...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Ineffa_08"
       }
     ],

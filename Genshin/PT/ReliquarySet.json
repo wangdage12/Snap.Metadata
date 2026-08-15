@@ -338,7 +338,7 @@
     "Icon": "UI_RelicIcon_15002_4",
     "Descriptions": [
       "Bônus de Dano Anemo +15%",
-      "Aumenta o Dano do Redemoinho em 60%. Dependendo do tipo elemento infundido, diminui a RES Elemental correspondente do oponente em 40% por 10s."
+      "Aumenta o Dano causado por Redemoinho em 60% e aumenta o Dano causado por Redemoinho Estelar em 20%. De acordo com o Tipo Elemental do Redemoinho, reduz a RES Elemental correspondente do inimigo afetado em 40% por 10s. Ao desencadear Redemoinho Estelar, também reduz sua RES Cryo em 40%. Efeitos de redução de RES de mesmo Tipo Elemental não acumulam."
     ]
   },
   {
@@ -392,7 +392,7 @@
     "Icon": "UI_RelicIcon_15005_4",
     "Descriptions": [
       "Bônus de Dano Electro +15%",
-      "Aumenta o Dano causado por Sobrecarga, Eletricamente Carregado, Supercondutor e Superflorescimento em 40%, o Bônus de Dano concedido por Intensificação em 20% e o Dano causado por Carga Lunar em 20%. Quando Aceleração ou uma das Reações Elementais mencionadas for desencadeada, o Tempo de Recarga da Habilidade Elemental é reduzido em 1s. Só pode ocorrer uma vez a cada 0,8s."
+      "Aumenta o Dano causado por Sobrecarga, Eletricamente Carregado, Supercondutor e Superflorescimento em 40%, o Bônus de Dano concedido por Intensificação em 20% e o Dano causado por Carga Lunar e Supercondutor Estelar em 20%. Quando Aceleração ou uma das Reações Elementais mencionadas for desencadeada, o Tempo de Recarga da Habilidade Elemental é reduzido em 1s. Só pode ocorrer uma vez a cada 0.8s."
     ]
   },
   {
@@ -1115,7 +1115,43 @@
     "Icon": "UI_RelicIcon_15046_4",
     "Descriptions": [
       "ATQ +18%",
-      "Aumenta o Dano de Supercondutor em 80%. Quando o portador atacar inimigos afetados por Supercondutor, aumenta a Taxa CRIT deste ataque em 16%. Ao se aventurar por Snezhnaya, talvez você possa obter alguma bênção nova..."
+      "Aumenta o Dano de Reação de Supercondutor em 80%. Aumenta o Dano de Supercondutor Estelar em 40%. Quando o portador ataca inimigos afetados por Supercondutor ou Supercondutor Estelar, aumenta a Taxa CRIT desse ataque em 16%."
+    ]
+  },
+  {
+    "SetId": 15047,
+    "EquipAffixId": 215047,
+    "EquipAffixIds": [
+      2150470,
+      2150471
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "",
+    "Icon": "UI_RelicIcon_15047_4",
+    "Descriptions": [
+      "ATQ +18%",
+      "Ao desencadear uma Reação de Redemoinho Estelar, aumenta a Taxa CRIT do portador em 16% e o Dano da Reação de Redemoinho Estelar causada por ele em 40% por 10s."
+    ]
+  },
+  {
+    "SetId": 15048,
+    "EquipAffixId": 215048,
+    "EquipAffixIds": [
+      2150480,
+      2150481
+    ],
+    "NeedNumber": [
+      2,
+      4
+    ],
+    "Name": "Coração Forjado",
+    "Icon": "UI_RelicIcon_15048_4",
+    "Descriptions": [
+      "ATQ +18%",
+      "Nos 12s após o portador desencadear Brilho Estelar ou causar Dano de Brilho Estelar, aumenta o ATQ em 12% e o Dano de Brilho Estelar de todos os membros próximos da equipe em 50%. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo. O efeito de bônus de Dano de conjuntos de Artefatos iguais não acumula."
     ]
   },
   {

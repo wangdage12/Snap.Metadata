@@ -293,6 +293,7 @@
         "Id": 10351,
         "Name": "Vân Lai Cổ Kiếm Pháp",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 5 lần đánh kiếm liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -590,6 +591,7 @@
         "Name": "Tiên pháp - Hàn Bệnh Quỷ Sai",
         "Description": "Băng huyết hóa bùa chú, triệu hồi Hàn Bệnh Quỷ Sai, đồng thời gây <color=#99FFFFFF>sát thương Nguyên Tố Băng</color> cho địch xung quanh.\n\n<color=#FFD780FF>Hàn Bệnh Quỷ Sai</color>\n·Khi tấn công thường và trọng kích của Qiqi đánh trúng địch, sẽ hồi HP cho tất cả nhân vật của bản thân trong đội và đồng đội ở gần, lượng hồi phục dựa trên sức tấn công của Qiqi;\n·Cứ cách một khoảng thời gian sẽ hồi HP cho nhân vật của bản thân trong đội trong trận hiện tại;\n·Khi nhân vật hành động, gây <color=#99FFFFFF>sát thương nguyên tố Băng</color> cho kẻ địch trên đường đi.\n\n<i>\"Cái này dùng để ngăn thối rữa khi nhiệt độ lên cao... Ừm, ý tôi là số thảo dược quý của ngài Bai đó.\"</i>",
         "SpecialDescription": "Băng huyết hóa bùa chú, triệu hồi Hàn Bệnh Quỷ Sai, đồng thời gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> cho kẻ địch xung quanh.\n\n<color=#FFD780FF>Hàn Bệnh Quỷ Sai</color>\n·Khi Tấn Công Thường và Trọng Kích của Qiqi đánh trúng địch, sẽ hồi HP cho nhân vật của bản thân trong đội và đồng đội ở gần, lượng hồi phục dựa trên Tấn Công của Qiqi.\n·Mỗi cách một khoảng thời gian sẽ hồi phục HP cho nhân vật ra trận hiện tại trong đội bản thân.\n·Đi theo nhân vật, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> cho kẻ địch trên đường.\n·Khi nhân vật ra trận hiện tại trong đội bản thân tấn công trúng kẻ địch, Hàn Bệnh Quỷ Sai sẽ thực hiện một lần tấn công phối hợp, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> lên kẻ địch.\n\n\n<i>\"Cái này dùng để ngăn thối rữa khi nhiệt độ lên cao... Ừm, ý là số thảo dược quý của Baizhu tiên sinh đó.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Qiqi_01"
       }
     ],
@@ -612,7 +614,8 @@
         },
         "Id": 355101,
         "Name": "Thất Bảo Phụng Chân",
-        "Description": "CD của Kỹ Năng Nguyên Tố <color=#FFD780FF>Tiên Pháp - Hàn Bệnh Quỷ Sai</color> giảm còn 15s.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Trong thời gian duy trì Hàn Bệnh Quỷ Sai, nhân vật trong đội bản thân sẽ tăng 50% sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Qiqi sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Description": "CD của Kỹ Năng Nguyên Tố <color=#FFD780FF>Tiên Pháp - Hàn Bệnh Quỷ Sai</color> giảm còn 15s.\n<color=#FFD780FF>Tỏa Sáng: Tinh Tú Lấp Lánh</color>: Trong thời gian duy trì Hàn Bệnh Quỷ Sai, nhân vật trong đội bản thân sẽ tăng sát thương phản ứng tương ứng:\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Sát thương phản ứng Siêu Dẫn, Tinh-Siêu Dẫn tăng 50%.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Khuếch Tán</color>: Sát thương phản ứng Khuếch Tán Nguyên Tố Băng, Tinh-Khuếch Tán tăng 50%.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}/trong 8s sau khi nhân vật trong đội kích hoạt phản ứng Tinh-Khuếch Tán ở gần, Qiqi sẽ phân biệt tiến vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>/<color=#FFD780FF>Tỏa Sáng: Tinh-Khuếch Tán</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_08"
       }
     ],
@@ -845,6 +848,7 @@
       "Name": "Tiên Pháp - Cứu Khổ Độ Ách",
       "Description": "Tiên lực phong ấn bên trong người Qiqi, dùng Bùa Độ Ách Chân đánh dấu kẻ địch xung quanh và gây <color=#99FFFFFF>sát thương nguyên tố Băng</color>.\n\n<color=#FFD780FF>Bùa Độ Ách Chân</color>\nKhi địch bị ảnh hưởng bởi Bùa Độ Ách Chân chịu sát thương, sẽ hồi HP cho nhân vật gây sát thương.\n\n<i>\"Tên thật, cứu khổ độ ách chân quân, cải tử hoàn hài đồng tử\"</i>\n<i>Qiqi không tài nào nhớ nổi câu này.</i>",
       "SpecialDescription": "Qiqi giải phóng tiên lực phong ấn bên trong cơ thể, dùng Bùa Độ Ách Chân đánh dấu kẻ địch xung quanh và gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Gây thêm một lần <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> được xem là sát thương phản ứng Tinh-Siêu Dẫn.\n\n<color=#FFD780FF>Bùa Độ Ách Chân</color>\nKhi kẻ địch bị ảnh hưởng bởi Bùa Độ Ách Chân chịu sát thương, sẽ hồi phục HP cho nhân vật gây sát thương.\n\n<i>\"Tên thật, cứu khổ độ ách chân quân, cải tử hoàn hài đồng tử\"</i>\n<i>Qiqi không tài nào nhớ nổi câu này.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Qiqi_01"
     },
     "Inherents": [
@@ -864,6 +868,7 @@
         "Id": 352101,
         "Name": "Diệu Pháp Trường Thọ",
         "Description": "Khi nhân vật kích hoạt phản ứng nguyên tố trong <color=#FFD780FF>Tiên Pháp - Hàn Bệnh Quỷ Sai</color>, tăng nhận trị liệu 20%, kéo dài 8s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_05"
       },
       {
@@ -885,6 +890,7 @@
         "Id": 352201,
         "Name": "Thăm Ngọc Ngẫu Nhiên",
         "Description": "Khi tấn công thường và trọng kích của Qiqi đánh trúng địch, có 50% cơ hội để thêm cho mỗi kẻ địch một tấm Bùa Độ Ách Chân, kéo dài 6s. Hiệu quả này mỗi 30s chỉ kích hoạt 1 lần.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Qiqi_06"
       },
       {
@@ -903,6 +909,7 @@
         "Id": 352301,
         "Name": "Chuyện Xưa Năm Cũ",
         "Description": "Hiển thị <color=#FFD780FF>đặc sản khu vực Liyue</color> trên bản đồ nhỏ.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],
@@ -911,14 +918,14 @@
         "Id": 351,
         "Name": "Trở Lại Nghèo Khổ",
         "Description": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi 2 điểm năng lượng nguyên tố cho Qiqi.",
-        "SpecialDescription": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố cho Qiqi.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Khi đòn tấn công và đòn đánh phối hợp của Hàn Bệnh Quỷ Sai đánh trúng kẻ địch, sẽ còn hồi phục 6 điểm Năng Lượng Nguyên Tố cho Qiqi. Hiệu quả này mỗi 6s tối đa kích hoạt một lần.",
+        "SpecialDescription": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố cho Qiqi.\n{LINK#N11500004}<color=#FFD780FF>Tỏa Sáng: Tinh Tú Lấp Lánh</color>{/LINK}: Khi đòn tấn công và đòn đánh phối hợp của Hàn Bệnh Quỷ Sai đánh trúng kẻ địch, sẽ còn hồi phục 6 điểm Năng Lượng Nguyên Tố cho Qiqi. Hiệu quả này mỗi 6s tối đa kích hoạt một lần.",
         "Icon": "UI_Talent_S_Qiqi_01"
       },
       {
         "Id": 352,
         "Name": "Giá Rét Thấu Xương",
         "Description": "Đối với địch bị ảnh hưởng bởi <color=#99FFFFFF>Nguyên Tố Băng</color>, sát thương tấn công thường và trọng kích mà Qiqi gây ra tăng 15%.",
-        "SpecialDescription": "Đối với kẻ địch bị ảnh hưởng bởi <color=#99FFFFFF>Nguyên Tố Băng</color>, sát thương Tấn Công Thường và Trọng Kích mà Qiqi gây ra tăng 15%.\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Tấn Công của Qiqi tăng 50%.",
+        "SpecialDescription": "Đối với kẻ địch bị ảnh hưởng bởi <color=#99FFFFFF>Nguyên Tố Băng</color>, sát thương Tấn Công Thường và Trọng Kích mà Qiqi gây ra tăng 15%.\n{LINK#N11500004}<color=#FFD780FF>Tỏa Sáng: Tinh Tú Lấp Lánh</color>{/LINK}: Tấn Công của Qiqi tăng 50%.",
         "Icon": "UI_Talent_S_Qiqi_02"
       },
       {
@@ -952,7 +959,7 @@
         "Id": 356,
         "Name": "Khởi Tử Hồi Sinh",
         "Description": "Khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color> hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.\nHiệu quả này mỗi 15 phút chỉ thi triển 1 lần.",
-        "SpecialDescription": "Khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.\nHiệu quả này mỗi 15 phút chỉ kích hoạt 1 lần.\nNgoài ra, sau khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, Qiqi sẽ còn nhận được 4 tầng <color=#FFD780FF>Động Huyền</color>: Ngoại trừ Qiqi, khi nhân vật ra trận hiện tại trong đội bản thân gây sát thương phản ứng Tinh-Siêu Dẫn, sẽ tiêu hao 1 tầng <color=#FFD780FF>Động Huyền</color> để tăng sát thương gây ra tương đương 600% Tấn Công của Qiqi. <color=#FFD780FF>Động Huyền</color> tối đa duy trì 12s, khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color> sẽ làm mới số tầng.",
+        "SpecialDescription": "Khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.\nHiệu quả này mỗi 15 phút chỉ kích hoạt 1 lần.\nNgoài ra, sau khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>, Qiqi sẽ còn nhận được 4 tầng <color=#FFD780FF>Động Huyền</color>: Ngoại trừ Qiqi, khi nhân vật ra trận hiện tại trong đội bản thân thông qua Thiên Phú và Kỹ Năng để trực tiếp gây sát thương phản ứng Tinh-Siêu Dẫn hoặc Tinh-Khuếch Tán, sẽ tiêu hao 1 tầng <color=#FFD780FF>Động Huyền</color> để tăng sát thương gây ra tương đương 600% Tấn Công của Qiqi. <color=#FFD780FF>Động Huyền</color> tối đa duy trì 12s, khi thi triển <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color> sẽ làm mới số tầng.",
         "Icon": "UI_Talent_S_Qiqi_04"
       }
     ]

@@ -276,6 +276,7 @@
         "Id": 10741,
         "Name": "Spada del Sentiero radioso",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi al suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10742,
         "Name": "Concentrazione solenne",
         "Description": "#Crea uno scudo noto come Cortina onirica che infligge <color=#99FFFFFF>DAN da Cryo ad area</color>.\nL'assorbimento DAN della Cortina onirica si basa sui PS max di Layla, e assorbe i <color=#99FFFFFF>DAN da Cryo</color> con un 250% di efficacia. Quando lo scudo è attivato, a Layla sarà applicato <color=#99FFFFFF>Cryo</color> per un breve periodo.\n\n<color=#FFD780FF>Stelle notturne e cadenti</color>\nMentre è attiva, la Cortina onirica creerà 1 Stella notturna ogni 1,5{NON_BREAK_SPACE}s. Quando un personaggio protetto da questo scudo userà un'abilità elementale, saranno generate 2 Stelle notturne. Le Stelle notturne si possono generare una volta ogni 0,3{NON_BREAK_SPACE}s. È possibile accumulare fino a 4 Stelle notturne ogni volta.\nIn presenza di avversari vicini, quando la Cortina onirica avrà accumulato 4 Stelle notturne, queste si trasformeranno in Stelle cadenti, che saranno scagliate in sequenza infliggendo <color=#99FFFFFF>DAN da Cryo</color> a tutti gli avversari colpiti.\nSe la Cortina onirica terminerà o verrà distrutta, le Stelle notturne scompariranno. Se saranno in procinto di trasformarsi in Stelle cadenti, queste ultime dureranno fino al termine dell'ondata dei colpi.\n\nNon saranno generate nuove Stelle notturne fin quando l'ondata successiva di Stelle cadenti non terminerà.\n\n<i>\"Io e lei siamo come due maestri artigiani che non si conoscono, ma che siedono sul medesimo cuscino mentre ricamano un unico fiore dei sogni.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Layla_01"
       }
     ],
@@ -644,6 +646,7 @@
       "Id": 10745,
       "Name": "Culla dei sogni stellati",
       "Description": "#Attiva un'Onirisfera celestiale che scaglia continuamente Proiettili stellari contro gli avversari nell'area d'effetto, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\nQuando un Proiettile stellare fa centro, genera 1 Stella notturna per le Cortine oniriche vicine. In questo modo, ciascuna Cortina onirica può acquisire 1 Stella notturna ogni 0,5{NON_BREAK_SPACE}s.\n\n<i>\"Ora dormi... Che molti destini possano esserti rivelati all'interno dei tuoi sogni stellati.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Layla_01"
     },
     "Inherents": [
@@ -665,6 +668,7 @@
         "Id": 742101,
         "Name": "Luce nascente",
         "Description": "Mentre la <color=#FFD780FF>Cortina onirica</color> è attiva, l'effetto Sonno profondo viene innescato ogni volta che la Cortina onirica acquisisce 1 Stella notturna:\n· l'efficacia dello scudo di un personaggio sotto l'effetto della Cortina onirica aumenta di un 6%;\n· l'effetto è cumulabile fino a 4 volte e perdura finché la Cortina onirica non svanisce.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Layla_05"
       },
       {
@@ -685,6 +689,7 @@
         "Id": 742201,
         "Name": "Sonno sereno",
         "Description": "I DAN inflitti dalle Stelle cadenti di <color=#FFD780FF>Concentrazione solenne</color> aumentano di un 1,5% dei PS max di Layla.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Layla_06"
       },
       {
@@ -703,6 +708,7 @@
         "Id": 742301,
         "Name": "Segni onirici oscuri",
         "Description": "Quando Layla crea materiali per i talenti dei personaggi, ha un 10% di probabilità di ricevere il doppio del prodotto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Eula_Combine"
       }
     ],

@@ -277,6 +277,7 @@
         "Id": 10431,
         "Name": "Wind Spirit Creation",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan angin yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk mengakibatkan <color=#80FFD7FF>Anemo DMG area</color> setelah jeda singkat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMengumpulkan kekuatan Anemo dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <color=#80FFD7FF>Anemo DMG area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -413,6 +414,7 @@
         "Id": 10432,
         "Name": "Astable Anemohypostasis Creation - 6308",
         "Description": "Menciptakan Wind Spirit kecil yang menarik musuh dan obyek ke lokasi Wind Spirit sebelum menghempas musuh di area tersebut; juga mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<i>Ini sedikit memalukan, tetapi meskipun elemen kehidupan yang dilahirkan melalui prosedur ini menghilang dengan sangat cepat, mereka cukup berguna saat bertualang. Bahkan percobaan yang gagal pun dapat memiliki penggunaan yang praktis.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sucrose_01"
       }
     ],
@@ -438,6 +440,7 @@
         "Id": 435101,
         "Name": "Witch's Eve Rite: Sevenfold Transmutation",
         "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Bunga di Tanah Ajaib</color>, Sucrose akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\n·Setelah memanggil Small Wind Spirit, DMG Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, dan Elemental Burst Karakter di sekitar dalam party meningkat 5,71428% selama 15 detik.\n·Setelah memanggil Large Wind Spirit, DMG Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, dan Elemental Burst Karakter Hexerei di sekitar dalam party meningkat 7,14285% selama 20 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 10435,
       "Name": "Forbidden Creation - Isomer 75 / Type II",
       "Description": "Sucrose melemparkan sebuah ramuan yang menciptakan Wind Spirit besar.\nSelama ramuan itu ada, Wind Spirit besar akan terus-menerus menarik musuh dan obyek yang ada di sekitar, menghasilkan <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nKetika Wind Spirit bersentuhan dengan elemen <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, maka akan mengakibatkan elemental DMG tambahan dari tipe tersebut.\nElemental Absorption hanya dapat muncul satu kali dalam sekali penggunaan.\n\n<i>Sucrose dulunya selalu memberikan nama kepada Anemo Hypostases miliknya. Namun mereka berkembang biak dengan cepat sampai melampaui Baron Bunny ke-893.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sucrose_01"
     },
     "Inherents": [
@@ -644,7 +648,8 @@
         },
         "Id": 432101,
         "Name": "Catalyst Conversion",
-        "Description": "Ketika Sucrose memicu Swirl, akan meningkatkan Elemental Mastery anggota party dengan tipe elemen yang sama (tidak termasuk Sucrose sendiri) sebesar 50, berlangsung selama 8 detik.",
+        "Description": "Ketika Sucrose memicu Swirl atau Stellar Swirl, akan meningkatkan Elemental Mastery anggota party dengan tipe elemen yang sama (tidak termasuk Sucrose sendiri) sebesar 50, berlangsung selama 8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_05"
       },
       {
@@ -666,6 +671,7 @@
         "Id": 432201,
         "Name": "Mollis Favonius",
         "Description": "Ketika skill <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> atau <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> mengenai musuh, akan meningkatkan Elemental Mastery seluruh anggota party (tidak termasuk Sucrose sendiri) sebanyak 20% dari Elemental Mastery Sucrose selama 8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sucrose_06"
       },
       {
@@ -684,6 +690,7 @@
         "Id": 432301,
         "Name": "Astable Invention",
         "Description": "Saat Sucrose membuat Material Penguatan Senjata dan Karakter, memiliki 10% kemungkinan untuk mendapatkan hasil 2 kali lipat.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Material"
       }
     ],

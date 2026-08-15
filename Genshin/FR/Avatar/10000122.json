@@ -309,6 +309,7 @@
         "Id": 11221,
         "Name": "Serpent frappant",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups de pied, qui infligent des <color=#99FF88FF>DGT Dendro</color>, avec la férocité et la grâce d'un serpent frappant.\n\n<color=#FFD780FF>Attaque chargée</color>\nNefer passe en état de locomotion serpentine, pouvant avancer rapidement pendant un maximum de 2,5 s en consommant de l'endurance. Lorsque le bouton de compétence est relâché, que la durée prend fin ou que l'endurance est épuisée, Nefer met fin à sa locomotion serpentine et consomme une certaine quantité d'endurance supplémentaire pour infliger des <color=#99FF88FF>DGT Dendro</color> aux ennemis. Pendant l'état {LINK#N11220001}<color=#FFD780FF>Danse d'ombre</color>{/LINK}, la consommation supplémentaire d'endurance diminue.\nDe plus, utiliser le déchaînement élémentaire <color=#FFD780FF>{LINK#S11222}Tactique de senet : Danse des mille nuits{/LINK}</color> et effectuer un sprint pendant la locomotion serpentine ne met pas fin à l'état.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <color=#99FF88FF>DGT Dendro de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -602,6 +603,7 @@
         "Id": 11222,
         "Name": "Tactique de senet : Danse des mille nuits",
         "Description": "Cette danse, qui a dissous des dynasties, est aussi glaciale qu'une nuit d'hiver sur la grande mer de sable, mais elle persiste avec la tendresse du clair de lune. Nefer charge en avant, infligeant des <color=#99FF88FF>DGT Dendro de zone</color> et entrant dans l'état {LINK#N11220001}<color=#FFD780FF>Danse d'ombre</color>{/LINK}.\nDans cet état, les attaques chargées de Nefer sont remplacées par l'attaque chargée spéciale {LINK#N11220002}<color=#FFD780FF>Performance fantasmatique</color>{/LINK} si l'équipe possède au moins 1 {LINK#N11190008}<color=#FFD780FF>rosée verdoyante</color>{/LINK}, cette attaque ne consommant pas d'endurance. Pendant l'état Danse d'ombre, la RÉS à l'interruption de Nefer augmente.\n\nNefer commence avec 2 utilisations disponibles.\n\n<i>« Le monde est un jeu dont les pièces restent cachées derrière un voile. Pour éviter de tomber dans un piège, il faut collecter toutes les informations possibles. Ainsi est le sens des secrets. »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nefer_01"
       }
     ],
@@ -817,6 +819,7 @@
       "Id": 11225,
       "Name": "Vœu sacré : Illusion de regard pur",
       "Description": "#La vision véritable de Thoth accorde la «{NON_BREAK_SPACE}révélation{NON_BREAK_SPACE}» des mystères du faux, infligeant des <color=#99FF88FF>DGT Dendro de zone</color> aux ennemis en face. Lors de l'utilisation, Nefer consomme tous ses {LINK#N11220003}<color=#FFD780FF>voiles mensongers</color>{/LINK} pour augmenter les DGT infligés par le déchaînement élémentaire concerné.\n\n<i>Les bénédictions du roi ibis proclamées par les chanteurs des sables brûlants s'apparentent, en vérité, davantage à de terribles malédictions.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nefer_01"
     },
     "Inherents": [
@@ -843,6 +846,7 @@
         "Id": 1222101,
         "Name": "Pari au clair de lune",
         "Description": "#Nefer obtient différents bonus selon la <color=#FFD780FF>signelune</color> de l'équipe.\n\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : en utilisant sa compétence élémentaire <color=#FFD780FF>{LINK#S11222}Tactique de senet : Danse des mille nuits{/LINK}</color>, tous les noyaux Dendro actuellement sur le terrain sont convertis en graines de tromperie, et toutes les réactions de Sélénofleurissement déclenchées par un personnage proche dans les 15 s génèrent des graines de tromperie à la place de noyaux Dendro et de noyaux d'abondance. Les graines de tromperie ne peuvent pas déclencher de réactions d'Exubérance et de Bourgeonnement et ne peuvent pas éclater.\nLorsque Nefer utilise une attaque chargée ou une {LINK#N11220002}<color=#FFD780FF>performance fantasmatique</color>{/LINK}, elle peut absorber les graines de tromperie à portée, chaque graine absorbée lui accordant un cumul de {LINK#N11220003}<color=#FFD780FF>voile mensonger</color>{/LINK}. En atteignant 3 cumuls ou lorsque la durée du 3e cumul est actualisée, la maîtrise élémentaire de Nefer augmente de 100 pts pendant 8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_05"
       },
       {
@@ -867,6 +871,7 @@
         "Id": 1222201,
         "Name": "Fille de la poussière et du sable",
         "Description": "Lorsque Nefer est dans l'état {LINK#N11220001}<color=#FFD780FF>Danse d'ombre</color>{/LINK}, sa <color=#FFD780FF>{LINK#S11221}locomotion serpentine{/LINK}</color> accorde de la {LINK#N11190008}<color=#FFD780FF>rosée verdoyante</color>{/LINK} supplémentaire à l'équipe pendant 5 s après qu'un personnage de l'équipe déclenche une réaction de Sélénofleurissement. Chaque tranche de 100 pts de maîtrise élémentaire au-delà de 500 pts renforce cet effet de 10 %, jusqu'à un maximum de 50 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_06"
       },
       {
@@ -888,6 +893,7 @@
         "Id": 1222301,
         "Name": "Bénédiction de signelune : Avant-toits sous le crépuscule",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction de Fleurissement, elle est convertie en réaction de Sélénofleurissement, dont les DGT de base augmentent selon la maîtrise élémentaire de Nefer : chaque point de maîtrise élémentaire augmente les DGT de base de 0,0175 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Nefer fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_07"
       },
       {
@@ -906,6 +912,7 @@
         "Id": 1222501,
         "Name": "Conspiration du coffre-fort doré",
         "Description": "Augmente les récompenses d'une expédition de 20 h à Nod-Krai de 25 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_08"
       }
     ],

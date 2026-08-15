@@ -309,6 +309,7 @@
         "Id": 10811,
         "Name": "Drehmomenteinstellung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nTreibt „Mehrak“ an und führt bis zu 4 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht fortlaufend Ausdauer und führt mehrere Hiebe aus.\nSchwingt das Schwert am Ende mit besonders großer Wucht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 10812,
         "Name": "Künstlerische Genialität",
         "Description": "Zweckentfremdet „Mehraks“ Fähigkeit zur Kartierung für offensive Zwecke, indem ein Flächenscan ausgeführt wird, der <color=#99FF88FF>Dendro-Flächenschaden</color> verursacht sowie alle Dendro-Kerne in Reichweite scannt und augenblicklich zur Explosion bringt.\n\n<i>„Mehrak“ wurde mittels Modifikation uralter Technik erschaffen. Wer weiß, vielleicht kann er ja noch mehr, als nur bei Kartierungen und dergleichen zu helfen ...</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kaveh_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 10815,
       "Name": "Dimension der ästhetischen Vermessung",
       "Description": "Setzt „Mehraks“ gesamte Energie zur Kartierung frei und erzeugt einen dreidimensionalen Scan-Bereich. Dieser fügt Gegnern, die sich innerhalb dieses Bereichs befinden, <color=#99FF88FF>Dendro-Flächenschaden</color> zu, lässt alle Dendro-Kerne in Reichweite explodieren und verstärkt für eine kurze Zeit Kavehs Kampffähigkeiten:\n· Erhöht die Angriffsreichweite von Kavehs Standardangriff, heftigem Schlag und Angriff aus dem Fall. Wandelt außerdem den verursachten Schaden in <color=#99FF88FF>Dendro-Schaden</color> um, der nicht von anderen Elementen überdeckt werden kann.\n· Erhöht den Schaden der Explosion aller Dendro-Kerne, die durch die Reaktionen „Sprießen“ oder „Mondspross“ von eigenen Figuren in der Truppe erschaffen wurden.\n· Erhöht Kavehs Unterbrechungs-WDS.\nDiese Effekte werden entfernt, sobald Kaveh ausgewechselt wird.\n\n<i>„Jede Form der Architektur spiegelt auf einzigartige Art und Weise das Weltbild ihres Architekten wider. Man könnte also sagen, dass Architektur selbst eine Art Gedächtnis darstellt.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kaveh_01"
     },
     "Inherents": [
@@ -652,6 +655,7 @@
         "Id": 812101,
         "Name": "Verantwortung des Bauherrn",
         "Description": "#Wenn der durch Dendro-Kerne verursachte Schaden (einschließlich Schaden durch Flammenspross und Supraspross) Kaveh trifft, stellt dieser LP in Höhe von 300{NON_BREAK_SPACE}% von Kavehs Elementarkunde wieder her. 0,5{NON_BREAK_SPACE}s Abklingzeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 812201,
         "Name": "Die Marotten eines Künstlers",
         "Description": "Erhöht Kavehs Elementarkunde um 25 Punkte, nachdem sein Standardangriff, heftiger Schlag oder Angriff aus dem Fall während der Dauer von <color=#FFD780FF>Dimension der ästhetischen Vermessung</color> Gegner getroffen hat. 0,1 s Abklingzeit. 4-fach stapelbar.\nDieser Effekt wird entfernt, sobald Dimension der ästhetischen Vermessung endet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kaveh_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 812301,
         "Name": "Die Kunst der Budgetplanung",
         "Description": "Erhält beim Herstellen von Landschafts-, Gebäude- und Hofdekorationen mit einer Wahrscheinlichkeit von 100 % einen Teil der verbrauchten Materialien zurück.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yoimiya_07"
       }
     ],

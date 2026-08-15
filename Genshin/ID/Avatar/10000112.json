@@ -276,6 +276,7 @@
         "Id": 11121,
         "Name": "Kitchen Skills",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 3 serangan tombak berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menyerang ke atas.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11122,
         "Name": "Low-Temperature Cooking",
         "Description": "Silakan saksikan makna \"memasak\" yang sebenarnya! Melancarkan keterampilan memasak Escoffier yang dibangga-banggakan berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nMengaktifkan All-Spectrum Multi-Use Cooking Mek dalam Cold Storage Mode dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> ke musuh sekitar.\n\n<color=#FFD780FF>Cooking Mek: Cold Storage Mode</color>\nAkan mengikuti Karakter aktif dan menembakkan Frosty Parfait yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> ke musuh di sekitar secara berkala.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nSetiap satu kurun waktu, saat Escoffier mengaktifkan Cooking Mek dalam Cold Storage Mode, akan menjatuhkan Surging Blade yang mengakibatkan Ousia-aligned <color=#99FFFFFF>Cryo DMG Area</color>.\n\n<color=#FFD780FF>Mode Tahan</color>\nMengaktifkan {LINK#N11120002}<color=#FFD780FF>Off-the-Cuff Cookery Mode</color>{/LINK} pada Cooking Mek miliknya.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Escoffier_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 11125,
       "Name": "Scoring Cuts",
       "Description": "Escoffier menunjukkan keahlian pisaunya, mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color> dan memulihkan HP seluruh Karakter party di sekitar berdasarkan ATK Escoffier.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Escoffier_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 1122101,
         "Name": "Better to Salivate Than Medicate",
         "Description": "Setelah melancarkan Elemental Burst <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>, Escoffier akan mendapatkan efek Rehab Diet selama 9 detik: Memulihkan HP Karakter aktif di sekitar sebesar 138,24% ATK Escoffier setiap detiknya.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_05"
       },
       {
@@ -722,6 +726,7 @@
         "Id": 1122201,
         "Name": "Inspiration-Immersed Seasoning",
         "Description": "Saat ada 1/2/3/4 Karakter <color=#80C0FFFF>Hydro</color> atau <color=#99FFFFFF>Cryo</color> di dalam party, setelah Elemental Skill <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color> atau Elemental Burst <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color> miliknya mengenai musuh, akan mengurangi <color=#80C0FFFF>Hydro RES</color> dan <color=#99FFFFFF>Cryo RES</color> musuh ini sebesar 5%/10%/15%/55% selama 12 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_06"
       },
       {
@@ -740,6 +745,7 @@
         "Id": 1122301,
         "Name": "Constant Off-the-Cuff Cookery",
         "Description": "#Saat menahan tombol Elemental Skill <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color>, Escoffier akan mengaktifkan All-Spectrum Multi-Use Cooking Mek dalam Off-the-Cuff Cookery Mode.\n\n<color=#FFD780FF>Cooking Mek: Off-the-Cuff Cookery Mode</color>\n·Meletakkan Cooking Mek di medan pertempuran. Cooking Mek bisa menyerap serangan elemental. Saat energi elemental yang diserap mencapai batas tertentu, Escoffier akan mengonversi Bahan Masak yang sudah diletakkan sebelumnya menjadi makanan yang lezat.\n·Escoffier membutuhkan waktu untuk membeli Bahan Masak yang baru. Setiap minggunya, dia hanya dapat menggunakan cara ini untuk menghasilkan Makanan dalam jumlah tertentu, jumlah ini akan di-reset setiap hari Senin pukul 04:00 ({TIMEZONE}).",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_08"
       }
     ],

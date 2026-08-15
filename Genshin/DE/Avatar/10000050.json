@@ -277,6 +277,7 @@
         "Id": 10501,
         "Name": "Schneller Schmetterspeer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10502,
         "Name": "Lodernder Segen",
         "Description": "Thoma rammt seine Stangenwaffe in den Boden und stößt sich damit nach vorn, um einen gewaltigen Tritt auszuführen, der <color=#FF9999FF>Pyro-Flächenschaden</color> verursacht. Erschafft dann einen Schild des lodernden Segens und verleiht Thoma beim Auslösen das <color=#FF9999FF>Pyro-Attribut</color>.\nDie Schildstärke hängt von Thomas max. LP ab.\nMerkmale des Schilds des lodernden Segens:\n· Hält bei <color=#FF9999FF>Pyro-Schaden</color> 250 % ab.\n· Addiert die verbleibende Schildstärke beim Erhalten eines neuen Schilds des lodernden Segens hinzu und setzt die Wirkungsdauer zurück.\n\nDie Schildstärke kann einen bestimmten Teil der max. LP von Thoma nicht übersteigen.\n\n<i>Für einen Gast aus der Ferne würde einem nur die brennendste Leidenschaft erlauben, die reine und präzise Stangenwaffenkunst von Inazuma zu erlernen. Thomas Errungenschaft beschränkt sich in der Tat nicht darauf, möglichst schnell der Beste zu werden, sondern er hat auch seinen Willen, seine Feinde abzuwehren und seine Kameraden zu beschützen, in seine Kunst einfließen lassen.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Tohma_01"
       }
     ],
@@ -738,6 +740,7 @@
       "Id": 10505,
       "Name": "Rote Ooyoroi",
       "Description": "Thoma wirbelt seinen Speer herum und durchschneidet die Gegner in der Umgebung mit prasselndem Feuer, womit er ihnen <color=#FF9999FF>Pyro-Flächenschaden</color> zufügt. Umhüllt sich dann mit einer brennenden Ooyoroi.\n\n<color=#FFD780FF>Brennende Ooyoroi</color>\nLöst bei Angriffen aktueller Figuren unter dem Einfluss des Effekts „brennende Ooyoroi“ mit Standardangriffen „Brennender Zusammenbruch“ aus, verursacht damit <color=#FF9999FF>Pyro-Flächenschaden</color> und erschafft einen Schild des lodernden Segens.\n1 s Abklingzeit für „Brennender Zusammenbruch“.\n\nVon der Schildstärke abgesehen sind die Merkmale dieses Schildes identisch mit denen des Schildes der Elementarfähigkeit „Lodernder Segen“:\n· Hält bei <color=#FF9999FF>Pyro-Schaden</color> 250 % ab.\n· Addiert die verbleibende Schildstärke beim Erhalten eines neuen Schilds des lodernden Segens hinzu und setzt die Wirkungsdauer zurück.\n\nDie Schildstärke kann einen bestimmten Teil der max. LP von Thoma nicht übersteigen.\n\nEffekt der brennenden Ooyoroi erlischt, wenn Thoma ohnmächtig wird.\n\n<i>„Ich werde mein Versprechen, das ich damals gegeben habe, nicht vergessen. Möge diese Flamme diejenigen beschützen, die ich schätze, und möge sie niemals erlöschen.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Tohma_01"
     },
     "Inherents": [
@@ -762,6 +765,7 @@
         "Id": 502101,
         "Name": "Schichtpanzer",
         "Description": "Erhöht die Schildeffizienz aktueller Figuren beim Erhalten oder Aktualisieren von <color=#FFD780FF>Schild des lodernden Segens</color> 6 s lang um 5 %.\n0,3 s Abklingzeit, 5-fach stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_05"
       },
       {
@@ -782,6 +786,7 @@
         "Id": 502201,
         "Name": "Flammenangriff",
         "Description": "#Erhöht den mit dem brennenden Zusammenbruch von <color=#FFD780FF>Rote Ooyoroi</color> verursachten Schaden in Höhe von 2,2{NON_BREAK_SPACE}% der max. LP von Thoma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_06"
       },
       {
@@ -800,6 +805,7 @@
         "Id": 502301,
         "Name": "Brassenjagd",
         "Description": "Bringt beim erfolgreichen <color=#FFD780FF>Angeln</color> in Inazuma dank Thomas Hilfe mit einer Wahrscheinlichkeit von 20 % den 2-fachen Ertrag.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_07"
       }
     ],

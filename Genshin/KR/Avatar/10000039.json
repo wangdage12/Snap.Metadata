@@ -308,6 +308,7 @@
         "Id": 10391,
         "Name": "사냥꾼의 사격술",
         "Description": "<color=#FFD780FF>일반 공격</color>\n활로 최대 5번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n피해가 더 크고 정확한 <color=#FFD780FF>조준 사격</color>을 한다.\n조준 시 차가운 한기가 화살 촉에 모인다. 한기로 가득 찬 화살은 <color=#99FFFFFF>얼음 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -507,6 +508,7 @@
         "Id": 10392,
         "Name": "꽁꽁젤리",
         "Description": "꽁꽁젤리를 발사해 적에게 <color=#99FFFFFF>얼음 원소 피해</color>를 주고 명중 시 보호막을 생성한다.\n보호막의 피해 흡수량은 디오나 HP 최대치의 영향을 받고 지속 시간은 명중한 꽁꽁젤리 횟수에 영향을 받는다.\n\n<color=#FFD780FF>짧은 터치</color>\n빠른 속도로 꽁꽁젤리를 2개 발사한다.\n\n<color=#FFD780FF>홀드</color>\n빠른 속도로 뒤로 물러선 후 꽁꽁젤리를 5개 발사한다.\n홀드로 생성된 보호막은 75%의 흡수량 보너스를 획득한다.\n\n보호막은 <color=#99FFFFFF>얼음 원소 피해</color>에 대해 250%의 흡수 효과가 있고 생성 시 현재 캐릭터에게 <color=#99FFFFFF>얼음 원소를 잠깐 부착</color>한다.\n\n<i>처음엔 술에 얼음을 아무리 넣어도 주정뱅이들을 혼쭐내 줄 수 없었다. 하지만 디오나가 신의 눈을 얻으면서 그들의 관자놀이를 욱신거리게 만드는 이 꽁꽁젤리를 얻을 수 있게 됐다. 굿굿!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Diona_01"
       }
     ],
@@ -529,7 +531,8 @@
         },
         "Id": 395101,
         "Name": "엄선 칵테일",
-        "Description": "원소전투 스킬 <color=#FFD780FF>꽁꽁젤리</color> 발동 후 20초 동안, 파티 내 캐릭터가 초전도, 별 초전도 반응 발동 시, 디오나가 추가로 <color=#FFD780FF>꽁꽁젤리</color> 3개를 함께 협동 발사한다. 이 방식으로 발사된 <color=#FFD780FF>꽁꽁젤리</color>는 원소 입자를 생성할 수 없고, 적에게 명중해도 보호막을 생성할 수 없다. 해당 효과는 3.5초마다 최대 1회 발동된다.\n또한 {LINK#N11330003}<color=#FFD780FF>극지의 별영역</color>{/LINK} 내에 있을 경우, 디오나가 <color=#FFD780FF>섬광·별 초전도</color> 상태에 진입한다",
+        "Description": "원소전투 스킬 <color=#FFD780FF>꽁꽁젤리</color> 발동 후 20초 동안, 파티 내 캐릭터가 별 초전도, 초전도, 얼음 원소 확산, 별 확산 반응 발동 시, 디오나가 추가로 <color=#FFD780FF>꽁꽁젤리</color> 3개를 함께 협동 발사한다. 이 방식으로 발사된 <color=#FFD780FF>꽁꽁젤리</color>는 원소 입자를 생성할 수 없고, 적에게 명중해도 보호막을 생성할 수 없다. 해당 효과는 3.5초마다 최대 1회 발동된다.\n또한 {LINK#N11330003}<color=#FFD780FF>극지의 별영역</color>{/LINK} 내에 있을 때/파티 내 캐릭터가 주변에 별 확산 반응 발동 후 8초 동안, 디오나가 각각 <color=#FFD780FF>섬광·별 초전도</color>/<color=#FFD780FF>섬광·별 확산</color> 상태에 진입한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_08"
       }
     ],
@@ -746,6 +749,7 @@
       "Id": 10395,
       "Name": "특제 칵테일",
       "Description": "독한 특제 얼음 칵테일을 던져 <color=#99FFFFFF>얼음 원소 범위 피해</color>를 주고 서리 술안개 영역을 만든다.\n\n<color=#FFD780FF>서리 술안개 영역</color>\n·영역 내의 적은 <color=#99FFFFFF>얼음 원소 지속 피해</color>를 받는다.\n·영역 내의 캐릭터는 HP를 지속해서 회복한다.\n\n<i>디오나마저 손사래를 치는 비인도적 레시피로 첫맛이 끔찍해 적에게 줄 것을 추천한다. 뒷맛은 산뜻하고 시원하나 코와 피부로만 느낄 수 있다.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Diona_01"
     },
     "Inherents": [
@@ -768,6 +772,7 @@
         "Id": 392101,
         "Name": "캣테일 히든 메뉴",
         "Description": "<color=#FFD780FF>꽁꽁젤리</color> 보호막의 보호를 받고 있는 캐릭터는 이동 속도가 10% 증가하고 스태미나 소모량이 10% 감소한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_05"
       },
       {
@@ -789,6 +794,7 @@
         "Id": 392201,
         "Name": "우스꽝스러운 취태",
         "Description": "적이 <color=#FFD780FF>특제 칵테일</color> 영역에 진입하면 15초 동안 공격력이 10% 감소한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Diona_06"
       },
       {
@@ -807,6 +813,7 @@
         "Id": 392301,
         "Name": "무료 안주",
         "Description": "회복류 요리를 완벽 조리하면 12% 확률로 요리량의 2배를 획득한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Heal"
       }
     ],
@@ -852,8 +859,8 @@
       {
         "Id": 396,
         "Name": "캣테일 마감시간",
-        "Description": "<color=#FFD780FF>특제 칵테일</color> 영역 내의 캐릭터는 HP에 따라 아래의 효과를 갖는다:\n·HP 50% 이하 - 받는 치유 보너스+30%\n·HP 50% 초과 - 원소 마스터리+200pt",
-        "SpecialDescription": "<color=#FFD780FF>특제 칵테일</color> 영역 내의 캐릭터는 HP에 따라 다음 효과를 획득한다:\n·HP 50% 이하 - 받는 치유 보너스+30%\n·HP 50% 초과 - 원소 마스터리+200pt\n\n또한, 디오나의 HP 최대치가 25% 증가한다.\n<color=#FFD780FF>섬광·별 초전도</color>: <color=#FFD780FF>특제 칵테일</color> 영역 내의 캐릭터가 주는 초전도, 별 초전도 반응 피해가 40% 증가한다",
+        "Description": "<color=#FFD780FF>특제 칵테일</color> 영역 내의 캐릭터는 HP에 따라 다음 효과를 획득한다:\n·HP 50% 이하 - 받는 치유 보너스+30%\n·HP 50% 초과 - 원소 마스터리+200pt",
+        "SpecialDescription": "<color=#FFD780FF>특제 칵테일</color> 영역 내의 캐릭터는 HP에 따라 다음 효과를 획득한다:\n·HP 50% 이하 - 받는 치유 보너스+30%\n·HP 50% 초과 - 원소 마스터리+200pt\n\n또한, 디오나의 HP 최대치가 25% 증가한다.\n<color=#FFD780FF>섬광·별빛</color>: 특제 칵테일 영역 내의 캐릭터가 주는 상응하는 반응 피해가 증가한다:\n<color=#FFD780FF>섬광·별 초전도</color>: 초전도, 별 초전도 반응 피해가 40% 증가한다.\n<color=#FFD780FF>섬광·별 확산</color>: 얼음 원소 확산, 별 확산 반응 피해가 40% 증가한다",
         "Icon": "UI_Talent_S_Diona_04"
       }
     ]

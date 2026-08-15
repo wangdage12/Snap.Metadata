@@ -308,6 +308,7 @@
         "Id": 10521,
         "Name": "Ursprung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Angriff nach oben aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 10522,
         "Name": "Wunder – Unheilvoller Blick",
         "Description": "Der Shougun Raiden offenbart einen kleinen Teil ihrer Utopie, fügt Gegnern in der Umgebung <color=#FFACFFFF>Elektro-Schaden</color> zu und verleiht allen Truppenmitgliedern in der Nähe das „unheilvolle Auge der Blitzstrafe“.\n\n<color=#FFD780FF>Unheilvolles Auge der Blitzstrafe</color>\n· Das unheilvolle Auge der Blitzstrafe greift gemeinsam an, wenn die Angriffe der Figuren mit dem unheilvollen Auge der Blitzstrafe den Gegnern Schaden zufügen, und verursacht an der Stelle der Gegner <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n· Erhöht während der Wirkungsdauer den mit Spezialfähigkeiten der Figuren mit dem unheilvollen Auge der Blitzstrafe verursachten Schaden basierend auf der Elementarenergie der Spezialfähigkeiten.\n\nDas unheilvolle Auge der Blitzstrafe jeder Truppe kann alle 0,9 s höchstens einen abgestimmten Angriff ausführen.\nDer mit dem abgestimmten Angriff der Figuren außerhalb der eigenen Figuren in der Truppe verursachte Schaden entspricht 20 % des ursprünglichen Schadens.\n\n<i>Außergewöhnliche transzendente Wesen sind in der Lage, auf alles, was sie sehen, einzuwirken. Die Göttin der Blitze kann unheilvolle Sterne kontrollieren, um ihre Gefolgsleute zu schützen und ein donnerndes Urteil zu fällen.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Shougun_01"
       }
     ],
@@ -913,6 +915,7 @@
       "Id": 10525,
       "Name": "Geheime Kunst – Musou Shinsetsu",
       "Description": "Der Shougun Raiden sammelt die Stärke der absoluten Wahrheit und die Entschlusskraft von unzähligen Wünschen, beschwört das Musou no Hitotachi, das die übelsten Flüche austreiben kann, verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color> und verwendet eine gewisse Zeit „Musou Isshin“ zum Kampf. Erhöht den mit den Angriffen von Musou no Hitotachi und Musou Isshin verursachten Schaden gemäß den beim Auslösen verbrauchten Stapelungen an Entschlusskraft der Charkra-Desiderate.\n\n<color=#FFD780FF>Musou Isshin</color>\nIn diesem Zustand greift Shougun Raiden mit einem Katana an und verursacht mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall <color=#FFACFFFF>Elektro-Schaden</color>, wobei diese Elementarumwandlung nicht von anderen Elementen überdeckt werden kann. Stellt beim Treffen von Gegnern mit diesen Angriffen in diesem Zustand allen Truppenmitgliedern in der Nähe Elementarenergie wieder her. Stellt auf diese Weise pro s höchstens einmal Elementarenergie wieder her, 5-mal während der Wirkungsdauer auslösbar.\nErhöht in diesem Zustand den Unterbrechungs-WDS von Shougun Raiden und macht sie immun gegen Schaden von Reaktionen <color=#FFACFFFF>Unter Strom</color>.\nDer mit Shougun Raidens Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall im Zustand Musou Isshin verursachte Schaden gilt als Spezialfähigkeitsschaden.\n\nDer Effekt von Musou Isshin erlischt, wenn Shougun Raiden ausgewechselt wird.\n\n<color=#FFD780FF>Charkra-Desiderate</color>\nSammelt den Charkra-Desideraten von Shougun Raiden beim Auslösen von Spezialfähigkeiten durch Truppenmitglieder in der Nähe, aber nicht durch Shougun Raiden selbst, gemäß der Elementarenergie der Spezialfähigkeiten Entschlusskraft.\nSammelt bis zu 60 Stapelungen Entschlusskraft.\n\nDie in den Charkra-Desideraten gesammelte Entschlusskraft wird 300 s nach dem Verlassen der Kampfzone zurückgesetzt.\n\n<i>Dies ist die geheime Technik, die Shougun Raiden zuletzt erlernt hat. Sie gab ihr altes Musou auf, um ein neues Musou zu tragen und so die Träume und Hoffnungen der anderen zu schultern. Wie „Shinsetsu“ gleichzeitig für Wahrheit und Neues steht, so beginnt auch für Inazuma ein neues Kapitel.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Shougun_01"
     },
     "Inherents": [
@@ -935,6 +938,7 @@
         "Id": 522101,
         "Name": "Unzählige Wünsche",
         "Description": "Fügt <color=#FFD780FF>Charkra-Desiderate</color> beim Erhalten von Elementarkristallen oder Elementarteilchen durch Truppenmitglieder in der Nähe 2 Stapelungen Entschlusskraft hinzu.\n3 s Abklingzeit.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_05"
       },
       {
@@ -957,6 +961,7 @@
         "Id": 522201,
         "Name": "Wahre Erleuchtung",
         "Description": "Gewährt Shougun Raiden für jeden Prozentpunkt über 100 % Aufladerate die folgenden Effekte:\n· Erhöht die Elementarenergie-Wiederherstellung von <color=#FFD780FF>Musou Isshin</color> um 0,6 %.\n· Erhöht den <color=#FFACFFFF>Elektro-SCH-Bonus</color> um 0,4 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_06"
       },
       {
@@ -975,6 +980,7 @@
         "Id": 522301,
         "Name": "",
         "Description": "",
+        "SpecialEnergyType": 0,
         "Icon": ""
       },
       {
@@ -993,6 +999,7 @@
         "Id": 522501,
         "Name": "Weltberühmte Bewahrerin",
         "Description": "Verringert die für den Aufstieg von Einhändern oder Stangenwaffen verbrauchte Menge an Mora um 50 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Shougun_07"
       }
     ],

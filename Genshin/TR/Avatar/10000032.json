@@ -308,6 +308,7 @@
         "Id": 10321,
         "Name": "Şanslı Vuruş",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nEn fazla 5 hızlı saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak 2 hızlı kılıç saldırısı yapar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -552,6 +553,7 @@
         "Id": 10322,
         "Name": "Tutku Patlaması",
         "Description": "#Bennett, içinde yanıp tutuşan tüm macera tutkusunu kılıcına aktarır. Sonuçları ne kadar tutkulu olduğuna göre değişebilir.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Dokun}{LAYOUT_PC#Bas}{LAYOUT_PS#Bas}</color>\n<color=#FF9999FF>Ateş Hasarı</color> veren tek ve hızlı bir alevli vuruş.\n\n<color=#FFD780FF>Basılı Tut (Kısa)</color>\nYük biriktirir ve serbest bırakıldığında Yük Seviyesine göre farklı etkilere sahip olur.\n·1. Seviye: İki kez saldırır ve <color=#FF9999FF>Ateş Hasarı</color> vererek düşmanları fırlatır.\n·2. Seviye: Arka arkaya büyük miktarda <color=#FF9999FF>Ateş Hasarı</color> veren 3 saldırı yapar ama son darbe hem Bennett'i hem de düşmanı fırlatan bir patlamayı tetikler.\nBennett fırlatılınca hasar almaz.\n\n<i>Bennett'in hayallerini ve tutkusunu Ateşle birleştiren bir saldırı. Bazen tutku söner, yerine Ateş gelir.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Bennett_01"
       }
     ],
@@ -768,6 +770,7 @@
       "Id": 10323,
       "Name": "Unutulmaz Serüven",
       "Description": "Bennett, <color=#FF9999FF>Ateş Hasarı</color> veren bir zıplama saldırısı yaparak İlham Alanı oluşturur.\n\n<color=#FFD780FF>İlham Alanı</color>\n·Etki alanındaki bir karakterin canı %70 veya daha azsa canı sürekli yenilenir. Yenilenen Can miktarı Bennett'in Maks. Canına göre değişir.\n·Etki alanındaki bir karakterin canı %70'ten fazlaysa o karakter, Bennett'in Temel Saldırısına bağlı olarak Saldırı Bonusu kazanır.\n·Etki alanındaki karakterlere <color=#FF9999FF>Ateş</color> etkisi verir.\n\n<i>Benny'nin Macera Takımının maceraları her zaman beklenmedik tehlikelerle doludur ama Bennett bunlara \"merak, heyecan ve güzellikle dolu maceralar\" demeyi tercih eder.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Bennett_01"
     },
     "Inherents": [
@@ -787,6 +790,7 @@
         "Id": 322101,
         "Name": "Yeniden Alevlendir",
         "Description": "<color=#FFD780FF>Tutku Patlamasının</color> Bekleme Süresini %20 kısaltır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 322201,
         "Name": "Pervasız",
         "Description": "<color=#FFD780FF>Unutulmaz Serüven</color> becerisinin oluşturduğu alanda <color=#FFD780FF>Tutku Patlaması</color> aşağıdaki etkileri kazanır:\n·Bekleme Süresi %50 kısalır.\n·Bennett, 2. Seviye Yükün etkisiyle fırlatılmaz.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_06"
       },
       {
@@ -823,6 +828,7 @@
         "Id": 322301,
         "Name": "Güvenlidir Herhalde",
         "Description": "Mondstadt içinde keşfe gönderildiğinde harcanan zaman %25 azalır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Mengde"
       }
     ],

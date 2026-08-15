@@ -292,6 +292,7 @@
         "Id": 11001,
         "Name": "Felsenbeißer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden auf, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -460,6 +461,7 @@
         "Id": 11002,
         "Name": "Los, kleiner Wirbelwind!",
         "Description": "Kämpft gemeinsam mit dem vertrauenswürdigen kleinen Wirbelwind!\nBeschwört den kleinen Wirbelwind. Beim Auslösen durch Gedrückthalten wird Kachina den kleinen Wirbelwind beschwören und auf ihm reiten.\nNach dem Auslösen erhält Kachina 60 Nachtseelenpunkte und tritt in den Zustand des Nachtseelensegens ein.\n\n<color=#FFD780FF>Nachtseelensegen – Kachina</color>\nDie verschiedenen Aktionen des kleinen Wirbelwinds verbrauchen Kachinas Nachtseelenpunkte.\nDer Zustand Nachtseelensegen von Kachina endet, sobald die Nachtseelenpunkte aufgebraucht sind.\n\n<color=#FFD780FF>Kleiner Wirbelwind</color>\nKann unabhängig existieren oder von Kachina geritten und gesteuert werden. Wenn der kleine Wirbelwind auf dem Feld ist, ändert sich Kachinas Elementarfähigkeit „Los, kleiner Wirbelwind!“ in Auf- und Abstiegsoptionen.\n· Wenn der kleine Wirbelwind unabhängig von Kachina existiert, greift er in regelmäßigen Abständen den Boden an und verursacht dabei mit Nachtseelen versehenen <color=#FFE699FF>Geo-Flächenschaden</color> basierend auf Kachinas VTD.\n· Wenn Kachina auf dem kleinen Wirbelwind reitet, kann sie ihn steuern, um sich schnell zu bewegen, zu klettern, beim Ausführen des Standardangriffs den Boden anzugreifen und damit mit Nachtseelen versehenen <color=#FFE699FF>Geo-Flächenschaden</color> basierend auf Kachinas VTD zu verursachen.\n\nDer kleine Wirbelwind verschwindet, sobald der Zustand Nachtseelensegen von Kachina endet, und gilt als Geo-Objekt. Es kann gleichzeitig nur ein von Kachina selbst erschaffener kleiner Wirbelwind auf dem Feld existieren.\n\n<i>Der kleine Wirbelwind sieht nur aus wie ein Kreisel, in Wirklichkeit ist er ein Bohrer, der selbst den stärksten Felsen aufbrechen kann!</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kachina_01"
       }
     ],
@@ -629,6 +631,7 @@
       "Id": 11005,
       "Name": "Jetzt wird es ernst!",
       "Description": "Schlägt auf den Boden und verursacht <color=#FFE699FF>Geo-Flächenschaden</color> basierend auf Kachinas VTD und erzeugt daraufhin ein Superbohrfeld.\nDas Superbohrfeld erhöht die Angriffsreichweite des kleinen Wirbelwinds sowie die Bewegungsgeschwindigkeit beim Reiten.\n\nBeschwört den kleinen Wirbelwind an ihre Seite, wenn beim Einsetzen dieser Fähigkeit Kachinas eigener kleiner Wirbelwind bereits auf dem Feld ist.\n\n<i>So wie nervöse Künstler sich die Zuschauer gern als Holzpuppen vorstellen, stellt sich Kachina vor, dass ihre Gegner die schönsten Edelsteine wären, die man stolz nach Hause bringen und horten kann.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kachina_01"
     },
     "Inherents": [
@@ -651,6 +654,7 @@
         "Id": 1002101,
         "Name": "Gebirgsechos",
         "Description": "#Erhöht Kachinas <color=#FFE699FF>Geo-SCH-Bonus</color> 12{NON_BREAK_SPACE}s lang um 20{NON_BREAK_SPACE}%, sobald ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_05"
       },
       {
@@ -671,6 +675,7 @@
         "Id": 1002201,
         "Name": "Gewicht der Felsen",
         "Description": "#Erhöht den vom <color=#FFD780FF>kleinen Wirbelwind</color> verursachten Schaden in Höhe von 20{NON_BREAK_SPACE}% von Kachinas VTD.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_06"
       },
       {
@@ -689,6 +694,7 @@
         "Id": 1002301,
         "Name": "Geschenk des Nachtreichs – Herz der Einheit",
         "Description": "#Nachdem ihre Nachtseelenpunkte aufgebraucht sind, kann Kachina zum Konsum von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.\nBei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kachina verwendet werden. Wenn die aktuelle Figur gerade rennt, klettert, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kachina Folgendes ausgelöst: Kachina tritt in den Zustand des Nachtseelensegens ein und reitet auf dem <color=#FFD780FF>kleinen Wirbelwind</color>, wenn sie das Feld betritt. Außerdem erhält sie 30 Nachtseelenpunkte. 10{NON_BREAK_SPACE}s Abklingzeit für das Auslösen der Nachtseelen-Übertragung innerhalb der eigenen Truppe.\n\nAußerdem verbraucht Kachina 90{NON_BREAK_SPACE}% weniger Ausdauer, wenn sie beim Klettern in Natlan auf dem <color=#FFD780FF>kleinen Wirbelwind</color> reitet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_07"
       },
       {
@@ -709,6 +715,7 @@
         "Id": 1002501,
         "Name": "Segen der Kristallflamme",
         "Description": "Stellt beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan für das Einsammeln einiger sammelbarer Materialien 20 Punkte Ausdauer wieder her. Zeigt außerdem alle <color=#FFD780FF>Besonderheiten Natlans</color> in der Nähe auf der Minikarte an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

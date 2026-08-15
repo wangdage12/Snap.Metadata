@@ -293,6 +293,7 @@
         "Id": 10606,
         "Name": "Bogen der Unterströmung",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Pfeilschüsse hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nFührt einen <color=#FFD780FF>gezielten Schuss</color> mit höherem Schaden und höherer Genauigkeit aus.\nKonzentriert das fließende Wasser während des Zielens an der Pfeilspitze, die voll aufgeladen <color=#80C0FFFF>Hydro-Schaden</color> verursacht.\n\n<color=#FFD780FF>Durchstoß</color>\n5 s nach dem Verlassen des Kampfes erhält Yelan den Zustand „Durchstoß“, der die Aufladedauer beim nächsten voll aufgeladenen gezielten Schuss um 80 % verringert und den Pfeil beim Schießen des voll aufgeladenen Schusses in einen „Durchstoßpfeil“ verwandelt, der basierend auf Yelans max. LP <color=#80C0FFFF>Hydro-Flächenschaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -460,6 +461,7 @@
         "Id": 10607,
         "Name": "Seil der Todesbotin",
         "Description": "Yelan bewegt sich schnell mit ihrem „todbringenden Seil“ in der Hand, das alle Gegner in ihrer Bahn verknüpft und markiert.\nNach der schnellen Bewegung explodiert das „todbringende Seil“, wobei es den markierten Gegnern <color=#80C0FFFF>Hydro-Schaden</color> basierend auf Yelans max. LP zufügt.\n\n<color=#FFD780FF>Drücken</color>\nBewegt sich schnell ein Stück nach vorn.\n\n<color=#FFD780FF>Gedrückt halten</color>\nBewegt sich schnell und fortlaufend und erhöht in diesem Zustand Yelans Unterbrechungs-WDS.\nWährend dieser Zeit kann Yelan die Richtung ihrer Bewegung steuern und diesen Zustand durch erneutes Auslösen der Fähigkeit vorzeitig beenden.\n\nDarüber hinaus erhält Yelan bei der Explosion des „todbringenden Seils“ mit gewisser Wahrscheinlichkeit gemäß der Anzahl der markierten Gegner den Zustand „Durchstoß“: Erhöht für jeden markierten Gegner die Wahrscheinlichkeit um 34 %.\n\n<i>Erst in dem Moment, wenn sie mit ihrem Finger das Seil zieht, sind sich die skrupellosen Banditen und listigen Übeltäter bewusst, dass sie sich in dem Netz der Todesbotin verfangen haben.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Yelan_01"
       }
     ],
@@ -645,6 +647,7 @@
       "Id": 10610,
       "Name": "Würfel des Strategems",
       "Description": "Verursacht <color=#80C0FFFF>Hydro-Flächenschaden</color> und beschwört einen „Würfel der Mystik“, der beim Kampf Unterstützung leistet.\n\n<color=#FFD780FF>Würfel der Mystik</color>\nFolgt der Figur auf Schritt und Tritt und führt unter folgenden Umständen abgestimmte Angriffe aus, die basierend auf Yelans max. LP <color=#80C0FFFF>Hydro-Schaden</color> verursachen: \n· Wenn eigene aktuelle Truppenmitglieder Standardangriffe ausführen, 1 s Abklingzeit.\n· Wenn Yelans „todbringendes Seil“ explodiert und dabei Gegner trifft.\n\n<i>„Also hör zu, Spieler gewinnen nie und Gewinner spielen nie. Lass es mich so ausdrücken: Als Bankhalterin habe ich sieben Würfel, während du nur einen hast. Wie könntest du dann eine höhere Punktzahl gegen mich würfeln? Das Haus gewinnt immer.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Yelan_01"
     },
     "Inherents": [
@@ -669,6 +672,7 @@
         "Id": 602101,
         "Name": "Beste Gewinnstrategie",
         "Description": "Erhöht die max. LP von Yelan bei Truppenmitgliedern mit 1/2/3/4 verschiedenen Elementartypen zusätzlich um 6/12/18/30 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yelan_05"
       },
       {
@@ -692,6 +696,7 @@
         "Id": 602201,
         "Name": "Glückswürfel",
         "Description": "Erhöht den von eigenen aktuellen Truppenmitgliedern während der Wirkungsdauer von <color=#FFD780FF>„Würfel der Mystik“</color> verursachten Schaden um 1 % und danach alle 1 s um 3,5 %, insgesamt um bis zu 50 %.\nErneutes Aktivieren von Würfel des Strategems innerhalb der Laufzeit des oben beschriebenen Effekts entfernt diesen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Yelan_06"
       },
       {
@@ -710,6 +715,7 @@
         "Id": 602301,
         "Name": "Lange Überlegung",
         "Description": "Bringt bei 20-stündigen Erkundungsentsendungen in Liyue 25 % mehr Belohnungen.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Liyue"
       }
     ],

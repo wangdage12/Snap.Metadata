@@ -42,6 +42,7 @@
             "Yüklü Saldırı Tarama Ateşi Hasarı|{param4:F1P}",
             "Yüklü Saldırı Yoğunlaştırılmış Işın Hasarı|{param5:F1P}",
             "Yüklü Saldırı Yoğunlaştırılmış Işın Yıldız İletimi Hasarı|{param6:F1P}",
+            "Yüklü Saldırı Yoğunlaştırılmış Işın Yıldız Girdabı Hasarı|{param11:F1P}",
             "Güç Aşımı Hasarı|{param7:F1P}",
             "Havadan Saldırı Hasarı|{param8:F1P}",
             "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param9:P}/{param10:P}"
@@ -60,7 +61,8 @@
                 0.43,
                 0.745878,
                 1.49144,
-                1.862889
+                1.862889,
+                1.2255
               ]
             },
             {
@@ -76,7 +78,8 @@
                 0.465,
                 0.806589,
                 1.612836,
-                2.01452
+                2.01452,
+                1.32525
               ]
             },
             {
@@ -92,7 +95,8 @@
                 0.5,
                 0.8673,
                 1.734233,
-                2.16615
+                2.16615,
+                1.425
               ]
             },
             {
@@ -108,7 +112,8 @@
                 0.55,
                 0.95403,
                 1.907656,
-                2.382765
+                2.382765,
+                1.5675
               ]
             },
             {
@@ -124,7 +129,8 @@
                 0.585,
                 1.014741,
                 2.029052,
-                2.534396
+                2.534396,
+                1.66725
               ]
             },
             {
@@ -140,7 +146,8 @@
                 0.625,
                 1.084125,
                 2.167791,
-                2.707688
+                2.707688,
+                1.78125
               ]
             },
             {
@@ -156,7 +163,8 @@
                 0.68,
                 1.179528,
                 2.358556,
-                2.945964
+                2.945964,
+                1.938
               ]
             },
             {
@@ -172,7 +180,8 @@
                 0.735,
                 1.274931,
                 2.549322,
-                3.184241
+                3.184241,
+                2.09475
               ]
             },
             {
@@ -188,7 +197,8 @@
                 0.79,
                 1.370334,
                 2.740087,
-                3.422517
+                3.422517,
+                2.2515
               ]
             },
             {
@@ -204,7 +214,8 @@
                 0.85,
                 1.47441,
                 2.948195,
-                3.682455
+                3.682455,
+                2.4225
               ]
             },
             {
@@ -220,7 +231,8 @@
                 0.91,
                 1.578486,
                 3.156303,
-                3.942393
+                3.942393,
+                2.5935
               ]
             },
             {
@@ -236,7 +248,8 @@
                 0.97,
                 1.682562,
                 3.364411,
-                4.202331
+                4.202331,
+                2.7645
               ]
             },
             {
@@ -252,7 +265,8 @@
                 1.03,
                 1.786638,
                 3.572519,
-                4.462269
+                4.462269,
+                2.9355
               ]
             },
             {
@@ -268,7 +282,8 @@
                 1.09,
                 1.890714,
                 3.780627,
-                4.722207
+                4.722207,
+                3.1065
               ]
             },
             {
@@ -284,7 +299,8 @@
                 1.15,
                 1.99479,
                 3.988735,
-                4.982145
+                4.982145,
+                3.2775
               ]
             }
           ],
@@ -292,7 +308,8 @@
         },
         "Id": 11331,
         "Name": "Olağanüstü Formül: Tartışmasız Önerme",
-        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nFormüller kullanarak silahını kontrol eden iplikler oluşturur ve art arda en fazla 3 saldırı gerçekleştirir.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nFaaliyet Asistanı Genel İnteraktif Otomaton'u veya diğer adıyla \"<color=#FFD780FF>Fagio</color>\"yu çağırır ve onu <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> moduna geçirir: Önündeki düşmanlara bir tarama ateşi saldırısı yapar, ayrıca belirli aralıklarla yoğunlaştırılmış ışınlar ateşleyerek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yoğunlaştırılmış ışınlar bunun yerine Yıldız İletimi Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Deşifre</color> modundayken Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> sürekli artar. Ayrıca yoğunlaştırılmış ışınlar ateşlemek de Deşifre Gücünü artırır.\nDeşifre Gücü üst sınır olan 100 puana ulaştığında Fagio, <color=#FFD780FF>Güç Aşımı</color> moduna geçerek düşmanlara daha uzun aralıklarla ateş eder ve <color=#99FFFFFF>Buz Hasarı</color> verir. Fagio bu süre zarfında Deşifre moduna geçemez.\n<color=#FFD780FF>Deşifre</color> modunda değilken Fagio'nun <color=#FFD780FF>Deşifre Gücü</color> gittikçe azalır. Sandrone savaş alanında değilken Fagio'ya bakım yapmaya odaklanır ve Deşifre Gücü, orijinal hızının %300'ü oranında azalır.\nFagio'nun <color=#FFD780FF>Deşifre Gücü</color> 50'nin altına düştüğünde <color=#FFD780FF>Güç Aşımı</color> modundan çıkar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadan yere doğru dalarak yolundaki düşmanlara Hasar verir ve yere indiğinde Alan Hasarı verir.",
+        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nFormüller kullanarak silahını kontrol eden iplikler oluşturur ve art arda en fazla 3 saldırı gerçekleştirir.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nFaaliyet Asistanı Genel İnteraktif Otomaton'u veya diğer adıyla \"<color=#FFD780FF>Fagio</color>\"yu çağırır ve onu <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> moduna geçirir: Önündeki düşmanlara bir tarama ateşi saldırısı yapar, ayrıca belirli aralıklarla yoğunlaştırılmış ışınlar ateşleyerek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: Yoğunlaştırılmış ışınlar bunun yerine ilgili Yıldız Parıltısı Tepkimesi Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Deşifre</color> modundayken Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> sürekli artar. Ayrıca yoğunlaştırılmış ışınlar ateşlemek de Deşifre Gücünü artırır.\nDeşifre Gücü üst sınır olan 100 puana ulaştığında Fagio, <color=#FFD780FF>Güç Aşımı</color> moduna geçerek düşmanlara daha uzun aralıklarla ateş eder ve <color=#99FFFFFF>Buz Hasarı</color> verir. Fagio bu süre zarfında Deşifre moduna geçemez.\n<color=#FFD780FF>Deşifre</color> modunda değilken Fagio'nun <color=#FFD780FF>Deşifre Gücü</color> gittikçe azalır. Sandrone savaş alanında değilken Fagio'ya bakım yapmaya odaklanır ve Deşifre Gücü, orijinal hızının %300'ü oranında azalır.\nFagio'nun <color=#FFD780FF>Deşifre Gücü</color> 50'nin altına düştüğünde <color=#FFD780FF>Güç Aşımı</color> modundan çıkar.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadan yere doğru dalarak yolundaki düşmanlara Hasar verir ve yere indiğinde Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -301,6 +318,7 @@
           "Descriptions": [
             "Prizma Atışı Hasarı|{param1:F1P}",
             "Prizma Atışı Yıldız İletimi Hasarı|{param2:F1P}",
+            "Prizma Atışı Yıldız Girdabı Hasarı|{param4:F1P}",
             "BS|{param3:F1}sn"
           ],
           "Parameters": [
@@ -310,7 +328,8 @@
               "Parameters": [
                 0.324,
                 0.216,
-                4
+                4,
+                0.324
               ]
             },
             {
@@ -319,7 +338,8 @@
               "Parameters": [
                 0.3483,
                 0.2322,
-                4
+                4,
+                0.3483
               ]
             },
             {
@@ -328,7 +348,8 @@
               "Parameters": [
                 0.3726,
                 0.2484,
-                4
+                4,
+                0.3726
               ]
             },
             {
@@ -337,7 +358,8 @@
               "Parameters": [
                 0.405,
                 0.27,
-                4
+                4,
+                0.405
               ]
             },
             {
@@ -346,7 +368,8 @@
               "Parameters": [
                 0.4293,
                 0.2862,
-                4
+                4,
+                0.4293
               ]
             },
             {
@@ -355,7 +378,8 @@
               "Parameters": [
                 0.4536,
                 0.3024,
-                4
+                4,
+                0.4536
               ]
             },
             {
@@ -364,7 +388,8 @@
               "Parameters": [
                 0.486,
                 0.324,
-                4
+                4,
+                0.486
               ]
             },
             {
@@ -373,7 +398,8 @@
               "Parameters": [
                 0.5184,
                 0.3456,
-                4
+                4,
+                0.5184
               ]
             },
             {
@@ -382,7 +408,8 @@
               "Parameters": [
                 0.5508,
                 0.3672,
-                4
+                4,
+                0.5508
               ]
             },
             {
@@ -391,7 +418,8 @@
               "Parameters": [
                 0.5832,
                 0.3888,
-                4
+                4,
+                0.5832
               ]
             },
             {
@@ -400,7 +428,8 @@
               "Parameters": [
                 0.6156,
                 0.4104,
-                4
+                4,
+                0.6156
               ]
             },
             {
@@ -409,7 +438,8 @@
               "Parameters": [
                 0.648,
                 0.432,
-                4
+                4,
+                0.648
               ]
             },
             {
@@ -418,7 +448,8 @@
               "Parameters": [
                 0.6885,
                 0.459,
-                4
+                4,
+                0.6885
               ]
             },
             {
@@ -427,7 +458,8 @@
               "Parameters": [
                 0.729,
                 0.486,
-                4
+                4,
+                0.729
               ]
             },
             {
@@ -436,7 +468,8 @@
               "Parameters": [
                 0.7695,
                 0.513,
-                4
+                4,
+                0.7695
               ]
             }
           ],
@@ -444,7 +477,8 @@
         },
         "Id": 11332,
         "Name": "Olağanüstü Formül: Farklılık Analizi",
-        "Description": "Sandrone, kusursuz duruşu ve salon kadını zarafetiyle <color=#FFD780FF>Çay Saati Taktik Taarruz Mekanizmasına</color> biner ve 6sn boyunca ileriye doğru süzülür. Bu süre zarfında aracın hareket yönünü kontrol edebilir. Depar tuşuna basmak 10 Dayanıklılık harcar ve Sandrone'nin daha da hızlı hareket ettiği, zarif ve yüksek hızlı bir süzülme moduna geçmesini sağlar. Bu moddayken saniyede 15 Dayanıklılık harcar.\n\nSandrone süzülmeye başladığında yakında düşmanlar varsa ayrıca bir Prizmatik Rezonans Topu çağırır ve henüz aklını başına toplamamış düşmanlara 2 Prizma Atışı yaparak <color=#99FFFFFF>Buz Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: İkinci Prizma Atışı, bunun yerine Yıldız İletimi Hasarı sayılan <color=#99FFFFFF>Buz Hasarı</color> verir.\n\nSandrone, Çay Saati Taktik Taarruz Mekanizması üzerindeyken zarifçe ve sessizce Fagio'yu tamir ederek Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücünü{/LINK}</color> hızla düşürür.",
+        "Description": "Sandrone, kusursuz duruşu ve salon kadını zarafetiyle <color=#FFD780FF>Çay Saati Taktik Taarruz Mekanizmasına</color> biner ve 6sn boyunca ileriye doğru süzülür. Bu süre zarfında aracın hareket yönünü kontrol edebilir. Depar tuşuna basmak 10 Dayanıklılık harcar ve Sandrone'nin daha da hızlı hareket ettiği, zarif ve yüksek hızlı bir süzülme moduna geçmesini sağlar. Bu moddayken saniyede 15 Dayanıklılık harcar.\n\nSandrone süzülmeye başladığında yakında düşmanlar varsa ayrıca bir Prizmatik Rezonans Topu çağırır ve henüz aklını başına toplamamış düşmanlara 2 Prizma Atışı yaparak <color=#99FFFFFF>Buz Hasarı</color> verir.\n{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: İkinci Prizma Atışı, bunun yerine ilgili Yıldız Parıltısı Tepkimesi Hasarı sayılan <color=#99FFFFFF>Buz Hasarı</color> verir.\n\nSandrone, Çay Saati Taktik Taarruz Mekanizması üzerindeyken zarifçe ve sessizce Fagio'yu tamir ederek Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücünü{/LINK}</color> hızla düşürür.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_MarionetteNew_01"
       }
     ],
@@ -455,6 +489,7 @@
           "Bombardıman Hasarı|{param1:F1P} x3",
           "Konvektif Engelleme Işını Hasarı|{param2:F1P}",
           "Konvektif Engelleme Işını Yıldız İletimi Hasarı|{param3:F1P}",
+          "Konvektif Engelleme Işını Yıldız Girdabı Hasarı|{param6:F1P}",
           "BS|{param4:F1}sn",
           "Enerji Maliyeti|{param5:I}"
         ],
@@ -467,7 +502,8 @@
               3.308,
               2.205333,
               15,
-              60
+              60,
+              3.308
             ]
           },
           {
@@ -478,7 +514,8 @@
               3.5561,
               2.370733,
               15,
-              60
+              60,
+              3.5561
             ]
           },
           {
@@ -489,7 +526,8 @@
               3.8042,
               2.536133,
               15,
-              60
+              60,
+              3.8042
             ]
           },
           {
@@ -500,7 +538,8 @@
               4.135,
               2.756667,
               15,
-              60
+              60,
+              4.135
             ]
           },
           {
@@ -511,7 +550,8 @@
               4.3831,
               2.922067,
               15,
-              60
+              60,
+              4.3831
             ]
           },
           {
@@ -522,7 +562,8 @@
               4.6312,
               3.087467,
               15,
-              60
+              60,
+              4.6312
             ]
           },
           {
@@ -533,7 +574,8 @@
               4.962,
               3.308,
               15,
-              60
+              60,
+              4.962
             ]
           },
           {
@@ -544,7 +586,8 @@
               5.2928,
               3.528533,
               15,
-              60
+              60,
+              5.2928
             ]
           },
           {
@@ -555,7 +598,8 @@
               5.6236,
               3.749067,
               15,
-              60
+              60,
+              5.6236
             ]
           },
           {
@@ -566,7 +610,8 @@
               5.9544,
               3.9696,
               15,
-              60
+              60,
+              5.9544
             ]
           },
           {
@@ -577,7 +622,8 @@
               6.2852,
               4.190133,
               15,
-              60
+              60,
+              6.2852
             ]
           },
           {
@@ -588,7 +634,8 @@
               6.616,
               4.410667,
               15,
-              60
+              60,
+              6.616
             ]
           },
           {
@@ -599,7 +646,8 @@
               7.0295,
               4.686333,
               15,
-              60
+              60,
+              7.0295
             ]
           },
           {
@@ -610,7 +658,8 @@
               7.443,
               4.962,
               15,
-              60
+              60,
+              7.443
             ]
           },
           {
@@ -621,7 +670,8 @@
               7.8565,
               5.237667,
               15,
-              60
+              60,
+              7.8565
             ]
           }
         ],
@@ -629,7 +679,8 @@
       },
       "Id": 11335,
       "Name": "Olağanüstü Formül: İspatlandı",
-      "Description": "Sandrone, zarif bir hanımefendi edasıyla çok sayıda Prizmatik Rezonans Topu çağırarak ön saflardan yoğun bir bombardıman başlatır ve ardından düşmanlarına Konvektif Engelleme Işını ile ateş ederek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Konvektif Engelleme Işını, bunun yerine Yıldız İletimi Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir.",
+      "Description": "Sandrone, zarif bir hanımefendi edasıyla çok sayıda Prizmatik Rezonans Topu çağırarak ön saflardan yoğun bir bombardıman başlatır ve ardından düşmanlarına Konvektif Engelleme Işını ile ateş ederek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: Konvektif Engelleme Işını, bunun yerine ilgili Yıldız Parıltısı Tepkimesi Hasarı sayılan <color=#99FFFFFF>Buz Alan Hasarı</color> verir.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_MarionetteNew_01"
     },
     "Inherents": [
@@ -651,7 +702,8 @@
         },
         "Id": 1332101,
         "Name": "Sonsuz Tahmin Motoru",
-        "Description": "<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: {LINK#S11332}<color=#FFD780FF>Olağanüstü Formül: Farklılık Analizi</color>{/LINK} Element Becerisi kullanıldığında eğer Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> 50'den yüksekse Fagio'nun yakındaki düşmanlara ateşlediği ikinci Prizma Atışı, orijinal Hasarının %400'ü kadar Hasar verir ve Fagio'nun Deşifre Gücü azalır.\nAyrıca Fagio, kaybettiği her 10 <color=#FFD780FF>Deşifre Gücü</color> puanı için 60sn süren 1 <color=#FFD780FF>Zarif Taktikler</color> kademesi kazanır, 10 kademeye kadar birikebilir. Sandrone <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumundayken {LINK#S11335}<color=#FFD780FF>Olağanüstü Formül: İspatlandı</color>{/LINK} Element Patlamasını kullandığında tüm Zarif Taktikler kademeleri silinir ve Konvektif Engelleme Işını, orijinal Hasarın %100'üne ek olarak silinen her kademe başına fazladan %10 Hasar daha verir.",
+        "Description": "{LINK#N11500004}<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>{/LINK}: {LINK#S11332}<color=#FFD780FF>Olağanüstü Formül: Farklılık Analizi</color>{/LINK} Element Becerisi kullanıldığında eğer Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> 50'den yüksekse Fagio'nun yakındaki düşmanlara ateşlediği ikinci Prizma Atışı, orijinal Hasarının %400'ü kadar Hasar verir ve Fagio'nun Deşifre Gücü azalır.\nAyrıca Fagio, kaybettiği her 10 <color=#FFD780FF>Deşifre Gücü</color> puanı için 60sn süren 1 <color=#FFD780FF>Zarif Taktikler</color> kademesi kazanır, 10 kademeye kadar birikebilir. Sandrone <color=#FFD780FF>Işıltı: Yıldız Parıltısı</color> durumundayken {LINK#S11335}<color=#FFD780FF>Olağanüstü Formül: İspatlandı</color>{/LINK} Element Patlamasını kullandığında tüm Zarif Taktikler kademeleri silinir ve Konvektif Engelleme Işını, orijinal Hasarın %100'üne ek olarak silinen her kademe başına fazladan %10 Hasar daha verir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_05"
       },
       {
@@ -673,6 +725,7 @@
         "Id": 1332201,
         "Name": "Bir Hanımefendinin Görgü Kuralları",
         "Description": "Sandrone'nin Element Ustalığı, Saldırısına bağlı olarak artar. Her 100 Saldırı, Element Ustalığını 8 artırır. Sandrone'nin bu şekilde elde edebileceği maksimum Element Ustalığı artışı 160'tır.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_06"
       },
       {
@@ -692,8 +745,9 @@
           "Display": 0
         },
         "Id": 1332301,
-        "Name": "Rasyonalizm Işığı",
-        "Description": "Grup üyeleri Süper İletim tetiklediğinde bu tepkime Yıldız İletimi olarak değişir ve grup üyelerinin Temel Yıldız İletimi Hasarı, Sandrone'nin Saldırısına bağlı olarak artar: Sandrone'nin sahip olduğu her 100 Saldırı, Temel Yıldız İletimi Hasarını %0,7 artırır. Bu şekilde en fazla %14 artış elde edilebilir.\nAyrıca Sandrone, bir {LINK#N11330003}<color=#FFD780FF>Kutup Yıldızı Alanı</color>{/LINK} içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer.",
+        "Name": "Yıldız Takdisi: Rasyonalizm Işığı",
+        "Description": "Sandrone bir <color=#FFD780FF>{LINK#N11330003}Kutup Yıldızı Alanı{/LINK}</color> içindeyken <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna, yakındaki bir grup üyesi bir Yıldız Girdabı tepkimesi tetiklediğinde ise 8 saniyeliğine <color=#FFD780FF>Işıltı: Yıldız Girdabı</color> durumuna girer.\nBir grup üyesi bir Süper İletim veya Buz Girdabı tepkimesi tetiklediğinde bu tepkime, Yıldız İletimi veya Yıldız Girdabı tepkimesine dönüşür ve Sandrone'nin Saldırısının her 100 puanı için söz konusu tepkimenin Temel Hasarı %0,7 artar. Bu şekilde en fazla %14 artış elde edilebilir.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_07"
       },
       {
@@ -712,6 +766,7 @@
         "Id": 1332501,
         "Name": "Çay Saati Başlangıcı ve Uzun Bir Hikaye",
         "Description": "Sandrone gruptayken, Günlük Özel Görevlerini Katheryne'e teslim ettikten sonra ek atıştırmalık ödülleri kazanırsın.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_08"
       }
     ],
@@ -719,13 +774,13 @@
       {
         "Id": 1331,
         "Name": "Altın Gün Batımından Sonraki Sabah",
-        "Description": "<color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modundayken Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> %50 daha düşük oranda artar ve tüm grup üyeleri %30 daha fazla Yıldız İletimi Hasarı verir.",
+        "Description": "<color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modundayken Fagio'nun <color=#FFD780FF>{LINK#N11330002}Deşifre Gücü{/LINK}</color> %50 daha düşük oranda artar ve tüm grup üyeleri %30 daha fazla Yıldız Parıltısı Tepkimesi Hasarı verir.",
         "Icon": "UI_Talent_S_MarionetteNew_01"
       },
       {
         "Id": 1332,
         "Name": "Bir Varis Aynaya Baktı",
-        "Description": "<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Yüklü Saldırıdaki yoğunlaştırılmış ışınların verdiği Kritik Hasarı %40 artırır. Ayrıca her ışın ateşlendiğinde, bu <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modu süresince ateşlenen tüm yoğunlaştırılmış ışınların Kritik Hasarı %20 daha artar. 3 kademeye kadar birikebilir.",
+        "Description": "<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>: Yüklü Saldırıdaki yoğunlaştırılmış ışınların verdiği Kritik Hasarı %40 artırır. Ayrıca her ışın ateşlendiğinde, bu <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modu süresince ateşlenen tüm yoğunlaştırılmış ışınların Kritik Hasarı %20 daha artar. 3 kademeye kadar birikebilir.",
         "Icon": "UI_Talent_S_MarionetteNew_02"
       },
       {
@@ -741,7 +796,7 @@
       {
         "Id": 1334,
         "Name": "Dünyanın Gerçek Temeli Bilgide Yatar",
-        "Description": "Sandrone, bir düşmana Yıldız İletimi Hasarı verdiğinde bir Ortak Saldırı yapan ve Sandrone'nin Saldırısının %125'i kadar <color=#99FFFFFF>Buz Hasarı</color> veren fazladan bir Prizmatik Rezonans Topu çağırır. Bu Topun verdiği Hasar, Yıldız İletimi Hasarı sayılır ve bu etki her 4 saniyede bir gerçekleşebilir.",
+        "Description": "Sandrone bir düşmana Yıldız İletimi veya Yıldız Girdabı Hasarı verdiğinde bir ortak saldırı yapan ve sırayla Sandrone'nin Saldırısının %125'i veya %187,5'i kadar <color=#99FFFFFF>Buz Hasarı</color> veren fazladan bir Prizmatik Rezonans Topu çağırır. Bu Topun verdiği Hasar, ilgili Yıldız Parıltısı Tepkimesi Hasarı sayılır ve bu etki her 4 saniyede bir gerçekleşebilir.",
         "Icon": "UI_Talent_S_MarionetteNew_03"
       },
       {
@@ -757,7 +812,7 @@
       {
         "Id": 1336,
         "Name": "Nergis Uyanıyor, Gözleri Şafakta",
-        "Description": "Fagio, <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modundayken üçüncü defa yoğunlaştırılmış bir ışın ateşlediğinde, bu ışın daha güçlü ve sürekli ateşlenen bir <color=#FFD780FF>Yoğunlaştırılmış Küme Işınına</color> dönüşür. Bu ışın, sonrasında ateşlenen tüm orijinal ışınlara ek olarak en fazla 4 defa Sandrone'nin Saldırısının %100'ü kadar <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: <color=#FFD780FF>Yoğunlaştırılmış Küme Işını</color>, bunun yerine fazladan 4 defa Sandrone'nin Saldırısının %80'i kadar <color=#99FFFFFF>Buz Alan Hasarı</color> verir. Bu Hasar, Yıldız İletimi Hasarı sayılır.\nAyrıca Sandrone tarafından verilen tüm Yıldız İletimi Hasarları %20 {LINK#N11190007}<color=#FFD780FF>yükselir</color>{/LINK}.",
+        "Description": "Fagio, <color=#FFD780FF>{LINK#N11330001}Deşifre{/LINK}</color> modundayken üçüncü defa yoğunlaştırılmış bir ışın ateşlediğinde, bu ışın daha güçlü ve sürekli ateşlenen bir <color=#FFD780FF>Yoğunlaştırılmış Küme Işınına</color> dönüşür. Bu ışın, sonrasında ateşlenen tüm orijinal ışınlara ek olarak en fazla 4 defa Sandrone'nin Saldırısının %100'ü kadar <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n<color=#FFD780FF>Işıltı: Yıldız Parıltısı</color>: <color=#FFD780FF>Yoğunlaştırılmış Küme Işını</color> saldırısı fazladan 4 defa <color=#99FFFFFF>Buz Alan Hasarı</color> verir. İlgili Yıldız Parıltısı Tepkimesi Hasarı sayılan bu saldırıyla verilen Hasar aşağıdaki gibidir:\n<color=#FFD780FF>Işıltı: Yıldız İletimi</color>: Sandrone'nin Saldırısının %80'i.\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: Sandrone'nin Saldırısının %120'si.\nAyrıca Sandrone tarafından verilen tüm Yıldız Parıltısı Tepkimesi Hasarı %20 {LINK#N11190007}<color=#FFD780FF>yükselir</color>{/LINK}.",
         "Icon": "UI_Talent_S_MarionetteNew_04"
       }
     ]
@@ -1112,7 +1167,7 @@
       },
       {
         "Title": "Karakter Hikayesi 1",
-        "Context": "Doğduğu günü çok net hatırlıyor.\nİlk başta her yer karanlıktı. Gözlerini açtı ve etrafındaki her şeyi incelemeye başladı. Bir sandalyede oturduğunu ve tam karşısında oldukça yaşlı görünen bir adam olduğunu fark etti. Adam, adının Alain Guillotin olduğunu söyledi.\nDuyduğu adı tekrarladı kız, ardından kendi adının ne olduğunu sordu. Yaşlı adam, sanki daha önce hiç düşünmediği bir şeyle yüzleşmiş gibi bir süre cevap vermedi. Fakat sonunda, yüzünde onun henüz anlamlandıramadığı bir ifadeyle ve biraz da tereddütle konuştu. \"Kukla...\"\n\"Kukla.\" Adı tekrarladı.\nYaşlı adamın yüzü bir tür duyguyla daha da buruştu. \"Ne tuhaf...\" diye düşündü. \"Neden görüş alanımdaki neredeyse her şeyi tanımlayabiliyorum da onun ne hissettiğini tam olarak adlandıramıyorum? Bunu yanıtlanacak sorular listeme eklemeliyim.\"\nVe bu liste oldukça uzundu. Örneğin, neden buradaydı? Nasıl var olmuştu ve var oluşunun amacı neydi? Bir patates, parçaları mükemmel derecede eşit ve akşam yemeği için göze hoş görünecek şekilde nasıl doğranırdı? Ve pencere kenarındaki bitkinin en güzel çiçekleri açmasını sağlamak için ne yapılması gerekirdi?\nBazı şeylerin cevaplarının kolayca bulunabildiğini öğrenmişti. Çoğu durumda bunun için tek gereken, biraz zaman ayırması ve basit bir öğrenme sürecinden geçmesiydi. Fakat diğer sorular çok daha derindi, onu yaratan yaşlı adamın bile cevaplamaktan aciz olduğu kadar derin.\nZamanının çoğunu ihtiyar Alain Guillotin ile geçirirdi. Bir noktada ondan pek de hoşlanmadığını fark etti. Çok yavaş hareket ediyordu ve son derece dağınıktı. Sık sık kağıtlarını ve aletlerini koyduğu yeri unutur, kimi zaman ona pratik hiçbir işlevi olmayan bir defter bile uzatırdı.\n\"Hayatın tam bir keşmekeş.\" dedi ona doğrudan. \"Eşyaların hiçbir zaman ait oldukları yerde durmuyor, kağıtların da her yere saçılmış durumda. Tek bir denklemi iki farklı kağıda yazıyorsun, sonra da bu kağıtlar nasıl oluyorsa odanın zıt köşelerinde bitiveriyor.\"\nOnun sakınmadan dile getirdiği bu şikayetler karşısında yaşlı adamın yüzünde sanki az önce övgü almış gibi tuhaf bir gülümseme belirdi. \"Haha... Mary-Ann de benim için bunları söylerdi.\"\nİhtiyarı anlamak tek kelimeyle imkansızdı.\nAncak zamanla, yaşlı adamda daha çok hoşuna giden yanları da keşfetmeye başladı.\nİşine gömüldüğündeki o tamamen odaklanmış halinden ve kaleminin kağıt üzerinde çıkardığı sesten hoşlanmaya başlamıştı. Çeşitli mühendislik ilkelerini açıklama tarzına ve çalışma masasında karmaşık matematik problemlerini tartışmasına değer veriyordu. Ateşin başında otururken geçmiş, eski Fontaine ve Nergis Haçı hakkında anlattığı hikayelerde teselli buluyordu... Ve o anlarda yüzündeki nazik gülümsemeyi sessizce takdir ediyordu.\nBu yaşlı adamın oldukça özensiz ve dağınık biri olmasına rağmen, aynı zamanda nazik, erdemli ve bilgelik dolu olduğunu fark etti.\nZaman geçtikçe, yaşlı adamın hoşuna giden yanları, hoşlanmadığı kısımları büyük ölçüde geride bıraktı. Bu durum onu, önceki eylemlerini gözden geçirmeye yöneltti.\nAlain onu not defterine yazı yazarken bulduğunda afallamıştı.\nAdamın ona ne yaptığını sormayı gerçekten ama gerçekten istediğini anlayabiliyordu, ancak fikrini değiştirmesine neden olma korkusuyla bu merakını bastırmaya zorlamıştı kendini.\nÖnayak olmaya karar verdi. \"Sanırım senden hoşlanmıyorum.\" dedi.\nBu giriş cümlesinin adamı oldukça incittiğini fark edebiliyordu.\n\"Ancak yanıldığımı da fark ettim. Bu, temel duygusal mantığımın ve nesnelliğimin henüz tam olarak yerine oturmadığı bir dönemde verilmiş bir yargıydı.\" Şöyle devam etti: \"Fakat şimdi, senin çok iyi bir 'baba' olduğunu düşünüyorum.\"\nAlain bir an için şaşırdı. Ardından yüzünde bir gülümseme belirdi. Bu, gerçek bir mutlulukla başka bir duygunun birbirine karıştığı bir gülümsemeydi.\n\"... Ağlayacak mı?\" İnsan duygularını okumayı hâlâ yavaşça öğreniyordu, gerçi bunların ardındaki sebebi hâlâ anlayamıyordu.\nAma bu soru bekleyebilirdi. Not defterini eline aldı ve tekrar yazmaya başladı."
+        "Context": "Doğduğu günü çok net hatırlıyor.\nİlk başta her yer karanlıktı. Gözlerini açtı ve etrafındaki her şeyi incelemeye başladı. Bir sandalyede oturduğunu ve tam karşısında oldukça yaşlı görünen bir adam olduğunu fark etti. Adam, adının Alain Guillotin olduğunu söyledi.\nDuyduğu adı tekrarladı kız, ardından kendi adının ne olduğunu sordu. Yaşlı adam, sanki daha önce hiç düşünmediği bir şeyle yüzleşmiş gibi bir süre cevap vermedi. Fakat sonunda, yüzünde onun henüz anlamlandıramadığı bir ifadeyle ve biraz da tereddütle konuştu. \"Kukla...\"\n\"Kukla.\" Adı tekrarladı.\nYaşlı adamın yüzü bir tür duyguyla daha da buruştu. \"Ne tuhaf...\" diye düşündü. \"Neden görüş alanımdaki neredeyse her şeyi tanımlayabiliyorum da onun ne hissettiğini tam olarak adlandıramıyorum? Bunu yanıtlanacak sorular listeme eklemeliyim.\"\nVe bu liste oldukça uzundu. Örneğin, neden buradaydı? Nasıl var olmuştu ve var oluşunun amacı neydi? Bir patates, parçaları mükemmel derecede eşit ve akşam yemeği için göze hoş görünecek şekilde nasıl doğranırdı? Ve pencere kenarındaki bitkinin en güzel çiçekleri açmasını sağlamak için ne yapılması gerekirdi?\nBazı şeylerin cevaplarının kolayca bulunabildiğini öğrenmişti. Çoğu durumda bunun için tek gereken, biraz zaman ayırması ve basit bir öğrenme sürecinden geçmesiydi. Fakat diğer sorular çok daha derindi, onu yaratan yaşlı adamın bile cevaplamaktan aciz olduğu kadar derin.\nZamanının çoğunu ihtiyar Alain Guillotin ile geçirirdi. Bir noktada ondan pek de hoşlanmadığını fark etti. Çok yavaş hareket ediyordu ve son derece dağınıktı. Sık sık kağıtlarını ve aletlerini koyduğu yeri unutur, kimi zaman ona pratik hiçbir işlevi olmayan bir defter bile uzatırdı.\n\"Hayatın tam bir keşmekeş.\" dedi ona doğrudan. \"Eşyaların hiçbir zaman ait oldukları yerde durmuyor, kağıtların da her yere saçılmış durumda. Tek bir denklemi iki farklı kağıda yazıyorsun, sonra da bu kağıtlar nasıl oluyorsa odanın zıt köşelerinde bitiveriyor.\"\nOnun sakınmadan dile getirdiği bu şikayetler karşısında yaşlı adamın yüzünde sanki az önce övgü almış gibi tuhaf bir gülümseme belirdi. \"Haha... Mary-Ann de benim için bunları söylerdi.\"\nİhtiyarı anlamak tek kelimeyle imkansızdı.\nAncak zamanla, yaşlı adamda daha çok hoşuna giden yanları da keşfetmeye başladı.\nİşine gömüldüğündeki o tamamen odaklanmış halinden ve kaleminin kağıt üzerinde çıkardığı sesten hoşlanmaya başlamıştı. Çeşitli mühendislik ilkelerini ona açıklama tarzına ve çalışma masasında onunla karmaşık matematik problemlerini tartışmasına değer veriyordu. Ateşin başında otururken geçmiş, eski Fontaine ve Nergis Haçı hakkında anlattığı hikayelerde teselli buluyordu... Ve o anlarda yüzündeki nazik gülümsemeyi sessizce takdir ediyordu.\nBu yaşlı adamın oldukça özensiz ve dağınık biri olmasına rağmen, aynı zamanda nazik, erdemli ve bilgelik dolu olduğunu fark etti.\nZaman geçtikçe, yaşlı adamın hoşuna giden yanları, hoşlanmadığı kısımları büyük ölçüde geride bıraktı. Bu durum onu, önceki eylemlerini gözden geçirmeye yöneltti.\nAlain onu not defterine yazı yazarken bulduğunda afallamıştı.\nAdamın ona ne yaptığını sormayı gerçekten ama gerçekten istediğini anlayabiliyordu, ancak fikrini değiştirmesine neden olma korkusuyla bu merakını bastırmaya zorlamıştı kendini.\nÖnayak olmaya karar verdi. \"Sanırım senden hoşlanmıyorum.\" dedi.\nBu giriş cümlesinin adamı oldukça incittiğini fark edebiliyordu.\n\"Ancak yanıldığımı da fark ettim. Bu, temel duygusal mantığımın ve nesnelliğimin henüz tam olarak yerine oturmadığı bir dönemde verilmiş bir yargıydı.\" Şöyle devam etti: \"Fakat şimdi, senin çok iyi bir 'baba' olduğunu düşünüyorum.\"\nAlain bir an için şaşırdı. Ardından yüzünde bir gülümseme belirdi. Bu, gerçek bir mutlulukla başka bir duygunun birbirine karıştığı bir gülümsemeydi.\nAcaba... Ağlayacak mıydı? İnsan duygularını okumayı hâlâ yavaşça öğreniyordu, gerçi bunların ardındaki sebebi hâlâ anlayamıyordu.\nAma bu soru bekleyebilirdi. Not defterini eline aldı ve tekrar yazmaya başladı."
       },
       {
         "Title": "Karakter Hikayesi 2",
@@ -1120,7 +1175,7 @@
       },
       {
         "Title": "Karakter Hikayesi 3",
-        "Context": "Snezhnaya'da bu kadar uzun süre kalmayı hiç beklememişti. Ayrıca bir yerin bu kadar soğuk olabileceğini de tahmin etmemişti, öyle soğuktu ki düşünebilmek için kelimenin tam anlamıyla zihnindeki düşünceleri ısıtması gerekiyordu.\nOnun bakış açısına göre, bir Fatui üyesinin hayatı rahat, hatta kolaydı. Alışverişe gitmek veya bir başkasının her ihtiyacıyla ilgilenmek zorunda değildi. Bunun yerine, bir Haberci olarak hakkı olan tüm kolaylıkların tadını çıkarıyordu. Çariçe'nin ona verdiği görevler ise onun gibi bir dahi için tamamen çocuk oyuncağıydı.\nSonra bir gün, günlüğüne tarihi not ederken, Snezhnaya'da geçirdiği zamanın şimdiden Fontaine'de Alain ile geçirdiği tüm zamandan daha uzun olduğunu fark etti ve şaşırdı.\n\"Burası ikinci evim oldu sanki.\" diye düşündü.\nVe bu da başka bir soruyu beraberinde getirdi: Onun gerçek evi hangisiydi, Fontaine mi yoksa Snezhnaya mı? Ve \"ev\" tam olarak neydi?\nBirine ihtiyaç duyulan yer miydi? Fatui'deki işinin yeri doldurulamazdı muhakkak. Daha doğrusu, onun yerini doldurmak zor olurdu ve Majesteleri'nin ona açıkça ihtiyacı vardı.\nYoksa ev, kişinin kendini en rahat hissettiği yer miydi? Şüphesiz Snezhnaya'daki hayatı bugüne dek oldukça rahat geçmişti ve ihtiyaç duyabileceği tüm araştırma ekipmanlarına erişimi vardı. Olur da canı sıkılırsa her zaman opera gösterileri vardı.\nYoksa \"ev\", \"aile\"nin olduğu yer miydi? Ama aile... Artık Pulonia'dan başka kimsesi yoktu. Öyleyse ev, Pulonia'nın olduğu yer miydi? Bu durumda, o ve Pulonia başka bir yere, örneğin Mondstadt'a seyahat edecek olsalar, o \"başka yer\" onlar için \"ev\" mi olacaktı?\nSonra fark etti ki temel sorun, ne istediği veya ne yapmayı dilediği hakkında hiçbir fikrinin olmamasıydı... Tek yaptığı, o eski \"ihtiyaç duyulma\" alışkanlığına geri dönmekti.\nİçini sızlatan bir farkındalık oldu bu. Ne kadar da acınasıydı. Öte yandan bu gidişatı nasıl değiştirebileceği ya da değiştirip değiştiremeyeceği konusunda hiçbir fikri yoktu. Buna siniri bozuldu.\nBiri kafasına tüfek dayayıp Snezhnaya hakkında sevmediği bir şeyi söylemesini isteseydi, muhtemelen birlikte çalışmayı tercih etmediği birkaç kişinin adını sayardı.\nİlk başta duygularını son derece temkinli bir şekilde mercek altına aldı. Tıpkı en başında Alain'den nefret etmiş olduğu gibi, eninde sonunda meslektaşlarında da aslında hoşuna giden özellikler keşfedebileceğinden endişe ediyordu.\nFakat bu işe yaramadı. Sonraki olayların da ona öğrettiği üzere, aradan ne kadar zaman geçerse geçsin ya da onlara dair ne kadar nesnel gözlem yaparsa yapsın, bazı kişiler onun için daima itici kalacaktı. Alain'in aksine, onlarda hoşlanmadığı kısımlar, hoşlandığı kısımlara kıyasla her zaman çok daha fazla olmaya devam edecekti. Daha doğrusu, onlara dair hiçbir şeyden hoşlanmıyordu.\nBunu nasıl değiştireceğini yine bilmiyordu. Başkalarını değiştirmeye hiç niyeti yoktu, kendini değiştirmeye de öyle. Buna da siniri bozuldu.\nBelki de bunun nedeni hâlâ kendini öğrenme sürecinde olmasıydı. Belki de nasıl yaşayacağını daha yeni öğreniyordu. Ya da henüz yeterince referans ve veri noktası toplayamamış olmasıydı. Alain sık sık bilginin dünyanın temeli olduğunu söylerdi, bu Sandrone'nin de kendine sürekli tekrarladığı bir şeydi.\nAncak bu soruları cevaplamak için bir acelesi yoktu. Hayatının taşlarını dizmeye devam ettikçe, nihayetinde bu cevapları da kavrayabilmeyi bekliyordu.\nFakat şimdilik... Çariçe'nin, bütün gün bahçede şarkı söyleyen yeni bir Haberci atadığını duymuştu... Hımm. Bu, göz atmaya değer bir değişiklikti..."
+        "Context": "Snezhnaya'da bu kadar uzun süre kalmayı hiç beklememişti. Ayrıca bir yerin bu kadar soğuk olabileceğini de tahmin etmemişti, öyle soğuktu ki düşünebilmek için kelimenin tam anlamıyla zihnindeki düşünceleri ısıtması gerekiyordu.\nOnun bakış açısına göre, bir Fatui üyesinin hayatı rahat, hatta kolaydı. Dışarı çıkıp dükkanlara gitmek veya bir başkasının her ihtiyacıyla ilgilenmek zorunda değildi. Bunun yerine, bir Haberci olarak hakkı olan tüm kolaylıkların tadını çıkarıyordu. Peki ya Çariçe'nin ona verdiği görevler? Onun gibi bir dahi için çocuk oyuncağıydı.\nSonra bir gün, günlüğüne tarihi not ederken, Snezhnaya'da büyük bir kolaylıkla Fontaine'de Alain ile geçirdiği süreden daha fazla zaman geçirmiş olduğunu şaşırarak fark etti.\n\"Burası ikinci evim oldu sanki.\" diye düşündü.\nVe bu da başka bir soruyu beraberinde getirdi: Onun gerçek evi hangisiydi, Fontaine mi yoksa Snezhnaya mı? Ve \"ev\" tam olarak neydi?\nBirine ihtiyaç duyulan yer miydi? Fatui'deki işinin yeri doldurulamazdı muhakkak. Daha doğrusu, onun yerini doldurmak zor olurdu ve Majesteleri'nin ona açıkça ihtiyacı vardı.\nYoksa kişinin kendini en rahat hissettiği yer miydi? Şüphesiz, Snezhnaya'daki hayatı bugüne dek oldukça rahattı ve orada, ihtiyaç duyabileceği tüm araştırma ekipmanlarına erişimi vardı. Olur da canı sıkılırsa, her zaman opera gösterileri vardı.\nYoksa \"ev\", \"aile\"nin olduğu yer miydi? Ama aile... Artık Pulonia'dan başka kimsesi yoktu. Öyleyse ev, Pulonia'nın olduğu yer miydi? Bu durumda, o ve Pulonia başka bir yere, örneğin Mondstadt'a seyahat edecek olsalar, o \"başka yer\" onlar için \"ev\" mi olacaktı?\nSonra fark etti ki temel sorun, ne istediği veya ne yapmayı dilediği hakkında hiçbir fikrinin olmamasıydı... Tek yaptığı, o eski \"ihtiyaç duyulma\" alışkanlığına geri dönmekti.\nİçini sızlatan bir farkındalık oldu bu. Ne kadar da acınasıydı. Öte yandan bu gidişatı nasıl değiştirebileceği ya da değiştirip değiştiremeyeceği konusunda hiçbir fikri yoktu. Buna siniri bozuldu.\nBiri kafasına tüfek dayayıp Snezhnaya hakkında sevmediği bir şeyi söylemesini isteseydi, muhtemelen birlikte çalışmayı tercih etmediği o gereğinden çok sayıda kişilerin adını sayardı.\nİlk başta duygularını son derece temkinli bir şekilde mercek altına aldı. Tıpkı en başında Alain'den nefret etmiş olduğu gibi, eninde sonunda meslektaşlarında da aslında hoşuna giden özellikler keşfedebileceğinden endişe ediyordu.\nFakat bu işe yaramadı. Sonraki olayların da ona öğrettiği üzere, aradan ne kadar zaman geçerse geçsin ya da onlara dair ne kadar nesnel gözlem yaparsa yapsın, bazı kişiler onun için daima itici kalacaktı. Alain'in aksine, onlarda hoşlanmadığı kısımlar, hoşlandığı kısımlara kıyasla her zaman çok daha fazla olmaya devam edecekti. Daha doğrusu, onlara dair hiçbir şeyden hoşlanmıyordu.\nBunu nasıl değiştireceğini yine bilmiyordu. Başkalarını değiştirmeye hiç niyeti yoktu, kendini değiştirmeye de öyle. Buna da siniri bozuldu.\nBelki de bunun nedeni, hâlâ kendini öğrenme sürecinde olmasıydı. Belki de hâlâ nasıl yaşayacağını öğreniyor olmasıydı. Ya da belki de henüz yeterince referans ve veri noktası toplamamış olmasıydı. Alain sık sık bilginin dünyanın temeli olduğunu söylerdi, Sandrone de bunu kendine sürekli tekrarlardı.\nAncak bu soruları cevaplamak için bir acelesi yoktu. Hayatının taşlarını dizmeye devam ettikçe, nihayetinde bu cevapları da kavrayacağını umuyordu.\nFakat şimdilik... Çariçe'nin, bütün gün bahçede şarkı söyleyen yeni bir Haberci atadığını duymuştu... Hımm. Bu, göz atmaya değer bir değişiklikti..."
       },
       {
         "Title": "Karakter Hikayesi 4",
@@ -1128,7 +1183,7 @@
       },
       {
         "Title": "Karakter Hikayesi 5",
-        "Context": "Sandrone, ikinci doğuşunu Alain'den aldığı \"miras\" sayesinde karşılayabildi.\nHer zaman zeki olduğuna ya da en azından çoğundan daha zeki olduğuna inanırdı. Ancak bu noktada, aslında sandığından çok daha ahmak olduğunu fark etti.\nBu noktaya uzun zaman önce varmış olması gerektiğini düşündü. \"Kayıp\" ve \"dayanmak\" gibi kelimelerin gerçekten ne anlama geldiğini anlamak için kalbini dinlemeliydi. Arkadaşlarına minnettarlığını daha fazla ifade etmeli ve daha çok arkadaş edinmeliydi. Fontaine'e, Alain'in mezarının başına çok uzun zaman önce dönmeliydi... Alain'in mezarını temizlerken Fontaine'den ayrıldığından beri başına gelen her şeyi anlatırdı hem.\nFakat başlamak için asla çok geç değildi, Columbina böyle dedi ona. Columbina da bunu başka birinden öğrenmişti.\nAlaycı, küçük bir homurtu çıkardı. Bir gün Columbina'dan hayat dersi alacağı aklının ucundan dahi geçmezdi. Yine de bunu kabullendi. İnkar edilecek bir şey yoktu ortada, Columbina haklıydı.\nSandrone'nin diriliş haberi Snezhnograd'a ulaştığında bunu hemen sempati ve endişe dolu sözler ve görevinden ayrılması için sunulan cömert bir \"ölüm sonrası izni\" teklifi izledi. Ancak Sandrone bunun yerine Fatui'de kalma arzusunu dile getirdiğinde, Çariçe doğal olarak daha fazla yorum yapmadan bu arzusunu kabul etti.\nBu haberin belirli çevrelerde hoşnutsuzluk yaratacağını biliyordu; çünkü bu, ölümü üzerine bölüşülen güç ve çıkarların aniden o kişilerin ellerinden kayıp gitmesi anlamına geliyordu.\nAma başkalarının ne düşündüğü umurunda bile değildi. Ona ikinci bir hayat bahşedilmişti ve bu hayatı tamamen kendi istediği gibi yaşayacaktı. Artık hayatını bütünüyle kendi kurallarına göre yönlendirecekti ve sinirlendiğinde dilini tutmak gibi bir niyeti kesinlikle yoktu! Hah. O malum kişi, bundan böyle Maceracılar Loncasının, Katheryne'in ve geri kalanların kontrolünü ele geçirebileceğini mi sanıyordu gerçekten? İhtimal dahilinde bile değildi.\nFakat elbette bu, hayatın prangalarından tamamen kurtulduğu anlamına gelmiyordu. Yeni bir Fatui toplantısının haberini her aldığında, her zamanki gibi gözlerini devirip homurdanırdı.\n\"Öff. Toplantı, toplantı, toplantı! Her gün, bütün gün! Çok sinir bozucu!\""
+        "Context": "Sandrone, ikinci doğuşunu Alain'den aldığı \"miras\" sayesinde karşılayabildi.\nHer zaman zeki olduğuna ya da en azından çoğundan daha zeki olduğuna inanırdı. Ancak bu noktada, aslında sandığından çok daha ahmak olduğunu fark etti.\nBu noktaya uzun zaman önce varmış olması gerektiğini düşündü. \"Kayıp\" ve \"dayanmak\" gibi kelimelerin gerçekten ne anlama geldiğini anlamak için kalbini dinlemeliydi. Arkadaşlarına minnettarlığını daha fazla ifade etmeli ve daha çok arkadaş edinmeliydi. Fontaine'e, Alain'in mezarının başına çok uzun zaman önce dönmeliydi... Alain'in mezarını temizlerken Fontaine'den ayrıldığından beri başına gelen her şeyi anlatırdı hem.\nFakat başlamak için asla çok geç değildi, Columbina böyle dedi ona. Columbina da bunu başka birinden öğrenmişti.\nAlaycı, küçük bir homurtu çıkardı. Bir gün Columbina'dan hayat dersi alacağı aklının ucundan dahi geçmezdi. Yine de bunu kabullendi. İnkar edilecek bir şey yoktu ortada, Columbina haklıydı.\nSandrone'nin diriliş haberi Snezhnograd'a ulaştığında bunu hemen sempati ve endişe dolu sözler ve görevinden ayrılması için sunulan cömert bir \"ölüm sonrası izni\" teklifi izledi. Ancak Sandrone bunun yerine Fatui'de kalma arzusunu dile getirdiğinde, Çariçe doğal olarak daha fazla yorum yapmadan bu arzusunu kabul etti.\nBu haberin belirli çevrelerde hoşnutsuzluk yaratacağını biliyordu; çünkü bu, ölümü üzerine bölüşülen güç ve çıkarların aniden o kişilerin ellerinden kayıp gitmesi anlamına geliyordu.\nAma başkalarının ne düşündüğü umurunda bile değildi. Ona ikinci bir hayat bahşedilmişti ve bu hayatı tamamen kendi istediği gibi yaşayacaktı. Artık hayatını bütünüyle kendi kurallarına göre yönlendirecekti ve sinirlendiğinde dilini tutmak gibi bir niyeti kesinlikle yoktu! Hah. O malum kişi, bundan böyle Maceracılar Loncasının, Katheryne'lerin ve geri kalanların kontrolünü ele geçirebileceğini mi sanıyordu gerçekten? İhtimal dahilinde bile değildi.\nFakat elbette bu, hayatın prangalarından tamamen kurtulduğu anlamına gelmiyordu. Yeni bir Fatui toplantısının haberini her aldığında, her zamanki gibi gözlerini devirip homurdanırdı.\n\"Öff. Toplantı, toplantı, toplantı! Her gün, bütün gün! Çok sinir bozucu!\""
       },
       {
         "Title": "Pulonia",

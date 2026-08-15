@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Toque de Pétalas da Lâmina Dourada",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Céu e Terra Manifestados",
         "Description": "Invoca uma sombra de seus antigos poderes, trocando para o modo {LINK#N11260001}<color=#FFD780FF>Conversão de Fase Lunar</color>{/LINK}.\nNesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará <color=#FFE699FF>Dano Geo</color> que não pode ser substituído, e acumula a especial <color=#FFD780FF>Radiância da Conversão</color> de formas diferentes. Zibai pode consumir Radiância da Conversão para lançar a Habilidade Elemental especial <color=#FFD780FF>Passos do Alazão Espiritual</color>.\n\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>\nQuando Zibai está no modo <color=#FFD780FF>Conversão de Fase Lunar</color> e realiza um Ataque Normal, o ataque do 4º golpe causará uma instância adicional de <color=#FFE699FF>Dano Geo</color>. Esse Dano é considerado Dano de Cristalização Lunar.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Eminência das Três Esferas",
       "Description": "Zibai opera o Dossel da Luz de Jade, causando duas instâncias de <color=#FFE699FF>Dano Geo</color>, com o Dano do segundo golpe sendo considerado de Cristalização Lunar.\nAo ser usado, se Zibai estiver em {LINK#N11260001}<color=#FFD780FF>Conversão de Fase Lunar</color>{/LINK}, a duração da Conversão de Fase Lunar atual será estendida em 1.7s adicionais.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "A Adeptus Lunar Desce",
         "Description": "Ao lançar a Habilidade Elemental <color=#FFD780FF>{LINK#S11262}Céu e Terra Manifestados{/LINK}</color>, ou quando aliados próximos da equipe desencadearem Sonata da Jaula Lunar, Zibai obtém o efeito <color=#FFD780FF>Descida Lunar</color> por 4s: aumenta o Dano do 2º ataque causado por {LINK#N11260001}<color=#FFD780FF>Passos do Alazão Espiritual</color>{/LINK} em 60% da DEF de Zibai.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Picos Cobertos Penetram as Nuvens",
         "Description": "Outros membros <color=#FFE699FF>Geo</color> da equipe aumentam a DEF de Zibai em 15% cada. Outros membros <color=#80C0FFFF>Hydro</color> da equipe aumentam sua Proficiência Elemental em 60 cada.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Bênção do Presságio Lunar: O Sol e a Lua Errantes",
         "Description": "Quando um membro da equipe desencadeia Cristalização Hydro, converte para Cristalização Lunar, e aumenta o Dano Básico de Cristalização Lunar com base na DEF de Zibai: aumenta o Dano Básico de Cristalização Lunar em 0.7% a cada 100 de DEF. É possível aumentar em até 14% dessa forma.\n\nAlém disso, quando Zibai está na equipe, aumenta o nível de <color=#FFD780FF>Presságio Lunar</color> em 1.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Floresta das Flores do Luar",
         "Description": "Durante a noite (18:00 - 06:00), quando não estiver em combate, regenera 1 de Energia Elemental para Zibai a cada 2 segundos.\nEsse efeito não funciona em Domínios, Domínios Dizimados ou Abismo do Espiral.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

@@ -368,6 +368,7 @@
         "Id": 11281,
         "Name": "Favonius Bladework: Dancing Radiance",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMeniru tarian perang knight zaman dulu, Varka mengerahkan dua pedang claymore-nya untuk melancarkan hingga 5 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina, menerjang ke arah depan dan melancarkan satu kali tebasan dua pedang yang sangat kuat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -785,6 +786,7 @@
         "Id": 11282,
         "Name": "Windbound Execution",
         "Description": "Menampilkan esensi dari Favonius Bladework dengan kekuatan mutlaknya. Talenta ini akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nMelompat ke arah depan dan melakukan tebasan dalam satu gerakan mulus, mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color> dan berganti ke mode {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}.\nSaat dalam mode <color=#FFD780FF>Sturm und Drang</color>, DMG Normal Attack dan Charged Attack Varka akan meningkat, tetapi tidak bisa melancarkan Plunging Attack. Saat melancarkan Normal Attack dan Charged Attack, pedang claymore di kedua tangan Varka akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai berdasarkan jenis elemen Karakter dalam party. Elemental DMG ini tidak bisa ditimpa Elemental Infusion lainnya.\nSelain itu, saat berada dalam mode <color=#FFD780FF>Sturm und Drang</color>, jika ada Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> di dalam party, maka Elemental Skill Varka <color=#FFD780FF>Windbound Execution</color> akan dikonversi menjadi Elemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} yang mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <color=#80FFD7FF>Anemo DMG</color>. Selain itu, Varka juga dapat mengonsumsi jumlah penggunaan Elemental Skill Khusus <color=#FFD780FF>Four Winds' Ascension</color> untuk melancarkan Charged Attack khusus yang tidak mengonsumsi Stamina, yaitu <color=#FFD780FF>Azure Devour</color>. Charged Attack khusus ini akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Mode Tahan</color>\nMelompat ke depan setelah mengisi energi. Jarak lompatannya akan bertambah seiring dengan waktu pengisian energi.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Varka_01"
       }
     ],
@@ -807,6 +809,7 @@
         "Id": 1285101,
         "Name": "Witch's Eve Rite: Dawn's Return",
         "Description": "Setelah menyelesaikan <color=#FFD780FF>PR Penyihir: Tentang Tugas Tanpa Judul</color>, Varka akan berubah menjadi Karakter <color=#FFD780FF>Hexerei</color>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <color=#FFD780FF>Hexerei: Secret Rite</color> yang memperkuat Karakter Hexerei.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nElemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} diperkuat: Saat Varka berada dalam mode {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK} dan Normal Attack-nya mengenai musuh, maka CD <color=#FFD780FF>Four Winds' Ascension</color> berkurang 1 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_08"
       }
     ],
@@ -976,6 +979,7 @@
       "Id": 11285,
       "Name": "Northwind Avatar",
       "Description": "Dengan mengatasnamakan Knight of Boreas terkuat, Varka melancarkan dua kali tebasan beruntun yang kuat ke arah depan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nJika ada Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> di dalam party, maka tebasan pertama akan dikonversi menjadi Elemental DMG dengan jenis elemen yang sesuai berdasarkan urutan prioritas elemen yang disebutkan di atas.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Varka_01"
     },
     "Inherents": [
@@ -1000,6 +1004,7 @@
         "Id": 1282101,
         "Name": "Dawn Wind's March",
         "Description": "Saat ada Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> dalam party, untuk setiap 1.000 poin ATK yang dimiliki Varka, ia akan mendapatkan <color=#80FFD7FF>10%</color> Anemo DMG Bonus dan Elemental DMG Bonus untuk jenis elemen yang sesuai berdasarkan urutan prioritas elemen yang disebutkan di atas (maksimum 1 jenis elemen dari elemen yang disebutkan di atas yang bisa diperoleh dengan cara ini), hingga maksimum 25%.\n\nSelain itu, saat ada setidaknya 2 Karakter <color=#80FFD7FF>Anemo</color> dalam party, atau ada setidaknya 2 Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> dengan jenis elemen yang sama, maka Normal Attack, Charged Attack, Charged Attack Khusus <color=#FFD780FF>Azure Devour</color>, dan Elemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} Varka yang dilancarkan dalam mode {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK} akan mengakibatkan 140% dari DMG awalnya. Jika party memiliki setidaknya 2 Karakter <color=#80FFD7FF>Anemo</color> dan setidaknya 2 Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> dengan jenis elemen yang sama, maka efek di atas meningkat menjadi 220%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_06"
       },
       {
@@ -1022,7 +1027,8 @@
         },
         "Id": 1282201,
         "Name": "Wind's Vanguard",
-        "Description": "Saat Karakter party di sekitar memicu reaksi Swirl, Varka mendapatkan 1 lapis <color=#FFD780FF>Azure Fang's Oath</color> yang akan meningkatkan DMG Normal Attack, Charged Attack, Charged Attack Khusus <color=#FFD780FF>Azure Devour</color>, dan Elemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} milik Varka sebesar 7,5% selama 8 detik. Efek ini dapat ditumpuk sampai 4 lapis. Setiap Karakter dapat memberikan 1 lapis <color=#FFD780FF>Azure Fang's Oath</color> untuk Varka sekali setiap detik dengan cara ini.",
+        "Description": "Saat Karakter party di sekitar memicu reaksi Swirl atau Stellar Swirl, Varka mendapatkan 1 lapis <color=#FFD780FF>Azure Fang's Oath</color> yang akan meningkatkan DMG Normal Attack, Charged Attack, Charged Attack Khusus <color=#FFD780FF>Azure Devour</color>, dan Elemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} milik Varka sebesar 7,5% selama 8 detik. Efek ini dapat ditumpuk sampai 4 lapis. Setiap Karakter dapat memberikan 1 lapis <color=#FFD780FF>Azure Fang's Oath</color> untuk Varka sekali setiap detik dengan cara ini.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_05"
       },
       {
@@ -1043,6 +1049,7 @@
         "Id": 1282301,
         "Name": "Homebound Wind's Paean",
         "Description": "Untuk setiap 1 Karakter Mondstadt dalam party, CD untuk Elemental Skill Mode Tahan <color=#FFD780FF>Windbound Execution</color> berkurang 5%.\nEfek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Varka_07"
       }
     ],
@@ -1072,7 +1079,7 @@
       {
         "Id": 1284,
         "Name": "\"For None May Take From Us Our Freedom of Song\"",
-        "Description": "Saat Varka memicu reaksi Swirl, seluruh Karakter party di sekitar akan mendapatkan 20% <color=#80FFD7FF>Anemo DMG Bonus</color> dan juga Elemental DMG Bonus untuk jenis elemen yang terlibat dalam reaksi tersebut, berlangsung selama 10 detik.",
+        "Description": "Saat Varka memicu reaksi Swirl atau Stellar Swirl, seluruh Karakter party di sekitar akan mendapatkan 20% <color=#80FFD7FF>Anemo DMG Bonus</color> dan juga Elemental DMG Bonus untuk jenis elemen yang terlibat dalam reaksi tersebut, berlangsung selama 10 detik.",
         "Icon": "UI_Talent_S_Varka_03"
       },
       {

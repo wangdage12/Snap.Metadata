@@ -42,6 +42,7 @@
         "Id": 30506,
         "Name": "Salto Especial",
         "Description": "Se o personagem estiver em Natlan, depois de manter pressionado poderá consumir Flogisto para fazer um Salto Foguete Nível 2. Quando o Flogisto acabar, consumirá sua Stamina para fazer esse Salto Foguete Nível 2.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_E_Olorun_03"
       },
       {
@@ -273,6 +274,7 @@
         "Id": 30501,
         "Name": "Flecha Veloz Espiritual",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso e com mais dano.\nEnquanto mira, elemento Electro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar <color=#FFACFFFF>Dano Electro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -409,6 +411,7 @@
         "Id": 30502,
         "Name": "Rastreamento da Escuridão",
         "Description": "Ororon joga contra os inimigos o antigo item secreto dos Mestres do Vento Noturno, o escuro <color=#FFD780FF>Orbe Espiritual Noturno</color>, causando <color=#FFACFFFF>Dano Electro</color> com alinhamento Espírito da Noite.\nQuando há outros inimigos por perto, o Orbe Espiritual Noturno ricocheteia entre os inimigos, causando <color=#FFACFFFF>Dano Electro</color> com alinhamento Espírito da Noite. Cada inimigo só pode escolhido uma vez por lançamento de Rastreamento da Escuridão.\nQuando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Orbe Espiritual Noturno desaparecerá.\n\n<i>\"As pessoas sempre querem prever o futuro, mas isso é porque ainda não encontraram o que devem fazer... Sinto muito, comecei a contar um conto de fadas novamente\".</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Olorun_01"
       }
     ],
@@ -594,6 +597,7 @@
       "Id": 30505,
       "Name": "Ecos Sombrios",
       "Description": "Ororon desperta um ritual secreto antigo e causa <color=#FFACFFFF>Dano Electro em AdE</color> com alinhamento Espírito da Noite, e invoca o \"Super Olho Espiritual\".\n\n<color=#FFD780FF>Super Olho Espiritual</color>· Continuamente provoca os inimigos próximos, atraindo seus ataques.\n· Continuamente gira e dispara ondas sonoras, causando <color=#FFACFFFF>Dano Electro</color> com alinhamento Espírito da Noite contra os inimigos próximos.\n\n<i>As pessoas que possuem percepção o suficiente podem ouvir as vozes sussurrantes de tudo. Por isso, mesmo na longa noite sem luz, elas não perdem o seu caminho.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Olorun_01"
     },
     "Inherents": [
@@ -618,6 +622,7 @@
         "Id": 1052101,
         "Name": "Sensações da Cortina Noturna",
         "Description": "Após um personagem próximo na equipe desencadear a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando o ataque de outro personagem da equipe de Tipo Elemental <color=#80C0FFFF>Hydro</color> ou <color=#FFACFFFF>Electro</color> atingir um inimigo, Ororon obtém 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0.3s, com um limite de 10 ativações durante o período.\nO máximo de pontos de Espírito da Noite que Ororon pode ter é 80.\n\nAlém disso, quando inimigos próximos receberem dano da reação <color=#FFACFFFF>Eletricamente Carregado ou Carga Lunar</color> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 160% do ATQ de Ororon, causará <color=#FFACFFFF>Dano Electro</color> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1.8s.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Ororon</color>\nO estado de Bênção do Espírito da Noite de Ororon dura até 6s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_05"
       },
       {
@@ -642,6 +647,7 @@
         "Id": 1052201,
         "Name": "Condutor Espiritual",
         "Description": "Quando o <color=#FFD780FF>Orbe Espiritual Noturno</color> da Habilidade Elemental <color=#FFD780FF>Rastreamento da Escuridão</color> atinge um inimigo, Ororon obtém o efeito \"Marca do Olhar\" por 15s.\n\n<color=#FFD780FF>Marca do Olhar</color>\nQuando o personagem ativo próximo da equipe causa atingir um inimigo com um Ataque Normal, Carregado ou Imersivo, regenerará 3 de Energia Elemental para esse personagem. Se Ororon não for o personagem ativo, regenerará 3 de Energia Elemental para ele. Esse efeito pode ser desencadeado uma vez por segundo, e pode ser desencadeado até 3 vezes por duração.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_06"
       },
       {
@@ -660,6 +666,7 @@
         "Id": 1052301,
         "Name": "Presente do Reino da Noite: Sombra da Neblina",
         "Description": "Enquanto numa área de Natlan com Dispositivos de Flogisto, pode usar Transmissão do Espírito da Noite: Ororon. Quando o personagem ativo estiver no ar, trocar para Ororon como personagem ativo desencadeará: Ororon poderá saltar alto. É possível entrar em Transmissão do Espírito da Noite: Ororon uma vez a cada 10s.\n\nAlém disso, ao manter pressionado para mirar, Ororon entrará no estado Proferespírito. Enquanto nesse estado, Ororon poderá interagir com o Grafite do Espírito Noturno e o Selo do Espírito Noturno, obtendo as informações e poder deles, as regras de interação com esses itens segue as mesmas regras de interação com os Iktomissauros.\n\nAlém disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto.\nQuando estiver no ar, Ororon pode manter pressionado seu Ataque Normal para consumir Flogisto ou Stamina e entrar no Modo de Mira.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_07"
       },
       {
@@ -678,6 +685,7 @@
         "Id": 1052501,
         "Name": "Talento Cotidiano",
         "Description": "Aumenta a velocidade de planar para os personagens da equipe em 15%.\nNão acumula com outros Talentos Passivos que fornecem o mesmo efeito.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_08"
       }
     ],

@@ -307,6 +307,7 @@
         "Id": 10971,
         "Name": "Arco del giunco regale",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEsegue fino a 3 tiri consecutivi con l'arco.\n\n<color=#FFD780FF>Attacco caricato</color>\nEffettua un <color=#FFD780FF>ATT mirato</color> ancora più preciso con DAN aumentati.\nMentre mira, il potere di Electro si accumula sulla punta della freccia prima che venga scoccata. Ha diversi effetti in base al tempo di carica dell'energia.\n· Livello di carica 1: scocca una freccia infusa col potere del fulmine che infligge <color=#FFACFFFF>DAN da Electro</color>.\n· Livello di carica 2: scocca una <color=#FFD780FF>Freccia squarciaombre</color> che trapassa i nemici infliggendo <color=#FFACFFFF>DAN da Electro</color> a tutti gli avversari sul suo percorso. Quando la Freccia squarciaombre è a piena carica, Sethos non può muoversi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -458,7 +459,8 @@
         },
         "Id": 10972,
         "Name": "Rito antico: Sabbie del tuono",
-        "Description": "Convoglia la potenza del fulmine, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color> per poi arretrare rapidamente. Se l'attacco innesca reazioni di Electrocarica, Carica lunare, Superconduzione, Sovraccarico, Vivificazione, Accentuazione, Iperfioritura o Turbinio di Electro, l'energia elementale di Sethos si ripristina di una certa quantità.\n\n<i>\"I sacerdoti in cui risiede la luce divina, i Magi che tramutavano in sorgenti le aride lande, e i cantori del mare di sabbia che ancor oggi ne diffondono le storie... So bene che non si tratta di leggende, poiché loro sono i nostri antenati.\"</i>",
+        "Description": "Convoglia la potenza del fulmine, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color> per poi arretrare rapidamente. Se l'attacco innesca reazioni di Electrocarica, Carica lunare, Superconduzione, Astroconduzione, Sovraccarico, Vivificazione, Accentuazione, Iperfioritura o Turbinio di Electro, l'energia elementale di Sethos si ripristina di una certa quantità.\n\n<i>\"I sacerdoti in cui risiede la luce divina, i Magi che tramutavano in sorgenti le aride lande, e i cantori del mare di sabbia che ancor oggi ne diffondono le storie... So bene che non si tratta di leggende, poiché loro sono i nostri antenati.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sethos_01"
       }
     ],
@@ -628,6 +630,7 @@
       "Id": 10975,
       "Name": "Rito arcano: Squarciaombre del tramonto",
       "Description": "Tramite un rito arcano, Sethos entra nello stato di Meditazione del tramonto, convertendo gli attacchi normali in <color=#FFD780FF>Dardi del crepuscolo</color> che infliggono <color=#FFACFFFF>DAN da Electro</color> agli avversari sul loro percorso.\nMentre è in questo stato, Sethos non può eseguire attacchi mirati.\nI DAN da Dardi del crepuscolo aumentano in base alla maestria elementale di Sethos, e sono considerati DAN da attacco caricato.\nQuesto effetto viene annullato quando Sethos lascia il campo.\n\n<i>Negli archivi del Tempio del Silenzio figurano un gran numero di tomi lasciati da Akhtamun risalenti all'era di Re Deshret. Tra le loro pagine sono conservati molti riti arcani dal potere smisurato; tuttavia, perfino tra i membri del Tempio del Silenzio, solo in pochi sono in grado di officiarli al meglio.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sethos_01"
     },
     "Inherents": [
@@ -650,6 +653,7 @@
         "Id": 972101,
         "Name": "Enigma del nibbio bruno",
         "Description": "#Il tempo di carica degli attacchi mirati diminuisce di 0,285{NON_BREAK_SPACE}s per ogni punto di energia elementale di Sethos. In questo modo, è possibile ridurre il tempo di carica fino a un minimo di 0,3{NON_BREAK_SPACE}s, ed è possibile conteggiare un massimo 20 punti di energia. Se viene scagliata una <color=#FFD780FF>Freccia squarciaombre</color>, la quantità conteggiata di energia elementale viene consumata. Se la freccia è di livello 1, viene consumato un 50% della quantità di energia elementale conteggiata.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 972201,
         "Name": "Manna del Re delle sabbie",
         "Description": "#Sethos ottiene l'effetto Ombra delle sabbie roventi, che aumenta i DAN inflitti dalle <color=#FFD780FF>Frecce squarciaombre</color> di un 700% della sua maestria elementale.\nL'effetto Ombra delle sabbie roventi si annulla quando si verifica una qualunque delle seguenti condizioni:\n· trascorrono 5{NON_BREAK_SPACE}s da quando la prima Freccia squarciaombre colpisce un avversario;\n· 4 Frecce squarciaombre colpiscono gli avversari.\n\nQuando una Freccia squarciaombre sotto l'effetto di Ombra delle sabbie roventi colpisce un avversario, Sethos ottiene nuovamente l'effetto Ombra delle sabbie roventi dopo 15{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 972301,
         "Name": "Rivelazione di Thoth",
         "Description": "Mostra sulla minimappa la posizione delle <color=#FFD780FF>risorse uniche di Sumeru</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tighnari_07"
       }
     ],

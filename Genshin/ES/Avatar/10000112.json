@@ -276,6 +276,7 @@
         "Id": 11121,
         "Name": "Habilidades culinarias",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques rápidos con lanza.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para realizar un ataque ascendente.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11122,
         "Name": "Cocina a baja temperatura",
         "Description": "#¡Presencia la verdadera esencia de la cocina! Dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado, Escoffier mostrará diferentes técnicas culinarias, cada una de las cuales representa un orgullo para Fontaine.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nActiva el mecachef multitarea de amplio espectro en modo “crioalmacenamiento” e inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Mecachef: modo crioalmacenamiento</color>\nEl mecachef sigue al personaje en uso y, cada cierto tiempo, lanza un parfait helado a los enemigos cercanos que inflige <color=#99FFFFFF>Daño Cryo</color>.\n\n<color=#FFD780FF>Arjé: ousía</color>\nCada cierto tiempo, cuando Escoffier activa el mecachef multitarea de amplio espectro en modo crioalmacenamiento, invoca un filo fluyente que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> cargado de energía ousía.\n\n<color=#FFD780FF>Mantener pulsado</color>\nActiva el mecachef en {LINK#N11120002}<color=#FFD780FF>modo cocina improvisada</color>{/LINK}.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Escoffier_01"
       }
     ],
@@ -676,6 +678,7 @@
       "Id": 11125,
       "Name": "Técnica de corte",
       "Description": "En un alarde de su excepcional habilidad con el cuchillo, Escoffier inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> y regenera Vida a todos los personajes cercanos del equipo en función del ATQ de Escoffier.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Escoffier_01"
     },
     "Inherents": [
@@ -698,6 +701,7 @@
         "Id": 1122101,
         "Name": "Más vale comer que curar",
         "Description": "#Tras usar su Habilidad Definitiva, <color=#FFD780FF>{LINK#S11125}Técnica de corte{/LINK}</color>, Escoffier obtiene el efecto de “dieta rehabilitadora” durante 9{NON_BREAK_SPACE}s, con el cual regenera Vida cada segundo a los personajes en uso cercanos en una cantidad equivalente al 138.24% del ATQ de Escoffier.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_05"
       },
       {
@@ -722,6 +726,7 @@
         "Id": 1122201,
         "Name": "Condimentación inspirada",
         "Description": "#Si en el equipo hay 1/2/3/4 personajes <color=#80C0FFFF>Hydro</color> o <color=#99FFFFFF>Cryo</color>, al golpear a un enemigo con la Habilidad Elemental, <color=#FFD780FF>{LINK#S11122}Cocina a baja temperatura{/LINK}</color>, o la Habilidad Definitiva, <color=#FFD780FF>{LINK#S11125}Técnica de corte{/LINK}</color>, de Escoffier, la RES <color=#80C0FFFF>Hydro</color> y la RES <color=#99FFFFFF>Cryo</color> de dicho enemigo se reducen en un 5/10/15/55% durante 12{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_06"
       },
       {
@@ -740,6 +745,7 @@
         "Id": 1122301,
         "Name": "Siempre lista para improvisar",
         "Description": "#Al mantener pulsada la Habilidad Elemental, <color=#FFD780FF>{LINK#S11122}Cocina a baja temperatura{/LINK}</color>, Escoffier activará el mecachef multitarea de amplio espectro en modo cocina improvisada.\n\n<color=#FFD780FF>Mecachef: modo cocina improvisada</color>\n·Coloca al mecachef en el campo de batalla. El mecachef puede absorber ataques elementales. Cuando la Energía Elemental absorbida alcance el límite, Escoffier podrá convertir los ingredientes que ha colocado en él en platos de comida.\n·Escoffier necesita tiempo para comprar nuevos ingredientes y solo puede cocinar cierta cantidad de comida de esta manera semanalmente. Los intentos para cocinar se reinician todos los lunes a las 4:00 a.m. ({TIMEZONE}).",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Escoffier_08"
       }
     ],

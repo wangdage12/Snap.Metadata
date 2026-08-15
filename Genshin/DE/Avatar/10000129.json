@@ -308,6 +308,7 @@
         "Id": 11291,
         "Name": "Favonius-Speerkunst – Eidbruch",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Angriff nach vorne aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -710,6 +711,7 @@
         "Id": 11292,
         "Name": "Unerwarteter Schachzug",
         "Description": "Sucht nach der Schwachstelle des Gegners und wechselt in den Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK}. In diesem Zustand ist Folgendes möglich:\n· Lohen kann aktiv {LINK#N11290003}<color=#FFD780FF>Freude</color>{/LINK} sammeln, um die besondere Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} anzuwenden.\n· Andere Truppenmitglieder in der Nähe können {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} für Lohen sammeln, um den Schaden von <color=#FFD780FF>Bis ins Mark</color> zu erhöhen.\nNach max. dreimaliger Anwendung von <color=#FFD780FF>Bis ins Mark</color> im Zustand <color=#FFD780FF>Geniestreich</color> kann keine <color=#FFD780FF>Freude</color> mehr erhalten werden.\n\n<i>„Rittertum? Ha, das ist in der Tat ein hervorragender Köder. Solange der Gegner noch davon träumt, in einem fairen Kampf zu siegen, ahnt er nicht, welche ‚Überraschung‘ auf ihn wartet.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lohen_01"
       }
     ],
@@ -734,6 +736,7 @@
         "Id": 1295101,
         "Name": "Geschenk der Hexennacht – Unheilbarer Stich",
         "Description": "#Wandelt Lohen nach dem Abschluss von <color=#FFD780FF>Aufgabe der Hexe – Von verschiedenen Gegnern</color> in eine <color=#FFD780FF>Hexerei</color>-Figur um. Verleiht, wenn sich in der Truppe mindestens 2 Hexerei-Figuren befinden, den Effekt <color=#FFD780FF>Hexerei – Geheimes Ritual</color>, der Hexerei-Figuren verstärkt.\n\n<color=#FFD780FF>Hexerei – Geheimes Ritual</color>\nErhöht, wenn Gegner mit der besonderen Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} getroffen werden oder die Spezialfähigkeit <color=#FFD780FF>Verhängte Strafe</color> angewendet wird und {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} bei mindestens 50{NON_BREAK_SPACE}% des Höchstwerts liegt, den durch Lohens Standardangriffe und heftige Schläge verursachten Schaden 6{NON_BREAK_SPACE}s lang um 40{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_07"
       }
     ],
@@ -902,7 +905,8 @@
       },
       "Id": 11295,
       "Name": "Verhängte Strafe",
-      "Description": "#Führt schnell hintereinander mehrere Hiebe nach vorne aus, verbraucht sämtlichen {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} und verursacht <color=#99FFFFFF>Kryo-Schaden</color>. Erhöht den Schaden dieses Angriffs abhängig vom verbrauchten <color=#FFD780FF>Siegeswillen</color>. Verlängert, wenn Lohen sich beim Anwenden im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} befindet, dessen Dauer um 1,65{NON_BREAK_SPACE}s.\n\n<i>„Schon alles verraten? Schade, ich dachte, wir hätten gerade erst angefangen!“</i>",
+      "Description": "#Führt schnell hintereinander mehrere Hiebe nach vorne aus, verbraucht den gesamten {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} und verursacht <color=#99FFFFFF>Kryo-Schaden</color>. Erhöht den Schaden dieses Angriffs abhängig vom verbrauchten <color=#FFD780FF>Siegeswillen</color>. Verlängert, wenn Lohen sich beim Anwenden im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} befindet, dessen Dauer um 1,65{NON_BREAK_SPACE}s.\n\n<i>„Schon alles verraten? Schade, ich dachte, wir hätten gerade erst angefangen!“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lohen_01"
     },
     "Inherents": [
@@ -925,6 +929,7 @@
         "Id": 1292101,
         "Name": "Zurechtweisung des Verbotenen",
         "Description": "#Sammelt, wenn im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} andere Truppenmitglieder in der Nähe durch verursachten Schaden {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} für Lohen sammeln und der verursachte Schaden nicht unter 3.000{NON_BREAK_SPACE}% von Lohens Basis-ANG liegt, zusätzlich 60 Punkte <color=#FFD780FF>Siegeswille</color> für Lohen an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_05"
       },
       {
@@ -947,6 +952,7 @@
         "Id": 1292201,
         "Name": "Meisterwerk des Schauspiels",
         "Description": "#Erhöht im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK}, wenn ein anderes Truppenmitglied in der Nähe bei Gegnern <color=#99FFFFFF>Kryo-Reaktionen</color> auslöst, den ANG dieser Figur sowie Lohens ANG 8{NON_BREAK_SPACE}s lang um 15{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_06"
       },
       {
@@ -969,6 +975,7 @@
         "Id": 1292301,
         "Name": "Flüchtiges Interesse",
         "Description": "#Verleiht Lohen nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>Unerwarteter Schachzug</color> 9{NON_BREAK_SPACE}s lang den Effekt „Gute Laune“: Erhöht während der Wirkungsdauer die Fähigkeitsstufe von <color=#FFD780FF>Unerwarteter Schachzug</color> um 1.\nVerlängert, wenn beim Anwenden der Elementarfähigkeit die Fähigkeitsstufe eines Standardangriffs, einer Elementarfähigkeit oder Spezialfähigkeit eines anderen Truppenmitglieds nicht niedriger als die von Lohens Elementarfähigkeit ist, die Wirkungsdauer von dieser „Guten Laune“ zusätzlich um 6{NON_BREAK_SPACE}s.\n„Gute Laune“ kann nur einmal alle 18{NON_BREAK_SPACE}s erhalten werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lohen_08"
       }
     ],

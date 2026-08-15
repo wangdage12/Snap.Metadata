@@ -309,6 +309,7 @@
         "Id": 10341,
         "Name": "Tecnica di Favonius - Domestica",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 4 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma vigore nel tempo per sferrare attacchi rotanti contro tutti gli avversari vicini.\nAl termine della sequenza, sferra un fendente più potente. \n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10342,
         "Name": "Corazza",
         "Description": "Evoca un'armatura in pietra protettiva, infliggendo <color=#FFE699FF>DAN da Geo</color> agli avversari circostanti e creando uno scudo. L'assorbimento DAN dello scudo varia in base alla DIF di Noelle.\nLo scudo ha le seguenti proprietà:\n· quando gli attacchi normali e caricati di Noelle colpiscono un obiettivo, hanno una certa probabilità di rigenerare i PS di tutti i personaggi;\n· possiede un 150% di efficienza di assorbimento DAN contro tutti i DAN fisici ed elementali.\n\nLa quantità di PS ripristinati quando si attiva la rigenerazione dipende dalla DIF di Noelle.\n\n<i>Noelle è una donna di servizio ligia al dovere e una cavaliere coraggiosa.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Noel_01"
       }
     ],
@@ -740,6 +742,7 @@
       "Id": 10343,
       "Name": "Pulizia completa",
       "Description": "Radunando la forza della pietra intorno alla sua arma, Noelle colpisce gli avversari che la circondano in un'ampia area d'effetto, infliggendo <color=#FFE699FF>DAN da Geo</color>.\nDopodiché, Noelle ottiene i seguenti effetti:\n· l'area d'effetto degli attacchi è più ampia;\n· trasforma i DAN da attacco in <color=#FFE699FF>DAN da Geo</color> non influenzabili da altre infusioni elementali;\n· l'ATT aumenta in base alla sua DIF.\n\n<i>A volte, è necessario spazzare via non solo la polvere...</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Noel_01"
     },
     "Inherents": [
@@ -764,6 +767,7 @@
         "Id": 342101,
         "Name": "Devozione",
         "Description": "#Quando Noelle è nel gruppo ma non sul campo, quest'abilità si attiva automaticamente quando i PS del personaggio attivo scendono al di sotto di un 30%.\nGenera uno scudo per il personaggio attivo che dura 20{NON_BREAK_SPACE}s e assorbe DAN pari a un 400% della DIF di Noelle.\nLo scudo ha un'efficacia di assorbimento DAN pari a un 150% contro tutti i DAN elementali e fisici.\nQuesto effetto si può verificare una sola volta ogni 60{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Noel_05"
       },
       {
@@ -784,6 +788,7 @@
         "Id": 342201,
         "Name": "Pulito e ordinato",
         "Description": "#Noelle ridurrà di 1 s il TdR di <color=#FFD780FF>Corazza</color> per ogni 4 attacchi normali o caricati messi a segno sugli avversari.\nUn colpo può essere contato ogni 0,1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Noel_06"
       },
       {
@@ -802,6 +807,7 @@
         "Id": 342301,
         "Name": "Cavalleria domestica",
         "Description": "Quando si ottiene una preparazione perfetta di un piatto che aumenta la DIF, Noelle ha un 12% di probabilità di ricevere il doppio del prodotto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Defense"
       }
     ],

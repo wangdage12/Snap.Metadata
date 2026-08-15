@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Oathkeeper's Spear",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan tombak berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menerjang ke depan, mengakibatkan DMG pada musuh di jalur terjangan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Dawnbearing Songbird",
         "Description": "Memanggil burung pembawa pesan bernama \"Aedon\" untuk bertempur bersama. Skill ini akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nAedon menerjang ke musuh di depannya dan mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh yang dikenainya.\n\n<color=#FFD780FF>Mode Tahan</color>\nMemasuki Mode Membidik, dan memerintahkan Aedon untuk menerjang ke arah musuh yang dibidik, mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh yang dikenainya.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Shadowless Reflection",
       "Description": "Menyalakan api lentera untuk mengakibatkan <color=#FFE699FF>Geo DMG Area</color> dan mendapatkan efek \"Haunted Night's Oriole-Song\" yang bertahan selama 20 detik. Selama durasi ini, Illuga mendapatkan 21 lapis {LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK}. Saat Karakter aktif dalam party mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh melalui Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, atau Elemental Burst, maka Illuga akan mengonsumsi 1 lapis Nightingale's Song untuk meningkatkan DMG yang diakibatkan berdasarkan Elemental Mastery Illuga. Jika DMG-nya diakibatkan oleh reaksi Lunar-Crystallize, maka peningkatan DMG-nya akan menjadi semakin besar.\nJika <color=#FFE699FF>Geo DMG</color> yang diakibatkan dengan cara di atas mengenai beberapa musuh sekaligus, maka jumlah lapisan Nightingale's Song akan dikonsumsi akan disesuaikan dengan jumlah musuh yang terkena serangan.\n\nSelain itu, jika Illuga melancarkan Elemental Burst saat ada <color=#FFE699FF>Geo Construct</color> yang diciptakan oleh Karakter party di sekitar, atau saat Karakter party di sekitar menciptakan <color=#FFE699FF>Geo Construct</color> selama Haunted Night's Oriole-Song aktif, maka setiap <color=#FFE699FF>Geo Construct</color> yang ada akan memberikan Illuga 5 lapis Nightingale's Song tambahan. Illuga hanya bisa mendapatkan maksimum 15 lapis Nightingale's Song tambahan dengan cara ini dalam 20 detik setelah melancarkan Elemental Burst.\n\nEfek Haunted Night's Oriole-Song akan berakhir saat seluruh lapisan Nightingale's Song habis atau saat durasi efeknya berakhir.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Torchforger's Covenant",
         "Description": "Setelah melancarkan Elemental Skill <color=#FFD780FF>{LINK#S11272}Dawnbearing Songbird{/LINK}</color> atau Elemental Burst <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color>, anggota party lain di sekitar akan mendapatkan efek \"Lightkeeper's Oath\" selama 20 detik: <color=#FFE699FF>Geo DMG</color> yang diakibatkan pada musuh akan mendapatkan CRIT Rate +5% dan CRIT DMG +10%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nKarakter yang berada dalam pengaruh efek Lightkeeper's Oath akan mendapatkan peningkatan 50 poin Elemental Mastery.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "Demonhunter's Dusk",
         "Description": "Efek {LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK} diperkuat: Saat ada 1/2/3 Karakter <color=#80C0FFFF>Hydro</color> atau <color=#FFE699FF>Geo</color> di dalam party, Nightingale's Song akan meningkatkan DMG lagi sebesar 7%/14%/24% Elemental Mastery Illuga. Jika DMG yang disebutkan di atas merupakan DMG reaksi Lunar-Crystallize, maka peningkatannya menjadi sebesar 48%/96%/160% Elemental Mastery Illuga.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Moonsign Benediction: Unwithering Winter",
         "Description": "Saat Illuga berada di dalam party, <color=#FFD780FF>Moonsign</color> party meningkat 1 level.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Night Warden's Stride",
         "Description": "Saat malam hari (18:00 - 06:00), anggota party sendiri mendapatkan efek Swift Stride: meningkatkan 10% Movement SPD.\nEfek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss. Efek Swift Stride tidak dapat ditumpuk.\nSelain itu, Illuga sepertinya dapat memahami bisikan Perburuan Liar ....",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

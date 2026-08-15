@@ -309,6 +309,7 @@
         "Id": 10341,
         "Name": "Técnica de espada Favonius - Criada",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 tajos de espada consecutivos.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.\nAl final del Ataque Cargado, realizará un golpe de espada más poderoso.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 10342,
         "Name": "Guardiana del corazón",
         "Description": "Invoca una armadura Geo que inflige <color=#FFE699FF>Daño Geo</color> a los enemigos cercanos y absorbe daño en proporción a la DEF de Noelle. El escudo tiene los siguientes efectos:\n·Cuando los Ataques Normales y Ataques Cargados de Noelle golpean un objetivo, hay una probabilidad de regenerar Vida para todos los miembros del equipo.\n·Posee un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.\n\nLa cantidad de Vida curada es proporcional a la DEF de Noelle.\n\n<i>Noelle es una fiel criada y, al mismo tiempo, una valiente caballera.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Noel_01"
       }
     ],
@@ -740,6 +742,7 @@
       "Id": 10343,
       "Name": "Hora de limpiar",
       "Description": "Al reunir el poder de la roca alrededor de su arma, Noelle golpea a los enemigos que la rodean dentro de una gran AdE, infligiendo <color=#FFE699FF>Daño Geo</color>.\nDespués, Noelle obtiene los siguientes efectos:\n·Aumenta el alcance de su ataque.\n·Convierte el daño de ATQ en <color=#FFE699FF>Daño Geo</color>. Este cambio elemental no puede ser sustituido imbuyéndolo de otro elemento.\n·Aumenta el ATQ en proporción a la DEF de Noelle.\n\n<i>Lo que debe limpiarse a veces no es solo el polvo...</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Noel_01"
     },
     "Inherents": [
@@ -764,6 +767,7 @@
         "Id": 342101,
         "Name": "De todo corazón",
         "Description": "#Si la Vida de tu personaje en uso es inferior al 30% cuando Noelle está en tu equipo pero no en uso:\n·Dicho personaje en uso recibirá inmediatamente un escudo con una duración de 20{NON_BREAK_SPACE}s que absorbe un daño equivalente al 400% de la DEF de Noelle.\n·El escudo tiene un 150% de efectividad de absorción contra todo el Daño Elemental y el Daño Físico.\n·Este efecto solo puede ocurrir una vez cada 60{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Noel_05"
       },
       {
@@ -784,6 +788,7 @@
         "Id": 342201,
         "Name": "Pulcra y eficaz",
         "Description": "#Por cada 4 veces consecutivas que Noelle golpee a un enemigo con sus Ataques Normales o Cargados, el TdE de <color=#FFD780FF>Guardiana del corazón</color> se reduce en 1{NON_BREAK_SPACE}s.\nComo máximo, solo puede ocurrir una vez cada 0.1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Noel_06"
       },
       {
@@ -802,6 +807,7 @@
         "Id": 342301,
         "Name": "Dedicación de la criada",
         "Description": "Al lograr un “Perfecto” en un plato con efectos de defensa, hay una probabilidad del 12% de obtener el doble.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Cook_Defense"
       }
     ],

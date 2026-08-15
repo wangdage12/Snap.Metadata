@@ -292,6 +292,7 @@
         "Id": 11271,
         "Name": "Thương Thuật Lời Thề",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 4 lần đánh liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định, xông về phía trước, gây sát thương cho địch trên đường đi.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -474,6 +475,7 @@
         "Id": 11272,
         "Name": "Chim Hót Bình Minh",
         "Description": "Triệu hồi chim đưa thư \"Aedon\" kề vai tác chiến. Căn cứ vào nhấn, nhấn giữ để sản sinh hiệu quả khác nhau.\n\n<color=#FFD780FF>Nhấn</color>\nAedon lao đến kẻ địch phía trước, gây <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> lên kẻ địch chạm phải.\n\n<color=#FFD780FF>Nhấn Giữ</color>\nTiến hành ngắm chuẩn và điều khiển Aedon lao về phía kẻ địch bị ngắm, gây <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> lên kẻ địch chạm phải.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Illuga_01"
       }
     ],
@@ -722,6 +724,7 @@
       "Id": 11275,
       "Name": "Phản Chiếu Vô Hình",
       "Description": "Thắp sáng ngọn đèn, gây <color=#FFE699FF>Sát Thương Phạm Vi Nguyên Tố Nham</color> và nhận hiệu quả \"Tiếng Hót Đêm Ác Mộng\" trong 20s: Trong thời gian duy trì, Illuga sẽ nhận 21 tầng {LINK#N11270001}<color=#FFD780FF>Khúc Ca Dạ Oanh</color>{/LINK}, khi nhân vật ra trận trong đội ở gần dùng Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp, Kỹ Năng Nguyên Tố hoặc Kỹ Năng Nộ gây <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> lên kẻ địch, sẽ tiêu hao 1 tầng Khúc Ca Dạ Oanh để tăng sát thương gây ra, mức tăng dựa trên Tinh Thông Nguyên Tố của Illuga. Nếu sát thương này do phản ứng Nguyệt-Kết Tinh gây ra, thì sẽ còn tăng thêm sát thương gây ra.\nKhi <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> gây ra theo cách trên đánh trúng nhiều kẻ địch cùng lúc, sẽ căn cứ vào số lượng kẻ địch bị đánh trúng để tiêu hao số tầng Khúc Ca Dạ Oanh.\n\nNgoài ra, nếu Illuga thi triển Kỹ Năng Nộ khi trên sân có <color=#FFE699FF>tạo vật Nguyên Tố Nham</color> do nhân vật trong đội ở gần tạo ra, hoặc trong thời gian duy trì Tiếng Hót Đêm Ác Mộng có nhân vật trong đội ở gần tạo ra <color=#FFE699FF>tạo vật Nguyên Tố Nham</color>, thì với mỗi <color=#FFE699FF>tạo vật Nguyên Tố Nham</color> trên sân sẽ khiến Illuga nhận thêm 5 tầng Khúc Ca Dạ Oanh. Trong 20s sau mỗi lần thi triển Kỹ Năng Nộ, Illuga tối đa nhận thêm 15 tầng Khúc Ca Dạ Oanh theo cách này.\n\nKhi dùng hết số tầng Khúc Ca Dạ Oanh, hoặc kết thúc thời gian duy trì, hiệu quả Tiếng Hót Đêm Ác Mộng cũng sẽ kết thúc.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Illuga_01"
     },
     "Inherents": [
@@ -748,6 +751,7 @@
         "Id": 1272101,
         "Name": "Hiệp Ước Người Đúc Đèn",
         "Description": "Sau khi thi triển Kỹ Năng Nguyên Tố <color=#FFD780FF>{LINK#S11272}Chim Hót Bình Minh{/LINK}</color> hoặc Kỹ Năng Nộ <color=#FFD780FF>{LINK#S11275}Phản Chiếu Vô Hình{/LINK}</color>, nhân vật khác trong đội ở gần sẽ nhận hiệu quả \"Lời Thề Giữ Đèn\" trong 20s: <color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> gây ra cho kẻ địch sẽ tăng 5% Tỷ Lệ Bạo Kích và 10% Sát Thương Bạo Kích.\n\n<color=#FFD780FF>Nguyệt Triệu - Rực Sáng</color>\nNhân vật chịu ảnh hưởng bởi hiệu quả Lời Thề Giữ Đèn sẽ tăng 50 điểm Tinh Thông Nguyên Tố.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_05"
       },
       {
@@ -773,6 +777,7 @@
         "Id": 1272201,
         "Name": "Hoàng Hôn Người Săn Ma",
         "Description": "Hiệu quả {LINK#N11270001}<color=#FFD780FF>Khúc Ca Dạ Oanh</color>{/LINK} sẽ được cường hóa: Khi trong đội có 1/2/3 nhân vật Nguyên Tố <color=#80C0FFFF>Thủy</color> hoặc <color=#FFE699FF>Nham</color>, Khúc Ca Dạ Oanh sẽ tăng thêm sát thương gây ra, lượng tăng thêm tương đương 7%/14%/24% Tinh Thông Nguyên Tố của Illuga. Nếu sát thương trên do phản ứng Nguyệt-Kết Tinh gây ra, lượng tăng thêm sẽ tương đương với 48%/96%/160% Tinh Thông Nguyên Tố của Illuga.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_06"
       },
       {
@@ -791,6 +796,7 @@
         "Id": 1272301,
         "Name": "Chúc Phúc Nguyệt Triệu - Mùa Đông Không Tàn",
         "Description": "Khi Illuga trong đội, <color=#FFD780FF>Nguyệt Triệu</color> của đội sẽ tăng 1 cấp.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_07"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 1272501,
         "Name": "Tốc Độ Của Kẻ Tuần Đêm",
         "Description": "Buổi tối (18h đến 6h), nhân vật trong đội của bản thân nhận hiệu quả Tốc Hành: Tốc độ di chuyển tăng 10%.\nHiệu quả này vô hiệu trong Bí Cảnh, Vùng Đất Thảo Phạt, La Hoàn Thâm Cảnh. Hiệu quả Tốc Hành không thể cộng dồn.\nNgoài ra, dường như Illuga có thể nghe hiểu lời thì thầm của Cuộc Săn Hoang Dã...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Illuga_08"
       }
     ],

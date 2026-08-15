@@ -293,6 +293,7 @@
         "Id": 10881,
         "Name": "Phototype à froid",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nVisant ses cibles à l'aide de Monsieur Vérité, son Daguerréotype personnalisé, Charlotte enchaîne jusqu'à 3 attaques qui infligent des <color=#99FFFFFF>DGT Cryo</color>.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour déployer Monsieur Vérité après un moment de préparation et infliger des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Cryo, infligeant des DGT aux ennemis en chemin et des <color=#99FFFFFF>DGT Cryo de zone</color> à l'impact.\n\n<color=#FFD780FF>Arkhe : Pneuma</color>\nRégulièrement, après avoir utilisé une attaque chargée, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des <color=#99FFFFFF>DGT Cryo de zone</color> chargés d'énergie pneuma.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 10882,
         "Name": "Cadrage : Composition gelée",
         "Description": "Grâce à son instinct de grande journaliste, Charlotte utilise ses compétences en photographie pour produire différents effets selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nPrend un cliché net à l'aide de Monsieur Vérité, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color> aux ennemis en face ainsi que l'effet Silhouette instantanée à un maximum de 5 ennemis touchés. Pendant sa durée, l'effet Silhouette instantanée inflige des <color=#99FFFFFF>DGT Cryo</color> aux ennemis de façon intermittente.\n\n<color=#FFD780FF>Appui long</color>\nEn activant le mode visée de Monsieur Vérité, Charlotte entre dans l'état Composition et le viseur peut s'agrandir jusqu'à atteindre le cadre de finition en maintenant l'appui long. Dans cet état, Charlotte peut se déplacer et changer d'orientation.\nLorsque le mode visée se termine, Monsieur Vérité inflige des <color=#99FFFFFF>DGT Cryo</color> aux ennemis verrouillés dans son viseur ainsi que le même effet Silhouette instantanée déclenché lors d'un appui simple. Si Charlotte met fin au mode visée après que le viseur a atteint le cadre de finition, elle inflige à la place l'effet Impression ciblée, ce dernier durant plus longtemps et infligeant plus de DGT, bien qu'il prolongera le TdR de la compétence.\nL'état Composition dure 15 s maximum et peut verrouiller un maximum de 5 ennemis.\n\n<i>« Les photos de presse nécessitent des clichés simples avec une thématique exceptionnelle, mais il faut surtout avoir le don de capturer l'instant présent ! »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Charlotte_01"
       }
     ],
@@ -804,6 +806,7 @@
       "Id": 10885,
       "Name": "Pose : Corroboration complète",
       "Description": "En condensant de la glace pour créer l'emblème de L'Oiseau de vapeur, Charlotte crée un champ de flash info qui inflige des <color=#99FFFFFF>DGT Cryo de zone</color> et restaure les PV de tous les personnages de l'équipe à proximité selon son ATQ.\n\n<color=#FFD780FF>Champ de flash info</color>\n· Tant qu'il est actif, Monsieur Vérité attaque les ennemis à l'intérieur de façon intermittente pour leur infliger des <color=#99FFFFFF>DGT Cryo</color>.\n· Lorsque le personnage déployé est à l'intérieur du champ, ses PV sont restaurés de façon continue selon l'ATQ de Charlotte.\n\n<i>« Écouter des histoires sous plusieurs perspectives pour recréer ce qui s'est réellement passé est la clé d'un bon reportage... Je veux dire, c'est ainsi qu'on peut choisir le meilleur angle pour son article ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Charlotte_01"
     },
     "Inherents": [
@@ -827,6 +830,7 @@
         "Id": 882101,
         "Name": "Moment d'impact",
         "Description": "Lorsqu'un ennemi affligé de l'effet Impression ciblée est éliminé, le TdR de <color=#FFD780FF>Cadrage : Composition gelée</color> diminue de 2 s. Le TdR peut être diminué 4 fois toutes les 12 s de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_05"
       },
       {
@@ -848,6 +852,7 @@
         "Id": 882201,
         "Name": "Enquête de diversité",
         "Description": "Lorsque l'équipe contient 1, 2 ou 3 personnages fontainois (en plus de Charlotte), Charlotte obtient un bonus de soins de 5 %, 10 % ou 15 %, respectivement. Lorsque l'équipe contient 1, 2 ou 3 personnages non-fontainois, Charlotte bénéficie d'un bonus de DGT Cryo de 5 %, 10 % ou 15 %, respectivement.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_06"
       },
       {
@@ -866,6 +871,7 @@
         "Id": 882301,
         "Name": "Premier obturateur",
         "Description": "#Une fois que Charlotte a activé son zoom d'analyse spéciale, l'appui long de sa compétence élémentaire «{NON_BREAK_SPACE}Cadrage : Composition gelée » ne peut plus déclencher les effets d'origine, mais elle peut désormais prendre des photos d'une manière spéciale...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Charlotte_07"
       }
     ],

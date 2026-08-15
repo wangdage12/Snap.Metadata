@@ -42,6 +42,7 @@
         "Id": 30506,
         "Name": "Nhảy Đặc Biệt",
         "Description": "Nếu nhân vật ở trong khu vực Natlan, sau khi nhấn giữ có thể tiêu hao Phlogiston để tiến hành Nhảy Hỏa Tiễn Hai Bước. Khi tiêu hao hết Phlogiston sẽ chuyển thành tiêu hao Thể Lực để Nhảy Hai Bước.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_E_Olorun_03"
       },
       {
@@ -273,6 +274,7 @@
         "Id": 30501,
         "Name": "Mũi Tên Linh Hồn",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 3 lần bắn tên liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiến hành <color=#FFD780FF>ngắm bắn</color> chuẩn hơn, sát thương cao hơn.\nKhi ngắm bắn, nguyên tố Lôi sẽ tích tụ trên mũi tên. Mũi tên mang nguyên tố Lôi sẽ gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nBắn mưa tên xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -409,6 +411,7 @@
         "Id": 30502,
         "Name": "Màn Đêm Trói Buộc",
         "Description": "Ororon cụ thể hóa bí thuật cổ xưa của Chủ Nhân Gió Đêm thành <color=#FFD780FF>Ngọc Linh Hồn</color> của màn đêm và ném vào kẻ địch, gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> mang thuộc tính Dạ Hồn.\nKhi xung quanh có kẻ địch khác, Ngọc Linh Hồn sẽ nảy bật giữa những kẻ địch, gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> mang thuộc tính Dạ Hồn. Sau mỗi lần thi triển Màn Đêm Trói Buộc, mỗi kẻ địch chỉ được chọn làm mục tiêu một lần.\nKhi nảy bật 3 lần hoặc không còn kẻ địch bị chọn làm mục tiêu thì Ngọc Linh Hồn sẽ biến mất.\n\n<i>\"Con người luôn muốn dự đoán tương lai, nhưng đó có lẽ là vì họ chưa tìm được việc mình nên làm... Xin lỗi, lại nói những lời khó hiểu rồi.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Olorun_01"
       }
     ],
@@ -594,6 +597,7 @@
       "Id": 30505,
       "Name": "Tiếng Vọng U Ám",
       "Description": "Ororon triệu hồi nghi thức cổ đại, gây <color=#FFACFFFF>Sát Thương Phạm Vi Nguyên Tố Lôi</color> mang thuộc tính Dạ Hồn, đồng thời triệu hồi Mắt Siêu Âm.\n\n<color=#FFD780FF>Mắt Siêu Âm</color>\n·Liên tục khiêu khích kẻ địch xung quanh tấn công.\n·Liên tục xoay tròn và giải phóng sóng âm, gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> mang thuộc tính Dạ Hồn cho kẻ địch xung quanh.\n\n<i>Người đủ nhạy bén sẽ nghe được âm thanh của vạn vật. Như vậy cho dù là đêm dài tăm tối thì cũng sẽ không bị mất phương hướng.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Olorun_01"
     },
     "Inherents": [
@@ -618,6 +622,7 @@
         "Id": 1052101,
         "Name": "Cảm Nhận Trong Đêm Tối",
         "Description": "Sau khi nhân vật trong đội ở gần kích hoạt Dạ Hồn Bùng Nổ, Ororon sẽ nhận 40 điểm Dạ Hồn. Trong 15s sau khi thi triển Kỹ Năng Nguyên Tố, khi đòn đánh mang loại nguyên tố <color=#80C0FFFF>Thủy</color> hoặc <color=#FFACFFFF>Lôi</color> của nhân vật khác trong đội đánh trúng kẻ địch, Ororon sẽ nhận 5 điểm Dạ Hồn. Hiệu quả này mỗi 0.3s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 10 lần.\nGiới hạn Điểm Dạ Hồn của Ororon là 80 điểm.\n\nNgoài ra, khi kẻ địch gần đó chịu sát thương phản ứng <color=#FFACFFFF>Điện Cảm hoặc Nguyệt-Điện Cảm</color> hoặc sát thương thuộc tính Dạ Hồn do nhân vật khác trong đội gần đó gây ra, nếu Ororon có ít nhất 10 điểm Dạ Hồn, thì anh ấy sẽ tiêu hao 10 điểm Dạ Hồn để tiến vào trạng thái Dạ Hồn Chúc Phúc và kích hoạt hiệu quả \"Siêu Giác Quan\": Gây <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> mang thuộc tính Dạ Hồn cho tối đa 4 kẻ địch xung quanh tương đương 160% Tấn Công của Ororon. Hiệu quả nêu trên mỗi 1.8s tối đa kích hoạt một lần.\n\n<color=#FFD780FF>Dạ Hồn Chúc Phúc - Ororon</color>\nTrạng thái Dạ Hồn Chúc Phúc của Ororon tối đa duy trì 6s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_05"
       },
       {
@@ -642,6 +647,7 @@
         "Id": 1052201,
         "Name": "Chất Xúc Tác Diện Mạo",
         "Description": "Sau khi <color=#FFD780FF>Ngọc Linh Hồn</color> từ Kỹ Năng Nguyên Tố <color=#FFD780FF>Màn Đêm Trói Buộc</color> đánh trúng kẻ địch, Ororon sẽ nhận được hiệu quả Ấn Diện Mạo trong 15s.\n\n<color=#FFD780FF>Ấn Diện Mạo</color>\nNhân vật ra trận trong đội gần đó tiến hành Tấn Công Thường, Trọng Kích hoặc Tấn Công Khi Đáp trúng kẻ địch, sẽ hồi phục cho nhân vật đó 3 điểm Năng Lượng Nguyên Tố. Nếu Ororon không ra trận thì Ororon cũng sẽ được hồi phục 3 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 1s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 3 lần.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_06"
       },
       {
@@ -660,6 +666,7 @@
         "Id": 1052301,
         "Name": "Món Quà Dạ Vực - Sương Ảnh Hoạt Náo",
         "Description": "Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Ororon. Nhân vật trong trận khi ở trên không, đổi sang Ororon ra trận sẽ kích hoạt: Ororon sẽ nhảy lên cao. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa.\n\nKhi nhấn giữ ngắm bắn, Ororon sẽ vào trạng thái \"Ngoại Cảm\". Khi ở trong trạng thái này, Ororon có thể tương tác với Graffiti Linh Hồn và Hoa Văn Linh Hồn để lấy thông tin và sức mạnh. Quy tắc tương tác vật phẩm này tương tự như quy tắc của Iktomisaurus.\n\nNgoài ra, khi nhấn giữ nút nhảy, Ororon sẽ tiêu hao 75 Thể Lực để nhảy lên cao. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, Ororon sẽ ưu tiên tiêu hao 5 điểm Phlogiston để nhảy đến độ cao cao hơn.\nKhi ở trên không, Ororon có thể nhấn giữ Tấn Công Thường và tiêu hao Phlogiston hoặc Thể Lực để tiến hành ngắm bắn.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_07"
       },
       {
@@ -678,6 +685,7 @@
         "Id": 1052501,
         "Name": "Nghệ Thuật Thay Da Đổi Thịt",
         "Description": "Nhân vật trong đội của bản thân khi bay, tốc độ di chuyển tăng 15%.\nKhông thể cộng dồn với buff Thiên Phú có cùng hiệu quả.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Olorun_08"
       }
     ],

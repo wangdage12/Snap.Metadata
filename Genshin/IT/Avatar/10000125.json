@@ -277,6 +277,7 @@
         "Id": 11251,
         "Name": "Cascata di rugiada lunare",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nEvoca delle Maree di luce lunare, sferrando fino a 3 attacchi che infliggono <color=#80C0FFFF>DAN da Hydro</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#80C0FFFF>DAN da Hydro ad area</color> dopo un breve periodo di lancio.\nSe ha almeno 1 unità di {LINK#N11190008}<color=#FFD780FF>Rugiada verdeggiante</color>{/LINK} a disposizione, gli attacchi caricati di Colombina vengono sostituiti dall'attacco caricato speciale <color=#FFD780FF>Purificazione della rugiada lunare</color>, che consuma 1 unità di Rugiada verdeggiante al posto del vigore per infliggere 3 iterazioni di <color=#99FF88FF>DAN da Dendro ad area</color> agli avversari di fronte a lei. Tali DAN sono considerati DAN da Fioritura lunare.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nColombina si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <color=#80C0FFFF>DAN da Hydro ad area</color> all'impatto col suolo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -539,6 +540,7 @@
         "Id": 11252,
         "Name": "Maree eterne",
         "Description": "Risveglia le Maree di luna, infliggendo <color=#80C0FFFF>DAN da Hydro ad area</color> ed evocando una {LINK#N11250001}<color=#FFD780FF>Marea gravitazionale</color>{/LINK}.\nLa <color=#FFD780FF>Marea gravitazionale</color> segue il personaggio attivo in campo e infligge costantemente <color=#80C0FFFF>DAN da Hydro ad area</color> agli avversari circostanti. Quando la <color=#FFD780FF>Marea gravitazionale</color> è in campo e i membri vicini del gruppo innescano reazioni lunari o infliggono DAN da reazione lunare, Colombina accumula della <color=#FFD780FF>Gravità</color> speciale. Quando quest'ultima raggiunge il suo limite, gli avversari subiscono diversi tipi di DAN in base al tipo di reazione lunare che ha fornito la maggiore quantità di <color=#FFD780FF>Gravità</color> a Colombina.\nQuando <color=#FFD780FF>Presagio lunare: Barlume ascendente</color> è attivo, la <color=#FFD780FF>Marea gravitazionale</color> infligge <color=#80C0FFFF>DAN da Hydro ad area</color> in una zona più ampia.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Columbina_01"
       }
     ],
@@ -724,6 +726,7 @@
       "Id": 11255,
       "Name": "Malinconia lunare",
       "Description": "Le colline e le maree si uniscono sotto la luce argentea di una nuova luna. Trasforma temporaneamente il terreno circostante in un {LINK#N11250002}<color=#FFD780FF>Dominio lunare</color>{/LINK}, infliggendo <color=#80C0FFFF>DAN da Hydro ad area</color>.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Columbina_01"
     },
     "Inherents": [
@@ -746,6 +749,7 @@
         "Id": 1252101,
         "Name": "Delirio lunare",
         "Description": "#Quando s'innesca un'{LINK#N11250001}<color=#FFD780FF>Interferenza gravitazionale</color>{/LINK}, Colombina ottiene l'effetto Tentazione lunare, che aumenta il suo tasso di CRIT di un 5% per 10{NON_BREAK_SPACE}s. Quest'effetto è cumulabile fino a 3 volte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_05"
       },
       {
@@ -764,6 +768,7 @@
         "Id": 1252201,
         "Name": "Legge della Luna nuova",
         "Description": "#Quando i personaggi all'interno del {LINK#N11250002}<color=#FFD780FF>Dominio lunare</color>{/LINK} innescano una reazione lunare, ottengono i seguenti effetti in base alla reazione innescata.\n· <color=#FFD780FF>Carica lunare</color>: quando i fulmini delle nubi temporalesche colpiscono un bersaglio valido, c'è un 33% di probabilità che venga scagliato un fulmine aggiuntivo.\n· <color=#FFD780FF>Fioritura lunare</color>: il gruppo ottiene 1 unità della speciale {LINK#N11250003}<color=#FFD780FF>Rugiada selenica</color>{/LINK}, per un massimo di 3 ogni 18{NON_BREAK_SPACE}s.\n· <color=#FFD780FF>Cristallizzazione lunare</color>: quando viene innescata Armonia della Gabbia lunare, ogni Gabbia lunare ha un 33% di probabilità di infliggere un attacco aggiuntivo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_06"
       },
       {
@@ -785,6 +790,7 @@
         "Id": 1252301,
         "Name": "Benedizione del Presagio lunare: Il chiaro di luna, offerto a te",
         "Description": "Quando un membro del gruppo innesca una reazione di Electrocarica, Fioritura o Cristallizzazione di Hydro, questa viene convertita rispettivamente in una reazione di Carica lunare, Fioritura lunare o Cristallizzazione lunare. I DAN base delle reazioni lunari innescate dai membri del gruppo ricevono un aumento in relazione ai PS max di Colombina. Per ogni 1.000 PS max, i DAN base delle reazioni lunari aumentano di uno 0,2%, fino a un 7% massimo.\n\nInoltre, quando Colombina è nel gruppo, il <color=#FFD780FF>Presagio lunare</color> del gruppo aumenta di 1 livello.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_07"
       },
       {
@@ -802,7 +808,8 @@
         },
         "Id": 1252501,
         "Name": "Veglia lunare",
-        "Description": "#Se un membro del gruppo viene sconfitto mentre si trova a Nod-Krai, quest'ultimo viene rianimato da Colombina. La quantità di PS posseduti dal personaggio dopo la rianimazione dipende dal livello amicizia di Colombina. L'effetto può innescarsi una volta ogni 100{NON_BREAK_SPACE}s. Non si attiva nei domini, nei Domini della conquista o nell'Abisso a spirale.\nInoltre, Colombina sembra avere un'affinità speciale con alcuni animali influenzati dal Kuuvahki...",
+        "Description": "#Se un membro del tuo gruppo viene sconfitto mentre si trova a Nod-Krai o nelle aree della Luna gelata, viene rianimato da Colombina. La quantità di PS posseduti dal personaggio dopo la rianimazione dipende dal livello amicizia di Colombina. L'effetto può innescarsi una volta ogni 100{NON_BREAK_SPACE}s. Non si attiva nei domini, nei Domini della conquista o nell'Abisso a spirale.\nInoltre, Colombina sembra avere un'affinità speciale con alcuni animali influenzati dal Kuuvahki...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Columbina_08"
       }
     ],

@@ -325,6 +325,7 @@
         "Id": 11191,
         "Name": "Pérégrination de la linnunrata",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 attaques qui infligent des <color=#99FF88FF>DGT Dendro</color>.\n\n<color=#FFD780FF>Attaque chargée</color>\nLauma subit une métamorphose d'envoyée spirituelle, se transformant en envoyée de la forêt paisible et pouvant charger en avant pendant un maximum de 10 s en consommant de l'endurance. Dans cet état, sa RÉS à l'interruption augmente et elle peut consommer de l'endurance supplémentaire pour effectuer jusqu'à deux sauts consécutifs.\nLorsque Lauma quitte cet état, sa métamorphose d'envoyée spirituelle entre en TdR, période pendant laquelle son attaque chargée est convertie en prière de nécromancesprit : consomme de l'endurance pour infliger des <color=#99FF88FF>DGT Dendro de zone</color> vers l'avant après un court délai.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <color=#99FF88FF>DGT Dendro de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -588,6 +589,7 @@
         "Id": 11192,
         "Name": "Runo : Repos sans aube de karsikko",
         "Description": "Lauma récite silencieusement un hymne ancien, invoquant un {LINK#N11190001}<color=#FFD780FF>sanctuaire du givrebois</color>{/LINK} : différents effets se produisent selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nLauma entonne un hymne de chasse, infligeant des <color=#99FF88FF>DGT Dendro de zone</color>.\n\n<color=#FFD780FF>Appui long</color>\nUtilisable si Lauma possède au moins 1 {LINK#N11190008}<color=#FFD780FF>rosée verdoyante</color>{/LINK} : Lauma consomme toutes ses rosées verdoyantes pour entonner un hymne de repos éternel infligeant une fois des <color=#99FF88FF>DGT Dendro de zone</color> et une fois des <color=#99FF88FF>DGT Dendro de zone</color> considérés comme des DGT de réaction de Sélénofleurissement. Chaque rosée verdoyante consommée accorde à Lauma 1 cumul de {LINK#N11190002}<color=#FFD780FF>chant lunaire</color>{/LINK}. Un maximum de 3 rosées verdoyantes peut être consommé de cette manière à chaque appui long de la compétence élémentaire.\n\nDe plus, lorsque Lauma touche un ennemi avec une compétence élémentaire ou une attaque de son sanctuaire du givrebois, la <color=#99FF88FF>RÉS Dendro</color> et la <color=#80C0FFFF>RÉS Hydro</color> de ce dernier diminuent pendant 10 s.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Lauma_01"
       }
     ],
@@ -805,6 +807,7 @@
       "Id": 11195,
       "Name": "Runo : Cœurs devenant la lune battante",
       "Description": "Espérant que les souhaits de tous les êtres deviennent comme le clair de lune qui baigne la terre, Lauma entonne un chant sacré du grand nord, obtenant 18 cumuls d'{LINK#N11190003}<color=#FFD780FF>hymne pâle</color>{/LINK}.\nDe plus, lorsque Lauma utilise son déchaînement élémentaire alors qu'elle possède des cumuls de {LINK#N11190002}<color=#FFD780FF>chant lunaire</color>{/LINK} ou en obtient moins de 15 s après l'utilisation de son déchaînement élémentaire, elle consomme tous ses cumuls de chant lunaire et obtient 6 cumuls d'hymne pâle par cumul de chant lunaire consommé. Cet effet peut être déclenché une fois pendant les 15 s qui suivent l'utilisation d'un déchaînement élémentaire.\n\n<color=#FFD780FF>Hymne pâle</color>\nLorsqu'un personnage de l'équipe à proximité inflige des DGT avec une réaction de Fleurissement, d'Exubérance, de Bourgeonnement ou de Sélénofleurissement, un cumul d'hymne pâle est consommé pour augmenter les DGT infligés selon la maîtrise élémentaire de Lauma. Un nombre de cumuls égal au nombre d'ennemis touchés sera consommé si ces DGT touchent plusieurs ennemis en même temps.\nLa durée de chaque cumul d'hymne pâle est calculée de façon indépendante.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Lauma_01"
     },
     "Inherents": [
@@ -830,6 +833,7 @@
         "Id": 1192101,
         "Name": "Lumière pour la nuit glaciale",
         "Description": "Pendant 20 s après avoir utilisé la compétence élémentaire <color=#FFD780FF>{LINK#S11192}Runo : Repos sans aube de karsikko{/LINK}</color> de Lauma, différents bonus sont accordés selon la <color=#FFD780FF>signelune</color> de l'équipe, les bonus de différents cycles signelunaires ne pouvant pas se cumuler.\n\n<color=#FFD780FF>Signelune « Lueur naissante »</color>\nLes DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe à proximité peuvent déclencher des coups CRIT dont le taux CRIT est fixé à 15 % et les DGT CRIT à 100 %. Le taux CRIT accordé par cet effet peut se cumuler avec le taux CRIT des effets similaires qui permettent aux réactions élémentaires de déclencher des coups CRIT.\n\n<color=#FFD780FF>Signelune « Lueur ascendante »</color>\nLorsqu'un personnage de l'équipe à proximité inflige des DGT avec une réaction de Sélénofleurissement, le taux CRIT augmente de 10 % et les DGT CRIT de 20 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_05"
       },
       {
@@ -853,6 +857,7 @@
         "Id": 1192201,
         "Name": "Purification pour la source",
         "Description": "Chaque point de maîtrise élémentaire de Lauma lui accorde les bonus suivants :\n· Augmente les DGT infligés par sa compétence élémentaire de 0,04 %, les DGT pouvant être augmentés d'un maximum de 32 % de cette manière.\n· Diminue le TdR de la <color=#FFD780FF>métamorphose d'envoyée spirituelle</color> de son attaque chargée de 0,02 %, ce TdR pouvant être diminué d'un maximum de 20 % de cette manière.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_06"
       },
       {
@@ -874,6 +879,7 @@
         "Id": 1192301,
         "Name": "Bénédiction de signelune : Chœur de la nature",
         "Description": "Lorsqu'un personnage de l'équipe déclenche une réaction de Fleurissement, elle est convertie en réaction de Sélénofleurissement, dont les DGT de base augmentent selon la maîtrise élémentaire de Lauma : chaque point de maîtrise élémentaire augmente les DGT de base de 0,0175 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <color=#FFD780FF>signelune</color> de l'équipe augmente d'un niveau lorsque Lauma fait partie de l'équipe.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_07"
       },
       {
@@ -892,6 +898,7 @@
         "Id": 1192501,
         "Name": "Prière pour la forêt",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Nod-Krai</color> sur la mini-carte.\nDe plus, Lauma semble avoir une affinité particulière avec certains petits animaux affectés par le kuuvahki...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Lauma_08"
       }
     ],

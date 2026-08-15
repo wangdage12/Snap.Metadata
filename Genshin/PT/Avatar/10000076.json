@@ -277,6 +277,7 @@
         "Id": 10761,
         "Name": "Disparo com Reviravoltas",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 disparos consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira </color>mais preciso e com Dano aumentado.\nAo mirar, ventos fortes se acumularão na ponta da flecha. Uma flecha completamente carregada com ventos fortes irá infligir <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas no ar que atingirão o solo rapidamente, alcançando os inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10762,
         "Name": "Reino do Vento de Nasamjnin",
         "Description": "Faruzan lança um poliedro que inflige <color=#80FFD7FF>Dano Anemo em AdE</color> contra os inimigos próximos e obtém o efeito \"Aparição Tempestuosa\".\nEnquanto estiver no estado \"Aparição Tempestuosa\", o próximo disparo com mira totalmente carregado de Faruzan consumirá o efeito \"Aparição Tempestuosa\" para disparar uma \"Flecha do Furacão Intenso\" que contém um vórtice de alta pressão. Esse disparo infligirá <color=#80FFD7FF>Dano Anemo</color> baseado no Dano de Disparo com Mira totalmente carregado de \"Ataque Normal: Disparo com Reviravoltas\".\n\n<color=#FFD780FF>Armadilha da Ventania</color>\nA Flecha do Furacão Intenso desencadeará o efeito \"Armadilha da Ventania\" na posição, inimigo ou personagem que atingir. Esse efeito será removido após um breve intervalo de tempo, gerando um vórtice Anemo que inflige <color=#80FFD7FF>Dano Anemo em AdE</color> e atrai os inimigos e objetos próximos. Se não atingir inimigos ou personagens, uma Armadilha da Ventania será gerada na posição atingida.\nO Dano do vórtice Anemo é considerado Dano de Habilidade Elemental.\n\n<i>Os ventos da verdade sopram os espíritos daqueles que buscam a veracidade, dispersando o miasma do preconceito.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Faruzan_01"
       }
     ],
@@ -708,6 +710,7 @@
       "Id": 10765,
       "Name": "Caminhos Secretos do Vento",
       "Description": "Faruzan rapidamente envia seu Poliedro Fantástico, lançando uma Onda Anemo Feroz que causa <color=#80FFD7FF>Dano Anemo em AdE</color>.\nEnquanto existir, o Poliedro Fantástico se moverá em uma trajetória triangular. Quando alcançar cada vértice desse triângulo, lançará uma \"Onda Anemo Feroz\".\n\n<color=#FFD780FF>Onda Anemo Feroz</color>\n· Quando a Onda Anemo Feroz é lançada, marcará os inimigos ao redor com o efeito \"Calamidade da Ventania\", reduzindo sua <color=#80FFD7FF>RES Anemo</color>;\n· Quando a Onda Anemo Feroz é lançada, aplicará o efeito \"Bênção da Ventania\" em todos os membros próximos da equipe, concedendo <color=#80FFD7FF>Bônus de Dano Anemo</color>.\n\n<i>É necessário respeitar a sabedoria desconhecida que pode ser encontrada em ruínas antigas.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Faruzan_01"
     },
     "Inherents": [
@@ -729,6 +732,7 @@
         "Id": 762101,
         "Name": "Corrente Impetuosa",
         "Description": "Quando Faruzan se encontra no estado de \"Aparição Tempestuosa\" criado pelo <color=#FFD780FF>Reino do Vento de Nasamjnin</color>, o tempo de carregamento necessário para ela realizar o Disparo com Mira é reduzido em 60%. Além disto, ela também poderá aplicar o efeito da \"Calamidade da Ventania\" de <color=#FFD780FF>Caminhos Secretos do Vento</color> no inimigo atingido pelo vórtice criado pelo efeito \"Armadilha da Ventania\".",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Faruzan_05"
       },
       {
@@ -751,6 +755,7 @@
         "Id": 762201,
         "Name": "Sabedoria Perdida das Sete Cavernas",
         "Description": "Quando os Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidades Elementais ou Supremos de um personagem sob o efeito da \"Bênção da Ventania\" de <color=#FFD780FF>Caminhos Secretos do Vento</color> causam <color=#80FFD7FF>Dano Anemo</color> nos inimigos, gerarão o efeito Proteção do Vento Feroz: aumenta o Dano causado baseado em 32% do ATQ Básico da Faruzan. Este efeito só pode ser ativado uma vez a cada 0.8s e é anulado quando o efeito da Benção da Ventania acaba ou depois que já foi ativado uma vez.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Faruzan_06"
       },
       {
@@ -769,6 +774,7 @@
         "Id": 762301,
         "Name": "Vestígios de Conhecimento",
         "Description": "Quando enviada para uma Expedição em Sumeru por 20 horas, Faruzan obtém 25% a mais de recompensas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Cyno_07"
       }
     ],

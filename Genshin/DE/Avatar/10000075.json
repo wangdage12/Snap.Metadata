@@ -276,6 +276,7 @@
         "Id": 10751,
         "Name": "Yuuban Meigen",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nEntfesselt Windklingen, um bis zu 3 Angriffe auszuführen und verursacht <color=#80FFD7FF>Anemo-Schaden</color>.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und konzentriert nach kurzer Aufladezeit vor sich ein Hochdruckfeld, das <color=#80FFD7FF>Anemo-Flächenschaden</color> verursacht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nKonzentriert die Anemo-Kraft, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <color=#80FFD7FF>Anemo-Flächenschaden</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -505,6 +506,7 @@
         "Id": 10752,
         "Name": "Hanega – Gesang des Windes",
         "Description": "Konzentriert die Kraft einer großen Luftmenge, um damit die Fesseln der Erde abzuwerfen. Verursacht in der Umgebung <color=#80FFD7FF>Anemo-Schaden</color> und steigt in die Höhe, um in den Zustand „Haltung des eleganten Windes“ einzutreten.\n\n<color=#FFD780FF>Haltung des eleganten Windes</color>\nIn diesem Zustand kann der Wanderer keinen Angriff aus dem Fall ausführen. Sein Standardangriff und heftiger Schlag werden zu Kuugo – Fushoudan und Kuugo – Toufukai, deren Schaden als Schaden von Standardangriffen bzw. Schaden heftiger Schläge betrachtet werden. Beide Fähigkeiten erhalten einen erhöhten Wirkungsbereich und verursachen mehr Schaden. Kuugo – Toufukai verbraucht keine Ausdauer.\nIn diesem Zustand kann der Wanderer fortlaufend in der Luft schweben und seine Aktionen haben die folgenden Eigenschaften:\n· Verbraucht fortlaufend „Kuugoryoku“ und bleibt im Schwebezustand.\n· Beim Rennen in der Luft wird zusätzlich Kuugoryoku verbraucht. Beim Gedrückthalten zum Beschleunigen wird fortlaufend Kuugoryoku verbraucht, um die schnelle Fortbewegung aufrechtzuerhalten, dieser Effekt ersetzt das Rennen.\n· Beim Springen wird zusätzlich Kuugoryoku verbraucht, um die Schwebehöhe zu erhöhen. Beim Gedrückthalten zum Springen wird fortlaufend Kuugoryoku verbraucht, um die Schwebehöhe fortlaufend zu erhöhen.\n\nWird Kuugoryoku aufgebraucht, endet dieser Schwebezustand.\nWird diese Fähigkeit innerhalb der Dauer von „Haltung des eleganten Windes“ erneut ausgelöst, endet dieser Zustand.\n\n<i>„Die profane Welt tanzt ausgelassen und das Geheimnis schwebt wie eine Blüte, selbstvergessen.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wanderer_01"
       }
     ],
@@ -658,6 +660,7 @@
       "Id": 10755,
       "Name": "Kyougen – Fünf rituelle Stücke",
       "Description": "Komprimiert die Luft zu einem alle Sorgen zerschmetternden Vakuum und verursacht dabei mehrfach <color=#80FFD7FF>Anemo-Flächenschaden</color>.\nIm Zustand Haltung des eleganten Windes der Elementarfähigkeit „Hanega – Gesang des Windes“ wird dieser Zustand nach dem Auslösen beendet.\n\n<i>„Stück für Stück klart der Himmel auf, Träume, die waren und Träume, die sind, schweben im Wind.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wanderer_01"
     },
     "Inherents": [
@@ -682,6 +685,7 @@
         "Id": 752101,
         "Name": "Jadeblume",
         "Description": "Verleiht dem diesmaligen Zustand „Haltung des eleganten Windes“ der Figur bei der Anwendung von <color=#FFD780FF>Hanega – Gesang des Windes</color> nach Kontakt mit dem <color=#80C0FFFF>Hydro</color>-, <color=#FF9999FF>Pyro</color>-, <color=#99FFFFFF>Kryo</color>- oder <color=#FFACFFFF>Elektro</color>-Element die entsprechenden Verstärkungseffekte, je nachdem, mit welchem Element interagiert wurde:\n· <color=#80C0FFFF>Hydro</color>: Erhöht das max. Kuugoryoku um 20 Punkte.\n· <color=#FF9999FF>Pyro</color>: Erhöht den ANG um 30 %.\n· <color=#99FFFFFF>Kryo</color>: Erhöht die KT um 20 %.\n· <color=#FFACFFFF>Elektro</color>: Stellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen 0,8 Punkte Elementarenergie wieder her, Abklingzeit 0,2 s.\n\nEs können gleichzeitig höchstens 2 unterschiedliche Verstärkungseffekte der entsprechenden Elemente verliehen werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_05"
       },
       {
@@ -704,6 +708,7 @@
         "Id": 752201,
         "Name": "Brise der Träumerei",
         "Description": "#Erhält beim Treffen von Gegnern mit Kuugo – Fushoudan oder Kuugo – Toufukai des Wanderers im Zustand <color=#FFD780FF>„Haltung des eleganten Windes“</color> mit einer Wahrscheinlichkeit von 16{NON_BREAK_SPACE}% den Effekt „Anmut des Windes“: Beschleunigt der Wanderer im diesmaligen Zustand „Haltung des eleganten Windes“ in der Luft, wird dieser Effekt entfernt, sodass diese Beschleunigung in der Luft kein Kuugoryoku verbraucht und 4 Windpfeile abgeschossen werden, die jeweils <color=#80FFD7FF>Anemo-Schaden</color> in Höhe von 35{NON_BREAK_SPACE}% ANG verursachen.\nErzeugt ein Kuugo – Fushoudan oder Kuugo – Toufukai nicht den Effekt „Anmut des Windes“, wird die Wahrscheinlichkeit des Auslösens beim nächsten Treffer um 12{NON_BREAK_SPACE}% erhöht. 0,1 s Abklingzeit für die Beurteilung der Effekterzeugung.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_06"
       },
       {
@@ -722,6 +727,7 @@
         "Id": 752301,
         "Name": "Saiten der wirbelnden Wolken",
         "Description": "Verringert die für den Aufstieg von Katalysatoren oder Bögen verbrauchte Menge an Mora um 50 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wanderer_07"
       }
     ],

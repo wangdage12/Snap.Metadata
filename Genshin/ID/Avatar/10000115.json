@@ -307,6 +307,7 @@
         "Id": 11151,
         "Name": "Favonius Bladework - Ritual",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 4 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -443,6 +444,7 @@
         "Id": 11152,
         "Name": "Immersive Ordinance",
         "Description": "Saatnya memainkan sebuah trik! Dahlia akan memanggil Sacramental Shower dengan cara berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nSetelah doa singkat, Dahlia akan memanggil Sacramental Shower di hadapannya.\n\n<color=#FFD780FF>Mode Tahan</color>\nDahlia akan terus berdoa, dan saat berakhir, ia akan memanggil Sacramental Shower di posisi yang ditentukan.\n\n<color=#FFD780FF>Sacramental Shower</color>\nSetelah musuh atau Karakter di dalam party menyentuh Sacramental Shower, akan muncul efek yang berbeda berdasarkan subjek yang menyentuhnya:\nJika musuh yang menyentuh, maka Sacramental Shower akan meledak dan mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> pada musuh di sekitar.\nJika Karakter di dalam party yang menyentuh, maka Sacramental Shower akan mementalkan Karakter tersebut ke udara.\n\nHanya bisa ada satu Sacramental Shower yang bisa dipanggil oleh Dahlia dalam satu waktu.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Dahlia_01"
       }
     ],
@@ -643,6 +645,7 @@
       "Id": 11155,
       "Name": "Radiant Psalter",
       "Description": "Berdoa kepada yang suci dengan niat dan suara yang tulus, mengakibatkan <color=#80C0FFFF>Hydro DMG Area</color> ke musuh di sekitar, memberikan Favonian Favor terhadap Karakter di dalam party, dan menciptakan Shield of Sacred Favor.\nDMG yang dapat ditahan Shield of Sacred Favor didasarkan pada Max HP Dahlia, dan memiliki <color=#80C0FFFF>250% pertahanan</color> terhadap Hydro DMG.\n\n<color=#FFD780FF>Favonian Favor</color>\nSelama aktif, jika Perisai Shield of Sacred Favor hancur terkena DMG, Dahlia akan mengonsumsi satu lapis efek Benison untuk menciptakan Shield of Sacred Favor baru.\n\nDahlia bisa mendapatkan efek Benison dengan cara berikut:\n·Dahlia akan mendapatkan 1 lapis efek Benison saat Karakter aktif di dalam party yang terpengaruh efek Favonian Favor menyerang musuh dengan Normal Attack sebanyak 4 kali.\n·Setelah efek Talenta Ascension \"The Wind's Gentle Grace\" terpicu (Harus membuka Talenta Ascension \"The Wind's Gentle Grace\" terlebih dahulu).\nDahlia bisa mendapatkan maksimum 4 lapis Benison untuk setiap durasi Favonian Favor.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Dahlia_01"
     },
     "Inherents": [
@@ -664,6 +667,7 @@
         "Id": 1152101,
         "Name": "The Wind's Gentle Grace",
         "Description": "Saat Karakter yang berada dalam pengaruh Favonian Favor dari Elemental Burst <color=#FFD780FF>{LINK#S11155}Radiant Psalter{/LINK}</color> memicu reaksi Frozen pada musuh, akan memberikan 2 lapis efek Benison kepada Dahlia. Efek ini dapat terpicu sekali setiap 8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_05"
       },
       {
@@ -685,6 +689,7 @@
         "Id": 1152201,
         "Name": "Prayer of Well-Wrought Joy",
         "Description": "Saat Karakter aktif di dalam party sendiri berada dalam pengaruh Favonian Favor dari Elemental Burst <color=#FFD780FF>{LINK#S11155}Radiant Psalter{/LINK}</color>, ATK SPD-nya akan meningkat berdasarkan Max HP Dahlia: Setiap 1.000 poin Max HP Dahlia akan meningkatkan 0,5% ATK SPD. ATK SPD Karakter dapat meningkat hingga 20% dengan cara ini.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dahlia_06"
       },
       {
@@ -703,6 +708,7 @@
         "Id": 1152301,
         "Name": "Pilgrimage Upon Returning Winds",
         "Description": "Saat siang hari (06:00 - 18:00), anggota party sendiri mendapatkan efek Swift Stride: meningkatkan 10% Movement SPD.\nEfek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss. Efek Swift Stride tidak dapat ditumpuk.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

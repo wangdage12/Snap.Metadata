@@ -261,6 +261,7 @@
         "Id": 30000,
         "Name": "Tratamento Esfriante",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 ataques com esguichos de água que infligem <color=#80C0FFFF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para lançar uma Bola d'Água no ar que causa <color=#80C0FFFF>Dano Hydro em AdE</color> ao cair no chão.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder do Hydro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80C0FFFF>Dano Hydro em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -461,6 +462,7 @@
         "Id": 30002,
         "Name": "Tubarão Surfista das Ondas",
         "Description": "Combinando seu conhecimento do controle de velocidade e das marés, Mualani pode surfar em qualquer lugar, a qualquer hora.\nDepois de usar essa Habilidade, Mualani ganha 60 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Mualani</color>\nConsome continuamente pontos de Espírito da Noite. Quando eles acabam ou quando a Habilidade é usada novamente, o estado Bênção do Espírito da Noite de Mualani acaba. O estado possui as seguintes características:\n· Monta a Prancha Tubarão, aumentando a Veloc. Mov. e Resistência contra Interrupção de Mualani. Mualani pode se mover na água e em Flogisto Líquido enquanto esse estado está ativo, e ela não sofrerá Dano do Flogisto Líquido.\n· Ataques Normais serão convertidos em Mordidas do Tubarão, causando <color=#80C0FFFF>Dano Hydro</color> com alinhamento de Espírito da Noite. As Mordidas do Tubarão podem ocorrer no ar. O Dano causado dessa forma é considerado Dano de Ataque Normal.\n· Quando ela entra em contato com oponentes nesse estado, Mualani aplica \"Marcado como Presa\" neles e ganha 1 acúmulo de Impulso da Onda. Máximo de 3 acúmulos. É possível obter 1 acúmulo do mesmo inimigo uma vez a cada 0.7s.\n\n<color=#FFD780FF>Impulso da Onda e Marcado como Presa</color>\nQuando Mualani usa Mordida do Tubarão, seu Dano causado aumenta baseado na quantidade de acúmulos de Impulso da Onda. Quando ela possui 3 acúmulos, uma Mordida do Tubarão será convertida em Mordida do Tubarão Gigante aumentando ainda mais seu Dano e removendo todos os acúmulos de Marcado como Presa ao atingir um inimigo.\nQuando Mordidas do Tubarão atingem oponentes, essa marca é removida e ela dispara Mísseis Tubarão em até 5 oponentes Marcados como Presa, causando Dano contra eles equivalente a essa instância de Mordida do Tubarão e removendo Marcado como Presa deles. Se mais de 1 oponente é alvo de Mordida do Tubarão e Míssil Tubarão, o Dano causado será reduzido, alcançando até 72% do Dano original quando atingir 3 oponentes.\n\n<i>Primeiro, Tubarão é um tubarão de água doce, bem como uma prancha. Segundo, ele não precisa comer, mas com certeza vai morder.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Mualani_01"
       }
     ],
@@ -614,6 +616,7 @@
       "Id": 30007,
       "Name": "Disparo da Tempestade Explosiva",
       "Description": "Dispara um Super Míssil Tubarão que rastreia os oponentes, causando <color=#80C0FFFF>Dano Hydro em AdE</color> com alinhamento de Espírito da Noite baseado na Vida Máxima de Mualani.\n\n<i>Mualani nomeou eles como Mísseis de Tubarão por causa da combinação de água e fogo, deixando o nome mais parecido com fontes termais.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Mualani_01"
     },
     "Inherents": [
@@ -635,6 +638,7 @@
         "Id": 1022101,
         "Name": "Flutuador de Água Doce Antitérmico",
         "Description": "Quando a Mordida do Tubarão atinge um oponente, ela gerará um Flutuador nas proximidades. Mualani restaurará 20 pontos de Espírito da Noite quando ela pegar um Flutuador. Apenas 2 Flutuadores podem ser criados dessa maneira durante um estado da Bênção do Espírito da Noite.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_05"
       },
       {
@@ -658,6 +662,7 @@
         "Id": 1022201,
         "Name": "Melhor Guia de Natlan",
         "Description": "Depois que um membro próximo da equipe ativa uma Explosão do Espírito da Noite, Mualani ganha 1 acúmulo de Façanhas da Surfista que dura 20s. Máximo de 3 acúmulos. Quando ela usa <color=#FFD780FF>Disparo da Tempestade Explosiva</color>, Mualani remove todos os acúmulos e aumenta o Dano causado por Disparo da Tempestade Explosiva em 15%/30%/45% de sua Vida Máxima.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_06"
       },
       {
@@ -679,6 +684,7 @@
         "Id": 1022301,
         "Name": "Presente do Reino da Noite: Na Cresta e Fundo das Ondas",
         "Description": "Depois que os pontos de Espírito da Noite de Mualani acabam, ela pode trocar para consumir Flogisto e manter sua Bênção do Espírito da Noite.\nEnquanto estiver em uma área com um Dispositivo de Flogisto em Natlan, ela pode usar Transmissão do Espírito da Noite: Mualani. Quando o personagem ativo estiver correndo, nadando ou em um modo de movimento causado por certos Talentos, ou estiver em uma certa altura no ar, o seguinte efeito será desencadeado quando trocar para Mualani: ela entrará no estado Bênção do Espírito da Noite e ganhará 40 pontos de Espírito da Noite. Sua própria equipe pode desencadear essa Transmissão do Espírito da Noite uma vez a cada 10s.\n\nAlém disso, quando estiver em Natlan, Mualani consumirá 75% a menos de pontos de Espírito da Noite ou de Flogisto ao se mover na água e em Flogisto Líquido durante Bênção do Espírito da Noite, e consumirá 35% a menos de pontos de Espírito da Noite enquanto estiver fazendo o mesmo fora de Natlan.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Mualani_07"
       },
       {
@@ -699,6 +705,7 @@
         "Id": 1022501,
         "Name": "O Truque é Continuar Sorrindo",
         "Description": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis regenerará 15 de Flogisto. Além disso, exibe no mini-mapa o local das <color=#FFD780FF>especialidades de Natlan</color> próximas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

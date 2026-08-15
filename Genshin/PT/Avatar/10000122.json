@@ -309,6 +309,7 @@
         "Id": 11221,
         "Name": "Mensagem da Serpente Itinerante",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 chutes com sua postura de serpente feroz e elegante, causando <color=#99FF88FF>Dano Dendro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nEntra na Postura da Serpente, consumindo Stamina para se mover rapidamente por até 2.5s. Ao soltar essa Habilidade, quando a duração acabar ou a Stamina exaurir, Nefer retornará para o estado da Postura da Serpente, e consome uma certa quantidade adicional de Stamina para causar <color=#99FF88FF>Dano Dendro</color> contra o inimigo. Quando estiver no estado {LINK#N11220001}<color=#FFD780FF>Baile das Sombras</color>{/LINK}, seu consumo adicional de Stamina será reduzido.\nAlém disso, quando Nefer está em Postura da Serpente, e lançar sua Habilidade Elemental <color=#FFD780FF>{LINK#S11222}Estratégia de Senet: Dança de Mil Noites{/LINK}</color>, ou quando correr, não mais sairá da Postura da Serpente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#99FF88FF>Dano Dendro em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -602,6 +603,7 @@
         "Id": 11222,
         "Name": "Estratégia de Senet: Dança de Mil Noites",
         "Description": "Uma dança que dissolveu dinastias, gelada como uma noite de inverno no grande mar de areias, mas ainda com o carinho remanescente do luar. Nefer avança em frente, causando <color=#99FF88FF>Dano Dendro em AdE</color> e entrando no estado {LINK#N11220001}<color=#FFD780FF>Baile das Sombras</color>{/LINK}.\nNo estado Baile das Sombras, se possuir pelo menos 1 {LINK#N11190008}<color=#FFD780FF>Orvalho Verdejante</color>{/LINK}, o Ataque Carregado lançado de Nefer será substituído pelo Ataque Carregado especial {LINK#N11220002}<color=#FFD780FF>Truque Fantástico</color>{/LINK} que não consome Stamina. O estado Baile das Sombras aumenta a RES contra interrupção de Nefer.\n\nInicialmente possui 2 Usos.\n\n<i>\"O mundo é um jogo em que as peças continuam escondidas por trás de um véu. Para evitar cair numa armadilha, é necessário coletar toda informação possível. Esse é o significado do segredo.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nefer_01"
       }
     ],
@@ -817,6 +819,7 @@
       "Id": 11225,
       "Name": "Voto Sagrado: Fantasma do Olho Verdadeiro",
       "Description": "Concede a revelação para os mistérios da falsidade através da visão verdade de Thoth, causando <color=#99FF88FF>Dano Dendro em AdE</color> contra os inimigos em frente. Ao lançar, Nefer consome todas as {LINK#N11220003}<color=#FFD780FF>Cortinas do Segredo Falso</color>{/LINK}, aumentando o Dano dessa instância do Supremo.\n\n<i>\"As bênçãos do Rei Íbis proclamadas pelos cantos das areias escaldantes são, na verdade, mais parecidas com maldições perversas.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nefer_01"
     },
     "Inherents": [
@@ -843,6 +846,7 @@
         "Id": 1222101,
         "Name": "Aposta Sob o Luar",
         "Description": "Nefer obtém os seguintes fortalecimentos de acordo com o <color=#FFD780FF>Presságio Lunar</color> da equipe.\n\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: ao lançar a Habilidade Elemental <color=#FFD780FF>{LINK#S11222}Estratégia de Senet: Dança de Mil Noites{/LINK}</color>, mudará os Núcleos Dendro em campo para Núcleos da Falsidade, e nos próximos 15s, quando um personagem próximo desencadear Florescimento Lunar, substituirá os Núcleos Dendro e Núcleos da Riqueza para gerar Núcleos da Falsidade. Os Núcleos da Falsidade não podem desencadear Superflorescimento e Germinação, e também não podem explodir.\nQuando Nefer realizar um Ataque Carregado ou {LINK#N11220002}<color=#FFD780FF>Truque Fantástico</color>{/LINK}, poderá absorver os Núcleos da Falsidade dentro de uma certa AdE. Cada Núcleo da Falsidade absorvido fará ela obter 1 acúmulo de {LINK#N11220003}<color=#FFD780FF>Cortina do Segredo Falso</color>{/LINK}. Quando esse efeito acumular até 3 vezes ou redefinir a duração de 3 acúmulos, aumenta a Proficiência Elemental de Nefer em 100 por 8s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_05"
       },
       {
@@ -867,6 +871,7 @@
         "Id": 1222201,
         "Name": "Filha das Areias",
         "Description": "Quando Nefer está no estado {LINK#N11220001}<color=#FFD780FF>Baile das Sombras</color>{/LINK}, durante 5s após um membro da equipe desencadear uma reação de Florescimento Lunar, o estado <color=#FFD780FF>{LINK#S11221}Postura da Serpente{/LINK}</color> de Nefer fornecerá {LINK#N11190008}<color=#FFD780FF>Orvalho Verdejante</color>{/LINK} adicional. A cada 100 pontos de Proficiência Elemental de Nefer acima de 500, esse efeito adicional de provisão será fortalecido em 10%. O aumento máximo que pode ser alcançado dessa forma é de 50%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_06"
       },
       {
@@ -888,6 +893,7 @@
         "Id": 1222301,
         "Name": "Bênção do Presságio Lunar: Corredor Sob a Sombra do Crepúsculo",
         "Description": "Quando um membro da equipe desencadeia Florescimento, converte para desencadear Florescimento Lunar, e aumenta o Dano Básico causado por Florescimento Lunar para o personagem da equipe com base na Proficiência Elemental de Nefer: cada ponto de Proficiência Elemental aumenta o Dano Básico de Florescimento Lunar em 0.0175%. É possível aumentar o Dano em até 14% dessa forma.\n\nAlém disso, quando Nefer está na equipe, aumenta o <color=#FFD780FF>Presságio Lunar</color> da equipe em um nível.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_07"
       },
       {
@@ -906,6 +912,7 @@
         "Id": 1222501,
         "Name": "Conspiração do Cofre Dourado",
         "Description": "Ganha 25% de recompensas a mais quando enviada numa Expedição em Nod-Krai por 20 horas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nefer_08"
       }
     ],

@@ -323,6 +323,7 @@
         "Id": 10781,
         "Name": "Reverse Investigativmethode",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10782,
         "Name": "Universalität – Elaboration der Form",
         "Description": "Führt einen schnellen Vorstoß aus, fügt Gegnern in der Nähe beim Ende des Vorstoßes <color=#99FF88FF>Dendro-Schaden</color> zu und erschafft „Lichtspiegel“.\nBeim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.\n\n<color=#FFD780FF>Gedrückt halten</color>\nTritt in einen Zielmodus ein, in dem die Richtung des schnellen Vorstoßes bestimmt werden kann.\n\n<color=#FFD780FF>Lichtspiegel</color>\nBeim Auslösen erschafft Alhaitham 1 Lichtspiegel: Wenn zu diesem Zeitpunkt kein Lichtspiegel vorhanden ist, wird 1 zusätzlicher Lichtspiegel erschaffen. Lichtspiegel haben folgende Effekte:\n· Wenn Lichtspiegel vorhanden sind, wird der von Alhaithams Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall verursachte Schaden zu <color=#99FF88FF>Dendro-Schaden</color> umgewandelt, der nicht von anderen Elementen überdeckt werden kann.\n· Wenn Alhaitham einen Gegner mit dem zuvor beschriebenen Angriff trifft, führt der Lichtspiegel einen Projektionsangriff aus, der abhängig von der Anzahl der vorhandenen Lichtspiegel <color=#99FF88FF>Dendro-Flächenschaden</color> verursacht.\n· Es können höchstens 3 Lichtspiegel vorhanden sein.\n· Mit der Zeit verschwinden Lichtspiegel allmählich, und beim Auswechseln der Figur verschwinden alle Lichtspiegel.\n\n<i>„Die Wahrheit liegt im Ungewissen, selbst ein noch so großer Gelehrter ist nicht vor Fehlern gefeit.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Alhatham_01"
       }
     ],
@@ -831,6 +833,7 @@
       "Id": 10785,
       "Name": "Sonderfeld – Ketten der Erscheinung",
       "Description": "Erschafft ein besonderes Bindungsfeld, das mehrfach <color=#99FF88FF>Dendro-Flächenschaden</color> verursacht.\nBeim Auslösen werden alle vorhandenen Lichtspiegel verbraucht und die Häufigkeit, wie oft Schaden verursacht wird, wird erhöht.\n2 s nach Auslösen werden, falls dabei 0/1/2/3 Lichtspiegel verbraucht wurden, jeweils 3/2/1/0 Lichtspiegel für Alhaitham erschaffen.\n\n<i>„Falls Gelehrte die Suche nach der Weisheit zu ihrem Ziel machen, dann müssen sie zum Feind all dessen werden, was sie je gelesen haben, nur dann können sie es vermeiden, voreingenommen zu sein.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Alhatham_01"
     },
     "Inherents": [
@@ -852,6 +855,7 @@
         "Id": 782101,
         "Name": "Vier Gründe erleuchtet",
         "Description": "Erschafft Alhaitham einen Lichtspiegel, nachdem sein heftiger Schlag oder Angriff aus dem Fall einen Gegner getroffen hat, Abklingzeit 12 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_05"
       },
       {
@@ -873,6 +877,7 @@
         "Id": 782201,
         "Name": "Das Mysterium offenbart",
         "Description": "Für jeden Punkt der Elementarkunde, den Alhaitham besitzt, werden der Schaden der Projektionsangriffe und der Schaden von <color=#FFD780FF>Sonderfeld – Ketten der Erscheinung</color> um 0,1 % erhöht.\nDer maximale SCH-Bonus, den Projektionsangriffe und Sonderfeld – Ketten der Erscheinung auf diese Weise erhalten können, beträgt 100 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_06"
       },
       {
@@ -891,6 +896,7 @@
         "Id": 782301,
         "Name": "Gesetz der superdeterministischen Reduktion",
         "Description": "Stellt beim Zusammensetzen von Material zum Aufstieg von Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_07"
       }
     ],

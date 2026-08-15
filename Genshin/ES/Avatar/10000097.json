@@ -307,6 +307,7 @@
         "Id": 10971,
         "Name": "Flechas de carrizo regias",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques consecutivos con su arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, el poder del trueno se acumulará en la punta de la flecha antes de ser disparada. Sus efectos variarán según la duración de la carga:\nCarga 1: dispara una flecha imbuida del elemento Electro que inflige <color=#FFACFFFF>Daño Electro</color>.\nCarga 2: dispara una <color=#FFD780FF>flecha perforasombras</color> capaz de atravesar las defensas de los oponentes e inflige <color=#FFACFFFF>Daño Electro</color> a los enemigos que encuentra a su paso. Cuando la flecha perforasombras esté completamente cargada, Sethos no podrá moverse.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -458,7 +459,8 @@
         },
         "Id": 10972,
         "Name": "Rito ancestral: Rugido atronarena",
-        "Description": "Concentra el poder del trueno para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> y realizar una retirada con presteza. Si este ataque causa una reacción de Electrocargado, Electrocargado Lunar, Superconductor, Sobrecarga, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, Sethos recupera cierta cantidad de Energía Elemental.\n\n<i>“El sacerdote de los dioses, el mago zahorí, los cantores del mar de arena que predicaban sus historias... Sé que no son leyendas, pues se trata de nuestros ancestros”.</i>\n",
+        "Description": "Concentra el poder del trueno para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> y realizar una retirada con presteza. Si este ataque causa una reacción de Electrocargado, Electrocargado Lunar, Superconductor, Superconductor Estelar, Sobrecarga, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, Sethos recupera cierta cantidad de Energía Elemental.\n\n<i>“El sacerdote de los dioses, el mago zahorí, los cantores del mar de arena que predicaban sus historias... Sé que no son leyendas, pues se trata de nuestros ancestros”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Sethos_01"
       }
     ],
@@ -628,6 +630,7 @@
       "Id": 10975,
       "Name": "Rito secreto: Luz perforasombras",
       "Description": "Lleva a cabo un rito para entrar en estado de “meditación sombría”, durante el cual los Ataques Normales de Sethos se convierten en <color=#FFD780FF>flechas sombrías</color> perforadoras que infligen <color=#FFACFFFF>Daño Electro</color> a todos los enemigos a su paso y causan daño adicional en función de la Maestría Elemental de Sethos.\nMientras este estado está activo, Sethos no podrá realizar Disparos Precisos.\nEl daño infligido por las flechas sombrías se considera daño de Ataque Cargado.\nEste efecto desaparece si Sethos se retira de combate.\n\n<i>Los archivos del Templo del Silencio albergan muchos tomos legados por Ajtamún de la época del Rey Deshret. En ellos se registran varios rituales secretos de gran poder, pero incluso entre los miembros del Templo del Silencio, muy pocos eran capaces de dominarlos.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Sethos_01"
     },
     "Inherents": [
@@ -650,6 +653,7 @@
         "Id": 972101,
         "Name": "Alegoría del milano negro",
         "Description": "#Al ejecutar un Disparo Preciso, el tiempo de carga se reduce en 0.285{NON_BREAK_SPACE}s por cada punto de Energía Elemental que tenga Sethos actualmente. Dicho tiempo de carga podrá reducirse hasta un máximo de 0.3{NON_BREAK_SPACE}s de esta manera, contabilizando hasta 20 pts. de Energía Elemental. Si dispara una <color=#FFD780FF>flecha perforasombras</color>, consumirá la cantidad contabilizada de Energía Elemental; y si dispara una flecha de carga 1, consumirá un 50% de dicha cantidad.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 972201,
         "Name": "Obsequio del Rey del Desierto",
         "Description": "#Sethos obtiene el efecto de “sombra abrasarena”, el cual aumenta el daño de la <color=#FFD780FF>flecha perforasombras</color> en una cantidad equivalente al 700% de su Maestría Elemental.\nEste efecto se cancelará cuando se cumpla alguna de las siguientes condiciones:\n·Cuando hayan transcurrido 5{NON_BREAK_SPACE}s después de que una flecha perforasombras haya golpeado a un enemigo por primera vez.\n·Cuando Sethos haya golpeado a los enemigos con 4 flechas perforasombras.\n\nAl golpear a un enemigo por primera vez con una flecha perforasombras bajo el efecto de sombra abrasarena, Sethos volverá a obtener este efecto transcurridos 15{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Sethos_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 972301,
         "Name": "Reflejo revelador",
         "Description": "Muestra la ubicación de los <color=#FFD780FF>objetos típicos de Sumeru</color> cercanos en el minimapa.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tighnari_07"
       }
     ],

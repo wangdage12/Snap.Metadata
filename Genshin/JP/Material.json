@@ -413,7 +413,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "氷の印",
-    "Description": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
+    "Description": "スネージナヤの霜雪に認められ、授かった印記。\n集いの場の建設に使うことで、氷の贈り物を獲得できる。",
     "TypeDescription": "七国の印",
     "Icon": "UI_ItemIcon_306"
   },
@@ -1827,6 +1827,28 @@
   },
   {
     "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "スネージナヤ電力エネルギーオーブ",
+    "Description": "スネージナヤ電力エネルギーオーブ",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
+    "MaterialType": 8,
+    "Id": 2036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "スネージナヤ建材エネルギーオーブ",
+    "Description": "スネージナヤ建材エネルギーオーブ",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_2020"
+  },
+  {
+    "Rank": 0,
     "MaterialType": 7,
     "Id": 3004,
     "RankLevel": 5,
@@ -2383,6 +2405,28 @@
     "ItemType": 2,
     "Name": "サンドローネの星屑",
     "Description": "サンドローネの命ノ星座アンロック用素材",
+    "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 20,
+    "Id": 5148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "アリョーシャの星屑",
+    "Description": "アリョーシャの命ノ星座アンロック用素材",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 20,
+    "Id": 5150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "オデットの星屑",
+    "Description": "オデットの命ノ星座アンロック用素材",
     "TypeDescription": "命ノ星座アンロック",
     "Icon": "UI_ItemIcon_1102"
   },
@@ -3682,6 +3726,28 @@
     "Name": "サンドローネの星屑",
     "Description": "サンドローネの命ノ星座アンロック用素材",
     "TypeDescription": "命ノ星座アンロック",
+    "Icon": "UI_ItemIcon_1102"
+  },
+  {
+    "Rank": 20,
+    "MaterialType": 73,
+    "Id": 6148,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "アリョーシャの星屑",
+    "Description": "アリョーシャの命ノ星座アンロック用素材",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_1103"
+  },
+  {
+    "Rank": 30,
+    "MaterialType": 73,
+    "Id": 6150,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "オデットの星屑",
+    "Description": "オデットの命ノ星座アンロック用素材",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_1102"
   },
   {
@@ -13916,6 +13982,94 @@
     "Icon": "UI_ItemIcon_101272"
   },
   {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101275,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "フロストフラワー",
+    "Description": "いかなる過酷な風雪の中でも開花する聖なる花。常に人の心を惹きつける微かな光を放っている。",
+    "TypeDescription": "スネージナヤ地域の特産",
+    "Icon": "UI_ItemIcon_101275"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101276,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "フロック草",
+    "Description": "かつては植物と動物が融合した奇妙な植物だと疑われていたが、後にただ動物の綿毛のようなものが生えているだけの植物にすぎないと証明された。",
+    "TypeDescription": "スネージナヤ地域の特産",
+    "Icon": "UI_ItemIcon_101276"
+  },
+  {
+    "Rank": 318,
+    "MaterialType": 4,
+    "Id": 101277,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ザラトイアリャーク",
+    "Description": "縁がかすかに金色の光を放つシダ草。煮込むと、とても不思議な風味になると言われている。",
+    "TypeDescription": "スネージナヤ地域の特産",
+    "Icon": "UI_ItemIcon_101277"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101278,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ビーツ",
+    "Description": "寒い凍土でも育つ草本植物。過酷な環境で生き残るために、肥えた肉質の根が生えてきた。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_101278"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101279,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "グレイシアの実",
+    "Description": "凍土の真氷が特殊な影響を受けて実らせた星型の果実。実のなった枝を外すと、果実は雪の上に落ちる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101279"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101280,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "雪玉花",
+    "Description": "花序が球形に近い可愛らしい花。雪が花びらに積もると、花全体がまるで雪玉のようになる。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_101280"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 101281,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "アイススグリ",
+    "Description": "霜に覆われた氷の枝から実る、風味豊かなベリー。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101281"
+  },
+  {
+    "Rank": 320,
+    "MaterialType": 4,
+    "Id": 101282,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "幽光蛍石",
+    "Description": "闇域の力の影響で生まれた奇妙な蛍石。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101282"
+  },
+  {
     "Rank": 330,
     "MaterialType": 25,
     "Id": 101301,
@@ -14233,6 +14387,50 @@
     "Description": "「ミネバリの木」から産出される木材。湿気や寒さへの耐性に優れている。家具や楽器の材料にぴったり。",
     "TypeDescription": "素材",
     "Icon": "UI_ItemIcon_101330"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101331,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "スノーポプラ材",
+    "Description": "「スノーポプラ」から採れる木材。表面は比較的滑らかで、軽くて柔らかい材質のため、様々な小型の木工品を作るのに適している…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101332"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101332,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "白樺材",
+    "Description": "「白樺」から採れる木材。密度が高く、靭性に優れているため、高い曲げ耐性が求められる建築構造に使用できる…",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_101331"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101333,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "青ブナ材",
+    "Description": "「青ブナ」から採れる木材。木目が比較的均一で摩耗に強く、スネージナヤでは多重板材の製作によく用いられる。長く使う器物や建築物に適している…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101333"
+  },
+  {
+    "Rank": 330,
+    "MaterialType": 25,
+    "Id": 101334,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "カラマツ材",
+    "Description": "「カラマツ」から採れる木材。十分な硬度があり、耐腐食性にも優れているため、スネージナヤの人々に建築用の柱や板材としてよく用いられている…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101334"
   },
   {
     "Rank": 331,
@@ -19680,7 +19878,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "哀切なアイスクリスタル·欠片",
-    "Description": "キャラクターの突破用アイテム。\n「…すみません…」",
+    "Description": "キャラクターの突破用アイテム。\n「…ごめんなさい…」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104162"
   },
@@ -19691,7 +19889,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "哀切なアイスクリスタル·塊",
-    "Description": "キャラクターの突破用アイテム。\n「…すみません…」\n「あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」",
+    "Description": "キャラクターの突破用アイテム。\n「…ごめんなさい…」\n「あなたたちにまで、この世界の悲しみを背負わせてしまって…」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104163"
   },
@@ -19702,7 +19900,7 @@
     "RankLevel": 5,
     "ItemType": 2,
     "Name": "哀切なアイスクリスタル",
-    "Description": "キャラクターの突破用アイテム。\n「…すみません、あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」\n「わたしの寒さを耐えられる者は、きっと心の中に熱い欲望を持っているだろう？」\n「なら、わたしの代わりに、旧世界を焼き尽くそう。」",
+    "Description": "キャラクターの突破用アイテム。\n「…ごめんなさい。あなたたちにまで、この世界の悲しみを背負わせてしまって…」\n「私の寒さに耐えられる者は、きっと胸の内に燃え上がるような欲望を抱いているのでしょう。」\n「ならば、私の代わりに、この旧世界を焼き尽くして。」",
     "TypeDescription": "キャラクター突破素材",
     "Icon": "UI_ItemIcon_104164"
   },
@@ -20477,6 +20675,105 @@
     "Icon": "UI_ItemIcon_104364"
   },
   {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104365,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「慈愛」の教え",
+    "Description": "天賦育成素材。\n「慈愛」は氷の国の救済である。\nそれは凡人の間で分かち合われる、慈しみと寄り添いの心。この広大無辺の地において、人々はこれによって霜雪がもたらす寒さに抗い、記憶に刻まれた傷跡を癒やす。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104365"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104366,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「慈愛」の導き",
+    "Description": "天賦育成素材。\n「慈愛」は氷の国土の救済である。\n慈愛は他者への憐れみを育む。風雪の国において、魂の罪責を心から悔い改める者は、慈愛という名の許しを得ることができる。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104366"
+  },
+  {
+    "Rank": 13122,
+    "MaterialType": 14,
+    "Id": 104367,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「慈愛」の哲学",
+    "Description": "天賦育成素材。\n「慈愛」は氷の国土の救済である。\n慈愛とは衆生への思いやりであり、身分の高低や貴賤を消し去り、血脈や国境を越える。慈愛の眼差しは常にすべての人に注がれ、不幸な者には加護を与え、人々には永遠の解放を約束する。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104367"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104368,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「不屈」の教え",
+    "Description": "天賦育成素材。\n「堅忍」は氷の国土の品格である。\n堅忍は生存への渇望から生まれる。たとえ肥沃な土に蒔かれずとも、か弱い種はその渇望を頼りに、凍土の下で深く根を張ることができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104368"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104369,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「不屈」の導き",
+    "Description": "天賦育成素材。\n「堅忍」は氷の国土の品格である。\n堅忍は成長の意志をもたらす。たとえ寒波に挫かれようとも、か弱い種はこの意志によって土を突き破り、風雪に覆われた大地に新芽を出すことができる。",
+    "TypeDescription": "キャラクター天賦素材",
+    "Icon": "UI_ItemIcon_104369"
+  },
+  {
+    "Rank": 13123,
+    "MaterialType": 14,
+    "Id": 104370,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「不屈」の哲学",
+    "Description": "天賦育成素材。\n「堅忍」は氷の国土の品格である。\n堅忍は命の繁栄をもたらす。か弱い種が風雪の中であえて花を咲かせようとするように、人々は極寒に屈したことがない。フロストフラワーが厳冬の中で毎年咲き誇るように、文明は苦難を経てもなお、絶え間なく息づいている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104370"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104371,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「栄光」の教え",
+    "Description": "天賦育成素材。\n「栄光」は氷の国土の信仰である。\n栄光は凍土の下に深く埋もれた種火であり、その姿を思い描くことができれば、極寒に立ち向かう勇気を得られる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104371"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104372,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「栄光」の導き",
+    "Description": "天賦育成素材。\n「栄光」は氷の国土の信仰である。\n栄光は長き夜に瞬く炎であり、雪原を歩む人々は常にその方角を見つめている。風雪はいずれ止み、黎明が訪れると信じるように、彼らは自分たちが今も進むべき道の上にいると確信している。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104372"
+  },
+  {
+    "Rank": 13124,
+    "MaterialType": 14,
+    "Id": 104373,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「栄光」の哲学",
+    "Description": "天賦育成素材。\n「栄光」は氷の国土の信仰である。\n栄光は篝火台に灯る消えぬ炎であり、今や風雪の国と運命を共にしている。炎は気高き情熱を燃え上がらせる。その永遠の燃焼を保つため、人々は進んで自らのすべてを捧げる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_104373"
+  },
+  {
     "Rank": 6,
     "MaterialType": 13,
     "Id": 105002,
@@ -20845,8 +21142,8 @@
     "Id": 107032,
     "RankLevel": 0,
     "ItemType": 2,
-    "Name": "霜月の地霊壇の鍵",
-    "Description": "霜月各地に散らばった上古の地霊壇の封印を解除する鍵。\n大地に聳え立つ古代の祭壇は、文明の破滅と共に封印された。幽深なる秘境で見つけた鍵だけがその封印を破ることができる。過去の時代の息吹で、祭壇に破滅の事実を忘れさせるだろう。",
+    "Name": "月霊壇の鍵",
+    "Description": "霜月各地に散らばった上古の月霊壇の封印を解除する鍵。\n月面に聳え立つ古代の祭壇は、月の意志が消え去るとともに、往日、信仰を託された恩主をも失った。冷たい月の地で見つけた鍵だけがその封印を破ることができる。さすれば過去の時代の息吹が、祭壇に破滅の事実を忘れさせるだろう。",
     "TypeDescription": "冒険アイテム",
     "Icon": "UI_ItemIcon_107032"
   },
@@ -20860,6 +21157,39 @@
     "Description": "「文明」を構築する最小ユニット。\n「文明」に由来するあらゆる創造物は、人類の集合的記憶から消え去ると、メモリーファクターに分解される。これを空の神殿にあるメモリーコアに奉納すれば、記憶の隙間から祝福を受けられるかもしれない…",
     "TypeDescription": "冒険アイテム",
     "Icon": "UI_ItemIcon_107034"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 10,
+    "Id": 107035,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "失われた氷神の瞳",
+    "Description": "強烈な氷元素エネルギーを集積させた物質。氷の神像に捧げると、長い年月で失われた力を補える。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107035"
+  },
+  {
+    "Rank": 420001,
+    "MaterialType": 5,
+    "Id": 107036,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "翼影の雫",
+    "Description": "闇域で誕生した生物が変化して出来た奇妙な液状物質。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 410011,
+    "MaterialType": 5,
+    "Id": 107037,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "スネージナヤの地霊壇の鍵",
+    "Description": "スネージナヤ各地に散らばった上古の地霊壇の封印を解除する鍵。\n大地に聳え立つ古代の祭壇は、文明の破滅と共に封印された。幽深なる秘境で見つけた鍵だけがその封印を破ることができる。さすれば過去の時代の息吹が、祭壇に破滅の事実を忘れさせるだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107037"
   },
   {
     "Rank": 100000,
@@ -32499,6 +32829,185 @@
     "Icon": "UI_ItemIcon_108884"
   },
   {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の30%を回復し、さらにHPを600回復する。",
+    "Id": 108985,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な肉の壺焼き",
+    "Description": "陶器の壺に盛られた肉料理。肉の塊は壺の中で長抵抗したようで、出来上がる頃には細かい繊維状にほぐれ、まるで引き裂いた古い毛布を噛んでいるかのようだ。一口飲み込んだら、ただ黙って壺を遠くへ、もっと遠くへと押しやりたくなる…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の32%を回復し、さらにHPを1250回復する。",
+    "Id": 108986,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "肉の壺焼き",
+    "Description": "陶器の壺に盛られた肉料理。切り分けた食材をそれぞれ壺に入れ、パイ生地で蓋をしてオーブンに入れる。焼き上がったらサクサクのパイの蓋を外し、サワークリームを加えて味を調える。作り方は複雑ではないものの、オーブンの温度管理や蒸し焼きの時間の見極めには、ある程度の経験が必要だ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 220018,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の34%を回復し、さらにHPを1900回復する。",
+    "Id": 108987,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな肉の壺焼き",
+    "Description": "陶器の壺に盛られた肉料理。蓋代わりのパイ生地を開けると、濃厚な肉の香りが湯気とともに押し寄せてくる。まるで雪の夜に暖炉へよく燃える薪を一本くべたかのようで、思わずその温かさに溺れてしまいそうになる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108885"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の8%を回復し、さらにHPを800回復する。",
+    "Id": 108988,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "微妙なセラーガーデン・スモークソーセージ",
+    "Description": "スライスされたソーセージ。肉の厚さは不揃いで、中には数枚が繋がったままのものすらある。つまみ上げると、まるで燻された古い籐の束のようだ…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の9%を回復し、さらにHPを1000回復する。",
+    "Id": 108989,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "セラーガーデン・スモークソーセージ",
+    "Description": "スライスされたソーセージ。味付けして腸詰めにした肉を燻製し、薄切りにしてそのまま盛り付けたもの。セラーガーデン・レストランの看板メニューであり、食事の際には誰もが喜ぶ万能の一品でもある。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 240011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の10%を回復し、さらにHPを1200回復する。",
+    "Id": 108990,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "美味しそうなセラーガーデン・スモークソーセージ",
+    "Description": "スライスされたソーセージ。引き締まった肉の食感に加え、スモークの塩気と旨味が口の中でそれぞれの席につき、互いに会釈し合うように溶け合う——それはまるで、息の合った合奏のようでもある…テーブルに並べられるといつも真っ先になくなるのも無理はない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108886"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+66、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108991,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙な鮮魚のストロガニナ",
+    "Description": "細長い魚の切り身。厚い部分は凍っていて噛むと歯が折れそうだが、薄い部分はすでに溶けている…唯一の救いは、スネージナヤの気温ならお腹を壊す心配がないことだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+81、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108992,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "鮮魚のストロガニナ",
+    "Description": "細長い魚の切り身。鋭い刃物で凍った魚の表面を斜めに削ぎ、薄く長い巻き状の切り身にしたもの。一般的には粗塩をつけて食べる、スネージナヤでよく見られる生食の冷菜。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 531008,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+95、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108993,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうな鮮魚のストロガニナ",
+    "Description": "細長い魚の切り身。紙のように薄い魚肉が、小さな氷の彫刻の花びらのように皿に盛られている。一片つまんで口に入れると、すっきりとした甘みが舌先で雪のように溶けて広がる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108887"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "Id": 108994,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な雪国スープ",
+    "Description": "冷製のスープ。濁ったスープの中からどうにか食材を見分けると、野菜は紙くずのように粉々だが、ハムの角切りだけは非常に大ぶりだ。調理工程の最後にようやくその存在を思い出し、大慌てで加えるしかなかったからだろう…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+200、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108995,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "雪国スープ",
+    "Description": "冷製のスープ。火を通した食材を器に均等に敷き詰め、そこにサワークリームで調えたスープを注ぐ。スネージナヤ人の中には、最も寒い日に大きな器一杯の冷たいスープを一気に飲み干すことに挑戦し、自らが厳しい寒さに打ち勝つ猛者であることを証明しようとする者もいる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 620010,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の防御力+235、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108996,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな雪国スープ",
+    "Description": "冷製のスープ。微かに光を帯びた乳白色のスープは、口に含むと清らかな白雪のようで、即座にサワークリームの豊かなコクが広がり、気分をすっきりさせてくれる。野菜のシャキシャキ感、卵黄のしっかりとした食感、角切りハムの旨味と、ひとさじごとに違った食感が楽しめ、まるで美味しいサプライズボックスを開けているかのようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108888"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の極寒ゲージの蓄積速度が僅かに低下する、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108997,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なボルシチ",
+    "Description": "真っ赤なスープ。全体的に手抜き感が漂い、まるで前の食事の残り物を無造作にスープに入れただけのように思える。飲み終わると、確かに少しは身体が温まる——だが、それはマッチを擦って灯る炎と同じ程度の、束の間の温もりに過ぎない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の極寒ゲージの蓄積速度が少し低下する、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108998,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "ボルシチ",
+    "Description": "真っ赤なスープ。先にベースのスープを煮出し、数回に分けて各種食材を入れる。味が互いに溶け合うまでじっくりと煮込み、食卓に出す前にサワークリームをひとさじ添えることが多い。飲むと、身体の中に穏やかな温もりが長く続き、屋外の厳しい寒さもしのげる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
+    "Rank": 730001,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の極寒ゲージの蓄積速度が低下する、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 108999,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなボルシチ",
+    "Description": "真っ赤なスープ。熱々のスープが喉を通った瞬間から、温もりが食道を伝って体内を駆け巡り、まるで誰かが胸の奥に炎を灯したかのように、その熱が静かに広がり、最後には耳の先まで温まる。吹雪の道を急ぐ時、この一杯のスープはコートをもう一枚羽織るよりも、はるかに頼りになる！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108889"
+  },
+  {
     "Rank": 300501,
     "MaterialType": 5,
     "Id": 109000,
@@ -35480,6 +35989,127 @@
     "Icon": "UI_ItemIcon_109000"
   },
   {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109655,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：肉の壺焼き",
+    "Description": "「肉の壺焼き」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109656,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "レシピ：セラーガーデン・スモークソーセージ",
+    "Description": "「セラーガーデン・スモークソーセージ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109657,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：鮮魚のストロガニナ",
+    "Description": "「鮮魚のストロガニナ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109658,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：雪国スープ",
+    "Description": "「雪国スープ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109659,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：ボルシチ",
+    "Description": "「ボルシチ」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109660,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：アイススグリのアイスクリーム",
+    "Description": "「アイススグリのアイスクリーム」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109661,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "レシピ：グルポフ黒パン",
+    "Description": "「グルポフ黒パン」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109662,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：メドヴィク",
+    "Description": "「メドヴィク」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "レシピ",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：スネージナヤ串焼き",
+    "Description": "「スネージナヤ串焼き」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レシピ：白の雪玉花",
+    "Description": "「白の雪玉花」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
+    "Rank": 300501,
+    "MaterialType": 5,
+    "Id": 109665,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "レシピ：スイート・アイスクリームセット",
+    "Description": "「スイート・アイスクリームセット」の詳しい作り方が載っているレシピ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_109000"
+  },
+  {
     "Rank": 322,
     "MaterialType": 4,
     "Id": 110000,
@@ -35632,6 +36262,17 @@
     "Description": "ライ麦を挽いた後に得られる、粗く濃い色をした粉末。これを使うと、独特の食感と酸味を持った料理が出来上がる。",
     "TypeDescription": "食材",
     "Icon": "UI_ItemIcon_110016"
+  },
+  {
+    "Rank": 321,
+    "MaterialType": 4,
+    "Id": 110017,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "蜂蜜",
+    "Description": "甘い味わいを持つ琥珀色の液体。店舗では一年を通して販売されている。飲み物やソースの調合に使えるほか、肉の漬け込みにも使用できる。",
+    "TypeDescription": "食材",
+    "Icon": "UI_ItemIcon_110017"
   },
   {
     "Rank": 900000,
@@ -35989,6 +36630,17 @@
     "Description": "ホワイトベリーとミントで作られた魚の餌。見た目と香りの両方で特定の魚を強く引きつけるため、釣り人の間で高い評価を得ている。\n\n対象魚類：ゲキオコザメ、デメニギス類",
     "TypeDescription": "釣り餌",
     "Icon": "UI_ItemIcon_111036"
+  },
+  {
+    "Rank": 340,
+    "MaterialType": 32,
+    "Id": 111037,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "点滅餌",
+    "Description": "光る金属片を主な構造とした釣り餌。少量の蛍光材料が塗られており、正しく扱えばきらめく光を放つ。中央の球体内にはさらに小さな響珠が仕込まれており、小魚の振動を模倣するため、スネージナヤの魚に対して特別な魅力を備えている。\n\n適用魚種：雪円鰭類、スターフィッシュ類。",
+    "TypeDescription": "釣り餌",
+    "Icon": "UI_ItemIcon_111037"
   },
   {
     "Rank": 10100,
@@ -37586,6 +38238,138 @@
     "Icon": "UI_ItemIcon_112145"
   },
   {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112146,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "幻光の屑",
+    "Description": "スネージナヤのフェイが戦闘後に残したもの。\nフェイの体表で成長した結晶の欠片の細かい屑。剥がれ落ちる時に色を失い、まるで蛾の鱗粉のようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112146"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112147,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "幻光の裂晶",
+    "Description": "スネージナヤのフェイが戦闘後に残したもの。\nフェイの体表に生えていた砕けた結晶の欠片。すでに空っぽになってはいるが、かつてそこに宿っていた独特な力を感じ取ることができる。",
+    "TypeDescription": "キャラと武器育成素材",
+    "Icon": "UI_ItemIcon_112147"
+  },
+  {
+    "Rank": 10639,
+    "MaterialType": 14,
+    "Id": 112148,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "幻光の晶鱗石",
+    "Description": "スネージナヤのフェイが戦闘後に残したもの。\nフェイの体表で育つ結晶の欠片。体表に結晶の欠片を多く持つフェイほど、より多くの力を操れると言われている。しかし、その力がフェイの体内に宿り、晶塊を通して放たれているだけなのか、それとも晶塊こそが力の器なのかは、誰にも分からない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112148"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112149,
+    "RankLevel": 1,
+    "ItemType": 2,
+    "Name": "合成獣のコア",
+    "Description": "異種合成獣の体内にあるコア。\n合成魔獣の体内で育つ、最も単純なコア。最も単純なコアであっても、すべての合成創造物が成長するための設計図が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112149"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112150,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "並生嵌合胞",
+    "Description": "異種合成獣の体内にあるコア。\n合成魔獣の体内にある比較的複雑なコア。並生するコアは2種類の生命の循環を駆動し、それによって一つの生物を構成することを意味している。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112150"
+  },
+  {
+    "Rank": 10640,
+    "MaterialType": 14,
+    "Id": 112151,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "源生嵌合体",
+    "Description": "異種合成獣の体内にあるコア。\n合成魔獣が体内に宿せる中で最も複雑なコアであり、人工的に設計されながらも、すでに完璧な命の種となっている。これを作り出した者は、命そのものが形作られる仕組みをすでに理解しているのかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112151"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112152,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "沈積残片",
+    "Description": "強大な力を持つ異怪の獣から形成された残積物。\n最初は体内の器官や骨格に付着しているだけの残積物だが、力が増すにつれて、身体の一部や特定の器官を完全に覆い尽くすようになるのかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112152"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112153,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "沈積結塊",
+    "Description": "強大な力を持つ異怪の獣から形成された残積物。\n長きにわたり体内の器官や骨格に付着していた残積物。これらは体内から取り出された後、力の象徴と見なされ、その種族の末裔によって大切に保存される。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112153"
+  },
+  {
+    "Rank": 10148,
+    "MaterialType": 14,
+    "Id": 112154,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "沈積増生物",
+    "Description": "強大な力を持つ異怪の獣から形成された残積物。\n器官や骨格に完全に付着した残積物であり、力の循環のノードにおいて新たな骨格や器官が増生したとさえ言える。長い年月を生き、修行を怠らない異怪の獣のみが、体内にこのような増生物を形成できる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112154"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112155,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "生命の虚ろな根",
+    "Description": "木の精が静寂に還る前に落とした枝。\nあまり多くの晶石が育っていない、力の弱い枝。微かな蛍光を放っている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112155"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112156,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "生命の分かれ枝",
+    "Description": "木の精が静寂に還る前に落とした枝。\n晶石がある程度育った枝はずっしりと重く、木の精の本体から離れてもなお消えない生命力がそこから感じられる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112156"
+  },
+  {
+    "Rank": 10149,
+    "MaterialType": 14,
+    "Id": 112157,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "生命の絡み合う枝",
+    "Description": "木の精が静寂に還る前に落とした枝。\n晶石のコアが完全に育った枝には、容易には消えない生命力が秘められている。もし今これを土の中に埋めれば、おそらくすぐに新しい木の精が育つだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_112157"
+  },
+  {
     "Rank": 11101,
     "MaterialType": 14,
     "Id": 113001,
@@ -38565,6 +39349,28 @@
     "Icon": "UI_ItemIcon_113089"
   },
   {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113090,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "炎中不滅の枝",
+    "Description": "ある者が私欲のために作り出した合成魔獣。その体から切り取られた、炎の中でも焼け焦げない花をつけた枝。\n陰鬱な錬金術師は、命を永遠にする方法を見つけて実行に移す前、創り出された赤い羽のような葉を持つ魔獣の体を撫でながら、いつの日か不滅の合成魔物が炎の中から、長らく待ち望んだ友を迎える光景を思い描いた。その時が来たら…創造物の体から永遠に咲く花を折り、相手が闇域から逃れた祝いに贈るべきなのかもしれない。",
+    "TypeDescription": "キャラクター育成素材",
+    "Icon": "UI_ItemIcon_113090"
+  },
+  {
+    "Rank": 11101,
+    "MaterialType": 14,
+    "Id": 113091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "空を泳ぐものの尾",
+    "Description": "強大な合成魔獣の尾羽。\n創り出された合成魔獣も、自らの運命は自分で探すべきなのだろう。そうしてこそ、見捨てられるような苦境に身を置かずに済む。そんな考えから、魔物を形作る者は好んで自分の作品に翼を付けたがる。しかし、世に翼を持つ生き物は数多くいても、本当に空の飛び方を覚えるのはその中のほんの一握りにすぎない。だが、それこそがいわゆる「造化」というものなのだろう。",
+    "TypeDescription": "キャラクター育成素材",
+    "Icon": "UI_ItemIcon_113091"
+  },
+  {
     "Rank": 15101,
     "MaterialType": 14,
     "Id": 114001,
@@ -39489,6 +40295,138 @@
     "Icon": "UI_ItemIcon_114084"
   },
   {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114085,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "蒼星軍勢の始動",
+    "Description": "武器に突破の力を付与する材料。\n凍土全域の東方、翼の如き山より生まれし傲慢な怪物は、麦芽と鉱物を売り捌く卑劣な輩にすぎない。\n奴の命に従う風の精は虫の羽を持つひ弱な連中であり、小さき者たちはその短い両腕で武器を持ち上げることすらできない。\nこの烏合の衆の喚き声に誰が耳を貸すというのか、奴らに獣王たちの侵攻を阻むいかなる力があるというのか？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114085"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114086,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "蒼星軍勢の集結",
+    "Description": "武器に突破の力を付与する材料。\n「運よく峡谷を占拠したあの滑稽な傲慢者など、力尽きた強弓の矢、衰えた突風にすぎない。」\n「奴らは死に物狂いで、ようやく我らの軍勢をわずかに防げる程度だ。じきに敗色をあらわにするだろう。」\n「兵士たちよ、進軍を続けよ。獣王の命が示した通り、我らは容易くこの戦役に勝利できるのだ！」",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114086"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114087,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "蒼星軍勢の鳴令",
+    "Description": "武器に突破の力を付与する材料。\n「我らの仇敵モノマフは、谷の外に行宮を築いた。つまり、奴には我らと渡り合うだけの十分な自信があるということだ。」\n「今の状況を見るに、奴には最大限の警戒を払うべきだ。速勝などという話は、もはや持ち出す必要もない。」\n「だが案ずることはない。英知をもって諸霊を導く王は、必ずや諸氏族と共にあらゆる困難を乗り越え、光り輝く新紀元へと進むだろう！」",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114087"
+  },
+  {
+    "Rank": 15122,
+    "MaterialType": 14,
+    "Id": 114088,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "蒼星軍勢の征服",
+    "Description": "武器に突破の力を付与する材料。\n「すべてのフェイの庇護者、蒼星の継承者、神聖なる血脈より生まれし我らの帝王、ツァーリ・ベールイ！」\n「称えよ。今や氷原のすべては、極星の輝きの下で一つとなった。」\n「称えよ。偽王を誅殺した皇帝は、すべてのフェイを受け入れられた。なんと仁愛と慈悲に満ちたお方か！」",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114088"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114089,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "蔵に眠る霊薬の酌量",
+    "Description": "武器に突破の力を付与する材料。\nかつて北の果ての空にオーロラのごとく輝いていた光は、至高の視線に触れ、消え去った。\n極寒と黒晶の災いは、あらゆる命が存続するための根幹をほとんど破壊してしまった。\n寒さを恐れない数多のフェイだけが氷雪の中から歩み出て、人影の消えた国を支配した。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114089"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114090,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "蔵に眠る霊薬の酩酊",
+    "Description": "武器に突破の力を付与する材料。\n他の地では食糧の豊作を祝う余興にすぎないものも、極寒の中を行く諸氏族にとっては、生きるために欠かせないものだった。\n酒造りの技に最も長けた小さき者たちは、かつてその技を頼りに、当時忠誠を誓っていた王の宝庫へ富を蓄えたという。\nこうしてフェイの醸造酒は氏族間の交易を通じ、毒を滴らせる蜜のように凍土全域へと流れていった。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114090"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114091,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "蔵に眠る霊薬の高揚",
+    "Description": "武器に突破の力を付与する材料。\nかつて、無数の美酒が氷の湖へ注ぎ込まれたという。\n噂では、戦争の補給品だった酒に不具合があり、やむなく廃棄されたとも、ある小さき者の大公が水妖の主との賭けに負けたためとも言われている。\nだが湖面に消すことのできない青い魔炎が燃え上がり、水底の敵が息の詰まるような荒波の中でのたうち回った時、\n彼らはようやく思い知った。世の移ろいに通じた一族の手にかかれば、水もまた炎となり、霊薬もまた劇毒となるのだと。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114091"
+  },
+  {
+    "Rank": 15123,
+    "MaterialType": 14,
+    "Id": 114092,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "蔵に眠る霊薬の狂宴",
+    "Description": "武器に突破の力を付与する材料。\n晶石の採掘と凍土の開発を司る小さき者たちの大公にとって、極地にオアシスを切り拓くことなど造作もないことであり、よそからより品質の高いライ麦を移し植えることも難しいことではない。\n今日までスネージナヤに存続している多くのフェイの貴族の中でも、彼が持つ地位は比類なきほど輝かしい。\nだが、日に日に燃え盛る野心の炎は喉を伝って下り、古きフェイの貪欲もまた歳月と共に膨らみ、果てることなし。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114092"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114093,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "氷の皇帝の復活",
+    "Description": "武器に突破の力を付与する材料。\n雪原から歩み出た、まだ雪原全体の主となっていなかった英雄は、その時にはすでに周囲の者によく多くを語りすぎる癖を見せていた。\nそのため、当時まだ人型になっていなかった氷雪の精霊から贈り物を受け取った時、彼は大いに驚いた。\n彼としては、自分が翼のような峰の中にある、氷雪のような卵から誕生したことを相手に打ち明けた覚えは一度もなく、その日の日付を相手に語ったこともなかったからだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114093"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114094,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "氷の皇帝の祝儀",
+    "Description": "武器に突破の力を付与する材料。\n宮廷のフェイたちは、皇帝に献上される贈り物がなぜこのような形状に作られたのかを理解しておらず、ただひたすら宝珠のような装飾品の細工を重ねるばかりだった。\n王座の皇帝と氷雪の精霊だけが、この装飾品の背後にある意味を知っている。\n重要なのは決して儀式そのものではなく、儀式に込められた在りし日の真意なのだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114094"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114095,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "氷の皇帝の憐憫",
+    "Description": "武器に突破の力を付与する材料。\n真実が苦水のように波立つ夜、もはや以前とは違う彼女が、玉座に座る友人のために用意した贈り物。\n二人はどちらも、これがあのように言葉を交わす最後の機会になるだろうと感じていた。\nなぜならその後、かつて彼らが共に歩んだ道は、一人の弱さともう一人の怒りによって崩れ去ってしまったからだ。",
+    "TypeDescription": "武器突破素材",
+    "Icon": "UI_ItemIcon_114095"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 14,
+    "Id": 114096,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "氷の皇帝の訣別",
+    "Description": "武器に突破の力を付与する材料。\n戦争の前夜、いつ、どのようにして机の上に現れたのか分からない物。\n彼はそれが、久しく会っていない友人が自ら作ったものだと分かっていた。\n天地の姿は昔のままなのに、彼はこの時になってようやく悟った。これこそがすべての厄難の始まりであり、すべての欲望の苦果であり、すべての破滅の前兆なのだと。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_114096"
+  },
+  {
     "Rank": 100201,
     "MaterialType": 12,
     "Id": 115010,
@@ -39748,7 +40686,7 @@
     "RankLevel": 3,
     "ItemType": 2,
     "Name": "仮面舞踏会の招待状",
-    "Description": "いつの間にか届いていた招待状。一緒に仮面舞踏会の仮面も添えられていた。\n完璧に整えられたな舞台、灯りに照らし出されたホール——招待状の送り主は、ゲストたちの到着を待ちわびていることだろう。",
+    "Description": "いつの間にか届いていた招待状。一緒に仮面舞踏会の仮面も添えられていた。\n完璧に整えられた舞台、灯りに照らし出されたホール——招待状の送り主は、ゲストたちの到着を待ちわびていることだろう。",
     "TypeDescription": "",
     "Icon": "UI_ItemIcon_115046"
   },
@@ -40259,6 +41197,28 @@
     "Icon": "UI_ItemIcon_117003"
   },
   {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117030,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "深秘の聖遺物箱・二等",
+    "Description": "聖遺物を収納する箱。見た人が祝福に恵まれますように。\n\n聖遺物箱からは、以下の聖遺物セットの中から一つ入手できる。\n・「紅血の証」\n・「炉炎溶錬の心」\n・「狂戦士」\n・「教官」\n・「亡命者」",
+    "TypeDescription": "聖遺物箱",
+    "Icon": "UI_ItemIcon_117002"
+  },
+  {
+    "Rank": 100101,
+    "MaterialType": 24,
+    "Id": 117031,
+    "RankLevel": 5,
+    "ItemType": 2,
+    "Name": "深秘の聖遺物箱・一等",
+    "Description": "聖遺物を収納する箱。見た人が聖跡を感じられますように。\n\n聖遺物箱からは、以下の聖遺物セットの中から一つ入手できる。\n・「紅血の証」\n・「炉炎溶錬の心」",
+    "TypeDescription": "聖遺物箱",
+    "Icon": "UI_ItemIcon_117003"
+  },
+  {
     "Rank": 260101,
     "MaterialType": 12,
     "Id": 118001,
@@ -40389,6 +41349,28 @@
     "Description": "ある大事な日にもらえるプレゼント。\n\n篝火を見つめる旅人へ。\n旅の中で、温もりと幸せを見つけられますように。\n\n「オススメ料理は週替わりで、月の祝福は月替わり。次に一緒に祝うのはなんと、約9000時間も先だ！一緒に過ごした時間はチョコレートみたいに甘くて柔らかくて、一気に食べるのがもったいない気もするよな。とにかく…オイラはおまえと一緒に旅するのが大好きだ！」",
     "TypeDescription": "貴重品",
     "Icon": "UI_ItemIcon_118011"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 12,
+    "Id": 118013,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旅人へのケーキ",
+    "Description": "ある特別な日に受け取った贈り物。\n\n月影と林海の中を歩み続けるあなたへ。\nこの大地での旅が、笑顔と驚きに満ちたものでありますように。",
+    "TypeDescription": "貴重品",
+    "Icon": "UI_ItemIcon_118013"
+  },
+  {
+    "Rank": 260101,
+    "MaterialType": 5,
+    "Id": 118014,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旅人へのケーキ",
+    "Description": "ある特別な日に受け取った贈り物。\n\n月影と林海の中を歩み続けるあなたへ。\nこの大地での旅が、笑顔と驚きに満ちたものでありますように。\n\n「7日ごとにオススメ料理は入れ替わる。30日ごとに月は新しい祝福を授ける。次にお前を祝うまで、なんと9000時間近くもかかるんだ！毎日月が昇るように、パイモンもずっと旅人と一緒に旅をするぞ…うん、いろんな場所に素敵な思い出を残そうぜ！」",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_118013"
   },
   {
     "Rank": 10,
@@ -52209,6 +53191,39 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121411,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "結晶を秘めた卵石",
+    "Description": "卵状の石。「グライアイの眼」が自らの肉体を取り戻すために必要な力が秘められている。\nかつてアルヴィスという名の「小さき者」の大公によって分け取られ、持ち去られた力が、どういうわけかアクシーニャの手に渡り、すでに遺跡と化した静源所の抜け殻に置かれていた。そこには、凡俗の者が再誕によっていかにより完全な生命へと変わるかという秘密が隠されているのかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121411"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121412,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "雪の精研究室の鍵",
+    "Description": "針の形をした鍵。\n「静源所」にある、雪の娘の大公の研究室の扉を開けることができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121412"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121413,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "キャットフード",
+    "Description": "パヴリナという名の「雪の娘」大公が、「静源所」内で飼われている「ララ」という名の猫のために用意した食糧らしい…少し美味しそうな匂いがするが、所詮はキャットフードなので、おそらく味はあまりしないだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121413"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121414,
     "RankLevel": 4,
     "ItemType": 2,
@@ -52436,6 +53451,61 @@
     "Description": "特別な飴細工が入っている箱。中身は誰かのために作ったもののようだ。とにかく、溶けないように、早めに食べよう。",
     "TypeDescription": "消耗品",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121442,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "赤の鍵",
+    "Description": "下水道の制御室の扉を開ける三本の鍵のうちの一つ。赤色をしている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121442"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121443,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "白の鍵",
+    "Description": "下水道の制御室の扉を開ける三本の鍵のうちの一つ。白色をしている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121443"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121444,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "青い鍵",
+    "Description": "下水道の制御室の扉を開ける三本の鍵のうちの一つ。青色をしている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121444"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121445,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「儀式」参列の招待状",
+    "Description": "奇妙な招待状。なぜかいつも、様々な経路をたどって、届くべき人の手に渡るようだ。\nこの「招待状」を持っていれば、スネージナヤの氷山にあるヘスペリデスの館へ赴き、雪の娘の王公パヴリナの結婚式に参列できる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121445"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121446,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "分離されたイコルの欠片",
+    "Description": "「儀式」を中断されたアクシーニャから分離したイコルの力の破片。\nなぜか光を放つマリオネットの姿となっている。おそらく「他人の願いを叶える」という意志は、はるか昔から彼を操る糸となっており、今の彼は何らかの超越的な力を宿した操り人形にすぎないのだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121446"
   },
   {
     "Rank": 410007,
@@ -52957,6 +54027,28 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121541,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "氷結した心の小石",
+    "Description": "卵状の石。「グライアイの眼」が自らの肉体を取り戻すために必要な力が秘められている。\nかつてパヴリナという名の妖精大公によって、フェイの欠けた部分を補うために用いられた。\nその中には、凡俗の者が再誕を通じてより高い位階へ至らんとする願いが込められているのかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121541"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121542,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "蛇影の如き藻の小石",
+    "Description": "卵状の石。「グライアイの眼」が自らの肉体を取り戻すために必要な力を秘めている。\nかつてコシチェイという名の錬金術師が、永遠を求める生命を創り出すために用いた。\nその中には、凡俗の者が再誕によっていかに不朽の存在となるかを示す啓示が残されているのかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121542"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121543,
     "RankLevel": 0,
     "ItemType": 2,
@@ -53030,6 +54122,17 @@
     "Description": "特別な飴細工が入っている箱。中身は誰かのために作ったもののようだ。とにかく、溶けないように、早めに食べよう。",
     "TypeDescription": "消耗品",
     "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121551,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「大盗賊の秘宝」の在り処",
+    "Description": "「屠夫」という名のギャングのメンバーが資金集めの際に手に入れた手がかりのようだ…何か大きな宝が見つかるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100173"
   },
   {
     "Rank": 10,
@@ -53155,6 +54258,83 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121567,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "名もなき薬のレシピ",
+    "Description": "名もなき薬のレシピ",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121568,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・1",
+    "Description": "ある高貴な人物の手記・1",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121569,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・2",
+    "Description": "ある高貴な人物の手記・2",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121570,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・3",
+    "Description": "ある高貴な人物の手記・3",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121571,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・4",
+    "Description": "ある高貴な人物の手記・4",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121572,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・5",
+    "Description": "ある高貴な人物の手記・5",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121573,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ある高貴な人物の手記・6",
+    "Description": "ある高貴な人物の手記・6",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121564"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121574,
     "RankLevel": 4,
     "ItemType": 2,
@@ -53252,6 +54432,39 @@
     "Icon": "UI_ItemIcon_121596"
   },
   {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121597,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "金属の制御輪",
+    "Description": "下水道内のとある扉を開けるための金属製の制御輪。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121598,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "下水道のリフト制御輪",
+    "Description": "下水道内のリフトを操作するための制御輪。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121599,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "リフトの制御輪",
+    "Description": "礼拝堂へ向かうリフトを操作するための制御輪。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121597"
+  },
+  {
     "Rank": 410007,
     "MaterialType": 5,
     "Id": 121601,
@@ -53309,6 +54522,149 @@
   {
     "Rank": 10,
     "MaterialType": 2,
+    "Id": 121610,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "奇妙な形をした記章",
+    "Description": "ナスチャが奇妙な部屋で見つけた記章。罠を解除できるようだ…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121610"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121611,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "貴賓の証",
+    "Description": "金彩が施された書簡。\n山中の館の主から送られたものだと言われており、かつてはこの書簡を手にした多くの者がヘスペリデスの館へと招かれたという。\nこの書簡を持つ者は、山中の館にある貴賓用の休憩室でひと休みすることができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121596"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121612,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ギャングのメンバーが落とした鍵",
+    "Description": "あなたたちはギャングのメンバーが残した箱の中から鍵を見つけた。どこかの扉を開けられそうだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121612"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121613,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "晶鉱調合物",
+    "Description": "クルースニク晶鉱を精製し調合した結晶。何か特別な使い道があるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121613"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121614,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "『下水道出入りの手引き』",
+    "Description": "制御室内で見つかった指南書。下水道制御室の扉を開ける方法が記されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121614"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121615,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "微妙なカード",
+    "Description": "狩人の小屋で手に入れた微妙なカード。とても精巧な作りだが、何に使うのかは分からない…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121615"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121616,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "狩人の小屋で手に入れたカード。どうやら狩人の小屋の下にある闇域保管庫を解放できる権限カードのようだ。\nスネージナヤの闇域を探索し、権限カードの権限をアップグレードすれば、より多くの闇域保管庫を開けられるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121616"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121617,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "狩人の小屋で手に入れたカード。どうやら狩人の小屋の下にある闇域保管庫を解放できる権限カードのようだ。\nスネージナヤの闇域を探索し、権限カードの権限をアップグレードすれば、より多くの闇域保管庫を開けられるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121617"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121618,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "狩人の小屋で手に入れたカード。どうやら狩人の小屋の下にある闇域保管庫を解放できる権限カードのようだ。\nスネージナヤの闇域を探索し、権限カードの権限をアップグレードすれば、より多くの闇域保管庫を開けられるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121618"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121619,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "狩人の小屋で手に入れたカード。どうやら狩人の小屋の下にある闇域保管庫を解放できる権限カードのようだ。\nスネージナヤの闇域を探索し、権限カードの権限をアップグレードすれば、より多くの闇域保管庫を開けられるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121619"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121620,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "狩人の小屋で手に入れたカード。どうやら狩人の小屋の下にある闇域保管庫を解放できる権限カードのようだ。\nスネージナヤの闇域を探索し、権限カードの権限をアップグレードすれば、より多くの闇域保管庫を開けられるかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121620"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121621,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "闇域保管庫権限カード",
+    "Description": "巡猟者の小屋で手に入れたカード。どうやら巡猟者の小屋の下にある闇域保管庫を解放できる権限カードのようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121621"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121622,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "欠損型データブロック",
+    "Description": "闇域に散らばる微妙なデータブロック。誰かが「目印」として意図的に闇域へばらまいた物のようだ。これらの微妙なデータ断片を収集すれば、闇域での探索に役立つかもしれない…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
     "Id": 121625,
     "RankLevel": 3,
     "ItemType": 2,
@@ -53327,6 +54683,567 @@
     "Description": "月面で発見された古代の石板。それに刻まれた文字は完全に判読不能であるにもかかわらず、なぜか読む者は誰でも母国語でその意味を理解できる。",
     "TypeDescription": "任務アイテム",
     "Icon": "UI_ItemIcon_121625"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121627,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "精巧な模様のボタン",
+    "Description": "霜の精たちに深く愛されているボタン。彼らがこれほどボタンを気に入っているのは、おそらくその丸っこい両手では、こんなにも精巧で軽い物を作れないからだろう。霜の精の「いいものショップ」で、いいものと交換するのに使える。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121627"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121630,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "欠損型データブロック",
+    "Description": "闇域に散らばる微妙なデータブロック。誰かが「目印」として意図的に闇域へばらまいた物のようだ。これらの微妙なデータ断片を収集すれば、闇域での探索に役立つかもしれない…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121622"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121631,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "第1回「冒険者競技大会」優勝トロフィー",
+    "Description": "スネージナヤ冒険者協会本部から授与されたトロフィー。あなたとパイモンが冒険分野で収めた、優れた功績の証だ。\n「冒険者協会発展会議」での議論が難航したため、本来は各国の冒険者の友好交流を促すはずだった「第1回冒険者競技大会」は、発言権を決める闘技場と化してしまった…\nあなたとパイモンは膠着状態を打破する重要人物として途中から大会に参加し、飛躍的に成績を伸ばして、ついに優勝の座を勝ち取った。そして会議の流れを主導し、複数の重要な決議を取りまとめた…\nこれらの決議がすぐに絶大な効果を発揮するわけではない。だがきっと、協会を時代に合わせて進歩させ、より多くの冒険者に大きな恩恵をもたらしてくれるだろう…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121631"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121632,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "雷殺の小枝",
+    "Description": "雷殺の寒枝から再び伸びた小枝。\nこれを雷殺の寒枝の上に置けば、雷を呼び寄せられる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121632"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121633,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "帽子・素敵なバケツ",
+    "Description": "雪だるまの装飾。ただの鉄バケツだが、うまく使えば雪だるまの姿に彩りを添えるには十分だ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121634,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "帽子・シルクハット",
+    "Description": "雪だるまの装飾。とても優雅なハットで、雪だるまの頭に被せても、とても礼儀正しく見せてくれる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121634"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121635,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "帽子・とんがりぼうし",
+    "Description": "雪だるまの装飾。とてもお祭り気分を感じさせるハット。心が弾んでいれば、毎日がお祭りになる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121635"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121636,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "帽子・ヘンテコトップ",
+    "Description": "雪だるまの装飾。とても面白いデザインの…ハット？いずれにせよ、被せれば雪だるまの見た目がもっと面白くなるかもしれない…？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121636"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121637,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "雪鳥の飾り羽",
+    "Description": "雪だるまの装飾。見事なステップで舞う、とあるバレリーナから着想を得て作られた。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121637"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121638,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "潮騒の氷花",
+    "Description": "雪だるまの装飾。高らかに歌うのが得意な、とある水の精から着想を得て作られた。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121638"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121639,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "マフラー・暖紅",
+    "Description": "雪だるまの装飾。見るからに暖かそうなスカーフ。雪だるまの首に巻いてあげると、子供たちが抱きつくのにちょうどいい場所ができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121639"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121640,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "マフラー・夢星",
+    "Description": "雪だるまの装飾。スカーフの飾りは、まるで夢の中の星のよう。あの雪だるまが夢を見る時、思い浮かべるのは雪が舞う空だろうか。それとも、溶けた雪が流れ込む深海だろうか？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121640"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121641,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "マフラー・チェック",
+    "Description": "雪だるまの装飾。とても優雅なスカーフ。雪だるまの首に巻くだけで、とても礼儀正しく見える。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121641"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121642,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "マフラー・オモシロカラー",
+    "Description": "雪だるまの装飾。とても面白い形をした…スカーフ？それともネックカラー…？いずれにせよ、付ければ雪だるまの見た目がもっと面白くなるかもしれない…？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121642"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121643,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "潜伏者のフード",
+    "Description": "雪だるまの装飾。身のこなしに優れた、とある狩人から着想を得て作られた。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121643"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121644,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "古い造りの鍵",
+    "Description": "かなり古い造りの鍵。ヘスペリデスの館のどこかにある扉を開けられるようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121644"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121652,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "『列車装飾ガイド』",
+    "Description": "様々な装飾方法が記されたガイドブック。読めば、自分の列車に特別な装飾を施せるかもしれない…？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121652"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 85,
+    "Id": 121653,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "黒雪鳥記念アルバム",
+    "Description": "黒雪鳥をモチーフにデザインされた記念アルバム。あなたがマネージャーとしてオデットと共に過ごした日々が記録されている。\n遠ざかりゆくものはすべて、愛おしい思い出となる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121653"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121654,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "オデットの舞台写真",
+    "Description": "『黒雪鳥』公演の舞台写真。写真の中のオデットは、気高い黒雪鳥のように軽やかに舞い踊っている。\nこれを見れば、あの息を呑むほど美しい円舞を思い出すことができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121654"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121655,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "黒雪鳥のサイン入りポスター",
+    "Description": "オデットが、あの時期のサポートへの感謝として、この貴重なサイン入りポスターをあなたに贈ってくれた。\nこの贈り物よりも、彼女の笑顔のほうがもっと尊いものかもしれない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121655"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121656,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "白羽の栞",
+    "Description": "オデットの話を聞き終えた後、彼女はこの精巧な栞をあなたに贈ってくれた。\n彼女が一日も早く丈夫な風切羽を伸ばし、果てしない空へと自由に飛び立てることを願う。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121656"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 88,
+    "Id": 121657,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "星屑の軌跡・蘊輝",
+    "Description": "入手後、闇域における自身の戦闘装束のマントの見た目が変化する…\n\n「流星の尾と銃弾の軌跡には、どこか似通ったところがあるのかもしれない。」",
+    "TypeDescription": "貴重品",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121659,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "雪葬地の残香の導き",
+    "Description": "雪葬地の残香の導きを三つ集めると、雪葬地にある闇域遺物宝庫を開放できる。\nかつて闇域を探索していた小隊は、見つけた宝物を闇域から持ち出せないことが時折あり、その闇域に特定の「香りの痕跡」を残したと言われている。すべて揃った「残香の導き」を辿ることで初めて、それらの闇域遺物の在処を見つけ出せる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121659"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121660,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "寒麓の残香の導き",
+    "Description": "寒麓の残香の導きを3本集めると、霜つく峰にある闇域遺物宝庫を開放できる。\nかつて闇域を探索していた小隊は、見つけた宝物を闇域から持ち出せないことが時折あり、その闇域に特定の「香りの痕跡」を残したと言われている。すべて揃った「残香の導き」を辿ることで初めて、それらの闇域遺物の在処を見つけ出せる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121660"
+  },
+  {
+    "Rank": 410007,
+    "MaterialType": 5,
+    "Id": 121661,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "凍土の残香の導き",
+    "Description": "凍土の残香の導きを3本集めると、永結の凍土にある闇域遺物宝庫を開放できる。\nかつて闇域を探索していた小隊は、見つけた宝物を闇域から持ち出せないことが時折あり、その闇域に特定の「香りの痕跡」を残したと言われている。すべて揃った「残香の導き」を辿ることで初めて、それらの闇域遺物の在処を見つけ出せる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121661"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 86,
+    "Id": 121663,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "『精霊をたずねて』試演会記念写真",
+    "Description": "コロレフスキー劇団がバレエ円舞『精霊をたずねて』の初の公開試演会を開催した際、来場したすべての出演者やスタッフ、そして観客が共に残した記念写真。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121663"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121664,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ナスチャの頭上の枝葉",
+    "Description": "ナスチャの体の一部であり、「家」へと続く扉を開くための重要な品。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121665,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ナスチャの手描き見取り図",
+    "Description": "ナスチャの手描き見取り図。「家」の扉を開ける方法のヒントが示されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121666,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "『下水道出入りの手引き』",
+    "Description": "制御室内で見つかった指南書。下水道制御室の扉を開ける方法が記されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100003"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121668,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "地下室のとある部屋の入口扉を開くレバー",
+    "Description": "地下室のとある部屋の入口扉を開けるためのレバー。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121669,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "地下室のとある部屋の出口扉を開くレバー",
+    "Description": "地下室のとある部屋の出口扉を開けるためのレバー。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121360"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121671,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "クルースニクエネルギー",
+    "Description": "「グライアイの眼」の稼働に必要なエネルギー。\nスネージナヤにおいて、クルースニク晶鉱を動力とする熱源の範囲内にいる、または探索中にクルースニク晶鉱を採集することで、クルースニクエネルギーを回復できる。",
+    "TypeDescription": "探索リソース",
+    "Icon": "UI_ItemIcon_121671"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121672,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "微妙な試薬サンプル",
+    "Description": "「イズメロ」から運ばれた「特殊貨物」から採取したサンプル。果たして闇域と関係があるのだろうか？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_107036"
+  },
+  {
+    "Rank": 260103,
+    "MaterialType": 5,
+    "Id": 121674,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "星屑の軌跡・蘊輝空印",
+    "Description": "奇妙な印。闇域での自身の戦闘装束のマントの見た目を変化させることができる。すでに効果を発揮している…\n\n「流星の尾と銃弾の軌跡には、どこか似通ったところがあるのかもしれない。」",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121657"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121675,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "極星のバレエ集・1",
+    "Description": "コロレフスキー劇団の台本集。『黒雪鳥』の一部が収録されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121676,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "極星のバレエ集・2",
+    "Description": "コロレフスキー劇団の台本集。『海鳥』の一部が収録されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121677,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "極星のバレエ集・3",
+    "Description": "コロレフスキー劇団の台本集。『特使』の一部が収録されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121678,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "極星のバレエ集・4",
+    "Description": "コロレフスキー劇団の台本集。『焔の鳥』の一部が収録されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121675"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121679,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スネージナヤ通史・1",
+    "Description": "人類の学者が編纂した歴史書。この巻には主に伝説の黄金の都について記されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121680,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スネージナヤ通史・2",
+    "Description": "人類の学者が編纂した歴史書。本冊には、ツァーリ・ベールイとその近臣たちの功績が主に記載されている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121680"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121681,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "アイスクリーム保管箱",
+    "Description": "アイスクリームが入っている箱。溶けないように、お早めにお召し上がりください。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121682,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "特別なアイスクリーム保管箱",
+    "Description": "特製アイスクリームが入っている箱。中身は誰かのために作られたもののようだ。とにかく、溶けないように、お早めにお召し上がりください。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 430011,
+    "MaterialType": 12,
+    "Id": 121683,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "特別なアイスクリーム保管箱",
+    "Description": "特製アイスクリームが入っている箱。中身は誰かのために作られたもののようだ。とにかく、溶けないように、お早めにお召し上がりください。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_100101"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121685,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "ナスチャと母親の写真",
+    "Description": "縁が少し擦り切れた古い写真。ナスチャと母の心温まるひと時が収められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_121664"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121686,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "命令実行者の記録",
+    "Description": "命令実行者の記録",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121687,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "調査手記",
+    "Description": "調査手記",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121688,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "錬金術師の手記・1",
+    "Description": "錬金術師の手記・1",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121689,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "錬金術師の手記・2",
+    "Description": "錬金術師の手記・2",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121690,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "貴族のドモヴォーイの手記",
+    "Description": "貴族のドモヴォーイの手記",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121701,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "灰にまみれた旅人の記録",
+    "Description": "灰にまみれた旅人の記録",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 2,
+    "Id": 121702,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "黄ばんだ文書",
+    "Description": "黄ばんだ文書",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_101633"
   },
   {
     "Rank": 0,
@@ -53844,6 +55761,72 @@
     "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「琥珀香」に成長する。",
     "TypeDescription": "素材",
     "Icon": "UI_ItemIcon_130044"
+  },
+  {
+    "Rank": 246,
+    "MaterialType": 31,
+    "Id": 130045,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「フロストフラワー」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「フロストフラワー」に成長する。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130045"
+  },
+  {
+    "Rank": 245,
+    "MaterialType": 31,
+    "Id": 130046,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「フロック草」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「フロック草」に成長する。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130046"
+  },
+  {
+    "Rank": 244,
+    "MaterialType": 31,
+    "Id": 130047,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「ザラトイアリャーク」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く、品質も高い。「塵歌壺」の畑に植えると、しばらくして「ザラトイアリャーク」に成長する。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130047"
+  },
+  {
+    "Rank": 243,
+    "MaterialType": 31,
+    "Id": 130048,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「ビーツ」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「ビーツ」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130048"
+  },
+  {
+    "Rank": 242,
+    "MaterialType": 31,
+    "Id": 130049,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「アイススグリ」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「アイススグリ」に成長する。",
+    "TypeDescription": "素材",
+    "Icon": "UI_ItemIcon_130049"
+  },
+  {
+    "Rank": 241,
+    "MaterialType": 31,
+    "Id": 130050,
+    "RankLevel": 0,
+    "ItemType": 2,
+    "Name": "「雪玉花」の種",
+    "Description": "「種の匣」で入手した種。生命力が強く品質も高い。「壺洞天」の田んぼに植え、時間が経つと「雪玉花」に成長する。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_130050"
   },
   {
     "Rank": 341,
@@ -54427,6 +56410,379 @@
     "Description": "龍の末裔と噂される大型魚類。\nリュウノコ族の亜種にあたり、体は深みのある紺色だが、腹部は鮮やかな淡い金色をしている。類縁と比べ、その性格は極めて温和であり、自ら他の水生生物と争うことは決してない。無論、だからと言って侮れる相手ではない。攻撃を受ければ、金色の槍のように猛然と突き進んで反撃し、自分より数倍大きな侵入者さえ鮮やかに撃退して、水域全体を震撼させるのだ…",
     "TypeDescription": "魚",
     "Icon": "UI_ItemIcon_131053"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ハイマルウオ",
+    "Description": "全身が丸みを帯びたスネージナヤの魚。テイワット各地に生息するフグ類の遠縁に見えるが、実はまったく異なる系統に属している。釣り協会に初めて記録された時のコードネームは「雪国のマルウオ」だったが、十数代の釣り師を経て、いつしか「マルウオ」という名が定着した。\nハイマルウオは、この系統の中で最も一般的な亜種である。その細かな鱗には特殊な成分が含まれているらしく、天日干しにしてすり潰し、ザラトイアリャークの根の乾燥粉末と混ぜ合わせることで、かなり効率のよい着火剤になるとして、一部のスネージナヤの冒険者から絶賛されているという…",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131054"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ユキマルウオ",
+    "Description": "全身が丸みを帯びたスネージナヤの魚。テイワット各地に生息するフグ類の遠縁に見えるが、実はまったく異なる系統に属している。釣り協会に初めて記録された時のコードネームは「雪国のマルウオ」だったが、十数代の釣り師を経て、いつしか「マルウオ」という名が定着した。\nユキマルウオは、その純白に近い色と希少さから、スネージナヤの魚の中で最も貴重だとされている。伝説によると、生息する水域の水質が少しでも悪いと、体表に雑色が混ざってしまうという。また、これを主人公にした童話もいくつかあり、天才少年の釣り師がこのマルウオについていき、「クリームの国」へ向かうという夢のような物語が描かれている。その影響で、一時期街内のクリームが品切れになる事態を引き起こしたとか…",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131055"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ゲッコウマルウオ",
+    "Description": "全身が丸みを帯びたスネージナヤの魚。テイワット各地に生息するフグ類の遠縁に見えるが、実はまったく異なる系統に属している。釣り協会に初めて記録された時のコードネームは「雪国のマルウオ」だったが、十数代の釣り師を経て、いつしか「マルウオ」という名が定着した。\n民間伝承によると、ゲッコウマルウオはスネージナヤの魚の中で最も持久力があり、方向感覚に優れた品種だという。その祖先が遠くナド・クライ水域まで泳ぎ、月光の洗礼を受けたことで、このような珍しい色になったとされている。しかし、ナド・クライから戻った商人はこの説を否定しており、生物学者も、その色はおそらく好んで食べる水底の植物に由来するものだと指摘している。とはいえ、「ゲッコウ」という接頭辞は響きがよく覚えやすいため、現在に至るまでこの呼び名が使われ続けている…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131056"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131057,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "レッドスターフィッシュ",
+    "Description": "スネージナヤの水域を泳ぐ特殊な魚。正面から見ると、六枚の鰭が星や雪の結晶に近い形をしているため、最初にこの魚を見つけた釣り師によって「スターフィッシュ」と名付けられた。中でも赤い亜種はビーツに近い色をしているため、「レッド」という接頭辞が付けられている。ただし、この接頭辞はあくまで見た目を表したものに過ぎない。ある学者の研究によると、体表の色は主に一部の捕食者を威嚇して身を守るためのものらしい。人間の目には、かえって美味しそうに見えてしまうとは思いもよらなかっただろう…",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131057"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131058,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "ブルースターフィッシュ",
+    "Description": "スネージナヤの水域を泳ぐ特殊な魚。正面から見ると、六枚の鰭が星や雪の結晶に近い形をしているため、最初にこの魚を見つけた釣り師によって「スターフィッシュ」と名付けられた。中でも青緑色の亜種は、フロストフラワーの花びらの外縁に似た色をしているため、「ブルー」という接頭辞が付けられている。同族と比べ、ブルースターフィッシュは感覚が鋭く、遠くからでも常に危険を察知し、六枚の鰭が生み出す推進力を活かして素早く遠くへ逃げていく…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_131058"
+  },
+  {
+    "Rank": 346,
+    "MaterialType": 4,
+    "Id": 131059,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "プリズムスターフィッシュ",
+    "Description": "スネージナヤの水域を泳ぐ特殊な魚。正面から見ると、六枚の鰭が星や雪の結晶に近い形をしているため、最初にこの魚を見つけた釣り師によって「スターフィッシュ」と名付けられた。中でも青色の亜種のウロコは極上の質感と色彩を持ち、特定の光の加減では、まるで虹を映す水晶のように見えるため、「プリズム」という雅称を得た。この光輝を放つ外観のおかげで、プリズムスターフィッシュはスネージナヤの魚類収集家たちが最も重宝する貴客となった。わざわざこの魚のために高価な水槽の景観を設えたにもかかわらず、長い間まったく釣れずにいる者すらいるという…",
+    "TypeDescription": "魚",
+    "Icon": "UI_ItemIcon_131059"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを900回復する。",
+    "Id": 132001,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なアイススグリのアイスクリーム",
+    "Description": "グラスに入ったデザート。カチカチに凍りついており、鉄のスプーンを使い、渾身の力を振り絞ってようやく小さな欠片をすくい取ることができた。口に入れるとあまりの冷たさに歯がガチガチと震え、本来あるはずの甘みは少しも感じられない。まるで、この極端な低温にすべての出番を奪われてしまったかのようだ…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1200回復する。",
+    "Id": 132002,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "アイススグリのアイスクリーム",
+    "Description": "グラスに入ったデザート。クリーム、ミルク、蜂蜜と砕いたベリーを混ぜ合わせ、凍らせてきめ細かくなめらかなアイスクリームに仕上げ、丸くすくってグラスに盛ったもの。人々は気温に関係なく、この果実とミルクの香りが溶け合った美味しさを喜んで味わっている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 320016,
+    "MaterialType": 1,
+    "EffectDescription": "選択したキャラを復活させ、HPを1500回復する。",
+    "Id": 132003,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなアイススグリのアイスクリーム",
+    "Description": "グラスに入ったデザート。よく見ると、果肉の細かな模様がうっすら見える。まるで氷の層に閉じ込められた、小さな夕焼けのようだ。スネージナヤの屋外の気温なら、この甘い夕焼けを一日保存しても問題ないだろう。だが、酸味と甘味が完璧に調和したこの味わいからして、そこまで残ることは絶対にないだろう…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の18%を回復し、その後30秒間、5秒毎にHPを300回復する。",
+    "Id": 132004,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "微妙なグルポフ黒パン",
+    "Description": "ずっしりとしたパン。あまりに重く、発酵の工程を完全に飛ばしたのではないかと疑ってしまうほどだ。スープに浸しても、質感はまったく変わらない…これはまさか、意志を鍛えるための専用の訓練道具なのだろうか？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の20%を回復し、その後30秒間、5秒毎にHPを390回復する。",
+    "Id": 132005,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "グルポフ黒パン",
+    "Description": "ずっしりとしたパン。生地は長時間の低温発酵を必要とし、焼き上げると外は硬く、中はきめ細かくぎっしりと詰まっている。長期間保存できるため、スネージナヤの行商人や兵士、狩人たちの定番の携帯食となっている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 231011,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の22%を回復し、その後30秒間、5秒毎にHPを470回復する。",
+    "Id": 132006,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "美味しそうなグルポフ黒パン",
+    "Description": "ずっしりとしたパン。ひと切れちぎって口に入れると、まずは穏やかでほのかな酸味が広がり、続いてライ麦特有の素朴な穀物の香りが感じられる。重厚感があり、噛めば噛むほどやみつきになる。最後に喉の奥深くからかすかな甘みが湧き上がり、まるで凍土の下に隠された、心を打つ一抹の生気のようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108891"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の26%を回復し、その後30秒間、5秒毎にHPを450回復する。",
+    "Id": 132007,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なメドヴィク",
+    "Description": "蜂蜜で作られたケーキ。ケーキ本来の甘みは燃え盛る炉の炎の中で焦げた苦味へと変わり、サワークリームで作られたクリームはしっかりと酸味の役割を果たしているものの、呼応する甘みが欠けているため、ひときわ孤立無援に感じられる…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の28%を回復し、その後30秒間、5秒毎にHPを620回復する。",
+    "Id": 132008,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "メドヴィク",
+    "Description": "ハチミツで作られたケーキ。ハチミツを加えた生地を薄く伸ばして焼き上げ、次にサワークリームで作ったクリームを層ごとに塗って重ねる。最後に細かく砕いた生地を散らし、ハチミツシロップをかける。きれいな仕上がりにするためには、どの工程も決して手を抜くことはできない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 221014,
+    "MaterialType": 15,
+    "Id": 132009,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなメドヴィク",
+    "Description": "蜂蜜で作られたケーキ。琥珀色のハニー生地と乳白色のクリームが交互に重なり合っている。一層、また一層とぴったり重なり合う姿はまるで年代記のようで、どのページにも同じように素晴らしく、人々を魅了する物語が綴られている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108892"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-15%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132010,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙なスネージナヤ串焼き",
+    "Description": "大ぶりの肉の串焼き。黒く焦げた表面は苦くて硬く、薄い木炭をかじっているようだ。しかし悲劇はまだ終わらない。火が通りすぎた中身はパサパサで硬く、どうやら肉汁は焼き上がる前にすっかり消え失せてしまったようだ…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "Id": 132011,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スネージナヤ串焼き",
+    "Description": "大ぶりの肉の串焼き。漬け込んだ肉を鉄串に刺し、炭火の上で返しながら、外は香ばしく中は柔らかくなるまで焼き上げる。庭での集まりや狩りの途中、さらには雪をかいて作った小さな空き地でも、スネージナヤでは火を起こせる場所ならどこでも見かけられる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-25%、継続時間900秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132012,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうなスネージナヤ串焼き",
+    "Description": "大ぶりの肉の串焼き。軽くサクッと音がした瞬間、肉汁が惜しみなくあふれ出す。漬けダレは炎の中でまろやかな下味となり、肉本来の旨味を引き立てている。口元が脂と肉汁でテカテカになっても、目の前の美味しさを前にしては、もう気にしていられない…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108893"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "Id": 132013,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "微妙な白の雪玉花",
+    "Description": "定番のレイヤードサラダ。長時間放置されたため、形状は崩れかけている。さらに悪いことに、すべての食材が無秩序に大移動してしまい、各層の境界が非常に曖昧になっている…食べられないわけではないが、サラダ本来の食感は完全に失われてしまった。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "Id": 132014,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "白の雪玉花",
+    "Description": "定番のレイヤードサラダ。下ごしらえした食材を層状に重ね、各層の間に味付けしたサワークリームソースを塗る。盛り付け後は、味をしっかりとなじませるためにしばらく寝かせるのが一般的だ。出来上がった姿が、雪原に雪玉花が群れ咲く様子に似ていることから、この名が付けられた。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "Id": 132015,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "美味しそうな白の雪玉花",
+    "Description": "定番のレイヤードサラダ。縁に添えられた雪玉花は、まるで雪原の果てに咲いているかのよう。黄金色の卵黄は落日となって、地平線一面を染め上げている。目にも美しい芸術品にすっかり夢中になり、スプーンが空の皿底に触れて小さな音を立てた時、ようやく我に返る——ああ、もう食べ終わっていたのか？",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108894"
+  },
+  {
+    "Rank": 421009,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員が登りとダッシュに消費するスタミナ-25%、継続時間1500秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132016,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「寸分違わず」",
+    "Description": "アリョーシャのオリジナル料理。トゥガリンが陽気に鳴く中、彼は大きな肉串を差し出してくれた。脂はまだジュージューと音を立てており、肉は普通の串焼きよりも分厚く切られている。一口かじると、ジビエの野性味が炭火によってすっかり手懐けられているのが分かる…どうやら弾丸であれ火加減であれ、彼のコントロールは非常に正確なようだ！",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108895"
+  },
+  {
+    "Rank": 521014,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+274、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132017,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「湖畔の雪鳥」",
+    "Description": "オデットのオリジナル料理。小盛りのサラダが皿の中心に静かに置かれている様は、まるでスポットライトが舞台の中央を照らし出しているかのよう。各層の造形も、彼女のステップのように正確だ。使われている食材も彼女が綿密に計算しており、全部食べても翌日の体重には絶対に影響しない…だから安心して、思い切り食べよう！",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108896"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+224、会心率+6%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132018,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "微妙なスイート・アイスクリームセット",
+    "Description": "アイスカップの詰め合わせ。ボール状のアイスは表面がでこぼこで、くしゃくしゃに丸めた後に広げた紙くずのよう。口に入れると氷の粒のジャリジャリ感がすべてを覆い隠し、深みは微塵も感じられない…今はただ目を閉じて、なぜこれに挑戦しようと思ったのかと、後悔するばかりだ…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+272、会心率+8%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132019,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "スイート・アイスクリームセット",
+    "Description": "アイスカップの詰め合わせ。4種類の異なるフレーバーのアイスをそれぞれ紙のカップに盛り付けて、一つの箱にまとめたもの。好きなフレーバーをすくって食べる派もいれば、一カップずつ食べていく派もいるが、最終的に箱が空っぽになってしまうことに違いはない。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 510012,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+320、会心率+10%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132020,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "美味しそうなスイート・アイスクリームセット",
+    "Description": "アイスカップの詰め合わせ。きめ細かくなめらかなアイスクリームが舌の上でのんびりと融け、ひんやりとした冷たさと甘さが、ゆっくりとほどけていく。箱が空になっても、手放すのがもったいなく感じてしまうほど。目を閉じるだけで、幸せな余韻がまた広がっていく。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108897"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "見た目も良く、味も良いが、ほとんど効果がない。",
+    "Id": 132021,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "アイスクリーム・アリョーシャ",
+    "Description": "人物の印象を参考に作られたアイスクリーム。猟犬の耳が生えた小さな雪玉は、トゥガリンを連れて狩りをするアリョーシャを連想させる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108898"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "見た目も良く、味も良いが、ほとんど効果がない。",
+    "Id": 132022,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "アイスクリーム・オデット",
+    "Description": "人物の印象を参考に作られたアイスクリーム。優雅な雪鳥が静かに佇む姿は、コロレフスキー劇団のバレリーナ、オデットを彷彿とさせる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108899"
+  },
+  {
+    "Rank": 531099,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の攻撃力+114、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132023,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "クワス",
+    "Description": "飲料店「クワスニク」の看板ドリンク。どうやらこの一杯にはアルコールが含まれていないようだ。黒パンの際立つ酸味と香りに軽い発泡感があり、ほのかな甘みでしつこくない。氷で冷やしてから飲むととても爽快で、スネージナヤ人ならこれを断る者はいないだろう。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108900"
+  },
+  {
+    "Rank": 231099,
+    "MaterialType": 15,
+    "EffectDescription": "選択したキャラのHP上限の26%を回復し、その後30秒間、5秒毎にHPを570回復する。",
+    "Id": 132024,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "スパイスハニー",
+    "Description": "温かい特製ホットドリンク。お湯にハチミツを溶かした後、少量の乾燥香料を加えて煮込んだもの。グラスを受け取った瞬間、口よりも先に指先から満足感が広がり、一口飲めば、ほんのりスパイシーな温もりが寒風の中でも心身を元気づけてくれる。",
+    "TypeDescription": "食べ物",
+    "Icon": "UI_ItemIcon_108901"
+  },
+  {
+    "Rank": 530099,
+    "MaterialType": 1,
+    "EffectDescription": "チーム全員の会心率+16%、継続時間300秒。マルチプレイ中、自分のキャラクターにのみ有効。",
+    "Id": 132025,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "フロストブリュー",
+    "Description": "氷星果で作られた冷たい飲み物。澄み切った不思議なパステルブルーは、一面真っ白な氷雪の世界でひときわ目を引く。まるで、夜が明けようとする空から掬い取った一杯の小さな奇跡のようだ。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108902"
+  },
+  {
+    "Rank": 131099,
+    "MaterialType": 15,
+    "EffectDescription": "見た目も良く、味も良いが、ほとんど効果がない。",
+    "Id": 132026,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "アイスクリーム・通常",
+    "Description": "よくあるスネージナヤのアイスクリーム。スネージナヤの風雪のような冷たさを帯びている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_108890"
   },
   {
     "Rank": 500101,
@@ -56706,6 +59062,127 @@
     "Icon": "UI_ItemIcon_BGM_Common"
   },
   {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141291,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・189",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141292,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・190",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141293,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・191",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141294,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・192",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141295,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・193",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141296,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・194",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141297,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・195",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141298,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・196",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141300,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・198",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141301,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・199",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "冒険アイテム",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
+    "Rank": 500107,
+    "MaterialType": 36,
+    "Id": 141302,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "旋曜玉帛・200",
+    "Description": "旋律を秘めた奇妙な結晶。まるで上質な絹で織られたかのような美玉。大陸の各地に点在するが、希少な宝物を扱う商人が持っていることもある。その中に記録されている旋律は、「塵歌壺」の「華麗なる千の響き・飄揚」、あるいは「華麗なる千の響き・繚繞」を使用することで復元できる。この「旋曜玉帛」には、スネージナヤの不思議な旋律が秘められている。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_BGM_Common"
+  },
+  {
     "Rank": 100,
     "MaterialType": 4,
     "Id": 200001,
@@ -57883,6 +60360,17 @@
     "Icon": "UI_ItemIcon_200908"
   },
   {
+    "Rank": 62009,
+    "MaterialType": 33,
+    "Id": 200909,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「雪魚王の杖」",
+    "Description": "釣り中に張力を最適張力区間に保つと、この釣り竿は魚が抵抗する時間を安定して短縮し、釣りの成功率を高める。スネージナヤ地域でのみ有効。\n\n名もなき職人が作った、真氷の創造物である釣り竿。「雪国の釣り王者の杖」と称され、現在はスネージナヤ釣り協会に預けられている。最高峰の技を持ち、風雪に完全に鍛え上げられた釣り師だけが、この釣り竿を使う資格を持つと言われている…",
+    "TypeDescription": "釣り竿",
+    "Icon": "UI_ItemIcon_200909"
+  },
+  {
     "Rank": 145000,
     "MaterialType": 21,
     "Id": 220001,
@@ -58208,7 +60696,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "種の匣",
-    "Description": "ピンばあやから貰った不思議な箱。ピンばあやによると、この箱には「種化」の能力が秘められている…植物本来の特性を基に、「種化」で得た種を「塵歌壺」の指定の田んぼに植えることが出来る。\n栽培可能な植物：霓裳花、スイートフラワー、セシリアの花、琉璃百合、風車アスター、清心、琉璃袋、ヴァルベリー、イグサ、絶雲の唐辛子、ニンジン、ダイコン、ミント、キノコ、鳴草、馬尾、キンギョソウ、ハスの花托、ドドリアン、海草、ウミレイシ、ハッラの実、ザイトゥン桃、スメールローズ、プリュイロータス、マルコット草、ルミドゥースベル、レインボーローズ、グレインの実、ショコアトゥルの種、サウリアンサキュレント、ケネパベリー、シャクギク、波しぶきのエラ、蛍光ツノキノコ、岩裂の花、フロストランプ、ソマルの実、ホワイトベリー、琥珀香、ヴィンテル草。",
+    "Description": "ピンばあやから貰った不思議な箱。ピンばあやによると、この箱には「種化」の能力が秘められている…植物本来の特性を基に、「種化」で得た種を「塵歌壺」の指定の田んぼに植えることができる。\n栽培可能な植物：霓裳花、スイートフラワー、セシリアの花、琉璃百合、風車アスター、清心、琉璃袋、ヴァルベリー、イグサ、絶雲の唐辛子、ニンジン、ダイコン、ミント、キノコ、鳴草、馬尾、キンギョソウ、ハスの花托、ドドリアン、海草、ウミレイシ、ハッラの実、ザイトゥン桃、スメールローズ、プリュイロータス、マルコット草、ルミドゥースベル、レインボーローズ、グレインの実、ショコアトゥルの種、サウリアンサキュレント、ケネパベリー、シャクギク、波しぶきのエラ、蛍光ツノキノコ、岩裂の花、フロストランプ、ソマルの実、ホワイトベリー、琥珀香、ヴィンテル草、フロストフラワー、フロック草、ザラトイアリャーク、ビーツ、アイススグリ、雪玉花。",
     "TypeDescription": "便利アイテム",
     "Icon": "UI_ItemIcon_220033"
   },
@@ -59143,7 +61631,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "月のトレジャーコンパス",
-    "Description": "ナド・クライで使用することで、近くの宝物や宝物に関する手がかりを探知できる。\n月下の世界には、多くの無主の宝が存在し、勇気や知恵に富んだ冒険者の探索を待っている。",
+    "Description": "ナド・クライと霜月で使用することで、近くの宝物や宝物に関する手がかりを探知できる。\n月下の世界には、多くの無主の宝が存在し、勇気や知恵に富んだ冒険者の探索を待っている。",
     "TypeDescription": "便利アイテム",
     "Icon": "UI_ItemIcon_220123"
   },
@@ -59247,6 +61735,17 @@
     "Icon": "UI_ItemIcon_220132"
   },
   {
+    "Rank": 35072,
+    "MaterialType": 21,
+    "Id": 220133,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「グライアイの眼」",
+    "Description": "廃棄された駅で出会った奇妙な装置。よくモノクルの姿で現れる。\nどうやら多くの便利な機能を備えているようだ…",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220133"
+  },
+  {
     "Rank": 5021,
     "MaterialType": 21,
     "Id": 220134,
@@ -59256,6 +61755,28 @@
     "Description": "かつてバーベロスが所有していた匣。まだ明かされていないものから既に明かされたものまで、すべての諭示がこの中に収められている。果たしてそれらが運命に影響を与えるのか…バーベロスはこう答えた。「ヒッヒッ…そう簡単に、運命の真の姿を見せるわけにはいかないね。それに、未来に未知なる部分を残しておくのも悪くないだろう？」",
     "TypeDescription": "便利アイテム",
     "Icon": "UI_ItemIcon_220134"
+  },
+  {
+    "Rank": 15124,
+    "MaterialType": 21,
+    "Id": 220135,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「助け合い写真機」",
+    "Description": "チチコヴァが提供した特殊な写真機は、「切磋琢磨の会」の特別装備の一つである。「探索計画」の指示に従って指定された対象を撮影すると、写真が新人向けの資料となり、今後の助けになる…",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_220094"
+  },
+  {
+    "Rank": 45004,
+    "MaterialType": 21,
+    "Id": 220136,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "氷のトレジャーコンパス",
+    "Description": "スネージナヤで使用すると、近くにある宝と、宝に関する手がかりを探すことができる。\n氷の国の大地には、人知れず氷に封じられた宝が数多く眠っている。その氷の封印を溶かせる者だけが、氷の中に残された遺産を手に入れられる。",
+    "TypeDescription": "便利アイテム",
+    "Icon": "UI_ItemIcon_220136"
   },
   {
     "Rank": 300201,
@@ -59777,6 +62298,61 @@
   {
     "Rank": 300201,
     "MaterialType": 5,
+    "Id": 221052,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：導炎の源",
+    "Description": "クズミチェフが伝説の記録に基づいて復元した武器の鍛造図。習得すると、片手剣「導炎の源」を復刻できるようになる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221053,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：霜雪の契",
+    "Description": "クズミチェフが伝説の記録に基づいて復元した武器の鍛造図。習得すると、弓「霜雪の契」を復刻できるようになる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221054,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：救済の剣",
+    "Description": "クズミチェフが伝説の記録に基づいて復元した武器の鍛造図。習得すると、両手剣「救済の剣」を復刻できるようになる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221055,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：胸中の谺",
+    "Description": "クズミチェフが伝説の記録に基づいて復元した武器の鍛造図。習得すると、法器「胸中の谺」を復刻できるようになる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221056,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "鍛造図：遠望の歌",
+    "Description": "クズミチェフが伝説の記録に基づいて復元した武器の鍛造図。習得すると、長柄武器「遠望の歌」を復刻できるようになる。",
+    "TypeDescription": "鍛造設計図",
+    "Icon": "UI_ItemIcon_221003"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
     "Id": 221057,
     "RankLevel": 3,
     "ItemType": 2,
@@ -59914,6 +62490,17 @@
     "ItemType": 2,
     "Name": "調合書：清白の餌",
     "Description": "「清白の餌」の詳しい作り方が載っている調合書。",
+    "TypeDescription": "釣り餌配合",
+    "Icon": "UI_ItemIcon_221035"
+  },
+  {
+    "Rank": 300201,
+    "MaterialType": 5,
+    "Id": 221070,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "調合書：きらめき餌",
+    "Description": "「きらめき餌」の詳しい作り方が載っている調合書。",
     "TypeDescription": "釣り餌配合",
     "Icon": "UI_ItemIcon_221035"
   },
@@ -60169,6 +62756,61 @@
     "Description": "とある心のあたたかい女の子の相棒からインスピレーションを得て作られた花火。\n璃月港には、ある小さな女の子に助けられたものの、彼女の名を知らないという人が多くいる。しかし、彼女が相棒のことを「月桂」と呼んでいたことだけは知っている。この花火は、彼女への感謝の気持ちと願いを込めて、職人に依頼されたものである。",
     "TypeDescription": "花火",
     "Icon": "UI_ItemIcon_223018"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223301,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "創造物外観・霜の精",
+    "Description": "「真氷創造物・キューブ」の外観。\n霜の精は、自分の姿のヘンテコな真氷創造物を作り出すことに夢中になっているようだ。最もシンプルな立方体にすら、自身に似せようと手を加えてしまう。",
+    "TypeDescription": "真氷創造物外観",
+    "Icon": "UI_ItemIcon_223301"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223302,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "創造物外観・ユキグマ",
+    "Description": "「真氷創造物・ストレージ」の外観。\n狩人たちの間には、こんなことわざがあるらしい——「クマが抱えているものは、きっといいものだ」。\n本物のユキグマの腕から何かを奪うのはやはり少しおっかない。ただのストレージなら、問題ないはず…？",
+    "TypeDescription": "真氷創造物外観",
+    "Icon": "UI_ItemIcon_223302"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223303,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "創造物外観・バレリーナ",
+    "Description": "「真氷創造物・オーラステーク」の外観。\n公演を鑑賞すると、バレリーナの動きと共に心が動かされる。その舞う姿からは、多くの力を得ることができる。\nそのような思いから、このような真氷創造物の外観がデザインされたようだ。",
+    "TypeDescription": "真氷創造物外観",
+    "Icon": "UI_ItemIcon_223303"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223304,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "創造物外観・猟犬",
+    "Description": "「真氷創造物・オーラステーク」の外観。\n絶え間なくバフ効果を提供してくれるのはオーラステークだけでない。いつもそばにいてくれる仲間も、時には、バフ効果を遥かに超える力をもたらすこともある。…オーラステークも仲間と同じようについてきてくれたらいいのだが。",
+    "TypeDescription": "真氷創造物外観",
+    "Icon": "UI_ItemIcon_223304"
+  },
+  {
+    "Rank": 10,
+    "MaterialType": 0,
+    "Id": 223305,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "創造物外観・潮汐",
+    "Description": "「真氷創造物・オーラステーク」の外観。\nこのような見た目のオーラステークの周りでは、微かな潮の音が聞こえることがあるらしい。しかし、オーラステークから実際に音が出ているわけではなく、音を鳴らしているのは心と想像力なのだ——ある夜に突然、心の奥底に眠っていた曲が聞こえてくるように。",
+    "TypeDescription": "真氷創造物外観",
+    "Icon": "UI_ItemIcon_223305"
   },
   {
     "Rank": 0,
@@ -61134,7 +63776,7 @@
     "RankLevel": 4,
     "ItemType": 2,
     "Name": "水の国の彩り",
-    "Description": "一面に草木が広がる郊外の野には、フォンテーヌでよく目にする様々な草花や低木が一堂に会している。花と草木は絵画では定番のモチーフであり、「色彩」への探求の起点ともなっている。フォンテーヌの画家の中には、「世界のパレット」が無数の植物を通じて、自分たちに「完璧な組み合わせ」の典型例を示していると考える者もいる。そのため、一枚の絵の中のあらゆる色彩が植物を基にしたものであれば、その絵には自然の風景と同じような調和のとれた美しさが宿っているということになる。もちろん、様々な植物の色彩をごちゃまぜにしていないことが前提ではあるが…\nこの調度品セットを好む仲間：クロリンデ、エミリエ、エスコフィエ",
+    "Description": "一面に草木が広がる郊外の野には、フォンテーヌでよく目にする様々な草花や低木が一堂に会している。花と草木は絵画では定番のモチーフであり、「色彩」への探求の起点ともなっている。フォンテーヌの画家の中には、「世界のパレット」が無数の植物を通じて、自分たちに「完璧な組み合わせ」の典型例を示していると考える者もいる。そのため、一枚の絵の中のあらゆる色彩が植物を基にしたものであれば、その絵には自然の風景と同じような調和のとれた美しさが宿っているということになる。もちろん、様々な植物の色彩をごちゃまぜにしていないことが前提ではあるが…\nこの調度品セットを好む仲間：クロリンデ、エミリエ、エスコフィエ、サンドローネ",
     "TypeDescription": "調度品セットの設計図",
     "Icon": "UI_ItemIcon_Home_Outdoor"
   },
@@ -62439,6 +65081,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 380484,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「小鳥のように鳴き交わす」",
+    "Description": "「『小鳥のように鳴き交わす』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 380504,
     "RankLevel": 3,
     "ItemType": 2,
@@ -62753,6 +65406,28 @@
     "Name": "客室のクローゼット-「大容量」",
     "Description": "「客室のクローゼット-『大容量』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381126,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「営業開始日」",
+    "Description": "「『営業開始日』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381127,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "室内棚-「尖屋根の小楼」",
+    "Description": "「室内棚-『尖屋根の小楼』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -63473,6 +66148,17 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 381350,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "脚長「燭台置き」スクエアテーブル",
+    "Description": "「高脚『置燭』角机」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 381401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -63622,6 +66308,17 @@
     "Name": "霜月の石の寝台-「身に沁みる涼」",
     "Description": "「霜月の石の寝台-『身に沁みる涼』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 381415,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「無憂甘瞑」",
+    "Description": "「『無憂甘瞑』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -64095,6 +66792,28 @@
     "Name": "お茶会チェア-「金に染まる紅」",
     "Description": "「お茶会チェア-『金に染まる紅』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382136,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「風雪の夜の静かな嘆き」",
+    "Description": "「『風雪の夜の静かな嘆き』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382137,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "室内椅子-「コントラストの芸術」",
+    "Description": "「室内椅子-『コントラストの芸術』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65101,6 +67820,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 382325,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "絨毯-「氷下の霜花」",
+    "Description": "「絨毯-『氷下の霜花』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382326,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "絨毯-「暖色」",
+    "Description": "「絨毯-『暖色』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 382401,
     "RankLevel": 2,
     "ItemType": 2,
@@ -65162,6 +67903,17 @@
     "Name": "「戦士の雄叫び」",
     "Description": "「『戦士の雄叫び』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 382408,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「シルクハットの兵士」",
+    "Description": "「『シルクハットの兵士』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65360,6 +68112,28 @@
     "Name": "「曲がりキノコ」",
     "Description": "「『曲がりキノコ』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383121,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「誰のために輝く」",
+    "Description": "「『誰のために輝く』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383122,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "室内卓上ランプ-「柔光」",
+    "Description": "「室内卓上ランプ-『柔光』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -65981,6 +68755,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383399,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「お魚くるくる」",
+    "Description": "「『お魚くるくる』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383400,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「風雪を貫く」",
+    "Description": "「『風雪を貫く』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383401,
     "RankLevel": 3,
     "ItemType": 2,
@@ -66157,6 +68953,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 383441,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「お茶の作法」",
+    "Description": "「『お茶の作法』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383442,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「平衡の枝葉」",
+    "Description": "「『平衡の枝葉』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383443,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「夢路のお供」",
+    "Description": "「『夢路のお供』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 383501,
     "RankLevel": 3,
     "ItemType": 2,
@@ -66273,6 +69102,28 @@
     "Name": "景観盆栽-「幼き蕊の香り」",
     "Description": "「景観盆栽-『幼き蕊の香り』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383513,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "花瓶の生花-「典雅な黛色」",
+    "Description": "「花瓶の生花-『典雅な黛色』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 383514,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "装飾花壇-「蕊色流緹」",
+    "Description": "「装飾花壇-『蕊色流緹』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -66713,6 +69564,28 @@
     "Name": "「絆の時」",
     "Description": "「『絆の時』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384524,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「金色の冬」",
+    "Description": "「『金色の冬』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 384525,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「誰が追い求めた愛」",
+    "Description": "「『誰が探し求めた愛』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   },
   {
@@ -69704,6 +72577,83 @@
     "ItemType": 2,
     "Name": "拠点の柱-「万能ビーコン」",
     "Description": "「拠点の柱-『万能ビーコン』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391050,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "大型輪軸起重装置",
+    "Description": "「大型輪軸起重装置」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391051,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "町の民家-「ぬくもりの家」",
+    "Description": "「町の民家-『ぬくもりの家』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391052,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「まんまる雪玉」",
+    "Description": "「『まんまる雪玉』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391053,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "待合ポート-「静かな待ち時間」",
+    "Description": "「待合ポート-『静かな待ち時間』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391054,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スネージナヤの民家-「暖色ポーチ」",
+    "Description": "「スネージナヤの民家-『暖色のポーチ』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391055,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「まんまる玉ねぎ」",
+    "Description": "「『まんまる玉ねぎ』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 391056,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "スネージナヤの民家-「典雅な彫花」",
+    "Description": "「スネージナヤの民家-『典雅な彫花』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -74176,6 +77126,39 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 393942,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "「今を大切に」",
+    "Description": "「『今を大切に』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393943,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「未融の居所」",
+    "Description": "「『未融の居所』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 393944,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「口を大きく開けて！」",
+    "Description": "「『口を大きく開けて！』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394101,
     "RankLevel": 2,
     "ItemType": 2,
@@ -74759,6 +77742,28 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394224,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "駅のベンチ-「合間の新聞読み」",
+    "Description": "「駅のベンチ-『合間の新聞読み』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394225,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「待つ温もりの名残」",
+    "Description": "「『待つ温もりの名残』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394301,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75094,6 +78099,17 @@
     "ItemType": 2,
     "Name": "「和やかな温もり」",
     "Description": "「『和やかな温もり』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394334,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「無用の忠告」",
+    "Description": "「『無用の忠告』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
     "Icon": "UI_ItemIcon_Home_Common"
   },
@@ -75771,6 +78787,72 @@
   {
     "Rank": 300401,
     "MaterialType": 27,
+    "Id": 394661,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "簡易輸送用ソリ",
+    "Description": "「簡易輸送用ソリ」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394662,
+    "RankLevel": 2,
+    "ItemType": 2,
+    "Name": "簡易テント-「雪下の小休憩」",
+    "Description": "「簡易テント-『雪下の小休憩』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394663,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "「堅氷の如く強固」",
+    "Description": "「『堅氷の如く強固』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394664,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "携帯型小型暖房装置",
+    "Description": "「携帯型小型暖房装置」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394665,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "真氷鉱材-「整然とした陳列」",
+    "Description": "「真氷鉱材-『整然とした陳列』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394666,
+    "RankLevel": 3,
+    "ItemType": 2,
+    "Name": "小型「儀盤」操作台",
+    "Description": "「小型『儀盤』操作台」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
     "Id": 394800,
     "RankLevel": 3,
     "ItemType": 2,
@@ -75909,6 +78991,17 @@
     "Name": "「銀光散らす月の御使い」",
     "Description": "「『銀光散らす月の御使い』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
     "TypeDescription": "調度品設計図",
+    "Icon": "UI_ItemIcon_Home_Common"
+  },
+  {
+    "Rank": 300401,
+    "MaterialType": 27,
+    "Id": 394847,
+    "RankLevel": 4,
+    "ItemType": 2,
+    "Name": "「銀白の翼の下で舞う」",
+    "Description": "「『銀白の翼の下で舞う』」の詳しい作り方が載っている設計図。\n使用後、製作画面で確認することができる。",
+    "TypeDescription": "",
     "Icon": "UI_ItemIcon_Home_Common"
   }
 ]

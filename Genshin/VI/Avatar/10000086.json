@@ -308,6 +308,7 @@
         "Id": 10861,
         "Name": "Liệt Sương Quyền",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nTích tụ băng giá vào nắm đấm để tung ra <color=#FFD780FF>Cú Đấm Bài Xích</color> mạnh mẽ, tiến hành tối đa 5 lần tấn công nhanh, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.\nNgoài ra, trong một thời gian ngắn sau khi thi triển kỹ năng \"Nanh Băng Càn Quét\" hoặc xung kích, số lần liên kích tấn công thường sẽ không bị tái lập.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao một lượng thể lực để nhảy lên và tung ra <color=#FFD780FF>Cú Đấm Vòm Cung</color>, gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color>.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -536,6 +537,7 @@
         "Id": 10862,
         "Name": "Nanh Băng Càn Quét",
         "Description": "Nhanh chóng điều chỉnh hơi thở, tiết tấu và bước chân. Xung kích một đoạn ngắn về phía trước, vào trạng thái <color=#FFD780FF>Hàn Băng Phán Quyết</color> để phát động cuộc tiến công mạnh mẽ.\n\n<color=#FFD780FF>Hàn Băng Phán Quyết</color>\n·Tăng khả năng kháng gián đoạn của Wriothesley;\n·Khi HP cao hơn 50% sẽ cường hóa Cú Đấm Bài Xích từ <color=#FFD780FF>Tấn Công Thường - Liệt Sương Quyền</color>, tăng sát thương gây ra; Khi đánh trúng, Wriothesley sẽ tiêu hao một lượng HP nhất định, mỗi 0.1s tối đa tiêu hao HP một lần bằng phương thức này.\nHiệu quả này sẽ bị hủy khi Wriothesley rời trận.\n\n<i>\"Phán quyết trong quá khứ đã qua, lựa chọn của tương lai nằm trong lòng bàn tay.\"\n\"Nếu không muốn vận mệnh bị tội ác nhất thời hủy diệt, thì hãy trân trọng khoảnh khắc của hiện tại.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Wriothesley_01"
       }
     ],
@@ -562,7 +564,8 @@
         },
         "Id": 865101,
         "Name": "Oan Khuất Sẽ Phơi Bày",
-        "Description": "<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Hiệu quả của thiên phú đột phá \"Ngày Biện Hộ Cho Công Lý\" sẽ thay đổi thành:\nKhi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt - Sáng Tỏ\", cường hóa đòn Trọng Kích của <color=#FFD780FF>Tấn Công Thường - Liệt Sương Quyền</color> lần sau thành Cú Đấm Huy Hoàng: Không tiêu hao thể lực, sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley, mỗi 2s tối đa hồi phục một lần HP cho Wriothesley theo cách này.\nNgoài ra, Cú Đấm Bài Xích đòn thứ 3, thứ 5 được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> sẽ lần lượt gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 60%/80% mức gốc, và Cú Đấm Huy Hoàng sẽ gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color> bằng 100% mức gốc. Sát thương kể trên được xem là sát thương phản ứng Tinh-Siêu Dẫn, và sát thương phản ứng Tinh-Siêu Dẫn do Wriothesley gây ra sẽ tăng 30%.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Wriothesley sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "Description": "<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Hiệu quả của thiên phú đột phá \"Ngày Biện Hộ Cho Công Lý\" sẽ thay đổi thành:\nKhi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt - Sáng Tỏ\", cường hóa đòn Trọng Kích của <color=#FFD780FF>Tấn Công Thường - Liệt Sương Quyền</color> mà anh ấy thực hiện thành Cú Đấm Huy Hoàng: Không tiêu hao thể lực, sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley, mỗi 2s tối đa hồi phục một lần HP cho Wriothesley theo cách này.\nNgoài ra, Cú Đấm Bài Xích đòn thứ 3, thứ 5 được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> sẽ lần lượt gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 60%/80% mức gốc, và Cú Đấm Huy Hoàng sẽ gây <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color> bằng 100% mức gốc. Sát thương kể trên được xem là sát thương phản ứng Tinh-Siêu Dẫn, và sát thương phản ứng Tinh-Siêu Dẫn do Wriothesley gây ra sẽ tăng 30%.\nNgoài ra, khi ở trong {LINK#N11330003}<color=#FFD780FF>Vùng Trục Sao</color>{/LINK}, Wriothesley sẽ vào trạng thái <color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_08"
       }
     ],
@@ -748,6 +751,7 @@
       "Id": 10865,
       "Name": "Hắc Kim Lang Cắn Xé",
       "Description": "Tung cú đấm trực diện tích tụ hàn băng, đồng thời triệu hồi Nhũ Băng Xung Kích về phía trước, gây nhiều lần <color=#99FFFFFF>Sát Thương Phạm Vi Nguyên Tố Băng</color>.\n\n<color=#FFD780FF>Sức Mạnh Nền Tảng: Ousia</color>\nNhũ Băng Xung Kích sau khi kết thúc, sẽ giáng xuống Lưỡi Dao Nổi Sóng ở vị trí kẻ địch, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> thuộc tính Ousia.\n\n<i>Luôn có vài chuyện khiến công tước của Pháo Đài Meropide phải bó tay, như công việc giấy tờ phức tạp, nhiệm vụ giám sát nhỏ nhặt, hay những đứa trẻ dán cả đống nhãn dán dễ thương nhưng khó gỡ trên găng tay của mình.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Wriothesley_01"
     },
     "Inherents": [
@@ -772,6 +776,7 @@
         "Id": 862101,
         "Name": "Ngày Biện Hộ Cho Công Lý",
         "Description": "Khi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt\", cường hóa đòn Trọng Kích của <color=#FFD780FF>Tấn Công Thường - Liệt Sương Quyền</color> lần sau thành Cú Đấm Trừng Phạt: Không tiêu hao thể lực, sát thương gây ra tăng 50%. Sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley.\nMỗi 5s tối đa nhận được một lần \"Ân Điển Trách Phạt\" thông qua cách này.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_05"
       },
       {
@@ -793,6 +798,7 @@
         "Id": 862201,
         "Name": "Giờ Đền Đáp Cho Tội Lỗi",
         "Description": "Khi HP hiện tại của Wriothesley tăng lên hay giảm xuống, nếu anh ta ở trong trạng thái Hàn Băng Phán Quyết của kỹ năng <color=#FFD780FF>Nanh Băng Càn Quét</color>, thì Hàn Băng Phán Quyết sẽ nhận được một tầng \"Sắc Lệnh Truy Tố\". Hiệu quả này tối đa cộng dồn 5 tầng, mỗi tầng tăng cho Wriothesley 6% tấn công.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Wriothesley_06"
       },
       {
@@ -811,6 +817,7 @@
         "Id": 862301,
         "Name": "Ẩn Điển Của Công Tước",
         "Description": "Khi ghép nguyên liệu đột phá vũ khí sẽ có 10% tỷ lệ nhận x2 thành phẩm.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Combine_Weapon_Double"
       }
     ],
@@ -859,8 +866,8 @@
       {
         "Id": 866,
         "Name": "Trân Trọng Người Vô Tội",
-        "Description": "Tỉ lệ bạo kích của Cú Đấm Trừng Phạt tăng 10%, sát thương bạo kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương trọng kích.\nCần mở khóa thiên phú đột phá \"Ngày Biện Hộ Cho Công Lý\".",
-        "SpecialDescription": "Tỷ Lệ Bạo Kích của Cú Đấm Trừng Phạt tăng 10%, Sát Thương Bạo Kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được xem là sát thương Trọng Kích.\n\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Hiệu quả nêu trên chuyển thành:\n·Cú Đấm Bài Xích được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> và Cú Đấm Huy Hoàng sẽ tăng 10% Tỷ Lệ Bạo Kích, Sát Thương Bạo Kích tăng 80%, đồng thời Cú Đấm Bài Xích đòn thứ 5 được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> và Cú Đấm Huy Hoàng sẽ sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 60% mức gốc, và sát thương này được xem là sát thương phản ứng Tinh-Siêu Dẫn.\n\nCần mở khóa Thiên Phú Đột Phá \"Ngày Biện Hộ Cho Công Lý\".",
+        "Description": "Tỷ Lệ Bạo Kích của Cú Đấm Trừng Phạt tăng 10%, Sát Thương Bạo Kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được xem là sát thương Trọng Kích.\nCần mở khóa Thiên Phú Đột Phá \"Ngày Biện Hộ Cho Công Lý\".",
+        "SpecialDescription": "Tỷ Lệ Bạo Kích của Cú Đấm Trừng Phạt tăng 10%, Sát Thương Bạo Kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được xem là sát thương Trọng Kích.\n\n<color=#FFD780FF>Tỏa Sáng: Tinh-Siêu Dẫn</color>: Hiệu quả nêu trên chuyển thành:\n·Cú Đấm Bài Xích được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> và Cú Đấm Huy Hoàng sẽ tăng 10% Tỷ Lệ Bạo Kích, Sát Thương Bạo Kích tăng 80%, đồng thời Cú Đấm Bài Xích đòn thứ 5 được cường hóa bởi <color=#FFD780FF>Hàn Băng Phán Quyết</color> và Cú Đấm Huy Hoàng sẽ sản sinh thêm nhũ băng, gây <color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> bằng 20% mức gốc, và sát thương này được xem là sát thương phản ứng Tinh-Siêu Dẫn.\n\nCần mở khóa Thiên Phú Đột Phá \"Ngày Biện Hộ Cho Công Lý\".",
         "Icon": "UI_Talent_S_Wriothesley_04"
       }
     ]

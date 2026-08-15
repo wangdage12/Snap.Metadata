@@ -371,6 +371,7 @@
         "Id": 10961,
         "Name": "Invito alla decapitazione",
         "Description": "#<color=#FFD780FF>Attacco normale</color>\nSferra fino a 6 colpi di lancia consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una data quantità di vigore per compiere uno scatto verso un avversario vicino e colpirlo una volta.\nTenendo premuto, Arlecchino consuma vigore per muoversi ad alta velocità per una durata massima di 5{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.\n\n<color=#FFD780FF>Maschera della morte rossa</color>\nQuando Arlecchino possiede un Legame vitale pari o superiore a un 30% dei suoi PS max, entra nello stato di Maschera della morte rossa, e i DAN inflitti dai suoi attacchi normali, caricati e in picchiata vengono convertiti in <color=#FF9999FF>DAN da Pyro</color> non influenzabili da altre infusioni elementali.\nSe Arlecchino è in stato di Maschera della morte rossa, i suoi attacchi normali infliggono DAN aggiuntivi in base al suo ATT moltiplicato per una data percentuale del suo Legame vitale attuale. Ciascun attacco consuma un 7,5% del Legame vitale in questione. Il consumo del Legame vitale di Arlecchino può verificarsi una volta ogni 0,03{NON_BREAK_SPACE}s. Quando il Legame vitale viene consumato in questo modo, il TdR di Cenere alla cenere si riduce di 0,8{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -584,6 +585,7 @@
         "Id": 10962,
         "Name": "Cenere alla cenere",
         "Description": "#Evoca la Fiamma della Luna cruenta, infliggendo <color=#FF9999FF>DAN da Pyro</color> a più avversari vicini, e sferra un fendente in scatto contro uno di essi infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>.\nAgli avversari colpiti dal suddetto attacco viene applicata una Direttiva del debito di sangue.\n\n<color=#FFD780FF>Direttiva del debito di sangue</color>\n· Ciascuna Direttiva ha una durata di 30{NON_BREAK_SPACE}s, e ogni 5{NON_BREAK_SPACE}s infligge all'avversario 1 iterazione di <color=#FF9999FF>DAN da Pyro</color>, per un massimo di 2. I DAN inflitti in questo modo sono considerati DAN da abilità elementale.\n· Quando usa un attacco caricato o il Tripudio elementale Ascesa della Luna cruenta, Arlecchino assorbe e dissolve le Direttive del debito di sangue nelle vicinanze. Ciascuna Direttiva assorbita le conferisce un Legame vitale pari a un 65% dei suoi PS max.\n· Entro 35{NON_BREAK_SPACE}s dall'utilizzo dell'abilità elementale, il valore massimo del Legame vitale che Arlecchino può ottenere tramite le Direttive del debito di sangue è pari a un 145% dei suoi PS max. Usare nuovamente l'abilità elementale in questo lasso di tempo reimposta il conteggio della durata e il limite massimo del Legame vitale che Arlecchino può ricevere dalle Direttive del debito di sangue.\n\n<i>Dal suo punto di vista, non tutti i chicchi di grano che cadono sulla terra sono destinati a diventare delle spighe. Coloro che provano a ostacolarla, invece, sono destinati a fare da nutrimento ai fiori, una volta ridotti in cenere.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Arlecchino_01"
       }
     ],
@@ -783,6 +785,7 @@
       "Id": 10965,
       "Name": "Ascesa della Luna cruenta",
       "Description": "Arlecchino dispiega la sua immensa ala della Fiamma della Luna cruenta per assorbire e dissolvere le Direttive del debito di sangue circostanti, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>. Al contempo, azzera il TdR di Cenere alla cenere e ripristina i propri PS in base all'ATT e al valore del suo Legame vitale.\n\n<i>È pensiero comune a Teyvat che le fasi lunari, a eccezione della luna piena, siano metafore di presagi nefasti, usate solo da chi pratica l'alchimia e l'astrologia.\nPiù volte ella aveva visto nei suoi sogni quella luna cremisi. Erano forse profezie di disastri imminenti? In effetti è così, ma a subire tali catastrofi non sarebbe stata lei, bensì coloro che avrebbero osato scatenare la sua ira.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Arlecchino_01"
     },
     "Inherents": [
@@ -806,6 +809,7 @@
         "Id": 962101,
         "Name": "Agonia rivendicata",
         "Description": "#Le <color=#FFD780FF>Direttive del debito di sangue</color> acquisiscono le seguenti caratteristiche.\n· Arlecchino riceve un Legame vitale pari a un 130% dei suoi PS max quando un nemico affetto da una sua Direttiva viene sconfitto.\n· 5{NON_BREAK_SPACE}s dopo l'applicazione di una Direttiva, quest'ultima si potenzia per diventare un'Ingiunzione del debito di sangue. Quando viene assorbita, conferisce ad Arlecchino un 130% di Legame vitale.\nUn Legame vitale creato nei modi sopra descritti non può superare il valore limite originale del Legame vitale derivante da <color=#FFD780FF>Cenere alla cenere</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 962201,
         "Name": "Egida della forza",
         "Description": "Arlecchino ottiene un 1% di RES fisica e a tutti gli elementi per ogni 100 di ATT superiore a 1.000. L'aumento di RES massimo che è possibile ottenere in questo modo è pari a un 20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_06"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 962301,
         "Name": "Cognizione della Luna cruenta",
         "Description": "In combattimento, Arlecchino ottiene un 40% di <color=#FF9999FF>bonus DAN da Pyro</color> e può ricevere effetti di guarigione solo tramite <color=#FFD780FF>Ascesa della Luna cruenta</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_07"
       }
     ],
@@ -1051,7 +1057,7 @@
         "Context": "Il Gallo non nutre molto amore nei miei confronti, e il sentimento è reciproco. È un sindaco accettabile, credo... forse addirittura eccezionale. Ha la straordinaria capacità di fare ottimi affari a un prezzo molto basso, il che gli è valso un notevole consenso all'interno dei suoi circoli politici. Per quanto \"basso\" possa essere il prezzo, se continua a farne le spese la mia organizzazione, prima o poi... Umpf."
       },
       {
-        "Title": "A proposito della Marionetta",
+        "Title": "A proposito della Marionetta: Ricerca",
         "Context": "Ho poco interesse per lei. Prova un'estrema... passione per la sua ricerca e non appare spesso in pubblico. Infatti, molti dei nostri ufficiali non l'hanno mai vista. Paragonata a chi, ad esempio, si spinge finanche a creare segmenti di sé stesso per poter viaggiare tra le nazioni con maggior efficienza, credo si possa dire che lei sia all'estremo opposto."
       },
       {

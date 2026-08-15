@@ -309,6 +309,7 @@
         "Id": 10301,
         "Name": "Steinhagel",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 6 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, läuft geschwind nach vorn und lässt steinerne Lanzen von Anfang bis Ende auf die Bahn der Bewegung fallen.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -540,6 +541,7 @@
         "Id": 10302,
         "Name": "Dominus Lapidis",
         "Description": "In den Bergen, auf und unter der Erde sowie in den Steinen, die überall herumliegen, steckt die Geo-Kraft. Nur äußerst wenige sind dazu in der Lage, diese Kraft aktiv zu nutzen.\n\n<color=#FFD780FF>Drücken</color>\nKonzentriert die überall auf der Erde vorhandene Geo-Kraft zu einem Hügelkamm.\n\n<color=#FFD780FF>Gedrückt halten</color>\nLässt Geo-Objekte in der Nähe explodieren und verursacht folgende Effekte:\n· Erstellt, solange die Höchstmenge nicht erreicht ist, einen Hügelkamm.\n· Erstellt einen Jadeblock, der Schaden basierend auf Zhonglis max. LP abhält.\n· Verursacht <color=#FFE699FF>Geo-Flächenschaden</color>.\n· Verbraucht bei Anwesenheit von Zielen mit <color=#FFE699FF>Geo</color>-Kraft die <color=#FFE699FF>Geo</color>-Kraft von bis zu zwei dieser Ziele. Dieser Effekt verursacht keinen Schaden.\n\n<color=#FFD780FF>Hügelkamm</color>\nVerursacht beim Entstehen <color=#FFE699FF>Geo-Flächenschaden</color>.\nVerursacht während der Wirkungsdauer eine Schwingung in Einklang mit anderen <color=#FFE699FF>Geo-Objekten</color> in der Umgebung, die Gegnern in der Umgebung <color=#FFE699FF>Geo-Schaden</color> zufügt.\nDer Hügelkamm gilt als <color=#FFE699FF>Geo-Objekt</color>, blockiert Angriffe und kann erklommen werden.\nStandardmäßig kann zu einem Zeitpunkt nur ein von Zhongli selbst erstellter Hügelkamm existieren.\n\n<color=#FFD780FF>Jadeblock-Schild</color>\nHält bei elementarem sowie physischem Schaden 150 % ab.\nVerringert den WDS gegen alle Elemente sowie den physischen WDS von Gegnern in der Nähe von Jadeblöcken geschützer Figuren mit geringer Reichweite um 20 %, nicht stapelbar.\n\n<i>Der Fels ist hart und schleift rohe Jade zu wertvollen Edelsteinen.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zhongli_01"
       }
     ],
@@ -709,6 +711,7 @@
       "Id": 10303,
       "Name": "Einstürzender Himmel",
       "Description": "Ein riesiger Meteorit fällt aus dem Himmel und fügt den Gegnern im Wirkungsbereich des Einschlags enormen <color=#FFE699FF>Geo-Schaden</color> sowie <color=#FFE699FF>Versteinert</color> zu.\n\n<color=#FFD780FF>Versteinert</color>\nGegner im Zustand <color=#FFE699FF>Versteinert</color> können sich nicht bewegen.\n\n<i>Ein aus dem Himmel fallender Meteorit hilft den Gerechten und bestraft die Unholde.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zhongli_01"
     },
     "Inherents": [
@@ -730,6 +733,7 @@
         "Id": 302101,
         "Name": "Wellenartige Ausbreitung",
         "Description": "Löst den Effekt beständige Wand aus, wenn ein Jadeblock Schaden erleidet:\n· Erhöht die Schildeffizienz der Figuren im Schutz eines Jadeblocks um 5 %.\n· 5-fach stapelbar, hält bis zum Verschwinden des Jadeblocks.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_05"
       },
       {
@@ -752,6 +756,7 @@
         "Id": 302201,
         "Name": "Hungrige Erde",
         "Description": "Erhöht den mit den folgenden Angriffen von Zhongli verursachten Schaden basierend auf seinen max. LP:\n· Erhöht den Schaden von Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall um 1,39 % der max. LP.\n· Erhöht den Schaden des Hügelkamms von <color=#FFD780FF>Dominus Lapidis</color>, den des Einklangs und den beim Gedrückthalten um 1,9 % der max. LP.\n· Erhöht den Schaden von <color=#FFD780FF>Einstürzender Himmel</color> um 33 % der max. LP.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zhongli_06"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 302301,
         "Name": "Verhängnis der Kristalle",
         "Description": "Gibt beim Schmieden von Stangenwaffen 15 % des verbrauchten Erzes zurück.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Forge_Pole"
       }
     ],

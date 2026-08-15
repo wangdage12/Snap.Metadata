@@ -277,6 +277,7 @@
         "Id": 11011,
         "Name": "Stil der Nachtsonne",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Angriffe hintereinander aus.\nNach dem Schwingen durch die Elementarfähigkeit „Seiljäger – Hoch hinaus“ in der Luft kann vor der Landung einmal ein Standardangriff ausgeführt werden.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, wirft das Großschwert wirbelnd nach vorn, um Gegner anzugreifen.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -445,6 +446,7 @@
         "Id": 11012,
         "Name": "Seiljäger – Hoch hinaus",
         "Description": "#Mit seinen Fähigkeiten zur Jagd auf große Bestien bewegt sich Kinich schnell oder greift seine Gegner an.\nWenn sich in der Nähe Gegner oder Objekte befinden, die man angreifen kann, wird das anvisierte Ziel mit dem Kletterseil verbunden und Kinich wird in den Zustand Nachtseelensegen mit 0 Nachtseelenpunkten versetzt. Ansonsten schießt Kinich ein Kletterseil nach vorn, um durch die Luft zu schwingen, und verringert dabei die Abklingzeit um 60{NON_BREAK_SPACE}%.\nKann durch Gedrückthalten eingesetzt werden. Beim Gedrückthalten kann die Richtung zum Abfeuern des Kletterseils bestimmt werden.\n\n<color=#FFD780FF>Nachtseelensegen – Kinich</color>\nKinichs Zustand „Nachtseelensegen“ hält 10{NON_BREAK_SPACE}s lang an und erzeugt jede{NON_BREAK_SPACE}s 2 Nachtseelenpunkte.\nIn diesem Zustand verbindet sich Kinich mit dem Kletterseil mit einem Gegner in der Nähe und führt seinen Angriff entsprechend aus:\n· Beim Einsatz des Standardangriffs schwingt Kinich entsprechend seiner aktuellen Bewegungsrichtung um das verbundene Ziel herum und schießt gleichzeitig auf es, wodurch mit Nachtseelen versehener <color=#99FF88FF>Dendro-Schaden</color> verursacht und 3 Nachtseelenpunkte erzeugt werden. Der Schaden des Schussangriffs beim Schwingen wird als Schaden der Elementarfähigkeit betrachtet.\n· Wenn die maximale Anzahl an Nachtseelenpunkten erreicht ist, kann die Elementarfähigkeit „Schuppendurchschlagskanone“ eingesetzt werden: Verbraucht alle Nachtseelenpunkte und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Schaden</color>. Beim Einsetzen der „Schuppendurchschlagskanone“ durch Gedrückthalten kann das Ziel des Angriffs durch das Zielen bestimmt werden. Nach dem Einsetzen der „Schuppendurchschlagskanone“ wird Kinich versuchen, mit dem Ziel der „Schuppendurchschlagskanone“ in Verbindung zu treten.\nWährend Kinich sich im Zustand „Nachtseelensegen“ befindet, wird eine tote Zone neben dem Gegner erzeugt, nachdem er mit diesem in Verbindung getreten ist oder die Kanone abgefeuert hat. Wenn Kinich diese Zone betritt, wird sie deaktiviert, wodurch Kinich 4 Nachtseelenpunkte erzeugt.\nSollte die bestehende Verbindung aus Gründen wie z. B. zu großer Entfernung abreißen, wird mit einem Standardangriff eine neue Verbindung zu einem Gegner in der Nähe hergestellt, bevor ein Schussangriff ausgeführt wird.\n\n<i>„Alle Dinge haben ihren Preis. Ich schlage vor, du machst ein angemessenes Angebot ... Was? Nein, ich lasse mich nicht auf Ratenzahlungen ein.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Kinich_01"
       }
     ],
@@ -630,6 +632,7 @@
       "Id": 11015,
       "Name": "Gegrüßt sei der Allmächtige Drachenfürst",
       "Description": "#Entfesselt die Kraft von Ajaw, dem Allmächtigen Drachenfürsten (auf einer begrenzten, bedingten, eingeschränkten, vertraglichen, teilweise festgelegten, vorübergehenden Grundlage), und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Flächenschaden</color>. Ajaw lässt während der Wirkungsdauer in regelmäßigen Abständen seinen Drachenatem los und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Flächenschaden</color>.\nBefindet sich Kinich während des Einsetzens im Zustand Nachtseelensegen, so wird die Dauer des diesmaligen Zustands Nachtseelensegen um 1,7{NON_BREAK_SPACE}s verlängert.\n\n<i>„Ja, genau! Vor dir steht der Allmächtige Drachenfürst K’uhul Ajaw. Komm nach vorn, knie nieder und küss meine Füße!“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Kinich_01"
     },
     "Inherents": [
@@ -652,6 +655,7 @@
         "Id": 1012101,
         "Name": "Der Preis der Verwüstung",
         "Description": "#Wenn Kinich sich im Zustand Nachtseelensegen befindet, werden Gegner, die von der Elementarfähigkeit von Kinich getroffen werden, in den Zustand Verwüstung versetzt. Wenn sie vom Schaden der Reaktionen „in Flammen“ oder „Flammenspross“ betroffen sind, verleihen sie ihm 7 Nachtseelenpunkte. Nachtseelenpunkte können auf diese Weise einmal alle 0,8{NON_BREAK_SPACE}s gewonnen werden. Der Zustand Verwüstung hält, bis der diesmalige Nachtseelensegen von Kinich endet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_05"
       },
       {
@@ -673,6 +677,7 @@
         "Id": 1012201,
         "Name": "Flammengeist-Pakt",
         "Description": "#Verleiht, sobald ein in der Nähe befindliches Truppenmitglied Nachtseelenaufbruch auslöst, Kinich 1 Stapelung „Jägererfahrung“, hält 15{NON_BREAK_SPACE}s, 2-fach stapelbar. Verbraucht, wenn Kinich die Schuppendurchschlagskanone von <color=#FFD780FF>Seiljäger – Hoch hinaus</color> einsetzt, alle Stapelungen von „Jägererfahrung“ und erhöht für jede verbrauchte Stapelung den verursachten Schaden der diesmaligen Schuppendurchschlagskanone um 320{NON_BREAK_SPACE}% von Kinichs ANG.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_06"
       },
       {
@@ -691,6 +696,7 @@
         "Id": 1012301,
         "Name": "Geschenk des Nachtreichs – Vollständig zurückgezahlt",
         "Description": "#Wenn Kinich sich nach dem Schwingen durch <color=#FFD780FF>Seiljäger – Hoch hinaus</color> noch in der Luft befindet, kann er 10 Punkte Phlogiston verbrauchen, um ein weiteres Schwingen in der Luft auszuführen.\nBei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kinich verwendet werden. Wenn die aktuelle Figur gerade rennt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in der Luft befindet, wird beim Wechsel zu Kinich entsprechend der Bedingung eine der folgenden Aktionen ausgelöst:\n· Bei Ausrichtung auf ein interaktives Spiralgras-Siegel: Kinich feuert sein Kletterseil in Richtung des Siegels ab, um sich fortzubewegen;\n· Bei Gegnern in der Nähe, während du dich im Kampf befindest: Kinich löst auf die Gegner Seiljäger – Hoch hinaus aus;\nAnsonsten feuert Kinich ein Kletterseil ab und schwingt in der Luft. Gültige Spiralgras-Siegel werden von Kinich als Ziele des Kletterseils bevorzugt.\n10{NON_BREAK_SPACE}s Abklingzeit für das Auslösen der Nachtseelen-Übertragung innerhalb der eigenen Truppe.\n\nBei der Interaktion mit Spiralgras-Siegeln und anderen Objekten, die mit Yumkasauriern interagieren können, wird „Seiljäger – Hoch hinaus“ in „Yumkasaurier-Mimesis“ umgewandelt, wodurch die Interaktionen mit solchen Objekten den für den Yumkasaurier geltenden Regeln folgen und „Seiljäger – Hoch hinaus“ nicht in die Abklingphase übergeht.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kinich_08"
       },
       {
@@ -712,6 +718,7 @@
         "Id": 1012501,
         "Name": "Flinker Bote",
         "Description": "#Erhöht beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan für das Einsammeln einiger sammelbarer Materialien die Bewegungs-GSW eigener Truppenmitglieder 10{NON_BREAK_SPACE}s lang um 15{NON_BREAK_SPACE}%. Zeigt außerdem alle <color=#FFD780FF>Besonderheiten Natlans</color> in der Nähe auf der Minikarte an.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Kachina_08"
       }
     ],

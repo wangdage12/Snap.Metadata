@@ -277,7 +277,7 @@
   {
     "Id": 11130002,
     "Name": "Fundamentos de rescate",
-    "Description": "#Máximo: 150{NON_BREAK_SPACE}pts. Por cada punto de fundamentos de rescate que tenga Ifá, el daño de las reacciones de Torbellino y Electrocargado de los personajes cercanos del equipo aumenta en un 1.5%, y el de la reacción de Electrocargado Lunar aumenta en un 0.2%. El efecto de fundamentos de rescate se eliminará cuando termine el estado de bendición noctámbula de Ifá."
+    "Description": "#Máximo: 150{NON_BREAK_SPACE}pts. Por cada punto de fundamentos de rescate que tenga Ifá, el daño de las reacciones de Torbellino y Electrocargado de los personajes cercanos del equipo aumenta en un 1.5%, el de la reacción de Electrocargado Lunar aumenta en un 0.2%, y el de Torbellino Estelar aumenta en un {PARAM#P1132101|5S100}%. El efecto de fundamentos de rescate se eliminará cuando termine el estado de bendición noctámbula de Ifá."
   },
   {
     "Id": 11130003,
@@ -302,7 +302,7 @@
   {
     "Id": 11130007,
     "Name": "La razón más allá de la razón",
-    "Description": "#Cuando un personaje cercano del equipo cause una reacción de Congelado, Superconductor, Torbellino Cryo o Cristalización Cryo contra un enemigo, se creará una fisura del vacío cerca de dicho oponente. Este efecto puede ocurrir, como mucho, una vez cada 2.5{NON_BREAK_SPACE}s, y podrán crearse un máximo de 3 fisuras del vacío a la vez.\n\nSkirk puede absorber las fisuras del vacío que haya en un área cercana de las siguientes maneras:\n·Cuando golpea a un enemigo con su Ataque Cargado mientras está en modo distorsión heptafásica.\n·Cuando usa la Habilidad Definitiva especial, <color=#FFD780FF>Caos: Exterminio</color>, del modo distorsión heptafásica.\n·Al mantener pulsada la Habilidad Elemental, <color=#FFD780FF>Caos: Distorsión</color>, para moverse a gran velocidad.\n\nPor cada fisura del vacío que absorba, Skirk obtendrá 8{NON_BREAK_SPACE}pts. de astucia serpentina."
+    "Description": "#Cuando un personaje cercano del equipo cause una reacción de Congelado, Superconductor, Superconductor Estelar, Torbellino Cryo, Torbellino Estelar o Cristalización Cryo contra un enemigo, se creará una fisura del vacío cerca de dicho oponente. Este efecto puede ocurrir, como mucho, una vez cada 2.5{NON_BREAK_SPACE}s, y podrán crearse un máximo de 3 fisuras del vacío a la vez.\n\nSkirk puede absorber las fisuras del vacío que haya en un área cercana de las siguientes maneras:\n·Cuando golpea a un enemigo con su Ataque Cargado mientras está en modo distorsión heptafásica.\n·Cuando usa la Habilidad Definitiva especial, <color=#FFD780FF>Caos: Exterminio</color>, del modo distorsión heptafásica.\n·Al mantener pulsada la Habilidad Elemental, <color=#FFD780FF>Caos: Distorsión</color>, para moverse a gran velocidad.\n\nPor cada fisura del vacío que absorba, Skirk obtendrá 8{NON_BREAK_SPACE}pts. de astucia serpentina."
   },
   {
     "Id": 11130008,
@@ -477,7 +477,7 @@
   {
     "Id": 11320001,
     "Name": "Martillo del Juramento Cazahecatombes",
-    "Description": "¡Un compañero de confianza para cazar brujas! Tras cumplirse ciertas condiciones, podrá sufrir un cambio elemental mediante el cual todo el daño infligido a los enemigos con el Martillo del Juramento Cazahecatombes pasará a ser daño del elemento correspondiente.\nPrune puede invocar de las siguientes formas el Martillo del Juramento Cazahecatombes que ha sufrido un cambio elemental:\n·Durante cierto tiempo después de que Prune cause una reacción de Torbellino contra un enemigo con la Habilidad Elemental, <color=#FFD780FF>“¡Tilín!”: Tañido cazaconjuros</color>, podrá usar la Habilidad Elemental especial <color=#FFD780FF>“¡Clang-clang!”: Retribución juzgabrujas</color>. Al usar esta habilidad especial, el Martillo del Juramento Cazahecatombes cambiará al otro elemento que participó en la reacción de Torbellino.\n·Tras desbloquear el talento de ascensión “Juicio y condena”, si el Cascabel Cautivabrujas causa una reacción de Torbellino contra un enemigo en el modo rastreapresas, se invocará un Martillo del Juramento Cazahecatombes que haya sufrido el cambio elemental correspondiente para atacar al enemigo."
+    "Description": "¡Un compañero de confianza para cazar brujas! Tras cumplirse ciertas condiciones, podrá sufrir un cambio elemental mediante el cual todo el daño infligido a los enemigos con el Martillo del Juramento Cazahecatombes pasará a ser daño del elemento correspondiente.\nPrune puede invocar de las siguientes formas el Martillo del Juramento Cazahecatombes que ha sufrido un cambio elemental:\n·Durante cierto tiempo después de que Prune cause una reacción de Torbellino o Torbellino Estelar contra un enemigo con la Habilidad Elemental, <color=#FFD780FF>“¡Tilín!”: Tañido cazaconjuros</color>, podrá usar la Habilidad Elemental especial <color=#FFD780FF>“¡Clang-clang!”: Retribución juzgabrujas</color>. Al usar esta habilidad especial, el Martillo del Juramento Cazahecatombes cambiará al otro elemento que participó en la reacción de Torbellino o Torbellino Estelar.\n·Tras desbloquear el talento de ascensión “Juicio y condena”, si el Cascabel Cautivabrujas causa una reacción de Torbellino o Torbellino Estelar contra un enemigo en el modo rastreapresas, se invocará un Martillo del Juramento Cazahecatombes que haya sufrido el cambio elemental correspondiente para atacar al enemigo."
   },
   {
     "Id": 11320002,
@@ -492,7 +492,7 @@
   {
     "Id": 11330001,
     "Name": "Decodificación",
-    "Description": "Al realizar un Ataque Cargado, Fagio entrará en este modo.\nMientras el modo esté activo, Fagio realizará un ataque de ráfaga contra los enemigos que tenga enfrente y disparará un rayo criocondensador de forma periódica que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n<color=#FFD780FF>Esplendor: Superconductor Estelar</color>\nEl rayo criocondensador pasará a infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de Superconductor Estelar."
+    "Description": "Al realizar un Ataque Cargado, Fagio entrará en este modo.\nMientras el modo esté activo, Fagio realizará un ataque de ráfaga contra los enemigos que tenga enfrente y disparará un rayo criocondensador de forma periódica que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n<color=#FFD780FF>Esplendor: Destello Estelar</color>\nEl rayo criocondensador pasará a infligir <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de la reacción de Destello Estelar correspondiente."
   },
   {
     "Id": 11330002,
@@ -503,5 +503,45 @@
     "Id": 11330003,
     "Name": "Campo estrellapolar",
     "Description": "Al causar una reacción de Superconductor Estelar, el área cercana se convertirá en un <color=#FFD780FF>campo estrellapolar</color> durante un breve periodo de tiempo. Al encontrarse dentro de un campo estrellapolar, ciertos personajes entrarán en el estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color>, lo que causará que sus diferentes habilidades obtengan el efecto de fortalecimiento correspondiente."
+  },
+  {
+    "Id": 11400001,
+    "Name": "Poderío de espada espiritual",
+    "Description": "Sobre “Poderío de espada espiritual”"
+  },
+  {
+    "Id": 10050002,
+    "Name": "Fulgor gélido",
+    "Description": "#Efecto especial que se obtiene cuando los cristales de hielo disparados por la <color=#FFD780FF>estrella glacial</color> creada por {F#la Viajera}{M#el Viajero} golpean a un enemigo, o cuando se realiza un <color=#FFD780FF>Ataque Cargado: Criocondensación</color> tras haber desbloqueado el talento <color=#FFD780FF>Hielo extranjero</color>. Este efecto puede acumularse hasta 8 veces.\nAl usar la Habilidad Definitiva, <color=#FFD780FF>Lanza álgida</color>, {F#la Viajera}{M#el Viajero} consumirá todas las cargas de <color=#FFD780FF>fulgor gélido</color> para aumentar el daño infligido por dicha habilidad. Si se consumen 8 cargas, también aumentará la cantidad de veces que inflige daño la Habilidad Definitiva."
+  },
+  {
+    "Id": 11500001,
+    "Name": "Doble bailarina",
+    "Description": "Una proyección mental que baila junto a Odette. Puede invocarse tanto con la Habilidad Elemental como con la Definitiva.\nAlterna entre dos tipos de pasos de baile, el <color=#FFD780FF>plumífero</color> y el <color=#FFD780FF>alado</color>, para atacar cada cierto tiempo a los enemigos cercanos con unos movimientos gráciles y elegantes que infligen <color=#99FFFFFF>Daño Cryo en el AdE</color>.\nComo máximo, solo puede haber al mismo tiempo una <color=#FFD780FF>doble bailarina</color> creada por Odette.\n\nAdemás, cuando ya haya una <color=#FFD780FF>doble bailarina</color> invocada por Odette en las cercanías, su Habilidad Elemental, <color=#FFD780FF>Adagio: Danza nocturna fantasmagórica</color>, se remplazará por la Habilidad Elemental especial Adagio: Coda del amanecer."
+  },
+  {
+    "Id": 11500002,
+    "Name": "Adagio: Coda del amanecer",
+    "Description": "La Habilidad Elemental especial de Odette. Inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> continuamente a los enemigos cercanos y, al finalizar el dueto, inflige una vez <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de Superconductor Estelar. Durante el dueto, Odette puede controlar la dirección de los pasos de baile.\n<color=#FFD780FF>Esplendor: Destello Estelar</color>\nAl finalizar el dueto, pasa a infligir una vez <color=#99FFFFFF>Daño Cryo en el AdE</color> considerado como daño de la reacción de Destello Estelar correspondiente.\n\nAdemás, tras usar la Habilidad Elemental especial <color=#FFD780FF>Adagio: Coda del amanecer</color>, si Odette se encuentra en estado de <color=#FFD780FF>esplendor: Destello Estelar</color> cuando la duración de la <color=#FFD780FF>doble bailarina</color> aún no haya terminado, los dos pasos de baile diferentes de la <color=#FFD780FF>doble bailarina</color> infligirán <color=#99FFFFFF>Daño Cryo en el AdE</color> adicional considerado como daño de la reacción de Destello Estelar correspondiente."
+  },
+  {
+    "Id": 11500003,
+    "Name": "Cadenza",
+    "Description": "Efecto especial que obtiene Odette al invocar a su <color=#FFD780FF>doble bailarina</color> una vez desbloqueado el talento de ascensión “Primavera de la elegida”.\nEl daño de Destello Estelar infligido por el personaje aumentará en un 15% por cada carga de <color=#FFD780FF>cadenza</color>. Este efecto durará hasta que la <color=#FFD780FF>doble bailarina</color> se retire de combate o hasta que se invoque de nuevo.\nCuando Odette esté en tu equipo pero no en uso, perderá 1 carga de <color=#FFD780FF>cadenza</color> por segundo y otorgará a los demás personajes cercanos del equipo la cantidad correspondiente de cargas de <color=#FFD780FF>cadenza</color>."
+  },
+  {
+    "Id": 11500004,
+    "Name": "Esplendor: Destello Estelar",
+    "Description": "<color=#FFD780FF>Esplendor: Superconductor Estelar</color> y <color=#FFD780FF>esplendor: Torbellino Estelar</color> se denominan conjuntamente “estado de <color=#FFD780FF>esplendor: Destello Estelar</color>”.\nUn personaje solo puede verse afectado por un tipo de estado de esplendor a la vez, y el de <color=#FFD780FF>esplendor: Superconductor Estelar</color> tendrá prioridad."
+  },
+  {
+    "Id": 11480001,
+    "Name": "Marca de caza",
+    "Description": "Efecto especial que Aliosha aplica a los enemigos.\nCuando vuelva a aplicar este efecto a un enemigo que ya está afectado por una <color=#FFD780FF>marca de caza</color>, esta se activará, lo que eliminará la marca y otorgará a todos los personajes cercanos del equipo el efecto de <color=#FFD780FF>precisión de cazador</color>, el cual aumentará su ATQ mientras estén en uso."
+  },
+  {
+    "Id": 11480002,
+    "Name": "Tugarin",
+    "Description": "El compañero sabueso en quien más confía Aliosha. Se puede invocar mediante la Habilidad Definitiva, <color=#FFD780FF>Avance depredador</color>, y cada cierto tiempo se desplazará rápidamente hacia un enemigo cercano para morderle y activar las <color=#FFD780FF>marcas de caza</color> ya existentes."
   }
 ]

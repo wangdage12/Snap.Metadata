@@ -308,6 +308,7 @@
         "Id": 10321,
         "Name": "Espada de la suerte",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 5 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para desatar un doble golpe de espada.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -552,6 +553,7 @@
         "Id": 10322,
         "Name": "Sobrecarga de pasión",
         "Description": "#Bennett concentra el espíritu aventurero y la energía Pyro en su espada. Dependiendo del tiempo de carga, se producen diferentes efectos.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nRealiza un rápido y ardiente movimiento con la espada, infligiendo <color=#FF9999FF>Daño Pyro</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nDependiendo de la duración, lanza una habilidad distinta basada en el nivel de carga.\n·Carga 1: asesta dos golpes, infligiendo <color=#FF9999FF>Daño Pyro</color> y lanzando a los enemigos por los aires.\n·Carga 2: asesta tres golpes consecutivos que infligen una cantidad significativa de <color=#FF9999FF>Daño Pyro</color>. El último ataque causa una explosión que lanza tanto a los enemigos como a Bennett por los aires. Sin embargo, Bennett no resulta herido por esta explosión.\n\n<i>Un ataque que combina los sueños y la pasión de Bennett con el elemento Pyro. A veces se le va la mano con la pasión y la fuerza Pyro, por lo que termina explotando.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Bennett_01"
       }
     ],
@@ -768,6 +770,7 @@
       "Id": 10323,
       "Name": "Aventura maravillosa",
       "Description": "Bennett salta y crea una explosión, infligiendo <color=#FF9999FF>Daño Pyro</color> y creando un círculo de apoyo moral.\n\n<color=#FFD780FF>Círculo de apoyo moral</color>\n·Si la Vida de un personaje dentro del círculo es igual o inferior al 70%, su vida se regenerará continuamente. La cantidad de vida regenerada aumenta en proporción a la Vida Máx. de Bennett.\n·Si la Vida de un personaje dentro del círculo es superior al 70%, obtendrá un Bono de ATQ en proporción al ATQ Base de Bennett.\n·Los personajes dentro del círculo serán <color=#FF9999FF>afectados por Pyro</color>.\n\n<i>Ir de aventuras con la Brigada de Benny es peligroso. Aunque Bennett se inclina más por llamarlo “aventuras llenas de maravillas, emoción y belleza”...</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Bennett_01"
     },
     "Inherents": [
@@ -787,6 +790,7 @@
         "Id": 322101,
         "Name": "Resurgimiento de la pasión",
         "Description": "Reduce en un 20% el TdE de <color=#FFD780FF>Sobrecarga de pasión</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_05"
       },
       {
@@ -805,6 +809,7 @@
         "Id": 322201,
         "Name": "Fervor intrépido",
         "Description": "Dentro del área de <color=#FFD780FF>Aventura maravillosa</color>, <color=#FFD780FF>Sobrecarga de pasión</color> tiene los siguientes efectos:\n·Su TdE se reduce en un 50%.\n·Bennett no será lanzado por los aires con la Carga 2.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Bennett_06"
       },
       {
@@ -823,6 +828,7 @@
         "Id": 322301,
         "Name": "Supuestamente seguro",
         "Description": "Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Expedition_Mengde"
       }
     ],

@@ -261,6 +261,7 @@
         "Id": 11311,
         "Name": "Allegoria",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nProclama o decreto na língua primordial, realizando até 3 golpes que causam <color=#FF9999FF>Dano Pyro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para infligir <color=#FF9999FF>Dano Pyro em uma AdE</color> após um curto período de canalização.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#FF9999FF>Dano Pyro em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -492,6 +493,7 @@
         "Id": 11312,
         "Name": "Revelação: Luz Não Criada",
         "Description": "Recria um vislumbre passageiro de uma era longínqua quando a autoridade dos céus ainda podia ser invocada, concedendo para todos os personagens próximos o efeito {LINK#N11310001}<color=#FFD780FF>Graça de Kenosis</color>{/LINK}{LINK#N11310002}{/LINK}, aumentando o ATQ desses personagens, causando <color=#FF9999FF>Dano Pyro em AdE</color> e revelando o Escudo da Luz Flamejante.\nA absorção de Dano do Escudo da Luz Flamejante é baseada no ATQ de Nicole, e possui 250% de eficácia contra <color=#FF9999FF>Dano Pyro</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Nicole_01"
       }
     ],
@@ -514,6 +516,7 @@
         "Id": 1315101,
         "Name": "Presente da Noite da Bruxa: Luz na Escuridão",
         "Description": "Ao completar <color=#FFD780FF>Tarefa da Bruxa: Dever de uma Guia?</color>, Nicole se tornará uma personagem <color=#FFD780FF>Mágica</color>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo os personagens Mágicos.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nAumenta o Dano causado de <color=#FFD780FF>{LINK#S11315}Projeção Arcana{/LINK}</color> de personagens mágicos. O aumento de Dano é equivalente a 300% do ATQ de Nicole.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_07"
       }
     ],
@@ -715,6 +718,7 @@
       "Id": 11315,
       "Name": "Revelação: Caminho da Jornada Celestial",
       "Description": "Tece o caminho do destino ancorado com fios dourados de luz, causando <color=#FF9999FF>Dano Pyro em AdE</color>, e troca para o modo Contemplação Silenciosa.\nQuando Nicole está nesse modo e quando um ataque do personagem ativo atinge um inimigo, invoca uma Projeção Arcana que realiza um Ataque Coordenado contra o inimigo, causando Dano em AdE do Tipo Elemental correspondente ao do personagem. Esse Dano é baseado no ATQ do personagem, e é considerado Dano causado por esse personagem.\nEsse efeito pode ser desencadeado uma vez a cada 3s, e pode ser desencadeado 4 vezes por modo de Contemplação Silenciosa de Nicole.\n\nAlém disso, personagens Mágicos terão alguma diferença de aparência quando estiverem em Projeção Arcana...",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Nicole_01"
     },
     "Inherents": [
@@ -738,6 +742,7 @@
         "Id": 1312101,
         "Name": "Methexis",
         "Description": "Nos 20s após lançar a Habilidade Elemental <color=#FFD780FF>{LINK#S11312}Revelação: Luz Não Criada{/LINK}</color>, Nicole continuará aplicando \"Observação\" nos outros personagens da equipe que estiverem atualmente em campo. Quando um personagem sob efeito de Observação permanecer em campo por 3s contínuos, o efeito {LINK#N11310001}<color=#FFD780FF>Graça de Kenosis</color>{/LINK} que ele possui será elevado para {LINK#N11310002}<color=#FFD780FF>Orientação de Theosis</color>{/LINK}, aumentando seu ATQ em 300 adicionais. Se o personagem sob efeito de Observação for um personagem Mágico, o efeito <color=#FFD780FF>Graça de Kenosis</color> será elevado diretamente para <color=#FFD780FF>Orientação de Theosis</color>.\nCom exceção de Nicole, quando outros personagens que possuem <color=#FFD780FF>Orientação de Theosis</color> saírem de campo, esse efeito voltará a ser <color=#FFD780FF>Graça de Kenosis</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_05"
       },
       {
@@ -758,6 +763,7 @@
         "Id": 1312201,
         "Name": "Philokalia",
         "Description": "Depois que o personagem ativo próximo atingir o inimigo com Dano Elemental, a {LINK#N11310001}<color=#FFD780FF>Graça de Kenosis</color>{/LINK} de Nicole será elevada para {LINK#N11310002}<color=#FFD780FF>Orientação de Theosis</color>{/LINK} por 8s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_06"
       },
       {
@@ -778,6 +784,7 @@
         "Id": 1312301,
         "Name": "Nepsis",
         "Description": "Em Teyvat, quando não estiver em combate, se já tiver obtido a Bússola de Tesouros da região atual, o Ataque Carregado de Nicole será convertido para Orientação da Emissária: invoca os Seelies próximos para ajudar a mostrar o caminho, e desencadeia o efeito igual ao da Bússola de Tesouros da região atual.\nEsse efeito possui uma recarga de 5s, e não pode ser ativado em Domínios, Domínios Dizimados e Abismo do Espiral.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Nicole_08"
       }
     ],
@@ -1153,7 +1160,7 @@
       },
       {
         "Title": "Visão",
-        "Context": "As pessoas sempre precisam de deuses, pois anseiam que suas orações sejam ouvidas, e também desejam que alguém carregue seus fardos por elas.\nDepois que as pessoas perderam os anjos, a terra passou a ser cuidada por um grupo de \"deuses\" de aparência estranha e peculiar. Bastava que acenassem com a mão para que as multidões desesperadas os seguissem e se reunissem ao seu redor; bastava que fizessem uma pequena promessa para que seus ouvintes dançassem e comemorassem; bastava que revelassem um mísero milagre para que seus seguidores lhes fossem profundamente gratos.\n\"Os humanos de hoje realmente não nasceram em uma era boa.\"\nNicole mantinha distância da multidão e pensava consigo mesma. Suas irmãs de outrora não pareciam muito mais sagradas e belas do que os deuses de aparência estranha e disforme de hoje? Embora, entre os deuses, realmente houvesse alguns de aparência muito bonita...\nO olhar de Nicole voltou-se para sua \"irmã\", rodando pelas suas pernas, agora em sua forma de Seelie. Ela soltou um suspiro silencioso. De alguma forma, a \"irmã\" transformada parecia dedicada em arrastá-la até um baú do tesouro, precisamente pela forma atual de Nicole permanecer tão humana.\nNicole estudou seu reflexo na água, ajustando sua expressão de novo e de novo. Ela tentou incorporar um mínimo traço de divindade, mas não conseguia.\nOs \"anjos\" desapareceram do mundo, e as pessoas precisam dos deuses.\n\nO tempo parecia se arrastar, e Nicole, sensível a cada vibração sutil no mundo, sentiu uma leve mudança em suas regras.\nA marca conhecida como \"Visão\", uma grande jornada destinada apenas aos humanos, despertou algo no fundo de seu ser. Ela compreendeu seu funcionamento e sabia a conclusão inevitável a que conduzia. Porém, ela se perguntava se seu estado quase humano lhe permitiria um vislumbre fugaz. O resultado pouco importava; a consciência nascida da luz, mesmo quando confinada ao reino mortal, invariavelmente se esmerava em retornar à sua origem.\nNicole tentou de tudo, mas o céu nunca a reconheceu. Milênios de palavras não ditas, pesadas demais para serem expressadas, poderiam ter saciado qualquer desejo. Mesmo assim, ela foi ignorada.\nCom um coração pesado pelo desapontamento, ela vagou por Natlan, procurando lá a única família capaz de compartilhar a sabedoria através da linguagem.\n\"Eles apagaram os anjos do desenho e da ordem do mundo. Já você será ignorada.\"\n\"Certo, acho que isso quer dizer que vou precisar usar minha cabeça para conseguir entrar no mundo humano, não é?\"\nAs conexões não existiam, por isso ela as criou. Ela não era parte do plano, mas encheu o diagrama com resquícios seus.\nNicole não mais assistia de longe. Ela aceitou comissões de esculturas, com as recompensas escondidas dentro de baús de tesouro. Ela guiou os perdidos no silêncio, entregando os baús antes de encontrarem o caminho correto. Ela ofereceu pistas silenciosas para acadêmicos confusos...\n\nA Visão de Nicole chegou sem alarde. Foi o mero ato de ajudar um velho homem que desequilibrou a balança, um momento silencioso cujo impacto o céu não poderia ignorar. Lentamente, quase imperceptível, os resultados de suas ações se reuniram, e tudo caiu em seu lugar.\nHumanos não precisam de deuses. Anjos também são assim. Serem ignorados, não serem mais necessários é um destino aterrador que separa até mesmo o divino.\nSegurando sua Visão, Nicole deixou ela traçar o contorno de Celestia.\nMeu criador...\n\"Você finalmente me vê como uma humana. Me proteja e me perdoe. De hoje em diante, viverei mais livre e audaciosamente.\""
+        "Context": "As pessoas sempre precisam de deuses, pois anseiam que suas orações sejam ouvidas e também desejam que alguém carregue seus fardos por elas.\nDepois que as pessoas perderam os anjos, a terra passou a ser cuidada por um grupo de \"deuses\" de aparência estranha e peculiar. Bastava que acenassem com a mão para que as multidões desesperadas os seguissem e se reunissem ao seu redor; bastava que fizessem uma pequena promessa para que seus ouvintes dançassem e comemorassem; bastava que revelassem um mísero milagre para que seus seguidores lhes fossem profundamente gratos.\n\"Os humanos de hoje realmente não nasceram em uma era boa.\"\nNicole mantinha distância da multidão e pensava consigo mesma. Suas irmãs de outrora não pareciam muito mais sagradas e belas do que os deuses de aparência estranha e disforme de hoje? Embora, entre os deuses, realmente houvesse alguns de aparência muito bonita...\nO olhar de Nicole voltou-se para sua \"irmã\", rodando pelas suas pernas, agora em sua forma de Seelie. Ela soltou um suspiro silencioso. De alguma forma, a \"irmã\" transformada parecia dedicada em arrastá-la até um baú do tesouro, precisamente pela forma atual de Nicole permanecer tão humana.\nNicole estudou seu reflexo na água, ajustando sua expressão de novo e de novo. Ela tentou incorporar um mínimo traço de divindade, mas não conseguia.\nOs \"anjos\" desapareceram do mundo, e as pessoas precisam dos deuses.\n\nApós muito tempo, Nicole, sensível a cada vibração sutil no mundo, sentiu uma leve mudança em suas regras.\nA marca conhecida como \"Visão\", uma grande jornada destinada apenas aos humanos, despertou algo no fundo de seu ser. Ela compreendeu seu funcionamento e sabia a conclusão inevitável a que conduzia. Porém, ela se perguntava se seu estado quase humano lhe permitiria um vislumbre fugaz. O resultado pouco importava; a consciência nascida da luz, mesmo quando confinada ao reino mortal, invariavelmente se esmerava em retornar à sua origem.\nNicole tentou de tudo, mas o céu nunca a reconheceu. Milênios de palavras não ditas, pesadas demais para serem expressadas, poderiam ter saciado qualquer desejo. Mesmo assim, ela foi ignorada.\nCom um coração pesado pelo desapontamento, ela vagou por Natlan, procurando lá a única família capaz de compartilhar a sabedoria por meio da linguagem.\n\"Eles apagaram os anjos do desenho e da ordem do mundo. Já você será ignorada.\"\n\"Certo, acho que isso quer dizer que vou precisar usar minha cabeça para conseguir entrar no mundo humano, não é?\"\nAs conexões não existiam, por isso ela as criou. Ela não era parte do plano, mas encheu o diagrama com resquícios seus.\nNicole não mais assistia de longe. Ela aceitou comissões de esculturas, com as recompensas escondidas dentro de baús de tesouro. Ela guiou os perdidos no silêncio, entregando os baús antes de encontrarem o caminho correto. Ela ofereceu pistas silenciosas para acadêmicos confusos...\n\nA Visão de Nicole chegou sem alarde. Foi o mero ato de ajudar um velho homem que desequilibrou a balança, um momento silencioso cujo impacto o céu não poderia ignorar. Lentamente, quase imperceptível, os resultados de suas ações se reuniram, e tudo caiu em seu lugar.\nHumanos não precisam de deuses. Anjos também são assim. Serem ignorados, não serem mais necessários, é um destino aterrador que separa até mesmo o divino.\nSegurando sua Visão, Nicole deixou-a traçar o contorno de Celestia.\nÓ meu criador...\n\"...Você finalmente me vê como uma humana. Proteja-me e perdoe-me. De hoje em diante, viverei mais livre e audaciosamente.\""
       }
     ]
   },

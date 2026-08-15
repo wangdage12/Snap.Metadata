@@ -307,6 +307,7 @@
         "Id": 11261,
         "Name": "Golden Blade's Petaled Touch",
         "Description": "<color=#FFD780FF>โจมตีปกติ</color>\nโจมตีด้วยดาบต่อเนื่องมากสุด 4 ครั้ง\n\n<color=#FFD780FF>ชาร์จโจมตี</color>\nใช้พลังกายส่วนหนึ่งเพื่อฟาดฟันดาบ ออกไปข้างหน้าอย่างรวดเร็ว 2 ครั้ง\n\n<color=#FFD780FF>โจมตีพุ่งลงจากอากาศ</color>\nกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -601,6 +602,7 @@
         "Id": 11262,
         "Name": "Heaven and Earth Made Manifest",
         "Description": "ปลุกเงาแห่งพลังในอดีตกาล เปลี่ยนเป็นโหมด {LINK#N11260001}<color=#FFD780FF>\"Lunar Phase Shift\" (ห้วงดิถีจันทร์)</color>{/LINK}\nในโหมดนี้ เมื่อ Zibai ใช้โจมตีปกติและชาร์จโจมตี จะเปลี่ยนเป็น<color=#FFE699FF>ความเสียหายหิน</color> ที่ไม่สามารถซ้อนทับด้วยธาตุอื่นได้ และสามารถสะสม <color=#FFD780FF>Phase Shift Radiance</color> พิเศษได้ด้วยวิธีการต่าง ๆ; Zibai สามารถใช้ Phase Shift Radiance เพื่อปล่อยสกิลธาตุพิเศษ <color=#FFD780FF>Spirit Steed's Stride</color>\n\n<color=#FFD780FF>ลัคนาจันทร์ - จรัสแสง</color>\nขณะอยู่ในโหมด <color=#FFD780FF>Lunar Phase Shift</color> เมื่อ Zibai ทำการโจมตีปกติ การโจมตีขั้นที่ 4 จะสร้าง<color=#FFE699FF>ความเสียหายหิน</color>เพิ่มเติมหนึ่งครั้ง ซึ่งความเสียหายนี้จะนับเป็นความเสียหาย ที่เกิดจากปฏิกิริยาตกผลึกจันทรา",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Zibai_01"
       }
     ],
@@ -770,6 +772,7 @@
       "Id": 11265,
       "Name": "Tri-Sphere Eminence",
       "Description": "Zibai หมุนกลดหยกครามสุริยัน สร้าง<color=#FFE699FF>ความเสียหายหิน</color> 2 ครั้ง ซึ่งความเสียหายครั้งที่ 2 จะถูกนับเป็นความเสียหายที่เกิดจากปฏิกิริยาตกผลึกจันทรา\nหาก Zibai อยู่ในโหมด {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK} ในขณะที่ปล่อย จะขยายระยะเวลาต่อเนื่องของโหมด \"Lunar Phase Shift\" ในครั้งนี้ออกไป 1.7 วินาที",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Zibai_01"
     },
     "Inherents": [
@@ -792,6 +795,7 @@
         "Id": 1262101,
         "Name": "The Selenic Adeptus Descends",
         "Description": "เมื่อใช้สกิลธาตุ <color=#FFD780FF>{LINK#S11262}Heaven and Earth Made Manifest{/LINK}</color> หรือเมื่อตัวละครในทีมที่อยู่ใกล้เคียงทำให้เกิด Moondrift Harmony แล้ว Zibai จะได้รับเอฟเฟกต์ <color=#FFD780FF>\"Selenic Descent\"</color> เป็นเวลา 4 วินาที: ความเสียหายที่เกิดจากการโจมตีครั้งที่ 2 ของ {LINK#N11260001}<color=#FFD780FF>Spirit Steed's Stride{/LINK}</color> จะเพิ่มขึ้น โดยค่าที่เพิ่มขึ้นเท่ากับ 60% ของพลังป้องกันของ Zibai",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_05"
       },
       {
@@ -813,6 +817,7 @@
         "Id": 1262201,
         "Name": "Layered Peaks Pierce the Clouds",
         "Description": "ตัวละครอื่นในทีมแต่ละตัว ที่มีประเภทของธาตุเป็น<color=#FFE699FF>ธาตุหิน</color> จะทำให้พลังป้องกันของ Zibai เพิ่มขึ้น 15%; ตัวละครอื่นในทีมแต่ละตัว ที่มีประเภทของธาตุเป็น<color=#80C0FFFF>ธาตุน้ำ</color> จะทำให้ความชำนาญธาตุของ Zibai เพิ่มขึ้น 60 หน่วย",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_06"
       },
       {
@@ -834,6 +839,7 @@
         "Id": 1262301,
         "Name": "Moonsign Benediction: The Coursing Sun and Moon",
         "Description": "เมื่อตัวละครในทีมทำให้เกิดปฏิกิริยาตกผลึกธาตุน้ำ จะเปลี่ยนเป็นปฏิกิริยาตกผลึกจันทราแทน และเพิ่มความเสียหายพื้นฐาน ของปฏิกิริยาตกผลึกจันทราที่ตัวละครในทีมสร้าง ตามพลังป้องกันของ Zibai: ทุก 100 หน่วยของพลังป้องกัน จะเพิ่มความเสียหายพื้นฐานของปฏิกิริยาตกผลึกจันทราขึ้น 0.7% โดยจะสามารถเพิ่มความเสียหายด้วยวิธีนี้ได้มากสุด 14%\n\nนอกจากนี้ เมื่อมี Zibai อยู่ในทีม <color=#FFD780FF>ลัคนาจันทร์</color> ของทีมจะเพิ่มขึ้น 1 ระดับ",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_07"
       },
       {
@@ -854,6 +860,7 @@
         "Id": 1262501,
         "Name": "Moonlit Flower Forest",
         "Description": "ในตอนกลางคืน (18:00 น. - 6:00 น.) เมื่อไม่อยู่ในสถานะต่อสู้ จะฟื้นฟูพลังงานธาตุให้ Zibai 1 หน่วยทุก 2 วินาที\nเอฟเฟกต์ดังกล่าวจะไร้ผล เมื่ออยู่ในดันเจี้ยน, Trounce Domain และ Spiral Abyss",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Zibai_08"
       }
     ],

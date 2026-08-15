@@ -309,6 +309,7 @@
         "Id": 10851,
         "Name": "Strömungswirbel",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 4 Angriffe mit dem Schwert hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht fortlaufend Ausdauer, wirbelt das Großschwert und greift Gegner in der Umgebung an.\nSchwingt das Schwert am Ende mit besonders großer Wucht.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -618,6 +619,7 @@
         "Id": 10852,
         "Name": "Treibeis-Druck",
         "Description": "#Führt einen nach oben gerichteten Angriff aus, der <color=#99FFFFFF>Kryo-Schaden</color> verursacht und für 10{NON_BREAK_SPACE}s den Status Pers-Uhr auslöst.\nIn diesem Status wird die Elementarfähigkeit durch „Hochdruckmalmer“ ersetzt.\n\n<color=#FFD780FF>Hochdruckmalmer</color>\nFührt je nach Stufendruck der Pers-Uhr einen anderen Angriff aus und entfernt dabei den Status der Pers-Uhr:\n· Stufe 0: Führt einen vertikalen Hieb aus, der <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n· Stufe 1 bis 3: Führt in Zusammenarbeit mit Pers einen vertikalen Hieb aus, der <color=#99FFFFFF>Kryo-Schaden</color> und physischen Schaden verursacht. Je nach Stufendruck fällt hierbei der jeweilige Schaden unterschiedlich aus.\n· Stufe 4: Macht sich die Kraft eines voll unter Druck stehenden Pers zunutze und verursacht physischen Schaden. Ersetzt „Standardangriff: Strömungswirbel“ mit „Hochdruckmalmer“\n\n<color=#FFD780FF>Pers-Uhr</color>\nLöst bei einem Standardangriff von Fréminet gleichzeitig Frost aus und verursacht <color=#99FFFFFF>Kryo-Schaden</color>, wodurch der Stufendruck der Pers-Uhr erhöht wird.\nHierdurch verursachter <color=#99FFFFFF>Kryo-Schaden</color> wird als Schaden der Elementarfähigkeit gewertet.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nEin Geisterstachel erscheint in regelmäßigen Abständen nach dem Ausführen eines nach oben gerichteten Angriffs. Dieser ist in der Lage, anzugreifen und mit Pneuma versehenen <color=#99FFFFFF>Kryo-Schaden</color> zu verursachen.\n\n<i>Einen Gegner bewegungsunfähig, anstatt ihm den Garaus zu machen, könnte man in gewissem Sinne auch als eine Art „Überlebensstrategie“ bezeichnen.</i>\n<i>„Pers ... jetzt bist du dran.“</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Freminet_01"
       }
     ],
@@ -787,6 +789,7 @@
       "Id": 10855,
       "Name": "Des Schattenjägers Hinterhalt",
       "Description": "#Entfesselt eine unantastbare Kälte, die <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht, die Abklingzeit der Elementarfähigkeit „Treibeis-Druck“ zurücksetzt und Fréminet 10{NON_BREAK_SPACE}s lang in den Tauchhelm-Modus versetzt.\n\nIm Tauchhelm-Modus erhöht sich Fréminets Unterbrechungs-WDS und seiner Elementarfähigkeit „Treibeis-Druck“ werden folgende Boni verliehen:\n· Verkürzt die Abklingzeit um 70{NON_BREAK_SPACE}%.\n· Erhöht beim Ausführen des Standardangriffs die Pers-Uhr um eine weitere Stufe Druck. Außerdem erhöht sich der Schaden des durch Standardangriffe ausgelösten Frosts auf 200{NON_BREAK_SPACE}% des ursprünglichen Schadens.\n\nDieser Effekt wird aufgehoben, wenn Fréminet ausgewechselt wird.\n\n<i>„Jetzt ... brauche ich keine unnötigen Geräusche von außen.“</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Freminet_01"
     },
     "Inherents": [
@@ -808,6 +811,7 @@
         "Id": 852101,
         "Name": "Sättigungstauchgang",
         "Description": "#Befindet sich beim Auslösen von <color=#FFD780FF>Treibeis-Druck – Hochdruckmalmer</color> Pers’ Stufendruck unter 4, so reduziert sich die Abklingzeit von Treibeis-Druck um 1{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 852201,
         "Name": "Parallelkondensator",
         "Description": "#Erhöht den Schaden von <color=#FFD780FF>Treibeis-Druck – Hochdruckmalmer</color> 5{NON_BREAK_SPACE}s um 40{NON_BREAK_SPACE}%, wenn Fréminet beim Gegner die Reaktion Eisbrecher ausgelöst hat.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_06"
       },
       {
@@ -847,6 +852,7 @@
         "Id": 852301,
         "Name": "Tiefwasser-Navigation",
         "Description": "#Verringert den Wasserausdauerverbrauch aller Truppenmitglieder um 35{NON_BREAK_SPACE}%.\nNicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Freminet_07"
       }
     ],
@@ -876,7 +882,7 @@
       {
         "Id": 854,
         "Name": "Tanz des frostigen Mondes und der Flöte",
-        "Description": "#Erhöht den ANG 6{NON_BREAK_SPACE}s lang um 9{NON_BREAK_SPACE}%, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter ausgelöst hat. 2-fach stapelbar, 0,3{NON_BREAK_SPACE}s Abklingzeit.",
+        "Description": "#Erhöht den ANG 6{NON_BREAK_SPACE}s lang um 9{NON_BREAK_SPACE}%, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher, Supraleiter oder Stellar-Supraleiter ausgelöst hat. 2-fach stapelbar, 0,3{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Freminet_03"
       },
       {
@@ -892,7 +898,7 @@
       {
         "Id": 856,
         "Name": "Moment des Erwachens und der Entschlossenheit",
-        "Description": "#Erhöht den KSCH 6{NON_BREAK_SPACE}s lang um 12{NON_BREAK_SPACE}%, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter ausgelöst hat. 3-fach stapelbar, 0,3{NON_BREAK_SPACE}s Abklingzeit.",
+        "Description": "#Erhöht den KSCH 6{NON_BREAK_SPACE}s lang um 12{NON_BREAK_SPACE}%, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher, Supraleiter oder Stellar-Supraleiter ausgelöst hat. 3-fach stapelbar, 0,3{NON_BREAK_SPACE}s Abklingzeit.",
         "Icon": "UI_Talent_S_Freminet_04"
       }
     ]

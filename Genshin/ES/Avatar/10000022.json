@@ -351,6 +351,7 @@
         "Name": "Puntería divina",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 6 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, se acumularán vientos favorables en la punta de la flecha. Una flecha totalmente cargada con la fuerza del viento infligirá <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
         "SpecialDescription": "#<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 6 disparos consecutivos con arco.\n\n<color=#FFD780FF>Ataque Cargado</color>\nRealiza un <color=#FFD780FF>Disparo Preciso</color> que inflige mayor daño y tiene mayor precisión.\nAl apuntar, se acumularán vientos favorables en la punta de la flecha. Una flecha totalmente cargada con la fuerza del viento infligirá <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nMientras el Ojo del huracán creado por la Habilidad Definitiva, <color=#FFD780FF>Gran Oda del Viento</color>, esté activo, Venti obtendrá los siguientes fortalecimientos adicionales:\n·Los Ataques Normales de Venti se convierten en <color=#FFD780FF>flechas huracanadas</color> que atraviesan a los enemigos e infligen aún más <color=#80FFD7FF>Daño Anemo</color> a aquellos que se encuentren en su trayectoria.\n·Cuando Venti golpea a un enemigo con un Ataque Normal, la duración del Ojo del huracán aumenta en 1{NON_BREAK_SPACE}s y su TdE aumenta en 0.5{NON_BREAK_SPACE}s. Este efecto solo se puede activar una vez cada 0.1{NON_BREAK_SPACE}s y hasta un máximo de 2 veces después de cada uso de la Habilidad Definitiva, <color=#FFD780FF>Gran Oda del Viento</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_02"
       },
       {
@@ -519,6 +520,7 @@
         "Id": 10224,
         "Name": "Sonata celestial",
         "Description": "#Oh, viento que lleva consigo la música y la poesía, ¡llévate a estos caminantes de la tierra a los cielos!\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nInvoca un campo de viento en la ubicación del enemigo, infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> y lanzando a los enemigos por los aires.\n\n<color=#FFD780FF>Mantener pulsado</color>\nInvoca un campo de viento aún más grande con Venti como epicentro, infligiendo <color=#80FFD7FF>Daño Anemo en el AdE</color> y lanzando por los aires a los enemigos afectados.\nAl mantener pulsada esta habilidad, Venti también alzará el vuelo.\n\nLos enemigos golpeados por Sonata celestial caerán al suelo lentamente.\n\n<i>En los días en que dioses y hombres caminaban juntos por la tierra, los cielos estaban llenos de innumerables canciones. Sin embargo, esta melodía fue olvidada hace mucho tiempo.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Venti_01"
       }
     ],
@@ -542,7 +544,8 @@
         },
         "Id": 225101,
         "Name": "Rito de la noche de brujas: Alabanza del viento del tiempo",
-        "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: Del despertar del viento»</color>, Venti se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nMientras el Ojo del huracán creado por la Habilidad Definitiva, <color=#FFD780FF>Gran Oda del Viento</color>, esté activo, durante los 4{NON_BREAK_SPACE}s después de que un personaje en uso cercano cause una reacción de Torbellino, el daño infligido por dicho personaje aumentará en un 50%, y el Ojo del huracán de Venti infligirá un 135% de su daño original.",
+        "Description": "#Tras completar la misión <color=#FFD780FF>«Lecciones del Aquelarre: Del despertar del viento»</color>, Venti se convertirá en un personaje <color=#FFD780FF>taumatúrgico</color>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <color=#FFD780FF>taumaturgia: rito secreto</color>, el cual les otorgará ciertos fortalecimientos.\n\n<color=#FFD780FF>Taumaturgia: rito secreto</color>\nMientras el Ojo del huracán creado por la Habilidad Definitiva, <color=#FFD780FF>Gran Oda del Viento</color>, esté activo, durante los 4{NON_BREAK_SPACE}s después de que un personaje en uso cercano cause una reacción de Torbellino o Torbellino Estelar, el daño infligido por dicho personaje aumentará en un 50%, y el Ojo del huracán de Venti infligirá un 135% de su daño original.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_07"
       }
     ],
@@ -728,6 +731,7 @@
       "Id": 10225,
       "Name": "Gran Oda del Viento",
       "Description": "Dispara una flecha imbuida de viento, creando un enorme ciclón que atrae a los enemigos e inflige <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Cambio elemental</color>\nSi el ciclón entra en contacto con <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, inflige Daño Elemental adicional de ese tipo.\nEl cambio elemental solo puede ocurrir una vez por uso.\n\n<i>Muchos himnos escritos en alabanza al Arconte Anemo se han perdido en el tiempo. Este canta sobre su dominio del viento.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Venti_01"
     },
     "Inherents": [
@@ -749,6 +753,7 @@
         "Id": 222101,
         "Name": "Abraza los vientos",
         "Description": "Mantener pulsado <color=#FFD780FF>Sonata celestial</color> genera corrientes de viento ascendentes con una duración de 20 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_05"
       },
       {
@@ -770,6 +775,7 @@
         "Id": 222201,
         "Name": "Ojo del huracán",
         "Description": "Al terminar el efecto de <color=#FFD780FF>Gran Oda del Viento</color>, Venti regenera 15 pts. de Energía Elemental.\nSi ocurre un cambio elemental, también restaurará 15 pts. de Energía Elemental a todos los personajes con el elemento al que cambió el ciclón.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Venti_06"
       },
       {
@@ -788,6 +794,7 @@
         "Id": 222301,
         "Name": "Jinete del viento",
         "Description": "Disminuye en un 20% el Coste de Aguante al planear de todos los miembros de tu equipo.\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Glide"
       }
     ],

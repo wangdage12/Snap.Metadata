@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "聖護の魔槍",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方へ槍投げ攻撃を行う。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "古律・孤灯の秘密",
         "Description": "ランプに宿る古の力を呼び起こし、<color=#FFD780FF>幽炎の露顕</color>状態に入る。このモードには下記の特性がある。\n・フリンズの通常攻撃と重撃が、元素付与によって他の元素に変化しない<color=#FFACFFFF>雷元素ダメージ</color>へと変わり、落下攻撃ができなくなる。\n・フリンズの中断耐性をアップする。\n・元素スキル<color=#FFD780FF>古律・孤灯の秘密</color>は、特殊な元素スキル<color=#FFD780FF>北国の嵐槍</color>に切り替わる。\n\n<color=#FFD780FF>北国の嵐槍</color>\n前方に槍陣を生成し、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。さらにその後の6秒間、フリンズの元素爆発<color=#FFD780FF>旧儀・夜の賓客</color>は特殊な元素爆発{LINK#N11200001}<color=#FFD780FF>雷霆のシンフォニー</color>{/LINK}に切り替わる。\n<color=#FFD780FF>北国の嵐槍</color>の基本クールタイムは6秒であり、他の効果の影響を受けない。",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "旧儀・夜の賓客",
       "Description": "ランプに宿る真の力を解放し、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与え、短時間後、さらに2回の中段攻撃と1回の最終攻撃を行う。中段攻撃と最終攻撃は月感電反応ダメージと見なされる<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n<color=#FFD780FF>月兆・満照</color>：スキルが強化される。近くに雷雲が存在する場合、追加で中段攻撃を2回行い、月感電反応ダメージと見なされる<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n特殊元素スキル<color=#FFD780FF>北国の嵐槍</color>発動後の6秒間、フリンズの元素爆発<color=#FFD780FF>旧儀・夜の賓客</color>は特殊元素爆発<color=#FFD780FF>雷霆のシンフォニー</color>に切り替わる。\n\n<color=#FFD780FF>雷霆のシンフォニー</color>\nより少ない元素エネルギーで発動できる特殊な元素爆発。月感電反応ダメージと見なされる<color=#FFACFFFF>雷元素範囲ダメージ</color>を1回与える。\n<color=#FFD780FF>月兆・満照</color>：スキルが強化される。近くに雷雲が存在する場合、月感電反応ダメージと見なされる<color=#FFACFFFF>雷元素範囲ダメージ</color>をさらに1回与える。",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "厳冬の響き",
         "Description": "フリンズはチームの<color=#FFD780FF>月兆</color>に応じて、強化効果を獲得する。\n\n<color=#FFD780FF>月兆・満照</color>：フリンズが起こした月感電反応によるダメージ+20%。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "幽炎の囁き",
         "Description": "フリンズの元素熟知が、フリンズの攻撃力の8%分アップする。この方法でアップできるフリンズの元素熟知は、最大160まで。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "月兆の祝福・旧世の秘奥",
         "Description": "チーム内のキャラクターが感電反応を起こすと、感電反応は月感電反応へと変わり、フリンズの攻撃力に基づいて、月感電反応の基礎ダメージがアップする。攻撃力100につき、基礎ダメージ+0.7%。この方法でアップできるダメージは最大14%まで。\n\nまた、フリンズがチームにいる時、チームの<color=#FFD780FF>月兆レベル</color>が1アップする。",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "照夜の灯り",
         "Description": "ミニマップで周囲の<color=#FFD780FF>ナド・クライ地域の特産</color>の位置を表示する。\nフリンズはワイルドハントの囁きを理解できるようだ…",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

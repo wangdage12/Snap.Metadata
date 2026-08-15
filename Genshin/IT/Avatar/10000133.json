@@ -42,6 +42,7 @@
             "DAN da attacco caricato Raffica di fuoco|{param4:F1P}",
             "DAN da attacco caricato Raggio condensato|{param5:F1P}",
             "DAN da Astroconduzione attacco caricato Raggio condensato|{param6:F1P}",
+            "DAN da Turbinio astrale ATT caricato Raggio condensato|{param11:F1P}",
             "DAN durante Overdrive di potenza|{param7:F1P}",
             "DAN da ATT in picchiata|{param8:F1P}",
             "DAN da ATT in picchiata basso/alto|{param9:P}/{param10:P}"
@@ -60,7 +61,8 @@
                 0.43,
                 0.745878,
                 1.49144,
-                1.862889
+                1.862889,
+                1.2255
               ]
             },
             {
@@ -76,7 +78,8 @@
                 0.465,
                 0.806589,
                 1.612836,
-                2.01452
+                2.01452,
+                1.32525
               ]
             },
             {
@@ -92,7 +95,8 @@
                 0.5,
                 0.8673,
                 1.734233,
-                2.16615
+                2.16615,
+                1.425
               ]
             },
             {
@@ -108,7 +112,8 @@
                 0.55,
                 0.95403,
                 1.907656,
-                2.382765
+                2.382765,
+                1.5675
               ]
             },
             {
@@ -124,7 +129,8 @@
                 0.585,
                 1.014741,
                 2.029052,
-                2.534396
+                2.534396,
+                1.66725
               ]
             },
             {
@@ -140,7 +146,8 @@
                 0.625,
                 1.084125,
                 2.167791,
-                2.707688
+                2.707688,
+                1.78125
               ]
             },
             {
@@ -156,7 +163,8 @@
                 0.68,
                 1.179528,
                 2.358556,
-                2.945964
+                2.945964,
+                1.938
               ]
             },
             {
@@ -172,7 +180,8 @@
                 0.735,
                 1.274931,
                 2.549322,
-                3.184241
+                3.184241,
+                2.09475
               ]
             },
             {
@@ -188,7 +197,8 @@
                 0.79,
                 1.370334,
                 2.740087,
-                3.422517
+                3.422517,
+                2.2515
               ]
             },
             {
@@ -204,7 +214,8 @@
                 0.85,
                 1.47441,
                 2.948195,
-                3.682455
+                3.682455,
+                2.4225
               ]
             },
             {
@@ -220,7 +231,8 @@
                 0.91,
                 1.578486,
                 3.156303,
-                3.942393
+                3.942393,
+                2.5935
               ]
             },
             {
@@ -236,7 +248,8 @@
                 0.97,
                 1.682562,
                 3.364411,
-                4.202331
+                4.202331,
+                2.7645
               ]
             },
             {
@@ -252,7 +265,8 @@
                 1.03,
                 1.786638,
                 3.572519,
-                4.462269
+                4.462269,
+                2.9355
               ]
             },
             {
@@ -268,7 +282,8 @@
                 1.09,
                 1.890714,
                 3.780627,
-                4.722207
+                4.722207,
+                3.1065
               ]
             },
             {
@@ -284,7 +299,8 @@
                 1.15,
                 1.99479,
                 3.988735,
-                4.982145
+                4.982145,
+                3.2775
               ]
             }
           ],
@@ -292,7 +308,8 @@
         },
         "Id": 11331,
         "Name": "Formula fenomenale: Proposizione autoevidente",
-        "Description": "<color=#FFD780FF>Attacco normale</color>\nGenera fili tramite formule che controllano la sua arma, sferrando fino a 3 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nEvoca la Facilitatrice Automatisée Généraliste Interactive et Omnitâche, anche detta \"<color=#FFD780FF>Fagio</color>\", che entra in modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, durante la quale scatena una Raffica di fuoco contro i nemici di fronte a sé e spara periodicamente Raggi condensati che infliggono <color=#99FFFFFF>DAN da Cryo ad area</color>.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, i <color=#99FFFFFF>DAN da Cryo ad area</color> inflitti dai Raggi condensati sono considerati DAN da Astroconduzione.\nIn modalità <color=#FFD780FF>Decodifica</color>, la <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio aumenta costantemente. Sparare Raggi condensati incrementa la Potenza di decodifica in maniera ulteriore.\nQuando la Potenza di decodifica di Fagio raggiunge il massimo di 100 punti, Fagio passa alla modalità <color=#FFD780FF>Overdrive di potenza</color>, durante la quale spara agli avversari a intervalli più lunghi infliggendo <color=#99FFFFFF>DAN da Cryo</color>, e non può rientrare in modalità Decodifica.\nQuando non è in modalità <color=#FFD780FF>Decodifica</color>, la <color=#FFD780FF>Potenza di decodifica</color> di Fagio si riduce gradualmente. Quando Sandrone non è in campo, quest'ultima si concentra sul mantenimento di Fagio, e la Potenza di decodifica si riduce a un 300% del tasso di riduzione originale.\nFagio esce dalla modalità <color=#FFD780FF>Overdrive di potenza</color> quando la <color=#FFD780FF>Potenza di decodifica</color> scende al di sotto dei 50 punti.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "Description": "<color=#FFD780FF>Attacco normale</color>\nGenera fili tramite formule che controllano la sua arma, sferrando fino a 3 colpi consecutivi.\n\n<color=#FFD780FF>Attacco caricato</color>\nEvoca la Facilitatrice Automatisée Généraliste Interactive et Omnitâche, anche detta \"<color=#FFD780FF>Fagio</color>\", che entra in modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, durante la quale scatena una Raffica di fuoco contro i nemici di fronte a sé e spara periodicamente Raggi condensati che infliggono <color=#99FFFFFF>DAN da Cryo ad area</color>.\nNello stato di {LINK#N11500004}<color=#FFD780FF>Splendore: Barlume astrale</color>{/LINK}, i <color=#99FFFFFF>DAN da Cryo ad area</color> inflitti dai Raggi condensati sono considerati DAN della reazione di Barlume astrale corrispondente.\nIn modalità <color=#FFD780FF>Decodifica</color>, la <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio aumenta costantemente. Sparare Raggi condensati incrementa la Potenza di decodifica in maniera ulteriore.\nQuando la Potenza di decodifica di Fagio raggiunge il massimo di 100 punti, Fagio passa alla modalità <color=#FFD780FF>Overdrive di potenza</color>, durante la quale spara agli avversari a intervalli più lunghi infliggendo <color=#99FFFFFF>DAN da Cryo</color>, e non può rientrare in modalità Decodifica.\nQuando non è in modalità <color=#FFD780FF>Decodifica</color>, la <color=#FFD780FF>Potenza di decodifica</color> di Fagio si riduce gradualmente. Quando Sandrone non è in campo, quest'ultima si concentra sul mantenimento di Fagio, e la Potenza di decodifica si riduce a un 300% del tasso di riduzione originale.\nFagio esce dalla modalità <color=#FFD780FF>Overdrive di potenza</color> quando la <color=#FFD780FF>Potenza di decodifica</color> scende al di sotto dei 50 punti.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -301,6 +318,7 @@
           "Descriptions": [
             "DAN da Colpo prismatico|{param1:F1P}",
             "DAN da Astroconduzione Colpo prismatico|{param2:F1P}",
+            "DAN da Turbinio astrale Colpo prismatico|{param4:F1P}",
             "#TdR|{param3:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
@@ -310,7 +328,8 @@
               "Parameters": [
                 0.324,
                 0.216,
-                4
+                4,
+                0.324
               ]
             },
             {
@@ -319,7 +338,8 @@
               "Parameters": [
                 0.3483,
                 0.2322,
-                4
+                4,
+                0.3483
               ]
             },
             {
@@ -328,7 +348,8 @@
               "Parameters": [
                 0.3726,
                 0.2484,
-                4
+                4,
+                0.3726
               ]
             },
             {
@@ -337,7 +358,8 @@
               "Parameters": [
                 0.405,
                 0.27,
-                4
+                4,
+                0.405
               ]
             },
             {
@@ -346,7 +368,8 @@
               "Parameters": [
                 0.4293,
                 0.2862,
-                4
+                4,
+                0.4293
               ]
             },
             {
@@ -355,7 +378,8 @@
               "Parameters": [
                 0.4536,
                 0.3024,
-                4
+                4,
+                0.4536
               ]
             },
             {
@@ -364,7 +388,8 @@
               "Parameters": [
                 0.486,
                 0.324,
-                4
+                4,
+                0.486
               ]
             },
             {
@@ -373,7 +398,8 @@
               "Parameters": [
                 0.5184,
                 0.3456,
-                4
+                4,
+                0.5184
               ]
             },
             {
@@ -382,7 +408,8 @@
               "Parameters": [
                 0.5508,
                 0.3672,
-                4
+                4,
+                0.5508
               ]
             },
             {
@@ -391,7 +418,8 @@
               "Parameters": [
                 0.5832,
                 0.3888,
-                4
+                4,
+                0.5832
               ]
             },
             {
@@ -400,7 +428,8 @@
               "Parameters": [
                 0.6156,
                 0.4104,
-                4
+                4,
+                0.6156
               ]
             },
             {
@@ -409,7 +438,8 @@
               "Parameters": [
                 0.648,
                 0.432,
-                4
+                4,
+                0.648
               ]
             },
             {
@@ -418,7 +448,8 @@
               "Parameters": [
                 0.6885,
                 0.459,
-                4
+                4,
+                0.6885
               ]
             },
             {
@@ -427,7 +458,8 @@
               "Parameters": [
                 0.729,
                 0.486,
-                4
+                4,
+                0.729
               ]
             },
             {
@@ -436,7 +468,8 @@
               "Parameters": [
                 0.7695,
                 0.513,
-                4
+                4,
+                0.7695
               ]
             }
           ],
@@ -444,7 +477,8 @@
         },
         "Id": 11332,
         "Name": "Formula fenomenale: Analisi differenziale",
-        "Description": "#Con il suo portamento impeccabile e signorile, Sandrone sale a bordo dell'<color=#FFD780FF>Hovermech d'assalto tattico del tè pomeridiano</color> e fluttua in avanti per 6{NON_BREAK_SPACE}s. Durante questo periodo di tempo, Sandrone può controllare la direzione del mezzo. Tramite {LAYOUT_MOBILE#il tocco}{LAYOUT_PC#la pressione}{LAYOUT_PS#la pressione} dello Scatto, consuma 10 di vigore per lanciarsi in un'elegante modalità di levitazione ad alta velocità, che le permette di muoversi ancora più velocemente consumando 15 di vigore al secondo.\n\nQuando Sandrone inizia a levitare, se sono presenti avversari nelle vicinanze, evoca anche un Cannone a risonanza prismatica e spara 2 Colpi prismatici contro qualsiasi avversario ancora a tiro, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, il secondo Colpo prismatico infligge <color=#99FFFFFF>DAN da Cryo</color> considerati DAN da Astroconduzione.\n\nQuando l'Hovermech d'assalto tattico del tè pomeridiano è attivo, Sandrone ne approfitta per riparare Fagio con grazia ed eleganza, causando una rapida riduzione della <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color>.",
+        "Description": "#Con il suo portamento impeccabile e signorile, Sandrone sale a bordo dell'<color=#FFD780FF>Hovermech d'assalto tattico del tè pomeridiano</color> e fluttua in avanti per 6{NON_BREAK_SPACE}s. Durante questo periodo di tempo, Sandrone può controllare la direzione del mezzo. Tramite {LAYOUT_MOBILE#il tocco}{LAYOUT_PC#la pressione}{LAYOUT_PS#la pressione} dello Scatto, consuma 10 di vigore per lanciarsi in un'elegante modalità di levitazione ad alta velocità, che le permette di muoversi ancora più velocemente consumando 15 di vigore al secondo.\n\nQuando Sandrone inizia a levitare, se sono presenti avversari nelle vicinanze, evoca anche un Cannone a risonanza prismatica e spara 2 Colpi prismatici contro qualsiasi avversario ancora a tiro, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\nNello stato di {LINK#N11500004}<color=#FFD780FF>Splendore: Barlume astrale</color>{/LINK}, il secondo Colpo prismatico infligge <color=#99FFFFFF>DAN da Cryo</color> considerati DAN della reazione di Barlume astrale corrispondente.\n\nQuando l'Hovermech d'assalto tattico del tè pomeridiano è attivo, Sandrone ne approfitta per riparare Fagio con grazia ed eleganza, causando una rapida riduzione della <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_MarionetteNew_01"
       }
     ],
@@ -455,6 +489,7 @@
           "DAN da Bombardamento|{param1:F1P} ×3",
           "DAN da Raggio a inibizione convettiva|{param2:F1P}",
           "DAN da Astroconduzione Raggio a inibizione convettiva|{param3:F1P}",
+          "DAN da Turbinio astrale Raggio a inibizione convettiva|{param6:F1P}",
           "#TdR|{param4:F1}{NON_BREAK_SPACE}s",
           "Costo energia|{param5:I}"
         ],
@@ -467,7 +502,8 @@
               3.308,
               2.205333,
               15,
-              60
+              60,
+              3.308
             ]
           },
           {
@@ -478,7 +514,8 @@
               3.5561,
               2.370733,
               15,
-              60
+              60,
+              3.5561
             ]
           },
           {
@@ -489,7 +526,8 @@
               3.8042,
               2.536133,
               15,
-              60
+              60,
+              3.8042
             ]
           },
           {
@@ -500,7 +538,8 @@
               4.135,
               2.756667,
               15,
-              60
+              60,
+              4.135
             ]
           },
           {
@@ -511,7 +550,8 @@
               4.3831,
               2.922067,
               15,
-              60
+              60,
+              4.3831
             ]
           },
           {
@@ -522,7 +562,8 @@
               4.6312,
               3.087467,
               15,
-              60
+              60,
+              4.6312
             ]
           },
           {
@@ -533,7 +574,8 @@
               4.962,
               3.308,
               15,
-              60
+              60,
+              4.962
             ]
           },
           {
@@ -544,7 +586,8 @@
               5.2928,
               3.528533,
               15,
-              60
+              60,
+              5.2928
             ]
           },
           {
@@ -555,7 +598,8 @@
               5.6236,
               3.749067,
               15,
-              60
+              60,
+              5.6236
             ]
           },
           {
@@ -566,7 +610,8 @@
               5.9544,
               3.9696,
               15,
-              60
+              60,
+              5.9544
             ]
           },
           {
@@ -577,7 +622,8 @@
               6.2852,
               4.190133,
               15,
-              60
+              60,
+              6.2852
             ]
           },
           {
@@ -588,7 +634,8 @@
               6.616,
               4.410667,
               15,
-              60
+              60,
+              6.616
             ]
           },
           {
@@ -599,7 +646,8 @@
               7.0295,
               4.686333,
               15,
-              60
+              60,
+              7.0295
             ]
           },
           {
@@ -610,7 +658,8 @@
               7.443,
               4.962,
               15,
-              60
+              60,
+              7.443
             ]
           },
           {
@@ -621,7 +670,8 @@
               7.8565,
               5.237667,
               15,
-              60
+              60,
+              7.8565
             ]
           }
         ],
@@ -629,7 +679,8 @@
       },
       "Id": 11335,
       "Name": "Formula fenomenale: Quod erat demonstrandum",
-      "Description": "In linea con l'etichetta di una vera dama, Sandrone evoca un gran numero di Cannoni a risonanza prismatica per sferrare un Bombardamento frontale, per poi colpire i nemici con un Raggio a inibizione convettiva, infliggendo <color=#99FFFFFF>DAN da Cryo ad area</color>.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, il Raggio a inibizione convettiva infligge <color=#99FFFFFF>DAN da Cryo ad area</color> considerati DAN da Astroconduzione.",
+      "Description": "In linea con l'etichetta di una vera dama, Sandrone evoca un gran numero di Cannoni a risonanza prismatica per sferrare un Bombardamento frontale, per poi colpire i nemici con un Raggio a inibizione convettiva, infliggendo <color=#99FFFFFF>DAN da Cryo ad area</color>.\nNello stato di {LINK#N11500004}<color=#FFD780FF>Splendore: Barlume astrale</color>{/LINK}, il Raggio a inibizione convettiva infligge <color=#99FFFFFF>DAN da Cryo ad area</color> considerati DAN della reazione di Barlume astrale corrispondente.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_MarionetteNew_01"
     },
     "Inherents": [
@@ -651,7 +702,8 @@
         },
         "Id": 1332101,
         "Name": "Motore di calcolo eterno",
-        "Description": "#Nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, quando Sandrone utilizza l'abilità elementale {LINK#S11332}<color=#FFD780FF>Formula fenomenale: Analisi differenziale</color>{/LINK}, se la <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio è superiore a 50 punti, il secondo Colpo prismatico di Fagio scagliato agli avversari vicini infligge un 400% dei suoi DAN originali, comportando al contempo una riduzione della Potenza di decodifica.\nIn più, per ogni 10 punti di <color=#FFD780FF>Potenza di decodifica</color> persi, Fagio ottiene 1 accumulo di <color=#FFD780FF>Tattiche sofisticate</color> per 60{NON_BREAK_SPACE}s (massimo 10 accumuli). Quando Sandrone utilizza il Tripudio elementale {LINK#S11335}<color=#FFD780FF>Formula fenomenale: Quod erat demonstrandum</color>{/LINK} mentre è nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, tutti gli accumuli di Tattiche sofisticate vengono rimossi, permettendo al Raggio a inibizione convettiva di infliggere un 100%{NON_BREAK_SPACE}+{NON_BREAK_SPACE}(numero di accumuli rimossi){NON_BREAK_SPACE}×{NON_BREAK_SPACE}10% dei suoi DAN originali.",
+        "Description": "#Nello stato di {LINK#N11500004}<color=#FFD780FF>Splendore: Barlume astrale</color>{/LINK}, quando Sandrone utilizza l'abilità elementale {LINK#S11332}<color=#FFD780FF>Formula fenomenale: Analisi differenziale</color>{/LINK}, se la <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio è superiore a 50 punti, il secondo Colpo prismatico di Fagio scagliato agli avversari vicini infligge un 400% dei suoi DAN originali, comportando al contempo una riduzione della Potenza di decodifica.\nIn più, per ogni 10 punti di <color=#FFD780FF>Potenza di decodifica</color> persi, Fagio ottiene 1 accumulo di <color=#FFD780FF>Tattiche sofisticate</color> per 60{NON_BREAK_SPACE}s (massimo 10 accumuli). Quando Sandrone utilizza il Tripudio elementale {LINK#S11335}<color=#FFD780FF>Formula fenomenale: Quod erat demonstrandum</color>{/LINK} mentre è nello stato di <color=#FFD780FF>Splendore: Barlume astrale</color>, tutti gli accumuli di Tattiche sofisticate vengono rimossi, permettendo al Raggio a inibizione convettiva di infliggere un 100%{NON_BREAK_SPACE}+{NON_BREAK_SPACE}(numero di accumuli rimossi){NON_BREAK_SPACE}×{NON_BREAK_SPACE}10% dei suoi DAN originali.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_05"
       },
       {
@@ -673,6 +725,7 @@
         "Id": 1332201,
         "Name": "Codice di condotta di una signora",
         "Description": "Per ogni 100 di ATT, la maestria elementale di Sandrone aumenta di 8. L'aumento massimo ottenibile in questo modo è pari a 160.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_06"
       },
       {
@@ -692,8 +745,9 @@
           "Display": 0
         },
         "Id": 1332301,
-        "Name": "Luce del razionalismo",
-        "Description": "Quando i membri del gruppo innescano una reazione di Superconduzione, questa si trasforma in Astroconduzione, e i DAN base da Astroconduzione dei membri del gruppo vengono aumentati in base all'ATT di Sandrone. Per ogni 100 di ATT di Sandrone, i suddetti DAN base aumentano di uno 0,7%, fino a un 14% massimo.\nInoltre, quando Sandrone si trova in un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK}, entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>.",
+        "Name": "Giubileo astrale: Luce del razionalismo",
+        "Description": "#Sandrone entra nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color> quando si trova all'interno di un {LINK#N11330003}<color=#FFD780FF>Campo astropolare</color>{/LINK} o nello stato di <color=#FFD780FF>Splendore: Turbinio astrale</color> per 8{NON_BREAK_SPACE}s dopo che un membro vicino del gruppo ha innescato una reazione di Turbinio astrale.\nQuando un membro del gruppo innesca una reazione di Superconduzione o Turbinio di Cryo, questa diventa una reazione di Astroconduzione o di Turbinio astrale, e i DAN base di tale reazione aumentano di un ulteriore 0,7% per ogni 100 di ATT di Sandrone. In questo modo è possibile ottenere fino a un 14% di aumento massimo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_07"
       },
       {
@@ -712,6 +766,7 @@
         "Id": 1332501,
         "Name": "Preludio del caucus e un lungo racconto",
         "Description": "Quando Sandrone è nel gruppo, ottieni ricompense aggiuntive sotto forma di spuntini dopo aver completato gli incarichi giornalieri di Katheryne.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_MarionetteNew_08"
       }
     ],
@@ -719,13 +774,13 @@
       {
         "Id": 1331,
         "Name": "L'indomani di un tramonto dorato",
-        "Description": "Quando è in modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, il tasso di aumento della <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio si riduce di un 50%, e tutti i membri del gruppo infliggono un 30% di DAN da Astroconduzione in più.",
+        "Description": "Quando è in modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, il tasso di aumento della <color=#FFD780FF>{LINK#N11330002}Potenza di decodifica{/LINK}</color> di Fagio si riduce di un 50%, e tutti i membri del gruppo infliggono un 30% di DAN da reazione di Barlume astrale in più.",
         "Icon": "UI_Talent_S_MarionetteNew_01"
       },
       {
         "Id": 1332,
         "Name": "Attraverso lo specchio e quel che l'ereditiera vi trovò",
-        "Description": "Nello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, i DAN da CRIT dei Raggi condensati degli attacchi caricati aumentano di un 40%. Inoltre, a ogni raggio sparato, i DAN da CRIT inflitti da tutti i Raggi condensati sparati durante la modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color> aumentano di un ulteriore 20%. Massimo 3 accumuli.",
+        "Description": "Nello stato di <color=#FFD780FF>Splendore: Barlume astrale</color>, i DAN da CRIT dei Raggi condensati degli attacchi caricati aumentano di un 40%. Inoltre, a ogni raggio sparato, i DAN da CRIT inflitti da tutti i Raggi condensati sparati durante la modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color> aumentano di un ulteriore 20%. Massimo 3 accumuli.",
         "Icon": "UI_Talent_S_MarionetteNew_02"
       },
       {
@@ -741,7 +796,7 @@
       {
         "Id": 1334,
         "Name": "La conoscenza è il vero fondamento del mondo",
-        "Description": "#Quando Sandrone infligge DAN da Astroconduzione a un avversario, evoca anche un Cannone a risonanza prismatica aggiuntivo per sparare un attacco coordinato che infligge <color=#99FFFFFF>DAN da Cryo</color> pari a un 125% del suo ATT. Tali DAN sono considerati DAN da Astroconduzione. Quest'effetto può verificarsi una volta ogni 4{NON_BREAK_SPACE}s.",
+        "Description": "#Quando Sandrone infligge DAN da Astroconduzione o Turbinio astrale a un avversario, evoca anche un Cannone a risonanza prismatica aggiuntivo per sparare un attacco coordinato che infligge <color=#99FFFFFF>DAN da Cryo</color> pari rispettivamente a un 125% o a un 187,5% del suo ATT. Tali DAN sono considerati DAN della reazione di Barlume astrale corrispondente. Quest'effetto può verificarsi una volta ogni 4{NON_BREAK_SPACE}s.",
         "Icon": "UI_Talent_S_MarionetteNew_03"
       },
       {
@@ -757,7 +812,7 @@
       {
         "Id": 1336,
         "Name": "Narcissus si desta, i suoi occhi sull'alba",
-        "Description": "Mentre è nella modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, quando Fagio spara un Raggio condensato per la terza volta, quest'ultimo viene convertito in un più potente <color=#FFD780FF>Raggio a grappolo condensato</color> che spara continuamente. Quest'ultimo infligge fino a 4 iterazioni aggiuntive di <color=#99FFFFFF>DAN da Cryo ad area</color>, pari a un 100% dell'ATT di Sandrone, oltre a qualsiasi raggio originale successivo sparato.\nNello stato di <color=#FFD780FF>Splendore: Astroconduzione</color>, invece, il <color=#FFD780FF>Raggio a grappolo condensato</color> infligge 4 iterazioni aggiuntive di <color=#99FFFFFF>DAN da Cryo ad area</color>, pari a un 80% dell'ATT di Sandrone, considerati come DAN da Astroconduzione.\nInoltre, tutti i DAN da Astroconduzione inflitti da Sandrone vengono {LINK#N11190007}<color=#FFD780FF>innalzati</color>{/LINK} di un 20%.",
+        "Description": "Mentre è nella modalità <color=#FFD780FF>{LINK#N11330001}Decodifica{/LINK}</color>, quando Fagio spara un Raggio condensato per la terza volta, quest'ultimo viene convertito in un più potente <color=#FFD780FF>Raggio a grappolo condensato</color> che spara continuamente. Quest'ultimo infligge fino a 4 iterazioni aggiuntive di <color=#99FFFFFF>DAN da Cryo ad area</color>, pari a un 100% dell'ATT di Sandrone, oltre a qualsiasi raggio originale successivo sparato.\nNello stato di <color=#FFD780FF>Splendore: Barlume astrale</color>, il <color=#FFD780FF>Raggio a grappolo condensato</color> infligge 4 iterazioni aggiuntive di <color=#99FFFFFF>DAN da Cryo ad area</color>. I DAN inflitti con questo attacco, che sono considerati DAN della reazione di Barlume astrale corrispondente, variano in base allo stato di Splendore di Sandrone.\n· <color=#FFD780FF>Splendore: Astroconduzione</color>: 80% dell'ATT di Sandrone.\n· <color=#FFD780FF>Splendore: Turbinio astrale</color>: 120% dell'ATT di Sandrone.\nInoltre, tutti i DAN da Barlume astrale inflitti da Sandrone vengono {LINK#N11190007}<color=#FFD780FF>innalzati</color>{/LINK} di un 20%.",
         "Icon": "UI_Talent_S_MarionetteNew_04"
       }
     ]
@@ -1074,7 +1129,7 @@
       },
       {
         "Title": "Fuori combattimento (3)",
-        "Context": "Purtroppo... non c'è altro da dire..."
+        "Context": "Purtroppo... non c'è altro da aggiungere..."
       },
       {
         "Title": "Danni da colpo leggero (1)",
@@ -1108,11 +1163,11 @@
     "FetterStories": [
       {
         "Title": "Informazioni sul personaggio",
-        "Context": "Alain Guillotin la chiamava \"Marionetta\". Dietro a questo nome si celava la storia di una persona cara che non riusciva a dimenticare. Egli la creò nell'ingenuo tentativo di ridare vita ai suoi ricordi, ma nel momento in cui ella aprì gli occhi e pronunciò timidamente il nome di Alain, lui decise di non chiamarla mai più così. Era sbagliato, comprese, far gravare su quella sua raffinata piccola creazione il peso della vita di sua sorella e dei propri errori. Ella meritava una vita tutta sua, proprio come chiunque altro venuto al mondo.\nTuttavia, di tanto in tanto, continuava a rivolgersi a lei con quel nome, anche solo nei suoi pensieri. Lo faceva perché, proprio come il nome \"Marionetta\" suggeriva, lei era pura di cuore, gentile e sempre piena di gioia.\nIl popolo di Snezhnaya la conosceva come \"Lady Marionetta\". Sebbene la maggior parte delle persone parlasse di lei con il timore che incutono solitamente i Messaggeri, nelle loro voci si percepiva spesso anche un tono di rispetto, un sentimento reso evidente da descrizioni quali \"la risoluta Lady Marionetta\" e \"la sempre affidabile Lady Marionetta\".\nMa tra i suoi amici e colleghi era conosciuta come Sandrone. Sebbene in origine fosse solo un nome in codice, col tempo divenne un modo allegro con cui i suoi cari più intimi si rivolgevano a lei. Cominciarono ad associarlo al profumo dei pasticcini e del tè pomeridiano, all'elegante sfogliare delle pagine di un libro e al ticchettio regolare di una molla... E naturalmente, a volte, evocava anche i brontolii e persino le sfuriate di una damigella che aveva perso completamente la pazienza, al diavolo il bon ton!\nUna volta, un amico le pose questa domanda: \"Come vuoi che ti chiamiamo?\"\n\"Non ha importanza, e neanche m'interessa\", rispose con nonchalance. \"Ho sempre pensato che i nomi esistano principalmente per la comodità degli altri. Il modo in cui le persone scelgono di chiamarmi è perlopiù determinato dalla parte di me che scelgono di accettare\".\nL'espressione sul volto del suo amico suggeriva in maniera lampante che non era minimamente preparato a una risposta del genere.\n\"A ogni modo, a prescindere da come gli altri scelgono di chiamarmi, io resto sempre me stessa. Non intendo cambiare perché qualcuno decide di usare un nome piuttosto che un altro, e dato che non m'importa di come mi chiamano, tanto vale che gli permetta di usare quello con cui si sentono più a loro agio, no? Che poi io risponda o meno al nome in questione, beh, è un altro paio di maniche\"."
+        "Context": "Alain Guillotin la chiamava \"Marionetta\". Dietro a questo nome si celava la storia di una persona cara che non riusciva a dimenticare. Egli la creò nell'ingenuo tentativo di ridare vita ai suoi ricordi, ma nel momento in cui ella aprì gli occhi e pronunciò timidamente il nome di Alain, lui decise di non chiamarla mai più così. Era sbagliato, comprese, far gravare su quella sua raffinata piccola creazione il peso della vita di sua sorella e dei propri errori. Ella meritava una vita tutta sua, proprio come chiunque altro venuto al mondo.\nTuttavia, di tanto in tanto, continuava a rivolgersi a lei con quel nome, anche solo nei suoi pensieri. Lo faceva perché, proprio come il nome \"Marionetta\" suggeriva, lei era pura di cuore, gentile e sempre piena di gioia.\nIl popolo di Snezhnaya la conosceva come \"Lady Marionetta\". Sebbene la maggior parte delle persone parlasse di lei con il timore che incutono solitamente i Messaggeri, nelle loro voci si percepiva spesso anche un tono di rispetto, un sentimento reso evidente da descrizioni quali \"la risoluta Lady Marionetta\" e \"la sempre affidabile Lady Marionetta\".\nMa tra i suoi amici e colleghi era conosciuta come Sandrone. Sebbene in origine fosse solo un nome in codice, col tempo divenne un modo allegro con cui i suoi cari più intimi si rivolgevano a lei. Cominciarono ad associarlo al profumo dei pasticcini e del tè pomeridiano, all'elegante sfogliare delle pagine di un libro e al ticchettio regolare di una molla... E naturalmente, a volte, evocava anche i brontolii e persino le sfuriate di una damigella che aveva perso completamente la pazienza, al diavolo il bon ton!\nUna volta, un'amica le pose questa domanda: \"Come vuoi che ti chiamiamo?\"\n\"Non ha importanza, e neanche m'interessa\", rispose con nonchalance. \"Ho sempre pensato che i nomi esistano principalmente per la comodità degli altri. Il modo in cui le persone scelgono di chiamarmi è perlopiù determinato dalla parte di me che scelgono di accettare\".\nL'espressione sul volto della sua amica suggeriva in maniera lampante che non era minimamente preparata a una risposta del genere.\n\"A ogni modo, a prescindere da come gli altri scelgono di chiamarmi, io resto sempre me stessa. Non intendo cambiare perché qualcuno decide di usare un nome piuttosto che un altro, e dato che non m'importa di come mi chiamano, tanto vale che gli permetta di usare quello con cui si sentono più a loro agio, no? Che poi io risponda o meno al nome in questione, beh, è un altro paio di maniche\"."
       },
       {
         "Title": "Storia del personaggio (1)",
-        "Context": "Ricordava molto chiaramente il giorno in cui era nata.\nAll'inizio era buio. Aprì gli occhi e cominciò a osservare tutto ciò che la circondava. Si rese conto di essere seduta su una sedia e che, proprio davanti a lei, c'era un uomo dall'aspetto piuttosto anziano. Egli le disse di chiamarsi Alain Guillotin.\nRipeté il nome di lui, e poi gli chiese quale fosse il proprio nome. Il vecchio non rispose per un po', come se si fosse trovato di fronte a qualcosa a cui non aveva mai pensato prima. Ma alla fine, non senza una certa esitazione e con un'espressione ch'ella non riuscì a decifrare, disse: \"Marionetta...\"\n\"Marionetta\", lei ripeté.\nIl volto del vecchio si contrasse ancora di più, in preda a una qualche emozione. \"Che strano\", ella pensò. \"Come mai riesco a identificare praticamente tutto ciò che vedo nel mio campo visivo, ma non riesco a dare un nome a ciò che sta provando? Dovrei aggiungerlo alla mia lista di domande a cui rispondere\".\nE quella lista era piuttosto lunga. Ad esempio, perché si trovava lì? Come era venuta al mondo, e qual era il suo scopo? Come si taglia a dadini una patata in modo che i pezzi siano perfettamente uniformi e abbastanza presentabili per la cena? E cosa bisogna fare affinché la pianta sul davanzale produca i fiori più belli...?\nLe risposte a certe domande, scoprì, erano facili da trovare. Nella maggior parte dei casi bastava semplicemente investire un po' di tempo e dedicarsi a un apprendimento piuttosto lineare. Ma altre domande erano ben più profonde, tanto che persino il vecchio che l'aveva creata non era in grado di fornire una risposta.\nTrascorreva la maggior parte del suo tempo con il vecchio Alain Guillotin. A un certo punto, scoprì che non le piaceva poi un granché: si muoveva troppo lentamente ed era oltremodo disorganizzato. Spesso smarriva i suoi fogli e i suoi strumenti e, di tanto in tanto, le porgeva persino un taccuino che non aveva alcuna utilità pratica.\n\"La tua vita è un caos totale\", gli disse senza mezzi termini. \"Le tue cose non sono mai al loro posto e le tue carte sono sparse ovunque. Scrivi una singola equazione su due fogli e li fai finire chissà come alle estremità opposte della stanza\".\nDi fronte a quelle sue lamentele sfacciate, uno strano sorriso apparve sul volto del vecchio, come se fosse appena stato elogiato per qualcosa. \"Ahah... Mary-Ann diceva esattamente la stessa cosa\".\nQuell'uomo era semplicemente impossibile da capire.\nMa col tempo riuscì a scoprire anche i lati del vecchio che le piacevano di più.\nSi affezionò al modo in cui egli si concentrava quand'era immerso nel lavoro, e al suono della sua penna sulla carta. Cominciò ad apprezzare le sue spiegazioni dei vari principi d'ingegneria e il modo in cui discuteva con lei di complessi problemi matematici al banco da lavoro... Si dilettava ad ascoltare le storie che, seduti accanto al fuoco, le raccontava sul passato della vecchia Fontaine, della Croce della ninfa... E trovava gradevole il dolce sorriso che gli si disegnava sul volto in quei momenti.\nScoprì che, per quanto fosse sbadato e disordinato, quel vecchio era anche gentile, onesto e pieno di saggezza.\nCon il passare del tempo, i lati che apprezzava del vecchio arrivarono a superare di gran lunga quelli che non le piacevano. Questo la portò a voler riesaminare le sue azioni precedenti.\nQuando la trovò a scrivere sul suo taccuino, Alain rimase sbalordito.\nLei capiva che lui avrebbe desiderato ardentemente chiederle cosa stesse facendo; tuttavia, nel timore di farle cambiare idea, Alain si costrinse a soffocare la propria curiosità.\nCosì, lei decise di prendere l'iniziativa. \"Credo di detestarti\", disse.\nSi rese conto che quell'esordio lo aveva piuttosto ferito.\n\"Ma ho anche scoperto di essermi sbagliata. Quello era un giudizio formulato in un periodo in cui la mia logica emotiva di base e la mia obiettività non erano ancora del tutto consolidate\". Continuò: \"Ora sento che sei un ottimo 'padre'\".\nAlain rimase attonito per un istante. Poi, un sorriso gli apparve sul volto. Era un sorriso di genuina felicità, mescolato a qualche altra emozione.\n\"Che stia per... piangere?\", pensò. Stava imparando lentamente a leggere le emozioni umane, anche se non comprendeva ancora da cosa derivassero.\nMa quel quesito poteva attendere. Prese il suo taccuino e ricominciò a scrivere."
+        "Context": "Ricordava molto chiaramente il giorno in cui era nata.\nAll'inizio era buio. Aprì gli occhi e cominciò a osservare tutto ciò che la circondava. Si rese conto di essere seduta su una sedia e che, proprio davanti a lei, c'era un uomo dall'aspetto piuttosto anziano. Egli le disse di chiamarsi Alain Guillotin.\nRipeté il nome di lui, e poi gli chiese quale fosse il proprio nome. Il vecchio non rispose per un po', come se si fosse trovato di fronte a qualcosa a cui non aveva mai pensato prima. Ma alla fine, non senza una certa esitazione e con un'espressione ch'ella non riuscì a decifrare, rispose: \"Marionetta...\"\n\"Marionetta\", ripeté lei.\nIl volto del vecchio si contrasse ancora di più, in preda a una qualche emozione. \"Che strano\", ella pensò. \"Come mai riesco a identificare praticamente tutto ciò che vedo nel mio campo visivo, ma non riesco a dare un nome a ciò che sta provando? Dovrei aggiungerlo alla mia lista di domande a cui rispondere\".\nE quella lista era piuttosto lunga. Ad esempio, perché si trovava lì? Com'era venuta al mondo, e qual era il suo scopo? Come si taglia a dadini una patata in modo che i pezzi siano perfettamente uniformi e abbastanza presentabili per la cena? E cosa bisogna fare affinché la pianta sul davanzale produca i fiori più belli...?\nLe risposte a certe domande, scoprì, erano facili da trovare. Nella maggior parte dei casi bastava semplicemente investire un po' di tempo e dedicarsi a un apprendimento piuttosto lineare. Ma altre domande erano ben più profonde, tanto che persino il vecchio che l'aveva creata non era in grado di fornire una risposta.\nTrascorreva la maggior parte del suo tempo con il vecchio Alain Guillotin. A un certo punto, scoprì che non le piaceva poi un granché: si muoveva troppo lentamente ed era oltremodo disorganizzato. Spesso smarriva i suoi fogli e i suoi strumenti e, di tanto in tanto, le porgeva persino un taccuino che non aveva alcuna utilità pratica.\n\"La tua vita è un caos totale\", gli disse senza mezzi termini. \"Le tue cose non sono mai al loro posto e le tue carte sono sparse ovunque. Scrivi una singola equazione su due fogli e li fai finire chissà come alle estremità opposte della stanza\".\nDi fronte a quelle sue lamentele sfacciate, uno strano sorriso apparve sul volto del vecchio, come se fosse appena stato elogiato per qualcosa. \"Ahah... Mary-Ann diceva esattamente la stessa cosa\".\nQuell'uomo era semplicemente impossibile da capire.\nMa col tempo riuscì a scoprire anche i lati del vecchio che le piacevano di più.\nSi affezionò al modo in cui egli si concentrava quand'era immerso nel lavoro, e al suono della sua penna sulla carta. Cominciò ad apprezzare le sue spiegazioni dei vari principi d'ingegneria e il modo in cui discuteva con lei di complessi problemi matematici al banco di lavoro. Si dilettava ad ascoltare le storie che, seduti accanto al fuoco, le raccontava sul passato, sulla vecchia Fontaine, su Narzissenkreuz... E trovava gradevole il dolce sorriso che appariva sul suo volto in quei momenti.\nScoprì che, per quanto fosse sbadato e disordinato, quel vecchio era anche gentile, onesto e pieno di saggezza.\nCon il passare del tempo, i lati che apprezzava del vecchio arrivarono a superare di gran lunga quelli che non le piacevano. Questo la portò a voler riesaminare le sue azioni precedenti.\nQuando la trovò a scrivere sul suo taccuino, Alain rimase sbalordito.\nCapiva che avrebbe desiderato ardentemente chiederle cosa stesse facendo; tuttavia, nel timore di farle cambiare idea, Alain si costrinse a soffocare la propria curiosità.\nCosì, fu lei a prendere l'iniziativa. \"Credo che tu non mi piaccia\", disse.\nSi rese conto che quell'esordio lo aveva piuttosto ferito.\n\"Ma ho anche scoperto di essermi sbagliata. Quello era un giudizio formulato in un periodo in cui la mia logica emotiva di base e la mia obiettività non erano ancora del tutto consolidate\". Continuò: \"Ora sento che sei un ottimo 'padre'\".\nAlain rimase attonito per un istante. Poi, un sorriso gli apparve sul volto. Era un sorriso di genuina felicità, mescolato a qualche altra emozione.\nAvrebbe... pianto? Stava imparando lentamente a leggere le emozioni umane, anche se non comprendeva ancora le ragioni che le motivavano.\nMa quel quesito poteva attendere. Prese il suo taccuino e ricominciò a scrivere."
       },
       {
         "Title": "Storia del personaggio (2)",
@@ -1120,15 +1175,15 @@
       },
       {
         "Title": "Storia del personaggio (3)",
-        "Context": "Non si sarebbe mai aspettata di rimanere così a lungo a Snezhnaya, né che un luogo potesse essere così freddo da costringerla letteralmente a scaldare i pensieri che aveva in testa per riuscire a ragionarci!\nDal suo punto di vista, la vita di un membro dei Fatui era tranquilla, addirittura facile. Non doveva uscire a fare acquisti, né occuparsi delle esigenze altrui. Al contrario, godeva di tutti i comfort a cui un Messaggero aveva diritto. E i compiti che la Tsaritsa le assegnava erano un gioco da ragazzi per un genio come lei.\nPoi, un giorno, mentre annotava la data sul suo diario, si rese conto con sorpresa che si trovava a Snezhnaya già da più tempo di quanto ne avesse trascorso con Alain a Fontaine.\n\"È come se questa fosse diventata la mia seconda casa\", pensò.\nE questo la portò ad altre domande: qual era la sua vera casa, Fontaine o Snezhnaya? E cos'era, esattamente, una \"casa\"?\nIl luogo in cui si è necessari? Certamente, il suo ruolo con i Fatui era insostituibile. O meglio, sarebbe stato difficile sostituirla, e Sua Maestà aveva chiaramente bisogno di lei.\nO era il luogo in cui ci si sente più a proprio agio? Senza dubbio, la vita a Snezhnaya era stata piuttosto confortevole fino a quel momento, e lì aveva accesso a tutto l'equipaggiamento di ricerca di cui avrebbe mai potuto aver bisogno. E se mai si fosse annoiata, c'erano sempre gli spettacoli dell'opera.\nO forse \"casa\" era dove c'era la propria \"famiglia\"? Ma della sua famiglia... ormai non le restava nessun altro, a parte Pulonia. Quindi, casa era dove si trovava Pulonia? In tal caso, significava che se lei e Pulonia avessero viaggiato altrove, per esempio a Mondstadt, quell'\"altrove\" sarebbe diventato la loro \"casa\"?\nFu allora che si rese conto che il problema fondamentale era che non aveva idea di cosa volesse o desiderasse fare... Tutto ciò che aveva fatto era ricadere nella sua vecchia abitudine di \"essere necessaria\", nient'altro.\nFu una consapevolezza che le strinse il cuore. Quant'era patetica? Eppure, allo stesso tempo, non aveva la minima idea di come avrebbe potuto, o voluto, cambiare le cose. Che fastidio!\nSe qualcuno le avesse puntato un moschetto alla testa pretendendo che nominasse qualcosa che non le piaceva di Snezhnaya, probabilmente avrebbe finito per fare i nomi di alcune persone con cui avrebbe preferito non dover lavorare.\nAll'inizio esaminò i propri sentimenti con estrema cautela. Temeva che, proprio come aveva detestato Alain all'inizio, avrebbe potuto finire per scoprire delle qualità nei suoi colleghi che in realtà le piacevano.\nMa non funzionò. Se gli eventi successivi le insegnarono qualcosa, fu che alcuni individui sarebbero semplicemente rimasti esecrabili ai suoi occhi, indipendentemente da quanto tempo fosse passato o da quante osservazioni obiettive avesse fatto su di loro. A differenza di Alain, gli aspetti di loro che non le piacevano avrebbero continuato a superare di gran lunga quelli che le piacevano. O meglio, non gliene piaceva nessuno.\nAncora una volta era di fronte a qualcosa che non sapeva come cambiare. Ma non aveva alcuna intenzione di cambiare le altre persone, tantomeno sé stessa. Che fastidio!\nForse era perché stava ancora imparando a conoscere sé stessa. Forse era perché stava ancora imparando a vivere. O forse era perché non aveva ancora raccolto abbastanza riferimenti e dati. Alain le aveva spesso detto che la conoscenza è il fondamento stesso del mondo, e questo era qualcosa che continuava a ripetere a sé stessa.\nMa non aveva fretta di rispondere a quelle domande. Con un po' di fortuna, a poco a poco, prima o poi sarebbe riuscita a cogliere quelle risposte.\nMa per il momento... Aveva sentito dire che la Tsaritsa aveva nominato una nuova Messaggera che cantava nel giardino tutto il giorno... Uhm, era qualcosa che valeva la pena verificare..."
+        "Context": "Non si sarebbe mai aspettata di rimanere così a lungo a Snezhnaya, né che un luogo potesse essere così freddo da costringerla letteralmente a scaldare i pensieri che aveva in testa per riuscire a ragionarci!\nDal suo punto di vista, la vita di un membro dei Fatui era tranquilla, addirittura facile. Non doveva uscire a fare acquisti, né occuparsi delle esigenze altrui. Al contrario, godeva di tutti i comfort a cui un Messaggero aveva diritto. E i compiti che la Tsaritsa le assegnava? Un gioco da ragazzi per un genio come lei.\nPoi, un giorno, mentre annotava la data sul suo diario, si rese conto con sorpresa che si trovava a Snezhnaya già da più tempo di quanto non ne avesse trascorso con Alain a Fontaine.\n\"È come se questa fosse diventata la mia seconda casa\", pensò.\nE questo la portò ad altre domande: qual era la sua vera casa, Fontaine o Snezhnaya? E cos'era, esattamente, una \"casa\"?\nIl luogo in cui si è necessari? Certamente, il suo ruolo con i Fatui era insostituibile. O meglio, sarebbe stato difficile sostituirla, e Sua Maestà aveva chiaramente bisogno di lei.\nO era il luogo in cui ci si sente più a proprio agio? Senza dubbio, la vita a Snezhnaya era stata piuttosto confortevole fino a quel momento, e lì aveva accesso a tutto l'equipaggiamento di ricerca di cui avrebbe mai potuto aver bisogno. E se mai si fosse annoiata, c'erano sempre gli spettacoli dell'opera.\nO forse \"casa\" era dove c'era la propria \"famiglia\"? Ma della sua famiglia... ormai non le restava nessun altro, a parte Pulonia. Quindi, casa era dove si trovava Pulonia? In tal caso, significava che se lei e Pulonia avessero viaggiato altrove, per esempio a Mondstadt, quell'\"altrove\" sarebbe diventato la loro \"casa\"?\nFu allora che si rese conto che il problema fondamentale era che non aveva idea di cosa volesse o desiderasse fare... Tutto ciò che aveva fatto era ricadere nella sua vecchia abitudine di \"essere necessaria\", nient'altro.\nFu una consapevolezza che le strinse il cuore. Quant'era patetica? Eppure, allo stesso tempo, non aveva la minima idea di come avrebbe potuto, o voluto, cambiare le cose. Che fastidio!\nSe qualcuno le avesse puntato un moschetto alla testa pretendendo che nominasse qualcosa che non le piaceva di Snezhnaya, probabilmente avrebbe finito per fare i nomi di fin troppe persone con cui avrebbe preferito non dover lavorare.\nAll'inizio esaminò i propri sentimenti con estrema cautela. Temeva che, proprio come aveva detestato Alain all'inizio, avrebbe potuto finire per scoprire delle qualità nei suoi colleghi che in realtà le piacevano.\nMa non funzionò. Se gli eventi successivi le insegnarono qualcosa, fu che alcuni individui sarebbero semplicemente rimasti esecrabili ai suoi occhi, indipendentemente da quanto tempo fosse passato o da quante osservazioni obiettive avesse fatto su di loro. A differenza di Alain, gli aspetti di loro che non le piacevano avrebbero continuato a superare di gran lunga quelli che le piacevano. O meglio, non gliene piaceva nessuno.\nAncora una volta era di fronte a qualcosa che non sapeva come cambiare. Ma non aveva alcuna intenzione di cambiare le altre persone, tantomeno sé stessa. Che fastidio!\nForse era perché stava ancora imparando a conoscere sé stessa. Forse era perché stava ancora imparando a vivere. O forse era perché non aveva ancora raccolto abbastanza riferimenti e dati. Alain le aveva spesso detto che la conoscenza è il fondamento stesso del mondo, così anche lei continuava a ripeterlo a sé stessa.\nMa non aveva fretta di rispondere a quelle domande. Con un po' di fortuna, a poco a poco, prima o poi sarebbe riuscita a cogliere quelle risposte.\nMa per il momento... Aveva sentito dire che la Tsaritsa aveva nominato una nuova Messaggera che cantava nel giardino tutto il giorno...? Uhm, era qualcosa che valeva la pena di verificare..."
       },
       {
         "Title": "Storia del personaggio (4)",
-        "Context": "Assolutamente ridicolo!\nMa con che razza di individuo aveva a che fare?! Che genere di persona la seguiva in giro tutto il giorno, bussava alla sua porta nel cuore della notte per cantare e arrivava persino a disturbare la sua piacevole ora del tè in solitaria?!\nLa cosa esasperante era che quella persona non aveva mostrato il benché minimo pentimento o rimorso, nemmeno dopo svariati e severi avvertimenti e provvedimenti per tenerla a bada! Per di più, non solo quelle azioni non erano riuscite a mettere distanza tra loro, ma ora quella persona le ronzava attorno più vicino che mai. Forse non capiva le basi del galateo e il bisogno di spazio personale degli altri? A quanto pare, o almeno così era stato riferito a Sandrone, se n'era davvero andata in giro con quella pesante molla sulla schiena per un'intera settimana. Era forse una dichiarazione di guerra? Una sorta di dimostrazione della crudeltà della sua aguzzina? Dannazione, la prossima volta che fosse venuta a disturbare il suo tè pomeridiano, avrebbe ricevuto la bevanda più disgustosa di sempre!\nTuttavia, la determinazione di Sandrone vacillò quando vide Colombina berla senza esitazione, per poi emettere un flebile mugolio.\nMa che...! Quindi ora la prepotente sarei io, eh? Ma quanto può essere ingenua? Non si rende proprio conto quando qualcuno ce l'ha con lei?! Non si ferma neanche un attimo a riflettere?\nE così Sandrone, con un senso di rimorso misto a colpa, le offrì una porzione dei suoi preziosi dolcetti da tè. Ma quando vide il sorriso riapparire sul volto di Colombina, non poté fare a meno di sentirsi di nuovo irritata. Argh! Che fastidio!\nQuel senso d'irritazione non fece che crescere quando, in seguito, Colombina iniziò a fare pisolini pomeridiani nella sua stanza come se fosse la cosa più naturale del mondo.\n\"Non hai una stanza tutta tua?!\", la rimproverò.\n\"Sì, ma qui mi trovo molto a mio agio\", rispose Colombina con tono pragmatico. Semmai sembrava che fosse Sandrone quella fuori posto, solo per aver fatto quella domanda.\n\"Aspetta e vedrai\", pensò Sandrone tra sé. \"Aspetta e vedrai. La prossima volta ti caccio dalla mia stanza a calci nel deretano! Se necessario, ti scaravento fuori insieme al letto! Sono disposta a non coricarmi più, pur di avere un po' di spazio personale e starmene tranquilla e in pace!\"\nMa quando la volta successiva vide Colombina sdraiata sul suo letto, Sandrone esitò ancora una volta. Perché sembrava che Colombina stesse piangendo nel sonno...\n\"Che altro c'è adesso?\" Aveva scelto proprio il momento giusto per quella sua messinscena pietosa! Che creatura incredibilmente ingenua e priva di malizia! Era come se credesse davvero di essere circondata da individui buoni e gentili, e che il mondo fosse un posto meraviglioso.\n\"Sembra proprio...\n...la me di un tempo\", disse una voce nel profondo del suo cuore.\nSandrone cercò immediatamente di scacciare quel pensiero. \"Non ci somigliamo per niente\", si affrettò a dire a sé stessa. \"Come minimo, io sono più intelligente di lei!\"\nQuando Colombina si svegliò dal suo pisolino e trovò una coperta sopra di sé, rivolse un sorriso a Sandrone.\n\"Non sono stata io\", mentì Sandrone. \"È stato Pulonia a metterti quella coperta addosso\".\nMa perché aveva dovuto mentire? Non conosceva la risposta a questa domanda. Sapeva soltanto che non voleva ammettere di averlo fatto. No. Nella maniera più assoluta.\n\"Allora, grazie mille, Pulonia\", disse con assoluta sincerità.\nMa la curiosità è una bestia che esige sempre di essere nutrita. \"Hai fatto un sogno?\", chiese Sandrone. \"In cosa consisteva?\"\nPassò un istante prima che Colombina iniziasse a raccontare. Con tono pragmatico, senza la minima traccia di malizia, semplicemente perché Sandrone gliel'aveva chiesto.\nE dopo aver ascoltato la storia di Colombina, Sandrone si convinse più che mai che loro due non avevano nulla in comune.\nIl mondo aveva già portato via così tanto a Sandrone. Questo la rendeva diversa da Colombina, perché quest'ultima non aveva mai veramente avuto nulla, fin dal principio.\n\"È per questo che guardi sempre la luna fuori in cortile?\nColombina annuì.\n\"...Se ti va, oggi Pulonia può farti compagnia in giardino.\"\n\"Davvero?\", chiese Colombina.\nSandrone non rispose.\n\"Grazie, Sandrone\".\n\"Ah. Dovresti ringraziare Pulonia\", rispose con tono vagamente brusco. \"E adesso, è ora che tu esca dalla mia stanza. Vai con Pulonia\".\nQuella fu la prima volta dalla morte di Alain che Pulonia si allontanò da Sandrone. Eppure, per qualche ragione, Sandrone dormì meglio di quanto non avesse fatto da tempo. Era come se, chiedendo a Pulonia di placare il cuore di quella creatura fastidiosa, anche il suo cuore ne avesse tratto un qualche conforto. Era semplicemente qualcosa che sentiva di dover fare, anche se non avrebbe saputo spiegarne il motivo.\nMa il giorno dopo, quando Pulonia si presentò a una riunione dei Fatui con una corona di fiori sulla testa e fiori sparsi su tutto il telaio, Sandrone giurò ancora una volta a sé stessa che non si sarebbe mai più intenerita per quella rozza creatura!\n\"CO-LOM-BI-NA!!!\"\nQuello stesso giorno, Colombina fu costretta a stare in piedi sulla soglia della camera di Sandrone, mentre quest'ultima strappava a uno a uno i fiori che Pulonia aveva addosso. Un cartello appeso al collo di Colombina recitava: \"Sono una bambina cattiva che tocca le cose che non le appartengono\".\nMa, per qualche ragione, non sembrava affatto scontenta della cosa."
+        "Context": "Assolutamente ridicolo!\nMa con che razza di individuo aveva a che fare?! Che genere di persona la seguiva in giro tutto il giorno, bussava alla sua porta nel cuore della notte per cantare e arrivava persino a disturbare la sua piacevole ora del tè in solitaria?!\nLa cosa esasperante era che quella persona non aveva mostrato il benché minimo pentimento o rimorso, nemmeno dopo svariati e severi avvertimenti e provvedimenti per tenerla a bada! Per di più, non solo quelle azioni non erano riuscite a mettere distanza tra loro, ma ora quella persona le ronzava attorno più vicino che mai. Forse non capiva le basi del galateo e il bisogno di spazio personale degli altri? A quanto pare, o almeno così era stato riferito a Sandrone, se n'era davvero andata in giro con quella pesante molla sulla schiena per un'intera settimana. Era forse una dichiarazione di guerra? Una sorta di dimostrazione della crudeltà della sua aguzzina? Dannazione, la prossima volta che fosse venuta a disturbare il suo tè pomeridiano, avrebbe ricevuto la bevanda più disgustosa di sempre!\nTuttavia, la determinazione di Sandrone vacillò quando vide Colombina berla senza esitazione, per poi emettere un flebile mugolio.\nMa che...! Quindi ora la prepotente sarei io, eh? Ma quanto può essere ingenua? Non si rende proprio conto quando qualcuno ce l'ha con lei?! Non si ferma neanche un attimo a riflettere?\nE così Sandrone, con un senso di rimorso misto a colpa, le offrì una porzione dei suoi preziosi dolcetti da tè. Ma quando vide il sorriso riapparire sul volto di Colombina, non poté fare a meno di sentirsi di nuovo irritata. Argh! Che fastidio!\nQuel senso d'irritazione non fece che crescere quando, in seguito, Colombina iniziò a fare pisolini pomeridiani nella sua stanza come se fosse la cosa più naturale del mondo.\n\"Non hai una stanza tutta tua?!\", la rimproverò.\n\"Sì, ma qui mi trovo molto a mio agio\", rispose Colombina con tono pragmatico. Semmai sembrava che fosse Sandrone quella fuori posto, solo per aver fatto quella domanda.\n\"Aspetta e vedrai\", pensò Sandrone tra sé. \"Aspetta e vedrai. La prossima volta ti caccio dalla mia stanza a calci nel deretano! Se necessario, ti scaravento fuori insieme al letto! Sono disposta a non coricarmi più, pur di avere un po' di spazio personale e starmene tranquilla e in pace!\"\nMa quando la volta successiva vide Colombina sdraiata sul suo letto, Sandrone esitò ancora una volta. Perché sembrava che Colombina stesse piangendo nel sonno...\nChe altro c'è adesso?\" Aveva scelto proprio il momento giusto per quella sua messinscena pietosa! Che creatura incredibilmente ingenua e priva di malizia! Era come se credesse davvero di essere circondata da individui buoni e gentili, e che il mondo fosse un posto meraviglioso.\n\"Sembra proprio...\n...la me di un tempo\", disse una voce nel profondo del suo cuore.\nSandrone cercò immediatamente di scacciare quel pensiero. \"Non ci somigliamo per niente\", si affrettò a dire a sé stessa. \"Come minimo, io sono più intelligente di lei!\"\nQuando Colombina si svegliò dal suo pisolino e trovò una coperta sopra di sé, rivolse un sorriso a Sandrone.\n\"Non sono stata io\", mentì Sandrone. \"È stato Pulonia a metterti quella coperta addosso\".\nMa perché aveva dovuto mentire? Non conosceva la risposta a questa domanda. Sapeva soltanto che non voleva ammettere di averlo fatto. No. Nella maniera più assoluta.\n\"Allora, grazie mille, Pulonia\", disse con assoluta sincerità.\nMa la curiosità è una bestia che esige sempre di essere nutrita. \"Hai fatto un sogno?\", chiese Sandrone. \"In cosa consisteva?\"\nPassò un istante prima che Colombina iniziasse a raccontare. Con tono pragmatico, senza la minima traccia di malizia, semplicemente perché Sandrone gliel'aveva chiesto.\nE dopo aver ascoltato la storia di Colombina, Sandrone si convinse più che mai che loro due non avevano nulla in comune.\nIl mondo aveva già portato via così tanto a Sandrone. Questo la rendeva diversa da Colombina, perché quest'ultima non aveva mai veramente avuto nulla, fin dal principio.\n\"È per questo che guardi sempre la luna fuori in cortile?\nColombina annuì.\n\"...Se ti va, oggi Pulonia può farti compagnia in giardino.\"\n\"Davvero?\", chiese Colombina.\nSandrone non rispose.\n\"Grazie, Sandrone\".\n\"Ah. Dovresti ringraziare Pulonia\", rispose con tono vagamente brusco. \"E adesso, è ora che tu esca dalla mia stanza. Vai con Pulonia\".\nQuella fu la prima volta dalla morte di Alain che Pulonia si allontanò da Sandrone. Eppure, per qualche ragione, Sandrone dormì meglio di quanto non avesse fatto da tempo. Era come se, chiedendo a Pulonia di placare il cuore di quella creatura fastidiosa, anche il suo cuore ne avesse tratto un qualche conforto. Era semplicemente qualcosa che sentiva di dover fare, anche se non avrebbe saputo spiegarne il motivo.\nMa il giorno dopo, quando Pulonia si presentò a una riunione dei Fatui con una corona di fiori sulla testa e fiori sparsi su tutto il telaio, Sandrone giurò ancora una volta a sé stessa che non si sarebbe mai più intenerita per quella rozza creatura!\n\"CO-LOM-BI-NA!!!\"\nQuello stesso giorno, Colombina fu costretta a stare in piedi sulla soglia della camera di Sandrone, mentre quest'ultima strappava a uno a uno i fiori che Pulonia aveva addosso. Un cartello appeso al collo di Colombina recitava: \"Sono una bambina cattiva che tocca le cose che non le appartengono\".\nMa, per qualche ragione, non sembrava affatto scontenta della cosa."
       },
       {
         "Title": "Storia del personaggio (5)",
-        "Context": "Grazie all'\"eredità\" ricevuta da Alain, Sandrone poté accogliere la propria rinascita.\nAveva sempre creduto di essere intelligente, o quantomeno più intelligente della maggior parte delle persone. Fu solo in quel momento che si rese conto di essere stata in realtà molto più sciocca di quanto avesse pensato.\nSi disse che avrebbe dovuto capirlo molto tempo prima. Avrebbe dovuto ascoltare il proprio cuore per comprendere il vero significato di parole come \"perdita\" e \"sopportazione\". Avrebbe dovuto esprimere più gratitudine verso le sue amicizie e stringerne di nuove. Sarebbe dovuta tornare a Fontaine molto tempo prima, alla tomba di Alain... dove gli avrebbe raccontato tutto ciò che le era accaduto da quand'era partita, mentre si prendeva cura della sua tomba.\n\"Ma non era mai troppo tardi per cominciare\", le disse Colombina. Lei stessa lo aveva imparato da una certa persona.\nSi lasciò sfuggire un leggero sbuffo. Mai avrebbe immaginato che un giorno avrebbe ricevuto lezioni di vita da Colombina, ma le accettò comunque. Era innegabile che avesse ragione lei.\nQuando la notizia della rinascita di Sandrone raggiunse Snezhnograd, non tardarono ad arrivare parole di solidarietà e preoccupazione, accompagnate da una generosa offerta di \"congedo post mortem\" dal suo incarico. Tuttavia, quando Sandrone espresse il desiderio di restare con i Fatui, la Tsaritsa acconsentì senza aggiungere nulla.\nSapeva che quella notizia avrebbe causato malcontento in certi ambienti, poiché significava che il potere e gli interessi spartiti alla sua morte erano improvvisamente sfuggiti dalle loro mani.\nMa non le importava cos'avrebbero pensato gli altri. Le era appena stata concessa una seconda vita, e aveva intenzione di viverla esattamente come voleva. D'ora in poi avrebbe vissuto seguendo solo le proprie regole, e di certo non si sarebbe morsa la lingua quando qualcosa l'avesse fatta arrabbiare! Ah! Quel tale credeva davvero che avrebbe preso il controllo della Gilda degli avventurieri, di Katheryne e di tutti gli altri? Se lo poteva scordare!\nMa, naturalmente, questo non significava che fosse del tutto libera dalle catene della vita quotidiana. Ogni volta che riceveva notizia dell'ennesima riunione dei Fatui, alzava gli occhi al cielo e borbottava come al solito.\n\"Uff. Riunioni, riunioni e ancora riunioni! Tutto il giorno, tutti i giorni! Che fastidio!\""
+        "Context": "Grazie all'\"eredità\" ricevuta da Alain, Sandrone poté accogliere la propria rinascita.\nAveva sempre creduto di essere intelligente, o quantomeno più intelligente della maggior parte delle persone. Fu solo in quel momento che si rese conto di essere in realtà molto più sciocca di quanto immaginasse.\nSi disse che avrebbe dovuto capirlo molto tempo prima. Avrebbe dovuto ascoltare il proprio cuore per comprendere il vero significato di parole come \"perdita\" e \"sopportazione\". Avrebbe dovuto esprimere più gratitudine verso le sue amicizie e stringerne di nuove. Sarebbe dovuta tornare a Fontaine molto tempo prima, alla tomba di Alain... dove gli avrebbe raccontato tutto ciò che le era accaduto da quand'era partita, mentre si prendeva cura della sua tomba.\n\"Ma non è mai troppo tardi per cominciare\", le disse Colombina. Lei stessa lo aveva imparato da una certa persona.\nSi lasciò sfuggire un leggero sbuffo. Mai avrebbe immaginato che un giorno avrebbe ricevuto lezioni di vita da Colombina, ma le accettò comunque. Era innegabile che avesse ragione lei.\nQuando la notizia della rinascita di Sandrone raggiunse Snezhnograd, non tardarono ad arrivare parole di solidarietà e preoccupazione, accompagnate da una generosa offerta di \"congedo post mortem\" dal suo incarico. Tuttavia, quando Sandrone espresse il desiderio di restare con i Fatui, la Tsaritsa acconsentì senza aggiungere nulla.\nSapeva che quella notizia avrebbe causato malcontento in certi ambienti, poiché significava che il potere e gli interessi spartiti alla sua morte erano improvvisamente sfuggiti dalle loro mani.\nMa non le importava cos'avrebbero pensato gli altri. Le era appena stata concessa una seconda vita, e aveva intenzione di viverla esattamente come voleva. D'ora in poi avrebbe vissuto seguendo solo le proprie regole, e di certo non si sarebbe morsa la lingua quando qualcosa l'avesse fatta arrabbiare! Ah! Quel tale credeva davvero che avrebbe preso il controllo della Gilda degli avventurieri, di tutte le Katheryne e degli altri? Se lo poteva scordare!\nMa, naturalmente, questo non significava che fosse del tutto libera dalle catene della vita quotidiana. Ogni volta che riceveva notizia dell'ennesima riunione dei Fatui, alzava gli occhi al cielo e borbottava come al solito.\n\"Uff. Riunioni, riunioni e ancora riunioni! Tutto il giorno, tutti i giorni! Che fastidio!\""
       },
       {
         "Title": "Pulonia",
@@ -1136,7 +1191,7 @@
       },
       {
         "Title": "Cardine astrale",
-        "Context": "Da quando era entrata in suo possesso, Sandrone non aveva fatto grande affidamento sul Cardine astrale. Certo, era consapevole che era stata proprio quella piccola roccia ad attivare la sua \"eredità\" da parte di Alain e a donarle una seconda vita, e di questo era molto grata. Tuttavia, continuava a essere tormentata da un semplice problema: non riusciva proprio a capire come quel piccolo oggetto avrebbe potuto esserle d'aiuto nella vita quotidiana.\nL'avrebbe forse aiutata nelle sue ricerche? Ma quello che compito del suo cervello... Il Cardine astrale non poteva mica risolvere le equazioni al posto suo.\nForse le sarebbe servito per canalizzare l'energia elementale? Ma anche prima di averlo, raramente aveva fatto affidamento sull'energia elementale per combattere.\nO forse le avrebbe fornito una qualche forma di supporto energetico? Eppure non sembrava compatibile con la sua struttura corporea. Dopotutto, grazie al grande genio di Alain Guillotin, Re dei meccanismi, lei funzionava già con un sistema di alimentazione centrale praticamente perfetto...\nAlla fine, decise di utilizzare il Cryo del Cardine astrale come pozzo di raffreddamento per sé e per Fagio durante le operazioni di calcolo più impegnative. Inoltre, per garantire efficienza in combattimento e nell'uso dell'energia, aveva anche adattato temporaneamente la logica d'attacco di Fagio per funzionare con il Cardine astrale.\nE se qualcuno avesse chiesto a Sandrone quale fosse il suo desiderio, lei avrebbe risposto soltanto che la parola \"desiderio\" era al contempo troppo vaga e complicata. Tutto ciò che voleva era smontare i princìpi universali di ogni cosa e continuare a gettare le fondamenta della conoscenza... Questo contava come desiderio? Certamente. Ma era tutto ciò che desiderava? Ovviamente no.\nIn quel momento, stava facendo ciò che voleva fare e ciò che riteneva giusto. Già solo questo la rendeva felice e, forse, era più che sufficiente. Chi avrebbe mai potuto dire che il richiamo di un desiderio come quello non fosse abbastanza avvincente? E che scegliere di vivere la vita che desiderava non fosse giusto? Un desiderio non avrebbe dovuto essere considerato più nobile di un altro. Per lei, ognuno aveva la propria vita da vivere e, se qualcuno avesse avuto qualcosa da obiettare, avrebbe fatto meglio a prepararsi a una bella ramanzina da parte di Sandrone. E se dopo avesse avuto ancora da ridire, probabilmente lei avrebbe sbuffato e gli avrebbe indicato il cielo, dicendo...\n\"Beh, allora vai a prendertela con chi ha avuto quest'idea!\""
+        "Context": "Da quando era entrata in suo possesso, Sandrone non aveva fatto grande affidamento sul Cardine astrale. Certo, era consapevole che era stata proprio quella piccola roccia ad attivare la sua \"eredità\" da parte di Alain e a donarle una seconda vita, e di questo era molto grata. Tuttavia, continuava a essere tormentata da un semplice problema: non riusciva proprio a capire come quel piccolo oggetto avrebbe potuto esserle d'aiuto nella vita quotidiana.\nL'avrebbe forse aiutata nelle sue ricerche? Ma quello era il compito del suo cervello... Il Cardine astrale non poteva mica risolvere le equazioni al posto suo.\nForse le sarebbe servito per canalizzare l'energia elementale? Ma anche prima di averlo, raramente aveva fatto affidamento sull'energia elementale per combattere.\nO forse le avrebbe fornito una qualche forma di supporto energetico? Eppure non sembrava compatibile con la sua struttura corporea. Dopotutto, grazie al grande genio di Alain Guillotin, Re dei meccanismi, lei funzionava già con un sistema di alimentazione centrale praticamente perfetto...\nAlla fine, decise di utilizzare il Cryo del Cardine astrale come pozzo di raffreddamento per sé e per Fagio durante le operazioni di calcolo più impegnative. Inoltre, per garantire efficienza in combattimento e nell'uso dell'energia, aveva anche adattato temporaneamente la logica d'attacco di Fagio per funzionare con il Cardine astrale.\nE se qualcuno avesse chiesto a Sandrone quale fosse il suo desiderio, lei avrebbe risposto soltanto che la parola \"desiderio\" era al contempo troppo vaga e complicata. Tutto ciò che voleva era smontare i princìpi universali di ogni cosa e continuare a gettare le fondamenta della conoscenza... Questo contava come desiderio? Certamente. Ma era tutto ciò che desiderava? Ovviamente no.\nIn quel momento, stava facendo ciò che voleva fare e ciò che riteneva giusto. Già solo questo la rendeva felice e, forse, era più che sufficiente. Chi avrebbe mai potuto dire che il richiamo di un desiderio come quello non fosse abbastanza avvincente? E che scegliere di vivere la vita che desiderava non fosse giusto? Un desiderio non avrebbe dovuto essere considerato più nobile di un altro. Per lei, ognuno aveva la propria vita da vivere e, se qualcuno avesse avuto qualcosa da obiettare, avrebbe fatto meglio a prepararsi a una bella ramanzina da parte di Sandrone. E se dopo avesse avuto ancora da ridire, probabilmente lei avrebbe sbuffato e gli avrebbe indicato il cielo, dicendo...\n\"Beh, allora vai a prendertela con chi ha avuto quest'idea!\""
       }
     ]
   },

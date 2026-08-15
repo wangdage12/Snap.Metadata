@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "Pocztowy-Dämonenspeer",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 5 Lanzenstiche hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Speerwurf nach vorne aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "Antikes Gesetz – Geheimnis des verlassenen Lichts",
         "Description": "#Flins beschwört die uralte Kraft in der Laterne und wechselt in den Modus <color=#FFD780FF>Enthüllte Flammenspur</color>. Dieser Modus hat folgende Eigenschaften:\n· Flins’ Standardangriffe und heftige Schläge werden in <color=#FFACFFFF>Elektro-Schaden</color> umgewandelt, der nicht von anderen Elementen überdeckt werden kann. Er kann keinen Angriff aus dem Fall ausführen.\n· Flins’ Unterbrechungs-WDS wird erhöht.\n· Die Elementarfähigkeit <color=#FFD780FF>Antikes Gesetz – Geheimnis des verlassenen Lichts</color> wird durch die besondere Elementarfähigkeit <color=#FFD780FF>Speersturm des Nordens</color> ersetzt.\n\n<color=#FFD780FF>Speersturm des Nordens</color>\nFlins beschwört einen Speersturm vor sich, der <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht, und ersetzt innerhalb der nächsten 6{NON_BREAK_SPACE}s seine Spezialfähigkeit <color=#FFD780FF>Antikes Ritual – Nächtlicher Gast</color> durch die besondere Spezialfähigkeit {LINK#N11200001}<color=#FFD780FF>Donnersymphonie</color>{/LINK}.\nDie Abklingzeit von <color=#FFD780FF>Speersturm des Nordens</color> beträgt 6{NON_BREAK_SPACE}s und ist unabhängig von anderen Effekten.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "Antikes Ritual – Nächtlicher Gast",
       "Description": "#Flins entfesselt die wahre Macht seiner Laterne, verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color> und nach kurzem Intervall zweimal <color=#FFACFFFF>Elektro-Flächenschaden</color> der mittleren Phase sowie einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> der Endphase, die als Schaden durch die Reaktion „Mond unter Strom“ gewertet werden.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Die Fähigkeit wird verbessert. Wenn sich in der Nähe eine Gewitterwolke befindet, wird zusätzlich zweimal <color=#FFACFFFF>Elektro-Flächenschaden</color> der mittleren Phase verursacht, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.\n\nInnerhalb von 6{NON_BREAK_SPACE}s nach dem Anwenden der besonderen Elementarfähigkeit <color=#FFD780FF>Speersturm des Nordens</color> wird Flins’ Spezialfähigkeit <color=#FFD780FF>Antikes Ritual – Nächtlicher Gast</color> durch die besondere Spezialfähigkeit <color=#FFD780FF>Donnersymphonie</color> ersetzt.\n\n<color=#FFD780FF>Donnersymphonie</color>\nVerringert den Verbrauch von Elementarenergie zum Anwenden der besonderen Spezialfähigkeit. Flins verursacht einmal <color=#FFACFFFF>Elektro-Flächenschaden</color>, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Die Fähigkeit wird verbessert. Wenn sich in der Nähe eine Gewitterwolke befindet, wird zusätzlich einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "Sinfonie des Winters",
         "Description": "#Verleiht Flins den Verstärkungseffekt entsprechend des <color=#FFD780FF>Mondomens</color> in der Truppe.\n\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Erhöht den Schaden der durch Flins ausgelösten Reaktion „Mond unter Strom“ um 20{NON_BREAK_SPACE}%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "Flüstern der Flammen",
         "Description": "#Erhöht Flins’ Elementarkunde um 8{NON_BREAK_SPACE}% seines ANG. Auf diese Weise kann Flins’ Elementarkunde um maximal 160 Punkte erhöht werden.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "Mondomen-Segen – Geheimnisse der alten Welt",
         "Description": "#Wenn eine Figur in der Truppe die Reaktion „Unter Strom“ auslöst, wird diese in die Reaktion „Mond unter Strom“ umgewandelt, wobei der Basis-SCH der Reaktion „Mond unter Strom“ auf der Grundlage von Flins’ ANG erhöht wird: Für je 100 Punkte ANG wird der Basis-SCH um 0,7{NON_BREAK_SPACE}% erhöht. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\n\nErhöht zudem die Stufe vom <color=#FFD780FF>Mondomen</color> der Truppe um 1, wenn sich Flins in der Truppe befindet.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "Licht in der Dunkelheit",
         "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten von Nod-Krai</color> in der Nähe auf der Minikarte an.\nAußerdem scheint Flins das Geflüster der Wilden Jagd zu verstehen ...",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

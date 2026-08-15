@@ -231,23 +231,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "과부하, 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>20%</color> 증가한다"
+          "Description": "과부하, 초전도, 별 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>20%</color> 증가한다"
         },
         {
           "Level": 1,
-          "Description": "과부하, 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>25%</color> 증가한다"
+          "Description": "과부하, 초전도, 별 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>25%</color> 증가한다"
         },
         {
           "Level": 2,
-          "Description": "과부하, 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>30%</color> 증가한다"
+          "Description": "과부하, 초전도, 별 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>30%</color> 증가한다"
         },
         {
           "Level": 3,
-          "Description": "과부하, 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>35%</color> 증가한다"
+          "Description": "과부하, 초전도, 별 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>35%</color> 증가한다"
         },
         {
           "Level": 4,
-          "Description": "과부하, 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>40%</color> 증가한다"
+          "Description": "과부하, 초전도, 별 초전도, 감전, 활성, 촉진, 만개, 달 감전 혹은 번개 원소 확산 반응 발동 후 12초 동안 공격력이 <color=#99FFFFFF>40%</color> 증가한다"
         }
       ]
     },
@@ -1816,6 +1816,112 @@
     ]
   },
   {
+    "Id": 11435,
+    "PromoteId": 11435,
+    "Sort": 4129,
+    "WeaponType": 1,
+    "RankLevel": 4,
+    "Name": "이단을 가르는 불꽃",
+    "Description": "그가 사람들의 축복을 받은 불의 신과 처음 만났을 때 다시 뽑아 든 검. 아주 오랫동안 사용하지 않은 무기다",
+    "Icon": "UI_EquipIcon_Sword_SerpentTooth",
+    "AwakenIcon": "UI_EquipIcon_Sword_SerpentTooth_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "고독한 빛의 추락",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 「동공의 빛」을 획득한다: 지속 시간 동안 장착 캐릭터의 이동 거리를 기록해, 매초마다 이전 1초 동안 기록한 이동 거리를 기반으로 장착 캐릭터가 최소 <color=#99FFFFFF>18%</color>, 최대 <color=#99FFFFFF>36%</color>의 공격력 보너스를 획득한다. 해당 효과 지속 시간: 14초. 14초마다 최대 1회 발동되며, 장착 캐릭터가 퇴장 시 효과가 제거된다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 「동공의 빛」을 획득한다: 지속 시간 동안 장착 캐릭터의 이동 거리를 기록해, 매초마다 이전 1초 동안 기록한 이동 거리를 기반으로 장착 캐릭터가 최소 <color=#99FFFFFF>22.5%</color>, 최대 <color=#99FFFFFF>45%</color>의 공격력 보너스를 획득한다. 해당 효과 지속 시간: 14초. 14초마다 최대 1회 발동되며, 장착 캐릭터가 퇴장 시 효과가 제거된다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 「동공의 빛」을 획득한다: 지속 시간 동안 장착 캐릭터의 이동 거리를 기록해, 매초마다 이전 1초 동안 기록한 이동 거리를 기반으로 장착 캐릭터가 최소 <color=#99FFFFFF>27%</color>, 최대 <color=#99FFFFFF>54%</color>의 공격력 보너스를 획득한다. 해당 효과 지속 시간: 14초. 14초마다 최대 1회 발동되며, 장착 캐릭터가 퇴장 시 효과가 제거된다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 「동공의 빛」을 획득한다: 지속 시간 동안 장착 캐릭터의 이동 거리를 기록해, 매초마다 이전 1초 동안 기록한 이동 거리를 기반으로 장착 캐릭터가 최소 <color=#99FFFFFF>31.5%</color>, 최대 <color=#99FFFFFF>63%</color>의 공격력 보너스를 획득한다. 해당 효과 지속 시간: 14초. 14초마다 최대 1회 발동되며, 장착 캐릭터가 퇴장 시 효과가 제거된다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 「동공의 빛」을 획득한다: 지속 시간 동안 장착 캐릭터의 이동 거리를 기록해, 매초마다 이전 1초 동안 기록한 이동 거리를 기반으로 장착 캐릭터가 최소 <color=#99FFFFFF>36%</color>, 최대 <color=#99FFFFFF>72%</color>의 공격력 보너스를 획득한다. 해당 효과 지속 시간: 14초. 14초마다 최대 1회 발동되며, 장착 캐릭터가 퇴장 시 효과가 제거된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114064,
+      112121,
+      112106
+    ]
+  },
+  {
+    "Id": 11436,
+    "PromoteId": 11436,
+    "Sort": 4130,
+    "WeaponType": 1,
+    "RankLevel": 4,
+    "Name": "불꽃의 인도자",
+    "Description": "보석으로 만든 장검. 정의로운 길을 걷는 자를 위해 만들어졌다고 전해지며, 검을 뽑으면 푸른 불꽃이 흐른다",
+    "Icon": "UI_EquipIcon_Sword_GlintstoneSword",
+    "AwakenIcon": "UI_EquipIcon_Sword_GlintstoneSword_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 36,
+        "Type": 28,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "설원의 불꽃",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>16%</color> 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>16%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>20%</color> 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>20%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>24%</color> 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>24%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>28%</color> 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>28%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>32%</color> 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>32%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112154,
+      112148
+    ]
+  },
+  {
     "Id": 11501,
     "PromoteId": 11501,
     "Sort": 5101,
@@ -2661,6 +2767,112 @@
       114024,
       112136,
       112124
+    ]
+  },
+  {
+    "Id": 11520,
+    "PromoteId": 11520,
+    "Sort": 5117,
+    "WeaponType": 1,
+    "RankLevel": 5,
+    "Name": "백조의 호수",
+    "Description": "백조의 부드러운 깃털처럼 가벼운 장검. 언제나 오염되지 않은 순수함을 유지하고 있다",
+    "Icon": "UI_EquipIcon_Sword_Swanlake",
+    "AwakenIcon": "UI_EquipIcon_Sword_Swanlake_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 47.537,
+        "Type": 4,
+        "Value": 1302
+      },
+      {
+        "InitValue": 0.048,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "백조의 피날레",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터의 원소전투 스킬이 적에게 명중 시, 「호수의 애도」를 획득한다: 공격력이 <color=#99FFFFFF>8%</color> 증가한다. 지속 시간: 8초, 최대 중첩수: 3스택. 0.1초마다 최대 1회 발동된다. 스택마다 지속 시간은 독립적으로 계산된다. 3스택 중첩 시 장착 캐릭터가 주는 별빛 반응 피해의 치명타 피해가 <color=#99FFFFFF>50%</color> 증가하며, 별빛 반응을 발동하거나 별빛 반응 피해를 줄 시, 장착 캐릭터의 원소 에너지가 <color=#99FFFFFF>4</color>pt 회복된다. 상술한 원소 에너지 회복 효과는 3.5초마다 최대 1회 발동된다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터의 원소전투 스킬이 적에게 명중 시, 「호수의 애도」를 획득한다: 공격력이 <color=#99FFFFFF>10%</color> 증가한다. 지속 시간: 8초, 최대 중첩수: 3스택. 0.1초마다 최대 1회 발동된다. 스택마다 지속 시간은 독립적으로 계산된다. 3스택 중첩 시 장착 캐릭터가 주는 별빛 반응 피해의 치명타 피해가 <color=#99FFFFFF>65%</color> 증가하며, 별빛 반응을 발동하거나 별빛 반응 피해를 줄 시, 장착 캐릭터의 원소 에너지가 <color=#99FFFFFF>4.5</color>pt 회복된다. 상술한 원소 에너지 회복 효과는 3.5초마다 최대 1회 발동된다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터의 원소전투 스킬이 적에게 명중 시, 「호수의 애도」를 획득한다: 공격력이 <color=#99FFFFFF>12%</color> 증가한다. 지속 시간: 8초, 최대 중첩수: 3스택. 0.1초마다 최대 1회 발동된다. 스택마다 지속 시간은 독립적으로 계산된다. 3스택 중첩 시 장착 캐릭터가 주는 별빛 반응 피해의 치명타 피해가 <color=#99FFFFFF>80%</color> 증가하며, 별빛 반응을 발동하거나 별빛 반응 피해를 줄 시, 장착 캐릭터의 원소 에너지가 <color=#99FFFFFF>5</color>pt 회복된다. 상술한 원소 에너지 회복 효과는 3.5초마다 최대 1회 발동된다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터의 원소전투 스킬이 적에게 명중 시, 「호수의 애도」를 획득한다: 공격력이 <color=#99FFFFFF>14%</color> 증가한다. 지속 시간: 8초, 최대 중첩수: 3스택. 0.1초마다 최대 1회 발동된다. 스택마다 지속 시간은 독립적으로 계산된다. 3스택 중첩 시 장착 캐릭터가 주는 별빛 반응 피해의 치명타 피해가 <color=#99FFFFFF>95%</color> 증가하며, 별빛 반응을 발동하거나 별빛 반응 피해를 줄 시, 장착 캐릭터의 원소 에너지가 <color=#99FFFFFF>5.5</color>pt 회복된다. 상술한 원소 에너지 회복 효과는 3.5초마다 최대 1회 발동된다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터의 원소전투 스킬이 적에게 명중 시, 「호수의 애도」를 획득한다: 공격력이 <color=#99FFFFFF>16%</color> 증가한다. 지속 시간: 8초, 최대 중첩수: 3스택. 0.1초마다 최대 1회 발동된다. 스택마다 지속 시간은 독립적으로 계산된다. 3스택 중첩 시 장착 캐릭터가 주는 별빛 반응 피해의 치명타 피해가 <color=#99FFFFFF>110%</color> 증가하며, 별빛 반응을 발동하거나 별빛 반응 피해를 줄 시, 장착 캐릭터의 원소 에너지가 <color=#99FFFFFF>6</color>pt 회복된다. 상술한 원소 에너지 회복 효과는 3.5초마다 최대 1회 발동된다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114092,
+      112157,
+      112151
+    ]
+  },
+  {
+    "Id": 11521,
+    "PromoteId": 11521,
+    "Sort": 5118,
+    "WeaponType": 1,
+    "RankLevel": 5,
+    "Name": "별빛검",
+    "Description": "창백한 별빛 장검은 이제 여행자의 손에서 새로운 시대의 빛으로 거듭났다",
+    "Icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "AwakenIcon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "GrowCurves": [
+      {
+        "InitValue": 45.9364,
+        "Type": 4,
+        "Value": 1301
+      },
+      {
+        "InitValue": 0.072,
+        "Type": 20,
+        "Value": 2301
+      }
+    ],
+    "Affix": {
+      "Name": "여행자의 길",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "여행자가 장착 시, 적에게 명중하면 <color=#99FFFFFF>8</color>초 동안 공격력이 <color=#99FFFFFF>16%</color> 증가하고, 여행자의 원소 에너지가 <color=#99FFFFFF>3</color>pt 회복된다. 해당 효과는 <color=#99FFFFFF>5</color>초마다 최대 1회 발동되고, 캐릭터가 대기 상태일 때도 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "여행자가 장착 시, 공명한 원소 1종류마다 여행자의 치명타 피해가 6% 증가한다. 또한, 여행자의 공격이 적에게 명중 후 8초 동안 공격력이 <color=#99FFFFFF>20%</color> 증가하고 여행자의 원소 에너지가 <color=#99FFFFFF>3</color>pt 회복된다. 해당 효과는 5초마다 최대 1회 발동되고, 캐릭터가 대기 상태일 때도 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "여행자가 장착 시, 공명한 원소 1종류마다 여행자의 치명타 피해가 6% 증가한다. 또한, 여행자의 공격이 적에게 명중 후 8초 동안 공격력이 <color=#99FFFFFF>24%</color> 증가하고 여행자의 원소 에너지가 <color=#99FFFFFF>5</color>pt 회복된다. 해당 효과는 5초마다 최대 1회 발동되고, 캐릭터가 대기 상태일 때도 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "여행자가 장착 시, 공명한 원소 1종류마다 여행자의 치명타 피해가 6% 증가한다. 또한, 여행자의 공격이 적에게 명중 후 8초 동안 공격력이 <color=#99FFFFFF>32%</color> 증가하고 여행자의 원소 에너지가 <color=#99FFFFFF>5</color>pt 회복된다. 해당 효과는 5초마다 최대 1회 발동되고, 캐릭터가 대기 상태일 때도 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "여행자가 장착 시, 공명한 원소 1종류마다 여행자의 치명타 피해가 6% 증가한다. 또한, 여행자의 공격이 적에게 명중 후 8초 동안 공격력이 <color=#99FFFFFF>40%</color> 증가하고 여행자의 원소 에너지가 <color=#99FFFFFF>5</color>pt 회복된다. 해당 효과는 5초마다 최대 1회 발동되고, 캐릭터가 대기 상태일 때도 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114096,
+      112154,
+      112148
     ]
   },
   {
@@ -4300,6 +4512,112 @@
     ]
   },
   {
+    "Id": 12435,
+    "PromoteId": 12435,
+    "Sort": 4226,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "황금빛 선율",
+    "Description": "황금으로 장식된 대검. 전설에 따르면 머나먼 과거에 어느 대조율사가 애용하던 무기라고 한다",
+    "Icon": "UI_EquipIcon_Claymore_EscapeWheel",
+    "AwakenIcon": "UI_EquipIcon_Claymore_EscapeWheel_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "낮과 밤의 교향곡",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터는 10초마다 다음 순서에 따라 해당하는 효과의 「조화의 악장」을 연주한다: 공격력 <color=#99FFFFFF>18%</color> 증가/원소 마스터리 <color=#99FFFFFF>120</color>pt 증가/별빛 반응 피해 <color=#99FFFFFF>28%</color> 증가. 각 악장 효과는 10초 동안 지속되며, 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다.\n별빛 반응 발동 후, 추가로 별빛 반응 발동 시 연주하던 악장 효과와 동일한 「조화의 악장·다음」을 획득한다, 지속 시간: 12초. 해당 효과는 기존 악장 효과와 중첩될 수 있으며, 12초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터는 10초마다 다음 순서에 따라 해당하는 효과의 「조화의 악장」을 연주한다: 공격력 <color=#99FFFFFF>22.5%</color> 증가/원소 마스터리 <color=#99FFFFFF>150</color>pt 증가/별빛 반응 피해 <color=#99FFFFFF>35%</color> 증가. 각 악장 효과는 10초 동안 지속되며, 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다.\n별빛 반응 발동 후, 추가로 별빛 반응 발동 시 연주하던 악장 효과와 동일한 「조화의 악장·다음」을 획득한다, 지속 시간: 12초. 해당 효과는 기존 악장 효과와 중첩될 수 있으며, 12초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터는 10초마다 다음 순서에 따라 해당하는 효과의 「조화의 악장」을 연주한다: 공격력 <color=#99FFFFFF>27%</color> 증가/원소 마스터리 <color=#99FFFFFF>180</color>pt 증가/별빛 반응 피해 <color=#99FFFFFF>42%</color> 증가. 각 악장 효과는 10초 동안 지속되며, 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다.\n별빛 반응 발동 후, 추가로 별빛 반응 발동 시 연주하던 악장 효과와 동일한 「조화의 악장·다음」을 획득한다, 지속 시간: 12초. 해당 효과는 기존 악장 효과와 중첩될 수 있으며, 12초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터는 10초마다 다음 순서에 따라 해당하는 효과의 「조화의 악장」을 연주한다: 공격력 <color=#99FFFFFF>31.5%</color> 증가/원소 마스터리 <color=#99FFFFFF>210</color>pt 증가/별빛 반응 피해 <color=#99FFFFFF>49%</color> 증가. 각 악장 효과는 10초 동안 지속되며, 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다.\n별빛 반응 발동 후, 추가로 별빛 반응 발동 시 연주하던 악장 효과와 동일한 「조화의 악장·다음」을 획득한다, 지속 시간: 12초. 해당 효과는 기존 악장 효과와 중첩될 수 있으며, 12초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터는 10초마다 다음 순서에 따라 해당하는 효과의 「조화의 악장」을 연주한다: 공격력 <color=#99FFFFFF>36%</color> 증가/원소 마스터리 <color=#99FFFFFF>240</color>pt 증가/별빛 반응 피해 <color=#99FFFFFF>56%</color> 증가. 각 악장 효과는 10초 동안 지속되며, 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다.\n별빛 반응 발동 후, 추가로 별빛 반응 발동 시 연주하던 악장 효과와 동일한 「조화의 악장·다음」을 획득한다, 지속 시간: 12초. 해당 효과는 기존 악장 효과와 중첩될 수 있으며, 12초마다 최대 1회 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114056,
+      112100,
+      112082
+    ]
+  },
+  {
+    "Id": 12436,
+    "PromoteId": 12436,
+    "Sort": 4227,
+    "WeaponType": 11,
+    "RankLevel": 4,
+    "Name": "구원의 대검",
+    "Description": "루치킨에게 물려 받은 대검. 가장 용맹한 전사만이 이 검을 쥘 자격이 있다",
+    "Icon": "UI_EquipIcon_Claymore_GlintstoneClaymore",
+    "AwakenIcon": "UI_EquipIcon_Claymore_GlintstoneClaymore_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "속죄",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>64</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터의 공격력이 <color=#99FFFFFF>16%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>80</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터의 공격력이 <color=#99FFFFFF>20%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>96</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터의 공격력이 <color=#99FFFFFF>24%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>112</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터의 공격력이 <color=#99FFFFFF>28%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>128</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터의 공격력이 <color=#99FFFFFF>32%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112157,
+      112151
+    ]
+  },
+  {
     "Id": 12501,
     "PromoteId": 12501,
     "Sort": 5201,
@@ -4879,23 +5197,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "공격력이 <color=#99FFFFFF>28%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도 반응 피해가 <color=#99FFFFFF>16%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
+          "Description": "공격력이 <color=#99FFFFFF>28%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도와 별 확산 반응 피해가 <color=#99FFFFFF>16%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
         },
         {
           "Level": 1,
-          "Description": "공격력이 <color=#99FFFFFF>35%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도 반응 피해가 <color=#99FFFFFF>20%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
+          "Description": "공격력이 <color=#99FFFFFF>35%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도와 별 확산 반응 피해가 <color=#99FFFFFF>20%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
         },
         {
           "Level": 2,
-          "Description": "공격력이 <color=#99FFFFFF>42%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도 반응 피해가 <color=#99FFFFFF>24%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
+          "Description": "공격력이 <color=#99FFFFFF>42%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도와 별 확산 반응 피해가 <color=#99FFFFFF>24%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
         },
         {
           "Level": 3,
-          "Description": "공격력이 <color=#99FFFFFF>49%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도 반응 피해가 <color=#99FFFFFF>28%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
+          "Description": "공격력이 <color=#99FFFFFF>49%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도와 별 확산 반응 피해가 <color=#99FFFFFF>28%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
         },
         {
           "Level": 4,
-          "Description": "공격력이 <color=#99FFFFFF>56%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도 반응 피해가 <color=#99FFFFFF>32%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
+          "Description": "공격력이 <color=#99FFFFFF>56%</color> 증가한다.\n또한, 장착 캐릭터의 강공격이 적에게 명중할 때마다 짧은 시간 동안 「초월」을 달성한다: 장착 캐릭터의 별 초전도와 별 확산 반응 피해가 <color=#99FFFFFF>32%</color> 증가한다, 지속 시간: 5초. 해당 효과는 0.2초마다 최대 1스택 중첩된다, 최대 중첩수: 3스택"
         }
       ]
     },
@@ -6327,6 +6645,112 @@
       114080,
       112136,
       112124
+    ]
+  },
+  {
+    "Id": 13435,
+    "PromoteId": 13435,
+    "Sort": 4324,
+    "WeaponType": 13,
+    "RankLevel": 4,
+    "Name": "서리 숨결",
+    "Description": "한기가 맴도는 단단한 얼음 창. 아주 먼 옛날 스네즈나야를 통치했던 하얀 차르가 소유했었다고 전해진다",
+    "Icon": "UI_EquipIcon_Pole_FaesCrystalle",
+    "AwakenIcon": "UI_EquipIcon_Pole_FaesCrystalle_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.1,
+        "Type": 23,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "혼신의 투척",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "얼음 원소 또는 물 원소 관련 반응 발동 후 15초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>20%</color> 증가하고, 파티 내 자신의 다른 캐릭터의 원소 에너지를 <color=#99FFFFFF>6</color>pt 회복한다. 해당 효과는 16초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "얼음 원소 또는 물 원소 관련 반응 발동 후 15초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>25%</color> 증가하고, 파티 내 자신의 다른 캐릭터의 원소 에너지를 <color=#99FFFFFF>7.5</color>pt 회복한다. 해당 효과는 16초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "얼음 원소 또는 물 원소 관련 반응 발동 후 15초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>30%</color> 증가하고, 파티 내 자신의 다른 캐릭터의 원소 에너지를 <color=#99FFFFFF>9</color>pt 회복한다. 해당 효과는 16초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "얼음 원소 또는 물 원소 관련 반응 발동 후 15초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>35%</color> 증가하고, 파티 내 자신의 다른 캐릭터의 원소 에너지를 <color=#99FFFFFF>10.5</color>pt 회복한다. 해당 효과는 16초마다 최대 1회 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "얼음 원소 또는 물 원소 관련 반응 발동 후 15초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>40%</color> 증가하고, 파티 내 자신의 다른 캐릭터의 원소 에너지를 <color=#99FFFFFF>12</color>pt 회복한다. 해당 효과는 16초마다 최대 1회 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114092,
+      112154,
+      112151
+    ]
+  },
+  {
+    "Id": 13436,
+    "PromoteId": 13436,
+    "Sort": 4325,
+    "WeaponType": 13,
+    "RankLevel": 4,
+    "Name": "수호의 노래",
+    "Description": "한때 사람들을 지켜주던 창. 지금은 아이들의 역할놀이에서 중요한 소품으로 쓰이고 있다",
+    "Icon": "UI_EquipIcon_Pole_GlintstonePolearm",
+    "AwakenIcon": "UI_EquipIcon_Pole_GlintstonePolearm_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 24,
+        "Type": 28,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "과거의 화음",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "원소 반응 발동 후 장착 캐릭터의 원소 에너지를 <color=#99FFFFFF>4</color>pt 회복한다. 해당 효과는 9초마다 최대 1회 발동된다. 별빛 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>20%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "원소 반응 발동 후 장착 캐릭터의 원소 에너지를 <color=#99FFFFFF>5</color>pt 회복한다. 해당 효과는 9초마다 최대 1회 발동된다. 별빛 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>25%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "원소 반응 발동 후 장착 캐릭터의 원소 에너지를 <color=#99FFFFFF>6</color>pt 회복한다. 해당 효과는 9초마다 최대 1회 발동된다. 별빛 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>30%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "원소 반응 발동 후 장착 캐릭터의 원소 에너지를 <color=#99FFFFFF>7</color>pt 회복한다. 해당 효과는 9초마다 최대 1회 발동된다. 별빛 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>35%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "원소 반응 발동 후 장착 캐릭터의 원소 에너지를 <color=#99FFFFFF>8</color>pt 회복한다. 해당 효과는 9초마다 최대 1회 발동된다. 별빛 반응 발동 후 12초 동안 장착 캐릭터의 공격력이 <color=#99FFFFFF>40%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114096,
+      112157,
+      112148
     ]
   },
   {
@@ -8655,6 +9079,112 @@
     ]
   },
   {
+    "Id": 14435,
+    "PromoteId": 14435,
+    "Sort": 4427,
+    "WeaponType": 10,
+    "RankLevel": 4,
+    "Name": "왕들의 대국",
+    "Description": "수많은 보석으로 장식된 황금 상자. 그 안에는 모래바다의 왕들이 가장 즐기던 놀이가 담겨 있다",
+    "Icon": "UI_EquipIcon_Catalyst_SandMemoria",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_SandMemoria_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "잊힌 밤낮",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 6초 동안 지속되는 「기물 규칙」을 획득한다: 공격력이 <color=#99FFFFFF>20%</color> 증가하고, 원소 마스터리가 <color=#99FFFFFF>100</color>pt 증가한다. 해당 효과는 12초마다 최대 1회 발동되며, 중첩되지 않는다. 지속 시간 동안 장착 캐릭터의 강공격이 적 명중 시, 상술한 효과의 지속 시간이 6초 연장된다. 해당 방식을 통해 지속 시간이 최대 6초 연장된다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 6초 동안 지속되는 「기물 규칙」을 획득한다: 공격력이 <color=#99FFFFFF>25%</color> 증가하고, 원소 마스터리가 <color=#99FFFFFF>125</color>pt 증가한다. 해당 효과는 12초마다 최대 1회 발동되며, 중첩되지 않는다. 지속 시간 동안 장착 캐릭터의 강공격이 적 명중 시, 상술한 효과의 지속 시간이 6초 연장된다. 해당 방식을 통해 지속 시간이 최대 6초 연장된다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 6초 동안 지속되는 「기물 규칙」을 획득한다: 공격력이 <color=#99FFFFFF>30%</color> 증가하고, 원소 마스터리가 <color=#99FFFFFF>150</color>pt 증가한다. 해당 효과는 12초마다 최대 1회 발동되며, 중첩되지 않는다. 지속 시간 동안 장착 캐릭터의 강공격이 적 명중 시, 상술한 효과의 지속 시간이 6초 연장된다. 해당 방식을 통해 지속 시간이 최대 6초 연장된다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 6초 동안 지속되는 「기물 규칙」을 획득한다: 공격력이 <color=#99FFFFFF>35%</color> 증가하고, 원소 마스터리가 <color=#99FFFFFF>175</color>pt 증가한다. 해당 효과는 12초마다 최대 1회 발동되며, 중첩되지 않는다. 지속 시간 동안 장착 캐릭터의 강공격이 적 명중 시, 상술한 효과의 지속 시간이 6초 연장된다. 해당 방식을 통해 지속 시간이 최대 6초 연장된다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후, 6초 동안 지속되는 「기물 규칙」을 획득한다: 공격력이 <color=#99FFFFFF>40%</color> 증가하고, 원소 마스터리가 <color=#99FFFFFF>200</color>pt 증가한다. 해당 효과는 12초마다 최대 1회 발동되며, 중첩되지 않는다. 지속 시간 동안 장착 캐릭터의 강공격이 적 명중 시, 상술한 효과의 지속 시간이 6초 연장된다. 해당 방식을 통해 지속 시간이 최대 6초 연장된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114040,
+      112073,
+      112067
+    ]
+  },
+  {
+    "Id": 14436,
+    "PromoteId": 14436,
+    "Sort": 4428,
+    "WeaponType": 10,
+    "RankLevel": 4,
+    "Name": "충성의 메아리",
+    "Description": "소리를 응결하는 법구. 충성의 맹세와 잊힌 마음이 함께 봉인되어 있는 것 같다",
+    "Icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
+    "AwakenIcon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 43.7349,
+        "Type": 4,
+        "Value": 1202
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 6,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "맹세의 메아리",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>60</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>16%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>75</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>20%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>90</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>24%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>105</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>28%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "원소 반응 발동 후 12초 동안 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가하며, 별빛 반응 발동 후 12초 동안, 장착 캐릭터가 주는 별빛 반응 피해가 <color=#99FFFFFF>32%</color> 증가한다. 장착 캐릭터가 대기 상태일 때도 해당 효과가 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112154,
+      112148
+    ]
+  },
+  {
     "Id": 14501,
     "PromoteId": 14501,
     "Sort": 5401,
@@ -8946,23 +9476,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬의 피해가 <color=#99FFFFFF>12%</color> 증가한다. 지속 시간: 16초. 최대 중첩수: 3회. 3스택 중첩 시 모든 원소 피해 보너스를 <color=#99FFFFFF>12%</color> 획득한다"
+          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬 피해가 <color=#99FFFFFF>12%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>12%</color> 증가한다. 해당 효과 지속 시간: 24초, 최대 중첩수: 3스택. 3스택 보유 시 해당 캐릭터가 모든 원소 피해 보너스를 <color=#99FFFFFF>12%</color> 획득한다"
         },
         {
           "Level": 1,
-          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬의 피해가 <color=#99FFFFFF>15%</color> 증가한다. 지속 시간: 16초. 최대 중첩수: 3회. 3스택 중첩 시 모든 원소 피해 보너스를 <color=#99FFFFFF>15%</color> 획득한다"
+          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬 피해가 <color=#99FFFFFF>15%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>15%</color> 증가한다. 해당 효과 지속 시간: 24초, 최대 중첩수: 3스택. 3스택 보유 시 해당 캐릭터가 모든 원소 피해 보너스를 <color=#99FFFFFF>15%</color> 획득한다"
         },
         {
           "Level": 2,
-          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬의 피해가 <color=#99FFFFFF>18%</color> 증가한다. 지속 시간: 16초. 최대 중첩수: 3회. 3스택 중첩 시 모든 원소 피해 보너스를 <color=#99FFFFFF>18%</color> 획득한다"
+          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬 피해가 <color=#99FFFFFF>18%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>18%</color> 증가한다. 해당 효과 지속 시간: 24초, 최대 중첩수: 3스택. 3스택 보유 시 해당 캐릭터가 모든 원소 피해 보너스를 <color=#99FFFFFF>18%</color> 획득한다"
         },
         {
           "Level": 3,
-          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬의 피해가 <color=#99FFFFFF>21%</color> 증가한다. 지속 시간: 16초. 최대 중첩수: 3회. 3스택 중첩 시 모든 원소 피해 보너스를 <color=#99FFFFFF>21%</color> 획득한다"
+          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬 피해가 <color=#99FFFFFF>21%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>21%</color> 증가한다. 해당 효과 지속 시간: 24초, 최대 중첩수: 3스택. 3스택 보유 시 해당 캐릭터가 모든 원소 피해 보너스를 <color=#99FFFFFF>21%</color> 획득한다"
         },
         {
           "Level": 4,
-          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬의 피해가 <color=#99FFFFFF>24%</color> 증가한다. 지속 시간: 16초. 최대 중첩수: 3회. 3스택 중첩 시 모든 원소 피해 보너스를 <color=#99FFFFFF>24%</color> 획득한다"
+          "Description": "원소전투 스킬 발동 시, 「카구라의 춤」의 효과를 받아 해당 무기를 장착한 캐릭터의 원소전투 스킬 피해가 <color=#99FFFFFF>24%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>24%</color> 증가한다. 해당 효과 지속 시간: 24초, 최대 중첩수: 3스택. 3스택 보유 시 해당 캐릭터가 모든 원소 피해 보너스를 <color=#99FFFFFF>24%</color> 획득한다"
         }
       ]
     },
@@ -9105,23 +9635,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "공격력이 <color=#99FFFFFF>16%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 <color=#99FFFFFF>16%</color>, 강공격이 주는 피해가 <color=#99FFFFFF>14%</color> 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>8%</color> 증가한다"
+          "Description": "공격력이 <color=#99FFFFFF>16%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격으로 주는 피해가 <color=#99FFFFFF>16%</color>, 강공격으로 주는 피해가 <color=#99FFFFFF>14%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>14%</color> 증가한다. 해당 효과 지속 시간: 4초, 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>8%</color> 증가한다"
         },
         {
           "Level": 1,
-          "Description": "공격력이 <color=#99FFFFFF>20%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 <color=#99FFFFFF>20%</color>, 강공격이 주는 피해가 <color=#99FFFFFF>17.5%</color> 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>10%</color> 증가한다"
+          "Description": "공격력이 <color=#99FFFFFF>20%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격으로 주는 피해가 <color=#99FFFFFF>20%</color>, 강공격으로 주는 피해가 <color=#99FFFFFF>17.5%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>17.5%</color> 증가한다. 해당 효과 지속 시간: 4초, 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>10%</color> 증가한다"
         },
         {
           "Level": 2,
-          "Description": "공격력이 <color=#99FFFFFF>24%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 <color=#99FFFFFF>24%</color>, 강공격이 주는 피해가 <color=#99FFFFFF>21%</color> 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>12%</color> 증가한다"
+          "Description": "공격력이 <color=#99FFFFFF>24%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격으로 주는 피해가 <color=#99FFFFFF>24%</color>, 강공격으로 주는 피해가 <color=#99FFFFFF>21%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>21%</color> 증가한다. 해당 효과 지속 시간: 4초, 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>12%</color> 증가한다"
         },
         {
           "Level": 3,
-          "Description": "공격력이 <color=#99FFFFFF>28%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 <color=#99FFFFFF>28%</color>, 강공격이 주는 피해가 <color=#99FFFFFF>24.5%</color> 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>14%</color> 증가한다"
+          "Description": "공격력이 <color=#99FFFFFF>28%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격으로 주는 피해가 <color=#99FFFFFF>28%</color>, 강공격으로 주는 피해가 <color=#99FFFFFF>24.5%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>24.5%</color> 증가한다. 해당 효과 지속 시간: 4초, 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>14%</color> 증가한다"
         },
         {
           "Level": 4,
-          "Description": "공격력이 <color=#99FFFFFF>32%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 <color=#99FFFFFF>32%</color>, 강공격이 주는 피해가 <color=#99FFFFFF>28%</color> 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>16%</color> 증가한다"
+          "Description": "공격력이 <color=#99FFFFFF>32%</color> 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격으로 주는 피해가 <color=#99FFFFFF>32%</color>, 강공격으로 주는 피해가 <color=#99FFFFFF>28%</color> 증가하고, 별 초전도 반응 피해가 <color=#99FFFFFF>28%</color> 증가한다. 해당 효과 지속 시간: 4초, 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동된다. 3스택 상태인 경우, 공격 속도가 <color=#99FFFFFF>16%</color> 증가한다"
         }
       ]
     },
@@ -9370,23 +9900,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>96</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>32</color>pt 증가한다"
+          "Description": "확산, 별 확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>96</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>32</color>pt 증가한다"
         },
         {
           "Level": 1,
-          "Description": "확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>150</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>40</color>pt 증가한다"
+          "Description": "확산, 별 확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>150</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>40</color>pt 증가한다"
         },
         {
           "Level": 2,
-          "Description": "확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>180</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>144</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>48</color>pt 증가한다"
+          "Description": "확산, 별 확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>180</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>144</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>48</color>pt 증가한다"
         },
         {
           "Level": 3,
-          "Description": "확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>210</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>168</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>56</color>pt 증가한다"
+          "Description": "확산, 별 확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>210</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>168</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>56</color>pt 증가한다"
         },
         {
           "Level": 4,
-          "Description": "확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>240</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>192</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>64</color>pt 증가한다"
+          "Description": "확산, 별 확산 반응 발동 후 6초 동안, 원소 마스터리가 <color=#99FFFFFF>240</color>pt 증가한다. 원소전투 스킬이 적에게 명중 후 9초 동안, 원소 마스터리가 <color=#99FFFFFF>192</color>pt 증가한다. 원소폭발이 적에게 명중 후 30초 동안, 원소 마스터리가 <color=#99FFFFFF>64</color>pt 증가한다"
         }
       ]
     },
@@ -11441,6 +11971,112 @@
     ]
   },
   {
+    "Id": 15435,
+    "PromoteId": 15435,
+    "Sort": 4529,
+    "WeaponType": 12,
+    "RankLevel": 4,
+    "Name": "옥빛 장궁",
+    "Description": "장력이 매우 강한 장궁. 가장 깊고 어두운 밤에도 몽환적인 빛을 낸다",
+    "Icon": "UI_EquipIcon_Bow_ShatteredMirror",
+    "AwakenIcon": "UI_EquipIcon_Bow_ShatteredMirror_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.06,
+        "Type": 20,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "밤을 수놓는 촛불",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터를 제외하고, 아래 조건에 맞는 팀 내 캐릭터가 1명 존재할 때마다 아래 효과를 획득한다. ·장착 캐릭터와 원소 타입이 동일한 캐릭터: 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>64</color>pt 증가한다. ·장착 캐릭터와 원소 타입이 다른 캐릭터: 장착 캐릭터의 공격력이 <color=#99FFFFFF>12%</color> 증가한다. 상술한 두 가지 효과는 최대 3스택 중첩되며, 동일 원소 타입 효과가 우선적으로 발동된다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터를 제외하고, 아래 조건에 맞는 팀 내 캐릭터가 1명 존재할 때마다 아래 효과를 획득한다. ·장착 캐릭터와 원소 타입이 동일한 캐릭터: 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>80</color>pt 증가한다. ·장착 캐릭터와 원소 타입이 다른 캐릭터: 장착 캐릭터의 공격력이 <color=#99FFFFFF>15%</color> 증가한다. 상술한 두 가지 효과는 최대 3스택 중첩되며, 동일 원소 타입 효과가 우선적으로 발동된다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터를 제외하고, 아래 조건에 맞는 팀 내 캐릭터가 1명 존재할 때마다 아래 효과를 획득한다. ·장착 캐릭터와 원소 타입이 동일한 캐릭터: 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>96</color>pt 증가한다. ·장착 캐릭터와 원소 타입이 다른 캐릭터: 장착 캐릭터의 공격력이 <color=#99FFFFFF>18%</color> 증가한다. 상술한 두 가지 효과는 최대 3스택 중첩되며, 동일 원소 타입 효과가 우선적으로 발동된다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터를 제외하고, 아래 조건에 맞는 팀 내 캐릭터가 1명 존재할 때마다 아래 효과를 획득한다. ·장착 캐릭터와 원소 타입이 동일한 캐릭터: 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>112</color>pt 증가한다. ·장착 캐릭터와 원소 타입이 다른 캐릭터: 장착 캐릭터의 공격력이 <color=#99FFFFFF>21%</color> 증가한다. 상술한 두 가지 효과는 최대 3스택 중첩되며, 동일 원소 타입 효과가 우선적으로 발동된다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터를 제외하고, 아래 조건에 맞는 팀 내 캐릭터가 1명 존재할 때마다 아래 효과를 획득한다. ·장착 캐릭터와 원소 타입이 동일한 캐릭터: 장착 캐릭터의 원소 마스터리가 <color=#99FFFFFF>128</color>pt 증가한다. ·장착 캐릭터와 원소 타입이 다른 캐릭터: 장착 캐릭터의 공격력이 <color=#99FFFFFF>24%</color> 증가한다. 상술한 두 가지 효과는 최대 3스택 중첩되며, 동일 원소 타입 효과가 우선적으로 발동된다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114024,
+      112043,
+      112034
+    ]
+  },
+  {
+    "Id": 15436,
+    "PromoteId": 15436,
+    "Sort": 4530,
+    "WeaponType": 12,
+    "RankLevel": 4,
+    "Name": "서리의 서약",
+    "Description": "질서를 수호하는 장궁. 차가운 광택은 공정함을 상징한다",
+    "Icon": "UI_EquipIcon_Bow_GlintstoneBow",
+    "AwakenIcon": "UI_EquipIcon_Bow_GlintstoneBow_Awaken",
+    "GrowCurves": [
+      {
+        "InitValue": 42.401,
+        "Type": 4,
+        "Value": 1201
+      },
+      {
+        "InitValue": 0.1126,
+        "Type": 9,
+        "Value": 2201
+      }
+    ],
+    "Affix": {
+      "Name": "법의 균형",
+      "Descriptions": [
+        {
+          "Level": 0,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후 12초 동안 원소 마스터리가 <color=#99FFFFFF>120</color>pt 증가한다"
+        },
+        {
+          "Level": 1,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후 12초 동안 원소 마스터리가 <color=#99FFFFFF>150</color>pt 증가한다"
+        },
+        {
+          "Level": 2,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후 12초 동안 원소 마스터리가 <color=#99FFFFFF>180</color>pt 증가한다"
+        },
+        {
+          "Level": 3,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후 12초 동안 원소 마스터리가 <color=#99FFFFFF>210</color>pt 증가한다"
+        },
+        {
+          "Level": 4,
+          "Description": "장착 캐릭터가 원소전투 스킬 발동 후 12초 동안 원소 마스터리가 <color=#99FFFFFF>240</color>pt 증가한다"
+        }
+      ]
+    },
+    "CultivationItems": [
+      114088,
+      112157,
+      112151
+    ]
+  },
+  {
     "Id": 15501,
     "PromoteId": 15501,
     "Sort": 5501,
@@ -11990,23 +12626,23 @@
       "Descriptions": [
         {
           "Level": 0,
-          "Description": "확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>24%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>20%/48%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>10%/24%</color> 증가한다"
+          "Description": "확산 또는 별 확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>24%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>20%/48%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>10%/24%</color> 증가한다"
         },
         {
           "Level": 1,
-          "Description": "확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>30%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>25%/60%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>12.5%/30%</color> 증가한다"
+          "Description": "확산 또는 별 확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>30%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>25%/60%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>12.5%/30%</color> 증가한다"
         },
         {
           "Level": 2,
-          "Description": "확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>36%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>30%/72%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>15%/36%</color> 증가한다"
+          "Description": "확산 또는 별 확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>36%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>30%/72%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>15%/36%</color> 증가한다"
         },
         {
           "Level": 3,
-          "Description": "확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>42%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>35%/84%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>17.5%/42%</color> 증가한다"
+          "Description": "확산 또는 별 확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>42%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>35%/84%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>17.5%/42%</color> 증가한다"
         },
         {
           "Level": 4,
-          "Description": "확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>48%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>40%/96%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>20%/48%</color> 증가한다"
+          "Description": "확산 또는 별 확산 반응 발동 후 12초 동안, 공격력이 <color=#99FFFFFF>48%</color> 증가한다. 또한 파티 내에 장착 캐릭터와 원소 타입이 다른 캐릭터가 최소 1/2명 있을 시, 장착 캐릭터가 강공격으로 주는 피해가 <color=#99FFFFFF>40%/96%</color> 증가하고 원소폭발로 주는 피해가 <color=#99FFFFFF>20%/48%</color> 증가한다"
         }
       ]
     },

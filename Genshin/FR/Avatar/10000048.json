@@ -443,6 +443,7 @@
         "Id": 10481,
         "Name": "Sceau embrasé",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nTire des boules de feu qui infligent jusqu'à 3 vagues de <color=#FF9999FF>DGT Pyro</color>.\nLorsqu'une attaque normale touche un ennemi, Yanfei obtient un sceau écarlate. Yanfei peut détenir un maximum de 3 sceaux écarlates, et chaque fois que cet effet se déclenche, la durée des sceaux en sa possession est réinitialisée.\nChaque sceau écarlate diminue la consommation d'endurance de Yanfei, et disparaît lorsque Yanfei quitte le champ de bataille.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance et tous les sceaux écarlates pour infliger des <color=#FF9999FF>DGT Pyro de zone</color> aux ennemis en face de Yanfei après un court délai.\nLa portée et l'intensité de ces DGT Pyro de zone augmentent avec le nombre de sceaux écarlates consommés.\n\n<color=#FFD780FF>Attaque plongeante</color>\nYanfei concentre son énergie Pyro et plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des <color=#FF9999FF>DGT Pyro de zone</color> à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -579,6 +580,7 @@
         "Id": 10482,
         "Name": "Pacte des flammes",
         "Description": "Yanfei en appelle aux flammes dévastatrices, infligeant des <color=#FF9999FF>DGT Pyro de zone</color>.\nLorsque des ennemis sont touchés, Yanfei gagne le nombre maximum de sceaux écarlates.\n\n<i>En plus de leur valeur juridique, les sceaux de Yanfei présentent des conditions d'utilisation très personnalisées. Après tout, ce n'est pas comme si le Bureau des affaires civiles pouvait changer les lois de la nature.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Feiyan_01"
       }
     ],
@@ -780,6 +782,7 @@
       "Id": 10485,
       "Name": "Application des peines",
       "Description": "Invoque une explosion de flammes intenses qui jaillit vers les ennemis proches, infligeant des <color=#FF9999FF>DGT Pyro de zone</color> et conférant à Yanfei le nombre maximum de sceaux écarlates, tout en appliquant l'effet Brillance.\n\n<color=#FFD780FF>Brillance</color>\nConfère les effets suivants :\n· Confère à Yanfei un sceau écarlate à intervalles réguliers.\n· Augmente les DGT infligés par ses attaques chargées.\nLes effets de la brillance se dissipent lorsque Yanfei quitte le champ de bataille ou qu'elle est vaincue.\n\n<i>« Veuillez trouver ici les termes de cette question de vie ou de mort, et par là j'entends ma vie et votre mort ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Feiyan_01"
     },
     "Inherents": [
@@ -803,6 +806,7 @@
         "Id": 482101,
         "Name": "Dispositions supplémentaires",
         "Description": "Lorsque Yanfei consomme un sceau écarlate en utilisant une attaque chargée, chaque sceau écarlate augmente le <color=#FF9999FF>bonus de DGT Pyro</color> de Yanfei de 5 % pour 6 s. Utiliser une attaque chargée avant la fin de la durée d'un effet dissipe l'effet précédent.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_05"
       },
       {
@@ -823,6 +827,7 @@
         "Id": 482201,
         "Name": "Œil de la justice",
         "Description": "Quand les attaques chargées de Yanfei infligent des coups CRIT aux ennemis, elle inflige des <color=#FF9999FF>DGT Pyro de zone</color> supplémentaires équivalant à 80 % de son ATQ. Ces DGT sont considérés comme des DGT d'attaque chargée.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Feiyan_06"
       },
       {
@@ -841,6 +846,7 @@
         "Id": 482301,
         "Name": "Connaissance du terrain",
         "Description": "Affiche l'emplacement des <color=#FFD780FF>produits de Liyue</color> sur la mini-carte.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Collect_Local_Liyue"
       }
     ],

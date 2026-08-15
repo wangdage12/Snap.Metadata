@@ -339,6 +339,7 @@
         "Id": 10261,
         "Name": "Cuốn Quét Bụi Trần",
         "Description": "<color=#FFD780FF>Tấn Công Thường</color>\nThực hiện tối đa 6 lần đánh liên tiếp.\n\n<color=#FFD780FF>Trọng Kích</color>\nTiêu hao thể lực nhất định để tấn công hướng lên trên.\n\n<color=#FFD780FF>Tấn Công Khi Đáp</color>\nĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.\nKhi Xiao tiến hành tấn công khi đáp, sẽ không phải chịu sát thương rơi.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -475,6 +476,7 @@
         "Id": 10262,
         "Name": "Đôi Bánh Xe Gió",
         "Description": "Lao đến cực nhanh, gây <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> cho kẻ địch trên đường.\nCó thể thi triển trên không trung.\nBan đầu có 2 lần sử dụng.\n\n<i>Theo truyền thuyết của nơi nào đó, thế giới sẽ bị nghiền nát bởi hai bánh xe gió. Thương pháp của Xiao đã đạt trình độ xuất thần nhập quỷ, đi lại giống như hai cỗ bánh xe gió xé nát phe địch.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Xiao_01"
       }
     ],
@@ -660,6 +662,7 @@
       "Id": 10265,
       "Name": "Vũ Điệu Trừ Yêu",
       "Description": "Phơi bày Mặt Nạ Dạ Xoa mà hàng nghìn năm trước đã khiến yêu ma quỷ quái run sợ.\n\n<color=#FFD780FF>Mặt Nạ Dạ Xoa</color>\n·Tăng khả năng nhảy của Xiao; \n·Tăng phạm vi tấn công và sát thương; \n·Chuyển sát thương thành <color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, chuyển hóa nguyên tố này không thể bị đính kèm thay thế.\n\nỞ trạng thái này, Xiao sẽ liên tục mất HP.\nHiệu quả sẽ mất khi Xiao rời trận.\n\n<i>Đeo lên mặt nạ Hàng Ma, Hộ Pháp Dạ Xoa xuất hiện khiến tất cả yêu ma run sợ, hàng ma diệt quái. Nhận được sức mạnh to lớn, cũng đem đến đau đớn cùng cực. Tên gọi là Vũ Điệu Trừ Yêu.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Xiao_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 262101,
         "Name": "Hàng Ma - Bình Yêu Đại Thánh",
         "Description": "Trong trạng thái <color=#FFD780FF>Vũ Điệu Trừ Yêu</color>, tất cả sát thương Xiao gây ra tăng 5%. Sau đó, trong thời gian duy trì của kỹ năng, mỗi 3s, sát thương gây ra sẽ tăng thêm 5%.\nTối đa nhận 25% sát thương tăng thêm.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 262201,
         "Name": "Hoại Kiếp - Quốc Thổ",
         "Description": "Sau khi thi triển <color=#FFD780FF>Đôi Bánh Xe Gió</color>, trong vòng 7s sau đó sẽ khiến cho sát thương của Đôi Bánh Xe Gió tăng 15%.\nHiệu quả kéo dài 7s, tối đa cộng dồn 3 lần, khi cộng dồn sẽ làm mới thời gian kéo dài.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Xiao_06"
       },
       {
@@ -721,6 +726,7 @@
         "Id": 262301,
         "Name": "Thần Thông - Không Trung Tự Tại",
         "Description": "Giảm 20% tiêu hao thể lực khi leo trèo cho nhân vật trong đội của bản thân.\nKhông thể cộng dồn với buff Thiên Phú cố định có cùng hiệu quả.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Explosion_Climb"
       }
     ],
@@ -1140,5 +1146,11 @@
     "Description": "Hoa văn danh thiếp.\nAnh ấy mong mỏi một ngày được đeo mặt nạ vào và nhảy múa. Không phải để trừ ma, mà chỉ để hòa theo giai điệu của tiếng sáo giữa biển hoa đó.",
     "Icon": "UI_NameCardIcon_Xiao",
     "PicturePrefix": "UI_NameCardPic_Xiao"
+  },
+  "TraceEffect": {
+    "Id": 215023,
+    "Name": "Vết Tích - Hộ Pháp Dạ Xoa",
+    "Description": "Vết Tích Tưởng Tượng của Xiao. \"Diệt trừ khổ nạn, ròng rã nhiều năm.\"",
+    "Icon": "UI_TraceEffectIcon_Xiao"
   }
 }

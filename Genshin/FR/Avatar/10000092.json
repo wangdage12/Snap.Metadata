@@ -309,6 +309,7 @@
         "Id": 10921,
         "Name": "Déchirement stellaire",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 attaques.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -461,6 +462,7 @@
         "Id": 10922,
         "Name": "Ascension bestiale",
         "Description": "Attaque avec un bond en avant en utilisant l'art du wushou, sautant haut dans les airs après avoir touché une cible ou le terrain.\nSi Gaming utilise une attaque plongeante immédiatement après s'être élevé dans les airs grâce à sa compétence élémentaire « Ascension bestiale », il déclenche une attaque plongeante particulièrement puissante : Augure nébuleux.\n\n<color=#FFD780FF>Attaque plongeante : Augure nébuleux</color>\nLorsqu'une attaque plongeante est déclenchée en utilisant l'effet de la compétence élémentaire « Ascension bestiale », ses DGT sont convertis en <color=#FF9999FF>DGT Pyro</color> ne pouvant pas être enchantés et Gaming consomme une certaine quantité de PV à l'atterrissage. Les PV de Gaming peuvent être diminués jusqu'à 10 % de cette manière.\nLes DGT infligés par Augure nébuleux sont considérés comme des DGT d'attaque plongeante.\n\n<i>« La bête auspicieuse bondit et cueille la verdure, la prospérité tout autour résonne. Que la richesse et la santé nous parviennent... Et puissions-nous tous nous élever au firmament ! »</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Gaming_01"
       }
     ],
@@ -646,6 +648,7 @@
       "Id": 10925,
       "Name": "Danse de félidé enflammé",
       "Description": "Gaming passe en posture de wushou, <color=#FF9999FF>s'appliquant l'élément Pyro</color> temporairement et récupérant une certaine quantité de ses PV, et invoque son compagnon, le suanni Man Chai, pour qu'il écrase les cibles et inflige des <color=#FF9999FF>DGT Pyro de zone</color>.\nAprès avoir écrasé ses cibles, Man Chai roule à proximité avant de se diriger vers Gaming. En rejoignant Gaming, Man Chai quitte le champ de bataille et réinitialise le TdR de la compétence élémentaire de Gaming, Ascension bestiale.\nPendant la durée de la posture de wushou, la RÉS à l'interruption de Gaming est augmentée et, lorsque son attaque plongeante « Augure nébuleux » touche le sol ou à la fin du bond en avant d'Ascension bestiale, Gaming peut invoquer à nouveau Man Chai si ses PV sont supérieurs à 50 %.\nIl ne peut exister qu'un seul Man Chai invoqué par Gaming lui-même à la fois.\nCet effet cesse lorsque Gaming quitte le champ de bataille.\n\n<i>« La bête dorée apporte fortune, lumières flamboyantes et vues brillantes ! Voilà ce qu'on appelle une vie prospère et abondante ! »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Gaming_01"
     },
     "Inherents": [
@@ -668,6 +671,7 @@
         "Id": 922101,
         "Name": "Danse d'entente",
         "Description": "Après avoir touché un ennemi avec l'attaque plongeante « Augure nébuleux » d'<color=#FFD780FF>Ascension bestiale</color>, Gaming récupère des PV d'une valeur équivalant à 1,5 % de ses PV max une fois toutes les 0,2 s pendant 0,8 s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gaming_05"
       },
       {
@@ -690,6 +694,7 @@
         "Id": 922201,
         "Name": "Air de prospérité",
         "Description": "Lorsque les PV de Gaming sont inférieurs à 50 %, il obtient un bonus de soins reçus de 20 %. Lorsque les PV de Gaming sont supérieurs ou égaux à 50 %, les DGT infligés par l'attaque plongeante « Augure nébuleux » augmentent de 20 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Gaming_06"
       },
       {
@@ -708,6 +713,7 @@
         "Id": 922301,
         "Name": "Pas de bestialité",
         "Description": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Dehya_07"
       }
     ],

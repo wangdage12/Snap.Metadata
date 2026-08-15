@@ -325,6 +325,7 @@
         "Id": 10511,
         "Name": "Favonius Bladework - Edel",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 5 tebasan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nTerus menguras Stamina untuk melancarkan tebasan berkelanjutan secara cepat.\nCharged Attack akan diakhiri dengan sebuah tebasan yang lebih kuat.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang semua musuh di jalurnya dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_04"
       },
       {
@@ -634,6 +635,7 @@
         "Id": 10512,
         "Name": "Icetide Vortex",
         "Description": "Es yang tajam, pedang yang lincah.\n\n<color=#FFD780FF>Tekan</color>\nMenebas dengan cepat dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\nSaat mengenai musuh, Eula akan mendapatkan satu lapis Grimheart yang bisa ditumpuk hingga 2 lapis. Lapisan ini hanya bisa ditumpuk setiap 0,3 detik.\n\n<color=#FFD780FF>Grimheart</color>\nMeningkatkan DEF dan ketahanan Eula terhadap interupsi.\n\n<color=#FFD780FF>Tahan</color>\nDengan mengonsumsi semua lapisan Grimheart yang ada, Eula menebas pedangnya ke arah depan dan mengakibatkan <color=#99FFFFFF>Cryo DMG area</color> pada musuh di hadapannya.\nJika Eula mengonsumsi lapisan Grimheart, musuh di sekitar akan mengalami penurunan Physical RES dan <color=#99FFFFFF>Cryo RES</color>.\nSetiap lapis Grimheart akan berubah menjadi Icewhirl Brand yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> pada musuh di sekitar.\n\n<i>\"Ombak-ombak pun bergulung, menelan mahkota para bangsawan. Setelah itu, setiap tetesan di antara gulungan ombak es akan memantulkan mahkota emas, dan setiap tetesan busa ombak akan memancarkan cahayanya.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Eula_01"
       }
     ],
@@ -835,6 +837,7 @@
       "Id": 10515,
       "Name": "Glacial Illumination",
       "Description": "Eula mengayunkan pedang besarnya dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color> terhadap musuh di sekitar, serta menciptakan Lightfall Sword yang mengikutinya selama hingga 7 detik.\nSelama aktif, Lightfall Sword akan meningkatkan ketahanan Eula terhadap interupsi. Saat Normal Attack, Elemental Skill, dan Elemental Burst Eula mengakibatkan DMG terhadap musuh, energi Lightfall Sword akan terisi. 1 lapisan energi hanya dapat terisi setiap 0,1 detik.\nSetelah durasinya berakhir, Lightfall Sword akan meledak hebat dan mengakibatkan Physical DMG terhadap musuh di sekitarnya.\nDMG ini akan meningkat sesuai dengan jumlah lapisan energi yang berhasil dikumpulkan Lightfall Sword.\nLightfall Sword akan langsung meledak saat Eula meninggalkan medan pertempuran.\n\n<i>Mudah sekali bagi seseorang untuk tenggelam dalam arus ombak. Meski begitu, Eula lebih tertantang untuk membekukan arus yang datang.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Eula_01"
     },
     "Inherents": [
@@ -856,6 +859,7 @@
         "Id": 512101,
         "Name": "Roiling Rime",
         "Description": "Jika 2 lapis Grimheart dikonsumsi saat menggunakan Mode Tahan dari <color=#FFD780FF>Icetide Vortex</color>, sebuah Shattered Lightfall Sword akan terbentuk dan langsung meledak, mengakibatkan Physical DMG sebesar 50% dari DMG dasar Lightfall Sword yang terbentuk dari skill <color=#FFD780FF>Glacial Illumination</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Eula_05"
       },
       {
@@ -874,6 +878,7 @@
         "Id": 512201,
         "Name": "Wellspring of War-Lust",
         "Description": "Menggunakan <color=#FFD780FF>Glacial Illumination</color> akan langsung menyelesaikan CD <color=#FFD780FF>Icetide Vortex</color> dan memberikan Eula satu lapis Grimheart.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Eula_06"
       },
       {
@@ -892,6 +897,7 @@
         "Id": 512301,
         "Name": "Aristocratic Introspection",
         "Description": "Saat membuat Material Talenta Karakter, Eula memiliki 10% kemungkinan untuk mendapatkan hasil 2 kali lipat.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Eula_Combine"
       }
     ],

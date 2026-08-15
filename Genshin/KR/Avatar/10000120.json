@@ -293,6 +293,7 @@
         "Id": 11201,
         "Name": "호위 마창",
         "Description": "<color=#FFD780FF>일반 공격</color>\n창으로 최대 5번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 전방을 향해 창을 던져 공격한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -557,6 +558,7 @@
         "Id": 11202,
         "Name": "고대 율법·등불의 신비",
         "Description": "플린스가 등불 속 고대의 힘을 소환해 <color=#FFD780FF>푸른불</color> 모드로 전환한다. 해당 모드는 아래의 특성을 가진다:\n·플린스의 일반 공격과 강공격이 다른 원소 부여 효과로 대체될 수 없는 <color=#FFACFFFF>번개 원소 피해</color>로 전환되고 낙하 공격을 할 수 없게 된다.\n·플린스의 경직 저항력이 증가한다.\n·원소전투 스킬 <color=#FFD780FF>고대 율법·등불의 신비</color>가 특수 원소전투 스킬 <color=#FFD780FF>북국의 장창</color>으로 대체된다.\n\n<color=#FFD780FF>북국의 장창</color>\n플린스가 전방에 장창을 소환해 <color=#FFACFFFF>번개 원소 범위 피해</color>를 주고, 그 후 6초 동안 플린스의 원소폭발 <color=#FFD780FF>고대 예법·밤의 손님</color>이 특수 원소폭발 {LINK#N11200001}<color=#FFD780FF>낙뢰 교향곡</color>{/LINK}으로 대체된다.\n<color=#FFD780FF>북국의 장창</color>의 기본 재사용 대기시간은 6초이며, 해당 재사용 대기시간은 다른 효과의 영향을 받지 않는다",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Flins_01"
       }
     ],
@@ -790,6 +792,7 @@
       "Id": 11205,
       "Name": "고대 예법·밤의 손님",
       "Description": "플린스가 등불 속 진정한 힘을 해방해 <color=#FFACFFFF>번개 원소 범위 피해</color>를 주고 짧은 시간 후, 달 감전 반응 피해로 간주하는 <color=#FFACFFFF>번개 원소 범위 피해</color>를 중간 단계 공격으로 2회, 마무리 단계 공격으로 1회 준다.\n<color=#FFD780FF>달빛 징조·보름</color>: 스킬이 강화된다: 주변에 번개구름이 존재할 경우, 추가로 달 감전 반응 피해로 간주하는 <color=#FFACFFFF>번개 원소 범위 피해</color>를 중간 단계 공격으로 2회 준다.\n\n특수 원소전투 스킬 <color=#FFD780FF>북국의 장창</color> 발동 후 6초 동안, 플린스의 원소폭발 <color=#FFD780FF>고대 예법·밤의 손님</color>이 특수 원소폭발 <color=#FFD780FF>낙뢰 교향곡</color>으로 전환된다.\n\n<color=#FFD780FF>낙뢰 교향곡</color>\n원소 에너지를 덜 소모하는 특수 원소폭발을 발동할 수 있다. 플린스가 달 감전 반응 피해로 간주하는 <color=#FFACFFFF>번개 원소 범위 피해</color>를 1회 준다.\n<color=#FFD780FF>달빛 징조·보름</color>: 스킬이 강화된다: 주변에 번개 구름이 존재할 경우 달 감전 반응 피해로 간주하는 <color=#FFACFFFF>번개 원소 범위 피해</color>를 추가로 1회 준다",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Flins_01"
     },
     "Inherents": [
@@ -811,6 +814,7 @@
         "Id": 1202101,
         "Name": "한겨울 교향곡",
         "Description": "파티의 <color=#FFD780FF>달빛 징조</color>에 따라 플린스가 상응하는 강화 효과를 획득한다.\n\n<color=#FFD780FF>달빛 징조·보름</color>: 플린스가 발동한 달 감전 반응으로 주는 피해가 20% 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_05"
       },
       {
@@ -832,6 +836,7 @@
         "Id": 1202201,
         "Name": "푸른불의 속삭임",
         "Description": "플린스의 원소 마스터리가 플린스 공격력의 8%만큼 증가한다. 해당 방식으로 플린스의 원소 마스터리는 최대 160pt 증가한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_06"
       },
       {
@@ -853,6 +858,7 @@
         "Id": 1202301,
         "Name": "달빛 징조의 축복·구시대의 비밀",
         "Description": "파티 내 캐릭터가 감전 반응 발동 시, 달 감전 반응 발동으로 전환되며, 플린스의 공격력에 기반해 달 감전 반응 기본 피해가 증가한다: 공격력 100pt마다 기본 피해가 0.7% 증가하며, 해당 방식으로 피해는 최대 14% 증가한다.\n\n플린스가 파티에 있을 경우 파티의 <color=#FFD780FF>달빛 징조</color>가 1레벨 상승한다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_07"
       },
       {
@@ -871,6 +877,7 @@
         "Id": 1202501,
         "Name": "등불 순찰",
         "Description": "미니맵에 주위의 <color=#FFD780FF>노드크라이 지역 특산물</color> 위치가 나타난다.\n플린스는 광란의 사냥의 속삭임을 알아들을 수 있다",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Flins_08"
       }
     ],

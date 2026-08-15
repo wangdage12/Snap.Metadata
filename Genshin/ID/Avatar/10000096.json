@@ -371,6 +371,7 @@
         "Id": 10961,
         "Name": "Invitation to a Beheading",
         "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 6 serangan tombak beruntun.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menerjang ke arah musuh di sekitar dan melancarkan satu kali tebasan.\nSaat terus ditahan, Arlecchino akan mengonsumsi Stamina untuk bergerak dengan kecepatan tinggi selama maksimum 5 detik.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.\n\n<color=#FFD780FF>Masque of the Red Death</color>\nSaat Bond of Life yang dimiliki Arlecchino lebih besar atau sama dengan 30% Max HP-nya, akan memasuki status \"Masque of the Red Death\": DMG yang disebabkan Normal Attack, Charged Attack, dan Plunging Attack Arlecchino akan dikonversi menjadi <color=#FF9999FF>Pyro DMG</color> yang tidak bisa ditimpa oleh Elemental Infusion lainnya.\nSaat berada dalam status \"Masque of the Red Death\", saat Normal Attack Arlecchino mengenai musuh, DMG yang diakibatkan serangan kali ini meningkat sebesar ATK Arlecchino dikalikan sejumlah persentase Bond of Life saat ini. Serangan ini juga akan mengurangi 7,5% Bond of Life saat ini. Bond of Life bisa berkurang dengan cara ini maksimum sekali setiap 0,03 detik. Saat Bond of Life berkurang dengan cara ini, maka CD Elemental Skill \"All is Ash\" berkurang 0,8 detik.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -584,6 +585,7 @@
         "Id": 10962,
         "Name": "All is Ash",
         "Description": "Memanggil Balemoon Bloodfire, mengakibatkan <color=#FF9999FF>Pyro DMG</color> terhadap banyak musuh di sekitar, lalu menerjang dan menebas salah satu musuh di antaranya, mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>.\nSaat serangan di atas mengenai musuh, akan memberikan Blood-Debt Directive kepada musuh yang bersangkutan.\n\n<color=#FFD780FF>Blood-Debt Directive</color>\n·Blood-Debt Directive bertahan 30 detik. Setiap 5 detik, Blood-Debt Directive akan mengakibatkan satu kali <color=#FF9999FF>Pyro DMG</color> terhadap musuh, hingga maksimum 2 kali. DMG ini dianggap sebagai DMG Elemental Skill;\n·Saat Arlecchino melancarkan Charged Attack atau Elemental Burst \"Balemoon Rising\", Blood-Debt Directive di sekitar akan diserap dan dihapus. Untuk setiap Blood-Debt Directive yang diserap, Arlecchino akan mendapatkan Bond of Life sebesar 65% Max HP-nya;\n·Dalam 35 detik setelah melancarkan Elemental Skill, Arlecchino bisa mendapatkan maksimum 145% Bond of Life melalui Blood-Debt Directive. Melancarkan Elemental Skill sekali lagi selama masa ini akan mengulang durasi berlangsung dan batas maksimum Bond of Life yang diberikan oleh Blood-Debt Directive.\n\n<i>Baginya, tidak setiap butir beras yang jatuh ke tanah akan bertumbuh. Sedangkan mereka yang menghalanginya, begitu dibakar menjadi abu, pasti akan bisa digunakan untuk memelihara bunga.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Arlecchino_01"
       }
     ],
@@ -783,6 +785,7 @@
       "Id": 10965,
       "Name": "Balemoon Rising",
       "Description": "Arlecchino mengepakkan sayap Balemoon Bloodfire, menyerap dan membersihkan Blood-Debt Directive di sekitar, serta mengakibatkan <color=#FF9999FF>Pyro DMG Area</color>. Setelahnya, juga akan menghapus CD Elemental Skill \"All is Ash\" dan memulihkan HP diri sendiri berdasarkan nilai Bond of Life dan ATK miliknya.\n\n<i>Sudah banyak yang percaya di Teyvat kalau fase bulan selain bulan purnama itu hanya perumpamaan untuk pertanda buruk yang digunakan alkimia dan astrologi.\nDia pernah melihat bulan merah beberapa kali di dalam mimpinya, apa itu pertanda bencana? Ya, benar. Tapi itu adalah bencana milik orang-orang yang membuatnya marah.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Arlecchino_01"
     },
     "Inherents": [
@@ -806,6 +809,7 @@
         "Id": 962101,
         "Name": "Agony Alone May Be Repaid",
         "Description": "<color=#FFD780FF>Blood-Debt Directives</color> memiliki ciri khas sebagai berikut:\n·Saat musuh yang memiliki Blood-Debt Directive yang diberikan oleh Arlecchino sendiri dikalahkan, Arlecchino akan mendapatkan Bond of Life sebesar 130% Max HP-nya;\n·5 detik setelah diberikan, akan meningkat menjadi Blood-Debt Due. Saat diserap, akan memberikan Bond of Life kepada Arlecchino sebesar 130%.\nNilai pemulihan Bond of Life yang diciptakan dengan cara di atas tidak akan bisa melebihi batasan awal <color=#FFD780FF>All is Ash</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_05"
       },
       {
@@ -829,6 +833,7 @@
         "Id": 962201,
         "Name": "Strength Alone Can Defend",
         "Description": "Arlecchino mendapatkan 1% Elemental RES dari semua elemen dan Physical RES untuk setiap 100 poin ATK yang melebihi 1.000 poin. Peningkatan RES maksimum yang bisa didapatkan dengan cara ini adalah 20% untuk masing-masing RES.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_06"
       },
       {
@@ -851,6 +856,7 @@
         "Id": 962301,
         "Name": "The Balemoon Alone May Know",
         "Description": "Saat bertempur, Arlecchino mendapatkan 40% <color=#FF9999FF>Pyro DMG Bonus</color> dan HP-nya hanya bisa dipulihkan melalui <color=#FFD780FF>Balemoon Rising</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Arlecchino_07"
       }
     ],
@@ -1051,7 +1057,7 @@
         "Context": "The Rooster tidak begitu menyukaiku, yah aku juga sama sih. Dia seorang mayor yang kompeten ... mungkin bisa dibilang luar biasa juga. Dia bisa mendapat untung besar dengan harga yang seminim mungkin, sehingga dia populer sekali di kalangan politikus. Namun \"harga minim\" ini, kalau sampai merisikokan organisasiku, maka cepat atau lambat ... Hmph."
       },
       {
-        "Title": "Tentang Marionette",
+        "Title": "Tentang Marionette: Penelitian",
         "Context": "Aku tidak begitu tertarik dengannya. Dia benar-benar ... berdedikasi sekali pada penelitiannya dan jarang muncul di publik. Malahan, banyak petugas kami yang bahkan belum pernah melihatnya sama sekali. Dibandingkan dengan seseorang yang ... katakanlah sampai membelah bagian dirinya sendiri supaya bisa tersebar ke seluruh penjuru dunia, bisa dibilang Marionette ini kebalikannya dari itu."
       },
       {

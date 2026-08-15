@@ -308,6 +308,7 @@
         "Id": 10451,
         "Name": "Lance expiatoire",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 5 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -459,6 +460,7 @@
         "Id": 10452,
         "Name": "Confession des péchés",
         "Description": "Rosalia se déplace rapidement derrière sa cible qu'elle transperce et tranche de sa lance, infligeant des <color=#99FFFFFF>DGT Cryo</color>.\nCe mouvement ne fonctionne pas avec les ennemis trop grands.\n\n<i>Rosalia ne pardonne pas les péchés de ceux qui se confessent à elle. Au contraire, plus le péché est grand, plus sa punition glaciale est implacable.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Rosaria_01"
       }
     ],
@@ -659,6 +661,7 @@
       "Id": 10453,
       "Name": "Sacrement mortel",
       "Description": "Rosalia officie pour une prière pas comme les autres. Après avoir exécuté une attaque circulaire balayant les ennemis à proximité, Rosalia invoque une lance de glace qui frappe le sol. Les deux actions infligent des <color=#99FFFFFF>DGT Cryo</color>.\nTant que la lance de glace est active, elle émet de façon intermittente des ondes de froid, qui infligent des <color=#99FFFFFF>DGT Cryo</color> aux ennemis proches.\n\n<i>Un procès est bien trop long, autant en arriver directement à la sentence et donner les derniers sacrements. Rosalia ne croyant pas à l'Archon Anémo, c'est d'autant plus accommodant.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Rosaria_01"
     },
     "Inherents": [
@@ -681,6 +684,7 @@
         "Id": 452101,
         "Name": "Confession forcée",
         "Description": "Le taux CRIT de Rosalia augmente de 12 % pendant 5 s lorsqu'elle frappe un ennemi de dos avec <color=#FFD780FF>Confession des péchés</color>.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_05"
       },
       {
@@ -703,6 +707,7 @@
         "Id": 452201,
         "Name": "Samaritain de l'ombre",
         "Description": "Exécuter <color=#FFD780FF>Sacrement mortel</color> confère à tous les personnages de l'équipe proches (hormis Rosalia) un bonus de taux CRIT équivalant à 15 % du taux CRIT de Rosalia pendant 10 s.\nLe bonus de taux CRIT ainsi obtenu ne peut pas excéder 15 %.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Rosaria_06"
       },
       {
@@ -723,6 +728,7 @@
         "Id": 452301,
         "Name": "Balade nocturne",
         "Description": "La nuit (18 h 00 - 06 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_Rosaria_NightRunner"
       }
     ],

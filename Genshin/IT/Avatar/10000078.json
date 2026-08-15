@@ -323,6 +323,7 @@
         "Id": 10781,
         "Name": "Ragionamento abduttivo",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 5 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -599,6 +600,7 @@
         "Id": 10782,
         "Name": "Universalità: Elaborazione della forma",
         "Description": "Si lancia in avanti, infliggendo <color=#99FF88FF>DAN da Dendro</color> agli avversari vicini alla fine dell'assalto e provocando la formazione di uno Specchio cesellaluce.\nLa pressione prolungata permette di usare l'abilità diversamente.\n\n<color=#FFD780FF>Pressione prolungata</color>\nEntra in modalità di mira per regolare la direzione dell'assalto di Alhaitham.\n\n<color=#FFD780FF>Specchio cesellaluce</color>\nQuando quest'abilità viene scatenata, Alhaitham genera 1 Specchio cesellaluce. Se non sono presenti specchi in quel momento, genera 1 specchio aggiuntivo. Gli Specchi cesellaluce hanno le seguenti proprietà.\n· Quando Alhaitham è in possesso di Specchi cesellaluce, i DAN dei suoi attacchi normali, caricati e in picchiata vengono convertiti in <color=#99FF88FF>DAN da Dendro</color> non influenzabili da altre infusioni elementali.\n· Quando i suddetti tipi di attacco colpiscono gli avversari, gli Specchi cesellaluce scatenano un Attacco proiettante che infligge <color=#99FF88FF>DAN da Dendro ad area</color> a seconda del numero di Specchi presenti sul campo.\n· Possono esistere fino a 3 Specchi cesellaluce contemporaneamente.\n· Gli Specchi cesellaluce spariscono uno dopo l'altro col tempo, e scompaiono all'istante se Alhaitham abbandona il campo.\n\n<i>\"La verità esiste in maniera inerente circondata dall'incertezza. Nemmeno gli studiosi più autorevoli sono esuli dall'errore.\"</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Alhatham_01"
       }
     ],
@@ -831,6 +833,7 @@
       "Id": 10785,
       "Name": "Campo specifico: Catene fenomeniche",
       "Description": "#Crea un Campo di catene specifico e infligge molteplici iterazioni di <color=#99FF88FF>DAN da Dendro ad area</color>.\nSe sono presenti degli Specchi cesellaluce quando viene scatenata quest'abilità, tutti gli Specchi vengono consumati aumentando il numero di iterazioni di DAN inflitte.\n2{NON_BREAK_SPACE}s dopo l'utilizzo di questa abilità, se sono stati consumati 0/1/2/3 Specchi, Alhaitham ne genera rispettivamente altri 3/2/1/0.\n\n<i>\"Se un ricercatore fa della saggezza il suo obiettivo, deve essere preparato a inimicarsi ogni parola che legge. Solo in questo modo è possibile evitare i pregiudizi.\"</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Alhatham_01"
     },
     "Inherents": [
@@ -852,6 +855,7 @@
         "Id": 782101,
         "Name": "Correzione tetracausale",
         "Description": "#Quando gli attacchi caricati o in picchiata di Alhaitham colpiscono gli avversari, generano 1 Specchio cesellaluce. Quest'effetto può attivarsi una volta ogni 12{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_05"
       },
       {
@@ -873,6 +877,7 @@
         "Id": 782201,
         "Name": "Misteri svelati",
         "Description": "Ogni punto di maestria elementale di Alhaitham aumenta i DAN inflitti dagli Attacchi proiettanti e da <color=#FFD780FF>Campo specifico: Catene fenomeniche</color> di uno 0,1%.\nI DAN delle suddette abilità possono essere aumentati in questo modo fino a un 100%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_06"
       },
       {
@@ -891,6 +896,7 @@
         "Id": 782301,
         "Name": "Legge della sovradeterminazione riduttiva",
         "Description": "Quando Alhaitham crea materiali d'ascensione delle armi, ha un 10% di probabilità di ricevere il doppio del prodotto.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alhatham_07"
       }
     ],

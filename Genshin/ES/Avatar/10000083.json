@@ -307,6 +307,7 @@
         "Id": 10831,
         "Name": "Estocada veloz",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 4 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para desatar un doble golpe de espada.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_01"
       },
       {
@@ -553,6 +554,7 @@
         "Id": 10832,
         "Name": "Ahora me ves...",
         "Description": "#Se cubre con una capa y ejecuta una acometida enigmática que inflige <color=#80FFD7FF>Daño Anemo</color>.\nCuando la acometida enigmática golpee a un enemigo, Lynette recupera Vida en función de su Vida Máx. y, en los 4{NON_BREAK_SPACE}s siguientes, perderá cierta cantidad de Vida por segundo.\nLa acometida enigmática producirá un efecto distinto dependiendo de si {LAYOUT_MOBILE#tocas una vez}{LAYOUT_PC#pulsas una vez}{LAYOUT_PS#pulsas una vez} o mantienes pulsada la habilidad.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nEjecuta una acometida enigmática de manera inmediata.\n\n<color=#FFD780FF>Mantener pulsado</color>\nLynette entra en el estado de “sombra enigmática”, durante el cual se mueve a toda velocidad y aplica una “marca de estoque sombrío” a un enemigo cercano. Mientras se mueve, puede controlar la dirección en la que esprinta y, al volver a {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez} la habilidad, terminará de correr.\nCuando dicho estado termina, Lynette ejecuta una acometida enigmática. Si hay algún enemigo cercano con una marca de estoque sombrío, Lynette se acercará a él en un instante antes de ejecutar la acometida enigmática.\n\nComo máximo, Lynette solo puede aplicar una marca de estoque sombrío a un enemigo, y si dicho enemigo se encuentra demasiado lejos de ella, la marca desaparecerá.\n\n<color=#FFD780FF>Arjé: ousía</color>\nCada cierto tiempo, cuando Lynette ejecuta una acometida enigmática, en su lugar libera un filo fluyente cargado de energía ousía que inflige <color=#80FFD7FF>Daño Anemo</color>.\n\n<i>“Y ahora, mira hacia el escenario y sigue disfrutando del espectáculo. La próxima vez que aparezca, será donde menos te lo esperes”.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Linette_01"
       }
     ],
@@ -754,6 +756,7 @@
       "Id": 10835,
       "Name": "Truco: Desvío de atención",
       "Description": "Lynette alza su capa para infligir <color=#80FFD7FF>Daño Anemo en el AdE</color> y, con un hábil juego de manos, ¡hace aparecer una michicaja sorpresa gigante!\n\n<color=#FFD780FF>Michicaja sorpresa</color>\n·Provoca a los enemigos cercanos para que la ataquen.\n·Inflige <color=#80FFD7FF>Daño Anemo</color> periódicamente a los enemigos cercanos.\n·Cuando la michicaja sorpresa entra en contacto con <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, cambiará al elemento correspondiente y cada cierto tiempo disparará contra un enemigo un proyectil michicromático que inflige daño de dicho elemento.\nEste tipo de cambio elemental solo puede ocurrir una vez mientras dura la habilidad.\n\n<i>“Mira aquí, fíjate bien. Es nuestro momento: el momento del milagro”.</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Linette_01"
     },
     "Inherents": [
@@ -779,6 +782,7 @@
         "Id": 832101,
         "Name": "Sinergia oportuna",
         "Description": "#En los 10{NON_BREAK_SPACE}s siguientes tras utilizar <color=#FFD780FF>Truco: Desvío de atención</color>, si en el equipo hay 1/2/3/4 personajes de tipos elementales distintos, el ATQ de todos los miembros del equipo aumenta en un 8/12/16/20%.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linette_05"
       },
       {
@@ -799,6 +803,7 @@
         "Id": 832201,
         "Name": "Atrezo preparado",
         "Description": "Cuando la michicaja sorpresa de <color=#FFD780FF>Truco: Desvío de atención</color> sufre un cambio elemental, el daño de la Habilidad Definitiva de Lynette aumenta en un 15% hasta que termine la duración de la michicaja.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linette_06"
       },
       {
@@ -817,6 +822,7 @@
         "Id": 832301,
         "Name": "Hidrolocalización",
         "Description": "Muestra la ubicación de los <color=#FFD780FF>bancos de peces revitalizantes</color> cercanos en el minimapa y aumenta en un 25% la Resistencia Acuática y la Vida recuperados al tocar uno.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Linette_07"
       }
     ],

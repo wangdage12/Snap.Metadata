@@ -261,6 +261,7 @@
         "Id": 11321,
         "Name": "Cabum! Martelo Destruidor de Magia!",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 ataques com o Martelo do Juramento Livrador, infligindo <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para martelar para cima, causando <color=#80FFD7FF>Dano Anemo</color> contra os inimigos em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nConvocando os poderes do vento para si, mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80FFD7FF>Dano Anemo em uma AdE</color> durante o impacto com o chão.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_Catalyst_MD"
       },
       {
@@ -412,7 +413,8 @@
         },
         "Id": 11322,
         "Name": "Ding-ding! Tilintar Caçador de Magia!",
-        "Description": "Lance o poder do vento para derrotar as bruxas maléficas e salvar Descartes! Prune usa o Martelo do Juramento Livrador para golpear o Sino Chama-Bruxa, causando <color=#80FFD7FF>Dano Anemo</color>.\nSe esse ataque de Prune causar uma reação de Redemoinho no inimigo, <color=#FFD780FF>Ding-ding! Tilintar Caçador de Magia!</color> será substituído por <color=#FFD780FF>Ting-Ting! Retribuição das Bruxas!</color> pelos próximos 6s.\n\n<color=#FFD780FF>Ting-Ting! Retribuição das Bruxas!</color>\nEnvolve o martelo com o Tipo Elemental do Redemoinho, e faz o {LINK#N11320001}<color=#FFD780FF>Martelo do Juramento Livrador</color>{/LINK} passar por uma Conversão Elemental. Ao pressionar para lançar, Prune salta em frente com seu Martelo do Juramento Livrador, causando Dano Elemental correspondente contra os inimigos em frente.",
+        "Description": "Lance o poder do vento para derrotar as bruxas maléficas e salvar Descartes! Prune usa o Martelo do Juramento Livrador para golpear o Sino Chama-Bruxa, causando <color=#80FFD7FF>Dano Anemo</color>.\nSe esse ataque de Prune causar uma reação de Redemoinho ou Redemoinho Estelar no inimigo, <color=#FFD780FF>Ding-ding! Tilintar Caçador de Magia!</color> será substituído por <color=#FFD780FF>Ting-Ting! Retribuição das Bruxas!</color> pelos próximos 6s.\n\n<color=#FFD780FF>Ting-Ting! Retribuição das Bruxas!</color>\nEnvolve o martelo com o Tipo Elemental do Redemoinho ou Redemoinho Estelar, e faz o {LINK#N11320001}<color=#FFD780FF>Martelo do Juramento Livrador</color>{/LINK} passar por uma Conversão Elemental. Ao pressionar para lançar, Prune salta em frente com seu Martelo do Juramento Livrador, causando Dano Elemental correspondente contra os inimigos em frente.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Prune_01"
       }
     ],
@@ -437,7 +439,8 @@
         },
         "Id": 1325101,
         "Name": "Presente da Noite da Bruxa: Juramento do Buscador de Bruxas",
-        "Description": "Depois de completar <color=#FFD780FF>Tarefa da Bruxa: Questão de Refutação</color>, Prune se tornará uma personagem <color=#FFD780FF>Mágica</color>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo esses personagens.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nDepois que personagens Mágicos afetados pelo efeito Dança dos Sinos causarem qualquer Reação Elemental em um inimigo, aumenta o ATQ de Prune em 60% por 5s. Se esse personagem desencadear Redemoinho, o aumento de ATQ terá um aumento adicional de 30% por 5s.",
+        "Description": "Depois de completar <color=#FFD780FF>Tarefa da Bruxa: Questão de Refutação</color>, Prune se tornará uma personagem <color=#FFD780FF>Mágica</color>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <color=#FFD780FF>Mágico: Ritual Secreto</color>, fortalecendo esses personagens.\n\n<color=#FFD780FF>Mágico: Ritual Secreto</color>\nDepois que personagens Mágicos afetados pelo efeito Dança dos Sinos causarem qualquer Reação Elemental em um inimigo, aumenta o ATQ de Prune em 60% por 5s. Se esse personagem desencadear Redemoinho ou Redemoinho Estelar, o aumento de ATQ terá um aumento adicional de 30% por 5s.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_07"
       }
     ],
@@ -623,6 +626,7 @@
       "Id": 11325,
       "Name": "O Sino Toca! A Caçada Chegou!",
       "Description": "Prune balança o Sino Chama-Bruxa, causando <color=#80FFD7FF>Dano Anemo</color> contra os inimigos próximos. Em seguida, o Sino Chama-Bruxa entra no Modo Caçador.\n\n<color=#FFD780FF>Sino Chama-Bruxa: Modo Caçador</color>\nNesse modo, o Sino Chama-Bruxa segue o personagem ativo, e periodicamente ataca os inimigos próximos, causando <color=#80FFD7FF>Dano Anemo em AdE</color>. Esse Dano é considerado Dano de Supremo.",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Prune_01"
     },
     "Inherents": [
@@ -643,7 +647,8 @@
         },
         "Id": 1322101,
         "Name": "Veredito e Punição",
-        "Description": "Quando causar Dano contra o inimigo no Modo Caçador do Sino Chama-Bruxa do Supremo <color=#FFD780FF>{LINK#S11325}O Sino Toca! A Caçada Chegou!{/LINK}</color>, se esse Dano desencadear Redemoinho, invoca um {LINK#N11320001}<color=#FFD780FF>Martelo do Juramento Livrador</color>{/LINK} que passou por Conversão Elemental do tipo de Redemoinho para golpear o inimigo em frente, causando 150% do ATQ de Prune como Dano Elemental correspondente. Esse Dano é considerado Dano de Supremo.",
+        "Description": "Quando causar Dano contra o inimigo no Modo Caçador do Sino Chama-Bruxa do Supremo <color=#FFD780FF>{LINK#S11325}O Sino Toca! A Caçada Chegou!{/LINK}</color>, se esse Dano desencadear Redemoinho ou Redemoinho Estelar, invoca um {LINK#N11320001}<color=#FFD780FF>Martelo do Juramento Livrador</color>{/LINK} que passou por Conversão Elemental do tipo de Redemoinho ou Redemoinho Estelar para golpear o inimigo em frente, causando 150% do ATQ de Prune como Dano Elemental correspondente. Esse Dano é considerado Dano de Supremo.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_05"
       },
       {
@@ -667,6 +672,7 @@
         "Id": 1322201,
         "Name": "Badalar Síncrono",
         "Description": "Após Prune atingir um inimigo com {LINK#N11320001}<color=#FFD780FF>Martelo do Juramento Livrador</color>{/LINK} que passou por Conversão Elemental, os outros membros próximos da equipe obtêm o efeito Dança dos Sinos por 5s: quando o Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo causarem Dano contra um inimigo, aumenta o Dano causado por esse ataque com base em parte de ATQ de Prune que seja maior que 2.000 quando ela é afetada pelo efeito de Dança dos Sinos. Cada ponto de ATQ a mais aumenta o Dano causado por esse ataque em 0.025%. É possível aumentar até no máximo 50% dessa forma.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_06"
       },
       {
@@ -685,6 +691,7 @@
         "Id": 1322301,
         "Name": "Ting-tang! Clang-bang!",
         "Description": "Ao sintetizar Materiais de Talento de Personagem, há 10% de chance de obter um Material de Talento extra aleatório da mesma região. A raridade será a mesma dos materiais obtidos ao fabricar.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Prune_08"
       }
     ],
@@ -1104,7 +1111,7 @@
       },
       {
         "Title": "\"Sino Chama-Bruxa\" e \"Martelo do Juramento Livrador\"",
-        "Context": "\nA \"abdução\" de Descartes fez Prune mergulhar em um tipo de preocupação desconhecida para ela até então.\nComo uma guerreira se preparando para a ação iminente, ela se recolheu ao quarto dela para revisar cada detalhe dos confrontos dela com Alice. Sempre que as duas chegavam a um ponto em que Alice não conseguia mais manter o debate, a Bruxa fazia aparecer um \"item de colecionador\" com um sorriso radiante para recompensar Prune pela vitória dela.\nNo início, Prune não pensava nada sobre esses \"itens de colecionador\". Claro que não eram nada mais do que propinas baratas, como os doces que os adultos enfiam na sua goela quando querem que você pare de falar.\nEntão, uma dúvida profunda a acometeu: considerando como as bruxas podem ser poderosas, será que uma besteira de uma delas poderia ser nada mais do que um brinquedo?\nEla pegou todos os prêmios que ganhara de Alice e os dispôs para uma avaliação extensiva. Primeiro, ela precisava eliminar as distrações: lanches diversos em embalagens chiques, adesivos com desenhos infantis, pelúcias sem funções especiais... Finalmente, ela focou nos dois itens com mais potencial.\nO primeiro era um sino de fabricação extraordinária. \"Quando o sino tocar, uma bruxa pode aparecer,\" Alice havia dito bastante ambiguamente. Disso, Prune deduziu que era um pega-bruxa de algum tipo. Na verdade, era um velho sino de festa do chá; o \"pode\" na declaração de Alice vinha do fato de a presença nunca ser obrigatória, deixando um mistério sobre quem (se alguém) iria aparecer. Mas agora que Prune redefiniu seu propósito, o sino tinha um papel realmente vital em suas aventuras. Apesar de tocá-lo nunca garantir uma bruxa, também nunca falha em fazer umas aventuras bem incríveis acontecerem.\nO segundo item era um martelo pesado e bem marcante. Foi o maior e mais pesado prêmio que Prune ganhara de Alice, aparecendo realmente formidável e intimidador sempre que era balançado. Ela não sabia que ele era, na verdade, a ferramenta de esculpir que Alice planeja presentear a outra bruxa, Nicole, embora esse presente muito extravagante fosse recusado (educadamente) pela recipiente original, que disse: \"meu hobby é esculpir, não construção e demolição\". Como resultado, estava juntando poeira até Alice encontrar finalmente uma desculpa perfeita para se livrar dele.\nEsses dois presentes do \"Rei-Dodo\" foram renomeados cerimoniosamente após modificações muito lógicas e práticas por parte de Prune...\n\"Sino Chama-Bruxa\" e \"Martelo do Juramento Livrador\"."
+        "Context": "A \"abdução\" de Descartes fez Prune mergulhar em um tipo de preocupação desconhecida para ela até então.\nComo uma guerreira se preparando para a ação iminente, ela se recolheu ao quarto dela para revisar cada detalhe dos confrontos dela com Alice. Sempre que as duas chegavam a um ponto em que Alice não conseguia mais manter o debate, a Bruxa fazia aparecer um \"item de colecionador\" com um sorriso radiante para recompensar Prune pela vitória dela.\nNo início, Prune não pensava nada sobre esses \"itens de colecionador\". Claro que não eram nada mais do que propinas baratas, como os doces que os adultos enfiam na sua goela quando querem que você pare de falar.\nEntão, uma dúvida profunda a acometeu: considerando como as bruxas podem ser poderosas, será que uma besteira de uma delas poderia ser nada mais do que um brinquedo?\nEla pegou todos os prêmios que ganhara de Alice e os dispôs para uma avaliação extensiva. Primeiro, ela precisava eliminar as distrações: lanches diversos em embalagens chiques, adesivos com desenhos infantis, pelúcias sem funções especiais... Finalmente, ela focou nos dois itens com mais potencial.\nO primeiro era um sino de fabricação extraordinária. \"Quando o sino tocar, uma bruxa pode aparecer,\" Alice havia dito bastante ambiguamente. Disso, Prune deduziu que era um pega-bruxa de algum tipo. Na verdade, era um velho sino de festa do chá; o \"pode\" na declaração de Alice vinha do fato de a presença nunca ser obrigatória, deixando um mistério sobre quem (se alguém) iria aparecer. Mas agora que Prune redefiniu seu propósito, o sino tinha um papel realmente vital em suas aventuras. Apesar de tocá-lo nunca garantir uma bruxa, também nunca falha em fazer umas aventuras bem incríveis acontecerem.\nO segundo item era um martelo pesado e bem marcante. Foi o maior e mais pesado prêmio que Prune ganhara de Alice, aparecendo realmente formidável e intimidador sempre que era balançado. Ela não sabia que ele era, na verdade, a ferramenta de esculpir que Alice planeja presentear a outra bruxa, Nicole, embora esse presente muito extravagante fosse recusado (educadamente) pela recipiente original, que disse: \"meu passatempo é esculpir, não construção e demolição\". Como resultado, estava juntando poeira até Alice encontrar finalmente uma desculpa perfeita para se livrar dele.\nEsses dois presentes do \"Rei-Dodo\" foram renomeados cerimoniosamente após modificações muito lógicas e práticas por parte de Prune...\n\"Sino Chama-Bruxa\" e \"Martelo do Juramento Livrador\"."
       },
       {
         "Title": "Visão",

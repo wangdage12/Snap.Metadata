@@ -277,6 +277,7 @@
         "Id": 10501,
         "Name": "Lance célère",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 4 coups de lance.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_A_03"
       },
       {
@@ -491,6 +492,7 @@
         "Id": 10502,
         "Name": "Bénédiction flamboyante",
         "Description": "Thomas utilise la pointe de sa lance comme point d'appui pour canaliser les flammes et effectuer un coup de pied qui inflige des <color=#FF9999FF>DGT Pyro de zone</color> et libère une barrière défensive brûlante. Au moment où elle se déclenche, la barrière applique l'<color=#FF9999FF>élément Pyro</color> à Thomas.\nL'absorption de DGT de la barrière est fonction des PV max de Thomas.\nLa barrière brûlante possède les caractéristiques suivantes :\n· Elle absorbe les <color=#FF9999FF>DGT Pyro</color> avec 250 % d'efficacité.\n· L'absorption de DGT restante d'une barrière brûlante existante se cumulera si une autre barrière brûlante est obtenue en même temps, tandis que sa durée sera réinitialisée.\n\nL'absorption maximale de DGT de la barrière ne dépassera pas un certain pourcentage des PV max de Thomas.\n\n<i>Pour un invité venu de loin, seule la passion la plus ardente permet de maîtriser les arts si précis de la lance d'Inazuma. Les prouesses de Thomas, en effet, ne se limitent pas à être « le disciple le plus rapide » ou « un lancier hautement qualifié », il a également imprégné sa technique de sa volonté de protéger les autres et de repousser les ennemis.</i>",
+        "SpecialEnergyType": 0,
         "Icon": "Skill_S_Tohma_01"
       }
     ],
@@ -738,6 +740,7 @@
       "Id": 10505,
       "Name": "O-yoroi écarlate",
       "Description": "Thomas fait tournoyer sa lance, tranchant ses ennemis avec des flammes rugissantes qui infligent des <color=#FF9999FF>DGT Pyro de zone</color> et se transforment en un o-yoroi embrasé.\n\n<color=#FFD780FF>O-yoroi embrasé</color>\nL'attaque normale d'un personnage déployé affecté par un o-yoroi embrasé déclenchera un effondrement ardent qui inflige des <color=#FF9999FF>DGT Pyro de zone</color> et crée une barrière brûlante.\nUn effondrement ardent peut être déclenché une fois toutes les secondes.\n\nUne barrière brûlante créée de cette manière est identique à celle créée grâce à la compétence élémentaire « Bénédiction flamboyante » de Thomas, à l'exception de la quantité de DGT qu'elle peut absorber.\n· Elle absorbe les <color=#FF9999FF>DGT Pyro</color> avec 250 % d'efficacité.\n· L'absorption de DGT restante d'une barrière brûlante existante se cumulera si une autre barrière brûlante est obtenue en même temps, tandis que sa durée sera réinitialisée.\n\nL'absorption maximale de DGT de la barrière ne dépassera pas un certain pourcentage des PV max de Thomas.\n\nSi Thomas est vaincu, les effets de l'o-yoroi embrasé se dissiperont.\n\n<i>« Je n'oublierai pas ma promesse. Que cette flamme brûlante protège ceux que je chéris, et qu'elle ne s'éteigne jamais. »</i>",
+      "SpecialEnergyType": 0,
       "Icon": "Skill_E_Tohma_01"
     },
     "Inherents": [
@@ -762,6 +765,7 @@
         "Id": 502101,
         "Name": "Superposition d'armures",
         "Description": "Lorsque le personnage déployé obtient ou réinitialise une <color=#FFD780FF>barrière brûlante</color>, la force de son bouclier augmente de 5 % pendant 6 s.\nCet effet peut être déclenché une fois toutes les 0,3 s et cumulé 5 fois maximum.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_05"
       },
       {
@@ -782,6 +786,7 @@
         "Id": 502201,
         "Name": "Assaut enflammé",
         "Description": "Les DGT infligés par l'effondrement ardent d'<color=#FFD780FF>O-yoroi écarlate</color> augmentent d'une valeur équivalant à 2,2 % des PV max de Thomas.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_06"
       },
       {
@@ -800,6 +805,7 @@
         "Id": 502301,
         "Name": "Passion pêche",
         "Description": "#Lorsque {M#le voyageur}{F#la voyageuse} réussit une <color=#FFD780FF>pêche</color> à Inazuma, l'aide de Thomas accorde 20 % de chances d'obtenir le double de prises.",
+        "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Tohma_07"
       }
     ],
