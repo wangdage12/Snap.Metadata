@@ -590,7 +590,8 @@
         "Name": "Runo: Reposo sin alba del Karsikko",
         "Description": "#Entona una silenciosa y antigua letanía para invocar un {LINK#N11190001}<color=#FFD780FF>santuario bosquescarcha</color>{/LINK}, el cual producirá diferentes efectos dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nRecita la letanía de la caza, lo que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nPuede usarse cuando se tenga al menos 1 gota de {LINK#N11190008}<color=#FFD780FF>rocío de la espesura</color>{/LINK}. Lauma consume todo el rocío de la espesura para entonar la letanía del sueño eterno, lo que inflige un golpe de <color=#99FF88FF>Daño Dendro en el AdE</color> y otro de <color=#99FF88FF>Daño Dendro en el AdE</color> considerado como daño de Florecimiento Lunar. Por cada gota de rocío de la espesura consumida, Lauma obtiene 1 {LINK#N11190002}<color=#FFD780FF>cántico lunar</color>{/LINK}. Lauma puede consumir un máximo de 3 gotas de rocío de la espesura de esta manera cada vez que use su Habilidad Elemental manteniéndola pulsada.\n\nAdemás, cuando Lauma golpea a un enemigo con su Habilidad Elemental o con santuario bosquescarcha, la <color=#99FF88FF>RES Dendro</color> y la <color=#80C0FFFF>RES Hydro</color> de dicho enemigo se reducen durante 10{NON_BREAK_SPACE}s.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo: Luna de mil corazones",
       "Description": "#Que los deseos de todos los seres vivos se conviertan en la luz de la luna que ilumina la tierra. Lauma entona el himno sagrado del Lejano Norte y obtiene 18 cargas de {LINK#N11190003}<color=#FFD780FF>letanía albar</color>{/LINK}.\nAdemás, si Lauma usa su Habilidad Definitiva mientras posee un {LINK#N11190002}<color=#FFD780FF>cántico lunar</color>{/LINK} u obtiene uno durante los 15{NON_BREAK_SPACE}s posteriores al uso de dicha habilidad, consumirá todos los cánticos lunares que tenga y obtendrá 6 cargas de letanía albar por cada cántico lunar consumido. Este efecto solo puede activarse 1 vez por cada uso de la Habilidad Definitiva y en los 15{NON_BREAK_SPACE}s posteriores a usarla.\n\n<color=#FFD780FF>Letanía albar</color>\nCuando un personaje cercano del equipo inflija daño a través de las reacciones de Florecimiento, Sobreflorecimiento, Crepitar o Florecimiento Lunar, se consumirá 1 carga de letanía albar para aumentar el daño infligido en función de la Maestría Elemental de Lauma. Si dicho daño golpea a varios enemigos a la vez, se consumirán cargas según el número de enemigos golpeados.\nCada carga de letanía albar tiene su propia duración individual.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

@@ -527,7 +527,8 @@
         "Name": "Garra y trueno",
         "Description": "#Caza su presa usando las técnicas que le enseñó su maestro y su lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nAtaca con las garras del Lobo del Trueno, infligiendo <color=#FFACFFFF>Daño Electro</color> a los enemigos frente a Razor.\nAl golpear a un enemigo, Razor obtendrá una carga Electro, la cual aumentará su Recarga de Energía.\nRazor puede tener hasta 3 cargas Electro al mismo tiempo. Obtener una nueva carga Electro reiniciará su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne energía eléctrica para desatar una tormenta de rayos sobre una AdE, infligiendo una gran cantidad de <color=#FFACFFFF>Daño Electro</color>, y eliminando todas las cargas Electro de Razor.\nCada carga Electro eliminada de esta manera se convertirá en Energía Elemental.\n\n<i>En el momento en que cae el rayo , a veces se puede ver en lo más profundo de los ojos de Razor la mirada de un depredador observando a su presa.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Razor_01"
+        "Icon": "Skill_S_Razor_01",
+        "CdTime": 6
       }
     ],
     "SpecialSkills": [
@@ -771,7 +772,8 @@
       "Name": "Colmillo relámpago",
       "Description": "Razor invoca a su lobo interior, infligiendo <color=#FFACFFFF>Daño Electro</color> a todos los enemigos cercanos. Esto elimina todas sus cargas Electro, que se convertirán en Energía Elemental.\nEl lobo interior luchará junto a Razor mientras dure la habilidad.\n\n<color=#FFD780FF>Lobo interior</color>\n·Ataca junto a los Ataques Normales de Razor, infligiendo <color=#FFACFFFF>Daño Electro</color>.\n·Aumenta la Vel. de Ataque de Razor y su <color=#FFACFFFF>RES Electro</color>.\n·Hace que Razor sea inmune al daño que recibe por la reacción de <color=#FFACFFFF>Electrocargado</color>.\n·Desactiva los Ataques Cargados de Razor.\n·Aumenta la RES a interrupción de Razor.\n\nEstos efectos terminan cuando Razor abandona el campo de batalla.\nAl hacerlo, obtendrá una cierta cantidad de Energía Elemental en proporción a la duración restante de la habilidad. Razor solo podrá recuperar un máximo de 10 pts. de Energía de esta manera.\n\n<i>El lobo se ha despertado. La cacería está en marcha.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Razor_01"
+      "Icon": "Skill_E_Razor_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

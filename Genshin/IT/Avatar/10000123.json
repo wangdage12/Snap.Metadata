@@ -492,7 +492,8 @@
         "Name": "Forma binaria: Convergenza e divisione",
         "Description": "#Purifica la sostanza dell'anima ed esprime la volontà di sottoporsi alla {LINK#N11230001}<color=#FFD780FF>Trasmutazione essenziale</color>{/LINK}. Mentre è trasmutato, l'abilità elementale <color=#FFD780FF>Forma binaria: Convergenza e divisione</color> e l'attacco normale <color=#FFD780FF>Colpo d'ala splendente</color> di Durin vengono sostituiti rispettivamente con le abilità elementali speciali <color=#FFD780FF>Trasmutazione: Conferma della purezza</color> e <color=#FFD780FF>Trasmutazione: Negazione delle tenebre</color>.\n\n<color=#FFD780FF>Trasmutazione: Conferma della purezza</color>\nInfligge 1 iterazione di <color=#FF9999FF>DAN da Pyro ad area</color> agli avversari vicini, inverte la Trasmutazione essenziale ed entra nello stato di <color=#FFD780FF>Conferma della purezza</color> per 30{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Trasmutazione: Negazione delle tenebre</color>\nInfligge 3 iterazioni consecutive di <color=#FF9999FF>DAN da Pyro</color> agli avversari davanti a sé, inverte la Trasmutazione essenziale ed entra nello stato di <color=#FFD780FF>Negazione delle tenebre</color> per 30{NON_BREAK_SPACE}s.\n\nQuando Durin entra nello stato di <color=#FFD780FF>Conferma della purezza</color> o di <color=#FFD780FF>Negazione delle tenebre</color> mentre è in combattimento, la sua energia elementale si ripristina di una certa quantità. Tale ripristino può verificarsi una volta ogni 6{NON_BREAK_SPACE}s.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Durin_01"
+        "Icon": "Skill_S_Durin_01",
+        "CdTime": 12
       }
     ],
     "SpecialSkills": [
@@ -809,7 +810,8 @@
       "Name": "Principio della purezza: Trasmutazione luminosa",
       "Description": "Scatena il potere della \"Bestia\" in diversi modi. Durin può usare diversi Tripudi elementali in base al suo stato di {LINK#N11230001}<color=#FFD780FF>Trasmutazione essenziale</color>{/LINK}.\n\n<color=#FFD780FF>Principio della purezza: Trasmutazione luminosa</color>\nQuando Durin è nello stato di <color=#FFD780FF>Conferma della purezza</color>, usa il Tripudio elementale <color=#FFD780FF>Principio della purezza: Trasmutazione luminosa</color>, infliggendo 3 iterazioni di <color=#FF9999FF>DAN da Pyro ad area</color> agli avversari davanti a sé e manifestando il suo potere nella forma di <color=#FFD780FF>Drago della Fiamma bianca</color>. Quest'ultimo segue il personaggio attivo e attacca i nemici vicini a intervalli regolari, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>. Tali DAN sono considerati DAN da Tripudio elementale.\n\n<color=#FFD780FF>Principio dell'oscurità: Stelle quiescenti</color>\nQuando Durin è nello stato di <color=#FFD780FF>Negazione delle tenebre</color>, usa il Tripudio elementale <color=#FFD780FF>Principio dell'oscurità: Stelle quiescenti</color>, infliggendo 3 iterazioni di <color=#FF9999FF>DAN da Pyro ad area</color> agli avversari davanti a sé e manifestando il suo potere nella forma di <color=#FFD780FF>Drago del Deterioramento oscuro</color>. Quest'ultimo segue il personaggio attivo e attacca periodicamente un nemico vicino, infliggendo <color=#FF9999FF>DAN da Pyro</color>. Tali DAN sono considerati DAN da Tripudio elementale.\n\nQuando Durin non è in uno stato speciale causato da Trasmutazione essenziale, usa il Tripudio elementale <color=#FFD780FF>Principio della purezza: Trasmutazione luminosa</color>.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Durin_01"
+      "Icon": "Skill_E_Durin_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

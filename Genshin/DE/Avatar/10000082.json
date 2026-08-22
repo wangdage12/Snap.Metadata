@@ -446,7 +446,8 @@
         "Name": "Universal-Diagnose",
         "Description": "Beschwört einen umherfliegenden Unruhspiral-Geist, der Gegner in der Nähe angreift und <color=#99FF88FF>Dendro-Schaden</color> verursacht.\nDer Unruhspiral-Geist wird nach max. 3 Angriffen, oder wenn sich keine Gegner in seiner Nähe befinden, zurückgerufen und stellt allen Truppenmitgliedern in der Nähe LP basierend auf Baizhus max. LP wieder her.\n\n<i>Diejenigen unter den Medizinern, die Schein von Wirklichkeit trennen können, sind auch „diejenigen, die Krankheiten heilen können, bevor sich die Symptome zeigen“.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Baizhuer_01"
+        "Icon": "Skill_S_Baizhuer_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -709,7 +710,8 @@
       "Name": "Ganzheitliche Heilung",
       "Description": "Begibt sich in den Zustand Pulsierende Klarheit und erzeugt einen makellosen Schild, der 250 % des <color=#99FF88FF>Dendro-Schadens</color> abhält.\nIn diesem Zustand wird alle 2,5 s ein neuer makelloser Schild erzeugt.\n\nDer makellose Schild stellt unter folgenden Umständen die LP der eigenen aktuellen Figur basierend auf Baizhus max. LP wieder her und beschwört einen Geist-Äther, der Gegner angreift und ihnen <color=#99FF88FF>Dendro-Schaden</color> zufügt:\n· Wenn eine Figur sich unter dem Schutz eines makellosen Schilds befindet und ein neuer makelloser Schild erzeugt wird.\n· Wenn der makellose Schild endet oder durch Schaden zerstört wird.\n\n<i>Der, der den Glanz des Himmels und der Erde zu empfangen vermag, der sich mit seinem Inneren vor dem Äußeren bewahrt und seinen Geist in Klarheit taucht, dem werde ein Leben in Erfüllung zuteil.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Baizhuer_01"
+      "Icon": "Skill_E_Baizhuer_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

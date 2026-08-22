@@ -557,7 +557,8 @@
         "Name": "Técnica “¡Yujuuu!”: Colisión de viento",
         "Description": "#¡La técnica ninja especial “Yujuuu”! ¡Una técnica veloz como el rayo para rodar por todo el campo de batalla!\nSe transforma en una rápida rueda de viento que inflige <color=#80FFD7FF>Daño Anemo</color> al chocar contra un enemigo. Al terminar la duración, ejecuta una tornadopatada que inflige <color=#80FFD7FF>Daño Anemo en el AdE</color>.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSe transforma en una rueda de viento para rodar una pequeña distancia y ejecutar una tornadopatada.\n\n<color=#FFD780FF>Mantener pulsado</color>\nSe transforma en una rueda de viento para rodar continuamente y aumentar la RES a interrupción de Sayu.\nMientras está en este estado, Sayu puede controlar la dirección en la que rueda y, al dejar de pulsar, terminará su duración y ejecutará una tornadopatada más poderosa que la de {LAYOUT_MOBILE#un toque}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}.\nSi se mantiene pulsada esta habilidad, podrá ocurrir un cambio elemental.\n\nLa rueda de viento tiene una duración máxima de 10 s y, al finalizar, la habilidad entrará en TdE. Cuanto más tiempo esté transformada en la rueda de viento, más largo será dicho TdE.\n\n<color=#FFD780FF>Cambio elemental</color>\nSi Sayu entra en contacto con <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> estando transformada en la rueda de viento, tanto dicha rueda como la tornadopatada infligirán un bono de Daño Elemental adicional de ese tipo.\nEl cambio elemental solo puede ocurrir una vez durante la habilidad.\n\n<i>Sayu podría ejecutar a la perfección esta técnica incluso con los ojos cerrados. En un principio, la usaba para huir, pero tras conseguir su Visión, por fin la puede aprovechar para que sus enemigos muerdan el polvo.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Sayu_01"
+        "Icon": "Skill_S_Sayu_01",
+        "CdTime": 6
       }
     ],
     "EnergySkill": {
@@ -805,7 +806,8 @@
       "Name": "Técnica “¡Yujuuu!”: Frenesí tejón",
       "Description": "¡La otra técnica ninja especial “Yujuuu”! Sirve para crear un ayudante que trabaje por Sayu.\nInflige <color=#80FFD7FF>Daño Anemo</color> contra los enemigos alrededor, recupera Vida para todos los personajes cercanos del equipo en una cantidad proporcional al ATQ de Sayu e invoca un tejón daruma.\n\n<color=#FFD780FF>Tejón daruma</color>\nRealiza alguna de las siguientes acciones dependiendo de la situación de su entorno:\n·Si la Vida de todos los personajes cercanos es superior al 70%, el tejón daruma atacará a un enemigo cercano, infligiendo <color=#80FFD7FF>Daño Anemo</color>.\n·Si en las cercanías hay personajes con una Vida igual o inferior al 70%, curará al personaje con el menor porcentaje de Vida. La cantidad regenerada será proporcional al ATQ de Sayu. Si no hay ningún enemigo cerca, curará a los personajes incluso aunque su Vida esté por encima del 70%.\n\n<i>A aquellos que no dominan las técnicas ninja les encanta que Sayu les muestre cómo realizar esta en concreto. Algunos incluso han intentado aprender de ella. Pero Sayu no quiere que la molesten, solo quiere dormir.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Sayu_01"
+      "Icon": "Skill_E_Sayu_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

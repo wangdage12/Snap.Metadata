@@ -554,7 +554,8 @@
         "Name": "Hydrothérapie rebondissante",
         "Description": "Sigewinne utilise un pistolet à bulles spécialement conçu dans la Forteresse de Méropide pour souffler des <color=#FFD780FF>bulles d'eau curative</color> pouvant stimuler la circulation sanguine et aider les patients à dormir paisiblement.\nLes bulles d'eau curative rebondissent entre les ennemis proches, infligeant des <color=#80C0FFFF>DGT Hydro</color> selon les PV max de Sigewinne aux ennemis touchés. En rebondissant, les bulles d'eau curative restaurent les PV de tous les personnages de l'équipe à proximité (hormis Sigewinne) selon les PV max de Sigewinne.\nUne bulle d'eau curative disparaît et restaure les PV de Sigewinne selon ses PV max après avoir rebondi 5 fois.\nSi aucun ennemi n'est à proximité, les bulles d'eau curative rebondissent aux alentours. Il ne peut exister qu'une seule bulle d'eau curative créée par Sigewinne à la fois.\nEn cas d'appui long, les bulles d'eau curative peuvent être chargées.\n\n<color=#FFD780FF>Appui long</color>\nEffectue une charge en mode visée pour souffler une bulle d'eau curative encore plus grosse et plus puissante !\nLa bulle d'eau curative grandit à mesure que l'appui long est maintenu, jusqu'à grossir deux fois, chaque fois augmentant les DGT infligés de 5 % et les soins prodigués de 5 %. Lorsqu'une grande bulle d'eau curative rebondit, elle se rapetisse d'un cran, jusqu'à ce qu'elle redevienne une bulle d'eau curative normale.\nLes ennemis les plus faibles qui se font toucher par des grandes bulles d'eau curative sont immobilisés et incapables de bouger.\n\nDe plus, utiliser cette capacité permet à Sigewinne de générer 2 gouttes d'eau de source à proximité. Chaque goutte d'eau de source que Sigewinne absorbe lui accorde un engagement vital d'une valeur équivalant à 10 % de ses PV max.\nLorsque l'engagement vital de Sigewinne est annulé, chaque tranche de 2 000 pts d'engagement vital restaure son énergie élémentaire de 1 pt. Sigewinne peut récupérer un maximum de 5 pts d'énergie élémentaire de cette manière.\n\n<color=#FFD780FF>Arkhe : Ousia</color>\nRégulièrement, une lame fluide descend à l'emplacement touché par une bulle d'eau curative pour infliger des <color=#80C0FFFF>DGT Hydro</color> chargés d'énergie ousia selon les PV max de Sigewinne.\n\n<i>« Alors ? Non seulement ce type d'hydrothérapie peut stimuler le système circulatoire, mais ça peut aussi remonter le moral des patients. Oh, et ce n'est pas tout : ça aide même les patients qui devraient se reposer à faire un bon dodo... »</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Sigewinne_01"
+        "Icon": "Skill_S_Sigewinne_01",
+        "CdTime": 18
       }
     ],
     "EnergySkill": {
@@ -724,7 +725,8 @@
       "Name": "Injection sur-saturée",
       "Description": "Sigewinne sort une seringue spécialement conçue dans la Forteresse de Méropide pour attaquer la zone en face d'elle avec des vagues de gentillesse et de médicaments, infligeant des <color=#80C0FFFF>DGT Hydro de zone</color> de façon continue selon ses PV max.\nDe plus, utiliser cette capacité permet à Sigewinne d'absorber jusqu'à 2 gouttes d'eau de source à portée.\n\n<i>« Hé, prendre trop de médicaments, c'est comme prendre du poison : c'est vraiment dangereux ! Mais les patients ont aussi besoin de soins et d'attention, et avec ça au moins, pas de risque d'overdose ! »</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Sigewinne_01"
+      "Icon": "Skill_E_Sigewinne_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -787,7 +787,8 @@
         "Name": "Windbound Execution",
         "Description": "#สำแดงให้เห็นถึงแก่นแท้ของวิชาดาบแห่ง Favonius ด้วยพลังอันสมบูรณ์แบบ ซึ่งทำให้เกิดเอฟเฟกต์ที่แตกต่างกันไป โดยขึ้นกับการ{LAYOUT_MOBILE#แตะ}{LAYOUT_PC#กด}{LAYOUT_PS#กด} หรือ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}\n\n<color=#FFD780FF>{LAYOUT_MOBILE#แตะ}{LAYOUT_PC#กด}{LAYOUT_PS#กด}</color>\nกระโจนไปข้างหน้าและฟาดฟัน สร้าง<color=#80FFD7FF>ความเสียหายลมวงกว้าง</color> และเปลี่ยนเป็นโหมด {LINK#N11280001}<color=#FFD780FF>Sturm und Drang (สลาตันพุ่งทะยาน)</color>{/LINK}\nเมื่ออยู่ในโหมด <color=#FFD780FF>Sturm und Drang</color> ความเสียหายจากการโจมตีปกติและชาร์จโจมตีของ Varka จะเพิ่มขึ้น ไม่สามารถทำการโจมตีพุ่งลงจากอากาศได้ และเมื่อทำการโจมตีปกติหรือชาร์จโจมตี จะใช้ดาบใหญ่คู่สร้างความเสียหายธาตุ ตามประเภทธาตุของตัวละครในทีม ที่ไม่สามารถซ้อนทับด้วยธาตุอื่นได้\nนอกจากนี้ เมื่ออยู่ในโหมด <color=#FFD780FF>Sturm und Drang</color> หากในทีมมีตัวละครธาตุ<color=#FF9999FF>ไฟ</color>, <color=#80C0FFFF>น้ำ</color>, <color=#FFACFFFF>ไฟฟ้า</color>หรือ<color=#99FFFFFF>น้ำแข็ง</color> สกิลธาตุ <color=#FFD780FF>Windbound Execution</color> ของ Varka จะถูกเปลี่ยนเป็นสกิลธาตุพิเศษ {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} สร้างความเสียหายธาตุที่สอดคล้องกัน และ<color=#80FFD7FF>ความเสียหายลม</color>; นอกจากนี้ Varka ยังสามารถใช้จำนวนครั้งที่สามารถใช้ได้ของสกิลธาตุพิเศษ <color=#FFD780FF>Four Winds' Ascension</color> เพื่อทำการชาร์จโจมตีพิเศษ <color=#FFD780FF>Azure Devour</color> ที่ไม่ใช้พลังกาย สร้างความเสียหายธาตุที่สอดคล้องกัน และ<color=#80FFD7FF>ความเสียหายลม</color>\n\nหลังจาก<color=#FFD780FF>{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}</color>\nเพื่อชาร์จพลัง และกระโดดไปข้างหน้า ระยะการกระโดดจะเพิ่มขึ้นตามเวลาในการชาร์จ",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Varka_01"
+        "Icon": "Skill_S_Varka_01",
+        "CdTime": 16
       }
     ],
     "SpecialSkills": [
@@ -980,7 +981,8 @@
       "Name": "Northwind Avatar",
       "Description": "ฟาดโจมตีอย่างทรงพลังไปข้างหน้าต่อเนื่อง 2 ครั้งในนามของอัศวินแห่ง Boreas ผู้แข็งแกร่งที่สุด สร้าง<color=#80FFD7FF>ความเสียหายลม</color> 2 ครั้ง\nหากมีตัวละครธาตุ<color=#FF9999FF>ไฟ</color>, <color=#80C0FFFF>น้ำ</color>, <color=#FFACFFFF>ไฟฟ้า</color> หรือ<color=#99FFFFFF>น้ำแข็ง</color>อยู่ในทีม การฟาดโจมตีครั้งแรกจะเปลี่ยนเป็นการสร้างความเสียหายธาตุที่สอดคล้องกัน ตามลำดับก่อนหลังของประเภทธาตุข้างต้น",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Varka_01"
+      "Icon": "Skill_E_Varka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

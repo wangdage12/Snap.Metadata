@@ -620,7 +620,8 @@
         "Name": "Pressurized Floe",
         "Description": "Melancarkan serangan ke atas dan mengakibatkan <color=#99FFFFFF>Cryo DMG</color>, lalu memasuki status Pers Timer selama 10 detik.\nSaat Freminent berada dalam status Pers Timer, Elemental Skill-nya akan berubah menjadi Shattering Pressure.\n\n<color=#FFD780FF>Shattering Pressure</color>\nMelancarkan serangan yang berbeda berdasarkan level Pressure dari status Pers Timer, lalu menghapus status Pers Timer:\n·Level 0: Melancarkan tebasan vertikal yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color>.\n·Level 1-3: Melancarkan tebasan vertikal bersamaan dengan Pers yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> dan Physical DMG. DMG yang dihasilkan juga akan berbeda berdasarkan level Pressure.\n·Level 4: Meminjam kekuatan Pers yang penuh dengan tekanan untuk mengakibatkan Physical DMG. Saat ini, \"Normal Attack: Flowing Eddies\" akan diubah menjadi Shattering Pressure.\n\n<color=#FFD780FF>Pers Timer</color>\nSaat Freminet melancarkan Normal Attack, akan melancarkan gelombang Frost yang mengakibatkan <color=#99FFFFFF>Cryo DMG</color> dan juga akan meningkatkan level Pressure Pers.\n<color=#99FFFFFF>Cryo DMG</color> yang dihasilkan di saat yang bersamaan akan dianggap sebagai DMG Elemental Skill.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nSetiap kurun waktu tertentu, setelah melancarkan serangan ke atas, Spiritbreath Thorn akan tercipta dalam bentuk serangan ke atas tambahan, yang mengakibatkan Pneuma-aligned <color=#99FFFFFF>Cryo DMG</color>.\n\n<i>Melumpuhkan musuh tanpa merenggut nyawa mereka juga dapat dipertimbangkan sebagai strategi \"bertahan hidup\" yang dapat dipilih.</i>\n<i>\"Pers ... Aku serahkan sisanya kepadamu.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Freminet_01"
+        "Icon": "Skill_S_Freminet_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -790,7 +791,8 @@
       "Name": "Shadowhunter's Ambush",
       "Description": "Melancarkan aura dingin yang tidak dapat disentuh dan mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>, memulihkan kembali Cooldown Elemental Skill \"Pressurized Floe\" dan membuat Freminet memasuki status Subnautical Hunter selama 10 detik.\n\nSelama berada dalam status Subnautical Hunter, ketahanan Freminet terhadap interupsi meningkat dan Elemental Skill \"Pressurized Floe\" akan mendapatkan buff berikut:\n·Cooldown berkurang 70%.\n·Saat melancarkan Normal Attack, akan meningkatkan satu level Pressure dari Pers Timer dan DMG gelombang Frost yang dihasilkan oleh Normal Attack-nya menjadi 200% dari nilai awalnya.\n\nEfek ini akan dihapus jika Freminet meninggalkan medan pertempuran.\n\n<i>\"Sekarang ... aku tidak perlu suara bising lainnya lagi.\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Freminet_01"
+      "Icon": "Skill_E_Freminet_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

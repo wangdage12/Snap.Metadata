@@ -542,7 +542,8 @@
         "Name": "Inferno colante",
         "Description": "#Quest'arte, ideata da Dehya in persona, modifica il proprio metodo di utilizzo in base alla situazione del combattimento.\n\n<color=#FFD780FF>Fiamma indomita</color>\nQuest'abilità viene scatenata se, al momento dell'uso, non è presente alcun Santuario infuocato creato da Dehya.\nInfligge <color=#FF9999FF>DAN da Pyro ad area</color> e crea un campo conosciuto come Santuario infuocato.\n\n<color=#FFD780FF>Fiamma estesa</color>\nQuest'abilità viene sprigionata se, al momento dell'uso, esiste già un Santuario infuocato creato da Dehya.\nDehya effettua un attacco con balzo, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>, per poi ricreare un Santuario infuocato nella sua nuova posizione.\nUn campo Santuario infuocato creato in questo modo eredita la durata restante del precedente.\n\nPer la durata di ogni singolo Santuario infuocato è possibile usare 1 sola Fiamma estesa.\n\n<color=#FFD780FF>Santuario infuocato</color>\nQuando un avversario all'interno di questo campo subisce DAN, viene sprigionato un attacco coordinato che infligge <color=#FF9999FF>DAN da Pyro ad area</color> in base all'ATT e ai PS max di Dehya. Quest'effetto può attivarsi una volta ogni 2,5{NON_BREAK_SPACE}s.\nI personaggi attivi all'interno del campo ottengono un aumento della resistenza all'interruzione e, quando subiscono DAN, una porzione di questi viene mitigata e confluisce nel Sangue di Rossomanto. Dopodiché, Dehya subisce tali DAN nell'arco di 10{NON_BREAK_SPACE}s. Quando i DAN mitigati accumulati dal Sangue di Rossomanto raggiungono o superano una certa percentuale dei PS max di Dehya, tale mitigazione si interrompe.\n\nPuò esistere 1 solo Santuario infuocato creato da Dehya alla volta.\n\n<i>Percorri con me questo sentiero infuocato ed elimina ogni impurità, proprio come una bestia infuocata che discende dalle fiamme.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Dehya_01"
+        "Icon": "Skill_S_Dehya_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Morso leonino",
       "Description": "#Sprigionando la sua furia incandescente e gettando via la sua lama, Dehya entra nello stato di Leonessa fiammante e aumenta la sua resistenza all'interruzione.\nMentre è in questo stato, Dehya scatena in maniera continuativa e automatica i Pugni della Chiomardente, infliggendo <color=#FF9999FF>DAN da Pyro</color> in base al suo ATT e ai suoi PS max. Al termine dell'effetto, scaglia un Calcio inceneritore che infligge <color=#FF9999FF>DAN da Pyro ad area</color> in base ai medesimi attributi.\nSe, quando si sprigiona quest'abilità, è presente un Santuario infuocato creato dalla sua abilità elementale Inferno colante, Dehya lo recupera per crearne un altro quando l'effetto di Leonessa fiammante si esaurisce. Al momento del suo recupero, questo campo acquisisce la durata del campo recuperato.\nIn questo stato, Dehya non è in grado di usare la sua abilità elementale, né di eseguire attacchi normali, caricati o in picchiata. Attacco normale: Tempesta dorata e Inferno colante vengono sostituiti da Raffica ruggente.\n\n<color=#FFD780FF>Raffica ruggente</color>\nScatenare Raffica ruggente entro 0,4{NON_BREAK_SPACE}s dopo ogni Pugno della Chiomardente aumenta la velocità con cui il Pugno della Chiomardente successivo viene scagliato.\n\n<i>Perfino le fiamme fluttuanti devono sottostare alla sua furia, e al suo comando si tramutano in artigli e in zanne al suo servizio.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Dehya_01"
+      "Icon": "Skill_E_Dehya_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

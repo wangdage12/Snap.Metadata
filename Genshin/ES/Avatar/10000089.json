@@ -605,7 +605,8 @@
         "Name": "Salón Solitaire",
         "Description": "Convida a los huéspedes del Salón Solitaire para que se unan al equipo y aviven el espectáculo de Furina. En función del <color=#FFD780FF>tipo de arjé</color> actual de Furina, convidará a los miembros del salón o al juglar de las aguas.\n\n<color=#FFD780FF>Ousía</color>\nEsparce un festín de burbujas que infligen <color=#80C0FFFF>Daño Hydro en el AdE</color> en función de la Vida Máx. de Furina, e invoca a los tres miembros del salón: el Gentilhombre Usher, con forma de Esferoctópodo; Madame Chevalmarine, con forma de Caballito Burbumarino, y Mademoiselle Crabaletta, con forma de Cangrejo Acorazado.\nLos miembros del salón atacarán cada cierto tiempo a los enemigos cercanos, con prioridad en los objetivos a los que estén atacando los personajes en uso, y les infligirán <color=#80C0FFFF>Daño Hydro</color> en función de la Vida Máx.\nLos ataques de los miembros del salón se volverán más fuertes en función de la cantidad de personajes cercanos del equipo con más del 50% de Vida, y estos ataques harán que dichos personajes pierdan Vida. Cuando 1/2/3/4 o más personajes del equipo cumplen con esta condición, el siguiente ataque de los miembros del salón inflige respectivamente un 110/120/130/140% del daño original.\n\n<color=#FFD780FF>Pneuma</color>\nInvoca al juglar de las aguas para que cada cierto tiempo restaure Vida a los personajes en uso cercanos en función de la Vida Máx.\n\nLos miembros del salón y el juglar de las aguas comparten su duración, y cuando Furina cambie entre uno u otro utilizando su Ataque Cargado, el huésped al que se cambió heredará la duración del anterior.\nFurina podrá moverse sobre el agua mientras los miembros del salón o el juglar de las aguas están activos.\n\n<i>El Salón Solitaire de Furina tiene unos clientes fijos. El resto del tiempo, son el Gentilhombre Usher, Madame Chevalmarine y Mademoiselle Crabaletta quienes lo visitan, excepto los miércoles melancólicos, que le toca venir al juglar.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Furina_01"
+        "Icon": "Skill_S_Furina_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -838,7 +839,8 @@
       "Name": "¡Que el mundo entero festeje!",
       "Description": "#Concentra un gran júbilo para crear un escenario de agua y espuma que inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> en función de la Vida Máx. de Furina, y que hace que los miembros del equipo cercanos entren en el estado de “jolgorio ecuménico”. Mientras este estado está activo, si la Vida de los personajes aumenta o disminuye, Furina obtiene 1{NON_BREAK_SPACE}pt. de “algarabía” por cada 1% que varíe la Vida de dichos personajes en función de la Vida Máx. del personaje.\nAdemás, el daño que infligen todos los miembros del equipo cercanos y su Bono de Curación recibida aumentarán según los puntos de algarabía que tenga Furina.\nAl terminar el estado de jolgorio ecuménico, Furina pierde todos los pts. de algarabía.\n\n<i>“¡Festejen! ¡Aclamen! ¡Maravíllense! ¡Alcen sus copas! Cada noche sin banquete es un sórdido desperdicio de dolorosa y sobria luz diurna... Oh, ehmm... Y quienes aún no sean mayores de edad, ¡que tomen jugo de uva!”.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Furina_01"
+      "Icon": "Skill_E_Furina_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

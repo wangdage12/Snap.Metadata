@@ -494,7 +494,8 @@
         "Name": "Trascendencia: Presagio maligno",
         "Description": "La Shogun Raiden libera un fragmento de su eutimia para infligir <color=#FFACFFFF>Daño Electro</color> contra los enemigos de alrededor y otorgar a todos los personajes del equipo cercanos el efecto de “ojo del castigo atronador”.\n\n<color=#FFD780FF>Ojo del castigo atronador</color>\n·Cuando los ataques de los personajes que obtengan este efecto inflijan daño a un enemigo, el ojo liberará un ataque coordinado que inflige <color=#FFACFFFF>Daño Electro en el AdE</color> en la ubicación de ese enemigo.\n·Mientras un personaje esté bajo los efectos de ojo del castigo atronador, el daño que inflige con su Habilidad Definitiva aumenta en proporción a la Energía Elemental consumida para realizar dicha habilidad.\n\nComo máximo, el ojo del castigo atronador solo podrá ejecutar un ataque coordinado cada 0.9 s por equipo.\nEl daño infligido con el ataque coordinado por los personajes que no son de tu equipo será de un 20% del daño original.\n\n<i>Los seres divinos ejercen su influencia sobre todo lo que observan, y la Arconte Electro puede manipular las temibles estrellas para proteger a sus vasallos y castigar a sus enemigos con el poder del rayo.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Shougun_01"
+        "Icon": "Skill_S_Shougun_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -916,7 +917,8 @@
       "Name": "Técnica secreta: Verdad onírica",
       "Description": "Reúne las infinitas verdades y consume su ambición infinita para ejecutar un corte onírico que extermina todas las maldiciones del mundo, infligiendo <color=#FFACFFFF>Daño Electro en el AdE</color> y pasando al estado de “mente onírica” durante cierto periodo de tiempo. El daño infligido con corte onírico y con los ataques de mente onírica dependerá de las cargas de rueda de la ambición consumidas cuando esta habilidad sea utilizada.\n\n<color=#FFD780FF>Mente onírica</color>\nEn este estado, la Shogun Raiden ataca con su tachi, y sus Ataques Normales, Cargados y Descendentes infligen <color=#FFACFFFF>Daño Electro</color>, el cual no puede sustituirse imbuyéndose de otro elemento. Al golpear a un enemigo con estos ataques, todos los personajes del equipo cercanos regeneran Energía Elemental. Esta regeneración puede ocurrir una vez por segundo y activarse un máximo de 5 veces mientras mente onírica está activa.\nEn este estado, la RES a interrupción de la Shogun Raiden aumenta, y se vuelve inmune al daño recibido por la reacción de <color=#FFACFFFF>Electrocargado</color>.\nDurante el estado de mente onírica, el daño infligido por los Ataques Normales, Cargados y Descendentes de la Shogun Raiden se considera daño de Habilidad Definitiva.\n\nEl efecto de mente onírica desaparece cuando la Shogun Raiden abandona el campo de batalla.\n\n<color=#FFD780FF>Rueda de la ambición</color>\nCuando un personaje cercano del equipo (a excepción de la Shogun Raiden) realiza una Habilidad Definitiva, la Shogun Raiden acumula ambición en proporción a la cantidad de Energía Elemental que ese personaje consumió para realizar su Habilidad Definitiva.\nSolo se puede acumular un máximo de 60 cargas de ambición.\n\nLas cargas de ambición acumuladas para la rueda de la ambición se perderán 300 s después de que la Shogun Raiden se retire de combate.\n\n<i>Esta es la técnica secreta más reciente de la Arconte Electro. Ha abandonado el pensamiento vacío para cargar con los sueños de todos. Igual que el concepto de la “verdad” también implica algo nuevo, Inazuma ha comenzado un nuevo capítulo de su historia.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Shougun_01"
+      "Icon": "Skill_E_Shougun_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -462,7 +462,8 @@
         "Name": "Allez, Virevolturbo !",
         "Description": "Combattez aux côtés du fidèle Virevolturbo !\nInvoque Virevolturbo. Avec un appui long, Kachina invoque et chevauche Virevolturbo.\nAprès utilisation, Kachina obtient 60 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<color=#FFD780FF>Bénédiction noctâme : Kachina</color>\nLes différentes actions de Virevolturbo consomment les points de noctâme de Kachina.\nL'état Bénédiction noctâme de Kachina dure jusqu'à ce que tous les points de noctâme soient épuisés.\n\n<color=#FFD780FF>Virevolturbo</color>\nVirevolturbo peut exister indépendamment ou être chevauché et contrôlé par Kachina. Lorsque Virevolturbo est présent, la compétence élémentaire de Kachina « Allez, Virevolturbo ! » sert à monter sur Virevolturbo ou à en descendre.\n· Lorsqu'il est présent indépendamment de Kachina, Virevolturbo frappe le sol de façon intermittente, infligeant des <color=#FFE699FF>DGT Géo de zone</color> infusés de noctâme selon la DÉF de Kachina.\n· Lorsque Kachina chevauche Virevolturbo, elle peut contrôler ses mouvements rapides, escalader et utiliser son attaque normale pour frapper le sol, infligeant des <color=#FFE699FF>DGT Géo de zone</color> infusés de noctâme selon la DÉF de Kachina.\n\nVirevolturbo disparaît une fois la bénédiction noctâme de Kachina terminée et est considéré comme une construction Géo. Il ne peut exister qu'un seul Virevolturbo de Kachina à la fois.\n\n<i>Virevolturbo n'a que l'apparence d'une toupie : il s'agit en fait d'une perceuse pouvant briser même les roches les plus solides !</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Kachina_01"
+        "Icon": "Skill_S_Kachina_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -632,7 +633,8 @@
       "Name": "Un peu de sérieux !",
       "Description": "Kachina frappe le sol, infligeant des <color=#FFE699FF>DGT Géo de zone</color> selon sa DÉF et créant un super champ de forage.\nCe champ augmente la portée d'attaque de Virevolturbo, ainsi que sa VIT de déplacement lorsque Kachina le chevauche.\n\nSi un Virevolturbo de Kachina est présent lors de l'utilisation, il est invoqué à côté d'elle.\n\n<i>Tout comme les artistes nerveux aiment imaginer le public comme des pantins en bois, Kachina imagine ses adversaires comme des beaux gisements de pierres précieuses... Le genre qu'on aimerait ramener à la maison et collectionner...</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Kachina_01"
+      "Icon": "Skill_E_Kachina_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

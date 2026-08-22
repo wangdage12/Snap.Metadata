@@ -542,7 +542,8 @@
         "Name": "Fundición infernal",
         "Description": "#Dehya hace uso de distintas técnicas de combate de creación propia según las circunstancias de la batalla.\n\n<color=#FFD780FF>Llama indómita</color>\nSe libera cuando no hay ningún cerco ígneo de Dehya presente en el campo de batalla.\nInflige <color=#FF9999FF>Daño Pyro en el AdE</color> y crea un área llamada “cerco ígneo”.\n\n<color=#FFD780FF>Acometida ardiente</color>\nSe libera cuando hay algún cerco ígneo de Dehya presente en el campo de batalla.\nRealiza un ataque en salto que inflige <color=#FF9999FF>Daño Pyro en el AdE</color> y crea en el lugar de impacto un nuevo cerco ígneo.\nEl nuevo cerco creado de esta manera hereda la duración del original.\n\nSolo se puede liberar una acometida ardiente durante el tiempo en que un cerco ígneo está activo.\n\n<color=#FFD780FF>Cerco ígneo</color>\nCuando los enemigos situados en el área del cerco ígneo reciben daño, este realizará un ataque coordinado que inflige <color=#FF9999FF>Daño Pyro en el AdE</color> en función del ATQ y la Vida Máx. de Dehya. Este efecto solo puede ocurrir una vez cada 2.5{NON_BREAK_SPACE}s.\nAdemás, aumenta la RES a interrupción de los personajes en uso dentro del área y, cuando reciben daño, parte de este es mitigado y transferido a “sangre de la Leona escarlata”, de modo que Dehya soportará dicho daño durante 10{NON_BREAK_SPACE}s. Cuando el daño acumulado por sangre de la Leona escarlata alcance o supere cierto porcentaje de la Vida Máx. de Dehya, dejará de mitigarse daño de esta forma.\n\nSolo puede existir 1 cerco ígneo creado por Dehya al mismo tiempo.\n\n<i>Atraviesa conmigo las llamas de esta ordalía y quema todo lo impuro, igual que una bestia fulgurante que se inmola mientras desciende.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Dehya_01"
+        "Icon": "Skill_S_Dehya_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Dentellada ignívoma de la Leona",
       "Description": "#Dehya desata su furia abrasadora y prescinde del engorroso mandoble para entrar en el estado de “Leona fogosa”, durante el cual aumenta su RES a interrupción.\nEn este estado, asesta puñetazos leoninos de forma automática y continua, los cuales infligen <color=#FF9999FF>Daño Pyro</color> en función del ATQ y la Vida Máx. de Dehya. Al terminar su duración, lanza una patada incineradora que inflige <color=#FF9999FF>Daño Pyro en el AdE</color> en función de su ATQ y Vida Máx.\nAl usar esta Habilidad Definitiva, si en el campo de batalla ya existe un cerco ígneo creado por la propia Dehya con su Habilidad Elemental, Fundición infernal, lo retirará del combate y creará otro en una nueva ubicación cuando termine el estado de Leona fogosa. El nuevo cerco ígneo heredará la duración del que fue retirado.\nEn este estado, Dehya no puede lanzar su Habilidad Elemental ni ejecutar Ataques Normales, Cargados o Descendentes. No obstante, su Ataque Normal: Sacudida áurea y su Habilidad Elemental: Fundición infernal se sustituyen por “andanada rugiente”.\n\n<color=#FFD780FF>Andanada rugiente</color>\nSi liberas la andanada rugiente 0.4{NON_BREAK_SPACE}s después de asestar un puñetazo leonino, asestarás el siguiente puñetazo más rápidamente.\n\n<i>Hasta el fuego, siempre cambiante, obedece el mandato de su furia y se convierte en sus colmillos y garras.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Dehya_01"
+      "Icon": "Skill_E_Dehya_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

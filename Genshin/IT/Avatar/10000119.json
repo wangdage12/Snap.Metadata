@@ -590,7 +590,8 @@
         "Name": "Runo: Riposo senz'alba di Karsikko",
         "Description": "#Intonando silenziosamente un antico inno, Lauma evoca un {LINK#N11190001}<color=#FFD780FF>Santuario di Boscogelo</color>{/LINK} con effetti diversi in base al tipo di pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nIntona un Inno della caccia, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n\n<color=#FFD780FF>Pressione prolungata</color>\nÈ richiesta almeno 1 unità di {LINK#N11190008}<color=#FFD780FF>Rugiada verdeggiante</color>{/LINK}. Lauma consuma tutta la Rugiada verdeggiante a disposizione e intona un Inno del riposo eterno, infliggendo un'iterazione di <color=#99FF88FF>DAN da Dendro ad area</color> normali e un'altra iterazione di <color=#99FF88FF>DAN da Dendro ad area</color> considerati DAN da Fioritura lunare. Lauma ottiene un accumulo di {LINK#N11190002}<color=#FFD780FF>Canto della luna</color>{/LINK} per ogni unità di Rugiada verdeggiante consumata. Con la pressione prolungata dell'abilità elementale, Lauma può consumare un massimo di 3 unità di Rugiada verdeggiante.\n\nInoltre, quando l'abilità elementale di Lauma o gli attacchi del Santuario di Boscogelo colpiscono un avversario, le <color=#99FF88FF>RES a Dendro</color> e a <color=#80C0FFFF>Hydro</color> di quest'ultimo diminuiscono per 10{NON_BREAK_SPACE}s.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo: Cuori uniti nella luna battente",
       "Description": "#Lascia che i desideri di tutti gli esseri viventi diventino il chiaro di luna che bagna la terra. Lauma intona una canzone sacra dell'Estremo Nord e ottiene 18 accumuli di {LINK#N11190003}<color=#FFD780FF>Inno pallido</color>{/LINK}.\nInoltre, se Lauma usa il suo Tripudio elementale mentre ha degli accumuli di {LINK#N11190002}<color=#FFD780FF>Canto della luna</color>{/LINK}, o se ne ottiene nei 15{NON_BREAK_SPACE}s successivi all'utilizzo del Tripudio, li consuma tutti e, per ogni accumulo consumato, ne ottiene 6 di Inno pallido. Quest'effetto può essere innescato una volta per ogni Tripudio elementale, inclusi i 15{NON_BREAK_SPACE}s successivi al suo utilizzo.\n\n<color=#FFD780FF>Inno pallido</color>\nQuando i membri vicini del gruppo infliggono DAN da Fioritura, Iperfioritura, Germinazione o Fioritura lunare, viene consumato 1 accumulo di Inno pallido e i DAN inflitti aumentano in base alla maestria elementale di Lauma. Se più avversari contemporaneamente subiscono DAN, vengono consumati più accumuli di Inno pallido in base al numero di avversari colpiti.\nLa durata di ogni accumulo di Inno pallido è indipendente dalle altre.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

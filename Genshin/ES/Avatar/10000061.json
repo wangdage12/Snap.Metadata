@@ -601,7 +601,8 @@
         "Name": "Nekopatada voladora",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSalta con la destreza de un gato que se mueve entre la maleza y golpea al enemigo con una patada voladora que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>. A su vez, crea un escudo de transporte seguro que aplica <color=#99FF88FF>Dendro</color> sobre Kirara durante un corto periodo de tiempo y tiene un 250% de efectividad de absorción de <color=#99FF88FF>Daño Dendro</color>. La cantidad de absorción de daño del escudo aumenta en función de la Vida Máx. de Kirara, y no superará cierto porcentaje de dicha Vida Máx. La absorción de daño restante del escudo podrá acumularse con la otorgada por un nuevo escudo de transporte seguro, reiniciando su duración.\n\n<color=#FFD780FF>Mantener pulsado</color>\nReúne la determinación de una repartidora entregada a su trabajo para crear un escudo de transporte seguro idéntico al que obtiene al {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez} y se acurruca en una caja de entrega especial, lo que hace que Kirara entre en el estado de “paquete minino” para moverse y pelear más velozmente.\n\n<color=#FFD780FF>Paquete minino</color>\n·Inflige <color=#99FF88FF>Daño Dendro</color> a los enemigos contra los que impacta. Este efecto solo puede ocurrir una vez cada 0.5{NON_BREAK_SPACE}s por cada enemigo.\n·En este estado, la Vel. Movimiento, Vel. de Escalada y la capacidad de salto de Kirara aumentan, pero el Coste de Aguante al escalar también es mayor.\n·Cuando termina la duración o esta habilidad se vuelve a usar, ejecuta un zarpazo más poderoso que el de {LAYOUT_MOBILE#tocar una vez}{LAYOUT_PC#pulsar una vez}{LAYOUT_PS#pulsar una vez}, y que inflige <color=#99FF88FF>Daño Dendro en el AdE</color>.\n·El estado de paquete minino tiene una duración máxima de 10{NON_BREAK_SPACE}s y, cuando el efecto termina, la habilidad entra en TdE. Cuanto más tiempo permanezca Kirara en este estado, mayor será el TdE.\n·Esprintar o dejar de escalar cancelará este estado.\n\n<i>“¿Quieres saber cuál es el secreto para entregar algo tan rápidamente? Evidentemente, ¡la clave está en las patas!”.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Momoka_01"
+        "Icon": "Skill_S_Momoka_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -787,7 +788,8 @@
       "Name": "Técnica secreta: Entrega sorpresa",
       "Description": "Utiliza un paquete especial antiladrones para castigar y aplastar a sus enemigos e infligir <color=#99FF88FF>Daño Dendro en el AdE</color>. Cuando el paquete explota, se divide en múltiples <color=#FFD780FF>briznas cardamiau-miau</color>, las cuales a su vez explotan cuando entran en contacto con un enemigo o tras un periodo de tiempo e infligen <color=#99FF88FF>Daño Dendro en el AdE</color>.\n\n<i>“Jeje, esto es para los que les gusta robar paquetes. Delincuentes, ¡no olviden dejar una reseña de 5 estrellas tras recibir el suyo!”.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Momoka_01"
+      "Icon": "Skill_E_Momoka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

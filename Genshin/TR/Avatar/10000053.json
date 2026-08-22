@@ -557,7 +557,8 @@
         "Name": "Yoohoo Sanatı: Fuuin Koşusu",
         "Description": "#Yoohoo Ninja Sanatının özel tekniği!\nSayu kıvrılıp yuvarlanan Fuufuu Çarkına dönüşerek hızla düşmanlara çarpar ve <color=#80FFD7FF>Rüzgar Hasarı</color> verir. Süre bittiğinde ise Fuufuu Döner Tekme atarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Dokun}{LAYOUT_PC#Bas}{LAYOUT_PS#Bas}</color>\nFuufuu Çarkı durumuna girerek kısa mesafe boyunca ileriye yuvarlanır, ardından Fuufuu Döner Tekme atar.\n\n<color=#FFD780FF>Basılı Tut</color>\nFuufuu Çarkı durumunda sürekli etrafta yuvarlanır ve durum süresince Sayu'nun müdahaleye karşı direncini artırır.\nBu süre boyunca Sayu, nereye yuvarlandığını kontrol edebilir ve beceriyi tekrar kullanarak Çark durumundan erken çıkabilir. Böylece daha güçlü bir Fuufuu Döner Tekme atabilir.\nBu beceriye basılı tutulduğunda Element Emilimi tetiklenebilir.\n\nBecerinin maksimum süresi 10 saniyedir ve etkileri sona erince Bekleme Süresi başlar. Sayu, Çark durumunda ne kadar kalırsa Bekleme Süresi de o kadar uzar.\n\n<color=#FFD780FF>Element Emilimi</color>\nSayu, Çark durumundayken <color=#80C0FFFF>Su</color>/<color=#FF9999FF>Ateş</color>/<color=#99FFFFFF>Buz</color>/<color=#FFACFFFF>Elektrik</color> ile etkileşime girdiğinde o element türünden ek Element Hasarı verir.\nBu beceri her kullanıldığında Element Emilimi yalnızca bir defa uygulanabilir.\n\n<i>Sayu, bu beceriyi gözü kapalı bile kullanabilir. Bu teknik aslında kaçış amacıyla keşfedilmiş ama Sayu'nun artık Önsezisi olduğu için eli değmişken düşmanlarını da haklamayı ihmal etmiyor.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Sayu_01"
+        "Icon": "Skill_S_Sayu_01",
+        "CdTime": 6
       }
     ],
     "EnergySkill": {
@@ -805,7 +806,8 @@
       "Name": "Yoohoo Sanatı: Mujina Karmaşası",
       "Description": "Yoohoo Ninja Sanatının diğer birçok özel tekniği! Sayu'ya yardım eli uzatır.\nYakındaki düşmanlara <color=#80FFD7FF>Rüzgar Hasarı</color> verir ve yakındaki tüm grup üyelerini iyileştirir. Yenilenen Can miktarı Sayu'nun Saldırısına bağlıdır. Sonrasında bu beceri bir Muji-Muji Daruma çağırır.\n\n<color=#FFD780FF>Muji-Muji Daruma</color>\nDaruma, belirli aralıklarla içinde bulunduğu duruma göre farklı eylemler gösterir:\n·Yakındaki karakterlerin Canı %70'in üzerindeyse yakındaki bir düşmana saldırarak <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n·Yakında Canı %70 veya daha az olan karakter varsa Can yüzdesi en düşük olan aktif karakteri iyileştirir. Yakında hiçbir düşman yoksa Canları %70'in üzerinde olsa bile yakındaki aktif karakterleri iyileştirir.\n\n<i>Ninjutsuya dair hiçbir şey bilmeyen insanlar, Sayu'nun bu beceriyle hava atmasına bayılırlar. Bu beceriyi öğrenmeye çalışanlar da var ama Sayu sadece rahatsız edilmeden uyumak istiyor.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Sayu_01"
+      "Icon": "Skill_E_Sayu_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

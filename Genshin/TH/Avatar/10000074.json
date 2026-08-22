@@ -477,7 +477,8 @@
         "Name": "Nights of Formal Focus",
         "Description": "กางโล่ Curtain of Slumber (ม่านแห่งนิทรา) และสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็งวงกว้าง</color>\nCurtain of Slumber จะมีปริมาณการดูดซับความเสียหาย ที่ขึ้นกับค่าพลังชีวิตสูงสุดของ Layla และจะมีเอฟเฟกต์ดูดซับ<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 250% และเมื่อกางโล่ จะทำให้ Layla <color=#99FFFFFF>ติดสถานะธาตุน้ำแข็ง</color>ช่วงสั้น ๆ\n\n<color=#FFD780FF>Night Star และ Shooting Star</color>\nภายในช่วงระยะเวลาของ Curtain of Slumber ในทุก 1.5 วินาที จะสร้าง Night Star ขึ้นมา 1 ดวง และเมื่อตัวละครที่อยู่ภายใต้การปกป้องของโล่ดังกล่าวใช้สกิลธาตุ จะสร้าง Night Star ขึ้นมาอีก 2 ดวง โดยที่ทุก 0.3 วินาที จะสามารถสร้าง Night Star ด้วยวิธีนี้ได้มากสุดหนึ่งครั้ง และในช่วงเวลาเดียวกัน จะสามารถมี Night Star ได้มากสุด 4 ดวง\nหลังจากที่จำนวน Night Star ของโล่ Curtain of Slumber สะสมถึง 4 ดวง หากมีศัตรูอยู่ในบริเวณใกล้เคียง Night Star จะเปลี่ยนเป็น Shooting Star ที่สามารถติดตามเป้าหมาย และยิงออกไปตามลำดับ เพื่อสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color>แก่ศัตรูที่ถูกโจมตี\nเมื่อช่วงเวลาต่อเนื่องของโล่ Curtain of Slumber สิ้นสุดลงหรือโล่ถูกทำลาย Night Star ทั้งหมดจะหายไป และหากเปลี่ยนเป็น Shooting Star และเริ่มยิงแล้ว Shooting Star จะยังคงอยู่ต่อไปจนกว่าการยิงในรอบนี้จะจบลง\n\nก่อนที่รอบการยิง Shooting Star จะสิ้นสุดลง จะไม่สามารถเกิด Night Star ดวงใหม่ได้\n\n<i>\"เธอคนนั้นกับฉันเปรียบเสมือนช่างฝีมือระดับปรมาจารย์สองคนที่ไม่เคยพบกัน นั่งบนที่นั่งตัวเดียวกัน และเย็บปักดอกไม้แห่งความฝันร่วมกัน\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Layla_01"
+        "Icon": "Skill_S_Layla_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -647,7 +648,8 @@
       "Name": "Dream of the Star-Stream Shaker",
       "Description": "ปลดปล่อย Celestial Dreamsphere ที่จะยิง Starlight Slug เพื่อโจมตีศัตรูที่อยู่ในพื้นที่ออกมา เพื่อสร้าง<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color>\nหลังจาก Starlight Slug ถูกเป้าหมาย จะสร้าง Night Star 1 ดวง ให้แก่ Curtain of Slumber ที่อยู่ในบริเวณใกล้เคียง ซึ่งทุก 0.5 วินาที Curtain of Slumber แต่ละอันจะสามารถรับ Night Star ด้วยวิธีนี้ได้มากสุด 1 ดวง เท่านั้น\n\n<i>\"หลับซะ หลับซะ ฉันรู้ว่าดวงดาวมากมายเหล่านั้นในความฝันของเธอ โชคชะตามากมายจะเปิดเผยก่อนที่เธอจะหลับใหล\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Layla_01"
+      "Icon": "Skill_E_Layla_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

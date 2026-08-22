@@ -431,7 +431,8 @@
         "Name": "Schnell wie der Blitz",
         "Description": "#Iansan stößt eine gewisse Entfernung nach vorn und fügt Gegnern in der Bahn mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Schaden</color> zu.\nStellt Iansan nach dem Anwenden 54 Nachtseelenpunkte wieder her und tritt in den Zustand Nachtseelensegen ein. Iansan löst schnell einen „Donnerstampfer“ aus, der keine Ausdauer verbraucht, wenn innerhalb von 5{NON_BREAK_SPACE}s nach dem Ende des Vorstoßes der Standardangriff durch Drücken angewendet wird.\n\n<color=#FFD780FF>Nachtseelensegen – Iansan</color>\nVerbraucht fortlaufend Nachtseelenpunkte. Wenn diese aufgebraucht sind oder wenn die Fähigkeit erneut eingesetzt wird, endet Iansans Zustand Nachtseelensegen. Der Zustand Nachtseelensegen hat die folgenden Eigenschaften:\n· Erhöht Iansans Bewegungs-GSW;\n· Wechselt durch Gedrückthalten der Rennen-Fähigkeit in den Modus „Blitzesschnelle“ und erhöht Iansans Bewegungs-GSW für kurze Zeit enorm. Ermöglicht es Iansan, in diesem Zustand durch Nutzung des Geländes Flugsprünge auszuführen und durch Verbrauchen von Nachtseelenpunkten über die Wasseroberfläche oder flüssiges Phlogiston zu laufen, und macht sie immun gegen Schaden von flüssigem Phlogiston.\n\n<i>„Schneller, stärker! Genau dafür habe ich die ganze Zeit trainiert.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Iansan_01"
+        "Icon": "Skill_S_Iansan_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "Drei Prinzipien der Stärke",
       "Description": "#Erschüttert die Erde mit ihrer unbändigen „Stärke“, verursacht damit mit Nachtseelen versehenen <color=#FFACFFFF>Elektro-Flächenschaden</color> und holt die Sonderausgabe einer kinetischen Markierung (für Trainingszwecke) hervor.\nVerleiht Iansan beim Anwenden 15 Nachtseelenpunkte und versetzt sie in den Zustand Nachtseelensegen.\nBeendet Iansans Nachtseelensegen, sobald die kinetische Markierung vom Feld verschwindet.\n\n<color=#FFD780FF>Kinetische Markierung</color>\nDie kinetische Markierung folgt den Bewegungen der Figur und verleiht der aktuellen eigenen Figur in der Truppe gemäß Iansans Nachtseelenpunkten auf verschiedene Weise ANG-Bonus:\n· Verleiht bei weniger als 42 Nachtseelenpunkten ANG-Bonus basierend auf Iansans Nachtseelenpunkten und ihrem ANG.\n· Bei mindestens 42 Nachtseelenpunkten wechselt die kinetische Markierung in den Modus „Glühender Beistand!“ und verleiht noch höheren ANG-Bonus basierend auf Iansans ANG.\nZählt während der Wirkungsdauer darüber hinaus die von aktuellen eigenen Figuren in der Truppe (außer Iansan selbst) zurückgelegte Entfernung und stellt Iansan jede Sekunde Nachtseelenpunkte anhand der in der vorigen Sekunde zurückgelegten Entfernung wieder her.\nDie kinetische Markierung verschwindet, sobald Iansans Nachtseelensegen-Zustand endet. Sie verschwindet auch nach 1{NON_BREAK_SPACE}s, wenn du dich nicht im Kampfzustand befindest. Der Nachtseelensegen endet nicht, wenn Iansan sich während der Wirkungsdauer der kinetischen Markierung inaktiv in der Truppe befindet.\n\n<i>„Stärke ist kein angeborenes Talent. Stärke entsteht durch unablässiges Training. Stärke muss ordnungsgemäß ausgeübt werden.“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Iansan_01"
+      "Icon": "Skill_E_Iansan_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

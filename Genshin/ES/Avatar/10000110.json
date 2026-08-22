@@ -431,7 +431,8 @@
         "Name": "Acelerón relámpago",
         "Description": "#Iansán arremete hacia delante una cierta distancia para infligir <color=#FFACFFFF>Daño Electro</color> de naturaleza noctámbula a todos los enemigos en el camino.\nTras usar esta habilidad, Iansán recuperará 54{NON_BREAK_SPACE}pts. de noctambulismo, entrará en estado de bendición noctámbula y, en los 5{NON_BREAK_SPACE}s siguientes, al realizar un Ataque Normal {LAYOUT_MOBILE#tocando una vez}{LAYOUT_PC#pulsando una vez}{LAYOUT_PS#pulsando una vez}, Iansán ejecutará un Descenso atronador veloz sin consumir Aguante.\n\n<color=#FFD780FF>Bendición noctámbula: Iansán</color>\nConsume continuamente pts. de noctambulismo. Al agotarse todos o al usar de nuevo la habilidad, terminará la duración de la bendición noctámbula de Iansán. Dicha bendición tiene las siguientes propiedades:\n·Aumenta la Vel. Movimiento de Iansán.\n·Mantener pulsado al esprintar hará que Iansán entre en modo “superrayo”, el cual aumenta considerablemente su Vel. Movimiento temporalmente. Mientras está en este modo, Iansán puede realizar saltos voladores aprovechando los desniveles del terreno, o consumir pts. de noctambulismo adicionales para moverse sobre el agua y sobre el flogisto líquido, a cuyo daño será inmune.\n\n<i>“¡Más rápido! ¡Más fuerte! He trabajado muy duro para este momento”.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Iansan_01"
+        "Icon": "Skill_S_Iansan_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "Los tres principios de la fuerza",
       "Description": "#Sacude la tierra con la “fuerza” que le otorga su nombre antiguo para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> de naturaleza noctámbula y sacar su “indicador de energía cinética de edición limitada”, el cual utiliza en sus entrenamientos.\nAl usar esta habilidad, Iansán obtiene 15{NON_BREAK_SPACE}pts. de noctambulismo y entra en estado de bendición noctámbula.\nCuando el indicador de energía cinética sea retirado del campo de batalla, el estado de bendición noctámbula de Iansán terminará.\n\n<color=#FFD780FF>Indicador de energía cinética</color>\nSigue al personaje y aumenta el ATQ del personaje en uso de diferentes formas en función de los pts. de noctambulismo de Iansán:\n·Si tiene menos de 42{NON_BREAK_SPACE}pts. de noctambulismo, obtendrá un Bono de ATQ en función de los pts. de noctambulismo y el ATQ de Iansán.\n·Si tiene al menos 42{NON_BREAK_SPACE}pts. de noctambulismo, el indicador de energía cinética cambiará al modo “apoyo llameante”, de manera que obtendrá un Bono de ATQ aún más alto en función del ATQ de Iansán.\nAdemás, mientras el indicador de energía cinética esté activo, registrará la distancia de movimiento recorrida por tu personaje en uso del equipo (a excepción de Iansán), y restaurará pts. de noctambulismo a Iansán cada segundo en función de la distancia recorrida en el segundo anterior.\nEl indicador de energía cinética desaparecerá cuando termine el estado de bendición noctámbula de Iansán, y también si transcurre 1{NON_BREAK_SPACE}s tras dejar de estar en combate. Mientras el indicador esté activo, el estado de bendición noctámbula de Iansán no terminará aunque ella esté en tu equipo pero no en uso.\n\n<i>“La fuerza no es un talento innato; proviene del esfuerzo constante y de seguir los métodos correctos”.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Iansan_01"
+      "Icon": "Skill_E_Iansan_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

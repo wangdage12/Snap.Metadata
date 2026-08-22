@@ -787,7 +787,8 @@
         "Name": "Exécution liée au vent",
         "Description": "Varka déchaîne la véritable essence de l'escrime de Favonius avec une puissance absolue, différents effets se produisant selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nVarka bondit en avant et frappe d'un seul mouvement fluide, infligeant des <color=#80FFD7FF>DGT Anémo de zone</color> et activant son mode {LINK#N11280001}<color=#FFD780FF>Charge de tempête</color>{/LINK}.\nPendant sa <color=#FFD780FF>charge de tempête</color>, les DGT infligés par les attaques normales et chargées de Varka augmentent, Varka ne peut plus effectuer d'attaques plongeantes, et les deux lames de ses attaques normales et chargées infligent chacune des DGT élémentaires ne pouvant pas être enchantés selon les éléments des personnages de l'équipe.\nDe plus, si l'équipe contient un personnage <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Électro</color> ou <color=#99FFFFFF>Cryo</color> pendant sa <color=#FFD780FF>charge de tempête</color>, la compétence élémentaire <color=#FFD780FF>Exécution liée au vent</color> de Varka est convertie en la compétence élémentaire spéciale {LINK#N11280002}<color=#FFD780FF>Ascension des quatre vents</color>{/LINK}, infligeant des DGT élémentaires correspondants et des <color=#80FFD7FF>DGT Anémo</color>. Varka peut également consommer le nombre d'utilisations de sa compétence élémentaire spéciale <color=#FFD780FF>Ascension des quatre vents</color> pour effectuer une attaque chargée spéciale <color=#FFD780FF>Dévoreur azur</color> qui ne consomme pas d'endurance et inflige des DGT élémentaires correspondants et des <color=#80FFD7FF>DGT Anémo</color>.\n\n<color=#FFD780FF>Appui long</color>\nAprès une période de charge, Varka effectue un bond en avant, la durée de la charge déterminant la distance du saut.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Varka_01"
+        "Icon": "Skill_S_Varka_01",
+        "CdTime": 16
       }
     ],
     "SpecialSkills": [
@@ -980,7 +981,8 @@
       "Name": "Avatar du vent du nord",
       "Description": "Au nom du plus grand Chevalier de Borée, Varka lance une puissante attaque de double taillade vers l'avant, infligeant deux fois des <color=#80FFD7FF>DGT Anémo</color>.\nSi l'équipe contient un personnage <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Électro</color> ou <color=#99FFFFFF>Cryo</color>, la première taillade est convertie pour infliger des DGT élémentaires selon l'ordre de priorité des éléments concernés.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Varka_01"
+      "Icon": "Skill_E_Varka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

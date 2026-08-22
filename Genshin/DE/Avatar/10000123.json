@@ -492,7 +492,8 @@
         "Name": "Zweifach – Spannung und Schmelzung",
         "Description": "#Reinigt Seele und Wünsche und unterzieht sie einer {LINK#N11230001}<color=#FFD780FF>Essenzumwandlung</color>{/LINK}. Ersetzt währenddessen Durins Elementarfähigkeit <color=#FFD780FF>Zweifach – Spannung und Schmelzung</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Umwandlung – Bestätigung der Helligkeit</color> und den Standardangriff <color=#FFD780FF>Flammenflügel-Hieb</color> durch die besondere Elementarfähigkeit <color=#FFD780FF>Umwandlung – Leugnung der Dunkelheit</color>.\n\n<color=#FFD780FF>Umwandlung – Bestätigung der Helligkeit</color>\nFügt Gegnern in der Nähe einmal <color=#FF9999FF>Pyro-Flächenschaden</color> zu, beendet die Essenzumwandlung und tritt in den Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> ein, hält 30{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Umwandlung – Leugnung der Dunkelheit</color>\nFügt den Gegnern vor sich dreimal hintereinander <color=#FF9999FF>Pyro-Schaden</color> zu, beendet die Essenzumwandlung und tritt in den Zustand <color=#FFD780FF>Leugnung der Dunkelheit</color> ein, hält 30{NON_BREAK_SPACE}s.\n\nStellt Durin im Kampf, wenn dieser in den Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> oder <color=#FFD780FF>Leugnung der Dunkelheit</color> eintritt, eine bestimmte Menge Elementarenergie wieder her, 6{NON_BREAK_SPACE}s Abklingzeit.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Durin_01"
+        "Icon": "Skill_S_Durin_01",
+        "CdTime": 12
       }
     ],
     "SpecialSkills": [
@@ -809,7 +810,8 @@
       "Name": "Prinzip der Helligkeit – Fluss des Lichts",
       "Description": "Setzt auf unterschiedliche Art und Weise die Kraft der „Bestie“ frei. Abhängig vom Zustand seiner {LINK#N11230001}<color=#FFD780FF>Essenzumwandlung</color>{/LINK} kann Durin unterschiedliche Spezialfähigkeiten anwenden.\n\n<color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color>\nWendet, wenn Durin sich im Zustand <color=#FFD780FF>Bestätigung der Helligkeit</color> befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color> an, die Gegnern vorne dreimal <color=#FF9999FF>Pyro-Flächenschaden</color> zufügt und die eigene Kraft als <color=#FFD780FF>Drache der weißen Flammen</color> manifestiert. Der „Drache der weißen Flammen“ folgt der aktuellen Figur, greift Gegner in der Umgebung in bestimmten Abständen an und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>. Hierdurch verursachter Schaden gilt als Spezialfähigkeits-SCH.\n\n<color=#FFD780FF>Prinzip der Dunkelheit – Sternen-Schwelbrand</color>\nWendet, wenn Durin sich im Zustand <color=#FFD780FF>Leugnung der Dunkelheit</color> befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Dunkelheit – Sternen-Schwelbrand</color> an, die Gegnern vorne dreimal <color=#FF9999FF>Pyro-Flächenschaden</color> zufügt und die eigene Kraft als <color=#FFD780FF>Drache des dunklen Verfalls</color> manifestiert. Der „Drache des dunklen Verfalls“ folgt der aktuellen Figur, greift einen Gegner in der Umgebung in bestimmten Abständen an und verursacht <color=#FF9999FF>Pyro-SCH</color>. Hierdurch verursachter Schaden gilt als Spezialfähigkeits-SCH.\n\nWendet, wenn Durin sich nicht im besonderen Zustand Essenzumwandlung befindet, die Spezialfähigkeit <color=#FFD780FF>Prinzip der Helligkeit – Fluss des Lichts</color> an.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Durin_01"
+      "Icon": "Skill_E_Durin_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

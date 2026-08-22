@@ -601,7 +601,8 @@
         "Name": "Calcio Miaoteoritico",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nBalza con l'agilità di un gatto che si districa tra i cespugli, sferrando un calcio rotante che infligge <color=#99FF88FF>DAN da Dendro ad area</color> e creando al contempo uno Scudo di trasporto sicuro che conferisce a Kirara una breve <color=#99FF88FF>applicazione di Dendro</color>. Lo scudo assorbe i <color=#99FF88FF>DAN da Dendro</color> con un 250% di efficacia. L'assorbimento DAN si basa sui PS max di Kirara, e non può superare una determinata percentuale di tale quantità. L'assorbimento DAN restante di uno Scudo di trasporto sicuro si accumula su un nuovo Scudo ogni volta che questo viene creato, e la sua durata viene ripristinata.\n\n<color=#FFD780FF>Pressione prolungata</color>\nSpinta dal suo desiderio di \"completare le consegne nell'arco di mezza giornata\", Kirara crea uno Scudo di trasporto sicuro identico a quello che è possibile creare con la variante a {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione} dell'abilità. In più, si rannicchia in uno speciale pacco da consegna espressa, entrando nello stato di Nekopacco urgente, che rende più rapidi i suoi movimenti e i suoi attacchi.\n\n<color=#FFD780FF>Nekopacco urgente</color>\n· Infligge <color=#99FF88FF>DAN da Dendro</color> agli avversari contro cui si scaraventa. Questo effetto può attivarsi su ciascun avversario una volta ogni 0,5{NON_BREAK_SPACE}s.\n· Quando è in questo stato, la velocità di movimento, la velocità di arrampicata e la potenza di salto di Kirara aumentano, così come il suo consumo di vigore durante l'arrampicata.\n· Quando la durata termina o l'abilità viene usata di nuovo, scatena un Assalto graffiante più potente dell'attacco eseguito nella variante a {LAYOUT_MOBILE#tocco}{LAYOUT_PC#pressione}{LAYOUT_PS#pressione}, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n· Lo stato di Nekopacco urgente dura fino a un massimo di 10{NON_BREAK_SPACE}s. Al termine di quest'ultimo, il TdR dell'abilità si riavvia. Più tempo Kirara trascorre in questo stato, più lungo sarà il TdR.\n· Lo stato termina immediatamente se si usa uno Scatto o si annulla attivamente una scalata.\n\n<i>\"Quindi vuoi sapere qual è il segreto di una spedizione rapida? Beh, è tutta una questione di gambe!\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Momoka_01"
+        "Icon": "Skill_S_Momoka_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -787,7 +788,8 @@
       "Name": "Arte segreta: Spedizione a sorpresa",
       "Description": "Sbaraglia gli avversari e i ladri di spedizioni con un apposito Pacco in consegna speciale, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>. Quando il Pacco in consegna speciale esplode, genera un gran numero di <color=#FFD780FF>Cardamomi di erba gatta</color> che scoppiano al contatto con gli avversari o dopo un certo lasso di tempo, infliggendo <color=#99FF88FF>DAN da Dendro ad area</color>.\n\n<i>\"Eheh, proprio così! È una misura escogitata per occuparsi di quegli insopportabili ladri di spedizioni! Mi raccomando, lascia una valutazione da cinque stelle, una volta ricevuta la tua consegna!\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Momoka_01"
+      "Icon": "Skill_E_Momoka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

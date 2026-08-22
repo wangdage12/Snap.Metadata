@@ -559,7 +559,8 @@
         "Name": "Antikes Gesetz – Geheimnis des verlassenen Lichts",
         "Description": "#Flins beschwört die uralte Kraft in der Laterne und wechselt in den Modus <color=#FFD780FF>Enthüllte Flammenspur</color>. Dieser Modus hat folgende Eigenschaften:\n· Flins’ Standardangriffe und heftige Schläge werden in <color=#FFACFFFF>Elektro-Schaden</color> umgewandelt, der nicht von anderen Elementen überdeckt werden kann. Er kann keinen Angriff aus dem Fall ausführen.\n· Flins’ Unterbrechungs-WDS wird erhöht.\n· Die Elementarfähigkeit <color=#FFD780FF>Antikes Gesetz – Geheimnis des verlassenen Lichts</color> wird durch die besondere Elementarfähigkeit <color=#FFD780FF>Speersturm des Nordens</color> ersetzt.\n\n<color=#FFD780FF>Speersturm des Nordens</color>\nFlins beschwört einen Speersturm vor sich, der <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht, und ersetzt innerhalb der nächsten 6{NON_BREAK_SPACE}s seine Spezialfähigkeit <color=#FFD780FF>Antikes Ritual – Nächtlicher Gast</color> durch die besondere Spezialfähigkeit {LINK#N11200001}<color=#FFD780FF>Donnersymphonie</color>{/LINK}.\nDie Abklingzeit von <color=#FFD780FF>Speersturm des Nordens</color> beträgt 6{NON_BREAK_SPACE}s und ist unabhängig von anderen Effekten.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Flins_01"
+        "Icon": "Skill_S_Flins_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -793,7 +794,8 @@
       "Name": "Antikes Ritual – Nächtlicher Gast",
       "Description": "#Flins entfesselt die wahre Macht seiner Laterne, verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color> und nach kurzem Intervall zweimal <color=#FFACFFFF>Elektro-Flächenschaden</color> der mittleren Phase sowie einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> der Endphase, die als Schaden durch die Reaktion „Mond unter Strom“ gewertet werden.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Die Fähigkeit wird verbessert. Wenn sich in der Nähe eine Gewitterwolke befindet, wird zusätzlich zweimal <color=#FFACFFFF>Elektro-Flächenschaden</color> der mittleren Phase verursacht, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.\n\nInnerhalb von 6{NON_BREAK_SPACE}s nach dem Anwenden der besonderen Elementarfähigkeit <color=#FFD780FF>Speersturm des Nordens</color> wird Flins’ Spezialfähigkeit <color=#FFD780FF>Antikes Ritual – Nächtlicher Gast</color> durch die besondere Spezialfähigkeit <color=#FFD780FF>Donnersymphonie</color> ersetzt.\n\n<color=#FFD780FF>Donnersymphonie</color>\nVerringert den Verbrauch von Elementarenergie zum Anwenden der besonderen Spezialfähigkeit. Flins verursacht einmal <color=#FFACFFFF>Elektro-Flächenschaden</color>, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.\n<color=#FFD780FF>Mondomen – Reifer Glanz</color>: Die Fähigkeit wird verbessert. Wenn sich in der Nähe eine Gewitterwolke befindet, wird zusätzlich einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht, der als Schaden durch die Reaktion „Mond unter Strom“ gewertet wird.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Flins_01"
+      "Icon": "Skill_E_Flins_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

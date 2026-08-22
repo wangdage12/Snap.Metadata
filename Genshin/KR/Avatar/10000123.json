@@ -492,7 +492,8 @@
         "Name": "이원식·융합분열",
         "Description": "영혼과 염원의 재료를 정화하여 {LINK#N11230001}<color=#FFD780FF>본질 전환</color>{/LINK}을 진행한다. 이 기간 동안 두린의 원소전투 스킬 <color=#FFD780FF>이원식·융합분열</color>이 특수 원소전투 스킬 <color=#FFD780FF>전환·긍정의 백화</color>로, 일반 공격 <color=#FFD780FF>불꽃 날개 베기</color>는 특수 원소전투 스킬 <color=#FFD780FF>전환·부정의 흑도</color>로 대체된다.\n\n<color=#FFD780FF>전환·긍정의 백화</color>\n주변의 적에게 <color=#FF9999FF>불 원소 범위 피해</color>를 1회 주고, 본질 전환을 해제해 <color=#FFD780FF>긍정의 백화</color> 상태에 진입한다, 지속 시간: 30초.\n\n<color=#FFD780FF>전환·부정의 흑도</color>\n전방의 적에게 <color=#FF9999FF>불 원소 피해</color>를 연속으로 3회 주고, 본질 전환을 해제해 <color=#FFD780FF>부정의 흑도</color> 상태에 진입한다, 지속 시간: 30초.\n\n전투 상태에서 두린이 <color=#FFD780FF>긍정의 백화</color> 또는 <color=#FFD780FF>부정의 흑도</color> 상태 진입 시, 두린의 원소 에너지가 일정량 회복된다. 해당 방식으로 원소 에너지를 6초마다 최대 1회 회복할 수 있다",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Durin_01"
+        "Icon": "Skill_S_Durin_01",
+        "CdTime": 12
       }
     ],
     "SpecialSkills": [
@@ -809,7 +810,8 @@
       "Name": "백화·흐르는 빛",
       "Description": "「야수」의 힘을 다양한 방식으로 해방한다. 두린의 {LINK#N11230001}<color=#FFD780FF>본질 전환</color>{/LINK} 상태에 따라 다른 원소폭발을 발동할 수 있다.\n\n<color=#FFD780FF>백화·흐르는 빛</color>\n두린이 <color=#FFD780FF>긍정의 백화</color> 상태일 경우, 원소폭발 <color=#FFD780FF>백화·흐르는 빛</color>을 발동해 전방의 적에게 <color=#FF9999FF>불 원소 범위 피해</color>를 3회 주고, 자신의 힘을 <color=#FFD780FF>「백염룡」</color> 형태로 발현한다. 「백염룡」은 현재 필드 위 캐릭터를 따라다니며 간헐적으로 주변의 적을 공격해 <color=#FF9999FF>불 원소 범위 피해</color>를 준다. 해당 피해는 원소폭발 피해로 간주한다.\n\n<color=#FFD780FF>흑도·불타는 별</color>\n두린이 <color=#FFD780FF>부정의 흑도</color> 상태일 경우, 원소폭발 <color=#FFD780FF>흑도·불타는 별</color> 발동으로 전환되어 전방의 적에게 <color=#FF9999FF>불 원소 범위 피해</color>를 3회 주고, 자신의 힘을 <color=#FFD780FF>「흑염룡」</color> 형태로 발현한다. 「흑염룡」은 현재 필드 위 캐릭터를 따라다니며 간헐적으로 주변의 적 1기를 공격해 <color=#FF9999FF>불 원소 피해</color>를 준다. 해당 피해는 원소폭발 피해로 간주한다.\n\n또한, 두린이 본질 전환의 특수 상태가 아닐 경우, 원소폭발 <color=#FFD780FF>백화·흐르는 빛</color>을 발동한다",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Durin_01"
+      "Icon": "Skill_E_Durin_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

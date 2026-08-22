@@ -712,7 +712,8 @@
         "Name": "Unerwarteter Schachzug",
         "Description": "Sucht nach der Schwachstelle des Gegners und wechselt in den Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK}. In diesem Zustand ist Folgendes möglich:\n· Lohen kann aktiv {LINK#N11290003}<color=#FFD780FF>Freude</color>{/LINK} sammeln, um die besondere Elementarfähigkeit {LINK#N11290002}<color=#FFD780FF>Bis ins Mark</color>{/LINK} anzuwenden.\n· Andere Truppenmitglieder in der Nähe können {LINK#N11290004}<color=#FFD780FF>Siegeswille</color>{/LINK} für Lohen sammeln, um den Schaden von <color=#FFD780FF>Bis ins Mark</color> zu erhöhen.\nNach max. dreimaliger Anwendung von <color=#FFD780FF>Bis ins Mark</color> im Zustand <color=#FFD780FF>Geniestreich</color> kann keine <color=#FFD780FF>Freude</color> mehr erhalten werden.\n\n<i>„Rittertum? Ha, das ist in der Tat ein hervorragender Köder. Solange der Gegner noch davon träumt, in einem fairen Kampf zu siegen, ahnt er nicht, welche ‚Überraschung‘ auf ihn wartet.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lohen_01"
+        "Icon": "Skill_S_Lohen_01",
+        "CdTime": 18
       }
     ],
     "SpecialSkills": [
@@ -907,7 +908,8 @@
       "Name": "Verhängte Strafe",
       "Description": "#Führt schnell hintereinander mehrere Hiebe nach vorne aus, verbraucht den gesamten {LINK#N11290004}<color=#FFD780FF>Siegeswillen</color>{/LINK} und verursacht <color=#99FFFFFF>Kryo-Schaden</color>. Erhöht den Schaden dieses Angriffs abhängig vom verbrauchten <color=#FFD780FF>Siegeswillen</color>. Verlängert, wenn Lohen sich beim Anwenden im Zustand {LINK#N11290001}<color=#FFD780FF>Geniestreich</color>{/LINK} befindet, dessen Dauer um 1,65{NON_BREAK_SPACE}s.\n\n<i>„Schon alles verraten? Schade, ich dachte, wir hätten gerade erst angefangen!“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lohen_01"
+      "Icon": "Skill_E_Lohen_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

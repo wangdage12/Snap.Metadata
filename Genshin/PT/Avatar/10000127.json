@@ -476,7 +476,8 @@
         "Name": "Pássaro da Canção Matinal",
         "Description": "Invoca um pássaro chamado Aedon para ajudar em combate. Gera efeitos diferentes se pressionar ou manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nAedon avança contra os inimigos em frente, causando <color=#FFE699FF>Dano Geo</color> contra os inimigos que tocar.\n\n<color=#FFD780FF>Manter pressionado</color>\nMira e lança Aedon na direção do inimigo mirado, causando <color=#FFE699FF>Dano Geo</color> contra os inimigos que tocar.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Illuga_01"
+        "Icon": "Skill_S_Illuga_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -725,7 +726,8 @@
       "Name": "Reflexo Vazio",
       "Description": "Acende uma lâmpada, causando <color=#FFE699FF>Dano Geo em AdE</color> e obtendo o efeito Pesadelo de Luscinia por 20s. Nessa duração, Illuga obtém 21 acúmulos de {LINK#N11270001}<color=#FFD780FF>Canção de Luscinia</color>{/LINK}. Quando o Ataque Normal, Carregado, Imersivo, a Habilidade Elemental ou o Supremo do personagem ativo próximo causar <color=#FFE699FF>Dano Geo</color> contra o inimigo, consome 1 acúmulo de Canção de Luscinia, aumentando o Dano causado. O valor do aumento é baseado na Proficiência Elemental de Illuga. Se esse Dano for Dano de Cristalização Lunar, aumenta ainda mais o Dano causado.\nQuando o <color=#FFE699FF>Dano Geo</color> acima atingir mais de um inimigo simultaneamente, consumirá acúmulos de Canção de Luscinia correspondentes a quantidade de inimigos atingidos.\n\nAlém disso, quando Illuga é o personagem ativo e há uma <color=#FFE699FF>Construção Geo</color> criada por um personagem próximo e lançar seu Supremo, ou na duração do Pesadelo de Luscinia, e quando o personagem próximo criar uma <color=#FFE699FF>Construção Geo</color>, cada <color=#FFE699FF>Construção Geo</color> ativa fará Illuga obter 5 acúmulos adicionais de Canção de Luscinia. Illuga pode obter até 15 acúmulos adicionais de Canção de Luscinia nos 20s após lançar um Supremo dessa forma.\n\nQuando os acúmulos de Canção de Luscinia acabarem, ou quando a duração acabar, o efeito Pesadelo de Luscinia será removido.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Illuga_01"
+      "Icon": "Skill_E_Illuga_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

@@ -494,7 +494,8 @@
         "Name": "Lauernder Donner",
         "Description": "Folge dem Instinkt des Jägers. Erzeugt je nach Drücken oder Gedrückthalten unterschiedliche Effekte und belegt einen getroffenen Gegner mit dem Effekt {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK}.\n\n<color=#FFD780FF>Drücken</color>\nSchießt nach vorn und verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n\n<color=#FFD780FF>Gedrückthalten</color>\nTritt in den Zielmodus ein und wählt Gegner aus, die sich in einem bestimmten Bereich davor befinden. Erhöht in diesem Zustand Alyoshas Unterbrechungs-WDS.\nFügt den ausgewählten Gegnern beim Ende des Gedrückthaltens <color=#FFACFFFF>Elektro-Schaden</color> zu.\n\n<i>Ein unvorsichtiger Jäger kletterte einst zur Lanzenspitze. Danach überlebte er zum Glück diese blutige Lektion und verstand die wahre Überlebensregel im Schneefeld.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Alyosha_01"
+        "Icon": "Skill_S_Alyosha_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -680,7 +681,8 @@
       "Name": "Jagdrevier",
       "Description": "#Beschwört den treuen Gefährten <color=#FFD780FF>Tugarin</color>, um gemeinsam in den Kampf zu ziehen, und verwandelt den Bereich davor kurzzeitig in ein <color=#FFD780FF>donnerndes Jagdrevier</color>.\n\n<color=#FFD780FF>Donnerndes Jagdrevier</color>\n· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.\n· Fügt Gegnern, die diesen Bereich betreten, alle 2{NON_BREAK_SPACE}s einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> zu.\n\n<color=#FFD780FF>Tugarin</color>\n· Bewegt sich, wenn sich in der Umgebung Gegner befinden, alle 2{NON_BREAK_SPACE}s schnell in die Nähe eines Gegners, greift diesen mit Bissangriffen an und fügt ihm <color=#FFD780FF>Elektro-Schaden</color> zu.\n· Aktiviert zudem, wenn der getroffene Gegner vom Effekt <color=#FFD780FF>Mal der Jäger</color> betroffen ist, den Effekt <color=#FFD780FF>Mal der Jäger</color>.\n· Greift bevorzugt vom Effekt <color=#FFD780FF>Mal der Jäger</color> beeinflusste Gegner an.\n\n<i>Er wartet und wartet, bis die Ungeduld nachlässt. Dann fliegt ein Rotbauch-Pfeifer über den Birkenwald und erwartet seinen Schuss.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Alyosha_01"
+      "Icon": "Skill_E_Alyosha_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

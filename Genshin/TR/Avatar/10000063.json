@@ -556,7 +556,8 @@
         "Name": "Ruha Çağrı",
         "Description": "#Donuk, parlak ve yoğun çiy taneleri tüm iblisleri defedecek.\nYakındaki tüm grup üyelerine Buzdan Tüy etkisi verir. {LAYOUT_MOBILE#Dokunulmasına}{LAYOUT_PC#Basılmasına}{LAYOUT_PS#Basılmasına} ya da basılı tutulmasına bağlı olarak farklı şekilde <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Dokun}{LAYOUT_PC#Bas}{LAYOUT_PS#Bas}</color>\nBir Tılsım Ruhu ile ileri atılarak önündeki düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verir.\n\n<color=#FFD780FF>Basılı Tut</color>\nTılsım Ruhunu kontrol ederek <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Buzdan Tüy</color>\nNormal Saldırılar, Yüklü Saldırılar, Havadan Saldırılar, Element Becerileri ve Element Patlamaları düşmanlara <color=#99FFFFFF>Buz Hasarı</color> verdiğinde Hasar, Shenhe'nin mevcut Saldırısına göre artar.\n\nBuzdan Tüyün etkileri, süresi bittiğinde veya belirli sayıda tetiklendikten sonra kaybolur. {LAYOUT_MOBILE#Dokunmak}{LAYOUT_PC#Basmak}{LAYOUT_PS#Basmak} yerine basılı tuttuğunda Buzdan Tüyün etkisi daha uzun sürer ve birkaç defa daha tetiklenebilir.\nTek seferde birden fazla düşman <color=#99FFFFFF>Buz Hasarı</color> alırsa etki, isabet alan düşman sayısına göre birkaç defa tetiklenir. Etkinin tetiklenme sayısı Buzdan Tüye sahip her grup üyesi için ayrıca hesaplanır.\n\n<i>Ruhların gücü gerçektir. Verilen emirleri yerine getirmeye çalışan kutsal kadın yoluna devam eder!</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Shenhe_01"
+        "Icon": "Skill_S_Shenhe_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Kutsal Kadının Hükmü",
       "Description": "Tılsım Ruhunun gücünü açığa çıkarır. Ruhun bu dünyada özgürce gezmesini sağlayarak <color=#99FFFFFF>Buz Alan Hasarı</color> verir.\nSonrasında Tılsım Ruhu bir alan oluşturur. Alandaki düşmanların Fiziksel Direnci ve <color=#99FFFFFF>Buz Direnci</color> düşer. Ayrıca bu alandaki düşmanlar belirli aralıklarla <color=#99FFFFFF>Buz Hasarı</color> alır.\n\n<i>Adeptuslar sadece gizeme ve hayallere göre yaşamaz. Adeptusların doğası sadece gökteki ve yerdeki değişiklikleri gözlemleyip bu dünyada sebebin ve sonucun işleyişini kavrayarak anlaşılabilir.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Shenhe_01"
+      "Icon": "Skill_E_Shenhe_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

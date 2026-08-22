@@ -493,7 +493,8 @@
         "Name": "Rabanete das Nuvens",
         "Description": "Invoca o \"Yuegui: Modo de Arremesso\", um dispositivo especial criado por um certo Adeptus, para ajudar a resolver os problemas de Yaoyao.\nSerá lançado de forma diferente ao Manter Pressionado.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no modo de mira para ajustar a direção do arremesso.\n\n<color=#FFD780FF>Yuegui: Modo de Arremesso</color>\nJoga um Rabanete de Jade Branca. Quando o Rabanete de Jade Branca atinge um personagem ou inimigo, explodirá, causando <color=#99FF88FF>Dano Dendro</color> contra os inimigos dentro de uma certa AdE e regenerando Vida para os personagens dentro dela. A Cura é baseada na Vida Máxima de Yaoyao. Se não atingir inimigos ou personagens, o Rabanete de Jade Branca ficará na posição em que caiu, e quando for tocado por um personagem ou inimigo, ou quando sua duração acabar, explodirá.\nA escolha do alvo de arremesso do Rabanete de Jade Branca será definida de acordo com a situação das proximidades:\n· Se a Vida de todos os personagens próximos for maior que 70%, arremessará contra um inimigo próximo;\n· Se houver um personagem próximo com Vida igual ou inferior a 70%, jogará na direção próxima do personagem ativo com menor porcentagem de Vida. Se não houverem inimigos próximos, e caso que a Vida de todos os personagens seja superior a 70% e inferior a 100%, arremessará na direção de um personagem; caso contrário, arremessará em qualquer direção ao redor.\n\nÉ possível existir até 2 Yuegui: Modo de Arremesso simultaneamente.\n\n<i>\"Um Rabanete por dia, deixa a vida mais sadia! Ah, isso não é só sobre as propriedades medicinais de um Rabanete, mas ele também possui vários benefícios para a sua saúde!\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Yaoyao_01"
+        "Icon": "Skill_S_Yaoyao_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -726,7 +727,8 @@
       "Name": "Descida da Lua de Jade",
       "Description": "Sob comando de uma certa Adeptus, todo o potencial de Yuegui pode ser lançado em uma emergência, causando <color=#99FF88FF>Dano Dendro</color> contra os inimigos ao redor, e entra no invencível (de certa forma) estado \"Legado Adepti\".\n\n<color=#FFD780FF>Legado Adepti</color>\n· Rabanetes de Jade Branca gerados são convertidos para curar e causar Dano baseado nos atributos detalhados dessa Habilidade. Ao explodirem, regenerarão Vida para todos os personagens próximos da equipe e causarão <color=#99FF88FF>Dano Dendro</color>, e esse Dano é considerado Dano de Supremo.\n· Periodicamente invoca \"Yuegui: Modo de Salto\" até atingir o limite máximo. A forma de ação de Yuegui: Modo de Salto e Yuegui: Modo de Arremesso da Habilidade Elemental \"Rabanete das Nuvens\" é igual. É possível existir até 3 Yuegui: Modo de Salto simultaneamente;\n· Aumenta a Veloc. Mov. de Yaoyao em 15%; Yaoyao obtém aumento de <color=#99FF88FF>RES Dendro</color>.\n\nAo sair do campo de batalha, terminará o estado Legado Adepti. Quando o estado Legado Adepti acabar, removerá os Yuegui: Modo de Salto restantes.\n\n<i>\"Hã? Você quer saber qual é Yuegui? Todos são Yuegui!\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Yaoyao_01"
+      "Icon": "Skill_E_Yaoyao_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

@@ -476,7 +476,8 @@
         "Name": "Uccello canterino dell'alba",
         "Description": "#Evoca Aedon, il suo fidato uccello messaggero. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nAedon si scaglia contro i nemici di fronte a sé, infliggendo <color=#FFE699FF>DAN da Geo</color> ai nemici con cui entra in contatto.\n\n<color=#FFD780FF>Pressione prolungata</color>\nEntra in modalità di mira e dà a Aedon l'ordine di scagliarsi contro i nemici puntati, infliggendo <color=#FFE699FF>DAN da Geo</color> agli avversari con cui entra in contatto.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Illuga_01"
+        "Icon": "Skill_S_Illuga_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -725,7 +726,8 @@
       "Name": "Riflesso senz'ombra",
       "Description": "#Illuga accende la lanterna, infliggendo <color=#FFE699FF>DAN da Geo ad area</color>, e attiva l'effetto Canto dell'oriolo nella notte spettrale per 20{NON_BREAK_SPACE}s, ottenendo 21 accumuli di {LINK#N11270001}<color=#FFD780FF>Canzone dell'usignolo</color>{/LINK}. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <color=#FFE699FF>DAN da Geo</color> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti in base alla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, si verifica un ulteriore aumento.\nQuando i <color=#FFE699FF>DAN da Geo</color> inflitti in questo modo colpiscono più avversari, vengono consumati più accumuli di Canzone dell'usignolo in base al numero di avversari colpiti.\n\nInoltre, se in campo sono presenti dei <color=#FFE699FF>costrutti di Geo</color> creati dai membri vicini del gruppo quando Illuga scatena il suo Tripudio elementale, o se i membri vicini del gruppo creano dei <color=#FFE699FF>costrutti di Geo</color> mentre l'effetto di Canto dell'oriolo nella notte spettrale è attivo, ogni <color=#FFE699FF>costrutto di Geo</color> in campo permette a Illuga di ottenere 5 accumuli aggiuntivi di Canzone dell'usignolo. Illuga può ottenere in questo modo un massimo di 15 accumuli aggiuntivi nei 20{NON_BREAK_SPACE}s successivi all'attivazione del Tripudio elementale.\n\nQuando vengono consumati tutti gli accumuli di Canzone dell'usignolo, o quando la durata di questo stato termina, anche l'effetto Canto dell'oriolo nella notte spettrale finisce.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Illuga_01"
+      "Icon": "Skill_E_Illuga_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

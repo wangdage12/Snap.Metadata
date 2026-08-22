@@ -523,7 +523,8 @@
         "Name": "Kurnaz Strateji: Ganimet Paylaşımı",
         "Description": "Jahoda düşmana doğru atılır ve düşmana temas ettiğinde Gölge Takibi durumuna girer. Bu durumdayken Jahoda hızla ve sürekli olarak hareket eder: Yakındaki düşmanlar <color=#FF9999FF>Ateş</color>, <color=#80C0FFFF>Su</color>, <color=#FFACFFFF>Elektrik</color> veya <color=#99FFFFFF>Buz</color> etkisindeyse Jahoda {LINK#N11240001}<color=#FFD780FF>Miyavtastik Hazine Şişesini</color>{/LINK} sessizce ilgili elemente dönüştürür ve kademeli olarak doldurur. Süre sona erdiğinde veya beceri tekrar kullanıldığında Jahoda <color=#FFD780FF>Miyavtastik Hazine Şişesini</color> boşaltarak yakındaki düşmanlara tek seferlik <color=#80FFD7FF>Rüzgar Hasarı</color> verir. <color=#FFD780FF>Miyavtastik Hazine Şişesi</color> dolduğunda Jahoda onu anında boşaltır, Gölge Takibi durumundan çıkar ve daha güçlü bir <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\nJahoda ileri atıldığında düşmanla temas edemezse bunun yerine bulunduğu yere bir Sis Bombası bırakarak yakındaki düşmanlara tek seferlik <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<color=#FFD780FF>Ay Sembolü: Yükselen Parıltı</color>: <color=#FFD780FF>Miyavtastik Hazine Şişesi</color> dolduğunda Jahoda onu hemen boşaltmaz. Bunun yerine kısa bir süre boyunca, depolanan element enerjisini sürekli olarak tüketir ve yakındaki düşmanlara belirli aralıklarla <color=#FFD780FF>Pofuduk Kedi Yumakları</color> fırlatarak <color=#FFD780FF>Miyavtastik Hazine Şişesinde</color> depolanan element türünde Hasar verir. Bir <color=#FFD780FF>Pofuduk Kedi Yumağı</color> düşmana isabet ettiğinde Jahoda 2 Element Enerjisi yeniler. Bu etki 3,5 saniyede bir tetiklenebilir.\n\n<i>Bu dünyada serveti dağıtmanın birçok yolu vardır, ancak Nod-Krai definecileri ve hazine avcıları için bu yollardan yalnızca bir tanesi gerçekten etkili olduğunu kanıtlamıştır.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Jahoda_01"
+        "Icon": "Skill_S_Jahoda_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -801,7 +802,8 @@
       "Name": "Gizli Yetenekler: Avcının Yedi Aleti",
       "Description": "Saklı kozları ortaya çıkarma zamanı! Jahoda, 2 {LINK#N11240002}<color=#FFD780FF>Kedisel Koordineli Destek Robotu</color>{/LINK} çağırır ve yakındaki düşmanlara bir defa <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\n\n<i>\"Koordineli destek ne mi demek? Yani sen Morayla 'destek' sağlarsın, biz de 'koordine' ederiz. Kulağa mivkemmel geliyor, öyle değil mi?\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Jahoda_01"
+      "Icon": "Skill_E_Jahoda_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

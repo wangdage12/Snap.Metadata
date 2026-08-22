@@ -586,7 +586,8 @@
         "Name": "Cenere alla cenere",
         "Description": "#Evoca la Fiamma della Luna cruenta, infliggendo <color=#FF9999FF>DAN da Pyro</color> a più avversari vicini, e sferra un fendente in scatto contro uno di essi infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>.\nAgli avversari colpiti dal suddetto attacco viene applicata una Direttiva del debito di sangue.\n\n<color=#FFD780FF>Direttiva del debito di sangue</color>\n· Ciascuna Direttiva ha una durata di 30{NON_BREAK_SPACE}s, e ogni 5{NON_BREAK_SPACE}s infligge all'avversario 1 iterazione di <color=#FF9999FF>DAN da Pyro</color>, per un massimo di 2. I DAN inflitti in questo modo sono considerati DAN da abilità elementale.\n· Quando usa un attacco caricato o il Tripudio elementale Ascesa della Luna cruenta, Arlecchino assorbe e dissolve le Direttive del debito di sangue nelle vicinanze. Ciascuna Direttiva assorbita le conferisce un Legame vitale pari a un 65% dei suoi PS max.\n· Entro 35{NON_BREAK_SPACE}s dall'utilizzo dell'abilità elementale, il valore massimo del Legame vitale che Arlecchino può ottenere tramite le Direttive del debito di sangue è pari a un 145% dei suoi PS max. Usare nuovamente l'abilità elementale in questo lasso di tempo reimposta il conteggio della durata e il limite massimo del Legame vitale che Arlecchino può ricevere dalle Direttive del debito di sangue.\n\n<i>Dal suo punto di vista, non tutti i chicchi di grano che cadono sulla terra sono destinati a diventare delle spighe. Coloro che provano a ostacolarla, invece, sono destinati a fare da nutrimento ai fiori, una volta ridotti in cenere.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Arlecchino_01"
+        "Icon": "Skill_S_Arlecchino_01",
+        "CdTime": 30
       }
     ],
     "EnergySkill": {
@@ -786,7 +787,8 @@
       "Name": "Ascesa della Luna cruenta",
       "Description": "Arlecchino dispiega la sua immensa ala della Fiamma della Luna cruenta per assorbire e dissolvere le Direttive del debito di sangue circostanti, infliggendo <color=#FF9999FF>DAN da Pyro ad area</color>. Al contempo, azzera il TdR di Cenere alla cenere e ripristina i propri PS in base all'ATT e al valore del suo Legame vitale.\n\n<i>È pensiero comune a Teyvat che le fasi lunari, a eccezione della luna piena, siano metafore di presagi nefasti, usate solo da chi pratica l'alchimia e l'astrologia.\nPiù volte ella aveva visto nei suoi sogni quella luna cremisi. Erano forse profezie di disastri imminenti? In effetti è così, ma a subire tali catastrofi non sarebbe stata lei, bensì coloro che avrebbero osato scatenare la sua ira.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Arlecchino_01"
+      "Icon": "Skill_E_Arlecchino_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

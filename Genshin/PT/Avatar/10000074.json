@@ -477,7 +477,8 @@
         "Name": "Noites Solenes",
         "Description": "Coloca um escudo conhecido como Escudo da Cortina do Sono, infligindo <color=#99FFFFFF>Dano Cryo em uma AdE</color>.\nA Absorção de Dano do Escudo da Cortina do Sono é baseada na Vida Máxima de Layla e absorve <color=#99FFFFFF>Dano Cryo</color> com 250% de eficácia. Quando o escudo é implantado, Layla será <color=#99FFFFFF>afetada por Cryo</color> por um breve momento.\n\n<color=#FFD780FF>Estrelas Noturnas e Estrelas Voadoras</color>\nEnquanto o Escudo da Cortina do Sono estiver ativo, ele criará a cada 1.5s 1 Estrela Noturna que ficará ligada a ele. Quando um personagem protegido por esse escudo usar uma Habilidade Elemental, 2 Estrelas Noturnas serão criadas. Estrelas Noturnas podem ser criadas dessa forma uma vez a cada 0.3s. Um máximo de 4 Estrelas Noturnas podem ser acumuladas simultaneamente.\nQuando o Escudo da Cortina do Sono acumula 4 Estrelas Noturnas e existem oponentes por perto, essas Estrelas Noturnas se transformarão em Estrelas Voadoras que perseguem o inimigo automaticamente e que serão disparadas em sequência, infligindo <color=#99FFFFFF>Dano Cryo</color> nos oponentes atingidos.\nAs Estrelas Noturnas desaparecerão se a duração do Escudo da Cortina do Sono acabar ou se ele for destruído. Se elas já estiverem disparando como Estrelas Voadoras, essas Estrelas Voadoras durarão até que essa onda de disparos acabe.\n\nNão é possível criar novas Estrelas Noturnas até que a onda anterior de Estrelas Voadoras tenha encerrado os disparos.\n\n<i>\"Eu e ela somos como duas mestras artesãs que nunca se conheceram, mas sentam na mesma almofada, bordando a mesma Flor Onírica.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Layla_01"
+        "Icon": "Skill_S_Layla_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -647,7 +648,8 @@
       "Name": "Sonho das Correntes Estelares",
       "Description": "Lança uma Esfera de Sonhos Celestes que dispara continuamente Bombas Estelares contra os inimigos dentro de uma AdE, infligindo <color=#99FFFFFF>Dano Cryo</color>.\nQuando a Bomba Estelar atinge um inimigo, gera 1 Estrela Noturna para Escudos da Cortina do Sono próximo. Cada Escudo da Cortina do Sono pode obter uma Estrela Noturna dessa forma a cada 0.5s.\n\n<i>\"Durma, e que muitos destinos sejam revelados para seus olhos sonolentos em sonhos repletos de estrelas.\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Layla_01"
+      "Icon": "Skill_E_Layla_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

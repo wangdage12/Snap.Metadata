@@ -495,7 +495,8 @@
         "Name": "Extraction de fragrance",
         "Description": "Crée un flacon de Lumidouce qui inflige des <color=#99FF88FF>DGT Dendro de zone</color>.\n\n<color=#FFD780FF>Flacon de Lumidouce</color>\n· Tire de façon intermittente des bouffées d'aiguail pur sur les ennemis proches, infligeant des <color=#99FF88FF>DGT Dendro</color>.\n· Tout ennemi brûlé à proximité dégagera de façon intermittente de la senteur, une senteur pouvant être créée de cette manière une fois toutes les 2 s. Le flacon de Lumidouce peut collecter les senteurs à proximité, et après avoir collecté 2 senteurs, il monte d'un niveau pour tirer 1 bouffée d'aiguail pur supplémentaire chaque fois qu'il en tire et augmenter les DGT infligés et la portée de ces bouffées.\n· Il ne peut exister qu'un seul flacon de Lumidouce créé par Émilie à la fois. Le flacon de Lumidouce commence au niveau 1 et peut atteindre le niveau 2. Si le flacon ne collecte aucune senteur pendant 8 s alors qu'il est sur le terrain, il passe au niveau 1.\n\n<color=#FFD780FF>Arkhe : Pneuma</color>\nRégulièrement, après qu'Émilie a créé un flacon de Lumidouce de cette façon, une épine d'inhalation qui transperce les ennemis descend devant elle pour infliger des <color=#99FF88FF>DGT Dendro</color> chargés d'énergie pneuma.\n\n<i>« Le monde est une harmonie infinie de parfums, de couleurs et de chants. »</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Emilie_01"
+        "Icon": "Skill_S_Emilie_01",
+        "CdTime": 14
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "Explication de parfum",
       "Description": "Émilie guide le parfum rassemblé dans le flacon pour le convertir en énergie Dendro pure, créant ainsi un flacon de Lumidouce de niveau 3 et rangeant tout flacon présent.\nPendant sa durée, le flacon de Lumidouce de niveau 3 ne collecte pas les senteurs à proximité et fait descendre de façon continue de la rosée parfumée pour attaquer les ennemis à portée, infligeant des <color=#99FF88FF>DGT Dendro</color>. Pendant sa durée, le flacon de Lumidouce de niveau 3 fait descendre une rosée parfumée toutes les 0,3 s et chaque ennemi peut être ciblé une fois toutes les 0,7 s.\nÀ la fin de la durée, un flacon de Lumidouce de niveau 1 sera recréé. Si l'utilisation d'Explication de parfum a rangé un flacon de Lumidouce, ce flacon sera déployé à la place et sa durée sera réinitialisée.\nPendant la durée d'<color=#FFD780FF>Explication de parfum</color>, la compétence élémentaire « Extraction de fragrance » ne crée pas de flacon de Lumidouce.\n\n<i>Quel que soit le parfum, il commence à changer dès qu'il entre en contact avec l'air, avant de finalement se dissiper au milieu des murmures du vent, des arbres et de l'herbe. Ainsi, personne n'apprécie exactement la même senteur.\nIl en va de même pour les chemins empruntés par tous ceux qui vivent. En ce sens, on peut considérer les parfums comme une analogie de la vie humaine.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Emilie_01"
+      "Icon": "Skill_E_Emilie_01",
+      "CdTime": 13.5
     },
     "Inherents": [
       {

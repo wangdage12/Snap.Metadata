@@ -510,7 +510,8 @@
         "Name": "Kennerin aller Tricks",
         "Description": "Entsendet von Nahidas Seite karmische Bünde aus Pflanzen, die <color=#99FF88FF>Dendro-Flächenschaden</color> verursachen und bis zu 8 getroffene Gegner mit dem Samen von Skandha markieren.\nBeim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.\n\n<color=#FFD780FF>Gedrückthalten</color>\nStartet den Zielmodus, in dem man in einem bestimmten Bereich eine bestimmte Anzahl an Zielen auswählen kann. In diesem Modus wird Nahidas Unterbrechungs-WDS erhöht.\nSobald nicht mehr gedrückt gehalten wird oder der Zielmodus seine Höchstdauer erreicht hat, wird den gewählten Gegnern <color=#99FF88FF>Dendro-Schaden</color> zugefügt und sie werden mit dem Samen von Skandha markiert.\nDer Zielmodus hat eine Höchstdauer von 5 s und es können bis zu 8 Gegner ausgewählt werden.\n\n<color=#FFD780FF>Samen von Skandha</color>\nVerkettet Gegner, die mit dem Samen von Skandha markiert wurden, innerhalb einer bestimmten Distanz miteinander.\nNachdem an einem mit dem Samen von Skandha markierten Gegner Elementarreaktionen ausgelöst werden oder nachdem diesem Gegner von Dendro-Kernen (einschließlich Flammenspross und Supraspross) Schaden zugefügt wird, wird diesem und allen mit diesem Gegner verketteten Gegnern die dreifache Karma-Läuterung und damit basierend auf Nahidas ANG und Elementarkunde <color=#99FF88FF>Dendro-Schaden</color> zugefügt.\nInnerhalb eines kurzen Zeitraums kann die dreifache Karma-Läuterung nur 1-mal ausgelöst werden.\n\n<i>Die Herrin der Pflanzen hat die ultimative Wahrheit in der Leere erblickt. Das Sprießen und Verdorren der sterblichen Welt zeigen nun ihr wahres Gesicht vor ihr.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Nahida_01"
+        "Icon": "Skill_S_Nahida_01",
+        "CdTime": 5
       }
     ],
     "EnergySkill": {
@@ -760,7 +761,8 @@
       "Name": "Illusorisches Herz",
       "Description": "Lässt den Palast der Träume Form annehmen und entfaltet den „Schrein von Maya“.\n\nLöst, während der Schrein entfaltet ist, die folgenden Effekte je nach den Elementartypen der in der Truppe vorhandenen Figuren aus:\n· <color=#FF9999FF>Pyro</color>: Erhöht, während sich Nahida im Schrein von Maya befindet, den Schaden durch die dreifache Karma-Läuterung der Elementarfähigkeit „Kennerin aller Tricks“.\n· <color=#FFACFFFF>Elektro</color>: Verringert, während sich Nahida im Schrein von Maya befindet, das Intervall des Auslösens der dreifachen Karma-Läuterung der Elementarfähigkeit „Kennerin aller Tricks“.\n· <color=#80C0FFFF>Hydro</color>: Verlängert die Dauer des Schreins von Maya.\n\nVerstärkt den entsprechenden Effekt, wenn sich beim Entfalten des Schreins mindestens zwei Figuren der oben genannten Elementartypen in der Truppe befinden.\n\nNahida erhält weiter die oben genannten Boni, auch wenn sie sich inaktiv in der Truppe befindet, solange die Truppe innerhalb des Schreins von Maya bleibt.\n\n<i>In den Augen der Göttin der Weisheit sind womöglich alle, die unter den Kronen der Bäume leben, nichts anderes als der umgekehrte Traum von Maya.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Nahida_01"
+      "Icon": "Skill_E_Nahida_01",
+      "CdTime": 13.5
     },
     "Inherents": [
       {

@@ -620,7 +620,8 @@
         "Name": "Treibeis-Druck",
         "Description": "#Führt einen nach oben gerichteten Angriff aus, der <color=#99FFFFFF>Kryo-Schaden</color> verursacht und für 10{NON_BREAK_SPACE}s den Status Pers-Uhr auslöst.\nIn diesem Status wird die Elementarfähigkeit durch „Hochdruckmalmer“ ersetzt.\n\n<color=#FFD780FF>Hochdruckmalmer</color>\nFührt je nach Stufendruck der Pers-Uhr einen anderen Angriff aus und entfernt dabei den Status der Pers-Uhr:\n· Stufe 0: Führt einen vertikalen Hieb aus, der <color=#99FFFFFF>Kryo-Schaden</color> verursacht.\n· Stufe 1 bis 3: Führt in Zusammenarbeit mit Pers einen vertikalen Hieb aus, der <color=#99FFFFFF>Kryo-Schaden</color> und physischen Schaden verursacht. Je nach Stufendruck fällt hierbei der jeweilige Schaden unterschiedlich aus.\n· Stufe 4: Macht sich die Kraft eines voll unter Druck stehenden Pers zunutze und verursacht physischen Schaden. Ersetzt „Standardangriff: Strömungswirbel“ mit „Hochdruckmalmer“\n\n<color=#FFD780FF>Pers-Uhr</color>\nLöst bei einem Standardangriff von Fréminet gleichzeitig Frost aus und verursacht <color=#99FFFFFF>Kryo-Schaden</color>, wodurch der Stufendruck der Pers-Uhr erhöht wird.\nHierdurch verursachter <color=#99FFFFFF>Kryo-Schaden</color> wird als Schaden der Elementarfähigkeit gewertet.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nEin Geisterstachel erscheint in regelmäßigen Abständen nach dem Ausführen eines nach oben gerichteten Angriffs. Dieser ist in der Lage, anzugreifen und mit Pneuma versehenen <color=#99FFFFFF>Kryo-Schaden</color> zu verursachen.\n\n<i>Einen Gegner bewegungsunfähig, anstatt ihm den Garaus zu machen, könnte man in gewissem Sinne auch als eine Art „Überlebensstrategie“ bezeichnen.</i>\n<i>„Pers ... jetzt bist du dran.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Freminet_01"
+        "Icon": "Skill_S_Freminet_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -790,7 +791,8 @@
       "Name": "Des Schattenjägers Hinterhalt",
       "Description": "#Entfesselt eine unantastbare Kälte, die <color=#99FFFFFF>Kryo-Flächenschaden</color> verursacht, die Abklingzeit der Elementarfähigkeit „Treibeis-Druck“ zurücksetzt und Fréminet 10{NON_BREAK_SPACE}s lang in den Tauchhelm-Modus versetzt.\n\nIm Tauchhelm-Modus erhöht sich Fréminets Unterbrechungs-WDS und seiner Elementarfähigkeit „Treibeis-Druck“ werden folgende Boni verliehen:\n· Verkürzt die Abklingzeit um 70{NON_BREAK_SPACE}%.\n· Erhöht beim Ausführen des Standardangriffs die Pers-Uhr um eine weitere Stufe Druck. Außerdem erhöht sich der Schaden des durch Standardangriffe ausgelösten Frosts auf 200{NON_BREAK_SPACE}% des ursprünglichen Schadens.\n\nDieser Effekt wird aufgehoben, wenn Fréminet ausgewechselt wird.\n\n<i>„Jetzt ... brauche ich keine unnötigen Geräusche von außen.“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Freminet_01"
+      "Icon": "Skill_E_Freminet_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

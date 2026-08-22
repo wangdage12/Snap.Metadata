@@ -556,7 +556,8 @@
         "Name": "Frostüberzogene Felder",
         "Description": "Wirft eine Eisbombe in die Richtung des Ziels, die beim Aufkommen explodiert und <color=#99FFFFFF>Kryo-Schaden</color> verursacht, sich nach der Explosion aber in viele Kälteminen aufteilt, die bei Berührung mit Gegnern oder nach einer gewissen Zeit explodieren und dabei <color=#99FFFFFF>Kryo-Schaden</color> verursachen.\nVerringert den ANG mit Eisbomben oder Kälteminen getroffener Gegner und verleiht Aloy eine Stapelung des Effekts „Spule“.\nErhält alle 0,1 s höchstens 1 Stapelung des Effekts Spule.\n\n<color=#FFD780FF>Spule</color>\n· Erhöht den mit Aloys Standardangriffen verursachten Schaden gemäß der Menge an Stapelungen.\n· Beseitigt bei 4 Stapelungen Spule den gesamten Effekt von Spule und verleiht Aloy „Eisige Eile“, die den mit Standardangriffen verursachten Schaden zusätzlich erhöht und den mit Standardangriffen verursachten Schaden in <color=#99FFFFFF>Kryo-Schaden</color> umwandelt.\n\nAloy kann während des Zustands Eisige Eile nicht den Effekt Spule erhalten.\nDer Effekt Spule wird 30 s nach dem Verlassen des Kampfs entfernt.\n\n<i>Glaub mir, am Schnitt ist es noch viel kälter.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Aloy_01"
+        "Icon": "Skill_S_Aloy_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -710,7 +711,8 @@
       "Name": "Weissagung des Morgenlichts",
       "Description": "Wirft eine Energiezelle voller Kryo-Energie und lässt sie mit einem Pfeil explodieren, um <color=#99FFFFFF>Kryo-Flächenschaden</color> zu verursachen.\n\n<i>Ob „Zero Dawn“ nun Hoffnung oder Auslöschung bedeutet, ist mittlerweile unwichtig. Aloy hat bereits ihre eigene Welt gerettet, um deren Schicksal sich die Helden darin sorgen.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Aloy_01"
+      "Icon": "Skill_E_Aloy_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

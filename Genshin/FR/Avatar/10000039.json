@@ -509,7 +509,8 @@
         "Name": "Griffes Cryo",
         "Description": "Libère des griffes de chat Cryo qui infligent des <color=#99FFFFFF>DGT Cryo</color>, et génèrent un bouclier lorsqu'elles touchent.\nLe bouclier peut absorber une quantité de DGT proportionnelle aux PV max de Diona, et sa durée dépend du nombre de cibles touchées.\n\n<color=#FFD780FF>Appui simple</color>\nExécute rapidement deux attaques consécutives de Griffes Cryo.\n\n<color=#FFD780FF>Appui long</color>\nBat rapidement en retraite, et libère 5 Griffes Cryo.\nLe bouclier généré lors d'un appui long obtient un bonus de 75 % d'absorption de DGT.\n\nLe bouclier est efficace à 250 % contre les <color=#99FFFFFF>DGT Cryo</color>, et applique l'<color=#99FFFFFF>élément Cryo</color> au personnage déployé pendant un court instant lorsque le bouclier est généré.\n\n<i>En théorie, la glace versée dans un breuvage est sans danger pour celui qui le boit. Ceci était exact jusqu'à ce que Diona utilise son œil divin pour créer une glace capable de geler jusqu'au cerveau... 5 étoiles !</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Diona_01"
+        "Icon": "Skill_S_Diona_01",
+        "CdTime": 6
       }
     ],
     "SpecialSkills": [
@@ -750,7 +751,8 @@
       "Name": "Cuvée spéciale",
       "Description": "Diona lance un cocktail gelé de sa fabrication, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>, et génère un champ de vapeur d'alcool.\n\n<color=#FFD780FF>Champ de vapeur d'alcool</color>\n· Inflige aux ennemis présents dans la zone des <color=#99FFFFFF>DGT Cryo continus</color>.\n· Restaure les PV des personnages présents dans la zone.\n\n<i>Une recette que même Diona juge inhumaine. L'avant-goût terrifiant est mieux laissé aux ennemis... Nous ne parlerons pas de l'arrière-goût particulièrement frais qui en découle.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Diona_01"
+      "Icon": "Skill_E_Diona_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

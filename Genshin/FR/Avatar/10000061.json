@@ -601,7 +601,8 @@
         "Name": "Coup de patte miaou-téorite",
         "Description": "<color=#FFD780FF>Appui simple</color>\nSaute dans les airs avec l'agilité d'un chat passant à travers des buissons et frappe l'ennemi avec un coup de pied volant qui inflige des <color=#99FF88FF>DGT Dendro de zone</color> tout en déployant un bouclier de transport sécurisé et en accordant à Kirara une brève <color=#99FF88FF>application Dendro</color>. Le bouclier absorbe les <color=#99FF88FF>DGT Dendro</color> 250 % plus efficacement, et son absorption de DGT est basée sur les PV max de Kirara, mais ne dépassera pas un certain pourcentage de ses PV max. L'absorption de DGT restante d'un bouclier de transport sécurisé se cumulera si un autre bouclier de transport sécurisé est obtenu en même temps, tandis que sa durée sera réinitialisée.\n\n<color=#FFD780FF>Appui long</color>\nPoussée par son envie de « finir sa livraison en une demi-journée », Kirara déploie un bouclier de transport sécurisé identique à celui créé lors d'un appui simple et se recroqueville dans un colis express spécial avant d'entrer dans l'état Neko-colis urgent afin de se déplacer et de combattre plus rapidement.\n\n<color=#FFD780FF>Neko-colis urgent</color>\n· Inflige des <color=#99FF88FF>DGT Dendro</color> aux ennemis percutés, cet effet pouvant être déclenché sur un même ennemi une fois toutes les 0,5 s.\n· Dans cet état, la VIT de déplacement, la VIT d'escalade et la capacité de saut de Kirara augmentent, mais sa consommation d'endurance lors de l'escalade augmente également.\n· Lorsque la durée prend fin ou la capacité est utilisée une nouvelle fois, un coup de rectigriffes plus puissant que lors d'un appui simple est déclenché, infligeant des <color=#99FF88FF>DGT Dendro de zone</color>.\n· L'état Neko-colis urgent a une durée maximum de 10 s. Lorsque l'état prend fin, la capacité entre en TdR. Plus Kirara passe de temps dans cet état, plus le TdR est long.\n· Le sprint ou l'annulation volontaire de l'escalade mettra fin à l'état Neko-colis urgent plus tôt.\n\n<i>« Hmm, vous voulez connaître le secret pour une livraison rapide ? Eh bien, tout est dans les jambes ! »</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Momoka_01"
+        "Icon": "Skill_S_Momoka_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -787,7 +788,8 @@
       "Name": "Art secret : Livraison surprise",
       "Description": "Envoie un colis spécial en livraison recommandée aux brigands qui doivent être punis, infligeant des <color=#99FF88FF>DGT Dendro de zone</color>. Lorsque le colis spécial explose, il se divise en plusieurs <color=#FFD780FF>noix de cataire</color> qui explosent au contact d'un ennemi ou après un certain temps pour infliger des <color=#99FF88FF>DGT Dendro de zone</color>.\n\n<i>« Héhé. C'est fait tout spécialement pour faire face aux voleurs de colis ! Et n'oubliez pas de laisser une note de 5 étoiles ! »</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Momoka_01"
+      "Icon": "Skill_E_Momoka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

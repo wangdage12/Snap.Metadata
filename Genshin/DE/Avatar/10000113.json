@@ -446,7 +446,8 @@
         "Name": "Prophylaxe aus der Luft",
         "Description": "Zeit für die echten Kampfbrüder! Ifa fordert Cacucus Unterstützung an.\nNach dem Auslösen erhält Ifa 80 Nachtseelenpunkte und tritt in den Zustand {LINK#N11130003}<color=#FFD780FF>Nachtseelensegen</color>{/LINK} ein. Ifa schwebt in diesem Zustand dank Cacucus Unterstützung. Wenn Ifa während des Schwebens einen Standardangriff ausführt, verwendet er je nachdem, ob gedrückt oder gedrückt gehalten wird, unterschiedliche Arten von {LINK#N11130001}<color=#FFD780FF>„Unterstützungsfeuer“</color>{/LINK} und schießt dabei Elixierkugeln ab, die allen Truppenmitgliedern LP wiederherstellen können.\n\nFührt, wenn sich Ifa im Zustand Nachtseelensegen befindet und seine Elementarfähigkeit <color=#FFD780FF>Prophylaxe aus der Luft</color> durch Gedrückthalten einsetzt, einen mit Nachtseelen versehenen Angriff aus dem Fall aus. Wird die Fähigkeit losgelassen, so wird der Angriff aus dem Fall unterbrochen und der Schwebezustand wird aufrechterhalten. Beim Aufkommen des Angriffs aus dem Fall endet Ifas Nachtseelensegen.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Ifa_01"
+        "Icon": "Skill_S_Ifa_01",
+        "CdTime": 7.5
       }
     ],
     "EnergySkill": {
@@ -616,7 +617,8 @@
       "Name": "Sammelsedierungsfeld",
       "Description": "Schießt ein therapeutisches Sedativum auf Gegner, die sich noch immer nicht beruhigt haben. Beim Treffen des Gegners explodiert das Sedativum und erzeugt ein bändigendes Windfeld, das Gegner und Objekte in der Nähe anzieht und dabei mit Nachtseelen versehenen <color=#80FFD7FF>Anemo-Flächenschaden</color> verursacht.\nFügt, wenn die vom therapeutischen Sedativum getroffenen Gegner von <color=#80C0FFFF>Hydro</color>-, <color=#FF9999FF>Pyro</color>-, <color=#99FFFFFF>Kryo</color>- oder <color=#FFACFFFF>Elektro</color>-Kraft betroffen sind, diesen Gegnern den Effekt {LINK#N11130004}<color=#FFD780FF>„Sedierungsmarker“</color>{/LINK} zu.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Ifa_01"
+      "Icon": "Skill_E_Ifa_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

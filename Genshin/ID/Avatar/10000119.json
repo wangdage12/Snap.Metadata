@@ -590,7 +590,8 @@
         "Name": "Runo: Dawnless Rest of Karsikko",
         "Description": "Sambil merapalkan doa kuno dalam hati, Lauma mengaktifkan {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} yang akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nMembacakan Hymn of Hunting untuk mengakibatkan <color=#99FF88FF>Dendro DMG Area</color>.\n\n<color=#FFD780FF>Mode Tahan</color>\nDapat dilancarkan saat memiliki setidaknya 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}. Lauma akan mengonsumsi semua Verdant Dew untuk membacakan Hymn of Eternal Rest dan mengakibatkan satu kali <color=#99FF88FF>Dendro DMG Area</color> dan satu kali <color=#99FF88FF>Dendro DMG Area</color> yang dianggap sebagai DMG reaksi Lunar-Bloom. Setiap Verdant Dew yang dikonsumsi akan memberikan satu lapis {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK} kepada Lauma. Setiap kali melancarkan Elemental Skill dalam Mode Tahan, Lauma dapat mengonsumsi maksimum 3 Verdant Dew dengan cara ini.\n\nSelain itu, saat Elemental Skill Lauma atau serangan Frostgrove Sanctuary mengenai musuh, maka <color=#99FF88FF>Dendro RES</color> dan <color=#80C0FFFF>Hydro RES</color> musuh tersebut akan berkurang selama 10 detik.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo: All Hearts Become the Beating Moon",
       "Description": "Biarlah keinginan semua makhluk hidup berubah menjadi cahaya bulan yang menerangi bumi. Lauma merapalkan lagu suci dari ujung utara dan mendapatkan 18 lapis {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK}.\nSelain itu, jika Lauma melancarkan Elemental Burst saat memiliki {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}, atau saat ia mendapatkan Moon Song dalam 15 detik setelah melancarkan Elemental Burst, maka Lauma akan mengonsumsi semua Moon Song dan mendapatkan 6 lapis Pale Hymn untuk setiap lapis Moon Song yang dikonsumsi. Efek ini hanya dapat terpicu sekali setiap kali Lauma melancarkan Elemental Burst, termasuk periode 15 detik setelah melancarkan Elemental Burst yang disebutkan di atas.\n\n<color=#FFD780FF>Pale Hymn</color>\nSaat Karakter di sekitar dalam party mengakibatkan DMG reaksi Bloom, Hyperbloom, Burgeon, atau Lunar-Bloom, maka satu lapis Pale Hymn akan dikonsumsi untuk meningkatkan DMG yang diakibatkan. Jumlah peningkatan DMG ini didasarkan pada Elemental Mastery Lauma. Saat DMG yang disebutkan di atas mengenai beberapa musuh secara bersamaan, maka jumlah lapisan Pale Hymn yang dikonsumsi juga disesuaikan berdasarkan jumlah musuh yang terkena serangan.\nDurasi setiap lapis Pale Hymn akan dihitung secara terpisah.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

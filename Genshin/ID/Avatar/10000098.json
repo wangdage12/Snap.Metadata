@@ -678,7 +678,8 @@
         "Name": "Hunter's Vigil",
         "Description": "Mempersiapkan pistoletnya dan memasuki status \"Night Vigil\" yang menggabungkan pedang dan pistolet untuk bertarung. Dalam status ini, Normal Attack Clorinde akan dikonversi menjadi tembakan pistolet \"Swift Hunt\" dan DMG-nya dikonversi menjadi <color=#FFACFFFF>Electro DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya, dia juga tidak akan bisa melancarkan Charged Attack. Melancarkan Elemental Skill akan mengonversinya menjadi \"Impale the Night\": Melancarkan serangan terjangan yang mengakibatkan <color=#FFACFFFF>Electro DMG</color>. DMG yang diakibatkan dengan cara di atas akan dianggap sebagai DMG Normal Attack.\n\n<color=#FFD780FF>Swift Hunt</color>\n·Saat Bond of Life milik Clorinde lebih dari atau sama dengan 100% Max HP, akan melancarkan tembakan pistolet.\n·Saat Bond of Life miliknya lebih kecil dari 100% Max HP, makan menembakkan pistolet akan memberikan Clorinde Bond of Life dalam jumlah tertentu yang didasarkan pada Max HP Clorinde. Peluru yang ditembakkan dapat menembus musuh dan akan mengakibatkan DMG yang lebih besar terhadap musuh di sepanjang jalurnya.\n\n<color=#FFD780FF>Impale the Night</color>\nEfek Impale the Night akan ditentukan berdasarkan persentase Bond of Life milik Clorinde saat ini:\n·Jika Bond of Life miliknya adalah 0%, akan melancarkan serangan terjangan.\n·Jika Bond of Life miliknya kurang dari 100% Max HP, akan memulihkan HP Clorinde berdasarkan nilai Bond of Life-nya, serta meningkatkan radius serangan dan DMG serangan Impale the Night kali ini.\n·Saat Bond of Life lebih besar atau sama dengan 100% Max HP, Clorinde akan melancarkan Impale the Night: Pact yang memulihkan HP Clorinde dengan persentase lebih tinggi dan meningkatkan radius serangan dan DMG serangan Impale the Night kali ini lebih lanjut.\n\nSelain itu, saat Clorinde berada dalam status Night Vigil, efek pemulihan HP selain dari Impale the Night tidak akan efektif dan dikonversi menjadi Bond of Life milik Clorinde berdasarkan sejumlah persentase pemulihan HP yang diterima.\n\nStatus Night Vigil akan dihapus saat Clorinde meninggalkan medan pertempuran.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nSetiap beberapa saat, tembakan Swift Hunt Clorinde yang mengenai musuh akan menjatuhkan Surging Blade ke posisi musuh yang terkena serangan dan mengakibatkan Ousia-aligned <color=#FFACFFFF>Electro DMG</color>.\n\n<i>Meski kejahatan yang bersembunyi dalam bayang malam telah dibasmi selama ribuan tahun, namun hati manusia dipenuhi dengan awan bayangan yang tak bisa dijangkau oleh cahaya.\nBahkan sekarang, peringatan yang ditinggalkan oleh Golden Hunter sudah diukir dalam ingatannya: Those of the Night Vigil, peganglah tinggi-tinggi lilin yang sudah dinyalakan untuk melawan kegelapan, teruslah bersikap waspada, dan jangan sampai rusak oleh kegelapan yang dingin.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Clorinde_01"
+        "Icon": "Skill_S_Clorinde_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -848,7 +849,8 @@
       "Name": "Last Lightfall",
       "Description": "Memberikan Bond of Life berdasarkan Max HP Clorinde sendiri, lalu mengelak dengan gesit dan menyerang menggunakan pedang dan pistolet-nya, mengakibatkan <color=#FFACFFFF>Electro DMG Area</color>.\n\n<i>Konon katanya, seni kuno untuk melawan makhluk selain manusia adalah dengan tubuh manusia fana, ini bisa ditelusuri kembali pada zaman Lochknight yang melawan Kerajaan Remuria.\nMeski demikian, asalkan ada yang bisa menemukan cara untuk mengontrol level kekuatan yang digunakan, bukan berarti cara ini tidak akan bisa digunakan di dalam pertempuran dengan musuh biasa.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Clorinde_01"
+      "Icon": "Skill_E_Clorinde_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

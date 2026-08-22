@@ -542,7 +542,8 @@
         "Name": "Dominus Lapidis",
         "Description": "In den Bergen, auf und unter der Erde sowie in den Steinen, die überall herumliegen, steckt die Geo-Kraft. Nur äußerst wenige sind dazu in der Lage, diese Kraft aktiv zu nutzen.\n\n<color=#FFD780FF>Drücken</color>\nKonzentriert die überall auf der Erde vorhandene Geo-Kraft zu einem Hügelkamm.\n\n<color=#FFD780FF>Gedrückt halten</color>\nLässt Geo-Objekte in der Nähe explodieren und verursacht folgende Effekte:\n· Erstellt, solange die Höchstmenge nicht erreicht ist, einen Hügelkamm.\n· Erstellt einen Jadeblock, der Schaden basierend auf Zhonglis max. LP abhält.\n· Verursacht <color=#FFE699FF>Geo-Flächenschaden</color>.\n· Verbraucht bei Anwesenheit von Zielen mit <color=#FFE699FF>Geo</color>-Kraft die <color=#FFE699FF>Geo</color>-Kraft von bis zu zwei dieser Ziele. Dieser Effekt verursacht keinen Schaden.\n\n<color=#FFD780FF>Hügelkamm</color>\nVerursacht beim Entstehen <color=#FFE699FF>Geo-Flächenschaden</color>.\nVerursacht während der Wirkungsdauer eine Schwingung in Einklang mit anderen <color=#FFE699FF>Geo-Objekten</color> in der Umgebung, die Gegnern in der Umgebung <color=#FFE699FF>Geo-Schaden</color> zufügt.\nDer Hügelkamm gilt als <color=#FFE699FF>Geo-Objekt</color>, blockiert Angriffe und kann erklommen werden.\nStandardmäßig kann zu einem Zeitpunkt nur ein von Zhongli selbst erstellter Hügelkamm existieren.\n\n<color=#FFD780FF>Jadeblock-Schild</color>\nHält bei elementarem sowie physischem Schaden 150 % ab.\nVerringert den WDS gegen alle Elemente sowie den physischen WDS von Gegnern in der Nähe von Jadeblöcken geschützer Figuren mit geringer Reichweite um 20 %, nicht stapelbar.\n\n<i>Der Fels ist hart und schleift rohe Jade zu wertvollen Edelsteinen.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Zhongli_01"
+        "Icon": "Skill_S_Zhongli_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -712,7 +713,8 @@
       "Name": "Einstürzender Himmel",
       "Description": "Ein riesiger Meteorit fällt aus dem Himmel und fügt den Gegnern im Wirkungsbereich des Einschlags enormen <color=#FFE699FF>Geo-Schaden</color> sowie <color=#FFE699FF>Versteinert</color> zu.\n\n<color=#FFD780FF>Versteinert</color>\nGegner im Zustand <color=#FFE699FF>Versteinert</color> können sich nicht bewegen.\n\n<i>Ein aus dem Himmel fallender Meteorit hilft den Gerechten und bestraft die Unholde.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Zhongli_01"
+      "Icon": "Skill_E_Zhongli_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

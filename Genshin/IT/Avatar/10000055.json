@@ -463,7 +463,8 @@
         "Name": "Difesa a tutto tondo Inuzaka",
         "Description": "#Infligge <color=#FFE699FF>DAN da Geo ad area</color> e issa uno Stendardo bellico del generale.\n\n<color=#FFD780FF>Stendardo bellico del generale</color>\nConferisce fino a 3 effetti positivi ai personaggi attivi nell'area d'effetto dell'abilità, in base al numero di personaggi di <color=#FFE699FF>Geo</color> presenti nel gruppo al momento del lancio.\n· 1 personaggio di Geo: aggiunge Irremovibilità (bonus DIF).\n· 2 personaggi di Geo: aggiunge Impenetrabilità (resistenza all'interruzione aumentata).\n· 3 personaggi di Geo: aggiunge Scricchiolio (<color=#FFE699FF>bonus DAN da Geo</color>).\n\nGorou può schierare sul campo solo 1 Stendardo bellico del generale alla volta. I personaggi possono trarre vantaggio da solo 1 Stendardo bellico del generale alla volta. Quando un membro del gruppo lascia il campo di battaglia, l'effetto positivo attivo dura per 2{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Pressione prolungata</color>\nRegola la posizione dell'abilità.\n\n<i>\"Assumete questa formazione e saremo al sicuro, ve lo garantisco!\" Come generale e capo delle truppe, l'ultima cosa che Gorou vuole è vedere i suoi seguaci farsi male.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Gorou_01"
+        "Icon": "Skill_S_Gorou_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -649,7 +650,8 @@
       "Name": "Juuga: Avanti verso la vittoria",
       "Description": "#Dimostrando il suo valore come generale, Gorou infligge <color=#FFE699FF>DAN da Geo ad area</color> e crea un campo conosciuto come Gloria del generale per rinforzare i suoi compagni.\n\n<color=#FFD780FF>Gloria del generale</color>\nIl campo ha le seguenti proprietà:\n· similmente allo Stendardo bellico del generale creato da Difesa a tutto tondo Inuzaka, esso conferisce effetti positivi ai personaggi attivi all'interno dell'area d'effetto dell'abilità in base al numero di personaggi di <color=#FFE699FF>Geo</color> presenti nel gruppo. Inoltre, si muove insieme al tuo personaggio attivo;\n· genera 1 Crollo cristallino ogni 1,5{NON_BREAK_SPACE}s che infligge <color=#FFE699FF>DAN da Geo ad area</color> a 1 avversario all'interno dell'area d'effetto dell'abilità;\n· attira 1 frammento elementale nell'area d'effetto dell'abilità verso la posizione del tuo personaggio attivo ogni 1,5{NON_BREAK_SPACE}s (i frammenti elementali sono creati dalle reazioni di Cristallizzazione).\n\nSe uno Stendardo bellico del generale creato da Gorou è presente sul campo quando quest'abilità viene usata, sarà distrutto. Inoltre, mentre il campo Gloria del generale è attivo, l'abilità elementale di Gorou Difesa a tutto tondo Inuzaka non creerà lo Stendardo bellico del generale.\nSe Gorou finisce fuori combattimento, gli effetti di Gloria del generale saranno annullati.\n\n<i>\"Siamo in vantaggio!\" Gorou può modificare leggermente il terreno del campo di battaglia per aggiudicarsi la vittoria. Questa tecnica gli ha permesso di superare tante battaglie contro avversari apparentemente superiori.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Gorou_01"
+      "Icon": "Skill_E_Gorou_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

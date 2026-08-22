@@ -542,7 +542,8 @@
         "Name": "Enfer en fusion",
         "Description": "Cet art de combat, inventé par Dehya elle-même, change en fonction de la situation.\n\n<color=#FFD780FF>Flamme indomptable</color>\nSe déclenche si aucun sanctuaire ardent créé par Dehya n'est présent sur le champ de bataille.\nInflige des <color=#FF9999FF>DGT Pyro de zone</color> et crée une zone de sanctuaire ardent.\n\n<color=#FFD780FF>Champ flamboyant</color>\nSe déclenche si un sanctuaire ardent créé par Dehya est présent sur le champ de bataille.\nEffectue une attaque bondissante, infligeant des <color=#FF9999FF>DGT Pyro de zone</color>, et crée à nouveau une zone de sanctuaire ardent à l'emplacement de Dehya.\nUne zone de sanctuaire ardent créée de cette manière hérite de la durée de la zone d'origine.\n\nUn seul champ flamboyant peut être déclenché pendant la durée d'une zone de sanctuaire ardent.\n\n<color=#FFD780FF>Sanctuaire ardent</color>\nLorsqu'un ennemi dans la zone subit des DGT, le sanctuaire ardent déclenche une attaque coordonnée, lui infligeant des <color=#FF9999FF>DGT Pyro de zone</color> selon l'ATQ et les PV max de Dehya. Cet effet peut être déclenché une fois toutes les 2,5 s.\nLes personnages déployés dans la zone voient leur RÉS à l'interruption augmentée et lorsqu'ils subissent des DGT, une partie des DGT est atténuée et transférée dans le sang de crinière rouge, avant d'être subie par Dehya sur 10 s. Lorsque les DGT dans le sang de crinière rouge atteignent ou dépassent un certain pourcentage des PV max de Dehya, les DGT ne sont plus atténués.\n\nIl ne peut exister qu'un seul sanctuaire ardent créé par Dehya à la fois.\n\n<i>Marchons ensemble dans cette épreuve ardente, purifiant toute impureté, tout comme une bête de feu descendant dans les flammes !</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Dehya_01"
+        "Icon": "Skill_S_Dehya_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Morsure léonine",
       "Description": "#Libérant sa colère brûlante et jetant sa lame sur le côté comme s'il s'agissait d'un fardeau, Dehya entre dans l'état Lionne flamboyante et augmente sa RÉS à l'interruption.\nDans cet état, Dehya déchaîne automatiquement et de façon continue ses poings de crinière enflammée pour infliger des <color=#FF9999FF>DGT Pyro</color> selon son ATQ et ses PV max, et, une fois la durée écoulée, elle utilise son pied plongeant d'incinération qui inflige des <color=#FF9999FF>DGT Pyro de zone</color>, toujours selon son ATQ et ses PV max.\nSi une zone de sanctuaire ardent créée par la compétence élémentaire de Dehya « Enfer en fusion » est présente sur le champ de bataille lorsque cette capacité est utilisée, Dehya la récupère et en crée une autre à son nouvel emplacement une fois la durée de l'état Lionne flamboyante expirée. Cette nouvelle zone hérite alors de la durée de la zone précédente au moment de sa récupération.\nDans cet état, Dehya ne peut pas utiliser de compétence élémentaire, ni effectuer d'attaque normale, chargée ou plongeante. Son « Attaque normale{NON_BREAK_SPACE}:{NON_BREAK_SPACE}Assaut sablé » et sa compétence élémentaire « Enfer en fusion » sont remplacées par Raclée rugissante.\n\n<color=#FFD780FF>Raclée rugissante</color>\nLe déclenchement d'une raclée rugissante dans les 0,4 s après un poing de crinière enflammée accélère le déclenchement du prochain poing de crinière enflammée.\n\n<i>Même les flammes qui coulent doivent obéir à sa rage et sous ses ordres deviennent ses crocs et ses griffes.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Dehya_01"
+      "Icon": "Skill_E_Dehya_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

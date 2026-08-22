@@ -462,7 +462,8 @@
         "Name": "¡Adelante, turbogirador!",
         "Description": "#¡Lucha junto a su superadorable turbogirador!\nInvoca al turbogirador. Al mantener pulsado, Kachina invoca al turbogirador y se monta en él.\nAl usar esta habilidad, Kachina obtiene 60{NON_BREAK_SPACE}pts. de noctambulismo y entra en el estado de “bendición noctámbula”.\n\n<color=#FFD780FF>Bendición noctámbula: Kachina</color>\nLas acciones del turbogirador consumen pts. de noctambulismo.\nAl consumirlos todos, la duración del estado de bendición noctámbula de Kachina terminará.\n\n<color=#FFD780FF>Turbogirador</color>\nPuede estar en el campo de batalla de forma independiente o Kachina puede subirse a él para manejarlo. Mientras el turbogirador esté activo, la Habilidad Elemental de Kachina, “¡Adelante, turbogirador!”, se sustituye por las acciones de subirse o bajarse de dicho artilugio.\n·Cuando este esté en el campo de batalla de forma independiente, impactará contra el suelo cada cierto tiempo para infligir <color=#FFE699FF>Daño Geo en el AdE</color> de naturaleza noctámbula en función de la DEF de Kachina.\n·Cuando Kachina se sube al turbogirador, podrá controlarlo para moverse y escalar a gran velocidad. Además, al ejecutar un Ataque Normal, impactará contra el suelo e infligirá <color=#FFE699FF>Daño Geo en el AdE</color> de naturaleza noctámbula en función de su DEF.\n\nEl turbogirador se considera una creación Geo y desaparece cuando termina la duración de la bendición noctámbula de Kachina. Solo puede existir al mismo tiempo un turbogirador invocado por ella.\n\n<i>Puede que el turbogirador no parezca más que una simple peonza, pero en realidad es un taladro capaz de perforar hasta la más robusta de las rocas.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Kachina_01"
+        "Icon": "Skill_S_Kachina_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -632,7 +633,8 @@
       "Name": "¡Ahora voy en serio!",
       "Description": "Impacta contra el suelo para infligir <color=#FFE699FF>Daño Geo en el AdE</color> en función de la DEF de Kachina y crear un “área supergiratoria”.\nDicha área aumenta el AdE de ataque del turbogirador y su Vel. Movimiento cuando Kachina está subida en él.\n\nSi al usar esta habilidad ya hay en el campo de batalla un turbogirador invocado por Kachina, lo invocará para que aparezca a su lado.\n\n<i>Igual que alguien que está nervioso antes de dar un espectáculo se imagina que su público son muñecos, Kachina se imagina que sus enemigos son piedras preciosas que se puede llevar a casa para coleccionarlas.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Kachina_01"
+      "Icon": "Skill_E_Kachina_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

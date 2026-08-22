@@ -559,7 +559,8 @@
         "Name": "Lei Antiga: Segredo da Lanterna Solitária",
         "Description": "Flins invoca o poder antigo contido em sua lâmpada, e troca para o modo <color=#FFD780FF>Chama da Manifestação</color>. Nesse modo, ele possui as seguintes características:\n· Os Ataques Normais e Carregados de Flins passam a causar <color=#FFACFFFF>Dano Electro</color> que não pode ser substituído, e não é mais possível realizar Ataques Imersivos.\n· Aumenta a RES contra Interrupção de Flins.\n· Sua Habilidade Elemental <color=#FFD780FF>Lei Antiga: Segredo da Lanterna Solitária</color> será substituída pela Habilidade Elemental Especial <color=#FFD780FF>Lança Tempestuosa do Norte</color>.\n\n<color=#FFD780FF>Lança Tempestuosa do Norte</color>\nFlins invoca uma formação de lanças em sua frente, causando <color=#FFACFFFF>Dano Electro em AdE</color> e, nos próximos 6s seguintes, substitui o Supremo de Flins <color=#FFD780FF>Ritual Antigo: Visita Noturna</color> pelo Supremo especial {LINK#N11200001}<color=#FFD780FF>Sinfonia Trovejante</color>{/LINK}.\nA recarga base de <color=#FFD780FF>Lança Tempestuosa do Norte</color> é de 6s, essa recarga não é afetada por outros efeitos.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Flins_01"
+        "Icon": "Skill_S_Flins_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -793,7 +794,8 @@
       "Name": "Ritual Antigo: Visita Noturna",
       "Description": "Flins lança o poder real de sua lâmpada, causando <color=#FFACFFFF>Dano Electro em AdE</color>, e depois de um intervalo curto, causa <color=#FFACFFFF>Dano Electro em AdE</color> que divide-se em duas vezes de Fase Intermediária, e uma vez final é considerada Dano de Carga Lunar.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <color=#FFACFFFF>Dano Electro em AdE</color> de Fase Intermediária que é considerado Dano de Carga Lunar duas vezes adicionais.\n\nNos 6s depois de lançar a Habilidade Elemental especial <color=#FFD780FF>Lança Tempestuosa do Norte</color>, o Supremo de Flins <color=#FFD780FF>Ritual Antigo: Visita Noturna</color> será substituído pelo Supremo especial <color=#FFD780FF>Sinfonia Trovejante</color>.\n\n<color=#FFD780FF>Sinfonia Trovejante</color>\nUm Supremo especial que consome menos Energia Elemental para ser lançado. Flins causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez.\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Carga Lunar uma vez adicional.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Flins_01"
+      "Icon": "Skill_E_Flins_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

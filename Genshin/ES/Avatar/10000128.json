@@ -787,7 +787,8 @@
         "Name": "Tempestad precipitante",
         "Description": "#Muestra la esencia de la Técnica de espada Favonius con una fuerza absoluta y produce diferentes efectos dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSalta hacia delante para realizar un tajo que inflige <color=#80FFD7FF>Daño Anemo en el AdE</color> y entra en el modo de {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}.\nEn este modo, el daño de los Ataques Normales y Cargados de Varka aumentará y no podrá realizar Ataques Descendentes. Además, al ejecutar un Ataque Normal o Cargado, empuñará sus dos mandobles para infligir daño del elemento correspondiente en función de los tipos elementales de los personajes del equipo, el cual no puede sustituirse imbuyéndose de otro elemento.\nAsimismo, si en el equipo hay algún personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color> mientras Varka está en el modo de <color=#FFD780FF>Sturm und Drang</color>, su Habilidad Elemental, <color=#FFD780FF>Tempestad precipitante</color>, se remplazará por la Habilidad Elemental especial {LINK#N11280002}<color=#FFD780FF>Alzamiento de los Cuatro Vientos</color>{/LINK}, la cual infligirá tanto daño del elemento correspondiente como <color=#80FFD7FF>Daño Anemo</color>. Varka también podrá consumir usos de la Habilidad Elemental especial <color=#FFD780FF>Alzamiento de los Cuatro Vientos</color> para realizar el Ataque Cargado especial <color=#FFD780FF>Devorazul</color>, el cual no consume Aguante e inflige tanto daño del elemento correspondiente como <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nSalta hacia delante tras un tiempo de carga. Cuanto más largo sea este tiempo, más lejos saltará.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Varka_01"
+        "Icon": "Skill_S_Varka_01",
+        "CdTime": 16
       }
     ],
     "SpecialSkills": [
@@ -980,7 +981,8 @@
       "Name": "Soy el viento boreal",
       "Description": "Invocando el título del Caballero de Boreas más poderoso, ejecuta hacia delante dos potentes tajos consecutivos que infligen <color=#80FFD7FF>Daño Anemo</color> dos veces.\nSi en el equipo hay algún personaje <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> o <color=#99FFFFFF>Cryo</color>, el primer tajo infligirá daño del elemento correspondiente según dicho orden de prioridad.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Varka_01"
+      "Icon": "Skill_E_Varka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

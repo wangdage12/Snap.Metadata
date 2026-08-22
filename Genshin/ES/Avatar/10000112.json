@@ -494,7 +494,8 @@
         "Name": "Cocina a baja temperatura",
         "Description": "#¡Presencia la verdadera esencia de la cocina! Dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado, Escoffier mostrará diferentes técnicas culinarias, cada una de las cuales representa un orgullo para Fontaine.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nActiva el mecachef multitarea de amplio espectro en modo “crioalmacenamiento” e inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> a los enemigos cercanos.\n\n<color=#FFD780FF>Mecachef: modo crioalmacenamiento</color>\nEl mecachef sigue al personaje en uso y, cada cierto tiempo, lanza un parfait helado a los enemigos cercanos que inflige <color=#99FFFFFF>Daño Cryo</color>.\n\n<color=#FFD780FF>Arjé: ousía</color>\nCada cierto tiempo, cuando Escoffier activa el mecachef multitarea de amplio espectro en modo crioalmacenamiento, invoca un filo fluyente que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> cargado de energía ousía.\n\n<color=#FFD780FF>Mantener pulsado</color>\nActiva el mecachef en {LINK#N11120002}<color=#FFD780FF>modo cocina improvisada</color>{/LINK}.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Escoffier_01"
+        "Icon": "Skill_S_Escoffier_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -679,7 +680,8 @@
       "Name": "Técnica de corte",
       "Description": "En un alarde de su excepcional habilidad con el cuchillo, Escoffier inflige <color=#99FFFFFF>Daño Cryo en el AdE</color> y regenera Vida a todos los personajes cercanos del equipo en función del ATQ de Escoffier.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Escoffier_01"
+      "Icon": "Skill_E_Escoffier_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

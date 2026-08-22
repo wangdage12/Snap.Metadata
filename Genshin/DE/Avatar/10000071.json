@@ -479,7 +479,8 @@
         "Description": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\n\nWenn Cyno sich im Modus „Paktverschworener Pfadklärer“ befindet, den die Spezialfähigkeit „Heiliger Ritus – Schnelligkeit des Wolfs“ ausgelöst hat, führt er stattdessen den <color=#FFD780FF>Bestattungsritus</color> aus, der donnernd <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht und die Dauer des Modus „Paktverschworener Pfadklärer“ verlängert.\n\n<i>„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“</i>",
         "SpecialDescription": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <color=#FFACFFFF>Elektro-Schaden</color> zufügt.\n\nWenn Cyno sich im Zustand „Paktverschworener Pfadklärer“ befindet, führt er stattdessen den <color=#FFD780FF>Bestattungsritus</color> aus, der donnernd <color=#FFACFFFF>Elektro-Flächenschaden</color> verursacht. Verlängert, wenn Cyno durch die Spezialfähigkeit <color=#FFD780FF>Heiliger Ritus – Schnelligkeit des Wolfs</color> in den Modus „Paktverschworener Pfadklärer“ eintritt, beim Anwenden von <color=#FFD780FF>Bestattungsritus</color> zudem die Dauer des aktuellen Modus „Paktverschworener Pfadklärer“.\n\n<i>„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Cyno_01"
+        "Icon": "Skill_S_Cyno_01",
+        "CdTime": 7.5
       }
     ],
     "SpecialSkills": [
@@ -844,7 +845,8 @@
       "Name": "Heiliger Ritus – Schnelligkeit des Wolfs",
       "Description": "Beschwört einen göttlichen Geist, der Cyno in den „Paktverschworenen Pfadklärer“ verwandelt.\n\n<color=#FFD780FF>Paktverschworener Pfadklärer</color>\nWandelt den durch Cynos Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachten Schaden in <color=#FFACFFFF>Elektro-Schaden</color> um, der nicht von anderen Elementen überdeckt werden kann.\n· Erhöht Cynos Elementarkunde und Unterbrechungs-WDS. Verleiht ihm zugleich Immunität gegen Schaden, den die Reaktion „Unter Strom“ verursacht.\n\nDiese Effekte halten bis zu 18 s und werden entfernt, sobald Cyno ausgewechselt wird.\n\n<i>Die geheimen Riten der alten Zivilisation sind für Mahamatra auch der letzte Prozess.</i>\n<i>Ob die Vergangenheit oder die Gegenwart, ob Sturm oder Riesenschlange, nichts kann die Autorität des Gesetzes erschüttern.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Cyno_01"
+      "Icon": "Skill_E_Cyno_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

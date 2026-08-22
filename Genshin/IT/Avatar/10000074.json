@@ -477,7 +477,8 @@
         "Name": "Concentrazione solenne",
         "Description": "#Crea uno scudo noto come Cortina onirica che infligge <color=#99FFFFFF>DAN da Cryo ad area</color>.\nL'assorbimento DAN della Cortina onirica si basa sui PS max di Layla, e assorbe i <color=#99FFFFFF>DAN da Cryo</color> con un 250% di efficacia. Quando lo scudo è attivato, a Layla sarà applicato <color=#99FFFFFF>Cryo</color> per un breve periodo.\n\n<color=#FFD780FF>Stelle notturne e cadenti</color>\nMentre è attiva, la Cortina onirica creerà 1 Stella notturna ogni 1,5{NON_BREAK_SPACE}s. Quando un personaggio protetto da questo scudo userà un'abilità elementale, saranno generate 2 Stelle notturne. Le Stelle notturne si possono generare una volta ogni 0,3{NON_BREAK_SPACE}s. È possibile accumulare fino a 4 Stelle notturne ogni volta.\nIn presenza di avversari vicini, quando la Cortina onirica avrà accumulato 4 Stelle notturne, queste si trasformeranno in Stelle cadenti, che saranno scagliate in sequenza infliggendo <color=#99FFFFFF>DAN da Cryo</color> a tutti gli avversari colpiti.\nSe la Cortina onirica terminerà o verrà distrutta, le Stelle notturne scompariranno. Se saranno in procinto di trasformarsi in Stelle cadenti, queste ultime dureranno fino al termine dell'ondata dei colpi.\n\nNon saranno generate nuove Stelle notturne fin quando l'ondata successiva di Stelle cadenti non terminerà.\n\n<i>\"Io e lei siamo come due maestri artigiani che non si conoscono, ma che siedono sul medesimo cuscino mentre ricamano un unico fiore dei sogni.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Layla_01"
+        "Icon": "Skill_S_Layla_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -647,7 +648,8 @@
       "Name": "Culla dei sogni stellati",
       "Description": "#Attiva un'Onirisfera celestiale che scaglia continuamente Proiettili stellari contro gli avversari nell'area d'effetto, infliggendo <color=#99FFFFFF>DAN da Cryo</color>.\nQuando un Proiettile stellare fa centro, genera 1 Stella notturna per le Cortine oniriche vicine. In questo modo, ciascuna Cortina onirica può acquisire 1 Stella notturna ogni 0,5{NON_BREAK_SPACE}s.\n\n<i>\"Ora dormi... Che molti destini possano esserti rivelati all'interno dei tuoi sogni stellati.\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Layla_01"
+      "Icon": "Skill_E_Layla_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

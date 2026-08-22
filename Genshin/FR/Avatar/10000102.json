@@ -463,7 +463,8 @@
         "Name": "Squalisurf brise-vagues",
         "Description": "#En combinant ses connaissances du contrôle de vitesse et des marées, Mualani peut surfer n'importe où, n'importe quand.\nAprès utilisation, Mualani obtient 60 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<color=#FFD780FF>Bénédiction noctâme : Mualani</color>\nLa bénédiction noctâme de Mualani consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme de Mualani possède les propriétés spéciales suivantes :\n· En surfant sur la planche «{NON_BREAK_SPACE}Requinou{NON_BREAK_SPACE}», Mualani augmente sa VIT de déplacement et RÉS à l'interruption et peut se déplacer sur l'eau et sur le phlogistique liquide pendant la durée de l'état sans subir de DGT à cause de ce phlogistique liquide.\n· L'attaque normale de Mualani est convertie en morsure de Requinou, infligeant des <color=#80C0FFFF>DGT Hydro</color> infusés de noctâme selon les PV max de Mualani. Les morsures de Requinou peuvent être utilisées dans les airs et les DGT qu'elles infligent sont considérés comme des DGT d'attaque normale.\n· Lorsque Mualani touche un ennemi pendant cet état, elle lui applique une marque de proie et obtient 1 cumul d'élan houleux. Cet effet peut être cumulé 3 fois maximum, et un même ennemi peut accorder un cumul une fois toutes les 0,7 s.\n\n<color=#FFD780FF>Élan houleux et marque de proie</color>\nLorsque Mualani utilise une morsure de Requinou, les DGT infligés augmentent en fonction des cumuls d'élan houleux. Avec 3 cumuls, la morsure de Requinou de Mualani devient une morsure déferlante de Requinou, dont les DGT sont davantage augmentés, et qui consomme tous les cumuls d'élan houleux lorsqu'un ennemi est touché.\nLorsqu'une morsure de Requinou touche un ennemi, sa marque est annulée et des missiles de Requinou sont tirés sur un maximum de 5 ennemis à proximité avec une marque de proie, leur infligeant des dégâts d'une valeur équivalant à cette instance de morsure de Requinou et annulant leur marque. Si cette morsure de Requinou et ces missiles de Requinou ont plus d'une cible, les DGT infligés diminuent, ces DGT pouvant diminuer à une valeur minimale équivalant à 72 % des DGT d'origine lorsque 3 ennemis ou plus sont ciblés.\n\n<i>Déjà, Requinou est un requin d'eau douce en plus d'être une planche de surf. Et puis, même s'il n'a pas vraiment besoin de manger, il va quand même mordre.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Mualani_01"
+        "Icon": "Skill_S_Mualani_01",
+        "CdTime": 6
       }
     ],
     "EnergySkill": {
@@ -617,7 +618,8 @@
       "Name": "Requin-pact boum",
       "Description": "#Tire un super missile de Requinou qui peut suivre les ennemis, infligeant des <color=#80C0FFFF>DGT Hydro de zone</color> infusés de noctâme selon les PV max de Mualani.\n\n<i>Si Mualani a nommé ces missiles de Requinou ainsi, c'est à cause du mélange d'eau et de feu à l'intérieur, ce qui leur donne également un côté plus «{NON_BREAK_SPACE}thermal{NON_BREAK_SPACE}».</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Mualani_01"
+      "Icon": "Skill_E_Mualani_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

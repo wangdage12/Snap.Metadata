@@ -556,7 +556,8 @@
         "Name": "Espíritu exorcizador",
         "Description": "#Invoca una escarcha plateada para exorcizar el mal.\nAplica el efecto de “pluma glacial” sobre todos los personajes del equipo cercanos e inflige <color=#99FFFFFF>Daño Cryo</color> de maneras distintas dependiendo de si la habilidad se activó {LAYOUT_MOBILE#con un toque}{LAYOUT_PC#pulsando una vez}{LAYOUT_PS#pulsando una vez} o manteniendo pulsado.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nSe lanza al frente junto a un espíritu hechizado para infligir <color=#99FFFFFF>Daño Cryo</color> contra los enemigos en su camino.\n\n<color=#FFD780FF>Mantener pulsado</color>\nOrdena al espíritu hechizado que inflija <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n\n<color=#FFD780FF>Pluma glacial</color>\nCuando los Ataques Normales, Cargados o Descendentes o la Habilidad Elemental o Definitiva infligen <color=#99FFFFFF>Daño Cryo</color> contra un enemigo, el daño que infligen aumenta en proporción al ATQ actual de Shenhe.\n\nLos efectos de la pluma glacial desaparecerán cuando termine su duración o cuando se haya activado un número determinado de cargas. La pluma glacial activada manteniendo pulsado tiene una mayor duración y un mayor número de cargas que la activada {LAYOUT_MOBILE#con un toque}{LAYOUT_PC#pulsando una vez}{LAYOUT_PS#pulsando una vez}.\nAl golpear a varios enemigos a la vez con un golpe de <color=#99FFFFFF>Daño Cryo</color>, se consumirán cargas en función del número de enemigos golpeados. Los efectos y las cargas de la pluma glacial se calculan de manera independiente para cada personaje.\n\n<i>Que los espíritus tienen poder no es ninguna falsedad. Ahora, yo te ordeno que en el talismán has de entrar. ¡Ja!</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Shenhe_01"
+        "Icon": "Skill_S_Shenhe_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Encantamiento de la damisela divina",
       "Description": "Libera el poder del espíritu hechizado para que deambule por el mundo e inflija <color=#99FFFFFF>Daño Cryo en el AdE</color>.\nEl espíritu creará un área que reduce la <color=#99FFFFFF>RES Cryo</color> y la RES Física de los enemigos que haya dentro de ella, e inflige <color=#99FFFFFF>Daño Cryo</color> continuo contra dichos enemigos.\n\n<i>El camino de los Adeptus no se basa en algo abstracto y misterioso, sino en observar los cambios en el mundo y entender las leyes de causa y efecto de este plano para comprender su esencia.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Shenhe_01"
+      "Icon": "Skill_E_Shenhe_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

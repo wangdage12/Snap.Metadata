@@ -620,7 +620,8 @@
         "Name": "Pressurisation des floes",
         "Description": "Effectue une attaque ascendante infligeant des <color=#99FFFFFF>DGT Cryo</color> et fait entrer Fréminet dans l'état Indicateur de Pers pendant 10 s.\nDans cet état, sa compétence élémentaire devient un concassage pressurisé.\n\n<color=#FFD780FF>Concassage pressurisé</color>\nExécute différentes attaques selon le niveau de pression de l'indicateur de Pers, puis annule l'état.\n· Niveau 0 : Effectue une coupe verticale infligeant des <color=#99FFFFFF>DGT Cryo</color>.\n· Niveau I à III : Effectue une coupe verticale en coordination avec Pers, infligeant des <color=#99FFFFFF>DGT Cryo</color> et des DGT physiques, les DGT dépendant du niveau de pression.\n· Niveau IV : Utilise la puissance d'un Pers totalement pressurisé pour infliger des DGT physiques, ce niveau remplaçant également l'attaque normale « Tourbillon fluide » par un concassage pressurisé.\n\n<color=#FFD780FF>Indicateur de Pers</color>\nLorsque Fréminet utilise une attaque normale, il libère également un frimas infligeant des <color=#99FFFFFF>DGT Cryo</color> et augmente le niveau de pression de l'indicateur de Pers.\nCes <color=#99FFFFFF>DGT Cryo</color> sont considérés comme des DGT de compétence élémentaire.\n\n<color=#FFD780FF>Arkhe : Pneuma</color>\nRégulièrement, après avoir effectué une attaque ascendante, une épine d'inhalation prenant la forme d'une autre attaque ascendante est libérée pour infliger des <color=#99FFFFFF>DGT Cryo</color> chargés d'énergie pneuma.\n\n<i>Immobiliser son adversaire sans lui ôter la vie peut aussi être considéré comme une stratégie de « survie » que l'on peut choisir.</i>\n<i>« Pers... Je te laisse le reste. »</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Freminet_01"
+        "Icon": "Skill_S_Freminet_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -790,7 +791,8 @@
       "Name": "Embuscade du chassombre",
       "Description": "#Libère une vague de froid impalpable, infligeant des <color=#99FFFFFF>DGT Cryo de zone</color>, réinitialisant le TdR de la compétence élémentaire « Pressurisation des floes{NON_BREAK_SPACE}» et faisant passer Fréminet en mode traque pendant 10 s.\n\nDans cet état, sa RÉS à l'interruption augmente, et Pressurisation des floes bénéfice des bonus suivants :\n· Son TdR diminue de 70 %.\n· Les attaques normales accordent à l'indicateur de Pers un niveau de pression supplémentaire, et leur frimas inflige des DGT d'une valeur équivalant à 200 % de leurs DGT d'origine.\n\nCet effet cesse lorsque Fréminet quitte le champ de bataille.\n\n<i>« Maintenant... Je n'ai besoin d'aucun bruit superflu. »</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Freminet_01"
+      "Icon": "Skill_E_Freminet_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

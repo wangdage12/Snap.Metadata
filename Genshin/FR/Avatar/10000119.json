@@ -590,7 +590,8 @@
         "Name": "Runo : Repos sans aube de karsikko",
         "Description": "Lauma récite silencieusement un hymne ancien, invoquant un {LINK#N11190001}<color=#FFD780FF>sanctuaire du givrebois</color>{/LINK} : différents effets se produisent selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nLauma entonne un hymne de chasse, infligeant des <color=#99FF88FF>DGT Dendro de zone</color>.\n\n<color=#FFD780FF>Appui long</color>\nUtilisable si Lauma possède au moins 1 {LINK#N11190008}<color=#FFD780FF>rosée verdoyante</color>{/LINK} : Lauma consomme toutes ses rosées verdoyantes pour entonner un hymne de repos éternel infligeant une fois des <color=#99FF88FF>DGT Dendro de zone</color> et une fois des <color=#99FF88FF>DGT Dendro de zone</color> considérés comme des DGT de réaction de Sélénofleurissement. Chaque rosée verdoyante consommée accorde à Lauma 1 cumul de {LINK#N11190002}<color=#FFD780FF>chant lunaire</color>{/LINK}. Un maximum de 3 rosées verdoyantes peut être consommé de cette manière à chaque appui long de la compétence élémentaire.\n\nDe plus, lorsque Lauma touche un ennemi avec une compétence élémentaire ou une attaque de son sanctuaire du givrebois, la <color=#99FF88FF>RÉS Dendro</color> et la <color=#80C0FFFF>RÉS Hydro</color> de ce dernier diminuent pendant 10 s.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo : Cœurs devenant la lune battante",
       "Description": "Espérant que les souhaits de tous les êtres deviennent comme le clair de lune qui baigne la terre, Lauma entonne un chant sacré du grand nord, obtenant 18 cumuls d'{LINK#N11190003}<color=#FFD780FF>hymne pâle</color>{/LINK}.\nDe plus, lorsque Lauma utilise son déchaînement élémentaire alors qu'elle possède des cumuls de {LINK#N11190002}<color=#FFD780FF>chant lunaire</color>{/LINK} ou en obtient moins de 15 s après l'utilisation de son déchaînement élémentaire, elle consomme tous ses cumuls de chant lunaire et obtient 6 cumuls d'hymne pâle par cumul de chant lunaire consommé. Cet effet peut être déclenché une fois pendant les 15 s qui suivent l'utilisation d'un déchaînement élémentaire.\n\n<color=#FFD780FF>Hymne pâle</color>\nLorsqu'un personnage de l'équipe à proximité inflige des DGT avec une réaction de Fleurissement, d'Exubérance, de Bourgeonnement ou de Sélénofleurissement, un cumul d'hymne pâle est consommé pour augmenter les DGT infligés selon la maîtrise élémentaire de Lauma. Un nombre de cumuls égal au nombre d'ennemis touchés sera consommé si ces DGT touchent plusieurs ennemis en même temps.\nLa durée de chaque cumul d'hymne pâle est calculée de façon indépendante.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

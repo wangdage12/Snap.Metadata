@@ -542,7 +542,8 @@
         "Name": "Dominus lapidis",
         "Description": "#Ogni montagna, roccia e centimetro di terra trabocca del potere di Geo, ma coloro che sanno brandire liberamente questo potere sono molto rari.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nComanda il potere della terra per creare una Stele di pietra.\n\n<color=#FFD780FF>Pressione prolungata</color>\nLa vicina energia di Geo esplode, causando i seguenti effetti:\n· crea una Stele di pietra, se non n'è ancora stato raggiunto il numero massimo;\n· crea uno Scudo di giada. L'assorbimento DAN dello scudo varia in base ai PS max di Zhongli;\n· infligge <color=#FFE699FF>DAN da Geo ad area</color>;\n· se ci sono avversari vicini con l'<color=#FFE699FF>elemento Geo</color>, assorbirà una quantità ingente di <color=#FFE699FF>elemento Geo</color> da un massimo di 2 di questi bersagli. Questo effetto non infligge DAN.\n\n<color=#FFD780FF>Stele di pietra</color>\nQuando viene creata, infligge <color=#FFE699FF>DAN da Geo ad area</color>.\nInoltre, crea una risonanza a intermittenza con altri <color=#FFE699FF>costrutti di Geo</color> nelle vicinanze, infliggendo <color=#FFE699FF>DAN da Geo</color> agli avversari vicini.\nLa Stele di pietra è considerata un <color=#FFE699FF>costrutto di Geo</color> che si può sia scalare che usare per bloccare gli attacchi.\nIn un dato momento, può esistere inizialmente una sola Stele creata da Zhongli in persona.\n\n<color=#FFD780FF>Scudo di giada</color>\nPossiede un 150% di assorbimento DAN contro tutti i DAN fisici ed elementali.\nI personaggi protetti dallo Scudo di giada riducono di un 20% la RES elementale e la RES fisica degli avversari in una piccola area d'effetto. Questo effetto non è cumulabile.\n\n<i>Un vero maestro della pietra sa incidere la giada e plasmare l'oro.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Zhongli_01"
+        "Icon": "Skill_S_Zhongli_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -712,7 +713,8 @@
       "Name": "Pioggia meteoritica",
       "Description": "Attira verso il suolo un meteorite cadente che infligge ingenti <color=#FFE699FF>DAN da Geo</color> agli avversari che si trovano nella sua area d'effetto e applica lo stato di <color=#FFE699FF>Pietrificazione</color>.\n\n<color=#FFD780FF>Pietrificazione</color>\nGli avversari affetti da questo stato non possono muoversi.\n\n<i>Lo schianto del meteorite punisce gli ingiusti.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Zhongli_01"
+      "Icon": "Skill_E_Zhongli_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

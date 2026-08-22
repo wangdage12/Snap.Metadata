@@ -510,7 +510,8 @@
         "Name": "Esquemas Universais",
         "Description": "Envia vínculos cármicos de madeira e árvore a partir de seu lado, infligindo <color=#99FF88FF>Dano Dendro em uma AdE</color> e marcando até 8 oponentes atingidos com a Semente Skandha.\nQuando usada no modo Manter Pressionado, essa habilidade será acionada de maneira diferente.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no modo de mira, que permite escolher um certo número de oponentes dentro de uma certa AdE. Durante esse tempo, a Resistência contra Interrupção de Nahida será aumentada.\nQuando o modo de mira acabar, essa habilidade causará <color=#99FF88FF>Dano Dendro</color> a esses oponentes e os marcará com a Semente Skandha.\nO modo de mira durará até 5s e pode selecionar no máximo 8 oponentes.\n\n<color=#FFD780FF>Semente Skandha</color>\nOponentes que foram marcados pela Semente Skandha serão conectados uns aos outros até uma certa distância.\nDepois de causar Reações Elementais em oponentes afetados pelas Sementes Skandha ou quando eles recebem Dano de Núcleos Dendro (incluindo Dano de Germinação e Superflorescimento), Nahida irá liberar a Purificação Tricármica nesses oponentes e em todos os oponentes conectados, causando <color=#99FF88FF>Dano Dendro</color> com base em seu ATQ e Proficiência Elemental.\nSó é possível ativar até 1 Purificação Tricármica dentro de um curto período de tempo.\n\n<i>Lo, o deus da grama e das árvores, mostra sua verdade universal no vazio, iluminando a origem e a destruição dos três carmas.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Nahida_01"
+        "Icon": "Skill_S_Nahida_01",
+        "CdTime": 5
       }
     ],
     "EnergySkill": {
@@ -760,7 +761,8 @@
       "Name": "Coração Ilusório",
       "Description": "Manifesta o Palácio dos Sonhos, criando o campo do Santuário de Maya.\n\nSe houverem personagens dos tipos elementais abaixo quando o campo é criado, gera os seguintes efeitos:\n· <color=#FF9999FF>Pyro</color>: quando Nahida está no Santuário de Maya, aumenta o Dano infligido por Purificação Tricármica de sua Habilidade Elemental \"Esquemas Universais\";\n· <color=#FFACFFFF>Electro</color>: quando Nahida está no Santuário de Maya, reduz o intervalo para desencadear Purificação Tricármica de sua Habilidade Elemental \"Esquemas Universais\";\n· <color=#80C0FFFF>Hydro</color>: estende a duração do Santuário de Maya.\n\nAo criar esse campo, se houverem pelo menos 2 personagens dos tipos elementais citados acima, o efeito correspondente será mais fortalecido.\n\nMesmo que Nahida não esteja ativa no campo de batalha, poderá obter os efeitos de aumento descritos acima se membros da equipe estiverem dentro do Santuário de Maya.\n\n<i>Para a Deusa da Sabedoria, talvez tudo que vive sob as árvores seja apenas um sonho passageiro de ponta-cabeça para a Deusa.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Nahida_01"
+      "Icon": "Skill_E_Nahida_01",
+      "CdTime": 13.5
     },
     "Inherents": [
       {

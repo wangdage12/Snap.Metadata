@@ -590,7 +590,8 @@
         "Name": "Runo – Ewiger Schlaf am Karsikko",
         "Description": "#Psalmodiert lautlos eine uralte Hymne und erschafft damit ein {LINK#N11190001}<color=#FFD780FF>Heiligtum des Frostwaldes</color>{/LINK}. Verursacht je nachdem, ob gedrückt oder gedrückt gehalten wird, unterschiedliche Effekte.\n\n<color=#FFD780FF>Drücken</color>\nPsalmodiert einen Bittgesang zur Jagd und verursacht <color=#99FF88FF>Dendro-Flächenschaden</color>.\n\n<color=#FFD780FF>Gedrückt halten</color>\nKann ausgelöst werden, wenn mindestens 1 Stapelung {LINK#N11190008}<color=#FFD780FF>Grünender Tau</color>{/LINK} vorhanden ist. Lauma verbraucht den gesamten Grünenden Tau und psalmodiert einen Bittgesang zum ewigen Schlaf, der 1-mal <color=#99FF88FF>Dendro-Flächenschaden</color> verursacht und 1-mal <color=#99FF88FF>Dendro-Flächenschaden</color>, der als Schaden der Reaktion Mondspross gilt. Verleiht Lauma für jede Stapelung verbrauchten Grünenden Tau eine Stapelung {LINK#N11190002}<color=#FFD780FF>„Mondgesang“</color>{/LINK}. Auf diese Weise können bei jeder Anwendung der Elementarfähigkeit durchs Gedrückthalten bis zu 3 Stapelungen Grünender Tau verbraucht werden.\n\nVerringert außerdem 10{NON_BREAK_SPACE}s lang den <color=#99FF88FF>Dendro-WDS</color> sowie den <color=#80C0FFFF>Hydro-WDS</color> der von Laumas Elementarfähigkeit oder Angriffen des Heiligtums des Frostwaldes getroffenen Gegner.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo – Vereint im Monde",
       "Description": "#Lässt die Wünsche der Lebewesen zu Mondlicht werden, das die Erde erhellt. Lauma psalmodiert lautlos einen heiligen Gesang des hohen Nordens und erhält 18 Stapelungen {LINK#N11190003}<color=#FFD780FF>„Aschfahler Bittgesang“</color>{/LINK}.\nVerbraucht außerdem, wenn Lauma ihre Spezialfähigkeit anwendet, während sie über „Mondgesang“ verfügt, oder wenn sie innerhalb von 15{NON_BREAK_SPACE}s nach Anwenden ihrer Spezialfähigkeit „Mondgesang“ erhält, alle Stapelungen von {LINK#N11190002}<color=#FFD780FF>Mondgesang</color>{/LINK} und erhält für jede verbrauchte Stapelung 6 Stapelungen „Aschfahler Bittgesang“. Dieser Effekt kann beim Auslösen ihrer Spezialfähigkeit sowie innerhalb von 15{NON_BREAK_SPACE}s nach dem Auslösen ihrer Spezialfähigkeit nur einmal ausgelöst werden.\n\n<color=#FFD780FF>Aschfahler Bittgesang</color>\nVerbraucht, wenn ein Truppenmitglied in der Nähe die Reaktionen Sprießen, Supraspross, Flammenspross oder Mondspross auslöst, 1 Stapelung von „Aschfahler Bittgesang“ und erhöht damit den verursachten Schaden basierend auf Laumas Elementarkunde. Verbraucht, wenn der oben beschriebene Schaden gleichzeitig mehrere Gegner trifft, so viele Stapelungen „Aschfahler Bittgesang“, wie Gegner getroffen werden.\nDie Wirkungsdauer jeder Stapelung von „Aschfahler Bittgesang“ wird unabhängig voneinander berechnet.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

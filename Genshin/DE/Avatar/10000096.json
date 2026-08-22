@@ -586,7 +586,8 @@
         "Name": "Alles wird zu Staub",
         "Description": "#Ruft die Blutflammen des Mondes des Verderbens herbei, um Unheil zu stiften, und fügt mehreren Gegnern in der Nähe <color=#FF9999FF>Pyro-Schaden</color> zu. Stößt außerdem auf einen dieser Gegner zu und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>.\nFügt beim Treffen von Gegnern mit diesem Angriff diesen Gegnern „Blutige Vergeltung“ zu.\n\n<color=#FFD780FF>Blutige Vergeltung</color>\n· Hält 30{NON_BREAK_SPACE}s, fügt Gegnern alle 5{NON_BREAK_SPACE}s 1-mal, aber insgesamt bis zu 2-mal <color=#FF9999FF>Pyro-Schaden</color> zu. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.\n· Arlecchino sammelt beim Einsatz von heftigen Schlägen oder beim Anwenden ihrer Spezialfähigkeit „Aufgehen des Mondes des Verderbens“ die „Blutige Vergeltung“ in der Umgebung ein und entfernt sie damit. Erhält für jede eingesammelte „Blutige Vergeltung“ Eid des Lebens in Höhe von 65{NON_BREAK_SPACE}% ihrer max. LP.\n· Bringt Arlecchino innerhalb von 35{NON_BREAK_SPACE}s nach dem Anwenden der Elementarfähigkeit durch „Blutige Vergeltung“ höchstens Eid des Lebens in Höhe von 145{NON_BREAK_SPACE}% ihrer max. LP. Wenn die Elementarfähigkeit während der Dauer erneut angewendet wird, werden die Dauer und der max. Wert von „Eid des Lebens“, den „Blutige Vergeltung“ gewähren kann, neu berechnet.\n\n<i>Sie ist der Meinung, dass nicht jedes einzelne Weizenkorn, das auf die Erde fällt, zu einer Ähre heranwächst, sondern eventuell einfach lautlos verrottet. Diejenigen, die sich ihr in den Weg stellen, können auf diese Weise aber sicherlich als Nährstoff für die Blumen dienen.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Arlecchino_01"
+        "Icon": "Skill_S_Arlecchino_01",
+        "CdTime": 30
       }
     ],
     "EnergySkill": {
@@ -786,7 +787,8 @@
       "Name": "Aufgehen des Mondes des Verderbens",
       "Description": "Schwingt die Flügel aus Blutflammen des Mondes des Verderbens, sammelt die Blutige Vergeltung in ihrer Umgebung ein, entfernt sie und verursacht <color=#FF9999FF>Pyro-Flächenschaden</color>, überspringt danach die Abklingzeit der Elementarfähigkeit „Alles wird zu Staub“ und stellt sich selbst LP basierend auf dem Wert von „Eid des Lebens“ und ihrem ANG wieder her.\n\n<i>In Teyvat geht man allgemein davon aus, dass alle Mondphasen außer dem Vollmond für Verderben stehen und nur in der Alchimie und Astrologie verwendet werden.\nIn ihren Träumen hat sie diesen blutroten Mond schon häufig gesehen. Doch ist dies ein Zeichen des Verderbens? Ja, und zwar für diejenigen, die sie verärgern.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Arlecchino_01"
+      "Icon": "Skill_E_Arlecchino_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

@@ -620,7 +620,8 @@
         "Name": "Criopresurización",
         "Description": "#Ejecuta un ataque ascendente que inflige <color=#99FFFFFF>Daño Cryo</color> y hace que Fréminet entre en el estado de “hora de Pers” durante 10{NON_BREAK_SPACE}s.\nEn este estado, la Habilidad Elemental de Fréminet se convierte en Presión quebrantadora.\n\n<color=#FFD780FF>Presión quebrantadora</color>\nEjecuta distintos ataques en función del nivel de presión de hora de Pers y cancela dicho estado.\n·Nivel 0: realiza un corte vertical que inflige <color=#99FFFFFF>Daño Cryo</color>.\n·Niveles 1-3: junto a Pers, realiza un corte vertical que inflige <color=#99FFFFFF>Daño Cryo</color> y Daño Físico. El daño infligido varía en función del nivel de presión.\n·Nivel{NON_BREAK_SPACE}4: toma prestado todo el poder de un Pers completamente presurizado para infligir Daño Físico. Además, el Ataque Normal: Espada vortiginosa se convierte en Presión quebrantadora.\n\n<color=#FFD780FF>Hora de Pers</color>\nCuando Fréminet ejecuta un Ataque Normal, al mismo tiempo libera unas oleadas de escarcha que infligen <color=#99FFFFFF>Daño Cryo</color> y aumenta el nivel de presión de hora de Pers.\nEl <color=#99FFFFFF>Daño Cryo</color> infligido de esta forma se considera Daño de Habilidad Elemental.\n\n<color=#FFD780FF>Arjé: pneuma</color>\nCada cierto intervalo de tiempo, tras realizar su ataque ascendente, Fréminet crea una espina halitoespiritual que ejecuta otro ataque ascendente y que inflige <color=#99FFFFFF>Daño Cryo</color> cargado de energía pneuma.\n\n<i>Inmovilizar al oponente sin arrebatarle la vida podría considerarse una estrategia de supervivencia.</i>\n<i>“Pers, cuento contigo”.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Freminet_01"
+        "Icon": "Skill_S_Freminet_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -790,7 +791,8 @@
       "Name": "Emboscada cazasombras",
       "Description": "#Libera una ola de frío intocable que inflige <color=#99FFFFFF>Daño Cryo en el AdE</color>, reinicia el TdE de la Habilidad Elemental, “Criopresurización”, y hace que Fréminet entre en modo “acecho subacuático” durante 10{NON_BREAK_SPACE}s.\n\nEn este estado, aumenta la RES a interrupción de Fréminet, y Criopresurización obtiene los siguientes fortalecimientos:\n·Su TdE se reduce en un 70%.\n·Al ejecutar un Ataque Normal, el nivel de presión de hora de Pers aumenta en un nivel adicional y las oleadas de escarcha liberadas con el Ataque Normal infligen un 200% de su daño original.\n\nEste efecto se anulará si Fréminet abandona el campo de batalla.\n\n<i>“Ahora... no necesito ningún ruido externo”.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Freminet_01"
+      "Icon": "Skill_E_Freminet_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

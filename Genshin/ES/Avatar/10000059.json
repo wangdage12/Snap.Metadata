@@ -509,7 +509,8 @@
         "Name": "Puñetazo cardiaco",
         "Description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nCrea una ráfaga de viento para ejecutar un puñetazo cardiaco que inflige <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nAcumula fuerza para ejecutar un puñetazo aún más poderoso. Durante el tiempo de carga, obtiene el efecto de “decantación”, el cual aumenta continuamente la fuerza del puñetazo cardiaco. Al dejar de pulsar la habilidad o cuando termine su tiempo de carga, ejecuta un puñetazo cardiaco hacia delante que inflige <color=#80FFD7FF>Daño Anemo</color>.\n\n<color=#FFD780FF>Decantación</color>\nAumenta el daño infligido por el puñetazo cardiaco. Este efecto puede acumularse hasta 4 veces.\nAl tener 4 cargas de decantación, se crea el efecto de “convicción”, el cual aumenta aún más el daño y el AdE del puñetazo cardiaco.\n\n<i>A simple vista, puede parecer un simple puñetazo, pero en realidad refleja la insistencia de Heizou en que los delincuentes admitan su culpa y confiesen.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Heizo_01"
+        "Icon": "Skill_S_Heizo_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -679,7 +680,8 @@
       "Name": "Patada huracanada",
       "Description": "Salta y le da una patada a una bomba de vacío de técnica Fudou que, al golpear al enemigo, explota, crea un túnel de viento apresador que atrae a los objetos y enemigos cercanos e inflige <color=#80FFD7FF>Daño Anemo en el AdE</color>.\nCuando la bomba de vacío golpea a un enemigo afectado por <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, aplicará sobre él el efecto de “ojo del tifón”, el cual explotará y desaparecerá para infligir Daño en el AdE del elemento correspondiente.\nLa bomba de vacío de técnica Fudou solo podrá aplicar el ojo del tifón sobre un máximo de 4 enemigos golpeados, y cada enemigo no podrá ser afectado por un ojo del tifón de varios elementos distintos al mismo tiempo.\n\n<i>Heizou canaliza el elemento Anemo para ejecutar este movimiento especial, con el cual da una patada por la espalda a los delincuentes cuando los descubre o cuando intentan huir.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Heizo_01"
+      "Icon": "Skill_E_Heizo_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

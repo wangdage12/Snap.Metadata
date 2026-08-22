@@ -619,7 +619,8 @@
         "Name": "Danse lente : Transe nocturne fantôme",
         "Description": "Avec des pas de danse lents et gracieux, Odette inflige des <color=#99FFFFFF>DGT Cryo de zone</color> et invoque sa {LINK#N11500001}<color=#FFD780FF>doublure de danse solo</color>{/LINK}.\nSi une <color=#FFD780FF>doublure de danse solo</color> invoquée par Odette est sur le terrain, elle est invoquée à nouveau et sa durée est réinitialisée.\n\n<color=#FFD780FF>Doublure de danse solo</color>\nAlterne entre la danse de type <color=#FFD780FF>Plume</color> et celle de type <color=#FFD780FF>Aile</color>, attaquant de façon intermittente les ennemis proches avec des mouvements élégants et légers afin de leur infliger des <color=#99FFFFFF>DGT Cryo de zone</color>.\nDe plus, la compétence élémentaire <color=#FFD780FF>Danse lente : Transe nocturne fantôme</color> d'Odette est remplacée par la compétence élémentaire spéciale {LINK#N11500002}<color=#FFD780FF>Danse lente : Final de l'aube</color>{/LINK}{LINK#N11500004}{/LINK} pendant 6 s lorsque Odette a utilisé sa compétence élémentaire <color=#FFD780FF>Danse lente : Transe nocturne fantôme</color>. Cette nouvelle danse en duo inflige des <color=#99FFFFFF>DGT Cryo de zone</color> de façon continue aux ennemis proches, puis une instance supplémentaire de <color=#99FFFFFF>DGT Cryo de zone</color> considérés comme des DGT de réaction d'Astroconduction ou d'Astrodispersion est infligée à la fin de la danse en duo.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Odette_01"
+        "Icon": "Skill_S_Odette_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -837,7 +838,8 @@
       "Name": "Danse rapide : Rêve de plumes noires",
       "Description": "#Avec des pas de danse rapides et vifs, Odette inflige plusieurs fois des <color=#99FFFFFF>DGT Cryo de zone</color>, invoque sa {LINK#N11500001}<color=#FFD780FF>doublure de danse solo</color>{/LINK} et obtient l'effet <color=#FFD780FF>Rêve du cygne des neiges</color> : augmente les DGT des réactions astrales infligées par Odette.\nDe plus, la compétence élémentaire <color=#FFD780FF>Danse lente : Transe nocturne fantôme</color> d'Odette est remplacée par la compétence élémentaire spéciale {LINK#N11500002}<color=#FFD780FF>Danse lente : Final de l'aube</color>{/LINK}{LINK#N11500004}{/LINK} pendant 6 s lorsque Odette a utilisé son déchaînement élémentaire <color=#FFD780FF>Danse rapide{NON_BREAK_SPACE}: Rêve de plumes noires</color>.\n\nSi une doublure de danse solo invoquée par Odette est sur le terrain, elle est appelée à ses côtés et sa durée est réinitialisée.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Odette_01"
+      "Icon": "Skill_E_Odette_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

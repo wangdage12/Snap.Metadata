@@ -542,7 +542,8 @@
         "Name": "Ateşten Kafes",
         "Description": "Dehya'nın kendi icadı olan bu teknik, savaş durumuna göre kullanım şeklini değiştirir.\n\n<color=#FFD780FF>Yenilmez Alev</color>\nBu beceri, mevcut durumda Dehya'nın oluşturmuş olduğu bir Yakıcı Sığınak alanı yoksa kullanılabilir.\n<color=#FF9999FF>Ateş Alan Hasarı</color> verir ve Yakıcı Sığınak olarak bilinen bir alan oluşturur.\n\n<color=#FFD780FF>Alevli Kılıç</color>\nBu beceri, mevcut durumda Dehya'nın oluşturmuş olduğu bir Yakıcı Sığınak varsa kullanılabilir.\nDehya, bir atlama saldırısı yaparak <color=#FF9999FF>Ateş Alan Hasarı</color> verir ve indiği yerde bir Yakıcı Sığınak alanı oluşturur.\nBu şekilde oluşturulan bir Yakıcı Sığınak alanı, önceki alanın kalan süresini devralır.\n\nBir Yakıcı Sığınak alanının süresi boyunca Alevli Kılıç sadece bir defa kullanılabilir.\n\n<color=#FFD780FF>Yakıcı Sığınak</color>\nYakıcı Sığınak alanındaki bir düşman Hasar aldığında alan, bir ortak saldırı başlatarak düşmanlara Dehya'nın Saldırısı ve Maks. Canına göre <color=#FF9999FF>Ateş Alan Hasarı</color> verir. Bu etki her 2,5 saniyede bir tetiklenebilir.\nBu alandaki aktif karakterlerin müdahaleye karşı dirençleri artar ve bu karakterler Hasar aldığında bu hasarın bir kısmı azaltılır ve Kızıl Yele Kanına geçer. Dehya, daha sonra bu Hasarı 10sn boyunca alır. Kızıl Yele Kanı tarafından biriktirilen azaltılmış Hasar, Dehya'nın Maks. Canının belirli bir oranına ulaştığında veya bu oranı aştığında Dehya artık bu şekilde Hasar azaltmaz.\n\nDehya'nın oluşturmuş olduğu Yakıcı Sığınaklardan aynı anda sadece 1 tane var olabilir.\n\n<i>Tıpkı bir alev canavarının alevler içinde ilerlediği gibi, bu ateşli ve çileli yolu benimle beraber yürüyerek tüm pislikleri temizle.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Dehya_01"
+        "Icon": "Skill_S_Dehya_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Aslan Isırığı",
       "Description": "Dehya, bir cinnetle kılıcını sanki bir engelmiş gibi bir kenara atarak Alevli Aslan durumuna girer ve müdahaleye karşı direnci artar.\nDehya, bu durumdayken kendiliğinden sürekli olarak Saldırısı ve Maks. Canına göre <color=#FF9999FF>Ateş Hasarı</color> veren Alevli Yele Yumruklarını kullanır ve bu etkinin süresi sona erdiğinde yine Saldırısı ve Maks. Canına göre <color=#FF9999FF>Ateş Alan Hasarı</color> veren bir Kül Eden Tekme atar.\nBu beceri kullanıldığında Dehya'nın kendi Element Becerisi Ateşten Kafes tarafından oluşturulan bir Yakıcı Sığınak alanı mevcutsa Dehya onu geri alır ve Alevli Aslanın süresi sona erdiğinde başka bir alan oluşturur. Bu alan, geri alınan alanın alınma esnasındaki süresini de devralır.\nDehya, bu durumdayken Element Becerisini kullanamaz veya Normal, Yüklü ve Havadan Saldırılar yapamaz. \"Normal Saldırı: Kum Fırtınası Saldırısı\" ile Element Becerisi \"Ateşten Kafes\", \"Cinnet Saldırısı\" ile değiştirilir.\n<color=#FFD780FF>Cinnet Saldırısı</color>\nAlevli Yele Yumruğu saldırısından sonraki 0,4sn içinde Cinnet Saldırısı kullanıldığında bir sonraki Alevli Yele Yumruğu saldırısının tetiklenme hızı artar.\n\n<i>Akan alevler bile onun öfkesine itaat etmeli ve onun emriyle dişleri ve pençeleri haline gelmelidir.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Dehya_01"
+      "Icon": "Skill_E_Dehya_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -586,7 +586,8 @@
         "Name": "Pulvérisation totale",
         "Description": "Invoque le feu lunatique, infligeant des <color=#FF9999FF>DGT Pyro</color> à plusieurs ennemis proches, et charge vers un ennemi pour le trancher, infligeant des <color=#FF9999FF>DGT Pyro de zone</color>.\nLes ennemis touchés par cette attaque subissent une dette sanguinaire.\n\n<color=#FFD780FF>Dette sanguinaire</color>\n· Une dette sanguinaire dure 30 s. Toutes les 5 s, elle inflige 1 instance de <color=#FF9999FF>DGT Pyro</color> à l'ennemi, pour un maximum de 2 instances de DGT. Ces DGT sont considérés comme des DGT de compétence élémentaire.\n· Quand Arlecchino utilise une attaque chargée ou le déchaînement élémentaire « Ascension lunatique », elle absorbe et annule les dettes sanguinaires à proximité, chaque dette sanguinaire lui accordant un engagement vital d'une valeur équivalant à 65 % de ses PV max.\n· Pendant 35 s après avoir utilisé une compétence élémentaire, Arlecchino peut obtenir grâce aux dettes sanguinaires un engagement vital atteignant au maximum 145 % de ses PV max. Utiliser à nouveau une compétence élémentaire pendant cette durée réinitialise la durée et la limite d'engagement vital pouvant être obtenu grâce aux dettes sanguinaires.\n\n<i>Selon elle, tous les grains de blé qui tombent sur la terre ne se transforment pas en épi, tandis que ceux qui la dérangent, une fois réduits en cendres, peuvent certainement être utilisés pour nourrir les fleurs.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Arlecchino_01"
+        "Icon": "Skill_S_Arlecchino_01",
+        "CdTime": 30
       }
     ],
     "EnergySkill": {
@@ -786,7 +787,8 @@
       "Name": "Ascension lunatique",
       "Description": "Arlecchino déploie les grandes ailes du feu lunatique, absorbant et annulant les dettes sanguinaires à portée et infligeant des <color=#FF9999FF>DGT Pyro de zone</color>, avant d'annuler le TdR de la compétence élémentaire « Pulvérisation totale » et de restaurer ses PV d'une valeur dépendant de son engagement vital et de son ATQ.\n\n<i>Il est communément admis dans tout Teyvat que les phases de la lune autres que la pleine lune ne sont que de simples métaphores de mauvais augure, utilisées uniquement par ceux qui pratiquent l'alchimie et l'astrologie.\nElle a vu cette lune écarlate dans ses rêves à plusieurs reprises. Étaient-ce des présages de désastre ? En effet, c'était le cas, mais les catastrophes prévues appartenaient à ceux qui la mettaient en colère.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Arlecchino_01"
+      "Icon": "Skill_E_Arlecchino_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

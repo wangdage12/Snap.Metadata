@@ -463,7 +463,8 @@
         "Name": "Defensa integral canina",
         "Description": "Inflige <color=#FFE699FF>Daño Geo en el AdE</color> e iza el estandarte del general.\n\n<color=#FFD780FF>Estandarte del general</color>\nTeniendo en cuenta el número de personajes <color=#FFE699FF>Geo</color> que hay en el equipo al lanzar esta habilidad, otorga los siguientes efectos a los personajes en uso dentro de la zona del estandarte:\n·1 personaje - Robustez: aumenta la DEF.\n·2 personajes - Inquebrantabilidad: además del efecto anterior, aumenta la RES a interrupción.\n·3 personajes - Fragmentación: además de los anteriores efectos, otorga un <color=#FFE699FF>Bono de Daño Geo</color>.\n\nSolo puede existir al mismo tiempo un estandarte del general creado por Gorou, y los demás personajes solo podrán beneficiarse de los efectos de un único estandarte. Cuando el personaje sale de la zona, los efectos de esta seguirán activos durante 2 s.\n\n<color=#FFD780FF>Mantener pulsado</color>\nAjusta la ubicación en la que se activa la habilidad.\n\n<i>“En esta posición, puedo garantizar la total seguridad de mis soldados”. Sea donde sea y cuando sea, como general, lo último que desea Gorou es ver heridos a sus fieles soldados.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Gorou_01"
+        "Icon": "Skill_S_Gorou_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -649,7 +650,8 @@
       "Name": "Colmillo de la victoria",
       "Description": "Haciendo una muestra de su poder, inflige <color=#FFE699FF>Daño Geo en el AdE</color> y crea un área llamada “gloria del general” para animar a sus aliados.\n\n<color=#FFD780FF>Gloria del general</color>\nPosee las siguientes características:\n·Tiene los mismos efectos que el estandarte del general creado con la Habilidad Elemental, “Defensa integral canina”, es decir, según el número de personajes <color=#FFE699FF>Geo</color> que hay en el equipo, otorga ciertos efectos al personaje en uso dentro de la zona del estandarte, el cual se va moviendo junto a dicho personaje.\n·Cada 1.5 s, provoca un derrumbamiento rocoso que inflige <color=#FFE699FF>Daño Geo en el AdE</color> contra un enemigo situado en la zona.\n·Cada 1.5 s, atrae hasta la ubicación del personaje en uso un fragmento creado por la reacción de Cristalización dentro de la zona.\n\nSi al lanzar esta habilidad ya existe un estandarte del general creado por Gorou, dicho estandarte se destruirá. Además, mientras la zona de gloria del general esté activa, cuando Gorou realice su Habilidad Elemental, “Defensa integral canina”, no creará otro estandarte del general.\nSi Gorou es derrotado, los efectos de gloria del general desaparecerán.\n\n<i>“¡Tenemos la ventaja del terreno!”. Gorou es capaz de modificar ligeramente el terreno de la batalla para conseguir la victoria.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Gorou_01"
+      "Icon": "Skill_E_Gorou_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

@@ -787,7 +787,8 @@
         "Name": "Windbound Execution",
         "Description": "Menampilkan esensi dari Favonius Bladework dengan kekuatan mutlaknya. Talenta ini akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nMelompat ke arah depan dan melakukan tebasan dalam satu gerakan mulus, mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color> dan berganti ke mode {LINK#N11280001}<color=#FFD780FF>Sturm und Drang</color>{/LINK}.\nSaat dalam mode <color=#FFD780FF>Sturm und Drang</color>, DMG Normal Attack dan Charged Attack Varka akan meningkat, tetapi tidak bisa melancarkan Plunging Attack. Saat melancarkan Normal Attack dan Charged Attack, pedang claymore di kedua tangan Varka akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai berdasarkan jenis elemen Karakter dalam party. Elemental DMG ini tidak bisa ditimpa Elemental Infusion lainnya.\nSelain itu, saat berada dalam mode <color=#FFD780FF>Sturm und Drang</color>, jika ada Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> di dalam party, maka Elemental Skill Varka <color=#FFD780FF>Windbound Execution</color> akan dikonversi menjadi Elemental Skill Khusus {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} yang mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <color=#80FFD7FF>Anemo DMG</color>. Selain itu, Varka juga dapat mengonsumsi jumlah penggunaan Elemental Skill Khusus <color=#FFD780FF>Four Winds' Ascension</color> untuk melancarkan Charged Attack khusus yang tidak mengonsumsi Stamina, yaitu <color=#FFD780FF>Azure Devour</color>. Charged Attack khusus ini akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Mode Tahan</color>\nMelompat ke depan setelah mengisi energi. Jarak lompatannya akan bertambah seiring dengan waktu pengisian energi.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Varka_01"
+        "Icon": "Skill_S_Varka_01",
+        "CdTime": 16
       }
     ],
     "SpecialSkills": [
@@ -980,7 +981,8 @@
       "Name": "Northwind Avatar",
       "Description": "Dengan mengatasnamakan Knight of Boreas terkuat, Varka melancarkan dua kali tebasan beruntun yang kuat ke arah depan dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nJika ada Karakter <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, atau <color=#99FFFFFF>Cryo</color> di dalam party, maka tebasan pertama akan dikonversi menjadi Elemental DMG dengan jenis elemen yang sesuai berdasarkan urutan prioritas elemen yang disebutkan di atas.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Varka_01"
+      "Icon": "Skill_E_Varka_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

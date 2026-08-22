@@ -651,7 +651,8 @@
         "Name": "Yıkım: Bükme",
         "Description": "\"Kötülük\"ün savaş tarzını taklit eder. Dokunma veya Basılı Tutmaya göre farklı etkiler ortaya çıkar.\n\n<color=#FFD780FF>Dokun</color>\nSkirk, 45 {LINK#N11130005}<color=#FFD780FF>Yılan Kurnazlığı</color>{/LINK} kazanır ve {LINK#N11130006}<color=#FFD780FF>Yedi Aşamalı Parıltı</color>{/LINK} moduna geçer.\n\n<color=#FFD780FF>Basılı Tut</color>\nSkirk, 45 Yılan Kurnazlığı kazanır ve sürekli yüksek bir hızla hareket eder. Bu durumdayken Skirk'ün müdahaleye karşı direnci artar.\nBu süre boyunca Skirk hareket yönünü kontrol edebilir ve su üzerinde hareket edebilir. Ayrıca Beceriyi tekrar kullanarak hızlı hareket etmeyi daha erken durdurabilir.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_SkirkNew_01"
+        "Icon": "Skill_S_SkirkNew_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -882,7 +883,8 @@
       "Name": "Yıkım: Harap Etme",
       "Description": "Skirk'ün Element Patlaması, Element Enerjisi yerine {LINK#N11130005}<color=#FFD780FF>Yılan Kurnazlığı</color>{/LINK} ile gerçekleşir.\nSkirk en az 50 Yılan Kurnazlığına sahipse tüm Yılan Kurnazlığı puanlarını tüketerek Element Patlamasını gerçekleştirir ve önündeki boşluğu kesip açarak <color=#99FFFFFF>Buz Alan Hasarı</color> veren seri darbelerle saldırır. Ayrıca Element Patlamasını kullandığı anda 50'nin üzerindeki her Yılan Kurnazlığı puanı, bu Element Patlaması ile verilen Hasarı artırır. Bu artışa en fazla 12 puan katkıda bulunabilir.\n\nSkirk {LINK#N11130006}<color=#FFD780FF>Yedi Aşamalı Parıltı</color>{/LINK} modundayken Yıkım: Harap Etme becerisi, Yıkım: Tükeniş olarak değişir.\n\n<color=#FFD780FF>Yıkım: Tükeniş</color>\nYılan Kurnazlığı tüketmeden de kullanılabilen özel bir Element Patlamasıdır.\nSkirk, bunu kullandıktan sonra Yedi Aşamalı Parıltı modu sona erene kadar \"Her Şey Solup Gidecek\" etkisi kazanır. {LINK#N11130007}<color=#FFD780FF>Akıl Almaz Mantık</color>{/LINK} Yükseltme Yeteneği açıldıktan sonra Skirk yakındaki Boşluk Yarıklarını soğurabilir.\n\"Her Şey Solup Gidecek\" etkinken her 0,1 saniyede bir, Skirk'ün Normal Saldırısı düşmana isabet ettiğinde bu saldırı daha fazla Hasar verir. Skirk <color=#FFD780FF>Yıkım: Tükeniş</color> kullanırken Boşluk Yarığı soğurduysa soğurulan Yarık sayısına göre bu Normal Saldırı Hasarı daha da artar.\nBu etki 10 defa tetiklendikten sonra iptal olur.",
       "SpecialEnergyType": 2,
-      "Icon": "Skill_E_SkirkNew_01"
+      "Icon": "Skill_E_SkirkNew_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

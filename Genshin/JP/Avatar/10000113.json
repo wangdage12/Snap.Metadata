@@ -446,7 +446,8 @@
         "Name": "天翔ける守護",
         "Description": "お前の出番だ、きょうだい！イファがカクークを呼び出して一緒に戦う。\n発動後、イファは夜魂値を80獲得し、{LINK#N11130003}<color=#FFD780FF>夜魂の加護</color>{/LINK}状態に入る。夜魂の加護状態期間中、イファはカクークの協力によって浮遊状態になり、通常攻撃を行う時、一回押しと長押しによって異なる{LINK#N11130001}<color=#FFD780FF>「援護射撃」</color>{/LINK}を行い、チーム全員のHPを回復するアンプルショットを発射する。\n\nまた、夜魂の加護状態時、長押しして元素スキル<color=#FFD780FF>天翔ける守護</color>を発動すると、イファは代わりに夜魂性質の落下攻撃を行う。スキルボタンを離すと落下攻撃を中断でき、浮遊状態を維持する。落下攻撃中に着地すると、イファの夜魂の加護状態は終了する。",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Ifa_01"
+        "Icon": "Skill_S_Ifa_01",
+        "CdTime": 7.5
       }
     ],
     "EnergySkill": {
@@ -616,7 +617,8 @@
       "Name": "複合鎮静フィールド",
       "Description": "敵（まだ落ち着いていない）に向かって広域鎮静剤を1発撃つ。広域鎮静剤は命中時に爆発し、抑制風域を生成する。近くのオブジェクトと敵を引き寄せ、夜魂性質の<color=#80FFD7FF>風元素範囲ダメージ</color>を与える。\n広域鎮静剤が<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>付着状態の敵に命中すると、敵に{LINK#N11130004}<color=#FFD780FF>「鎮静マーク」</color>{/LINK}効果を付与する。",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Ifa_01"
+      "Icon": "Skill_E_Ifa_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

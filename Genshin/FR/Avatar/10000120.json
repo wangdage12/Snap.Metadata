@@ -559,7 +559,8 @@
         "Name": "Rite ancien : Lumière d'arcane",
         "Description": "Flins invoque l'ancien pouvoir caché dans sa lanterne et passe en mode <color=#FFD780FF>Flamme manifeste</color>. Ce mode possède les caractéristiques suivantes :\n· Les attaques normales et chargées de Flins sont converties pour infliger des <color=#FFACFFFF>DGT Électro</color> ne pouvant pas être enchantés et il ne peut plus déclencher d'attaques plongeantes.\n· La RÉS à l'interruption de Flins augmente.\n· Sa compétence élémentaire <color=#FFD780FF>Rite ancien : Lumière d'arcane</color> est remplacée par la compétence élémentaire spéciale <color=#FFD780FF>Lances du nord</color>.\n\n<color=#FFD780FF>Lances du nord</color>\nFlins invoque une salve de lances devant lui, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> et remplaçant son déchaînement élémentaire <color=#FFD780FF>Rituel ancien : Visite de la nuit</color> par le déchaînement élémentaire spécial {LINK#N11200001}<color=#FFD780FF>Symphonie tonitruante</color>{/LINK} pendant 6 s.\nLe TdR de base de <color=#FFD780FF>Lances du nord</color> est de 6 s, ce TdR n'étant pas affecté par d'autres effets.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Flins_01"
+        "Icon": "Skill_S_Flins_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -793,7 +794,8 @@
       "Name": "Rituel ancien : Visite de la nuit",
       "Description": "Flins libère la véritable puissance de sa lanterne, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> puis, après un bref délai, 3 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires et 1 phase finale).\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 2 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires).\n\nPendant 6 s après l'utilisation de sa compétence élémentaire spéciale <color=#FFD780FF>Lances du nord</color>, le déchaînement élémentaire <color=#FFD780FF>Rituel ancien : Visite de la nuit</color> de Flins est remplacé par le déchaînement élémentaire spécial <color=#FFD780FF>Symphonie tonitruante</color>.\n\n<color=#FFD780FF>Symphonie tonitruante</color>\nFlins peut consommer moins d'énergie élémentaire pour déclencher un déchaînement élémentaire spécial : il inflige 1 fois des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.\n<color=#FFD780FF>Signelune « Lueur ascendante »</color> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 1 fois de plus des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT de réaction de Sélénocution.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Flins_01"
+      "Icon": "Skill_E_Flins_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

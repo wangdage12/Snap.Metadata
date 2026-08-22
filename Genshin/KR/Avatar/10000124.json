@@ -523,7 +523,8 @@
         "Name": "기책·부의 재분배",
         "Description": "야호다가 적을 향해 돌진한다. 적과 접촉 시 「그림자 습격」 상태에 진입한다. 해당 상태에서 야호다는 계속해서 빠르게 이동한다. 주변의 적이 <color=#FF9999FF>불 원소</color>, <color=#80C0FFFF>물 원소</color>, <color=#FFACFFFF>번개 원소</color> 또는 <color=#99FFFFFF>얼음 원소</color> 부착 상태일 경우, 야호다는 몰래 가지고 있던 {LINK#N11240001}<color=#FFD780FF>냥냥병</color>{/LINK}을 대응하는 원소 속성으로 전환한 후 지속적으로 병을 충전한다. 지속 시간이 끝나거나 재발동 시, 야호다는 <color=#FFD780FF>냥냥병</color>을 비우고 주변의 적에게 <color=#80FFD7FF>바람 원소 피해</color>를 1회 준다. <color=#FFD780FF>냥냥병</color> 충전 완료 시, 야호다는 <color=#FFD780FF>냥냥병</color>을 비우고 그림자 습격 상태를 종료하며, 주변의 적에게 더 큰 <color=#80FFD7FF>바람 원소 피해</color>를 1회 준다.\n만약 야호다의 돌진이 적에게 닿지 않은 경우, 야호다는 그 자리에서 연막탄 1개를 던져 주변의 적에게 <color=#80FFD7FF>바람 원소 피해</color>를 1회 준다.\n\n<color=#FFD780FF>달빛 징조·보름</color>: <color=#FFD780FF>냥냥병</color> 충전 완료 시, 야호다는 <color=#FFD780FF>냥냥병</color>을 즉시 비우지 않고 일정 시간 동안 병에 채워진 원소를 지속적으로 소모하여, 주변의 적에게 간헐적으로 <color=#FFD780FF>냥냥볼</color>을 발사해 <color=#FFD780FF>냥냥병</color>과 대응하는 원소 타입 피해를 준다. <color=#FFD780FF>냥냥볼</color>이 적 명중 시, 야호다의 원소 에너지가 2pt 회복된다. 해당 효과는 3.5초마다 최대 1회 발동된다.\n\n<i>세상에는 재산을 분배하는 방법이 아주 많지만, 노드크라이의 보물 사냥꾼과 보물 사냥단에게 가장 효율적인 분배 방식은 언제나 하나뿐이다</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Jahoda_01"
+        "Icon": "Skill_S_Jahoda_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -801,7 +802,8 @@
       "Name": "비기·사냥꾼의 일곱 도구",
       "Description": "비장의 무기를 써야겠어! 야호다가 {LINK#N11240002}<color=#FFD780FF>가정용 냥냥 상호협동기</color>{/LINK}를 2개 꺼내 주변의 적에게 <color=#80FFD7FF>바람 원소 피해</color>를 1회 준다.\n\n<i>「소위 말하는 상호협동이라는 건, 네가 모라를 내면 우리가 협조해 준다는 뜻이야. 어때, 꽤 합리적이지?」</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Jahoda_01"
+      "Icon": "Skill_E_Jahoda_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

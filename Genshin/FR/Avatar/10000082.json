@@ -446,7 +446,8 @@
         "Name": "Diagnostic universel",
         "Description": "Contrôle un esprit de gaze qui se promène et attaque les ennemis proches, infligeant des <color=#99FF88FF>DGT Dendro</color>.\nAprès avoir effectué 3 attaques ou s'il n'y a pas d'ennemis à proximité, l'esprit revient et soigne tous les personnages de l'équipe à proximité selon les PV max de Baizhu.\n\n<i>Ceux qui, dans le domaine médical, peuvent distinguer les vrais signes de maladie des faux peuvent même guérir les gens avant que les symptômes ne se manifestent.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Baizhuer_01"
+        "Icon": "Skill_S_Baizhuer_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -709,7 +710,8 @@
       "Name": "Reviviscence holistique",
       "Description": "Entre dans l'état Ordonnance impulsive, créant un bouclier aseptique qui absorbe les <color=#99FF88FF>DGT Dendro</color> 250 % plus efficacement.\nPendant cet état, un nouveau bouclier aseptique est généré toutes les 2,5 s.\n\nDans les circonstances suivantes, le bouclier aseptique soigne votre personnage déployé selon les PV max de Baizhu et libère une veine d'aura pour attaquer les ennemis en infligeant des <color=#99FF88FF>DGT Dendro</color> :\n· Lorsqu'un personnage est sous la protection d'un bouclier aseptique et qu'un nouveau bouclier aseptique est généré.\n· Lorsque les effets du bouclier aseptique prennent fin ou lorsqu'il est détruit.\n\n<i>Si l'on peut percevoir les cieux et la terre, défendre sa sphère intérieure contre les influences extérieures et garder l'esprit clair, rien ne peut gêner.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Baizhuer_01"
+      "Icon": "Skill_E_Baizhuer_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

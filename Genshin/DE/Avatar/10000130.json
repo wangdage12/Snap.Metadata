@@ -447,7 +447,8 @@
         "Name": "Gegenmaßnahme – Lumis Kampfschrei!",
         "Description": "Abenteuer mit Lumi! Abhängig von der Art, wie du drückst, führt Lumi unterschiedliche Angriffe aus.\n\n<color=#FFD780FF>Drücken</color>\nLumi greift im <color=#FFD780FF>{LINK#N11300001}Super-Modus{/LINK}</color> an und fügt Gegnern in der Nähe fortlaufend <color=#FFE699FF>Geo-Flächenschaden</color> zu. Lumi fügt, wenn ein Mondkäfig in der Nähe ist, Gegnern in der Nähe zusätzlich <color=#FFE699FF>Geo-Flächenschaden</color> zu, der als Schaden durch die Reaktion Mond-Kristallisation gewertet wird.\n\n<color=#FFD780FF>Wiederholtes Drücken</color>\nJetzt zeigen wir ihnen, was wir wirklich draufhaben! Durch wiederholtes Drücken der Elementarfähigkeit oder des Standardangriffs nach dem Anwenden der Elementarfähigkeit füttert Linnea Lumi mit funkelnden Edelsteinen. Die sattgefressene Lumi greift dann im <color=#FFD780FF>{LINK#N11300001}Ultra-Modus{/LINK}</color> an, fügt Gegnern in der Nähe einmalig besonders starken <color=#FFE699FF>Geo-Flächenschaden</color> zu, der als Mond-Kristallisations-SCH gewertet wird, und wechselt dann in den <color=#FFD780FF>{LINK#N11300001}Standard-Modus{/LINK}</color>.\nErhöht bei wiederholtem Drücken der Elementarfähigkeit Linneas Unterbrechungs-WDS.\n\n<i>„Jetzt bist du dran, Lumi!“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Linnea_01"
+        "Icon": "Skill_S_Linnea_01",
+        "CdTime": 18
       }
     ],
     "EnergySkill": {
@@ -663,7 +664,8 @@
       "Name": "Notiz – Überlebensratgeber für ausweglose Lagen",
       "Description": "Selbst ein Experte unter den Abenteurern braucht mal eine Pause! Linnea ruft Lumi herbei, um im <color=#FFD780FF>{LINK#N11300001}Super-Modus{/LINK}</color> anzugreifen, stellt allen Truppenmitgliedern in der Nähe LP wieder her und stellt anschließend eine Zeit lang fortlaufend die LP der aktiven Figuren in der Nähe wieder her. Die Menge der wiederhergestellten LP ist abhängig von Linneas VTD.\nWenn Lumi beim Anwenden der Spezialfähigkeit bereits im Einsatz ist, wird stattdessen Lumis Dauer zurückgesetzt, ohne ihren Angriffsmodus zu ändern.\n\n<i>„Für professionelle Abenteurer gilt: Wichtiger als noch nie dagewesene Entdeckungen ist es, aus einer ausweglosen Situation unversehrt herauszukommen!“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Linnea_01"
+      "Icon": "Skill_E_Linnea_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

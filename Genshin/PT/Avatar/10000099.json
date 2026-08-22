@@ -495,7 +495,8 @@
         "Name": "Extração de Fragrância",
         "Description": "Cria uma Caixa Lumidouce que causa <color=#99FF88FF>Dano Dendro em AdE</color>.\n\n<color=#FFD780FF>Caixa Lumidouce</color>\n· Periodicamente dispara \"Suspiro de Orvalho Puro\" contra os inimigos próximos, causando <color=#99FF88FF>Dano Dendro</color>.\n· Quando há um inimigo perto que está Queimando, periodicamente gera \"Aroma\"... É possível gerar até um Aroma dessa forma a cada 2s. A Caixa Lumidouce coleta os Aromas próximos, e depois de coletar dois, aumenta seu nível, fazendo com que ao disparar um Suspiro do Orvalho Puro, dispare um a mais, e aumente o Dano causado e a AdE.\n· Só é possível existir uma Caixa Lumidouce criada por Emilie simultaneamente. Quando a Caixa Lumidouce for criada, seu nível inicial será 1 e pode ser elevado até 2. Quando estiver em campo, se não coletar nenhum Aroma dentro de 8s, a Caixa Lumidouce retornará para o nível 1.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nPeriodicamente, depois de Emilie criar uma Caixa Lumidouce dessa forma, fará cair um Espinho Espiritual em frente que perfura os inimigos, causando <color=#99FF88FF>Dano Dendro</color> com Pneuma.\n<i>\"O mundo é uma harmonia infinita de fragrâncias, cores e canções.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Emilie_01"
+        "Icon": "Skill_S_Emilie_01",
+        "CdTime": 14
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "Apresentação Aromática",
       "Description": "Guiando as fragrâncias reunidas dentro da Caixa, Emilie as converte em energia Dendro pura, criando uma Caixa Lumidouce de nível 3 e absorvendo a Caixa Lumidouce que possui.\nNa duração, a Caixa Lumidouce de nível 3 coletará o Aroma próximo e continuamente fará cair Chuva Aromática, atacando os inimigos dentro de uma AdE e causando <color=#99FF88FF>Dano Dendro</color>. Na duração, uma Chuva Aromática cairá a cada 0.3s e cada inimigo será escolhido como um alvo a cada 0.7s.\nQuando a duração acabar, criará novamente uma Caixa Lumidouce de nível 1. Se ao lançar Apresentação Aromática absorver a Caixa Lumidouce, a Caixa Lumidouce que foi absorvida será colocada, e sua duração será redefinida.\nNa duração de <color=#FFD780FF>Apresentação Aromática</color>, lançar a Habilidade Elemental \"Extração de Fragrância\" não gerará uma Caixa Lumidouce.\n\n<i>Não importa qual o perfume, ele começa a mudar assim que entra em contato com o ar até se dissipar com os suspiros do vento, das árvores e grama. Nesse sentido, nenhuma pessoa apreciará a mesma fragrância.\nAssim é o caminho tomado por todos na vida. É por isso que se pode considerar perfumes uma explicação para a vida humana.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Emilie_01"
+      "Icon": "Skill_E_Emilie_01",
+      "CdTime": 13.5
     },
     "Inherents": [
       {

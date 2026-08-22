@@ -494,7 +494,8 @@
         "Name": "Emboscada fulminante",
         "Description": "#Siguiendo su instinto de cazador, produce diferentes efectos dependiendo de si se {LAYOUT_MOBILE#toca una vez}{LAYOUT_PC#pulsa una vez}{LAYOUT_PS#pulsa una vez} o se mantiene pulsado, y aplica la {LINK#N11480001}<color=#FFD780FF>marca de caza</color>{/LINK} a los enemigos golpeados.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Pulsar una vez}{LAYOUT_PS#Pulsar una vez}</color>\nDispara hacia delante para infligir <color=#FFACFFFF>Daño Electro en el AdE</color>.\n\n<color=#FFD780FF>Mantener pulsado</color>\nEntra en modo puntería y selecciona a los enemigos situados en cierta área frente a él. En este estado, la RES a interrupción de Aliosha aumenta.\nAl terminar de apuntar, inflige <color=#FFACFFFF>Daño Electro</color> a los enemigos seleccionados.\n\n<i>Una vez, un cazador imprudente se acercó demasiado a la punta de una lanza. Tras haber tenido la suerte de sobrevivir a esa lección de sangre, comprendió la verdadera esencia de la supervivencia en las llanuras nevadas.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Alyosha_01"
+        "Icon": "Skill_S_Alyosha_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -680,7 +681,8 @@
       "Name": "Avance depredador",
       "Description": "#Invoca a su fiel compañero <color=#FFD780FF>Tugarin</color> para luchar junto a él y transforma brevemente el área de enfrente en un <color=#FFD780FF>coto de caza tronador</color>.\n\n<color=#FFD780FF>Coto de caza tronador</color>\n·Provoca continuamente a los enemigos cercanos para atraer sus ataques.\n·Cada 2{NON_BREAK_SPACE}s, inflige una vez <color=#FFACFFFF>Daño Electro en el AdE</color> a los enemigos que hayan entrado en él.\n\n<color=#FFD780FF>Tugarin</color>\n·Si hay enemigos cerca, Tugarin se desplazará rápidamente hacia uno de ellos cada 2{NON_BREAK_SPACE}s y le morderá para infligirle <color=#FFD780FF>Daño Electro</color>.\n·Si el enemigo golpeado está afectado por una <color=#FFD780FF>marca de caza</color>, dicha marca se activará.\n·Tugarin atacará prioritariamente a los enemigos afectados por una <color=#FFD780FF>marca de caza</color>.\n\n<i>Espera. Espera hasta que no sientas nervios, y entonces el chorlito pechonaranja sobrevolará el bosque de abedules blancos para recibir el disparo.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Alyosha_01"
+      "Icon": "Skill_E_Alyosha_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

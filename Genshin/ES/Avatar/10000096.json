@@ -586,7 +586,8 @@
         "Name": "Que todo sea cenizas",
         "Description": "#Libera unas llamas lunaciagas que infligen <color=#FF9999FF>Daño Pyro</color> a varios enemigos cercanos y arremete contra uno de ellos con un tajo que inflige <color=#FF9999FF>Daño Pyro en el AdE</color>.\nLos enemigos golpeados con este ataque se verán afectados por “decreto deudosangriento”.\n\n<color=#FFD780FF>Decreto deudosangriento</color>\n·Tiene una duración de 30{NON_BREAK_SPACE}s. Cada 5{NON_BREAK_SPACE}s, inflige <color=#FF9999FF>Daño Pyro</color> a los enemigos afectados por él hasta un máximo de 2 veces. Este daño se considera Daño de Habilidad Elemental.\n·Cuando Arlecchino usa un Ataque Cargado o la Habilidad Definitiva, “Ascenso lunaciago”, absorbe y elimina los decretos deudosangrientos cercanos y, por cada uno de ellos, obtiene un valor de pacto vital equivalente al 65% de su Vida Máx.\n·Durante 35{NON_BREAK_SPACE}s tras usar su Habilidad Elemental, Arlecchino podrá obtener como máximo un pacto vital equivalente al 145% de su Vida Máx. a través de los decretos deudosangrientos. Al volver a usar la Habilidad Elemental en esa franja de tiempo, se reiniciará la duración y el valor máximo del pacto vital otorgado por el decreto deudosangriento.\n\n<i>En su opinión, no todos los granos de trigo que caen al suelo acaban convirtiéndose en espigas; a veces, simplemente se pudren sin hacer ruido alguno. No obstante, una vez que quienes se interponen en su camino se han convertido en cenizas, pueden servir como abono para las flores.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Arlecchino_01"
+        "Icon": "Skill_S_Arlecchino_01",
+        "CdTime": 30
       }
     ],
     "EnergySkill": {
@@ -786,7 +787,8 @@
       "Name": "Ascenso lunaciago",
       "Description": "Arlecchino bate un ala de llamas lunaciagas, con lo que absorbe y elimina los decretos deudosangrientos cercanos, inflige <color=#FF9999FF>Daño Pyro en el AdE</color>, elimina el TdE de la Habilidad Elemental “Que todo sea cenizas” y recupera Vida en función del valor de su pacto vital y de su ATQ.\n\n<i>En Teyvat se cree que, excepto la luna llena, las demás fases de la luna son símbolos de mal presagio usados únicamente por alquimistas y astrólogos.\nAsí pues, ¿que ella haya soñado múltiples veces con una luna carmesí es un presagio de catástrofes que están por venir? Lo es, pero tales desdichas les están predestinadas a quienes la hacen enfurecer.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Arlecchino_01"
+      "Icon": "Skill_E_Arlecchino_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

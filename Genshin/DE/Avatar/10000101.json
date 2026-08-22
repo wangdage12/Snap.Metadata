@@ -447,7 +447,8 @@
         "Name": "Seiljäger – Hoch hinaus",
         "Description": "#Mit seinen Fähigkeiten zur Jagd auf große Bestien bewegt sich Kinich schnell oder greift seine Gegner an.\nWenn sich in der Nähe Gegner oder Objekte befinden, die man angreifen kann, wird das anvisierte Ziel mit dem Kletterseil verbunden und Kinich wird in den Zustand Nachtseelensegen mit 0 Nachtseelenpunkten versetzt. Ansonsten schießt Kinich ein Kletterseil nach vorn, um durch die Luft zu schwingen, und verringert dabei die Abklingzeit um 60{NON_BREAK_SPACE}%.\nKann durch Gedrückthalten eingesetzt werden. Beim Gedrückthalten kann die Richtung zum Abfeuern des Kletterseils bestimmt werden.\n\n<color=#FFD780FF>Nachtseelensegen – Kinich</color>\nKinichs Zustand „Nachtseelensegen“ hält 10{NON_BREAK_SPACE}s lang an und erzeugt jede{NON_BREAK_SPACE}s 2 Nachtseelenpunkte.\nIn diesem Zustand verbindet sich Kinich mit dem Kletterseil mit einem Gegner in der Nähe und führt seinen Angriff entsprechend aus:\n· Beim Einsatz des Standardangriffs schwingt Kinich entsprechend seiner aktuellen Bewegungsrichtung um das verbundene Ziel herum und schießt gleichzeitig auf es, wodurch mit Nachtseelen versehener <color=#99FF88FF>Dendro-Schaden</color> verursacht und 3 Nachtseelenpunkte erzeugt werden. Der Schaden des Schussangriffs beim Schwingen wird als Schaden der Elementarfähigkeit betrachtet.\n· Wenn die maximale Anzahl an Nachtseelenpunkten erreicht ist, kann die Elementarfähigkeit „Schuppendurchschlagskanone“ eingesetzt werden: Verbraucht alle Nachtseelenpunkte und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Schaden</color>. Beim Einsetzen der „Schuppendurchschlagskanone“ durch Gedrückthalten kann das Ziel des Angriffs durch das Zielen bestimmt werden. Nach dem Einsetzen der „Schuppendurchschlagskanone“ wird Kinich versuchen, mit dem Ziel der „Schuppendurchschlagskanone“ in Verbindung zu treten.\nWährend Kinich sich im Zustand „Nachtseelensegen“ befindet, wird eine tote Zone neben dem Gegner erzeugt, nachdem er mit diesem in Verbindung getreten ist oder die Kanone abgefeuert hat. Wenn Kinich diese Zone betritt, wird sie deaktiviert, wodurch Kinich 4 Nachtseelenpunkte erzeugt.\nSollte die bestehende Verbindung aus Gründen wie z. B. zu großer Entfernung abreißen, wird mit einem Standardangriff eine neue Verbindung zu einem Gegner in der Nähe hergestellt, bevor ein Schussangriff ausgeführt wird.\n\n<i>„Alle Dinge haben ihren Preis. Ich schlage vor, du machst ein angemessenes Angebot ... Was? Nein, ich lasse mich nicht auf Ratenzahlungen ein.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Kinich_01"
+        "Icon": "Skill_S_Kinich_01",
+        "CdTime": 18
       }
     ],
     "EnergySkill": {
@@ -633,7 +634,8 @@
       "Name": "Gegrüßt sei der Allmächtige Drachenfürst",
       "Description": "#Entfesselt die Kraft von Ajaw, dem Allmächtigen Drachenfürsten (auf einer begrenzten, bedingten, eingeschränkten, vertraglichen, teilweise festgelegten, vorübergehenden Grundlage), und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Flächenschaden</color>. Ajaw lässt während der Wirkungsdauer in regelmäßigen Abständen seinen Drachenatem los und verursacht dabei mit Nachtseelen versehenen <color=#99FF88FF>Dendro-Flächenschaden</color>.\nBefindet sich Kinich während des Einsetzens im Zustand Nachtseelensegen, so wird die Dauer des diesmaligen Zustands Nachtseelensegen um 1,7{NON_BREAK_SPACE}s verlängert.\n\n<i>„Ja, genau! Vor dir steht der Allmächtige Drachenfürst K’uhul Ajaw. Komm nach vorn, knie nieder und küss meine Füße!“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Kinich_01"
+      "Icon": "Skill_E_Kinich_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -555,7 +555,8 @@
         "Name": "Haftkarsvar-Tanz",
         "Description": "Wechselt in den Pirouetten-Modus und fügt den Gegnern in der Nähe basierend auf Nilous max. LP <color=#80C0FFFF>Hydro-Schaden</color> zu.\nIm Pirouetten-Modus werden Nilous Standardangriffe und Elementarfähigkeit jeweils in „Schwerttanzschritte“ und „Wirbeltanzschritte“ umgewandelt, die <color=#80C0FFFF>Hydro-Schaden</color> verursachen, der nicht von anderen Elementen überdeckt werden kann und als Schaden der Elementarfähigkeit gilt.\n\nDabei beendet Nilous dritter Tanzschritt den Pirouetten-Modus und bewirkt je nach dem Typ dieses Tanzschritts folgende Effekte:\n· Schwerttanzschritt: Entfesselt einen Wassermond, der den Gegnern, die er berührt, <color=#80C0FFFF>Hydro-Schaden</color> zufügt und Nilou in den Mondgebets-Modus versetzt. In diesem Modus werden Nilous Standardangriffe in Schwerttanzschritte umgewandelt und ihr letzter Hieb entfesselt einen neuen Wassermond.\n· Wirbeltanzschritt: Entfesselt ein reinigendes Wasserrad, das <color=#80C0FFFF>Hydro-Flächenschaden</color> verursacht und eine Gelassenheits-Aura erzeugt, die der aktuellen Figur der eigenen Truppe folgt und die Gegner in ihrem Wirkungsbereich fortlaufend in den Zustand <color=#80C0FFFF>Nass</color> versetzt.\n\nNilou kann keine heftigen Schläge ausführen, wenn sie sich im Pirouetten-Modus oder im Mondgebets-Modus befindet. Diese Modi werden entfernt, sobald Nilou ausgewechselt wird.\n\n<i>„Kurz und sanft berühren ihre zarten Zehen das Wasser und das Licht, das daraus hervordringt, ist der Pracht von sieben Himmeln ebenbürtig.“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Nilou_01"
+        "Icon": "Skill_S_Nilou_01",
+        "CdTime": 18
       }
     ],
     "EnergySkill": {
@@ -725,7 +726,8 @@
       "Name": "Abzendegi-Tanz – Ferner Traum am Bach",
       "Description": "Beginnt den Tanz des fernen Traums am Bach und lässt den Lotos des fernen Gewässers erblühen. Verursacht <color=#80C0FFFF>Hydro-Flächenschaden</color> basierend auf Nilous max. LP und versetzt alle davon getroffenen Gegner in den Zustand „Fließende Äonen“.\nNach einem kurzen Intervall erleiden die von diesem Zustand betroffenen Gegner <color=#80C0FFFF>Hydro-Schaden</color>.\n\n<i>„Wir haben den fernen Traum zwar nie erlebt, aber dieser Tanz kann ihn zum Leben erwecken.“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Nilou_01"
+      "Icon": "Skill_E_Nilou_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

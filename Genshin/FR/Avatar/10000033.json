@@ -716,7 +716,8 @@
         "Name": "Posture du démon : Marée déchaînée",
         "Description": "Tartaglia invoque des armes qui exploitent la puissance de l'eau pure et infligent des <color=#80C0FFFF>DGT Hydro</color> aux ennemis proches, puis passe en état de mêlée.\nEn état de mêlée, les attaques normales et chargées de Tartaglia sont converties en <color=#80C0FFFF>DGT Hydro</color> ne pouvant pas être enchantés, et changent de la manière suivante :\n\n<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 6 entailles <color=#80C0FFFF>Hydro</color> consécutives.\n\n<color=#FFD780FF>Attaque chargée</color>\nExécute une frappe croisée rapide et inflige des <color=#80C0FFFF>DGT Hydro</color> ; cette attaque consomme de l'endurance.\n\n<color=#FFD780FF>Contre-courant : Entaille</color>\nLes attaques de mêlée appliquent à nouveau l'effet Contre-courant lorsqu'elles touchent un ennemi affecté par Contre-courant. Ceci inflige des <color=#80C0FFFF>DGT Hydro de zone</color>. Les DGT infligés par Contre-courant : Entaille sont considérés comme des DGT de compétence élémentaire. Contre-courant : Entaille peut être déclenché une fois toutes les 1,5 s.\n\nLa compétence prend fin après 30 s, ou lorsque vous appuyez dessus à nouveau. Tartaglia repasse alors en état à distance. Le TdR de la compétence est réinitialisé, et dure plus longtemps si l'état de mêlée a perduré.\nL'état de mêlée ne peut excéder 30 s. Au bout de cette durée, Tartaglia repasse automatiquement à l'état à distance.\n\n<i>C'est pour venir à bout de ses difficultés avec cette arme que Tartaglia a choisi l'arc comme arme de prédilection. Mais... C'est sur le champ de bataille que sa vraie puissance se déchaîne.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Tartaglia_01"
+        "Icon": "Skill_S_Tartaglia_01",
+        "CdTime": 6
       }
     ],
     "EnergySkill": {
@@ -918,7 +919,8 @@
       "Name": "Ravage : Oblitération",
       "Description": "Tartaglia effectue différentes attaques selon l'état dans lequel il se trouve :\n\n<color=#FFD780FF>État à distance : Éclair de balle maléfique</color>\nTire rapidement devant lui une flèche gorgée de magie Hydro, infligeant des <color=#80C0FFFF>DGT Hydro de zone</color>, ainsi que l'effet Contre-courant, aux ennemis en face.\nRestaure une partie de l'énergie élémentaire à la fin de l'attaque.\n\n<color=#FFD780FF>État de mêlée : Lumière d'élimination</color>\nExécute une large entaille circulaire, qui inflige d'importants <color=#80C0FFFF>DGT Hydro</color> à tous les ennemis proches et peut générer l'effet Torrent.\n\n<color=#FFD780FF>Contre-courant : Torrent</color>\nLorsqu'elle touche un ennemi affecté par Contre-courant, Lumière d'élimination consomme cet effet et inflige des <color=#80C0FFFF>DGT Hydro de zone</color>. Les DGT infligés par Contre-courant : Torrent sont considérés comme des DGT de déchaînement élémentaire.\n\n<i>L'eau qui coule n'est pas une vision courante dans son pays de neige... Peut-être que seul celui capable de saisir l'eau qui fuit entre les doigts est capable de comprendre comme elle est précieuse.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Tartaglia_01"
+      "Icon": "Skill_E_Tartaglia_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

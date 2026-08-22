@@ -510,7 +510,8 @@
         "Name": "Omnisciencia",
         "Description": "#Libera una cadena herbokármica que inflige <color=#99FF88FF>Daño Dendro en el AdE</color> y aplica una semilla skandha sobre un máximo de 8 enemigos.\nEsta habilidad se libera de manera distinta al mantener pulsado.\n\n<color=#FFD780FF>Mantener pulsado</color>\nApunta para escoger una AdE y una cantidad de enemigos determinadas. Mientras lo hace, aumenta la RES a interrupción de Nahida.\nAl terminar de apuntar, inflige <color=#99FF88FF>Daño Dendro</color> contra los enemigos seleccionados y les pone una semilla skandha.\nSe puede apuntar durante un máximo de 5{NON_BREAK_SPACE}s y se pueden escoger hasta 8 enemigos.\n\n<color=#FFD780FF>Semilla skandha</color>\nLos enemigos afectados por una semilla skandha serán encadenados entre sí hasta una cierta distancia.\nTras causar una Reacción Elemental contra un enemigo afectado por una semilla, o infligir daño contra él por medio de un núcleo Dendro (esto incluye el daño infligido con Crepitar y Sobreflorecimiento), Nahida libera un trikarma acrisolador contra ese enemigo y contra todos los enemigos encadenados a él para infligir <color=#99FF88FF>Daño Dendro</color> en función de su ATQ y su Maestría Elemental.\nEl trikarma acrisolador solo se puede liberar una vez en un breve periodo de tiempo.\n\n<i>La diosa de los árboles y las plantas irradia su verdadera esencia en el vacío, con lo que arroja luz a la manera en que se originan y destruyen los tres karmas.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Nahida_01"
+        "Icon": "Skill_S_Nahida_01",
+        "CdTime": 5
       }
     ],
     "EnergySkill": {
@@ -760,7 +761,8 @@
       "Name": "Corazón ilusorio",
       "Description": "Manifiesta un “templo ilusorio” y recrea el gran pabellón de los sueños.\n\nAl hacerlo, se producen distintos efectos si en el equipo hay personajes con los siguientes tipos elementales:\n·<color=#FF9999FF>Pyro</color>: cuando Nahida está dentro del templo ilusorio, aumenta el daño del trikarma acrisolador de su Habilidad Elemental, Omnisciencia.\n·<color=#FFACFFFF>Electro</color>: cuando Nahida está dentro del templo ilusorio, se reduce el tiempo en el que se puede activar el trikarma acrisolador de su Habilidad Elemental, Omnisciencia.\n·<color=#80C0FFFF>Hydro</color>: aumenta la duración del templo ilusorio.\n\nSi al crear el área hay, por lo menos, 2 personajes de los tipos elementales anteriormente mencionados, el efecto correspondiente se potencia aún más.\n\nLas bonificaciones mencionadas seguirán teniendo efecto siempre y cuando el equipo se encuentre dentro del templo ilusorio, aunque Nahida se encuentre en tu equipo pero no en uso.\n\n<i>Para la Diosa de la Sabiduría, todo lo que existe bajo los árboles podría no ser más que un efímero sueño invertido</i>.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Nahida_01"
+      "Icon": "Skill_E_Nahida_01",
+      "CdTime": 13.5
     },
     "Inherents": [
       {

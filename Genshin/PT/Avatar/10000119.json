@@ -590,7 +590,8 @@
         "Name": "Runo: Descanso da Noite Eterna",
         "Description": "Recita uma oração, revelando o {LINK#N11190001}<color=#FFD780FF>Santuário da Floresta Congelada</color>{/LINK}, e gera efeitos diferentes se pressionar ou manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nRecita uma oração, causando <color=#99FF88FF>Dano Dendro em AdE</color>.\n\n<color=#FFD780FF>Manter pressionado</color>\nSe possuir pelo menos 1 {LINK#N11190008}<color=#FFD780FF>Orvalho Verdejante</color>{/LINK}, pode ser lançado. Lauma consome todos os Orvalhos Verdejantes e recita uma oração para causar uma instância de <color=#99FF88FF>Dano Dendro em AdE</color>, e uma instância de <color=#99FF88FF>Dano Dendro em AdE</color> considerado como Florescimento Lunar. De acordo com o número de Orvalhos Verdejantes consumido, cada um consumido ainda pode fornecer 1 acúmulo de {LINK#N11190002}<color=#FFD780FF>Canção Lunar</color>{/LINK} para Lauma. Consome até 3 Orvalhos por cada vez que mantém pressionado para lançar a Habilidade Elemental.\n\nAlém disso, quando a Habilidade Elemental ou Santuário da Floresta Congelada de Lauma atingem um inimigo, esse inimigo terá sua <color=#99FF88FF>RES Dendro</color> e <color=#80C0FFFF>RES Hydro</color> reduzidas por 10s.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo: Todos os Corações se Tornam a Lua",
       "Description": "Que os desejos de todos os seres vivos se torna o luar que banha a terra. Lauma canta uma canção sagrada do norte, ganhando 18 acúmulos de {LINK#N11190003}<color=#FFD780FF>Canção Azul</color>{/LINK}.\nAlém disso, quando Lauma está sob o estado {LINK#N11190002}<color=#FFD780FF>Canção Lunar</color>{/LINK} e lança seu Supremo, ou quando obtém Canção Lunar nos 15s após lançar o Supremo, Lauma consome todos os acúmulos de Canção Lunar, e obtém 6 acúmulos de Canção Azul para cada acúmulo consumido. Esse efeito pode ser ativado uma vez por Supremo lançado ou pelos 15s após lançar o Supremo.\n\n<color=#FFD780FF>Canção Azul</color>\nQuando um membro da equipe próximo causar Dano de Florescimento, Superflorescimento, Germinação e Florescimento Lunar, consome 1 acúmulo de Canção Azul para aumentar o Dano. O aumento é baseado na Proficiência Elemental de Lauma. Quando esse Dano atinge múltiplos inimigos de uma vez só, consumirá o número de acúmulos de Canção Azul correspondente ao número de inimigos atingidos.\nCada acúmulo de Canção Azul possui sua duração contada separadamente.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

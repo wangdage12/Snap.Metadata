@@ -431,7 +431,8 @@
         "Name": "Ruée fulminante",
         "Description": "#Iansan se rue en avant sur une certaine distance, infligeant des <color=#FFACFFFF>DGT Électro</color> infusés de noctâme aux ennemis en chemin.\nAprès utilisation, Iansan récupère 54 pts de noctâme et entre dans l'état Bénédiction noctâme. Pendant 5 s après cette ruée, utiliser une attaque normale avec un appui simple lui permet de déclencher rapidement le piétinement violent d'une volée tonitruante sans consommer d'endurance.\n\n<color=#FFD780FF>Bénédiction noctâme : Iansan</color>\nLa bénédiction noctâme d'Iansan consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme d'Iansan possède les propriétés spéciales suivantes :\n· La VIT de déplacement d'Iansan augmente.\n· En utilisant le sprint avec un appui long, Iansan déclenche le mode «{NON_BREAK_SPACE}Fulmination rapide », ce qui augmente grandement sa VIT de déplacement de façon temporaire. Ce mode permet également à Iansan d'utiliser la topographie du terrain pour bondir dans les airs ou de consommer des points de noctâme supplémentaires pour se déplacer sur l'eau et sur le phlogistique liquide sans en subir les DGT.\n\n<i>« Plus vite, plus fort ! C'est à ça que sert tout ce dur labeur ! »</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Iansan_01"
+        "Icon": "Skill_S_Iansan_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "Triple principe de la force",
       "Description": "#La « force » d'Iansan permet à son piétinement de fracturer la terre, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> infusés de noctâme avant qu'elle ne sorte sa jauge d'énergie cinétique en édition limitée dédiée à la musculation.\nAprès utilisation, Iansan obtient 15 pts de noctâme et entre dans l'état Bénédiction noctâme.\nLa bénédiction noctâme d'Iansan prend fin lorsque la jauge d'énergie cinétique quitte le champ de bataille.\n\n<color=#FFD780FF>Jauge d'énergie cinétique</color>\nLa jauge suit les déplacements de votre personnage déployé et augmente son ATQ de différentes manières selon les points de noctâme d'Iansan :\n· Avec moins de 42 pts, Iansan accorde un bonus d'ATQ qui dépend de son noctâme et de son ATQ.\n· Avec 42 pts ou plus, la jauge d'énergie cinétique passe en mode «{NON_BREAK_SPACE}Soutien Ardent ! », dans lequel elle accorde un meilleur bonus d'ATQ qui dépend de son ATQ.\nDe plus, la jauge enregistre la distance parcourue par votre personnage déployé (hormis Iansan) tant qu'elle est active, afin de restaurer les points de noctâme d'Iansan toutes les secondes selon la distance parcourue pendant la seconde précédente.\nLa jauge d'énergie cinétique disparaît lorsque la bénédiction noctâme d'Iansan prend fin, ou après 1 s si Iansan n'est pas dans un combat. Pendant que la jauge est active, la bénédiction noctâme d'Iansan ne prend pas fin lorsque cette dernière n'est pas déployée.\n\n<i>« La force n'est pas une question de talent naturel. La force naît d'une pratique incessante. La force doit être utilisée correctement. »</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Iansan_01"
+      "Icon": "Skill_E_Iansan_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -493,7 +493,8 @@
         "Name": "Rübchen in flauschigen Wolken",
         "Description": "Beschwört „Yuegui – Schleudermondhase“, ein Gerät, das von einer Adeptin geschaffen wurde, um Yaoyao aus der Patsche zu helfen.\nBeim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.\n\n<color=#FFD780FF>Gedrückt halten</color>\nTritt in den Zielmodus ein, in dem man die Richtung des Schleuderns bestimmen kann.\n\n<color=#FFD780FF>Yuegui – Schleudermondhase</color>\nSchleudert Jade-Rübchen, die beim Treffen von Figuren oder Gegnern explodieren: Fügt den Gegnern in ihrem Wirkungsbereich <color=#99FF88FF>Dendro-Schaden</color> zu und stellt den Figuren im Wirkungsbereich LP basierend auf Yaoyaos max. LP wieder her. Haben die Jade-Rübchen keine Figuren oder Gegner getroffen, bleiben sie so lange am Ort, bis sie bei Kontakt mit 1 Figur/Gegner oder am Ende ihrer Wirkungsdauer explodieren.\nDer Yuegui – Schleudermondhase wählt das Ziel der Jade-Rübchen gemäß der Situation im Umfeld aus:\n· Betragen die LP aller Figuren in der Nähe mehr als 70 %, wird auf einen Gegner in seiner Reichweite gezielt.\n· Betragen die LP einer Figur in der Nähe nicht mehr als 70 %, wird auf die Figur mit den niedrigsten LP in seiner Reichweite gezielt. Sind aber keine Gegner in der Nähe, wird, wenn die LP aller in der Reichweite befindlichen Figuren über 70 % und unter 100 % liegen, auf eine Figur gezielt; andernfalls wird beliebig geschleudert.\n\nEs können gleichzeitig höchstens 2 Yuegui – Schleudermondhasen existieren.\n\n<i>„Ein Rübchen am Tag hält den Arzt fern. Nicht etwa, weil Rübchen alle Krankheiten heilen können, sondern weil der Verzehr von Rübchen viele gesundheitliche Vorteile hat!“</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Yaoyao_01"
+        "Icon": "Skill_S_Yaoyao_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -726,7 +727,8 @@
       "Name": "Kaninchen-Regen im Mondschein",
       "Description": "Gemäß der Anleitung einer Adeptin kann man in Notsituationen das volle Potenzial von Yuegui entfesseln. Dieses Gerät fügt den Gegnern in der Nähe <color=#99FF88FF>Dendro-Schaden</color> zu und tritt daraufhin in den (einigermaßen) unbesiegbaren Zustand „Gabe der Adepten“ ein.\n\n<color=#FFD780FF>Gabe der Adepten</color>\n· Erschaffene Jade-Rübchen bewirken nun entsprechend den Eigenschaften dieser Fähigkeit Schaden und Heilung. Bei Explosion stellen sie allen in der Truppe befindlichen Figuren in der Nähe LP wieder her. Dabei verursachter <color=#99FF88FF>Dendro-Schaden</color> gilt als Schaden der Spezialfähigkeit.\n· Beschwört periodisch das Gerät „Yuegui – Hüpfmondhase“, bis die Anzahl der Geräte die Höchstmenge erreicht. Yuegui – Hüpfmondhasen funktionieren auf die gleiche Weise wie der Yuegui – Schleudermondhase, den Yaoyaos Elementarfähigkeit erschafft. Es können höchstens 3 Yuegui – Hüpfmondhasen gleichzeitig vorhanden sein.\n· Erhöht Yaoyaos Bewegungsgeschwindigkeit um 15 %.\n· Erhöht Yaoyaos <color=#99FF88FF>Dendro-WDS</color>.\n\nDer Zustand „Gabe der Adepten“ endet, sobald Yaoyao das Schlachtfeld verlässt. Dabei werden alle verbliebenen Yuegui – Hüpfmondhasen entfernt.\n\n<i>„‚Welcher ist der echte Yuegui, dieser oder jener?‘ Was für eine seltsame Frage, sie sind doch alle Yuegui!“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Yaoyao_01"
+      "Icon": "Skill_E_Yaoyao_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

@@ -431,7 +431,8 @@
         "Name": "Carica fulminea",
         "Description": "#Iansan si lancia in avanti per una certa distanza, infliggendo <color=#FFACFFFF>DAN da Electro</color> con attributo Anima della Notte a tutti gli avversari sul suo percorso.\nDopo aver usato questa abilità, Iansan recupera 54 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte. Entro 5{NON_BREAK_SPACE}s da quest'azione, se Iansan usa un attacco normale, esegue una pestata Tempesta scattante rapida che non consuma vigore.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Iansan</color>\nConsuma costantemente punti Anima della Notte. Lo stato termina quando tutti i punti si esauriscono o se l'abilità viene usata di nuovo. Questo stato ha le seguenti proprietà:\n· la VEL di movimento di Iansan aumenta;\n· la pressione prolungata dello Scatto permette a Iansan di passare alla modalità Assalto fulmineo, aumentando notevolmente la sua VEL di movimento per alcuni istanti. In questa modalità, Iansan può sfruttare il terreno per compiere dei lunghi salti in avanti o consumare punti Anima della Notte aggiuntivi per muoversi sull'acqua e sul Flogisto liquido senza subire DAN.\n\n<i>\"Essere più veloce e più forte! È per questo che mi alleno!\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Iansan_01"
+        "Icon": "Skill_S_Iansan_01",
+        "CdTime": 16
       }
     ],
     "EnergySkill": {
@@ -665,7 +666,8 @@
       "Name": "I tre princìpi della potenza",
       "Description": "#Grazie alla \"potenza\" della sua pestata, Iansan distrugge la terra sotto i suoi piedi infliggendo <color=#FFACFFFF>DAN da Electro ad area</color> con attributo Anima della Notte. Dopodiché, estrae il suo \"Misuratore di Energia cinetica in edizione limitata (per gli allenamenti)\".\nQuando usa il Tripudio, Iansan ottiene 15 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\nQuando il Misuratore di Energia cinetica lascia il campo, lo stato di Grazia dell'Anima della Notte di Iansan termina.\n\n<color=#FFD780FF>Misuratore di Energia cinetica</color>\nSegue il personaggio attivo, conferendogli un bonus ATT in modi diversi in base ai punti Anima della Notte di Iansan.\n· Se Iansan possiede meno di 42 punti Anima della Notte, il bonus ATT conferito si basa sui punti Anima della Notte e sull'ATT di Iansan.\n· Se Iansan possiede almeno 42 punti Anima della Notte, il Misuratore di Energia cinetica entra nello stato di \"Supporto ardente!\", durante il quale il bonus ATT conferito è ancora più alto, e si basa interamente sull'ATT di Iansan.\nInoltre, finché rimane attivo, il Misuratore registra la distanza percorsa dal personaggio attivo (esclusa Iansan), e ripristina i punti Anima della Notte di Iansan ogni secondo in base alla distanza percorsa nel secondo precedente.\nIl Misuratore scompare al termine dello stato di Grazia dell'Anima della Notte di Iansan o dopo 1{NON_BREAK_SPACE}s quando ci si trova fuori da un combattimento. Finché è attivo, la Grazia dell'Anima della Notte di Iansan non termina anche se quest'ultima non si trova in campo.\n\n<i>\"La potenza non è una questione di talento naturale, ma di pratica costante. E deve essere allenata nel modo corretto.\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Iansan_01"
+      "Icon": "Skill_E_Iansan_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

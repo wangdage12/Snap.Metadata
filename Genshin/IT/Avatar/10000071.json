@@ -479,7 +479,8 @@
         "Description": "Esegue un affondo rapido, infliggendo <color=#FFACFFFF>DAN da Electro</color> ai nemici lungo il percorso.\n\nQuando Cyno si trova nello stato di Precorritore giurato innescato da Rito sacro: Destrezza del lupo, scatena un <color=#FFD780FF>Rito funebre</color> che infligge fragorosi <color=#FFACFFFF>DAN da Electro ad area</color> ed estende la durata di Precorritore giurato.\n\n<i>\"Questo giudizio non ammette opzioni. In questo luogo non esiste né ripudio né accettazione... È una condanna che da lungo tempo pesa su entrambi.\"</i>",
         "SpecialDescription": "Esegue un affondo rapido, infliggendo <color=#FFACFFFF>DAN da Electro</color> ai nemici lungo il percorso.\n\nQuando Cyno si trova nello stato di Precorritore giurato scatena un <color=#FFD780FF>Rito funebre</color> che infligge fragorosi <color=#FFACFFFF>DAN da Electro ad area</color>. Se Cyno entra nello stato di Precorritore giurato tramite il Tripudio elementale <color=#FFD780FF>Rito sacro: Destrezza del lupo</color>, scatenare <color=#FFD780FF>Rito funebre</color> estende la durata dell'iterazione attuale di Precorritore giurato.\n\n<i>\"Questo giudizio non ammette opzioni. In questo luogo non esiste né ripudio né accettazione... È una condanna che da lungo tempo pesa su entrambi.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Cyno_01"
+        "Icon": "Skill_S_Cyno_01",
+        "CdTime": 7.5
       }
     ],
     "SpecialSkills": [
@@ -844,7 +845,8 @@
       "Name": "Rito sacro: Destrezza del lupo",
       "Description": "#Evoca uno spirito divino che si insedia nel suo corpo e lo trasforma nel Precorritore giurato.\n\n<color=#FFD780FF>Precorritore giurato</color>\nI DAN inflitti dagli attacchi normali, caricati e in picchiata di Cyno vengono convertiti in <color=#FFACFFFF>DAN da Electro</color> non influenzabili da altre infusioni elementali.\n· La maestria elementale e la resistenza all'interruzione di Cyno aumentano, donandogli anche immunità ai DAN da Electrocarica.\n\nQuesto effetto viene annullato quando Cyno esce dal campo o dopo un massimo di 18{NON_BREAK_SPACE}s.\n\n<i>Per il generale Mahamatra, i sacri rituali tramandati nell'antica nazione sono come una sentenza suprema.</i>\n<i>Che si tratti del presente o del passato, di un'implacabile tempesta o di un gigantesco serpente, nessuno scalfirà la maestà della legge.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Cyno_01"
+      "Icon": "Skill_E_Cyno_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

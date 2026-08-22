@@ -476,7 +476,8 @@
         "Name": "Singvogel der Morgendämmerung",
         "Description": "Ruft den an seiner Seite kämpfenden Botenvogel „Aedon“ herbei und verursacht je nach einfachem Drücken oder Gedrückthalten unterschiedliche Effekte.\n\n<color=#FFD780FF>Drücken</color>\nAedon stürzt sich auf Gegner vor ihm und fügt den Gegnern, mit denen er in Kontakt kommt, <color=#FFE699FF>Geo-SCH</color> zu.\n\n<color=#FFD780FF>Gedrückthalten</color>\nVisiert Gegner an, woraufhin Aedon sich auf diese stürzt und den Gegnern, mit denen er in Kontakt kommt, <color=#FFE699FF>Geo-SCH</color> zufügt.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Illuga_01"
+        "Icon": "Skill_S_Illuga_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -725,7 +726,8 @@
       "Name": "Schattenlose Reflektion",
       "Description": "#Entfacht ein Licht, das <color=#FFE699FF>Geo-Flächenschaden</color> verursacht und den Effekt „Lied des nächtlichen Albtraums“ verleiht, hält 20{NON_BREAK_SPACE}s: Verleiht Illuga während der Wirkungsdauer 21 Stapelungen {LINK#N11270001}<color=#FFD780FF>Lied der Nachtigall</color>{/LINK}. Verbraucht, wenn aktuelle Truppenmitglieder in der Nähe Gegnern mit einem Standardangriff, heftigen Schlag, Angriff aus dem Fall, der Elementarfähigkeit oder Spezialfähigkeit <color=#FFE699FF>Geo-SCH</color> zufügen, 1 Stapelung „Lied der Nachtigall“ und erhöht den verursachten Schaden basierend auf Illugas Elementarkunde. Erhöht den Schaden zusätzlich, wenn es sich bei diesem Schaden um Schaden durch die Reaktion Mond-Kristallisation handelt.\nVerbraucht, wenn auf obige Art verursachter <color=#FFE699FF>Geo-SCH</color> gleichzeitig mehrere Gegner trifft, so viele Stapelungen „Lied der Nachtigall“ wie Gegner getroffen wurden.\n\nVerleiht Illuga zudem für jedes <color=#FFE699FF>Geo-Objekt</color> 5 Stapelungen „Lied der Nachtigall“, wenn sich von Truppenmitgliedern in der Nähe generierte <color=#FFE699FF>Geo-Objekte</color> auf dem Feld befinden und Illuga seine Spezialfähigkeit anwendet, oder wenn ein Truppenmitglied in der Nähe während der Wirkungsdauer von „Lied des nächtlichen Albtraums“ <color=#FFE699FF>Geo-Objekte</color> erschafft. Innerhalb von 20{NON_BREAK_SPACE}s nach Anwendung der Spezialfähigkeit kann Illuga zusätzlich bis zu 15 Stapelungen „Lied der Nachtigall“ auf diese Weise erhalten.\n\nDer Effekt „Lied des nächtlichen Albtraums“ wird beendet, wenn die Stapelungen von „Lied der Nachtigall“ aufgebraucht sind oder die Wirkungsdauer abgelaufen ist.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Illuga_01"
+      "Icon": "Skill_E_Illuga_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

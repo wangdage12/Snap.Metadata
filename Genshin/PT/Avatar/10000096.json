@@ -586,7 +586,8 @@
         "Name": "Tudo são Cinzas",
         "Description": "Invoca a Lua de Sangue, causando <color=#FF9999FF>Dano Pyro</color> contra vários inimigos próximos, fazendo um golpe contra um deles que causa <color=#FF9999FF>Dano Pyro em AdE</color>.\nInimigos atingidos por esse ataque serão marcados com o Comando da Dívida de Sangue.\n\n<color=#FFD780FF>Comando da Dívida de Sangue</color>\n· Dura 30s. A cada 5s, causa 1 instância de <color=#FF9999FF>Dano Pyro</color> contra o oponente. Máximo de 2 instâncias. Esse Dano é considerado Dano de Habilidade Elemental\n· Quando Arlecchino usa um Ataque Carregado ou lança seu Supremo \"Ascensão da Lua Ominosa\", absorve e elimina os Comandos das Dívidas de Sangue que aplicou. Cada Comando absorvido a dá um Contrato de Vida equivalente a 65% de sua Vida Máxima.\n· Ela pode ganhar um Contrato de Vida equivalente a 145% de sua Vida Máxima dentro nos 35s após usar sua Habilidade Elemental. Lançar a Habilidade Elemental novamente durante esse período redefinirá a contagem da duração e o limite do Contrato de Vida que ganha de Comando da Dívida de Sangue.\n\n<i>Da forma que ela vê, não é todo grão de trigo que cai na terra que vai crescer, enquanto aqueles que ficam em seu caminho, quando queimados em chamas, podem ser usados novamente para nutrir as flores.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Arlecchino_01"
+        "Icon": "Skill_S_Arlecchino_01",
+        "CdTime": 30
       }
     ],
     "EnergySkill": {
@@ -786,7 +787,8 @@
       "Name": "Ascensão da Lua Ominosa",
       "Description": "Arlecchino bate as asas da Lua de Sangue, absorvendo e eliminando os Comandos da Dívida de Sangue ao seu redor, causando <color=#FF9999FF>Dano Pyro em AdE</color>, depois disso remove a recarga da Habilidade Elemental \"Tudo são Cinzas\" e regenera a própria Vida. A quantidade regenerada é baseada no valor do Contrato de Vida e no ATQ.\n\n<i>É comum se acreditar em Teyvat que as fases da lua são metáforas de presságios, usadas por àqueles que praticam a alquimia e astrologia.\nEla viu a lua carmesim muitas vezes em seus sonhos. Eram presságios de desastres? Sim, mas as catástrofes previstas eram daqueles que a haviam enfurecido.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Arlecchino_01"
+      "Icon": "Skill_E_Arlecchino_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

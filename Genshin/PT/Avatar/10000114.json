@@ -651,7 +651,8 @@
         "Name": "Devastação: Lampejo",
         "Description": "Imita o estilo de combate do \"Cavaleiro Abominável\". Produz efeitos diferentes dependendo se você Pressionar ou Manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nSkirk obtém 45 {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} e alterna para o modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}.\n\n<color=#FFD780FF>Manter pressionado</color>\nSkirk obtém 45 Sutileza da Serpente e se moverá continuamente em alta velocidade. Sua Resistência contra Interrupção é aumentada nesse estado.\nDurante esse período, Skirk pode controlar a direção do movimento, e pode se mover sobre a água. Ela também pode usar novamente essa Habilidade para encerrar o movimento rápido antes do tempo.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_SkirkNew_01"
+        "Icon": "Skill_S_SkirkNew_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -882,7 +883,8 @@
       "Name": "Arte Apodrecida: Obliteração",
       "Description": "O Supremo de Skirk não depende de Energia Elemental, mas sim de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}.\nQuando Skirk tiver pelo menos 50 de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}, ela poderá consumir toda a sua {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} para liberar seu Supremo, rasgando o espaço à sua frente e realizando cortes rápidos consecutivos que causam <color=#99FFFFFF>Dano Cryo em uma AdE</color>. Ao mesmo tempo, o Dano causado por cada golpe desse Supremo poderá ser aumentado por cada ponto de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} acima de 50 no momento da ativação. Um máximo de 12 pontos poderá ser considerado para esse aumento.\n\nQuando Skirk estiver no modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}, o Supremo \"Arte Apodrecida: Obliteração\" será substituído por \"Devastação: Obliteração\".\n\n<color=#FFD780FF>Devastação: Obliteração</color>\nUm Supremo especial que pode ser usado mesmo sem consumir Sutileza da Serpente.\nApós usá-lo, Skirk obterá o efeito \"Tudo Há de Murchar\", que durará até o término do Lampejo de Sete Fases. Após desbloquear o Talento de Ascensão {LINK#N11130007}<color=#FFD780FF>Razão Além da Razão</color>{/LINK}, ela também poderá absorver Fendas do Vazio próximas.\nEnquanto \"Tudo Há de Murchar\" estiver ativo, a cada 0.1s, após o Ataque Normal de Skirk acertar um inimigo, esse Ataque Normal causará Dano aumentado. Se ela tiver absorvido alguma Fenda do Vazio ao usar o <color=#FFD780FF>Devastação: Obliteração</color>, o Dano desse Ataque Normal será ainda mais aumentado com base no número de Fendas absorvidas.\nEsse efeito será cancelado após ser acionado 10 vezes.",
       "SpecialEnergyType": 2,
-      "Icon": "Skill_E_SkirkNew_01"
+      "Icon": "Skill_E_SkirkNew_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

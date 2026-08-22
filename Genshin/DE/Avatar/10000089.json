@@ -605,7 +605,8 @@
         "Name": "Salon solitaire",
         "Description": "#Lädt die Gäste des Salon solitaire ein, Furina bei ihrem Auftritt zu unterstützen. Beschwört entweder die „Salonmitglieder“ oder die „Sängerin der Ströme“, je nach Furinas aktueller <color=#FFD780FF>Arkhe-Energiesignatur</color>.\n\n<color=#FFD780FF>Ousia</color>\nVersprüht feierliche Blasen, die <color=#80C0FFFF>Hydro-Flächenschaden</color> basierend auf Furinas max. LP verursachen und 3 „Salonmitglieder“ beschwören: den poingpoing-oktopus-förmigen „Gentilhomme Usher“, die blubber-seepferdchen-förmige „Surintendante Chevalmarin“ und die panzerkrabbenförmige „Mademoiselle Crabaletta“.\nDie „Salonmitglieder“ greifen in gewissen Abständen Gegner in der Nähe an und bevorzugen das Ziel der aktiven Figur, wobei sie <color=#80C0FFFF>Hydro-Schaden</color> basierend auf den max. LP verursachen.\nWenn die „Salonmitglieder“ angreifen, erhöht sich die Stärke ihres aktuellen Angriffs basierend auf der Anzahl der Figuren, die sich in der Nähe befinden und deren LP mehr als 50{NON_BREAK_SPACE}% betragen, wobei deren LP verbraucht werden: Wenn die Anzahl der Figuren, die diese Bedingungen erfüllen, 1/2/3/4 oder mehr beträgt, verursacht der Angriff der Mitglieder 110/120/130/140{NON_BREAK_SPACE}% des ursprünglichen Schadens.\n\n<color=#FFD780FF>Pneuma</color>\nBeschwört die „Sängerin der Ströme“, die in regelmäßigen Abständen die LP der in der Nähe befindlichen aktiven Figuren basierend auf den max. LP wiederherstellt.\n\nDie Dauer gilt für die „Salonmitglieder“ und die „Sängerin der Ströme“ gemeinsam. Wenn Furina ihren heftigen Schlag einsetzt, um die Aufstellung der Gäste zu ändern, übernehmen die neuen Gäste die verbleibende Dauer.\nWährend die „Salonmitglieder“ oder die „Sängerin der Ströme“ existiert, kann Furina sich auf Wasseroberflächen bewegen.\n\n<i>In Furinas Salon solitaire gibt es einen festen Stamm an Gästen. Zu anderen Zeiten kommen Mademoiselle Crabaletta, Surintendante Chevalmarin und Gentilhomme Usher, und an düsteren Mittwochen ist es die Sängerin, die vorbeikommt.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Furina_01"
+        "Icon": "Skill_S_Furina_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -838,7 +839,8 @@
       "Name": "Möge das Volk frohlocken",
       "Description": "#Entfacht den Impuls zum Schwelgen und erzeugt eine Schaumbühne, die <color=#80C0FFFF>Hydro-Flächenschaden</color> basierend auf Furinas max. LP verursacht und Truppenmitglieder in der Nähe in den Zustand „Universelle Schwelgerei“ versetzt. Während dieser Zeit, wenn die aktuellen LP der Figuren steigen oder sinken, gewähren sie Furina für je 1{NON_BREAK_SPACE}% der LP-Schwankung im Vergleich zu den max. LP 1 Punkt „Pomp“.\nGleichzeitig erhöht Furina den von allen Truppenmitgliedern in der Nähe verursachten Schaden und ihren passiven Heilungsbonus, je nachdem, wie viel Pomp sie hat.\nWenn die Wirkungsdauer endet, wird Furinas Pomp entfernt.\n\n<i>„Jubelt! Lobt! Seid ehrfürchtig! Erhebt eure Gläser! Jede Nacht ohne Festmahl ist eine schmutzige Vergeudung von nüchternem Tageslicht ... Und die, die noch nicht volljährig sind, können stattdessen Traubensaft trinken!“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Furina_01"
+      "Icon": "Skill_E_Furina_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

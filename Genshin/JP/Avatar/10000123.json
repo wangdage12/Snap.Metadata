@@ -492,7 +492,8 @@
         "Name": "二元術式・融合精錬",
         "Description": "魂と願いの材料を純化し、{LINK#N11230001}<color=#FFD780FF>本質変転</color>{/LINK}を行う。この間、ドゥリンの元素スキル<color=#FFD780FF>二元術式・融合精錬</color>は特殊な元素スキル<color=#FFD780FF>変転・純白の正</color>に切り替わり、通常攻撃<color=#FFD780FF>輝炎の翼斬り</color>は特殊な元素スキル<color=#FFD780FF>変転・漆黒の否</color>へと変わる。\n\n<color=#FFD780FF>変転・純白の正</color>\n周囲の敵に<color=#FF9999FF>炎元素範囲ダメージ</color>を1回与え、本質変転を解除して<color=#FFD780FF>純白の正</color>状態になる。継続時間30秒。\n\n<color=#FFD780FF>変転・漆黒の否</color>\n前方の敵に<color=#FF9999FF>炎元素ダメージ</color>を3回連続で与え、本質変転を解除して<color=#FFD780FF>漆黒の否</color>状態になる。継続時間30秒。\n\n戦闘状態にある時、<color=#FFD780FF>純白の正</color>または<color=#FFD780FF>漆黒の否</color>状態に入ると、ドゥリンは元素エネルギーを一定量回復する。この方法による元素エネルギーの回復は、6秒毎に1回のみ可能。",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Durin_01"
+        "Icon": "Skill_S_Durin_01",
+        "CdTime": 12
       }
     ],
     "SpecialSkills": [
@@ -809,7 +810,8 @@
       "Name": "純白の法則・変転する光",
       "Description": "異なる方法で「獣」の力を解き放つ。ドゥリンの{LINK#N11230001}<color=#FFD780FF>本質変転</color>{/LINK}状態に応じて、ドゥリンは異なる元素爆発を発動できる。\n\n<color=#FFD780FF>純白の法則・変転する光</color>\nドゥリンが<color=#FFD780FF>純白の正</color>状態の時、元素爆発<color=#FFD780FF>純白の法則・変転する光</color>を発動し、前方の敵に3回の<color=#FF9999FF>炎元素範囲ダメージ</color>を与え、自身の力を<color=#FFD780FF>「白焔の龍」</color>の姿で具現化する。「白焔の龍」はフィールド上キャラクターにつき従い、一定時間ごとに周囲の敵を攻撃して<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。このダメージは元素爆発ダメージと見なされる。\n\n<color=#FFD780FF>漆黒の法則・燻る星</color>\nドゥリンが<color=#FFD780FF>漆黒の否</color>状態の時、代わりに元素爆発<color=#FFD780FF>漆黒の法則・燻る星</color>を発動し、前方の敵に3回の<color=#FF9999FF>炎元素範囲ダメージ</color>を与え、自身の力を<color=#FFD780FF>「黒蝕の龍」</color>の姿で具現化する。「黒蝕の龍」はフィールド上キャラクターにつき従い、一定時間ごとに周囲の敵1体を攻撃して<color=#FF9999FF>炎元素ダメージ</color>を与える。このダメージは元素爆発ダメージと見なされる。\n\nなお、ドゥリンが本質変転の特殊状態にない場合、元素爆発<color=#FFD780FF>純白の法則・変転する光</color>が発動される。",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Durin_01"
+      "Icon": "Skill_E_Durin_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -527,7 +527,8 @@
         "Name": "Garra e Trovão",
         "Description": "Caça sua presa usando as técnicas ensinadas para ele por seu mestre e seu Lupical.\n\n<color=#FFD780FF>Pressionar</color>\nBalança suas Garras de Lobo do Trovão, causando <color=#FFACFFFF>Dano Electro</color> nos inimigos em frente do Razor.\nAo atacar um inimigo, Razor ganha um Selo Electro que aumenta sua taxa de Recarga de Energia.\nRazor pode ter até 3 Selos Electro simultaneamente, e ganhar um novo Selo Electro recarrega sua duração.\n\n<color=#FFD780FF>Manter pressionado</color>\nReúne energia Electro para desencadear uma tempestade de raios em uma pequena AdE, causando <color=#FFACFFFF>Dano Electro</color> massivo e removendo todos os Selos Electro de Razor.\nCada Selo Electro removido dessa maneira será convertido em Energia para o Razor.\n\n<i>É quando relâmpagos caem que às vezes você pode ver de relance o olhar de um predador, analisando sua presa profundamente dentro dos olhos do Razor.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Razor_01"
+        "Icon": "Skill_S_Razor_01",
+        "CdTime": 6
       }
     ],
     "SpecialSkills": [
@@ -771,7 +772,8 @@
       "Name": "Dente de Relâmpago",
       "Description": "Evoca o Lobo Interior que causa <color=#FFACFFFF>Dano Electro</color> a todos os inimigos ao redor. Isso remove todos os Selos Electro do Razor, que serão convertidos em energia elemental para ele.\nO Lobo Interior irá lutar ao lado de Razor durante o período de duração da habilidade.\n\n<color=#FFD780FF>O Lobo Interior</color>\n Ataca juntamente com os ataques normais do Razor, causando <color=#FFACFFFF>Dano Electro</color>. Aumenta a Vel. de ATQ e <color=#FFACFFFF>RES Electro</color>.\nCausa imunidade a Razor por Dano infligido pelo estado de <color=#FFACFFFF>Eletricamente Carregado</color>\nDesabilita o Ataque Carregado do Razor. Aumenta a capacidade de RES à Interrupção de Razor.\n\nEsses efeitos terminam quando Razor sai de batalha.\nQuando Razor deixa o campo, um máximo de 10 de Energia irá ser retornada para ele baseado na duração restante da habilidade.\n\n<i>O lobo acordou. A caça começou.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Razor_01"
+      "Icon": "Skill_E_Razor_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

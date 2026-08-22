@@ -601,7 +601,8 @@
         "Name": "Universalidad: Emulación teorética",
         "Description": "Carga hacia delante a gran velocidad y, al finalizar el movimiento, inflige <color=#99FF88FF>Daño Dendro</color> y crea un “prisma rutilante”.\nEsta habilidad se libera de manera distinta al mantener pulsado.\n\n<color=#FFD780FF>Mantener pulsado</color>\nApunta para determinar la dirección en la que carga.\n\n<color=#FFD780FF>Prisma rutilante</color>\nAl lanzar esta habilidad, Alhacén crea un prisma rutilante. Si en ese momento no hay ningún otro prisma, crea otro adicional. El prisma rutilante tiene los siguientes efectos:\n·Cuando tiene un prisma rutilante, los Ataques Normales, Cargados y Descendentes de Alhacén infligen <color=#99FF88FF>Daño Dendro</color>, el cual no puede sustituirse imbuyéndose de otro elemento.\n·Cuando golpea a un enemigo con dichos ataques, el prisma rutilante crea una pantalla de luz que inflige <color=#99FF88FF>Daño Dendro en el AdE</color> en función del número de prismas existentes.\n·Se pueden crear hasta 3 prismas rutilantes.\n·Los prismas irán desapareciendo con el paso del tiempo, y desaparecerán por completo cuando Alhacén abandone el campo de batalla.\n\n<i>“La verdad existe de manera inherente a la incertidumbre. Ni siquiera los más ilustres eruditos pueden evitar cometer errores”.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Alhatham_01"
+        "Icon": "Skill_S_Alhatham_01",
+        "CdTime": 18
       }
     ],
     "EnergySkill": {
@@ -834,7 +835,8 @@
       "Name": "Enajenación: Constricción fenomenológica",
       "Description": "Crea un campo de constricción particular que inflige varias veces <color=#99FF88FF>Daño Dendro en el AdE</color>.\nAl lanzar esta habilidad, si ya hay prismas rutilantes, los consume todos para aumentar el número de veces que inflige daño la habilidad.\nDos segundos después de lanzarla, si se consumieron 0/1/2/3 prismas rutilantes, se crean respectivamente 3/2/1/0 prismas.\n\n<i>“Un erudito cuyo objetivo sea buscar la sabiduría debe considerar enemiga a cada palabra que lee. Solo así podrá liberarse de sus prejuicios”.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Alhatham_01"
+      "Icon": "Skill_E_Alhatham_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

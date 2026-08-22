@@ -462,7 +462,8 @@
         "Name": "Lampe des Dschinns – Sorgenbefreiende Kanone",
         "Description": "Die Lampe feuert eine sorgenbefreiende Kanonenkugel auf Gegner ab und verursacht <color=#FFACFFFF>Elektro-Schaden</color>.\nTrifft die sorgenbefreiende Kanonenkugel, erzeugt sie 2 Kundendienst-Kanonenkugeln, die die Gegner automatisch verfolgen und <color=#FFACFFFF>Elektro-Schaden</color> verursachen.\n\n<i>Es heißt, dass Dori jede Sorge nehmen kann ... für den richtigen Preis.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Dori_01"
+        "Icon": "Skill_S_Dori_01",
+        "CdTime": 9
       }
     ],
     "EnergySkill": {
@@ -679,7 +680,8 @@
       "Name": "Zuneigung von Alcazarzaray",
       "Description": "Beschwört den Flaschengeist herauf, um den Kunden verschiedenste Arten von Hilfe zu geben.\n\n<color=#FFD780FF>Flaschengeist</color>\nVerbindet sich mit der Figur in der Nähe:\n· Stellt der damit verbundenen Figur fortlaufend LP auf Basis von Doris max. LP wieder her.\n· Stellt dieser Figur fortlaufend Elementarenergie wieder her.\n· Verleiht dieser Figur das <color=#FFACFFFF>Elektro-Attribut</color>.\n\nBerührt das Verbindungsstück zwischen dem Flaschengeist und der Figur die Gegner, fügt es diesen alle 0,4 s 1-mal <color=#FFACFFFF>Elektro-Schaden</color> zu.\n\nGleichzeitig kann immer nur höchstens 1 Flaschengeist existieren.\n\n<i>„Hmm? Du willst diese Lampe? Dafür hast du aber einen richtig guten Geschmack! Leider ist sie unschätzbar und nicht zu verkaufen. Sagen wir mal so, du wirst das Maskottchen an deiner Seite auch um keinen Preis der Welt verkaufen, oder?“</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Dori_01"
+      "Icon": "Skill_E_Dori_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

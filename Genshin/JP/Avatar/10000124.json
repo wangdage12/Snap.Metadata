@@ -523,7 +523,8 @@
         "Name": "奇策・財宝分配法",
         "Description": "ヤフォダは敵に突進し、敵に触れると「影追撃」状態に入る。この状態の時、ヤフォダは素早く移動できる。また、近くの敵が<color=#FF9999FF>炎元素</color>、<color=#80C0FFFF>水元素</color>、<color=#FFACFFFF>雷元素</color>、または<color=#99FFFFFF>氷元素</color>付着状態である場合、身に着けている{LINK#N11240001}<color=#FFD780FF>ゴロニャンお宝ボトル</color>{/LINK}を対応する元素タイプに変化させ、装填し続ける。継続時間終了時、または再発動時、ヤフォダは<color=#FFD780FF>ゴロニャンお宝ボトル</color>を消し、近くの敵に<color=#80FFD7FF>風元素ダメージ</color>を1回与える。<color=#FFD780FF>ゴロニャンお宝ボトル</color>が満タンになると、ヤフォダは<color=#FFD780FF>ゴロニャンお宝ボトル</color>を消し、影追撃状態を解除して、近くの敵により高威力の<color=#80FFD7FF>風元素ダメージ</color>を1回与える。\nヤフォダの突進が敵に触れなかった場合、ヤフォダはその場で発煙弾を1発発射し、近くの敵に<color=#80FFD7FF>風元素ダメージ</color>を1回与える。\n\n<color=#FFD780FF>月兆・満照</color>：<color=#FFD780FF>ゴロニャンお宝ボトル</color>が満タンになっても、ヤフォダは直ちに<color=#FFD780FF>ゴロニャンお宝ボトル</color>を消さず、その代わりに一定時間、ボトルに蓄積した元素を消耗し続け、一定時間ごとに近くの敵に<color=#FFD780FF>もふもふニャンコボール</color>を発射し、<color=#FFD780FF>ゴロニャンお宝ボトル</color>の元素タイプに応じたダメージを与える。<color=#FFD780FF>もふもふニャンコボール</color>が敵に命中した時、ヤフォダの元素エネルギーを2回復する。この効果は3.5秒毎に1回のみ発動可能。\n\n<i>この世に、財産を分配する方法はたくさんある。しかし、ナド・クライのトレジャーハンターと宝盗団にとって、一番効率の良い分け方は決まっている。</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Jahoda_01"
+        "Icon": "Skill_S_Jahoda_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -801,7 +802,8 @@
       "Name": "秘器・狩人の七つ道具",
       "Description": "とっておきのお宝を使っちゃおう！ヤフォダは{LINK#N11240002}<color=#FFD780FF>家庭用肉球アシスタントマシン</color>{/LINK}を2つ取り出し、近くの敵に<color=#80FFD7FF>風元素ダメージ</color>を1回与える。\n\n<i>「『支援協力』っていうのは、あんたがモラで支援してくれれば、あたいらも協力するってことだ。理にかなってるだろ？」</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Jahoda_01"
+      "Icon": "Skill_E_Jahoda_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

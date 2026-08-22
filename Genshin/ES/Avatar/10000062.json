@@ -556,7 +556,8 @@
         "Name": "Campo gélido",
         "Description": "#Lanza una bomba helada hacia la dirección en la que apunta y, al impactar, produce una explosión que inflige <color=#99FFFFFF>Daño Cryo</color>. Al explotar, la bomba se divide en varias minibombas ultracongelantes que explotan al entrar en contacto con un enemigo o tras cierto tiempo, infligiendo <color=#99FFFFFF>Daño Cryo</color>.\nAl golpear a un enemigo con la bomba helada o las minibombas ultracongelantes, se reduce el ATQ de dicho enemigo y Aloy obtiene una carga del efecto de inducción.\nSolo se puede obtener una carga de inducción cada 0.1{NON_BREAK_SPACE}s.\n\n<color=#FFD780FF>Inducción</color>\n·Aumenta el daño que inflige Aloy con su Ataque Normal en función del número de cargas de inducción.\n·Cuando tiene 4 cargas, Aloy las consume todas y obtiene “hielo galopante”, el cual aumenta aún más el daño de su Ataque Normal y lo transforma en <color=#99FFFFFF>Daño Cryo</color>.\n\nEn el estado de hielo galopante, Aloy no podrá beneficiarse de inducción.\nLos efectos de inducción se perderán 30{NON_BREAK_SPACE}s después de que Aloy sea retirada de combate.\n\n<i>¿Crees que eso está frío? Eso es porque nunca has estado en El Tajo.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Aloy_01"
+        "Icon": "Skill_S_Aloy_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -710,7 +711,8 @@
       "Name": "Profecía del amanecer",
       "Description": "Lanza una batería rebosante de Cryo hacia la dirección en la que apunta y la detona con una flecha, infligiendo <color=#99FFFFFF>Daño Cryo en el AdE</color>.\n\n<i>Ya no importa si la naturaleza de “Amanecer Cero” es la esperanza o la extinción, pues Aloy ya ha salvado a su mundo, mientras que el destino de este mundo es cosa de sus propios héroes.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Aloy_01"
+      "Icon": "Skill_E_Aloy_01",
+      "CdTime": 12
     },
     "Inherents": [
       {

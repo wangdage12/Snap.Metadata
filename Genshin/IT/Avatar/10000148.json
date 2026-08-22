@@ -494,7 +494,8 @@
         "Name": "Imboscata saettante",
         "Description": "#Segue i propri istinti da cacciatore. {LAYOUT_MOBILE#Tocca}{LAYOUT_PC#Premi}{LAYOUT_PS#Premi} o tieni premuto per produrre effetti diversi e applicare l'effetto {LINK#N11480001}<color=#FFD780FF>Marchio del cacciatore</color>{/LINK} agli avversari colpiti.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tocco}{LAYOUT_PC#Pressione}{LAYOUT_PS#Pressione}</color>\nSpara agli avversari di fronte a sé, infliggendo <color=#FFACFFFF>DAN da Electro ad area</color>.\n\n<color=#FFD780FF>Pressione prolungata</color>\nEntra in modalità di mira e punta gli avversari presenti in una determinata area di fronte a sé. La RES all'interruzione di Alyosha viene potenziata quando si trova in questa modalità.\nAl termine della pressione prolungata, infligge <color=#FFACFFFF>DAN da Electro</color> agli avversari puntati.\n\n<i>Una volta, il cacciatore temerario allungò la mano verso la punta della lancia e, solo dopo essere sopravvissuto a una lezione pagata col sangue, arrivò a comprendere le crude verità della sopravvivenza nelle gelide pianure.</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Alyosha_01"
+        "Icon": "Skill_S_Alyosha_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -680,7 +681,8 @@
       "Name": "Avanzata del cacciatore",
       "Description": "#Evoca il suo fidato compagno <color=#FFD780FF>Tugarin</color> per combattere al suo fianco sul campo, trasformando per un breve periodo di tempo un'area davanti a sé in un <color=#FFD780FF>Campo di caccia di Folgorite</color>.\n\n<color=#FFD780FF>Campo di caccia di Folgorite</color>\n· Provoca continuamente gli avversari vicini per incitarli ad attaccare.\n· Ogni 2{NON_BREAK_SPACE}s, infligge un'iterazione di <color=#FFACFFFF>DAN da Electro ad area</color> a qualsiasi avversario presente nel campo.\n\n<color=#FFD780FF>Tugarin</color>\n· Se nelle vicinanze ci sono avversari, Tugarin si avvicina velocemente a uno di loro ogni 2{NON_BREAK_SPACE}s per azzannarlo, infliggendo <color=#FFD780FF>DAN da Electro</color>.\n· Se viene colpito un avversario affetto dal <color=#FFD780FF>Marchio del cacciatore</color>, quest'ultimo viene attivato.\n· Quando ci sono più avversari, Tugarin attacca prima quelli affetti dal <color=#FFD780FF>Marchio del cacciatore</color>.\n\n<i>Attendi. Continua ad attendere finché l'impazienza non svanisce. È allora che il piviere dal ventre rosso attraverserà il bosco di betulle per presentarsi davanti alla freccia.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Alyosha_01"
+      "Icon": "Skill_E_Alyosha_01",
+      "CdTime": 18
     },
     "Inherents": [
       {

@@ -476,7 +476,8 @@
         "Name": "Dawnbearing Songbird",
         "Description": "Memanggil burung pembawa pesan bernama \"Aedon\" untuk bertempur bersama. Skill ini akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nAedon menerjang ke musuh di depannya dan mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh yang dikenainya.\n\n<color=#FFD780FF>Mode Tahan</color>\nMemasuki Mode Membidik, dan memerintahkan Aedon untuk menerjang ke arah musuh yang dibidik, mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh yang dikenainya.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Illuga_01"
+        "Icon": "Skill_S_Illuga_01",
+        "CdTime": 15
       }
     ],
     "EnergySkill": {
@@ -725,7 +726,8 @@
       "Name": "Shadowless Reflection",
       "Description": "Menyalakan api lentera untuk mengakibatkan <color=#FFE699FF>Geo DMG Area</color> dan mendapatkan efek \"Haunted Night's Oriole-Song\" yang bertahan selama 20 detik. Selama durasi ini, Illuga mendapatkan 21 lapis {LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK}. Saat Karakter aktif dalam party mengakibatkan <color=#FFE699FF>Geo DMG</color> terhadap musuh melalui Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, atau Elemental Burst, maka Illuga akan mengonsumsi 1 lapis Nightingale's Song untuk meningkatkan DMG yang diakibatkan berdasarkan Elemental Mastery Illuga. Jika DMG-nya diakibatkan oleh reaksi Lunar-Crystallize, maka peningkatan DMG-nya akan menjadi semakin besar.\nJika <color=#FFE699FF>Geo DMG</color> yang diakibatkan dengan cara di atas mengenai beberapa musuh sekaligus, maka jumlah lapisan Nightingale's Song akan dikonsumsi akan disesuaikan dengan jumlah musuh yang terkena serangan.\n\nSelain itu, jika Illuga melancarkan Elemental Burst saat ada <color=#FFE699FF>Geo Construct</color> yang diciptakan oleh Karakter party di sekitar, atau saat Karakter party di sekitar menciptakan <color=#FFE699FF>Geo Construct</color> selama Haunted Night's Oriole-Song aktif, maka setiap <color=#FFE699FF>Geo Construct</color> yang ada akan memberikan Illuga 5 lapis Nightingale's Song tambahan. Illuga hanya bisa mendapatkan maksimum 15 lapis Nightingale's Song tambahan dengan cara ini dalam 20 detik setelah melancarkan Elemental Burst.\n\nEfek Haunted Night's Oriole-Song akan berakhir saat seluruh lapisan Nightingale's Song habis atau saat durasi efeknya berakhir.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Illuga_01"
+      "Icon": "Skill_E_Illuga_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

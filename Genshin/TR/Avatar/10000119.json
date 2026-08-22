@@ -590,7 +590,8 @@
         "Name": "Runo: Karsikko'nun Şafaksız İstirahati",
         "Description": "Sessizce kadim bir ilahi okur ve Dokunma ya da Basılı Tutmaya göre farklı etkiler gösteren bir {LINK#N11190001}<color=#FFD780FF>Donuk Koru Mabedi</color>{/LINK} çağırır.\n\n<color=#FFD780FF>Dokun</color>\n<color=#99FF88FF>Doğa Alan Hasarı</color> veren bir Av İlahisi söyler.\n\n<color=#FFD780FF>Basılı Tut</color>\nEn az 1 {LINK#N11190008}<color=#FFD780FF>Taze Çiy</color>{/LINK} olduğunda kullanılabilir. Lauma tüm Taze Çiyleri tüketerek bir Ebedi İstirahat İlahisi söyler, bir defa normal <color=#99FF88FF>Doğa Alan Hasarı</color> ve bir defa Ay Çiçeklenmesi Hasarı sayılan <color=#99FF88FF>Doğa Alan Hasarı</color> verir. Tüketilen her Taze Çiy Lauma'ya bir kademe {LINK#N11190002}<color=#FFD780FF>Ay Ezgisi</color>{/LINK} kazandırır. Bu şekilde bir Element Becerisi kullanmak için Basılı Tuttuğun her seferde en fazla 3 Taze Çiy tüketilebilir. \n\nAyrıca Lauma'nın Element Becerisi veya Donuk Koru Mabedi saldırıları bir düşmana isabet ettiğinde, o düşmanın 10sn boyunca <color=#99FF88FF>Doğa Direnci</color> ve <color=#80C0FFFF>Su Direnci</color> azalır.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Lauma_01"
+        "Icon": "Skill_S_Lauma_01",
+        "CdTime": 12
       }
     ],
     "EnergySkill": {
@@ -808,7 +809,8 @@
       "Name": "Runo: Ay İle Çarpan Kalpler",
       "Description": "Tüm canlıların dilekleri, dünyayı aydınlatan ay ışığına dönüşsün. Lauma, kutsal bir kuzey şarkısı söyler ve 18 kademe {LINK#N11190003}<color=#FFD780FF>Solgun İlahi</color>{/LINK} kazanır.\nLauma, {LINK#N11190002}<color=#FFD780FF>Ay Ezgisi</color>{/LINK} mevcutken Element Patlaması kullandığında veya Element Patlaması kullandıktan sonra 15sn içinde Ay Ezgisi etkisi kazandığında tüm Ay Ezgisi kademelerini tüketir ve tüketilen her Ay Ezgisi kademesi başına 6 kademe Solgun İlahi kazanır. Bu etki, Element Patlaması kullanıldıktan sonraki 15sn dahil olmak üzere her Element Patlaması için bir defa tetiklenebilir.\n\n<color=#FFD780FF>Solgun İlahi</color>\nYakındaki grup üyeleri Çiçeklenme, Aşırı Çiçeklenme, Filizlenme veya Ay Çiçeklenmesi Hasarı verdiğinde 1 kademe Solgun İlahi tüketilir ve verilen Hasar, Lauma'nın Element Ustalığına göre artar. Birden fazla düşmana aynı anda Hasar verilmesi halinde, vurulan düşman sayısına bağlı olarak birden fazla Solgun İlahi kademesi tüketilir.\nHer Solgun İlahi kademesinin süresi ayrı hesaplanır.",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Lauma_01"
+      "Icon": "Skill_E_Lauma_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

@@ -651,7 +651,8 @@
         "Name": "Havoc: Warp",
         "Description": "Meniru gaya pertempuran \"The Foul\", dan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.\n\n<color=#FFD780FF>Mode Tekan</color>\nSkirk mendapatkan 45 poin {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} dan beralih ke mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK}.\n\n<color=#FFD780FF>Mode Tahan</color>\nSkirk mendapatkan 45 poin Serpent's Subtlety dan terus bergerak dengan cepat. Dalam status ini, ketahanan Skirk terhadap interupsi juga akan meningkat.\nDalam status ini, Skirk dapat mengontrol arah pergerakannya dan bergerak di atas air. Lancarkan Elemental Skill sekali lagi untuk mengakhiri status bergerak cepat ini lebih awal.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_SkirkNew_01"
+        "Icon": "Skill_S_SkirkNew_01",
+        "CdTime": 8
       }
     ],
     "EnergySkill": {
@@ -882,7 +883,8 @@
       "Name": "Havoc: Ruin",
       "Description": "Elemental Burst Skirk tidak menggunakan Energy, melainkan menggunakan {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK}.\nSaat Skirk memiliki minimal 50 poin Serpent's Subtlety, Skirk dapat mengonsumsi seluruh Serpent's Subtlety untuk melancarkan Elemental Burst, mengoyak ruang di hadapannya dan melancarkan tebasan beruntun secara cepat yang mengakibatkan <color=#99FFFFFF>Cryo DMG Area</color>. Di saat yang sama, DMG yang diakibatkan Elemental Burst kali ini akan meningkat berdasarkan jumlah poin Serpent's Subtlety yang melebihi 50 poin. Setiap 1 poinnya akan meningkatkan DMG Elemental Burst kali ini. Peningkatan DMG ini hanya bisa menghitung maksimum 12 poin Serpent's Subtlety.\n\nSaat Skirk berada dalam mode {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK}, Havoc: Ruin akan berubah menjadi Havoc: Extinction.\n\n<color=#FFD780FF>Havoc: Extinction</color>\nElemental Burst spesial yang bisa dilancarkan tanpa mengonsumsi Serpent's Subtlety.\nSetelah dilancarkan, Skirk akan mendapatkan efek \"All Shall Wither\" yang berlangsung hingga mode Seven-Phase Flash berakhir. Setelah membuka Talenta Ascension {LINK#N11130007}<color=#FFD780FF>Reason Beyond Reason</color>{/LINK}, dia juga bisa menyerap Void Rift yang ada di sekitarnya dalam radius tertentu.\nSelama efek \"All Shall Wither\" berlangsung, setiap 0,1 detik, Normal Attack Skirk yang mengenai musuh akan mendapatkan peningkatan DMG. Jika Skirk menyerap Void Rift saat melancarkan <color=#FFD780FF>Havoc: Extinction</color>, maka DMG Normal Attack kali ini akan meningkat lebih lanjut berdasarkan jumlah Void Rift yang diserap.\nEfek ini akan hilang setelah terpicu 10 kali.",
       "SpecialEnergyType": 2,
-      "Icon": "Skill_E_SkirkNew_01"
+      "Icon": "Skill_E_SkirkNew_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

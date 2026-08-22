@@ -620,7 +620,8 @@
         "Name": "Banchisa pressurizzata",
         "Description": "#Esegue un fendente ascendente che infligge <color=#99FFFFFF>DAN da Cryo</color> e permette a Freminet di avviare il Manometro di Pers per 10{NON_BREAK_SPACE}s.\nMentre il Manometro di Pers è attivo, la sua abilità elementale cambia e diventa Pressione frantumante.\n\n<color=#FFD780FF>Pressione frantumante</color>\nLancia attacchi di tipo diverso in base al livello di Pressione indicato dal Manometro di Pers, per poi disattivare quest'ultimo.\n· Livello 0: esegue un taglio verticale che infligge <color=#99FFFFFF>DAN da Cryo</color>.\n· Livello 1-3: esegue un taglio verticale insieme a Pers, infliggendo <color=#99FFFFFF>DAN da Cryo</color> e DAN fisici. I DAN aumentano in proporzione al livello di Pressione.\n· Livello 4: infligge DAN fisici sfruttando il potere massimo della pressione di Pers. Al tempo stesso, Attacco normale: Flussi vorticosi viene sostituito da Pressione frantumante.\n\n<color=#FFD780FF>Manometro di Pers</color>\nQuando Freminet usa gli attacchi normali, sprigiona anche onde glaciali che infliggono <color=#99FFFFFF>DAN da Cryo</color> e aumentano il livello di Pressione di Pers.\nI <color=#99FFFFFF>DAN da Cryo</color> inflitti in questo modo vengono considerati DAN da abilità elementale.\n\n<color=#FFD780FF>Archè: Pneuma</color>\nA determinati intervalli, dopo aver eseguito il fendente ascendente, si genera un Aculeo spettrale che esegue un ulteriore fendente ascendente, infliggendo <color=#99FFFFFF>DAN da Cryo</color> di polarità Pneuma.\n\n<i>In certi casi, anche immobilizzare il proprio avversario senza privarlo della vita può essere considerata una strategia di \"sopravvivenza\".</i>\n<i>\"Pers... al resto pensaci tu.\"</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Freminet_01"
+        "Icon": "Skill_S_Freminet_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -790,7 +791,8 @@
       "Name": "Agguato del Cacciaombre",
       "Description": "#Scatena un'ondata di gelo intangibile che infligge <color=#99FFFFFF>DAN da Cryo ad area</color>, azzerando il TdR dell'abilità elementale Banchisa pressurizzata e consentendo a Freminet di entrare in modalità Cacciatore subacqueo per 10{NON_BREAK_SPACE}s.\n\nMentre questa modalità è attiva, la resistenza all'interruzione di Freminet aumenta e l'abilità elementale Banchisa pressurizzata ottiene i seguenti effetti positivi:\n· il TdR si riduce di un 70%;\n· gli attacchi normali forniscono 1 livello di Pressione aggiuntivo al Manometro di Pers, e il gelo sprigionato dagli attacchi normali di Freminet infligge un 200% dei DAN originali.\n\nQuesti effetti vengono annullati se Freminet abbandona il campo.\n\n<i>\"Bene così... Non mi servono rumori superflui.\"</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Freminet_01"
+      "Icon": "Skill_E_Freminet_01",
+      "CdTime": 15
     },
     "Inherents": [
       {

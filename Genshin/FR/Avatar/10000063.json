@@ -556,7 +556,8 @@
         "Name": "Invocation d'esprit printanier",
         "Description": "#La rosée givrée et argentée exorcisera tous les démons.\nAccorde l'effet Pennage glacé à tous les membres de l'équipe à proximité, et inflige des <color=#99FFFFFF>DGT Cryo</color> de différentes manières selon la méthode de déclenchement :\n\n<color=#FFD780FF>Appui simple</color>\nSe précipite vers l'avant avec un esprit talismanique, infligeant des <color=#99FFFFFF>DGT Cryo</color> aux ennemis en chemin.\n\n<color=#FFD780FF>Appui long</color>\nOrdonne à l'esprit talismanique d'infliger des <color=#99FFFFFF>DGT Cryo de zone</color>.\n\n<color=#FFD780FF>Pennage glacé</color>\nLorsqu'une attaque normale, chargée ou plongeante, une compétence ou un déchaînement élémentaires inflige des <color=#99FFFFFF>DGT Cryo</color> à un ennemi, les DGT infligés augmentent en fonction de l'ATQ actuelle de Shenhe.\n\nLes effets du pennage glacé disparaissent à la fin de sa durée ou après avoir activé un certain nombre de cumuls. En utilisant un pennage glacé avec un appui long à la place d'un appui simple, sa durée et le nombre de cumuls générés augmentent.\nLorsqu'une attaque de <color=#99FFFFFF>DGT Cryo</color> touche plusieurs ennemis en même temps, les cumuls sont consommés selon le nombre d'ennemis touchés. Les cumuls de pennage glacé sont calculés indépendamment pour tous les personnages de l'équipe.\n\n<i>« Le pouvoir des esprits n'est pas un mensonge. Même accablée par les ordres, la demoiselle divine continue !{NON_BREAK_SPACE}»</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Shenhe_01"
+        "Icon": "Skill_S_Shenhe_01",
+        "CdTime": 10
       }
     ],
     "EnergySkill": {
@@ -758,7 +759,8 @@
       "Name": "Délivrance de la demoiselle divine",
       "Description": "Libère la puissance de l'esprit talismanique, lui permettant de se déplacer librement dans ce plan d'existence pour infliger des <color=#99FFFFFF>DGT Cryo de zone</color>.\nL'esprit talismanique crée alors un champ qui diminue les <color=#99FFFFFF>RÉS Cryo</color> et physique des ennemis, et inflige des <color=#99FFFFFF>DGT Cryo</color> de façon continue aux ennemis à l'intérieur.\n\n<i>« La voie des Adeptes n'est pas pour ceux pris dans le mystère et l'imagination. Ce n'est qu'en observant les changements des cieux et de la terre, et en comprenant les lois de cause à effet de ce royaume, que l'on peut saisir son essence. »</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Shenhe_01"
+      "Icon": "Skill_E_Shenhe_01",
+      "CdTime": 20
     },
     "Inherents": [
       {

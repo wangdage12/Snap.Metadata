@@ -462,7 +462,8 @@
         "Name": "Vai, Trottolino, vai!",
         "Description": "Combatte insieme a Trottolino, la sua fidata turbotrottola!\nEvoca Trottolino. La pressione prolungata dell'abilità permette a Kachina di evocare Trottolino e salirci a bordo immediatamente.\nDopo l'attivazione dell'abilità, Kachina ottiene 60 punti Anima della Notte ed entra nello stato di Grazia dell'Anima della Notte.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Kachina</color>\nLe azioni eseguite da Trottolino consumano punti Anima della Notte.\nLo stato termina quando tutti i punti vengono consumati.\n\n<color=#FFD780FF>Trottolino</color>\nPuò sia agire in autonomia che essere manovrato da Kachina quando quest'ultima ci si trova sopra. Quando Trottolino è in campo, l'abilità elementale di Kachina \"Vai, Trottolino, vai!\" viene sostituita da un comando che permette a Kachina di salire a bordo e scendere da Trottolino.\n· Quando agisce in autonomia, Trottolino colpisce il terreno con violenza a intervalli regolari, infliggendo <color=#FFE699FF>DAN da Geo ad area</color> basati sulla DIF di Kachina e con attributo Anima della Notte.\n· Quando Kachina è a bordo di Trottolino, quest'ultima può controllarne i movimenti, usarlo per arrampicarsi rapidamente e sferrare l'attacco normale per colpire il terreno con violenza, infliggendo <color=#FFE699FF>DAN da Geo ad area</color> basati sulla DIF di Kachina e con attributo Anima della Notte.\n\nTrottolino è considerato un costrutto di Geo, e scompare al termine dello stato di Grazia dell'Anima della Notte di Kachina. Può esistere soltanto 1 Trottolino creato da Kachina in campo alla volta.\n\n<i>Trottolino può sembrare una trottola, ma l'apparenza inganna: in realtà è una trivella in grado di spaccare anche la roccia più dura!</i>",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_S_Kachina_01"
+        "Icon": "Skill_S_Kachina_01",
+        "CdTime": 20
       }
     ],
     "EnergySkill": {
@@ -632,7 +633,8 @@
       "Name": "Ora si fa sul serio!",
       "Description": "Kachina colpisce il terreno infliggendo <color=#FFE699FF>DAN da Geo ad area</color> in base alla sua DIF, schierando un Campo Turbotrivella.\nIl Campo aumenta l'area d'effetto degli attacchi di Trottolino e la sua VEL di movimento quando Kachina si trova sopra di lui.\n\nSe il Trottolino di Kachina è già presente in campo quando viene usata questa abilità, Trottolino riappare nuovamente al suo fianco.\n\n<i>Come gli interpreti agitati tendono a paragonare gli spettatori a dei pupazzi di legno, a Kachina piace immaginare i suoi avversari come minerali pieni di splendide gemme preziose, di quelle che non vedi l'ora di raccogliere e portarti a casa.</i>",
       "SpecialEnergyType": 0,
-      "Icon": "Skill_E_Kachina_01"
+      "Icon": "Skill_E_Kachina_01",
+      "CdTime": 18
     },
     "Inherents": [
       {
