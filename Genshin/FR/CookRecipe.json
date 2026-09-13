@@ -4235,7 +4235,8 @@
     "Name": "Bortsch",
     "Description": "Une soupe d'un rouge éclatant. Une fois le bouillon prêt, on y ajoute progressivement divers ingrédients et on laisse mijoter doucement jusqu'à ce que leurs saveurs se mélangent. On rajoute souvent une cuillerée de crème fraîche juste avant de servir. À chaque gorgée, une douce chaleur se répand dans le corps, suffisamment réconfortante pour chasser le froid mordant de l'extérieur.",
     "EffectDescription": [
-      "<color=#3399CCFF>Diminue</color> la vitesse à laquelle s'accumulent les effets du Grand froid pendant 900 s."
+      "<color=#3399CCFF>Diminue</color> la vitesse à laquelle s'accumulent les effets du Grand froid pendant 900 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10232,7 +10233,9 @@
     "Id": 3701,
     "Name": "Zharkoye",
     "Description": "Un plat de viande servi dans une cocotte en terre cuite. Les ingrédients coupés en dés sont placés dans la cocotte, recouverts de pâte, puis cuits au four. Une fois la cuisson terminée, on retire la croûte croustillante et on ajoute de la crème fraîche pour l'assaisonnement. La méthode en elle-même n'est pas compliquée, mais maîtriser la température du four et le temps de cuisson demande une certaine expérience.",
-    "EffectDescription": [],
+    "EffectDescription": [
+      "Restaure <color=#3399CCFF>30 % à 34 %</color> des PV max du personnage sélectionné et <color=#3399CCFF>600 à 1 900</color> PV supplémentaires."
+    ],
     "CookMethod": 2,
     "FoodType": 1,
     "Icon": "UI_ItemIcon_108885",
@@ -10277,7 +10280,8 @@
     "Name": "Okrochka des neiges",
     "Description": "Un bol de soupe froide. Les ingrédients cuits sont disposés uniformément dans un bol, puis recouverts d'un bouillon à base de crème fraîche. Certains Snezhnayiens se lancent le défi d'engloutir un grand bol de cette soupe en une seule fois lors des journées les plus froides, y voyant la preuve de leur force et de leur capacité à vaincre le froid glacial.",
     "EffectDescription": [
-      "Augmente la DÉF de tous les personnages de l'équipe de <color=#3399CCFF>165 à 235</color> pts pendant 300 s."
+      "Augmente la DÉF de tous les personnages de l'équipe de <color=#3399CCFF>165 à 235</color> pts pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
     ],
     "CookMethod": 2,
     "FoodType": 4,
@@ -10370,6 +10374,7 @@
     "Name": "Medovik",
     "Description": "Un gâteau au miel. De fines feuilles de pâte au miel sont cuites au four, puis superposées en alternant avec une couche de crème fraîche épaisse. Le gâteau est ensuite saupoudré de miettes et arrosé d'un filet de sirop de miel. Chaque étape doit être réalisée avec soin pour un résultat impeccable.",
     "EffectDescription": [
+      "Restaure <color=#3399CCFF>26 à 30 %</color> des PV max du personnage sélectionné.",
       "Et restaure <color=#3399CCFF>450 à 790</color> PV toutes les 5 s pendant 30 s."
     ],
     "CookMethod": 2,
@@ -10416,7 +10421,8 @@
     "Name": "Chachlyks snezhnayiens",
     "Description": "De gros morceaux de viande grillée en brochettes. Des morceaux de viande marinés sont enfilés sur des brochettes en fer et grillés sur des braises ardentes, retournés jusqu'à ce qu'ils soient bien grillés à l'extérieur et tendres à l'intérieur. Que ce soit lors de réunions de famille dans un jardin, à la chasse ou sur un coin de neige dégagé juste assez grand, on trouve ces brochettes partout à Snezhnaya où l'on peut allumer un feu.",
     "EffectDescription": [
-      "Réduit la consommation d'endurance de tous les personnages de l'équipe de <color=#3399CCFF>15 % à 25 %</color> lors de l'escalade et du sprint pendant 900 s."
+      "Réduit la consommation d'endurance de tous les personnages de l'équipe de <color=#3399CCFF>15 % à 25 %</color> lors de l'escalade et du sprint pendant 900 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10462,7 +10468,8 @@
     "Name": "Viornes en fleurs sur champ de neige",
     "Description": "Une salade composée classique. Chaque ingrédient est préparé séparément, puis superposé en couches avec une vinaigrette à la crème fraîche assaisonnée. Une fois assemblée, la salade repose généralement un moment pour que les saveurs se mélangent harmonieusement. Le plat final évoque des viornes de neige épanouies sur un champ enneigé, d'où son nom.",
     "EffectDescription": [
-      "Augmente l'ATQ de tous les personnages de l'équipe de <color=#3399CCFF>160 à 228</color> pts pendant 300 s."
+      "Augmente l'ATQ de tous les personnages de l'équipe de <color=#3399CCFF>160 à 228</color> pts pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
     ],
     "CookMethod": 2,
     "FoodType": 2,
@@ -12329,7 +12336,8 @@
     "Name": "Coupes sucrées",
     "Description": "Un assortiment de boules de glace. Quatre parfums différents sont servis dans des bols en papier séparés et emballés ensemble dans une seule boîte. Les dégustateurs se divisent généralement en deux catégories : ceux qui choisissent le parfum qui leur fait envie sur le moment et ceux qui finissent chaque bol dans le même ordre. Quoi qu'il en soit, il ne reste jamais rien au fond de la boîte à la fin.",
     "EffectDescription": [
-      "Augmente l'ATQ de <color=#3399CCFF>224 à 320</color> pts et le taux CRIT de <color=#3399CCFF>6 % à 10 %</color> pour tous les personnages de l'équipe pendant 300 s."
+      "Augmente l'ATQ de <color=#3399CCFF>224 à 320</color> pts et le taux CRIT de <color=#3399CCFF>6 % à 10 %</color> pour tous les personnages de l'équipe pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
     ],
     "CookMethod": 1,
     "FoodType": 2,

@@ -4235,7 +4235,8 @@
     "Name": "Borschtsch",
     "Description": "Ein leuchtend rotes Suppengericht. Sobald die Brühe kochfertig ist, werden nach und nach verschiedene Zutaten hinzugefügt und langsam köcheln gelassen, bis sich ihre Aromen miteinander verbinden. Oft wird kurz vor dem Servieren ein Löffel Schmand hinzugefügt. Mit jedem Schluck breitet sich eine wohlige Wärme im Körper aus, die stark genug ist, um auch die bitterste Kälte zu vertreiben.",
     "EffectDescription": [
-      "<color=#3399CCFF>Verlangsamt</color> das Ansammeln bitterer Kälte für alle Truppenmitglieder 900 s lang."
+      "<color=#3399CCFF>Verlangsamt</color> das Ansammeln bitterer Kälte für alle Truppenmitglieder 900 s lang.",
+      "Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10232,7 +10233,9 @@
     "Id": 3701,
     "Name": "Zharkoje im Tontopf",
     "Description": "Ein Fleischgericht, das in einem Tontopf serviert wird. Die gewürfelten Zutaten werden in den Topf gegeben, mit Teig verschlossen und anschließend im Ofen gebacken. Nach dem Garen entfernt man den knusprigen Teigdeckel und fügt zum Abschmecken etwas Schmand hinzu. Die Zubereitung an sich ist nicht besonders kompliziert, erfordert jedoch einiges an Erfahrung, um die richtige Ofentemperatur und Garzeit zu bestimmen.",
-    "EffectDescription": [],
+    "EffectDescription": [
+      "#Stellt der gewählten Figur <color=#3399CCFF>30 bis 34{NON_BREAK_SPACE}%</color> LP sowie zusätzlich <color=#3399CCFF>600 bis 1.900</color> LP wieder her."
+    ],
     "CookMethod": 2,
     "FoodType": 1,
     "Icon": "UI_ItemIcon_108885",
@@ -10277,7 +10280,8 @@
     "Name": "Okroschka",
     "Description": "Ein kaltes Suppengericht. Die gekochten Zutaten werden gleichmäßig in eine Schüssel geschichtet und mit einer mit Schmand angemischten Brühe übergossen. Manche Bewohner Snezhnayas stellen sich an den kältesten Tagen der Herausforderung, eine große Schüssel Okroschka in einem Zug zu trinken, um zu beweisen, dass sie mutige Recken sind, die die bittere Kälte bezwingen können.",
     "EffectDescription": [
-      "#Erhöht die VTD aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>165 bis 235</color> Punkte."
+      "#Erhöht die VTD aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>165 bis 235</color> Punkte.",
+      "Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
     ],
     "CookMethod": 2,
     "FoodType": 4,
@@ -10370,6 +10374,7 @@
     "Name": "Medovik",
     "Description": "Ein Kuchen aus Honig. Der mit Honig versetzte Teig wird in dünne Schichten ausgerollt und gebacken. Dann wird Schicht für Schicht eine Creme aus Schmand aufgetragen und die einzelnen Schichten gestapelt. Zum Schluss werden Krümel darüber gestreut und mit Honigsirup übergossen. Für ein perfektes Ergebnis darf bei keinem Schritt geschludert werden.",
     "EffectDescription": [
+      "#Stellt der gewählten Figur <color=#3399CCFF>26 bis 30{NON_BREAK_SPACE}%</color> LP wieder her.",
       "#Stellt innerhalb der nächsten 30{NON_BREAK_SPACE}s alle 5{NON_BREAK_SPACE}s <color=#3399CCFF>450 bis 790</color> LP wieder her."
     ],
     "CookMethod": 2,
@@ -10416,7 +10421,8 @@
     "Name": "Schaschlik",
     "Description": "Spieße mit großen Fleischstücken. Das Fleisch wird mariniert, auf Eisenspieße gesteckt und über Holzkohle gegrillt, bis es außen knusprig und innen zart ist. Bei Gartenpartys, auf der Jagd oder sogar auf einer freigeschaufelten Fläche im Schnee – überall in Snezhnaya, wo man ein Feuer machen kann, findet man diese Spieße.",
     "EffectDescription": [
-      "#Verringert die beim Klettern und Rennen verbrauchte Ausdauer aller Truppenmitglieder 900{NON_BREAK_SPACE}s lang um <color=#3399CCFF>15 bis 25{NON_BREAK_SPACE}%</color>."
+      "#Verringert die beim Klettern und Rennen verbrauchte Ausdauer aller Truppenmitglieder 900{NON_BREAK_SPACE}s lang um <color=#3399CCFF>15 bis 25{NON_BREAK_SPACE}%</color>.",
+      "Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10462,7 +10468,8 @@
     "Name": "Schneeballblumen auf Schneefeldern",
     "Description": "Ein klassischer Schichtsalat. Die Zutaten werden einzeln zubereitet und Schicht für Schicht übereinander gelegt. Zwischen jede Schicht kommt eine gewürzte Schmandsoße. Nach dem Zusammensetzen muss das Ganze eine Weile ruhen, damit sich die Aromen verbinden. Das fertige Gericht erinnert an Schneeballblumen, die auf schneebedeckten Feldern sprießen – daher der Name.",
     "EffectDescription": [
-      "#Erhöht den ANG aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>160 bis 228</color> Punkte."
+      "#Erhöht den ANG aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>160 bis 228</color> Punkte.",
+      "Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
     ],
     "CookMethod": 2,
     "FoodType": 2,
@@ -12329,7 +12336,8 @@
     "Name": "Zuckersüße Eiskugeln",
     "Description": "Verschiedene Speiseeiskugeln. Eis in vier verschiedenen Geschmacksrichtungen wird jeweils in Papierschälchen und dann in einer größeren Schachtel serviert. Die Genießer teilen sich meist in zwei Lager: Die einen löffeln, worauf sie gerade Lust haben. Die anderen essen der Reihe nach ein Schälchen nach dem anderen ... Was die beiden gemeinsam haben? Nun, die Schachtel ist am Ende auf jeden Fall leer.",
     "EffectDescription": [
-      "#Erhöht den ANG aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>224 bis 320</color> Punkte und die KT um <color=#3399CCFF>6 bis 10{NON_BREAK_SPACE}%</color>."
+      "#Erhöht den ANG aller Truppenmitglieder 300{NON_BREAK_SPACE}s lang um <color=#3399CCFF>224 bis 320</color> Punkte und die KT um <color=#3399CCFF>6 bis 10{NON_BREAK_SPACE}%</color>.",
+      "Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
     ],
     "CookMethod": 1,
     "FoodType": 2,

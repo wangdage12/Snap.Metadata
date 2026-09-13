@@ -4235,7 +4235,8 @@
     "Name": "Borsch",
     "Description": "Una sopa de un intenso color rojo. Se prepara un caldo base al que se van añadiendo los ingredientes por tandas, mientras se deja cocer a fuego lento hasta que todos los sabores se fusionan. Justo antes de servir, se añade una cucharada de smetana. Al beberla, se genera un calor constante y duradero en el cuerpo, suficiente para hacer frente al frío extremo del exterior.",
     "EffectDescription": [
-      "<color=#3399CCFF>Disminuye</color> la velocidad con que se acumula frío extremo para todos los miembros del equipo durante 900 s."
+      "<color=#3399CCFF>Disminuye</color> la velocidad con que se acumula frío extremo para todos los miembros del equipo durante 900 s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10232,7 +10233,9 @@
     "Id": 3701,
     "Name": "Zharkoye",
     "Description": "Un plato de carne servido en una cazuela de barro. Los ingredientes, cortados en trozos, se colocan en el recipiente, que luego se tapa con masa y se introduce en el horno. Al sacarlo, se retira la corteza de pan horneada y se añade smetana como aliño. La preparación no es complicada, pero controlar la temperatura del horno y el tiempo de cocción requiere cierta experiencia.",
-    "EffectDescription": [],
+    "EffectDescription": [
+      "Restaura un <color=#3399CCFF>30%-34%</color> de Vida Máx. al personaje seleccionado, además de <color=#3399CCFF>600-1900</color> pts. de Vida adicionales."
+    ],
     "CookMethod": 2,
     "FoodType": 1,
     "Icon": "UI_ItemIcon_108885",
@@ -10277,7 +10280,8 @@
     "Name": "Okroshka de las nieves",
     "Description": "Un tazón de sopa fría. Los ingredientes ya cocinados se colocan de manera uniforme en el cuenco y luego se vierte encima un caldo preparado con smetana. Algunos habitantes de Snezhnaya se retan a beberse de un trago un gran cuenco de esta sopa fría en los días más gélidos, como prueba de que son auténticos guerreros capaces de vencer al inclemente frío.",
     "EffectDescription": [
-      "#Aumenta la DEF de todos los miembros del equipo en <color=#3399CCFF>165-235</color>{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s."
+      "#Aumenta la DEF de todos los miembros del equipo en <color=#3399CCFF>165-235</color>{NON_BREAK_SPACE}pts. durante 300{NON_BREAK_SPACE}s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
     ],
     "CookMethod": 2,
     "FoodType": 4,
@@ -10370,6 +10374,7 @@
     "Name": "Medovik",
     "Description": "Un pastel elaborado con miel. Finas capas de masa con miel se hornean y se colocan una sobre otra con un glaseado de smetana entre cada una. El toque final lo dan las virutas y un chorro de sirope de miel. Cada uno de los pasos debe seguirse con cuidado para obtener el resultado adecuado.",
     "EffectDescription": [
+      "Restaura un <color=#3399CCFF>26%-30%</color> de Vida Máx. al personaje seleccionado.",
       "Regenera <color=#3399CCFF>450-790</color> pts. de Vida cada 5 s durante 30 s."
     ],
     "CookMethod": 2,
@@ -10416,7 +10421,8 @@
     "Name": "Shashliks de Snezhnaya",
     "Description": "Brochetas de grandes trozos de carne asada. La carne se marina y se ensarta en pinchos de metal para luego cocinarla sobre carbón ardiente, dándole la vuelta hasta que el exterior queda un tanto chamuscado y el interior tierno. Estas brochetas pueden encontrarse en cualquier ocasión en Snezhnaya donde se encienda una hoguera: en encuentros en el huerto, en un campamento de caza o en cualquier lugar cubierto de nieve tras ser despejado.",
     "EffectDescription": [
-      "#Disminuye el Coste de Aguante de todos los miembros del equipo al escalar y esprintar en un <color=#3399CCFF>15%-25%</color> durante 900{NON_BREAK_SPACE}s."
+      "#Disminuye el Coste de Aguante de todos los miembros del equipo al escalar y esprintar en un <color=#3399CCFF>15%-25%</color> durante 900{NON_BREAK_SPACE}s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
     ],
     "CookMethod": 2,
     "FoodType": 3,
@@ -10462,7 +10468,8 @@
     "Name": "Campohelado de flores bolaníveas",
     "Description": "Una ensalada a capas clásica. Cada ingrediente se prepara por separado, para luego colocarse en capas con una salsa a base de smetana entre cada una de ellas. Una vez terminada, la ensalada suele dejarse en reposo durante un tiempo para que los sabores puedan fusionarse. El plato final se parece a un conjunto de flores bolaníveas sobre un campo nevado, y de ahí procede su nombre.",
     "EffectDescription": [
-      "#Aumenta el ATQ de todos los miembros del equipo en <color=#3399CCFF>160-228</color>pts. durante 300{NON_BREAK_SPACE}s."
+      "#Aumenta el ATQ de todos los miembros del equipo en <color=#3399CCFF>160-228</color>pts. durante 300{NON_BREAK_SPACE}s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
     ],
     "CookMethod": 2,
     "FoodType": 2,
@@ -12329,7 +12336,8 @@
     "Name": "Bolas de helado dulcealegría",
     "Description": "Un surtido de bolas de helado. Los cuatro sabores diferentes se sirven en tarrinas de papel separadas y luego se colocan juntos en una única caja. Quienes lo prueban suelen pertenecer a dos categorías distintas: aquellos que van comiendo del sabor que más les apetece en cada momento, y aquellos que terminan cada tarrina en orden. Sea como sea, al final nunca queda nada en la caja.",
     "EffectDescription": [
-      "Aumenta el ATQ <color=#3399CCFF>224-320</color> pts. y la Prob. CRIT un <color=#3399CCFF>6%-10%</color> de todos los miembros del equipo durante 300 s."
+      "Aumenta el ATQ <color=#3399CCFF>224-320</color> pts. y la Prob. CRIT un <color=#3399CCFF>6%-10%</color> de todos los miembros del equipo durante 300 s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
     ],
     "CookMethod": 1,
     "FoodType": 2,
