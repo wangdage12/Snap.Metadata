@@ -303,7 +303,7 @@
             "SCH bei Gedrückthalten|{param2:F1P}",
             "Abklingzeit|{param3:F1} s",
             "#Dauer von „Mal der Jäger“|{param4:F1}{NON_BREAK_SPACE}s",
-            "ANG-Bonus für „Genauigkeit der Jäger“|{param5:F1P}",
+            "ANG-Bonus durch „Genauigkeit der Jäger“|{param5:F1P}",
             "#Dauer von „Genauigkeit der Jäger“|{param6:F1}{NON_BREAK_SPACE}s"
           ],
           "Parameters": [
@@ -492,7 +492,7 @@
         },
         "Id": 11482,
         "Name": "Lauernder Donner",
-        "Description": "Folge dem Instinkt des Jägers. Erzeugt je nach Drücken oder Gedrückthalten unterschiedliche Effekte und belegt einen getroffenen Gegner mit dem Effekt {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK}.\n\n<color=#FFD780FF>Drücken</color>\nSchießt nach vorn und verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n\n<color=#FFD780FF>Gedrückthalten</color>\nTritt in den Zielmodus ein und wählt Gegner aus, die sich in einem bestimmten Bereich davor befinden. Erhöht in diesem Zustand Alyoshas Unterbrechungs-WDS.\nFügt den ausgewählten Gegnern beim Ende des Gedrückthaltens <color=#FFACFFFF>Elektro-Schaden</color> zu.\n\n<i>Ein unvorsichtiger Jäger kletterte einst zur Lanzenspitze. Danach überlebte er zum Glück diese blutige Lektion und verstand die wahre Überlebensregel im Schneefeld.</i>",
+        "Description": "Folge dem Instinkt des Jägers. Erzeugt je nach Drücken oder Gedrückthalten unterschiedliche Effekte und belegt getroffene Gegner mit dem Effekt {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK}.\n\n<color=#FFD780FF>Drücken</color>\nSchießt nach vorn und verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color>.\n\n<color=#FFD780FF>Gedrückthalten</color>\nTritt in den Zielmodus ein und wählt Gegner aus, die sich in einem bestimmten Bereich davor befinden. Erhöht in diesem Zustand Alyoshas Unterbrechungs-WDS.\nFügt den ausgewählten Gegnern beim Ende des Gedrückthaltens <color=#FFACFFFF>Elektro-Schaden</color> zu.\n\n<i>Ein unvorsichtiger Jäger kletterte einst zur Lanzenspitze. Danach überlebte er zum Glück diese blutige Lektion und verstand die wahre Überlebensregel im Schneefeld.</i>",
         "SpecialEnergyType": 0,
         "Icon": "Skill_S_Alyosha_01",
         "CdTime": 15
@@ -679,7 +679,7 @@
       },
       "Id": 11485,
       "Name": "Jagdrevier",
-      "Description": "#Beschwört den treuen Gefährten <color=#FFD780FF>Tugarin</color>, um gemeinsam in den Kampf zu ziehen, und verwandelt den Bereich davor kurzzeitig in ein <color=#FFD780FF>donnerndes Jagdrevier</color>.\n\n<color=#FFD780FF>Donnerndes Jagdrevier</color>\n· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.\n· Fügt Gegnern, die diesen Bereich betreten, alle 2{NON_BREAK_SPACE}s einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> zu.\n\n<color=#FFD780FF>Tugarin</color>\n· Bewegt sich, wenn sich in der Umgebung Gegner befinden, alle 2{NON_BREAK_SPACE}s schnell in die Nähe eines Gegners, greift diesen mit Bissangriffen an und fügt ihm <color=#FFD780FF>Elektro-Schaden</color> zu.\n· Aktiviert zudem, wenn der getroffene Gegner vom Effekt <color=#FFD780FF>Mal der Jäger</color> betroffen ist, den Effekt <color=#FFD780FF>Mal der Jäger</color>.\n· Greift bevorzugt vom Effekt <color=#FFD780FF>Mal der Jäger</color> beeinflusste Gegner an.\n\n<i>Er wartet und wartet, bis die Ungeduld nachlässt. Dann fliegt ein Rotbauch-Pfeifer über den Birkenwald und erwartet seinen Schuss.</i>",
+      "Description": "#Beschwört den treuen Gefährten <color=#FFD780FF>Tugarin</color>, um gemeinsam in den Kampf zu ziehen, und verwandelt den Bereich davor kurzzeitig in ein <color=#FFD780FF>donnerndes Jagdrevier</color>.\n\n<color=#FFD780FF>Donnerndes Jagdrevier</color>\n· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.\n· Fügt Gegnern, die diesen Bereich betreten, alle 2{NON_BREAK_SPACE}s einmal <color=#FFACFFFF>Elektro-Flächenschaden</color> zu.\n\n<color=#FFD780FF>Tugarin</color>\n· Bewegt sich, wenn sich in der Umgebung Gegner befinden, alle 2{NON_BREAK_SPACE}s schnell in die Nähe eines Gegners, greift diesen mit Bissangriffen an und fügt ihm <color=#FFACFFFF>Elektro-Schaden</color> zu.\n· Aktiviert zudem, wenn der getroffene Gegner vom Effekt <color=#FFD780FF>Mal der Jäger</color> betroffen ist, den Effekt <color=#FFD780FF>Mal der Jäger</color>.\n· Greift bevorzugt vom Effekt <color=#FFD780FF>Mal der Jäger</color> beeinflusste Gegner an.\n\n<i>Er wartet und wartet, bis die Ungeduld nachlässt. Dann fliegt ein Rotbauch-Pfeifer über den Birkenwald und erwartet seinen Schuss.</i>",
       "SpecialEnergyType": 0,
       "Icon": "Skill_E_Alyosha_01",
       "CdTime": 18
@@ -745,7 +745,7 @@
         },
         "Id": 1482301,
         "Name": "Sternenreise ins Gefahrengebiet",
-        "Description": "#Versetzt Alyosha, wenn er sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Verleiht beim Aktivieren von {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK} den Effekt <color=#FFD780FF>Genauigkeit der Jäger</color> und erhöht zudem, wenn sich die Figur auf dem Feld befindet, den Schaden durch die Reaktion Stellar-Supraleiter um 25{NON_BREAK_SPACE}%.",
+        "Description": "#Versetzt Alyosha, wenn er sich im {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.\n<color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>: Der beim Aktivieren von {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK} erhaltene Effekt <color=#FFD780FF>Genauigkeit der Jäger</color> wird den Schaden der Reaktion Stellar-Supraleiter durch Figuren auf dem Feld um 20{NON_BREAK_SPACE}% erhöhen.",
         "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alyosha_07"
       },
@@ -764,7 +764,7 @@
         },
         "Id": 1482501,
         "Name": "Baumwache",
-        "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Snezhnayas</color> in der Nähe auf der Minikarte an.",
+        "Description": "Zeigt alle <color=#FFD780FF>Besonderheiten Snezhnayas</color> in der Nähe auf der Minikarte an. Dieser Effekt gilt auch im Schattenreich.",
         "SpecialEnergyType": 0,
         "Icon": "UI_Talent_S_Alyosha_08"
       }
@@ -811,7 +811,7 @@
       {
         "Id": 1486,
         "Name": "Rückeroberung des Banners",
-        "Description": "Verleiht, wenn {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK} aktiviert wird, <color=#FFD780FF>Genauigkeit der Jäger</color>. Dieser Effekt ist bis zu 2-fach stapelbar. Erhöht bei 2 Stapeln zudem die Elementarkunde der von diesem Effekt beeinflussten aktuellen Figur um 100 Punkte.",
+        "Description": "Der Effekt <color=#FFD780FF>Genauigkeit der Jäger</color>, der bei Aktivierung vom {LINK#N11480001}<color=#FFD780FF>Mal der Jäger</color>{/LINK} erhalten wird, ist nun bis zu 2-fach stapelbar. Erhöht bei 2 Stapelungen zudem die Elementarkunde der von diesem Effekt beeinflussten aktuellen Figur um 100 Punkte.",
         "Icon": "UI_Talent_S_Alyosha_04"
       }
     ]
@@ -1161,7 +1161,7 @@
     {
       "Id": 214800,
       "Name": "Jagd im Frost",
-      "Description": "Alyoshas Kleidung. Die robuste Jagdkleidung mit dickem Innenfutter und Plüschrand an der Kappe ermöglicht es Alyosha, längere Zeit im Schnee auf der Lauer zu liegen – bis sie die Beute erlegt hat, die sie die ganze Zeit im Visier hatte. Und warum sieht die Kappe aus wie ein Hundekopf? Weil es niedlich ist. Tugarin gefällt es auch.",
+      "Description": "Alyoshas Kleidung. Die robuste Jagdkleidung mit dickem Innenfutter und Plüschrand an der Kapuze ermöglicht es Alyosha, längere Zeit im Schnee auf der Lauer zu liegen – bis er die Beute erlegt hat, die er die ganze Zeit im Visier hatte. Und warum sieht die Kapuze aus wie ein Hundekopf? Weil es niedlich ist. Tugarin gefällt es auch.",
       "IsDefault": true
     }
   ],
@@ -1174,7 +1174,7 @@
     113083
   ],
   "NameCard": {
-    "Name": "Alyosha – Sitzen",
+    "Name": "Alyosha – Sitz!",
     "Description": "Ein Motiv für Namenskärtchen.\n„Platz“ und „Sitz“ sind für Tugarin völlig unterschiedliche Befehle. Schaffen die Hunde für einhundert Kannentaler in der Kanne der Vergänglichkeit das auch?",
     "Icon": "UI_NameCardIcon_Alyosha",
     "PicturePrefix": "UI_NameCardPic_Alyosha"

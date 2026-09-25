@@ -1,0 +1,1236 @@
+{
+  "Id": 10000140,
+  "PromoteId": 140,
+  "Sort": 122,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Vodyanitsa",
+  "SideIcon": "UI_AvatarIcon_Side_Vodyanitsa",
+  "Name": "Vodyanitsa",
+  "Description": "Soprano principal de la Compañía Korolevski y una nixie separada de los suyos.",
+  "BeginTime": "2026-09-22T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 1153.5172,
+    "AttackBase": 8.379,
+    "DefenseBase": 37.6929
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 14031,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de 4.º golpe|{param4:F1P}",
+            "Daño de ATQ Cargado|{param5:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param6:F1} pts.",
+            "Daño de Caída|{param7:F1P}",
+            "Daño de impacto de caída baja/alta|{param8:P}/{param9:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1403101,
+              "Level": 1,
+              "Parameters": [
+                0.433848,
+                0.40232,
+                0.493016,
+                0.655632,
+                1.2376,
+                50,
+                0.568288,
+                1.136335,
+                1.419344
+              ]
+            },
+            {
+              "Id": 1403102,
+              "Level": 2,
+              "Parameters": [
+                0.466387,
+                0.432494,
+                0.529992,
+                0.704804,
+                1.33042,
+                50,
+                0.614544,
+                1.228828,
+                1.534872
+              ]
+            },
+            {
+              "Id": 1403103,
+              "Level": 3,
+              "Parameters": [
+                0.498925,
+                0.462668,
+                0.566968,
+                0.753977,
+                1.42324,
+                50,
+                0.6608,
+                1.32132,
+                1.6504
+              ]
+            },
+            {
+              "Id": 1403104,
+              "Level": 4,
+              "Parameters": [
+                0.54231,
+                0.5029,
+                0.61627,
+                0.81954,
+                1.547,
+                50,
+                0.72688,
+                1.453452,
+                1.81544
+              ]
+            },
+            {
+              "Id": 1403105,
+              "Level": 5,
+              "Parameters": [
+                0.574849,
+                0.533074,
+                0.653246,
+                0.868712,
+                1.63982,
+                50,
+                0.773136,
+                1.545944,
+                1.930968
+              ]
+            },
+            {
+              "Id": 1403106,
+              "Level": 6,
+              "Parameters": [
+                0.607387,
+                0.563248,
+                0.690222,
+                0.917885,
+                1.73264,
+                50,
+                0.826,
+                1.65165,
+                2.063
+              ]
+            },
+            {
+              "Id": 1403107,
+              "Level": 7,
+              "Parameters": [
+                0.650772,
+                0.60348,
+                0.739524,
+                0.983448,
+                1.8564,
+                50,
+                0.898688,
+                1.796995,
+                2.244544
+              ]
+            },
+            {
+              "Id": 1403108,
+              "Level": 8,
+              "Parameters": [
+                0.694157,
+                0.643712,
+                0.788826,
+                1.049011,
+                1.98016,
+                50,
+                0.971376,
+                1.94234,
+                2.426088
+              ]
+            },
+            {
+              "Id": 1403109,
+              "Level": 9,
+              "Parameters": [
+                0.737542,
+                0.683944,
+                0.838127,
+                1.114574,
+                2.10392,
+                50,
+                1.044064,
+                2.087686,
+                2.607632
+              ]
+            },
+            {
+              "Id": 1403110,
+              "Level": 10,
+              "Parameters": [
+                0.780926,
+                0.724176,
+                0.887429,
+                1.180138,
+                2.22768,
+                50,
+                1.12336,
+                2.246244,
+                2.80568
+              ]
+            },
+            {
+              "Id": 1403111,
+              "Level": 11,
+              "Parameters": [
+                0.824311,
+                0.764408,
+                0.93673,
+                1.245701,
+                2.35144,
+                50,
+                1.202656,
+                2.404802,
+                3.003728
+              ]
+            },
+            {
+              "Id": 1403112,
+              "Level": 12,
+              "Parameters": [
+                0.867696,
+                0.80464,
+                0.986032,
+                1.311264,
+                2.4752,
+                50,
+                1.281952,
+                2.563361,
+                3.201776
+              ]
+            },
+            {
+              "Id": 1403113,
+              "Level": 13,
+              "Parameters": [
+                0.921927,
+                0.85493,
+                1.047659,
+                1.393218,
+                2.6299,
+                50,
+                1.361248,
+                2.721919,
+                3.399824
+              ]
+            },
+            {
+              "Id": 1403114,
+              "Level": 14,
+              "Parameters": [
+                0.976158,
+                0.90522,
+                1.109286,
+                1.475172,
+                2.7846,
+                50,
+                1.440544,
+                2.880478,
+                3.597872
+              ]
+            },
+            {
+              "Id": 1403115,
+              "Level": 15,
+              "Parameters": [
+                1.030389,
+                0.95551,
+                1.170913,
+                1.557126,
+                2.9393,
+                50,
+                1.51984,
+                3.039036,
+                3.79592
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11401,
+        "Name": "Arieta psishjwe",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nEntona una antigua canción de los nixies para realizar hasta 4 ataques, los cuales infligen <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante y lanza una esfera de agua hacia delante para infligir <color=#80C0FFFF>Daño Hydro</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#80C0FFFF>Daño Hydro en el AdE</color> en el momento del impacto.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_Catalyst_MD"
+      },
+      {
+        "GroupId": 14032,
+        "Proud": {
+          "Descriptions": [
+            "Daño de habilidad|{param1:F2P} de Vida Máx.",
+            "Duración|{param2:F1} s",
+            "#Intervalo de ataque de cuerno del llamado primaveral|{param3:F1}{NON_BREAK_SPACE}s",
+            "Daño de cuerno del llamado primaveral|{param4:F2P} de Vida Máx.",
+            "#Curación de canción de otrora|{param5:I}{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param6:F2P} de Vida Máx.",
+            "#Intervalo de curación de canción de otrora|{param7:F1}{NON_BREAK_SPACE}s",
+            "Reducción de RES Hydro/Cryo|{param8:F1P}",
+            "#Duración de reducción de RES|{param9:F1}{NON_BREAK_SPACE}s",
+            "#TdE de habilidad|{param10:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1403201,
+              "Level": 1,
+              "Parameters": [
+                0.03272,
+                16,
+                3,
+                0.03272,
+                269.62854,
+                0.028,
+                1.5,
+                0.165,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403202,
+              "Level": 2,
+              "Parameters": [
+                0.035174,
+                16,
+                3,
+                0.035174,
+                296.59515,
+                0.0301,
+                1.5,
+                0.18,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403203,
+              "Level": 3,
+              "Parameters": [
+                0.037628,
+                16,
+                3,
+                0.037628,
+                325.80896,
+                0.0322,
+                1.5,
+                0.195,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403204,
+              "Level": 4,
+              "Parameters": [
+                0.0409,
+                16,
+                3,
+                0.0409,
+                357.27,
+                0.035,
+                1.5,
+                0.21,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403205,
+              "Level": 5,
+              "Parameters": [
+                0.043354,
+                16,
+                3,
+                0.043354,
+                390.97824,
+                0.0371,
+                1.5,
+                0.225,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403206,
+              "Level": 6,
+              "Parameters": [
+                0.045808,
+                16,
+                3,
+                0.045808,
+                426.93372,
+                0.0392,
+                1.5,
+                0.24,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403207,
+              "Level": 7,
+              "Parameters": [
+                0.04908,
+                16,
+                3,
+                0.04908,
+                465.1364,
+                0.042,
+                1.5,
+                0.255,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403208,
+              "Level": 8,
+              "Parameters": [
+                0.052352,
+                16,
+                3,
+                0.052352,
+                505.5863,
+                0.0448,
+                1.5,
+                0.27,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403209,
+              "Level": 9,
+              "Parameters": [
+                0.055624,
+                16,
+                3,
+                0.055624,
+                548.28345,
+                0.0476,
+                1.5,
+                0.285,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403210,
+              "Level": 10,
+              "Parameters": [
+                0.058896,
+                16,
+                3,
+                0.058896,
+                593.2278,
+                0.0504,
+                1.5,
+                0.3,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403211,
+              "Level": 11,
+              "Parameters": [
+                0.062168,
+                16,
+                3,
+                0.062168,
+                640.4193,
+                0.0532,
+                1.5,
+                0.318,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403212,
+              "Level": 12,
+              "Parameters": [
+                0.06544,
+                16,
+                3,
+                0.06544,
+                689.8581,
+                0.056,
+                1.5,
+                0.336,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403213,
+              "Level": 13,
+              "Parameters": [
+                0.06953,
+                16,
+                3,
+                0.06953,
+                741.54407,
+                0.0595,
+                1.5,
+                0.354,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403214,
+              "Level": 14,
+              "Parameters": [
+                0.07362,
+                16,
+                3,
+                0.07362,
+                795.4773,
+                0.063,
+                1.5,
+                0.372,
+                6,
+                16
+              ]
+            },
+            {
+              "Id": 1403215,
+              "Level": 15,
+              "Parameters": [
+                0.07771,
+                16,
+                3,
+                0.07771,
+                851.6577,
+                0.0665,
+                1.5,
+                0.39,
+                6,
+                16
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11402,
+        "Name": "Recitativo: Alba sonora",
+        "Description": "Revela su forma original de nixie, inflige <color=#80C0FFFF>Daño Hydro en el AdE</color> y obtiene el efecto de <color=#FFD780FF>canción de otrora</color>. Mientras este efecto esté activo, Vodyanitsa invocará un antiguo <color=#FFD780FF>cuerno del llamado primaveral</color> que se desplazará rápidamente hacia un enemigo cada cierto tiempo para atacarlo e infligirle <color=#80C0FFFF>Daño Hydro</color>.\nLas <color=#80C0FFFF>RES Hydro</color> y <color=#99FFFFFF>Cryo</color> de los enemigos que sean golpeados por cualquiera de los dos ataques anteriores se verán reducidas. Además, mientras el efecto de <color=#FFD780FF>canción de otrora</color> esté activo, aumentará la <color=#FFD780FF>RES a interrupción</color> de tu personaje en uso del equipo y le restaurará Vida periódicamente en función de la Vida Máx. de Vodyanitsa.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Vodyanitsa_01",
+        "CdTime": 16
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 14039,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:F1P} de Vida Máx.",
+          "Bono de daño de canción de otrora|{param2:F1P}",
+          "TdE|{param3:F1} s",
+          "Energía Elemental|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1403901,
+            "Level": 1,
+            "Parameters": [
+              0.456768,
+              0.48,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403902,
+            "Level": 2,
+            "Parameters": [
+              0.491026,
+              0.516,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403903,
+            "Level": 3,
+            "Parameters": [
+              0.525283,
+              0.552,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403904,
+            "Level": 4,
+            "Parameters": [
+              0.57096,
+              0.6,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403905,
+            "Level": 5,
+            "Parameters": [
+              0.605218,
+              0.636,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403906,
+            "Level": 6,
+            "Parameters": [
+              0.639475,
+              0.672,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403907,
+            "Level": 7,
+            "Parameters": [
+              0.685152,
+              0.72,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403908,
+            "Level": 8,
+            "Parameters": [
+              0.730829,
+              0.768,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403909,
+            "Level": 9,
+            "Parameters": [
+              0.776506,
+              0.816,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403910,
+            "Level": 10,
+            "Parameters": [
+              0.822182,
+              0.864,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403911,
+            "Level": 11,
+            "Parameters": [
+              0.867859,
+              0.912,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403912,
+            "Level": 12,
+            "Parameters": [
+              0.913536,
+              0.96,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403913,
+            "Level": 13,
+            "Parameters": [
+              0.970632,
+              1.02,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403914,
+            "Level": 14,
+            "Parameters": [
+              1.027728,
+              1.08,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1403915,
+            "Level": 15,
+            "Parameters": [
+              1.084824,
+              1.14,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11405,
+      "Name": "Coda: Hundiéndome contigo",
+      "Description": "Entona una canción de los nixies que seduce y hunde para infligir <color=#80C0FFFF>Daño Hydro en el AdE</color>.\nSi se encuentra en el estado de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color>, el daño infligido aumentará aún más.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Vodyanitsa_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 14021,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1402101,
+              "Level": 1,
+              "Parameters": [
+                0.35,
+                6
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1402101,
+        "Name": "La última cantante djeguako",
+        "Description": "#Al usar la Habilidad Elemental, <color=#FFD780FF>Recitativo: Alba sonora</color>, cualquier vórtice brilloestelar que haya en el campo de batalla se transformará en un vórtice errante. Además, cuando un personaje cercano del equipo cause una reacción de Torbellino Estelar mientras el efecto de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color> esté activo, se creará un vórtice errante en lugar de un vórtice brilloestelar.\nAl crear o detonar un vórtice errante, la <color=#80FFD7FF>RES Anemo</color> de los enemigos cercanos se reducirá en un 35% durante 6{NON_BREAK_SPACE}s.\nAdemás, cuando los personajes cercanos del equipo entren en el estado de <color=#FFD780FF>esplendor: Torbellino Estelar</color> mientras la <color=#FFD780FF>canción de otrora</color> esté activa, la duración de <color=#FFD780FF>esplendor: Torbellino Estelar</color> se prolongará 4{NON_BREAK_SPACE}s.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vodyanitsa_06"
+      },
+      {
+        "GroupId": 14022,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1402201,
+              "Level": 1,
+              "Parameters": [
+                25,
+                10,
+                40000,
+                260,
+                140,
+                6500,
+                3500
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1402201,
+        "Name": "Endecha del fandyr",
+        "Description": "#Al usar la Habilidad Elemental, <color=#FFD780FF>Recitativo: Alba sonora</color>, Vodyanitsa obtiene 25 cargas de {LINK#N11400001}<color=#FFD780FF>vocalista principal</color>{/LINK} y 10 cargas de {LINK#N11400002}<color=#FFD780FF>coro</color>{/LINK}.\nCada uno de estos efectos dura 30{NON_BREAK_SPACE}s y sus cargas se reiniciarán al usar la Habilidad Elemental.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vodyanitsa_05"
+      },
+      {
+        "GroupId": 14023,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1402301,
+              "Level": 1,
+              "Parameters": [
+                24
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1402301,
+        "Name": "Ecos sobre el Lago Helado",
+        "Description": "#Cuando no esté en combate, al mantener pulsada la Habilidad Elemental, Vodyanitsa revelará su forma original de nixie y podrá nadar durante un máximo de 10{NON_BREAK_SPACE}s a costa de consumir Aguante. Dado que es una nixie, también podrá desplazarse sobre la superficie del agua. Al volver a usar la Habilidad Elemental, cuando termine su duración o cuando se quede sin Aguante, Vodyanitsa saldrá de su forma original de nixie.\nAdemás, la velocidad de nado de Vodyanitsa aumenta, pero consume Aguante más rápidamente.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vodyanitsa_07"
+      },
+      {
+        "GroupId": 14025,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1402501,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1402501,
+        "Name": "Canción desalmada de sirena",
+        "Description": "Como soprano principal de la Compañía Korolevski, al tocar un instrumento, en su lugar, Vodyanitsa cantará ella misma.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vodyanitsa_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1401,
+        "Name": "Aguas esplendorosas",
+        "Description": "#Cuando Vodyanitsa active el efecto de curación de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color>, el ATQ de todos los personajes cercanos del equipo aumentará durante 5{NON_BREAK_SPACE}s en una cantidad equivalente al 0.8% de la Vida Máx. de Vodyanitsa.",
+        "Icon": "UI_Talent_S_Vodyanitsa_01"
+      },
+      {
+        "Id": 1402,
+        "Name": "Reverberación perforaventiscas",
+        "Description": "#Cuando el <color=#FFD780FF>cuerno del llamado primaveral</color> de la Habilidad Elemental, <color=#FFD780FF>Recitativo: Alba sonora</color>, ataque a un enemigo, Vodyanitsa obtendrá el efecto de “voces en blanco y negro”, el cual aumenta en un 50% durante 5{NON_BREAK_SPACE}s el Daño CRIT <color=#80C0FFFF>Hydro</color> y <color=#99FFFFFF>Cryo</color> infligido por el personaje en uso del equipo.\nSi en el campo de batalla hay un vórtice errante o si han transcurrido menos de 5{NON_BREAK_SPACE}s desde su explosión, en su lugar, el Daño CRIT de las reacciones de Torbellino Estelar del personaje en uso del equipo aumentará en un 60% durante 5{NON_BREAK_SPACE}s.\nAdemás, fortalece la Habilidad Elemental, <color=#FFD780FF>Recitativo: Alba sonora</color>, lo que aumenta en 9{NON_BREAK_SPACE}s la duración de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color>.",
+        "Icon": "UI_Talent_S_Vodyanitsa_02"
+      },
+      {
+        "Id": 1403,
+        "Name": "Canción de la mañana primaveral",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11402}Recitativo: Alba sonora{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Vodyanitsa_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1404,
+        "Name": "Voz melancólica sobre las aguas serenas",
+        "Description": "#Cuando Vodyanitsa active el efecto de curación de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color>, producirá diferentes efectos en función de la Vida del personaje curado. Si la Vida de dicho personaje:\n·Es inferior al 40%, la cantidad de Vida curada aumenta en un 50%.\n·Es igual o superior al 40%, la Vida Máx. de Vodyanitsa aumenta en un 20% durante 6{NON_BREAK_SPACE}s. Este efecto puede acumularse hasta 3 veces y cada acumulación tiene su propia duración individual.",
+        "Icon": "UI_Talent_S_Vodyanitsa_03"
+      },
+      {
+        "Id": 1405,
+        "Name": "Hundámonos juntos en las profundidades",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S11405}Coda: Hundiéndome contigo{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Vodyanitsa_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1406,
+        "Name": "Canción interminable del júbilo",
+        "Description": "Fortalece el efecto de la constelación <color=#FFD780FF>Reverberación perforaventiscas</color>, de manera que el efecto de “voces en blanco y negro” pasa a afectar a todos los personajes cercanos del equipo.\nAdemás, mientras el efecto de <color=#FFD780FF>{LINK#S11402}canción de otrora{/LINK}</color> esté activo, el daño de Torbellino Estelar infligido por los personajes cercanos del equipo <color=#FFD780FF>{LINK#N11190007}ascenderá{/LINK}</color> en un 25%, y el <color=#80C0FFFF>Daño Hydro</color> y <color=#99FFFFFF>Cryo</color> que infligen aumentará en un 60%.",
+        "Icon": "UI_Talent_S_Vodyanitsa_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "La Cantante Sirena",
+    "Detail": "Soprano principal de la Compañía Korolevski y una nixie separada de los suyos.",
+    "Association": 10,
+    "Native": "Compañía Korolevski",
+    "BirthMonth": 3,
+    "BirthDay": 29,
+    "VisionBefore": "Hydro",
+    "VisionOverrideUnlocked": "Visión",
+    "ConstellationBefore": "Piscicula Aurea",
+    "CvChinese": "苏婉",
+    "CvJapanese": "伊藤かな恵",
+    "CvEnglish": "Suzie Yeung",
+    "CvKorean": "Kim Ye-ryeong",
+    "CookBonus": {
+      "OriginItemId": 132034,
+      "ItemId": 132036,
+      "InputList": [
+        101281,
+        101279,
+        110017,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Hola, soy Vodyanitsa, la soprano principal de la Compañía Korolevski. Como puedes ver... Bueno, me refiero a mis orejas. Bastante inusuales, ¿no? Es porque soy una nixie. Pero eso no viene al caso. Lo único que necesitas saber es que soy la mejor cantante de toda la Compañía Korolevski."
+      },
+      {
+        "Title": "Charla - Audición",
+        "Context": "... ¿Eh? Shh, creo que oigo a alguien susurrando otra vez... Jejeje, a ver si puedo distinguir lo que están diciendo."
+      },
+      {
+        "Title": "Charla - Ensayar",
+        "Context": "Bueno, si no hay nada más que hacer, podría aprovechar para ensayar un poco... Eh, no, mejor no. No quiero volver a molestar a los vecinos, ni a los animales."
+      },
+      {
+        "Title": "Charla - Pasar el rato",
+        "Context": "Uf... Llevo demasiado tiempo en tierra firme y se me está resecando la piel. Necesito volver al agua un rato."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "Ah, qué día tan hermoso. Es perfecto para relajarse bajo el agua."
+      },
+      {
+        "Title": "Tras la lluvia...",
+        "Context": "Ah, ¿y la lluvia? Qué decepción..."
+      },
+      {
+        "Title": "Cuando nieva...",
+        "Context": "Un vasto manto blanco. Hum, al menos tiene una estética impecable."
+      },
+      {
+        "Title": "En el desierto...",
+        "Context": "Uf, hace demasiado calor y está todo tan seco... Llévame de vuelta al agua."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "Buenos días. Acabo de terminar mis ejercicios vocales. ¿Me escuchaste? Sí, no me sorprende. Al fin y al cabo, mi voz se oye muy bien cuando canto."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "Bien, hora de almorzar. Estoy agotada después de la mañana que tuve. Iré a buscar a Odette y luego podemos comer algo rápido."
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Uf, por fin se acabó el día. Voy a darme un chapuzón en el lago en un rato, ¿quieres venir conmigo? ¿Eh? ¿Por qué te asustas tanto? Pff, no, ¡yo no arrastro a la gente al fondo del agua para ahogarla! ¡No soy ESE tipo de nixie! Aunque, si quieres, ¡puedo hacerlo!"
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Buenas noches. Deberías irte a dormir. Yo me levantaré bastante temprano mañana para hacer mis ejercicios vocales. Por supuesto, si quieres que cante algo en especial, estaré encantada de hacerlo."
+      },
+      {
+        "Title": "Sobre Vodyanitsa - Voz encantadora",
+        "Context": "Por desgracia, mi voz no lanza ningún tipo de hechizo mágico que vuelva loca a la gente. Me escuchan simplemente porque canto bien. Oh, aunque ahora que lo mencionas, tengo un chiste sobre los domovói, jejeje. *Ejem*, olvídalo, no dije nada. Odette va a fulminarme con la mirada otra vez si lo cuento."
+      },
+      {
+        "Title": "Sobre Vodyanitsa - Críticas",
+        "Context": "Seas artista o no, si de verdad quieres que los demás te vean, tienes que aceptar las miradas y críticas que eso conlleva. Nada que valga la pena en este mundo se consigue sin pagar un precio. Y si crees que alguna vez obtuviste algo gratis... Je, eso solo significa que el destino decidió el precio por ti en secreto."
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Cola de pez",
+        "Context": "Transformé mi cola de pez en dos piernas para que me fuera más fácil caminar por tierra. ¿Que qué precio pagué? ¡Ninguno! Hum, para nosotros, los nixies, dejar el agua atrás ya es un precio bastante alto. ¿Qué más quieres quitarme, el derecho a beber agua fresca? Supongo que me harías sobrevivir solo a base de jugo de frutas o fonta, ¿verdad?"
+      },
+      {
+        "Title": "#Sobre nosotr{F#a}{M#o}s - Días de excursión",
+        "Context": "Aun así, no puedo quedarme en Snezhnaya todo el tiempo. A veces, sigo las corrientes y nado por el mundo para escuchar cómo suenan los cantantes de otros lugares. He ido a Liyue, Fontaine, Inazuma, Sumeru... ¿Eh? ¿Que si alguien me ha visto alguna vez? Jeje, claro que sí. Por eso hay leyendas sobre tritones, sirenas, ninfas acuáticas y demás por todo el mundo. Pero Natlan... Natlan fue otra historia. En ese lugar hace mucho calor. C-A-L-O-R, con mayúsculas."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "¿Esto? Sí, es bonito. Supongo que funciona como joya. Pero como cantante, no le encuentro mucha utilidad la mayor parte del tiempo. Y en cuanto a la mirada de los dioses... Hum, a mí me interesa más la mirada de mi público."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "¡La calidad del agua en Fontaine es increíble! La última vez que viajé a Fontaine para ver un espectáculo, no pude resistirme a bucear. Estuve ahí un buen rato y tragué un montón de agua. Pero supongo que hice demasiado alboroto, porque llamé la atención de alguien de la Unidad Especial de Seguridad y Vigilancia que estaba entrenando en la orilla. Pensó que me estaba ahogando. Vino corriendo al rescate gritando a todo pulmón. Pero, eh... yo simplemente agité mi cola y me alejé a toda velocidad, jejeje. Y luego la observé desde lejos mientras ella chapoteaba en el agua y miraba a su alrededor toda confundida. Fue bastante gracioso. En fin, esperé a que volviera sana y salva a la orilla antes de sumergirme otra vez para seguir bebiendo. De verdad es deliciosa, ¿sabes? La próxima vez deberías acompañarme."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "#¿Conoces las orcas aletaescarcha? Se comunican mediante cantos que la mayoría de la gente ni siquiera puede oír, y mucho menos entender. Pero a los nixies no nos cuesta nada comprenderlas, e incluso podemos aprender su idioma. De hecho, llegué a conocer a una orca aletaescarcha llamada Hitova. Es muy amigable. Cuando andaba viajando por todas partes, me llevó a pasear sobre su lomo. Tendré que presentártela si algún día se da la oportunidad. Estoy segura de que estará encantada de llevarnos a l{F#as}{M#os} dos a dar un paseo."
+      },
+      {
+        "Title": "Sobre Odette...",
+        "Context": "Siempre que Odette ensaya, escucho atentamente sus pasos de baile desde detrás del escenario. Aterriza, salta, gira en el aire y vuelve a aterrizar. Cada movimiento es limpio y con un ritmo impecable. Solo con escucharla, puedo decir que su baile es perfecto. ¿Eh? ¿Que por qué no voy al frente a mirar? Jeje, ¡porque quiero esconderme entre bastidores y saltar para asustarla después! Puede que todavía no haya logrado asustarla, pero tengo que seguir intentándolo. De lo contrario, ¡todo el tiempo que paso escondida ahí atrás habrá sido en vano!"
+      },
+      {
+        "Title": "Sobre Mitya...",
+        "Context": "Ojalá ese sabelotodo dejara de intentar hacer descubrimientos científicos mientras ve la función. El teatro no es una sala de estudio gigante, y desde luego no es un refugio para oficinistas que se dan a la fuga. Más le vale empezar a tomarse nuestras funciones en serio o me veré obligada a... *Suspira*... ¿Qué estoy diciendo? No puedo hacer nada al respecto, sobre todo porque técnicamente sí respeta las normas de etiqueta del teatro... Hum, la próxima vez que lo vea entre el público, tendré que interpretar una de mis piezas más estruendosas. A ver si así puede concentrarse en su trabajo."
+      },
+      {
+        "Title": "Sobre Aliosha...",
+        "Context": "Siempre me he preguntado si los perritos de Aliosha pueden entender mis canciones. Supongo que no, porque nosotros tampoco entendemos las canciones de los perritos. De hecho, ni siquiera sé si ellos pueden cantar. Pero mis canciones de cuna funcionan de maravilla con ellos. Apenas llego al primer verso y ya están todos dormidos como troncos. Humm, aunque no sé muy bien qué dice eso de mi forma de cantar... ¿Es algo bueno o malo?"
+      },
+      {
+        "Title": "Sobre Vesna...",
+        "Context": "Gracias a Vesna, los revendedores de entradas del teatro ya saben que no deben tentar a la suerte. Me dijo que piensa invitarme pronto a presentar una pequeña conferencia sobre prevención de estafas de entradas, y se supone que al final tengo que cantar una canción para cerrar el evento. El problema es que, de todas las canciones que conozco, no creo que haya una sola que sirva para satirizar a los estafadores. Espera, el engaño táctico en la guerra debería contar como estafa, ¿no? Humm, ¿quizás podría cantar una epopeya bélica?"
+      },
+      {
+        "Title": "Sobre Dánica...",
+        "Context": "No conozco mucho a Dánica personalmente, aunque, por supuesto, su reputación la precede. Debe de haberlo pasado mal, respondiendo ante la Zarina por un lado y teniendo que lidiar con Vesna por el otro... *Ejem*, pero, eh, tú no escuchaste eso. Al menos, no de mí."
+      },
+      {
+        "Title": "Sobre la Zarina...",
+        "Context": "Si su majestad la Zarina viene a ver una función al teatro, le cantaré las viejas canciones de los nixies. ¿Qué tan viejas? Pues... No tanto como para que solo la Zarina las haya escuchado antes, pero sí lo suficiente como para que se levante polvo al cantarlas. Solo espero que el polvo no se le meta a la gente en los ojos. No me gustaría hacer llorar a todo el mundo."
+      },
+      {
+        "Title": "Sobre Colombina...",
+        "Context": "¿La Srta. Colombina ya no es una Los Once? Vaya, qué lástima. Siempre pensé que tenía una voz preciosa. Sus canciones eran como la luz de la luna: tan suaves y delicadas, y sin embargo, gélidas. Tan presentes y vívidas, pero a la vez inalcanzables. Je, solo espero que encuentre un lugar al que pertenecer, con buenos amigos que comprendan sus canciones."
+      },
+      {
+        "Title": "Sobre Tartaglia...",
+        "Context": "El Sr. Tartaglia suele traer a su familia al teatro. Los Once tienen entrada gratuita, aunque los familiares deben comprar entradas, como todo el mundo. Por suerte, él siempre se las arregla para conseguir entradas para los suyos. Ah, cierto, conoces a Tonia, ¿verdad? Es una gran fanática del teatro. Puede que incluso se una a nosotros cuando crezca. Si eso pasa, supongo que el Sr. Tartaglia tendrá que acostumbrarse a visitar el teatro con aún más frecuencia."
+      },
+      {
+        "Title": "Sobre Arlecchino...",
+        "Context": "La Srta. Arlecchino a veces trae a algunos de sus niños a ver las funciones. Una de ellos incluso tiene orejas de gato. Creo que se llamaba Lynette. Ella y el chico llamado Lyney son excelentes con la magia. Una vez, durante una función de fin de año, incluso montaron un espectáculo de magia en el escenario de nuestro teatro. Sin embargo, la Srta. Arlecchino casi siempre viene sola cuando se representa la obra «El gorrión de la montaña»... Quizás prefiere disfrutar de esa obra a solas."
+      },
+      {
+        "Title": "Sobre Sandrone...",
+        "Context": "La Srta. Sandrone siempre parece tener prisa cada vez que viene a ver un espectáculo. A veces aprieta los dientes, a veces le tiembla el ojo... Otras veces, su cara no muestra expresión alguna, pero tiene algún papel arrugado en la mano. Si no la conociera, diría que alguien la obliga a venir en contra de su voluntad, pero no me corresponde especular sobre quién tiene el poder de obligarla a hacer algo. Aun así... Je, siempre parece un poco más relajada al final del espectáculo. Así que al menos no está perdiendo el tiempo del todo."
+      },
+      {
+        "Title": "Sobre El Capitán...",
+        "Context": "¿El capitán? Ah, ¿te refieres a EL Capitán? Bueno, para ser honesta, nunca he tenido una conversación de verdad con él. Es decir, hemos intercambiado algunas palabras breves en ocasiones cuando nos hemos cruzado después de un espectáculo, pero eso es todo. Aun así, puedo notar que es una persona muy seria y recta. Incluso en las butacas del público, se sienta completamente erguido, como un mástil o un pilar. Tengo la sensación de que nada podría perturbarlo, y mucho menos quebrarlo, ni siquiera la tormenta más feroz."
+      },
+      {
+        "Title": "Más sobre Vodyanitsa (I)",
+        "Context": "Así que tienes algunas preguntas que te mueres por hacer, ¿eh? Bueno, adelante, pregunta. Pero por cada pregunta que me hagas, yo también te haré una. Es lo justo. No te preocupes, no voy a preguntarte nada difícil. Solo, eh... Ya sabes, cosas cuyas respuestas no he encontrado en ningún otro lugar."
+      },
+      {
+        "Title": "Más sobre Vodyanitsa (II)",
+        "Context": "Lamento destruir tus ilusiones, pero los nixies de Snezhnaya no somos criaturas míticas que enloquecen a los marineros con nuestros cantos seductores, ni pagamos un precio enorme por caminar en tierra firme solo para convertirnos en espuma de mar si rompemos nuestros votos. No, somos gente común y corriente que vive vidas normales, como todos los demás en Snezhnaya."
+      },
+      {
+        "Title": "Más sobre Vodyanitsa (III)",
+        "Context": "Desde aquel incidente, casi todos los nixies abandonaron Snezhnogrado. Mis queridos hermanos y hermanas me invitaron a irme con ellos, pero les dije que no. Estoy segura de que los ciudadanos de Snezhnaya se entristecerían si llegara el día en que ya no pudieran escuchar nuestras canciones. Y si Snezhnaya olvidara nuestras canciones, los demás nixies y yo también nos pondríamos tristes. Por eso me quedé, para seguir cantando. Para que nadie tuviera que estar triste."
+      },
+      {
+        "Title": "Más sobre Vodyanitsa (IV)",
+        "Context": "Los tiempos han cambiado. Snezhnaya es un lugar completamente diferente hoy en día. Inevitablemente, eso también ha cambiado mi relación con el canto. Con el paso del tiempo, es como si las canciones se hubieran vuelto... más pesadas, con más capas y más complejas que nunca, y no puedo evitar sentir... En fin, no me gusta ser así, así que me puse una regla sencilla: cada vez que siento ganas de volver a casa, busco a diez personas en Snezhnaya y les pregunto si les gusta cómo canto. Si al menos una de cada diez personas disfruta de mis canciones de verdad, me quedaré. Pero si ni una sola de diez muestra interés, volveré con mis hermanos y hermanas."
+      },
+      {
+        "Title": "Más sobre Vodyanitsa (V)",
+        "Context": "#Je, no sé si llamarlo buena o mala suerte, pero cada vez que he buscado a diez personas para conocer su opinión, siempre he encontrado al menos a una que de verdad está dispuesta a escucharme cantar. Algunas personas apenas estaban comenzando, otras se encontraban en medio de la lucha más importante de sus vidas, y algunas se preparaban tranquilamente para la última etapa de su camino por la vida. Aunque ese fuera todo el público, yo y cualquiera de los míos que aún permanezca en el teatro seguiríamos cantando para ellos. Y tú, ¿disfrutas de mi canto? Jeje. Ten cuidado con lo que respondes: los nixies tenemos un oído excepcionalmente fino. Sabré si mientes solo por los latidos de tu corazón. ¿List{F#a}{M#o}? Voy a empezar a contar: tres, dos..."
+      },
+      {
+        "Title": "Aficiones de Vodyanitsa...",
+        "Context": "Cuando estoy de buen humor, o de muy mal humor, me sumerjo en el agua, cierro los ojos y dejo que la corriente me lleve a donde quiera. Mientras me dejo llevar, escucho todos los sonidos que traen las olas: pececitos rozando sus escamas unas con otras cuando se reúnen, ballenas enormes entonando canciones profundas y prolongadas para llamar a sus parejas en la lejanía, burbujas ascendiendo desde las profundidades y estallando. A veces, cuando paso cerca de una ciudad, hasta escucho a los pescadores cantando mientras lanzan sus redes, a los niños riendo mientras se lanzan al agua y a los barcos crujiendo mientras se preparan para un largo viaje o regresan al puerto. Escuchar así los sonidos del mundo es verdaderamente mágico. ¿Quieres intentarlo? Si te animas, la próxima vez te llevo conmigo."
+      },
+      {
+        "Title": "Preocupaciones de Vodyanitsa...",
+        "Context": "No me gustan los sonidos cargados de demasiado significado. Cantar es simplemente otro sonido, como las noticias que traen las olas, el crujido de las hojas al caer o el repiqueteo de unos pasos apresurados. Cuanto más significado carga un sonido, más difícil es de comprender y más desagradable resulta a mis oídos."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Humm... Cualquier cosa dulce, la verdad. Aunque, preferiblemente, bien fría, con un toquecito de sirope y... Ah, ahora que lo digo en voz alta, creo que solo estoy describiendo un helado."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "Si no tiene ni una pizca de humedad, simplemente no puedo comerlo. O sea, puedo obligarme a tragarlo, claro, pero siento como si me desgarrara la garganta al bajar."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "¡Ooh, está delicioso! Parece que recordaste lo que te conté sobre mis comidas favoritas, ¿eh? Tienes buena memoria. La próxima vez, me toca a mí prepararte algo a tu gusto. Sí, ya sé que nunca me lo has dicho directamente, pero no te preocupes, ya lo sé. Tengo mis propios métodos para averiguar estas cosas."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "Gracias. Ah, por cierto, ¿todavía recuerdas cuál es mi comida favorita? Te lo dije la última vez. ¿Sí? Humm... Parece que tienes buena memoria. La próxima vez tendré que darte algo más difícil de recordar, jejeje."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "... Quizás la próxima vez debería decirte de antemano qué comida me gusta. O también podría enseñarte a preparar algo realmente delicioso."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "¡Feliz cumpleaños! Ya tengo tu regalo preparado. Puedes abrirlo dentro de un rato. Son solo algunas cositas, juguetes y esas cosas... Pero bueno, eso no es lo importante. Ahora estás libre, ¿verdad? Entonces, ¡ven conmigo! Vamos a mi cámara de eco. Hace unos días le pedí a alguien que me comprara un Escenario de baile ferviente de Natlan, junto con un montón de instrumentos raros y maravillosos. Estoy preparando el mejor evento musical que Snezhnaya haya visto jamás, y adivina quién es la primera persona en recibir una invitación. ¡Exacto, tú! Vamos, ¡cantemos hasta que amanezca!"
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "*Ejem, ejem*... Bien. Suena bien."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Creo que acabo de alcanzar una nota más alta."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "Ah, siento la voz más fuerte que nunca."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "¡Yuju! ¡Es hora de cantar toda la noche!"
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "Escuchen con atención."
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "Empecemos con el calentamiento."
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Hora de subir al escenario."
+      },
+      {
+        "Title": "Habilidad Elemental (IV)",
+        "Context": "Esto es más de mi estilo..."
+      },
+      {
+        "Title": "Habilidad Elemental (V)",
+        "Context": "¡Jeje! ¡Miren mi cola de pez!"
+      },
+      {
+        "Title": "Habilidad Elemental (VI)",
+        "Context": "¡Aaaaah!"
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Una elegía a la mortalidad."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Una oda a las eras pasadas."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "¡Todos, alcen sus voces!"
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "¡Vaya! ¡Mira todos estos tesoros brillantes! ¡Rápido, agárralos!"
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "No está mal, supongo. Podría ser divertido jugar con esto."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "¿Eso es todo? Vaya. Y yo que me emocioné con un supuesto tesoro..."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Jeje... Je..."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Ya no quiero jugar más."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "... Oh, te vas a arrepentir de eso."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "¡Oye! ¡¿Qué estás haciendo?!"
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "¡Ven aquí! ¡Deja de jugar!"
+      },
+      {
+        "Title": "Derrotada (I)",
+        "Context": "Je... Están todos aquí..."
+      },
+      {
+        "Title": "Derrotada (II)",
+        "Context": "Olas... llévenme a casa..."
+      },
+      {
+        "Title": "Derrotada (III)",
+        "Context": "Una nota alta... para el final..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "Me resbalé."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (II)",
+        "Context": "¡Hum! Aún no he terminado."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "Si eres tan valiente, ¡enfréntate a mí en el agua!"
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "No estoy hecha para la tierra firme."
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Me arden las orejas."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Aquí estoy. ¿Qué pasa?"
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "*Ejem*, humm, mis cuerdas vocales ya están listas."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "En la antigua Snezhnaya, los nixies solían habitar por toda la ciudad. Algunos entonaban gloriosas melodías sobre los escenarios y otros tarareaban canciones jocosas por calles y callejones. También estaban los que preferían sumergirse en el agua, atrayendo a los curiosos hasta la orilla con sus cantos etéreos, para después saltar de golpe, salpicarles y volver a zambullirse entre risas. Tras ello, desaparecían con un coletazo sin dejar rastro y dejaban atrás a sus sorprendidas víctimas, empapadas y en un estado a medio camino entre la diversión y el enfado.\nSin embargo, con el paso del tiempo, los escenarios y los callejones de Snezhnaya fueron perdiendo silenciosamente a sus cantantes. Las melodías bajo el agua, arrastradas por corrientes invisibles, comenzaron a fluir sin producir ruido alguno hacia un distante silencio. La gente comenzó a murmurar intranquila, preguntándose si aquellas melodías de las profundidades acabarían por alejarse para siempre...\nSin embargo, una mañana, la gente descubrió que Vodyanitsa seguía subiéndose al escenario del Teatro Korolevski para cantar, como si los días de antaño jamás se hubieran desvanecido y la alegría del pasado continuara intacta.\nCasi nadie conocía la razón por la que ella sí se había quedado, y nadie se atrevía a preguntárselo en persona... a menos que estuviera dispuesto a no volver a entrevistar jamás a la Srta. Vodyanitsa.\n¿Quizás no quería decepcionar al público que tanto amaba su voz? ¿Quizás no quería abandonar aquel espléndido escenario? ¿O quizás había otras razones lo suficientemente importantes como para hacerla nadar a contracorriente, incluso si eso significara tener que despedirse de los suyos?...\nPara el público, indagar en la respuesta a esa pregunta carecía por completo de sentido. Lo único que importaba era que aún podían escuchar la voz de Vodyanitsa, que aún podían dejarse cautivar por el canto de la nixie... y con eso les bastaba.\nClaro que, si quieres dejarte cautivar por su canto...\n“¿Entradas sin asiento? Eh, lo siento, pero no vendemos eso en el teatro... Y no, no está permitido que traigan sus propias sillas tampoco”.\n“¿Que abramos las puertas un poco? El viento del exterior haría que el público se congelase...”.\n“Lo siento, pero el teatro no está buscando personal de limpieza en estos momentos”.\n... Primero, tendrás que conseguir una entrada."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "El canto de Vodyanitsa solía ser alegre y jovial, como la infancia despreocupada que ella y los suyos vivieron en Dalegrado.\nEn aquella época, los nixies vagaban libremente siguiendo sus deseos, y ofrecían por igual a todos los seres su música, repleta de bendiciones y alabanzas...\n... Hasta que Vodianói Dombertiev, el Rey sin Tierra forjó una alianza con el rey Miscislav, el Bebesangre. Los raudos y valientes nacidos de las aguas se convirtieron en la fuerza principal detrás del ascenso de Miscislav, consiguiéndole una gran gloria y, tras un tiempo, una corona. Sin embargo, la hija de Dombertiev, Vaselisa Vodiánovna, no podía soportar ver la fría sangre de los suyos congelada sobre el lago, por lo que, tomando entre las manos flores de hielo del color de la sangre, lloró a cada nixie que había sido acallado en la orilla del agua.\nY después, se marchó. Todos aquellos entre su gente que no querían seguir blandiendo sus armas la siguieron, y juntos alcanzaron la corte del Zar Monómaco Snezhni.\nAllí, el Zar Monómaco le confirió un título que Vaselisa Vodiánovna aceptó, pues sabía que si deseaba recibir el favor de la Estrella Albina, debía llevar consigo aquel nombre.\nSin embargo, uno a uno, Vodiánovna rechazó la corona, los tesoros y las tierras que le ofrecieron. La nixie exiliada le dijo lo siguiente al Zar:\n“No quiero esta corona, pues solo puede ceñir la cabeza de alguien cuyo corazón sea igual de pesado.\nNo quiero estos tesoros, pues solo pueden saciar intereses egoístas carentes de todo sentido.\nNo quiero estas tierras, pues las aguas y el suelo no deberían pertenecer a ningún soberano.\nNo pido nada más. Solo deseo que los hijos de las aguas dejen de afilar sus armas con cantos de lamento. Que canten para todos aquellos cuyos corazones alberguen un amor verdadero, y que todas sus canciones les pertenezcan únicamente a sí mismos”.\nEl Zar Monómaco aceptó la petición de Vaselisa Vodiánovna, y los nixies bajo la Estrella Albina dejaron de verse obligados a actuar según voluntades ajenas. El Zar también le hizo otro juramento a Vodiánovna: incluso si un nixie se ofreciera a marchar a la guerra voluntariamente, no tendría que blandir arma alguna. Y así se cumplió el acuerdo. Desarmados, los nixies caminaban entre el ejército sin participar jamás en la matanza. Sin embargo, no olvidaron la protección que Monómaco les había conferido.\nSe convirtieron en mensajeros entre los soldados, transmitiendo informes militares de campamento en campamento y cartas secretas de enamorados, algo que verdaderamente apasionaba a los nixies. También llevaban a los heridos rápidamente río abajo, guiando y tirando de sus barcas con tal maestría que parecía casi un milagro. Y cuando el terror se infiltraba en los campamentos bajo el manto de la noche, sus canciones arrullaban a los nerviosos soldados, logrando que conciliaran el sueño en calma. Muchos de estos cantares sobrevivieron a la guerra y consiguieron convertirse en clásicos.\nCon el paso del tiempo, llegó el día en que la sangre dejó de oscurecer las aguas del lago y la Estrella Albina extendió su brillo hasta los rincones más recónditos de la tierra. El largo lamento bajo las nieves alcanzó su verso final y, en las orillas heladas de Dalegrado, las flores de escarcha del color de la sangre nunca más volvieron a brotar.\nEntonces, Vaselisa Vodiánovna reunió a los nixies y les dijo con franqueza:\n“Vayan y cántenle libres como el fluir de las aguas a todas las cosas hermosas bajo el cielo y a todos los corazones que aman el mundo con sinceridad.\nDíganle a la nieve primaveral y a las flores invernales, al sol otoñal y a los frutos estivales, que ya nadie confundirá el transcurrir de las estaciones.\nDíganle a las aguas y a las tierras que todo ser puede escuchar ahora el himno que desde hace tiempo debía haber escuchado.\nDíganle a los granjeros, a los artesanos, a los soldados, a los monarcas y a todos los demás que este mundo merece ser amado y alabado”.\nY así, por fin, Snezhnogrado acogió el libre canto de los nixies."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "Como cantantes de talento extraordinario incluso entre los nixies, los padres de Vodyanitsa se granjearon una gran fama en Snezhnogrado rápidamente. Innumerables teatros los invitaban a actuar, y ellos aceptaban encantados.\nPero lo que más les gustaba era organizar pequeñas actuaciones privadas en su propia finca, donde todos debían olvidar su identidad y su posición social, y la única condición para participar era el amor por el canto.\nEn aquel entonces, Vodyanitsa era aún muy pequeña, pero ya había aprendido el secreto de escuchar el canto. Mientras las hadas y los humanos cantaban juntos abajo, ella abría la ventana en silencio y, bajo la tenue y cálida luz del sol, contemplaba a quienes formaban parte del coro. Guiadas por sus padres, innumerables voces se entrelazaban y se fundían unas con otras, y la melodía flotaba en el aire como si nunca hubiera existido diferencia alguna entre ellos.\nComo hijos del mismo mundo, no había diferencia alguna entre sus seres.\nLa pequeña Vodyanitsa parpadeó, recordando las palabras que sus padres le habían dicho, las mismas que una vez pronunció la Zmey Vaselisa Vodiánovna.\n“Vayan y cántenle libres como el fluir de las aguas a todas las cosas hermosas bajo el cielo y a todos los corazones que aman el mundo con sinceridad.\nVodyanitsa pensó: “Por su majestad la Zarina, hay tantísima gente en el mundo, y seguro que todos guardan muchísimo amor sincero en el corazón. Los nixies somos muy pocos... ¿Cómo vamos a poder cantar para todo el mundo?”.\n“No hace falta que pienses tan lejos, querida Vodyanitsa”, le decía su madre con calidez. “El secreto es centrarse solo en cómo cantar la siguiente canción”.\n“Exacto, la siguiente, y luego otra, y luego otra más”. Su padre sonrió y continuó: “Es como nadar: basta con mover la cola cada vez, y con el tiempo, se puede llegar muy lejos”.\n“Entonces tendré que cantar durante muchísimo tiempo”, dijo Vodyanitsa.\n“Así es”, respondieron sus padres. “Nosotros, los nixies, aún debemos seguir cantando por este mundo durante mucho tiempo.\nPero, por suerte, tenemos tiempo suficiente para amar”."
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "La voz de Vodyanitsa había sido dulce y melodiosa, tal y como en sus innumerables actuaciones en Snezhnaya.\nAunque, claro está, la mayoría de esas “actuaciones” no habían tenido lugar sobre un glorioso escenario lleno de esplendor.\nFuera del escenario, Vodyanitsa había encontrado por sí sola muchos otros lugares fascinantes donde actuar. Aunque a veces llegaba a sobresaltar a la gente, en esas “actuaciones” era a la vez cantante y público, protagonista y espectadora que aplaudía a los demás.\nVodyanitsa siguió en una ocasión a un vendedor ambulante que avanzaba por la orilla del río pregonando su mercancía. El hombre tarareaba una tonada sin nombre mientras los juguetes que llevaba en la mano tintineaban alegremente. Los niños correteaban a su alrededor entre risas, y él entonaba su melodía con tanta alegría que los pequeños, entre balbuceos, se unían al canto. Con el paso del tiempo, el vendedor ambulante se sumió en el eterno letargo, y los niños, ya crecidos, acudieron a aquel lugar para rendirle homenaje. Al depositar sus flores en el agua, vieron de pronto una aleta que aparecía y desaparecía entre las ondas, y escucharon, tenue, aquella tonada de la infancia que brotaba desde las profundidades. Los niños, ya adultos, no pudieron evitar alzar la voz y unirse de nuevo al canto. La melodía y la nixie se dejaron llevar por la corriente, mientras ellos rezaban para que aquel canto alcanzara el sueño de su viejo amigo.\nVodyanitsa visitó una estación en construcción y escuchó con atención los cánticos rítmicos de un grupo de obreros que reparaban trenes. Los trabajadores no entendían por qué una pequeña nixie insistía en quedarse en aquella obra llena de chispas sin siquiera llevar protección para los oídos. Pero, siendo gente de buen corazón, no le dieron más vueltas: al fin y al cabo, la pequeña nixie se había quedado en un lugar seguro y las chispas no podían quemar su bonito vestido, así que los obreros continuaron luchando sin descanso contra el acero, las llamas y la nieve con la única compañía de sus herramientas. Cuando llegó la tormenta de nieve, los trabajadores dejaron sus artilugios y quisieron calentar sus pechos helados con un buen trago de licor. En el momento en que todos alzaron sus copas, la nixie, que hasta entonces solo había estado escuchando, abrió de pronto la boca y comenzó a tararear suavemente, siguiendo el ritmo de los cánticos anteriores. Los obreros parpadearon desconcertados al principio, pero enseguida estallaron en carcajadas y se unieron en un coro improvisado. El tarareo de la pequeña nixie y las voces roncas y potentes de los trabajadores resonaron juntos entre el acero y la ventisca, vibrantes y apasionados.\nVodyanitsa siguió nadando a contracorriente, guiándose por su corazón. Visitó campos abiertos en plena temporada de siembra, donde los granjeros esparcían semillas mientras tarareaban melodías populares para marcar las estaciones; visitó escuelas repletas de estudiantes, donde los niños parloteaban y bromeaban entre risas, burlándose de sus amigos con cancioncillas recién inventadas; acudió a un restaurante recién inaugurado, cuyo tímido dueño se armaba de valor para vocear a todo pulmón un pregón improvisado...\nAl final, la noticia acabó llegando a oídos de casi todo el mundo: había una pequeña nixie que no se dignaba a cantar en el teatro, pues prefería quedarse en las afueras y dejar que su voz vagara libremente por los páramos.\nAl igual que un arroyo que se abriera camino a sí mismo entre las rocas, todo aquello que resultaba bañado por sus aguas no podía evitar reír junto a ella."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Sin embargo, cuando el resplandor crepuscular de la Estrella Albina se desvaneció, las calles y callejones de Snezhnogrado también perdieron sus canciones.\nEl nixie que solía quedarse plantado en la puerta del restaurante, negándose a irse mientras pregonaba que quería cambiar su canto por un almuerzo, se había marchado, dejándole al dueño todos sus manuscritos, diciendo que esperaba que sirvieran para saldar lo que debía de comidas anteriores. La nixie que siempre se sentaba en los aleros balanceando las piernas y cantando canciones estrafalarias a propósito se había marchado, entregándole la flor que llevaba en la cabeza al domovói que siempre daba saltitos debajo del alero, gritándole que bajara de una vez y dejara de molestar a los vecinos. La nixie que siempre se quejaba de que no había ni un solo lugar en la ciudad donde darse un buen baño se había marchado, y había acordado con un vila ir a buscar el mejor lago congelado para demostrarle que no le tenía ningún miedo al frío. El nixie que siempre despreciaba el mal gusto de las joyerías de la ciudad y que jamás se ponía de acuerdo con la dueña de la tienda se había marchado, dejando atrás sus mejores perlas y piedras preciosas, y diciéndole a la dueña que, en realidad, siempre había creído que ella podía crear las joyas más hermosas de toda Snezhnaya. La nixie que siempre andaba cavilando cómo cultivar flores en Snezhnaya se había marchado, pues ya había encontrado las semillas adecuadas y solo necesitaba un poco de tiempo para que aparecieran nuevos brotes en sus macetas.\nLa gente ya presentía que las hadas se marcharían, pero cuando llegó el día en que todo quedó en silencio y todo canto desapareció, no supieron cómo reaccionar. La vida transcurría sin obstáculos, el día a día continuaba con normalidad, pero un sutil e inesperado vacío se había infiltrado en sus vidas. Todo seguía como siempre, pero ya nada era del todo igual.\nEra como si en una casa familiar faltara de pronto un cuadro querido sin explicación alguna, o como si un bonito sombrero hubiera perdido de repente su distintiva franja decorativa, o como si en una cena que antes era perfecta, a uno de los platos le faltara aliño. Tales detalles podrían pasarle inadvertidos a un extraño, pero aquellos que amaban profundamente esas cosas no podían ignorar su ausencia.\nCon aquella extraña sensación en el ambiente, la gente abrió las ventanas, intentando percibir algún sonido, por pequeño que fuera, en aquel silencio...\n¡Un momento!... Aquellas personas que no habían albergado esperanza alguna oyeron, de repente, un tenue canto a lo lejos. Provenía del Teatro Korolevski, el más grande de todos. Asombradas, se congregaron frente a sus puertas como atraídas por una fuerza invisible, y ante ellos, una nixie proclamó a viva voz:\n“¡Hoy, la función del Teatro Korolevski tendrá lugar como de costumbre!”.\nUn hombre con sombrero habló de repente:\n“¿Usted no se ha marchado?”.\n“Así es, no me he ido. Mi actuación aún no ha terminado”. La nixie sonrió con naturalidad: “Esta función dura siete días seguidos, y hoy apenas es el segundo”.\n“Entonces, después de siete días, ¿se marchará?”.\nAsí preguntó una chica con ojeras marcadas, que claramente no había dormido bien.\nVodyanitsa observaba al público, y el público observaba a la única nixie de la ciudad que aún seguía subiéndose al escenario para cantar.\n“No”, respondió Vodyanitsa con una sonrisa: “Siete días no serían suficientes para todas las canciones que quiero cantar.\n¡Muy bien, entren todos con sus entradas! ¡El vino dulce para calentarse les espera a un lado del pasillo!\nLas mantas, los calentadores de manos y los binoculares ya están listos. Si los necesitan, pueden tomarlos sin problema.\n¡No pierdan el tiempo, la función está a punto de comenzar!”."
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "“... Querida Vodyanitsa, te echamos de menos. Como ya te dijimos, si así lo deseas, puedes volver en cualquier momento”.\nAsí terminaba otra carta más enviada desde el lejano lago que nunca se congela. Los nixies que habían regresado a su hogar le hicieron llegar la misiva a través de un pez, llamándola a regresar a casa. Sabían bien que ella, como la mayoría de los nixies, no estaba hecha para vivir a largo plazo en aquella ciudad tal y como era en el presente, donde los corazones de la gente hervían de agitación, todo era caos y bullicio, y prácticamente todos querían acaparar el escenario, negándose a cantar en armonía con los demás. Incontables voces se disputaban el protagonismo entre sí, convirtiendo lo que debería haber sido una melodía armoniosa y elegante en un estruendo áspero y vulgar. Fuera como fuera, aquel no era, ni de lejos, un buen lugar para cantar ni para escuchar canciones.\nVodyanitsa se lo pensó un momento y comenzó a redactar su respuesta. Escribió lo siguiente:\n“Estoy dispuesta a volver. Pero, como ya dije antes...\nCada vez que quiera volver, primero tendré que encontrar a diez personas en Snezhnogrado y comprobar si de verdad aman mi canto.\nIncluso aunque haya una sola persona que quiera escuchar mis canciones...”.\nPor supuesto que había gente en la ciudad que amaba las canciones de Vodyanitsa... Al fin y al cabo, las actuaciones de la soprano principal de la Compañía Korolevski tenían un gran valor. Si alguien conseguía una de esas codiciadas entradas, sin duda podría ganarse la admiración de cualquiera. Si, además, lograba intercambiar unas cuantas palabras con la soprano principal, tal experiencia sería un tema de conversación imbatible, y con un adorno aquí y allá en el relato, hasta las personas más distinguidas de la alta sociedad se quedarían boquiabiertas. Y ya ni hablar de una carta escrita del puño y letra de Vodyanitsa, pues eso no tenía precio, y si era necesario, seguro que un coleccionista pagaría una fortuna por ella. Y claro, se decía que la soprano principal a veces tarareaba y practicaba en la calle o al aire libre, así que, si se diera la ocasión, un encuentro casual fingido también podía ser una gran idea.\n“¿Estoy dispuesta a quedarme por gente como ellos?...\nPero esa gente no desea escuchar mis canciones, tan solo quieren coronar mi voz con laureles falsos y pesados de acuerdo con sus propios anhelos. No pueden ver, o se niegan a hacerlo, que esas coronas me aprietan la garganta y hacen que las melodías que deberían ser alegres se tiñan de pesadumbre, enterrando así sus verdaderos sentimientos en las más oscuras profundidades... Ya no están dispuestos a quererme de verdad”.\nLa pluma de Vodyanitsa no llegó a rozar el papel para plasmar aquello que sentía en su interior ni para pedir a los nixies que la llevaran de vuelta a su tranquilo hogar.\nSin embargo, aquella persona que ahora intentaba comprar favores con su entrada había saltado de alegría una vez al conseguir acceso a una de sus funciones. Se había puesto su mejor sombrero y no se había atrevido ni a parpadear desde su asiento. Aquel que iba por ahí alardeando de su amistad con la soprano principal Vodyanitsa había arrancado flores silvestres junto a sus amigos cuando eran niños para tejer coronas y colgarlas en la salida trasera de aquel pequeño teatro, esperando a que Vodyanitsa saliera para gritar junto a los demás niños: “¡Qué bien canta!”, y luego salir corriendo en desbandada. Aquella chica que ahora ya había conseguido sus propios logros en el mundo del canto se había encontrado por casualidad a Vodyanitsa en la orilla del río y le había hablado entre tartamudeos al sentir que su voz era demasiado joven e insegura, tras lo que ambas habían acordado juntarse para practicar en aquel lugar. En aquel entonces, ella había observado cómo hablaba Vodyanitsa con los ojos iluminados como si fueran gotas de rocío bajo la luz del sol.\nPuede que la sinceridad de aquel entonces se hubiera transformado con la corriente: en algunos, convertida en ambición por escalar más alto; en otros, en codicia por acaparar más y más; y en otros, en una vanidad inflada...\nPero Vodyanitsa recordaba lo que había venido antes de todo aquello, y sus canciones también. Recordaban que, una vez, ellos habían amado su voz con todo su corazón y que, al hacerlo, también habían amado a las personas que habían sido en aquel entonces.\nEn algún lugar de la eterna corriente del tiempo, tal vez un único momento sincero era suficiente para que el amor hubiera sido real.\nY así, la nixie solitaria terminó de escribir su carta.\n“... Estoy dispuesta a quedarme por ellos”."
+      },
+      {
+        "Title": "Explicación detallada para el cuidado de la cola (extracto)",
+        "Context": "... Lo más importante es sumergirla frecuentemente en agua pura. No se debe añadir leche, ni pétalos de flores ni fruta, ¡ni ninguna otra cosa que parezca un ingrediente! Estamos hablando del cuidado de mi cola, ¡no de preparar sopa de cola de pescado!\nNota: El agua más adecuada para el cuidado de la cola es la de la Corte de Fontaine. Por la Zarina, si pudiera sumergirme cada día en las aguas de la Corte de Fontaine, no me imagino lo bien que estaría. Si algún día tengo la oportunidad, voy a pedir unas largas vacaciones y pasar un buen tiempo en el fondo de las aguas de Fontaine."
+      },
+      {
+        "Title": "Visión",
+        "Context": "“... Vodyanitsa, las entradas se han agotado y todos los asientos están ocupados”.\nTras un breve vistazo más allá del telón, el presentador suspiró con alivio. Por lo menos ahora podía acallar uno de sus miedos: el teatro no perdería a su público solo porque los nixies se hubieran marchado. Pero apenas tuvo tiempo de sentir alivio, pues otra preocupación más comenzó a invadirlo. El escenario no era un concepto para Vodyanitsa, y tenía un buen nivel, pero... ¿y ahora qué? Con las expectativas tan altas, “un buen nivel” podía no ser suficiente para satisfacer al público.\n“Bien”, respondió Vodyanitsa con una sonrisa. “Continuaremos según lo planeado. Cuento contigo para la presentación”.\nEl presentador asintió, pero quizás incapaz de contener su inquietud, se atrevió a preguntarle a Vodyanitsa:\n“¿Qué vas a cantar?... Ah, pero... no, eso no es lo que importa. Es solo que... por su majestad la Zarina... Todos los demás nixies se han marchado. Tú eres la única que puede cantar ahora”.\nNo pudo darle voz a aquella intranquilidad que sentía realmente, aunque el problema resultaba bastante obvio. Normalmente, contaban con un sistema. Cada nixie cantaba lo que mejor se le daba, y mientras uno se encontraba bajo los focos, los demás descansaban. Así, sus voces tenían la oportunidad de recuperarse y el programa era lo suficientemente variado. Incluso si alguien ocupaba a solas el escenario, cada canción era elegida con sumo cuidado para asegurar que siempre hubiera tiempo de sobra para descansar la garganta.\nPero aquella noche... un vistazo al emocionado público más allá del telón bastó para que supiera que aquel cuidadoso plan no importaría. Por los Arcontes, eso era un hecho. En cuanto Vodyanitsa intentara abandonar el escenario, aplaudirían tanto que la harían volver. Y luego volverían a hacerlo una y otra vez... En un abrir y cerrar de ojos, se imaginó las innumerables formas que podía tener para intervenir y salvarla de aquel desgaste, a sabiendas de que todas fallarían antes de terminar de formularlas siquiera. El público de detrás del telón era como un vasto páramo sediento de agua de lluvia. Por muy fiera que fuera la corriente que lo atravesara, no dejarían que pasara sin absorber hasta la última gota.\n“Oh, aún no lo he decidido. Cantaré una pieza y luego veré a dónde me lleva. Improvisaré a partir de ahí”.\nLa pequeña nixie pronunció aquellas palabras con una sonrisa, viendo cómo la incredulidad del presentador se convertía lentamente en horror. Después, se llevó a la boca tranquilamente un caramelo para la garganta.\n“¿C-cómo?... No. No, no, no. Debes tener un plan, querida. Dime que lo tienes, por favor”.\n“Mira al público. Fíjate bien. ¿De verdad piensas que han venido preparados para que algo tan sencillo y sensato como un plan pueda satisfacerlos?”.\nVodyanitsa se asomó por la rendija del telón. Fuera, el bullicio era ensordecedor. Una calidez familiar y añorada, mezclada con el fragor de las voces, se colaba por la abertura. Podía percibir la emoción, la impaciencia, las dudas, la melancolía y la tristeza del público... y, sin embargo, todas las miradas apuntaban fijamente hacia aquel telón que, inevitablemente, habría de alzarse.\n¿Qué podría saciarlos? ¿Qué podría calmar aquellos corazones a los que el silencio había secado?\n“Canciones, claro está”, pensó Vodyanitsa. “¿Qué otra cosa habrían venido a buscar aquí? ¿Qué otra cosa estarían esperando? ¿Qué otra cosa podrían pedirle al escenario?\nCanciones. Incesantes canciones sin fin alguno. Toda canción que haya existido, existe y existirá”.\nEl presentador se quedó mirándola, completamente aturdido. Después, con sus años de experiencia en el teatro, comenzó a analizar el significado de sus palabras.\n“Un momento. ¿Cuánto tiempo planeas estar cantando tú sola? Por mucho que tengas la garganta de una nixie, tiene que haber un límite...”.\nVodyanitsa se limitó a encogerse de hombros, sin dejar que aquella preocupación echara raíces en ella. Después, un repentino pensamiento cruzó por su mente: “Por cierto, si soy la única nixie del teatro, ¿no significa que ahora soy la soprano principal?”.\n“B-bueno, técnicamente, no... Normalmente habría una audición oficial, pero...”.\n“Perfecto. La función de esta noche será mi audición”.\nAntes de que el presentador pudiera reaccionar, Vodyanitsa ya había apartado el telón y se había plantado en el escenario. El público bullicioso se sobresaltó ante la repentina aparición de la soprano, y un silencio absoluto invadió la sala, seguido de un estruendo de aplausos que retumbó como una cascada al estrellarse contra el suelo.\n“¡Bienvenidos, damas y caballeros, al Teatro Korolevski! Esta noche, no habrá programa. Todo dependerá de mi voz”.\nMientras hablaba, la que anhelaba ser la soprano principal del Teatro Korolevski alzó ambas manos.\nTodas las miradas del teatro se posaron sobre ella y sobre la Visión azul agua que había aparecido de repente sobre una de sus palmas.\n“Bueno, parece que esto hará que me resulte más sencillo mantener la garganta hidratada”, pensó Vodyanitsa.\n“Tal vez pueda cantar hasta que nadie tenga fuerzas ni para aplaudir”."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 214000,
+      "Name": "Resonancia del oleaje",
+      "Description": "Modelo de vestimenta de Vodyanitsa. Se dice que el diseño de su atuendo se inspira en diversas tradiciones culturales de los nixies. En cuanto a los detalles de dichas tradiciones, mejor pregúntaselo directamente a Vodyanitsa.\nEso sí, si vas a hacerlo, espera a que tenga un momento libre después de su actuación.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104124,
+    113090,
+    101275,
+    112151,
+    104370,
+    113082
+  ],
+  "NameCard": {
+    "Name": "Vodyanitsa - Remolino",
+    "Description": "Diseño de tarjeta de presentación.\n“Dicen que quien se deja cautivar por el canto de un nixie termina atrapado en un remolino del que jamás podrá salir para volver a ver la luz del día... Jeje, ¡era broma! Mañana tengo otra función, ¡así que no se te olvide venir a verme!”.",
+    "Icon": "UI_NameCardIcon_Vodyanitsa",
+    "PicturePrefix": "UI_NameCardPic_Vodyanitsa"
+  }
+}

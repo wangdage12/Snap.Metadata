@@ -10511,6 +10511,53 @@
     ]
   },
   {
+    "Id": 3708,
+    "Name": "Mors",
+    "Description": "Une boisson aux fruits d'un rouge profond. Elle est très appréciée des jeunes femmes snezhnayiennes pour sa saveur aigre-douce agréable. Des baies sauvages sont longuement mijotées à feu doux, puis écrasées et filtrées. Le liquide obtenu est ensuite mélangé à du miel et un peu de sucre, avant d'être refroidi et servi.",
+    "EffectDescription": [
+      "Restaure <color=#3399CCFF>26 à 30 %</color> des PV max du personnage sélectionné.",
+      "Et restaure <color=#3399CCFF>450 à 790</color> PV toutes les 5 s pendant 30 s."
+    ],
+    "CookMethod": 2,
+    "FoodType": 1,
+    "Icon": "UI_ItemIcon_108905",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132033
+      },
+      {
+        "Count": 1,
+        "Id": 132034
+      },
+      {
+        "Count": 1,
+        "Id": 132035
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101281
+      },
+      {
+        "Count": 2,
+        "Id": 101279
+      },
+      {
+        "Count": 1,
+        "Id": 110017
+      },
+      {
+        "Count": 1,
+        "Id": 110006
+      }
+    ]
+  },
+  {
     "Id": 3901,
     "Name": "Combo croissant croustillant",
     "Description": "Un assortiment avec une petite viennoiserie et du café. La pâte est d'abord roulée avant d'être recouverte de dorure à l'œuf et mise au four, ce qui donne un croissant fumant et exquis. Il est dit que le fait de badigeonner la dorure à l'œuf est comme la signature d'un boulanger... Et il semble que ce dernier se soit très bien appliqué en signant ce plat.",
@@ -11160,6 +11207,53 @@
       {
         "Count": 1,
         "Id": 110006
+      }
+    ]
+  },
+  {
+    "Id": 4108,
+    "Name": "Croquant au thé céleste",
+    "Description": "Une interprétation inédite des gâteaux wangxiao. Réalisée selon la technique de pâte feuilletée de Fontaine, qui consiste à plier et replier la pâte à maintes reprises pour obtenir de fines strates, cette pâtisserie moulée et feuilletée est garnie d'une riche réduction de thé, préparée à partir d'adepthé de Chenyu torréfié et finement moulu, puis dorée à l'œuf. C'est l'alliance parfaite entre l'esthétique de Fontaine et l'âme de Liyue.",
+    "EffectDescription": [
+      "Augmente l'ATQ de <color=#3399CCFF>224 à 320</color> pts et le taux CRIT de <color=#3399CCFF>6 % à 10 %</color> pour tous les personnages de l'équipe pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
+    ],
+    "CookMethod": 1,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108904",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 20,
+    "RankLevel": 4,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132030
+      },
+      {
+        "Count": 1,
+        "Id": 132031
+      },
+      {
+        "Count": 1,
+        "Id": 132032
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101242
+      },
+      {
+        "Count": 2,
+        "Id": 100030
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 110004
       }
     ]
   },
@@ -12093,6 +12187,53 @@
       {
         "Count": 1,
         "Id": 110009
+      }
+    ]
+  },
+  {
+    "Id": 4701,
+    "Name": "Poisson grillé royal",
+    "Description": "Un poisson servi entier, de la tête à la queue. C'est un plat qui reflète la générosité et la dignité sereine du grand nord glacial. Le poisson est d'abord mariné puis grillé, avant d'être accompagné de diverses garnitures. Issue, dit-on, du Palais zapolyarny, cette spécialité soigneusement préparée est devenue un incontournable des banquets à travers tout Snezhnaya.",
+    "EffectDescription": [
+      "Augmente la DÉF de tous les personnages de l'équipe de <color=#3399CCFF>215 à 308</color> pts et l'effet des soins de <color=#3399CCFF>6 % à 10 %</color> pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
+    ],
+    "CookMethod": 1,
+    "FoodType": 4,
+    "Icon": "UI_ItemIcon_108903",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 20,
+    "RankLevel": 4,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132027
+      },
+      {
+        "Count": 1,
+        "Id": 132028
+      },
+      {
+        "Count": 1,
+        "Id": 132029
+      }
+    ],
+    "Input": [
+      {
+        "Count": 4,
+        "Id": 100084
+      },
+      {
+        "Count": 4,
+        "Id": 100080
+      },
+      {
+        "Count": 3,
+        "Id": 101281
+      },
+      {
+        "Count": 2,
+        "Id": 101280
       }
     ]
   },

@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Elektrik Kristalinin Kutsaması</color>",
-    "Description": "Tüm grup üyeleri <color=#f39001>%50</color> Elektrik ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
+    "Description": "Tüm grup üyeleri <color=#f39001>%70</color> Elektrik ve Toprak Hasarı Bonusu kazanır. Ayrıca <color=#f39001>4</color> saniyede bir yakındaki Kristalleşme parçalarını toplarsın."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Kaya Kıran Kükreme</color>",
-    "Description": "Karakterler <color=#f39001>Elektrik Kristalleşmesi tepkimesiyle</color> üretilen <color=#f39001>{0}</color> Element Parçası topladığında yakındaki bir düşmanın bulunduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
+    "Description": "<color=#f39001>Elektrik Kristalinin Kutsaması</color> etkinken karakterlerin Element Patlaması bir düşmana isabet ettiğinde düşmanın bulunduğu yere inerek <color=#e09800>Toprak Hasarı</color> verir."
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Esinti Kutsaması: Su</color>",
-    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Maks. Canı <color=#f39001>%8</color> artar."
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Yıldız Girdabı tepkimeleriyle verdiği Hasar <color=#f39001>%8</color> ve Maks. Canı <color=#f39001>%8</color> artar."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Esinti Kutsaması: Elektrik</color>",
-    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color> artar ve her <color=#f39001>Esinti Kutsaması: Elektrik</color> kazanıldığında tüm grup üyeleri <color=#f39001>2</color> Element Enerjisi kazanır."
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Yıldız Girdabı tepkimeleriyle verdiği Hasar ise <color=#f39001>%8</color> artar ve her <color=#f39001>Esinti Kutsaması: Elektrik</color> kazanıldığında tüm grup üyeleri <color=#f39001>2</color> Element Enerjisi kazanır."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Esinti Kutsaması: Ateş</color>",
-    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Saldırıları ise <color=#f39001>%9</color> artar."
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Yıldız Girdabı tepkimeleriyle verdiği Hasar <color=#f39001>%8</color> ve Saldırısı <color=#f39001>%9</color> artar."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Esinti Kutsaması: Buz</color>",
-    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Kritik Hasarları ise <color=#f39001>%16</color> artar."
+    "Description": "Girdap tepkimesi tetikleyen karakterlerin verdiği Hasar <color=#f39001>%80</color>, Yıldız Girdabı tepkimeleriyle verdiği Hasar <color=#f39001>%8</color> ve Kritik Hasarı <color=#f39001>%16</color> artar."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
+    "Name": "Ana Vokal",
+    "Description": "Grubun mevcut aktif karakteri Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlamasıyla <color=#80C0FFFF>Su Hasarı</color> ya da <color=#99FFFFFF>Buz Hasarı</color> verdiğinde 1 kademe \"Ana Vokal\" tüketilir ve verilen Hasar artar. Ancak alanda bir Başıboş Burgaç varken veya bir Başıboş Burgaç patladıktan sonraki 5sn boyunca bu etki yalnızca karakter Yıldız Girdabı Tepkimesi Hasarı verdiğinde tetiklenir.\nVodyanitsa'nın {PARAM#P1402201|3S1} üzerinde sahip olduğu her 1000 Maks. Can, yukarıdaki etkideki Yıldız Girdabı Tepkimesi Hasarını {PARAM#P1402201|4S1} artırır; verilen <color=#80C0FFFF>Su Hasarını</color> ve <color=#99FFFFFF>Buz Hasarını</color> ise {PARAM#P1402201|5S1} artırır. Verilen Yıldız Girdabı Tepkimesi Hasarı bu şekilde en fazla {PARAM#P1402201|6S1}, <color=#80C0FFFF>Su Hasarı</color> ve <color=#99FFFFFF>Buz Hasarı</color> ise en fazla {PARAM#P1402201|7S1} artırılabilir."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Koro",
+    "Description": "Alanda olmayan grup üyeleri veya mevcut aktif grup üyesi dışında yakındaki başka bir grup üyesi tarafından tetiklenir. Etkileri \"Ana Vokal\" ile aynıdır."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Eyleme Hazır",
+    "Description": "Vesna, <color=#FFD780FF>Zafer Sanatı</color> Element Becerisini kullandıktan sonra bu moda geçer. 15 saniyeye kadar sürebilen bu moddayken:\n·Vesna'nın müdahaleye karşı direnci artar.\n·Vesna'nın Normal, Yüklü ve Havadan Saldırılarıyla verdiği Hasar, başka bir Element Tesiriyle değiştirilemeyecek şekilde <color=#80FFD7FF>Rüzgar Hasarı</color> olur. Ayrıca düşmanlara onunla aynı anda saldıran ve ek <color=#80FFD7FF>Rüzgar Hasarı</color> veren bir Rüzgar Tüyü çağırır. Rüzgar Tüyü her çağrıldığında Vesna bir miktar <color=#FFD780FF>Kılıç Özü</color> yeniler.\n·Vesna, <color=#FFD780FF>Kılıç Özü</color> tüketerek düşmanlara <color=#80FFD7FF>Rüzgar Hasarı</color> veren <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisini kullanabilir.\n·Vesna, modun süresi bittiğinde veya <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisini en yüksek seviyede 3 defa kullandığında bu moddan çıkar. Moddan çıkmak, kalan tüm <color=#FFD780FF>Kılıç Özünü</color> sıfırlar."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Kılıç Özü",
+    "Description": "<color=#FFD780FF>Eyleme Hazır</color> modundayken <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisini kullanmak için gereken enerji.\nVesna, aşağıdaki yöntemlerle Kılıç Özü kazanabilir:\n·<color=#FFD780FF>Eyleme Hazır</color> modundayken Normal, Yüklü veya Havadan Saldırı yaparak ya da <color=#FFD780FF>Sarsılmaz Sadakat</color> Takımyıldızındaki <color=#FFD780FF>Yel Kılıcı: Dönüşüm</color> etkisini kullanarak.\n·<color=#FFD780FF>Zafer Sanatı</color> Element Becerisini kullanarak.\n·<color=#FFD780FF>Çariçe İçin!</color> Element Patlamasını kullanarak."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Yel Kılıcı",
+    "Description": "Vesna, <color=#FFD780FF>Eyleme Hazır</color> modundayken <color=#FFD780FF>Kılıç Özü</color> tüketerek <color=#80FFD7FF>Rüzgar Hasarı</color> veren özel Element Becerisini kullanabilir.\nAynı <color=#FFD780FF>Eyleme Hazır</color> modunda <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisini her kullandığında <color=#FFD780FF>Yel Kılıcının</color> seviyesi yükselir, Sv. 1 ile başlayıp en fazla Sv. 3 olabilir.\nSv. 2 ve Sv. 3 <color=#FFD780FF>Yel Kılıcı</color> kullanmak ayrıca <color=#80FFD7FF>Rüzgar Hasarı</color> veren bir <color=#FFD780FF>Ruh Kılıcı</color> çağırır."
+  },
+  {
+    "Id": 11430004,
     "Name": "Ruh Kılıcı",
-    "Description": "\"Ruh Kılıcı\" Hakkında"
+    "Description": "Vesna'nın çağırabildiği, özel güçlere sahip bir silah. Düşmana Vesna ile beraber saldırarak <color=#80FFD7FF>Rüzgar Hasarı</color> verir.\nVesna, Ruh Kılıçlarını aşağıdaki yöntemlerle çağırabilir:\n·Sv. 2 ve Sv. 3 <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisini kullanarak.\n·<color=#FFD780FF>Çariçe İçin!</color> Element Patlamasını kullanarak.\n·<color=#FFD780FF>Sarsılmaz Sadakat</color> Takımyıldızındaki <color=#FFD780FF>Yel Kılıcı: Dönüşüm</color> etkisini kullanarak.\n\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: <color=#FFD780FF>Ruh Kılıçları</color> tarafından verilen Hasar, Yıldız Girdabı Tepkimesi Hasarı sayılan <color=#80FFD7FF>Rüzgar Hasarına</color> dönüşür."
   },
   {
     "Id": 10050002,

@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Elektro-Kristall-Schutz</color>",
-    "Description": "#Erhöht den Elektro- sowie Geo-Schaden aller Truppenmitglieder um <color=#f39001>50{NON_BREAK_SPACE}%</color>. Gibt ihnen außerdem alle <color=#f39001>4</color>{NON_BREAK_SPACE}s durch Kristallisation entstehende Splitter aus der Nähe."
+    "Description": "#Erhöht den Elektro- sowie Geo-Schaden aller Truppenmitglieder um <color=#f39001>70{NON_BREAK_SPACE}%</color>. Gibt ihnen außerdem alle <color=#f39001>4</color>{NON_BREAK_SPACE}s durch Kristallisation entstehende Splitter aus der Nähe."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Wälzende Steinlawine</color>",
-    "Description": "Geht nach je <color=#f39001>{0}</color> eingesammelten Splitter(n), die durch <color=#f39001>Elektro-Kristallisation</color> entstehen, auf einen Gegner in der Nähe nieder und verursacht <color=#e09800>Geo-Schaden</color>."
+    "Description": "Geht während der Wirkungsdauer des <color=#f39001>Elektro-Kristall-Schutzes</color> nach dem Treffen von Gegnern mit Spezialfähigkeiten der Figur an der Position des Gegners nieder und verursacht <color=#e09800>Geo-Schaden</color>."
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Windgebet – Hydro</color>",
-    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und die max. LP der Figur um <color=#f39001>8{NON_BREAK_SPACE}%</color>."
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color>, den mit der Reaktion Stellar-Verwirbelung verursachten Schaden um <color=#f39001>8{NON_BREAK_SPACE}%</color> und die max. LP der Figur um <color=#f39001>8{NON_BREAK_SPACE}%</color>."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Windgebet – Elektro</color>",
-    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und stellt jedes Mal beim Erhalten von <color=#f39001>Windgebet – Elektro</color> allen Truppenmitgliedern <color=#f39001>2</color> Punkte Elementarenergie wieder her."
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color>, den mit der Reaktion Stellar-Verwirbelung verursachten Schaden um <color=#f39001>8{NON_BREAK_SPACE}%</color> und stellt jedes Mal beim Erhalten von <color=#f39001>Windgebet – Elektro</color> allen Truppenmitgliedern <color=#f39001>2</color>{NON_BREAK_SPACE}Punkte Elementarenergie wieder her."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Windgebet – Pyro</color>",
-    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und den ANG der Figur um <color=#f39001>9{NON_BREAK_SPACE}%</color>."
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color>, den mit Reaktion Stellar-Verwirbelung verursachten Schaden um <color=#f39001>8{NON_BREAK_SPACE}%</color> und den ANG der Figur um <color=#f39001>9{NON_BREAK_SPACE}%</color>."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Windgebet – Kryo</color>",
-    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color> und den kritischen Schaden der Figur um <color=#f39001>16{NON_BREAK_SPACE}%</color>."
+    "Description": "#Erhöht den mit der Reaktion Verwirbelung durch die Figur verursachten Schaden um <color=#f39001>80{NON_BREAK_SPACE}%</color>, den durch die Reaktion Stellar-Verwirbelung verursachten Schaden um <color=#f39001>8{NON_BREAK_SPACE}%</color> und den KSCH der Figur um <color=#f39001>16{NON_BREAK_SPACE}%</color>."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
-    "Name": "Geistschwert-Bewaffnung",
-    "Description": "Einführung in die Geistschwert-Bewaffnung"
+    "Name": "Leitgesang",
+    "Description": "#Verbraucht, wenn das aktuelle Truppenmitglied mit einem Standardangriff, heftigen Schlag, Angriff aus dem Fall, einer Elementarfähigkeit oder Spezialfähigkeit <color=#80C0FFFF>Hydro-Schaden</color> oder <color=#99FFFFFF>Kryo-Schaden</color> verursacht, eine Stapelung „Leitgesang“ und erhöht den verursachten Schaden. Löst, wenn sich auf dem Feld ein fließender Wirbelwind befindet oder innerhalb der letzten 5{NON_BREAK_SPACE}s ein solcher explodiert ist, den oben genannten Effekt stattdessen nur aus, wenn die Figur Schaden durch die Reaktion Stellar-Verwirbelung verursacht.\nErhöht für den Teil von Vodyanitsas max. LP, der {PARAM#P1402201|3S1} übersteigt, pro 1.000 Punkte den Schaden durch Stellar-Verwirbelung des oben genannten Effekts um {PARAM#P1402201|4S1} Punkte sowie den <color=#80C0FFFF>Hydro-Schaden</color> und den <color=#99FFFFFF>Kryo-Schaden</color> um {PARAM#P1402201|5S1} Punkte. Auf diese Weise können der Schaden durch die Reaktion Stellar-Verwirbelung um maximal {PARAM#P1402201|6S1} Punkte und der <color=#80C0FFFF>Hydro-Schaden</color> sowie der <color=#99FFFFFF>Kryo-Schaden</color> um maximal {PARAM#P1402201|7S1} Punkte erhöht werden."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Chor",
+    "Description": "Wird durch ein inaktives Truppenmitglied oder durch ein anderes Truppenmitglied in der Nähe (jedoch nicht durch deine aktuelle Figur) ausgelöst. Der Effekt ist identisch mit „Leitgesang“."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Einsatzbereit",
+    "Description": "#Vesna wechselt nach der Anwendung der Elementarfähigkeit <color=#FFD780FF>Kodex – Der Weg zum Sieg</color> in diesen Modus. Der Modus dauert bis zu 15{NON_BREAK_SPACE}s und hat folgende Eigenschaften:\n· Erhöht Vesnas Unterbrechungs-WDS.\n· Wandelt, wenn Vesna Standardangriffe, heftige Schläge oder Angriffe aus dem Fall ausführt, diese in <color=#80FFD7FF>Anemo-SCH</color> um, der nicht von anderen Elementen überdeckt werden kann. Ruft zudem eine „Feder im Wind“ herbei, die einen abgestimmten Angriff auf Gegner ausführt und zusätzlichen <color=#80FFD7FF>Anemo-SCH</color> verursacht. Stellt Vesna jedes Mal, wenn sie eine „Feder im Wind“ herbeiruft, eine bestimmte Menge an <color=#FFD780FF>Schwertaura</color> wieder her.\n· Vesna kann <color=#FFD780FF>Schwertaura</color> verbrauchen, um die besondere Elementarfähigkeit <color=#FFD780FF>Flugwind-Klinge</color> anzuwenden und Gegnern <color=#80FFD7FF>Anemo-SCH</color> zuzufügen.\n· Wenn die Dauer endet oder die <color=#FFD780FF>Flugwind-Klinge</color> auf der höchsten Stufe dreimal angewendet wurde, verlässt Vesna diesen Modus und alle Stapelungen <color=#FFD780FF>Schwertaura</color> werden entfernt."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Schwertaura",
+    "Description": "Energie, um im Modus <color=#FFD780FF>Einsatzbereit</color> die besondere Elementarfähigkeit <color=#FFD780FF>Flugwind-Klinge</color> anzuwenden.\nVesna kann Schwertaura auf folgende Weisen ansammeln:\n· Anwendung von Standardangriffen, heftigen Schlägen, Angriffen aus dem Fall im Modus <color=#FFD780FF>Einsatzbereit</color>, oder Anwendung von <color=#FFD780FF>Flugwind-Klinge – Wandlung</color> aus dem Sternbild <color=#FFD780FF>Unerschütterliche Hingabe</color>.\n· Anwendung der Elementarfähigkeit <color=#FFD780FF>Kodex – Der Weg zum Sieg</color>.\n· Anwendung der Spezialfähigkeit <color=#FFD780FF>Ehrerbietung – Gewidmet Ihrer Majestät der Zarin</color>."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Flugwind-Klinge",
+    "Description": "Im Modus <color=#FFD780FF>Einsatzbereit</color> kann Vesna <color=#FFD780FF>Schwertaura</color> verbrauchen, um diese besondere Elementarfähigkeit anzuwenden und <color=#80FFD7FF>Anemo-SCH</color> zu verursachen.\nErhöht während der Dauer des aktuellen Modus <color=#FFD780FF>Einsatzbereit</color> nach jeder Anwendung der besonderen Elementarfähigkeit <color=#FFD780FF>Flugwind-Klinge</color> ihre Stufe. Die Anfangsstufe der <color=#FFD780FF>Flugwind-Klinge</color> beträgt Stufe 1 und kann bis auf Stufe 3 gesteigert werden.\nRuft beim Anwenden der <color=#FFD780FF>Flugwind-Klinge</color>, deren Stufe erhöht worden ist, außerdem ein <color=#FFD780FF>Geisterschwert</color> herbei, das Gegnern <color=#80FFD7FF>Anemo-SCH</color> zufügt."
+  },
+  {
+    "Id": 11430004,
+    "Name": "Geisterschwert",
+    "Description": "Von Vesna beschworene Geisterwaffe, die gemeinsam mit Vesna Gegner angreift und diesen dabei <color=#80FFD7FF>Anemo-SCH</color> zufügt.\nVesna kann das Geisterschwert auf folgende Weisen beschwören:\n· Anwenden der auf eine höhere Stufe hochgestuften besonderen Elementarfähigkeit <color=#FFD780FF>Flugwind-Klinge</color>.\n· Anwenden der Spezialfähigkeit <color=#FFD780FF>Ehrerbietung – Gewidmet Ihrer Majestät der Zarin</color>.\n· Anwenden von <color=#FFD780FF>Flugwind-Klinge – Wandlung</color> aus dem Sternbild <color=#FFD780FF>Unerschütterliche Hingabe</color>.\n\n<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Wandelt den durch das <color=#FFD780FF>Geisterschwert</color> verursachten Schaden in <color=#80FFD7FF>Anemo-SCH</color> um, der als Schaden durch die Reaktion Stellar-Verwirbelung gewertet wird."
   },
   {
     "Id": 10050002,
@@ -537,7 +562,7 @@
   {
     "Id": 11480001,
     "Name": "Mal der Jäger",
-    "Description": "Ein Spezialeffekt, den Alyosha auf Gegner anwendet.\nAktiviert, wenn dieser Effekt auf einen Gegner angewendet wird, der bereits unter dem Einfluss von <color=#FFD780FF>Mal der Jäger</color> steht, den Effekt stattdessen: Entfernt das Mal und verleiht allen Truppenmitgliedern in der Nähe den Effekt <color=#FFD780FF>Genauigkeit der Jäger</color>, der, wenn sie sich auf dem Feld befinden, ihren ANG erhöht."
+    "Description": "Ein Spezialeffekt, den Alyosha auf Gegner anwendet.\nAktiviert, wenn dieser Effekt auf einen Gegner angewendet wird, der bereits unter dem Einfluss von <color=#FFD780FF>Mal der Jäger</color> steht, dann das <color=#FFD780FF>Mal der Jäger</color>: Entfernt das Mal und verleiht allen Truppenmitgliedern in der Nähe den Effekt <color=#FFD780FF>Genauigkeit der Jäger</color>, der, wenn sie sich auf dem Feld befinden, ihren ANG erhöht."
   },
   {
     "Id": 11480002,

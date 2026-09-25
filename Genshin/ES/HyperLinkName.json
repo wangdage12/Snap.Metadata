@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Protección electrocristalina</color>",
-    "Description": "#Todos los miembros del equipo obtienen un <color=#f39001>50%</color> de Bono de Daño Electro y Geo. Además, cada <color=#f39001>4</color>{NON_BREAK_SPACE}s obtienes los fragmentos cercanos creados con la reacción de Cristalización."
+    "Description": "#Todos los miembros del equipo obtienen un <color=#f39001>70%</color> de Bono de Daño Electro y Geo. Además, cada <color=#f39001>4</color>{NON_BREAK_SPACE}s obtienes los fragmentos cercanos creados con la reacción de Cristalización."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Avalancha arrolladora</color>",
-    "Description": "Cada vez que el personaje recoja <color=#f39001>{0}</color> fragmento(s) creado(s) con la <color=#f39001>reacción de Cristalización Electro</color>, caerá sobre un enemigo cercano una avalancha arrolladora que inflige <color=#e09800>Daño Geo</color>."
+    "Description": "Mientras el efecto de <color=#f39001>protección electrocristalina</color> está activo, cuando un personaje golpea a un enemigo con la Habilidad Definitiva, se libera en la ubicación de dicho enemigo una avalancha arrolladora que inflige <color=#e09800>Daño Geo</color>."
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Oración del viento: Hydro</color>",
-    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y en un <color=#f39001>8%</color> su Vida Máx."
+    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino del personaje, en un <color=#f39001>8%</color> el daño de Torbellino Estelar y en un <color=#f39001>8%</color> su Vida Máx."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Oración del viento: Electro</color>",
-    "Description": "#Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y, cada vez que se obtenga el efecto de <color=#f39001>oración del viento: Electro</color>, todos los miembros del equipo recuperan <color=#f39001>2</color>{NON_BREAK_SPACE}pts. de Energía Elemental."
+    "Description": "#Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes, en un <color=#f39001>8%</color> el daño de Torbellino Estelar y, cada vez que se obtenga el efecto de <color=#f39001>oración del viento: Electro</color>, todos los miembros del equipo recuperan <color=#f39001>2</color>{NON_BREAK_SPACE}pts. de Energía Elemental."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Oración del viento: Pyro</color>",
-    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y en un <color=#f39001>9%</color> su ATQ."
+    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino del personaje, en un <color=#f39001>8%</color> el daño de Torbellino Estelar y en un <color=#f39001>9%</color> su ATQ."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Oración del viento: Cryo</color>",
-    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino de los personajes y en un <color=#f39001>16%</color> su Daño CRIT."
+    "Description": "Aumenta en un <color=#f39001>80%</color> el daño de la reacción de Torbellino del personaje, en un <color=#f39001>8%</color> el daño de Torbellino Estelar y en un <color=#f39001>16%</color> su Daño CRIT."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
-    "Name": "Poderío de espada espiritual",
-    "Description": "Sobre “Poderío de espada espiritual”"
+    "Name": "Vocalista principal",
+    "Description": "#Cuando tu personaje en uso del equipo inflija <color=#80C0FFFF>Daño Hydro</color> o <color=#99FFFFFF>Daño Cryo</color> con su Ataque Normal, Cargado o Descendente, o con su Habilidad Elemental o Definitiva, se consumirá una carga de “vocalista principal” para aumentar el daño infligido. Si en el campo de batalla hay un vórtice errante o si han transcurrido menos de 5{NON_BREAK_SPACE}s desde su explosión, el efecto anterior solo se activará cuando el personaje inflija daño de Torbellino Estelar.\nPor cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que Vodyanitsa tenga por encima de los {PARAM#P1402201|3S1}{NON_BREAK_SPACE}pts., el daño de Torbellino Estelar del efecto anterior aumentará en {PARAM#P1402201|4S1}{NON_BREAK_SPACE}pts., y el <color=#80C0FFFF>Daño Hydro</color> y <color=#99FFFFFF>Cryo</color> aumentará en {PARAM#P1402201|5S1}{NON_BREAK_SPACE}pts. Como máximo, solo es posible aumentar el daño de Torbellino Estelar en {PARAM#P1402201|6S1}{NON_BREAK_SPACE}pts. y el <color=#80C0FFFF>Daño Hydro</color> y <color=#99FFFFFF>Cryo</color> en {PARAM#P1402201|7S1}{NON_BREAK_SPACE}pts. de esta manera."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Coro",
+    "Description": "Lo puede activar un personaje que está en el equipo pero no en uso o los demás personajes cercanos del equipo (a excepción de tu personaje en uso del equipo). Su efecto es el mismo que el de “vocalista principal”."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Armamento persiguevientos",
+    "Description": "#Vesna entrará en este modo tras usar su Habilidad Elemental, <color=#FFD780FF>El arte de la victoria</color>. Este modo dura un máximo de 15{NON_BREAK_SPACE}s y posee las siguientes características:\n·La RES a interrupción de Vesna se verá aumentada.\n·Los Ataques Normales, Cargados y Descendentes de Vesna pasarán a infligir <color=#80FFD7FF>Daño Anemo</color>, el cual no puede sustituirse imbuyéndose de otro elemento. Además, invocará cefiroalas que realizan ataques coordinados contra los enemigos e infligen <color=#80FFD7FF>Daño Anemo</color> adicional. Cada vez que invoque las cefiroalas, Vesna recuperará cierta cantidad de <color=#FFD780FF>energía filofeérica</color>.\n·Vesna podrá consumir <color=#FFD780FF>energía filofeérica</color> para usar su Habilidad Elemental especial <color=#FFD780FF>Filo surcavientos</color> e infligir <color=#80FFD7FF>Daño Anemo</color> a sus enemigos.\n·Cuando termine la duración de armamento persiguevientos o después de usar tres veces <color=#FFD780FF>Filo surcavientos</color> al nivel máximo, Vesna saldrá de dicho modo y perderá todas las cargas de <color=#FFD780FF>energía filofeérica</color>."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Energía filofeérica",
+    "Description": "La energía requerida para usar la Habilidad Elemental especial <color=#FFD780FF>Filo surcavientos</color> durante el modo de <color=#FFD780FF>armamento persiguevientos</color>.\nVesna puede acumular energía filofeérica a través de los siguientes métodos:\n·Realizando Ataques Normales, Cargados o Descendentes en el modo de <color=#FFD780FF>armamento persiguevientos</color> o usando <color=#FFD780FF>Filo surcavientos: Transposición</color> de la constelación <color=#FFD780FF>Entusiasmo inquebrantable</color>.\n·Usando su Habilidad Elemental, <color=#FFD780FF>El arte de la victoria</color>.\n·Usando su Habilidad Definitiva, <color=#FFD780FF>¡Por su majestad la Zarina!</color>"
+  },
+  {
+    "Id": 11430003,
+    "Name": "Filo surcavientos",
+    "Description": "#En el modo <color=#FFD780FF>armamento persiguevientos</color>, Vesna puede consumir <color=#FFD780FF>energía filofeérica</color> para usar esta Habilidad Elemental especial e infligir <color=#80FFD7FF>Daño Anemo</color>.\nCada vez que utilice la Habilidad Elemental especial <color=#FFD780FF>Filo surcavientos</color>, el nivel de la misma aumentará mientras el actual modo de <color=#FFD780FF>armamento persiguevientos</color> esté activo. El <color=#FFD780FF>Filo surcavientos</color> empezará en niv.{NON_BREAK_SPACE}1 y podrá ascender como máximo hasta niv.{NON_BREAK_SPACE}3.\nAl usar un <color=#FFD780FF>Filo surcavientos</color> que haya ascendido de nivel, también se invocarán <color=#FFD780FF>filos feéricos</color> que infligirán <color=#80FFD7FF>Daño Anemo</color> a los enemigos."
+  },
+  {
+    "Id": 11430004,
+    "Name": "Filo feérico",
+    "Description": "Un arma espiritual que puede convocar Vesna y que atacará a los enemigos junto a ella para infligirles <color=#80FFD7FF>Daño Anemo</color>.\nVesna podrá convocar filos feéricos a través de los siguientes métodos:\n·Usando su Habilidad Elemental especial <color=#FFD780FF>Filo surcavientos</color> ascendida.\n·Usando su Habilidad Definitiva, <color=#FFD780FF>¡Por su majestad la Zarina!</color>\n·Usando <color=#FFD780FF>Filo surcavientos: Transposición</color> de la constelación <color=#FFD780FF>Entusiasmo inquebrantable</color>.\n\n<color=#FFD780FF>Esplendor: Torbellino Estelar</color>\nLos <color=#FFD780FF>filos feéricos</color> pasarán a infligir <color=#80FFD7FF>Daño Anemo</color> considerado como daño de Torbellino Estelar."
   },
   {
     "Id": 10050002,

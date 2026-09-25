@@ -1,0 +1,1370 @@
+{
+  "Id": 10000143,
+  "PromoteId": 143,
+  "Sort": 121,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Vesna",
+  "SideIcon": "UI_AvatarIcon_Side_Vesna",
+  "Name": "Vesna",
+  "Description": "Druzhna'nın Komutanı ve Çariçe'nin keskin kılıcı.",
+  "BeginTime": "2026-09-22T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1032.4456,
+    "AttackBase": 27.5576,
+    "DefenseBase": 56.8385
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114310,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Sprint"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114311,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Jump"
+      },
+      {
+        "GroupId": 14331,
+        "Proud": {
+          "Descriptions": [
+            "1 Vuruş Hasarı|{param1:F1P}",
+            "2 Vuruş Hasarı|{param2:F1P}",
+            "3 Vuruş Hasarı|{param3:F1P}x2",
+            "4 Vuruş Hasarı|{param4:F1P}",
+            "5 Vuruş Hasarı|{param5:F1P}",
+            "6 Vuruş Hasarı|{param6:F1P}",
+            "Yüklü Saldırı Hasarı|{param7:F1P}",
+            "Yüklü Saldırı Dayanıklılık Maliyeti|{param8:F1}",
+            "Havadan Saldırı Hasarı|{param9:F1P}",
+            "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433101,
+              "Level": 1,
+              "Parameters": [
+                0.4042,
+                0.48676,
+                0.28079,
+                0.59168,
+                0.62436,
+                0.7224,
+                1.33042,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1433102,
+              "Level": 2,
+              "Parameters": [
+                0.4371,
+                0.52638,
+                0.303645,
+                0.63984,
+                0.67518,
+                0.7812,
+                1.43871,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1433103,
+              "Level": 3,
+              "Parameters": [
+                0.47,
+                0.566,
+                0.3265,
+                0.688,
+                0.726,
+                0.84,
+                1.547,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1433104,
+              "Level": 4,
+              "Parameters": [
+                0.517,
+                0.6226,
+                0.35915,
+                0.7568,
+                0.7986,
+                0.924,
+                1.7017,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1433105,
+              "Level": 5,
+              "Parameters": [
+                0.5499,
+                0.66222,
+                0.382005,
+                0.80496,
+                0.84942,
+                0.9828,
+                1.80999,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1433106,
+              "Level": 6,
+              "Parameters": [
+                0.5875,
+                0.7075,
+                0.408125,
+                0.86,
+                0.9075,
+                1.05,
+                1.93375,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1433107,
+              "Level": 7,
+              "Parameters": [
+                0.6392,
+                0.76976,
+                0.44404,
+                0.93568,
+                0.98736,
+                1.1424,
+                2.10392,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1433108,
+              "Level": 8,
+              "Parameters": [
+                0.6909,
+                0.83202,
+                0.479955,
+                1.01136,
+                1.06722,
+                1.2348,
+                2.27409,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1433109,
+              "Level": 9,
+              "Parameters": [
+                0.7426,
+                0.89428,
+                0.51587,
+                1.08704,
+                1.14708,
+                1.3272,
+                2.44426,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1433110,
+              "Level": 10,
+              "Parameters": [
+                0.799,
+                0.9622,
+                0.55505,
+                1.1696,
+                1.2342,
+                1.428,
+                2.6299,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1433111,
+              "Level": 11,
+              "Parameters": [
+                0.8554,
+                1.03012,
+                0.59423,
+                1.25216,
+                1.32132,
+                1.5288,
+                2.81554,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1433112,
+              "Level": 12,
+              "Parameters": [
+                0.9118,
+                1.09804,
+                0.63341,
+                1.33472,
+                1.40844,
+                1.6296,
+                3.00118,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1433113,
+              "Level": 13,
+              "Parameters": [
+                0.9682,
+                1.16596,
+                0.67259,
+                1.41728,
+                1.49556,
+                1.7304,
+                3.18682,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1433114,
+              "Level": 14,
+              "Parameters": [
+                1.0246,
+                1.23388,
+                0.71177,
+                1.49984,
+                1.58268,
+                1.8312,
+                3.37246,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1433115,
+              "Level": 15,
+              "Parameters": [
+                1.081,
+                1.3018,
+                0.75095,
+                1.5824,
+                1.6698,
+                1.932,
+                3.5581,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11431,
+        "Name": "Vila Kılıç Dansı",
+        "Description": "<color=#FFD780FF>Normal Saldırı</color>\nArka arkaya en fazla 6 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcar ve önündeki düşmanları ezer.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 14332,
+        "Proud": {
+          "Descriptions": [
+            "Beceri Hasarı|{param1:F1P}",
+            "Yel Kılıcı Sv. 1 Hasarı|{param2:F1P}",
+            "Yel Kılıcı Sv. 2 Hasarı|{param3:F1P}",
+            "Yel Kılıcı Sv. 2 Ruh Kılıcı Hasarı|{param4:F1P}",
+            "Yel Kılıcı Sv. 3 Ruh Kılıcı Hasarı|{param6:F1P}x4",
+            "Yel Kılıcı Sv. 3 Ruh Kılıcı Son Vuruş Hasarı|{param8:F1P}",
+            "Yel Kılıcı Sv. 2 Ruh Kılıcı Yıldız Girdabı Hasarı|{param5:F1P}",
+            "Yel Kılıcı Sv. 3 Ruh Kılıcı Yıldız Girdabı Hasarı|{param7:F1P}x4",
+            "Yel Kılıcı Sv. 3 Ruh Kılıcı Son Vuruş Yıldız Girdabı Hasarı|{param9:F1P}",
+            "Rüzgar Tüyü Hasarı|{param10:F1P}",
+            "Eyleme Hazır Süresi|{param12:F1}sn",
+            "BS|{param14:F1}sn"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433201,
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                0.4,
+                0.6,
+                1.12,
+                1.12,
+                0.448,
+                0.448,
+                1.568,
+                1.568,
+                0.104,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433202,
+              "Level": 2,
+              "Parameters": [
+                0.43,
+                0.43,
+                0.645,
+                1.204,
+                1.204,
+                0.4816,
+                0.4816,
+                1.6856,
+                1.6856,
+                0.1118,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433203,
+              "Level": 3,
+              "Parameters": [
+                0.46,
+                0.46,
+                0.69,
+                1.288,
+                1.288,
+                0.5152,
+                0.5152,
+                1.8032,
+                1.8032,
+                0.1196,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433204,
+              "Level": 4,
+              "Parameters": [
+                0.5,
+                0.5,
+                0.75,
+                1.4,
+                1.4,
+                0.56,
+                0.56,
+                1.96,
+                1.96,
+                0.13,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433205,
+              "Level": 5,
+              "Parameters": [
+                0.53,
+                0.53,
+                0.795,
+                1.484,
+                1.484,
+                0.5936,
+                0.5936,
+                2.0776,
+                2.0776,
+                0.1378,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433206,
+              "Level": 6,
+              "Parameters": [
+                0.56,
+                0.56,
+                0.84,
+                1.568,
+                1.568,
+                0.6272,
+                0.6272,
+                2.1952,
+                2.1952,
+                0.1456,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433207,
+              "Level": 7,
+              "Parameters": [
+                0.6,
+                0.6,
+                0.9,
+                1.68,
+                1.68,
+                0.672,
+                0.672,
+                2.352,
+                2.352,
+                0.156,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433208,
+              "Level": 8,
+              "Parameters": [
+                0.64,
+                0.64,
+                0.96,
+                1.792,
+                1.792,
+                0.7168,
+                0.7168,
+                2.5088,
+                2.5088,
+                0.1664,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433209,
+              "Level": 9,
+              "Parameters": [
+                0.68,
+                0.68,
+                1.02,
+                1.904,
+                1.904,
+                0.7616,
+                0.7616,
+                2.6656,
+                2.6656,
+                0.1768,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433210,
+              "Level": 10,
+              "Parameters": [
+                0.72,
+                0.72,
+                1.08,
+                2.016,
+                2.016,
+                0.8064,
+                0.8064,
+                2.8224,
+                2.8224,
+                0.1872,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433211,
+              "Level": 11,
+              "Parameters": [
+                0.76,
+                0.76,
+                1.14,
+                2.128,
+                2.128,
+                0.8512,
+                0.8512,
+                2.9792,
+                2.9792,
+                0.1976,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433212,
+              "Level": 12,
+              "Parameters": [
+                0.8,
+                0.8,
+                1.2,
+                2.24,
+                2.24,
+                0.896,
+                0.896,
+                3.136,
+                3.136,
+                0.208,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433213,
+              "Level": 13,
+              "Parameters": [
+                0.85,
+                0.85,
+                1.275,
+                2.38,
+                2.38,
+                0.952,
+                0.952,
+                3.332,
+                3.332,
+                0.221,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433214,
+              "Level": 14,
+              "Parameters": [
+                0.9,
+                0.9,
+                1.35,
+                2.52,
+                2.52,
+                1.008,
+                1.008,
+                3.528,
+                3.528,
+                0.234,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433215,
+              "Level": 15,
+              "Parameters": [
+                0.95,
+                0.95,
+                1.425,
+                2.66,
+                2.66,
+                1.064,
+                1.064,
+                3.724,
+                3.724,
+                0.247,
+                0,
+                15,
+                5,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11432,
+        "Name": "Zafer Sanatı",
+        "Description": "Vilalar arasında nesiller boyu aktarılan Ruh Kılıçlarını çağırarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir, ardından <color=#FFD780FF>{LINK#N11430001}Eyleme Hazır{/LINK}</color> moduna geçip 2 kademe <color=#FFD780FF>{LINK#N11430002}Kılıç Özü{/LINK}</color> kazanır.\n\n<color=#FFD780FF>Eyleme Hazır</color>\nVesna'nın Normal, Yüklü ve Havadan Saldırıları, başka element tesiriyle değiştirilemeyecek şekilde <color=#80FFD7FF>Rüzgar Hasarı</color> verir. Vesna ayrıca düşmana aynı anda saldıran ve ek <color=#80FFD7FF>Rüzgar Hasarı</color> veren bir Rüzgar Tüyü çağırır. Rüzgar Tüyü her çağrıldığında Vesna bir miktar <color=#FFD780FF>Kılıç Özü</color> yeniler.\nVesna, <color=#FFD780FF>Kılıç Özü</color> tüketerek düşmana <color=#80FFD7FF>Rüzgar Hasarı</color> veren <color=#FFD780FF>{LINK#N11430003}Yel Kılıcı{/LINK}</color> özel Element Becerisini kullanabilir.\nAynı <color=#FFD780FF>Eyleme Hazır</color> durumu içinde <color=#FFD780FF>Yel Kılıcı</color> özel Element Becerisi her kullanıldığında <color=#FFD780FF>Yel Kılıcı</color> seviyesi artar. Yel Kılıcı, Sv. 1'den başlayıp en fazla Sv. 3'e kadar yükselebilir ve her seviyede verdiği <color=#80FFD7FF>Rüzgar Hasarı</color> artar. Sv. 2 ve Sv. 3 bir <color=#FFD780FF>Yel Kılıcı</color> kullanmak ayrıca <color=#80FFD7FF>Rüzgar Hasarı</color> veren <color=#FFD780FF>{LINK#N11430004}Ruh Kılıçları{/LINK}</color> çağırır.\nVesna, modun süresi bittiğinde veya en üst seviyede üç defa <color=#FFD780FF>Yel Kılıcı</color> kullandığında bu moddan çıkar. Moddan çıktığında kalan tüm <color=#FFD780FF>Kılıç Özü</color> silinir.\nAyrıca bu moddayken Vesna'nın müdahaleye karşı direnci artar.\n<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: <color=#FFD780FF>Ruh Kılıçları</color> ile verilen Hasar, aynı zamanda Yıldız Girdabı Tepkimesi Hasarı sayılan <color=#80FFD7FF>Rüzgar Hasarına</color> dönüşür.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Vesna_01",
+        "CdTime": 18
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 14339,
+      "Proud": {
+        "Descriptions": [
+          "Ruh Kılıcı Hasarı|{param1:F1P}",
+          "Ruh Kılıcı Yıldız Girdabı Hasarı|{param2:F1P}",
+          "BS|{param3:F1}sn",
+          "Enerji Maliyeti|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1433901,
+            "Level": 1,
+            "Parameters": [
+              2.632,
+              2.632,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433902,
+            "Level": 2,
+            "Parameters": [
+              2.8294,
+              2.8294,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433903,
+            "Level": 3,
+            "Parameters": [
+              3.0268,
+              3.0268,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433904,
+            "Level": 4,
+            "Parameters": [
+              3.29,
+              3.29,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433905,
+            "Level": 5,
+            "Parameters": [
+              3.4874,
+              3.4874,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433906,
+            "Level": 6,
+            "Parameters": [
+              3.6848,
+              3.6848,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433907,
+            "Level": 7,
+            "Parameters": [
+              3.948,
+              3.948,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433908,
+            "Level": 8,
+            "Parameters": [
+              4.2112,
+              4.2112,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433909,
+            "Level": 9,
+            "Parameters": [
+              4.4744,
+              4.4744,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433910,
+            "Level": 10,
+            "Parameters": [
+              4.7376,
+              4.7376,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433911,
+            "Level": 11,
+            "Parameters": [
+              5.0008,
+              5.0008,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433912,
+            "Level": 12,
+            "Parameters": [
+              5.264,
+              5.264,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433913,
+            "Level": 13,
+            "Parameters": [
+              5.593,
+              5.593,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433914,
+            "Level": 14,
+            "Parameters": [
+              5.922,
+              5.922,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433915,
+            "Level": 15,
+            "Parameters": [
+              6.251,
+              6.251,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11435,
+      "Name": "Çariçe İçin!",
+      "Description": "Birden fazla <color=#FFD780FF>{LINK#N11430004}Ruh Kılıcı{/LINK}</color> çağırarak <color=#80FFD7FF>Rüzgar Alan Hasarı</color> verir. Ayrıca bir kademe <color=#FFD780FF>{LINK#N11430002}Kılıç Özü{/LINK}</color> kazanır.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Vesna_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 14321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                6,
+                0.1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432101,
+        "Name": "Baharın Gelişi Ayini",
+        "Description": "Vesna, <color=#FFD780FF>{LINK#N11430003}Yel Kılıcı{/LINK}</color> özel Element Becerisini veya <color=#FFD780FF>{LINK#S11435}Çariçe İçin!{/LINK}</color> Element Patlamasını kullandığında 1 kademe <color=#FFD780FF>Disiplin Cezası</color> kazanır. Bu etki 20sn sürer ve 6 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır.\nAktif <color=#FFD780FF>Disiplin Cezası</color> kademeleri varken Vesna'nın çağırdığı <color=#FFD780FF>{LINK#N11430004}Ruh Kılıçları{/LINK}</color>, orijinal Hasarın %100'ü + Disiplin Cezası kademe sayısının %10'u kadar Hasar verir. Vesna <color=#FFD780FF>Zafer Sanatı</color> Element Becerisini kullandığında veya alandan ayrıldığında tüm aktif <color=#FFD780FF>Disiplin Cezası</color> kademeleri kaldırılır.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_05"
+      },
+      {
+        "GroupId": 14322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432201,
+              "Level": 1,
+              "Parameters": [
+                0.06,
+                25
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432201,
+        "Name": "Hakikatin Üstünlüğü",
+        "Description": "<color=#FFD780FF>Işıltı: Yıldız Girdabı</color>: Vesna, grup üyelerinin Element Türüne göre aşağıdaki etkileri kazanır:\n·Mevcut grubundaki her <color=#99FFFFFF>Buz</color> veya <color=#80FFD7FF>Rüzgar</color> karakteri için Vesna'nın Saldırısı %6 artar.\n·Mevcut grubundaki diğer Element Türlerinden her karakter için Vesna'nın Element Ustalığı 25 artar.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_06"
+      },
+      {
+        "GroupId": 14323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432301,
+        "Name": "Yıldız Takdisi: Muhteşem Giriş",
+        "Description": "Grup üyeleri Buz Girdabı tepkimesi tetiklediğinde Yıldız Girdabı tepkimesine dönüşür ve bu Yıldız Girdabı için grup üyelerinin Temel Hasarı, Vesna'nın Saldırısına göre artar. Vesna'nın sahip olduğu her 100 Saldırı, Temel Yıldız Girdabı Hasarını %0,7 artırır. Bu şekilde en fazla %14 Hasar artışı elde edilebilir.\nBir grup üyesi yakında bir Yıldız Girdabı tepkimesi tetiklediğinde Vesna 8 saniyeliğine <color=#FFD780FF>Işıltı: Yıldız Girdabı</color> durumuna girer.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_08"
+      },
+      {
+        "GroupId": 14325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432501,
+        "Name": "Büyük Tur",
+        "Description": "Vesna savaş durumunda değilken Depara veya Sıçramaya basılı tutulduğunda <color=#FFD780FF>Kovalama</color> durumuna girer.\n\n<color=#FFD780FF>Kovalama</color>\nDevamlı Dayanıklılık tüketerek havada süzülür. Depar atmak veya yükselmek için Sıçramaya basmak fazladan Dayanıklılık tüketir. Vesna <color=#FFD780FF>Kovalama</color> durumundayken <color=#FFD780FF>Kovalama</color> durumunu tetikleyen Sıçrama dahil en fazla 3 defa havada yükselebilir.\n\nAyrıca Snezhnaya'dayken (Nod-Krai hariç) eğer mevcut aktif grup üyesi havadayken ve savaşta değilken Vesna'ya geçilirse Vesna anında <color=#FFD780FF>Kovalama</color> durumuna girer ve 50 Dayanıklılık yeniler. Bu etki 10 saniyede bir tetiklenebilir. Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenemez.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1431,
+        "Name": "Kışa Veda Şöleni",
+        "Description": "Vesna, <color=#FFD780FF>{LINK#N11430001}Eyleme Hazır{/LINK}</color> modundayken 3 yerine 4 defa en yüksek seviyede <color=#FFD780FF>{LINK#N11430003}Yel Kılıcı{/LINK}</color> kullanabilir. Ayrıca <color=#FFD780FF>Eyleme Hazır</color> moduna her girdiğinde en yüksek seviyede ilk <color=#FFD780FF>Yel Kılıcı</color> kullanımında <color=#FFD780FF>{LINK#N11430002}Kılıç Özü{/LINK}</color> harcamaz.\nBuna ek olarak Vesna, <color=#FFD780FF>Eyleme Hazır</color> modundayken %20 daha fazla Yıldız Girdabı Tepkimesi Hasarı verir.",
+        "Icon": "UI_Talent_S_Vesna_01"
+      },
+      {
+        "Id": 1432,
+        "Name": "İlkbahar Kolo Dansı",
+        "Description": "<color=#FFD780FF>{LINK#P1432101}Baharın Gelişi Ayini{/LINK}</color> Yükseltme Yeteneği gelişir: Vesna, <color=#FFD780FF>{LINK#N11430001}Eyleme Hazır{/LINK}</color> moduna girdiğinde maksimum sayıda <color=#FFD780FF>Disiplin Cezası</color> kademesi kazanır. Vesna maksimum sayıda <color=#FFD780FF>Disiplin Cezası</color> kademesine sahipken Saldırısı %40 artar.\n\"Baharın Gelişi Ayini\" Yükseltme Yeteneğinin açılmış olması gerekir.",
+        "Icon": "UI_Talent_S_Vesna_02"
+      },
+      {
+        "Id": 1433,
+        "Name": "Kışın Son Adağı",
+        "Description": "<color=#FFD780FF>{LINK#S11432}Zafer Sanatı{/LINK}</color> Element Becerisinin seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
+        "Icon": "UI_Talent_U_Vesna_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1434,
+        "Name": "Atalarımızın Şanı",
+        "Description": "<color=#FFD780FF>{LINK#P1432201}Hakikatin Üstünlüğü{/LINK}</color> Yükseltme Yeteneği gelişir: Saldırı ve Element Ustalığı bonusları, orijinal değerlerin 3 katına çıkar.",
+        "Icon": "UI_Talent_S_Vesna_03"
+      },
+      {
+        "Id": 1435,
+        "Name": "Soylunun Görevi",
+        "Description": "<color=#FFD780FF>{LINK#S11435}Çariçe İçin!{/LINK}</color> Element Patlamasının seviyesini 3 artırır.\nMaksimum yükseltme seviyesi 15'tir.",
+        "Icon": "UI_Talent_U_Vesna_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1436,
+        "Name": "Sarsılmaz Sadakat",
+        "Description": "Vesna en yüksek seviyede <color=#FFD780FF>{LINK#N11430003}Yel Kılıcı{/LINK}</color> kullandıktan sonraki 5sn içinde Normal Saldırıya veya Element Becerisine dokunduğunda, gizli Vila yeteneği <color=#FFD780FF>Yel Kılıcı: Dönüşüm</color> kullanır ve Saldırısının %150'si kadar <color=#80FFD7FF>Rüzgar Hasarı</color> vererek <color=#FFD780FF>{LINK#N11430004}Ruh Kılıçları{/LINK}</color> çağırır. Bu Ruh Kılıçları bir defa Vesna'nın Saldırısının %200'ü kadar <color=#80FFD7FF>Rüzgar Hasarı</color> verir. Eğer Vesna <color=#FFD780FF>{LINK#N11430001}Eyleme Hazır{/LINK}</color> modundaysa düşmana Ortak Saldırılar yapması için ayrıca bir Rüzgar Tüyü çağırır.\nBuna ek olarak Vesna'nın verdiği Yıldız Girdabı Tepkimesi Hasarı %20 {LINK#N11190007}<color=#FFD780FF>yükselir</color>{/LINK}.",
+        "Icon": "UI_Talent_S_Vesna_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Karlı Ziyafetin Keskin Kılıcı",
+    "Detail": "Druzhna'nın Komutanı ve Çariçe'nin keskin kılıcı.",
+    "Association": 15,
+    "Native": "Druzhna",
+    "BirthMonth": 2,
+    "BirthDay": 4,
+    "VisionBefore": "Rüzgar",
+    "VisionOverrideLocked": "Yıldız Kilidi",
+    "VisionOverrideUnlocked": "Önsezi",
+    "ConstellationBefore": "Bahar Sürgünü",
+    "CvChinese": "龟娘",
+    "CvJapanese": "平野綾",
+    "CvEnglish": "Ari Thrash",
+    "CvKorean": "Joo Ye-jin",
+    "CookBonus": {
+      "OriginItemId": 108995,
+      "ItemId": 132037,
+      "InputList": [
+        101280,
+        100062,
+        110005,
+        110015
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Merhaba",
+        "Context": "Merhaba sevgili dostum. Ben Druzhna Komutanı Vesna. Çok memnun oldum. Top atışı ve onur muhafızları görkemli karşılaman için yerlerini aldı ve hazır bekliyor. Tabii eğer cümbüşten pek hazzetmiyorsan senin için daha özel bir karşılama töreni de ayarladım. Hadi, gel!"
+      },
+      {
+        "Title": "Sohbet: Hizmet",
+        "Context": "Druzhna sadece Çariçe'den emir alır, bu yüzden her an senin emrine amade olamazlar. Ancak Vila Vesna sana hizmet etmekten mutluluk duyar sevgili dostum."
+      },
+      {
+        "Title": "Sohbet: Mutluluk",
+        "Context": "Bu giysi çok güzel değil mi? Bizzat Majestelerinin hediyesi. Hehe, aynen öyle, bak da gözlerin bayram etsin."
+      },
+      {
+        "Title": "Sohbet: Verimlilik",
+        "Context": "Ne evrak işi? Ohoo, ben onu bitireli çok oldu. Bir çırpıda hallediverdim. Şimdi devriyeye çıkma zamanı geldi. Hadi gidelim!"
+      },
+      {
+        "Title": "Yağmur Yağdığında",
+        "Context": "Feyler de soğuk algınlığına yakalanabilir. Islandıklarında onları hemen çırpıp kurutmak lazım. K-Kanatları diyorum yani."
+      },
+      {
+        "Title": "Kar Yağdığında",
+        "Context": "Karların ortasındayken kamuflajındaki en ufak bir kusur bile ölümcül olabilir. Bu yüzden adımlarına dikkat et sevgili dostum."
+      },
+      {
+        "Title": "Güneş Açtığında",
+        "Context": "Ne düşündüğünü biliyorum, bence de haklısın. Güneş vurunca kanatlarım resmen göz kamaştırıyor."
+      },
+      {
+        "Title": "Rüzgar Estiğinde",
+        "Context": "Oh... Hehe, ne güzel. Vilalar böyle tatlı esintilere bayılır."
+      },
+      {
+        "Title": "Çölde",
+        "Context": "Merak ettim de... Snezhnaya'ya ne zaman döneceğiz?"
+      },
+      {
+        "Title": "Günaydın",
+        "Context": "Yeni bir gün! Günaydın Snezhnograd!"
+      },
+      {
+        "Title": "İyi Günler",
+        "Context": "Hadi bakalım, Podvorye Restoranına gidiyoruz! Hesap benden tabii ki. Her zamanki gibi!"
+      },
+      {
+        "Title": "İyi Akşamlar",
+        "Context": "Korolevskiy Topluluğu bu gece yeni bir gösterinin prömiyerini yapıyor. Gösteride Primadonna Vodyanitsa'nın tiz sopranosu, Bayan Odette'in en son koreografisi... Ve birkaç \"yeni arkadaş\" yer alıyor."
+      },
+      {
+        "Title": "İyi Geceler",
+        "Context": "Pişt... Hemen uyumuş olamazsın. Çıkıp şöyle bir gece yürüyüşü yapmaya ne dersin? Bu gece kuzey ışıkları müthiş görünüyor!"
+      },
+      {
+        "Title": "Vesna Hakkında: Sihirli Silah",
+        "Context": "Etrafımda uçuşup duran şu ufaklıkları görüyor musun? Onlar benim sihirli silahlarım, tamamen kendi oluşumlarım. Her biri Element Enerjisiyle kendi irademin birleşimi, haliyle kişiliğimden de bir şeyler kapmışlar. Oyun oynamak için sana biraz sırnaşabilirler misal. Sen onlara pek aldırma... Ama tabii vaktin varsa azıcık şımartıverebilirsin, hehe!"
+      },
+      {
+        "Title": "Vesna Hakkında: Komutan",
+        "Context": "Kim demiş komutan dediğin sert ve otoriter olmalı diye? Peh, o ağırlığı olmayan insanların işi. Benim bunlara ihtiyacım yok. Bence bu konuda seninle birbirimize epey benziyoruz."
+      },
+      {
+        "Title": "Hakkımızda: Gerçek",
+        "Context": "Tamam tamam, anlıyorum. Ortalıkta hakkımda dönen bir sürü dedikodu var, sen de işin aslını merak ediyorsun tabii. Sorun değil, nasılsa bolca vaktimiz var. Ama karşılığında ben de senin hakkındaki gerçekleri öğrenmek isterim, hem de en ince ayrıntısına kadar."
+      },
+      {
+        "Title": "Hakkımızda: Yol Arkadaşı",
+        "Context": "Birine yolculuğunda \"eşlik etme\" fikrini pek sevmiyorum. İlk başta kulağa romantik gelse de biraz düşününce, \"eşlik etmek\" ifadesi taraflardan birini ana karakter, diğerini ise sıradan bir yan karakter konumuna koyuyor.\nBana kalırsa attığımız her adım, yol boyunca yaşadıklarımız ve nasıl geliştiğimiz tamamen bize ait. Bu yüzden sana yolculuğunda \"eşlik ettiğimi\" söylemeyeceğim; bunun yerine, şimdilik ortak ilerlediğimiz bu yolculukta yanımda olmandan duyduğum mutluluğu dile getireceğim. Şöyle düşün... Kendi halinde yürüyüp gidiyorsun, derken bir an başını çeviriyorsun ve bir de bakıyorsun ki: Vay canına! Haha, şuna bak, ikimiz de aynı yöne gidiyormuşuz!"
+      },
+      {
+        "Title": "Yıldız Kilidi Hakkında",
+        "Context": "Yıldız Kilitlerinin tasarımları bir harika. Tam koleksiyonluk parçalar. Aslına bakarsan Ay Çarkları da fena sayılmaz, hep bir tane istemişimdir. Ama Önsezilere gelince... Şimdilik pek ilgimi çekmiyorlar maalesef."
+      },
+      {
+        "Title": "Paylaşılacak Bir Bilgi",
+        "Context": "Ha, bu eski püskü şeyi mi diyorsun? Çok güzel, değil mi? Aile yadigarı bu, biliyor musun? Benden çok daha yaşlı. Aslında tam müzelik, gerçek bir antika. Bazen sihirli bir değnek, bazen ders verirken işaret çubuğu, bazen de komutan copu niyetine kullanıyorum... Baksana, onu bir yerlerde banka kasasına kilitleyip toz toplamaya terk etmek yerine, bu ilerlemiş yaşına rağmen ona eski şanlı günlerini yeniden yaşatıyorum. Atalarım bunu bilseydi bana övgüler yağdırmak için sıraya girerlerdi!"
+      },
+      {
+        "Title": "İlginç Şeyler",
+        "Context": "Buz Perisi Çiçeği dondurucu soğuğa rağmen hayatta kalmayı başaran, hem çok güzel hem de çok dirençli bir çiçektir. Üstelik kendine has, çok belirgin bir deseni vardır. Gözlerimi hafifçe kısıp başımı sallayarak ona bakmaya bayılıyorum; tıpkı bir kaleydoskoptan bakıyormuşçasına rüya gibi bir etki yaratıyor. Gerçi bunu etrafta kimsecikler yokken, gözlerden uzak bir yerde yapmanı tavsiye ederim."
+      },
+      {
+        "Title": "Çariçe Hakkında: Sadakat",
+        "Context": "Majestelerine karşı çıkmaya yeltenen, kendini haklı sanan sayısız ahmak tutukladım. Fetih hakkındaki şu büyük nutukları var ya... Sırf gösterişten ibaret, altları bomboş. Ne bir isyan başlatacak stratejileri var ne de başladıkları işin sonunu getirecek kabiliyetleri. O sözde devrimcilerle kıyaslarsak... Hayır, lafımı geri alıyorum. Majesteleriyle aynı cümlede anılmayı bile hak etmiyorlar.\nDemek istediğim, Çariçe'ye hizmet etmek yalnızca bir Vila olarak görevim değil. Aynı zamanda Vesna olarak da kendi tercihim."
+      },
+      {
+        "Title": "Çariçe Hakkında: Şefkat",
+        "Context": "Majesteleri \"şefkat\" kelimesini her dile getirdiğinde sesinde buz gibi, iğneleyici bir ton olur. Bunun gerçek bir sevgi değil, Semavi İlkeler'in tanrılara dayattığı bir lanet olduğunu söyler. Ama ben buna kesinlikle katılmıyorum. Canavarlara karşı çıktığım bir seferden her döndüğümde, Majesteleri şahsi fermanının sonuna \"iyice dinlen\" notunu düşer. Ayrıca, Yaşamın Hakimi'nin gücü geri alındığında onca gizleme çabama rağmen ne kadar hayal kırıklığına uğradığımı sezdi ve sahipsiz kalan kısmı bana geri gönderdi...\nOnun konumundaki birinin bunları yapmaya hiçbir mecburiyeti yok. Haddimi aşmak gibi olmasın ama ben hep, bir tanrının gerçekten sevgi dolu olup olmadığına yalnızca kendi halkının karar verebileceğine inanmışımdır. Öyleyse benim kararım neden geçerli olmasın ki?"
+      },
+      {
+        "Title": "Danica Hakkında: Çocukluk",
+        "Context": "Ah, canım Bayan Danica... Onun o ciddi ve suratsız hallerine sakın aldanma. Küçükken birlikte yaramazlık peşinde az koşmadık... Bir keresinde Hocamızın maskesini daha yüzündeyken aşırmayı kafaya koymuştuk mesela. Yakayı ele vermeden önce omuzlarına kadar tırmanmayı bile başarmıştık! Tamam, pek beceremedik, cezamızı da çektik; saatlerce Donuk Göl'ün üstünde hazır olda dikilmek zorunda kaldık... Amaaan, neyse, konumuz bu değil! O çılgın fikir onun başının altından çıkmıştı! O da tam benim gibi baş belasının tekiydi. Şimdiyse bana sürekli öyle bir bakıyor ki, sanırsın o yetişkin, ben çocuğum. Ay lütfen yani. Yaşça büyük olan benim bir kere."
+      },
+      {
+        "Title": "Danica Hakkında: Tartışmalar",
+        "Context": "Elimizde sağlam bir istihbarat var. Görünüşe göre bazı şüpheliler yasa dışı işlerini yürütmek için \"Ağız Dalaşı Yarışmaları\" gibi tuhaf etkinlikleri paravan olarak kullanıyor. O gürültücü kalabalık da dikkat dağıtmak için biçilmiş kaftan... Hal böyle olunca, duruma el koymak da bana düşüyor.\nBu yüzden inisiyatif alıp Danica'nın adını yazdırdım. İstifini bile bozmadan insanları yerin dibine sokma ve tam can evinden vurma konusunda onun üstüne yoktur. Laf dalaşında kimse onun eline su dökemez, o yüzden bana kesinlikle epey zaman kazandıracak.\nSana güveniyorum Danica!"
+      },
+      {
+        "Title": "Yüzbaşı Hakkında",
+        "Context": "Onun arkadan görünüşü hep aklımda. Öyle sağlam ve güvenilirdi ki, tıpkı sarsılmaz bir dağ gibiydi. Bir gün o dağın yıkılacağı aklımın ucundan bile geçmezdi. Ya da en azından... Bunun bu kadar çabuk olacağını hiç düşünmemiştim. Hep şöyle derdi: \"Gerçek savaşta veda etmeye fırsatın olmaz.\" Bunu bana kanıtlamanın onca yolu varken... Her şey sona ermeden önce bana son bir şans verebilirdi elbet, ama vermedi...\nBu yaptığını asla affetmeyeceğim öğretmenim."
+      },
+      {
+        "Title": "Soytarı Hakkında",
+        "Context": "Bazı insanlar şu dünyada adımlarını neşeyle atar, çoğunun içi geleceğe dair umutla doludur. Ama o hiç öyle değil. Adımları hep yavaş ve ağır. Öğretmenimle onu hep birbirine benzetmişimdir. Sanırım sebebi ikisinin de akılalmaz bir hüznü bir maskenin ardına gizlemesi ve geçmişin bütün acısını omuzlarında taşımaları."
+      },
+      {
+        "Title": "Horoz Hakkında",
+        "Context": "Sayın Vali, Snezhnograd Vechesi'nde o kadar akıcı ve rahat konuşuyor ki, sanki hiç çaba harcamıyor. Bütün salonu resmen avucunun içine alıyor."
+      },
+      {
+        "Title": "Madrabaz Hakkında",
+        "Context": "Şimdi, bir Druzhna Komutanının maaşı düşük demiyorum ama hem koleksiyon yapmaya meraklıysan hem de etrafındakilere yemek ısmarlamayı seviyorsan cüzdanı biraz zorlayabiliyor... Ha, yok, hayır, hayır, o anlamda demedim! Daha sözümü bitirmedim. Kendimi bildim bileli ailemin birikimlerini Kuzey Bankası yönetiyor. Bay Pantalone sağ olsun, bileşik getiriler sayesinde servetimiz epey katlandı. Anlayacağın tuzum kuru. O yüzden bir dahaki sefere dışarı çıktığımızda hesap yine benden, hiç çekinmene falan gerek yok!"
+      },
+      {
+        "Title": "Kukla Hakkında",
+        "Context": "Sandrone tam anlamıyla bir hanımefendi. Sözleri oldukça sert olabiliyor ama mantığı o kadar kusursuz ki ona tek bir laf bile edemiyorsun... Hehe, bu durum beni cidden büyülüyor. Bunu nasıl yaptığını kesin öğrenmem lazım."
+      },
+      {
+        "Title": "Mitya Hakkında",
+        "Context": "Mitya haylazlık peşindeyken sık sık bana katılır. İkide bir Cephanelikten sıvışıyor, üçümüz acayip eğleniyoruz! Niye mi \"üç\" diyorum? E çünkü ben, Mitya, bir de onun o akıllı mı akıllı atkısı var."
+      },
+      {
+        "Title": "Vodyanitsa Hakkında",
+        "Context": "Bayan Vodyanitsa'nın şarkılarının hepsi tek kelimeyle harika. Canlı dinlemeye bayılıyorum. Tıpkı diğer seyirciler gibi benim de bazen içim neşeyle doluyor, bazen de gözyaşlarımı tutamıyorum. Zaman zaman gösteri bittikten sonra kimse bir yere ayrılmıyor ve bir anda hep bir ağızdan şarkı söylemeye başlıyorlar. İşin komiği, tam da o sırada benim elimde tesadüfen bir orkestra şefi batonu oluveriyor. Daha da komiği, birkaç defa Bayan Vodyanitsa'nın sahne kıyafetlerini çıkarıp bir şapka taktıktan sonra sessizce kalabalığa karıştığını ve kalabalığa bir armoniyle eşlik ettiğini gördüm."
+      },
+      {
+        "Title": "Odette Hakkında",
+        "Context": "Ne yalan söyleyeyim, saray toplantılarında Bayan Odette'i ne zaman görsem ona çaktırmadan bakmaktan kendimi alamıyorum. Sonuçta bir Fatui üyesi olmasının yanında, onu görmezden gelmeyi zorlaştıran çok özel bir ikinci kimliği de var... Hımm? Korolevskiy Topluluğunun baş balerini rolünden bahsediyorum tabii ki. Sen ne demek istediğimi sandın ki?"
+      },
+      {
+        "Title": "Alyosha Hakkında",
+        "Context": "Anlıyorum, gerçekten anlıyorum. Yani, hangi küçük yavru köpek \"uğuldayan\" rüzgarların arasında güzel bir kelebeği kovalama dürtüsüne karşı koyabilir ki? Hımm... Belki de Danica'nın kahvaltısını çalıp Tugarin'e yediririm, sonra da beni gördüğü an üzerime saldırmaması için Alyosha'dan benim hakkımda birkaç iyi laf etmesini isterim..."
+      },
+      {
+        "Title": "Vesna Hakkında Daha Fazlası: I",
+        "Context": "Hehe, pekala, beni nasıl tanımak istersin bakalım? Sadece kuru kuru sohbet etmeyeceğiz herhalde? Öyle hiç tadı çıkmaz ki... Hımm... Onun yerine bir el \"Doğruluk Mu Cesaret Mi\" oynasak olur mu?"
+      },
+      {
+        "Title": "Vesna Hakkında Daha Fazlası: II",
+        "Context": "Biz Druzhnalar, Çariçe'nin şahsi muhafızlarıyız ve doğrudan Majestelerine bağlıyız. Görevlerimiz sadece canavar tehditlerini bertaraf edip savaşa girmekle sınırlı kalmaz, askeri meselelerin çok daha ötesine uzanır. Majestelerinin iktidarı ve onuru söz konusu olduğunda, çağrısına koşulsuz şartsız uymak ve yoluna çıkan tüm engelleri ortadan kaldırmak bizim boynumuzun borcudur.\nAncak Semavi İlkeler'e karşı yürütülen büyük girişim devam ederken Majesteleri haliyle her şeye yetişmekte biraz zorlanıyor. Bu yüzden sular durulana kadar eğlenceli işlerde... Öhöm, yani kurdele kesme törenleri ve ziyafetlere onun adına katılmak gibi daha ufak tefek meselelerde de kendisine seve seve yardım ederim."
+      },
+      {
+        "Title": "Vesna Hakkında Daha Fazlası: III",
+        "Context": "Benim her telden parçanın olduğu bir hazine koleksiyonum var. Mücevherler, kadim kitaplar, yağlı boya tabloları... Beni mutlu eden ne varsa bu koleksiyona girmeyi hak eder. Üstelik bir şeyi gözüme kestirdiğim an ona sahip olmalıyım, bir saniye bile kaybedemem! Bir söz vardır, bilir misin: \"Kaşığın kıymeti yemek vaktinde belli olur.\" Bir şeyi elde etmek için o ilk heyecan geçene kadar beklersen, o eşya tüm cazibesini yitirir. Yani bir şeyi şimdi istiyorsam hemen benim olmalı."
+      },
+      {
+        "Title": "Vesna Hakkında Daha Fazlası: IV",
+        "Context": "Çar Monomakh'ın fedakarlığının ardından Snezhnaya büyük bir çalkantı dönemi geçirdi. Atalarım Çariçe'nin yanında dimdik durdu. Peki ben bugün burada onların gösterdiği yolda yürürken, gerçekten de bu mirasın hakkını verecek kuvvete sahip miyim? Hehe, aklındaki soruyu dile getirdim, değil mi? Pekala, şimdi de benim aklımdaki cevabı söyleme sırası sende. Hadi bakalım!"
+      },
+      {
+        "Title": "Vesna Hakkında Daha Fazlası: V",
+        "Context": "Ölümün Hakimi'ne karşı vereceğimiz savaşın arifesinde, pek çok insandan \"Yaşam Mühürleri\" çıkardım. Herkesin \"güzel bir anı\" tanımı bambaşkadır. Kimisi ailesiyle şömine başında oturup havadan sudan sohbet etmeyi kıymetli bulur. Kimisi tek başına bir tren penceresinin kenarında oturup, kuzey ışıklarının gece gökyüzünde sessizce süzülüşünü izlemeyi sevgiyle anımsar. Kimisi de sadece kızağını çıkarıp buzda balık tutmaktan memnundur...\nO anılar tıpkı ışıltılı baloncuklar gibi, öyle bir coşku ve canlılık taşıyorlar ki içinden sadece şunu haykırmak geliyor: \"Ah, yaşamak ne güzel!\"\nOysa o sözde semavi varlıklar, tek kelime açıklama bile yapmadan o baloncukları yok edebiliyorlar. Sahi, onlara bu hakkı kim veriyor?\nO andan itibaren Semavi İlkeler'e karşı savaşmak, benim için yalnızca Majestelerine yardım etmekten ibaret olmaktan çıkmıştı artık."
+      },
+      {
+        "Title": "Vesna'nın Hobileri",
+        "Context": "Ben daha ufacıkken ailem beni resim, dans ve şan derslerine yazdırdı. Biraz büyüyünce de eskrime, biniciliğe falan başladım, hehe... Son zamanlarda ise operaya, tiyatroya ve şu ufak tefek hazinelerimi biriktirmeye merak sardım... Kısacası benim lügatimde \"sıkılmak\" diye bir kelime yok."
+      },
+      {
+        "Title": "Vesna'nın Sorunları",
+        "Context": "Danica'nın saçmalıklarına kulak asma sen, şoförlüğümde hiçbir sıkıntı yok. Araçla bütünleşiyorum ben! Hele şu sürüş yasağım bir kalksın, seninle turlamaya çıkacağız!"
+      },
+      {
+        "Title": "En Sevdiği Yemek",
+        "Context": "Dışarısı bu kadar soğukken herkesi toplayıp sıcacık bir yahni yemek gibisi yok! Bak ne diyeceğim; ev sahibi ben olayım, sen ve Paimon da gelirken yanınızda yemeklik malzemeler getirin. Ne isterseniz kabulüm!"
+      },
+      {
+        "Title": "En Sevmediği Yemek",
+        "Context": "Hehe! Bütün o gıcık sebzeleri çaktırmadan Danica'nın tabağına iteliyorum! Üff... Ama dönüp dolaşıp yine benim önüme geliyorlar..."
+      },
+      {
+        "Title": "Hediye Alma: I",
+        "Context": "Oo, hiç hayır demem! Her bir lokmanın tadını çıkaracağım."
+      },
+      {
+        "Title": "Hediye Alma: II",
+        "Context": "Mmm... Tam bir aşçılık harikası olmuş... Galiba bir lokma daha alacağım."
+      },
+      {
+        "Title": "Hediye Alma: III",
+        "Context": "Yaa... Özür dilerim, ben çoktan yemek yedim! Ama bunları Danica için paket yapayım."
+      },
+      {
+        "Title": "Doğum Günü",
+        "Context": "Ding dong! İşte o an geldi çattı! Dün ağzımdan kaçırmamak için kendimi nasıl zor tuttum, tahmin bile edemezsin... Ama mecburdum, çünkü erkenden söylemek uğursuzluk getirir; bir kar fırtınasına kapılıp gidebilirsin! Artık nihayet söyleyebilirim: Nice senelere canım dostum. Dilerim tıpkı bir huş ağacı gibi kuvvetli durur, rüzgara ve kara asla boyun eğmezsin.\nTamamdır, bu faslı hallettik. Şimdi adet yerini bulsun diye doğum günü yıldızımızın kulağını şöyle hafifçe birkaç kez çekmem lazım..."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Giriş",
+        "Context": "Acemi birliğindeki ilk dersimiz şuydu: Majestelerinin yanında muhafızlık yapmayı ancak rüzgara ve kara boyun eğmeyip dimdik ayakta durabilenler hak eder."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Gelişme",
+        "Context": "Acemi birliğindeki ikinci ders: Kılıç tuttuğun kol asla titrememelidir."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Zirve",
+        "Context": "Acemi birliğindeki üçüncü ders: Düşmanın karşısında ağlamak yok."
+      },
+      {
+        "Title": "Yükseltme Hakkında: Sonuç",
+        "Context": "Sevgili dostum, bana acemi birliğinde asla öğrenilemeyecek bir şey öğrettin: Kar fırtınası dindiğinde, kılıcımla koruduğum insanlara sarılabilmek için kalbimde yumuşak bir nokta bırakmayı."
+      },
+      {
+        "Title": "Element Becerisi: I",
+        "Context": "Toplanın!"
+      },
+      {
+        "Title": "Element Becerisi: II",
+        "Context": "Selam dur."
+      },
+      {
+        "Title": "Element Becerisi: III",
+        "Context": "Kaldırın kılıçları!"
+      },
+      {
+        "Title": "Element Becerisi: IV",
+        "Context": "Geliyorum!"
+      },
+      {
+        "Title": "Element Becerisi: V",
+        "Context": "Bunun daha devamı var."
+      },
+      {
+        "Title": "Element Becerisi: VI",
+        "Context": "Sevgiler."
+      },
+      {
+        "Title": "Element Patlaması: I",
+        "Context": "Haha, pekala. Hadi oynayalım!"
+      },
+      {
+        "Title": "Element Patlaması: II",
+        "Context": "Hedefimdesin, kaçışın yok!"
+      },
+      {
+        "Title": "Element Patlaması: III",
+        "Context": "Çariçe için!"
+      },
+      {
+        "Title": "Hazine Sandığı Açma: I",
+        "Context": "Hoho, görkemli koleksiyonum için bir parça daha!"
+      },
+      {
+        "Title": "Hazine Sandığı Açma: II",
+        "Context": "Biri sana, biri bana, biri Majestelerine, bir tane daha bana! Danica'ya yok, hehe!"
+      },
+      {
+        "Title": "Hazine Sandığı Açma: III",
+        "Context": "Vay, şuna bak hele!"
+      },
+      {
+        "Title": "Düşük Can: I",
+        "Context": "Bir komutan savaş alanını terk etmez."
+      },
+      {
+        "Title": "Düşük Can: II",
+        "Context": "Merak etme, sonrakilerden kaçarım..."
+      },
+      {
+        "Title": "Düşük Can: III",
+        "Context": "Öhöm... Geçici bir aksilik sadece..."
+      },
+      {
+        "Title": "Düşük Canlı Takım Arkadaşı: I",
+        "Context": "Geri çekilin. Buradan sonrasını Druzhna halledecek."
+      },
+      {
+        "Title": "Düşük Canlı Takım Arkadaşı: II",
+        "Context": "Kendini zorlama sevgili dostum."
+      },
+      {
+        "Title": "Yere Serilme: I",
+        "Context": "Kanatlarım... Kesildi..."
+      },
+      {
+        "Title": "Yere Serilme: II",
+        "Context": "Çok yaşa... Çariçe..."
+      },
+      {
+        "Title": "Yere Serilme: III",
+        "Context": "Canım yanmıyor... Ama kabullenemiyorum..."
+      },
+      {
+        "Title": "Hafif Darbe Alma: I",
+        "Context": "Pardon?"
+      },
+      {
+        "Title": "Hafif Darbe Alma: II",
+        "Context": "Ha?"
+      },
+      {
+        "Title": "Ağır Darbe Alma: I",
+        "Context": "Bu ne cüret!"
+      },
+      {
+        "Title": "Ağır Darbe Alma: II",
+        "Context": "Ne kadar kabasın!"
+      },
+      {
+        "Title": "Gruba Katılma: I",
+        "Context": "Devriye zamanı!"
+      },
+      {
+        "Title": "Gruba Katılma: II",
+        "Context": "Umarım eğlenceli bir şeyler planlamışsındır!"
+      },
+      {
+        "Title": "Gruba Katılma: III",
+        "Context": "Hizmetinizdeyim komutanım..."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Karakter Ayrıntıları",
+        "Context": "Snezhnaya'da \"Strivozha\" klan adının ayrı bir önemi vardır.\nSnezhnaya'nın o çalkantılı ilk günlerinden çok daha öncesine uzanan bu kadim Vila soyu, yıllar boyunca nice fırtınalar atlatmış ve sayısız onur kazanmıştır.\nVesna bu ismin hakkını fazlasıyla verir. Işıl ışıl ve zarif haliyle, hiç çaba harcamadan doğal bir asalet ve dingin bir duruş sergiler... Eh, en azından çoğu zaman.\nTam bir özgür ruh olduğundan, toplumun alışılagelmiş görgü kurallarına hapsolmayı reddeder. Hal böyle olunca da sık sık şaşırtıcı tuhaflıklara imza atar.\nBazen treni öylesine pervasız bir hızla sürer ki, arkasında yalnızca bulanık bir iz, bir de yolun sonunda onu bekleyen azar kalır. Kimi zamansa gözüne kestirdiği ekşi bir limon dilimini, bir meslektaşının tabağına hiç çaktırmadan; büyük bir dikkat, özen ve titizlikle bırakıverir...\nAma kimse Vesna'nın erdemini veya onurunu sorgulamaya kalkmaz, çünkü bu değerler yüzeysel adetler ve göstermelik tavırlardan ziyade doğrudan onun kılıcından gelir.\nDruzhna bizzat Çariçe'nin kuşandığı kılıçtır, Vesna ise o kılıcın en keskin ucu."
+      },
+      {
+        "Title": "Karakter Hikayesi 1",
+        "Context": "Şubat ayının başlarıydı ve kışın dondurucu hükmü henüz kırılmamıştı. Snezhnaya'nın eteklerinde, Strivozha Hanesine ait gözlerden ırak kır köşkü derin bir sessizliğe gömülmüştü.\nGrandüşes Benigna, hamileliğinin dokuz ayını burada huzurlu bir inzivaya çekilerek geçirmişti. Rahat, dertsiz tasasız bir hayatı vardı. Günleri kendi elleriyle büyüttüğü çiçekler ve yeşillikler arasında uzun saatler geçirmekten ibaretti.\nPek az bahçe böylesine tuhaf ve eşine az rastlanır bitkilere ev sahipliği yapardı. İçinde diyarın dört bir yanında aranan nadir türler yer alıyordu: yaz düğünçiçekleri, beyaz yemişler, beş yapraklı leylaklar, meyvesiz mürver ağaçları...\nBir de Strivozha Hanesinin kendi parfümcüleri ve eczacılarının elinden çıkma o ilginç türler vardı: dereotuyla kişnişin, safran çiğdemiyle Snezhnaya kış boğanotunun melezleri...\nBazı kadim türlerin Azize Strivozha döneminden bugüne dek varlığını sürdürdüğü söylenirdi. Şimdilerde Grandüşesin tüm dikkatini, işte günümüze ulaşmayı başaran bu türlerden biri çekiyordu: Alev kırmızısı bir eğrelti otu.\nKendisi daha oranın korucusu olmadan çok öncesinden beri bahçedeydi ve aradan geçen onca yıl boyunca mevsimlerin eski ritminden bir kez olsun şaşmamıştı.\nSonbaharda solar, bütün bir kışı uykuda geçirirdi. İlkbahar yüzünü gösterdiğinde tıpkı bir kemanın salyangozu gibi sımsıkı kıvrılmış narin, kızıl filizleri boy gösterir ve yaşam dolu yepyeni bir mevsimi müjdelerdi.\nFakat o yıl kış henüz tam olarak çekilmemişti; yine de eğrelti otunun sapları şimdiden kalınlaşıyor, mevsime tamamen yabancı bir canlılıkla gürleşip dolgunlaşıyordu.\nHemen dibinde, kalp şeklinde minicik, yarı saydam pullarla bezenmiş pembemsi kırmızı, incecik tüyler toprağın üzerine yayılıyordu.\nİçlerindeki özsuyun, tıpkı yeni doğmuş bir kalbin ilk kan atışı gibi narin damarlarda usul usul akışı görülebiliyordu. Bu, eğrelti otunun yeni yapraklarının ilk haliydi.\nVilaların doğayla her zaman içgüdüsel bir bağı olmuştu ve Grandüşes Benigna, gördüğü şeyin öyle sıradan bir büyüme olmadığını bir bakışta anladı. Zira eğrelti otunun doğal döngüsü tam bir ay erkene kaymıştı.\nAyağa kalkıp bahçenin diğer kısımlarını incelemeye gitti ancak nereye adım atarsa atsın, çevresindeki bitkilerin anında aynı erken büyüme belirtilerini göstermeye başladığını fark etti.\nTam babasına ve kocasına haber verecekti ki; belki hamileliğin verdiği ağırlıktan, ya da belki de göklerde yazılı, uzun zamandır vaktini bekleyen bir kader yüzünden, erimemiş bir buz parçasına bastı.\nŞaşkınlık içinde çığlık atarak yere düştü.\nBu düşüş, bahçeye o nadide kızıl eğrelti otuna mal oldu. Ayrıca Benigna'nın çocuğunun da o erken çiçeklenen filizlere özenmesine, beklenen tarihten tam bir ay önce dünyaya gelmesine yol açtı.\nNeyse ki ufaklık beklenenin aksine gayet sağlıklıydı, annesi de yalnızca birkaç hafta içinde tamamen toparlandı.\nOysa o yıl erkenden bitiveren, kışın ta kendisiydi. Huş ağaçları mevsimi gelmeden tomurcuklandı, çimenler donmuş toprağı delip geçerek o uzun soğuklara vakitsizce son verdi.\nHikaye en sonunda Majesteleri Çariçe'nin kulağına kadar gitti; o da Grandüşesi ve yeni doğan olağanüstü kızını ziyaret etmek için bizzat Vila malikanesine geldi.\nDerler ki, Çariçe çocuğu o kadar çok sevmiş ki adını bizzat kendisi koymuş.\nVesna... Kendisinin yanı başında yürüyen bahar."
+      },
+      {
+        "Title": "Karakter Hikayesi 2",
+        "Context": "Vesna küçükken annesi onu her gece sıcacık, kısa hikayelerle uyuturdu.\nBu hikayelerin hepsi bahçesindeki çiçeklerden ve otlardan uydurulmuştu ve çoğu da aşağı yukarı aynı şekilde başlardı:\n\"Vesna, benim cesur, minik kartopu çiçeğim...\"\n\"Vesna, şanslı küçük leylağım benim...\"\n\"Vesna, benim akıllı minik peygamber çiçeğim...\"\nHer gece annesinin şefkatli sözleriyle sarmalanan Vesna, kendini bütünüyle güvende ve sıcacık hissederdi.\nOnca eşsiz sevgi sözcüğü arasında, Vesna'nın diğerlerinden çok daha net hatırladığı bir tanesi vardı:\n\"Vesna, benim minik, ölümsüz alev eğreltim...\"\nO eğrelti otunu çok iyi biliyordu. Dünyanın hiçbir yerinde eşi benzeri yoktu. Strivozha Hanesinin bahçelerinden başka hiçbir yerde de bulunmazdı.\nBu, atası olan Veneter Vilalarının Hanımı, \"Saf Olan\" Vaselisa von Strivozha'nın bizzat kendi elleriyle yetiştirdiği bir eğrelti otuydu.\nBinlerce yıl önce, eğrelti otunun yapraklarından hazırladığı bir parfümü İmparator Monomakh'a sunmuş ve nesiller boyu sürecek bir üne kavuşmuştu.\nZamanla Azize Strivozha ve Vilaların saflığı, iyiliği, içtenliği ve ölümsüzlüğü bu eğrelti otunda vücut buldu.\nNe var ki efsanevi eğrelti otu, Vesna'nın dünyaya geldiği kazada parçalanmıştı ve o günden sonra bir daha da hiç yeşermedi.\nTıpkı ölümsüz Azize Strivozha'nın çok uzun zaman önce sadık soyunu geride bırakması gibi, bir zamanların ölümsüz yaşamı da bahçeyi terk etmişti.\nGenç Vesna bir gerçeği keşfettiğini düşünüyordu: Bu dünyadaki hiçbir şey gerçekten kalıcı değildi. Er ya da geç, her şey bir gün gitmek zorundaydı.\nBunun üzerine başını kaldırıp kararlılıkla parlayan gözleriyle annesine baktı ve şöyle dedi,\n\"Anne, ne demek istediğini anlıyorum. Hiçbir şey sonsuza kadar sürmez. Bahar bile bir gün gitmek zorunda.\"\n\"Yani bahar geldiğinde baharın tadını çıkarmalı, yaz geldiğinde de yazı gördüğümüze mutlu olmalıyız. Sonbahar ve kışın da öyle.\"\n\"Tek yapmamız gereken hiçbir günümüzü boşa geçirmemek. Demek istediğin bu, değil mi?\"\nBenigna şaşkınlıkla Vesna'ya bakakaldı ama çok geçmeden dudaklarının kenarına bir gülümseme yerleşti.\n\"Akıllı kızım benim. Bunu benden bile iyi düşünmüşsün. Ve evet, tabii ki haklısın.\"\n\"Ama biraz daha düşün bakalım. Şu dünyada sonsuza dek sürecek bir şey olmalı elbet...\"\nVesna'nın gözleri kocaman açıldı. \"Neymiş o? Neymiş?\"\nBenigna onu kollarına çekti, usulca eğilip narin yanağına yumuşacık bir öpücük kondurdu.\n\"Ah, benim şapşal kızım. Sana olan sevgim sonsuza kadar sürecek tabii ki!\""
+      },
+      {
+        "Title": "Karakter Hikayesi 3",
+        "Context": "Vila büyüklerinin gözünde, ilkbahar ve kışın lütuflarıyla doğan Vesna daha en başından bir efsanenin tüm niteliklerini taşıyordu.\nYine de, kaderinde büyük işler başarmak olduğuna dair onca beklentiye rağmen büyüme hızı onları hayrete düşürmekten hiç geri kalmıyordu.\nDaha bir yaşındayken, kendi yaşıtı diğer Vilalar etrafta emekleyip agularken, Vesna çoktan bahçedeki her çiçeğin ve bitkinin adını sayabiliyordu.\nİki yaşındayken, yaşıtlarının pullu kanatlarının kitinsi uçları daha yeni yeni kendini gösterirken, o çoktan kendi kanatlarıyla rüzgarda süzülüyor, hiç yere inmeden köşkün etrafında onlarca kez turluyordu.\nVe üç yaşına geldiğinde, diğer genç Vilalar çiçeklerle bitkileri harmanlayıp koku ve iksir yapma sanatını daha yeni yeni öğrenirken, Vesna'nın kendi eserleri çoktan saray hanımlarının makyaj masalarının gözdesi olmuştu bile.\nO küçücük bedeni, sıradanlığın çok ötesinde bir hayat enerjisiyle dolup taşıyordu. Sanki yıllar önce onunla birlikte gelen bahar aslında hiç gitmemiş de kızın yüzünde beliren her ışıl ışıl gülümsemede yaşamaya devam ediyormuş gibiydi.\nVesna'nın gülüşlerinden keyif alan onca yaşlı arasında, kızın aslında nasıl bir güç sergiliyor olabileceğini yalnızca bir kişi gerçekten anlıyordu.\nO kişi ise Grandüşes Benigna'nın babası, Vesna'nın dedesi ve Vilaların tahtındaki Grandük Pyotr idi.\nVesna beş yaşına bastığı gece, kutlamalar sona erdikten sonra Grandük Pyotr küçük torununu çalışma odasına çağırdı ve ona son derece mühim bir sırrı emanet etti.\nPaylaştığı, Veneter'in Gümüş Sarayından bile daha eskiye dayanan bir tarihti; Vilaların kökenlerine, Hyperborea çağına kadar uzanıyordu.\nDerler ki o uzak çağlarda Meleklerin Meleği, adı anılmaması gereken birinden bir güç parçası çalmış. Çağlar boyu elden ele dolaşan bu parça, en sonunda Vila soyuna karışıp sırra kadem basmış.\nVesna'nın doğumuyla birlikte ortaya çıkan tuhaf işaretler, yani baharın vaktinden önce gelişi ve şaşırtıcı büyüme hızı hep aynı gerçeği gösteriyordu: O kadim güç onun içinde uyanmıştı.\nO gücün adı ise \"Yaşam\"dı.\nO zamanlar Vesna henüz o kelimenin tüm ağırlığını kavrayamayacak kadar küçüktü. Yine de, dedesinin sonrasında söyledikleri içine işlemişti.\n\"Herkes bilir ki biz Vilalar samimiyeti, onuru, iyiliği ve her şeyden önemlisi de Majesteleri Çariçe'ye olan sarsılmaz sadakatimizi temsil ederiz.\"\n\"Yine de, ta beş yüz yıl önceki Grandüşes Gluvasha zamanından bugüne dek... Biz Vilalar, Majestelerinin güvenini bir kez olsun gerçekten kazanamadık.\"\nBu sözleri kendi dedesinden başkası söylemiş olsaydı, Vesna asla inanmazdı.\nAma o daha nedenini bile soramadan, dedesi onun gencecik omuzlarına kendi yaşındaki hiçbir çocuğun taşımak zorunda bırakılmaması gereken bir yük bindirdi.\n\"Vesna, halkımızın gururu. Son beş yüz yıldır ailemizde, kanımızda taşıdığımız gücü uyandıracak kadar şanslı olan tek kişi sensin.\"\n\"Ve yine aynı beş yüz yıl içinde, bizzat Majesteleri tarafından bahşedilen bir isimle onurlandırılan tek kişi sensin.\"\n\"Belki de Strivozha Hanesinin önümüzdeki beş yüzyıllık kaderi de artık senin ellerinde.\""
+      },
+      {
+        "Title": "Karakter Hikayesi 4",
+        "Context": "Beş yaşından sonra Vesna'yı bir daha okulda gören olmadı. Dedesi bunun yerine köşke, her biri onun eğitiminin belli bir kısmından sorumlu olacak çeşitli alanlardan ustalar getirdi.\nÇok geçmeden günleri, sabahtan akşama kadar en iyilere layık derslerle dolup taştı. Artık ne dışarı kaçıp arkadaşlarıyla oynayacak vakti kalmıştı ne de evinin bahçesinde gönlünce dolaşacak fırsatı.\nDedesi, annesiyle çıktığı kır gezilerini bile sıkı sıkıya kısıtlamıştı. Ancak hepsinin bir gerekçesi vardı; ne de olsa Vesna, Strivozha Hanesinin yegane umuduydu.\nYavaş yavaş, zamanı ona ait olmaktan çıktı. Vakti azaldıkça, bir zamanlar yüzünden hiç silinmeyecekmiş gibi duran o bahar kadar aydınlık gülümsemesi de onunla birlikte solup gitti.\nVesna, Çariçe'nin Vilaya karşı duyduğu güvensizlik gerçekten var mıydı, yoksa bu sadece yaşlanan dedesinin kendi kendini inandırdığı bir şey miydi, hiçbir zaman tam olarak karar veremiyordu.\nBir beş yıl daha aşağı yukarı aynı şekilde geçip gitti, ta ki fırtınalı bir kış gecesi çıkıp gelen çok özel bir eğitmen her şeyi değiştirene kadar.\nDedesinin anlattığına göre, bu özel öğretmeni ayarlamak hiç de kolay olmamıştı. Onu gelmeye ikna edebilmek için tüm bağlantılarını seferber etmiş, hiçbir masraftan da kaçınmamıştı.\nO gece Vesna çalışma odasında kaskatı oturmuş, karnında düğümlenen bir sıkıntıyla bekliyordu. Çok geçmeden kapı usulca aralandı ve ufak tefek bir ziyaretçi sessizce içeri süzüldü.\nZiyaretçi karlı paltosunu omuzlarından sıyırınca, kapüşonunun gölgesine gizlenen yüzü ortaya çıktı. Vesna onu tanıdığı an dudaklarından ufak bir şaşkınlık nidası kaçıverdi.\nGizemli yeni eğitmeni; Snezhnograd Valisi, Snezhnograd Vechesi Başkanı ve Fatui Habercilerinin Beşincisi \"Horoz\" Pulcinella'nın ta kendisiydi.\nSnezhnaya'nın en yüksek rütbeli başyöneticisi odaya şöyle bir göz gezdirdi, ardından bizzat gidip köşeden neredeyse kendi boyunda bir sandalye getirdi. Sandalyeyi Vesna'nın önüne yerleştirip oturdu ve sevecen bir ses tonuyla konuşmaya başladı.\n\"İyi akşamlar sevgili Bayan Eğrelti. Annenizle önceden konuştuğum için beni mazur görün lütfen. Bu sevimli lakabın sizi rahatlatabileceğini söylemişti. Umarım işe yaramıştır.\"\nAnnesinin adının geçmesi ve o tanıdık eski lakap, Vesna'nın omuzlarındaki gerginliği kesinlikle hafifletmişti, \"Evet Vali Pulcinella. Şimdi çok daha iyiyim.\"\nHoroz gülümseyerek onaylarcasına başını salladı, \"Buna sevindim. Böyle bir annen olduğu için çok şanslısın. Ama deden... Grandük Pyotr pek de insanın içini rahatlatan biri sayılmaz, öyle değil mi?\"\nVesna'nın içini yine hafif bir huzursuzluk kapladı. Valinin bu soruyla ne demek istediğini kestiremiyor, düşünmeden bir cevap vermeye kesinlikle cesaret edemiyordu.\nNeyse ki Horoz elini kaldırıp onu cevap verme derdinden kurtardı: \"Deden, beni öğretmenin yapabilmek için ne kadar zahmete girdiğinden bahsetmiştir herhalde. Peki sen bu duruma ne diyorsun?\"\nBu soru kulağa gayet masum geliyordu. Vesna cevap vermeden önce bir an düşündü, \"Dedemin böyle bir şeyi ayarlamaya gerçekten gücü yetseydi, çoktan gelmiş olurdunuz Vali Pulcinella.\"\nHoroz kocaman gülümsedi ve düşünceli düşünceli bıyığını burdu, \"Görünüşe bakılırsa böylesine zeki bir genç hanımla tanışmak için kesinlikle daha önce gelmeliymişim. Üstelik çok da haklısınız. İşin aslı, buraya Majestelerinin emriyle geldim.\"\nVesna'nın cevap vermesini beklemeden ifadesi biraz daha ciddileşti, \"Majesteleri beni aklındaki şüphelerden birini gidermem için gönderdi. Deden Grandük Pyotr'un korktuğu kriz, bir hayal ürününden ibaret değil.\"\n\"Majestelerinin gözünde, Strivozha Hanesi hiçbir zaman şüphelerden tamamen arınmış değil. Snezhnograd Vechesi'ndeki onca koltuk arasından ailenize sadece çok azı ayrıldı, tüccar sınıfına verilenlerden bile daha azı.\"\nGerçek bu kadar apaçık gözlerinin önündeyken bile Vesna hâlâ bunu kabullenmeye yanaşmıyordu. \"Ama ailemizin böylesine köklü ve fevkalade bir geçmişi varken... Neden?\"\nHoroz pencereye doğru sakin bir bakış attı. \"Öyleyse annen sana kızıl eğrelti otunun hikayesini çoktan anlatmıştır sanırım...\"\n\" Vilalar, bitkileri kokulara ve iksirlere dönüştürmekte oldum olası yeteneklidir... Fakat koku ve ilacın bir kardeşi olsaydı, adının zehir olacağını biliyor muydun?\"\n\"Azize Strivozha, bu eğrelti otunu parfüm yapmaktan daha sinsi bir amaçla kullanmamış olabilir ama beş yüz yıl önce Strivozha Hanesinden Gluvasha, otun yapraklarını bal şarabında demleyip eski Grandük Photius'u kendi elleriyle zehirlemişti.\"\n\"Çariçe'ye karşı ayaklanan isyancıların safına açıkça geçti. Önce Zapolyarny Sarayı'ndan gelen bir elçiyi topraklarından kovdu. Sonra da, daha Majestelerinin buyruğunu bile beklemeden kendi adamlarını toplamaya koyuldu...\"\n\"Hal böyle olunca çeşitli Fey klanlarının isyancıları, birbirlerine karşı ne kadar temkinli ve şüpheci olsalar da sırlarını Vilaya gönül rahatlığıyla emanet ediyor, plan yapma işini de ona bırakıyorlardı.\"\n\"En nihayetinde, o istihbaratın her bir kırıntısını Majestelerine teslim edip isyanı tek hamlede parçalamasına yardım etti. Hatta görünüşte onuruna leke bile sürdürmeden, kendi rızasıyla topraklarını teslim edip makamından çekildi. Ama bir an için düşün Vesna... Ya Majesteleri o isyankar Volkodlak lordlarını çabucak alt edemeseydi? Sence o zaman Strivozha Hanesinin adamları kılıçlarını kime doğrultacaktı?\"\n\"İronik, değil mi? Vilalar arasında saflığın, içtenliğin ve iyiliğin sembolü olan eğrelti otu, aslında gün yüzü görmemesi gereken entrikalarla dolu bir geçmişi gizliyor.\"\n\"Atanın niyetlerini sana tek tek açıklamama gerek yok. Senin kadar zeki bir kızın, taşları kendi başına yerine oturtmakta pek zorlanacağını sanmıyorum.\"\n\"Üstelik Gluvasha da pek istisna sayılmazdı. Vila tarihi; her tarafa oynayan, yüzüne tatlı tatlı gülümserken bir eli de hep bıçağında olanlarla doludur. İşte bu yüzden, Vesna, Strivozha Hanesi hiçbir zaman Majestelerinin güvenini tam anlamıyla kazanamadı.\"\n...\nVesna, öğrendiği bu gerçek karşısında öylesine afallamıştı ki tek kelime dahi edemeden sandalyesinde donakaldı. Belediye Başkanı çoktan gitmişti ama ayrılmadan önce ona bir söz vermişti.\nO gece Vesna'nın sorularından birini cevaplamıştı. Üç gün sonra geri dönecek ve bu kez kendi sorusuna bir cevap bekleyecekti."
+      },
+      {
+        "Title": "Karakter Hikayesi 5",
+        "Context": "O üç gün Vesna için çok huzursuz geçti.\nAilesinin, bir zamanlar ona sarsılmaz bir güven veren o şanlı tarihi gözlerinin önünde yıkılmaya başlamıştı. O daha bu acı gerçeği tam anlamıyla sindiremeden zihnine peş peşe sorular üşüştü.\nÇariçe neden ona isim vermeyi seçmişti? Kutsal otoritenin o parçası neden onun içinde uyanmıştı?\nBizzat Vali sırf onun şüphelerini gidermek için neden onca yol tepip gelmişti? Peki Çariçe'nin onu göndermekteki asıl amacı neydi?\nÜç gün sonra hangi soruya cevap verecekti? Peki vereceği cevap, onların kabul edebileceği türden mi olacaktı?\nDaha da can sıkıcı olan, ailesinin onca yıl boyunca binbir özenle allayıp pulladığı geçmişti. Çariçe tek bir kez bile gerçeği gün yüzüne çıkarmayı uygun görmemişti. Oysa şimdi, her şeyi Vesna'ya onu afallatan bir rahatlıkla anlatıvermişti...\nYoksa dedesine, hatta belki de Strivozha Hanesine karşı bir şeyler mi planlıyordu? Eğer öyleyse, Vesna ailesiyle Çariçe arasında bir seçim yapmak zorunda mı kalacaktı?\nVesna bu düşüncenin üstüne daha fazla gitmeye cesaret edemedi. Bu şüphelerini anne babasına ya da dedesine açmaya da bir türlü dili varmıyordu. Fakat işler gerçekten de korktuğu noktaya gelirse, kalbinin sessiz bir köşesinde seçimini çoktan yapmıştı.\nAradan üç gün geçti ve ikili, sözleştikleri gibi çalışma odasında tekrar buluştu. Vesna masada kaskatı oturuyor, yüzündeki o savaşa hazır ifadeyi bir türlü gizleyemiyordu.\nVali başını salladı, \"İyi akşamlar sevgili Bayan Eğrelti. Size hâlâ böyle hitap etmemden rahatsız olmazsınız, değil mi?\"\nVesna gözlerini kırptı. Ailesinin geçmişindeki o çirkin sayfaları öğrendikten sonra, bu isimden istemsizce irkileceğini sanmıştı.\nAma hiç de öyle olmadı. Hatta tam aksine, duyduğu an gözünün önüne gelen ilk şey, annesinin o nazik ve şefkat dolu yüzüydü.\n\"... Benim minik alev eğreltim... Sana olan sevgim sonsuza kadar sürecek...\"\nVesna'nın göz pınarlarında aniden yaşlar parıldadı. \"Benim de anne,\" diye fısıldadı. Sonra, sanki o an çok büyük bir karar vermişçesine başını kaldırdı ve her bir kelimeyi sarsılmaz bir kararlılıkla, üstüne basa basa söyledi.\n\"Efendim, anneme ihanet etmeyeceğim. Strivozha Hanesine ihanet etmeyeceğim. Bana adımı bahşeden Majesteleri Çariçe'ye ise asla ihanet etmeyeceğim.\"\n\"Eğer Majesteleri artık Strivozha Hanesinin sadakatine ve onuruna inanamıyorsa, o halde bırakın da kanım bunları geri kazandırsın.\"\n\"Cevabımın ne olduğunu sormayın bana. İşte burada!\"\nVesna bu sözlerin ardından bir hançer çekip aralarındaki masaya sapladı. Sonra başını dikleştirdi, gözlerini sımsıkı yumdu ve celladının bıçağını bekleyen yiğit bir şehit edasıyla büyük bir ciddiyet içinde kendini ölüme teslim etti.\nPulcinella, bir an neye uğradığını şaşırarak önündeki manzaraya bakakaldı. Hızla birkaç kez boğazını temizledi. \"Bayan Vesna... Sanırım ortada bir yanlış anlaşılma var.\"\n\"Majesteleri sana şu soruyu sormamı istemişti: Sevgi nedir?\"\nVesna'nın gözleri fal taşı gibi açıldı, henüz dökülmemiş gözyaşlarıyla hâlâ ışıl ışıldı. \"Ne? Nasıl yani? Soru tam olarak ne?\"\n\"Şey... Majesteleri ne de olsa sevgiye hükmeden bir tanrı. Sadece sevginin sizin için ne anlama geldiğini öğrenmek istedi Bayan Vesna.\"\n\"Bunu, bir annenin çocuğuyla keyifli bir geziye çıktığında öylesine sorabileceği bir şeymiş gibi düşün. Biliyorsun, adını bizzat Majesteleri seçti ve sana her zaman çok düşkün olmuştur.\"\n\"Ah... Tabii ki Majestelerinin senin annen olmak istediğini falan kastetmiyorum. Gerçi bunca yıldır büyümeni hep yakından izledi... Ama senin zaten harika bir annen var.\"\n\"Şey... Her neyse... Bunu gayet sıradan bir soru olarak görebilirsin. Lütfen altında başka bir anlam arama.\"\nVali, hayal gücü geniş genç Vilanın aklına kendini kaptıracağı başka fikirler sokmaktan çekinerek kelimelerini büyük bir özenle seçti.\nYine de onun sorusu karşısında Vesna, düşünecek bir şey olmadığını fark etti. Daha önce kimse ona bunu sormamıştı ama cevabı kendini bildi bileli hayatının bir parçasıydı.\n\"Vesna, benim cesur minik kartopu çiçeğim...\" \"Vesna, şanslı küçük leylağım benim...\" \"Vesna, benim akıllı minik peygamber çiçeğim...\"\n...\nAnnesinin onun için uydurduğu o tatlı küçük hikayeler bir kez daha kulaklarında yankılandı. Bir saniye bile geçmeden cevabını verdi.\n\"Sevgi yaratmaktır! Sevdiklerimiz için güç, kahkaha, cesaret ve umut yaratma kudretidir. Evet, sevgi yaratmaktır.\"\n...\nVali, Strivozha köşkünden yüzünde neşeli bir ifadeyle ayrıldı.\nMajestelerinin Vesna'nın cevabından memnun kalıp kalmayacağını kestiremiyordu ama kendisinin içinde hem bu duruma hem de adım attığı her yere adeta baharı getiren o büyüleyici küçük kız Vesna'ya dair çok güzel bir his vardı.\nAyrılmadan önce Grandük Pyotr'a, Vesna'nın eğitimiyle artık ilgilenmemesi gerektiğini özellikle belirtmişti. Belli ki Majestelerinin aklında zaten çok daha uygun bir plan vardı.\nBelki bir hafta sonra Vesna resmen onun öğrencisi olacaktı. Belki de bundan bir yıl sonra, Snezhnograd Vechesi'nde bugüne dek görev yapan en genç konsey üyesi olarak koltuğuna oturacaktı.\nGelecek ne getirirse getirsin Pulcinella, o geceden sonra bir zamanların o sessiz ve neşesiz Vila köşküne sıcaklık ve kahkahanın nihayet geri döneceğinden emindi. Ne de olsa \"Vesna\", hiçbir zaman kışı anlatan bir kelime olmamıştı.\n\"Vesna, Vesna... İçinde yenilmez bir bahar var. Dilerim bir gün, Majestelerinin sevgi dolu bir dünya yaratmasına yardım edersin.\""
+      },
+      {
+        "Title": "Druzhna Acemi Rozeti",
+        "Context": "Vesna, Druzhna'nın başkomutanı olarak atanması şerefine verilen ziyafetin ardından aile köşküne dönüp çatı katına çıktı ve toz tabakasının altına gömülmüş eski bir acemi rozetini gün yüzüne çıkardı.\nRozetin orada olmasının sebebi, annesinin vaktiyle ona anlattığı küçük bir hikayeydi: Bir asker rozetini yerden yüksek bir yere bırakırsa, kariyeri de hep daha yukarı tırmanırmış.\nVesna o zamanlar böyle hikayelere inanacak yaşı çoktan geçmişti ama yine de annesinin öğüdünü tuttu.\nNe de olsa Druzhna'ya katıldığı o ilk günden beri, birliğin başkomutanı olmasının sadece an meselesi olduğunu biliyordu.\nVe o gün nihayet gelip çattığında, uydurduğu hikayelerden birinin kızına gerçekten yardımcı olduğunu bilmek annesine kesinlikle büyük keyif verirdi.\nVesna, hâlâ düşüncelere dalmış bir halde çatının kenarına doğru ilerledi ve saçakların altına usulca oturdu. Parmakları rozetin metal yüzeyindeki girintilerde gezinirken, zihni çok geçmeden birkaç yıl öncesine kayıp gitti.\nHoroz, Vesna'nın cevabını aldığı gece, Majesteleri Çariçe'nin onun geleceği için neler düşündüğünü de anlatmıştı.\nOnun yanında kalıp kendisinden bir şeyler öğrenebilir, zamanı geldiğinde Snezhnograd Vechesi'nde yerini alarak Snezhnaya hükümetinin kalbine doğru adım adım ilerleyebilirdi.\nYa da doğrudan Fatui ordusuna katılabilirdi, belki de ileride On Bir Haberci arasında yer alabilirdi.\nKafasında dönüp duran bu tür ihtimallerle Vesna, bir hafta sonra Çariçe'nin huzuruna çıkmak için Zapolyarny Sarayı'na gitti ancak oradan, bu iki yolun da onu hiç hazırlamadığı bambaşka bir şeyle ayrıldı: Bir Druzhna acemi rozeti.\nÜstelik akıl hocası da beklediği gibi Horoz değil, Fatui Habercilerinin Birincisi Yüzbaşı olmuştu.\nHoroz, salonun diğer ucundan onunla göz göze gelip \"planlar değişti\" dercesine bir bakış atmış ve ardından son derece ciddi bir tavırla, \"Bu Capitano'nun fikriydi.\" diye duyurmuştu.\nTörenden sonra huzursuzluğu her halinden belli olan Vesna, sessiz Capitano'yu talim kampına kadar takip etti.\nİleride kendisini nelerin beklediğini düşündükçe daha şimdiden endişelenmeye başlamıştı. Kendi halkı arasında her ne kadar olağanüstü biri olsa da, Vilalar hiçbir zaman savaş becerileriyle tanınan bir ırk olmamıştı.\nYüzbaşı söze girdi, sesi tok ve kararlıydı. \"Hakkında bir şeyler duymuştum.\"\n\"Sahip olduğun yetenekle kendinden şüphe etmene hiç gerek yok. Üstelik senin gibi birinin, başını dik tutmak için fazlasıyla sebebi var.\"\nBu sözler Vesna'nın gerginliğini biraz olsun alsa da içindeki korkuyu tamamen dindirmeye yetmemişti. Çekinerek lafa girdi: \"Lord Capitano...\"\n\"Bana Öğretmenim demelisin.\" Tok bir ses sözünü yarıda kesti.\n\"Öğretmenim... Kendime güvenmediğimden değil. Ben hep Strivozha Hanesinin çıkarabileceği en iyi kişi olduğuma inandım.\"\n\"Sadece endişeliyim... Hiçbir zaman gerçekten bana ait olmayan o güç günün birinde beni terk ederse, yine de herkesin beklentilerini karşılayabilecek miyim?\"\nYüzbaşı hemen cevap vermedi. Bunun yerine yavaşça çömelerek o heybetli cüssesini Vesna'nın hizasına indirdi.\nSonra doğrudan ona döndü, elini kaldırıp maskesini çıkardı. Bir anda üzerine ezici bir his çöktü.\nVesna, o hissin ardında yatan her neyse, kanında akan Yaşam gücüyle aynı güç mertebesinden olduğunu sezdi.\n\"Gördüğün gibi. Tıpkı senin gibi ben de hiçbir zaman gerçekten benim olmayan olağanüstü bir güç taşıyorum içimde.\"\nYüzbaşı maskesini taktı ve tüm heybetiyle ayağa kalktı. Doğrulduğu an Vesna'ya, sanki güneş bile onun ardında kaybolmuş gibi geldi.\n\"Ama bir asker olarak sana söz veriyorum; o güç elimden alınsa bile, şu an karşında duran adamdan hiçbir eksiğim olmazdı.\"\n\"Vesna, Strivozha Hanesinde asırlardır Yaşam'ın iktidarının bir parçasını uyandırabilen tek kişi sensin.\"\n\"Seni olağanüstü yapan şey o güç değildi. Onu harekete geçiren, uyandıran ve dize getiren sendin. Asıl olağanüstü olan sensin.\"\n\"Unutma Vesna. O yıl bahar o güç için erken gelmedi. Senin için geldi.\"\n\"Öyleyse benim gurur duyacağım bir öğrenci ol. Druzhna'nın tam zirvesinde yer alacağın o günü bekliyor olacağım.\""
+      },
+      {
+        "Title": "Yıldız Kilidi",
+        "Context": "Yüzbaşı'nın ölüm haberi Snezhnaya'ya geldiğinde Vesna, Danica'nın bardağına çaktırmadan ekşi limon dilimleri atmakla meşguldü.\nMesajı getiren Druzhna askeri, Komutanının işini bölmedi. Komutan da öylece dilimleri bardağa atmaya devam etti.\nPeş peşe, su bardaktan taşana kadar. Limon bardağın her boşluğunu doldurana kadar. Başka hiçbir şeye yer kalmayana kadar...\nAskeri eliyle savuşturdu. Sonra sandalyesine çöküp bir süre dinlendi; sanki bir bardağı ağzına kadar limonla doldurmak, elinde kalan son gücünü de tüketmiş gibiydi.\nKısa bir süre sonra, iyice dinlenen Vesna ayaklandı ve dışarı çıkıp talim kampına doğru yürüdü. Danica oradaydı. \"Hadi. Gel biraz talim yapalım.\"\nDanica başıyla onayladı, ikili tahta kılıçları kapıp dövüşe tutuştu.\nÇok geçmeden Vesna, \"Benden bu kadar!\" diye bağırarak kılıcını bir kenara fırlattı. Sonra da kendini boylu boyunca yere bıraktı ve gözlerini kısarak tepesindeki güneşe baktı.\nSnezhnaya'da güneşin böylesine kavurucu olduğu günlere pek rastlanmazdı. Ancak Yüzbaşı'nın onu öğrencisi olarak kabul ettiği o gün, güneş daha da parlaktı.\nDanica yanına gelip, \"Öğretmenimizin onda biri bile olamazsın.\" dedi. Vesna dudaklarını büzdü ama ilk defa sesini çıkarmadı.\nBir süre sonra elini kaldırdı ve sanki birliklerine komuta ediyormuş gibi Danica'yı oradan oraya yönlendirmeye başladı. Danica'nın başlarda ona ayak uydurmaya hiç niyeti yoktu ama Vesna'nın az önceki lafına karşılık vermediğini görünce onun suyuna gitmeye karar verdi.\nBöylece Danica, başkomutanından emir alan bir onur muhafızı edasıyla talim kampında bir o yana bir bu yana uygun adım yürüdü.\nEn sonunda tesadüfen tam da doğru yerde durarak Vesna'nın yüzüne vuran güneş ışığını tamamen kesti. Vesna'nın yüzünde ufak, belli belirsiz bir memnuniyet ifadesi belirdi.\nVesna anılara dalmış gibi gözlerini yumdu. Dudakları belli belirsiz kıpırdadı ve uykulu bir mırıltı kadar usul birkaç sözcük süzüldü dudaklarından. \"Öğretmenim... Hâlâ burada olduğunu biliyordum.\"\nDanica olduğu yerde kaldı. Vesna'nın tam olarak ne yaptığını kestiremiyordu ama nedense gözleri sızlamaya başlamıştı.\nİkisi bir süre öylece sessiz kaldı. Sonra Vesna bir anda apar topar ayağa fırladı. \"Ben eve gidiyorum. Sana yaptığım limonlu suyu da içmeyi unutma. Olur da ağlamaya başlarsan bahanen hazır olur.\"\nBunu söyleyip bir anda fırladı gitti. O öğleden sonra, dünyaya geldiği bahçeye geri döndü. Ve orada, kızıl eğrelti otunun önünde bir kez daha durdu.\nVesna elini uzatıp parmaklarını eğrelti otunun tırtıklı yapraklarında usulca gezdirdi. Gerçekten de tuhaf bir şeydi. Aradan on yıldan fazla zaman geçmişti, yine de ne ölüydü ne de tam anlamıyla canlıydı.\nBüyümesi durmuştu sadece. Yaprakları bile, bitkinin onca yıl önce parçalandığı günkü halini aynen koruyordu. Vesna bazen acaba bu da bir çeşit ölümsüzlük sayılır mı diye düşünüyordu.\nSonra içindeki Yaşam gücünü uyandırdı ve usulca eğrelti otunun köklerine ve gövdesine akmasına izin verdi.\nBöyle bir şey daha önce aklının ucundan bile geçmemişti. Şimdi bile, neden bunu denemeye kalkıştığına kendi de anlam veremiyordu.\nAma mucize gerçekleşmedi. Eğrelti otunun damarları sönük ve cansız kalmıştı. Vesna bir of çekti, elini silkeledi ve gitmek için arkasını döndü.\nTam o sırada, Vesna'nın gözünün ucuna bir şey ilişti. Eğrelti otunun üç yaprağının arasına yerleşmiş, minicik bir tomurcuk duruyordu.\nAma Vesna, eğrelti otlarının tomurcuk vermediğini gayet iyi biliyordu. Onlar sporlarla çoğalır, ne çiçek açar ne de meyve verirlerdi.\nTekrar eğildi ve bitkiye biraz daha Yaşam gücü aktardı. Ardından küçük tomurcuk şişmeye başladı, büyüdükçe büyüdü.\nTa ki en sonunda tomurcuk \"pat\" diye açılıp, yoğun bir zehirli spor bulutunu tam da Vesna'nın yüzüne püskürtene dek.\nZehir onu kendinden geçirmeden hemen önce, bunun sıradan bir eğrelti otu olmadığını nihayet fark etti. Bu, Strivozha Hanesinin eşi benzeri olmayan, ölümcül zehirli kızıl eğrelti otuydu.\nVesna gözlerini tekrar açtığında yıldızlar gece göğüne çoktan yükselmişti. Ağırlaşan, sersemlemiş başını salladı ve o kısacık karanlığın içinde sanki bir rüya gördüğünü hayal meyal hatırladı.\nBütün renklerle boyanmış bir dünyaydı ve en uzak köşesinde öğretmeni duruyordu. Tıpkı hatırladığı gibi dimdik ve sarsılmazdı.\n\"Vesna. Geri dön.\" \"Öğretmenim... Sen de benimle gelmeyecek misin?\"\n\"Benim yolculuğum burada sona eriyor.\" \"Ama Danica da ben de seni özlüyoruz. Hem de çok.\"\n\"Binlerce rüzgarın dokunduğu sayısız hayatın arasında, elbet yine buluşacağız.\"\nRüya sis gibi dağıldı. Aklı hâlâ o rüyada olan Vesna eğrelti otuna baktığında, yeni açmış tomurcuğun tam ortasına yuvalanmış tek bir yeşil mücevher gördü.\nSanki göğüs gerdiği onca yüzyıl, en sonunda asla yok olmayacak tek bir meyve vermiş gibiydi."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 214300,
+      "Name": "Baharın Bağı, Kışın Yemini",
+      "Description": "Vesna'nın giysisi. Standart Snezhnaya Druzhna üniformasının bizzat Vesna tarafından ufak tefek değişikliklerle elden geçirilmiş hali. Yine de şıklık ayrı, maliyet apayrı bir konu. Haliyle, Vesna'nın daha geniş çaplı bir üniforma yenileme talebi bugüne dek onaylanmadı.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113092,
+    101277,
+    112148,
+    104373,
+    113089
+  ],
+  "NameCard": {
+    "Name": "Vesna: Cümbüş",
+    "Description": "İsim Kartı arka planı.\n\"Hayat bir iç çekiş kadar gelip geçicidir. Bu yüzden ne yaparsan yap, vaktini iç çekişlerle boşa harcama, olur mu?\"",
+    "Icon": "UI_NameCardIcon_Vesna",
+    "PicturePrefix": "UI_NameCardPic_Vesna"
+  }
+}

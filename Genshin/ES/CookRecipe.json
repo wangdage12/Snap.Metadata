@@ -10511,6 +10511,53 @@
     ]
   },
   {
+    "Id": 3708,
+    "Name": "Mors",
+    "Description": "Una bebida de bayas de color rojo oscuro. Se prepara hirviendo a fuego lento bayas silvestres, triturándolas y filtrando el jugo para, después, añadir miel y un poco de azúcar. Se puede beber una vez que se enfría, y su sabor agridulce es muy popular entre las jóvenes de Snezhnaya.",
+    "EffectDescription": [
+      "Restaura un <color=#3399CCFF>26%-30%</color> de Vida Máx. al personaje seleccionado.",
+      "Regenera <color=#3399CCFF>450-790</color> pts. de Vida cada 5 s durante 30 s."
+    ],
+    "CookMethod": 2,
+    "FoodType": 1,
+    "Icon": "UI_ItemIcon_108905",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132033
+      },
+      {
+        "Count": 1,
+        "Id": 132034
+      },
+      {
+        "Count": 1,
+        "Id": 132035
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101281
+      },
+      {
+        "Count": 2,
+        "Id": 101279
+      },
+      {
+        "Count": 1,
+        "Id": 110017
+      },
+      {
+        "Count": 1,
+        "Id": 110006
+      }
+    ]
+  },
+  {
     "Id": 3901,
     "Name": "Croissant crujiente con café",
     "Description": "Una comida compuesta de bollería y café. Primero, se enrolla la masa antes de recubrirla con un baño de huevo e introducirla en el horno, lo que da como resultado unos croissants humeantes y exquisitos. Se dice que la aplicación del baño de huevo es como la firma de un panadero... Y parece que para firmar este plato se ha usado una excelente caligrafía.",
@@ -11160,6 +11207,53 @@
       {
         "Count": 1,
         "Id": 110006
+      }
+    ]
+  },
+  {
+    "Id": 4108,
+    "Name": "Pastel de té adéptico",
+    "Description": "Un nuevo postre inspirado en el pastel wangxiao. Se elabora con la técnica de hojaldre de Fontaine, plegando y estirando la masa repetidamente para darle forma. El relleno es una pasta de té hecha con té adéptico de Chenyu que se tuesta y se muele hasta convertirlo en un polvo fino. Tras hacerle unos motivos decorativos, se pincela con yema de huevo y se hornea hasta lograr un dorado crujiente. Su forma proviene de Fontaine, pero su alma pertenece a Liyue, lo que lo convierte en una fusión natural perfecta.",
+    "EffectDescription": [
+      "Aumenta el ATQ <color=#3399CCFF>224-320</color> pts. y la Prob. CRIT un <color=#3399CCFF>6%-10%</color> de todos los miembros del equipo durante 300 s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
+    ],
+    "CookMethod": 1,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108904",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 20,
+    "RankLevel": 4,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132030
+      },
+      {
+        "Count": 1,
+        "Id": 132031
+      },
+      {
+        "Count": 1,
+        "Id": 132032
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101242
+      },
+      {
+        "Count": 2,
+        "Id": 100030
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 110004
       }
     ]
   },
@@ -12093,6 +12187,53 @@
       {
         "Count": 1,
         "Id": 110009
+      }
+    ]
+  },
+  {
+    "Id": 4701,
+    "Name": "Pescado asado de la corte",
+    "Description": "Un plato elaborado con un pescado entero. Se marina un pescado grande y se asa al horno, adornándolo con una guarnición al sacarlo. Dicen que la receta proviene del Palacio Zapoliarni, y que hoy en día es uno de los platos principales que se sirve a los invitados en los banquetes de Snezhnaya. Su elaboración es compleja y meticulosa, y el resultado final posee la profundidad y solemnidad propias de las tierras gélidas.",
+    "EffectDescription": [
+      "#Aumenta la DEF <color=#3399CCFF>215-308</color> pts. y la Curación en un <color=#3399CCFF>6%-10%</color> de todos los miembros del equipo durante 300{NON_BREAK_SPACE}s.",
+      "En modo multijugador, este efecto solo se aplica sobre tus propios personajes."
+    ],
+    "CookMethod": 1,
+    "FoodType": 4,
+    "Icon": "UI_ItemIcon_108903",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 20,
+    "RankLevel": 4,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132027
+      },
+      {
+        "Count": 1,
+        "Id": 132028
+      },
+      {
+        "Count": 1,
+        "Id": 132029
+      }
+    ],
+    "Input": [
+      {
+        "Count": 4,
+        "Id": 100084
+      },
+      {
+        "Count": 4,
+        "Id": 100080
+      },
+      {
+        "Count": 3,
+        "Id": 101281
+      },
+      {
+        "Count": 2,
+        "Id": 101280
       }
     ]
   },

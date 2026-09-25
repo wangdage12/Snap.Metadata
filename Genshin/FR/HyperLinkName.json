@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Grâce de cristal Électro</color>",
-    "Description": "Tous les personnages de l'équipe bénéficient d'un bonus de DGT Électro et Géo de <color=#f39001>50 %</color>. De plus, ils collectent les fragments proches qui ont été générés par des réactions de Cristallisation toutes les <color=#f39001>4</color> s."
+    "Description": "Tous les personnages de l'équipe bénéficient d'un bonus de DGT Électro et Géo de <color=#f39001>70 %</color>. De plus, ils collectent les fragments proches qui ont été générés par des réactions de Cristallisation toutes les <color=#f39001>4</color> s."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Roc rugissant</color>",
-    "Description": "Un roc rugissant infligeant des <color=#e09800>DGT Géo</color> tombe à l'emplacement d'un ennemi proche à chaque fois que les personnages récupèrent <color=#f39001>{0}</color> fragments élémentaires créés par une <color=#f39001>réaction de Cristallisation Électro</color>"
+    "Description": "Les personnages déclenchent un roc rugissant infligeant des <color=#e09800>DGT Géo</color> à l'emplacement des ennemis touchés par leurs déchaînements élémentaires pendant la durée de l'effet <color=#f39001>Grâce de cristal Électro</color>"
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Bénédiction venteuse Hydro</color>",
-    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color> et leurs PV max de <color=#f39001>8 %</color>."
+    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color>, les DGT infligés par leurs réactions d'Astrodispersion de <color=#f39001>8 %</color> et leurs PV max de <color=#f39001>8 %</color>."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Bénédiction venteuse Électro</color>",
-    "Description": "Les DGT infligés par les réactions de Dispersion déclenchées par les personnages augmentent de <color=#f39001>80 %</color> et chaque obtention d'une <color=#f39001>bénédiction venteuse Électro</color> restaure <color=#f39001>2</color> pts d'énergie élémentaire à tous les personnages de l'équipe."
+    "Description": "Les DGT infligés par les réactions de Dispersion déclenchées par les personnages augmentent de <color=#f39001>80 %</color>, les DGT infligés par leurs réactions d'Astrodispersion augmentent de <color=#f39001>8 %</color> et chaque obtention d'une <color=#f39001>bénédiction venteuse Électro</color> restaure <color=#f39001>2</color> pts d'énergie élémentaire à tous les personnages de l'équipe."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Bénédiction venteuse Pyro</color>",
-    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color> et leur ATQ de <color=#f39001>9 %</color>."
+    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color>, les DGT infligés par leurs réactions d'Astrodispersion de <color=#f39001>8 %</color> et leur ATQ de <color=#f39001>9 %</color>."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Bénédiction venteuse Cryo</color>",
-    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color> et leurs DGT CRIT de <color=#f39001>16 %</color>."
+    "Description": "Les DGT infligés par les réactions de Dispersion des personnages augmentent de <color=#f39001>80 %</color>, les DGT infligés par leurs réactions d'Astrodispersion de <color=#f39001>8 %</color> et leurs DGT CRIT de <color=#f39001>16 %</color>."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
-    "Name": "Pouvoir de la lame spirituelle",
-    "Description": "À propos du pouvoir de la lame spirituelle..."
+    "Name": "Chant principal",
+    "Description": "Lorsque votre personnage déployé de l'équipe inflige des <color=#80C0FFFF>DGT Hydro</color> ou des <color=#99FFFFFF>DGT Cryo</color> avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, il consomme 1 cumul de chant principal pour augmenter les DGT. Si un vortex errant est présent sur le terrain et pendant les 5 s suivant l'explosion d'un vortex errant, cet effet ne se déclenche que lorsque le personnage inflige des DGT de réaction d'Astrodispersion.\nChaque tranche de 1 000 PV max de Vodyanitsa au-dessus de {PARAM#P1402201|3S1} augmente les DGT de réaction d'Astrodispersion de cet effet de {PARAM#P1402201|4S1} pts et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> de {PARAM#P1402201|5S1} pts. Les DGT de réaction d'Astrodispersion peuvent être augmentés d'un maximum de {PARAM#P1402201|6S1} pts de cette manière, et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> d'un maximum de {PARAM#P1402201|7S1} pts."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Chœur",
+    "Description": "Cet effet est déclenché par les personnages de l'équipe non déployés et par les autres personnages à proximité (et qui ne sont pas actuellement déployés) et possède les mêmes effets que le chant principal."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Armée pour l'action",
+    "Description": "Vesna passe dans cet état pendant un maximum de 15 s après avoir utilisé sa compétence élémentaire <color=#FFD780FF>L'art de la victoire</color>, état qui possède plusieurs effets :\n· La RÉS à l'interruption de Vesna augmente.\n· Les attaques normales, chargées et plongeantes de Vesna sont converties pour infliger des <color=#80FFD7FF>DGT Anémo</color> ne pouvant pas être enchantés et invoquer une penne de tempête pour une attaque coordonnée de l'ennemi, infligeant des <color=#80FFD7FF>DGT Anémo</color> supplémentaires. De plus, chaque invocation de penne de tempête restaure une certaine quantité d'<color=#FFD780FF>énergie d'épée</color> à Vesna.\nVesna peut consommer son <color=#FFD780FF>énergie d'épée</color> pour déclencher la compétence élémentaire spéciale, <color=#FFD780FF>Épée du vent</color> afin d'infliger des <color=#80FFD7FF>DGT Anémo</color> aux ennemis\n· Vesna quitte cet état une fois la durée écoulée ou après avoir utilisé 3 fois <color=#FFD780FF>Épée du vent</color> à la limite max, ce qui annule également tous ses cumuls d'<color=#FFD780FF>énergie d'épée</color>."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Énergie d'épée",
+    "Description": "#L'énergie d'épée est l'énergie requise pour déclencher la compétence élémentaire spéciale <color=#FFD780FF>Épée du vent</color> pendant l'état <color=#FFD780FF>Armée pour l'action</color>.\nVesna peut accumuler de l'énergie d'épée de différentes façons :\n· En utilisant une attaque normale, chargée ou plongeante ou en déclenchant une <color=#FFD780FF>épée du vent «{NON_BREAK_SPACE}Transposition »</color> de la constellation <color=#FFD780FF>Ardeur inébranlable</color>, pendant l'état <color=#FFD780FF>Armée pour l'action</color>.\n· En utilisant la compétence élémentaire <color=#FFD780FF>L'art de la victoire</color>.\n· En utilisant le déchaînement élémentaire <color=#FFD780FF>Pour la Tsarine !</color>."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Épée du vent",
+    "Description": "Vesna peut consommer de l'<color=#FFD780FF>énergie d'épée</color> pendant l'état <color=#FFD780FF>Armée pour l'action</color> pour déclencher cette compétence élémentaire spéciale infligeant des <color=#80FFD7FF>DGT Anémo</color>.\nChaque utilisation de la compétence élémentaire spéciale <color=#FFD780FF>Épée du vent</color> pendant un état <color=#FFD780FF>Armée pour l'action</color> repousse sa limite : <color=#FFD780FF>Épée du vent</color> commence au Niv.1 et peut atteindre le Niv.3.\nUtiliser <color=#FFD780FF>Épée du vent</color> une fois sa limite repoussée invoque également une <color=#FFD780FF>lame éthérée</color> qui inflige des <color=#80FFD7FF>DGT Anémo</color> aux ennemis."
+  },
+  {
+    "Id": 11430004,
+    "Name": "Lame éthérée",
+    "Description": "#Vesna peut invoquer cette arme spéciale qui attaque de façon coordonnée l'ennemi pour infliger des <color=#80FFD7FF>DGT Anémo</color>.\nVesna peut invoquer une lame éthérée des manières suivantes :\n· En utilisant la compétence élémentaire spéciale <color=#FFD780FF>Épée du vent</color> après en avoir repoussé la limite.\n· En utilisant le déchaînement élémentaire <color=#FFD780FF>Pour la Tsarine !</color>.\n· En utilisant l'<color=#FFD780FF>épée du vent «{NON_BREAK_SPACE}Transposition »</color> de la constellation <color=#FFD780FF>Ardeur inébranlable</color>.\n\n<color=#FFD780FF>Radiance « Astrodispersion »</color> : les <color=#FFD780FF>lames éthérées</color> sont converties pour infliger des <color=#80FFD7FF>DGT Anémo</color> considérés comme des DGT de réaction d'Astrodispersion."
   },
   {
     "Id": 10050002,

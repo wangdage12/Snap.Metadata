@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Dono del Cristallo di Electro</color>",
-    "Description": "#Tutti i membri del gruppo ottengono un <color=#f39001>50%</color> di bonus DAN da Electro e Geo, e si materializzano frammenti di Cristallizzazione nelle vicinanze ogni <color=#f39001>4</color>{NON_BREAK_SPACE}s."
+    "Description": "#Tutti i membri del gruppo ottengono un <color=#f39001>70%</color> di bonus DAN da Electro e Geo, e si materializzano frammenti di Cristallizzazione nelle vicinanze ogni <color=#f39001>4</color>{NON_BREAK_SPACE}s."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Spaccapietra roboante</color>",
-    "Description": "Precipita nella posizione dell'avversario vicino dopo che i personaggi hanno raccolto <color=#f39001>{0}</color> frammenti elementali prodotti dalla <color=#f39001>reazione di Cristallizzazione di Electro</color>, infliggendo <color=#e09800>DAN da Geo</color>."
+    "Description": "Mentre <color=#f39001>Dono del Cristallo di Electro</color> è attivo, dopo che i personaggi hanno colpito un avversario con un Tripudio elementale, precipita nella posizione di quest'ultimo infliggendo <color=#e09800>DAN da Geo</color>."
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Preghiera del vento: Hydro</color>",
-    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio e i loro PS max aumentano rispettivamente di un <color=#f39001>80%</color> e di un <color=#f39001>8%</color>."
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color>, i DAN causati dalle reazioni di Turbinio astrale aumentano di un <color=#f39001>8%</color>, e i loro PS max aumentano di un <color=#f39001>8%</color>."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Preghiera del vento: Electro</color>",
-    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color> e, ogni volta che ottengono <color=#f39001>Preghiera del vento: Electro</color>, tutti i membri del gruppo ricevono <color=#f39001>2</color> di energia elementale."
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color> e i DAN causati dalle reazioni di Turbinio astrale aumentano di un <color=#f39001>8%</color>. Inoltre, ogni volta che ottengono <color=#f39001>Preghiera del vento: Electro</color>, tutti i membri del gruppo ricevono <color=#f39001>2</color> di energia elementale."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Preghiera del vento: Pyro</color>",
-    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio e il loro ATT aumentano rispettivamente di un <color=#f39001>80%</color> e di un <color=#f39001>9%</color>."
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color>, i DAN causati dalle reazioni di Turbinio astrale aumentano di un <color=#f39001>8%</color>, e il loro ATT aumenta di un <color=#f39001>9%</color>."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Preghiera del vento: Cryo</color>",
-    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio e i loro DAN da CRIT aumentano rispettivamente di un <color=#f39001>80%</color> e di un <color=#f39001>16%</color>."
+    "Description": "I DAN inflitti dai personaggi che innescano reazioni di Turbinio aumentano di un <color=#f39001>80%</color>, i DAN causati dalle reazioni di Turbinio astrale aumentano di un <color=#f39001>8%</color>, e i loro DAN da CRIT aumentano di un <color=#f39001>16%</color>."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
+    "Name": "Voce solista",
+    "Description": "#Quando il personaggio attualmente attivo del gruppo infligge <color=#80C0FFFF>DAN da Hydro</color> o <color=#99FFFFFF>DAN da Cryo</color> con un attacco normale, caricato, in picchiata, un'abilità elementale o un Tripudio elementale, viene consumato 1 accumulo di \"Voce solista\", che aumenta i DAN inflitti. Tuttavia, se un Vortice errante è presente sul campo di battaglia o se sono trascorsi meno di 5{NON_BREAK_SPACE}s dall'esplosione del suddetto Vortice, tale effetto si attiva solo quando il personaggio infligge DAN da reazione di Turbinio astrale.\nOgni 1.000 PS max che Vodyanitsa possiede al di sopra di {PARAM#P1402201|3S1} aumenta di {PARAM#P1402201|4S1} i DAN da reazione di Turbinio astrale dell'effetto sopracitato, e di {PARAM#P1402201|5S1} i <color=#80C0FFFF>DAN da Hydro</color> e i <color=#99FFFFFF>DAN da Cryo</color> inflitti. I DAN da reazione di Turbinio astrale inflitti possono essere aumentati in questo modo fino a {PARAM#P1402201|6S1}, mentre i <color=#80C0FFFF>DAN da Hydro</color> e i <color=#99FFFFFF>DAN da Cryo</color> fino a {PARAM#P1402201|7S1}."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Coro",
+    "Description": "Un effetto innescato da membri fuori campo o da altri membri vicini del gruppo (diversi da quello attivo). Gli effetti sono gli stessi di \"Voce solista\"."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Pronta all'azione",
+    "Description": "#Vesna passa a questa modalità dopo aver utilizzato l'abilità elementale <color=#FFD780FF>Arte della vittoria</color>. In questa modalità, che dura fino a 15{NON_BREAK_SPACE}s:\n· la resistenza all'interruzione di Vesna aumenta;\n· i DAN inflitti da Vesna con i suoi attacchi normali, caricati e in picchiata diventano <color=#80FFD7FF>DAN da Anemo</color> non influenzabili da altre infusioni elementali. Vesna evoca inoltre una Remigante del vento che attacca il nemico contemporaneamente, infliggendo <color=#80FFD7FF>DAN da Anemo</color> aggiuntivi. Ogni volta che questa viene evocata, Vesna rigenera una certa quantità di <color=#FFD780FF>Essenza della spada</color>;\n· Vesna può consumare <color=#FFD780FF>Essenza della spada</color> per sprigionare l'abilità elementale speciale <color=#FFD780FF>Spada del vento</color>, che infligge <color=#80FFD7FF>DAN da Anemo</color> ai suoi avversari;\n· Vesna esce dalla modalità al termine della sua durata o dopo aver utilizzato <color=#FFD780FF>Spada del vento</color> al livello massimo 3 volte. All'uscita, tutta l'<color=#FFD780FF>Essenza della spada</color> residua accumulata viene azzerata."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Essenza della spada",
+    "Description": "L'energia necessaria per utilizzare l'abilità elementale speciale <color=#FFD780FF>Spada del vento</color> nella modalità <color=#FFD780FF>Pronta all'azione</color>.\nVesna può accumulare Essenza della spada:\n· sferrando un attacco normale, caricato o in picchiata nella modalità <color=#FFD780FF>Pronta all'azione</color>, o utilizzando <color=#FFD780FF>Spada del vento: Trasposizione</color> del livello costellazione <color=#FFD780FF>Ardore incrollabile</color>;\n· scatenando l'abilità elementale <color=#FFD780FF>Arte della vittoria</color>;\n· sprigionando il Tripudio elementale <color=#FFD780FF>Per la Tsaritsa!</color>."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Spada del vento",
+    "Description": "In modalità <color=#FFD780FF>Pronta all'azione</color>, Vesna può consumare l'<color=#FFD780FF>Essenza della spada</color> per utilizzare la sua abilità elementale speciale e infliggere <color=#80FFD7FF>DAN da Anemo</color>.\nOgni utilizzo dell'abilità elementale speciale <color=#FFD780FF>Spada del vento</color> nella stessa iterazione di <color=#FFD780FF>Pronta all'azione</color> aumenta il livello di <color=#FFD780FF>Spada del vento</color>, partendo dal livello 1 fino al livello 3 massimo.\nUtilizzare <color=#FFD780FF>Spada del vento</color> ai livelli 2 e 3 evoca anche una <color=#FFD780FF>Lama spirituale</color> che infligge <color=#80FFD7FF>DAN da Anemo</color>."
+  },
+  {
+    "Id": 11430004,
     "Name": "Lama spirituale",
-    "Description": "A proposito della \"Lama spirituale\""
+    "Description": "Un'arma dai poteri speciali che Vesna può evocare. Attacca l'avversario insieme alla sua evocatrice infliggendo <color=#80FFD7FF>DAN da Anemo</color>.\nVesna può evocare le Lame spirituali:\n· scatenando l'abilità elementale speciale <color=#FFD780FF>Spada del vento</color> ai livelli 2 e 3;\n· sprigionando il Tripudio elementale <color=#FFD780FF>Per la Tsaritsa!</color>;\n· utilizzando <color=#FFD780FF>Spada del vento: Trasposizione</color> del livello costellazione <color=#FFD780FF>Ardore incrollabile</color>.\n\nNello stato di <color=#FFD780FF>Splendore: Turbinio astrale</color>, i DAN inflitti dalle <color=#FFD780FF>Lame spirituali</color> diventano <color=#80FFD7FF>DAN da Anemo</color> considerati come DAN da reazione Turbinio astrale."
   },
   {
     "Id": 10050002,

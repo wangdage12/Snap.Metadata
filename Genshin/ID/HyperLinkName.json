@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Electro Crystal's Boon</color>",
-    "Description": "Seluruh anggota party mendapatkan <color=#f39001>50%</color> Electro dan Geo DMG Bonus. Selain itu, kamu akan mendapatkan shard dari reaksi Crystallize di sekitar setiap <color=#f39001>4</color> detik."
+    "Description": "Seluruh anggota party mendapatkan <color=#f39001>70%</color> Electro dan Geo DMG Bonus. Selain itu, kamu akan mendapatkan shard dari reaksi Crystallize di sekitar setiap <color=#f39001>4</color> detik."
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Roaring Rockbreaker</color>",
-    "Description": "Setiap kali Karakter mendapatkan <color=#f39001>{0}</color> Elemental Shard dari <color=#f39001>reaksi Electro Crystallize</color>, Roaring Rockbreaker akan jatuh di posisi musuh dan mengakibatkan <color=#e09800>Geo DMG</color>."
+    "Description": "Saat <color=#f39001>Electro Crystal's Boon</color> sedang aktif dan setelah Elemental Burst Karakter mengenai musuh, Roaring Rockbreaker akan jatuh di posisi musuh dan mengakibatkan <color=#e09800>Geo DMG</color>."
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Windblessing: Hydro</color>",
-    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, Max HP Karakter +<color=#f39001>8%</color>."
+    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, DMG dari reaksi Stellar Swirl +<color=#f39001>8%</color>, Max HP Karakter +<color=#f39001>8%</color>."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Windblessing: Electro</color>",
-    "Description": "DMG reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, dan setiap kali mendapatkan <color=#f39001>Windblessing: Electro</color>, akan memulihkan <color=#f39001>2</color> poin Energy seluruh anggota party."
+    "Description": "DMG reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, DMG dari reaksi Stellar Swirl +<color=#f39001>8%</color>, dan setiap kali mendapatkan <color=#f39001>Windblessing: Electro</color>, akan memulihkan <color=#f39001>2</color> poin Energy seluruh anggota party."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Windblessing: Pyro</color>",
-    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter meningkat <color=#f39001>80%</color>, ATK Karakter meningkat <color=#f39001>9%</color>."
+    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, DMG dari reaksi Stellar Swirl +<color=#f39001>8%</color>, ATK Karakter +<color=#f39001>9%</color>."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Windblessing: Cryo</color>",
-    "Description": "DMG reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, CRIT DMG Karakter +<color=#f39001>16%</color>."
+    "Description": "DMG dari reaksi Swirl yang dipicu oleh Karakter +<color=#f39001>80%</color>, DMG dari reaksi Stellar Swirl +<color=#f39001>8%</color>, CRIT DMG Karakter +<color=#f39001>16%</color>."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
+    "Name": "Lead Vocal",
+    "Description": "Ketika Karakter aktif sendiri dalam party mengakibatkan <color=#80C0FFFF>Hydro DMG</color> atau <color=#99FFFFFF>Cryo DMG</color> melalui Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, atau Elemental Burst, akan mengonsumsi 1 lapis Lead Vocal untuk meningkatkan DMG yang diakibatkan. Jika saat ini terdapat Wandering Vortex, atau dalam kurun waktu 5 detik setelah ledakan Wandering Vortex, efek di atas hanya akan terpicu saat Karakter mengakibatkan DMG reaksi Stellar Swirl.\nUntuk setiap 1.000 poin Max HP Vodyanitsa yang melebihi {PARAM#P1402201|3S1}, DMG Stellar Swirl dari efek di atas akan meningkat {PARAM#P1402201|4S1} poin, <color=#80C0FFFF>Hydro DMG</color> dan <color=#99FFFFFF>Cryo DMG</color> akan meningkat {PARAM#P1402201|5S1} poin. Dengan cara ini, DMG Stellar Swirl dapat meningkat hingga {PARAM#P1402201|6S1} poin, sedangkan <color=#80C0FFFF>Hydro DMG</color> dan <color=#99FFFFFF>Cryo DMG</color> dapat meningkat hingga {PARAM#P1402201|7S1} poin."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Chorus",
+    "Description": "Dipicu oleh anggota party yang ada di dalam party namun tidak berada di medan pertempuran atau Karakter lain yang ada di sekitar party (dan bukan Karakter aktif sendiri dalam party). Memiliki efek yang sama dengan Lead Vocal."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Armed for Action",
+    "Description": "Vesna akan masuk ke mode ini setelah melancarkan Elemental Skill <color=#FFD780FF>The Art of Victory</color>. Mode ini berlangsung maksimum 15 detik dan memiliki karakteristik berikut:\n·Meningkatkan ketahanan Vesna terhadap interupsi.\n·Saat Vesna melancarkan Normal Attack, Charged Attack, dan Plunging Attack, serangannya akan berubah menjadi <color=#80FFD7FF>Anemo DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya, dan memanggil bulu angin untuk melancarkan serangan terkoordinasi terhadap musuh dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> tambahan. Setiap kali bulu angin dipanggil, Vesna akan memulihkan sejumlah <color=#FFD780FF>Sword Essence</color>.\n·Vesna dapat mengonsumsi <color=#FFD780FF>Sword Essence</color> untuk melancarkan Elemental Skill khusus <color=#FFD780FF>Windborne Sword</color> dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh.\n·Saat durasi berakhir atau setelah melancarkan <color=#FFD780FF>Windborne Sword</color> dengan level tertinggi sebanyak tiga kali, Vesna akan keluar dari mode ini dan menghapus semua <color=#FFD780FF>Sword Essence</color> yang sudah terkumpul."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Sword Essence",
+    "Description": "Energi yang dibutuhkan untuk melancarkan Elemental Skill Khusus <color=#FFD780FF>Windborne Sword</color> dalam mode <color=#FFD780FF>Armed for Action</color>.\nVesna dapat mengumpulkan Sword Essence dengan cara berikut:\n·Melancarkan Normal Attack, Charged Attack, Plunging Attack dalam mode <color=#FFD780FF>Armed for Action</color> atau melancarkan <color=#FFD780FF>Windborne Sword: Transpose</color> dari Konstelasi <color=#FFD780FF>Unwavering Ardor</color>.\n·Melancarkan Elemental Skill <color=#FFD780FF>The Art of Victory</color>.\n·Melancarkan Elemental Burst <color=#FFD780FF>For the Tsaritsa!</color>."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Windborne Sword",
+    "Description": "Dalam mode <color=#FFD780FF>Armed for Action</color>, Vesna dapat mengonsumsi <color=#FFD780FF>Sword Essence</color> untuk melancarkan Elemental Skill Khusus ini dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nSetiap kali melancarkan Elemental Skill Khusus <color=#FFD780FF>Windborne Sword</color> dalam satu durasi <color=#FFD780FF>Armed for Action</color> yang sama, level <color=#FFD780FF>Windborne Sword</color> akan meningkat. Level awalnya adalah Lv. 1 dan dapat meningkat hingga Lv. 3.\nMelancarkan <color=#FFD780FF>Windborne Sword</color> di Lv. 2 dan Lv. 3 juga akan memanggil <color=#FFD780FF>Spirit Blade</color> yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh."
+  },
+  {
+    "Id": 11430004,
     "Name": "Spirit Blade",
-    "Description": "Pengenalan \"Spirit Blade\""
+    "Description": "Sebuah senjata roh yang bisa dipanggil Vesna dan akan menyerang musuh bersamanya, mengakibatkan <color=#80FFD7FF>Anemo DMG</color>.\nVesna dapat memanggil Spirit Blade melalui cara berikut:\n·Melancarkan Elemental Skill Khusus <color=#FFD780FF>Windborne Sword</color> dengan level yang sudah ditingkatkan.\n·Melancarkan Elemental Burst <color=#FFD780FF>For the Tsaritsa!</color>.\n·Melancarkan <color=#FFD780FF>Windborne Sword: Transpose</color> dari Konstelasi <color=#FFD780FF>Unwavering Ardor</color>.\n\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG <color=#FFD780FF>Spirit Blade</color> dikonversi menjadi <color=#80FFD7FF>Anemo DMG</color> yang dianggap sebagai DMG reaksi Stellar Swirl."
   },
   {
     "Id": 10050002,

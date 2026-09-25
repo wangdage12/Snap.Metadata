@@ -1,0 +1,1370 @@
+{
+  "Id": 10000143,
+  "PromoteId": 143,
+  "Sort": 121,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Vesna",
+  "SideIcon": "UI_AvatarIcon_Side_Vesna",
+  "Name": "Vesna",
+  "Description": "Die Kommandantin der Druzhna, Klinge der Zarin.",
+  "BeginTime": "2026-09-22T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1032.4456,
+    "AttackBase": 27.5576,
+    "DefenseBase": 56.8385
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114310,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Sprint"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114311,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Jump"
+      },
+      {
+        "GroupId": 14331,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P} ×2",
+            "SCH Phase 4|{param4:F1P}",
+            "SCH Phase 5|{param5:F1P}",
+            "SCH Phase 6|{param6:F1P}",
+            "SCH heftiger Schläge|{param7:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param8:F1} Punkte",
+            "SCH beim Fallen|{param9:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433101,
+              "Level": 1,
+              "Parameters": [
+                0.4042,
+                0.48676,
+                0.28079,
+                0.59168,
+                0.62436,
+                0.7224,
+                1.33042,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1433102,
+              "Level": 2,
+              "Parameters": [
+                0.4371,
+                0.52638,
+                0.303645,
+                0.63984,
+                0.67518,
+                0.7812,
+                1.43871,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1433103,
+              "Level": 3,
+              "Parameters": [
+                0.47,
+                0.566,
+                0.3265,
+                0.688,
+                0.726,
+                0.84,
+                1.547,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1433104,
+              "Level": 4,
+              "Parameters": [
+                0.517,
+                0.6226,
+                0.35915,
+                0.7568,
+                0.7986,
+                0.924,
+                1.7017,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1433105,
+              "Level": 5,
+              "Parameters": [
+                0.5499,
+                0.66222,
+                0.382005,
+                0.80496,
+                0.84942,
+                0.9828,
+                1.80999,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1433106,
+              "Level": 6,
+              "Parameters": [
+                0.5875,
+                0.7075,
+                0.408125,
+                0.86,
+                0.9075,
+                1.05,
+                1.93375,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1433107,
+              "Level": 7,
+              "Parameters": [
+                0.6392,
+                0.76976,
+                0.44404,
+                0.93568,
+                0.98736,
+                1.1424,
+                2.10392,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1433108,
+              "Level": 8,
+              "Parameters": [
+                0.6909,
+                0.83202,
+                0.479955,
+                1.01136,
+                1.06722,
+                1.2348,
+                2.27409,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1433109,
+              "Level": 9,
+              "Parameters": [
+                0.7426,
+                0.89428,
+                0.51587,
+                1.08704,
+                1.14708,
+                1.3272,
+                2.44426,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1433110,
+              "Level": 10,
+              "Parameters": [
+                0.799,
+                0.9622,
+                0.55505,
+                1.1696,
+                1.2342,
+                1.428,
+                2.6299,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1433111,
+              "Level": 11,
+              "Parameters": [
+                0.8554,
+                1.03012,
+                0.59423,
+                1.25216,
+                1.32132,
+                1.5288,
+                2.81554,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1433112,
+              "Level": 12,
+              "Parameters": [
+                0.9118,
+                1.09804,
+                0.63341,
+                1.33472,
+                1.40844,
+                1.6296,
+                3.00118,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1433113,
+              "Level": 13,
+              "Parameters": [
+                0.9682,
+                1.16596,
+                0.67259,
+                1.41728,
+                1.49556,
+                1.7304,
+                3.18682,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1433114,
+              "Level": 14,
+              "Parameters": [
+                1.0246,
+                1.23388,
+                0.71177,
+                1.49984,
+                1.58268,
+                1.8312,
+                3.37246,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1433115,
+              "Level": 15,
+              "Parameters": [
+                1.081,
+                1.3018,
+                0.75095,
+                1.5824,
+                1.6698,
+                1.932,
+                3.5581,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11431,
+        "Name": "Tanz der Windklinge",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 6 Angriffe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Stampfangriff auf Gegner vorne aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 14332,
+        "Proud": {
+          "Descriptions": [
+            "Fähigkeits-SCH|{param1:F1P}",
+            "SCH durch Flugwind-Klinge Stufe 1|{param2:F1P}",
+            "SCH durch Flugwind-Klinge Stufe 2|{param3:F1P}",
+            "SCH durch Geisterschwert von Flugwind-Klinge Stufe 2|{param4:F1P}",
+            "SCH durch Geisterschwert von Flugwind-Klinge Stufe 3|{param6:F1P} ×4",
+            "SCH durch letzten Schlag des Geisterschwerts von Flugwind-Klinge Stufe 3|{param8:F1P}",
+            "SCH durch Geisterschwert-Stellar-Verwirbelung von Flugwind-Klinge Stufe 2|{param5:F1P}",
+            "SCH durch Geisterschwert-Stellar-Verwirbelung von Flugwind-Klinge Stufe 3|{param7:F1P} ×4",
+            "SCH durch Stellar-Verwirbelung beim letzten Schlag des Geisterschwerts von Flugwind-Klinge Stufe 3|{param9:F1P}",
+            "SCH durch Feder im Wind|{param10:F1P}",
+            "#Dauer von Einsatzbereit|{param12:F1}{NON_BREAK_SPACE}s",
+            "#Abklingzeit|{param14:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433201,
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                0.4,
+                0.6,
+                1.12,
+                1.12,
+                0.448,
+                0.448,
+                1.568,
+                1.568,
+                0.104,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433202,
+              "Level": 2,
+              "Parameters": [
+                0.43,
+                0.43,
+                0.645,
+                1.204,
+                1.204,
+                0.4816,
+                0.4816,
+                1.6856,
+                1.6856,
+                0.1118,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433203,
+              "Level": 3,
+              "Parameters": [
+                0.46,
+                0.46,
+                0.69,
+                1.288,
+                1.288,
+                0.5152,
+                0.5152,
+                1.8032,
+                1.8032,
+                0.1196,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433204,
+              "Level": 4,
+              "Parameters": [
+                0.5,
+                0.5,
+                0.75,
+                1.4,
+                1.4,
+                0.56,
+                0.56,
+                1.96,
+                1.96,
+                0.13,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433205,
+              "Level": 5,
+              "Parameters": [
+                0.53,
+                0.53,
+                0.795,
+                1.484,
+                1.484,
+                0.5936,
+                0.5936,
+                2.0776,
+                2.0776,
+                0.1378,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433206,
+              "Level": 6,
+              "Parameters": [
+                0.56,
+                0.56,
+                0.84,
+                1.568,
+                1.568,
+                0.6272,
+                0.6272,
+                2.1952,
+                2.1952,
+                0.1456,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433207,
+              "Level": 7,
+              "Parameters": [
+                0.6,
+                0.6,
+                0.9,
+                1.68,
+                1.68,
+                0.672,
+                0.672,
+                2.352,
+                2.352,
+                0.156,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433208,
+              "Level": 8,
+              "Parameters": [
+                0.64,
+                0.64,
+                0.96,
+                1.792,
+                1.792,
+                0.7168,
+                0.7168,
+                2.5088,
+                2.5088,
+                0.1664,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433209,
+              "Level": 9,
+              "Parameters": [
+                0.68,
+                0.68,
+                1.02,
+                1.904,
+                1.904,
+                0.7616,
+                0.7616,
+                2.6656,
+                2.6656,
+                0.1768,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433210,
+              "Level": 10,
+              "Parameters": [
+                0.72,
+                0.72,
+                1.08,
+                2.016,
+                2.016,
+                0.8064,
+                0.8064,
+                2.8224,
+                2.8224,
+                0.1872,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433211,
+              "Level": 11,
+              "Parameters": [
+                0.76,
+                0.76,
+                1.14,
+                2.128,
+                2.128,
+                0.8512,
+                0.8512,
+                2.9792,
+                2.9792,
+                0.1976,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433212,
+              "Level": 12,
+              "Parameters": [
+                0.8,
+                0.8,
+                1.2,
+                2.24,
+                2.24,
+                0.896,
+                0.896,
+                3.136,
+                3.136,
+                0.208,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433213,
+              "Level": 13,
+              "Parameters": [
+                0.85,
+                0.85,
+                1.275,
+                2.38,
+                2.38,
+                0.952,
+                0.952,
+                3.332,
+                3.332,
+                0.221,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433214,
+              "Level": 14,
+              "Parameters": [
+                0.9,
+                0.9,
+                1.35,
+                2.52,
+                2.52,
+                1.008,
+                1.008,
+                3.528,
+                3.528,
+                0.234,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433215,
+              "Level": 15,
+              "Parameters": [
+                0.95,
+                0.95,
+                1.425,
+                2.66,
+                2.66,
+                1.064,
+                1.064,
+                3.724,
+                3.724,
+                0.247,
+                0,
+                15,
+                5,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11432,
+        "Name": "Kodex – Der Weg zum Sieg",
+        "Description": "Beschwört ein von den Vila über Generationen hinweg weitergegebenes Geisterschwert herauf, verursacht <color=#80FFD7FF>Anemo-Flächenschaden</color>, wechselt in den Modus <color=#FFD780FF>{LINK#N11430001}Einsatzbereit{/LINK}</color> und verleiht zwei Stapelungen <color=#FFD780FF>{LINK#N11430002}Schwertaura{/LINK}</color>.\n\n<color=#FFD780FF>Einsatzbereit</color>\nWandelt, wenn Vesna Standardangriffe, heftige Schläge oder Angriffe aus dem Fall ausführt, diese in <color=#80FFD7FF>Anemo-SCH</color> um, der nicht von anderen Elementen überdeckt werden kann. Ruft zudem eine „Feder im Wind“ herbei, die einen abgestimmten Angriff auf Gegner ausführt und zusätzlichen <color=#80FFD7FF>Anemo-SCH</color> verursacht. Stellt Vesna jedes Mal, wenn eine „Feder im Wind“ herbeigerufen wird, eine gewisse Menge <color=#FFD780FF>Schwertaura</color> wieder her.\nVesna kann <color=#FFD780FF>Schwertaura</color> verbrauchen, um die besondere Elementarfähigkeit <color=#FFD780FF>{LINK#N11430003}Flugwind-Klinge{/LINK}</color> anzuwenden und Gegnern <color=#80FFD7FF>Anemo-SCH</color> zuzufügen.\nErhöht nach jeder Anwendung der besonderen Elementarfähigkeit <color=#FFD780FF>Flugwind-Klinge</color> während des aktuellen Modus <color=#FFD780FF>Einsatzbereit</color> ihre Stufe, was den <color=#80FFD7FF>Anemo-SCH</color> erhöht. Die Anfangsstufe der <color=#FFD780FF>Flugwind-Klinge</color> beträgt Stufe 1 und kann bis auf Stufe 3 gesteigert werden. Ruft beim Anwenden der <color=#FFD780FF>Flugwind-Klinge</color> mit erhöhter Stufe außerdem ein <color=#FFD780FF>{LINK#N11430004}Geisterschwert{/LINK}</color> herbei, das Gegnern <color=#80FFD7FF>Anemo-SCH</color> zufügt.\nWenn die Dauer endet oder die <color=#FFD780FF>Flugwind-Klinge</color> auf der höchsten Stufe dreimal angewendet wurde, verlässt Vesna diesen Modus und alle Stapelungen <color=#FFD780FF>Schwertaura</color> werden entfernt.\nErhöht in diesem Modus zudem Vesnas Unterbrechungs-WDS.\n<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Wandelt den durch das <color=#FFD780FF>Geisterschwert</color> verursachten Schaden in <color=#80FFD7FF>Anemo-SCH</color> um, der als Schaden durch die Reaktion Stellar-Verwirbelung gewertet wird.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Vesna_01",
+        "CdTime": 18
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 14339,
+      "Proud": {
+        "Descriptions": [
+          "Geisterschwert-SCH|{param1:F1P}",
+          "SCH durch Geisterschwert-Stellar-Verwirbelung|{param2:F1P}",
+          "#Abklingzeit|{param3:F1}{NON_BREAK_SPACE}s",
+          "Elementarenergie|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1433901,
+            "Level": 1,
+            "Parameters": [
+              2.632,
+              2.632,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433902,
+            "Level": 2,
+            "Parameters": [
+              2.8294,
+              2.8294,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433903,
+            "Level": 3,
+            "Parameters": [
+              3.0268,
+              3.0268,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433904,
+            "Level": 4,
+            "Parameters": [
+              3.29,
+              3.29,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433905,
+            "Level": 5,
+            "Parameters": [
+              3.4874,
+              3.4874,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433906,
+            "Level": 6,
+            "Parameters": [
+              3.6848,
+              3.6848,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433907,
+            "Level": 7,
+            "Parameters": [
+              3.948,
+              3.948,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433908,
+            "Level": 8,
+            "Parameters": [
+              4.2112,
+              4.2112,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433909,
+            "Level": 9,
+            "Parameters": [
+              4.4744,
+              4.4744,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433910,
+            "Level": 10,
+            "Parameters": [
+              4.7376,
+              4.7376,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433911,
+            "Level": 11,
+            "Parameters": [
+              5.0008,
+              5.0008,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433912,
+            "Level": 12,
+            "Parameters": [
+              5.264,
+              5.264,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433913,
+            "Level": 13,
+            "Parameters": [
+              5.593,
+              5.593,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433914,
+            "Level": 14,
+            "Parameters": [
+              5.922,
+              5.922,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433915,
+            "Level": 15,
+            "Parameters": [
+              6.251,
+              6.251,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11435,
+      "Name": "Ehrerbietung – Gewidmet Ihrer Majestät der Zarin",
+      "Description": "Ruft mehrere <color=#FFD780FF>{LINK#N11430004}Geisterschwerter{/LINK}</color> herbei, verursacht <color=#80FFD7FF>Anemo-Flächenschaden</color> und verleiht eine Stapelung <color=#FFD780FF>{LINK#N11430002}Schwertaura{/LINK}</color>.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Vesna_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 14321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                6,
+                0.1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432101,
+        "Name": "Zeremonie – Frühlingsprozession",
+        "Description": "#Verleiht Vesna, nachdem sie die besondere Elementarfähigkeit <color=#FFD780FF>{LINK#N11430003}Flugwind-Klinge{/LINK}</color> oder die Spezialfähigkeit <color=#FFD780FF>{LINK#S11435}Ehrerbietung – Gewidmet Ihrer Majestät der Zarin{/LINK}</color> angewendet hat, 20{NON_BREAK_SPACE}s lang eine Stapelung <color=#FFD780FF>Abrechnung</color>, max. 6-fach stapelbar. Die Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet.\nWenn sie über <color=#FFD780FF>Abrechnung</color> verfügt, verursacht das von Vesna herbeigerufene <color=#FFD780FF>{LINK#N11430004}Geisterschwert{/LINK}</color> Schaden in Höhe von 100{NON_BREAK_SPACE}% + (die Anzahl der Stapelungen von Abrechnung ×10{NON_BREAK_SPACE}%) des ursprünglichen Schadens. Beim Anwenden der Elementarfähigkeit <color=#FFD780FF>Kodex – Der Weg zum Sieg</color> oder beim Auswechseln der Figur werden alle Stapelungen <color=#FFD780FF>Abrechnung</color> von Vesna entfernt.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_05"
+      },
+      {
+        "GroupId": 14322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432201,
+              "Level": 1,
+              "Parameters": [
+                0.06,
+                25
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432201,
+        "Name": "Ratgeber – Siegeswind des Winters",
+        "Description": "#<color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>: Verleiht Vesna Effekte abhängig von den Elementartypen der Truppenmitglieder.\n· Erhöht für jede <color=#99FFFFFF>Kryo</color>- oder <color=#80FFD7FF>Anemo</color>-Figur in der aktuellen Truppe Vesnas ANG um 6{NON_BREAK_SPACE}%.\n· Erhöht für jede Figur eines anderen Elementartyps in der aktuellen Truppe Vesnas Elementarkunde um 25 Punkte.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_06"
+      },
+      {
+        "GroupId": 14323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432301,
+        "Name": "Sternensegnung – Präludium der Streuung",
+        "Description": "#Wandelt, wenn ein Truppenmitglied die Reaktion Kryo-Verwirbelung auslöst, diese stattdessen in die Reaktion Stellar-Verwirbelung um und erhöht den Basis-Schaden der Stellar-Verwirbelung von Truppenmitgliedern basierend auf Vesnas ANG: Erhöht den Basis-SCH der Reaktion Stellar-Verwirbelung pro 100 Punkte ANG um 0,7{NON_BREAK_SPACE}%. Auf diese Weise kann der Schaden um bis zu 14{NON_BREAK_SPACE}% erhöht werden.\nVersetzt Vesna, nachdem ein Truppenmitglied in der Nähe die Reaktion Stellar-Verwirbelung ausgelöst hat, 8{NON_BREAK_SPACE}s lang in den Zustand <color=#FFD780FF>Leuchten – Stellar-Verwirbelung</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_08"
+      },
+      {
+        "GroupId": 14325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432501,
+        "Name": "Schatzseelen-Patrouille",
+        "Description": "#Außerhalb des Kampfes kann Vesna durch Gedrückthalten von Rennen oder Springen in den Zustand <color=#FFD780FF>Parade</color> eintreten.\n\n<color=#FFD780FF>Parade</color>\nVerbraucht fortlaufend Ausdauer und hält den Schwebezustand aufrecht. Beim Rennen oder Drücken von Springen zum Erhöhen der Höhe wird zusätzliche Ausdauer verbraucht. Einschließlich des zum Eintritt in den Zustand <color=#FFD780FF>Parade</color> genutzten Sprungs durch Gedrückthalten kann die Höhe pro <color=#FFD780FF>Parade</color> insgesamt dreimal erhöht werden.\n\nZusätzlich gilt: Befindet sich das aktuelle Truppenmitglied in Snezhnaya (außer in Nod-Krai) außerhalb des Kampfes im Flug und wird zu Vesna gewechselt, tritt Vesna direkt in den Zustand <color=#FFD780FF>Parade</color> ein und stellt 50 Punkte Ausdauer wieder her, 10{NON_BREAK_SPACE}s Abklingzeit. Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1431,
+        "Name": "Bankett zum Winterabschied",
+        "Description": "#Ermöglicht Vesna im Modus <color=#FFD780FF>{LINK#N11430001}Einsatzbereit{/LINK}</color> eine viermalige Anwendung der <color=#FFD780FF>{LINK#N11430003}Flugwind-Klinge{/LINK}</color> auf höchster Stufe statt einer dreimaligen. Die erste Anwendung der <color=#FFD780FF>Flugwind-Klinge</color> auf höchster Stufe nach jedem Eintritt in den Modus <color=#FFD780FF>Einsatzbereit</color> verbraucht keine <color=#FFD780FF>{LINK#N11430002}Schwertaura{/LINK}</color>.\nAußerdem erhöht sich der durch Vesna im Modus <color=#FFD780FF>Einsatzbereit</color> verursachte Schaden durch die Reaktion Stellar-Verwirbelung um 20{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Vesna_01"
+      },
+      {
+        "Id": 1432,
+        "Name": "Reigen zum Frühlingsempfang",
+        "Description": "#Verstärkt das Aufstiegstalent <color=#FFD780FF>{LINK#P1432101}Zeremonie – Frühlingsprozession{/LINK}</color>: Verleiht Vesna, wenn sie in den Modus <color=#FFD780FF>{LINK#N11430001}Einsatzbereit{/LINK}</color> eintritt, die maximale Anzahl an Stapelungen <color=#FFD780FF>Abrechnung</color>. Erhöht bei maximaler Anzahl an Stapelungen <color=#FFD780FF>Abrechnung</color> Vesnas ANG um 40{NON_BREAK_SPACE}%.\nFür obigen Effekt muss zuerst das Aufstiegstalent „Zeremonie – Frühlingsprozession“ freigeschaltet werden.",
+        "Icon": "UI_Talent_S_Vesna_02"
+      },
+      {
+        "Id": 1433,
+        "Name": "Opfergabe der Flammen",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S11432}Kodex – Der Weg zum Sieg{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Vesna_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1434,
+        "Name": "Auszeichnung der Vorgänger",
+        "Description": "Verstärkt das Aufstiegstalent <color=#FFD780FF>{LINK#P1432201}Ratgeber – Siegeswind des Winters{/LINK}</color>: Erhöht den ANG und die Elementarkunde stattdessen um das Dreifache des ursprünglichen Werts.",
+        "Icon": "UI_Talent_S_Vesna_03"
+      },
+      {
+        "Id": 1435,
+        "Name": "Die Pflichten der Edlen",
+        "Description": "Erhöht die Stufe der Spezialfähigkeit <color=#FFD780FF>{LINK#S11435}Ehrerbietung – Gewidmet Ihrer Majestät der Zarin{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Vesna_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1436,
+        "Name": "Unerschütterliche Hingabe",
+        "Description": "#Innerhalb von 5{NON_BREAK_SPACE}s nach Anwendung der <color=#FFD780FF>{LINK#N11430003}Flugwind-Klinge{/LINK}</color> auf höchster Stufe kann Vesna durch Drücken des Standardangriffs oder der Elementarfähigkeit die geheime Vila-Schwertkunst „<color=#FFD780FF>Flugwind-Klinge – Wandlung</color>“ anwenden: Verursacht <color=#80FFD7FF>Anemo-SCH</color> in Höhe von 150{NON_BREAK_SPACE}% von Vesnas ANG und beschwört das <color=#FFD780FF>{LINK#N11430004}Geisterschwert{/LINK}</color> herbei, das zusätzlich <color=#80FFD7FF>Anemo-SCH</color> in Höhe von 200{NON_BREAK_SPACE}% von Vesnas ANG verursacht. Beschwört, wenn sich Vesna im Modus <color=#FFD780FF>{LINK#N11430001}Einsatzbereit{/LINK}</color> befindet, zusätzlich eine Feder im Wind herbei, die Gegner mit abgestimmten Angriffen attackiert.\n{LINK#N11190007}<color=#FFD780FF>Steigert</color>{/LINK} zudem den durch Vesnas Reaktion Stellar-Verwirbelung verursachten Schaden um 20{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Vesna_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Scharfe Klinge des Schneebanketts",
+    "Detail": "Die Kommandantin der Druzhna, Klinge der Zarin.",
+    "Association": 15,
+    "Native": "Druzhna",
+    "BirthMonth": 2,
+    "BirthDay": 4,
+    "VisionBefore": "Anemo",
+    "VisionOverrideLocked": "Sternenkeil",
+    "VisionOverrideUnlocked": "Göttliches Auge",
+    "ConstellationBefore": "Amentum Vernum",
+    "CvChinese": "龟娘",
+    "CvJapanese": "平野綾",
+    "CvEnglish": "Ari Thrash",
+    "CvKorean": "Joo Ye-jin",
+    "CookBonus": {
+      "OriginItemId": 108995,
+      "ItemId": 132037,
+      "InputList": [
+        101280,
+        100062,
+        110005,
+        110015
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "#Hallo, {F#meine liebe Freundin}{M#mein lieber Freund}. Hier ist Vesna, Kommandantin der „Druzhna“. Die Ehre ist ganz meinerseits. Schüsse zu deinem Salut und die Ehrengarde sind in Position, bereit, dir einen feierlichen Empfang zu bereiten. Falls du es nicht so mit großem Trara hast, habe ich natürlich auch eine eher private Begrüßungszeremonie organisiert. Komm, hier entlang."
+      },
+      {
+        "Title": "Gespräch – Zu Diensten",
+        "Context": "#Die „Druzhna“ steht einzig der Zarin zu Diensten, daher kann sie dir nicht auf Abruf zur Seite treten. Aber Vesna, die Vila, steht dir gerne zur Verfügung, {F#liebe Freundin}{M#lieber Freund}."
+      },
+      {
+        "Title": "Gespräch – Glücklich",
+        "Context": "Ist dieses Set nicht einfach umwerfend? Es war ein persönliches Geschenk von Ihrer Majestät. Hehe, ganz recht, schau es dir ruhig an."
+      },
+      {
+        "Title": "Gespräch – Gestärkt",
+        "Context": "Der Papierkram? *seufz* Den hab ich schon vor Ewigkeiten erledigt, das ging ruckzuck. Jetzt ist es Zeit, auf Patrouille zu gehen. Komm schon, gehen wir!"
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "Feen können sich durchaus erkälten. Wenn sie nass werden, ist es wichtig, dass sie sich sofort trockenflattern. Also die Flügel, meine ich."
+      },
+      {
+        "Title": "Wenn es schneit ...",
+        "Context": "Im Schnee kann schon die kleinste Unvollkommenheit in deiner Tarnung tödlich sein. Sei also besser vorsichtig."
+      },
+      {
+        "Title": "Wie sonnig ...",
+        "Context": "Ich weiß, was du denkst, und ich stimme dir zu. In der Sonne sehen meine Flügel am schönsten aus."
+      },
+      {
+        "Title": "Wenn es windig ist ...",
+        "Context": "Ah ... Hehe, sehr schön. Die Vila lieben einfach eine frische Brise."
+      },
+      {
+        "Title": "In der Wüste ...",
+        "Context": "Ich frage mich nur ... Wann kehren wir wieder nach Snezhnaya zurück?"
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Ein neuer Tag! Guten Morgen, Snezhnograd!"
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Auf geht's zum Restaurant Podvorye, komm schon! Geht natürlich auf mich. Wie immer!"
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "„Die Korolevskiy-Theaterkompanie präsentiert heute Abend eine neue Show. Mit dabei sind die hohe Sopranstimme von Primadonna Vodyanitsa, die neueste Choreografie von Fräulein Odette ... und ein paar „neue Freunde“."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "He ... nicht geschlafen. Komm doch mit auf einen nächtlichen Spaziergang. Die Nordlichter sind heute Nacht großartig!"
+      },
+      {
+        "Title": "Über Vesna – Magische Waffe",
+        "Context": "Siehst du diese kleinen Dinger, die um mich rumschwirren? Das sind meine magischen Waffen, meine eigenen Schöpfungen. Jedes einzelne ist eine Mischung aus Elementarenergie und meinem eigenen Willen, daher haben sie auch etwas von meiner Persönlichkeit geerbt. Das heißt, es kann sein, dass sie dich nerven, weil sie mit dir spielen wollen. Kümmere dich nicht um sie ... Aber wenn du Zeit hast, dann geh doch bitte auf ihre Wünsche ein, hehe!"
+      },
+      {
+        "Title": "Über Vesna – Kommandantin",
+        "Context": "Wer sagt, dass eine Kommandantin streng und einschüchternd sein muss? Pff, das ist nur was für Leute ohne Ausstrahlung. Ich hab sowas nicht nötig und ich glaube, da sind wir uns ziemlich ähnlich."
+      },
+      {
+        "Title": "Über uns – Die Wahrheit",
+        "Context": "Ja, ja, ich versteh schon. Es kursieren alle möglichen Gerüchte über mich, und du willst die Wahrheit wissen. Na gut, dafür haben wir reichlich Zeit. Aber im Gegenzug möchte ich auch die Wahrheit über dich wissen, und zwar bis ins kleinste Detail."
+      },
+      {
+        "Title": "Über uns – Unsere Geschichte",
+        "Context": "Mir gefällt die Vorstellung nicht, jemanden auf einer Reise zu „begleiten“. Auf den ersten Blick klingt das zwar romantisch, aber wenn man genauer darüber nachdenkt, reduziert das Wort „begleiten“ die eine Person eher zu einem Protagonisten und die andere zu einer bloßen Nebenfigur.\nDie Wahrheit ist: Jeder Schritt, den wir machen, ist unser eigener, ebenso wie die Dinge, die wir erleben, und die Art und Weise, wie wir auf diesem Weg wachsen. Deshalb werde ich nicht sagen, dass ich dich auf deiner Reise „begleite“; vielmehr freue ich mich, dass ich das Vergnügen habe, deine Gesellschaft auf dieser Reise zu genießen, die – zumindest vorerst – eine gemeinsame ist. Stell es dir so vor ... du gehst einfach so vor dich hin, kümmerst dich um deine eigenen Angelegenheiten, und irgendwann drehst du den Kopf und stellst fest: Oha! Haha, schau mal, wir scheinen ja beide in die gleiche Richtung zu gehen!"
+      },
+      {
+        "Title": "Über „Sternenkeil“ ...",
+        "Context": "Die „Sternenkeile“ sind wunderschön. Ein echtes Sammlerstück. Die „Mondräder“ sind eigentlich auch nicht schlecht. Ich wollte schon immer mal eines haben. Aber die „Visions“ ... Da habe ich im Moment kein Interesse dran, tut mir leid."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Ach, dieses alte Ding? Wunderschön, nicht wahr? Es ist ein Familienerbstück, weißt du. Viel, viel älter als ich. Eine echte Antiquität, die eigentlich in ein Museum gehört. Manchmal benutze ich es als Zauberstab, manchmal als Zeigestab, wenn ich Unterricht gebe, und manchmal als Befehlsstab ... Ach, siehe da, ich gebe ihm in seinem hohen Alter noch mal die Chance, seine glorreichen Tage noch einmal zu erleben, anstatt ihn irgendwo in einem Banktresor einzuschließen, wo er nur Staub fangen würde. Meine Vorfahren würden Schlange stehen, um mich zu preisen, wenn sie das wüssten!"
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Das Frostspringkraut ist ein Symbol für Schönheit und Widerstandskraft, da es trotz der extrem kalten Umgebung überlebt. Außerdem hat es ein sehr markantes Muster. Ich schaue es mir gerne mit halb geschlossenen Augen an, während ich den Kopf schüttle, hehe – das erzeugt einen verträumten Effekt, als würde man durch ein Kaleidoskop schauen. Allerdings würde ich empfehlen, das an einem abgelegenen Ort zu tun, an dem niemand sonst in der Nähe ist."
+      },
+      {
+        "Title": "Über die Zarin – Loyalität",
+        "Context": "Ich habe schon viel zu viele selbstgerechte Trottel festgenommen, die sich Ihrer Majestät widersetzen wollen. Ihre großspurigen Reden über Eroberung? Das ist alles nur heiße Luft. Sie haben weder die Strategie, um einen Aufstand anzuzetteln, noch die Kompetenz, ihn durchzuziehen. Im Vergleich zu diesen Möchtegern-Revolutionären ... Nein, das nehme ich zurück. Sie verdienen es nicht einmal, in einem Atemzug mit Ihrer Majestät genannt zu werden.\nWas ich damit sagen will, ist: Der Zarin zu dienen, ist nicht nur meine Pflicht als Vila. Es ist auch meine persönliche Entscheidung als Vesna."
+      },
+      {
+        "Title": "Über die Zarin – Mitgefühl",
+        "Context": "Ihre Majestät spricht das Wort „Mitgefühl“ stets mit einem eisigen Unterton aus. Sie sagt, es sei ein Fluch, den die Himmlische Ordnung den Göttern auferlegt hätten, und keine echte Liebe. Doch ich bin da anderer Meinung. Immer wenn ich von einem Feldzug gegen Monster zurückkehre, fügt Ihre Majestät am Ende ihres persönlichen Erlasses die Worte „ruh dich gut aus“ hinzu. Und nachdem die Macht des Herrschers des Lebens zurückerobert worden war, spürte sie, wie enttäuscht ich war, obwohl ich mich bemühte, es zu verbergen, und schickte mir den nicht beanspruchten Teil zurück ...\nJemand in ihrer Position ist zu nichts davon verpflichtet. Auch auf die Gefahr hin, anmaßend zu klingen: Ich war schon immer der Überzeugung, dass die Frage, ob ein Gott wirklich liebevoll sein kann, nur von seinem Volk beantwortet werden kann. Warum sollte also mein Urteil nicht zählen?"
+      },
+      {
+        "Title": "Über Danica – Kindheit",
+        "Context": "Oh, liebstes Fräulein Danica ... Lass dich nicht von ihrem ernsten und grüblerischen Auftreten täuschen. Als wir klein waren, haben wir zusammen alle möglichen Streiche ausgeheckt ... Wie zum Beispiel damals, als wir vorhatten, dem Lehrer die Maske direkt vom Gesicht zu stibitzen. Wir haben es bis auf seine Schultern geschafft, bevor wir erwischt wurden! Klar, wir haben es nicht ganz durchgezogen, und ja, wir wurden bestraft und mussten stundenlang auf einem zugefrorenen See strammstehen ... Aber egal, darum geht es gar nicht! Sie war doch diejenige, die sich diese verrückte Idee überhaupt erst ausgedacht hat! Sie war genauso eine Unruhestifterin wie ich. Und jetzt guckt sie mich ständig so an, als wäre sie die Erwachsene und ich das Kind. Ich meine, komm schon! Ich bin doch eigentlich die Ältere."
+      },
+      {
+        "Title": "Über Danica – Streitigkeiten",
+        "Context": "Wir haben verlässliche Informationen, dass bestimmte Verdächtige bizarre Veranstaltungen wie „Streitwettbewerbe“ als Deckmantel nutzen, um illegale Geschäfte abzuwickeln, wobei die ausgelassene Menge als willkommene Ablenkung dient ... Und so ist es meine Aufgabe, einzugreifen.\nZu diesem Zweck habe ich mir die Freiheit genommen, Danica anzumelden. Sie ist eine Meisterin darin, andere mit trockenen Sprüchen zu entlarven und sie genau dort zu treffen, wo es wehtut. Bei einem Streit kann ihr niemand das Wasser reichen, also wird sie mir auf jeden Fall jede Menge Zeit verschaffen.\nIch zähle auf dich, Danica!"
+      },
+      {
+        "Title": "Über „Capitano“ ...",
+        "Context": "Ich erinnere mich immer noch daran, wie er von hinten aussah. Kräftig und standhaft, wie ein unerschütterlicher Berg. Ich hätte mir nie vorstellen können, dass einmal der Tag kommen würde, an dem dieser Berg einstürzen würde. Oder zumindest ... hätte ich nicht gedacht, dass es so schnell gehen würde. Er hat immer gesagt: „In einem echten Krieg hat man keine Gelegenheit, sich zu verabschieden.“ Von allen Möglichkeiten, mir das zu beweisen ... Sicherlich hätte er mir vor dem Ende noch eine letzte Chance geben können, aber das hat er nie getan ...\nDas werde ich dir nie verzeihen, mein werter Lehrer."
+      },
+      {
+        "Title": "Über „Pierro“ ...",
+        "Context": "Manche Menschen schreiten beschwingt durch die Welt, die meisten von ihnen erfüllt von Hoffnung auf das, was der morgige Tag wohl bringen wird. Er ist nicht so. Seine Schritte sind stets langsam und schwer. Ich hatte immer das Gefühl, dass er und mein Lehrer sich sehr ähnlich sind. Ich vermute, das liegt daran, dass beide unvorstellbaren Kummer hinter ihrer Maske verbergen und den ganzen Schmerz der Vergangenheit auf ihren Schultern tragen."
+      },
+      {
+        "Title": "Über „Pulcinella“ ...",
+        "Context": "Der Bürgermeister spricht auf der Versammlung in Snezhnograd so eloquent und gelassen, und es sieht bei ihm so einfach aus. Er hat den Raum wirklich fest im Griff."
+      },
+      {
+        "Title": "Über „Pantalone“ ...",
+        "Context": "Ich will ja nicht behaupten, dass das Gehalt einer Kommandantin der „Druzhna“ niedrig ist, aber es kann schon mal etwas knapp werden, wenn man eine begeisterte Sammlerin ist und außerdem gerne andere zum Essen einlädt ... Nein, oh nein, nein, nein, so hab ich das nicht gemeint! Lass mich ausreden. Seit ich mich erinnern kann, werden die Ersparnisse meiner Familie von der Bank des Nordens verwaltet, und dank Herrn Pantalone haben die Zinseszinsen unser Vermögen erheblich vermehrt. Im Grunde genommen muss ich mir überhaupt keine Sorgen um meine Finanzen machen. Wenn wir also das nächste Mal weggehen, lade ich trotzdem ein; und wag es ja nicht, dich zurückzuhalten!"
+      },
+      {
+        "Title": "Über „Sandrone“ ...",
+        "Context": "Sandrone verkörpert voll und ganz das, was es bedeutet, eine Dame zu sein. Ihre Worte mögen zwar sehr aggressiv klingen, aber ihre makellose Logik macht es unmöglich, ihr etwas vorzuwerfen ... Hehe, das fasziniert mich wirklich. Ich muss lernen, wie sie das macht."
+      },
+      {
+        "Title": "Über Mitya ...",
+        "Context": "Mitya macht oft bei meinen Streichen mit. Er schleicht sich ständig aus der Waffenkammer, und wir drei haben dann immer einen Riesenspaß! Warum „drei“, fragst du? Weil da ich bin, Mitya und sein ach so schlauer Schal."
+      },
+      {
+        "Title": "Über Vodyanitsa ...",
+        "Context": "Jedes einzelne von Frau Vodyanitsas Liedern ist einfach wunderschön. Ich liebe es, sie live zu hören. Mal erfüllen sie mich mit Freude, mal rühren sie mich zu Tränen, genau wie alle anderen im Publikum. Manchmal bleiben alle nach der Vorstellung noch an ihrem Platz und fangen plötzlich gemeinsam an zu singen. Nun, lustigerweise halte ich gerade zufällig einen Dirigentenstab in der Hand. Und noch lustiger ist, dass mir schon mehrmals aufgefallen ist, dass sich Frau Vodyanitsa, nachdem sie sich ihres Bühnenoutfits entledigt hat, still in die Menge einreiht, einen Hut aufsetzt und die Gruppe im Chor begleitet."
+      },
+      {
+        "Title": "Über Odette ...",
+        "Context": "Ich muss gestehen, jedes Mal, wenn ich Fräulein Odette bei einem Hofempfang sehe, ertappe ich mich dabei, wie ich ihr ständig verstohlene Blicke zuwerfe. Schließlich ist sie nicht nur ein Mitglied der Fatui, sondern hat auch ein besonderes Alter Ego, das es schwer macht, sie zu ignorieren ... Hmm? Na, ihre Rolle als Primaballerina der Korolevskiy-Theaterkompanie natürlich. Was dachtest du denn?"
+      },
+      {
+        "Title": "Über Alyosha ...",
+        "Context": "Ich verstehe das, wirklich. Ich meine, wie könnte ein kleiner Welpe dem Drang widerstehen, einem hübschen Schmetterling durch den „heulenden“ Wind nachzujagen? Hmm ... Vielleicht klaue ich Danicas Frühstück und gebe es Tugarin zu fressen, und bitte dann Alyosha, ein gutes Wort für mich einzulegen, damit er nicht sofort auf mich losstürmt, sobald er mich sieht ..."
+      },
+      {
+        "Title": "Ich will mehr über Vesna erfahren I",
+        "Context": "Hehe, wie würdest du mich denn gerne kennenlernen? Wir wollen doch sicher nicht nur quatschen, oder? Na ja, das macht ja keinen Spaß ... Hmm ... Wollen wir nicht lieber eine Runde „Wahrheit oder Pflicht“ spielen?"
+      },
+      {
+        "Title": "Ich will mehr über Vesna erfahren II",
+        "Context": "Wir, die Druzhna, sind die Leibgarde der Zarin und unterstehen direkt dem Befehl Ihrer Majestät. Unsere Aufgaben beschränken sich nicht nur darauf, Bedrohungen durch Monster zu neutralisieren und in den Kampf zu ziehen, sondern gehen weit über militärische Belange hinaus. In allen Angelegenheiten, die die Autorität und Ehre Ihrer Majestät betreffen, sind wir verpflichtet, ihrem Ruf bedingungslos zu folgen und ihr alle Hindernisse aus dem Weg zu räumen.\nAllerdings ist Ihre Majestät zwangsläufig etwas überlastet, solange dieses großartige Unterfangen gegen die Himmlische Ordnung andauert. Bis sich die Lage wieder beruhigt hat, unterstütze ich sie daher nur allzu gerne bei den unterhaltsamen Dingen ... *räusper* Ich meine natürlich bei den eher nebensächlichen Angelegenheiten, wie zum Beispiel bei Eröffnungszeremonien und der Teilnahme an Banketten in ihrem Namen."
+      },
+      {
+        "Title": "Ich will mehr über Vesna erfahren III",
+        "Context": "Ich habe eine kunterbunte Sammlung an Schätzen. Schmuck, alte Bücher, Ölgemälde ... Alles, was mich glücklich macht, ist es wert, in meine Sammlung aufgenommen zu werden. Und wenn ich etwas sehe, das mir gefällt, muss ich es sofort haben und keine Sekunde später! Du kennst doch das Sprichwort: „Teuer ist der Löffel, wenn die Mittagszeit naht.“ Wenn man also wartet, bis der erste Reiz verflogen ist, bevor man es erwirbt, verliert es seinen Reiz. Wenn ich es also jetzt will, muss ich es auch jetzt haben."
+      },
+      {
+        "Title": "Ich will mehr über Vesna erfahren IV",
+        "Context": "Nach dem Opfer des Herrschers Monomach durchlebte Snezhnaya eine Zeit großer Unruhen. Meine Vorfahren standen fest an der Seite der Zarin. Ich bin heute nur hier, weil sie den Weg dafür bereitet haben; und doch frage ich mich, ob ich wirklich die Kraft habe, ihrem Vermächtnis gerecht zu werden. Hehe, ich konnte die Frage förmlich vor mir sehen, die dir durch den Kopf schwirrte ... Nun, jetzt bist du an der Reihe, mir meine Frage zu beantworten!"
+      },
+      {
+        "Title": "Ich will mehr über Vesna erfahren V",
+        "Context": "Am Vorabend der Schlacht gegen den Herrscher des Todes entnahm ich vielen Menschen das „Lebenssiegel“. Was eine schöne Erinnerung ausmacht, ist für jeden etwas anderes. Manche schätzen es, mit der Familie am Kamin zu sitzen und gemütlich zu plaudern. Andere erinnern sich gerne daran, wie sie allein am Zugfenster saßen und beobachteten, wie die Nordlichter lautlos über den Nachthimmel glitten. Wieder andere sind schon zufrieden, wenn sie einfach nur den Schlitten herausholen, um Eisfischen zu gehen ...\nDiese Erinnerungen sind wie schillernde Blasen, die eine brennende, pulsierende „Lebenskraft“ in sich tragen, die einen unwillkürlich ausrufen lässt: „Ach, es ist so schön, am Leben zu sein!“\nUnd doch können diese sogenannten himmlischen Wesen diese Träume mit müheloser Leichtigkeit zunichte machen, ohne auch nur ein einziges Wort der Erklärung zu geben. Wer gibt ihnen das Recht dazu?\nVon diesem Moment an ging es für mich beim Widerstand gegen die himmlische Ordnung nicht mehr nur darum, Ihrer Majestät zur Seite zu stehen."
+      },
+      {
+        "Title": "Vesnas Hobbys ...",
+        "Context": "Als ich noch ganz klein war, hat meine Familie dafür gesorgt, dass ich Mal-, Tanz- und Gesangsunterricht nehme. Als ich dann etwas älter wurde, habe ich mit Fechten, Reiten und ähnlichen Aktivitäten angefangen, hehe ... In letzter Zeit begeistere ich mich für Oper, Theater und das Sammeln meiner kleinen Schätze ... Kurz gesagt: Das Wort „Langeweile“ kommt in meinem Wortschatz nicht vor."
+      },
+      {
+        "Title": "Vesnas Sorgen ...",
+        "Context": "Hör bloß nicht auf Danicas Unsinn, an meinen Fahrkünsten ist absolut nichts auszusetzen. Das nennt man „Eins sein mit dem Fahrzeug“! Warte nur, bis mein Fahrverbot aufgehoben wird. Dann nehme ich dich mit auf eine Spritztour!"
+      },
+      {
+        "Title": "Was sie so mag ...",
+        "Context": "Wenn es draußen so kalt ist, gibt es nichts Gemütlicheres, als wenn sich alle zu einem leckeren, heißen Eintopf zusammenzufinden! Ich schlage vor, ich bin die Gastgeberin, und du und Paimon bringt ein paar Zutaten mit. Bringt einfach alles mit, was ihr so mögt."
+      },
+      {
+        "Title": "Was sie nicht mag ...",
+        "Context": "Hehe! Danica kann gerne das ganze eklige Gemüse haben, ich schieb’s auf ihren Teller! Ugh ... Aber warum landet es immer wieder auf meinem Teller ..."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Oh, da sage ich nicht nein! Ich werde jeden einzelnen Biss davon genießen."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "Mmm ... Ein echtes kulinarisches Meisterwerk ... Ich denke, ich nehme noch einen Bissen."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Ohh, tut mir leid, ich habe schon gegessen! Aber lass es mich für Danica einpacken!"
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "#Ding-dong! Der Moment ist gekommen! Du kannst dir gar nicht vorstellen, wie schwer es mir gestern gefallen ist, es für mich zu behalten ... Aber ich musste es tun, denn es bringt Unglück, es zu früh zu sagen; man könnte ja von einem Schneesturm verschlungen werden! Jetzt kann ich es endlich sagen: Alles Gute zum Geburtstag, mein{F#e} liebe{M#r} Freund{F#in}. Mögest du so stark stehen wie die Birke, die sich niemals von Wind und Schnee bezwingen lässt.\nSo, das wäre erledigt. Als Nächstes schreibt die Tradition vor, dass ich unserem Geburtstagskind ein paar sanfte Zupfer am Ohr verpasse ..."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "Erste Lektion im Ausbildungslager: Nur wer standhaft bleibt und sich weder von Wind noch Schnee beirren lässt, ist qualifiziert, an der Seite Ihrer Majestät Wache zu stehen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Zweite Lektion im Ausbildungslager: Der Arm, der dein Schwert führt, darf niemals zittern."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Dritte Lektion im Ausbildungslager: Niemals vor dem Gegner Tränen vergießen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "#Du, {M#lieber Freund}{F#liebe Freundin}, hast mir eine wichtige Lektion erteilt, die weit über das Ausbildungslager hinausgeht: dass ich mir eine sanfte Geste aufheben soll, mit der ich diejenigen umarmen kann, die ich mit meinem Schwert verteidige, nachdem der Schneesturm sich gelegt hat."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "In Formation!"
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Salutiere!"
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Erhebt eure Schwerter!"
+      },
+      {
+        "Title": "Elementarfähigkeit IV",
+        "Context": "Breche durch!"
+      },
+      {
+        "Title": "Elementarfähigkeit V",
+        "Context": "Wo das herkommt, gibt’s noch mehr!"
+      },
+      {
+        "Title": "Elementarfähigkeit VI",
+        "Context": "Mit freundlichen Grüßen!"
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Haha, also gut. Lass uns spielen!"
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Ziel erfasst! Es gibt kein Entkommen!"
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Für die Zarin!"
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Hoho, und noch ein Stück für meine Sammlung!"
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Eins für dich, eins für mich, eins für Ihre Majestät und noch eins für mich! Und Danica kriegt nichts, hehe!"
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Na, da sieh mal einer an!"
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Eine Kommandantin bleibt immer auf dem Schlachtfeld."
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Keine Sorge, dem Rest weiche ich aus ..."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "*räusper* ... Nur ein vorübergehender Rückschlag ..."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Zieh dich zurück. Die Druzhna übernimmt ab hier."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Übernimm dich nicht."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "Meine Flügel ... gestutzt ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Lang lebe ... die Zarin ..."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Ich habe keine Schmerzen ... ich will es nur nicht wahrhaben ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Darf ich mal?"
+      },
+      {
+        "Title": "Leichten Treffer erlitten II",
+        "Context": "Huch?"
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Ganz schön mutig!"
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Wie unverschämt!"
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Zeit für eine Patrouille!"
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Ich hoffe, du hast etwas Lustiges geplant!"
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "#Zu deinen Diensten, Kommandant{F#in} ..."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "In Snezhnaya ist der Klan-Name „Strivozha“ eine nicht zu unterschätzende Größe.\nDiese uralte Vila-Blutlinie, die vor dem Ende von Snezhnayas Unruhen bereits existierte, hat unzählige Schneestürme überstanden und trägt unzählige Ehren in sich.\nVesna wird diesem Familiennamen offensichtlich gerecht. Sie ist strahlend und anmutig, mit ausgesuchter Eleganz und einer ruhigen Gelassenheit – zumindest in den meisten Fällen.\nVesna, eine wahre freie Seele, weigert sich, sich den von anderen festgelegten gesellschaftlichen Normen zu beugen, und überrascht oft andere mit ihren erstaunlichen Aktionen:\nManchmal fährt sie einen Zug so rücksichtslos schnell, dass hinter ihm nur ein verschwommener Schatten zurückbleibt, und sie bekommt dafür ein Fahrverbot. Manchmal legt sie auf den Teller eines Kollegen sorgfältig ausgewählte saure Zitronenscheiben und wartet gespannt darauf, wie er darauf reagiert ...\nDoch niemand würde deshalb Vesnas Tugend und Ehre anzweifeln, denn sie beruhen nicht auf oberflächlichen Sitten und Gesten, sondern auf ihrer scharfen Klinge.\nDie Druzhna ist das Schwert, das die Zarin selbst führt, und Vesna ist ihre schärfste Klinge."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "Es war Anfang Februar, und der eisige Winter war noch lange nicht vorüber. Im Vorort Snezhnayas lag das stille Anwesen der Familie Strivozha.\nDie schwangere Großherzogin Benigna ruhte sich hier bereits seit neun Monaten aus. Ihre Tage verstrichen voller Muße, und sie widmete sich Tag für Tag lediglich der Pflege ihres eigenen Gartens.\nDie Gewächse im Garten waren von seltener Art. Darunter fanden sich aus dem Volk zusammengetragene Raritäten wie Sommer-Hahnenfuß, Albino-Stachelbeeren, fünfblättriger Flieder, beerenloser Holunder ...\nEbenso gab es wundersame Blumen, die von den Parfümeuren und Elixiermischern der Familie gezüchtet worden waren, wie etwa Kreuzungen aus Dill und Koriander oder aus Safran und Snezhnaya-Winterling ...\nEs gab sogar uralte Sorten, die seit den Zeiten der Heiligen Strivozha überdauert hatten, wie etwa jenen roten Farn, der in diesem Augenblick den Blick der Großherzogin auf sich zog.\nDieser flammenrote Farn stand schon hier, seit sie den Garten übernommen hatte, und war all die Jahre stets in seinem gewohnten Rhythmus und Zyklus gewachsen.\nIm Herbst welkte er dahin, im Winter ruhte er, und erst mit Anbruch des Frühlings trieb er wieder blassrote, eingerollte Blättchen aus, die der Schnecke einer Geige glichen und seinen Neubeginn verkündeten.\nDoch noch ehe der Frühling eingekehrt war, schwollen seine Triebe und Blattadern bereits prall an – ein Anblick, der so gar nicht zum eisigen Winter passen wollte.\nDicht über dem Boden breitete sich ein zarter, blassroter Flaum aus, durchsetzt von vereinzelten, halbtransparenten, herzförmigen Schüppchen.\nAuf diesen Schüppchen ließ sich erkennen, wie der Pflanzensaft langsam durch die Adern strömte – gleich einem neugeborenen Herzen, das seinen ersten Pulsschlag tat. Es war die Urform der jungen Blätter.\nDie Vila sind ein naturverbundenes Volk. Großherzogin Benigna war sich vollends bewusst, dass dieses Wachstum wider den natürlichen Rhythmus geschah: Der Zyklus dieses Farns war seiner Zeit um einen vollen Monat voraus.\nSie erhob sich und ging im restlichen Garten umher, doch bot sich ihr ein noch größeres Wunder: Wohin sie auch trat, begannen die Pflanzen sogleich auf dieselbe Weise auszutreiben.\nGerade als sie ihrem Vater und ihrem Gatten davon berichten wollte – sei es aus der Erschöpfung der Schwangerschaft heraus oder gelenkt von einem Schicksal, das seit vielen Jahren unentschieden am hohen Himmel schwebte –\ntrat sie unversehens auf eine Stelle ungetauten Schnees, glitt mit einem Aufschrei aus und stürzte zu Boden.\nBei diesem Sturz zerdrückte sie den seltenen roten Farn, und das Kind unter ihrem Herzen folgte demselben Pfad wie die jungen Triebe im Garten. Es erblickte einen Monat zu früh das Licht der Welt.\nZum Glück erwies sich das frühgeborene Kind als überaus gesund, und auch die Mutter erholte sich nach wenigen Wochen wieder vollständig.\nDer strenge Winter jenes Jahres jedoch – der Winter in ganz Snezhnaya – fand ein verfrühtes Ende, als noch an jenem Tag die Birken vorzeitig Knospen trieben und Schneeglöckchen durch die Schneedecke brachen.\nSpäter drang die Kunde davon auch zu Ihrer Majestät, der Zarin von Snezhnaya. Sie stattete dem Anwesen der Vila einen Besuch ab, um der Großherzogin und ihrem außergewöhnlichen Neugeborenen ihre Gunst zu erweisen.\nEs heißt, die Zarin habe das Kind gar sehr ins Herz geschlossen und ihm sogar höchstpersönlich seinen Namen verliehen –\nVesna, was so viel bedeutet wie „der Frühling, der sie begleitet“."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "Als Vesna noch klein war, wiegte ihre Mutter sie Nacht für Nacht mit herzerwärmenden kleinen Geschichten in den Schlaf.\nGroßherzogin Benigna hatte sich all diese Erzählungen anhand der Blumen und Pflanzen in ihrem Garten ersonnen, und meist begannen sie so –\n„Vesna, du mein tapferes Schneeball-Mädchen ...“\n„Vesna, du mein vom Glück gesegnetes Flieder-Mädchen ...“\n„Vesna, du mein kluges Kornblumen-Mädchen ...“\nInmitten dieser zärtlichen Kosenamen ihrer Mutter empfand Vesna stets ein Gefühl unendlicher Geborgenheit und Wärme.\nDoch unter all diesen unvergleichlichen Kosenamen brannte sich einer am tiefsten in ihr Gedächtnis ein –\n„Vesna, du mein unsterbliches Flammenfarn-Mädchen ...“\nSie wusste, dass dieser Farn auf der ganzen Welt einzigartig war und einzig im Garten der Familie Strivozha gedieh.\nEs war jener Farn, den ihre Urahnin, die Herrin der Vila der Veneter, „die Reine“ Vaselisa von Strivozha, eigenhändig herangezogen hatte.\nVor Jahrtausenden hatte sie Kaiser Monomach ein aus den Wedeln jenes Farns destilliertes Parfüm dargebracht und damit unvergänglichen Ruhm erlangt.\nEr verkörperte die Reinheit, Güte, Aufrichtigkeit und Unsterblichkeit der heiligen Strivozha und des Volkes der Vila.\nDoch dieser sagenumwobene Farn war bei ihrer Geburt versehentlich von ihrer Mutter niedergedrückt worden und vermochte danach nie wieder auszutreiben.\nSein unsterbliches Leben war aus diesem Garten gewichen, so wie auch die unsterbliche heilige Strivozha ihre treuen Nachfahren längst verlassen hatte.\nDie junge Vesna glaubte, darin eine tiefe Wahrheit erkannt zu haben: Nichts auf dieser Welt währt ewig, und allem Seienden wohnt ein Abschied inne.\nSo blickte die kleine Vesna mit leuchtenden Augen zu ihrer Mutter auf und sprach:\n„Mama, ich habe verstanden, was du mir sagen wolltest: Nichts auf der Welt währt ewig, und auch der Frühling zieht eines Tages fort.“\n„Darum sollten wir den Augenblick schätzen. Wenn der Frühling einkehrt, genießen wir den Frühling, und wenn der Sommer naht, heißen wir den Sommer willkommen. Mit dem Herbst und dem Winter halten wir es ebenso.“\n„Hauptsache, wir vergeuden keinen einzigen Tag, nicht wahr?“\nGroßherzogin Benigna blickte Vesna erstaunt an, unterdrückte jedoch rasch ein Lächeln und erwiderte:\n„Braves Kind, du machst dir ja noch tiefere Gedanken als Mama. Natürlich hast du vollkommen recht.“\n„Aber überlege noch einmal, es gibt ganz gewiss Dinge auf dieser Welt, die unvergänglich sind ...“\nVesna riss ihre großen Augen auf und fragte ganz aufgeregt: „Was denn? Was denn?“\nGroßherzogin Benigna schloss Vesna in die Arme, beugte sich hinab, hauchte ihr einen Kuss auf die zarte Wange und sprach mit sanfter Stimme:\n„Du kleines Närrchen, Mamas Liebe zu dir vergeht doch niemals.“"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "In den Augen der Ältesten des Vila-Volkes glich die mit dem Segen von Frühling und Winter geborene Vesna bereits einer kleinen lebenden Legende.\nDoch selbst gemessen an der Erwartung, dass dieses Kind gewiss einmal Großes vollbringen würde, versetzte ihr Heranwachsen die Gemüter immer wieder in schieres Staunen.\nWährend andere einjährige Vila noch auf dem Boden krabbelten und vor sich hin brabbelten, vermochte sie bereits die Namen jedes einzelnen Gewächses im Garten fehlerfrei aufzusagen.\nAls den zweijährigen Vila-Kindern gerade erst die chitinösen Spitzen ihrer Schuppenflügel am Rücken sprossen, schwang sie sich bereits in die Lüfte, glitt auf den Winden dahin und zog dutzende Runden über dem Anwesen.\nAls dreijährige Vila-Kinder erst zu lernen begannen, wie man aus Blüten und Kräutern Düfte und Elixiere mischt, waren ihre Kreationen bereits von den Schminktischen der Hofdamen kaum mehr wegzudenken.\nIn ihrem zierlichen Körper wohnte eine unbändige Lebenskraft inne. Ganz so, als sei der Frühling, der einst mit ihr Einzug gehalten hatte, nie vergangen, sondern habe sich in jedem Lächeln des Mädchens verborgen.\nUnter all den Ältesten, die sich an Vesnas Lächeln erfreuten, erahnte jedoch nur ein Einziger, um welch tiefgründige Macht es sich bei ihren Gaben in Wahrheit handelte.\nEs war Großherzogin Benignas Vater, Vesnas Großvater: der amtierende Großherzog der Vila, Pyotr.\nAm Abend nach den Feierlichkeiten zu Vesnas fünftem Geburtstag weihte Großherzog Pyotr seine junge Enkelin im Arbeitszimmer in ein streng gehütetes Kapitel der Vergangenheit ein.\nDiese Geschichte reichte noch weiter zurück als der Silberhof Veneters und wies auf den Ursprung des Vila-Geschlechts hin – auf das Zeitalter von Hyperborea.\nMan erzählte sich, dass der Engel aller Engel einst ein Fragment der Autorität eines Unnennbaren an sich gerissen hatte. Nach vielen Irrungen und Wirrungen fand jener Splitter der Macht schließlich Zuflucht im Blute der Vila.\nSowohl das Wunder bei Vesnas Geburt – dass selbst der Frühling vorzeitig einkehrte – als auch ihr staunenswertes Heranwachsen deuteten unmissverständlich darauf hin, dass jener Splitter der Macht in ihr erwacht war.\nDer Name jener Macht lautete – Leben.\nDamals vermochte Vesna das ganze Gewicht dieses Wortes noch nicht zu ermessen, doch die weiteren Worte ihres Großvaters erschütterten sie bis ins Mark.\n„Die Welt weiß wohl, dass wir Vila seit jeher für unsere Aufrichtigkeit, unseren Edelmut, unsere Güte und unsere Treue zu Ihrer Majestät, der Zarin, gerühmt werden.“\n„Doch seit den Tagen von Großherzogin Gluvasha vor fünfhundert Jahren bis zum heutigen Tage ... genossen wir Vila nicht einen einzigen Tag das wahrhafte Vertrauen Ihrer Majestät.“\nHätte ihr eigener Großvater diese Worte nicht selbst ausgesprochen, hätte Vesna ihnen niemals Glauben geschenkt.\nDoch noch ehe sie nach den Gründen forschen konnte, lud ihr Großvater eine Bürde auf ihre zarten Schultern, die ein Kind ihres Alters niemals hätte tragen sollen.\n„Vesna, Stolz unseres Geschlechts, du bist in fünfhundert Jahren die einzige Begnadete unseres Hauses, in der die Kraft des Blutes erwacht ist.“\n„Du bist in all den fünf Jahrhunderten auch die Einzige unseres Hauses, der die Gnade zuteilwurde, von Ihrer Majestät persönlich einen Namen verliehen zu bekommen.“\n„Womöglich liegt das Schicksal des Hauses Strivozha für die kommenden fünfhundert Jahre ganz in deinen Händen.“"
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Von ihrem fünften Lebensjahr an besuchte Vesna keine öffentliche Schule mehr. Ihre Unterweisung übernahmen hochangesehene Gelehrte verschiedenster Schulen, die ihr Großvater eigens ins Haus berief.\nIhre Tage waren von früh bis spät mit anspruchsvollem Unterricht angefüllt. Weder bot sich ihr die Gelegenheit, mit Gleichaltrigen zu spielen, noch blieb ihr Zeit, unbeschwert im heimischen Garten herumzutollen.\nSelbst Ausflüge mit ihrer Mutter in die Natur unterband der Großvater mit strenger Hand, und das alles einzig deshalb, weil man in ihr die Hoffnung des gesamten Hauses sah.\nIhre freie Zeit schwand zusehends, und mit ihr verblasste auch jenes frühlingshafte, heitere Lächeln, das einst ihr Antlitz erhellt hatte.\nSie begriff bis zuletzt nicht, ob die angebliche Krise – das Misstrauen Ihrer Majestät gegenüber dem Volk der Vila – eine reale Bedrohung war oder bloß ein Hirngespinst im gealterten Verstand ihres Großvaters.\nSo vergingen an die fünf Jahre, bis in einer stürmischen Winternacht der Besuch eines ganz besonderen Lehrers alles veränderte.\nWie ihr Großvater versicherte, hatte er Himmel und Hölle in Bewegung gesetzt und unzählige Mittel aufgewendet, um diesen Lehrer für sie zu gewinnen.\nIn jener Nacht saß Vesna mit bangem Herzen im Arbeitszimmer und harrte der Ankunft des Lehrers. Es dauerte nicht lange, da stieß ein kleinwüchsiger Gast leise die Tür auf und trat herein.\nDer Fremde legte seinen schneeverwehten Mantel ab und gab sein Antlitz frei, das im Schatten der Kapuze verborgen gelegen hatte. Als Vesna seiner gewahr wurde, entfuhr ihr ein leiser Schrei des Erstaunens.\nDer Besucher war kein Geringerer als der amtierende Bürgermeister von Snezhnograd und Vorsitzende der Snezhnograd-Wetsche, der Fünfte der Elf der Fatui – der „Hahn“ Pulcinella.\nDas höchste Verwaltungsoberhaupt Snezhnayas blickte sich kurz im Zimmer um, schleppte eigenhändig einen Stuhl aus der Ecke heran, der ihm beinahe bis an die Schultern reichte, setzte sich Vesna gegenüber und hob mit sanfter Stimme an:\n„Guten Abend, liebes Fräulein Farn. Verzeih bitte, dass ich zuvor mit deiner werten Mutter gesprochen habe. Sie meinte, dieser Kosename würde dir vielleicht die Scheu nehmen. Fühlst du dich nun ein wenig wohler?“\nAls Vesna hörte, wie der „Hahn“ ihre Mutter und jene vertraute Anrede nannte, löste sich ihre Anspannung etwas, und sie erwiderte: „Ja, Herr Bürgermeister Pulcinella, es geht mir schon viel besser.“\nDer „Hahn“ nickte mit einem Lächeln: „Sehr schön. Ich freue mich aufrichtig für dich, eine solche Mutter zu haben. Dein Großvater hingegen ... Großherzog Pyotr, der ist wahrlich kein sonderlich angenehmer Zeitgenosse, nicht wahr?“\nBei dieser Frage zog sich Vesnas Herz sogleich wieder ein wenig zusammen. Sie vermochte die verborgene Absicht des Bürgermeisters nicht zu ergründen und wagte es erst recht nicht, unbedacht zu antworten.\nGlücklicherweise hob der „Hahn“ abwehrend die Hand und bedeutete ihr, dass sie nicht antworten müsse: „Dein Großvater hat dir gewiss erzählt, ich sei jener Lehrer, den er unter unendlichen Mühen hergebeten hat. Was meinst du dazu?“\nDiese Frage schien keine verfänglichen Tücken zu bergen. Nach kurzem Überlegen gab Vesna zur Antwort: „Hätte mein Großvater tatsächlich eine solche Macht besessen, wäre der Herr Bürgermeister wohl schon viel früher hier gewesen.“\nDer „Hahn“ schmunzelte, zwirbelte seinen Schnurrbart und sprach: „Wie es scheint, hätte ich dich schlaues kleines Mädchen in der Tat schon viel eher aufsuchen sollen. Du hast recht. In Wahrheit führe ich den erhabenen Willen Ihrer Majestät, der Zarin, aus.“\nOhne Vesnas Erwiderung abzuwarten, nahm er eine ernstere Miene an und fuhr fort: „Ihre Majestät trug mir auf, einen Zweifel in deinem Herzen auszuräumen: Die Krise, die dein Großvater, Großherzog Pyotr, so sehr fürchtet, ist keineswegs ein Hirngespinst.“\n„In den Augen Ihrer Majestät war das Haus Strivozha von jeher nicht über jeden Zweifel erhaben. In der Snezhnograd-Wetsche sind deiner Familie nur wenige Sitze vergönnt – weit weniger noch als der Kaufmannschaft.“\nSelbst angesichts dieser unumstößlichen Gewissheit weigerte sich Vesna, die Wahrheit wahrzuhaben. Sie hakte nach: „Unsere Familie blickt auf so viel Ruhm und Ehre zurück ... Aber warum nur?“\nDer „Hahn“ blickte mit mildem Blick zum Fenster hinaus: „Dann nehme ich an, deine Mutter hat dir bereits die Legende um den roten Farn anvertraut ...“\n„Das Volk der Vila verstand sich seit jeher meisterhaft darauf, aus Pflanzen Wohlgerüche und Elixiere zu gewinnen ... Doch weißt du auch: Wenn Düfte und Heiltränke einen leiblichen Bruder besäßen, so wäre es das tödlichste aller Gifte.“\n„Die heilige Strivozha nutzte ihn zwar allein zur Duftbereitung, doch vor fünfhundert Jahren vergiftete Gluvasha aus dem Hause Strivozha den damaligen Großherzog Photius eigenhändig mit Honigmet, der aus den Blättern jenes Farns gebraut worden war.“\n„Sie stellte sich aus freien Stücken auf die Seite der Rebellen wider die Zarin. Zunächst wies sie die Sondergesandten des Zapolyarny-Palastes aus ihren Ländereien, und bald darauf hob sie gar ohne kaiserliches Dekret eigene Gefolgsleute aus ...“\n„Obgleich die aufbegehrenden Feen der einzelnen Sippen einander befehdeten und misstrauten, waren sie stets bereit, ihr geheime Kunde zur übergeordneten Planung anzuvertrauen.“\n„Am Ende überreichte sie all jene Kunde Ihrer Majestät und half der Zarin, die Aufständischen mit einem einzigen Schlag zu zerschlagen, woraufhin sie in scheinbar hehrer Haltung ihre Ländereien abtrat und freiwillig abdankte. Doch rate einmal: Hätte Ihre Majestät jene abtrünnigen Volkodlak-Fürsten damals nicht so rasch bezwungen ... gegen wen hätten die Gefolgsleute des Hauses Strivozha ihre Klingen wohl als Nächstes gerichtet?“\n„Welch bittere Ironie. Hinter dem Farn, der dem Volk der Vila als Sinnbild von Reinheit, Aufrichtigkeit und Güte gilt, lauerten in Wahrheit derart finstere, giftige Ränke.“\n„Die Beweggründe deiner Vorfahren bedürfen keiner weiteren Erklärung meinerseits. Mit deinem scharfen Verstand wirst du nach kurzem Nachdenken selbst darauf kommen.“\n„Doch ein solch doppelzüngiges Spiel und falsche Schwüre sind in den Annalen der Vila beileibe keine Seltenheit. Genau aus diesem Grund blieb dem Hause Strivozha das Vertrauen Ihrer Majestät bis heute verwehrt.“\n...\nVesna saß wie versteinert auf ihrem Stuhl, von dieser Enthüllung so tief erschüttert, dass es ihr schier die Sprache verschlug. Der Herr Bürgermeister hatte sich bereits verabschiedet, ihr vor seinem Fortgang jedoch noch ein Versprechen abverlangt.\nIn dieser Nacht hatte er eine Frage Vesnas beantwortet. In drei Tagen würde er wiederkehren und dann die Antwort auf eine ganz andere Frage von ihr verlangen."
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "Jene drei Tage vergingen für Vesna in tiefer Unruhe.\nDie einstige Glorie ihrer Familiengeschichte war in sich zusammengefallen. Noch ehe sie die erdrückende Schwere dieser Realität ganz begreifen konnte, stürmten bereits unzählige weitere Fragen auf sie ein.\nWarum hatte Ihre Majestät, die Zarin, ihr einst persönlich den Namen verliehen? Warum war ein Splitter jener heiligen Macht ausgerechnet in ihrem Blute erwacht?\nWeshalb war der Herr Bürgermeister eigens angereist, um ihre Zweifel auszuräumen? Und welches Ziel verfolgte Ihre Majestät, die Zarin, mit einer solchen Weisung?\nWelch einer Frage würde sie in drei Tagen gegenüberstehen? Und würde ihre Antwort genügen, um die Erwartungen zu erfüllen?\nViel entscheidender war: Die Familie hatte ihre Geschichte über Generationen hinweg beschönigt, ohne dass Ihre Majestät je den Schleier gelüftet hatte. Warum also offenbarte sie diese Wahrheit nun so leichthin ausgerechnet ihr ...?\nFührte sie etwa Schreckliches gegen den Großvater oder gar das gesamte Haus Strivozha im Schilde? Und würde man von ihr verlangen, zwischen beiden Parteien zu wählen?\nVesna wagte es nicht, diese Gedanken weiterzuspinnen, und noch weniger traute sie sich, ihren Eltern oder dem Großvater von ihren Zweifeln zu berichten. Sollte jedoch tatsächlich das Schlimmste eintreten, so hatte sie tief in ihrem Herzen bereits einen unumstößlichen Entschluss gefasst.\nAls die drei Tage verstrichen waren, trafen sich die beiden wie verabredet im Arbeitszimmer. Vesna saß wie versteinert am Tisch und vermochte die Miene höchster Anspannung – als stünde sie einem übermächtigen Feind gegenüber – nicht zu verbergen.\nDer Herr Bürgermeister schüttelte den Kopf und hob an: „Guten Abend, liebes Fräulein Farn. Hast du etwas dagegen, wenn ich dich weiterhin so nenne?“\nVesna stutzte. Sie hatte geglaubt, diesen Namen instinktiv zu verabscheuen, nachdem sie um die schändliche Vergangenheit ihres Hauses wusste.\nDoch dem war nicht so. Mehr noch, als jener Kosename erklang, war das Erste, was vor ihrem inneren Auge Gestalt annahm, das gütige, zärtliche Antlitz von Großherzogin Benigna.\n„... Mein Flammenfarn-Mädchen ... Mamas Liebe zu dir vergeht doch niemals ...“\nPlötzlich schimmerten Tränen in Vesnas Augenwinkeln. Sie hauchte leise: „Ich dich auch, Mama ...“, und sprach dann, als habe sie einen folgenschweren Entschluss gefasst, mit fester Stimme Wort für Wort:\n„Herr Bürgermeister, ich werde weder meine Mutter noch das Haus Strivozha verraten, und erst recht nicht Ihre Majestät, die Zarin, die mir einst meinen Namen verlieh.“\n„Sollte Ihre Majestät die Treue und Ehre des Hauses Strivozha nicht länger anerkennen, so will ich sie mit meinem eigenen Blute neu besiegeln.“\n„Fragt nicht nach meiner Antwort – hier steht sie vor Euch!“\nMit diesen Worten zog sie einen Dolch hervor und stieß ihn mit aller Wucht in die Tischplatte zwischen ihnen. Dann reckte sie trotzig den Hals, schloss die Augen und bot sich dar wie eine aufrechte Märtyrerin, die gefasst dem Richtschwert entgegensieht.\nPulcinella starrte sie mit offenem Munde an, räusperte sich hastig ein paarmal und beschwichtigte: „Fräulein Vesna, da liegt wohl ein gewaltiges Missverständnis vor.“\n„Die Frage, die Ihre Majestät, die Zarin, dir durch mich übermitteln ließ, lautet: Was bedeutet die Liebe für dich?“\nVesna riss schlagartig ihre tränenfeuchten, funkelnden Augen auf und stotterte verdutzt: „Wie bitte? Was für eine Frage?“\n„Nun ja ... Ihre Majestät ist die Göttin der Barmherzigkeit ... Sie wünschte lediglich zu erfahren, was die Liebe in den Augen von Fräulein Vesna bedeutet.“\n„Betrachte es einfach als eine beiläufige Plauderei, wie sie eine Mutter bei einem Spaziergang mit ihrem Kinde führen würde. Du weißt doch, Ihre Majestät hat dir höchstpersönlich deinen Namen verliehen und dich von jeher ins Herz geschlossen.“\n„Oh ... damit will ich keineswegs andeuten, Ihre Majestät trachte danach, deine Mutter zu sein. Obschon die Zarin dein Heranwachsen über all die Jahre wohlwollend mitverfolgte, weiß sie doch, dass du bereits eine vortreffliche Mutter hast.“\n„Nun denn ... jedenfalls ... nimm diese Frage bitte ganz unbefangen auf und zerbrich dir nicht unnötig den Kopf.“\nDer Herr Bürgermeister wählte seine Worte mit äußerster Bedachtsamkeit, aus banger Sorge, das allzu fantasiebegabte Vila-Mädchen könnte erneut auf abwegige Gedanken geraten.\nAngesichts dieser Frage bedurfte es für Vesna keines langen Nachsinnens. Obgleich man sie ihr zum ersten Mal stellte, lag die Antwort längst tief in ihrem bisherigen Leben verwurzelt.\n„Vesna, du mein tapferes Schneeball-Mädchen ...“ „Vesna, du mein vom Glück gesegnetes Flieder-Mädchen ...“ „Vesna, du mein kluges Kornblumen-Mädchen ...“\n...\nIn ihren Gedanken erklangen von Neuem jene zauberhaften Geschichten ihrer Mutter, und ohne auch nur einen Wimpernschlag zu zögern, gab sie ihre Antwort:\n„Liebe ist Schöpferkraft! Liebe ist jene Macht, die für die teuersten Menschen Zuversicht, Lachen, Mut und Hoffnung schenkt. Liebe ist reines Schaffen!“\n...\nMit heiterer und sichtlich erleichterter Miene verließ Bürgermeister Pulcinella das Anwesen der Familie Strivozha.\nEr wusste nicht, ob diese Antwort den Beifall Ihrer Majestät finden würde, doch ihm selbst gefiel sie ungemein. Und ebenso schloss er die kleine Vesna ins Herz, die so anmutig und lebendig war wie der Frühling selbst.\nVor seinem Aufbruch hatte er dem Vila-Großherzog Pyotr noch unmissverständlich bedeutet, sich fortan aus Vesnas Unterweisung herauszuhalten, da Ihre Majestät bereits eine weitaus passendere Bestimmung für sie ins Auge gefasst habe.\nWomöglich würde Vesna in einer Woche seine Schülerin werden, womöglich in einem Jahr als jüngstes Ratsmitglied in die Snezhnograd-Wetsche einziehen.\nDoch wie dem auch sei, er war gewiss, dass in das Anwesen der Vila, das so viele Jahre lang in kühler Stille verharrt hatte, nach dieser Nacht wieder Wärme und Frohsinn einkehren würden. Schließlich trug Vesna ihren Namen nicht für den eisigen Winter.\n„Vesna, Vesna ... In dir schlummert ein unbezwingbarer Frühling. Mögest du Ihrer Majestät dereinst dabei beistehen, eine Welt voller Liebe zu erschaffen.“"
+      },
+      {
+        "Title": "Wappen eines Druzhna-Soldaten",
+        "Context": "Nachdem das feierliche Bankett anlässlich ihrer Ernennung zur Oberbefehlshaberin der Druzhna ausgeklungen war, kehrte Vesna auf das Anwesen ihrer Familie zurück und stöberte auf dem Dach ein staubbedecktes Rekrutenabzeichen der Druzhna auf.\nDass das Abzeichen dort oben lag, ging auf eine alte Anekdote ihrer Mutter zurück: Wenn ein Soldat sein Abzeichen an einen möglichst hohen Ort werfe, so hieß es darin, werde seine militärische Laufbahn steil nach oben führen.\nObgleich Vesna damals dem Alter des Märchenglaubens längst entwachsen war, hatte sie dennoch getan, was ihre Mutter ihr geraten hatte.\nDenn von dem Tage an, da sie der Druzhna beitrat, war ihr bewusst, dass ihr Aufstieg zur obersten Befehlshaberin lediglich eine Frage der Zeit sein würde.\nUnd wenn jener Tag dereinst anbräche, würde sich ihre Mutter gewiss von Herzen freuen, dass ihre ersonnene Geschichte der Tochter tatsächlich geholfen hatte.\nIhren Erinnerungen nachhängend, ließ sich Vesna still am Dachrand nieder. Ihre Finger glitten sacht über die metallenen Konturen des Abzeichens, während ihre Gedanken einige Jahre in die Vergangenheit zurückwanderten.\nIn jener Nacht, als der „Hahn“ Pulcinella Vesnas Antwort vernommen hatte, eröffnete er ihr zugleich, welche Pfade Ihre Majestät, die Zarin, für ihre Zukunft ausersehen hatte –\nEntweder an der Seite dieses obersten Verwaltungschefs in die Lehre zu gehen, zur rechten Zeit als Ratsmitglied in die Snezhnograd-Wetsche einzuziehen und so über die zivile Verwaltung Schritt für Schritt ins Machtzentrum Snezhnayas aufzusteigen;\noder aber unmittelbar in die Reihen der Fatui-Streitkräfte einzutreten, wo ihr in Zukunft womöglich gar ein Sitz unter den Elf der Fatui winken würde.\nMit solchen Zukunftsträumen im Herzen trat Vesna eine Woche darauf zur Audienz im Zapolyarny-Palast an, nur um dort jenes Rekrutenabzeichen der Druzhna zu empfangen, das keiner ihrer bisherigen Vorstellungen entsprach.\nUnd jener Lehrmeister, den sie erwartet hatte, wechselte unvermittelt vom Fünften der Elf der Fatui, dem „Hahn“, zum Ersten unter ihnen – dem Capitano.\nVom Thronsaal herab warf ihr der „Hahn“ aus der Ferne eine vielsagende Miene zu, die Planänderung signalisierte, ehe er mit ernster Würde verkündete: „Dies ist der ausdrückliche Wunsch von Capitano höchstselbst.“\nNach der Zeremonie folgte die sichtlich verunsicherte Vesna dem wortkargen Capitano auf den Exerzierplatz.\nBereits nagten finstere Zweifel an ihrer Zukunft an ihr. Mochte sie unter ihresgleichen auch herausragen, so waren die Vila doch beileibe kein Volk kühner Krieger.\nDa ertönte die tiefe, gebieterische Stimme des Capitano: „Ich habe von deinen Taten vernommen.“\n„Bei deinen Gaben gibt es keinen Grund zu verzagen. Bei deinem Wesen keinen Grund, nicht stolz auf dich zu sein.“\nDiese Worte nahmen Vesna ein wenig von ihrer Furcht, vermochten ihre Zweifel jedoch nicht vollends zu zerstreuen. Zaghaft setzte sie an: „Capitano ...“\n„Nenn mich Meister.“ Die tiefe Stimme schnitt ihr sogleich das Wort ab.\n„Meister ... Es mangelt mir nicht an Zuversicht. Ich habe stets daran geglaubt, die Begabteste des Hauses Strivozha zu sein.“\n„Ich sorge mich lediglich, wenn jene Macht, die nicht aus mir selbst stammt, mich eines Tages verlässt ... werde ich dann noch den Erwartungen aller genügen?“\nCapitano erwiderte zunächst nichts, sondern kniete sich langsam nieder, sodass seine hünenhafte Gestalt mit Vesna auf Augenhöhe war.\nDann blickte er Vesna an, nahm behutsam seine Maske ab, und augenblicklich schlug ihr eine Aura von unermesslicher Wucht entgegen.\nVesna spürte instinktiv, dass jene gewaltige Aura von derselben erhabenen Natur war wie die Lebensmacht in ihrem eigenen Blute.\n„Siehst du es? Genau wie du trage auch ich eine übernatürliche Macht in mir, die mir von Rechts wegen nicht gebührt.“\nCapitano setzte seine Maske wieder auf und erhob sich. In jenem Augenblick, als er wieder in voller Größe vor ihr stand, schien es Vesna, als verfinstere ihr Meister gar die Sonne am Himmel.\n„Doch ich bürge mit meiner Ehre als Krieger. Selbst wenn ich jener Macht verlustig ginge, würde ich meinem jetzigen Ich in nichts nachstehen.“\n„Vesna, du bist seit Jahrhunderten die Einzige im Hause Strivozha, in der ein Splitter der Lebensmacht erwacht ist.“\n„Nicht jene Macht verleiht dir deine Größe. Vielmehr warst du es, die sie geweckt, entfesselt und gebändigt hat. Du selbst bist es, die wahrhaft außergewöhnlich ist.“\n„Begreife wohl, Vesna, der Frühling, der in jenem Jahre so vorzeitig einbrach, kam nicht jener Macht wegen. Er kam, um dich zu empfangen.“\n„Werde eine Schülerin, auf die ich stolz sein kann. Ich erwarte den Tag, an dem du auf dem Gipfel der Druzhna stehst.“"
+      },
+      {
+        "Title": "Sternenkeil",
+        "Context": "Als die Kunde vom Fortgang Capitanos Snezhnaya erreichte, schob Vesna gerade klammheimlich saure Zitronenscheiben in Danicas Trinkbecher.\nDer Bericht des Druzhna-Leibgardisten brachte die Handbewegungen der Kommandantin keineswegs aus dem Takt; Scheibe für Scheibe schichtete sie die Zitronen weiter in das Glas.\nImmer weiter, bis das Wasser über den Rand schwappte, bis die Zitronenscheiben jeden noch so winzigen Raum im Becher ausfüllten und kein einziger Tropfen mehr hineinpasste.\nMit einer Handbewegung entließ sie den Gardisten. Danach sank sie kraftlos in ihren Stuhl zurück und verharrte eine Weile regungslos. Ganz so, als habe das Hineinzwängen der Zitronen ihr das letzte Quäntchen Kraft geraubt.\nNach einer Weile raffte sie sich auf, trat hinaus auf den Exerzierplatz, wo auch Danica anzutreffen war, und forderte sie auf: „Komm, lass uns die Klingen kreuzen.“\nDanica nickte mit unbewegter Miene. Beide griffen nach den hölzernen Übungsschwertern und schlugen sogleich aufeinander ein.\nSchon nach wenigen Hieben warf Vesna ihr Schwert von sich, rief: „Schluss, ich mag nicht mehr!“, und ließ sich rücklings zu Boden fallen, wo sie blinzelnd zur hochstehenden Sonne emporblickte.\nTage mit sengender Sonne sind in Snezhnaya rar gesät, doch an jenem Tage, als der Capitano sie hier zu seiner Schülerin erkor, brannte das Gestirn noch glühender als heute.\nDanica trat heran und bemerkte trocken: „Dein Können reicht nicht an ein Zehntel des Meisters heran.“ Vesna verzog die Lippen und schwieg – ein für sie überaus seltener Anblick.\nNach einer Weile hob Vesna die Hand und dirigierte Danica mit knappen Gesten umher, als kommandiere sie einen Rekruten. Danica sträubte sich erst, fügte sich jedoch ausnahmsweise, da Vesna vorhin keinen Widerspruch gewagt hatte.\nSo parierte Danica wie eine stumme Ehrengarde unter dem Befehl ihrer Oberkommandierenden und trat auf dem Platz schrittweise vor und zurück.\nAls Danicas Gestalt das gleißende Sonnenlicht vollends von Vesnas Antlitz abschirmte, stahl sich ein wehmütiges, feines Lächeln der Genugtuung auf ihre Züge.\nSie schloss die Augen, ganz in Gedanken versunken, und hauchte mit bebenden Lippen wie im Traum: „Meister ... ich wusste doch, dass du noch da bist.“\nDanica verharrte stumm und reglos. Sie vermochte nicht zu sagen, was in Vesna vorging, doch spürte sie ein brennendes Stechen in den Augenwinkeln.\nEine Weile verharrten sie in schweigendem Einvernehmen. Plötzlich sprang Vesna auf und rief: „Ich muss kurz nach Hause! Vergiss nicht, mein Zitronenwasser auszutrinken, dann hast du wenigstens eine Ausrede für deine Tränen!“\nUnd schon schwang sie sich in die Lüfte und flog davon. Am Nachmittag kehrte Vesna in den Garten ihrer Geburt zurück und trat erneut vor jenen roten Farn.\nSie streckte die Hand aus und strich sachte über die gefiederten Wedel des Farns. Ein seltsames Gewächs war das: Seit über zehn Jahren war es weder eingegangen noch recht lebendig gewesen.\nEr wuchs schlichtweg nicht mehr weiter, und selbst seine Blätter verharrten in ebenjener gekrümmten Haltung, in die sie einst niedergedrückt worden waren. Bisweilen fragte sich Vesna, ob dies wohl die wahre Unsterblichkeit sei.\nDann regte sie die Kraft des Lebens in ihrem Blute an und ließ sie behutsam in Wurzel und Stängel des Farns einströmen.\nZuvor war ihr solcher Gedanke nie in den Sinn gekommen, und sie wusste selbst nicht, welcher plötzliche Impuls sie heute dazu trieb.\nDoch das erhoffte Wunder blieb aus; die Adern des Farns verharrten welk und kraftlos. Vesna seufzte leise, schüttelte die Hände aus und wandte sich zum Gehen.\nIn ebenjenem Augenblick erhaschte ihr Blick aus dem Augenwinkel etwas Unerwartetes: Inmitten von drei Wedeln des Farns spross wahrhaftig eine winzige Knospe hervor.\nDoch Vesna wusste wohl, dass Farne niemals Knospen treiben. Sie pflanzen sich durch Sporen fort und tragen weder Blüten noch Früchte.\nErneut beugte sie sich hinab und leitete die Lebenskraft abermals hinein. Und siehe da, die kleine Knospe schwoll unaufhaltsam an, wuchs und wuchs.\nBis sie schließlich mit einem leisen „Plopp“ barst und eine dichte Wolke giftiger Sporen entwich, die Vesna mitten ins Gesicht stob.\nEhe sie von ihrem eigenen Gift überwältigt zu Boden sank, dämmerte es ihr: Dies war kein gewöhnlicher Farn, sondern der einzigartige, tödlich giftige Flammenfarn des Hauses Strivozha.\nAls sie wieder zu sich kam, funkelten bereits die Sterne am Nachthimmel. Vesna schüttelte ihren benommenen Kopf und erinnerte sich dunkel daran, einen flüchtigen Traum durchlebt zu haben.\nIm Traum hatte sich ihr eine schillernde Welt offenbart, und ihr Meister stand wie ehedem aufrecht und unerschütterlich am Horizont jener Welt.\n„Vesna, kehre um.“ – „Meister, kehrst du denn nicht zurück?“\n„Mein Weg endet hier.“ – „Aber Danica und ich vermissen dich so sehr.“\n„Wir werden uns wiedersehen – inmitten all dessen, was die Tausend Winde sanft umfangen.“\nAls der Traum verblasste, blickte sie noch benommen zu dem Farn hinab und sah, dass inmitten der soeben geborstenen Knospe eine smaragdgrüne Perle ruhte.\nGanz so, als sei am Ende all der langen Jahrhunderte nun endlich eine unvergängliche Frucht gereift."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 214300,
+      "Name": "Frühlingsband und Winterpakt",
+      "Description": "Vesnas Kleidung. Von Vesna persönlich auf Grundlage der gewöhnlichen Druzhna-Uniform leicht abgewandelt und geschneidert. Hübsch ist sie zweifellos, doch ebenso kostspielig, weshalb Vesnas Antrag auf eine vollständige Neuausstattung der Druzhna bis heute nicht bewilligt wurde.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113092,
+    101277,
+    112148,
+    104373,
+    113089
+  ],
+  "NameCard": {
+    "Name": "Vesna – Ausgelassenheit",
+    "Description": "Ein Motiv für Namenskärtchen.\n„Das Leben ist so flüchtig wie ein Seufzer, also tu, was du willst. Aber verschwende deine Zeit nicht mit Seufzen, ja?“",
+    "Icon": "UI_NameCardIcon_Vesna",
+    "PicturePrefix": "UI_NameCardPic_Vesna"
+  }
+}

@@ -42,7 +42,7 @@
   {
     "Id": 210501,
     "Name": "<color=#f39001>Bênção do Cristal Electro</color>",
-    "Description": "Todos os membros da equipe ganham <color=#f39001>50%</color> de Bônus de Dano Geo e Electro. Adicionalmente, você obterá Fragmentos de Cristalização próximos a cada <color=#f39001>4</color>s"
+    "Description": "Todos os membros da equipe ganham <color=#f39001>70%</color> de Bônus de Dano Geo e Electro. Adicionalmente, você obterá Fragmentos de Cristalização próximos a cada <color=#f39001>4</color>s"
   },
   {
     "Id": 210502,
@@ -52,7 +52,7 @@
   {
     "Id": 210503,
     "Name": "<color=#e09800>Rocha Ribombante</color>",
-    "Description": "Cada <color=#f39001>{0}</color> fragmento(s) de <color=#f39001>Cristalização Electro</color> que o personagem coletar próximo(s) fará cair no inimigo, causando <color=#e09800>Dano Geo</color>"
+    "Description": "Enquanto a <color=#f39001>Bênção do Cristal Electro</color> estiver ativa e depois que o Supremo do personagem atingir um inimigo, fará cair na posição dele, causando <color=#e09800>Dano Geo</color>"
   },
   {
     "Id": 210601,
@@ -82,7 +82,7 @@
   {
     "Id": 210901,
     "Name": "<color=#f39001>Bênção do Vento: Hydro</color>",
-    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e sua Vida Máxima aumenta em <color=#f39001>8%</color>"
+    "Description": "Aumenta o Dano ao desencadear Redemoinho em <color=#f39001>80%</color>. Aumenta o Dano ao desencadear Redemoinho Estelar em <color=#f39001>8%</color>. Aumenta a Vida Máxima do personagem em <color=#f39001>8%</color>."
   },
   {
     "Id": 210902,
@@ -97,7 +97,7 @@
   {
     "Id": 211001,
     "Name": "<color=#f39001>Bênção do Vento: Electro</color>",
-    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e cada vez que recebem <color=#f39001>Bênção do Vento: Electro</color>, todos os membros da equipe ganham <color=#f39001>2</color> de Energia Elemental"
+    "Description": "O Dano causado pelos personagens que desencadearem a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e Redemoinho Estelar em <color=#f39001>8%</color>, e cada vez que recebem <color=#f39001>Bênção do Vento: Electro</color>, todos os membros da equipe ganham <color=#f39001>2</color> de Energia Elemental."
   },
   {
     "Id": 211002,
@@ -172,7 +172,7 @@
   {
     "Id": 211501,
     "Name": "<color=#f39001>Bênção do Vento: Pyro</color>",
-    "Description": "O Dano causado pela reação Redemoinho desencadeada pelo personagem é aumentado em <color=#f39001>80%</color> e seu ATQ é aumentado em <color=#f39001>9%</color>."
+    "Description": "Aumenta o Dano ao desencadear Redemoinho em <color=#f39001>80%</color>. Aumenta o Dano ao desencadear Redemoinho Estelar em <color=#f39001>8%</color>. Aumenta o ATQ do personagem em <color=#f39001>9%</color>."
   },
   {
     "Id": 211502,
@@ -247,7 +247,7 @@
   {
     "Id": 211901,
     "Name": "<color=#f39001>Bênção do Vento: Cryo</color>",
-    "Description": "O Dano causado pelos personagens desencadeando a reação de Redemoinho é aumentado em <color=#f39001>80%</color> e seu Dano CRIT aumenta em <color=#f39001>16%</color>"
+    "Description": "Aumenta o Dano ao desencadear Redemoinho em <color=#f39001>80%</color>. Aumenta o Dano ao desencadear Redemoinho Estelar em <color=#f39001>8%</color>. Aumenta o Dano CRIT do personagem em <color=#f39001>16%</color>."
   },
   {
     "Id": 211902,
@@ -506,8 +506,33 @@
   },
   {
     "Id": 11400001,
-    "Name": "Pelo Poder do Espírito da Lâmina",
-    "Description": "Sobre \"Pelo Poder do Espírito da Lâmina\""
+    "Name": "Primeira Cantora",
+    "Description": "Quando o Ataque Normal, Carregado, Imersivo, a Habilidade Elemental ou o Supremo do personagem ativo causam <color=#80C0FFFF>Dano Hydro</color> ou <color=#99FFFFFF>Dano Cryo</color>, consome 1 acúmulo de Primeira Cantora para elevar o Dano causado. Se houver um Vórtice Flutuante ativo, ou se ocorrer nos 5s após a explosão do Vórtice Flutuante, muda para que ao personagem causar Dano de Redemoinho Estelar, desencadeie os efeitos acima.\nCom base na parcela da Vida Máxima de Vodyanitsa que exceder {PARAM#P1402201|3S1}, cada 1.000 pontos de Vida Máxima aumentam o Dano de Redemoinho Estelar dos efeitos acima em {PARAM#P1402201|4S1} e aumentam o <color=#80C0FFFF>Dano Hydro</color> e o <color=#99FFFFFF>Dano Cryo</color> em {PARAM#P1402201|5S1}. É possível aumentar o Dano de Redemoinho Estelar em até {PARAM#P1402201|6S1}, e o <color=#80C0FFFF>Dano Hydro</color> e <color=#99FFFFFF>Dano Cryo</color> em {PARAM#P1402201|7S1} dessa forma."
+  },
+  {
+    "Id": 11400002,
+    "Name": "Concerto",
+    "Description": "Esse efeito é igual ao de Primeira Cantora quando desencadeado pelo personagem que não é o ativo ou por outros personagens próximos da equipe (menos o personagem ativo)."
+  },
+  {
+    "Id": 11430001,
+    "Name": "Pronto para a Ação",
+    "Description": "Depois de lançar a Habilidade Elemental <color=#FFD780FF>Livro de Estratégias: Caminho da Vitória</color>, Vesna troca para esse modo. Dura 15s e possui as seguintes propriedades:\n· Aumenta a RES contra Interrupção de Vesna.\n· Quando Vesna realizar um Ataque Normal, Carregado ou Imersivo, converte para causar<color=#80FFD7FF>Dano Anemo</color> que não pode ser substituído, e invoca uma Pena da Tempestade para atacar coordenadamente os inimigos, causando <color=#80FFD7FF>Dano Anemo</color> adicional. Cada vez que invocar uma Pena da Tempestade, regenera uma certa quantidade de <color=#FFD780FF>Espírito da Espada</color>.\n· Vesna pode consumir <color=#FFD780FF>Espírito da Espada</color> para, ao lançar a Habilidade Elemental especial <color=#FFD780FF>Espada do Vento</color>, causar <color=#80FFD7FF>Dano Anemo</color>.\n· Quando a duração acabar, ou lançar três vezes a <color=#FFD780FF>Espada do Vento</color> de maior área, Vesna sairá desse modo e removerá todos os acúmulos de <color=#FFD780FF>Espírito da Espada</color>."
+  },
+  {
+    "Id": 11430002,
+    "Name": "Espírito da Espada",
+    "Description": "Energia utilizada no modo <color=#FFD780FF>Pronto para a Ação</color> lançado pela Habilidade Elemental especial <color=#FFD780FF>Espada do Vento</color>.\nVesna pode acumular Espírito da Espada das seguintes maneiras:\n· Quando estiver no modo <color=#FFD780FF>Pronto para a Ação</color>, ao realizar um Ataque Normal, Carregado, Imersivo ou lançar <color=#FFD780FF>Espada do Vento: Transmutação</color> da Constelação <color=#FFD780FF>Paixão Inabalável</color>.\nAo lançar a Habilidade Elemental <color=#FFD780FF>Livro de Estratégias: Caminho da Vitória</color>.\nAo lançar o Supremo <color=#FFD780FF>Etiqueta Refinada: Pela Vossa Majestade, a Tsaritsa</color>."
+  },
+  {
+    "Id": 11430003,
+    "Name": "Espada do Vento",
+    "Description": "Quando está no modo <color=#FFD780FF>Pronto para a Ação</color>, Vesna pode consumir <color=#FFD780FF>Espírito da Espada</color> para, ao lançar a Habilidade Elemental especial, causar <color=#80FFD7FF>Dano Anemo</color>.\nCada vez que lançar a Habilidade Elemental especial <color=#FFD780FF>Espada do Vento</color>, aumenta a área de <color=#FFD780FF>Pronto para a Ação</color> em sua duração. A área de <color=#FFD780FF>Espada do Vento</color> inicia no nível 1 e pode ser elevada até o nível 3.\nDepois de lançar a área elevada de <color=#FFD780FF>Espada do Vento</color>, invoca uma <color=#FFD780FF>Espada Espiritual</color> para causar <color=#80FFD7FF>Dano Anemo</color> contra os inimigos."
+  },
+  {
+    "Id": 11430004,
+    "Name": "Espada Espiritual",
+    "Description": "Arma espiritual invocada por Vesna. Faz ataques coordenados com ela, causando <color=#80FFD7FF>Dano Anemo</color>.\nVesna pode invocar a Espada Espiritual das seguintes formas:\n· Ao lançar a área elevada da Habilidade Elemental especial <color=#FFD780FF>Espada do Vento</color>.\n· Ao lançar o Supremo <color=#FFD780FF>Etiqueta Refinada: Pela Vossa Majestade, a Tsaritsa</color>.\n· Ao lançar a <color=#FFD780FF>Espada do Vento: Transmutação</color> da Constelação <color=#FFD780FF>Paixão Inabalável</color>.\n\n<color=#FFD780FF>Brilho Reluzente: Redemoinho Estelar</color>: a <color=#FFD780FF>Espada Espiritual</color> é convertida para causar <color=#80FFD7FF>Dano Anemo</color> que é considerado Dano de Redemoinho Estelar."
   },
   {
     "Id": 10050002,

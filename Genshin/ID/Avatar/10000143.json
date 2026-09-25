@@ -1,0 +1,1370 @@
+{
+  "Id": 10000143,
+  "PromoteId": 143,
+  "Sort": 121,
+  "Body": 2,
+  "Icon": "UI_AvatarIcon_Vesna",
+  "SideIcon": "UI_AvatarIcon_Side_Vesna",
+  "Name": "Vesna",
+  "Description": "Komandan tertinggi Druzhna, sang mata pedang Tsaritsa.",
+  "BeginTime": "2026-09-22T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 1032.4456,
+    "AttackBase": 27.5576,
+    "DefenseBase": 56.8385
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114310,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Sprint"
+      },
+      {
+        "GroupId": 0,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [],
+          "Display": 0
+        },
+        "Id": 114311,
+        "Name": "",
+        "Description": "",
+        "SpecialEnergyType": 0,
+        "Icon": "Btn_Jump"
+      },
+      {
+        "GroupId": 14331,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}×2",
+            "DMG Tahap 4|{param4:F1P}",
+            "DMG Tahap 5|{param5:F1P}",
+            "DMG Tahap 6|{param6:F1P}",
+            "DMG Charged Attack|{param7:F1P}",
+            "Konsumsi Stamina Charged Attack|{param8:F1}",
+            "DMG Selama Plunging|{param9:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param10:P}/{param11:P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433101,
+              "Level": 1,
+              "Parameters": [
+                0.4042,
+                0.48676,
+                0.28079,
+                0.59168,
+                0.62436,
+                0.7224,
+                1.33042,
+                20,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1433102,
+              "Level": 2,
+              "Parameters": [
+                0.4371,
+                0.52638,
+                0.303645,
+                0.63984,
+                0.67518,
+                0.7812,
+                1.43871,
+                20,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1433103,
+              "Level": 3,
+              "Parameters": [
+                0.47,
+                0.566,
+                0.3265,
+                0.688,
+                0.726,
+                0.84,
+                1.547,
+                20,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1433104,
+              "Level": 4,
+              "Parameters": [
+                0.517,
+                0.6226,
+                0.35915,
+                0.7568,
+                0.7986,
+                0.924,
+                1.7017,
+                20,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1433105,
+              "Level": 5,
+              "Parameters": [
+                0.5499,
+                0.66222,
+                0.382005,
+                0.80496,
+                0.84942,
+                0.9828,
+                1.80999,
+                20,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1433106,
+              "Level": 6,
+              "Parameters": [
+                0.5875,
+                0.7075,
+                0.408125,
+                0.86,
+                0.9075,
+                1.05,
+                1.93375,
+                20,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1433107,
+              "Level": 7,
+              "Parameters": [
+                0.6392,
+                0.76976,
+                0.44404,
+                0.93568,
+                0.98736,
+                1.1424,
+                2.10392,
+                20,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1433108,
+              "Level": 8,
+              "Parameters": [
+                0.6909,
+                0.83202,
+                0.479955,
+                1.01136,
+                1.06722,
+                1.2348,
+                2.27409,
+                20,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1433109,
+              "Level": 9,
+              "Parameters": [
+                0.7426,
+                0.89428,
+                0.51587,
+                1.08704,
+                1.14708,
+                1.3272,
+                2.44426,
+                20,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1433110,
+              "Level": 10,
+              "Parameters": [
+                0.799,
+                0.9622,
+                0.55505,
+                1.1696,
+                1.2342,
+                1.428,
+                2.6299,
+                20,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1433111,
+              "Level": 11,
+              "Parameters": [
+                0.8554,
+                1.03012,
+                0.59423,
+                1.25216,
+                1.32132,
+                1.5288,
+                2.81554,
+                20,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1433112,
+              "Level": 12,
+              "Parameters": [
+                0.9118,
+                1.09804,
+                0.63341,
+                1.33472,
+                1.40844,
+                1.6296,
+                3.00118,
+                20,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1433113,
+              "Level": 13,
+              "Parameters": [
+                0.9682,
+                1.16596,
+                0.67259,
+                1.41728,
+                1.49556,
+                1.7304,
+                3.18682,
+                20,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1433114,
+              "Level": 14,
+              "Parameters": [
+                1.0246,
+                1.23388,
+                0.71177,
+                1.49984,
+                1.58268,
+                1.8312,
+                3.37246,
+                20,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1433115,
+              "Level": 15,
+              "Parameters": [
+                1.081,
+                1.3018,
+                0.75095,
+                1.5824,
+                1.6698,
+                1.932,
+                3.5581,
+                20,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11431,
+        "Name": "Vila Blade Dance",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 6 serangan berturut-turut.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina untuk menginjak musuh di depan.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01"
+      },
+      {
+        "GroupId": 14332,
+        "Proud": {
+          "Descriptions": [
+            "DMG Skill|{param1:F1P}",
+            "DMG Windborne Sword Lv. 1|{param2:F1P}",
+            "DMG Windborne Sword Lv. 2|{param3:F1P}",
+            "DMG Spirit Blade dari Windborne Sword Lv. 2|{param4:F1P}",
+            "DMG Spirit Blade dari Windborne Sword Lv. 3|{param6:F1P}×4",
+            "DMG Serangan Terakhir Spirit Blade dari Windborne Sword Lv. 3|{param8:F1P}",
+            "DMG Stellar Swirl Spirit Blade dari Windborne Sword Lv. 2|{param5:F1P}",
+            "DMG Stellar Swirl Spirit Blade dari Windborne Sword Lv. 3|{param7:F1P}×4",
+            "DMG Stellar Swirl Serangan Terakhir Spirit Blade dari Windborne Sword Lv. 3|{param9:F1P}",
+            "DMG Bulu Angin|{param10:F1P}",
+            "Durasi Armed for Action|{param12:F1} dtk",
+            "Cooldown|{param14:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1433201,
+              "Level": 1,
+              "Parameters": [
+                0.4,
+                0.4,
+                0.6,
+                1.12,
+                1.12,
+                0.448,
+                0.448,
+                1.568,
+                1.568,
+                0.104,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433202,
+              "Level": 2,
+              "Parameters": [
+                0.43,
+                0.43,
+                0.645,
+                1.204,
+                1.204,
+                0.4816,
+                0.4816,
+                1.6856,
+                1.6856,
+                0.1118,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433203,
+              "Level": 3,
+              "Parameters": [
+                0.46,
+                0.46,
+                0.69,
+                1.288,
+                1.288,
+                0.5152,
+                0.5152,
+                1.8032,
+                1.8032,
+                0.1196,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433204,
+              "Level": 4,
+              "Parameters": [
+                0.5,
+                0.5,
+                0.75,
+                1.4,
+                1.4,
+                0.56,
+                0.56,
+                1.96,
+                1.96,
+                0.13,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433205,
+              "Level": 5,
+              "Parameters": [
+                0.53,
+                0.53,
+                0.795,
+                1.484,
+                1.484,
+                0.5936,
+                0.5936,
+                2.0776,
+                2.0776,
+                0.1378,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433206,
+              "Level": 6,
+              "Parameters": [
+                0.56,
+                0.56,
+                0.84,
+                1.568,
+                1.568,
+                0.6272,
+                0.6272,
+                2.1952,
+                2.1952,
+                0.1456,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433207,
+              "Level": 7,
+              "Parameters": [
+                0.6,
+                0.6,
+                0.9,
+                1.68,
+                1.68,
+                0.672,
+                0.672,
+                2.352,
+                2.352,
+                0.156,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433208,
+              "Level": 8,
+              "Parameters": [
+                0.64,
+                0.64,
+                0.96,
+                1.792,
+                1.792,
+                0.7168,
+                0.7168,
+                2.5088,
+                2.5088,
+                0.1664,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433209,
+              "Level": 9,
+              "Parameters": [
+                0.68,
+                0.68,
+                1.02,
+                1.904,
+                1.904,
+                0.7616,
+                0.7616,
+                2.6656,
+                2.6656,
+                0.1768,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433210,
+              "Level": 10,
+              "Parameters": [
+                0.72,
+                0.72,
+                1.08,
+                2.016,
+                2.016,
+                0.8064,
+                0.8064,
+                2.8224,
+                2.8224,
+                0.1872,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433211,
+              "Level": 11,
+              "Parameters": [
+                0.76,
+                0.76,
+                1.14,
+                2.128,
+                2.128,
+                0.8512,
+                0.8512,
+                2.9792,
+                2.9792,
+                0.1976,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433212,
+              "Level": 12,
+              "Parameters": [
+                0.8,
+                0.8,
+                1.2,
+                2.24,
+                2.24,
+                0.896,
+                0.896,
+                3.136,
+                3.136,
+                0.208,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433213,
+              "Level": 13,
+              "Parameters": [
+                0.85,
+                0.85,
+                1.275,
+                2.38,
+                2.38,
+                0.952,
+                0.952,
+                3.332,
+                3.332,
+                0.221,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433214,
+              "Level": 14,
+              "Parameters": [
+                0.9,
+                0.9,
+                1.35,
+                2.52,
+                2.52,
+                1.008,
+                1.008,
+                3.528,
+                3.528,
+                0.234,
+                0,
+                15,
+                5,
+                18
+              ]
+            },
+            {
+              "Id": 1433215,
+              "Level": 15,
+              "Parameters": [
+                0.95,
+                0.95,
+                1.425,
+                2.66,
+                2.66,
+                1.064,
+                1.064,
+                3.724,
+                3.724,
+                0.247,
+                0,
+                15,
+                5,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11432,
+        "Name": "The Art of Victory",
+        "Description": "Memanggil Spirit Blade yang diwariskan dari generasi-generasi Vila sebelumnya, mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>, kemudian beralih ke mode <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> dan mendapatkan 2 tumpukan <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.\n\n<color=#FFD780FF>Armed for Action</color>\nSaat Vesna melancarkan Normal Attack, Charged Attack, dan Plunging Attack, serangannya akan berubah menjadi <color=#80FFD7FF>Anemo DMG</color> yang tidak bisa ditimpa Elemental Infusion lainnya. Vesna juga akan memanggil sebuah bulu angin untuk melakukan serangan terkoordinasi pada musuh, mengakibatkan <color=#80FFD7FF>Anemo DMG</color> tambahan. Setiap kali bulu angin ini dipanggil, Vesna akan memulihkan sejumlah <color=#FFD780FF>Sword Essence</color>.\nVesna dapat mengonsumsi <color=#FFD780FF>Sword Essence</color> untuk melancarkan Elemental Skill Khusus <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> pada musuh.\nSetelah setiap kali Elemental Skill Khusus <color=#FFD780FF>Windborne Sword</color> dilancarkan, selama satu kali durasi <color=#FFD780FF>Armed for Action</color>, level Windborne Sword akan meningkat dan mengakibatkan <color=#80FFD7FF>Anemo DMG</color> yang lebih kuat. Level awal <color=#FFD780FF>Windborne Sword</color> adalah Level 1 dan dapat meningkat hingga Level 3. Menggunakan <color=#FFD780FF>Windborne Sword</color> di Lv. 2 dan Lv. 3 juga akan memanggil <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color> terhadap musuh.\nVesna akan keluar dari mode ini saat durasinya berakhir atau setelah dia melancarkan <color=#FFD780FF>Windborne Sword</color> dengan level tertinggi sebanyak tiga kali, dan semua <color=#FFD780FF>Sword Essence</color> yang tersisa akan dihapus.\nSelain itu, dalam mode ini, ketahanan Vesna terhadap interupsi akan meningkat.\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG <color=#FFD780FF>Spirit Blade</color> dikonversi menjadi <color=#80FFD7FF>Anemo DMG</color> yang dianggap sebagai DMG reaksi Stellar Swirl.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Vesna_01",
+        "CdTime": 18
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 14339,
+      "Proud": {
+        "Descriptions": [
+          "DMG Spirit Blade|{param1:F1P}",
+          "DMG Stellar Swirl Spirit Blade|{param2:F1P}",
+          "Cooldown|{param3:F1} dtk",
+          "Konsumsi Energy|{param4:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1433901,
+            "Level": 1,
+            "Parameters": [
+              2.632,
+              2.632,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433902,
+            "Level": 2,
+            "Parameters": [
+              2.8294,
+              2.8294,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433903,
+            "Level": 3,
+            "Parameters": [
+              3.0268,
+              3.0268,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433904,
+            "Level": 4,
+            "Parameters": [
+              3.29,
+              3.29,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433905,
+            "Level": 5,
+            "Parameters": [
+              3.4874,
+              3.4874,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433906,
+            "Level": 6,
+            "Parameters": [
+              3.6848,
+              3.6848,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433907,
+            "Level": 7,
+            "Parameters": [
+              3.948,
+              3.948,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433908,
+            "Level": 8,
+            "Parameters": [
+              4.2112,
+              4.2112,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433909,
+            "Level": 9,
+            "Parameters": [
+              4.4744,
+              4.4744,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433910,
+            "Level": 10,
+            "Parameters": [
+              4.7376,
+              4.7376,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433911,
+            "Level": 11,
+            "Parameters": [
+              5.0008,
+              5.0008,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433912,
+            "Level": 12,
+            "Parameters": [
+              5.264,
+              5.264,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433913,
+            "Level": 13,
+            "Parameters": [
+              5.593,
+              5.593,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433914,
+            "Level": 14,
+            "Parameters": [
+              5.922,
+              5.922,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1433915,
+            "Level": 15,
+            "Parameters": [
+              6.251,
+              6.251,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11435,
+      "Name": "For the Tsaritsa!",
+      "Description": "Memanggil beberapa <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> sekaligus dan mengakibatkan <color=#80FFD7FF>Anemo DMG Area</color>, serta mendapatkan satu lapis <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Vesna_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 14321,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432101,
+              "Level": 1,
+              "Parameters": [
+                20,
+                6,
+                0.1
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432101,
+        "Name": "Rite of Spring's Procession",
+        "Description": "Setelah Vesna melancarkan Elemental Skill Khusus <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> atau Elemental Burst <color=#FFD780FF>{LINK#S11435}For the Tsaritsa!{/LINK}</color>, Vesna juga akan mendapatkan 1 lapis <color=#FFD780FF>Disciplinary Action</color> yang berlangsung selama 20 detik dan dapat ditumpuk sampai 6 lapis. Durasi setiap lapisnya dihitung terpisah.\nSaat Vesna memiliki <color=#FFD780FF>Disciplinary Action</color>, <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> yang dipanggil olehnya akan mengakibatkan DMG sebesar 100% + (jumlah lapisan Disciplinary Action ×10%) dari DMG awalnya. Melancarkan Elemental Skill <color=#FFD780FF>The Art of Victory</color> atau meninggalkan medan pertempuran akan menghapus semua <color=#FFD780FF>Disciplinary Action</color> yang dimiliki Vesna.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_05"
+      },
+      {
+        "GroupId": 14322,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432201,
+              "Level": 1,
+              "Parameters": [
+                0.06,
+                25
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1432201,
+        "Name": "Truth Prevails",
+        "Description": "<color=#FFD780FF>Radiance: Stellar Swirl</color>: Vesna akan mendapatkan efek yang sesuai berdasarkan jenis elemen Karakter dalam party. \n·Untuk setiap 1 Karakter dengan jenis elemen <color=#99FFFFFF>Cryo</color> atau <color=#80FFD7FF>Anemo</color> dalam party: ATK Vesna meningkat 6%;\n·Untuk setiap 1 Karakter dengan jenis elemen selain yang disebutkan di atas dalam party: Elemental Mastery Vesna meningkat 25 poin.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_06"
+      },
+      {
+        "GroupId": 14323,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432301,
+              "Level": 1,
+              "Parameters": [
+                0.007,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432301,
+        "Name": "Stellar Jubilee: Splendid Prelude",
+        "Description": "Saat Karakter di dalam party memicu reaksi Cryo Swirl, reaksi ini akan diubah menjadi reaksi Stellar Swirl. DMG dasar reaksi Stellar Swirl Karakter di dalam party meningkat berdasarkan ATK Vesna: Untuk setiap 100 poin ATK, DMG dasar reaksi Stellar Swirl meningkat 0,7% dan dapat ditingkatkan hingga 14% dengan cara ini.\nSetelah Karakter di dalam party memicu reaksi Stellar Swirl di dekatnya, Vesna akan memasuki status <color=#FFD780FF>Radiance: Stellar Swirl</color> selama 8 detik.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_08"
+      },
+      {
+        "GroupId": 14325,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1432501,
+              "Level": 1,
+              "Parameters": [
+                50,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1432501,
+        "Name": "The Grand Circuit",
+        "Description": "Saat tidak dalam kondisi bertempur, Vesna dapat memasuki status <color=#FFD780FF>Coursing</color> dengan cara menahan tombol Lari atau Lompat.\n\n<color=#FFD780FF>Coursing</color>\nTerus menghabiskan Stamina untuk mempertahankan kondisi melayang. Saat menekan tombol Lari atau Lompat untuk menaikkan ketinggian, Stamina-nya juga akan berkurang lebih banyak. Termasuk saat memasuki status <color=#FFD780FF>Coursing</color> dengan menahan tombol Lompat, Vesna dapat meningkatkan ketinggiannya hingga 3 kali di setiap status <color=#FFD780FF>Coursing</color>.\n\nSelain itu, saat berada di wilayah Snezhnaya (kecuali Nod-Krai) dan tidak dalam kondisi bertempur, ketika Karakter aktif dalam party sedang berada di udara, mengganti Karakter ke Vesna akan membuatnya langsung memasuki status <color=#FFD780FF>Coursing</color> serta memulihkan 50 poin Stamina. Efek ini dapat terpicu sekali setiap 10 detik. Efek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Vesna_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1431,
+        "Name": "Winter's Farewell Feast",
+        "Description": "Dalam mode <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color>, Vesna dapat melancarkan <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> dengan level tertinggi hingga empat kali, bukan tiga kali. Dan setiap kali memasuki mode <color=#FFD780FF>Armed for Action</color>, melancarkan <color=#FFD780FF>Windborne Sword</color> dengan level tertinggi untuk pertama kalinya tidak mengonsumsi <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.\nSelain itu, DMG reaksi Stellar Swirl yang diakibatkan Vesna dalam mode <color=#FFD780FF>Armed for Action</color> meningkat 20%.",
+        "Icon": "UI_Talent_S_Vesna_01"
+      },
+      {
+        "Id": 1432,
+        "Name": "Kolo of Spring's Arrival",
+        "Description": "Talenta Ascension <color=#FFD780FF>{LINK#P1432101}Rite of Spring's Procession{/LINK}</color> diperkuat: saat memasuki mode <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color>, Vesna akan mendapatkan <color=#FFD780FF>Disciplinary Action</color> dengan jumlah lapisan maksimum. Saat memiliki jumlah lapisan <color=#FFD780FF>Disciplinary Action</color> maksimum, ATK Vesna akan meningkat 40%.\nHarus membuka Talenta Ascension \"Rite of Spring's Procession\" terlebih dahulu untuk memicu efek di atas.",
+        "Icon": "UI_Talent_S_Vesna_02"
+      },
+      {
+        "Id": 1433,
+        "Name": "Winter's Last Offering",
+        "Description": "Meningkatkan 3 level Elemental Skill <color=#FFD780FF>{LINK#S11432}The Art of Victory{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Vesna_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1434,
+        "Name": "Glory to Our Forebears",
+        "Description": "Talenta Ascension <color=#FFD780FF>{LINK#P1432201}Truth Prevails{/LINK}</color> diperkuat: efek peningkatan ATK dan Elemental Mastery menjadi tiga kali lipat dari nilai awalnya.",
+        "Icon": "UI_Talent_S_Vesna_03"
+      },
+      {
+        "Id": 1435,
+        "Name": "The Nobleborn's Charge",
+        "Description": "Meningkatkan 3 level Elemental Burst <color=#FFD780FF>{LINK#S11435}For the Tsaritsa!{/LINK}</color>.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Vesna_02",
+        "ExtraLevel": {
+          "Index": 9,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1436,
+        "Name": "Unwavering Ardor",
+        "Description": "Selama 5 detik setelah melancarkan <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> level tertinggi, Vesna dapat menekan Normal Attack atau Elemental Skill untuk melancarkan <color=#FFD780FF>Windborne Sword: Transpose</color> yang merupakan ilmu rahasia turun-temurun ras Vila: Mengakibatkan <color=#80FFD7FF>Anemo DMG</color> sebesar 150% ATK Vesna dan memanggil <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> yang mengakibatkan <color=#80FFD7FF>Anemo DMG</color> tambahan sebesar 200% ATK Vesna. Jika Vesna berada dalam mode <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color>, ia juga akan memanggil bulu angin untuk melancarkan serangan terkoordinasi terhadap musuh.\nSelain itu, DMG reaksi Stellar Swirl yang diakibatkan Vesna {LINK#N11190007}<color=#FFD780FF>bertumbuh</color>{/LINK} 20%.",
+        "Icon": "UI_Talent_S_Vesna_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Snow Banquet's Sharp Blade",
+    "Detail": "Komandan tertinggi Druzhna, sang mata pedang Tsaritsa.",
+    "Association": 15,
+    "Native": "Druzhna",
+    "BirthMonth": 2,
+    "BirthDay": 4,
+    "VisionBefore": "Anemo",
+    "VisionOverrideLocked": "Stellar Linchpin",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Amentum Vernum",
+    "CvChinese": "龟娘",
+    "CvJapanese": "平野綾",
+    "CvEnglish": "Ari Thrash",
+    "CvKorean": "Joo Ye-jin",
+    "CookBonus": {
+      "OriginItemId": 108995,
+      "ItemId": 132037,
+      "InputList": [
+        101280,
+        100062,
+        110005,
+        110015
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Hai, teman terkasih. Perkenalkan, aku Vesna, komandan tertinggi Druzhna. Senang sekali bisa bertemu denganmu. Tembakan salvo dan pasukan kehormatan sudah siap di posisi untuk menyambutmu dengan meriah. Tapi tentunya, kalau kamu tidak terlalu suka dengan kehebohan, aku juga sudah menyiapkan upacara penyambutan yang lebih personal. Ayo, lewat sini."
+      },
+      {
+        "Title": "Berbincang: Layanan",
+        "Context": "Druzhna hanya menerima perintah dari Tsaritsa, jadi mereka tidak bisa selalu siap sedia untukmu. Tapi Vesna si Vila dengan senang hati siap melayani, temanku terkasih."
+      },
+      {
+        "Title": "Berbincang: Kebahagiaan",
+        "Context": "Indah kan pakaian ini? Ini hadiah pribadi dari Yang Mulia. Hehe, benar, silakan dilihat-lihat."
+      },
+      {
+        "Title": "Berbincang: Efisiensi",
+        "Context": "Dokumen apa? Oh, aku sudah menyelesaikannya dari tadi, tidak butuh waktu lama kok. Sekarang waktunya keluar patroli. Ayo, kita berangkat."
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Peri bisa masuk angin juga kok. Kalau mereka kena basah, harus langsung mengepakkan sayap supaya kering. Ma-Maksudku sayapnya."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Di atas salju, penyamaranmu bisa berakibat fatal kalau sedikit saja ada ketidaksempurnaan. Jadi berjalanlah dengan hati-hati, teman."
+      },
+      {
+        "Title": "Ketika Matahari Bersinar",
+        "Context": "Aku tahu apa yang kamu pikirkan, dan aku juga setuju. Sayapku terlihat paling memukau di bawah sinar matahari."
+      },
+      {
+        "Title": "Ketika Angin Bertiup",
+        "Context": "Ah ... Hehe, menyenangkan sekali. Para Vila memang suka angin sepoi-sepoi."
+      },
+      {
+        "Title": "Di Padang Pasir",
+        "Context": "Sekadar bertanya ... Kapan kita akan kembali ke Snezhnaya?"
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Hari yang baru! Halo, Snezhnograd!"
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Ayo kita pergi ke Podvorye Restaurant! Seperti biasa, tentu saja aku yang traktir!"
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Rombongan Teater Korolevskiy akan memulai pertunjukan baru malam ini. Menampilkan sopran tinggi Prima Donna Vodyanitsa, koreografi terbaru Nona Odette ... dan beberapa \"teman baru\"."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Pssst ... Kamu belum tidur, kan? Ayo keluar jalan-jalan malam! Aurora malam ini bagus sekali!"
+      },
+      {
+        "Title": "Tentang Vesna: Senjata Ajaib",
+        "Context": "Lihat benda-benda kecil yang terbang di sekitarku ini? Mereka adalah senjata sihirku, ciptaanku sendiri. Masing-masingnya merupakan perpaduan energi elemen dan kehendakku, jadi mereka juga mewarisi sedikit kepribadianku. Dengan kata lain, mungkin saja mereka akan mengganggumu untuk mengajak bermain. Kamu tidak perlu menghiraukan mereka ... Tapi kalau kamu punya waktu sih, tolong ladeni mereka ya, hehe!"
+      },
+      {
+        "Title": "Tentang Vesna: Komandan",
+        "Context": "Siapa bilang seorang komandan mutlak harus tegas dan berwibawa? Huh, itu sih untuk orang yang tidak punya karisma. Buatku sih tidak perlu. Menurutku, kita cukup mirip dalam hal ini."
+      },
+      {
+        "Title": "Tentang Kita: Kebenaran",
+        "Context": "Aku paham, aku paham. Ada banyak rumor yang beredar tentang diriku, dan kamu juga ingin tahu faktanya. Oke, tidak masalah, kita punya banyak waktu untuk mengobrol. Tapi sebagai gantinya, aku juga ingin tahu kebenaran tentang dirimu, sampai ke detail yang paling kecil sekalipun."
+      },
+      {
+        "Title": "Tentang Kita: Kebersamaan",
+        "Context": "Aku tidak suka dengan gagasan \"menemani\" seseorang dalam perjalanan. Awalnya sih memang kedengarannya romantis ya, tapi kalau dipikir-pikir, kata \"menemani\" membuat satu orang terkesan sebagai protagonis dan yang lainnya lagi sebagai figuran.\nKenyataannya, setiap langkah yang kita ambil adalah milik diri kita sendiri, begitu juga hal-hal yang kita alami dan cara kita bertumbuh sepanjang perjalanan. Jadi, aku tidak akan bilang bahwa aku \"menemani\"-mu dalam perjalanan. Lebih tepatnya, aku senang bisa menikmati kebersamaan denganmu di perjalanan—yang kebetulan untuk saat ini—kita lalui bersama. Coba begini deh konsepnya ... kamu sedang berjalan, sibuk dengan urusanmu sendiri, lalu pada suatu titik kamu menoleh dan menyadari: Oh wow! Haha, coba lihat deh, ternyata kita berdua sedang menuju arah yang sama!"
+      },
+      {
+        "Title": "Tentang Stellar Linchpin",
+        "Context": "Stellar Linchpin punya desain yang indah. Sudah pasti termasuk barang koleksi. Sebenarnya, Moon Wheel juga bagus. Aku selalu ingin memilikinya. Tapi kalau soal Vision ... Untuk saat ini tidak tertarik, maaf."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Oh, maksudmu benda tua ini? Indah, bukan? Ini pusaka keluarga loh. Usianya jauh, jauh lebih tua dariku. Benar-benar barang antik, layak dipajang di museum. Kadang kupakai sebagai tongkat sihir, kadang sebagai penunjuk saat mengajar, dan kadang sebagai tongkat komandan ... Ah, lihat deh, daripada kusekap dia di brankas sampai berdebu, aku justru memberinya kesempatan untuk menghidupkan kembali masa kejayaannya di usianya yang tua ini. Kalau para leluhurku tahu, kuyakin mereka semua pasti akan bangga!"
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Frostfairy Flower adalah sesuatu yang indah dan tangguh, ia mampu bertahan di lingkungan yang sangat dingin. Bunga itu juga punya pola yang sangat khas. Aku suka memandanginya dengan mata setengah terpejam sambil menggelengkan kepala, hehe. Efeknya fantastis deh, seperti melihat kaleidoskop. Tapi, kusarankan melakukannya di ruangan tersendiri ya yang tidak ada orang lainnya."
+      },
+      {
+        "Title": "Tentang Tsaritsa: Kesetiaan",
+        "Context": "Aku sudah menangkap terlalu banyak orang bodoh yang sok benar dan ingin menentang Yang Mulia. Pidato megah mereka tentang penaklukan? Semua cuma omong kosong belaka. Mereka mana punya strategi untuk melancarkan pemberontakan, apalagi kemampuan untuk mewujudkannya. Dibandingkan dengan para calon revolusioner itu ... Oh tidak, kutarik kembali deh kalimatku. Masa iya aku membahas mereka dalam satu paragraf dengan Yang Mulia.\nIntinya, mengabdi kepada Tsaritsa bukan hanya tugasku sebagai Vila. Itu juga pilihan pribadiku sebagai Vesna."
+      },
+      {
+        "Title": "Tentang Tsaritsa: Kasih Sayang",
+        "Context": "Yang Mulia selalu mengucapkan kata \"kasih sayang\" dengan nada dingin yang menusuk. Beliau bilang itu adalah kutukan yang dibebankan kepada para dewa oleh Prinsip Langit, dan bukanlah cinta yang tulus. Tapi aku sangat tidak setuju sih. Setiap kali aku kembali dari pertempuran melawan monster, Yang Mulia selalu berujar, \"Istirahatlah yang cukup,\" di akhir titah pribadinya. Dan setelah kekuatan Yang Berkuasa Atas Kehidupan diambil kembali, meski aku berusaha menyembunyikannya, beliau bisa merasakan betapa kecewanya diriku, lalu mengirimkan bagian yang belum diambil itu kembali padaku ....\nSeseorang di posisi beliau tidak punya kewajiban untuk melakukan semua itu. Mungkin ini terdengar lancang, tapi aku selalu percaya bahwa pertanyaan apakah seorang dewa benar-benar penuh kasih hanya bisa dijawab oleh rakyatnya. Jadi, kenapa pendapatku tidak boleh dihitung?"
+      },
+      {
+        "Title": "Tentang Danica: Masa Kecil",
+        "Context": "Oh, Nona Danica tersayang ... Jangan tertipu oleh sikapnya yang serius dan pendiam itu. Waktu kecil, kami berdua sering bikin ulah bareng ... Seperti waktu kami merencanakan untuk mencuri topeng Guru langsung dari wajahnya. Kami bahkan sudah naik ke pundaknya sebelum ketahuan! Memang sih, kami tidak berhasil, dan ya, kami dihukum harus berdiri tegap di atas danau beku selama berjam-jam ... Ah, tapi itu bukan intinya! Dialah yang pertama kali mencetuskan ide gila itu! Dia sama nakalnya dengan aku. Dan sekarang dia selalu menatapku seperti itu, seolah-olah dia yang dewasa dan aku yang anak kecil. Duh, yang benar saja. Aku ini sebenarnya yang lebih tua loh."
+      },
+      {
+        "Title": "Tentang Danica: Argumen",
+        "Context": "Kami punya informasi yang cukup akurat bahwa seorang tersangka menggunakan acara aneh seperti \"Kontes Debat\" sebagai kedok untuk melakukan transaksi bisnis ilegal, dengan kerumunan yang ribut sebagai pengalih perhatian yang efektif ... Dan karena itulah, tugas ini jatuh ke tanganku untuk kuurus.\nUntuk itu, aku sudah berinisiatif untuk mendaftarkan Danica. Dia pandai menjatuhkan lawan dengan ekspresi datarnya dan menyerang titik lemah sang lawan. Urusan berdebat sih dia tidak ada lawannya, jadi dia pasti bisa membantuku mengulur banyak waktu.\nAku mengandalkanmu, Danica!"
+      },
+      {
+        "Title": "Tentang The Captain",
+        "Context": "Aku selalu ingat bagaimana sosoknya dari belakang. Begitu kokoh dan bisa diandalkan, seperti gunung yang teguh. Aku tidak pernah membayangkan akan ada hari di mana gunung itu runtuh. Atau setidaknya ... aku tidak menyangka hari itu akan datang secepat ini. Dia selalu bilang, \"Dalam perang yang sesungguhnya, kamu tidak punya kesempatan untuk mengucapkan selamat tinggal.\" Dari sekian banyak cara untuk membuktikannya padaku ... Tentunya, dia bisa memberikan satu kesempatan terakhir, tapi dia tidak melakukannya ....\nAku tidak akan pernah melupakan itu, Guru."
+      },
+      {
+        "Title": "Tentang The Jester",
+        "Context": "Ada orang yang melangkah ringan di dunia ini, penuh harapan akan hari esok. Tapi tidak dengannya. Langkahnya selalu lambat dan berat. Aku selalu merasa dia dan guruku adalah orang yang serupa. Mungkin karena mereka berdua menyembunyikan kesedihan yang tak terbayangkan di balik topeng, menanggung semua rasa sakit dari masa lalu di atas pundaknya."
+      },
+      {
+        "Title": "Tentang The Rooster",
+        "Context": "Pak Walikota berbicara dengan sangat fasih dan tenang di Snezhnograd Veche. Dan kalau beliau yang bicara, semuanya jadi terlihat mudah. Beliau memang benar-benar menguasai panggung."
+      },
+      {
+        "Title": "Tentang Regrator",
+        "Context": "Yah, aku tidak sedang bilang kalau gaji komandan tertinggi Druzhna itu kecil ya, tapi memang bisa jadi agak mepet kalau kamu seorang kolektor yang juga suka mentraktir orang ... Bukan, eh, bukan bukan bukan, maksudku bukan begitu! Aku belum selesai bicara. Seingatku, dari awal dana cadangan keluargaku dikelola oleh Northland Bank, dan berkat Tuan Pantalone, bunga-berbunganya sudah menumbuhkan kekayaan kami dengan cukup signifikan. Intinya, aku tidak perlu khawatir soal uang sama sekali. Jadi lain kali kalau kita jalan bareng, tetap aku yang traktir, santai saja!"
+      },
+      {
+        "Title": "Tentang Marionette",
+        "Context": "Sandrone memang benar-benar sesosok wanita sejati. Kata-katanya mungkin sangat agresif, tapi logikanya yang sempurna membuat orang gagal mencari celah untuk menyalahkannya ... Hehe, sungguh mengesankan. Aku harus banyak belajar sih darinya."
+      },
+      {
+        "Title": "Tentang Mitya",
+        "Context": "Mitya itu partner usilku sih. Dia tukang kabur dari Armory Palace, dan setelahnya kami bertiga selalu bersenang-senang! Kok \"bertiga\"? Ya, karena ada aku, Mitya, dan syal pintarnya itu."
+      },
+      {
+        "Title": "Tentang Vodyanitsa",
+        "Context": "Semua lagu Nona Vodyanitsa sungguh indah. Aku suka mendengarnya secara langsung. Kadang lagunya membuatku penuh kebahagiaan, kadang membuatku menangis terharu, sama seperti penonton lainnya. Terkadang, semua orang tetap tinggal setelah pertunjukan berakhir dan tiba-tiba bernyanyi bersama. Lucunya, kebetulan aku sedang memegang tongkat konduktor di tanganku. Dan lebih lucu lagi, aku sudah beberapa kali sadar kalau Nona Vodyanitsa diam-diam berbaur dengan kerumunan setelah mengganti kostum panggungnya, memakai topi, dan menyanyikan harmoni untuk kelompok itu."
+      },
+      {
+        "Title": "Tentang Odette",
+        "Context": "Jujur saja, setiap kali aku melihat Nona Odette di pertemuan istana, aku selalu mencuri-curi pandang ke arahnya. Bagaimanapun juga, selain menjadi anggota Fatui, dia punya identitas lain yang sulit untuk diabaikan ... Hmm? Tentu saja perannya sebagai prima ballerina dari Rombongan Teater Korolevskiy. Memangnya kamu pikir aku bicara tentang apa?"
+      },
+      {
+        "Title": "Tentang Alyosha",
+        "Context": "Aku paham, sungguh. Maksudku, mana ada anak anjing kecil yang bisa menahan dorongan untuk mengejar kupu-kupu cantik menembus angin yang \"melolong\"? Hmm ... Mungkin aku akan mencuri sarapan Danica dan memberikannya ke Tugarin, lalu minta Alyosha untuk membelaku, supaya dia tidak langsung menyerang begitu melihatku ...."
+      },
+      {
+        "Title": "Mengenal Vesna: I",
+        "Context": "Hehe, jadi kamu mau pakai cara apa buat lebih mengenalku? Pastinya tidak hanya lewat mengobrol saja, kan? Hmm, mana asyik ... Hmm ... Bagaimana kalau kita main \"Jujur Tantangan\" saja?"
+      },
+      {
+        "Title": "Mengenal Vesna: II",
+        "Context": "Kami Druzhna adalah pengawal pribadi Tsaritsa, bertanggung jawab langsung kepada Yang Mulia. Tugas kami tidak terbatas pada menetralisir ancaman monster dan bertempur, melainkan juga mencakup hal di luar urusan militer. Dalam segala hal yang menyangkut kewenangan dan kehormatan Yang Mulia, kami wajib menjawab panggilannya tanpa syarat dan menyingkirkan semua rintangan yang menghadang langkahnya.\nNamun, Yang Mulia tentu sedikit kewalahan selagi upaya besar melawan Prinsip Langit masih berlangsung. Jadi sampai semuanya selesai, aku dengan senang hati membantu beliau mengurus hal-hal yang menyenangkan— Ehm, maksudku, urusan yang lebih sepele, seperti upacara gunting pita dan menghadiri jamuan makan atas nama beliau."
+      },
+      {
+        "Title": "Mengenal Vesna: III",
+        "Context": "Aku punya koleksi harta yang beragam. Perhiasan, buku kuno, lukisan minyak ... Apa pun yang membuatku senang, layak untuk ditambahkan ke koleksi. Prinsipku, kalau suka maka harus dapat, tidak boleh ada satu detik pun yang terbuang! Kan kalau kata orang, \"Makanan biasa-biasa pun terasa lezat kalau pas lapar.\" Kalau kamu menunggu sampai sensasi awalnya berlalu baru memilikinya, daya tariknya akan hilang. Jadi, kalau aku maunya sekarang, ya aku harus dapat sekarang."
+      },
+      {
+        "Title": "Mengenal Vesna: IV",
+        "Context": "Setelah pengorbanan Tsar Monomakh, Snezhnaya mengalami periode kekacauan besar. Leluhurku berdiri teguh di sisi Tsaritsa. Kemuliaan kami tak pernah terpatahkan. Jadi, saat aku berdiri di atas pundak mereka hari ini, apakah aku benar-benar punya kekuatan untuk melampaui para leluhur? Hehe, aku sudah mengutarakan pertanyaan yang ada di benakmu, kan? Nah, sekarang giliranmu menyuarakan jawaban yang ada di benakku. Silakan."
+      },
+      {
+        "Title": "Mengenal Vesna: V",
+        "Context": "Menjelang pertempuran melawan Yang Berkuasa Atas Kematian, aku mengekstrak \"Segel Kehidupan\" dari banyak orang. Definisi kenangan indah berbeda-beda bagi setiap orang. Ada yang menikmati momen duduk mengelilingi perapian bersama keluarga, mengobrol santai. Ada yang mengenang saat duduk sendiri di dekat jendela kereta, memandangi aurora yang hanyut tanpa suara melintasi langit malam. Ada pula yang merasa puas hanya dengan menarik kereta luncur keluar untuk memancing di atas es ....\nKenangan-kenangan itu bagaikan gelembung berkilau warna-warni, membawa \"energi kehidupan\" yang membara dan penuh semangat, yang membuat seseorang tanpa sadar berseru, \"Ah, indah sekali hidup ini!\"\nNamun, mereka yang disebut \"dewa\" itu bisa menghancurkan gelembung-gelembung tersebut dengan begitu mudah, tanpa sudi memberikan penjelasan apa pun. Apa haknya mereka dapat bertindak begitu?\nSejak saat itu, melawan Prinsip Langit bagiku bukan lagi semata-mata untuk membantu Yang Mulia."
+      },
+      {
+        "Title": "Hobi Vesna",
+        "Context": "Waktu masih kecil, keluargaku mendaftarkanku ke kelas melukis, menari, dan menyanyi. Setelah lebih dewasa, aku mulai belajar anggar, berkuda, dan semacamnya, hehe ... Belakangan ini, aku mulai tertarik dengan opera, teater, dan mengoleksi benda-benda kecil kesayanganku ... Singkatnya, kata \"bosan\" tidak ada dalam kamusku."
+      },
+      {
+        "Title": "Kekhawatiran Vesna",
+        "Context": "Jangan dengarkan omong kosong Danica, kemampuan menyetirku tidak ada masalah sama sekali kok. Anggaplah tubuhku menyatu dengan kendaraan! Nanti kalau larangan mengemudiku sudah dicabut, kita jalan-jalan yuk!"
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Kalau cuacanya sedingin ini, tidak ada yang lebih nyaman selain mengumpulkan semua orang untuk makan sup panas bersama! Begini saja, aku yang jadi tuan rumah, dan kamu sama Paimon bawa bahan masakannya. Apa saja boleh."
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Hehe! Aku diam-diam taruh semua sayuran menyebalkan itu ke piring Danica! Ugh ... tapi sayur-sayuran itu selalu balik lagi ke piringku ...."
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Oh, kalau begitu aku tidak akan sungkan lagi! Akan kunikmati setiap gigitannya."
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Mmm ... Cukup kreatif dari segi kuliner ... Kurasa aku akan mencicipinya satu gigitan lagi."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Ohh, maaf, aku sudah makan! Tapi biar kubungkus ini untuk Danica."
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Eng-ing-eng! Akhirnya! Ih, kemarin aku sudah tidak sabar sekali ... Tapi ya harus ditahan, kan pamali kalau diucapkan sebelumnya, nanti kamu kegulung badai salju! Nah, kalau sekarang baru deh boleh: Selamat ulang tahun ya, temanku yang terkasih. Semoga kamu berdiri sekokoh pohon birch yang tidak pernah tergoyahkan oleh angin dan salju.\nOke, bagian itu sudah selesai. Selanjutnya, menurut tradisi, aku harus menarik telinga bintang ulang tahun kita beberapa kali dengan lembut ...."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Pelajaran pertama di pelatihan militer: Hanya mereka yang berdiri teguh dan tidak menyerah pada angin dan salju yang layak berjaga di sisi Yang Mulia."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Pelajaran kedua di pelatihan militer: Tangan pedangmu tidak boleh gemetar."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Pelajaran ketiga di pelatihan militer: Kita tidak boleh menangis di hadapan musuh."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Kamu, sahabatku, telah mengajariku sebuah pelajaran di luar pelatihan militer: Untuk menyimpan kelembutan yang bisa merangkul mereka yang kulindungi dengan pedangku setelah badai salju mereda."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Berbaris!"
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Beri hormat."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Angkat pedangmu!"
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Minggir, minggir."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Ini masih belum berakhir."
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Salam."
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Aku temani kalian main!"
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Terkunci, jangan harap lolos!"
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Demi Tsaritsa!"
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Hoho, koleksi besarku nambah lagi nih!"
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Satu untukmu, satu untukku, satu untuk Yang Mulia, dan satu lagi untukku! Tidak ada untuk Danica, hehe!"
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Wah, lihat ini!"
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Seorang komandan tentu harus tetap berada di medan perang."
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "Jangan khawatir, sisanya bisa kuhindari ...."
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Ehem ... Ini hanya kemunduran sementara ...."
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Mundur. Selanjutnya Druzhna yang akan mengambil alih."
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Jangan memaksakan diri, temanku terkasih."
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Sayapku ... tak sanggup lagi ...."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Hidup ... Tsaritsa ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Aku tidak kesakitan ... hanya tidak terima ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Apa-apaan nih?"
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Huh?"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Berani sekali!"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Tidak sopan!"
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Saatnya berpatroli."
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Semoga kamu punya rencana yang seru!"
+      },
+      {
+        "Title": "Bergabung ke Party: III",
+        "Context": "Siap bertugas, Komandan ...."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Di Snezhnaya, \"Strivozha\" adalah marga yang tidak bisa diremehkan.\nGaris keturunan Vila kuno ini sudah ada jauh sebelum Snezhnaya mengalami masa gejolaknya. Mereka telah melewati begitu banyak badai salju, hingga meraih kejayaan yang tak terhitung jumlahnya.\nVesna jelas layak menyandang marga itu. Perangainya begitu memesona, tenang, anggun, dan penuh wibawa ... setidaknya dalam kebanyakan waktu.\nVesna yang bebas tak pernah terkekang oleh aturan formalitas yang ditetapkan orang lain. Sikapnya yang spontan kerap melahirkan tindakan mengejutkan yang tak terduga.\nTerkadang dia mengendarai kereta hingga meninggalkan jejak bayangan yang bisa membuatnya mendapatkan surat larangan. Terkadang menyelipkan irisan lemon asam pilihannya ke piring rekan kerjanya ....\nNamun tidak ada yang akan mempertanyakan kemuliaan atau kehormatan Vesna karena hal-hal itu. Karena keduanya tidak pernah terbatas pada formalitas atau ornamen, melainkan hanya pada ketajaman bilah pedangnya.\nDruzhna adalah pedang yang digenggam langsung oleh Tsaritsa, dan Vesna adalah bilah yang paling tajam di antaranya."
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Itu adalah awal Februari, ketika musim dingin belum juga berlalu. Di pinggiran Snezhnaya, di kediaman milik keluarga Strivozha yang sunyi dan tenang.\nGrand Duchess Benigna yang sedang mengandung telah beristirahat di sini selama sembilan bulan. Hari-harinya cukup santai, ia hanya perlu menghabiskan waktu bersama taman yang dirawatnya sendiri.\nTanaman di taman ini jarang ditemukan di dunia, ada jenis langka yang dikumpulkan dari kalangan rakyat, seperti buttercup musim panas, kismis albino, lilac berkelopak lima, pohon elderberry tanpa buah ....\nAda pula bunga-bunga langka yang dibudidayakan oleh para ahli wewangian dan apoteker keluarga, seperti tanaman hibrida adas sowa dan ketumbar, hibrida saffron dan aconite musim dingin Snezhnaya ....\nBahkan ada pula varietas kuno yang telah ada sejak zaman Strivozha yang Suci, seperti pakis merah yang kini tengah menarik perhatian Grand Duchess itu.\nPakis merah ini sudah ada sejak ia mengambil alih taman, dan selama bertahun-tahun, ia tumbuh dengan ritme dan siklus yang teratur.\nLayu di musim gugur, tertidur di musim dingin, dan ketika musim semi tiba, daun-daun muda berwarna merah jambu yang melingkar seperti kepala biola baru kembali tumbuh dan menandai kelahirannya yang baru.\nNamun di saat musim semi itu belum tiba, batang dan uratnya telah menebal menjadi sosok yang tidak semestinya ada di tengah musim dingin.\nDi bagiannya yang menempel tanah, selapis bulu halus berwarna merah muda sedang menyebar, diselingi beberapa helai sisik tipis berbentuk hati yang tembus cahaya.\nDi atas lembaran tipis itu, cairan tampak mengalir perlahan di sepanjang urat daun, bagaikan jantung yang baru lahir memompa darah untuk pertama kalinya. Inilah bentuk awal dari daun muda.\nVila adalah ras yang dekat dengan alam. Grand Duchess Benigna menyadari dengan jelas, ini adalah pertumbuhan yang melanggar ritme alami: siklus tumbuh pakis ini maju satu bulan penuh.\nIa bangkit berdiri dan mulai memeriksa bagian lain taman, namun hal yang lebih mengejutkan terjadi, ke mana pun ia melangkah, tanaman di sana pun langsung menunjukkan pertumbuhan yang serupa.\nTepat ketika dia hendak memberi tahu ayah dan suaminya mengenai hal ini, atau mungkin karena kelelahan akibat kehamilannya, atau mungkin karena takdir yang telah menggantung di langit tinggi sejak bertahun-tahun lalu yang tak kunjung selesai ....\nTanpa sengaja, ia menginjak segumpal salju yang belum mencair, dan jatuh tersungkur dengan seruan kaget.\nDia seketika menghancurkan tanaman pakis merah langkanya saat terjatuh, sekaligus membuat bayi dalam kandungannya menempuh jalan yang sama seperti tunas-tunas baru di taman itu, melihat dunia satu bulan lebih cepat dari waktunya.\nUntungnya, si kecil yang lahir prematur ternyata menunjukkan kesehatan yang mengejutkan setelahnya, sang ibu pun pulih beberapa minggu kemudian.\nSebaliknya, di musim dingin tahun itu, musim dingin Snezhnaya yang panjang justru berakhir lebih awal seiring dengan tunas White Birch yang mekar lebih dini dan daun yang menerobos salju pada hari itu.\nKemudian, Tsaritsa Yang Mulia dari Snezhnaya pun mendengar kabar ini dan mengunjungi perkebunan Vila untuk menyampaikan ucapan selamat kepada sang Grand Duchess dan bayinya yang luar biasa.\nKonon anak ini sangat disayangi oleh Yang Mulia Tsaritsa, bahkan mendapatkan nama pemberian langsung dari Beliau ....\nVesna, yang berarti musim semi yang menemaninya."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Saat Vesna masih kecil, ibunya selalu menidurkannya setiap malam dengan cerita-cerita kecil yang hangat.\nSemua cerita itu dibuat berdasarkan bunga dan tanaman di taman Grand Duchess Benigna, dan sebagian besarnya dimulai dengan ....\n\"Vesna, gadis Snowball Flower-ku yang pemberani\" ....\n\"Vesna, gadis bunga lilacku yang beruntung\" ....\n\"Vesna, gadis bunga jagung biruku yang cerdas\" ....\nDalam setiap panggilan penuh kasih sayang dari sang ibu, Vesna selalu merasakan ketenangan dan kehangatan yang tiada tara.\nDan di antara semua sebutan unik itu, yang paling membekas di hatinya adalah—\n\"Vesna, gadis pakis api abadiku\" ....\nDia tahu, itu adalah pakis yang unik di dunia, yang hanya bisa ditemukan di taman keluarga Strivozha.\nItu adalah pakis yang dibudidayakan sendiri oleh leluhurnya, penguasa Vila dari Veneter, Vaselisa von Strivozha, \"Yang Murni\".\nRibuan tahun yang lalu, ia pernah mempersembahkan parfum yang dibuat dari daun pakis itu kepada Kaisar Monomakh, sehingga namanya pun harum sepanjang masa.\nIa melambangkan kemurnian, kebaikan, ketulusan, dan keabadian Strivozha yang Suci serta ras Vila.\nNamun pakis legendaris ini tidak pernah bisa tumbuh lagi setelahnya karena tidak sengaja terinjak oleh sang ibu saat kelahirannya.\nKehidupan abadinya telah meninggalkan taman ini, seperti Strivozha yang Suci yang juga telah meninggalkan keturunannya yang setia.\nVesna yang masih kecil merasa telah memahami suatu kebenaran, bahwa tidak ada yang benar-benar abadi di dunia ini, semua hal pada akhirnya akan pergi.\nMaka, Vesna kecil mendongak menatap ibunya dengan tatapan penuh keyakinan dan berkata:\n\"Mama, aku mengerti apa yang ingin Mama sampaikan, tidak ada yang benar-benar abadi di dunia ini, musim semi pun suatu hari akan pergi.\"\n\"Jadi kita harus menghargai saat ini. Saat musim semi tiba, nikmati musim semi. Saat musim panas tiba, sambut musim panas. Begitu pula dengan musim gugur dan musim dingin.\"\n\"Yang penting, kita tidak menyia-nyiakan setiap hari yang ada, bukan begitu?\"\nGrand Duchess Benigna menatap Vesna dengan terkejut, tapi langsung mengulum senyumnya dan berkata:\n\"Anak baik, kamu bahkan lebih pandai berpikir dari ibumu, tentu saja kamu benar.\"\n\"Tapi, coba pikirkan lagi, pasti ada sesuatu di dunia ini yang abadi ....\"\nKedua matanya terbelalak dan bertanya dengan cepat, \"Apa itu? Apa itu?\"\nGrand Duchess Benigna merangkul Vesna ke dalam pelukannya, menundukkan kepala dan mencium pipinya dengan lembut, lalu berkata dengan suara halus:\n\"Anak bodoh, cintaku padamu tak akan pernah pudar.\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "Di mata para tetua kaum Vila, Vesna yang lahir dengan berkah musim semi dan musim dingin tampak seolah telah memiliki legenda tersendirinya sejak kecil.\nNamun meski sudah ada harapan bahwa \"anak itu pasti akan menjadi luar biasa\", pertumbuhannya tetap saja membuat semua orang takjub.\nKetika Vila-Vila seusianya yang berumur satu tahun masih merangkak dan berceloteh di tanah, ia sudah mampu menyebutkan dengan jelas nama setiap bunga dan tanaman di taman.\nSaat Vila sebaya yang berusia dua tahun baru saja menumbuhkan tanduk kecil bersisik kitin di punggungnya, ia sudah bisa mengepakkan sayap menunggangi angin dan menjelajahi area di atas perkebunan belasan kali.\nSaat para Vila seusianya yang berumur tiga tahun mulai belajar meracik wewangian dan ramuan dari bunga dan tanaman, karya-karyanya sudah menjadi langganan tetap di meja rias para bangsawan wanita di istana.\nTubuh mungilnya menyimpan energi kehidupan yang luar biasa melimpah, seolah musim semi yang datang bersamanya dahulu kala tidak pernah pergi, melainkan tersembunyi di balik setiap senyum yang terpancar dari gadis itu.\nDan di antara semua para tetua yang bersukacita melihat senyum Vesna, hanya ada satu orang yang benar-benar menyadari kekuatan seperti apa yang sesungguhnya tercermin dari diri sang gadis itu.\nDialah ayah dari Grand Duchess Benigna, kakek dari pihak ibu Vesna, Grand Duke Vila generasi saat ini, Pyotr.\nPada malam setelah perayaan ulang tahun kelima Vesna, Grand Duke Pyotr mengungkap sebuah rahasia sejarah yang amat penting kepada cucunya yang masih kecil itu di ruang perpustakaannya.\nSejarah itu bahkan lebih tua dari Kediaman Perak Veneter, merujuk pada asal-usul bangsa Vila, yakni era Hyperborea.\nKonon, malaikat dari segala malaikat pernah mencuri sebagian kekuatan dari sosok yang tak boleh disebutkan namanya. Secercah kekuatan itu berpindah-pindah tangan, hingga akhirnya tersembunyi dalam darah para Vila.\nSementara itu, fenomena aneh saat Vesna lahir, bahkan musim semi pun datang lebih awal, ditambah kecepatan pertumbuhannya yang menakjubkan, semuanya menunjukkan bahwa kebangkitan dari kekuatan yang hanya sedikit itu terjadi dalam dirinya.\nNama otoritas itu adalah Kehidupan.\nSaat itu, Vesna belum cukup memahami bobot kata tersebut, namun kata-kata sang kakek tetap mengguncang hatinya.\n\"Semua orang tahu, Vila selalu dikenal karena ketulusan, kemurnian, kebajikan, dan kesetiaan kepada Yang Mulia Maharani.\"\n\"Tapi sejak masa Grand Duke Gluvasha lima ratus tahun lalu hingga kini ... para Vila tidak pernah benar-benar mendapat kepercayaan dari Yang Mulia Tsaritsa satu kali pun.\"\nKalau bukan kakek dari pihak ibu sendiri yang mengatakannya, Vesna tidak akan pernah percaya kata-kata itu.\nNamun sebelum sempat bertanya alasannya, sang kakek telah meletakkan beban yang seharusnya tidak pantas untuk usianya di atas bahu mudanya yang masih rapuh.\n\"Vesna, kebanggaan sukuku, engkau adalah satu-satunya orang beruntung dalam keluarga ini yang mengalami kebangkitan kekuatan darah dalam lima ratus tahun terakhir.\"\n\"Kamu juga adalah orang beruntung satu-satunya dalam keluarga selama lima ratus tahun ini yang mendapat kehormatan pemberian nama dari Yang Mulia.\"\n\"Mungkin nasib keluarga Strivozha lima ratus tahun ke depan ada di tanganmu.\""
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Setelah usia lima tahun, Vesna tidak pernah lagi bersekolah di sekolah umum. Pendidikannya dipegang langsung oleh para guru besar dari berbagai aliran yang diundang oleh kakeknya.\nSeluruh waktunya dihabiskan dengan kelas-kelas elite. Ia tidak punya kesempatan lagi untuk bermain bersama teman-temannya, dan hampir tidak punya waktu untuk berlarian bebas di taman rumahnya.\nBahkan pergi ke luar kota bersama ibunya sendiri pun akan dikontrol ketat oleh kakek dari pihak ibunya. Semua ini karena ia dipandang sebagai harapan keluarga.\nWaktu yang dimilikinya semakin berkurang, begitu pula senyum hangat yang dulu selalu terukir di wajahnya.\nIa tidak pernah memahami apakah ancaman tentang ras Vila yang tidak dipercaya oleh Yang Mulia itu benar-benar ada atau hanya merupakan imajinasi kakeknya yang sudah berumur.\nSekitar lima tahun berlalu dengan hari-hari seperti itu, hingga suatu malam bersalju dan berangin, kedatangan seorang guru istimewa mengubah segalanya.\nMenurut kakeknya, guru itu baru berhasil dia undang dengan sangat susah payah dan menghabiskan sumber daya yang tak terhitung banyaknya.\nMalam itu, Vesna duduk gelisah di ruang baca sambil menunggu kedatangan sang guru. Tak lama kemudian, seorang tamu bertubuh mungil perlahan mendorong pintu dan melangkah masuk.\nOrang itu melepas mantelnya yang penuh salju dan memperlihatkan wajah yang tersembunyi di balik bayangan tudungnya. Begitu Vesna melihat wajahnya dengan jelas, ia pun tak bisa menahan seruan kecil yang keluar dari mulutnya.\nTernyata orang yang datang itu adalah walikota Snezhnograd, Ketua Snezhnograd Veche, sekaligus Fatui Harbinger ke-5, yaitu \"The Rooster\" Pulcinella.\nPejabat administratif tertinggi Snezhnaya itu memandang ke sekeliling ruangan, lalu langsung mengambil sebuah kursi yang tingginya hampir sama dengannya dari sudut ruangan dan duduk di hadapan Vesna. Dia memulai pembicaraan dengan lembut.\n\"Selamat malam, Nona Pakis tersayang. Maafkan aku karena telah berbicara dengan ibumu terlebih dahulu. Dia bilang sapaan seperti ini mungkin bisa sedikit membuatmu rileks. Apa kamu sudah merasa lebih baik?\"\nMendengar The Rooster menyebut ibunya dan panggilan akrab itu, tubuh Vesna langsung menjadi sedikit rileks. Ia pun berkata, \"Ya, Tuan Walikota Pulcinella, aku sudah merasa jauh lebih baik.\"\nThe Rooster mengangguk sambil tersenyum dan berkata, \"Syukurlah, aku senang kamu memiliki ibu seperti dia. Tapi, kakek dari pihak ibumu ... Grand Duke Pyotr memang membuat orang kurang nyaman, ya?\"\nMendengar pertanyaan itu, hati Vesna kembali sedikit terguncang. Ia tidak tahu apa maksud tersembunyi di balik pertanyaan Tuan Walikota, jadi dia tidak berani menjawab sembarangan.\nUntungnya, The Rooster mengulurkan tangannya dan memberikan isyarat bahwa dia tidak perlu menjawab pertanyaan itu, \"Kakekmu pasti sudah beri tahu kalau aku itu guru yang diundangnya dengan susah payah. Menurutmu bagaimana?\"\nPertanyaan ini sepertinya tidak menyimpan risiko tersembunyi, Vesna berpikir sejenak sebelum melontarkan jawabannya: \"Kalau Kakek memang sanggup mengurus hal ini, pasti Tuan Walikota harusnya sudah datang dari dulu.\"\nThe Rooster tersenyum sambil memilin kumisnya sendiri sambil berkata: \"Sepertinya aku memang harus datang lebih cepat untuk menemui gadis cerdas sepertimu. Benar, sebenarnya aku datang atas kehendak Yang Mulia Tsaritsa.\"\nTanpa menunggu respons Vesna, dia mengubah ekspresinya dan berkata, \"Yang Mulia memberikan perintah bagiku untuk menjawab satu keraguan milikmu. Yaitu krisis yang dikhawatirkan kakekmu, Grand Duke Pyotr, bukanlah hal yang palsu.\"\n\"Di mata Baginda, keluarga Strivozha tidak pernah dipercaya sepenuhnya. Di Snezhnograd Veche, hanya sedikit kursi yang disisakan untuk keluargamu, bahkan lebih sedikit dari kursi yang diberikan kepada kalangan pebisnis.\"\nBahkan setelah mendengar jawaban yang sudah pasti itu, Vesna tetap enggan menerimanya dan bertanya balik: \"Keluarga kita punya begitu banyak sejarah yang membanggakan ... Kenapa?\"\nThe Rooster menatap keluar jendela dengan pandangan hangat: \"Kalau begitu, aku rasa ibumu pasti sudah menceritakan sejarah pakis merah kepadamu ....\"\n\"Vila selalu jadi ras yang ahli dalam menggunakan tanaman untuk membuat wewangian dan ramuan ... Tapi apakah kamu tahu? Wewangian dan ramuan punya adik kandung, yaitu racun yang mematikan.\"\n\"Memang benar Strivozha yang Suci hanya menggunakannya untuk meracik wewangian, namun lima ratus tahun lalu, Gluvasha dari House Strivozha justru meracik anggur madu dari daun pakis dan meracuni mantan Grand Duke Photius hingga tewas dengan tangannya sendiri.\"\n\"Ia secara sukarela berpihak pada pemberontak yang menentang Tsaritsa. Awalnya dia mengusir duta khusus Zapolyarny Palace untuk keluar dari wilayahnya, lalu bahkan langsung merekrut pengikut tanpa izin resmi ....\"\n\"Para pemberontak peri dari berbagai klan saling memendam permusuhan dan kecurigaan, namun mereka selalu bersedia menyerahkan informasi rahasia kepadanya untuk dijadikan rencana.\"\n\"Pada akhirnya, ia menyerahkan semua informasi itu kepada Yang Mulia, membantu Yang Mulia menumpas para pemberontak sekaligus, bahkan menyerahkan wilayahnya dan turun takhta secara sukarela dengan sikap mulia. Tapi coba tebak, seandainya Yang Mulia tidak berhasil mengalahkan para bangsawan Volkodlak yang memberontak itu dengan cepat, kepada siapa para pengawal keluarga Strivozha akan mengarahkan pedang mereka?\"\n\"Ironis, ya? Di balik pakis yang menjadi simbol keluhuran, ketulusan, dan kasih sayang di kalangan ras Vila, tersembunyi rencana licik dan jahat.\"\n\"Motif leluhurmu tidak perlu kujelaskan panjang lebar, dengan kecerdasan yang kamu miliki, kamu pasti bisa memahaminya dengan mudah hanya dengan sedikit berpikir saja.\"\n\"Tapi hal-hal seperti berpura-pura berpihak, bermuka manis tapi berhati jahat, bukanlah sesuatu yang langka dalam sejarah Vila. Itulah mengapa keluarga Strivozha tidak pernah mendapat kepercayaan dari Yang Mulia.\"\n....\nVesna duduk terpaku di kursi, masih terkaget-kaget oleh kebenaran yang didengarkannya sampai tak mampu berkata-kata untuk sesaat. Sang Walikota sudah pergi, tapi sebelum beranjak, dia membuat sebuah perjanjian dengan Vesna.\nMalam ini dia menjawab satu pertanyaan Vesna. Tiga hari lagi, dia akan kembali, dan pada saat itu, dia akan meminta jawaban atas pertanyaan lain dari Vesna."
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "Selama tiga hari itu, Vesna benar-benar tidak bisa tenang.\nSejarah keluarga yang dulu menjadi kebanggaannya perlahan sirna, dan ia belum sepenuhnya menerima kenyataan yang begitu berat ini. Berbagai pertanyaan pun silih berganti muncul dalam benaknya.\nMengapa Yang Mulia Tsaritsa dulu memberikan nama baginya? Mengapa secuil kekuatan suci itu bisa terbangun dalam dirinya?\nMengapa Tuan Walikota jauh-jauh datang untuk menjawab keraguannya? Apa tujuan di balik perintah Yang Mulia Tsaritsa seperti itu?\nTiga hari lagi, pertanyaan seperti apa yang akan dihadapinya? Apakah jawaban yang diberikannya akan bisa memuaskan mereka?\nYang lebih penting lagi, sejarah yang telah ditutupi keluarga begitu lama, bahkan Yang Mulia Tsaritsa pun tidak pernah membongkarnya, namun kini semuanya justru diungkap dengan begitu mudah kepadanya ....\nJangan-jangan ia ingin melakukan sesuatu pada Kakek, bahkan pada seluruh keluarga Strivozha? Dan dirinya sendiri harus memilih di antara keduanya?\nVesna tidak berani melanjutkan pikirannya lebih jauh lagi. Ia pun tidak berani menyampaikan keraguan ini kepada kedua orang tuanya maupun kakek dari pihak ibunya. Namun jika akhirnya benar seperti yang dibayangkannya, ia telah diam-diam membuat keputusan dalam hatinya.\nTiga hari telah berlalu, dan keduanya bertemu di ruang baca seperti yang disepakati. Vesna duduk kaku di depan meja, wajahnya tak bisa menyembunyikan ekspresi tegang, seolah sedang menghadapi musuh besar.\nTuan Walikota menggeleng dan memecah kesunyian: \"Selamat malam, Nona Pakis yang tersayang. Apa kamu keberatan jika aku tetap memanggilmu dengan sebutan itu?\"\nVesna tertegun sejenak, ia mengira bahwa setelah mengetahui sejarah kelam keluarganya, ia akan membenci nama itu secara naluriah.\nTapi kenyataannya tidak. Bahkan, saat mendengar panggilan itu, yang pertama muncul di benaknya justru adalah wajah lembut Grand Duchess Benigna.\n\"Gadis pakis apiku yang tersayang ... Cinta Mama untukmu tak akan pernah padam ....\"\nSudut mata Vesna tiba-tiba dipenuhi dengan butiran air mata. Ia bergumam, \"Aku juga, Ibu,\" lalu seolah telah mengambil keputusan penting, ia mengucapkan kalimat berikut ini, kata demi kata, dengan tegas.\n\"Tuan Walikota, aku tidak akan mengkhianati ibuku, tidak akan mengkhianati keluarga Strivozha, dan terlebih lagi, tidak akan mengkhianati Yang Mulia Tsaritsa yang telah memberikan nama untukku.\"\n\"Jika Yang Mulia tidak lagi mengakui kesetiaan dan kehormatan keluarga Strivozha, maka biarkan darahku mengisi ulang kesetiaan dan kehormatannya.\"\n\"Jangan tanya apa jawabanku, jawabanku ada di sini!\"\nUsai berkata demikian, ia mencabut sebuah belati dan menancapkannya keras-keras yang ada di hadapan mereka. Ia lalu mendongakkan leher, memejamkan mata, dan berpose bagaikan seorang pahlawan yang siap menghadapi kematian.\nPulcinella menyaksikan semua itu dengan tercengang, lalu berdeham beberapa kali sambil berkata, \"Nona Vesna, sepertinya kamu salah paham.\"\n\"Pertanyaan yang ingin ditanyakan Yang Mulia Tsaritsa padamu adalah, menurutmu apa itu cinta?\"\nMata Vesna yang berkaca-kaca tiba-tiba membelalak lebar, ia bertanya berulang kali, \"Apa? Apa maksudnya? Pertanyaannya apa?\"\n\"Hmm ... Yang Mulia adalah dewa yang menguasai cinta kasih ... Beliau hanya ingin tahu, menurut pandangan Nona Vesna, apa itu cinta?\"\n\"Anggap saja ini topik obrolan santai seorang ibu saat piknik bersama anaknya. Kamu juga tahu, namamu diberikan langsung oleh Yang Mulia, dan beliau selalu sangat menyayangimu.\"\n\"Oh ... bukan berarti Yang Mulia ingin jadi ibumu. Meski selama ini beliau selalu memperhatikan tumbuh kembangmu, tapi kamu sudah punya ibu yang luar biasa.\"\n\"Err ... pokoknya ... kamu pasti bisa menghadapi pertanyaan ini dengan biasa saja. Tolong jangan terlalu dipikirkan.\"\nSang walikota memilih kata-katanya dengan hati-hati, khawatir gadis muda Vila yang penuh imajinasi itu kembali memikirkan hal-hal yang tidak perlu.\nNamun saat dihadapkan dengan pertanyaan ini, Vesna sama sekali tidak berpikir. Ini pertama kalinya dia mendapat pertanyaan itu, tapi jawabannya sebenarnya sudah lama ada dalam hidupnya.\n\"Vesna, putri bunga bola salju-ku yang pemberani\", \"Vesna, gadis putri kembang lilac-ku yang cerdas\", \"Vesna, putri cornflower-ku yang beruntung\" ....\n....\nCerita-cerita indah yang dulu dikarang ibunya kembali bergema di benaknya. Ia langsung menjawab, tanpa butuh waktu satu detik pun.\n\"Cinta adalah penciptaan! Cinta adalah kekuatan untuk menciptakan semangat, tawa, keberanian, dan harapan bagi orang-orang penting dalam hidupmu. Cinta adalah penciptaan.\"\n....\nWalikota Pulcinella meninggalkan kediaman Strivozha dengan ekspresi ringan dan ceria.\nIa tidak tahu apakah Yang Mulia Tsaritsa puas dengan jawaban ini, tapi secara pribadi, ia menyukainya. Dia juga suka dengan Vesna yang memikat bagai musim semi.\nSebelum pergi, ia juga sempat berpesan khusus kepada Grand Duke Pyotr, agar ia tidak perlu lagi bertanggung jawab atas pendidikan Vesna ke depannya, karena Yang Mulia sudah memiliki rencana yang lebih sesuai.\nMungkin seminggu lagi, Vesna akan menjadi muridnya yang sesungguhnya, atau mungkin setahun lagi, Vesna akan menjadi anggota Snezhnograd Veche yang paling muda.\nNamun bagaimanapun juga, Pulcinella percaya bahwa setelah malam ini, kediaman Vila yang telah sunyi selama bertahun-tahun akan kembali hangat dan penuh tawa, karena arti nama Vesna bukanlah musim dingin yang membeku.\n\"Vesna, Vesna ... kamu menyimpan musim semi yang tak terkalahkan dalam dirimu. Semoga ke depannya, kamu bisa membantu Yang Mulia menciptakan dunia yang penuh cinta kasih.\""
+      },
+      {
+        "Title": "Lencana Tentara Baru Druzhna",
+        "Context": "Setelah pesta makan malam perayaan pengangkatan Vesna sebagai komandan tertinggi Druzhna. Ia kembali ke rumah perkebunannya. Di bagian atap, ia menemukan sebuah lencana tentara baru Druzhna yang diselimuti debu.\nLencana itu ada di sini karena sebuah cerita kecil yang pernah ibu ceritakan. Jika seorang prajurit menaruh lencana miliknya sendiri di tempat yang tinggi, kariernya kelak akan terus menanjak.\nMeski saat itu Vesna sudah melewati usia yang percaya pada cerita semacam itu, ia tetap melakukan apa yang dikatakan ibunya.\nKarena sejak hari pertama ia bergabung dengan Druzhna, ia tahu bahwa menjadi komandan tertinggi hanya masalah waktu saja.\nKetika hari itu benar-benar tiba, sang ibu pasti akan merasa bahagia karena cerita yang ia karang sendiri ternyata bisa benar-benar membantu putrinya.\nVesna berjalan ke tepi atap sambil berpikir kembali dan duduk dengan tenang. Jari-jarinya perlahan menyusuri lekukan logam di lencana itu, pikirannya pun melayang kembali ke beberapa tahun silam.\nPada malam ketika The Rooster Pulcinella mendapat jawaban dari Vesna, dia juga memberi tahu Vesna tentang rencana Sang Tsaritsa untuk masa depannya ....\nMungkin dia bisa belajar dengan mengikuti pejabat administratif tertinggi, lalu menjadi anggota Snezhnograd Veche saat waktunya tepat, dan perlahan-lahan mulai mendekati pusat kekuasaan Snezhnaya melalui jalur administratif.\nMungkin langsung bergabung dengan pasukan Fatui, dan di antara sebelas posisi Harbinger di masa depan, besar kemungkinan ada satu posisi untuknya.\nDengan harapan seperti itu, Vesna datang menghadap ke Zapolyarny Palace seminggu kemudian, namun di sana ia justru menerima lencana tentara baru Druzhna yang sama sekali berbeda dari yang dibayangkannya sebelumnya.\nDan sosok yang ia kira akan menjadi gurunya, ternyata bukan lagi Harbinger Fatui ke-5, The Rooster, melainkan Harbinger Fatui ke-1, The Captain.\nDi atas istana, The Rooster menunjukkan ekspresi \"rencana sudah berubah\" dari kejauhan kepadanya, lalu berkata dengan tegas dan benar: \"Ini adalah keputusan Capitano sendiri.\"\nSetelah upacara pemberian penghargaan, Vesna yang cukup gelisah mengikuti Capitano yang tak berkata sepatah pun menuju lapangan latihan.\nIa sudah mulai khawatir tentang masa depannya sendiri. Meski sudah menonjol di antara sesama ras, bagaimanapun juga, Vila bukan ras yang unggul dalam pertempuran.\nSaat itu, suara Capitano yang dalam namun penuh wibawa terdengar: \"Aku sudah mendengar tentang dirimu.\"\n\"Dengan bakatmu, tidak ada alasan bagimu untuk tidak percaya diri. Dengan kualitasmu, tidak ada alasan bagimu untuk tidak bangga pada diri sendiri.\"\nKata-kata itu membuat Vesna sedikit tenang, tapi kekhawatirannya belum sepenuhnya hilang. Ia pun membuka mulut dengan hati-hati, \"Tuan Il Capitano ....\"\n\"Panggil aku Guru.\" Suara rendah itu langsung memotong ucapannya.\n\"Guru ... aku bukan kurang percaya diri, aku selalu yakin kalau aku itu yang terbaik dari keluarga Strivozha.\"\n\"Aku hanya khawatir, jika suatu hari nanti kekuatan yang bukan milikku itu pergi ... apakah aku masih bisa memenuhi harapan semuanya?\"\nCapitano tidak langsung menjawabnya, melainkan perlahan berjongkok, sampai tubuhnya yang gagah sejajar dengan Vesna.\nLalu, ia menghadap Vesna dan perlahan melepas topengnya sendiri. Dalam sekejap, aura yang sangat kuat langsung terpancar.\nVesna secara naluriah merasakan bahwa aura itu memiliki posisi yang sama dengan kekuatan kehidupan dalam darahnya sendiri.\n\"Sudah lihat? Sama sepertimu, dalam tubuhku pun ada kekuatan luar biasa yang bukan milikku sendiri.\"\nThe Captain kembali memasang topengnya dan menegakkan tubuhnya. Saat ia berdiri tegak, Vesna merasa seolah bahkan matahari pun tertutupi oleh gurunya.\n\"Tapi, aku menjamin atas nama prajurit, aku yang telah kehilangan kekuatan itu pun tidak akan kalah dari diriku sendiri saat ini.\"\n\"Vesna, kamu adalah satu-satunya orang dari keluarga Strivozha dalam ratusan tahun yang bisa membangkitkan serpihan Otoritas Kehidupan.\"\n\"Bukan kekuatan itu yang membuatmu luar biasa, melainkan karena kamu yang telah membangkitkannya dan mengendalikannya. Kamulah yang luar biasa.\"\n\"Kau harus paham, Vesna, musim semi yang datang lebih awal tahun itu, bukan untuk menemui kekuatanmu, melainkan untuk menemuimu.\"\n\"Jadi, jadilah murid yang membuatku bangga. Aku menunggu hari saat kamu berdiri di puncak Druzhna.\""
+      },
+      {
+        "Title": "Stellar Linchpin",
+        "Context": "Saat kabar kepergian The Captain tersebar sampai ke Snezhnaya, Vesna sedang diam-diam menyelipkan irisan lemon asam ke dalam gelas air Danica.\nPesan dari pengawal pribadi Druzhna tidak mengacaukan ritme sang komandan tertinggi. Ia tetap memasukkan irisan lemon ke dalam gelas itu satu per satu.\nSatu per satu, hingga air dalam gelas meluap, hingga irisan lemon memenuhi setiap inci ruang dalam gelas, hingga gelas itu tak lagi sanggup menampung apa pun yang lain.\nIa melambaikan tangan, menyuruh para penjaga pergi. Setelah itu, ia berbaring kembali di kursi untuk beristirahat sejenak, seolah-olah tindakan memasukkan irisan lemon itu sudah menguras seluruh tenaganya.\nSetelah beristirahat cukup lama, ia berjalan keluar pintu menuju arena latihan, di mana Danica juga berada, lalu Vesna berkata padanya, mari kita berlatih.\nDanica mengangguk tanpa ekspresi, keduanya pun mengambil pedang kayu dari arena latihan, lalu mulai bertarung.\nTak lama kemudian, Vesna melempar pedangnya sambil berteriak tidak mau bertarung lagi. Dia lalu merebahkan dirinya di tanah, menatap matahari dengan mata menyipit.\nHari-hari saat matahari terik di Snezhnaya memang tidak banyak, tapi pada hari The Captain menerimanya sebagai murid, matahari terasa lebih terik dari sekarang.\nDanica berjalan mendekat dan berkata, \"Kemampuanmu tidak sampai sepersepuluh kemampuan Guru\". Vesna mengolok, dan untuk sekali ini saja, Vesna tidak membalas.\nSetelah beberapa saat, ia mengulurkan tangan dan menggerakkan Danica seperti sedang memerintah seorang prajurit. Danica sebenarnya enggan menuruti Vesna, tapi mengingat Vesna tadi tidak membalas, ia pun mengikutinya.\nMaka Danica pun menganggap dirinya sendiri sebagai pasukan kehormatan yang menerima komando dari komandan tertinggi, kemudian bergerak hilir mudik di arena latihan.\nSaat Danica berhenti bergerak dan tepat menghalangi sinar matahari yang menyinari wajah Vesna, tampak kepuasan samar di wajah Vesna.\nIa memejamkan mata, seolah sedang mengenang sesuatu, bibirnya bergerak pelan dan bergumam lirih, \"Guru, aku tahu kau masih ada di sini.\"\nDanica berdiri diam di sana tanpa berkata apa pun. Ia tidak tahu apa yang sedang dilakukan Vesna, tetapi matanya terasa sedikit perih.\nKeduanya terdiam beberapa saat, lalu tiba-tiba, Vesna bangkit dan bilang, \"Aku harus pulang sebentar, jangan lupa minum air lemon yang kubuatkan ya. Supaya kamu punya alasan kalau mau menangis.\"\nLalu ia langsung terbang kencang. Sore harinya, Vesna kembali ke taman tempat ia dilahirkan, kembali ke hadapan pakis merah itu.\nIa mengulurkan tangannya, perlahan menyentuh daun pakis yang bergerigi itu. Tumbuhan ini sungguh aneh. Sudah lebih dari sepuluh tahun, tapi masih tetap tidak mati dan juga tidak hidup.\nTanaman itu tidak lagi bertumbuh, bahkan daunnya pun tetap dalam bentuk saat tertindih dulu. Vesna kadang berpikir, apa ini yang disebut keabadian?\nLalu dia menggerakkan kekuatan kehidupan dalam tubuhnya dan perlahan mengalirkannya ke akar pakis itu.\nIni adalah sesuatu yang belum pernah terpikirkan olehnya sebelumnya. Entah kenapa hari ini, tiba-tiba terlintas keinginan untuk melakukannya.\nNamun keajaiban kecil itu tak pernah terjadi, batang dan urat daun pakisnya tetap layu. Vesna menghela napas dan mengibas-ngibaskan tangannya, lalu bersiap untuk pergi.\nSaat itulah, dari sudut pandangan matanya, ia melihat sesuatu yang mengejutkan. Di tengah tiga helai daun pakis itu, ternyata ada satu kuncup kecil.\nNamun Vesna tahu, pakis tidak mungkin menghasilkan kuncup bunga. Pakis berkembang biak melalui spora, tanpa bunga, tanpa buah.\nIa mendekat lagi dan kembali mengalirkan kekuatan kehidupan ke dalamnya. Demikianlah, kuncup kecil itu pun tumbuh semakin besar, semakin besar.\nLalu, pop! Buah itu pecah, menyemburkan gumpalan spora beracun yang langsung mengenai wajah Vesna.\nSebelum pingsan karena racunnya sendiri, Vesna teringat bahwa ini bukan pakis biasa. Ini adalah pakis merah beracun milik keluarga Strivozha yang tak ada duanya.\nSaat tersadar kembali, bintang-bintang sudah memenuhi langit malam. Vesna menggelengkan kepalanya yang pusing. Samar-samar mengingat bahwa ia sepertinya baru saja mengalami mimpi singkat.\nMimpi itu adalah dunia yang penuh warna, dan gurunya berdiri tegak di ujung dunia itu, seperti dulu.\n\"Vesna, kembalilah\". \"Guru, Guru tidak ikut kembali denganku?\"\n\"Tujuan akhirku ada di sini\". \"Tapi aku dan Danica rindu sekali denganmu.\"\n\"Kita akan bertemu lagi, di antara segala jiwa yang disentuh ribuan angin\".\nMimpinya pun berlalu, dan ia memandang tanaman pakis itu dengan hampa, hanya untuk mendapati sebuah permata hijau zamrud yang terbaring di tengah kuncup yang baru saja mekar.\nSeolah-olah itu adalah buah abadi yang terbentuk di penghujung ratusan tahun perjalanan panjangnya."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 214300,
+      "Name": "Spring's Bond, Winter's Oath",
+      "Description": "Model pakaian Vesna. Sedikit dimodifikasi oleh Vesna sendiri dari seragam dasar Druzhna Snezhnaya. Meski begitu, daya tarik dan ongkos pembuatan adalah dua aspek yang berbeda. Oleh karena itu, permintaan Vesna untuk perombakan seragam berskala lebih besar belum disetujui hingga hari ini.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104154,
+    113092,
+    101277,
+    112148,
+    104373,
+    113089
+  ],
+  "NameCard": {
+    "Name": "Vesna: Revelry",
+    "Description": "Style Kartu Nama.\n\"Hidup ini, sama seperti desahan napas yang begitu singkat. Jadi, jangan sekali-kali buang waktumu untuk mengeluh, ya?\"",
+    "Icon": "UI_NameCardIcon_Vesna",
+    "PicturePrefix": "UI_NameCardPic_Vesna"
+  }
+}
