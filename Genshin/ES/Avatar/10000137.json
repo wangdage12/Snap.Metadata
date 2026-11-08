@@ -1,0 +1,1233 @@
+{
+  "Id": 10000137,
+  "PromoteId": 137,
+  "Sort": 123,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Valeriy",
+  "SideIcon": "UI_AvatarIcon_Side_Valeriy",
+  "Name": "Valeri",
+  "Description": "Capitán del Batallón de Misiones Especiales. Un militar experto en proteger a personalidades importantes y en sacar adelante cualquier plan.",
+  "BeginTime": "2026-11-03T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 838.8477,
+    "AttackBase": 21.3696,
+    "DefenseBase": 58.94175
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13731,
+        "Proud": {
+          "Descriptions": [
+            "Daño de 1er golpe|{param1:F1P}",
+            "Daño de 2.º golpe|{param2:F1P}",
+            "Daño de 3er golpe|{param3:F1P}",
+            "Daño de ATQ Cargado|{param4:F1P}",
+            "Daño de Mortero directo: Bombardeo a quemarropa|{param5:F1P}",
+            "Coste de Aguante de ATQ Cargado|{param6:F1} pts.",
+            "Aumento de Daño Electro|{param7:F2P} de ATQ",
+            "Aumento de daño de Superconductor Estelar|{param8:F2P} de ATQ",
+            "Cargas de orden expeledora|{param9:I}",
+            "#Duración de orden expeledora|{param10:F1}{NON_BREAK_SPACE}s",
+            "Daño de Caída|{param11:F1P}",
+            "Daño de impacto de caída baja/alta|{param12:F1P}/{param13:F1P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1373101,
+              "Level": 1,
+              "Parameters": [
+                0.324839,
+                0.29326,
+                0.454175,
+                1.00276,
+                2.292,
+                20,
+                0.2432,
+                0.7296,
+                15,
+                18,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1373102,
+              "Level": 2,
+              "Parameters": [
+                0.35128,
+                0.31713,
+                0.491142,
+                1.08438,
+                2.4639,
+                20,
+                0.26144,
+                0.78432,
+                15,
+                18,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1373103,
+              "Level": 3,
+              "Parameters": [
+                0.37772,
+                0.341,
+                0.52811,
+                1.166,
+                2.6358,
+                20,
+                0.27968,
+                0.83904,
+                15,
+                18,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1373104,
+              "Level": 4,
+              "Parameters": [
+                0.415492,
+                0.3751,
+                0.580921,
+                1.2826,
+                2.865,
+                20,
+                0.304,
+                0.912,
+                15,
+                18,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1373105,
+              "Level": 5,
+              "Parameters": [
+                0.441932,
+                0.39897,
+                0.617889,
+                1.36422,
+                3.0369,
+                20,
+                0.32224,
+                0.96672,
+                15,
+                18,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1373106,
+              "Level": 6,
+              "Parameters": [
+                0.47215,
+                0.42625,
+                0.660137,
+                1.4575,
+                3.2088,
+                20,
+                0.34048,
+                1.02144,
+                15,
+                18,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1373107,
+              "Level": 7,
+              "Parameters": [
+                0.513699,
+                0.46376,
+                0.71823,
+                1.58576,
+                3.438,
+                20,
+                0.3648,
+                1.0944,
+                15,
+                18,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1373108,
+              "Level": 8,
+              "Parameters": [
+                0.555248,
+                0.50127,
+                0.776322,
+                1.71402,
+                3.6672,
+                20,
+                0.38912,
+                1.16736,
+                15,
+                18,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1373109,
+              "Level": 9,
+              "Parameters": [
+                0.596798,
+                0.53878,
+                0.834414,
+                1.84228,
+                3.8964,
+                20,
+                0.41344,
+                1.24032,
+                15,
+                18,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1373110,
+              "Level": 10,
+              "Parameters": [
+                0.642124,
+                0.5797,
+                0.897787,
+                1.9822,
+                4.1256,
+                20,
+                0.43776,
+                1.31328,
+                15,
+                18,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1373111,
+              "Level": 11,
+              "Parameters": [
+                0.68745,
+                0.62062,
+                0.96116,
+                2.12212,
+                4.3548,
+                20,
+                0.46208,
+                1.38624,
+                15,
+                18,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1373112,
+              "Level": 12,
+              "Parameters": [
+                0.732777,
+                0.66154,
+                1.024533,
+                2.26204,
+                4.584,
+                20,
+                0.4864,
+                1.4592,
+                15,
+                18,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1373113,
+              "Level": 13,
+              "Parameters": [
+                0.778103,
+                0.70246,
+                1.087907,
+                2.40196,
+                4.8705,
+                20,
+                0.5168,
+                1.5504,
+                15,
+                18,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1373114,
+              "Level": 14,
+              "Parameters": [
+                0.82343,
+                0.74338,
+                1.15128,
+                2.54188,
+                5.157,
+                20,
+                0.5472,
+                1.6416,
+                15,
+                18,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1373115,
+              "Level": 15,
+              "Parameters": [
+                0.868756,
+                0.7843,
+                1.214653,
+                2.6818,
+                5.4435,
+                20,
+                0.5776,
+                1.7328,
+                15,
+                18,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 30601,
+        "Name": "Táctica de guardia: Espada y escudo",
+        "Description": "#<color=#FFD780FF>Ataque Normal</color>\nRealiza hasta 3 ataques consecutivos con espada.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume cierta cantidad de Aguante para saltar hacia delante y golpear el suelo, infligiendo Daño Físico a los enemigos cercanos.\nCuando Valeri tenga al menos 40{NON_BREAK_SPACE}pts. de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color>, la consumirá toda para realizar el Ataque Cargado especial <color=#FFD780FF>{LINK#N11370001}Mortero directo: Bombardeo a quemarropa{/LINK}</color>.\n\n<color=#FFD780FF>Ataque Descendente</color>\nSe lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto.{LINK#N11370002}{/LINK}",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01",
+        "CdTime": 0
+      },
+      {
+        "GroupId": 13732,
+        "Proud": {
+          "Descriptions": [
+            "Daño de habilidad|{param1:F1P}",
+            "#Absorción de escudo|{param2:F1P} de ATQ{NON_BREAK_SPACE}+{NON_BREAK_SPACE}{param3:I}",
+            "Duración del escudo|{param4:F1} s",
+            "#TdE|{param5:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1373201,
+              "Level": 1,
+              "Parameters": [
+                1.66,
+                2.08896,
+                1309.6384,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373202,
+              "Level": 2,
+              "Parameters": [
+                1.7845,
+                2.245632,
+                1440.6204,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373203,
+              "Level": 3,
+              "Parameters": [
+                1.909,
+                2.402304,
+                1582.5176,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373204,
+              "Level": 4,
+              "Parameters": [
+                2.075,
+                2.6112,
+                1735.33,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373205,
+              "Level": 5,
+              "Parameters": [
+                2.1995,
+                2.767872,
+                1899.0575,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373206,
+              "Level": 6,
+              "Parameters": [
+                2.324,
+                2.924544,
+                2073.7002,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373207,
+              "Level": 7,
+              "Parameters": [
+                2.49,
+                3.13344,
+                2259.258,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373208,
+              "Level": 8,
+              "Parameters": [
+                2.656,
+                3.342336,
+                2455.7312,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373209,
+              "Level": 9,
+              "Parameters": [
+                2.822,
+                3.551232,
+                2663.1194,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373210,
+              "Level": 10,
+              "Parameters": [
+                2.988,
+                3.760128,
+                2881.4229,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373211,
+              "Level": 11,
+              "Parameters": [
+                3.154,
+                3.969024,
+                3110.6414,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373212,
+              "Level": 12,
+              "Parameters": [
+                3.32,
+                4.17792,
+                3350.7751,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373213,
+              "Level": 13,
+              "Parameters": [
+                3.5275,
+                4.43904,
+                3601.824,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373214,
+              "Level": 14,
+              "Parameters": [
+                3.735,
+                4.70016,
+                3863.788,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373215,
+              "Level": 15,
+              "Parameters": [
+                3.9425,
+                4.96128,
+                4136.6675,
+                18,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 30602,
+        "Name": "Defensa ofensiva: Asedio blindado",
+        "Description": "#Alza su escudo y esprinta hacia delante para infligir <color=#FFACFFFF>Daño Electro en el AdE</color>, obtener 40{NON_BREAK_SPACE}pts. de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color> y crear un escudo electrificado.\nLa absorción de daño de dicho escudo varía en función del ATQ de Valeri y tiene un 250% de efectividad de absorción de <color=#FFACFFFF>Daño Electro</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Valeriy_01",
+        "CdTime": 10
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13739,
+      "Proud": {
+        "Descriptions": [
+          "Daño de habilidad|{param1:F1P}",
+          "Daño de misil de electrometralla|{param2:F1P}",
+          "#Duración|{param3:F1}{NON_BREAK_SPACE}s",
+          "#TdE|{param4:F1}{NON_BREAK_SPACE}s",
+          "Energía Elemental|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1373901,
+            "Level": 1,
+            "Parameters": [
+              1.3512,
+              0.3152,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373902,
+            "Level": 2,
+            "Parameters": [
+              1.45254,
+              0.33884,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373903,
+            "Level": 3,
+            "Parameters": [
+              1.55388,
+              0.36248,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373904,
+            "Level": 4,
+            "Parameters": [
+              1.689,
+              0.394,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373905,
+            "Level": 5,
+            "Parameters": [
+              1.79034,
+              0.41764,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373906,
+            "Level": 6,
+            "Parameters": [
+              1.89168,
+              0.44128,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373907,
+            "Level": 7,
+            "Parameters": [
+              2.0268,
+              0.4728,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373908,
+            "Level": 8,
+            "Parameters": [
+              2.16192,
+              0.50432,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373909,
+            "Level": 9,
+            "Parameters": [
+              2.29704,
+              0.53584,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373910,
+            "Level": 10,
+            "Parameters": [
+              2.43216,
+              0.56736,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373911,
+            "Level": 11,
+            "Parameters": [
+              2.56728,
+              0.59888,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373912,
+            "Level": 12,
+            "Parameters": [
+              2.7024,
+              0.6304,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373913,
+            "Level": 13,
+            "Parameters": [
+              2.8713,
+              0.6698,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373914,
+            "Level": 14,
+            "Parameters": [
+              3.0402,
+              0.7092,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373915,
+            "Level": 15,
+            "Parameters": [
+              3.2091,
+              0.7486,
+              12,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 30605,
+      "Name": "Fuego concentrado: Salva de electrometralla",
+      "Description": "Inflige <color=#FFACFFFF>Daño Electro en el AdE</color> a los enemigos cercanos y lanza hacia el aire un <color=#FFD780FF>misil de electrometralla</color>. El <color=#FFD780FF>misil de electrometralla</color> se dividirá en una gran cantidad de proyectiles que caerán al suelo e infligirán <color=#FFACFFFF>Daño Electro en el AdE</color> a los enemigos cercanos.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Valeriy_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 13721,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372101,
+              "Level": 1,
+              "Parameters": [
+                5,
+                80
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1372101,
+        "Name": "En compañía de un bombardeo",
+        "Description": "#Mientras caen los <color=#FFD780FF>misiles de electrometralla</color> de la Habilidad Definitiva, <color=#FFD780FF>{LINK#S30605}Fuego concentrado: Salva de electrometralla{/LINK}</color>, cuando los demás personajes en uso cercanos del equipo golpeen a un enemigo con ataques <color=#FFACFFFF>Electro</color>, Valeri obtendrá 5{NON_BREAK_SPACE}pts. de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color>. Tras cada uso de la Habilidad Definitiva, se puede obtener un máximo de 80{NON_BREAK_SPACE}pts. de <color=#FFD780FF>energía de choque</color> de esta forma.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_05"
+      },
+      {
+        "GroupId": 13722,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372201,
+              "Level": 1,
+              "Parameters": [
+                0.003,
+                0.009
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1372201,
+        "Name": "Asalto a la brecha defensiva",
+        "Description": "Fortalece la <color=#FFD780FF>{LINK#N11370002}orden expeledora{/LINK}</color>, de manera que el bono de daño otorgado por esta aumentará aún más en función de la <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color> consumida al ejecutar el Ataque Cargado especial <color=#FFD780FF>{LINK#N11370001}Mortero directo: Bombardeo a quemarropa{/LINK}</color>. Si Valeri:\n·Se encuentra en estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color>, cada punto de <color=#FFD780FF>energía de choque</color> consumido aumentará el bono de daño de la <color=#FFD780FF>orden expeledora</color> en una cantidad equivalente al 0.9% del ATQ de Valeri.\n·No se encuentra en estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color>, cada punto de <color=#FFD780FF>energía de choque</color> consumido aumentará el bono de daño de la <color=#FFD780FF>orden expeledora</color> en una cantidad equivalente al 0.3% del ATQ de Valeri.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_06"
+      },
+      {
+        "GroupId": 13723,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372301,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1372301,
+        "Name": "Adaptación al frío extremo",
+        "Description": "Cuando Valeri se encuentre dentro de un {LINK#N11330003}<color=#FFD780FF>campo estrellapolar</color>{/LINK}, entrará en estado de <color=#FFD780FF>esplendor: Superconductor Estelar</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_08"
+      },
+      {
+        "GroupId": 13725,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372501,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1372501,
+        "Name": "Información de operaciones en las llanuras heladas",
+        "Description": "#Aumenta en un 25% las recompensas de las expediciones de 20{NON_BREAK_SPACE}h en Snezhnaya (no incluye Nod Krai).",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1371,
+        "Name": "Secuencia de represión continua",
+        "Description": "#Tras ejecutar el Ataque Cargado especial <color=#FFD780FF>{LINK#N11370001}Mortero directo: Bombardeo a quemarropa{/LINK}</color>, Valeri recupera 6{NON_BREAK_SPACE}pts. de Energía Elemental. Al realizar dicho Ataque Cargado, por cada 10{NON_BREAK_SPACE}pts. de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color> consumidos por encima de los 40{NON_BREAK_SPACE}pts., Valeri recuperará 1.5{NON_BREAK_SPACE}pts. de Energía Elemental adicionales. Cada vez que ejecute el Ataque Cargado especial <color=#FFD780FF>Mortero directo: Bombardeo a quemarropa</color>, Valeri podrá recuperar hasta 15{NON_BREAK_SPACE}pts. de Energía Elemental de esta forma. Este efecto solo se puede activar una vez cada 15{NON_BREAK_SPACE}s.\nAdemás, cada vez que se entre en combate, la primera vez que Valeri use su Habilidad Elemental, <color=#FFD780FF>{LINK#S30602}Defensa ofensiva: Asedio blindado{/LINK}</color>, obtendrá una cantidad adicional de <color=#FFD780FF>energía de choque</color> equivalente al 150% de la cantidad original.",
+        "Icon": "UI_Talent_S_Valeriy_01"
+      },
+      {
+        "Id": 1372,
+        "Name": "Formación de carga acompañante",
+        "Description": "#Tras usar la Habilidad Elemental, <color=#FFD780FF>{LINK#S30602}Defensa ofensiva: Asedio blindado{/LINK}</color>, la Maestría Elemental de todos los personajes cercanos del equipo aumenta en 100{NON_BREAK_SPACE}pts. durante 18{NON_BREAK_SPACE}s.\nAdemás, al estar bajo la protección del escudo electrificado, si Valeri tiene el máximo de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color>, al activar un efecto que otorgue <color=#FFD780FF>energía de choque</color>, en vez de obtener dicha energía, la absorción de daño del escudo electrificado aumentará en una cantidad equivalente al 8% del ATQ de Valeri por cada punto de <color=#FFD780FF>energía de choque</color> excedente. Como máximo, se pueden convertir 20{NON_BREAK_SPACE}pts. de <color=#FFD780FF>energía de choque</color> excedente de esta forma.",
+        "Icon": "UI_Talent_S_Valeriy_02"
+      },
+      {
+        "Id": 1373,
+        "Name": "Cautela de combate cuerpo a cuerpo",
+        "Description": "#Aumenta el nivel de habilidad del Ataque Normal <color=#FFD780FF>{LINK#S30601}Táctica de guardia: Espada y escudo{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Valeriy_01",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1374,
+        "Name": "Tenacidad inquebrantable",
+        "Description": "#Aumenta en 30{NON_BREAK_SPACE}pts. el límite máximo de <color=#FFD780FF>{LINK#N11370003}energía de choque{/LINK}</color>, y en un 30% su eficiencia de obtención.\nAdemás, fortalece el efecto del talento de ascensión <color=#FFD780FF>{LINK#P1372101}En compañía de un bombardeo{/LINK}</color>, de manera que, después de usar la Habilidad Definitiva, se podrán obtener hasta 104{NON_BREAK_SPACE}pts. de <color=#FFD780FF>energía de choque</color> por medio de dicho talento. Es necesario desbloquear el talento de ascensión <color=#FFD780FF>En compañía de un bombardeo</color>.",
+        "Icon": "UI_Talent_S_Valeriy_03"
+      },
+      {
+        "Id": 1375,
+        "Name": "Voluntad devastadora",
+        "Description": "#Aumenta el nivel de habilidad de <color=#FFD780FF>{LINK#S30602}Defensa ofensiva: Asedio blindado{/LINK}</color>{NON_BREAK_SPACE}+3.\nPuede ser aumentado hasta Niv.{NON_BREAK_SPACE}15.",
+        "Icon": "UI_Talent_U_Valeriy_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1376,
+        "Name": "Poderío rompefilas",
+        "Description": "#Fortalece el Ataque Cargado especial <color=#FFD780FF>{LINK#N11370001}Mortero directo: Bombardeo a quemarropa{/LINK}</color> y los <color=#FFD780FF>misiles de electrometralla</color> de la Habilidad Definitiva, <color=#FFD780FF>{LINK#S30605}Fuego concentrado: Salva de electrometralla{/LINK}</color>, de manera que el daño infligido aumenta en un 100% y, tras golpear a un enemigo, la Prob. CRIT del <color=#FFACFFFF>Daño Electro</color> que reciba el mismo aumentará en un 10% durante 7{NON_BREAK_SPACE}s. Si el <color=#FFACFFFF>Daño Electro</color> recibido es de Superconductor Estelar, su Daño CRIT también aumentará en un 40%.",
+        "Icon": "UI_Talent_S_Valeriy_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "El Baluarte Atronador",
+    "Detail": "Capitán del Batallón de Misiones Especiales. Un militar experto en proteger a personalidades importantes y en sacar adelante cualquier plan.",
+    "Association": 10,
+    "Native": "Primer Regimiento de Bombarderos de la Guardia de los Fatui",
+    "BirthMonth": 3,
+    "BirthDay": 24,
+    "VisionBefore": "Electro",
+    "VisionOverrideUnlocked": "Visión",
+    "ConstellationBefore": "Ursus Magnus",
+    "CvChinese": "淦子齐",
+    "CvJapanese": "古川慎",
+    "CvEnglish": "Jordan Reynolds",
+    "CvKorean": "Park Noh-sik",
+    "CookBonus": {
+      "OriginItemId": 132005,
+      "ItemId": 132053,
+      "InputList": [
+        110016,
+        100075,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Hola...",
+        "Context": "Valeri, capitán del Batallón de Misiones Especiales del Primer Regimiento de Bombarderos de la Guardia de la Real Armería, presentándose para el servicio. Puedo combatir en primera línea, realizar labores de reconocimiento en las profundidades de territorio hostil o proteger personal e instalaciones clave. Mi preferencia sería formar equipo con sus camaradas para superar cualquier desafío mediante una coordinación férrea."
+      },
+      {
+        "Title": "Charla - Horario",
+        "Context": "Según el horario, es hora de revisar el progreso del entrenamiento de cada unidad."
+      },
+      {
+        "Title": "Charla - Planes de contingencia",
+        "Context": "¿Ya decidiste el próximo destino? Asegúrate de preparar un plan de contingencia y de explorar el terreno con antelación. Si necesitas una mano, puedo ayudarte."
+      },
+      {
+        "Title": "Charla - Fuerza medida",
+        "Context": "En una batalla prolongada, es fundamental dominar el uso de solo la fuerza que requiere cada golpe. Así es como conservas la energía."
+      },
+      {
+        "Title": "Cuando llueve...",
+        "Context": "En Snezhnaya casi nunca llueve sin más. Casi toda la humedad cae en forma de nieve. Los soldados de mi batallón y yo lo preferimos así. El frío seco es mucho más estimulante que la humedad y el barro."
+      },
+      {
+        "Title": "Cuando truena...",
+        "Context": "Un sonido agradable, ese trueno. Me recuerda a las cargas explosivas en las minas."
+      },
+      {
+        "Title": "Qué sol hace...",
+        "Context": "Buen clima y excelente visibilidad. Pero eso también significa que cualquier vigía oculto puede observarnos desde muy lejos. No necesariamente es bueno para nosotros."
+      },
+      {
+        "Title": "Hace mucho viento...",
+        "Context": "Un viento fuerte hace que las llamas se aviven y transporta el humo a gran distancia. Con este tipo de clima, si necesitas una fogata para cocinar, lo mejor es cavar un hoyo de fuego de explorador sin humo."
+      },
+      {
+        "Title": "En el desierto...",
+        "Context": "El calor seco es el enemigo ancestral de la humanidad... Uno que todavía no logro vencer."
+      },
+      {
+        "Title": "Buenos días...",
+        "Context": "#Despiert{F#a}{M#o}, y justo a tiempo. Si todos fueran como tú, el mundo sería perfecto, al menos en lo que a mí respecta. Aunque, claro, los relojeros se quedarían todos sin trabajo."
+      },
+      {
+        "Title": "Buenas tardes...",
+        "Context": "¿Cuál es tu evaluación? ¿Encendemos un fuego y cocinamos una comida caliente como se debe, o nos arreglamos con las raciones?"
+      },
+      {
+        "Title": "Buenas noches... (I)",
+        "Context": "Después del anochecer, es más fácil calmar la mente y concentrarse, lo que lo convierte en un buen momento para el trabajo detallado. Necesito seis minutos para revisar el escudo y el cañón. Cualquier arma o equipo tuyo que necesite mantenimiento, déjamelo a mí."
+      },
+      {
+        "Title": "Buenas noches... (II)",
+        "Context": "Se acabó el tiempo. Por el bien de mañana, será mejor que te acuestes ahora. Déjame la guardia nocturna a mí. Ah, una cosa más. No te sorprendas si al despertar encuentras la fogata apagada y mi abrigo sobre ti. La luz suele atraer problemas no deseados después del anochecer. Es mejor permanecer ocultos."
+      },
+      {
+        "Title": "Sobre Valeri - El Batallón de Misiones Especiales",
+        "Context": "En un campo de batalla convencional, las reglas de enfrentamiento suelen ser claras. Proteger al personal y las instalaciones clave, o recabar información, es otro asunto. En misiones como esas, los soldados a menudo tienen dificultades para determinar dónde están los límites razonables, o incluso qué sería un método infalible. Todas nuestras habilidades se ponen constantemente a prueba. Por eso seleccionamos a mano a soldados con una variedad de talentos del Regimiento de Bombarderos de la Guardia, y formamos el Batallón de Misiones Especiales. Individualmente, mis hombres son combatientes extraordinarios, pero lo más valioso es su capacidad de adaptación y su experiencia para resolver todo tipo de problemas. Somos más bien una mezcla de soldados, agentes secretos y detectives de crímenes graves."
+      },
+      {
+        "Title": "Sobre Valeri - Comandante",
+        "Context": "He ostentado el rango de comandante durante mucho tiempo. ¿Oportunidades de ascenso? Las hay. Pero no tengo ningún deseo de quedar encerrado en una oficina o puesto de mando. Necesito ver las condiciones del frente con mis propios ojos para desplegar tropas de forma precisa y efectiva. También encuentro más gratificante liderar a soldados excepcionales en batalla contra monstruos poderosos. Además, dados los estándares del Batallón de Misiones Especiales, apenas logramos encontrar suficientes soldados calificados para completar nuestras filas. Si lo piensas así, significa que tanto el tamaño del batallón como mi rango se mantendrán exactamente donde están por un buen tiempo."
+      },
+      {
+        "Title": "Sobre nosotros - Caminos diferentes",
+        "Context": "#En términos de fuerza bruta, ni siquiera todo mi batallón podría superar a un{F#a} guerrer{F#a}{M#o} de tu calibre. En cuanto a tus logros, son legendarios y tan numerosos que podrías cubrir todo tu uniforme de medallas... Por eso, tienes mi respeto."
+      },
+      {
+        "Title": "Sobre nosotros - Objetivos en común",
+        "Context": "#En cuanto a nuestras metas a largo plazo, creo que pensamos igual. Nuestros informes de inteligencia indican que ayudas a la gente común en cada nación que visitas, y te esfuerzas por mantener seguros sus asentamientos. Yo me esfuerzo por hacer lo mismo. Un soldado derrota al enemigo no por honor ni gloria, sino para asegurar una vida pacífica para sus compatriotas. Si te sirve, eres bienvenid{F#a}{M#o} a recurrir a mi experiencia para dirigir a tu equipo. Quién sabe, quizás algún día se vuelva aún más formidable."
+      },
+      {
+        "Title": "Sobre la Visión...",
+        "Context": "Ser reconocido por los dioses y recibir el derecho de manejar poder elemental es un honor. Pero incluso sin él, me habría esforzado en perfeccionar mis habilidades de combate hasta llegar a ser el guerrero que soy hoy. Condición física básica, dominio de distintas armas... Un soldado no puede permitirse descuidar ninguna de ellas."
+      },
+      {
+        "Title": "¿Algo que decir?",
+        "Context": "El entrenamiento con el peso corporal es muy popular entre los soldados y mineros de Snezhnaya. Muchos se ponen el uniforme completo y el equipamiento y ven cuántas dominadas o flexiones con un brazo pueden hacer. Luego están los bailes que se hacen en cuclillas y que trabajan el abdomen y las piernas a fondo... ¿Quieres verme hacer uno? Perdón por decepcionarte, pero de verdad no sé cómo."
+      },
+      {
+        "Title": "Un dato curioso...",
+        "Context": "El ejército regular y la Druzhna tienen cada uno su propia banda militar, y ambas son exigentes hasta el más mínimo detalle. Las he visto ensayar. De vez en cuando, el director le echa una bronca a algún soldado por desafinar, y yo no logro notar la diferencia. ¿Será que no tengo oído para la música?"
+      },
+      {
+        "Title": "Sobre la Zarina...",
+        "Context": "Como oficial de campo, estoy muy alejado de los asuntos de gran estrategia. Pero desde hace tiempo, por lo que dicen mis compañeros oficiales y la gente, he sentido cuánto ha dado su majestad la Zarina por Snezhnaya. Sin duda, ella guiará a esta nación hacia el mejor futuro posible. Por eso mi deber principal es mantener al Batallón de Misiones Especiales siempre en máxima disposición, preparados para cualquier misión que ordene su majestad. Si ella da la orden, lideraré a todo el batallón hacia el campo de batalla más peligroso que exista, y lo consideraré nuestro mayor honor."
+      },
+      {
+        "Title": "Sobre Dánica...",
+        "Context": "Cuando la jefa de las sirvientas de la corte, Dánica, transmite un comunicado con órdenes a las unidades regulares, suele ser un coronel quien se reúne con ella. Yo había supuesto que la Srta. Dánica sería extremadamente estricta y meticulosa, del tipo que verifica hasta el último detalle. Así que, antes de nuestra última operación conjunta, me preparé a fondo y reservé tiempo extra para ello. Para mi sorpresa, ella se encargó de todo con una eficiencia admirable. Terminamos en una quinta parte del tiempo que había previsto, y mantuvo su elegancia y compostura en todo momento. Sin duda, se merece su lugar junto a su majestad."
+      },
+      {
+        "Title": "Sobre El Capitán...",
+        "Context": "El Capitán no era mi superior directo, pero el Batallón de Misiones Especiales tuvo el honor de operar junto a sus tropas varias veces. No hay forma de exagerar su influencia sobre los soldados de Snezhnaya. Cuando yo estaba en el entrenamiento básico, los manuales y reglamentos que usábamos ya habían sido mejorados por su mano, y muchos combatientes destacados aprendieron su oficio de él. Cuando llegaron noticias de lo que hizo en Natlan, mis compañeros y yo quedamos destrozados... pero también orgullosos de él. Si los soldados de Snezhnaya necesitan un modelo a seguir, ¿quién podría ser sino El Capitán?"
+      },
+      {
+        "Title": "Sobre La Títere...",
+        "Context": "La Srta. Sandrone quizás sea la mejor cuando se trata de mejorar Patrulleros Terrestres. Su serie Legión Bosco ofrece un rendimiento general casi un setenta por ciento superior al de los modelos de producción estándar. Son prácticamente máquinas nuevas bajo la misma armadura. Algunos de mis soldados fueron destinados a su mando y lucharon en la defensa de la Oficina de Diseño Experimental en Nod Krai, y todos regresaron con el más profundo respeto hacia ella. Está claro que es una integrante excepcional de Los Once, tan talentosa en el mando como en la investigación."
+      },
+      {
+        "Title": "Sobre Nobile...",
+        "Context": "Tengo entendido que el senador Tartaglia nació plebeyo. Aún no he tenido ocasión de conversar con él extensamente. Pero, por lo que he podido observar, es un hombre franco que trata bien a sus subordinados. A juzgar por los recientes traslados de personal, los soldados de mayor confianza de El Capitán ahora sirven bajo su mando. Me gustaría conocerlo en persona. Simplemente nunca se ha presentado la ocasión adecuada. ¿Que lo rete a un duelo sin más? ¿Hablas en serio?"
+      },
+      {
+        "Title": "Sobre Vesna...",
+        "Context": "La comandante Vesna y yo servimos en divisiones diferentes, así que dudo que un simple comandante como yo le haya dejado alguna impresión. Comparados con nosotros, los soldados regulares, la movilidad y la capacidad para atravesar líneas de defensa de la Druzhna son inigualables, aunque les costaría aprovechar eso en una batalla estática y atrincherada. No es que tengan que preocuparse por ello. Al fin y al cabo, son la guardia personal de su majestad. Los enfrentamientos comunes no son algo para lo que merezca la pena incordiarlos. Sin embargo, a veces veo a la comandante Vesna en... ¿eventos promocionales? No entiendo muy bien qué hace ahí."
+      },
+      {
+        "Title": "Sobre Mitya - Respeto...",
+        "Context": "El Batallón de Misiones Especiales tiene muchas obligaciones. Una de ellas es mantener a las personas importantes trabajando como un reloj. Como has visto, a Mitya le falta paciencia para seguir una rutina ordenada. Con la mayoría de la gente, podría recurrir a métodos algo menos educados. Pero incluso alguien como yo, que no tiene cabeza para el estudio, puede notar que lo que él hace importa enormemente. Así que no debería ser demasiado duro con él."
+      },
+      {
+        "Title": "Sobre Mitya - Amigos...",
+        "Context": "Tras todo lo que hemos pasado juntos, Mitya ahora me llama su amigo. Es todo un honor. De todos mis amigos, es a quien tengo en más alta estima. Algunos oficiales y nobles pagarían una fortuna por comprar esa distinción. Pero la amistad no se puede medir, igual que el vínculo entre camaradas que se han refugiado en el mismo cráter de una explosión. Mitya le ha dado a Snezhnaya algo que nadie más podría darle. Debo tener el mayor cuidado para mantenerlo a salvo y ofrecerle un lugar donde pueda trabajar sin que lo molesten en absoluto... Aunque... necesito encontrar la forma de hacerle entender cuánto perjudica al cronograma general que haga siempre lo que le venga en gana."
+      },
+      {
+        "Title": "Sobre Aliosha...",
+        "Context": "Al contrario a lo que muchos suponen, yo también crecí en un pueblo remoto. ¿Por qué habría de ganarme la enemistad de un joven honesto que trabaja sin descanso por la gente común y sigue aceptando casos que se mueven en zonas grises de la ley? Mientras no cruce ninguna línea, no tengo motivos oficiales ni deseo personal alguno de arrestarlo. Eso no significa que considere a Rókot completamente inofensivos. Sin embargo, por ahora, siguen trabajando por el bien de Snezhnaya. No son mis enemigos."
+      },
+      {
+        "Title": "Sobre Vodyanitsa...",
+        "Context": "La voz de esa cantante realmente tiene una especie de magia. Incluso alguien que sabe tan poco de arte como yo se conmueve con sus canciones. A veces, hasta he llegado a comprender un poco por qué Mitya se comporta como lo hace. Comprenderlo, que quede claro. No aprobarlo. Los plazos no son negociables. No le concederé ni media hora extra por ese motivo."
+      },
+      {
+        "Title": "Sobre Varka...",
+        "Context": "Mientras acompañaba a El Capitán, el Batallón de Misiones Especiales se topó una vez con la fuerza expedicionaria de los Caballeros de Favonius. Aquel día, observé desde la distancia cómo luchaba su Gran Maestro. Su fuerza era asombrosa, y blandía sus dos espadas con total desenfreno, como si la idea de conservar energía jamás se le hubiera pasado por la cabeza. O tal vez sea tan poderoso que no lo necesita. Si tan solo no le gustara tanto el licor fuerte... mi respeto por él se duplicaría sin problema."
+      },
+      {
+        "Title": "Más sobre Valeri (I)",
+        "Context": "Algunos colegas de familias adineradas me describieron una vez como “demasiado serio, del tipo que organiza su tiempo incluso en los días libres y no tiene pasatiempo que valga la pena mencionar”. No se equivocan. Mi origen familiar no es tan ilustre como el de la mayoría de los oficiales. La verdad es que lo pasamos bastante mal económicamente. Pero precisamente eso hizo que muchos de los soldados de tropa me consideraran uno de los suyos. Así que, tras graduarme en la Real Academia Militar y unirme como oficial subalterno a la compañía de asalto más aguerrida del Primer Regimiento de Bombarderos, en poco tiempo forjé una buena afinidad con todos los hombres, y juntos logramos un sólido historial en combate."
+      },
+      {
+        "Title": "Más sobre Valeri (II)",
+        "Context": "La mayoría de los soldados confían en un oficial que ejerce el mando con competencia y se toma su deber en serio. Uno que además entiende las dificultades de los soldados y les ayuda cuando puede es todo lo que podrían pedir. Por desgracia, muy pocos oficiales están a la altura de eso. Nuestro comandante de compañía en aquel entonces era un noble. Era absurdamente severo con sus soldados, pero él mismo era lamentablemente incompetente. Provocó un accidente tras otro, una derrota tras otra."
+      },
+      {
+        "Title": "Más sobre Valeri (III)",
+        "Context": "Así que fue muy reconfortante que, al asumir el mando de la compañía, todos los soldados me brindaran su apoyo total. En poco tiempo, nuestra compañía de asalto logró resultados superiores a lo esperado. Esa compañía terminó formando el núcleo del Batallón de Misiones Especiales. Con el paso de los años, nuestras responsabilidades se ampliaron considerablemente y se nos encomendaron misiones cada vez más difíciles. Eso me dio bastante práctica en la gestión del tiempo y la coordinación de los horarios entre las distintas unidades. Quizás por eso también se nos confió la custodia de la Real Armería. Por ahora, se ha suspendido la rotación habitual de unidades, lo que en la práctica nos convierte en la guardia exclusiva de la Armería. Dada su importancia, no podría existir un voto de confianza mayor."
+      },
+      {
+        "Title": "Más sobre Valeri (IV)",
+        "Context": "Sinceramente, mentiría si dijera que me uní al ejército únicamente para servir a Snezhnaya, sin pensar en mí mismo. Pasé toda mi infancia en las minas y atravesé más de una dificultad. Por supuesto que soñaba con... ascender de rango hasta llevar una vida de riqueza y privilegios, y liberar a mi familia de las preocupaciones económicas. Con el tiempo, mi forma de ver las cosas cambió. Luché en varias batallas encarnizadas contra monstruos junto a mis compañeros, y encontré algo... que le dio a mi vida un sentido más profundo que los Moras. Quizá por esa decisión, mi familia tenga menos joyas que lucir. Pero Snezhnaya ha ganado un escudo que se mantiene firme ante el viento y la nieve. Uno que protege mi hogar y el de los demás."
+      },
+      {
+        "Title": "Más sobre Valeri (V)",
+        "Context": "Antes de la batalla, todo soldado quiere conocer las condiciones de victoria. Pocas perspectivas son más emocionantes que derribar al comandante enemigo y provocar el colapso de sus fuerzas. Yo también me sobreestimé en el pasado. Entrené como un loco, con la esperanza de emular a los héroes que lideraban desde el frente. Pero una derrota me enseñó los límites de la fuerza mortal. Contra enemigos que superan nuestro entendimiento, la fuerza de la unidad es nuestro escudo más seguro. Desde entonces, me he dedicado a coordinar cada tarea con precisión, manteniendo a la unidad en su mejor forma y ayudándola a mejorar. Cada soldado ocupa voluntariamente su lugar como un engranaje de la máquina. Y cuando avanzamos, el equilibrio de la batalla se inclina a nuestro favor."
+      },
+      {
+        "Title": "Aficiones de Valeri...",
+        "Context": "¿Alguna vez has observado kresnikita de cerca? Es un combustible esencial, pero también una hermosa obra de la naturaleza. Su brillo y sus vetas son exquisitos... Y no son los únicos cristales especiales. El ágata, el jade, las perlas... cada uno tiene su propia textura. Incluso yo, que no soy artista, puedo apreciar su belleza. Recolectar minerales, estudiarlos y dibujar sus patrones fue uno de mis juegos favoritos de la infancia. Todavía lo disfruto hoy en día. Aunque ya he vendido todas las gemas valiosas y envié los Moras y los suministros a casa. Ahora me conformo con piedras comunes."
+      },
+      {
+        "Title": "Preocupaciones de Valeri...",
+        "Context": "Hay gente que simplemente no puede seguir un horario. Y luego, cuando algo sale mal, se lo guardan para ellos mismos y tratan de resolverlo solos. Eso le crea un sinfín de problemas a quien tenga que gestionar el horario. Lo he dicho una y otra vez. Todo el trabajo y las operaciones deben seguir el cronograma. Si ocurre algo inesperado, hay que avisar a todos los involucrados lo antes posible, para que el resto del equipo pueda ajustar sus horarios. Ah, ya estoy acostumbrado a resolverles estos problemas a los demás. Solo desearía que a todo el mundo le enseñaran esta simple regla como una habilidad básica para la vida."
+      },
+      {
+        "Title": "Comida que más le gusta...",
+        "Context": "Los cocineros llenan las raciones del ejército con demasiada grasa y sal para aportar más energía. Comer mucho de eso termina por arruinarte el apetito. Por eso, en las comidas diarias prefiero platos suavemente condimentados, con algo de acidez o un dulzor natural. Como sopa de pescado, o distintos tipos de verduras en escabeche."
+      },
+      {
+        "Title": "Comida que menos le gusta...",
+        "Context": "A la gente de Snezhnaya le encanta beber. Algunas de las historias más exageradas hasta han trascendido fronteras. Pero no todos podemos beber como peces y seguir nadando, sobre todo cuando se trata de bebidas tan fuertes como el aguafuego. Un par de copas pueden bastar para entorpecer el cumplimiento del deber. He visto incontables casos así, tanto en las minas como en el ejército. Así que, si vas a beber, es mejor optar por algo suave y de baja graduación, como el nocturno nevado del productor original. En cuanto a quienes destilan licores de forma ilegal para hacerlos aún más fuertes, merecen un castigo severo."
+      },
+      {
+        "Title": "Al recibir un regalo (I)",
+        "Context": "Cuando las cosas se ponen difíciles en el frente, una comida así vale una caja entera de proyectiles."
+      },
+      {
+        "Title": "Al recibir un regalo (II)",
+        "Context": "#No hay nada de malo con lo adecuado. Si mantienes este nivel, serías un{F#a} {F#buena cocinera}{M#buen cocinero} militar."
+      },
+      {
+        "Title": "Al recibir un regalo (III)",
+        "Context": "Es comestible... pero comer este tipo de comida con regularidad sería perjudicial para tu salud. Tampoco te obligues a comerlo."
+      },
+      {
+        "Title": "Cumpleaños...",
+        "Context": "En el ejército de Snezhnaya, cuando un soldado cumple años, sus compañeros sacan su mejor comida y bebida para preparar un festín juntos. Al ayudarme, ayudaste a todo el Batallón de Misiones Especiales. Eso hace que cada soldado en él sea tu compañero. Pero un festín preparado por todo el batallón sería más de lo que podrías comer. Así que le pedí a cada compañía que aportara un solo plato para representarla. Espero que esto transmita su respeto hacia ti, y el mío."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Introducción",
+        "Context": "... Y yo que pensaba que serías más exigente conmigo."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desarrollo",
+        "Context": "Todavía no es suficiente. Hay que poner la vara más alta."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Nudo",
+        "Context": "En cuanto a la capacidad de combate de un soldado común, me pondría al nivel de “compañía de un solo hombre”... pero no puedo conformarme con eso."
+      },
+      {
+        "Title": "El sentimiento de Ascensión - Desenlace",
+        "Context": "Las aventuras contigo me han templado de un modo que ningún entrenamiento común habría logrado. Ahora tengo la certeza de poder pelear a tu lado en las batallas más duras y ayudarte a acabar con los comandantes enemigos."
+      },
+      {
+        "Title": "Ataque Cargado (I)",
+        "Context": "Destruye su armadura."
+      },
+      {
+        "Title": "Ataque Cargado (II)",
+        "Context": "Paralizado."
+      },
+      {
+        "Title": "Ataque Cargado (III)",
+        "Context": "Fuego de supresión."
+      },
+      {
+        "Title": "Habilidad Elemental (I)",
+        "Context": "Rompan sus filas."
+      },
+      {
+        "Title": "Habilidad Elemental (II)",
+        "Context": "Acercándome."
+      },
+      {
+        "Title": "Habilidad Elemental (III)",
+        "Context": "Embístanlos hasta hacerlos sangrar."
+      },
+      {
+        "Title": "Habilidad Definitiva (I)",
+        "Context": "Ráfaga de dispersión."
+      },
+      {
+        "Title": "Habilidad Definitiva (II)",
+        "Context": "Cañón pesado, disparo en parábola."
+      },
+      {
+        "Title": "Habilidad Definitiva (III)",
+        "Context": "Área denegada."
+      },
+      {
+        "Title": "Al abrir un cofre (I)",
+        "Context": "Clasifica todo por tipo antes de meterlo en tu mochila."
+      },
+      {
+        "Title": "Al abrir un cofre (II)",
+        "Context": "Es un buen hábito sacarle el mayor provecho a todos tus suministros."
+      },
+      {
+        "Title": "Al abrir un cofre (III)",
+        "Context": "Incluso las baratijas tienen su utilidad."
+      },
+      {
+        "Title": "Vida baja (I)",
+        "Context": "Necesito darle la vuelta a esto..."
+      },
+      {
+        "Title": "Vida baja (II)",
+        "Context": "Me equivoqué."
+      },
+      {
+        "Title": "Vida baja (III)",
+        "Context": "La amenaza supera las proyecciones."
+      },
+      {
+        "Title": "Aliado con vida baja (I)",
+        "Context": "Retírense. Yo los detendré."
+      },
+      {
+        "Title": "Aliado con vida baja (II)",
+        "Context": "Retirémonos y reagrupémonos."
+      },
+      {
+        "Title": "Derrotado (I)",
+        "Context": "Me confié demasiado..."
+      },
+      {
+        "Title": "Derrotado (II)",
+        "Context": "El plan... se vino abajo."
+      },
+      {
+        "Title": "Derrotado (III)",
+        "Context": "He deshonrado... mi misión..."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (I)",
+        "Context": "Es insignificante."
+      },
+      {
+        "Title": "Recibiendo un ligero ataque (II)",
+        "Context": "Nada serio."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (I)",
+        "Context": "No está mal."
+      },
+      {
+        "Title": "Recibiendo un fuerte ataque (II)",
+        "Context": "No basta..."
+      },
+      {
+        "Title": "Unirse al equipo (I)",
+        "Context": "Justo a tiempo. Pongámonos en marcha."
+      },
+      {
+        "Title": "Unirse al equipo (II)",
+        "Context": "Sincronicen relojes. Comiencen la misión."
+      },
+      {
+        "Title": "Unirse al equipo (III)",
+        "Context": "Ponme al tanto de la operación."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Detalles del personaje",
+        "Context": "Los Fatui, el símbolo que encarna el poder de Snezhnaya, el poderoso ejército que protege a los ciudadanos...\nProfesionales, eficientes, serenos, resolutivos... No hay duda de que gozan de muchísimos elogios.\nCada vez que los soldados desfilan por la plaza junto a los Patrulleros Terrestres, se alzan vítores y bendiciones que retumban como truenos.\nAlistarse y convertirse, tras un arduo entrenamiento, en un soldado de los Fatui duro como el acero es el sueño de muchos niños.\nPero la crueldad de la realidad supera con creces las optimistas expectativas de la gente. Desde la capacidad física y el sentido de obediencia hasta la aptitud para el aprendizaje y la tenacidad, las exigencias de cada prueba son gélidas y afiladas como carámbanos.\nY eso sin mencionar a la unidad de élite del Primer Regimiento de Bombarderos de la Guardia, una unidad de renombre que se ha hecho con la reputación de ser “la Barricada de Glupov” o “el Martillo de Teplo”.\nDicen por ahí que incluso los que no logran entrar en esa unidad llegan a convertirse en la punta de lanza más afilada entre los soldados corrientes. Para ellos, los encargos más difíciles del Gremio de Aventureros son poco más que un juego de niños.\nPor lo general, los miembros del Regimiento de Bombarderos de la Guardia hacen todo lo posible por no revelar su identidad, y toda información relacionada con él debe mantenerse en la más estricta confidencialidad.\nPero los guerreros poderosos siempre despiertan una fascinación sin límites, y nunca faltan quienes intentan conocer a fondo a esta unidad desde los ángulos más inesperados.\nÚltimamente, la única excepción es el comandante Valeri Ivánovich Denísov.\nDebido a las exigencias de su misión actual, Valeri frecuenta lugares públicos y, por muy discreto que sea, le resulta inevitable atraer miradas.\nUn cuerpo tan imponente como una muralla, una armadura y un equipamiento relucientes, un aspecto impecable, una actitud rigurosa... Encarna a la perfección lo que el ciudadano común imagina al pensar en un “militar ejemplar”.\nCon el tiempo, el comandante Valeri llegó a convertirse prácticamente en la tarjeta de presentación del Primer Regimiento de Bombarderos de la Guardia.\nAnte la atención de los ciudadanos comunes y los daguerrotipos que alzan los reporteros, la actitud de Valeri es muy clara: ni le molesta, ni responde, ni le importa. Nada lo distrae de sus propios asuntos.\nPero... si alguien intentara sonsacar información más delicada, analizar la unidad a la que pertenece y tramar algo que perjudicara los intereses de Snezhnaya...\nEntonces, que espere sentado.\nPorque, en ese momento, “el baluarte se abalanzará sobre esa persona por voluntad propia”."
+      },
+      {
+        "Title": "Historia del personaje (1)",
+        "Context": "En el lejano pasado de la nación de las nieves, la Zarina Anastasia tuvo que hacer frente a la rebelión de numerosos aristócratas feéricos cuando justo acababa de subir al trono.\nA diferencia de su predecesor, el Zar Monómaco, ella no convocó a la Druzhna, sino que fundó una nueva fuerza llamada “los Fatui” para enfrentarse a esos rebeldes.\nLos Fatui avanzaron triunfalmente junto a la Zarina, conquistaron los territorios de numerosos clanes y derrotaron con facilidad a los viejos ejércitos de los duques y los aristócratas. En definitiva, sus gloriosas hazañas son demasiadas para enumerarlas.\nUno de esos escuadrones acabó convirtiéndose en el actual Primer Regimiento de Bombarderos de la Guardia.\nSe podría decir que dicho regimiento es la unidad más antigua de los Fatui, y nunca falta cuando se requiere la fuerza de los mejores soldados.\nSin embargo, en contraste con su extenso historial, el Batallón de Misiones Especiales bajo su mando no se fundó hasta hace pocos años, por lo que sus integrantes son sangre completamente nueva.\nComo primer líder del Batallón de Misiones Especiales, el comandante Valeri fue la figura clave que definió su estilo de actuación.\nSe encargó de forjar a “la élite entre la élite” con el único propósito de resolver por medios no convencionales aquellos problemas que se salen de lo común y hacer frente a amenazas que las tropas regulares difícilmente podrían afrontar.\nAdemás de eliminar las amenazas internas cuando fuera necesario.\nA diferencia de lo que se imagina el pueblo de Snezhnaya, tras varios siglos de expansión, los Fatui han crecido tanto que era inevitable que se colaran algunos individuos malintencionados, lo que ha hecho que la conducta y la capacidad de combate de cada unidad sean muy desiguales.\nTodo soldado competente debería tener presente que, conociendo la forma de proceder de su majestad la Zarina, los enemigos a los que habrá que vencer en el futuro serán, sin duda, mucho más poderosos que los duques de antaño.\nPor ello, las tropas normales de los Fatui también deben mejorar constantemente y llevar su potencial de combate al límite.\nHace algunos años, después de que Valeri llevara al Batallón de Misiones Especiales a su mejor nivel, recibieron la autorización de varios capitanes e incluso de un miembro de Los Once para actuar desde un frente interno y otro externo. Además de exterminar monstruos de alto riesgo, castigaron a numerosos militares corruptos e incompetentes, lo que mejoró notablemente el rendimiento en combate de muchas unidades.\nTanto fue así que, desde entonces, basta mencionar el Batallón de Misiones Especiales, o incluso avistar desde lejos la figura de Valeri, para que la mayoría de las tropas aliadas de los Fatui se pongan tensas de forma instintiva.\nActo seguido, se apresuran a revisar sus propias filas por si acaso hubiera entre ellas algún elemento corrupto que haya filtrado secretos militares, revendido bienes de forma ilegal o infringido los edictos, desatando así una cadena de consecuencias nefastas.\nAlgunos oficiales más avispados reunieron grandes sumas de dinero e intentaron poner parches a última hora para suavizar las relaciones con el Batallón de Misiones Especiales. Otros, unos auténticos desquiciados, se jugaron el todo por el todo y trataron de morder la mano del Batallón de Misiones Especiales.\nSobra decir que todos ellos fracasaron sin excepción y acabaron entre rejas.\nHasta los orgullosos miembros de la Druzhna se ponían en guardia y evitaban cualquier trato con esos “tipos problemáticos”.\nValeri se sentía bastante satisfecho con la cautela de sus propios aliados. Una reacción tan intensa significaba que sus acciones estaban dando resultado. Si al final de toda esa purga acabaran llevándose bien con todo el mundo, ¿no sería eso prueba de que ellos también habían sucumbido a la corrupción?\nAsí pues, el Batallón de Misiones Especiales siguió actuando bajo la premisa de “no tener miedo de ofender a los compañeros, sino de que la purga no fuera lo bastante contundente”, hasta alcanzar sus objetivos básicos.\nEl viejo título de Valeri, “el Oso Fortaleza”, volvió a circular por todo el ejército.\nAquellos compañeros de armas con más años de servicio que él, quienes o bien lo respetaban o bien lo temían, recordaron entonces sus extraordinarias hazañas..."
+      },
+      {
+        "Title": "Historia del personaje (2)",
+        "Context": "El apodo de “Oso Fortaleza” suena adorable, aunque en realidad se usa tanto para elogiar como para criticar y se remonta a los años en que Valeri estudiaba en la Real Academia Militar.\nEn aquella época, las familias nobles y los comerciantes adinerados solían enviar a sus descendientes al ejército para que pudieran destacar. Como solía decirse: “Si lanzas una bola de nieve al azar en la biblioteca de la Real Academia Militar, ofenderás a cinco futuros altos dignatarios”.\nA eso se sumaba que, a diferencia del ambiente cordial de las escuelas normales, la academia militar ponía un énfasis especial en la competencia y no escatimaba en recursos para cultivar el afán de victoria de sus cadetes.\nValeri, un niño corriente de una familia humilde de mineros...\nFue admitido entre los cinco primeros de su promoción y, en su primer año, se llevó el primer puesto tanto en conocimientos teóricos como en las pruebas prácticas.\nPero ¿cómo lo consiguió?\nEn un intento por recuperar su dignidad, los “cadetes de élite” de su misma promoción desafiaron a Valeri una y otra vez, tanto en los exámenes como en el campo de maniobras, pero casi nunca conseguían nada.\nSus calificaciones en los exámenes escritos siempre quedaban un escalón por debajo de él, y cuando dirigía tropas en los simulacros de combate, Valeri los dejaba completamente destrozados. Tras tantos golpes, algunos de esos jóvenes orgullosos acababan recibiendo palizas de Valeri incluso en sueños.\nAlgunos decían que Valeri era como una fortaleza que se interponía en su camino; otros, que cuando lanzaba un ataque parecía un oso cubierto con una armadura. Con el paso del tiempo, ambos apodos acabaron fusionándose.\nA Valeri no le molestaba en absoluto ese apodo, y de hecho, casualmente, sus propios padres esperaban que llegara a desarrollar una fuerza como la de un oso. ¡Todo salió a pedir de boca!\nEn realidad, Valeri no tenía intención de provocar a los cadetes de su mismo curso. Ni siquiera se detenía a pensar por qué lo habían convertido en su blanco.\nÉl solo buscaba la solución óptima para su vida: entrenar su cuerpo al máximo, concentrar todas sus energías en el estudio de los libros, dedicarse por completo a perfeccionar sus habilidades profesionales y aprovechar hasta el último segundo del tiempo disponible.\nAl mismo tiempo, para evitar que la cuerda del arco de su voluntad se rompiera bajo tanta presión, durante las vacaciones también trabajaba en una herrería.\nAsí, al mismo tiempo que relajaba la mente, se forjaba la armadura que mejor se adaptaba a él y, de paso, ganaba algo de dinero para ciertos “gastos necesarios”.\nEl setenta por ciento de ese dinero lo enviaba a sus padres, y el treinta restante lo ahorraba para encargar trajes de gala discretos y correctos, con los que intentaba integrarse en el círculo de sus colegas y asistir a las cenas y bailes necesarios, combatiendo con una conducta impecable las calumnias que lo tachaban de “rudo, mercantilista e incapaz de emprender grandes proyectos”.\nA base de prueba y error, Valeri perfeccionó una técnica casi impecable de planificación y ejecución del tiempo, y pasó a dividir su vida en ciclos de tareas de mayor o menor duración, medidos en horas.\nEra algo demasiado mecánico, tan monótono que casi parecía una penitencia, algo incomprensible a los ojos de los descendientes de nobles y ricos comerciantes.\nPero para un soldado que se está forjando a sí mismo, aquello no era más que su deber.\nLas únicas personas que podrían vencerlo de forma limpia y legítima eran quienes no se quedaran por detrás de Valeri en lo que a gestión del tiempo se refiere.\nValeri también tomó la iniciativa en el momento oportuno y reparó su relación con aquellos alumnos que habían competido ferozmente con él y que lo veían como una espina clavada.\nUna competición a fondo, una borrachera descomunal, una charla sincera y, como aderezo, una dosis adecuada de humildad y cortesía... Todo eso bastaba para dejar atrás los prejuicios mutuos y convertir a los “enemigos” en amigos.\nSi en el futuro iban a luchar codo con codo en el mismo ejército, ¿por qué no hacerlo?\nCon el paso del tiempo, los “descendientes de la élite” acabaron rindiéndose a la admiración por Valeri, y cada vez había menos gente que lo desafiara.\nObjetivamente hablando, el ambiente que generó Valeri, aquel alumno tan singular, llevó la competencia a su punto más alto e hizo que de esa promoción surgieran bastantes estrellas emergentes.\nPor eso, en cuanto Valeri se graduó de la Real Academia Militar, ingresó de inmediato en el Primer Regimiento de Bombarderos de la Guardia gracias a una carta de recomendación de origen desconocido. Allí, lo asignaron a la Compañía de Asalto del Primer Batallón para comandar directamente el recién formado Tercer Pelotón.\nOjlópkov, comandante del batallón en aquel entonces, frecuentaba la Real Academia Militar y, tras observar a Valeri durante mucho tiempo, lo eligió con mucha satisfacción.\nLo que más le llamó la atención fue justamente ese carácter de Valeri: digno pero sin llegar a ser arrogante, siempre sabiendo cuándo avanzar y cuándo retroceder.\nAdemás, era mucho más sencillo moldear a un joven de origen plebeyo, inmaculado como una hoja en blanco, para convertirlo en un guerrero intrépido, en una espada certera e implacable, que a un miembro de la élite tras el cual podría esconderse algún rico mercader o incluso algún integrante del Veche de Snezhnogrado.\n"
+      },
+      {
+        "Title": "Historia del personaje (3)",
+        "Context": "El valor de un soldado se demuestra con sangre.\nNo debe derramarse ni una gota de sangre de más de tus compañeros. En cambio, de la sangre del enemigo, cuanta más, mejor.\nCosa que Valeri ha logrado.\nTras incorporarse a la Compañía de Asalto del Primer Batallón del Primer Regimiento de Bombarderos de la Guardia, la primera misión que recibió Valeri fue la de avanzar hacia el este junto a su compañía para aniquilar a los rebeldes atrincherados en los alrededores del Oasis de Teplo, que pretendían restaurar el poder de los duques de antaño.\nLa familia del líder rebelde parecía víctima de algún tipo de hechizo. Generación tras generación, rendían culto al gran duque Skoldyryt, con quien no tenían ningún lazo de sangre, y permanecieron agazapados durante todo ese tiempo con la vana esperanza de devolverle la gloria a un alma que llevaba siglos muerta.\nUna locura absurda, pero también un asunto sumamente espinoso.\nPor desgracia, dicha información se confirmó demasiado tarde. Antes de entrar en combate, la compañía creyó que se trataba de una operación de erradicación normal y no mantuvo el máximo nivel de alerta.\nEn los primeros tiempos de los Fatui, el Primer Regimiento de Bombarderos de la Guardia destrozó aquí las formaciones de los volkodlak y se hizo merecedor de su reputación como “Martillo de Teplo”.\nSin embargo, al comienzo de aquella operación, los roles se invirtieron.\nLos desprevenidos soldados Fatui se dividieron en tres escuadrones según lo planeado, con la intención de marchar en formación hasta estar a dos mil pasos del objetivo y, así, adoptar una formación de combate.\nLo que ignoraban era que los rebeldes de Skoldyryt habían reunido hacía tiempo una fuerza muy superior a la de sus compañías y habían preparado una emboscada con antelación.\nLos Fatui de la vanguardia cruzaron aquel paso sin la menor precaución y los corpulentos volkodlak los acorralaron por todas direcciones, segándolos como si fueran trigo. Por un momento, sus filas quedaron completamente deshechas...\nEl único que no cayó en la emboscada fue el Tercer Pelotón, que estaba al mando de Valeri. Fue así como el joven “Oso Fortaleza” mostró por primera vez su potencial para inclinar la balanza de una batalla.\nFiel a los buenos hábitos que había adquirido en su etapa de cadete, ordenó a sus subordinados con antelación mantenerse alerta y realizar reconocimientos constantes y exhaustivos, de modo que, antes de adentrarse en aquella trampa mortal, ya conocía a fondo la situación del enemigo. Gracias a eso logró un despliegue de emergencia y resistir con firmeza la primera oleada del ataque enemigo, convirtiéndose así en el eje de toda la batalla.\nAl ver que aquel jefe de pelotón se mantenía tan firme a pesar de que aquella era su primera batalla, los soldados recuperaron de inmediato la moral. Las tropas se reorganizaron en torno a Valeri y lograron contener a base de pura fuerza el feroz embate de los enemigos restantes. Poco a poco, la pericia de los Bombarderos de élite despertó de nuevo, inclinando lentamente la balanza de la fuerza.\nAl ver que ni un asalto tan feroz había logrado decidir la batalla, la moral de los lacayos restantes de Skoldyryt se desplomó al instante, y los vacilantes que ya pensaban en retirarse dejaron al descubierto los puntos débiles de su línea.\nValeri también supo captar con precisión esa oportunidad fugaz. Arrastrando su cuerpo gravemente herido, como si fuera incapaz de sentir dolor, lideró al Tercer Pelotón en una arrolladora carga en sentido contrario, desgarrando con fiereza las filas enemigas.\nTras rescatar al equipo de Stepanián, que se hallaba rodeado por todos los flancos, concentró sus fuerzas, de un solo impulso avanzó hasta el líder enemigo... y clavó a aquella arrogante Bestia Colmillofrenética contra la pared rocosa.\nEl resultado de la operación no fue precisamente brillante, pero tampoco llegó a ser un desastre. Los Fatui pagaron un precio mayor de lo previsto, aunque al menos consiguieron exterminar por completo a esa disparatada banda de volkodlak.\nSin duda alguna, si Valeri no hubiera liderado a sus hombres para estabilizar a la compañía en el momento decisivo, los Fatui habrían pagado un precio desgarrador incluso aunque hubieran salido victoriosos al final.\nEsta operación también hizo que el jefe de batallón Ojlópkov viera su propio y enorme error: Arakchéyev, el comandante de la Compañía de Asalto que había sido trasladado desde un batallón hermano y al que había tomado por un subordinado de fiar, “estricto incluso cuando estaba enfermo y de actitud intachable”, no era más que un trepa maquinador con gravísimas carencias en su capacidad de mando y de decisión.\nSi se permitía que semejante incompetente siguiera al mando de la Compañía de Asalto, tarde o temprano ocurriría una catástrofe.\nOjlópkov volvió a fijarse en Valeri. Ese joven que había cambiado el curso de la batalla quizá pudiera ser algo más que un simple soldado."
+      },
+      {
+        "Title": "Historia del personaje (4)",
+        "Context": "Durante la operación para aniquilar a los rebeldes de Skoldyryt, el comandante de la Compañía de Asalto, Arakchéyev, se mostró pasivo y poco resuelto. Sin embargo, según el informe con el que luego se quitó toda responsabilidad de encima, la causa principal del fracaso de la operación fue un “reconocimiento previo insuficiente”.\nCualquier persona con dos dedos de frente sabe que eso formaba parte de sus responsabilidades como comandante. Por desgracia, si uno solo mira las estadísticas, los resultados de la operación fueron bastante brillantes, e incluso podría decirse que el desempeño de esa compañía fue “ejemplar”.\nAl final, el comandante no recibió sanción alguna; al contrario, el mando del regimiento lo recompensó.\nY Valeri, quien realmente salvó la situación, se hizo un nombre en una sola batalla gracias a su desempeño de élite. Gracias a la enérgica recomendación de Ojlópkov, fue ascendido directamente a ayudante de Arakchéyev, el comandante de la Compañía de Asalto, y además se encargó de coordinar el entrenamiento y la logística.\nDespués llegaron quince meses de adaptación sin sobresaltos. Durante ese tiempo, Valeri desplegó al máximo su capacidad para impulsar planes y establecer cronogramas rigurosos, y gestionó cada asunto de forma impecable.\nPuede que aquello fuera una forma de consentirlo. Al ver que su ayudante era tan diligente y responsable, Arakchéyev optó por dejar más y más asuntos en manos de Valeri, mientras él se limitaba a presentar informes impecables a sus superiores.\nIncluso llegó al punto de dejar que Valeri le organizara hasta su propia agenda.\nSin necesidad de que Ojlópkov dijera más, Valeri confirmó las sospechas que ya tenía sobre el comandante.\nMás que enfrentarse a un enemigo poderoso en el campo de batalla, lo que de verdad atormenta a un soldado competente es el daño que causa la incompetencia de su comandante.\nPor desgracia, Arakchéyev era de origen noble, lo que lo vinculaba con demasiada gente con la que los Bombarderos no podían interferir.\n¿Enemistarse con ciertos personajes influyentes por culpa de un comandante tan incompetente? Ni Valeri ni Ojlópkov tenían suficiente importancia para eso, al menos en ese momento.\nDebía de haber algún método más seguro y que se pudiera llevar a cabo a la luz del día...\nA quien carece de aptitudes, lo justo es dejar que abandone el escenario con un final a la altura de su negligencia. Cuanto más grave sea esa negligencia, mayor será la destrucción que cause, y más aplausos arrancarán los fuegos artificiales del gran final.\nPero si semejante farsa se montara en un combate real, otros compañeros de armas pagarían el precio sin merecerlo, e incluso habría bajas, cosa que es completamente inviable.\nValeri reflexionó con cautela sobre esto durante mucho tiempo, concretó un plan y puso en marcha una audaz operación.\nA Arakchéyev le encantaba trepar en la jerarquía y, como su compañía era considerada un modelo a seguir, aceptó un montón de ejercicios de demostración, informes y seminarios entre unidades. Valeri aprovechó la ocasión para ayudarlo a representar a la compañía, haciéndolo aparecer constantemente en todas partes.\nSu agenda estaba repleta, tal como corresponde a un comandante ejemplar. Al principio, todo aquello le venía de maravilla a Arakchéyev, pues le permitía sumergirse en la deliciosa ilusión de un ascenso meteórico. De hecho, llegó a pensar que, cuantas más oportunidades así, mejor.\nSin embargo, los méritos con los que Arakchéyev buscaba reconocimiento apenas tenían relación con sus propias capacidades. A medida que Valeri le asignaba cada vez más asuntos de ese tipo, las responsabilidades que Arakchéyev delegaba en Valeri volvían a recaer sobre los hombros del primero, y cuando quiso darse cuenta, ya lo tenían en un pedestal demasiado alto, y lo mismo ocurría con las expectativas que todos daban por sentadas acerca de él.\nAl final, durante la semana en que Valeri “estuvo de baja por enfermedad grave”, todos los falsos logros de Arakchéyev se vinieron abajo debido a la ausencia de aquel ayudante que le organizaba todo su horario con la precisión de un cronómetro.\nDe repente, su forma de dirigir los ejercicios de entrenamiento era un desastre, tartamudeaba en las reuniones y, en los simulacros de combate entre unidades de igual rango, una compañía normal y corriente lo derrotó con mucha ventaja.\nEl desconcierto y el asombro se extendieron por el ejército, y tras ellos llegaron las acusaciones y una investigación exhaustiva. Las unidades aliadas no tardaron en desenmascarar a Arakchéyev, y el escándalo se hizo tan grande que ni los nobles que lo respaldaban pudieron contener la situación.\nAquel comandante desganado acabó perdiendo un puesto que siempre había estado por encima de sus capacidades.\nEn cuanto a Valeri, él solo cumplió con su deber como ayudante: se encargó de las tareas “más pesadas” en lugar del comandante, le organizó cuidadosamente la agenda y le proporcionó planes de acción superdetallados.\nArakchéyev abandonó el puesto que nunca debió ocupar, y los militares que de verdad trabajaban en la sombra cubrieron ese vacío de responsabilidad. Valeri tomó el mando de la compañía con el clamor unánime de todos; una compañía que, en cierto sentido, él mismo había salvado a base de duras batallas.\nSin necesidad de demostrar nada, sin necesidad de mover hilos, sin necesidad de palabrería alguna, ahora simplemente tenía que cumplir con su deber: entrenar con rigor y conseguir resultados reales en el campo de batalla, con armas de verdad.\nTodo eso formaba parte de aquello en lo que Valeri, o más bien, cualquier soldado de Snezhnaya, debería destacar por encima de todo.\nLas batallas encarnizadas se sucedieron una tras otra, pero con un líder competente, los soldados pudieron demostrar el coraje propio de los militares de Snezhnaya.\nErradicó seis concentraciones de monstruos relacionadas con perturbaciones en las líneas ley, aplastó dos bandas criminales equiparables a los rebeldes de Skoldyryt e incluso eliminó en masa a los monstruos quiméricos al oeste de Snezhnogrado.\nNadie habría imaginado que la compañía más prestigiosa del Primer Regimiento de Bombarderos de la Guardia perdería su honor y, en tan solo un año, lograría recuperarlo...\nTanto fue así que Ojlópkov, gracias a los méritos de guerra que Valeri le ayudó a conseguir, ascendió a comandante del regimiento en el siguiente relevo de liderazgo, lo que demostró que su apuesta había sido absolutamente acertada.\nEn cuanto a Valeri... Gracias a toda esa serie de acontecimientos, un miembro de Los Once se había fijado en él. Su Compañía de Asalto fue reorganizada y ampliada hasta convertirse en el Cuarto Batallón de Élite del Primer Regimiento de Bombarderos, dedicado a “misiones especiales de dificultad extraordinaria”.\nMisiones más difíciles, pero que tenían más valor a largo plazo, aguardaban al joven comandante.\nAunque algo cansado, Valeri no tardó en demostrar que era capaz de lograr un mando preciso e implacable, y consiguió un resultado casi perfecto.\n \n"
+      },
+      {
+        "Title": "Historia del personaje (5)",
+        "Context": "Durante su etapa en la Compañía de Asalto, Valeri, cuyo talento estaba comenzando a brillar, demostró con numerosas victorias su capacidad para comandar tropas de élite.\nDurante el primer año desde la fundación del Batallón de Misiones Especiales, también demostró, con una actuación firme tanto interna como externa, que era de fiar a la hora de impartir disciplina a las unidades de base y de hacer frente a amenazas no convencionales.\nLas condiciones eran idóneas y el momento, oportuno.\nEn la Real Armería de Glupov, cierta investigación de alto secreto estaba a punto de entrar en su fase crucial. Por ello, los Fatui necesitaban reunir a soldados intachables que garantizaran el éxito absoluto del proyecto.\nNo debían dejarse corromper, ni filtrar al exterior una sola palabra de información relevante sobre la investigación, ni el paradero del personal clave.\nDebían proteger al personal clave y los activos del proyecto de investigación incluso frente a ataques selectivos o al asedio de fuerzas rebeldes decenas de veces superiores en número.\nDebían detectar a tiempo y contrarrestar cualquier interferencia o acto de sabotaje fuera de lo común, y eliminar en el menor tiempo posible a los cerebros que estaban detrás de todo.\nPor último, todo esto debía aplicarse de forma constante, ya que la misión tenía una duración indefinida.\nDebido a estos factores, entre otros, el Batallón de Misiones Especiales de Valeri se convirtió en la única opción. O, mejor dicho, fue precisamente con ese propósito que se amplió y se le dio su forma definitiva.\nTodos los soldados que aceptaron la misión firmaron una serie de documentos escalofriantes y se prepararon mentalmente para lo que vendría.\nCuando los soldados, con los nervios a flor de piel, se estaban empezando a preguntar si el objetivo que debían proteger era demasiado viejo y frágil, o quizá rígido y exigente, y, bajo el mando de Valeri, formaron una fila impecable y entraron en el laboratorio a presentarse...\nSe encontraron con Mitya, el brillante experto en energía, el núcleo del proyecto ultrasecreto...\nQue estaba jugando a piedra, papel o tijera con una bufanda...\nY encima, la bufanda le pintó media hierbalana en la cara con un crayón.\nEntonces, el ambiente se congeló al instante.\nTras casi cien combates a vida o muerte y superar innumerables pruebas, esos soldados no pudieron aguantar más y terminaron cayendo derrotados.\nA Mitya no le molestó en absoluto. Al contrario, los saludó con total naturalidad.\nAl darle la mano a Valeri, aún se preguntaba: “¿Por qué este oficial tiene esa cara tan seria?”, y hasta intentó tranquilizarlo diciéndole que no se pusiera nervioso.\nActo seguido, Mitya tuvo un mal presentimiento y miró con recelo los objetos desparramados sobre su escritorio: nada menos que siete tipos distintos de cubos-rompecabezas que él mismo había fabricado para matar el tiempo. Era como si pudiera ver ya el futuro en el que se los confiscaban.\n...\nEse día, Valeri estaba algo ausente.\nNo dudaba en absoluto de la capacidad académica de Mitya. Mucho antes de aceptar esta misión, sus padres, ambos mineros, ya habían oído hablar de aquel famoso investigador, y lo mencionaban una y otra vez en sus cartas como ese gran hombre del “Consorcio de Energía”, elogiando sus ingeniosos inventos por brindarles a los mineros una comodidad muy valiosa.\nToda la información sobre Mitya que había en el informe se podía resumir en una sola frase: “El genio más excepcional de Snezhnaya”.\n¿Será que llevaba demasiado tiempo inmerso en un trabajo muy agobiante? De vez en cuando aparece alguna figura importante que no sigue las reglas del juego, y eso hacía que Valeri se sintiera aliviado y alerta a la vez.\nLo que lo aliviaba era que convivir con un joven lleno de energía siempre es mejor que tratar con uno de esos típicos viejos eruditos acartonados.\nY lo que lo mantenía en alerta era si el carácter de ese experto lo metería en problemas mucho mayores de lo previsto, lo que convertiría su misión de protegerlo en una tarea complicada.\nPor suerte, tras un breve periodo de adaptación, surgió algo que rozaba lo paradójico: una especie de... “sintonía”.\nEl rigor de Valeri con la organización del tiempo y el control de las tareas no consiste en llenar cada minuto y cada segundo del día de cosas, sino en “dejar siempre cierto margen para planes de respaldo, sin dejar de avanzar según lo previsto”.\nEs cierto que, cuando se acerca el momento clave, advierte a la otra persona de forma precisa, reiterada y contundente de que el plazo está a punto de vencer.\nPero si de verdad surge algún imprevisto de fuerza mayor y no logra ceñirse al cronograma original, es capaz de presentar de inmediato un calendario de recuperación y salvar la situación redistribuyendo con flexibilidad los turnos de trabajo, con un nivel de detalle idéntico al de la primera versión.\nPor lo general, no necesita recurrir a más de dos rondas de ajustes.\nLas tres primeras fechas límite significan, respectivamente: “lo ideal es terminar el trabajo antes de esto”, “acabarlo ahora también está bien” y “hay que esforzarse por entregarlo en este punto crítico”.\nEn cuanto a la última, la verdadera fecha límite, esa sí que significa “no se puede sobrepasar bajo ningún concepto, o estaremos todos acabados”.\nMitya siempre logra ajustarse al tercer plazo con una precisión milimétrica, hasta el punto de que uno se pregunta si es tan genio que hace cálculos exactos antes de ponerse a holgazanear o si la suerte lo favorece siempre.\nY precisamente por eso, los “recordatorios” de Valeri a Mitya nunca han llegado a ser del todo estrictos.\nValeri sí que deseaba lograr la planificación horaria más saludable posible, pero también entendía que un buen estado de trabajo y la inspiración no se pueden forzar. Aunque atara a Mitya a la silla y lo obligara a trabajar sin descanso, un proyecto atascado no avanzaría nada, y tampoco sería capaz de escribir ni una sola palabra.\nAl contrario, puede que ni Valeri mismo se diera cuenta, pero desde que el peculiar estilo de Mitya empezó a influir en él y dejó de funcionar de vez en cuando con la precisión de un reloj...\nEse agotamiento inevitable que se había ido acumulando en silencio dentro de él comenzaba a desvanecerse poco a poco.\nEse estado de acumulación, que combinaba vivacidad y solemnidad y que cierto miembro de Los Once consideraba “un estado mental más saludable”, se fue contagiando a Valeri y a sus subordinados.\nY aquel colosal artefacto de la Real Armería, cuya silueta se definía más con cada día que pasaba, no dejaba de infundir ánimos en Valeri y en todos los soldados del batallón.\nDesde luego, aquella misión sí que era bastante “especial”."
+      },
+      {
+        "Title": "Escudo ofensivo compuesto experimental",
+        "Context": "En circunstancias normales, el comandante de una unidad debería permanecer en la retaguardia y dirigir la batalla a distancia bajo una estricta protección.\nPero cuando uno se enfrenta a rebeldes astutos y brutales, a bestias quiméricas extremadamente peligrosas o a ciertos monstruos poderosos y anormales, el “frente de batalla” simplemente no existe en el mapa.\nLos enemigos más poderosos son capaces de atravesar múltiples líneas de defensa, cobrarse la cabeza del comandante e incluso destrozar todo lo que haya en el puesto de mando, sumiendo así a la unidad entera en el caos.\nA lo largo de la historia, las tropas de los Fatui han sufrido en numerosas ocasiones ataques que tenían como objetivo eliminar a su líder. El incidente más reciente tuvo lugar medio año después de que Valeri se graduara y entrara en servicio, durante la campaña contra el “León Quimérico Alado azul n.º 3” y sus lacayos.\nEn aquel entonces, las fuerzas aliadas del Segundo Regimiento de Infantería calcularon mal la capacidad de penetración de aquel monstruo, de manera que dos comandantes cayeron uno tras otro, cerca de cien soldados se sumieron en el caos y solo tras dos horas de duro combate lograron abatirlo en lo más profundo del valle.\nEsto marcó profundamente a Valeri, pues uno de los comandantes caídos era un viejo conocido suyo de la academia militar.\nComprendía las ventajas de esa táctica, así que también buscó estrategias concretas para contrarrestarla. Debía asegurarse de que no se convertiría en ese caso práctico de los manuales que sirve como ejemplo de “lo que no hay que hacer”.\nPor eso, tras asumir el mando de la Compañía de Asalto, Valeri colaboró con el equipo de desarrollo de la Real Armería para probar múltiples prototipos de armaduras y protecciones.\nUn artesano que lo admiraba desde hace tiempo le forjó una armadura hecha a medida con las características del “Oso Fortaleza”: un equipamiento de baja visibilidad que se integró en el uniforme militar de Valeri para brindarle protección en todo momento y lugar.\nAdemás, Valeri también eligió un escudo de peso excesivo, cuyo grosor y forma recuerdan a una “puerta antiexplosiones de alta resistencia”.\nEl blindaje multicapa de este escudo estaba hecho con materiales del nivel de un Patrullero Terrestre y, dejando a un lado lo pesado que era, podía resistir el bombardeo continuo de sus propias armas a quemarropa, por lo que era casi imposible que algún monstruo lo destruyera.\nPero... ¿realmente bastaba con una defensa pasiva?\nDesde el inicio de su servicio militar, Valeri supo aprovechar al máximo el arsenal de los Artilleros de granizo y, fiel al más puro pragmatismo, se encargó personalmente de modificarlo aún más, de modo que instaló un mortero en el interior del escudo.\nUn cañón de tiro curvo, de los que solo se instalan en unos pocos prototipos de Patrulleros Terrestres, pero que Valeri empleaba como si fuera un lanzador de metralla.\nDemostró en pruebas de combate reales que el equipo de desarrollo se equivocó al calificarlo de “imprudente”. Aprovechando su ventaja de fuerza bruta y su precisa consciencia de control, empezó a manejar esta arma tan poco convencional con exactitud y contundencia, definiendo poco a poco su propio estilo de combate.\nDesde entonces, incluso si de verdad existiera un enemigo lo bastante capaz como para superar toda clase de obstáculos, sortear las líneas defensivas de las tropas de élite e intentar derribar a Valeri en persona...\n“Después de tanto esfuerzo para derribar la puerta del puesto de mando, descubres que dentro hay otra ‘puerta’, y cuando al fin consigues echarla abajo, te topas de frente con la boca de un cañón”.\nUna sorpresa de lo más espeluznante para cualquier persona."
+      },
+      {
+        "Title": "Visión",
+        "Context": "El detonante para convertirse en un héroe no tiene que ser necesariamente una gran aspiración. Luchar con todas sus fuerzas por quienes lo rodean también basta para alzar a los dignos al escenario que les corresponde.\nAhora bien, lo que ocurra después depende por completo de si esa persona sabe aprovechar la oportunidad.\nValeri nunca se sintió merecedor de la palabra “héroe”, pero el mundo parecía darle un reconocimiento ambiguo.\nAl principio, las razones por las que Valeri se alistó en el ejército no fueron nada nobles.\nLa vida de un minero es bastante precaria, y décadas de trabajo extenuante habían desgastado el cuerpo de sus padres. Si Valeri conseguía un empleo decente y ganaba unos cuantos Moras al mes, sus padres podrían pasar sus últimos años con algo más de tranquilidad y él no tendría que correr su misma suerte.\nAlistarse en el ejército no era mala idea: ingresar en la academia militar, formarse durante un tiempo y llegar a Glupov con el rango de oficial.\nPor esa razón, tan simple como realista, se dedicó a entrenar su físico con esfuerzo, a estudiar la teoría sin descanso, a intentar ingresar en la Real Academia Militar y a completar su formación sin desviarse de su camino.\nUna vez que hubiera entrado en el ejército, solo tendría que cumplir las órdenes de su comandante y alcanzar los objetivos de combate requeridos.\nHacer guardia, entrenar, marchar al frente de batalla, regresar victorioso...\nCobrar el salario y mandarlo a casa.\n¿Qué tenía de malo una vida así, que no se saliera de lo establecido?\nSin embargo, durante aquella batalla para aplastar a los rebeldes de Skoldyryt, ocurrieron algunas cosas que llevaron a Valeri a preguntarse si tal vez esa visión era demasiado estrecha.\nCuando las cosas empezaron a ir mal en la batalla, vio los cuerpos destrozados de sus compañeros esparcidos por aquel campo devastado. Pocas horas antes, esos mismos hombres charlaban y reían con él en el campamento.\nAl principio, se podía ver cómo el pánico y el deseo de salvarse el pellejo se asomaban en los ojos de algunos soldados. Al fin y al cabo, ¿quién querría caer ante la espada de unos infames y despedirse para siempre de su familia?\nPero al confirmar que el pelotón de Valeri aún podía mantener la línea de batalla, le invadió una convicción que disipó al instante sus dudas. En un abrir y cerrar de ojos, sus hombres volvieron a ser unos guerreros intrépidos unidos en torno a Valeri.\nCuando este, con una estocada certera, clavó al líder de los rebeldes de Skoldyryt contra la pared y liberó a Stepanián y a los demás, aquel clamor hirviente de entusiasmo hizo que su corazón latiera casi al mismo compás que el de todos sus compañeros de armas.\nDesde entonces, esa sensación invadió a Valeri una y otra vez.\nEn lo más profundo del desfiladero de las Tierras Hieloeternas, destruir el cerco de miles de monstruos y volver a reunir a las tropas que habían quedado dispersas con apenas medio pelotón...\nAvanzar entre aguas heladas que le llegaban a la cintura, rompiendo placas de hielo, batiéndose a cuchillo contra aquellos fanáticos que se escondían, hasta que el último enemigo de la banda exhaló su último aliento...\nEntre los espantosos gritos de las bestias anómalas y la lluvia de arremetidas feroces, cargar una y otra vez hasta destrozar sus colmillos retorcidos y monstruosos...\nEn una batalla sangrienta tras otra, junto a compañeros que antes le eran desconocidos o con los que incluso guardaba algún rencor, pero que ahora dejaban atrás sus prejuicios y sus miedos, en esa ardua batalla por conseguir la victoria...\nValeri fue sintiendo poco a poco y de forma genuina que en este mundo existía un sentimiento capaz de trascender el interés personal, uno que lo unía a sus compañeros de armas.\n¿El vínculo entre compañeros de armas? ¿Los ideales de un comandante? ¿El sentido del deber?\nNi siquiera él era capaz de definirlo con palabras.\nSolo sabía que no bastaba con proteger su propio hogar, sino que también debía proteger el de sus compañeros de armas y el de muchas personas más.\nEso era todo.\nAquella Visión que apareció en silencio tras su primer combate, y que Valeri consideraba una simple “herramienta” que le daba el “toque final”, le brindaba tras cada batalla un apoyo cada vez más preciso y natural.\nY hoy, a medida que el proyecto de la Real Armería sigue avanzando, esa Visión también ha comenzado a desprender un resplandor abrasador que supera con creces el de sus inicios."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213700,
+      "Name": "Acero y condecoraciones",
+      "Description": "Modelo de vestimenta de Valeri. Como oficial militar, participa con frecuencia en el combate y el mando en primera línea, por lo que su uniforme tiene que ser resistente y duradero. Como capitán del Batallón de Misiones Especiales del Primer Regimiento de Bombarderos de la Guardia de la Real Armería, en ocasiones no le queda más remedio que asistir a eventos excesivamente formales, así que su atuendo también debe ser solemne y apropiado. Para cumplir con ambas cosas a la vez y, de paso, ahorrarse el tiempo de cambiarse de ropa, mandó confeccionar este conjunto especialmente para él.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113091,
+    101273,
+    112148,
+    104373,
+    113087
+  ],
+  "NameCard": {
+    "Name": "Valeri - Rango militar",
+    "Description": "Diseño de tarjeta de presentación.\nEl rango militar más alto en un campo de batalla es el de comandante. Esa es una de las razones por las que Valeri nunca ha ascendido de puesto. La otra es que no entiende mucho de música ni aguanta bien el alcohol, dos cosas indispensables entre los miembros de la alta sociedad.",
+    "Icon": "UI_NameCardIcon_Valeriy",
+    "PicturePrefix": "UI_NameCardPic_Valeriy"
+  }
+}

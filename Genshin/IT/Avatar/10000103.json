@@ -341,7 +341,8 @@
         "Name": "Ruggito di Ehecatl",
         "Description": "<color=#FFD780FF>Attacco normale</color>\nSferra fino a 3 colpi rapidi.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore ed esegue un calcio in avanti.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nAttacca scagliandosi al suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto, entrambi in base alla DIF di Xilonen.\n\n<color=#FFD780FF>Grazia dell'Anima della Notte: Caccia su ruote</color>\nQuando lo stato di Grazia dell'Anima della Notte è attivo, Xilonen entra nella modalità Caccia su ruote e i suoi attacchi normali le permettono di sferrare fino a 4 calci usando i suoi roller blade. In questa modalità, Xilonen non può eseguire attacchi caricati.\nGli attacchi normali e in picchiata sferrati da Xilonen mentre è in questa modalità si basano sulla sua DIF e infliggono <color=#FFE699FF>DAN da Geo</color> con attributo Anima della Notte non influenzabili da altre infusioni elementali.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_01"
+        "Icon": "Skill_A_01",
+        "CdTime": 0
       },
       {
         "GroupId": 10332,
@@ -1248,5 +1249,11 @@
     "Description": "Stile per la carta giocatore.\nAl momento giusto, le montagne echeggiano al ritmo del martello battente di Xilonen. Quando l'eco finale svanisce, ha già smesso da tempo di faticare e ha trovato un posto al sole per il suo pisolino pomeridiano.",
     "Icon": "UI_NameCardIcon_Xilonen",
     "PicturePrefix": "UI_NameCardPic_Xilonen"
+  },
+  "TraceEffect": {
+    "Id": 215024,
+    "Name": "Eco: Anima forgiata da fiamme ardenti",
+    "Description": "L'Eco immaginario di Xilonen. \"La musica si propaga per il mondo come un'onda, lasciando i propri echi dietro di sé. Le persone vagano per la terra e, a loro volta, lasciano le proprie tracce.\"",
+    "Icon": "UI_TraceEffectIcon_Xilonen"
   }
 }

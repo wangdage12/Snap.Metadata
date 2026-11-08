@@ -4278,6 +4278,45 @@
     ]
   },
   {
+    "Id": 2704,
+    "Name": "눈의 야상곡",
+    "Description": "탄산이 들어간 특제 음료. 베리와 호밀을 함께 발효한 뒤, 탄산수를 넣어 배합해 만들었다. 입에 머금으면 새콤달콤한 맛과 호밀 향이 어우러지며, 무알코올이지만 결코 밍밍하지 않다",
+    "EffectDescription": [
+      "파티 내 모든 캐릭터의 치명타 확률이 <color=#3399CCFF>6%-12%</color> 증가한다. 지속 시간: 300초",
+      "다인 모드 시 자신의 캐릭터에만 적용된다"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108915",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 10,
+    "RankLevel": 2,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132049
+      },
+      {
+        "Count": 1,
+        "Id": 132050
+      },
+      {
+        "Count": 1,
+        "Id": 132051
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101285
+      },
+      {
+        "Count": 2,
+        "Id": 100100
+      }
+    ]
+  },
+  {
     "Id": 3001,
     "Name": "통통 연꽃 해산물 수프",
     "Description": "영양가 듬뿍! 해산물 수프. 맑은 국물과 신선한 꽃게 살, 향긋한 민트, 그리고 통통 연꽃이 시원한 맛을 낸다",
@@ -10554,6 +10593,146 @@
       {
         "Count": 1,
         "Id": 110006
+      }
+    ]
+  },
+  {
+    "Id": 3709,
+    "Name": "키테시 치킨",
+    "Description": "빵가루를 듬뿍 입힌 요리. 닭고기를 두드려 편 다음, 바닐라 버터를 속에 채워 넣고 빵가루를 입혀 황금빛으로 튀겨냈다. 겉은 바삭하고 속은 부드러우며 육즙이 가득해, 나이프로 자르면 녹은 버터가 천천히 흘러나오는 것을 볼 수 있다",
+    "EffectDescription": [
+      "파티 내 모든 캐릭터의 물리 피해가 <color=#3399CCFF>20%-40%</color> 증가한다. 지속 시간: 300초",
+      "다인 모드 시 자신의 캐릭터에만 적용된다"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108910",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132040
+      },
+      {
+        "Count": 1,
+        "Id": 132041
+      },
+      {
+        "Count": 1,
+        "Id": 132042
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100064
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 110004
+      },
+      {
+        "Count": 1,
+        "Id": 101280
+      }
+    ]
+  },
+  {
+    "Id": 3710,
+    "Name": "캐비어 블리니",
+    "Description": "캐비어를 곁들인 얇은 팬케이크. 반죽을 얇게 펴 노릇하게 구운 뒤 사워크림을 얹고, 짭조름한 캐비어 한 숟갈을 곁들이면 맛있게 즐길 수 있다. 부드러운 식감에 은은한 우유 풍미가 감도는 블리니는 캐비어의 진한 감칠맛과 완벽한 조화를 이룬다",
+    "EffectDescription": [
+      "파티 내 모든 캐릭터의 공격력이 <color=#3399CCFF>160-228</color>pt 증가한다. 지속 시간: 300초",
+      "다인 모드 시 자신의 캐릭터에만 적용된다"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108911",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132043
+      },
+      {
+        "Count": 1,
+        "Id": 132044
+      },
+      {
+        "Count": 1,
+        "Id": 132045
+      }
+    ],
+    "Input": [
+      {
+        "Count": 4,
+        "Id": 100084
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 100062
+      },
+      {
+        "Count": 1,
+        "Id": 110015
+      }
+    ]
+  },
+  {
+    "Id": 3711,
+    "Name": "솔랸카",
+    "Description": "매콤 새콤한 맛의 걸쭉한 수프. 맑은 강물을 떠서 깍둑썰기한 각종 식자재를 넣고 함께 끓여 만든다. 절인 생선 살코기와 채소가 독특한 풍미를 더하며, 진한 주황빛이 감도는 빨간색 국물은 새콤함과 매콤함이 어우러져 다채롭고 풍부한 맛을 낸다",
+    "EffectDescription": [
+      "스태미나를 <color=#3399CCFF>70-100</color>pt 회복한다"
+    ],
+    "CookMethod": 2,
+    "FoodType": 3,
+    "Icon": "UI_ItemIcon_108914",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132046
+      },
+      {
+        "Count": 1,
+        "Id": 132047
+      },
+      {
+        "Count": 1,
+        "Id": 132048
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100084
+      },
+      {
+        "Count": 3,
+        "Id": 100018
+      },
+      {
+        "Count": 2,
+        "Id": 100011
+      },
+      {
+        "Count": 2,
+        "Id": 110015
       }
     ]
   },

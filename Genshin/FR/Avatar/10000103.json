@@ -341,7 +341,8 @@
         "Name": "Cri d'Ehecatl",
         "Description": "<color=#FFD780FF>Attaque normale</color>\nEnchaîne jusqu'à 3 coups.\n\n<color=#FFD780FF>Attaque chargée</color>\nConsomme de l'endurance pour donner un coup de pied en avant.\n\n<color=#FFD780FF>Attaque plongeante</color>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact, le tout selon la DÉF de Xilonen.\n\n<color=#FFD780FF>Bénédiction noctâme : Roulette de patin</color>\nPendant sa bénédiction noctâme, Xilonen passe en mode Roulette de patin. Dans ce mode, les attaques normales de Xilonen lui permettent d'effectuer 4 coups de pied continus avec ses patins à roulettes et elle ne peut pas utiliser d'attaques chargées.\nLes attaques normales et plongeantes de Xilonen pendant sa bénédiction noctâme infligent des <color=#FFE699FF>DGT Géo</color> infusés de noctâme ne pouvant pas être enchantés qui dépendent de sa DÉF.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_01"
+        "Icon": "Skill_A_01",
+        "CdTime": 0
       },
       {
         "GroupId": 10332,
@@ -1248,5 +1249,11 @@
     "Description": "Thème.\nLes montagnes résonnent au rythme du marteau de forge de Xilonen. Lorsque l'écho final s'estompe, elle a déjà cessé son travail et trouvé un endroit ensoleillé pour sa sieste de l'après-midi.",
     "Icon": "UI_NameCardIcon_Xilonen",
     "PicturePrefix": "UI_NameCardPic_Xilonen"
+  },
+  "TraceEffect": {
+    "Id": 215024,
+    "Name": "Écho : Âme forgée par les vives flammes",
+    "Description": "L'écho peinturé de Xilonen. « La musique se propage à travers le monde et laisse derrière elle ses échos. Les hommes parcourent la terre et laissent à leur tour leurs traces. »",
+    "Icon": "UI_TraceEffectIcon_Xilonen"
   }
 }

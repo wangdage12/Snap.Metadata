@@ -505,9 +505,19 @@
     "Description": "Yıldız İletimi tetiklendiğinde çevredeki alan kısa süreliğine bir <color=#FFD780FF>Kutup Yıldızı Alanına</color> dönüşür ve belirli karakterler bir Kutup Yıldızı Alanı içindeyken çeşitli beceri güçlendirmeleri sağlayan <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumuna girer."
   },
   {
+    "Id": 11360001,
+    "Name": "Kademeli İşaretler",
+    "Description": "Mitya gruptayken bir Yıldız İletimi tepkimesi tetiklendiğinde, <color=#FFD780FF>Yıldız Işığı Prizması</color> yerine 6sn süren bir <color=#FFD780FF>Kademeli İşaret</color> oluşturur. Mitya <color=#FFD780FF>Kademeli İşaretler</color> tüketerek çeşitli etkiler tetikleyebilir.\n<color=#FFD780FF>Kademeli İşaretler</color> aktif karakteri takip eder ve bir <color=#FFD780FF>Kademeli İşaret</color> oluşturulduğunda yakındaki daha büyük bir alanı <color=#FFD780FF>Kutup Yıldızı Alanına</color> dönüştürür. Mitya, başlangıçta en fazla 4 adet olmak üzere aynı anda birden fazla <color=#FFD780FF>Kademeli İşaret</color> bulundurabilir. Bir <color=#FFD780FF>Kademeli İşaret</color> oluşturmak, tüm <color=#FFD780FF>Kademeli İşaretlerin</color> süresini sıfırlar."
+  },
+  {
+    "Id": 11360002,
+    "Name": "Tespit Çekirdeği",
+    "Description": "Element Becerisi kullanıldıktan sonra Mitya'nın oluşturduğu bir enerji cihazı. Dokunulduğunda <color=#FFD780FF>Kararlı</color> durumunda bir Tespit Çekirdeği, basılı tutulduğunda ise <color=#FFD780FF>Aşırı Yüklü</color> durumunda bir Tespit Çekirdeği oluşturur.\n\n<color=#FFD780FF>Tespit Çekirdeği: Kararlı</color>\n·Yakındaki düşmanları sürekli takip eder ve aralıklı olarak <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\n·Mitya sahip olabileceği maksimum <color=#FFD780FF>Kademeli İşaret</color> sayısına ulaştığında cihaz, yeni oluşturulan tüm <color=#FFD780FF>Kademeli İşaretleri</color> tüketir ve Yıldız İletimi Tepkimesi Hasarı sayılan <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\n·Süresi bittiğinde veya başka bir <color=#FFD780FF>Tespit Çekirdeği</color> oluşturulduğunda cihaz, Mitya'nın sahip olduğu tüm <color=#FFD780FF>Kademeli İşaretleri</color> tüketir ve tüketilen miktara bağlı olarak Yıldız İletimi Tepkimesi Hasarı sayılan <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir.\n\n<color=#FFD780FF>Tespit Çekirdeği: Aşırı Yüklü</color>\n·Bu cihaz alandayken Mitya en az 1 <color=#FFD780FF>Kademeli İşarete</color> sahip olduğunda, Dayanıklılık tüketmeden <color=#FFD780FF>Kademeli Patlama</color> özel Yüklü Saldırısını gerçekleştirebilir."
+  },
+  {
     "Id": 11400001,
     "Name": "Ana Vokal",
-    "Description": "Grubun mevcut aktif karakteri Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlamasıyla <color=#80C0FFFF>Su Hasarı</color> ya da <color=#99FFFFFF>Buz Hasarı</color> verdiğinde 1 kademe \"Ana Vokal\" tüketilir ve verilen Hasar artar. Ancak alanda bir Başıboş Burgaç varken veya bir Başıboş Burgaç patladıktan sonraki 5sn boyunca bu etki yalnızca karakter Yıldız Girdabı Tepkimesi Hasarı verdiğinde tetiklenir.\nVodyanitsa'nın {PARAM#P1402201|3S1} üzerinde sahip olduğu her 1000 Maks. Can, yukarıdaki etkideki Yıldız Girdabı Tepkimesi Hasarını {PARAM#P1402201|4S1} artırır; verilen <color=#80C0FFFF>Su Hasarını</color> ve <color=#99FFFFFF>Buz Hasarını</color> ise {PARAM#P1402201|5S1} artırır. Verilen Yıldız Girdabı Tepkimesi Hasarı bu şekilde en fazla {PARAM#P1402201|6S1}, <color=#80C0FFFF>Su Hasarı</color> ve <color=#99FFFFFF>Buz Hasarı</color> ise en fazla {PARAM#P1402201|7S1} artırılabilir."
+    "Description": "Grubun mevcut aktif karakteri Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlamasıyla <color=#80C0FFFF>Su Hasarı</color> ya da <color=#99FFFFFF>Buz Hasarı</color> verdiğinde 1 kademe \"Ana Vokal\" tüketilir ve verilen Hasar artar. Ancak alanda bir Başıboş Burgaç varken veya bir Başıboş Burgaç patladıktan sonraki 5sn boyunca bu etki yalnızca karakter Yıldız Girdabı Tepkimesi Hasarı verdiğinde tetiklenir.\nVodyanitsa'nın {PARAM#P1402201|3S1:I} üzerinde sahip olduğu her 1000 Maks. Can, yukarıdaki etkinin sağladığı Yıldız Girdabı Tepkimesi Hasarını {PARAM#P1402201|4S1} artırır; verilen <color=#80C0FFFF>Su Hasarını</color> ve <color=#99FFFFFF>Buz Hasarını</color> ise {PARAM#P1402201|5S1} artırır. Verilen Yıldız Girdabı Tepkimesi Hasarı bu şekilde en fazla {PARAM#P1402201|6S1:I}, <color=#80C0FFFF>Su Hasarı</color> ve <color=#99FFFFFF>Buz Hasarı</color> ise en fazla {PARAM#P1402201|7S1:I} artırılabilir."
   },
   {
     "Id": 11400002,
@@ -568,5 +578,20 @@
     "Id": 11480002,
     "Name": "Tugarin",
     "Description": "<color=#FFD780FF>Avcının İlerleyişi</color> Element Patlaması ile alana çağrılabilen, Alyosha'nın güvenilir av köpeği ve yoldaşı.\nDüzenli aralıklarla bir düşmana yaklaşıp ona saldırır ve mevcut tüm <color=#FFD780FF>Avcının İşaretlerini</color> etkinleştirir."
+  },
+  {
+    "Id": 11370001,
+    "Name": "Doğrudan Atışlı Havan Topu: Hassas Bombardıman",
+    "Description": "Valeriy'nin özel Yüklü Saldırısı. En az 40 <color=#FFD780FF>Darbe İvmesi</color> varken Yüklü Saldırı kullanmak, tüm <color=#FFD780FF>Darbe İvmesini</color> tüketerek bunun yerine bu özel Yüklü Saldırıyı gerçekleştirir. Önündeki alana <color=#FFACFFFF>Elektrik Alan Hasarı</color> verir ve 15 kademe <color=#FFD780FF>Taarruz Emri</color> kazandırır.\nBu özel Yüklü Saldırı tekrar kullanıldığında <color=#FFD780FF>Taarruz Emri</color> kademe sayısı yenilenir.\n<color=#FFD780FF>Aktif Savunma: Hisar Hücumu</color> Element Becerisi veya <color=#FFD780FF>Odaklı Ateş: Yıldırım Yaylımı</color> Element Patlaması kullanıldıktan sonraki 0,8sn içinde Valeriy'nin en az 40 <color=#FFD780FF>Darbe İvmesi</color> varsa, kullanacağı bir sonraki Normal Saldırı <color=#FFD780FF>Doğrudan Atışlı Havan Topu: Hassas Bombardıman</color> özel Yüklü Saldırısına dönüşür."
+  },
+  {
+    "Id": 11370002,
+    "Name": "Taarruz Emri",
+    "Description": "Valeriy'nin <color=#FFD780FF>Doğrudan Atışlı Havan Topu: Hassas Bombardıman</color> özel Yüklü Saldırısını gerçekleştirdikten sonra kazandığı özel bir etki. Valeriy'nin <color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumunda olup olmamasına bağlı olarak farklı türlerdeki <color=#FFACFFFF>Elektrik Hasarını</color> artırır. Eğer Valeriy:\n·<color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumundaysa yakındaki aktif bir grup üyesi, bir düşmana Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlaması ile Yıldız İletimi Tepkimesi Hasarı olarak kabul edilen <color=#FFACFFFF>Elektrik Hasarı</color> verdiğinde 1 kademe <color=#FFD780FF>Taarruz Emri</color> tüketilir ve verilen Hasar Valeriy'nin Saldırısına göre artar.\n·<color=#FFD780FF>Işıltı: Yıldız İletimi</color> durumunda değilse yakındaki aktif bir grup üyesi, bir düşmana Normal Saldırı, Yüklü Saldırı, Havadan Saldırı, Element Becerisi veya Element Patlaması ile <color=#FFACFFFF>Elektrik Hasarı</color> verdiğinde 1 kademe <color=#FFD780FF>Taarruz Emri</color> tüketilir ve verilen Hasar Valeriy'nin Saldırısına göre artar.\nTek seferde verilen <color=#FFACFFFF>Elektrik Hasarı</color> aynı anda birden fazla düşmana isabet ettiğinde, <color=#FFD780FF>Taarruz Emri</color> kademeleri isabet alan düşman sayısına göre tüketilir."
+  },
+  {
+    "Id": 11370003,
+    "Name": "Darbe İvmesi",
+    "Description": "Valeriy'nin savaş kabiliyetlerini geliştirmek için kullandığı özel bir enerji. Başlangıçtaki maksimum değeri 100'dür. En az 40 <color=#FFD780FF>Darbe İvmesi</color> biriktiğinde, <color=#FFD780FF>Doğrudan Atışlı Havan Topu: Hassas Bombardıman</color> özel Yüklü Saldırısını gerçekleştirebilir.\nValeriy aşağıdaki yollarla <color=#FFD780FF>Darbe İvmesi</color> kazanabilir:\n·<color=#FFD780FF>Aktif Savunma: Hisar Hücumu</color> Element Becerisini kullanarak.\n·\"Genişleyen Yaylım Ateşiyle İlerleme\" Yükseltme Yeteneğini açtıktan sonra, <color=#FFD780FF>Odaklı Ateş: Yıldırım Yaylımı</color> Element Patlaması etkinken, yakında bulunan bir grup üyesi bir düşmana Element Türü <color=#FFACFFFF>Elektrik</color> olan bir saldırı ile vurduğunda."
   }
 ]

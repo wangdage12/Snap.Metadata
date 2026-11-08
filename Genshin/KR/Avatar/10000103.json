@@ -341,7 +341,8 @@
         "Name": "예리한 사냥",
         "Description": "<color=#FFD780FF>일반 공격</color>\n검으로 최대 3번 공격한다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 전방을 향해 발차기를 한다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 실로닌의 방어력을 기반으로 경로상의 적을 공격하고 착지 시 범위 피해를 준다.\n\n<color=#FFD780FF>밤혼 상태·칼날바퀴 수렵</color>\n밤혼 가호 상태에서 실로닌은 「칼날바퀴 수렵」 모드로 전환된다. 해당 상태에서 실로닌의 일반 공격은 칼날바퀴 신발을 사용해 최대 4번 공격하는 것으로 전환되며 강공격을 진행할 수 없다.\n해당 상태에서 일반 공격과 낙하 공격 진행 시, 실로닌의 방어력에 기반해, 밤혼 성질을 지니며 다른 원소 부여 효과로 대체될 수 없는 <color=#FFE699FF>바위 원소 피해</color>를 준다",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_01"
+        "Icon": "Skill_A_01",
+        "CdTime": 0
       },
       {
         "GroupId": 10332,
@@ -1248,5 +1249,11 @@
     "Description": "명함 스킨.\n실로닌의 단조 리듬이 온 산에 메아리친다. 마지막 메아리가 사라질 때쯤이면 실로닌은 햇살 아래에서 낮잠을 자고 있을 것이다",
     "Icon": "UI_NameCardIcon_Xilonen",
     "PicturePrefix": "UI_NameCardPic_Xilonen"
+  },
+  "TraceEffect": {
+    "Id": 215024,
+    "Name": "궤적·영혼을 벼리는 불꽃",
+    "Description": "실로닌의 그림 속 궤적. 「음악은 세상을 흔들어 여운을 남기고, 사람들은 땅 위를 걸으며 발자취를 남긴다」",
+    "Icon": "UI_TraceEffectIcon_Xilonen"
   }
 }

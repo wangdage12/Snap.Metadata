@@ -262,7 +262,8 @@
         "Name": "Kitsune Devora-pecados",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nEvoca espíritos kitsune que realizam até 3 ataques que infligem <color=#FFACFFFF>Dano Electro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina que inflige <color=#FFACFFFF>Dano Electro em uma AdE</color> após um curto período de canalização.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder do relâmpago, Yae Miko mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#FFACFFFF>Dano Electro em uma AdE</color> durante o impacto com o chão.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 5832,
@@ -1156,5 +1157,11 @@
     "Description": "Estilo de Cartão de Visita.\nOnde pode ser encontrada a forma de raposa de Yae Miko? Em seus sonhos.",
     "Icon": "UI_NameCardIcon_Yae1",
     "PicturePrefix": "UI_NameCardPic_Yae1"
+  },
+  "TraceEffect": {
+    "Id": 215025,
+    "Name": "Viagem: Diversão Astuta",
+    "Description": "Viagem Imaginária de Yae Miko. \"Ela possui uma miríade de formas, relevando o desconhecido e o predestinado... assim como o destino, que brilha sobre mim e o mundo sem fim.\"",
+    "Icon": "UI_TraceEffectIcon_Yae"
   }
 }

@@ -1,0 +1,1233 @@
+{
+  "Id": 10000137,
+  "PromoteId": 137,
+  "Sort": 123,
+  "Body": 4,
+  "Icon": "UI_AvatarIcon_Valeriy",
+  "SideIcon": "UI_AvatarIcon_Side_Valeriy",
+  "Name": "Valeriy",
+  "Description": "Anführer des Bataillons für Spezialaufträge, der sich auf den Schutz wichtiger Persönlichkeiten und die Umsetzung von Plänen versteht.",
+  "BeginTime": "2026-11-03T00:00:00+08:00",
+  "Quality": 4,
+  "Weapon": 1,
+  "BaseValue": {
+    "HpBase": 838.8477,
+    "AttackBase": 21.3696,
+    "DefenseBase": 58.94175
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 22
+    },
+    {
+      "Type": 4,
+      "Value": 32
+    },
+    {
+      "Type": 7,
+      "Value": 22
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13731,
+        "Proud": {
+          "Descriptions": [
+            "SCH Phase 1|{param1:F1P}",
+            "SCH Phase 2|{param2:F1P}",
+            "SCH Phase 3|{param3:F1P}",
+            "SCH heftiger Schläge|{param4:F1P}",
+            "SCH durch „Mörserschuss – Schuss aus der Nähe“|{param5:F1P}",
+            "Ausdauerverbrauch heftiger Schläge|{param6:F1} Punkte",
+            "Elektro-SCH-Bonus|{param7:F2P} ANG",
+            "SCH-Bonus bei Stellar-Supraleiter-Reaktion|{param8:F2P} ANG",
+            "Stapelungen des Angriffsbefehls|{param9:I}",
+            "#Dauer des Angriffsbefehls|{param10:F1}{NON_BREAK_SPACE}s",
+            "SCH beim Fallen|{param11:F1P}",
+            "SCH beim Fallen aus niedriger/großer Höhe|{param12:F1P}/{param13:F1P}"
+          ],
+          "Parameters": [
+            {
+              "Id": 1373101,
+              "Level": 1,
+              "Parameters": [
+                0.324839,
+                0.29326,
+                0.454175,
+                1.00276,
+                2.292,
+                20,
+                0.2432,
+                0.7296,
+                15,
+                18,
+                0.639324,
+                1.278377,
+                1.596762
+              ]
+            },
+            {
+              "Id": 1373102,
+              "Level": 2,
+              "Parameters": [
+                0.35128,
+                0.31713,
+                0.491142,
+                1.08438,
+                2.4639,
+                20,
+                0.26144,
+                0.78432,
+                15,
+                18,
+                0.691362,
+                1.382431,
+                1.726731
+              ]
+            },
+            {
+              "Id": 1373103,
+              "Level": 3,
+              "Parameters": [
+                0.37772,
+                0.341,
+                0.52811,
+                1.166,
+                2.6358,
+                20,
+                0.27968,
+                0.83904,
+                15,
+                18,
+                0.7434,
+                1.486485,
+                1.8567
+              ]
+            },
+            {
+              "Id": 1373104,
+              "Level": 4,
+              "Parameters": [
+                0.415492,
+                0.3751,
+                0.580921,
+                1.2826,
+                2.865,
+                20,
+                0.304,
+                0.912,
+                15,
+                18,
+                0.81774,
+                1.635134,
+                2.04237
+              ]
+            },
+            {
+              "Id": 1373105,
+              "Level": 5,
+              "Parameters": [
+                0.441932,
+                0.39897,
+                0.617889,
+                1.36422,
+                3.0369,
+                20,
+                0.32224,
+                0.96672,
+                15,
+                18,
+                0.869778,
+                1.739187,
+                2.172339
+              ]
+            },
+            {
+              "Id": 1373106,
+              "Level": 6,
+              "Parameters": [
+                0.47215,
+                0.42625,
+                0.660137,
+                1.4575,
+                3.2088,
+                20,
+                0.34048,
+                1.02144,
+                15,
+                18,
+                0.92925,
+                1.858106,
+                2.320875
+              ]
+            },
+            {
+              "Id": 1373107,
+              "Level": 7,
+              "Parameters": [
+                0.513699,
+                0.46376,
+                0.71823,
+                1.58576,
+                3.438,
+                20,
+                0.3648,
+                1.0944,
+                15,
+                18,
+                1.011024,
+                2.02162,
+                2.525112
+              ]
+            },
+            {
+              "Id": 1373108,
+              "Level": 8,
+              "Parameters": [
+                0.555248,
+                0.50127,
+                0.776322,
+                1.71402,
+                3.6672,
+                20,
+                0.38912,
+                1.16736,
+                15,
+                18,
+                1.092798,
+                2.185133,
+                2.729349
+              ]
+            },
+            {
+              "Id": 1373109,
+              "Level": 9,
+              "Parameters": [
+                0.596798,
+                0.53878,
+                0.834414,
+                1.84228,
+                3.8964,
+                20,
+                0.41344,
+                1.24032,
+                15,
+                18,
+                1.174572,
+                2.348646,
+                2.933586
+              ]
+            },
+            {
+              "Id": 1373110,
+              "Level": 10,
+              "Parameters": [
+                0.642124,
+                0.5797,
+                0.897787,
+                1.9822,
+                4.1256,
+                20,
+                0.43776,
+                1.31328,
+                15,
+                18,
+                1.26378,
+                2.527025,
+                3.15639
+              ]
+            },
+            {
+              "Id": 1373111,
+              "Level": 11,
+              "Parameters": [
+                0.68745,
+                0.62062,
+                0.96116,
+                2.12212,
+                4.3548,
+                20,
+                0.46208,
+                1.38624,
+                15,
+                18,
+                1.352988,
+                2.705403,
+                3.379194
+              ]
+            },
+            {
+              "Id": 1373112,
+              "Level": 12,
+              "Parameters": [
+                0.732777,
+                0.66154,
+                1.024533,
+                2.26204,
+                4.584,
+                20,
+                0.4864,
+                1.4592,
+                15,
+                18,
+                1.442196,
+                2.883781,
+                3.601998
+              ]
+            },
+            {
+              "Id": 1373113,
+              "Level": 13,
+              "Parameters": [
+                0.778103,
+                0.70246,
+                1.087907,
+                2.40196,
+                4.8705,
+                20,
+                0.5168,
+                1.5504,
+                15,
+                18,
+                1.531404,
+                3.062159,
+                3.824802
+              ]
+            },
+            {
+              "Id": 1373114,
+              "Level": 14,
+              "Parameters": [
+                0.82343,
+                0.74338,
+                1.15128,
+                2.54188,
+                5.157,
+                20,
+                0.5472,
+                1.6416,
+                15,
+                18,
+                1.620612,
+                3.240537,
+                4.047606
+              ]
+            },
+            {
+              "Id": 1373115,
+              "Level": 15,
+              "Parameters": [
+                0.868756,
+                0.7843,
+                1.214653,
+                2.6818,
+                5.4435,
+                20,
+                0.5776,
+                1.7328,
+                15,
+                18,
+                1.70982,
+                3.418915,
+                4.27041
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 30601,
+        "Name": "Verteidigende Kampfkunst – Schild und Schwert",
+        "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer, springt nach vorn, schlägt auf den Boden auf und fügt Gegnern in der Nähe physischen Schaden zu.\nVerbraucht, wenn Valeriy über mindestens 40 Pkt. <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color> verfügt, stattdessen die gesamte <color=#FFD780FF>Impulsenergie</color> und führt den besonderen heftigen Schlag <color=#FFD780FF>{LINK#N11370001}Mörserschuss – Schuss aus der Nähe{/LINK}</color> aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nStürzt sich aus der Luft auf den Boden, greift Gegner auf der Bahn an und verursacht beim Aufprall Flächenschaden.{LINK#N11370002}{/LINK}",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_01",
+        "CdTime": 0
+      },
+      {
+        "GroupId": 13732,
+        "Proud": {
+          "Descriptions": [
+            "Fähigkeits-SCH|{param1:F1P}",
+            "Schildstärke|{param2:F1P} ANG + {param3:I}",
+            "#Schilddauer|{param4:F1}{NON_BREAK_SPACE}s",
+            "#Abklingzeit|{param5:F1}{NON_BREAK_SPACE}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1373201,
+              "Level": 1,
+              "Parameters": [
+                1.66,
+                2.08896,
+                1309.6384,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373202,
+              "Level": 2,
+              "Parameters": [
+                1.7845,
+                2.245632,
+                1440.6204,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373203,
+              "Level": 3,
+              "Parameters": [
+                1.909,
+                2.402304,
+                1582.5176,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373204,
+              "Level": 4,
+              "Parameters": [
+                2.075,
+                2.6112,
+                1735.33,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373205,
+              "Level": 5,
+              "Parameters": [
+                2.1995,
+                2.767872,
+                1899.0575,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373206,
+              "Level": 6,
+              "Parameters": [
+                2.324,
+                2.924544,
+                2073.7002,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373207,
+              "Level": 7,
+              "Parameters": [
+                2.49,
+                3.13344,
+                2259.258,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373208,
+              "Level": 8,
+              "Parameters": [
+                2.656,
+                3.342336,
+                2455.7312,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373209,
+              "Level": 9,
+              "Parameters": [
+                2.822,
+                3.551232,
+                2663.1194,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373210,
+              "Level": 10,
+              "Parameters": [
+                2.988,
+                3.760128,
+                2881.4229,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373211,
+              "Level": 11,
+              "Parameters": [
+                3.154,
+                3.969024,
+                3110.6414,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373212,
+              "Level": 12,
+              "Parameters": [
+                3.32,
+                4.17792,
+                3350.7751,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373213,
+              "Level": 13,
+              "Parameters": [
+                3.5275,
+                4.43904,
+                3601.824,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373214,
+              "Level": 14,
+              "Parameters": [
+                3.735,
+                4.70016,
+                3863.788,
+                18,
+                10
+              ]
+            },
+            {
+              "Id": 1373215,
+              "Level": 15,
+              "Parameters": [
+                3.9425,
+                4.96128,
+                4136.6675,
+                18,
+                10
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 30602,
+        "Name": "Offensive Abwehr – Festungsvorstoß",
+        "Description": "#Erhebt den Schild, rennt nach vorn, verursacht <color=#FFACFFFF>Elektro-Flächenschaden</color>, verleiht 40 Pkt. <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color> und errichtet einen Blitzladungs-Schild.\nDie Schildstärke des Blitzladungs-Schilds wird anhand von Valeriys ANG berechnet und hält bei <color=#FFACFFFF>Elektro-SCH</color> 250{NON_BREAK_SPACE}% ab.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Valeriy_01",
+        "CdTime": 10
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13739,
+      "Proud": {
+        "Descriptions": [
+          "Fähigkeits-SCH|{param1:F1P}",
+          "SCH durch schwere Blitz-Schrot-Granate|{param2:F1P}",
+          "#Dauer|{param3:F1}{NON_BREAK_SPACE}s",
+          "#Abklingzeit|{param4:F1}{NON_BREAK_SPACE}s",
+          "Elementarenergie|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1373901,
+            "Level": 1,
+            "Parameters": [
+              1.3512,
+              0.3152,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373902,
+            "Level": 2,
+            "Parameters": [
+              1.45254,
+              0.33884,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373903,
+            "Level": 3,
+            "Parameters": [
+              1.55388,
+              0.36248,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373904,
+            "Level": 4,
+            "Parameters": [
+              1.689,
+              0.394,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373905,
+            "Level": 5,
+            "Parameters": [
+              1.79034,
+              0.41764,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373906,
+            "Level": 6,
+            "Parameters": [
+              1.89168,
+              0.44128,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373907,
+            "Level": 7,
+            "Parameters": [
+              2.0268,
+              0.4728,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373908,
+            "Level": 8,
+            "Parameters": [
+              2.16192,
+              0.50432,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373909,
+            "Level": 9,
+            "Parameters": [
+              2.29704,
+              0.53584,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373910,
+            "Level": 10,
+            "Parameters": [
+              2.43216,
+              0.56736,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373911,
+            "Level": 11,
+            "Parameters": [
+              2.56728,
+              0.59888,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373912,
+            "Level": 12,
+            "Parameters": [
+              2.7024,
+              0.6304,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373913,
+            "Level": 13,
+            "Parameters": [
+              2.8713,
+              0.6698,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373914,
+            "Level": 14,
+            "Parameters": [
+              3.0402,
+              0.7092,
+              12,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1373915,
+            "Level": 15,
+            "Parameters": [
+              3.2091,
+              0.7486,
+              12,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 30605,
+      "Name": "Fokusfeuer – Blitz- und Schrotangriff",
+      "Description": "Fügt Gegnern in der Nähe <color=#FFACFFFF>Elektro-Flächenschaden</color> zu und feuert eine <color=#FFD780FF>schwere Blitz-Schrot-Granate</color> hoch in die Luft. Die <color=#FFD780FF>schwere Blitz-Schrot-Granate</color> teilt sich in eine Vielzahl von Geschossen auf, die auf den Boden stürzen und Gegnern in der Nähe <color=#FFACFFFF>Elektro-Flächenschaden</color> zufügen.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Valeriy_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 13721,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372101,
+              "Level": 1,
+              "Parameters": [
+                5,
+                80
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1372101,
+        "Name": "Vorstoß mit dem schleichenden Sperrfeuer",
+        "Description": "Verleiht Valeriy, wenn die <color=#FFD780FF>schwere Blitz-Schrot-Granate</color> der Spezialfähigkeit <color=#FFD780FF>{LINK#S30605}Fokusfeuer – Blitz- und Schrotangriff{/LINK}</color> herabfällt und ein anderes aktuelles Truppenmitglied in der Nähe währenddessen einen Gegner mit einem <color=#FFACFFFF>Elektro</color>-Angriff trifft, 5 Punkte <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color>. Auf diese Weise können nach jeder Anwendung einer Spezialfähigkeit bis zu 80 Punkte <color=#FFD780FF>Impulsenergie</color> erhalten werden.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_05"
+      },
+      {
+        "GroupId": 13722,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372201,
+              "Level": 1,
+              "Parameters": [
+                0.003,
+                0.009
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1372201,
+        "Name": "Ansturm auf die Verteidigungslücke",
+        "Description": "#Verstärkt <color=#FFD780FF>{LINK#N11370002}Angriffsbefehl{/LINK}</color>: Erhöht für jeden Punkt <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color>, der beim Ausführen des besonderen heftigen Schlags <color=#FFD780FF>{LINK#N11370001}Mörserschuss – Schuss aus der Nähe{/LINK}</color> verbraucht wird, den SCH-Bonus von <color=#FFD780FF>Angriffsbefehl</color> weiter. Wenn Valeriy:\n· sich im Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> befindet: Erhöht den SCH-Bonus von <color=#FFD780FF>Angriffsbefehl</color> pro verbrauchtem Punkt <color=#FFD780FF>Impulsenergie</color> um 0,9{NON_BREAK_SPACE}% von Valeriys ANG.\n· sich nicht im Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color> befindet: Erhöht den SCH-Bonus von <color=#FFD780FF>Angriffsbefehl</color> pro verbrauchtem Punkt <color=#FFD780FF>Impulsenergie</color> um 0,3{NON_BREAK_SPACE}% von Valeriys ANG.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_06"
+      },
+      {
+        "GroupId": 13723,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372301,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1372301,
+        "Name": "Permafrost-Trägheit",
+        "Description": "Versetzt Valeriy, wenn er sich in einem {LINK#N11330003}<color=#FFD780FF>Sternglanzfeld</color>{/LINK} befindet, in den Zustand <color=#FFD780FF>Leuchten – Stellar-Supraleiter</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_08"
+      },
+      {
+        "GroupId": 13725,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1372501,
+              "Level": 1,
+              "Parameters": []
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1372501,
+        "Name": "Infos zur Eiswüstenoperation",
+        "Description": "#Bringt bei 20-stündigen Erkundungsentsendungen in Snezhnaya (außerhalb von Nod-Krai) 25{NON_BREAK_SPACE}% mehr Belohnungen.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Valeriy_07"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1371,
+        "Name": "Zeitablauf der anhaltenden Unterdrückung",
+        "Description": "#Stellt Valeriy nach dem Anwenden des besonderen heftigen Schlags <color=#FFD780FF>{LINK#N11370001}Mörserschuss – Schuss aus der Nähe{/LINK}</color> 6{NON_BREAK_SPACE}Punkte Elementarenergie wieder her. Stellt Valeriy zudem für den Teil an der beim Anwenden des besonderen heftigen Schlags verbrauchten <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color>, der 40 Punkte überschreitet, pro 10 verbrauchte Punkte zusätzlich 1,5{NON_BREAK_SPACE}Punkte Elementarenergie wieder her, max. 15{NON_BREAK_SPACE}Punkte pro angewendetem besonderen heftigen Schlag <color=#FFD780FF>Mörserschuss – Schuss aus der Nähe</color>, 15{NON_BREAK_SPACE}s Abklingzeit.\nVerleiht Valeriy zudem jedes Mal, wenn er in den Kampf eintritt und zum ersten Mal die Elementarfähigkeit <color=#FFD780FF>{LINK#S30602}Offensive Abwehr – Festungsvorstoß{/LINK}</color> anwendet, zusätzlich <color=#FFD780FF>Impulsenergie</color> in Höhe von 150{NON_BREAK_SPACE}% des ursprünglichen Werts.",
+        "Icon": "UI_Talent_S_Valeriy_01"
+      },
+      {
+        "Id": 1372,
+        "Name": "Formation für den Sturmangriff",
+        "Description": "#Erhöht innerhalb von 18{NON_BREAK_SPACE}s nach dem Anwenden der Elementarfähigkeit <color=#FFD780FF>{LINK#S30602}Offensive Abwehr – Festungsvorstoß{/LINK}</color> die Elementarkunde aller Truppenmitglieder in der Nähe um 100 Punkte.\nErhöht zudem, wenn Schutz durch einen Blitzladungs-Schild besteht und Valeriys <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color> die Obergrenze erreicht hat, beim Auslösen eines Effekts zum Erhalt von <color=#FFD780FF>Impulsenergie</color> nun die Schildstärke des Blitzladungs-Schilds. Erhöht die Schildstärke des Blitzladungs-Schilds für jeden überschüssigen Punkt an <color=#FFD780FF>Impulsenergie</color> um 8{NON_BREAK_SPACE}% von Valeriys ANG. Auf diese Weise können bis zu 20 überschüssige Punkte an <color=#FFD780FF>Impulsenergie</color> in die Schildstärke umgewandelt werden.",
+        "Icon": "UI_Talent_S_Valeriy_02"
+      },
+      {
+        "Id": 1373,
+        "Name": "Wachsamkeit im Klingenduell",
+        "Description": "Erhöht die Fähigkeitsstufe des Standardangriffs <color=#FFD780FF>{LINK#S30601}Verteidigende Kampfkunst – Schild und Schwert{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Valeriy_01",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1374,
+        "Name": "Unerschütterliche Widerstandskraft",
+        "Description": "#Erhöht die Obergrenze von <color=#FFD780FF>{LINK#N11370003}Impulsenergie{/LINK}</color> um 30 Punkte und die Effizienz beim Erhalt um 30{NON_BREAK_SPACE}%.\nVerstärkt zudem den Effekt des Aufstiegstalents <color=#FFD780FF>{LINK#P1372101}Vorstoß mit dem schleichenden Sperrfeuer{/LINK}</color>: Ermöglicht nach jeder Anwendung der Spezialfähigkeit den Erhalt von max. 104 Punkten <color=#FFD780FF>Impulsenergie</color> durch dieses Talent. Das Aufstiegstalent <color=#FFD780FF>Vorstoß mit dem schleichenden Sperrfeuer</color> muss zuerst freigeschaltet werden.",
+        "Icon": "UI_Talent_S_Valeriy_03"
+      },
+      {
+        "Id": 1375,
+        "Name": "Entschlossenheit zum Spalten und Vernichten",
+        "Description": "Erhöht die Stufe der Elementarfähigkeit <color=#FFD780FF>{LINK#S30602}Offensive Abwehr – Festungsvorstoß{/LINK}</color> um 3.\nHöchststufe 15.",
+        "Icon": "UI_Talent_U_Valeriy_02",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1376,
+        "Name": "Kraft, feindliche Reihen zu durchbrechen",
+        "Description": "#Verstärkt den besonderen heftigen Schlag <color=#FFD780FF>{LINK#N11370001}Mörserschuss – Schuss aus der Nähe{/LINK}</color> und die <color=#FFD780FF>schwere Blitz-Schrot-Granate</color> der Spezialfähigkeit <color=#FFD780FF>{LINK#S30605}Fokusfeuer – Blitz- und Schrotangriff{/LINK}</color>: Erhöht den verursachten Schaden um 100{NON_BREAK_SPACE}% und erhöht nach dem Treffen eines Gegners 7{NON_BREAK_SPACE}s lang die KT seines erlittenen <color=#FFACFFFF>Elektro-Schadens</color> um 10{NON_BREAK_SPACE}%. Erhöht zudem, wenn es sich bei dem erlittenen <color=#FFACFFFF>Elektro-Schaden</color> um Schaden der Reaktion Stellar-Supraleiter handelt, auch den KSCH dieses Schadens um 40{NON_BREAK_SPACE}%.",
+        "Icon": "UI_Talent_S_Valeriy_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Blitzschlagbastion",
+    "Detail": "Anführer des Bataillons für Spezialaufträge, der sich auf den Schutz wichtiger Persönlichkeiten und die Umsetzung von Plänen versteht.",
+    "Association": 10,
+    "Native": "Erste Grenadiergarde der Fatui",
+    "BirthMonth": 3,
+    "BirthDay": 24,
+    "VisionBefore": "Elektro",
+    "VisionOverrideUnlocked": "Göttliches Auge",
+    "ConstellationBefore": "Ursus Fuscus",
+    "CvChinese": "淦子齐",
+    "CvJapanese": "古川慎",
+    "CvEnglish": "Jordan Reynolds",
+    "CvKorean": "Park Noh-sik",
+    "CookBonus": {
+      "OriginItemId": 132005,
+      "ItemId": 132053,
+      "InputList": [
+        110016,
+        100075,
+        110006
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Schön, dich kennenzulernen.",
+        "Context": "Valeriy, befehlshabender Offizier des Bataillons für Spezialaufträge der ersten Grenadiergarde des Büros für Heeresgerät, melde mich zum Dienst. Ich kann an der Front kämpfen. Ich kann auch tief im Feindesgebiet Aufklärungsmissionen durchführen oder wichtiges Personal und Anlagen beschützen. Ich würde es jedoch bevorzugen, ein Team mit deinen Kameraden zu bilden und durch enge Zusammenarbeit jede Herausforderung zu meistern."
+      },
+      {
+        "Title": "Gespräch – Zeitplan",
+        "Context": "Laut Zeitplan ist es an der Zeit, den Trainingsfortschritt aller Einheiten zu überprüfen."
+      },
+      {
+        "Title": "Gespräch – Alternativplan",
+        "Context": "Hast du dich schon für das nächste Ziel entschieden? Erstelle unbedingt einen Notfallplan und kundschafte die Gegend im Voraus aus. Wenn du Hilfe brauchst, kann ich dir zur Hand gehen."
+      },
+      {
+        "Title": "Gespräch – Dosierte Kraft",
+        "Context": "In einem langen Kampf musst du lernen, für jeden Schlag nur so viel Kraft einzusetzen, wie er benötigt. So sparst du deine Kräfte."
+      },
+      {
+        "Title": "Wenn es regnet ...",
+        "Context": "In Snezhnaya fällt selten einfach nur Regen. Die meiste Feuchtigkeit verwandelt sich in Schnee. Die Soldaten in meinem Bataillon und ich haben es auch lieber so. Trockene Kälte ist weitaus erfrischender als Nässe und Schlamm."
+      },
+      {
+        "Title": "Wenn es blitzt ...",
+        "Context": "Ein angenehmes Geräusch, dieser Donner. Erinnert mich an Sprengladungen, die in den Minen hochgehen."
+      },
+      {
+        "Title": "Wie sonnig ...",
+        "Context": "Schönes Wetter und gute Sicht. Aber das bedeutet auch, dass versteckte Späher uns schon aus großer Entfernung beobachten können. Nicht unbedingt gut für uns."
+      },
+      {
+        "Title": "Ein Sturm zieht auf ...",
+        "Context": "Ein starker Wind lässt Flammen auflodern und trägt den Rauch weit fort. Wenn du bei solchem Wetter ein Feuer brauchst, um ein Gericht zuzubereiten, gräbst du dafür am besten ein rauchloses Späher-Feuerloch."
+      },
+      {
+        "Title": "In der Wüste ...",
+        "Context": "Trockene Hitze ist der uralte Feind der Menschheit ... Einer, den ich noch nicht besiegen kann ..."
+      },
+      {
+        "Title": "Guten Morgen.",
+        "Context": "Wach, und genau zur richtigen Zeit. Wenn alle so wären wie du, wäre die Welt für mich perfekt. Natürlich wären die Uhrmacher dann aber auch alle arbeitslos."
+      },
+      {
+        "Title": "Guten Tag.",
+        "Context": "Was ist deine Einschätzung? Zünden wir ein Feuer an und bereiten ein ordentliches, warmes Gericht zu, oder begnügen wir uns mit den vorhandenen Rationen?"
+      },
+      {
+        "Title": "Guten Abend.",
+        "Context": "Wenn es dunkel wird, fällt es leichter, den Geist zu beruhigen und die Konzentration zu finden. Das macht es zu einer guten Zeit für Detailarbeiten. Ich brauche sechs Minuten um Schild und Kanone zu überprüfen. Lass alle deine Waffen oder Ausrüstung, die gewartet werden muss, einfach bei mir."
+      },
+      {
+        "Title": "Gute Nacht.",
+        "Context": "Die Zeit ist um. Ruh dich für morgen jetzt besser etwas aus und überlass mir die Nachtwache. Ach, und noch eine Sache: Wundere dich nicht, wenn du aufwachst, das Lagerfeuer aus ist und mein Mantel über dir liegt. Licht lockt nachts oft unerwünschten Ärger an. Es ist also am besten, wenn wir stets verborgen bleiben."
+      },
+      {
+        "Title": "Über Valeriy – Bataillon für Spezialaufträge",
+        "Context": "Auf normalen Schlachtfeldern gibt es klare Regeln. Wichtige Personen und Anlagen zu schützen oder Informationen zu sammeln, ist jedoch eine andere Sache. Bei solchen Einsätzen haben Soldaten oft Schwierigkeiten, da sie nicht genau wissen, wo die „vernünftigen Grenzen“ liegen oder was ein „narrensicherer Ansatz“ wäre. Jede unserer Fähigkeiten wird dabei auf die Probe gestellt. Deshalb haben wir handverlesene Soldaten mit diversen Talenten aus der Ersten Grenadiergarde abgestellt, um mit ihnen das Bataillon für Spezialaufträge zu gründen. Einzeln betrachtet sind meine Männer hervorragende Kämpfer. Noch wertvoller sind aber ihre Anpassungsfähigkeit und ihre Erfahrung bei der Lösung aller möglichen Probleme. Wir sind keine ganz gewöhnliche Truppe, sondern eher eine Mischung aus Soldaten, Geheimagenten und Detektiven für schwere Verbrechen."
+      },
+      {
+        "Title": "Über Valeriy – Major",
+        "Context": "Ich trage den Dienstgrad eines Majors schon sehr lange. Chancen auf eine Beförderung? Gibt es durchaus. Aber ich habe keine Lust, in einem Büro oder Kommandostand eingesperrt zu sein. Ich muss die Umstände an der Front mit eigenen Augen sehen, denn nur so kann ich meine Truppen mit Präzision effektiv einsetzen. Außerdem ist es für mich erfüllender, außergewöhnliche Soldaten in den Kampf gegen starke Monster zu führen. Zudem sind unsere Standards hoch, sodass das Bataillon für Spezialaufträge ohnehin kaum qualifizierte Soldaten findet, um die Reihen zu füllen. Wenn man es so sieht, dann werden die Größe unseres Bataillons und mein Dienstgrad wohl noch eine lange Zeit gleich bleiben."
+      },
+      {
+        "Title": "Über uns – Verschiedene Wege",
+        "Context": "Was die reine Stärke betrifft, könnte nicht einmal mein ganzes Bataillon einen Krieger deines Kalibers überwältigen. Deine Erfolge sind legendär und so zahlreich, dass du deine ganze Uniform mit Medaillen bedecken könntest ... Dafür hast du meinen Respekt."
+      },
+      {
+        "Title": "Über uns – Gemeinsames Ziel",
+        "Context": "Ich glaube, dass wir uns bei unseren langfristigen Zielen einig sind. Unsere Berichte bestätigen das. Du hilfst in jedem von dir besuchten Land einfachen Menschen und schützt ihre Siedlungen. Ich strebe das Gleiche an. Ein Soldat besiegt den Feind nicht für Ehre oder Ruhm, sondern um seinem Volk den Frieden zu sichern. Wenn es dir hilft, greife auf meine Erfahrung zurück, was das Führen deiner Truppe angeht. Wer weiß, vielleicht wird sie eines Tages noch viel stärker ..."
+      },
+      {
+        "Title": "Über das „Göttliche Auge“ ...",
+        "Context": "Von den Göttern anerkannt zu werden und Elementarkräfte nutzen zu dürfen, ist eine große Ehre. Aber auch ohne das hätte ich trainiert und meine Fähigkeiten im Kampf stetig verfeinert, bis ich der Kämpfer geworden wäre, der ich heute bin. Grundlegendes körperliches Training, Beherrschung von verschiedenen Waffen ... Ein guter Soldat darf absolut nichts davon jemals vernachlässigen."
+      },
+      {
+        "Title": "Willst du mir etwas mitteilen?",
+        "Context": "Training mit dem eigenen Körpergewicht ist bei Soldaten und Bergleuten in Snezhnaya sehr beliebt. Viele ziehen ihre komplette Uniform an und testen dann, wie viele Klimmzüge oder einarmige Liegestütze sie schaffen. Es gibt auch besondere Tänze, die man in der Hocke ausführt, was Bauch und Beine stark trainiert ... Du willst, dass ich dir das mal zeige? Tut mir leid, dich zu enttäuschen, aber ich weiß wirklich nicht, wie das geht."
+      },
+      {
+        "Title": "Interessante Vorkommnisse ...",
+        "Context": "Die reguläre Armee und die Druzhna haben jeweils eine eigene Militärkapelle mit in jeder Hinsicht sehr hohen Ansprüchen. Ich habe bei ihren Proben zugesehen. Ab und zu schimpft der Dirigent heftig mit einem Soldaten, weil er falsch spielt, während ich das überhaupt nicht höre ... Bedeutet das jetzt, dass ich gar kein Ohr für Musik habe?"
+      },
+      {
+        "Title": "Über die Zarin ...",
+        "Context": "Als Feldoffizier plane ich keine großen Strategien. Aber durch meine Kameraden und die Leute spüre ich schon lange, wie viel Ihre Majestät, die Zarin, für Snezhnaya gegeben hat. Sie führt diese Nation zur bestmöglichen Zukunft. Daher ist es meine oberste Pflicht, das Bataillon für Spezialaufträge stets in höchster Bereitschaft für alle Missionen Ihrer Majestät zu halten. Ich warte nur auf ihren Befehl, und dann führe ich das ganze Bataillon auf das gefährlichste Schlachtfeld, was wir als unsere größte Ehre betrachten."
+      },
+      {
+        "Title": "Über Danica ...",
+        "Context": "Wenn die Haushofmeisterin des Palastes, Danica, Befehle an reguläre Einheiten weitergibt, trifft sie sich meist mit einem Oberst. Ich hielt Fräulein Danica für sehr streng, dachte, sie sei jemand, der jedes noch so kleine Detail ganz genau überprüfen würde. Also bereitete ich mich vor unserem letzten gemeinsamen Einsatz sehr gründlich darauf vor, und hatte mir zur Sicherheit sogar ein bisschen extra Zeit eingeplant. Zu meiner Überraschung war sie aber äußerst effizient. Wir brauchten nur ein Fünftel der Zeit, die ich vorher dafür eingeplant hatte, wobei sie stets Anmut und Haltung bewahrte. Sie hat ihren Platz an der Seite Ihrer Majestät auf jeden Fall verdient ..."
+      },
+      {
+        "Title": "Über den „Capitano“ ...",
+        "Context": "Der Capitano stand nicht in meiner Befehlskette. Aber das Bataillon für Spezialaufträge hatte mehrmals die Ehre, mit seinen Truppen zusammenzuarbeiten. Sein Einfluss auf Snezhnayas Soldaten ist enorm. Damals in meiner Grundausbildung nutzten wir Handbücher und Vorschriften, die er bereits verbessert hatte, und viele herausragende Kämpfer lernten von ihm ... Als meine Kameraden und ich hörten, was er in Natlan getan hatte, waren wir alle untröstlich ... Wir waren aber auch stolz auf ihn. Wenn Snezhnayas Soldaten ein Vorbild brauchen, wer außer dem Capitano könnte das schon sein?"
+      },
+      {
+        "Title": "Über Sandrone ...",
+        "Context": "Fräulein Sandrone verbessert Patrouillenboote wie keine Zweite. Ihre Bosco-Legion-Serie liefert fast siebzig Prozent mehr Gesamtleistung als normale Produktionsmodelle. Unter derselben Panzerung stecken quasi neue Maschinen. Einige meiner Soldaten kämpften unter ihrem Kommando zur Verteidigung des Versuchs- und Konstruktionsbüros in Nod-Krai, und jeder von ihnen kehrte mit tiefstem Respekt zurück. Sie ist zweifellos ein herausragendes Mitglied der Elf und führt und forscht gleichermaßen meisterhaft."
+      },
+      {
+        "Title": "Über den „Grafen“ ...",
+        "Context": "Ich habe gehört, dass Ratsmitglied Tartaglia als Bürgerlicher geboren wurde. Ich hatte noch nicht die Gelegenheit für ein ausführliches Gespräch mit ihm ... Aber von dem, was ich bisher gesehen habe, ist er ein aufrichtiger Mann, der seine Untergebenen gut behandelt. Die jüngsten Personalversetzungen zeigen, dass die vertrautesten Soldaten des Capitanos nun direkt ihm unterstehen. Ich würde ihn sehr gerne kennenlernen. Bisher hat es sich aber einfach noch nicht wirklich ergeben ... Ihn einfach zum Kampf herausfordern? Ist das eigentlich dein Ernst?"
+      },
+      {
+        "Title": "Über Vesna ...",
+        "Context": "Kommandantin Vesna und ich dienen in verschiedenen Abteilungen, daher bezweifle ich, dass ein bloßer Major wie ich großen Eindruck auf sie gemacht hat. Die Druzhna übertrifft uns reguläre Truppen deutlich, sei es ihre unglaubliche Mobilität oder ihre Durchschlagskraft. Ein starrer Stellungskampf liegt ihnen jedoch nicht. Darüber müssen sie sich aber ohnehin nicht den Kopf zerbrechen. Sie sind schließlich die Leibwache Ihrer Majestät. Man sollte sie wirklich nicht mit irgendwelchen gewöhnlichen Gefechten belästigen. Dennoch sehe ich Kommandantin Vesna manchmal auf ... Werbeveranstaltungen? Ich verstehe nicht so ganz, was sie dort eigentlich macht."
+      },
+      {
+        "Title": "Über Mitya – Respekt",
+        "Context": "Das Bataillon für Spezialaufträge hat viele Pflichten. Eine davon ist, „wichtige Leute wie ein Uhrwerk arbeiten zu lassen“. Herr Mitya mag aber gar keine Routine, wie du gesehen hast, denn ihm fehlt dafür jegliche Geduld. Bei den meisten Menschen würde ich durchgreifen, könnte weitaus weniger „höfliche“ Methoden anwenden. Und trotzdem merkt selbst jemand wie ich, der mit der Wissenschaft so gar nichts am Hut hat, dass seine Arbeit enorm wichtig ist. Deswegen will ich mal nicht allzu streng mit ihm sein."
+      },
+      {
+        "Title": "Über Mitya – Freund",
+        "Context": "Nach allem, was wir durchgemacht haben, nennt Herr Mitya mich nun seinen Freund, was mich sehr ehrt. Von all meinen Freunden schätze ich ihn am meisten. Einige Offiziere und Adelige würden ein Vermögen bezahlen, um diese Auszeichnung zu „kaufen“. Aber wahre Freundschaft ist nicht messbar, genau wie der Bund zwischen Kameraden, die im selben Graben Schutz gesucht haben. Herr Mitya gab Snezhnaya etwas ganz und gar einzigartiges. Ich muss ihn unbedingt beschützen und ihm einen völlig ungestörten Arbeitsplatz geben ... Obwohl ... Ich muss ihm auch klarmachen, dass sein ständiges Handeln auf eigene Faust unseren gesamten Zeitplan wirklich extrem durcheinanderbringt ..."
+      },
+      {
+        "Title": "Über Alyosha ...",
+        "Context": "Anders als viele annehmen, bin auch ich in einem abgelegenen Dorf aufgewachsen ... Warum sollte ich mir einen so anständigen jungen Mann zum Feind machen, der unermüdlich den einfachen Leuten hilft und dabei immer wieder Fälle übernimmt, die in rechtlichen Grauzonen liegen? Solange er die Grenzen nicht überschreitet, habe ich keinen offiziellen Grund und auch kein persönliches Verlangen, ihn festzunehmen. Das bedeutet aber nicht, dass ich die Rokot für völlig harmlos halte. Aktuell arbeiten sie jedoch für das Wohl von Snezhnaya. Sie sind nicht meine Feinde."
+      },
+      {
+        "Title": "Über Vodyanitsa ...",
+        "Context": "Die Stimme dieser Sängerin hat wirklich etwas „magisches“ an sich. Selbst jemand, der so wenig von Kunst versteht wie ich, ist von ihren Liedern berührt. Manchmal ertappe ich mich sogar dabei, dass ich ein wenig verstehe, warum sich Herr Mitya so verhält ... Verstehen, wohlgemerkt. Nicht gutheißen. Fristen sind nicht verhandelbar. Ich werde ihm deswegen nicht einmal eine halbe Stunde mehr Zeit geben."
+      },
+      {
+        "Title": "Über Varka ...",
+        "Context": "Als das Bataillon für Spezialaufträge den Capitano begleitete, traf es einmal auf die Expeditionstruppe des Ordo Favonius. An diesem Tag sah ich ihren Großmeister von Weitem beim Kämpfen zu. Seine Kraft war erstaunlich, und er schwang seine beiden Schwerter ohne jegliche Zurückhaltung, als hätte er nie auch nur einen Gedanken ans Einteilen seiner Kräfte verschwendet ... Oder vielleicht ist er derart stark, dass er das gar nicht nötig hat. Wenn er nur nicht so gerne Schnaps trinken würde ... Dann würde ich ihn ohne Probleme doppelt so sehr respektieren."
+      },
+      {
+        "Title": "Ich will mehr über Valeriy erfahren I",
+        "Context": "Einige Kollegen aus wohlhabenden Familien bezeichneten mich einmal als „viel zu ernst, die Sorte Mensch, die ihre Zeit sogar im Urlaub streng durchplant und keine nennenswerten Hobbys hat“. Sie haben damit nicht unrecht. Meine Herkunft ist nicht so glanzvoll wie die der meisten Offiziere. Ehrlich gesagt waren wir ziemlich arm. Aber genau dadurch spürten viele der einfachen Soldaten, dass ich einer von ihnen war. Nach meinem Abschluss an der Zaristischen Militärakademie trat ich als junger Offizier der kampfstärksten Ersten Grenadiergarde bei, wo ich schnell bei allen Anschluss fand und wo wir im Kampf gute Erfolge erzielten ..."
+      },
+      {
+        "Title": "Ich will mehr über Valeriy erfahren II",
+        "Context": "Die meisten Soldaten vertrauen einem Offizier, der kompetent Befehle erteilt und seine Pflichten ernst nimmt. Er sollte auch ihre Sorgen verstehen. Hilft er ihnen dann noch, wo er nur kann, sind sie restlos zufrieden. Leider sind nur wenige Offiziere so. Unser Kompaniekommandeur jener Zeit war ein Adliger. Er war unnormal streng zu seinen Soldaten, war dabei aber selbst wirklich unfassbar inkompetent. Ständig verursachte er Unfälle oder hatte Niederlagen zu verantworten."
+      },
+      {
+        "Title": "Ich will mehr über Valeriy erfahren III",
+        "Context": "Als ich das Kommando über die Kompanie übernahm, stand mir jeder Soldat mit tatkräftiger Unterstützung zur Seite. Das war wirklich sehr beruhigend. Schon bald erreichte unsere Angriffskompanie weit mehr, als man von ihr erwartet hatte. Sie wurde der Kern des Bataillons für Spezialaufträge. In den folgenden Jahren wuchsen unsere Aufgabenbereiche erheblich und wir bekamen immer schwierigere Einsätze. So konnte ich umfassend trainieren, meine Zeit optimal einzuteilen und die Einsatzpläne der verschiedenen Einheiten zu koordinieren. Deshalb bewachen wir das Büro für Heeresgerät von Snezhnaya. Die übliche Rotation der Einheiten wurde vorerst ausgesetzt, wodurch wir zur festen Wache des Büros wurden. Da dieser Ort von enormer Bedeutung ist, könnte es für uns alle wirklich keinen größeren Vertrauensbeweis geben als diesen Einsatz."
+      },
+      {
+        "Title": "Ich will mehr über Valeriy erfahren IV",
+        "Context": "Ehrlich gesagt würde ich lügen, wenn ich sagen würde, dass ich der Armee beigetreten bin, „nur um Snezhnaya zu dienen, ohne an mich selbst zu denken.“ Meine Kindheit in den Minen war hart und natürlich träumte ich davon ... In den Rängen aufzusteigen, ein Leben in Reichtum zu führen und meine Familie von Geldsorgen zu befreien ... Später änderte sich meine Sichtweise jedoch. Ich überstand mit meinen Kameraden einige bittere Kämpfe gegen Monster und habe etwas gefunden ... Das mir deutlich mehr bedeutet als Mora. Vielleicht besitzt meine Familie wegen dieser Entscheidung heute weniger Schmuck, den sie im Alltag tragen kann. Aber Snezhnaya hat einen Schild gewonnen, der bei Wind und Schnee standhaft bleibt und mein Zuhause und das der anderen beschützt."
+      },
+      {
+        "Title": "Ich will mehr über Valeriy erfahren V",
+        "Context": "Vor der Schlacht will jeder Soldat die „Siegbedingungen“ kennen. Kaum ein Gedanke weckt so großen Ehrgeiz, wie den feindlichen Kommandanten zu Fall zu bringen und seine Truppen zu zerschlagen. Auch ich überschätzte mich einst. Ich trainierte wie ein Verrückter, um den wahren Helden an der Frontlinie nachzueifern. Doch eine Niederlage zeigte mir meine Grenzen, nämlich die eines Sterblichen, auf. Gegen Feinde, die unser Verstand nicht fassen kann, ist die Stärke der Einheit unser sicherster Schild. Seither widme ich mich der Planung und koordiniere jede Aufgabe mit Präzision, halte die Einheit in Bestform und verbessere sie stetig. Jeder Soldat fügt sich dabei bereitwillig ein wie ein wichtiges Rädchen im Getriebe einer Maschine. Und wenn wir vorrücken, dann wendet sich das Blatt."
+      },
+      {
+        "Title": "Valeriys Hobby ...",
+        "Context": "Hast du Kresnik-Kristall mal genau betrachtet? Er ist ein wichtiger Brennstoff, aber auch ein wunderschönes Werk der Natur. Glanz und Muster sind wirklich prächtig ... Und das gilt nicht nur für diesen Kristall. Achat, Jade, Perlen ... Sie alle haben eine ganz eigene, besondere Textur. Sogar ich kann ihrer Schönheit etwas abgewinnen, und ich bin nun wahrlich kein Künstler. Das Sammeln und Studieren von Mineralien und das Nachskizzieren ihrer Muster war als Kind eines meiner liebsten „Spiele“. Auch heute bereitet mir das viel Freude. Jedoch habe ich alle wertvollen Edelsteine verkauft und Mora sowie Vorräte nach Hause geschickt. Jetzt begnüge ich mich mit gewöhnlichen Steinen."
+      },
+      {
+        "Title": "Valeriys Sorgen ...",
+        "Context": "Manche Leute können sich einfach nicht an einen Zeitplan halten. Und wenn dann etwas schiefgeht, behalten sie es für sich und versuchen, es allein zu regeln. Für denjenigen, der den Zeitplan verwaltet, bedeutet das endlosen Ärger ... Ich habe es schon unzählige Male gesagt. Alle Arbeiten und Einsätze müssen sich nach dem Zeitplan richten. Falls etwas Unerwartetes passiert, informiere alle Beteiligten so schnell wie möglich, damit der Rest des Teams seine Pläne anpassen kann. Ach, ich bin es gewohnt, solche Probleme für andere zu lösen. Ich wünschte nur, man würde jedem diese einfache Regel als grundlegende Lebenskompetenz beibringen."
+      },
+      {
+        "Title": "Was er so mag ...",
+        "Context": "Militärverpflegung wird von den Köchen mit viel zu viel Fett und Salz zubereitet, damit sie mehr Energie liefert. Wenn man davon zu viel isst, verdirbt das irgendwann den Appetit. Im Alltag bevorzuge ich deshalb leicht gewürzte Gerichte, gern mit einer säuerlichen Note oder einer natürlichen Süße. Fischsuppe zum Beispiel, oder eingelegtes Gemüse aller Art."
+      },
+      {
+        "Title": "Was er nicht mag ...",
+        "Context": "Die Leute aus Snezhnaya trinken gern. Manche der haarsträubendsten Geschichten darüber haben es sogar über die Landesgrenzen hinaus geschafft. Doch nicht jeder von uns kann trinken wie ein Pferd und trotzdem weiter galoppieren, vor allem nicht bei Schnaps, der so stark ist wie Feuerwasser. Schon ein paar Gläser können genügen, dass man seine Pflichten nicht mehr erfüllen kann. Ich habe unzählige Beispiele dafür gesehen, in den Minen und in der Armee. Wenn du also trinken musst, dann wähle besser etwas Mildes mit wenig Alkohol, zum Beispiel Schnee-Nocturne, die noch in der Originalflasche ist. Und wer heimlich Schnaps brennt, um ihn noch stärker zu machen, gehört streng bestraft."
+      },
+      {
+        "Title": "Geschenk erhalten I",
+        "Context": "Wenn es an der Front brenzlig wird, ist so eine Mahlzeit eine ganze Kiste Granaten wert."
+      },
+      {
+        "Title": "Geschenk erhalten II",
+        "Context": "An „ganz ordentlich“ ist nichts auszusetzen. Halte dieses Niveau, und du wirst noch einen guten Armeekoch abgeben."
+      },
+      {
+        "Title": "Geschenk erhalten III",
+        "Context": "Kann man schon essen ... aber solche Gerichte regelmäßig zu sich zu nehmen, wäre schlecht für deine Gesundheit. Zwing dich also nicht, das zu essen."
+      },
+      {
+        "Title": "Dein Geburtstag ...",
+        "Context": "In der Armee von Snezhnaya ist es Brauch, dass die Kameraden ihre besten Gerichte und Getränke hervorholen, wenn ein Soldat Geburtstag hat, um gemeinsam ein Festmahl vorzubereiten. Indem du mir geholfen hast, hast du dem ganzen Bataillon für Spezialaufträge geholfen. Damit ist jeder Soldat des Battallions dein Kamerad. Doch ein Festmahl des gesamten Bataillons wäre viel mehr, als du jemals essen könntest. Deshalb habe ich jede Kompanie gebeten, ein einzelnes Gericht beizusteuern, das für sie steht. Ich hoffe, dass dir damit ihr Respekt übermittelt wird – und auch meiner."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Beginn",
+        "Context": "... Und ich dachte schon, du würdest mich härter rannehmen."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Fortschritt",
+        "Context": "Noch immer nicht genug. Die Messlatte muss höher gesetzt werden."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Höhepunkt",
+        "Context": "Was die Kampfkraft gewöhnlicher Soldaten angeht, würde ich mich selbst auf der Stufe „Ein-Mann-Kompanie“ einordnen ... Aber damit kann ich mich nicht zufriedengeben."
+      },
+      {
+        "Title": "Gedanken über den Aufstieg – Ende",
+        "Context": "Die Abenteuer mit dir haben mich mehr gehärtet als jedes gewöhnliche Training. Jetzt bin ich sicher, dass ich auch in den härtesten Kämpfen an deiner Seite stehen und dir helfen kann, die Anführer der Feinde zu besiegen."
+      },
+      {
+        "Title": "Heftiger Angriff I",
+        "Context": "Zerschmettert ihre Rüstungen."
+      },
+      {
+        "Title": "Heftiger Angriff II",
+        "Context": "Durchboxen."
+      },
+      {
+        "Title": "Heftiger Angriff – III",
+        "Context": "Unterdrückungsfeuer."
+      },
+      {
+        "Title": "Elementarfähigkeit I",
+        "Context": "Donnerlauf."
+      },
+      {
+        "Title": "Elementarfähigkeit II",
+        "Context": "Vorrücken."
+      },
+      {
+        "Title": "Elementarfähigkeit III",
+        "Context": "Mit Rammgeschwindigkeit."
+      },
+      {
+        "Title": "Spezialfähigkeit I",
+        "Context": "Dichter Schnee voraus."
+      },
+      {
+        "Title": "Spezialfähigkeit II",
+        "Context": "Artillerie, Feuer."
+      },
+      {
+        "Title": "Spezialfähigkeit III",
+        "Context": "Gebiet abriegeln."
+      },
+      {
+        "Title": "Truhe öffnen I",
+        "Context": "Sortiere alles nach Typ, bevor du es in deinen Rucksack packst."
+      },
+      {
+        "Title": "Truhe öffnen II",
+        "Context": "Es ist eine gute Angewohnheit, alle seine Vorräte voll auszunutzen."
+      },
+      {
+        "Title": "Truhe öffnen III",
+        "Context": "Selbst Kleinkram hat seinen Nutzen."
+      },
+      {
+        "Title": "Niedrige LP I",
+        "Context": "Ich muss das Blatt wenden ..."
+      },
+      {
+        "Title": "Niedrige LP II",
+        "Context": "Mein Fehler."
+      },
+      {
+        "Title": "Niedrige LP III",
+        "Context": "Kritisches Bedrohungslevel."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP I",
+        "Context": "Zieh dich zurück. Ich halte sie auf."
+      },
+      {
+        "Title": "Verbündeter hat niedrige LP II",
+        "Context": "Zurückziehen und neu formieren."
+      },
+      {
+        "Title": "Ohnmächtig I",
+        "Context": "War zu unvorsichtig ..."
+      },
+      {
+        "Title": "Ohnmächtig II",
+        "Context": "Der Plan ... ist gescheitert."
+      },
+      {
+        "Title": "Ohnmächtig III",
+        "Context": "Ich habe ... Schande über meine Uniform gebracht ..."
+      },
+      {
+        "Title": "Leichten Treffer erlitten I",
+        "Context": "Nur ein Kratzer."
+      },
+      {
+        "Title": "Leichten Treffer erlitten II",
+        "Context": "Nichts Ernstes."
+      },
+      {
+        "Title": "Schweren Treffer erlitten I",
+        "Context": "Nicht schlecht."
+      },
+      {
+        "Title": "Schweren Treffer erlitten II",
+        "Context": "Nicht gut genug ..."
+      },
+      {
+        "Title": "Truppenbeitritt I",
+        "Context": "Pünktlich wie geplant. Gehen wir."
+      },
+      {
+        "Title": "Truppenbeitritt II",
+        "Context": "Uhrenvergleich. Auftrag beginnen."
+      },
+      {
+        "Title": "Truppenbeitritt III",
+        "Context": "Bereit für das Briefing."
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Figurendetails",
+        "Context": "Die Fatui, ein Symbol für die Stärke Snezhnayas, eine mächtige Armee, die die Bürger beschützt ...\nProfessionell, effizient, besonnen, entschlossen ... Man hat sie mit zahllosen lobenden Worten bedacht.\nWann immer die Soldaten und Patrouillenboote in Formation über den Platz ziehen, werden sie mit donnerndem Jubel und Segenswünschen empfangen.\nSich zum Militär zu melden und nach zahllosen harten Prüfungen zu einem stahlharten Kämpfer der Fatui zu werden, davon träumen auch viele Kinder.\nDoch die Realität ist weit grausamer, als man es sich in seinem Optimismus ausmalt. Von körperlicher Leistungsfähigkeit über Gehorsam und Lernvermögen bis hin zu Willensstärke sind die Anforderungen jeder einzelnen Prüfung so kalt und unerbittlich wie Eiszapfen.\nGanz zu schweigen von der Eliteeinheit „Erste Grenadiergarde“. Dieser ruhmreichen Truppe wurden bereits Ehrentitel wie „Glupovs Barrikade“ und „Hammer von Teplo“ verliehen ...\nEs heißt sogar, selbst wer bei der Auswahl für diese Truppe durchfällt, gehöre unter den regulären Soldaten noch zur absoluten Spitze. Selbst die schwierigsten Aufträge der Abenteurergilde seien für solche Leute reine Routine.\nFür gewöhnlich setzen die Angehörigen der Grenadiergarde alles daran, ihre Identität nicht preiszugeben. Sämtliche Informationen über die Truppe sollen so weit wie möglich geheim bleiben.\nDoch mächtige Krieger üben auf die Menschen seit jeher eine unwiderstehliche Faszination aus. So gibt es immer wieder Leute, die versuchen, aus den ungewöhnlichsten Blickwinkeln mehr über diese Truppe herauszufinden.\nMajor Valeriy Ivanovich Denisov ist in jüngster Zeit zur einzigen Ausnahme geworden.\nSein derzeitiger Auftrag führt Valeriy häufig an öffentliche Orte. So zurückhaltend er sich auch verhalten mag, den Blicken der Menschen kann er sich kaum entziehen.\nSeine beinahe mauerhafte Statur, die blitzblanke Rüstung und Ausrüstung, sein tadelloses Erscheinungsbild, seine Gewissenhaftigkeit ... Valeriy entspricht einfach allzu genau dem Bild, das sich gewöhnliche Bürger von einem „herausragenden Soldaten“ machen.\nMit der Zeit wurde Major Valeriy geradezu zum Aushängeschild der Ersten Grenadiergarde.\nWas die Aufmerksamkeit gewöhnlicher Bürger und die hochgereckten Kameras der Reporter angeht, ist Valeriys Haltung eindeutig: Es stört ihn nicht, er reagiert nicht darauf und es interessiert ihn nicht. Unbeirrt konzentriert er sich auf seine eigenen Angelegenheiten.\nAber ... sollte jemand versuchen, auf diesem Wege an tiefergehende Informationen zu gelangen, seine Einheit auszuspähen und etwas zu planen, das den Interessen Snezhnayas schadet ...\nNur zu. Dann heißt es wohl, auf gute Nachrichten zu warten ...\nUnd auf den Augenblick, in dem die Festung von selbst angerollt kommt und sie unter sich begräbt."
+      },
+      {
+        "Title": "Figurenhintergrund 1",
+        "Context": "In der fernen Vergangenheit Schneznayas, gleich zu Beginn ihrer Herrschaft, sah sich Zarin Anastasya dem Widerstand zahlreicher Feen-Aristokraten gegenüber.\nAnders als Kaiser Monomakh vor ihr rief sie nicht die Druzhna zusammen, sondern stellte eine neue Truppe namens „Fatui“ auf, um gegen die Rebellen zu kämpfen.\nAn der Seite der Zarin zogen die „Fatui“ von Sieg zu Sieg, eroberten die Gebiete mehrerer Clans und schlugen die alten Heere der Fürsten und Aristokraten vernichtend. Ihre glanzvollen Erfolge ließen sich kaum alle aufzählen ...\nEine dieser Einheiten entwickelte sich zur heutigen Ersten Grenadiergarde.\nMan kann wohl sagen, dass die Erste Grenadiergarde die traditionsreichste Einheit der „Fatui“ ist. Wann immer die Fähigkeiten der besten Soldaten gefragt sind, ist sie zur Stelle.\nIm deutlichen Gegensatz zu dieser langen Tradition wurde das ihr unterstellte „Bataillon für Spezialaufträge“ jedoch erst vor wenigen Jahren gegründet und ist damit noch ausgesprochen jung.\nAls erster Kommandant des „Bataillons für Spezialaufträge“ spielte Major Valeriy die entscheidende Rolle bei der Prägung seines heutigen Stils.\nAus der „Elite“ eine noch erlesenere „Elite“ zu formen, diente nur einem Zweck: mit unkonventionellen Mitteln Probleme zu lösen, die außerhalb des üblichen Rahmens lagen, und Bedrohungen auszuschalten, denen gewöhnliche Truppen kaum gewachsen waren ...\nUnd wenn es nötig war, mussten auch Gefahren in den eigenen Reihen ausgemerzt werden.\nAnders als es sich die Menschen in Snezhnaya gern vorstellen, sind die „Fatui“ im Laufe mehrerer Jahrhunderte immer weiter angewachsen. Dabei ließ es sich kaum vermeiden, dass sich auch Leute mit zweifelhaften Absichten in ihre Reihen mischten, sodass sich die einzelnen Einheiten in Disziplin und Kampfkraft teils erheblich unterscheiden.\nJedem fähigen Soldaten sollte klar sein: So wie die Zarin vorgeht, werden die Gegner, die es künftig zu bezwingen gilt, zweifellos weit mächtiger sein als die Fürsten vergangener Zeiten.\nDeshalb müssen sich auch die regulären Einheiten der „Fatui“ stetig weiterentwickeln und ihre Kampfkraft bis an die Grenzen des Möglichen steigern.\nVor einigen Jahren, nachdem Valeriy das „Bataillon für Spezialaufträge“ zu einer schlagkräftigen Einheit geformt hatte, erhielt es von mehreren Meistern und sogar einem der Elf die nötigen Vollmachten, um zugleich gegen äußere wie innere Gefahren vorzugehen. Während es hochgefährliche Monster beseitigte, zog es zugleich zahlreiche korrupte und unfähige Angehörige der eigenen Streitkräfte zur Rechenschaft und trug so erheblich zur Verbesserung der Kampfkraft vieler Einheiten bei.\nDas ging so weit, dass die Kameraden aus anderen Einheiten der Fatui fortan unwillkürlich nervös wurden, sobald das „Bataillon für Spezialaufträge“ zur Sprache kam oder sie Valeriy auch nur von Weitem erblickten ...\nSogleich prüften sie die eigenen Reihen darauf, ob sich dort nicht etwa ... irgendwelche Halunken fanden, die Militärgeheimnisse preisgaben, widerrechtlich Armeebesitz verhökerten oder gegen Vorschriften verstießen und damit eine ganze Kette übler Folgen auslösten.\nManche besonders gewitzten Stabsoffiziere trieben beträchtliche Summen auf und versuchten, zu retten, was noch zu retten war, indem sie das Verhältnis zum „Bataillon für Spezialaufträge“ zu kitten suchten. Andere, völlig Verzweifelte, wollten alles auf eine Karte setzen und ihrerseits gegen das Bataillon vorgehen ...\nDoch ausnahmslos scheiterten sie und landeten allesamt hinter Gittern.\nSelbst die stolzen Druzhna wurden bei ihnen vorsichtig und vermieden es, sich mit diesen „lästigen Kerlen“ einzulassen.\nValeriy war mit dieser Vorsicht der Kameraden durchaus zufrieden. Gerade ihre heftigen Reaktionen bewiesen schließlich, dass das Bataillon seine Arbeit wirksam erledigte. Wenn man nach all diesen Säuberungen am Ende mit jedem bestens auskäme, wäre das nicht vielmehr ein Zeichen dafür, selbst der Korruption anheimgefallen zu sein?\nUnd so setzte das „Bataillon für Spezialaufträge“ seine Arbeit nach dem Grundsatz fort: „Nicht fürchten, Kameraden vor den Kopf zu stoßen. Fürchten, nicht entschieden genug durchzugreifen.“ So ging es weiter, bis die grundlegenden Ziele erreicht waren ...\nAuch Valeriys alter Beiname „Festungsbär“ machte in der Armee wieder die Runde.\nJene Kameraden, die schon länger dienten als Valeriy und ihm entweder mit Respekt oder mit Furcht begegneten, erinnerten sich wieder an seine ungewöhnlichen Taten ..."
+      },
+      {
+        "Title": "Figurenhintergrund 2",
+        "Context": "„Festungsbär“: Dieser Beiname klingt auf den ersten Blick recht niedlich, doch tatsächlich wird er mal als Lob, mal als Spott gebraucht. Seine Ursprünge gehen auf Valeriys Zeit an der Zaristischen Militärakademie zurück.\nDamals schickten Adelsfamilien und wohlhabende Kaufleute ihre Sprösslinge häufig zum Militär, damit sie sich dort Ansehen und eine glänzende Laufbahn verschafften. Es hieß sogar: „Wirf einfach irgendeinen Schneeball auf die Bibliothek der Zaristischen Militärakademie, und du triffst garantiert fünf künftige Würdenträger.“\nVor diesem Hintergrund legte die Militärakademie, ganz anders als gewöhnliche Schulen mit ihrem vergleichsweise harmonischen Miteinander, besonderen Wert auf Konkurrenz und ließ nichts unversucht, um den Ehrgeiz ihrer Kadetten anzustacheln.\nUnd dann war da Valeriy, ein Grünschnabel aus einer einfachen Bergarbeiterfamilie ...\nEr wurde tatsächlich als einer der fünf Besten seines Jahrgangs aufgenommen und belegte gleich im ersten Studienjahr sowohl bei der theoretischen als auch bei der praktischen Prüfung den ersten Platz ...\nWas berechtigt ausgerechnet ihn dazu?\nDie „Elitekadetten“ seines Jahrgangs versuchten, ihre Ehre wiederherzustellen, und forderten Valeriy immer wieder bei schriftlichen Prüfungen wie auch auf dem Übungsplatz heraus. Doch meist blieben ihre Bemühungen erfolglos.\nBei den schriftlichen Prüfungen lagen ihre Ergebnisse stets ein gutes Stück hinter seinen zurück, und wenn sie bei Gefechtsübungen eigene Truppen anführten, schlug Valeriy sie regelmäßig vernichtend. Nach all diesen Niederlagen wurden manche der stolzen jungen Männer selbst in ihren Träumen noch von Valeriy vermöbelt.\nDie einen sagten, Valeriy stehe ihnen wie eine uneinnehmbare Festung im Weg. Andere meinten, wenn er zum Angriff übergehe, gleiche er einem Bären in Rüstung. Mit der Zeit verschmolzen diese beiden Vergleiche zu einem einzigen Beinamen.\nValeriy hatte nichts gegen diesen Beinamen. Welch ein Zufall: Seine Eltern hatten sich schließlich ebenfalls gewünscht, dass er einmal die Kraft eines Bären entwickeln würde. Wie passend!\nDabei hatte Valeriy nie die Absicht, seine Mitschüler zu provozieren. Er verschwendete nicht einmal einen Gedanken daran, warum sie es überhaupt auf ihn abgesehen hatten.\nEr suchte lediglich nach der optimalen Lösung für sein Leben: den Körper mit aller Kraft zu trainieren, sich beim Lernen ganz auf die Lehrbücher zu konzentrieren, seine fachlichen Fertigkeiten mit ungeteilter Aufmerksamkeit zu perfektionieren und jede dafür notwendige Minute bestmöglich zu nutzen.\nUm bei diesem Leben unter ständigem Hochdruck nicht irgendwann die Sehne seines Willens reißen zu lassen, arbeitete er in den Ferien außerdem nebenbei in einer Schmiede ...\nSo konnte er den Kopf freibekommen, sich zugleich eine genau auf seine Bedürfnisse zugeschnittene Schutzausrüstung schmieden und nebenbei noch etwas Geld für seine „notwendigen Ausgaben“ verdienen.\nSiebzig Prozent davon schickte er seinen Eltern, die übrigen dreißig legte er zurück. Davon ließ er sich einen angemessen konventionellen Gesellschaftsanzug anfertigen, bemühte sich um Anschluss an seine Kameraden und besuchte die nötigen Abendgesellschaften und Bälle. Mit tadellosem Auftreten wollte er den Verleumdungen entgegentreten, er sei „ein ungehobelter Krämer, zu nichts Großem zu gebrauchen“ ...\nDurch ständiges Ausprobieren und Korrigieren entwickelte Valeriy nahezu perfekte Fähigkeiten in der Zeitplanung und Umsetzung. Sein Leben teilte er Stunde für Stunde in unterschiedlich lange Aufgabenzyklen ein.\nViel zu mechanisch, geradezu eintönig wie ein Leben in Askese. Für die Sprösslinge von Aristokraten und reichen Kaufleuten war eine solche Lebensweise schlicht unbegreiflich.\nDoch für einen Soldaten, der noch dabei war, sich selbst zu stählen, gehörte genau das zur Pflicht.\nNur wer seine Zeit mindestens ebenso effizient nutzte wie Valeriy, konnte ihn aus eigener Kraft und auf faire Weise übertreffen ...\nZur rechten Zeit ergriff Valeriy seinerseits die Initiative und besserte sein Verhältnis zu jenen Kadetten, die einst erbittert mit ihm konkurriert und ihn als Dorn im Auge betrachtet hatten.\nEin ausgiebiger Wettkampf, ein zünftiges Trinkgelage, ein offenes Gespräch und dazu das richtige Maß an Bescheidenheit und Höflichkeit genügten, um gegenseitige Vorurteile abzubauen und aus „Feinden“ Freunde zu machen ...\nSchließlich würden sie später ohnehin in derselben Armee Seite an Seite kämpfen. Warum also nicht?\nMit der Zeit gewannen die „Elitesprösslinge“ immer mehr Respekt vor Valeriy, und die Versuche, ihn herauszufordern, wurden zunehmend seltener.\nRein vom Ergebnis her trieb die Atmosphäre, die dieser außergewöhnliche Kadett geschaffen hatte, den Wettbewerb sogar auf die Spitze. Aus seinem Jahrgang gingen dadurch nicht wenige neue Talente hervor.\nSo führte ihn unmittelbar nach seinem Abschluss an der Zaristischen Militärakademie ein Empfehlungsschreiben unbekannter Herkunft zur „Ersten Grenadiergarde“. Dort wurde er der Ansturmkompanie des Ersten Bataillons zugeteilt und erhielt direkt das Kommando über den neu aufgestellten Dritten Zug.\nDer damalige Bataillonskommandeur Okhlopkov hatte die Zaristische Militärakademie häufig besucht und Valeriy dort lange beobachtet, bevor er ihn schließlich mit größter Zufriedenheit auswählte.\nWas ihn an Valeriy überzeugte, war gerade dessen selbstsichere, aber niemals überhebliche Art und sein sicheres Gespür dafür, wann er vorangehen und wann er sich zurücknehmen musste ...\nAußerdem ließ sich ein junger Mann aus einfachen Verhältnissen, noch unbeschrieben wie ein weißes Blatt, natürlich leichter zu einem furchtlosen Recken und einer zielsicheren, erbarmungslosen Klinge formen als irgendein Elitesprössling, bei dem man nie wusste, ob hinter ihm ein reicher Kaufmann oder ein Mitglied des Snezhnograd-Wetsche stand.\n"
+      },
+      {
+        "Title": "Figurenhintergrund 3",
+        "Context": "Der Wert eines Soldaten muss mit Blut bewiesen werden.\nKein Kamerad sollte auch nur einen Tropfen Blut mehr verlieren als nötig. Beim Blut der Feinde dagegen galt: Je mehr, desto besser.\nValeriy wurde diesem Anspruch gerecht.\nNach seinem Eintritt in die Ansturmkompanie des Ersten Bataillons der „Ersten Grenadiergarde“ erhielt Valeriy seinen ersten Auftrag: Gemeinsam mit der Kompanie sollte er nach Osten vorrücken und die Rebellen vernichten, die sich außerhalb der Teplo-Oase verschanzt hatten und die Herrschaft eines Fürsten aus alter Zeit wiederherstellen wollten.\nDie Familie des Rebellenführers schien einer Art Verblendung erlegen zu sein. Seit Generationen verehrte sie Großherzog Skoldyryt, mit dem sie nicht einmal blutsverwandt war, und hatte all die Jahre im Verborgenen ausgeharrt, nur um dem längst vergangenen Toten zu neuem Ruhm zu verhelfen.\nEin absurdes, wahnsinniges Unterfangen, aber zugleich ein äußerst gefährliches.\nLeider wurden diese Erkenntnisse erst zu spät bestätigt. Vor dem Feindkontakt ging die Kompanie lediglich von einem gewöhnlichen Säuberungseinsatz aus und war daher nicht in höchster Alarmbereitschaft.\nIn der Anfangszeit der Fatui hatte die „Erste Grenadiergarde“ an eben diesem Ort einst die Schlachtreihen der Volkodlaki zerschmettert und sich damit den Ehrentitel „Hammer von Teplo“ verdient.\nZu Beginn dieses Einsatzes jedoch waren die Rollen vertauscht.\nDie ahnungslosen Fatui-Soldaten teilten sich planmäßig in drei Gruppen auf. Sie sollten zunächst in Marschformation vorrücken und erst zweitausend Schritte vor dem Ziel in Gefechtsformation übergehen.\nWas sie nicht wussten: Die „Skoldyryt-Rebellen“ hatten längst eine Streitmacht zusammengezogen, die der eigenen Kompanie zahlenmäßig weit überlegen war, und den vorgesehenen Marschweg bereits in eine Falle verwandelt.\nKaum hatte die Vorhut der Fatui jene Verteidigungslinie überschritten, wurde sie völlig unvorbereitet von kräftigen Volkodlaki aus allen Richtungen eingekreist und angegriffen. Die Soldaten wurden wie Halme niedergemäht, und ihre Formation brach zeitweise völlig zusammen.\nEinzig der von Valeriy geführte Dritte Zug geriet nicht in den Hinterhalt. Zum ersten Mal zeigte der junge „Festungsbär“, dass er das Potenzial besaß, den Ausgang einer Schlacht entscheidend zu beeinflussen ...\nEr hielt an den guten Gewohnheiten aus seiner Kadettenzeit fest, ließ seine Männer frühzeitig in Bereitschaft gehen und das Gebiet unablässig und umfassend aufklären. So kannte er die Lage des Feindes bereits genau, bevor sie in die Todeszone gerieten. Er ließ den Zug unverzüglich auseinanderziehen, fing den ersten Angriff des Gegners sicher ab und wurde damit zum Dreh- und Angelpunkt der gesamten Schlacht.\nAls die Soldaten sahen, mit welcher Entschlossenheit dieser Zugführer seinen allerersten Kampfeinsatz bestritt, fanden sie rasch ihren Kampfgeist wieder. Sie formierten sich um Valeriys Einheit neu und warfen den erbitterten Angriff der Rebellen mit aller Kraft zurück. Nach und nach kamen die Fähigkeiten der Elitegrenadiere wieder zum Vorschein, und das Kräfteverhältnis begann sich zu ihren Gunsten zu verschieben.\nAls die „Überreste von Skoldyryts Gefolgschaft“ erkannten, dass selbst dieser wuchtige Überraschungsangriff keine Entscheidung gebracht hatte, brach ihre Moral schlagartig ein. Jene Wankelmütigen, die bereits an Rückzug dachten, ließen Schwachstellen in der Front entstehen.\nAuch diese flüchtige Gelegenheit entging Valeriy nicht. Obwohl schwer verwundet, schien er keinen Schmerz zu kennen. An der Spitze des Dritten Zuges ging er zum unwiderstehlichen Gegenangriff über und riss mit voller Wucht eine Bresche in die feindlichen Reihen ...\nNachdem er den vollständig eingekesselten Trupp Stepanyans befreit hatte, bündelte Valeriy seine Kräfte und stieß ohne Unterbrechung bis zum Anführer des Feindes vor ... Dort nagelte er den überheblichen Reißzahn-Berserker an die Felswand.\nDas Ergebnis des Einsatzes konnte sich nicht gerade sehen lassen, war aber immerhin keine Katastrophe. Die Fatui hatten einen weit höheren Preis gezahlt als erwartet, doch zumindest waren diese aberwitzigen Volkodlaki vollständig ausgeschaltet worden.\nEs stand außer Frage: Hätte Valeriy im entscheidenden Moment nicht mit seinem Zug die Kompanie stabilisiert, hätten die Fatui selbst im Falle eines Sieges einen entsetzlichen Preis zahlen müssen.\nDieser Einsatz führte Bataillonskommandeur Okhlopkov zugleich einen schweren eigenen Irrtum vor Augen. Der aus einem Schwesterbataillon versetzte Kommandeur der Ansturmkompanie, Arakcheyev, den er wegen seiner strengen Truppenführung und tadellosen Haltung für einen verlässlichen Untergebenen gehalten hatte, entpuppte sich als jemand, der vor allem darin bewandert war, sich bei den richtigen Leuten einzuschmeicheln. Seine Fähigkeiten in Führung und Entscheidungsfindung wiesen dagegen gravierende Mängel auf.\nLieß man einen derart unfähigen Mann weiterhin die Ansturmkompanie führen, würde das früher oder später in einer Katastrophe enden.\nOkhlopkovs Blick fiel erneut auf Valeriy. Der junge Mann, der die Schlacht gewendet hatte, war vielleicht zu mehr bestimmt als zum einfachen Soldaten ..."
+      },
+      {
+        "Title": "Figurenhintergrund 4",
+        "Context": "Bei der Operation zur Vernichtung der „Skoldyryt-Rebellen“ verhielt sich Araketschejev, der Chef der Angriffstruppe, passiv und abwartend. In seinem Bericht schob er die Verantwortung jedoch von sich: Hauptgrund für das Scheitern sei die „unzureichende Aufklärung im Vorfeld“ gewesen ...\nJedem mit etwas Sachverstand war klar, dass all dies eigentlich in den Verantwortungsbereich des Kompaniekommandeurs gefallen wäre. Doch leider sah das Ergebnis auf dem Papier hervorragend aus. Gemessen an den bloßen Zahlen konnte die Leistung der Kompanie sogar als „vorbildlich“ gelten.\nAm Ende wurde der Kompaniekommandeur nicht nur von jeder Disziplinarmaßnahme verschont, sondern vom Regimentsstab sogar noch ausgezeichnet.\nValeriy hingegen, der die Lage gerettet hatte, machte sich mit seiner herausragenden Leistung in dieser einen Schlacht einen Namen. Auf Okhlopkovs nachdrückliche Empfehlung hin wurde er direkt zum Vicarius des Kommandeurs der Ansturmkompanie, Arakcheyev, befördert und übernahm zugleich die Koordination von Ausbildung und Logistik ...\nDarauf folgten fünfzehn Monate reibungsloser Zusammenarbeit. In dieser Zeit konnte Valeriy sein Talent, Pläne konsequent voranzutreiben und präzise Zeitpläne aufzustellen, voll ausspielen. Jede einzelne Angelegenheit organisierte er tadellos.\nVielleicht war gerade das eine Form von Nachsicht. Als Arakcheyev sah, wie gewissenhaft sein Vicarius arbeitete, überließ er Valeriy kurzerhand immer mehr seiner eigenen Aufgaben und beschränkte sich selbst darauf, den Vorgesetzten wohlklingende Berichte vorzulegen.\nSchließlich ließ Arakcheyev sogar seinen eigenen Tagesablauf von Valeriy planen ...\nAuch ohne dass Okhlopkov viel dazu sagen musste, sah Valeriy seinen früheren Verdacht gegenüber dem Kompaniekommandeur bestätigt.\nFür einen fähigen Soldaten war der Schaden, den die Unfähigkeit eines Vorgesetzten anrichtete, weit schwerer zu ertragen als der Kampf gegen einen mächtigen Gegner auf dem Schlachtfeld.\nLeider stammte Arakcheyev aus dem Adel und war mit zu vielen einflussreichen Persönlichkeiten verflochten, gegen die selbst die Grenadiere nichts ausrichten konnten.\nSich wegen eines derart unfähigen Kompaniekommandeurs offen mit gewissen einflussreichen Leuten anzulegen? Dafür hatten weder Valeriy noch Okhlopkov vorerst genügend Gewicht.\nEs musste doch einen sichereren und zugleich völlig legitimen Weg geben ...\nWer nicht über die nötigen Fähigkeiten verfügte, sollte durch sein eigenes Versagen von der Bühne abtreten. Je schwerwiegender das Versagen und je größer der angerichtete Schaden, desto prächtiger wäre am Ende das Feuerwerk, das seinen Abgang begleitete.\nDoch wenn sich dieses Schauspiel im echten Gefecht abspielte, würden unbeteiligte Kameraden den Preis dafür zahlen und womöglich sogar verwundet oder getötet werden. Das kam nicht infrage ...\nValeriy dachte lange und gründlich darüber nach, legte schließlich einen Plan fest und ging zu einem kühnen Manöver über.\nArakcheyev war nur allzu erpicht darauf, sich bei seinen Vorgesetzten hervorzutun. Da seine Kompanie als Vorbild galt, nahm sie zahlreiche Vorführungen und einheitenübergreifende Seminare an. Valeriy nutzte diese Gelegenheit und sorgte dafür, dass Arakcheyev die Kompanie immer häufiger bei solchen Anlässen vertrat ...\nSein Terminkalender war bis zum Rand gefüllt, ganz so, wie man es von einem hervorragenden Kompaniekommandeur erwarten würde. Anfangs war das ganz nach Arakcheyevs Geschmack, konnte er sich so doch der schönen Illusion hingeben, die Karriereleiter mühelos hinaufzusteigen ... Er fand sogar, von solchen Gelegenheiten könne es gar nicht genug geben.\nDoch die Erfolge, mit denen Arakcheyev sich schmückte, hatten mit seinen eigenen Fähigkeiten so gut wie nichts zu tun. Je mehr solcher Termine Valeriy für ihn einplante, desto mehr Aufgaben, die „besser vom Kompaniekommandeur persönlich übernommen werden sollten“, landeten wieder auf Arakcheyevs Schultern. Als er begriff, was geschah, hatte man ihn längst viel zu hoch gehoben und die „selbstverständlichen“ Erwartungen an ihn gleich mit.\nSchließlich nahm Valeriy eine Woche lang „krankheitsbedingt Urlaub“. Ohne seinen Vicarius, dessen Zeitplanung so präzise wie eine Stoppuhr war, brach das gesamte Kartenhaus von Arakcheyevs vermeintlichen Erfolgen zusammen.\nPlötzlich endeten die von ihm geleiteten Übungen im völligen Chaos, bei den Austauschtreffen brachte er kaum einen geraden Satz heraus, und bei simulierten Gefechten zwischen gleichwertigen Einheiten wurde seine Truppe von einer gewöhnlichen Kompanie regelrecht aufgerieben.\nFassungslosigkeit machte sich in der Armee breit. Bald folgten Forderungen nach Rechenschaft und eine gründliche Untersuchung. Die Kameraden aus den anderen Einheiten durchschauten Arakcheyevs Fassade rasch, und die Sache schlug derart hohe Wellen, dass selbst die Adligen hinter ihm sie kaum noch unterdrücken konnten ...\nDer untätige Kompaniekommandeur verlor schließlich den Posten, dem seine Fähigkeiten nie gewachsen gewesen waren.\nValeriy dagegen hatte lediglich seine Pflichten als Vicarius erfüllt: dem Kompaniekommandeur die „beschwerliche“ Arbeit abgenommen, dessen Termine gewissenhaft geplant und ihm bis ins kleinste Detail ausgearbeitete Einsatzpläne vorgelegt. Mehr nicht.\nArakcheyev räumte den Posten, an den er sich nie hätte klammern dürfen, und jene Soldaten, die im Hintergrund tatsächlich die Arbeit geleistet hatten, füllten die entstandene Lücke. Mit überwältigender Unterstützung übernahm Valeriy schließlich die Kompanie ... Jene Kompanie, die er in gewisser Weise selbst unter Einsatz seines Lebens gerettet hatte.\nKeine Selbstinszenierung, kein Buhlen um die Gunst der Vorgesetzten, kein überflüssiges Gerede. Von nun an ging es nur noch um das, was ohnehin ihre Pflicht war: gewissenhaft trainieren und sich in echten Gefechten Ergebnisse erkämpfen ...\nAll das waren Dinge, in denen Valeriy, oder besser gesagt jeder Soldat aus Snezhnaya, eigentlich am besten sein sollte.\nEin erbittertes Gefecht folgte auf das nächste. Doch unter einem fähigen Kommandeur zeigten die Soldaten endlich den Kampfgeist, den man von Snezhnayas Streitkräften erwartete.\nSie vernichteten sechs Monsterverbände, die infolge von Anomalien im Fluss der Elemente aufgetaucht waren, zerschlugen zwei berüchtigte Räuberbanden, die den „Skoldyryt-Rebellen“ in nichts nachstanden, und säuberten sogar in großem Stil das Gebiet westlich von Snezhnograd von Chimärischen Monstern ...\nNiemand hätte gedacht: „Die ruhmreichste Kompanie der Ersten Grenadiergarde verlor ihre Ehre und gewann sie innerhalb nur eines Jahres wieder zurück ...“\nValeriys militärische Erfolge kamen schließlich sogar Okhlopkov zugute, der bei der nächsten regulären Ablösung zum Meister aufstieg. Damit hatte sich seine damalige Wette als geradezu absurd richtig erwiesen.\nUnd Valeriy ... Durch all diese Ereignisse war einer der Elf auf ihn aufmerksam geworden. Seine gesamte Ansturmkompanie wurde umstrukturiert und erweitert und bildete fortan das vierte Elitebataillon des Ersten Grenadierregiments, das sich auf „außergewöhnlich schwierige Spezialaufträge“ konzentrierte.\nNoch schwierigere Aufgaben, deren Wert weit über den Augenblick hinausreichte, warteten auf den jungen Major ...\nTrotz einer gewissen Erschöpfung lieferte Valeriy mit seiner präzisen und kompromisslosen Führung schon bald eine nahezu makellose Leistung ab.\n\n"
+      },
+      {
+        "Title": "Figurenhintergrund 5",
+        "Context": "In seiner Zeit bei der Angriffstruppe zeigte der aufstrebende Valeriy mit zahlreichen glanzvollen Siegen, dass er das Zeug hatte, Eliteeinheiten zu befehligen.\nSchon im ersten Jahr nach der Gründung des „Bataillons für Spezialaufträge“ bewies Valeriy mit seinem besonnenen Vorgehen nach innen wie nach außen, dass man sich auf ihn sowohl bei der Bereinigung von Missständen in den unteren Truppenteilen als auch bei der Abwehr unkonventioneller Bedrohungen verlassen konnte.\nDamit waren alle Voraussetzungen erfüllt. Auch der richtige Zeitpunkt war gekommen.\nIm Büro für Heeresgerät in Glupov stand ein streng geheimes Forschungsprojekt kurz vor dem Eintritt in seine entscheidende Phase. Um seinen reibungslosen Fortgang zu gewährleisten, mussten die Fatui absolut zuverlässige Soldaten zusammenziehen.\nSie durften weder der Korruption anheimfallen noch auch nur ein einziges verwertbares Wort über die Forschung oder den Aufenthaltsort des Kernpersonals nach außen dringen lassen.\nSelbst bei gezielten Angriffen ... selbst wenn sie von einer Rebellenstreitmacht belagert würden, die ihnen zahlenmäßig um ein Vielfaches überlegen war, mussten sie das Kernpersonal und die Vermögenswerte des Forschungsprojekts schützen.\nSie mussten sämtliche ungewöhnlichen Stör- und Sabotageversuche rechtzeitig aufdecken und vereiteln und die Drahtzieher dahinter innerhalb kürzester Zeit ausschalten ...\nUnd all das mussten sie dauerhaft gewährleisten. Voraussichtliche Einsatzdauer: unbegrenzt.\nUnter Berücksichtigung all dieser und weiterer Faktoren war Valeriys „Bataillon für Spezialaufträge“ die einzige Wahl. Oder vielmehr: Genau für diesen Zweck war die Einheit erweitert und in ihre heutige Form gebracht worden.\nAlle Soldaten, die den Auftrag annahmen, unterzeichneten eine ganze Reihe erschreckender Dokumente und stellten sich innerlich auf das Kommende ein ...\nDoch als die angespannten Soldaten unter Valeriys Führung in sauberer Formation das Labor betraten, um sich zum Dienst zu melden, fragten sie sich noch, ob die Person, die sie beschützen sollten, wohl alt und gebrechlich oder steif und unerbittlich sein würde ...\nMitya, der brillante Energieexperte und absolute Mittelpunkt des streng geheimen Projekts ...\n... spielte gerade mit Schal Schere, Stein, Papier.\nUnd Schal hatte ihm mit einem Wachsmalstift auch noch ein halbes Wollgras ins Gesicht gemalt.\nFür einen Augenblick erstarrte der ganze Raum ...\nDie Soldaten, die fast hundert lebensgefährliche Gefechte und zahllose Prüfungen überstanden hatten, mussten sich am Ende doch geschlagen geben. Sie konnten sich das Lachen nicht verkneifen.\nMitya nahm ihnen das überhaupt nicht übel und begrüßte sie ganz unbefangen.\nAls er Valeriy die Hand schüttelte, fragte er sich sogar noch: „Warum schaut dieser Offizier die ganze Zeit so ernst?“ Daraufhin versuchte er seinerseits, Valeriy zu beruhigen, und sagte ihm, er brauche nicht nervös zu sein.\nGleich darauf beschlich Mitya offenbar eine böse Vorahnung. Misstrauisch blickte er zu den Sachen hinüber, die achtlos auf seinem Tisch herumlagen ... ganze sieben verschiedene Zauberwürfel, die er sich zum Zeitvertreib selbst gebaut hatte. Offenbar sah er bereits eine Zukunft vor sich, in der sie allesamt beschlagnahmt wurden.\n...\nAn jenem Tag war Valeriy tatsächlich ein wenig neben der Spur ...\nAn Mityas fachlicher Kompetenz zweifelte er nicht im Geringsten. Schon lange bevor Valeriy diesen Auftrag angenommen hatte, kannten seine Eltern, die selbst als Minenarbeiter arbeiteten, Mitya dem Namen nach. In ihren Briefen hatten sie diesen großherzigen Mann von der „Energiegesellschaft“ mehrfach erwähnt und seine genialen Erfindungen dafür gelobt, dass sie den Minenarbeitern unschätzbare Erleichterungen gebracht hatten ...\nAuch die zahlreichen Informationen über Mitya im Briefing ließen sich im Grunde auf einen einzigen Satz reduzieren: „Ein Genie, wie es in ganz Snezhnaya kein zweites gibt.“\nVielleicht hatte Valeriy einfach schon zu lange unter der Last seiner Arbeit gestanden. Eine wichtige Persönlichkeit, die sich zur Abwechslung einmal ganz anders verhielt als erwartet, ließ ihn jedenfalls zugleich aufatmen und wachsam werden ...\nErleichtert war er, weil die Gesellschaft eines lebhaften jungen Mannes allemal angenehmer war als die eines vertrockneten alten Gelehrten aus dem Bilderbuch.\nWachsam machte ihn dagegen die Frage, ob dieser Experte mit seiner Art nicht weit mehr Ärger heraufbeschwören würde als erwartet und seinen Schutz damit zu einer äußerst schwierigen Aufgabe machte.\nZum Glück stellte sich nach einer kurzen Eingewöhnung etwas beinahe Widersprüchliches ein ... Sie waren „auf einer Wellenlänge“.\nValeriys Strenge bei Zeitplanung und Terminkontrolle bestand nicht darin, jede einzelne Minute des Tages restlos zu verplanen. Entscheidend war für ihn vielmehr, „Pläne möglichst termingerecht voranzutreiben und dabei genügend Spielraum für Ausweichlösungen zu lassen“.\nVor jedem wichtigen Meilenstein erinnerte er sein Gegenüber tatsächlich präzise, wiederholt und mit Nachdruck daran: Die Frist rückte näher.\nKam jedoch tatsächlich höhere Gewalt dazwischen und ließ sich der ursprüngliche Zeitplan nicht einhalten, konnte Valeriy unverzüglich einen Ausweichplan vorlegen. Durch flexibles Aufteilen und Neuverteilen der Arbeitsphasen fing er die Verzögerung auf, wobei der neue Zeitplan bis ins kleinste Detail ebenso sorgfältig ausgearbeitet war wie die ursprüngliche Fassung.\nIn der Regel waren höchstens zwei solcher Korrekturrunden nötig.\nDie ersten drei Fristen bedeuteten der Reihe nach: „Idealerweise ist die Arbeit vorher fertig“, „Wenn sie jetzt fertig wird, ist das auch noch ziemlich gut“ und „Versuchen wir, sie wenigstens zu diesem knappen Termin abzuliefern“.\nErst die allerletzte Frist bedeutete wirklich: „Die dürfen wir unter keinen Umständen überschreiten, sonst sind wir alle erledigt.“\nMitya schaffte es stets, genau die dritte Frist zu treffen. Schwer zu sagen, ob er so genial war, dass er schon vor dem Faulenzen alles exakt durchgerechnet hatte, oder ob ihm einfach jedes Mal das Glück hold war.\nGenau deshalb musste Valeriy seine „Mahnungen“ an Mitya nie bis zur strengsten Stufe verschärfen.\nValeriy strebte durchaus nach einer möglichst gesunden Zeitplanung. Doch er wusste auch, dass sich weder ein guter Arbeitsrhythmus noch Inspiration erzwingen ließen. Selbst wenn man Mitya an einen Stuhl fesselte und ihn rund um die Uhr zur Arbeit zwang, würde ein festgefahrener Entwurf keinen Schritt vorankommen. Er bekäme nicht einmal ein einziges Wort zu Papier.\nIm Gegenteil. Vielleicht bemerkte Valeriy selbst nicht einmal, dass er unter dem Einfluss von Mityas eigenwilliger Art gelegentlich aufgehört hatte, so präzise wie ein Uhrwerk zu funktionieren ...\n... und dass jene unvermeidliche Müdigkeit, die sich unbemerkt in ihm angestaut hatte, langsam von ihm abfiel.\nDieser eigentümliche Zustand, in dem Lebhaftigkeit und Ernsthaftigkeit nebeneinander bestanden und den einer der Elf als „gesündere geistige Verfassung“ bezeichnete, griff allmählich auch auf Valeriy und seine Untergebenen über.\nUnd auch das gewaltige Gebilde im Büro für Heeresgerät, das von Tag zu Tag deutlichere Formen annahm, spornte Valeriy und jeden einzelnen Soldaten seines Bataillons immer wieder an ...\nDieser Auftrag war tatsächlich mehr als „speziell“ genug."
+      },
+      {
+        "Title": "Experimenteller Verbund-Angriffsschild",
+        "Context": "Normalerweise sollte der Befehlshaber einer Truppe weit hinten bleiben und das Kampfgeschehen aus sicherer Deckung heraus „fernsteuern“.\nDoch im Kampf gegen hinterhältige und brutale Rebellen, hochgefährliche chimärische Bestien und manche außergewöhnlich mächtigen Monster existierte die „Frontlinie“ nicht einfach als Linie auf einer Karte.\nBesonders mächtige Gegner konnten mehrere Verteidigungslinien durchbrechen, unmittelbar dem Kommandeur nach dem Leben trachten und sogar den gesamten Gefechtsstand verwüsten, um so die ganze Truppe ins Chaos zu stürzen.\nIn der Vergangenheit waren die Truppen der „Fatui“ tatsächlich mehrfach Angriffen nach Art einer „Enthauptungsoperation“ ausgesetzt gewesen. Der jüngste Vorfall hatte sich ein halbes Jahr nach Valeriys Abschluss und seinem Eintritt in den Militärdienst ereignet, während der Jagd auf den „Chimärischen Flügellöwen – Cyan Nr. 3“ und sein Gefolge.\nDamals hatten die Kameraden vom Zweiten Infanterieregiment die Durchbruchskraft der Bestie unterschätzt. Zwei Kompaniekommandeure fielen nacheinander, beinahe hundert Soldaten gerieten ins Chaos, und erst nach zwei Stunden erbitterten Kampfes gelang es ihnen, das Wesen tief in einer Schlucht vom Himmel zu holen ...\nDer Vorfall ging Valeriy besonders nahe, denn einer der gefallenen Kompaniekommandeure war ein alter Bekannter aus seiner Zeit an der Militärakademie.\nEr verstand die Vorteile einer solchen Taktik und suchte daher gezielt nach Gegenmaßnahmen. Er musste dafür sorgen, dass er nicht eines Tages selbst als abschreckendes Beispiel in den Lehrbüchern landete.\nNachdem Valeriy die Ansturmkompanie übernommen hatte, erprobte er deshalb gemeinsam mit dem Entwicklungsteam des Büros für Heeresgerät verschiedene Prototypen von Rüstungen und Schutzausrüstung ...\nEin Handwerker, dem sein Ruf längst zu Ohren gekommen war, fertigte eigens für ihn eine maßgeschneiderte Rüstung mit den charakteristischen Merkmalen des „Festungsbären“. Die unauffällige Schutzausrüstung ließ sich in Valeriys Uniform integrieren und bot ihm so jederzeit Schutz.\nAußerdem fiel Valeriys Wahl auf einen Schild, der jedes übliche Gewichtslimit sprengte und in Dicke und Form einer „schweren explosionsgeschützten Tür“ glich.\nDie mehrschichtige Panzerung dieses Schildes bestand aus Materialien von Patrouillenbootqualität. Beim Gewicht waren keinerlei Kompromisse gemacht worden: Er hielt sogar dem anhaltenden Beschuss durch Valeriys eigene Waffen aus nächster Nähe stand und war für Monster praktisch unzerstörbar.\nDoch ... war bloße Verteidigung wirklich genug?\nSchon zu Beginn seiner Militärlaufbahn hatte Valeriy die Bewaffnung der „Hagel-Kanonier“-Konfiguration meisterhaft beherrscht. Ganz seinem Pragmatismus folgend leitete er daher selbst einen weiteren Umbau und ließ im Inneren des Schildes einen Mörser installieren.\nDieses Steilfeuergeschütz, das sonst nur auf einigen wenigen Prototypen von Patrouillenbooten zum Einsatz kam, verwendete Valeriy kurzerhand wie einen überdimensionierten Schrotwerfer.\nIm echten Kampfeinsatz bewies er, dass das Entwicklungsteam mit seinem Urteil, der Umbau sei „völliger Irrsinn“, danebengelegen hatte. Mit seiner enormen Körperkraft und seiner außergewöhnlich präzisen Kontrolle lernte Valeriy, diese unkonventionelle Waffe ebenso sicher wie kompromisslos einzusetzen, und entwickelte daraus nach und nach seinen ganz eigenen Kampfstil.\nSollte es danach tatsächlich noch einen Gegner geben, der fähig genug war, sich unter größten Mühen an den Verteidigungslinien seiner Elitesoldaten vorbeizukämpfen und Valeriy unmittelbar auszuschalten ...\n„Da bricht man endlich die Tür des Gefechtsstands auf und stellt fest, dass drinnen noch eine ‚Tür‘ wartet. Und hat man auch diese ‚Tür‘ mühsam eingeschlagen, blickt man plötzlich in eine pechschwarze Kanonenmündung.“\nDas dürfte wohl eine ziemlich grausige „Überraschung“ sein."
+      },
+      {
+        "Title": "Göttliches Auge",
+        "Context": "Um ein „Held“ zu werden, braucht es nicht immer große Ambitionen. Wer für die Menschen an seiner Seite alles gibt, kann ebenso eine geeignete Bühne betreten, sofern er dafür qualifiziert ist.\nAlles Weitere hing nur noch davon ab, ob derjenige seine Chance zu nutzen wusste ...\nValeriy hatte nie geglaubt, die Bezeichnung „Held“ verdient zu haben. Doch die Welt schien ihm auf ihre eigene, nicht ganz eindeutige Weise dennoch diesen Titel zuzuerkennen.\nUrsprünglich waren Valeriys Gründe für den Eintritt ins Militär alles andere als erhaben.\nWenn Valeriy eine anständige Stellung fände und jeden Monat ein paar Mora mehr verdiente, könnten seine Eltern ihren Lebensabend etwas sorgenfreier verbringen. Und er selbst müsste nicht denselben Weg gehen wie sie.\nDas Militär schien dafür gar nicht schlecht. Er würde die Aufnahmeprüfung der Militärakademie bestehen, dort eine Weile studieren und anschließend als Offizier nach Glupov gehen.\nAus diesem schlichten und ganz praktischen Grund trainierte er gewissenhaft seinen Körper, büffelte sich durch die Theorie, bestand die Aufnahmeprüfung der Zaristischen Militärakademie und absolvierte dort ohne große Umstände seine Ausbildung ...\nNach seinem Eintritt in die Armee wollte er einfach die Befehle seiner Vorgesetzten ausführen und die jeweiligen Einsatzziele erreichen ...\nDienst ... Übungen ... Ausrücken ... siegreiche Heimkehr ...\nDen Sold bekommen und ihn nach Hause schicken.\nWas wäre so schlecht daran gewesen, wenn das Leben einfach weiter seinen geregelten Gang genommen hätte?\nDoch während der Schlacht gegen die „Skoldyryt-Rebellen“ brachten einige Erlebnisse Valeriy dazu, sich zu fragen, ob seine Sicht der Dinge nicht doch etwas zu eng gewesen war.\nZu Beginn des Rückzugs sah er vor sich die Überreste gefallener Kameraden über das verwüstete Schlachtfeld verstreut liegen. Nur wenige Stunden zuvor hatten dieselben Männer noch mit ihm im Lager gescherzt und gelacht.\nZu Beginn des Rückzugs hatte auch in den Augen mancher Soldaten Angst gelegen, zusammen mit dem instinktiven Wunsch, das eigene Leben zu retten. Wer wollte schon unter den Klingen solcher Schurken fallen und seine Familie für immer zurücklassen?\nDoch als sie sahen, dass Valeriys Zug die Linie noch halten konnte, vertrieb eine gewisse Überzeugung ihr Zögern augenblicklich. Im nächsten Moment waren sie wieder furchtlose Soldaten und scharten sich geschlossen um Valeriy ...\nUnd als Valeriy mit seinem Säbel vorstieß, den Anführer der „Skoldyryt-Rebellen“ an die Wand nagelte und Stepanyan und die anderen rettete, ließ der entfesselte Jubel sein Herz beinahe im selben Takt schlagen wie die Herzen all seiner Kameraden.\nVon da an erfüllte dieses Gefühl Valeriy immer wieder aufs Neue.\nTief in den Schluchten des Ewigeisigen Ödlands durchbrach er mit gerade einmal einem halben Zug die Blockade Tausender Monster und führte die voneinander abgeschnittenen Truppenteile wieder zusammen ...\nEr watete durch hüfthohes Eiswasser, brach sich durch treibende Eisschollen Bahn und lieferte sich immer wieder Nahkämpfe mit den darin lauernden Fanatikern, bis auch der letzte Feind der Bande seinen letzten Atemzug getan hatte ...\nUnter den entsetzlichen Schreien einer Mystischen Bestie und einem Angriffshagel, der auf sie niederprasselte, stürmte er immer wieder vor und zerschmetterte schließlich ihre grotesk verdrehten Reißzähne ...\nUnd in einem blutigen Kampf nach dem anderen legte er gemeinsam mit Kameraden, die ihm einst völlig fremd gewesen waren oder mit denen ihn sogar persönliche Spannungen verbunden hatten, Vorurteile und Angst ab und rang mit ihnen um die „Bedingungen für den Sieg“ ...\nAllmählich begann Valeriy ganz unmittelbar zu begreifen, dass es auf dieser Welt ein Gefühl gab, das über die Interessen des Einzelnen hinausging und ihn mit seinen Kameraden verband.\nKameradschaft? Die Ideale seiner Vorgesetzten? Verantwortungsgefühl?\nAuch Valeriy fand kein bestimmtes Wort, mit dem er es hätte benennen können.\nEr wusste nur eines: Er wollte nicht allein sein eigenes Zuhause beschützen, sondern auch das seiner Kameraden und die Heimat noch vieler weiterer Menschen ...\nMehr war es nicht.\nDas Göttliche Auge, das nach seiner ersten Schlacht still und unbemerkt erschienen war und das Valeriy zunächst lediglich für ein nützliches „Hilfsmittel“ gehalten hatte, erwies sich mit jedem weiteren Kampfeinsatz als immer verlässlichere Unterstützung.\nUnd heute, während jenes Projekt im Büro für Heeresgerät stetig voranschritt, begann auch sein Göttliches Auge allmählich in einem Glanz zu erstrahlen, der den seiner ersten Tage bei Weitem übertraf."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213700,
+      "Name": "Stahl und Schärpe",
+      "Description": "Valeriys Kleidung. Als Offizier muss er häufig an der Front kämpfen und das Kommando übernehmen, deshalb muss seine Kleidung besonders langlebig sein. Als Anführer des Bataillons für Spezialaufträge der ersten Grenadiergarde des Büros für Heeresgerät muss er außerdem gelegentlich bei sehr formellen Anlässen erscheinen, weshalb seine Kleidung würdevoll und angemessen sein muss. Um beiden Pflichten gerecht zu werden und sich das Umziehen sparen zu können, hat er sich diese Kleidung eigens anfertigen lassen.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113091,
+    101273,
+    112148,
+    104373,
+    113087
+  ],
+  "NameCard": {
+    "Name": "Valeriy – Dienstgrad",
+    "Description": "Ein Motiv für Namenskärtchen.\nDer ranghöchste Offizier, den man auf dem Schlachtfeld sehen kann, ist ein Major. Das ist einer der Gründe, warum Valeriy nie befördert wurde. Ein anderer Grund ist, dass er sich mit der Musik und den Trinkgelagen der feinen Gesellschaft nicht so gut auskennt.",
+    "Icon": "UI_NameCardIcon_Valeriy",
+    "PicturePrefix": "UI_NameCardPic_Valeriy"
+  }
+}

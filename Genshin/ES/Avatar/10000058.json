@@ -262,7 +262,8 @@
         "Name": "Kitsune devorapecados",
         "Description": "<color=#FFD780FF>Ataque Normal</color>\nInvoca espíritus kitsune para realizar hasta 3 ataques que infligen <color=#FFACFFFF>Daño Electro</color>.\n\n<color=#FFD780FF>Ataque Cargado</color>\nConsume una cierta cantidad de Aguante para infligir <color=#FFACFFFF>Daño Electro en el AdE</color> después de un corto tiempo de invocación.\n\n<color=#FFD780FF>Ataque Descendente</color>\nConcentra el poder del rayo y se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo <color=#FFACFFFF>Daño Electro en el AdE</color> en el momento del impacto.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 5832,
@@ -1156,5 +1157,11 @@
     "Description": "Diseño de tarjeta de presentación.\n¿Dónde se puede ver a Yae Miko en su forma de kitsune? ¿En sueños?",
     "Icon": "UI_NameCardIcon_Yae1",
     "PicturePrefix": "UI_NameCardPic_Yae1"
+  },
+  "TraceEffect": {
+    "Id": 215025,
+    "Name": "Estela: La Kitsune Taimada",
+    "Description": "La estela epopéyica de Yae Miko. “Continuamente cambiante, presagiando lo desconocido y lo predestinado... como el destino que brilla sobre mí y el mundo infinito”.",
+    "Icon": "UI_TraceEffectIcon_Yae"
   }
 }

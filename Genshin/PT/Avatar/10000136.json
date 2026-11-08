@@ -1,0 +1,1208 @@
+{
+  "Id": 10000136,
+  "PromoteId": 136,
+  "Sort": 124,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Mitya",
+  "SideIcon": "UI_AvatarIcon_Side_Mitya",
+  "Name": "Mitya",
+  "Description": "Um especialista energético, especialmente engenhoso e mestre da bela arte da \"evasão planejada\".",
+  "BeginTime": "2026-11-03T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 905.654,
+    "AttackBase": 20.482,
+    "DefenseBase": 61.6249
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13631,
+        "Proud": {
+          "Descriptions": [
+            "Dano do 1° Golpe|{param1:F1P}",
+            "Dano do 2° Golpe|{param2:F1P}",
+            "Dano do 3° Golpe|{param3:F1P}",
+            "Dano de Ataque Carregado|{param4:F1P}",
+            "Consumo de Stamina de Ataque Carregado|{param5:F1}",
+            "Dano Durante a Queda|{param6:F1P}",
+            "Dano de Queda de Baixa/Alta Altitude|{param7:F1P}/{param8:F1P}",
+            "Dano de Explosão Concentrada Alternada|{param9:F1P}",
+            "Dano de Supercondutor Estelar de Explosão Concentrada Alternada|{param10:F1P} da Proficiência Elemental"
+          ],
+          "Parameters": [
+            {
+              "Id": 1363101,
+              "Level": 1,
+              "Parameters": [
+                0.587984,
+                0.483008,
+                0.690224,
+                1.3688,
+                50,
+                0.568288,
+                1.136335,
+                1.419344,
+                1.68,
+                2.24
+              ]
+            },
+            {
+              "Id": 1363102,
+              "Level": 2,
+              "Parameters": [
+                0.632083,
+                0.519234,
+                0.741991,
+                1.47146,
+                50,
+                0.614544,
+                1.228828,
+                1.534872,
+                1.806,
+                2.408
+              ]
+            },
+            {
+              "Id": 1363103,
+              "Level": 3,
+              "Parameters": [
+                0.676182,
+                0.555459,
+                0.793758,
+                1.57412,
+                50,
+                0.6608,
+                1.32132,
+                1.6504,
+                1.932,
+                2.576
+              ]
+            },
+            {
+              "Id": 1363104,
+              "Level": 4,
+              "Parameters": [
+                0.73498,
+                0.60376,
+                0.86278,
+                1.711,
+                50,
+                0.72688,
+                1.453452,
+                1.81544,
+                2.1,
+                2.8
+              ]
+            },
+            {
+              "Id": 1363105,
+              "Level": 5,
+              "Parameters": [
+                0.779079,
+                0.639986,
+                0.914547,
+                1.81366,
+                50,
+                0.773136,
+                1.545944,
+                1.930968,
+                2.226,
+                2.968
+              ]
+            },
+            {
+              "Id": 1363106,
+              "Level": 6,
+              "Parameters": [
+                0.823178,
+                0.676211,
+                0.966314,
+                1.91632,
+                50,
+                0.826,
+                1.65165,
+                2.063,
+                2.352,
+                3.136
+              ]
+            },
+            {
+              "Id": 1363107,
+              "Level": 7,
+              "Parameters": [
+                0.881976,
+                0.724512,
+                1.035336,
+                2.0532,
+                50,
+                0.898688,
+                1.796995,
+                2.244544,
+                2.52,
+                3.36
+              ]
+            },
+            {
+              "Id": 1363108,
+              "Level": 8,
+              "Parameters": [
+                0.940774,
+                0.772813,
+                1.104358,
+                2.19008,
+                50,
+                0.971376,
+                1.94234,
+                2.426088,
+                2.688,
+                3.584
+              ]
+            },
+            {
+              "Id": 1363109,
+              "Level": 9,
+              "Parameters": [
+                0.999573,
+                0.821114,
+                1.173381,
+                2.32696,
+                50,
+                1.044064,
+                2.087686,
+                2.607632,
+                2.856,
+                3.808
+              ]
+            },
+            {
+              "Id": 1363110,
+              "Level": 10,
+              "Parameters": [
+                1.058371,
+                0.869414,
+                1.242403,
+                2.46384,
+                50,
+                1.12336,
+                2.246244,
+                2.80568,
+                3.024,
+                4.032
+              ]
+            },
+            {
+              "Id": 1363111,
+              "Level": 11,
+              "Parameters": [
+                1.11717,
+                0.917715,
+                1.311426,
+                2.60072,
+                50,
+                1.202656,
+                2.404802,
+                3.003728,
+                3.192,
+                4.256
+              ]
+            },
+            {
+              "Id": 1363112,
+              "Level": 12,
+              "Parameters": [
+                1.175968,
+                0.966016,
+                1.380448,
+                2.7376,
+                50,
+                1.281952,
+                2.563361,
+                3.201776,
+                3.36,
+                4.48
+              ]
+            },
+            {
+              "Id": 1363113,
+              "Level": 13,
+              "Parameters": [
+                1.249466,
+                1.026392,
+                1.466726,
+                2.9087,
+                50,
+                1.361248,
+                2.721919,
+                3.399824,
+                3.57,
+                4.76
+              ]
+            },
+            {
+              "Id": 1363114,
+              "Level": 14,
+              "Parameters": [
+                1.322964,
+                1.086768,
+                1.553004,
+                3.0798,
+                50,
+                1.440544,
+                2.880478,
+                3.597872,
+                3.78,
+                5.04
+              ]
+            },
+            {
+              "Id": 1363115,
+              "Level": 15,
+              "Parameters": [
+                1.396462,
+                1.147144,
+                1.639282,
+                3.2509,
+                50,
+                1.51984,
+                3.039036,
+                3.79592,
+                3.99,
+                5.32
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11361,
+        "Name": "Reação em Cadeia",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes consecutivos, causando <color=#FFACFFFF>Dano Electro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina e, após uma breve canalização, causa <color=#FFACFFFF>Dano Electro em AdE</color> numa área em frente.\nSe houver um <color=#FFD780FF>{LINK#N11360002}Núcleo Detector: Sobrecarregado{/LINK}</color> criado por Mitya ativo, e Mitya possuir pelo menos 1 de <color=#FFD780FF>{LINK#N11360001}Sinalizador Alternado{/LINK}</color>, Mitya realizará o Ataque Carregado especial <color=#FFD780FF>Explosão Concentrada Alternada</color> que não consome Stamina: causa <color=#FFACFFFF>Dano Electro em AdE</color> uma vez contra os inimigos em frente, e consome continuamente <color=#FFD780FF>Sinalizador Alternado</color> baseado no tempo que manter pressionado. Cada <color=#FFD780FF>Sinalizador Alternado</color> consumido causa <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Supercondutor Estelar uma vez numa área em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo <color=#FFACFFFF>Dano Electro em AdE</color> durante o impacto.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
+      },
+      {
+        "GroupId": 13632,
+        "Proud": {
+          "Descriptions": [
+            "Dano de Pressionar Habilidade|{param1:F1P}",
+            "Dano de Habilidade ao Manter Pressionado|{param2:F1P}",
+            "Dano de Núcleo Estável|{param3:F1P}",
+            "Dano de Núcleo Estável que Consumiu Sinalizadores Alternados|{param4:F1P} da Proficiência Elemental",
+            "Dano de Explosão do Núcleo Estável|{param5:F1P} da Proficiência Elemental por Sinalizador Alternado",
+            "Duração do Núcleo Detector|{param6:F1}s",
+            "Tempo de Recarga|{param7:F1}s"
+          ],
+          "Parameters": [
+            {
+              "Id": 1363201,
+              "Level": 1,
+              "Parameters": [
+                0.9072,
+                1.296,
+                0.72,
+                0.8,
+                0.92,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363202,
+              "Level": 2,
+              "Parameters": [
+                0.97524,
+                1.3932,
+                0.774,
+                0.86,
+                0.989,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363203,
+              "Level": 3,
+              "Parameters": [
+                1.04328,
+                1.4904,
+                0.828,
+                0.92,
+                1.058,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363204,
+              "Level": 4,
+              "Parameters": [
+                1.134,
+                1.62,
+                0.9,
+                1,
+                1.15,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363205,
+              "Level": 5,
+              "Parameters": [
+                1.20204,
+                1.7172,
+                0.954,
+                1.06,
+                1.219,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363206,
+              "Level": 6,
+              "Parameters": [
+                1.27008,
+                1.8144,
+                1.008,
+                1.12,
+                1.288,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363207,
+              "Level": 7,
+              "Parameters": [
+                1.3608,
+                1.944,
+                1.08,
+                1.2,
+                1.38,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363208,
+              "Level": 8,
+              "Parameters": [
+                1.45152,
+                2.0736,
+                1.152,
+                1.28,
+                1.472,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363209,
+              "Level": 9,
+              "Parameters": [
+                1.54224,
+                2.2032,
+                1.224,
+                1.36,
+                1.564,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363210,
+              "Level": 10,
+              "Parameters": [
+                1.63296,
+                2.3328,
+                1.296,
+                1.44,
+                1.656,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363211,
+              "Level": 11,
+              "Parameters": [
+                1.72368,
+                2.4624,
+                1.368,
+                1.52,
+                1.748,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363212,
+              "Level": 12,
+              "Parameters": [
+                1.8144,
+                2.592,
+                1.44,
+                1.6,
+                1.84,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363213,
+              "Level": 13,
+              "Parameters": [
+                1.9278,
+                2.754,
+                1.53,
+                1.7,
+                1.955,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363214,
+              "Level": 14,
+              "Parameters": [
+                2.0412,
+                2.916,
+                1.62,
+                1.8,
+                2.07,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363215,
+              "Level": 15,
+              "Parameters": [
+                2.1546,
+                3.078,
+                1.71,
+                1.9,
+                2.185,
+                25,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11362,
+        "Name": "Lógica: Detecção de Variáveis",
+        "Description": "Usando um equivalente teórico relativamente seguro, realiza um experimento teórico relativamente seguro para causar <color=#FFACFFFF>Dano Electro em AdE</color>, criando um <color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color> de formas diferentes se pressionar ou manter pressionado.\n\nAo pressionar para lançar a Habilidade Elemental novamente dentro dos 6s após lançar a Habilidade Elemental <color=#FFD780FF>Lógica: Detecção de Variáveis</color>, é possível trocar para o estado <color=#FFD780FF>Núcleo Detector</color>. É possível trocar dessa forma uma vez a cada 1.5s.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Mitya_01",
+        "CdTime": 18
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13639,
+      "Proud": {
+        "Descriptions": [
+          "Dano de Habilidade|{param1:F1P} do ATQ + {param2:F1P} da Proficiência Elemental",
+          "Geração de Sinalizadores Alternados|{param3:F1}",
+          "Tempo de Recarga|{param4:F1}s",
+          "Energia Elemental|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1363901,
+            "Level": 1,
+            "Parameters": [
+              3.336,
+              6.672,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363902,
+            "Level": 2,
+            "Parameters": [
+              3.5862,
+              7.1724,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363903,
+            "Level": 3,
+            "Parameters": [
+              3.8364,
+              7.6728,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363904,
+            "Level": 4,
+            "Parameters": [
+              4.17,
+              8.34,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363905,
+            "Level": 5,
+            "Parameters": [
+              4.4202,
+              8.8404,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363906,
+            "Level": 6,
+            "Parameters": [
+              4.6704,
+              9.3408,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363907,
+            "Level": 7,
+            "Parameters": [
+              5.004,
+              10.008,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363908,
+            "Level": 8,
+            "Parameters": [
+              5.3376,
+              10.6752,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363909,
+            "Level": 9,
+            "Parameters": [
+              5.6712,
+              11.3424,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363910,
+            "Level": 10,
+            "Parameters": [
+              6.0048,
+              12.0096,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363911,
+            "Level": 11,
+            "Parameters": [
+              6.3384,
+              12.6768,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363912,
+            "Level": 12,
+            "Parameters": [
+              6.672,
+              13.344,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363913,
+            "Level": 13,
+            "Parameters": [
+              7.089,
+              14.178,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363914,
+            "Level": 14,
+            "Parameters": [
+              7.506,
+              15.012,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363915,
+            "Level": 15,
+            "Parameters": [
+              7.923,
+              15.846,
+              3,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11364,
+      "Name": "Análise: Princípio da Alternância",
+      "Description": "Que os elementos sejam como uma explosão de inspiração! Causa <color=#FFACFFFF>Dano Electro em AdE</color> e cria 3 <color=#FFD780FF>{LINK#N11360001}Sinalizadores Alternados{/LINK}</color>.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Mitya_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 13621,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362101,
+              "Level": 1,
+              "Parameters": [
+                30
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1362101,
+        "Name": "Teste Básico de Estresse",
+        "Description": "O <color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color> criado pela Habilidade Elemental <color=#FFD780FF>Lógica: Detecção de Variáveis</color> é fortalecido. Se o <color=#FFD780FF>Núcleo Detector</color> criado for:\n· Estável: cada <color=#FFD780FF>{LINK#N11360001}Sinalizador Alternado{/LINK}</color> carregado aumenta a Proficiência Elemental de todos os membros da equipe em 30.\n· Sobrecarregado: aumenta o número de <color=#FFD780FF>Sinalizadores Alternados</color> obtidos quando todos os membros próximos da equipe desencadearem Supercondutor Estelar: obtém 1 <color=#FFD780FF>Sinalizador Alternado</color> a cada 1.5s por 6s.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_05"
+      },
+      {
+        "GroupId": 13622,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362201,
+              "Level": 1,
+              "Parameters": [
+                0.05
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1362201,
+        "Name": "Reagente Ultraexplosivo",
+        "Description": "Aumenta a duração do <color=#FFD780FF>{LINK#N11360001}Sinalizador Alternado{/LINK}</color> para 10s. Além disso, nos 15s após criar um <color=#FFD780FF>Sinalizador Alternado</color>, aumenta a Taxa CRIT de Mitya em 5%. Esse efeito pode ser acumulado até 4 vezes.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_06"
+      },
+      {
+        "GroupId": 13623,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362301,
+              "Level": 1,
+              "Parameters": [
+                0.00028,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1362301,
+        "Name": "Bênção das Estrelas: Acordo Confidencial",
+        "Description": "Quando um membro da equipe desencadear Supercondutor, causará Supercondutor Estelar. Ao causar Supercondutor Estelar, não criará <color=#FFD780FF>Prisma de Brilho Estelar</color>, mas passará a criar um <color=#FFD780FF>{LINK#N11360001}Sinalizador Alternado{/LINK}</color> próximo que Mitya pode carregar a cada 1.5s nos 3s após causar a reação de Supercondutor Estelar, e mudará a área próxima para <color=#FFD780FF>Campo da Estrela Polar</color> maior, ao ativar novamente este efeito, o tempo de duração será redefinido.\nAlém disso, aumenta o Dano Básico de Supercondutor Estelar causado por todos os personagens próximos com base na Proficiência Elemental de Mitya: cada ponto de Proficiência Elemental aumenta o Dano Básico de Supercondutor Estelar em 0.028%. É possível aumentar o Dano Básico até 14% dessa forma. Mitya entrará no estado <color=#FFD780FF>Brilho Reluzente: Supercondutor Estelar</color> quando estiver dentro do <color=#FFD780FF>Campo da Estrela Polar</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_07"
+      },
+      {
+        "GroupId": 13625,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362501,
+              "Level": 1,
+              "Parameters": [
+                0.2
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1362501,
+        "Name": "Catálise Ativa Energética",
+        "Description": "Quando houver uma construção Geo que pode ser destruída por perto, <color=#FFD780FF>{LINK#N11360002}Núcleo Detector: Estável{/LINK}</color> poderá destruí-la rapidamente.\nAlém disso, quando Mitya estiver na equipe e criar um <color=#FFD780FF>Constructo Glacial: Fonte de Calor Básica</color>, não consumirá Energia Kresnik.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1361,
+        "Name": "Observador do Ausente",
+        "Description": "Aumenta o máximo de <color=#FFD780FF>{LINK#N11360001}Sinalizadores Alternados{/LINK}</color> carregáveis para 5. Ao lançar a Habilidade Elemental <color=#FFD780FF>Lógica: Detecção de Variáveis</color>, cria um <color=#FFD780FF>Sinalizador Alternado</color> adicional.\nEnquanto existir um <color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color>, aumenta o Dano CRIT do personagem ativo em 40%.\nAlém disso, ao criar um <color=#FFD780FF>Sinalizador Alternado</color>, regenera 10 de Energia Elemental para Mitya. Esse efeito pode ser desencadeado uma vez a cada 8s.",
+        "Icon": "UI_Talent_S_Mitya_01"
+      },
+      {
+        "Id": 1362,
+        "Name": "Matéria Silenciosa Inerte",
+        "Description": "Quando houver um <color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color>, reduz a <color=#99FFFFFF>RES Cryo</color> e <color=#FFACFFFF>RES Electro</color> de todos os inimigos dentro do <color=#FFD780FF>Campo da Estrela Polar</color> em 20%.\nAlém disso, se o <color=#FFD780FF>Núcleo Detector</color> for:\n· Estável: aumenta a Proficiência Elemental de todos os personagens próximos em 123.\n· Sobrecarregado: aumenta a Proficiência Elemental do personagem ativo em 234.",
+        "Icon": "UI_Talent_S_Mitya_02"
+      },
+      {
+        "Id": 1363,
+        "Name": "Cordas e Nós de Topologia Invariável",
+        "Description": "Aumenta o nível da Habilidade Elemental{LINK#S11362}<color=#FFD780FF>Lógica: Detecção de Variáveis</color>{/LINK} em 3.\nNível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Mitya_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1364,
+        "Name": "Isótopos de Decadência",
+        "Description": "Quando houver um <color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color> criado por Mitya ativo, a cada 5 <color=#FFD780FF>{LINK#N11360001}Sinalizadores Alternados{/LINK}</color> consumidos, o <color=#FFD780FF>Núcleo Detector</color> causará 300% da Proficiência Elemental de Mitya como <color=#FFACFFFF>Dano Electro em AdE</color> que é considerado Dano de Supercondutor Estelar uma vez contra os inimigos próximos.",
+        "Icon": "UI_Talent_S_Mitya_03"
+      },
+      {
+        "Id": 1365,
+        "Name": "Lei Periódica da Ordem Universal",
+        "Description": "Aumenta o nível do Ataque Normal{LINK#S11361}<color=#FFD780FF>Reação em Cadeia</color>{/LINK} em 3.\nNível máximo de elevação é 15.",
+        "Icon": "UI_Talent_U_Mitya_02",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1366,
+        "Name": "Transição Elemental nos Portões da Razão",
+        "Description": "<color=#FFD780FF>{LINK#N11360002}Núcleo Detector{/LINK}</color> é fortalecido. Se o <color=#FFD780FF>Núcleo Detector</color> criado for:\n· Estável: aumenta o Dano original do <color=#FFD780FF>Núcleo Detector</color> em 115%.\n· Sobrecarregado: ao consumir <color=#FFD780FF>{LINK#N11360001}Sinalizadores Alternados{/LINK}</color>, possui 34% de chance de criar um novo <color=#FFD780FF>Sinalizador Alternado</color>.\nAlém disso, <color=#FFD780FF>{LINK#N11190007}Eleva{/LINK}</color> o Dano de Supercondutor Estelar de todos os membros próximos da equipe em 20%.",
+        "Icon": "UI_Talent_S_Mitya_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Regras Postas de Lado",
+    "Detail": "Um especialista energético, especialmente engenhoso e mestre da bela arte da \"evasão planejada\".",
+    "Association": 15,
+    "Native": "Comissão de Energia Real de Snezhnaya",
+    "BirthMonth": 2,
+    "BirthDay": 8,
+    "VisionBefore": "Electro",
+    "VisionOverrideLocked": "Eixo Estelar",
+    "VisionOverrideUnlocked": "Visão",
+    "ConstellationBefore": "Nodus Gordianus",
+    "CvChinese": "苏尚卿",
+    "CvJapanese": "小林裕介",
+    "CvEnglish": "Brian Ballance",
+    "CvKorean": "Choi U-seong",
+    "CookBonus": {
+      "OriginItemId": 108989,
+      "ItemId": 132052,
+      "InputList": [
+        110011,
+        100077
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Olá...",
+        "Context": "#Bom dia, amig{M#o}{F#a}! Já é de manhã? ...Ah, não importa! Enfim, venha comigo até o escritório... Pronto, sente-se aqui. Daqui a pouco alguém virá falar com você. Diga que você é Mitya, especialista da Comissão de Energia. Entendeu? Então é isso, tchau!"
+      },
+      {
+        "Title": "Bate-papo - Não Fale Mais Nada",
+        "Context": "Urg... Eu adoraria contar umas histórias engraçadas do trabalho, mas Cachecol não deixa."
+      },
+      {
+        "Title": "Bate-papo - Fã de Teatro",
+        "Context": "Você viu a peça no teatro ontem? Foi bem boa. Teria sido ainda melhor se eu conseguisse lembrar sobre o que era..."
+      },
+      {
+        "Title": "Bate-papo - Ataque Furtivo",
+        "Context": "As Corujas de Chifres não fazem barulho quando voam. Uma quase levou Cachecol certa vez... É melhor ficar de olho na Paimon também!"
+      },
+      {
+        "Title": "Quando Está Chovendo...",
+        "Context": "Por favor, não chova, por favor, não chova, por favor, não chova... Ah, qual é!"
+      },
+      {
+        "Title": "Quando Está Trovejando...",
+        "Context": "O que explodiu?! ...Ah, era só um trovão? Que pena."
+      },
+      {
+        "Title": "Quando Está Nevando...",
+        "Context": "Cuidado com a neve congelada. Chutá-la dói muito."
+      },
+      {
+        "Title": "Quando Faz Sol...",
+        "Context": "Olá, sol! Dê-me um pouco de energia."
+      },
+      {
+        "Title": "Bom dia...",
+        "Context": "Logo de manhã, e o trabalho de ontem já está me encarando."
+      },
+      {
+        "Title": "Boa Tarde...",
+        "Context": "Boa tarde. Daqui a pouco vou para o escritório, então não conte a ninguém que fui ao teatro, está bem?"
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Sentamos ao lado das pilhas altas, altas de papelada, ouvindo a luminária de mesa contar suas histórias sobre a correria."
+      },
+      {
+        "Title": "Boa noite...",
+        "Context": "Entregar a papelada tão tarde é praticamente o mesmo que entregá-la amanhã. Então, fica para amanhã! Boa noite!"
+      },
+      {
+        "Title": "Sobre Mitya - Lições",
+        "Context": "Eu costumava adorar falar da minha vida. Aí entrei para a Comissão de Energia, e os veteranos me disseram que quem não quisesse ter que atualizar o currículo às pressas era melhor ficar na sua. *Suspiro* O problema é que isso me sai da cabeça assim que abro a boca. Ainda bem que tenho o Cachecol."
+      },
+      {
+        "Title": "Sobre Mitya - Segredos Confidenciais",
+        "Context": "Depois que me tornei consultor dos Fatui, Valeriy me avisou que a pesquisa em que estou trabalhando poderia mudar o mundo. Segredo absoluto e tudo mais. Sugeri que ele dissesse a mesma coisa sobre o trabalho de todos. O melhor lugar para esconder uma árvore é numa floresta, não é? Assim, eu não precisaria ser tão cuidadoso o tempo todo. Ele disse que nunca fui cuidadoso na vida. É isso mesmo que ele pensa de mim? Fiquei magoado."
+      },
+      {
+        "Title": "Sobre Nós - Ajuda",
+        "Context": "Faça-me um favor. Mantenha o Sr. Valeriy ocupado para mim. Meio dia já basta. Fale com ele sobre qualquer coisa. Pergunte como ele está, convide-o para uma refeição... Se realmente ficar sem ideias, você sempre pode nocauteá-lo. Isso também funciona. Tenho algo muito, muito importante para fazer. Eu disse isso ontem? Ah, então essa coisa muito, muito importante ainda não foi concluída. Certo, vamos nós dois cuidar disso!"
+      },
+      {
+        "Title": "Sobre Nós - Noções Básicas de Aventura",
+        "Context": "Com todo o trabalho confidencial que faço, normalmente não tenho permissão para viajar para o exterior quando bem entendo. Nem mesmo assinar o mais extenso acordo de confidencialidade mudaria isso. Mas Cachecol provou sua lealdade à organização. Eles o convidaram a assinar um formulário que o nomeava meu tutor... Que coisa mais estranha, não? Tenho a agradecer ao Cachecol por poder sair em aventuras com você."
+      },
+      {
+        "Title": "Sobre o Eixo Estelar...",
+        "Context": "Essa coisa funciona que é uma maravilha. O único problema é que não dá para desmontá-la. Tenho certeza de que conseguiria montá-la de novo exatamente como estava, mas parece que ela não confia muito em mim..."
+      },
+      {
+        "Title": "Algo para Compartilhar...",
+        "Context": "Quer saber qual é o melhor lugar para cozinhar? O escritório. Ver algumas das mentes mais brilhantes de Snezhnaya tentando descobrir como fazer sopa usando uma centrífuga... Isso sim é incrível."
+      },
+      {
+        "Title": "Coisas Interessantes...",
+        "Context": "Já vi ou ouvi falar de pelo menos uma dúzia de tipos diferentes de seres feéricos, mas o sistema oficial ainda insiste em colocá-los em apenas seis categorias amplas. Afinal, quem foi que inventou esse sistema de classificação? Na Comissão de Energia, um trabalho malfeito desses renderia multa."
+      },
+      {
+        "Title": "Sobre Vodyanitsa...",
+        "Context": "A senhorita Vodyanitsa é incrível. Incrível mesmo. Tem uma voz linda para cantar e combina perfeitamente com o ambiente refinado do teatro. É exatamente o tipo de ambiente em que faço meu melhor trabalho."
+      },
+      {
+        "Title": "Sobre Odette...",
+        "Context": "Entre nós, a Senhorita Odette pode até parecer fria, mas é muito mais fácil lidar com ela do que com Vodyanitsa. Claro, talvez ela só não esteja nem aí para me dar uma bronca. Está vendo? O mundo precisa de mais gente generosa e compreensiva como ela. Hehe."
+      },
+      {
+        "Title": "Sobre Alyosha...",
+        "Context": "Hehe, os cachorros dele são tão bem-comportados! E dá para ver que são inteligentes. Às vezes me dá uma vontade de ensinar um pouquinho de ciência a eles... N-Não visito o Alyosha só para fazer carinho nos cachorros dele! Ele também é meu amigo, sabia?"
+      },
+      {
+        "Title": "Sobre as Palestras de Valeriy",
+        "Context": "Se estiver ocupado demais, experimente assistir à centésima palestra introdutória do Sr. Valeriy sobre gestão de tempo. Se estiver com tempo de sobra, assista mesmo assim. Afinal, ouvir as palestras dele é praticamente matar o tempo."
+      },
+      {
+        "Title": "Sobre Valeriy - Compreensão",
+        "Context": "Para ser justo, não posso culpar o senhor Valeriy por ser tão obcecado por cronogramas. Ele está cercado de gente pouco confiável. O pessoal vê um problema e não faz nada para resolvê-lo. Ficam todos parados, dizendo uns para os outros: \"Ué, que estranho... Muito estranho\", enquanto continuam levando o trabalho na direção errada. Eu, obviamente, não sou um deles. Não tenho a menor intenção de levar coisa alguma adiante."
+      },
+      {
+        "Title": "Sobre Vesna...",
+        "Context": "A senhorita Vesna é cheia de artimanhas, então é muito divertido jogar com ela. E ela também é eficiente que só vendo! Consegue terminar o trabalho de um mês inteiro nos dez primeiros dias. Sabe, vou seguir o exemplo dela. Só que vou deixar o meu para os dez últimos dias."
+      },
+      {
+        "Title": "Sobre Danica...",
+        "Context": "Pra falar a verdade, uma vez confundi a senhorita Danica com um feérico baleia. Sabe, tipo uma Baleia de Barbatana Congelada! Maneiro, né? Bom, eu estava completamente enganado, e o olhar que ela me lançou foi de arrepiar. A senhorita Vesna ficou radiante quando me ouviu dizer isso, quase caiu de tanto rir. O que acabou sendo ótimo pra mim, já que Danica virou aquele olhar fulminante para ela."
+      },
+      {
+        "Title": "Sobre Vossa Majestade, a Tsaritsa...",
+        "Context": "Sabe o que a Comissão de Energia disse quando me mandou prestar consultoria aos Fatui? \"Vossa Majestade precisa de energia. Nós precisamos de um pouco de paz e sossego. Junte as duas coisas e teremos uma nova solução energética que reduz a poluição sonora!\" Então Vossa Majestade não gosta de muito barulho! Vou manter isso em mente."
+      },
+      {
+        "Title": "Sobre Noy...",
+        "Context": "Ele é gente boa! Uma vez eu estava perambulando pela estação e quase fui pego pelo exército, mas ele me indicou um caminho pelos fundos. Cachecol também pareceu ficar bem feliz em vê-lo; nem chegou a me fazer tropeçar. ...Agora que parei para pensar, de que lado esse cachecol está, afinal? Preciso mesmo dar um jeito de controlá-lo!"
+      },
+      {
+        "Title": "Mais sobre Mitya - I",
+        "Context": "Oi, eu sou Mitya. Desculpa pelo transtorno. Não foi incômodo, é? Não esquenta. Ainda vai ser."
+      },
+      {
+        "Title": "Mais sobre Mitya - II",
+        "Context": "Vamos deixar Cachecol se apresentar também. Anda, Cachecol, diga alguma coisa... Desculpe, o Cachecol não é muito de falar. Eu mesmo faço isso. Permita-me apresentar meu querido amigo, Cachecol. Trate-o bem, por favor."
+      },
+      {
+        "Title": "Mais sobre Mitya - III",
+        "Context": "Meu cabelo é naturalmente ondulado e, quando eu era pequeno, armava que nem folhas de beterraba. Por isso, minha mãe sempre me chamava de \"Cabeça de Beterraba\". Não estou deixando escapar nenhum segredo, viu! Só estou contando antes para você não se surpreender depois. Até que é um apelido bem legal, na verdade. Você também acha, não acha?"
+      },
+      {
+        "Title": "Mais sobre Mitya - IV",
+        "Context": "Depois de dez horas trabalhando sem parar, esta Cabeça de Beterraba vai estar completamente murcha. Lembre-se de me carregar para fora e me regar. Se alguém tentar impedir, diga exatamente isso, palavra por palavra. A maioria das pessoas não vai conseguir processar o que ouviu, e essa é a nossa chance de fugir!"
+      },
+      {
+        "Title": "Mais sobre Mitya - V",
+        "Context": "Os veteranos vivem dizendo que o nosso ramo é perigoso demais, então a gente devia atualizar o testamento de vez em quando. Eu nem escrevi o meu primeiro ainda! Uma vez até peguei uma caneta e cheguei a escrever \"Queridos papai e mamãe\", mas não soou certo. Isso é carta pra casa, não testamento. O engraçado é que, quando você realmente precisa de um modelo de documento, aqueles velhos tão \"meticulosos\" de repente ficam todos calados. Quer saber? Deixa pra lá. É como o trabalho de amanhã: se eu chegar vivo até lá, eu resolvo."
+      },
+      {
+        "Title": "Passatempos de Mitya",
+        "Context": "O teatro, claro. Apreciar os clássicos. Mergulhar na, uhh... atmosfera cultural."
+      },
+      {
+        "Title": "Preocupações de Mitya",
+        "Context": "Ah... Quero controlar Cachecol e também decidir quando a inspiração surge. O ideal seria ter esse controle 24 horas por dia."
+      },
+      {
+        "Title": "Comida Favorita...",
+        "Context": "Não muito azeda, nem muito doce. Não muito apimentada, nem muito salgada. Ah, já entendi. Eu gosto é do meio-termo!"
+      },
+      {
+        "Title": "Comida que Odeia...",
+        "Context": "Meu rosto fica vermelho como um pimentão se bebo um pouquinho além da conta. Então meus colegas começaram a me usar como cobaia humana para provar bebidas. Sinceramente, as coisas que eu tenho que aguentar."
+      },
+      {
+        "Title": "Recebendo Presentes — I",
+        "Context": "Uau, isso está muito bom! Só mais uma mordida... Ei, Cachecol, para de limpar minha boca. Vou ter que lavar você de novo, então pra que se dar ao trabalho?"
+      },
+      {
+        "Title": "Recebendo Presentes — II",
+        "Context": "Uhum... Agora identifiquei por completo cada componente desta iguaria. Espere só um pouquinho enquanto a reproduzo."
+      },
+      {
+        "Title": "Recebendo Presentes — III",
+        "Context": "Isso... Cachecol vai gostar. Vamos dar isso para ele."
+      },
+      {
+        "Title": "Aniversário...",
+        "Context": "Uau, parabéns! Vamos comemorar o dia em que tudo de bom e de ruim na sua vida começou! Quer que eu prepare uma coisinha para você? Que tal eu montar um ajudante \"Cachecol\" só seu? Só não deixe que ele segure o corrimão por você no trem. Uma freada brusca, e você vai se arrepender."
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Introdução",
+        "Context": "Estou cheio de energia!"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+        "Context": "Minha mente está totalmente aberta!"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Auge",
+        "Context": "Sem interrupções!"
+      },
+      {
+        "Title": "Sentimentos sobre a Ascensão - Conclusão",
+        "Context": "Estou transbordando de ideias! Peraí, cadê meu caderno..."
+      },
+      {
+        "Title": "Habilidade Elemental - I",
+        "Context": "Agora é com você."
+      },
+      {
+        "Title": "Habilidade Elemental - II",
+        "Context": "Ativando o modo predefinido."
+      },
+      {
+        "Title": "Habilidade Elemental - III",
+        "Context": "Calma aí!"
+      },
+      {
+        "Title": "Habilidade Elemental - IV",
+        "Context": "Foi um prazer trabalhar com você."
+      },
+      {
+        "Title": "Habilidade Elemental - V",
+        "Context": "Catalisador veloz!"
+      },
+      {
+        "Title": "Habilidade Elemental - VI",
+        "Context": "Iniciando o monitoramento da reatividade!"
+      },
+      {
+        "Title": "Supremo - I",
+        "Context": "Ambiente de teste: alta tensão!"
+      },
+      {
+        "Title": "Supremo - II",
+        "Context": "As leis periódicas... decifradas."
+      },
+      {
+        "Title": "Supremo - III",
+        "Context": "Energia Elemental carregada."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - I",
+        "Context": "Vejamos... Só materiais inertes. Nada perigoso. Pode pegar."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - II",
+        "Context": "Passe para mim qualquer coisa inflamável ou explosiva. O resto pode ficar com você."
+      },
+      {
+        "Title": "Abrir Baú do Tesouro - III",
+        "Context": "Dê algo para o Cachecol segurar. Assim ele fica ocupado."
+      },
+      {
+        "Title": "Vida Baixa - I",
+        "Context": "Estou morrendo aqui! Alguém pode me ajudar?!"
+      },
+      {
+        "Title": "Vida Baixa - II",
+        "Context": "Quem disse que aqui era seguro?"
+      },
+      {
+        "Title": "Vida Baixa - III",
+        "Context": "Ei, assim não vale!"
+      },
+      {
+        "Title": "Aliado com Vida Baixa - I",
+        "Context": "Por enquanto, mude para o modo de economia de energia."
+      },
+      {
+        "Title": "Aliado com Vida Baixa - II",
+        "Context": "Tá bom, tá bom, eu faço."
+      },
+      {
+        "Title": "Derrotado - I",
+        "Context": "Senhoras e senhores... se me dão licença..."
+      },
+      {
+        "Title": "Derrotado - II",
+        "Context": "Eu já vou... e vou levar o Cachecol comigo..."
+      },
+      {
+        "Title": "Derrotado - III",
+        "Context": "Adeus... estou desligando..."
+      },
+      {
+        "Title": "Ataque Leve Sofrido - I",
+        "Context": "Hã?"
+      },
+      {
+        "Title": "Ataque Leve Sofrido - II",
+        "Context": "Como é que isso funciona?"
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - I",
+        "Context": "Pra que isso...?"
+      },
+      {
+        "Title": "Ataque Pesado Sofrido - II",
+        "Context": "Chega, chega!"
+      },
+      {
+        "Title": "Entrando na Equipe - I",
+        "Context": "Valeu pelo convite. Então... pra onde a gente vai?"
+      },
+      {
+        "Title": "Entrando na Equipe - II",
+        "Context": "Vamos ver o que está acontecendo na cidade!"
+      },
+      {
+        "Title": "Entrando na Equipe - III",
+        "Context": "Cheguei. Então, cadê essa tal crise de energia?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Informações do Personagem",
+        "Context": "Há algo que os frequentadores do teatro de Snezhnaya sabem muito bem:\nAlém daquelas \"paisagens\" conhecidas por todos que são vistas no palco, entre o público sempre há um espectador que chama a atenção.\nSeu penteado possui um estilo muito pessoal, e ele sempre carrega um caderno na mão e um cachecol inquieto enrolado no ombro. Às vezes, às suas costas, aparece de repente um oficial militar altíssimo e de expressão severa que o persegue sem descanso, obrigando-o a fugir.\nSeus gestos chamativos e engraçados são dignos de um artista performático anônimo, e sua estreita amizade com as duas representantes principais da companhia o faz parecer um colega dessas estrelas. E não é só isso: alguns até suspeitam que ele seja um escritor ou pesquisador de algum tipo, pois pessoas comuns não costumam andar sempre com um caderno na mão, imersas na escrita.\nNaturalmente, quando as pessoas ouvem esse tipo de coisa, não conseguem evitar os risos, já que os pesquisadores de que a grande Snezhnaya precisa devem ser rigorosos e solenes, e jamais tão escandalosos quanto ele.\nMas como poderiam saber que a pessoa diante deles era ninguém menos que Mitya, o talentosíssimo especialista em energia, sempre atarefado com assuntos de extrema importância, pouco apegado aos seus deveres e um grande amante da vida?\nContudo, Mitya precisa admitir que até mesmo ele frequentemente esbarra em problemas difíceis. Por que um pesquisador tão diligente tem sempre um terrível \"Lorde Obscuro\" em seu encalço, que não o deixa em paz?\nSendo assim, após apreciar uma apresentação de \"A Ave de Fogo\", Mitya escreveu o seguinte em mais uma de suas cartas de autodefesa direcionadas aos seus superiores, anexada à última página de seu relatório de pesquisa:\n\"Com a vastidão de Snezhnaya, como podemos prender alguém na jaula dos seus afazeres?\"\n\"Se a faísca da ciência é ainda mais esquiva do que o Pássaro de Fogo, como podemos esperar encontrá-la ficando sentados atrás de uma escrivaninha?\"\n\"A maçã dourada é uma criação suprema da natureza, mas como seria possível que caísse nas mãos de alguém que está perdendo a diversidade deste mundo?\"\nEm resposta, Snegiriov, o encarregado de revisar os dados e os procedimentos dos experimentos, deixou-lhe a seguinte anotação:\n\"Recebido. O conteúdo deste texto não deveria ser incluído em um relatório de pesquisa, por isso o encaminhei ao Major Valeriy. P. S.: A obra \"A Ave de Fogo\" enaltece a vitalidade e o amor. Dessas duas coisas, uma você tem de sobra e da outra você não precisa por enquanto. Sendo assim, certifique-se de compreender bem o que cita antes de usar. Se isso acontecer de novo, não vou mais arranjar ingressos para você. Saudações.\""
+      },
+      {
+        "Title": "História 1",
+        "Context": "Mitya teve uma infância feliz.\nEle teve a sorte de nascer no Oásis de Teplo, onde os extensos campos (uma verdadeira raridade em uma nação tão fria quanto Snezhnaya), as belas paisagens e a simplicidade de seu povo nutriram sem reservas essa pequena beterraba.\nEm suas lembranças, os trigais ondulantes eram pradarias douradas pelas quais ele corria; os mercadores ambulantes chegavam carregados de alimentos exóticos; os sucos e doces preparados pela Sra. Sezhna exalavam uma fragrância doce como o mel, e até mesmo o escritório de seu pai, repleto de plantas e esboços, acabou se transformando em um parque de diversões graças às \"pesquisas\" de Mitya.\nO mundo era um lugar maravilhoso, mas também rotineiro, a ponto de se tornar um pouco monótono.\n\"A vida é boa, mas seria ainda melhor se acontecesse algo novo\", desejava o pequeno Mitya, debruçando-se no parapeito da oficina do Sr. Urkin enquanto observava as engrenagens que giravam sem parar.\nE, como se alguém tivesse ouvido o seu desejo, a vida lhe trouxe uma pequena surpresa...\nCerta manhã, como de costume, o pequeno Mitya escapuliu pela porta da casa de seu vizinho Domovoy para ajudar o Sr. Urkin a colher a fruta do dia e jogá-la toda na máquina de fazer suco.\nMas, naquele dia, o Sr. Urkin o deteve.\nFoi então que Mitya percebeu que a oficina parecia silenciosa demais.\n\"Não se preocupe, hoje não é preciso recolher nada. A máquina quebrou, então descansaremos por alguns dias.\"\n\"Querido Mitya! Aqui estão os biscoitos de que você tanto gosta, venha comê-los!\", ressoava a voz da Sra. Sezhna do interior da casa.\nPassaram-se um, dois, três dias...\nO Sr. Urkin e a Sra. Sezhna continuavam tão amáveis como sempre, mas Mitya podia notar que, pouco a pouco, a inquietação e a preocupação tomavam conta do casal.\n“Quando estará consertada?”.\n“Em alguns dias, quando o mecânico vier. Assim que estiver pronta, eu te avisarei imediatamente para continuarmos colhendo frutas juntos”.\nAquela conversa se repetiu várias vezes, e Mitya percorria sem parar o caminho entre a entrada da vila e as portas da oficina.\nOs estrondos aos quais ele tanto havia se acostumado deixaram de ser ouvidos, e cada vez chegavam menos comerciantes. Mitya não viu nenhum mecânico, mas, graças aos rumores que corriam entre seus amigos, foi juntando as peças até reconstruir o que estava acontecendo.\nO casal Domovoy enfrentava um verdadeiro obstáculo: sem a fragrância da fruta, aquela pequena destilaria familiar dificilmente conseguiria atrair clientes.\nNo entanto, o pequeno Mitya ainda não compreendia por que os chefes das gangues que ansiavam monopolizar o negócio do álcool estavam impedindo que qualquer mecânico fosse até lá.\nPara ele, era apenas um pequeno problema causado por um desejo pouco apropriado, então bastava que ele o consertasse.\nMas como ele iria consertar um maquinário tão complicado sendo uma criança pequena?\nMitya ficou pensativo... Talvez os conhecimentos que seu pai lhe havia ensinado pudessem servir para alguma coisa.\nEntão, uma tempestade arrasou o quarto e transformou o escritório em uma pilha de tralhas. Enquanto isso, os pais de Mitya observavam em silêncio da porta daquele \"depósito\".\n\"Nossa pequena beterraba tem muito talento. Com certeza ele vai conseguir, não é?\".\n\"Acho difícil. Dei uma olhada na máquina e descobri que alguém enredou de propósito o eixo de rotação com fibras de beterraba, e isso dá um trabalho imenso para limpar\". O pai de Mitya fez uma pausa e depois acrescentou: \"Além disso, mesmo se ele chegasse a consertá-la, o que faríamos se aqueles contrabandistas de álcool viessem nos causar problemas?\".\n\"Mas também não podemos impedir que a beterraba brote da terra só por medo dos pássaros, não é? Além disso, se nem mesmo você consegue consertar essa máquina, quem iria acreditar que uma criança o fez?\".\n\"Haha, você tem razão. Se ele tem talento e também se interessa, vamos deixar que ele tente\".\nDesde aquele dia, Mitya teve um novo \"mentor\", e na oficina havia duas silhuetas: uma grande e uma pequena.\n...\nApós outra tentativa fracassada, seu pai começou a recolher as ferramentas espalhadas. Ao seu lado, o Sr. Urkin suspirou discretamente e não teve outra escolha a não ser resignar-se ao pior.\nNo galpão em penumbra reinava um silêncio sepulcral, até que um arquejo rouco e discordante o rompeu de repente.\nLogo em seguida, ouviu-se um estalo muito nítido e, após ele, o rangido agudo do eixo principal do Espremedor girando a toda velocidade.\nQuando os dois adultos correram até a máquina, uma fina nuvem de gélido pó branco flutuava na oficina. Mitya estava de pé junto ao equipamento em funcionamento, esfregando as mãos levemente avermelhadas pelo frio. Diante dele, a máquina que todos davam como inútil havia se libertado do emaranhado de fibras e funcionava sem problemas.\nAo ver o invólucro do refrigerante jogado no chão, seu pai compreendeu imediatamente o que havia acontecido.\nExatamente. Quando uma fibra está repleta de água, ela é incrivelmente resistente e difícil de cortar. Mas o que acontece se ela perder toda a sua umidade e ficar completamente congelada?\nChegando a esse ponto, não é preciso fazer mais nada, pois a própria força da máquina é suficiente para pulverizar as fibras por completo, quase sem esforço.\nNa teoria, parece algo muito simples, mas convertê-lo em um plano viável requer não apenas talento, como também criatividade e audácia.\nE quanto ao pequeno Mitya?\nEle não parecia estar tão eufórico como Urkin, nem tinha vontade de se exibir, como seu pai havia pensado.\nSimplesmente contemplava em silêncio aqueles mecanismos que giravam, com os lampejos do metal giratório se refletindo em seus olhos cristalinos.\nNaquele momento, seu pai não sabia que, dentro daquele pequeno peito, havia um coração jovem e palpitante que vibrava ao ritmo da energia frenética que impulsionava a maquinaria."
+      },
+      {
+        "Title": "História 2",
+        "Context": "A sabedoria é como um feixe de lenha encharcado de combustível que só precisa de uma pequena faísca para arder com veemência.\nE o Arsenal do Palácio, onde se reúnem as mentes mais brilhantes de Snezhnaya, é o armazém que guarda a munição à espera de que chegue o percutor que lhe corresponde.\nQuem detonou esse \"armazém\" não foi nenhum eminente gênio da ciência, mas sim um simples especialista que a Comissão de Energia, ansioso por recuperar a calma, se apressou em mandar para longe. Sem a intenção de fazê-lo, foi graças a ele que chegou o alvorecer de uma \"nova era\".\nDurante os primeiros meses após sua chegada a Glupov, Mitya ainda não havia se destacado em nada, e a impressão que seus colegas tinham dele se limitava, em sua maioria, a coisas como: \"é alegre e amável\", \"é fácil de lidar\", \"é muito competente\" e \"tem como companheiro um estranho cachecol\".\nSuperficial, mas normal. Nesta prisão sem luz, onde a pressão serve de cerca e os prazos, de algemas, ninguém consegue cuidar nem de si mesmo, muito menos sobra energia para se aprofundar no passado de um principiante.\nE, após mais de dez dias de horas extras ininterruptas e de alta intensidade, ao encarar a batata e o pão de centeio do refeitório, alguém finalmente não se conteve e lamentou:\n\"De novo o mesmo menu! Ah, eu queria tomar uma Okroshka do Reino da Neve. Aquela surpresa de cada colherada ter um sabor diferente... que saudade, como eu queria poder tomar um gole agora mesmo...\"\n\"Eu até sei fazer, e não faltam ingredientes aqui\", comentou um colega casualmente, \"só que o preparo é complicado demais. Vou ter que dar um jeito de conseguir um conjunto de utensílios de cozinha profissionais para preparar caldo claro. Não sei se os cozinheiros dos Fatui têm esse tipo de coisa.\"\n\"Deixa disso\", o sujeito ao lado jogou um balde de água fria, \"se a Sereda realmente tivesse utensílios de cozinha tão variados assim, não estaríamos comendo só pão de centeio e batata. Chega, chega, ainda temos dois relatórios de experimentos para entregar.\"\nBem quando todos conversavam de forma dispersa, um aroma delicioso e intenso penetrou nas narinas de todos.\nAo levantar os olhos, lá estava aquele principiante vindo da Comissão de Energia, segurando uma tigela de uma sopa quente desconhecida e a saboreando, enquanto seu parceiro \"Cachecol\" acenava com entusiasmo para todos os olhares curiosos que os cercavam.\nEra uma tigela de sopa clara e morna; embora não fosse a Okroshka do Reino da Neve que todos comentavam há pouco, nem o Borscht conhecido por todos, ainda assim enlouquecia a multidão.\nDepois de tantas perguntas insistentes, as pessoas finalmente entenderam de onde vinha aquela sopa quente — Mitya primeiro usou as funções de cozimento e mistura do reator térmico para transformar os ingredientes em líquido, e em seguida usou a centrífuga para separar a gordura e os resíduos de ossos. Depois de vários processos, o produto final diante de todos estava pronto.\nTodos ficaram atônitos. Então dava para fazer isso?\nDentro do Arsenal do Palácio, o depósito de munições chamado \"Sabedoria\" foi assim detonado.\nNaquela noite, os reatores térmicos e as centrífugas do laboratório rugiam sem parar. Pelo ar da sala não flutuava apenas o aroma tentador de sopa, mas também a criatividade dos pesquisadores — especialmente a de Mitya — reprimida havia tanto tempo.\nMas, depois da comemoração, as cobranças do setor de segurança vieram uma atrás da outra.\nDiante das acusações, Mitya, que já havia descoberto as vantagens da experiência, não só não se arrependeu como levou adiante suas tentativas de escapar de uma vida regida por regras.\nEssa forte \"onda de choque\" se espalhou a partir do Arsenal do Palácio, chegando a fazer até o \"Bobo da Corte\", Diretor dos Fatui, sentir uma leve ondulação.\n...\nMais de meio ano depois, quando Mitya, que havia causado uma série de tumultos, foi levado ao escritório, a mesa do \"Bobo da Corte\" já estava abarrotada com as cartas de contestação que ele havia protocolado.\n\"Então, Sr. Mitya, ainda não entendo: qual seria a relação entre o controle de ponto e a sopa quente?\"\nAfastando com um tapa o \"Cachecol\" que tentava tapar sua boca, Mitya respondeu, cheio de razão: \"Mestre 'Bobo da Corte', se tivéssemos um sistema de controle de ponto mais razoável, a eficiência de todos também seria maior, e tenho certeza de que é isso que o senhor deseja. Veja, graças às minhas contestações, hoje todos ficaram mais criativos e até descobriram como fazer sorvete com um compressor. Isso é prova incontestável de que o sistema de controle de ponto afeta o desempenho!\"\nO \"Bobo da Corte\" sabia, é claro, que, no caso de Mitya, um controle de ponto mais flexível talvez realmente pudesse aumentar sua eficiência. Ele tinha lido os relatórios de pesquisa de Mitya, e aqueles resultados eram prova suficiente.\nMas talento e excentricidade costumam ser proporcionais: os problemas e a destruição causados por Mitya são também várias vezes maiores que os dos outros.\nLiderar violações de normas, alterar cronogramas ao bel-prazer, faltar, despistar os Fatui para viajar por conta própria — tudo isso representa um risco considerável para o clima do ambiente de trabalho e para a segurança dos planos.\n\"Recebi sua declaração. Vou considerar com atenção.\"\nAssim que Mitya saiu do escritório, o \"Bobo da Corte\" chamou a Secretária e deu sua ordem: \"De agora em diante, contanto que eles não passem dos limites, vocês podem simplesmente ignorar esse tipo de coisinha.\"\n\"Então... Mestre, ainda precisamos mandar alguém junto para vigiar Mitya?\"\n\"Não é necessário.\"\n\"Bobo da Corte\" ponderou por um instante, então ergueu a xícara ainda fumegante na quina da mesa e soprou:\nMas, como ele mesmo declarou em seu relatório, ele precisa de \"turbulência\" para alcançar resultados melhores. Bem, podemos oferecer um pouco de ajuda — deixemos o Major Valeriy cuidar disso."
+      },
+      {
+        "Title": "História 3",
+        "Context": "\"Ei, Mitya, seus dias de diversão à vontade acabaram! Entregue sua fórmula de fuga!\"\nNos registros de Mitya, sua primeira impressão de Valeriy aparentemente foi assim.\nOs fatos provaram que, embora este relato esteja repleto de incontáveis preconceitos, a existência da fórmula de fuga é, sem dúvida, real, e ela obedece aos seguintes critérios —\nPrimeiro, a operação de fuga precisa de um fluxo intenso de pessoas para despistar os observadores; a Estação Central de Snezhnograd, sempre movimentada, seria a escolha ideal;\nEm segundo lugar, antes de fugir é preciso reunir uma grande quantidade de informações; por exemplo, ao se esconder no Restaurante Podvorye, é necessário conhecer bem o ciclo de rotação dos guardas e suas trajetórias de patrulha;\nPor fim, e o mais importante: o local de fuga idealmente deve ter uma abundância de \"cores\" e espaço privado suficiente, para que você possa ter explosões de inspiração sem ser incomodado por ninguém.\nApoiando-se nessa fórmula, Mitya sempre leva a melhor em seus embates com os outros Fatui.\nTalvez por isso, Mitya teve a coragem de soltar esta frase para Valeriy na primeira vez em que o viu: \"Primeiro você terá que me pegar\".\nComo era de se esperar, o capitão do Batalhão de Missões Especiais não deu a menor chance a Mitya. Naquele mesmo dia, ele alterou as rotas de patrulha dos guardas e iniciou uma perseguição contra ele.\nDiante daquele ataque que o pegou de surpresa, Mitya também recorreu a uma técnica que guardava para casos de extrema necessidade: antes que seus perseguidores o encurralassem, ele mudou de direção e se lançou de cabeça no agitado evento que acontecia em um dos lados da rua.\nSegundo os cálculos de Mitya, por motivos de confidencialidade, os Fatui que o perseguiam jamais recorreriam a métodos violentos diante de tanta gente. E esses poucos minutos em que seus perseguidores não ousariam agir eram o valioso tempo de que Mitya precisava para repensar sua estratégia e escapar sem problemas.\nNo entanto, ele ignorou uma variável crucial: esses encontros de rua costumam ter um propósito muito específico.\nNo centro da reunião que ele acabara de transformar em seu refúgio, havia um cartaz que passava despercebido e no qual estava escrito: \"Colóquio de admiradores das obras clássicas da Companhia Korolevskiy\".\nInfelizmente, a situação acabou tomando um rumo para um terreno que Mitya desconhecia por completo. E o pior de tudo era que ele estava tão agitado que não conseguiu passar despercebido pelo apresentador do evento, que o rotulou como um \"fã absoluto\" com muita vontade de se expressar e, entusiasmado, o convidou a subir ao palco para compartilhar algumas palavras.\nQualquer outro especialista em fugas teria escapado sem pensar duas vezes. Mas hoje, quem estava de pé diante de todos era Mitya, um jovem que nunca gostou de deixar os outros em uma situação constrangedora e que sempre estava disposto a participar de qualquer atividade. Expor-se dessa forma significava que iriam capturá-lo, mas decepcionar o público parecia ser ainda pior para ele, então, quase no instante em que seus olhares se cruzaram, Mitya começou a caminhar com total serenidade e subiu ao palco.\n...\n\"Isso é de um nível péssimo! São os mesmos clichês que já saíram nos jornais. Está claríssimo que você não viu a peça de verdade, que desperdício de oportunidade! Tome, leve este ingresso. Nesta apresentação estarão presentes as senhoritas Odette e Vodyanitsa, então se esforce e aprenda! E abra bem os olhos, quero que você preste toda a sua atenção\"!\nO supervisor Snegiriov, um grande amante das artes, teve o azar de estar presente e presenciar na primeira fila aquela entrevista catastrófica. Resignado e irritado ao mesmo tempo, ele colocou um conjunto de ingressos na mão de Mitya.\nE assim, diante de uma ordem que não podia desobedecer e sem saber muito bem como, Mitya acabou sentado em uma poltrona de veludo azul do grande salão das artes.\n\"Tudo muito bonito e muito de acordo com o ambiente elegante do teatro. Mas não entendi absolutamente nada\".\nEssa foi a primeira coisa que Mitya anotou sobre aquele experimento artístico.\nAs páginas seguintes estavam repletas de fórmulas dedutivas, diagramas e cálculos, mas nem uma única palavra relacionada às artes cênicas.\nSem dúvida, partindo das expectativas de Snegiriov, o experimento havia sido um fracasso absoluto, daqueles que se resumem a \"impossível chegar a uma conclusão válida\".\nPorém, sob a perspectiva geral do projeto do Arsenal do Palácio e do ponto de vista pessoal de Mitya, o experimento parecia um sucesso total, e poderia ser definido como \"princípios fundamentais descobertos e explicados\".\nA equipe do experimento percebeu que o teatro cumpria com perfeição os três elementos propostos pela fórmula de fuga de Mitya: um grande fluxo de pessoas; só podiam entrar aqueles que tivessem comprado um ingresso com antecedência, de modo que os Fatui não poderiam segui-lo tão facilmente; e oferecia, simultaneamente, inspiração abundante e espaço pessoal.\nComo era de se esperar, a equipe do experimento também anotou em seu caderno: \"Para chegar a uma conclusão, é necessário realizar o experimento várias vezes, pois ele só pode se sustentar se for confirmado que pode ser reproduzido novamente\".\nSendo assim, após despistar mais uma vez os guardas que o perseguiam, Mitya esgueirou-se sem problemas até um assento do teatro, dando início a uma nova rodada de experimentos.\nDesde então, o teatro conta com um espectador assíduo, tão fiel quanto peculiar.\nNa segunda vez, na terceira... e nas inúmeras ocasiões que se seguiram, não importava o que fosse encenado ou cantado no palco, nada parecia lhe causar a menor impressão.\nNo entanto, havia algo que sempre se repetia: toda vez que tomava assento no teatro, seu caderno de inspiração acabava repleto de novas anotações."
+      },
+      {
+        "Title": "História 4",
+        "Context": "Mitya é um jovem um tanto peculiar, sempre capaz de influenciar aqueles ao seu redor das formas mais diversas.\nFoi ele quem despertou na Comissão de Energia o anseio por paz e tranquilidade, e quem mostrou a Valeriy a sinceridade e a criatividade com as quais um pesquisador excepcional é capaz de evitar as rondas de inspeção.\nE, nesta ocasião, seria a soprano principal de Snezhnaya quem teria que enfrentar a conferência intitulada \"Mitya\".\nPense bem: para uma cantora renomada que conquistou incontáveis espectadores à base de puro talento, o que pode haver de mais estranho do que ver entre o público alguém que só olha para o próprio caderno de anotações em vez da peça que está sendo encenada?\nPois acontece que há, sim: é o fato de que esse mesmo espectador, embora nunca escute com atenção, compra ingressos para absolutamente todas as apresentações. Por mais que já tenham insinuado ou dito em sua cara que esse comportamento é falta de educação, ele continua comparecendo a uma apresentação após a outra, sem prestar a menor atenção. Ele sequer se lembra direito do repertório da obra e, ainda por cima, é sempre acompanhado por um oficial dos Fatui.\nAlguém sabe que tipo de pessoa ele é? Um espectador fiel e, ao mesmo tempo, um analfabeto musical sem modos!\nEvidentemente, Vodyanitsa tinha muito a dizer, mas não podia levantar muito a voz, já que a própria cantora ocultava uma identidade secreta que não lhe convinha revelar.\nA disputa silenciosa entre a soprano e aquele indivíduo descortês acabou sendo revelada pela bailarina Odette. Ela não se mostrou nem um pouco surpresa nem se sentiu ofendida, apenas disse: \"Mas por que você se importa tanto? Pelo menos o cachecol dele tem modos, então, na verdade, não estamos perdendo nenhum espectador\".\nNo entanto, como uma artista digna como ela poderia ficar de braços cruzados diante de algo assim? A senhorita Nixie (e agora detetive) tomou no mesmo instante a decisão de confiar a investigação a Alyosha, seu companheiro em Rókot e um grande especialista na arte da caçada.\n\"Às dez da manhã, a 'Coruja Chifrada Noturna' esquivou-se do olhar do 'urso', saltou o muro exterior e abandonou o 'ninho' furtivamente\".\nNos bastidores do teatro, em um canto onde ninguém prestava atenção, Alyosha contava a Vodyanitsa o que havia visto Mitya fazer naquele dia.\n\"Ele sai do Arsenal do Palácio e ainda por cima não usa a porta principal? Está claro que esse sujeito esconde algo\".\n\"Às onze em ponto, o 'Coruja Chifrada Noturna' chega a Podvorye e divide a mesa com outra pessoa para comer. Durante a refeição, ambos conversam bastante\".\nCom essa segunda anotação, Vodyanitsa ficou ainda mais convencida de que suas suspeitas não eram infundadas: \"Que pessoa normal conversaria tão animadamente com um desconhecido? É evidente que estava em uma reunião com um contato\"!\nSem esperar que Alyosha terminasse de ler, Vodyanitsa se adiantou para prever o próximo passo de Mitya: \"E depois veio à apresentação que começava às três da tarde, não é? Eu vi tudo com meus próprios olhos! Como sempre, ele estava de cabeça baixa e escrevia sem parar. Para mim, esse sujeito é um espião dos Fatui que veio expressamente para nos investigar\".\nAlyosha aproveitou para acrescentar: \"Ah, e outra coisa! Quando a apresentação acabou, Mitya foi ver o Sr. Kuzmichev, arrancou uma folha de seu caderno e entregou a ele. Embora eu estivesse longe, pude ver que estava cheia de símbolos incompreensíveis.\"\n\"O caso de Mitya é uma coisa, mas eu costumo fazer pedidos ao Sr. Kuzmichev e o conheço bem. Não acredito que o ferreiro seja o 'Cão de Caça'\".\nAlyosha disse aquilo em voz baixa e fechou a boca. Observador como era, bastou um vislumbre para notar que Vodyanitsa já estava imersa na obsessão de abater seu alvo e na satisfação de ter descoberto a verdade. Sentada sobre uma caixa de madeira e balançando as pernas, a Sereia propôs que, na próxima apresentação, Alyosha convidasse o espião dos Fatui, Mitya, aos bastidores com a desculpa de escolhê-lo como \"espectador sortudo\". Fosse o que fosse que aquele canalha estivesse tramando, Rokot se encarregaria de esmagá-lo.\nAlguns dias depois, Mitya se dirigiu aos bastidores do teatro carregando uma pesada caixa de madeira, com o rosto sério e a passos cambaleantes. O olhar de Vodyanitsa se endureceu... Com certeza ele levava algo explosivo! Ha! O velho truque das gangues feéricas. Mas será que aquele pirralho de braços e pernas esquálidos teria mesmo a coragem de detonar aquilo?\nVodyanitsa ajeitou a barra do vestido e se virou para receber seu fiel admirador. Em sua cabeça, já o havia catalogado como um informante raquítico, um analfabeto musical e um zé-ninguém mesquinho, mas ainda assim, apertou a mão dele com ambas as mãos e com toda a seriedade do mundo. Tinha ouvido dizer que ele sabia interpretar sublimemente o papel de um admirador, tanto que no último evento de rua o apresentador o convidou a subir ao palco para dizer algumas palavras.\nMitya deixou a caixa de madeira no chão e sacudiu a roupa. Dizem que quem fala primeiro perde a vantagem em uma conversa, mas essa lógica não entrava na cabeça dele. Ele simplesmente deu uma olhada nos bastidores e disse, muito contente: \"Nossa, me descobriram sem que eu dissesse nada! Dá para notar que são caçadores, que percepção aguçada\".\nDito isso, abriu a tampa da caixa sem mais cerimônias: \"Isto aqui é um 'presente' que trouxe para vocês. Tem para todos, até para o cachorrinho ali. Fiquem tranquilos, é 'seguro' e 'limpo'\".\nPela fresta, um resplendor azul intenso escapou, e Vodyanitsa arregalou os olhos. Aquele espião tão pequeno acabara de ativar a bomba sem se importar se vivia ou morria? Instintivamente, a Sereia puxou uma lufada profunda de ar, e uma afiada onda sonora quase saiu disparada de sua garganta.\nUma mão gélida surgiu de repente e tapou com força a boca de Vodyanitsa. Horrorizada, ela viu que a dançarina Odette tinha metade do corpo oculto entre as sombras.\nOs Fatui são especialistas em transformar qualquer coisa em arma, e Odette se destacava especialmente por usar as espadas e facas dos adereços de bastidores como se fossem armas de verdade.\nMas, naquele instante, as duas principais representantes da companhia de teatro permaneciam imóveis em seus lugares. Haviam desistido de fugir, ou melhor, haviam se esquecido de fazer isso. Nas pupilas de Alyosha, que se encontrava mais perto, refletia-se aquela luz azul, serena e delicada, que demorava tanto para explodir.\nCom a ajuda de seu Cachecol, Mitya tirou da caixa de madeira dois copos de gelo supremo, depois mais dois, e então mais dois.\n\"Que maravilha! Um para Alyosha e outro para mim, um para o cachorrinho e outro para o Cachecol, um para a Srta. Vodyanitsa e outro para a Srta. Odette. Também comprei mais um e pensava em dar de presente para aquele senhor que sempre me segue por toda parte. Vocês o viram, não é? Aquele sujeito tão alto que... Por que não dizem nada\"?\nNesse silêncio, Alyosha pegou um dos copos e o examinou com atenção. Os motivos gravados nele eram idênticos aos do papel que tinha visto no outro dia.\n\"O que significam estes números e estes símbolos\"?\n\"É a introdução da minha tese. Fique tranquilo, todo o conteúdo sensível está censurado\".\nAlyosha respondeu com uma confusão muito evidente: \"Uma tese? Para quê\"?\n\"Hehe, para tornar o conteúdo do copo mais... 'digerível'.\"\nApós outro breve silêncio, Mitya e seu Cachecol coçaram ao mesmo tempo aquele cabelo curto, fofo e bagunçado como folhas de alface: \"A piada é tão sem graça assim? Mas acabei de escutar de um colega...\"."
+      },
+      {
+        "Title": "História 5",
+        "Context": "#\"Queridos papai e mamãe...\".\nSobre a escrivaninha de Mitya repousava uma folha de papel. Era o começo do primeiro e único testamento que ele chegou a escrever.\nApós enfrentar a morte cara a cara, ele desenterrou aquele rascunho inacabado e o colocou perfeitamente alinhado no centro de sua escrivaninha.\nO autor queria aproveitar que a experiência da morte ainda estava fresca para deixar àqueles que viessem depois um modelo oficial rigoroso e útil.\n\"Cachecol e eu estamos muito bem, não se preocupem. Estive em muitos lugares e fiz vários amigos novos. Meus colegas e meus superiores também cuidam muito de mim\".\nA pena de Mitya percorria o papel a toda velocidade, com o mesmo entusiasmo com que acompanhava as peças no teatro.\nTudo isso confirmava a tese acadêmica que Mitya havia defendido até hoje: a de que a inspiração surge ao acumular experiências de vida.\nO enorme mostruário de experiências acumuladas ao longo do tempo fez com que ele descobrisse uma sensação de novidade até mesmo ao redigir documentos oficiais, um campo pelo qual ele havia mantido uma atitude negativa por muito tempo.\nO que teria recordado?\nAs perguntas breves e concisas do \"Lorde Obscuro\" sobre o trabalho?\nA pelagem macia do Sr. Caçador e de seus cachorrinhos inteligentes?\nAs comoventes baladas da Sereia, difíceis de compreender, mas inebriantes?\nA dança graciosa e onírica da senhorita Cisne da Neve?\nA grande epopeia de aventuras {F#da Viajante loira}{M#do Viajante loiro} e sua companheira de cabelos brancos?\nOu talvez tudo de uma vez?\nNinguém sabia.\nDo Distrito Zolnyy até o Distrito Zapolyarny, da Estação Central até o Teatro Korolevskiy, de Snezhnograd até o limite das nevascas, lá onde brilham as auroras... As pegadas de Mitya se estendiam pelas intermináveis terras geladas. As lembranças que ele podia evocar naquele instante eram mais longas que a lista de títulos de Sua Majestade, a Tsaritsa, e cobriam com suavidade cada canto de Snezhnaya.\n...\nApós preencher a folha inteira com uma prosa longa e transbordante, Mitya soltou a pena e contemplou com satisfação aquela obra magna que logo se tornaria o modelo de testamento para toda Snezhnaya. Com ela, calaria a boca de todos aqueles velhotes tão \"rigorosos\" e as gerações futuras a estudariam com admiração.\nO Cachecol de Mitya, que estava ao seu lado, aproximou-se. Hesitou por um instante e deu alguns tapinhas sobre o papel. Estava claro que, não importava por qual ângulo se olhasse, a redação daquele \"modelo de testamento\" no qual tantas esperanças haviam sido depositadas tinha um tom descontraído demais, quase como se fosse uma carta de família.\nMitya ponderou por alguns instantes. Sua mão, que estava disposta a corrigir o texto, ficou suspensa no ar e voltou a abaixar.\nHavia um paradoxo com o testamento: se alguém tivesse uma vida sem grandes sobressaltos, o documento ficaria guardado para sempre no fundo de uma gaveta. Por outro lado, se chegasse o dia em que precisasse ser usado, era provável que já não existissem nem as testemunhas, nem o notário e nem o destinatário do testamento. Chegado esse momento, Snezhnaya já não precisaria de nenhum modelo.\nDiante do Cachecol que balançava, ele abaixou a cabeça e, de uma só vez, escreveu as últimas linhas no rodapé da carta, onde ficaria a assinatura:\n\"Amo muito vocês. Visitarei vocês sem falta assim que tiver férias. A propósito, mandem lembranças a todos por mim. Atenciosamente: Mitya e Cachecol\".\nDobrou a folha, colocou-a em um envelope simples e a deixou em um canto da mesa.\nMitya acabou se esquecendo do assunto do modelo, assim como acontecia com todos os relatórios de trabalho complicados e sem sentido que precisava fazer. Mas, em seu lugar, surgiu um novo plano.\nEnrolou o Cachecol agilmente ao redor de seu casaco. Como de costume, Mitya se levantou lentamente sem deixar de observar os movimentos daqueles ao seu redor e, na ponta dos pés, começou a avançar em direção à porta do escritório.\nFora do Arsenal do Palácio, o sol ofuscava qualquer um com sua luz intensa.\nO burburinho da Estação Central nunca cessava; o salão principal do Restaurante Podvorye estava impregnado com o delicioso aroma de novos pratos; e sob a cúpula do Teatro Korolevskiy, as árias elevadas e o esvoaçar das saias continuavam se entrelaçando em um mesmo giro.\nNo mundo, havia tantas cores resplandecentes que esperavam para ser admiradas pela humanidade... Uma inspiração infinita aguardava em silêncio pelo momento de abraçar este povo que nunca deixa de crescer.\nO hoje não pertence nem à morte nem ao céu, e o futuro tampouco."
+      },
+      {
+        "Title": "Cachecol",
+        "Context": "Uma misteriosa peça de tecido que Mitya traz enrolada em seu casaco há muito tempo. À primeira vista, não se diferencia muito de um cachecol normal, mas as pessoas começaram a perceber que ela pode ter vida própria.\nMais do que dizer que \"o cachecol de Mitya não tem nome\", seria mais correto dizer que seu cachecol se chama \"Cachecol\".\nEm outras palavras, não faz o menor sentido chamá-lo de \"gola\", \"peça de lã\", \"lenço de seda\", \"fita\" ou \"pelúcia\". De fato, ele responde com um balançar orgulhoso sempre que alguém tem a descortesia de chamá-lo pelo nome errado.\nSua forma se assemelha muito a uma mão macia, plana e alongada, capaz de ajudar Mitya com uma infinidade de tarefas: penteá-lo, lavar seu rosto, alcançar documentos, carregar as sacolas de entrega de comida, etc. Tudo o que uma mão humana pode fazer, Cachecol faz melhor. Além disso, ele entende quase tudo o que as pessoas lhe dizem e tem mais ou menos a mesma inteligência de um adolescente ou jovem de Teyvat.\nQuanto à origem desse objeto misterioso, os cientistas, arqueólogos e pesquisadores não conseguem evitar pensar em Hiperbórea, o reino dourado. É verdade que tal reino desapareceu há muitíssimo tempo e que ninguém pode afirmar categoricamente que se trata da obra-prima de algum inventor de Hiperbórea, mas essa hipótese é, no mínimo, um pouco mais apresentável do que a de que o pai de Mitya tenha comprado em uma barraca de rua um cachecol animado cuja inteligência equivale à de um garoto de quinze anos. Isso sem falar que o cachecol sempre reage levemente ao nome de Hiperbórea, como se isso lhe soasse familiar de alguma forma.\nPor causa do Cachecol, Mitya desenvolveu um pequeno costume: ela sempre conhece todo tipo de novos amigos junto com ele, a quem respeita e cuida como se fosse seu melhor amigo, enquanto se empenha em aplicar todo tipo de conhecimento para desvendar esse companheiro curioso e descobrir suas origens.\nO Cachecol, por outro lado, encara tudo com bastante calma. Ele agita os dedos, aponta palavras no dicionário, escreve textos à mão... e a mensagem no fundo é sempre a mesma: \"Sabe de uma coisa? Não me importo muito com a minha família de origem\"!\n\"Você é meu amigo, e ponto final. Não acontece de, quando algo ocorre com você mesmo, você não se importar tanto, mas se acontece com um amigo, sente a necessidade de resolver o problema de qualquer forma? Pois é assim que eu vejo\", disse Mitya. \"Bom, que tipo de prendedor você quer hoje? Um de madeira ou um de metal\"?\nO Cachecol apontou para o de metal, pois considerava que seus reflexos elegantes combinavam perfeitamente com a sua cor. Mitya o lavou e o pendurou no varal, e ele se contorceu algumas vezes, como se estivesse se espreguiçando, antes de fazer um gesto para ela.\nDepois de tantos anos de amizade, Mitya entendeu perfeitamente o que o Cachecol queria dizer: \"Aqui eu estou muito bem, eu gosto desta vida. Além disso, o que importa se eu vir algo relacionado a Hiperbórea? Jamais penso em voltar para lá\".\nNa vida, o mais importante é escolher a liberdade. Com o cachecol é a mesma coisa.\nMitya fez um joinha.\nEm um momento assim, não se pode dizer aquilo de que \"os animais de estimação se parecem com seus donos\", mas sim que as pessoas que estão destinadas a se conhecerem se atraem mutuamente."
+      },
+      {
+        "Title": "Eixo Estelar",
+        "Context": "\"É inegável que, até o momento, a forma de energia mais antiga, segura, difundida e com maior valor de estudo e aplicação entre todas as que a humanidade de Teyvat explorou continua sendo a energia elemental. No entanto, a pesquisa acadêmica atual sobre como convertê-la e aplicá-la de forma eficiente continua em uma fase primária\".\nEssa foi a introdução do novo estudo que Mitya estava prestes a começar.\n\"Até o momento, o meio de sintonização do poder elemental que foi estudado com maior profundidade e amplitude, cuja interação é mais prática e cuja eficiência de conversão é a mais alta, continua dependendo das Visões e de suas variantes. Dado que esse meio apresenta inúmeros efeitos de caixa-preta, tanto em seu mecanismo de ativação (a detecção de \"ambições\") quanto em sua estrutura interna em nível microscópico, não pode ser definido, de fato, como um método estável, seguro e permanente para impulsionar o poder elemental\".\nEsta tese acadêmica condensava inúmeras conclusões pessoais de Mitya.\nTomando como exemplo o Eixo Estelar Electro de Mitya, segundo seu diário pessoal, havia dois obstáculos difíceis de superar que freavam sua pesquisa.\nEm primeiro lugar, o trabalho de mapeamento reverso de sua estrutura.\nNo arquivo experimental, os dados desta seção continuam em branco até os dias de hoje, já que, até agora, Mitya não encontrou nenhum método para abrir a casca do Eixo Estelar sem danificá-lo.\nEm segundo lugar, há a questão de reproduzir o processo de obtenção.\nEm Teyvat sempre circulou o seguinte rumor: \"Se você desejar algo com intensidade suficiente, os deuses pousarão seu olhar sobre você\".\nPara verificar esta hipótese, Mitya se ofereceu como sujeito de testes e realizou durante várias semanas um \"experimento de intensificação dos desejos subjetivos\". Através da meditação, da autossugestão e de toda uma série de métodos, fortaleceu ao máximo a demanda subjetiva de \"precisar de uma Visão para realizar um experimento de controle de variáveis\".\nNo entanto, o registro do experimento foi implacável: a hipótese não se sustentava de forma alguma. Os céus não deram a mínima resposta ao desejo sublime de um pesquisador imbuído da vontade de controlar algumas variáveis.\nComo se zombassem dos esforços do pesquisador, os deuses decidiram pousar seu olhar em um instante que não tinha absolutamente nada de especial.\nSegundo os registros, as condições ambientais do instante em que o Eixo Estelar desceu coincidiam em grande parte com as atuais. Naquela ocasião, o dono dos registros se encontrava oculto entre as sombras de um canto isolado da Estação Central. Realizava algumas observações sem um propósito definido, simplesmente destinadas a evitar o trabalho diário, enquanto tentava captar no vento gelado alguma boa ideia.\nEm outras palavras, avaliado do ponto de vista da reprodutibilidade, o chamado \"milagre divino\" procedente dos céus era, sem dúvida, a pior amostra experimental que poderia haver. Possuía aquela qualidade arrogante de ser quase impossível de reproduzir e desmontar. Só podia servir como prova do poder de um indivíduo e jamais poderá se tornar uma ferramenta de utilidade geral.\nComo especialista da Comissão de Energia, Mitya enfrentava principalmente problemas amplos e objetivos. Um milagre como o Eixo Estelar não entrava de forma alguma na categoria de enigmas que precisavam ser resolvidos com urgência. Pensou que, por enquanto, só lhe restava considerá-lo um artefato auxiliar cujos princípios eram difíceis de desvendar.\nQuem sabe? Talvez o problema possa ser resolvido no futuro.\nOs passageiros que correm ocupados pela Estação Central de Snezhnograd costumam dizer: \"Os problemas do amanhã, que o amanhã os resolva\". Se extrapolarmos isso para o contexto por trás dessa ideia, é fácil compreender que, embora a ameaça do \"inverno rigoroso\" seja real, a primeira coisa que deve ser garantida é o pão e o agasalho de cada dia.\nOs milagres só favorecem a alguns poucos escolhidos, mas o vento glacial do inverno açoita sem reservas todos os mortais.\nPode ser que os deuses tenham tempo para avaliar se os desejos de alguém são fortes o suficiente, mas para os passageiros comuns que se encolhem na neve soprando as mãos para se aquecerem, o que pedem não é nada tão grandioso: apenas uma tubulação capaz de fornecer energia Kresnik de forma estável.\nQuanto ao Eixo Estelar, ele servia para canalizar o poder elemental, então era uma boa ferramenta e valia a pena guardá-lo.\nÉ como aquela moeda de Mora que fica esquecida no fundo de um bolso: mais cedo ou mais tarde, acaba sendo útil.\nO que precisava fazer agora era muito simples: ocupar-se de alguns prazos de entrega que estavam prestes a vencer.\nMitya procurou uma página em branco e escreveu um título com fluidez:\n\"Otimização da disposição e do traçado de tubulações para um fornecimento energético eficiente\"."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213600,
+      "Name": "Salto Lógico",
+      "Description": "Vestuário de Mitya. Sob o casaco pesado, ele usa o uniforme de pesquisador feito sob medida pela Comissão de Energia Real de Snezhnaya e apenas o mínimo de equipamento de proteção exigido para os experimentos. Embora as normas proíbam sair do instituto de pesquisa vestindo o jaleco, ele claramente não dá muita importância a essa regra.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113093,
+    101274,
+    112151,
+    104367,
+    113081
+  ],
+  "NameCard": {
+    "Name": "Mitya: Cachecol",
+    "Description": "Estilo de cartão de visita.\nO amigo cachecol de Mitya tem muitas qualidades maravilhosas, além de talentos que nenhum outro cachecol tem. É mais resistente, mais quentinho, mais bonito e tem até uma mente própria. Se uma rosa fosse mais rosa do que qualquer outra rosa, então com certeza o nome dela seria Rosa. Assim, o nome do amigo cachecol de Mitya é Cachecol.",
+    "Icon": "UI_NameCardIcon_Mitya",
+    "PicturePrefix": "UI_NameCardPic_Mitya"
+  }
+}

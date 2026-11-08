@@ -297,7 +297,7 @@
   {
     "Id": 11130006,
     "Name": "Flash à sept phases",
-    "Description": "Skirk passe en mode Flash à sept phases pendant un certain temps lorsqu'elle utilise sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>. Ce mode possède les propriétés spéciales suivantes :\n· La finesse serpentine de Skirk se consomme de façon continue.\n· La portée des attaques normales et chargées et la RÉS à l'interruption de Skirk augmentent.\n· Les DGT des attaques normales, chargées et plongeantes de Skirk sont convertis en <color=#99FFFFFF>DGT Cryo</color> ne pouvant pas être enchantés.\n· Le déchainement élémentaire <color=#FFD780FF>Ravage : Ruine</color> de Skirk est remplacé par le déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color>.\n· Le sprint de Skirk permet de se déplacer sur l'eau.\nLe mode prend fin et la compétence élémentaire de Skirk entre en TdR une fois la finesse serpentine épuisée ou à la fin de la durée."
+    "Description": "Skirk passe en mode Flash à sept phases pendant un certain temps lorsqu'elle utilise sa compétence élémentaire <color=#FFD780FF>Ravage : Distorsion</color>. Ce mode possède les propriétés spéciales suivantes :\n· La finesse serpentine de Skirk se consomme de façon continue.\n· La portée des attaques normales et chargées et la RÉS à l'interruption de Skirk augmentent.\n· Les DGT des attaques normales, chargées et plongeantes de Skirk sont convertis en <color=#99FFFFFF>DGT Cryo</color> ne pouvant pas être enchantés.\n· Le déchaînement élémentaire <color=#FFD780FF>Ravage : Ruine</color> de Skirk est remplacé par le déchaînement élémentaire spécial <color=#FFD780FF>Ravage : Extinction</color>.\n· Le sprint de Skirk permet de se déplacer sur l'eau.\nLe mode prend fin et la compétence élémentaire de Skirk entre en TdR une fois la finesse serpentine épuisée ou à la fin de la durée."
   },
   {
     "Id": 11130007,
@@ -322,7 +322,7 @@
   {
     "Id": 11130011,
     "Name": "Sacrement",
-    "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude d'élévation « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée une faveur favonienne."
+    "Description": "Dahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient X cumul de sacrement à chaque fois que votre personnage déployé touche un total de 4 ennemis avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude d'élévation « La douce grâce du vent ».\n\nDahlia peut obtenir un maximum de X cumuls de sacrement pendant la durée d'une faveur favonienne."
   },
   {
     "Id": 11160001,
@@ -505,9 +505,19 @@
     "Description": "Lorsqu'une réaction d'Astroconduction est déclenchée, la zone environnante se transforme temporairement en <color=#FFD780FF>étendue polaris</color>. Dans cette étendue polaris, certains personnages passent en <color=#FFD780FF>radiance « Astroconduction »</color>, ce qui accorde des bonus à leurs capacités."
   },
   {
+    "Id": 11360001,
+    "Name": "Balise de gradient",
+    "Description": "Lorsque Mitya fait partie de l'équipe, les réactions d'Astroconduction ne créent pas de <color=#FFD780FF>prismes de lumière stellaire</color>, mais créent des <color=#FFD780FF>balises de gradient</color> d'une durée de 6 s. Mitya peut consommer les <color=#FFD780FF>balises de gradient</color> pour déclencher divers effets.\nLes <color=#FFD780FF>balises de gradient</color> suivent le personnage déployé et transforment une plus grande zone environnante en <color=#FFD780FF>étendue polaris</color> lors de leur création<color=#FFD780FF></color>. La quantité de <color=#FFD780FF>balises de gradient</color> que Mitya peut avoir en même temps est limitée, avec une limite de départ de 4. Créer une <color=#FFD780FF>balise de gradient</color> réinitialise la durée de toutes les <color=#FFD780FF>balises de gradient</color>."
+  },
+  {
+    "Id": 11360002,
+    "Name": "Noyau de détection",
+    "Description": "#Un dispositif énergétique créé en utilisant une compétence élémentaire{NON_BREAK_SPACE}: un appui simple crée un noyau <color=#FFD780FF>stable</color>, tandis qu'un appui long crée un noyau <color=#FFD780FF>surchargé</color>.\n\n<color=#FFD780FF>Noyau de détection stable</color>\n· Suit de façon continue les ennemis proches et inflige par intermittence des <color=#FFACFFFF>DGT Électro de zone</color>.\n· Lorsque Mitya a atteint la limite de <color=#FFD780FF>balises de gradient</color> qu'il peut avoir, ce dispositif consomme toute nouvelle <color=#FFD780FF>balise de gradient</color> créée pour infliger des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT d'Astroconduction.\n· À la fin de sa durée ou en créant un nouveau <color=#FFD780FF>noyau de détection</color>, toutes les <color=#FFD780FF>balises de gradient</color> sont consommées pour infliger des <color=#FFACFFFF>DGT Électro de zone</color> considérés comme des DGT d'Astroconduction selon la quantité de balises consommées.\n\n<color=#FFD780FF>Noyau de détection surchargé</color>\n· Lorsqu'un tel dispositif est présent sur le terrain alors que Mitya possède au moins 1 <color=#FFD780FF>balise de gradient</color>, Mitya peut utiliser l'attaque chargée spéciale <color=#FFD780FF>Détonation de gradient</color> qui ne consomme pas d'endurance."
+  },
+  {
     "Id": 11400001,
     "Name": "Chant principal",
-    "Description": "Lorsque votre personnage déployé de l'équipe inflige des <color=#80C0FFFF>DGT Hydro</color> ou des <color=#99FFFFFF>DGT Cryo</color> avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, il consomme 1 cumul de chant principal pour augmenter les DGT. Si un vortex errant est présent sur le terrain et pendant les 5 s suivant l'explosion d'un vortex errant, cet effet ne se déclenche que lorsque le personnage inflige des DGT de réaction d'Astrodispersion.\nChaque tranche de 1 000 PV max de Vodyanitsa au-dessus de {PARAM#P1402201|3S1} augmente les DGT de réaction d'Astrodispersion de cet effet de {PARAM#P1402201|4S1} pts et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> de {PARAM#P1402201|5S1} pts. Les DGT de réaction d'Astrodispersion peuvent être augmentés d'un maximum de {PARAM#P1402201|6S1} pts de cette manière, et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> d'un maximum de {PARAM#P1402201|7S1} pts."
+    "Description": "Lorsque votre personnage déployé de l'équipe inflige des <color=#80C0FFFF>DGT Hydro</color> ou des <color=#99FFFFFF>DGT Cryo</color> avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, il consomme 1 cumul de chant principal pour augmenter les DGT. Si un vortex errant est présent sur le terrain et pendant les 5 s suivant l'explosion d'un vortex errant, cet effet ne se déclenche que lorsque le personnage inflige des DGT de réaction d'Astrodispersion.\nChaque tranche de 1 000 PV max de Vodyanitsa au-dessus de {PARAM#P1402201|3S1:I} augmente les DGT de réaction d'Astrodispersion de cet effet de {PARAM#P1402201|4S1} pts et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> de {PARAM#P1402201|5S1} pts. Les DGT de réaction d'Astrodispersion peuvent être augmentés d'un maximum de {PARAM#P1402201|6S1:I} pts de cette manière, et les <color=#80C0FFFF>DGT Hydro</color> et <color=#99FFFFFF>DGT Cryo</color> d'un maximum de {PARAM#P1402201|7S1:I} pts."
   },
   {
     "Id": 11400002,
@@ -568,5 +578,20 @@
     "Id": 11480002,
     "Name": "Tugarin",
     "Description": "Fidèle chien de chasse et compagnon d'Alyosha, Tugarin peut être invoqué sur le terrain grâce au déchaînement élémentaire <color=#FFD780FF>Avancée du broussailleur</color>. Il se rapproche de façon intermittente d'un ennemi afin de le mordre et d'activer toute <color=#FFD780FF>marque de broussailleur</color> présente."
+  },
+  {
+    "Id": 11370001,
+    "Name": "Mortier à tir direct : Bombardement à bout portant",
+    "Description": "L'attaque chargée spéciale de Valeriy. Utiliser une attaque chargée lorsque Valeriy a au moins 40 pts d'<color=#FFD780FF>élan d'impact</color> consomme tout l'<color=#FFD780FF>élan d'impact</color> pour déclencher cette attaque chargée spéciale à la place, infligeant des <color=#FFACFFFF>DGT Électro de zone</color> vers l'avant et lui accordant 15 cumuls d'<color=#FFD780FF>ordre d'assaut</color>.\nUtiliser à nouveau cette attaque chargée spéciale actualise la quantité d'<color=#FFD780FF>ordre d'assaut</color>.\nPendant 0,8 s après avoir utilisé la compétence élémentaire <color=#FFD780FF>Défense active : Charge de bastion</color> ou le déchaînement élémentaire <color=#FFD780FF>Tir concentré : Salve éclair</color>, la prochaine attaque normale de Valeriy est convertie en attaque chargée spéciale <color=#FFD780FF>Mortier à tir direct : Bombardement à bout portant</color> s'il possède au moins 40 pts d'<color=#FFD780FF>élan d'impact</color>."
+  },
+  {
+    "Id": 11370002,
+    "Name": "Ordre d'assaut",
+    "Description": "#Valeriy obtient cet effet spécial après avoir utilisé son attaque chargée spéciale <color=#FFD780FF>Mortier à tir direct : Bombardement à bout portant</color>, l'effet augmentant différents types de <color=#FFACFFFF>DGT Électro</color> selon la <color=#FFD780FF>radiance «{NON_BREAK_SPACE}Astroconduction »</color> de Valeriy.\n· Si Valeriy est en <color=#FFD780FF>radiance «{NON_BREAK_SPACE}Astroconduction »</color> : lorsqu'un personnage déployé de l'équipe à proximité inflige des <color=#FFACFFFF>DGT Électro</color> considérés comme des DGT d'Astroconduction à un ennemi avec une attaque normale, chargée, plongeante, une compétence élémentaire ou un déchaînement élémentaire, 1 cumul d'<color=#FFD780FF>ordre d'assaut</color> est consommé pour augmenter les DGT infligés selon l'ATQ de Valeriy.\n· Si Valeriy n'est pas en <color=#FFD780FF>radiance «{NON_BREAK_SPACE}Astroconduction »</color> : lorsqu'un personnage déployé de l'équipe à proximité inflige des <color=#FFACFFFF>DGT Électro</color> à un ennemi avec une attaque normale, chargée, plongeante, une compétence élémentaire ou un déchaînement élémentaire, 1 cumul d'<color=#FFD780FF>ordre d'assaut</color> est consommé pour augmenter les DGT infligés selon l'ATQ de Valeriy.\nLorsqu'une instance de <color=#FFACFFFF>DGT Électro</color> touche plusieurs ennemis en même temps, les cumuls d'<color=#FFD780FF>ordre d'assaut</color> sont consommés selon la quantité d'ennemis touchés."
+  },
+  {
+    "Id": 11370003,
+    "Name": "Élan d'impact",
+    "Description": "#Une énergie spéciale que Valeriy utilise pour améliorer ses capacités de combat, dont la limite initiale est de 100. Lorsqu'il possède au moins 40 pts d'<color=#FFD780FF>élan d'impact</color>, il peut utiliser l'attaque chargée spéciale <color=#FFD780FF>Mortier à tir direct : Bombardement à bout portant</color>.\nValeriy peut obtenir de l'<color=#FFD780FF>élan d'impact</color> de différentes manières :\n· En utilisant sa compétence élémentaire <color=#FFD780FF>Défense active : Charge de bastion</color>.\n· Lorsqu'une attaque <color=#FFACFFFF>Électro</color> d'un personnage déployé de l'équipe à proximité touche un ennemi pendant la durée du déchaînement élémentaire <color=#FFD780FF>Tir concentré : Salve éclair</color> après avoir débloqué l'aptitude d'élévation «{NON_BREAK_SPACE}Avancer avec le barrage rampant »."
   }
 ]

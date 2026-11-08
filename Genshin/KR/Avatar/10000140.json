@@ -278,7 +278,8 @@
         "Name": "물빛 아리아",
         "Description": "<color=#FFD780FF>일반 공격</color>\n오래된 물 님프의 노래를 부르며 최대 4번 공격해 <color=#80C0FFFF>물 원소 피해</color>를 준다.\n\n<color=#FFD780FF>강공격</color>\n일정 스태미나를 소모해 전방으로 물 구슬을 투척해 <color=#80C0FFFF>물 원소 피해</color>를 준다.\n\n<color=#FFD780FF>낙하 공격</color>\n공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 <color=#80C0FFFF>물 원소 범위 피해</color>를 준다",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 14032,
@@ -540,7 +541,7 @@
         },
         "Id": 11402,
         "Name": "서곡·아침의 물결",
-        "Description": "물 님프의 원래 모습을 드러내 <color=#80C0FFFF>물 원소 범위 피해</color>를 주고, <color=#FFD780FF>아득한 노래</color> 효과를 획득한다: 지속 시간 동안, 보댜니차가 오래된 <color=#FFD780FF>봄빛 호른</color>을 소환하고, 간헐적으로 빠르게 적 1명의 근처로 이동해 공격하여 <color=#80C0FFFF>물 원소 피해</color>를 준다.\n상술한 두 종류의 공격에 명중한 적의 <color=#80C0FFFF>물 원소 내성</color>과 <color=#99FFFFFF>얼음 원소 내성</color>이 감소한다.\n또한, <color=#FFD780FF>아득한 노래</color> 효과 지속 시간 동안 현재 필드 위에 있는 파티 내 자신의 캐릭터의 경직 저항력을 증가시키고, 간헐적으로 HP를 회복시킨다. 회복량은 보댜니차의 HP 최대치에 기반한다",
+        "Description": "물 님프의 원래 모습을 드러내 <color=#80C0FFFF>물 원소 범위 피해</color>를 주고, <color=#FFD780FF>아득한 노래</color> 효과를 획득한다: 지속 시간 동안, 보댜니차가 오래된 <color=#FFD780FF>봄빛 호른</color>을 소환한다. 소환된 호른은 간헐적으로 빠르게 적 1명의 근처로 이동해 공격하여 <color=#80C0FFFF>물 원소 피해</color>를 준다.\n상술한 두 종류의 공격에 명중한 적의 <color=#80C0FFFF>물 원소 내성</color>과 <color=#99FFFFFF>얼음 원소 내성</color>이 감소한다.\n또한, <color=#FFD780FF>아득한 노래</color> 효과 지속 시간 동안 현재 필드 위에 있는 파티 내 자신의 캐릭터의 경직 저항력을 증가시키고, 간헐적으로 HP를 회복시킨다. 회복량은 보댜니차의 HP 최대치에 기반한다",
         "SpecialEnergyType": 0,
         "Icon": "Skill_S_Vodyanitsa_01",
         "CdTime": 16
@@ -817,7 +818,7 @@
       {
         "Id": 1402,
         "Name": "눈보라를 넘은 잔향",
-        "Description": "원소전투 스킬 <color=#FFD780FF>서곡·아침의 물결</color>의 <color=#FFD780FF>봄빛 호른</color>이 적 공격 시, 보댜니차가 「흑백의 화음」 효과를 획득해 파티 내 현재 필드 위 캐릭터가 주는 <color=#80C0FFFF>물 원소 피해</color>와 <color=#99FFFFFF>얼음 원소 피해</color>의 치명타 피해가 50% 증가한다, 지속 시간: 5초.\n현재 필드 위에 표류 돌풍이 존재하거나 표류 돌풍 폭발 후 5초 이내인 경우, 파티 내 현재 필드 위 캐릭터가 주는 별 확산 반응 피해의 치명타 피해가 60% 증가하는 것으로 변경된다, 지속 시간: 5초.\n또한, 원소전투 스킬 <color=#FFD780FF>서곡·아침의 물결</color>이 강화된다: <color=#FFD780FF>{LINK#S11402}아득한 노래{/LINK}</color> 효과의 지속 시간이 9초 연장된다",
+        "Description": "원소전투 스킬 <color=#FFD780FF>서곡·아침의 물결</color>의 <color=#FFD780FF>봄빛 호른</color>이 적 공격 시, 보댜니차가 「흑백의 화음」 효과를 획득해 현재 필드 위에 있는 파티 내 자신의 캐릭터가 주는 <color=#80C0FFFF>물 원소 피해</color>와 <color=#99FFFFFF>얼음 원소 피해</color>의 치명타 피해가 50% 증가한다, 지속 시간: 5초.\n현재 필드 위에 표류 돌풍이 존재하거나 표류 돌풍 폭발 후 5초 이내인 경우, 현재 필드 위에 있는 파티 내 자신의 캐릭터가 주는 별 확산 반응 피해의 치명타 피해가 60% 증가하는 것으로 변경된다, 지속 시간: 5초.\n또한, 원소전투 스킬 <color=#FFD780FF>서곡·아침의 물결</color>이 강화된다: <color=#FFD780FF>{LINK#S11402}아득한 노래{/LINK}</color> 효과의 지속 시간이 9초 연장된다",
         "Icon": "UI_Talent_S_Vodyanitsa_02"
       },
       {

@@ -276,9 +276,10 @@
         },
         "Id": 11401,
         "Name": "Ária das Águas",
-        "Description": "<color=#FFD780FF>Ataque Normal</color>\nCanta uma canção antiga das sereias, realizando até 4 ataques, infligindo <color=#80C0FFFF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para disparar uma bola d'água <color=#80C0FFFF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80C0FFFF>Dano Hydro em uma AdE</color> durante o impacto com o chão.",
+        "Description": "<color=#FFD780FF>Ataque Normal</color>\nCanta uma canção antiga das sereias, realizando até 4 ataques, infligindo <color=#80FFD7FF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para disparar uma bola d'água, infligindo <color=#80FFD7FF>Dano Hydro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80FFD7FF>Dano Hydro em uma AdE</color> durante o impacto com o chão.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 14032,
@@ -811,13 +812,13 @@
       {
         "Id": 1401,
         "Name": "Águas Esplendorosas",
-        "Description": "Sempre que Vodyanitsa aciona o efeito de cura de <color=#FFD780FF>{LINK#S11402}Canção de Outrora{/LINK}</color>, o ATQ de todos os membros da equipe próximos também é aumentado em 0,8% da Vida Máx. dela por 5s.",
+        "Description": "Sempre que Vodyanitsa aciona o efeito de cura de <color=#FFD780FF>{LINK#S11402}Canção de Outrora{/LINK}</color>, o ATQ de todos os membros da equipe próximos também é aumentado em 0.8% da Vida Máx. dela por 5s.",
         "Icon": "UI_Talent_S_Vodyanitsa_01"
       },
       {
         "Id": 1402,
         "Name": "Ecos Perfuradores da Neve",
-        "Description": "Quando atacar o inimigo com <color=#FFD780FF>Berrante da Primavera</color> da Habilidade Elemental <color=#FFD780FF>Recitativo: Alvorada Sonora</color>, Vodyanitsa obtém o efeito \"Notas da Escuridão e Claridade\", aumentando o Dano CRIT <color=#80C0FFFF>Hydro</color> e <color=#99FFFFFF>Cryo</color> em 50% para o personagem ativo por 5s.\nSe houver um Vórtice Flutuante ativo, ou se dentro dos 5s após o Vórtice Flutuante explodir, ao invés disso, aumentará o Dano CRIT de Redemoinho Estelar do personagem ativo em 60% por 5s.\nAlém disso, a Habilidade Elemental <color=#FFD780FF>Recitativo: Alvorada Sonora</color> é fortalecida: a duração do efeito <color=#FFD780FF>{LINK#S11402}Canção de Outrora{/LINK}</color> é estendida em 9s.",
+        "Description": "Quando atacar o inimigo com <color=#FFD780FF>Berrante da Primavera</color> da Habilidade Elemental <color=#FFD780FF>Recitativo: Alvorada Sonora</color>, Vodyanitsa obtém o efeito \"Notas da Escuridão e Claridade\", aumentando o Dano CRIT <color=#80C0FFFF>Hydro</color> e <color=#99FFFFFF>Cryo</color> em 50% para o personagem ativo por 5s.\nSe houver um Vórtice Flutuante em campo, ou se ainda não tiverem se passado 5s após o Vórtice Flutuante explodir, ao invés disso, aumentará o Dano CRIT de Redemoinho Estelar do personagem ativo em 60% por 5s.\nAlém disso, a Habilidade Elemental <color=#FFD780FF>Recitativo: Alvorada Sonora</color> é fortalecida: a duração do efeito <color=#FFD780FF>{LINK#S11402}Canção de Outrora{/LINK}</color> é estendida em 9s.",
         "Icon": "UI_Talent_S_Vodyanitsa_02"
       },
       {

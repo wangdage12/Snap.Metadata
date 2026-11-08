@@ -4278,6 +4278,45 @@
     ]
   },
   {
+    "Id": 2704,
+    "Name": "Nocturne enneigé",
+    "Description": "Une boisson pétillante d'exception. Des baies et du seigle sont infusés ensemble avant d'être mélangés à de l'eau gazeuse. Douce et acidulée en bouche, avec un arôme céréalier subtil, elle ne contient pas d'alcool, mais est loin d'être fade.",
+    "EffectDescription": [
+      "Augmente le taux CRIT de tous les personnages de l'équipe de <color=#3399CCFF>6 % à 12 %</color> pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108915",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 10,
+    "RankLevel": 2,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132049
+      },
+      {
+        "Count": 1,
+        "Id": 132050
+      },
+      {
+        "Count": 1,
+        "Id": 132051
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101285
+      },
+      {
+        "Count": 2,
+        "Id": 100100
+      }
+    ]
+  },
+  {
     "Id": 3001,
     "Name": "Soupe au lys calla et aux fruits de mer",
     "Description": "Une soupe avec un mélange équilibré de fruits de mer. Chaque gorgée imprègne votre palais du goût du crabe et de la menthe. Le lys calla apporte une pointe de fraîcheur.",
@@ -10554,6 +10593,146 @@
       {
         "Count": 1,
         "Id": 110006
+      }
+    ]
+  },
+  {
+    "Id": 3709,
+    "Name": "Poulet de Kitezhgrad",
+    "Description": "Un plat de poulet pané. Le poulet est aplati finement, enrobé de beurre aux herbes, pané et frit jusqu'à ce qu'il soit doré et croquant. Sous la croûte croustillante, la chair reste tendre et juteuse, et du beurre fondu et chaud s'en écoule lentement lorsqu'on l'ouvre.",
+    "EffectDescription": [
+      "Augmente les DGT physiques de tous les personnages de l'équipe de <color=#3399CCFF>20 % à 40 %</color> pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108910",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132040
+      },
+      {
+        "Count": 1,
+        "Id": 132041
+      },
+      {
+        "Count": 1,
+        "Id": 132042
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100064
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 110004
+      },
+      {
+        "Count": 1,
+        "Id": 101280
+      }
+    ]
+  },
+  {
+    "Id": 3710,
+    "Name": "Blinis au caviar",
+    "Description": "Des blinis servis avec du caviar. Chaque blini doré est garni d'une pointe de smetana et d'une cuillerée de caviar. Moelleux et légèrement crémeux, les blinis contrastent à merveille avec la saveur riche et iodée du caviar.",
+    "EffectDescription": [
+      "Augmente l'ATQ de tous les personnages de l'équipe de <color=#3399CCFF>160 à 228</color> pts pendant 300 s.",
+      "Ne s'applique qu'à vos personnages en mode multijoueur."
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108911",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132043
+      },
+      {
+        "Count": 1,
+        "Id": 132044
+      },
+      {
+        "Count": 1,
+        "Id": 132045
+      }
+    ],
+    "Input": [
+      {
+        "Count": 4,
+        "Id": 100084
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 100062
+      },
+      {
+        "Count": 1,
+        "Id": 110015
+      }
+    ]
+  },
+  {
+    "Id": 3711,
+    "Name": "Solianka",
+    "Description": "Une soupe épaisse et acidulée, légèrement relevée. Des ingrédients coupés en dés mijotent ensemble dans de l'eau claire de rivière, tandis que le poisson et les légumes marinés confèrent au bouillon son caractère unique. Sa riche couleur rouge orangé laisse présager un savoureux mélange de saveurs acidulées, épicées et salées, qui se révèlent à chaque cuillerée.",
+    "EffectDescription": [
+      "Restaure <color=#3399CCFF>70 à 100</color> pts d'endurance."
+    ],
+    "CookMethod": 2,
+    "FoodType": 3,
+    "Icon": "UI_ItemIcon_108914",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132046
+      },
+      {
+        "Count": 1,
+        "Id": 132047
+      },
+      {
+        "Count": 1,
+        "Id": 132048
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100084
+      },
+      {
+        "Count": 3,
+        "Id": 100018
+      },
+      {
+        "Count": 2,
+        "Id": 100011
+      },
+      {
+        "Count": 2,
+        "Id": 110015
       }
     ]
   },

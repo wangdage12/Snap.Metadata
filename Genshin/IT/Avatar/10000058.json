@@ -260,9 +260,10 @@
         },
         "Id": 10581,
         "Name": "Volpe espiatoria",
-        "Description": "<color=#FFD780FF>Attacco normale</color>\nEvoca degli spiriti di kitsune, dando inizio a un massimo di 3 attacchi che infliggono <color=#FFACFFFF>DAN da Electro</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#FFACFFFF>DAN da Electro ad area</color> dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nSi tuffa verso il terreno da mezz'aria, infliggendo danni a tutti gli avversari sul suo percorso con impetuosa potenza. Infligge <color=#FFACFFFF>DAN da Electro ad area</color> all'impatto col terreno.",
+        "Description": "<color=#FFD780FF>Attacco normale</color>\nEvoca degli spiriti di kitsune, dando inizio a un massimo di 3 attacchi che infliggono <color=#FFACFFFF>DAN da Electro</color>.\n\n<color=#FFD780FF>Attacco caricato</color>\nConsuma una determinata quantità di vigore per infliggere <color=#FFACFFFF>DAN da Electro ad area</color> dopo un breve periodo di lancio.\n\n<color=#FFD780FF>Attacco in picchiata</color>\nSi tuffa verso il terreno da mezz'aria, infliggendo danni a tutti gli avversari sul suo percorso con impetuosa potenza. Infligge <color=#FFACFFFF>DAN da Electro ad area</color> all'impatto col suolo.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 5832,
@@ -1156,5 +1157,11 @@
     "Description": "Stile per la carta giocatore.\nDove si può trovare Yae Miko nella sua forma di volpe? Nei tuoi sogni, ecco dove.",
     "Icon": "UI_NameCardIcon_Yae1",
     "PicturePrefix": "UI_NameCardPic_Yae1"
+  },
+  "TraceEffect": {
+    "Id": 215025,
+    "Name": "Eco: Divertimento astuto",
+    "Description": "L'Eco immaginario di Yae Miko. \"Ella ha una miriade di forme che rivelano l'ignoto e l'invisibile... proprio come il destino risplende su di me e sul mondo senza fine.\"",
+    "Icon": "UI_TraceEffectIcon_Yae"
   }
 }

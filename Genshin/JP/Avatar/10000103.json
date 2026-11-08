@@ -341,7 +341,8 @@
         "Name": "エエカトル・ロアー",
         "Description": "<color=#FFD780FF>通常攻撃</color>\n最大3段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に蹴りを繰り出す。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。シロネンの防御力を基に、経路上の敵を攻撃し、落下時に範囲ダメージを与える。\n\n<color=#FFD780FF>夜魂の加護状態・ブレードハント</color>\n夜魂の加護状態にある時、シロネンは「ブレードハント」モードに切り替わる。モード継続期間中、シロネンの通常攻撃はローラーブレードによる最大4段の連続蹴りに変わる。ただし、重撃はできなくなる。\nモード継続期間中、通常攻撃や落下攻撃のダメージは、元素付与によって他の元素に変化せず、またシロネンの防御力を基にした夜魂性質の<color=#FFE699FF>岩元素ダメージ</color>へと変わる。",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_01"
+        "Icon": "Skill_A_01",
+        "CdTime": 0
       },
       {
         "GroupId": 10332,
@@ -1248,5 +1249,11 @@
     "Description": "名刺の飾り紋。\nシロネンの鍛造の律動が、山々に木霊する。最後の木霊が消えかける頃には、彼女はとうに仕事を止め、午後の日光を探し当てて昼寝をしているだろう。",
     "Icon": "UI_NameCardIcon_Xilonen",
     "PicturePrefix": "UI_NameCardPic_Xilonen"
+  },
+  "TraceEffect": {
+    "Id": 215024,
+    "Name": "軌跡・魂を鋳る烈火",
+    "Description": "シロネンの空想の軌跡。「音楽は世界を震わせ波紋を生み、人々は大地を歩んで旅の足跡を残す。」",
+    "Icon": "UI_TraceEffectIcon_Xilonen"
   }
 }

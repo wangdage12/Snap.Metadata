@@ -1,0 +1,1208 @@
+{
+  "Id": 10000136,
+  "PromoteId": 136,
+  "Sort": 124,
+  "Body": 1,
+  "Icon": "UI_AvatarIcon_Mitya",
+  "SideIcon": "UI_AvatarIcon_Side_Mitya",
+  "Name": "Mitya",
+  "Description": "Seorang pakar spesialis energi yang jenius dan ahli dalam \"menghindari jadwal\".",
+  "BeginTime": "2026-11-03T00:00:00+08:00",
+  "Quality": 5,
+  "Weapon": 10,
+  "BaseValue": {
+    "HpBase": 905.654,
+    "AttackBase": 20.482,
+    "DefenseBase": 61.6249
+  },
+  "GrowCurves": [
+    {
+      "Type": 1,
+      "Value": 21
+    },
+    {
+      "Type": 4,
+      "Value": 31
+    },
+    {
+      "Type": 7,
+      "Value": 21
+    }
+  ],
+  "SkillDepot": {
+    "Arkhe": 0,
+    "Skills": [
+      {
+        "GroupId": 13631,
+        "Proud": {
+          "Descriptions": [
+            "DMG Tahap 1|{param1:F1P}",
+            "DMG Tahap 2|{param2:F1P}",
+            "DMG Tahap 3|{param3:F1P}",
+            "DMG Charged Attack|{param4:F1P}",
+            "Konsumsi Stamina Charged Attack|{param5:F1}",
+            "DMG Selama Plunging|{param6:F1P}",
+            "DMG Plunging Attack Rendah/Tinggi|{param7:F1P}/{param8:F1P}",
+            "DMG Gradient Detonation|{param9:F1P}",
+            "DMG Stellar-Conduct Gradient Detonation|{param10:F1P} Elemental Mastery"
+          ],
+          "Parameters": [
+            {
+              "Id": 1363101,
+              "Level": 1,
+              "Parameters": [
+                0.587984,
+                0.483008,
+                0.690224,
+                1.3688,
+                50,
+                0.568288,
+                1.136335,
+                1.419344,
+                1.68,
+                2.24
+              ]
+            },
+            {
+              "Id": 1363102,
+              "Level": 2,
+              "Parameters": [
+                0.632083,
+                0.519234,
+                0.741991,
+                1.47146,
+                50,
+                0.614544,
+                1.228828,
+                1.534872,
+                1.806,
+                2.408
+              ]
+            },
+            {
+              "Id": 1363103,
+              "Level": 3,
+              "Parameters": [
+                0.676182,
+                0.555459,
+                0.793758,
+                1.57412,
+                50,
+                0.6608,
+                1.32132,
+                1.6504,
+                1.932,
+                2.576
+              ]
+            },
+            {
+              "Id": 1363104,
+              "Level": 4,
+              "Parameters": [
+                0.73498,
+                0.60376,
+                0.86278,
+                1.711,
+                50,
+                0.72688,
+                1.453452,
+                1.81544,
+                2.1,
+                2.8
+              ]
+            },
+            {
+              "Id": 1363105,
+              "Level": 5,
+              "Parameters": [
+                0.779079,
+                0.639986,
+                0.914547,
+                1.81366,
+                50,
+                0.773136,
+                1.545944,
+                1.930968,
+                2.226,
+                2.968
+              ]
+            },
+            {
+              "Id": 1363106,
+              "Level": 6,
+              "Parameters": [
+                0.823178,
+                0.676211,
+                0.966314,
+                1.91632,
+                50,
+                0.826,
+                1.65165,
+                2.063,
+                2.352,
+                3.136
+              ]
+            },
+            {
+              "Id": 1363107,
+              "Level": 7,
+              "Parameters": [
+                0.881976,
+                0.724512,
+                1.035336,
+                2.0532,
+                50,
+                0.898688,
+                1.796995,
+                2.244544,
+                2.52,
+                3.36
+              ]
+            },
+            {
+              "Id": 1363108,
+              "Level": 8,
+              "Parameters": [
+                0.940774,
+                0.772813,
+                1.104358,
+                2.19008,
+                50,
+                0.971376,
+                1.94234,
+                2.426088,
+                2.688,
+                3.584
+              ]
+            },
+            {
+              "Id": 1363109,
+              "Level": 9,
+              "Parameters": [
+                0.999573,
+                0.821114,
+                1.173381,
+                2.32696,
+                50,
+                1.044064,
+                2.087686,
+                2.607632,
+                2.856,
+                3.808
+              ]
+            },
+            {
+              "Id": 1363110,
+              "Level": 10,
+              "Parameters": [
+                1.058371,
+                0.869414,
+                1.242403,
+                2.46384,
+                50,
+                1.12336,
+                2.246244,
+                2.80568,
+                3.024,
+                4.032
+              ]
+            },
+            {
+              "Id": 1363111,
+              "Level": 11,
+              "Parameters": [
+                1.11717,
+                0.917715,
+                1.311426,
+                2.60072,
+                50,
+                1.202656,
+                2.404802,
+                3.003728,
+                3.192,
+                4.256
+              ]
+            },
+            {
+              "Id": 1363112,
+              "Level": 12,
+              "Parameters": [
+                1.175968,
+                0.966016,
+                1.380448,
+                2.7376,
+                50,
+                1.281952,
+                2.563361,
+                3.201776,
+                3.36,
+                4.48
+              ]
+            },
+            {
+              "Id": 1363113,
+              "Level": 13,
+              "Parameters": [
+                1.249466,
+                1.026392,
+                1.466726,
+                2.9087,
+                50,
+                1.361248,
+                2.721919,
+                3.399824,
+                3.57,
+                4.76
+              ]
+            },
+            {
+              "Id": 1363114,
+              "Level": 14,
+              "Parameters": [
+                1.322964,
+                1.086768,
+                1.553004,
+                3.0798,
+                50,
+                1.440544,
+                2.880478,
+                3.597872,
+                3.78,
+                5.04
+              ]
+            },
+            {
+              "Id": 1363115,
+              "Level": 15,
+              "Parameters": [
+                1.396462,
+                1.147144,
+                1.639282,
+                3.2509,
+                50,
+                1.51984,
+                3.039036,
+                3.79592,
+                3.99,
+                5.32
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11361,
+        "Name": "Chain Reaction",
+        "Description": "<color=#FFD780FF>Normal Attack</color>\nMelancarkan hingga 3 serangan beruntun yang mengakibatkan <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nMengonsumsi sejumlah Stamina dan mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> ke area di depan setelah jeda singkat.\nJika saat ini terdapat <color=#FFD780FF>{LINK#N11360002}Detection Core: Overloaded{/LINK}</color> yang dihasilkan Mitya sendiri di medan pertempuran dan Mitya memiliki setidaknya satu <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color>, maka akan melancarkan Charged Attack spesial <color=#FFD780FF>Gradient Detonation</color> yang tidak mengonsumsi Stamina: mengakibatkan satu kali <color=#FFACFFFF>Electro DMG Area</color> ke area di depan dan akan terus mengonsumsi <color=#FFD780FF>Gradient Beacon</color> saat tombol ditahan. Setiap satu <color=#FFD780FF>Gradient Beacon</color> yang dikonsumsi akan mengakibatkan satu kali <color=#FFACFFFF>Electro DMG Area</color> ke area di depan yang dianggap sebagai DMG reaksi Stellar-Conduct.\n\n<color=#FFD780FF>Plunging Attack</color>\nMenerjang ke tanah dari udara, menyerang musuh di jalur terjangan, dan mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> saat mendarat.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
+      },
+      {
+        "GroupId": 13632,
+        "Proud": {
+          "Descriptions": [
+            "DMG Skill (Mode Tekan)|{param1:F1P}",
+            "DMG Skill (Mode Tahan)|{param2:F1P}",
+            "DMG Core dalam Steady State|{param3:F1P}",
+            "DMG Core dalam Steady State saat Mengonsumsi Gradient Beacon|{param4:F1P} Elemental Mastery",
+            "DMG Ledakan Core dalam Steady State|{param5:F1P} Elemental Mastery per Gradient Beacon",
+            "Durasi Detection Core|{param6:F1} dtk",
+            "Cooldown|{param7:F1} dtk"
+          ],
+          "Parameters": [
+            {
+              "Id": 1363201,
+              "Level": 1,
+              "Parameters": [
+                0.9072,
+                1.296,
+                0.72,
+                0.8,
+                0.92,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363202,
+              "Level": 2,
+              "Parameters": [
+                0.97524,
+                1.3932,
+                0.774,
+                0.86,
+                0.989,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363203,
+              "Level": 3,
+              "Parameters": [
+                1.04328,
+                1.4904,
+                0.828,
+                0.92,
+                1.058,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363204,
+              "Level": 4,
+              "Parameters": [
+                1.134,
+                1.62,
+                0.9,
+                1,
+                1.15,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363205,
+              "Level": 5,
+              "Parameters": [
+                1.20204,
+                1.7172,
+                0.954,
+                1.06,
+                1.219,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363206,
+              "Level": 6,
+              "Parameters": [
+                1.27008,
+                1.8144,
+                1.008,
+                1.12,
+                1.288,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363207,
+              "Level": 7,
+              "Parameters": [
+                1.3608,
+                1.944,
+                1.08,
+                1.2,
+                1.38,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363208,
+              "Level": 8,
+              "Parameters": [
+                1.45152,
+                2.0736,
+                1.152,
+                1.28,
+                1.472,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363209,
+              "Level": 9,
+              "Parameters": [
+                1.54224,
+                2.2032,
+                1.224,
+                1.36,
+                1.564,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363210,
+              "Level": 10,
+              "Parameters": [
+                1.63296,
+                2.3328,
+                1.296,
+                1.44,
+                1.656,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363211,
+              "Level": 11,
+              "Parameters": [
+                1.72368,
+                2.4624,
+                1.368,
+                1.52,
+                1.748,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363212,
+              "Level": 12,
+              "Parameters": [
+                1.8144,
+                2.592,
+                1.44,
+                1.6,
+                1.84,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363213,
+              "Level": 13,
+              "Parameters": [
+                1.9278,
+                2.754,
+                1.53,
+                1.7,
+                1.955,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363214,
+              "Level": 14,
+              "Parameters": [
+                2.0412,
+                2.916,
+                1.62,
+                1.8,
+                2.07,
+                25,
+                18
+              ]
+            },
+            {
+              "Id": 1363215,
+              "Level": 15,
+              "Parameters": [
+                2.1546,
+                3.078,
+                1.71,
+                1.9,
+                2.185,
+                25,
+                18
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 11362,
+        "Name": "Principle: Variable Detection",
+        "Description": "Dengan daya ledak yang secara teori relatif aman, Mitya melakukan eksperimen dalam skala yang juga secara teori relatif aman. Mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> dan menciptakan <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> dengan cara yang berbeda berdasarkan Mode Tekan atau Tahan.\n\nMenekan Elemental Skill sekali lagi dalam kurun waktu 6 detik setelah melancarkan Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color> akan mengganti status <color=#FFD780FF>Detection Core</color>. Status Detection Core hanya dapat diganti dengan cara ini sekali setiap 1,5 detik.",
+        "SpecialEnergyType": 0,
+        "Icon": "Skill_S_Mitya_01",
+        "CdTime": 18
+      }
+    ],
+    "EnergySkill": {
+      "GroupId": 13639,
+      "Proud": {
+        "Descriptions": [
+          "DMG Skill|{param1:F1P} ATK + {param2:F1P} Elemental Mastery",
+          "Gradient Beacon Diciptakan|{param3:F1} buah",
+          "Cooldown|{param4:F1} dtk",
+          "Konsumsi Energy|{param5:I}"
+        ],
+        "Parameters": [
+          {
+            "Id": 1363901,
+            "Level": 1,
+            "Parameters": [
+              3.336,
+              6.672,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363902,
+            "Level": 2,
+            "Parameters": [
+              3.5862,
+              7.1724,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363903,
+            "Level": 3,
+            "Parameters": [
+              3.8364,
+              7.6728,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363904,
+            "Level": 4,
+            "Parameters": [
+              4.17,
+              8.34,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363905,
+            "Level": 5,
+            "Parameters": [
+              4.4202,
+              8.8404,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363906,
+            "Level": 6,
+            "Parameters": [
+              4.6704,
+              9.3408,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363907,
+            "Level": 7,
+            "Parameters": [
+              5.004,
+              10.008,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363908,
+            "Level": 8,
+            "Parameters": [
+              5.3376,
+              10.6752,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363909,
+            "Level": 9,
+            "Parameters": [
+              5.6712,
+              11.3424,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363910,
+            "Level": 10,
+            "Parameters": [
+              6.0048,
+              12.0096,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363911,
+            "Level": 11,
+            "Parameters": [
+              6.3384,
+              12.6768,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363912,
+            "Level": 12,
+            "Parameters": [
+              6.672,
+              13.344,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363913,
+            "Level": 13,
+            "Parameters": [
+              7.089,
+              14.178,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363914,
+            "Level": 14,
+            "Parameters": [
+              7.506,
+              15.012,
+              3,
+              15,
+              60
+            ]
+          },
+          {
+            "Id": 1363915,
+            "Level": 15,
+            "Parameters": [
+              7.923,
+              15.846,
+              3,
+              15,
+              60
+            ]
+          }
+        ],
+        "Display": 0
+      },
+      "Id": 11364,
+      "Name": "Analysis: Gradient Theory",
+      "Description": "Biarkan elemen meledak-ledak bagaikan inspirasi! Mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> dan menciptakan 3 <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color>.",
+      "SpecialEnergyType": 0,
+      "Icon": "Skill_E_Mitya_01",
+      "CdTime": 15
+    },
+    "Inherents": [
+      {
+        "GroupId": 13621,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362101,
+              "Level": 1,
+              "Parameters": [
+                30
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1362101,
+        "Name": "Baseline Stress Test",
+        "Description": "<color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> yang diciptakan dari Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color> akan diperkuat. Jika <color=#FFD780FF>Detection Core</color> yang diciptakan berada dalam kondisi:\n·Steady State: Untuk setiap satu <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> yang dibawa, Elemental Mastery seluruh Karakter party terdekat meningkat 30 poin.\n·Overloaded State: Setelah seluruh Karakter party di sekitar memicu reaksi Stellar-Conduct, maka jumlah <color=#FFD780FF>Gradient Beacon</color> yang diperoleh akan meningkat: mendapatkan satu <color=#FFD780FF>Gradient Beacon</color> setiap 1,5 detik selama 6 detik.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_05"
+      },
+      {
+        "GroupId": 13622,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362201,
+              "Level": 1,
+              "Parameters": [
+                0.05
+              ]
+            }
+          ],
+          "Display": 1
+        },
+        "Id": 1362201,
+        "Name": "Explosive Reagent: Safe Limits Exceeded",
+        "Description": "Durasi <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> bertambah menjadi 10 detik. Selain itu, CRIT Rate Mitya meningkat 5% selama 15 detik setelah menciptakan <color=#FFD780FF>Gradient Beacon</color>. Efek ini dapat ditumpuk sampai 4 lapis.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_06"
+      },
+      {
+        "GroupId": 13623,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362301,
+              "Level": 1,
+              "Parameters": [
+                0.00028,
+                0.14
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1362301,
+        "Name": "Stellar Jubilee: Top-Secret Protocol",
+        "Description": "Saat Karakter dalam party memicu reaksi Superconduct, reaksi ini akan berubah menjadi reaksi Stellar-Conduct. Saat memicu reaksi Stellar-Conduct, reaksi ini tidak akan menciptakan <color=#FFD780FF>Starlight Prism</color>, melainkan: Setelah memicu reaksi Stellar-Conduct, akan tercipta satu <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> di sekitar setiap 1,5 detik selama 3 detik. Gradient Beacon ini dapat dibawa oleh Mitya dan mengubah area di sekitarnya menjadi <color=#FFD780FF>Polestar Field</color> yang lebih luas. Memicu reaksi Stellar-Conduct lagi akan memperbarui durasi dari efek-efek di atas.\nSelain itu, DMG dasar reaksi Stellar-Conduct yang diakibatkan seluruh Karakter sekitar dalam party akan meningkat berdasarkan Elemental Mastery Mitya: Setiap poin Elemental Mastery akan meningkatkan DMG dasar reaksi Stellar-Conduct sebesar 0,028%, hingga maksimum 14%. Saat berada di dalam <color=#FFD780FF>Polestar Field</color>, Mitya juga akan memasuki status <color=#FFD780FF>Radiance: Stellar-Conduct</color>.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_07"
+      },
+      {
+        "GroupId": 13625,
+        "Proud": {
+          "Descriptions": [],
+          "Parameters": [
+            {
+              "Id": 1362501,
+              "Level": 1,
+              "Parameters": [
+                0.2
+              ]
+            }
+          ],
+          "Display": 0
+        },
+        "Id": 1362501,
+        "Name": "Energy Catalysis",
+        "Description": "Saat terdapat batu-batuan yang dapat dihancurkan di sekitar, <color=#FFD780FF>{LINK#N11360002}Detection Core: Steady State{/LINK}</color> dapat membersihkan batu-batuan ini dengan cepat.\nSelain itu, saat Mitya berada dalam party, pembuatan <color=#FFD780FF>Prime Ice Construct: Sumber Kehangatan Sederhana</color> tidak mengonsumsi Kresnik Energy.",
+        "SpecialEnergyType": 0,
+        "Icon": "UI_Talent_S_Mitya_08"
+      }
+    ],
+    "Talents": [
+      {
+        "Id": 1361,
+        "Name": "The Observer Seeking What Is Missing",
+        "Description": "Batas <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> yang bisa dibawa meningkat menjadi 5. Saat melancarkan Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color>, akan ada 1 <color=#FFD780FF>Gradient Beacon</color> tambahan yang tercipta.\nSelama <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> ada, CRIT DMG Karakter aktif sendiri dalam party meningkat sebesar 40%.\nSelain itu, saat menciptakan <color=#FFD780FF>Gradient Beacon</color>, Mitya juga memulihkan 10 poin Energy. Efek ini dapat terpicu sekali setiap 8 detik.",
+        "Icon": "UI_Talent_S_Mitya_01"
+      },
+      {
+        "Id": 1362,
+        "Name": "The Matter That Slumbers Beyond Inertness",
+        "Description": "Selama <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> ada, semua musuh yang berada di dalam <color=#FFD780FF>Polestar Field</color> akan mengalami pengurangan <color=#99FFFFFF>Cryo RES</color> dan <color=#FFACFFFF>Electro RES</color> sebesar 20%.\nSelain itu, jika <color=#FFD780FF>Detection Core</color> yang diciptakan adalah:\n·Steady State: Elemental Mastery seluruh Karakter di sekitar dalam party meningkat 123 poin.\n·Overloaded State: Elemental Mastery Karakter aktif sendiri dalam party meningkat 234 poin.",
+        "Icon": "UI_Talent_S_Mitya_02"
+      },
+      {
+        "Id": 1363,
+        "Name": "The Knotted String of Invariant Topology",
+        "Description": "Meningkatkan 3 level Elemental Skill {LINK#S11362}<color=#FFD780FF>Principle: Variable Detection</color>{/LINK}.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Mitya_01",
+        "ExtraLevel": {
+          "Index": 2,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1364,
+        "Name": "The Isotopes Born of Decay",
+        "Description": "Saat <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> yang diciptakan oleh Mitya sendiri berada di medan pertempuran, <color=#FFD780FF>Detection Core</color> akan mengakibatkan <color=#FFACFFFF>Electro DMG Area</color> terhadap musuh di sekitarnya sebesar 300% Elemental Mastery Mitya untuk setiap 5 <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> yang dikonsumsi. DMG ini dianggap sebagai DMG reaksi Stellar-Conduct.",
+        "Icon": "UI_Talent_S_Mitya_03"
+      },
+      {
+        "Id": 1365,
+        "Name": "The Periodic Law That Orders All",
+        "Description": "Meningkatkan 3 level Normal Attack {LINK#S11361}<color=#FFD780FF>Chain Reaction</color>{/LINK}.\nMaksimum: Lv. 15.",
+        "Icon": "UI_Talent_U_Mitya_02",
+        "ExtraLevel": {
+          "Index": 1,
+          "Level": 3
+        }
+      },
+      {
+        "Id": 1366,
+        "Name": "Elemental Transition at the Gate of Reason",
+        "Description": "<color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> diperkuat. Jika <color=#FFD780FF>Detection Core</color> yang diciptakan berada dalam:\n·Steady State: <color=#FFD780FF>Detection Core</color> mengakibatkan 115% dari DMG aslinya.\n·Overloaded State: Saat mengonsumsi <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color>, ada 34% kemungkinan untuk menciptakan satu <color=#FFD780FF>Gradient Beacon</color> yang baru.\nSelain itu, DMG reaksi Stellar-Conduct yang diakibatkan oleh seluruh Karakter di sekitar dalam party <color=#FFD780FF>{LINK#N11190007}bertumbuh{/LINK}</color> 20%.",
+        "Icon": "UI_Talent_S_Mitya_04"
+      }
+    ]
+  },
+  "FetterInfo": {
+    "Title": "Rules Set at Naught",
+    "Detail": "Seorang pakar spesialis energi yang jenius dan ahli dalam \"menghindari jadwal\".",
+    "Association": 15,
+    "Native": "Royal Energy Commission of Snezhnaya",
+    "BirthMonth": 2,
+    "BirthDay": 8,
+    "VisionBefore": "Electro",
+    "VisionOverrideLocked": "Stellar Linchpin",
+    "VisionOverrideUnlocked": "Vision",
+    "ConstellationBefore": "Nodus Gordianus",
+    "CvChinese": "苏尚卿",
+    "CvJapanese": "小林裕介",
+    "CvEnglish": "Brian Ballance",
+    "CvKorean": "Choi U-seong",
+    "CookBonus": {
+      "OriginItemId": 108989,
+      "ItemId": 132052,
+      "InputList": [
+        110011,
+        100077
+      ]
+    },
+    "Fetters": [
+      {
+        "Title": "Halo",
+        "Context": "Selamat pagi, kawan! Tunggu, sekarang pagi, kan? Ah, tidak masalah. Oh ya, tolong masuk ke dalam kantorku dulu ... Luar biasa. Duduk di sini dulu ya, akan ada yang layani sebentar lagi. Bilang saja kamu Mitya, ahli dari Energy Commission. Mengerti? Oke kalau begitu. Baibai!"
+      },
+      {
+        "Title": "Berbincang: Jangan Bahas Lagi",
+        "Context": "Ugh ... Aku mau cerita kisah lucu deh pas di kerjaan, tapi Scarf tidak izinkan."
+      },
+      {
+        "Title": "Berbincang: Penggemar Teater",
+        "Context": "Kamu nonton pertunjukan di teater kemarin? Lumayan bagus, lho. Pasti bakal lebih bagus lagi kalau aku bisa ingat ceritanya soal apa ...."
+      },
+      {
+        "Title": "Berbincang: Serangan Diam-Diam",
+        "Context": "Nochhornowl tidak bersuara waktu terbang. Pernah ada yang nyaris menyambar Scarf ... Jadi, mendingan kamu awasi Paimon juga deh!"
+      },
+      {
+        "Title": "Ketika Turun Hujan",
+        "Context": "Jangan hujan, jangan hujan, jangan hujan ... Ahhh, kok hujan!"
+      },
+      {
+        "Title": "Ketika Petir Menyambar",
+        "Context": "Apa yang meledak?!? ... Oh, cuma petir ya? Sayang sekali."
+      },
+      {
+        "Title": "Ketika Turun Salju",
+        "Context": "Hati-hati sama salju yang sudah membeku sampai keras. Kalau tertendang, rasanya sakit sekali."
+      },
+      {
+        "Title": "Ketika Matahari Bersinar",
+        "Context": "Halo, matahari! Isi energiku sedikit, ya."
+      },
+      {
+        "Title": "Selamat Pagi",
+        "Context": "Baru pagi-pagi begini, pekerjaan kemarin sudah menungguku."
+      },
+      {
+        "Title": "Selamat Siang",
+        "Context": "Selamat siang. Sebentar lagi aku harus ke kantor, jadi jangan bilang siapa-siapa kalau aku pergi ke teater, ya?"
+      },
+      {
+        "Title": "Selamat Malam",
+        "Context": "Kita duduk di samping tumpukan dokumen yang menjulang tinggi sekali, sambil mendengarkan lampu meja berkisah tentang saat-saat mengejar tenggat waktu."
+      },
+      {
+        "Title": "Selamat Tidur",
+        "Context": "Menyerahkan dokumen selarut ini hampir sama saja dengan menyerahkannya besok. Jadi, besok saja! Selamat malam!"
+      },
+      {
+        "Title": "Tentang Mitya: Pelajaran",
+        "Context": "Dulu aku suka sekali bercerita soal hidupku. Lalu setelah bergabung dengan Energy Commission, senior-seniornya bilang kalau tidak mau buru-buru memperkaya CV-mu, sebaiknya jangan terlalu menonjol. Hah ... Masalahnya, begitu mulai bicara, aku langsung lupa nasihat itu. Untung ada Scarf."
+      },
+      {
+        "Title": "Tentang Mitya: Rahasia",
+        "Context": "Setelah menjadi konsultan Fatui, Valeriy ingatkan aku kalau penelitian yang kukerjakan bisa mengubah dunia. Rahasia tingkat tertinggi dan segala macamnya lah. Aku sarankan dia supaya bilang begitu juga ke semua orang tentang pekerjaan mereka. Pohon paling mudah disembunyikan di tengah hutan, kan? Jadi, aku tidak perlu berhati-hati terus. Tapi dia bilang aku memang tidak pernah berhati-hati. Memangnya di matanya aku orang seperti itu ya? Aku tersinggung deh."
+      },
+      {
+        "Title": "Tentang Kita: Bantuan",
+        "Context": "Tolongin aku dong. Alihkan perhatian Tuan Valeriy setengah hari saja. Ajak dia bicara soal apa saja. Tanyakan kabarnya, ajak dia makan ... Kalau benar-benar kehabisan topik, piting saja sampai terkapar. Boleh juga. Aku punya hal yang sangat, sangat penting untuk dikerjakan. Aku bilang begitu juga kemarin? Oh, berarti masalah yang sangat, sangat penting itu belum selesai. Oke, semangat ya untuk kita berdua!"
+      },
+      {
+        "Title": "Tentang Kita: Dasar-Dasar Bertualang",
+        "Context": "Karena terlalu banyak urusin pekerjaan rahasia, biasanya aku tidak boleh bepergian ke bangsa lain sesuka hati. Bahkan tanda tangan perjanjian kerahasiaan setebal apa pun tidak bisa mengubahnya. Tapi Scarf berhasil buktikan kesetiaannya kepada organisasi, lalu diminta menandatangani surat yang membuatnya jadi waliku ... Aneh, kan? Jadi, kalau sekarang aku bisa bebas bertualang denganmu, itu semua berkat Scarf."
+      },
+      {
+        "Title": "Tentang Stellar Linchpin",
+        "Context": "Benda ini berguna sekali. Satu-satunya kekurangannya, benda ini tidak bisa dibongkar. Aku yakin bisa pasang kembali kayak semula, tapi kayaknya benda ini tidak terlalu percaya padaku ...."
+      },
+      {
+        "Title": "Berbagi Cerita",
+        "Context": "Mau tahu tempat paling enak buat masak? Kantor. Coba bayangkan melihat orang-orang paling pintar di Snezhnaya sibuk mencari cara bikin sup pakai mesin sentrifugal ... luar biasa, kan?"
+      },
+      {
+        "Title": "Kisah Menarik",
+        "Context": "Aku sudah lihat atau dengar paling tidak belasan jenis fae, tapi semuanya masih dibagi jadi enam kategori besar secara resmi. Siapa sih yang bikin klasifikasi begini? Kalau kerja seceroboh ini di Energy Commission, pasti sudah kena denda."
+      },
+      {
+        "Title": "Tentang Vodyanitsa",
+        "Context": "Nona Vodyanitsa hebat sekali. Benar-benar hebat deh. Suaranya merdu, cocok sekali sama suasana teater yang anggun. Aku memang paling cocok bekerja di tempat kayak ini."
+      },
+      {
+        "Title": "Tentang Odette",
+        "Context": "Ini di antara kita saja ya, Nona Odette memang kelihatan dingin, tapi sebenarnya lebih mudah dihadapi daripada Vodyanitsa loh. Atau mungkin dia cuma malas tegur aku ya. Nah, dunia memang butuh lebih banyak orang yang berlapang dada kayak dia. Hehe."
+      },
+      {
+        "Title": "Tentang Alyosha",
+        "Context": "Hehe, semua anjingnya penurut sekali! Dan kelihatan kalau mereka pintar. Kadang aku jadi tergoda untuk ajari mereka sedikit ilmu sains ... T-Tidak, aku tidak kunjungi dia cuma buat elus-elus anjingnya kok! Alyosha itu temanku juga, tahu."
+      },
+      {
+        "Title": "Tentang Ceramah Valeriy",
+        "Context": "Kalau merasa terlalu sibuk, coba dengarkan kuliah pengantar manajemen waktu Tuan Valeriy yang keseratus. Kalau merasa terlalu santai, dengarkan juga deh. Lagian, mendengarkan ceramahnya memang cocok untuk menghabiskan waktu."
+      },
+      {
+        "Title": "Tentang Valeriy: Pemahaman",
+        "Context": "Sebenarnya sih, Tuan Valeriy juga tidak bisa disalahkan karena terlalu terpaku sama jadwal. Orang-orang di sekitarnya tidak bisa diandalkan. Jelas-jelas tahu ada masalah, tapi tidak ada yang membereskannya. Mereka cuma berdiri ramai-ramai sambil bilang, \"Aneh, ya. Aneh sekali\", lalu pekerjaannya tetap diteruskan ke arah yang salah. Jelas aku bukan salah satu dari mereka. Aku memang tidak berniat meneruskan pekerjaan apa pun."
+      },
+      {
+        "Title": "Tentang Vesna",
+        "Context": "Nona Vesna punya banyak akal, jadi seru sekali kalau diajak main. Kerjanya juga cepat sekali! Pekerjaan sebulan bisa selesai dalam sepuluh hari pertama. Aku mau belajar dari dia ah. Bedanya, aku akan kerjakan dalam sepuluh hari terakhir."
+      },
+      {
+        "Title": "Tentang Danica",
+        "Context": "Terus terang ya, aku pernah kira Nona Danica itu fae paus, loh. Kayak Frostfin Battle Whale! Keren, kan? Ternyata salah total, terus tatapannya waktu itu menyeramkan sekali. Nona Vesna malah senang sekali waktu dengar aku bilang begitu, sampai tertawa hampir jatuh. Untung saja, setelah itu tatapan tajam Danica malah beralih ke dia."
+      },
+      {
+        "Title": "Tentang Tsaritsa",
+        "Context": "Kamu tahu apa kata Energy Commission waktu mereka kirim aku jadi penasihat Fatui? \"Yang Mulia butuh energi. Kami butuh ketenangan. Kalau digabung, jadilah solusi energi baru antikebisingan!\" Oh, jadi Yang Mulia tidak suka berisik ya. Oke, akan kuingat."
+      },
+      {
+        "Title": "Tentang Noy ....",
+        "Context": "Dia orang baik! Pernah sekali aku jalan-jalan di stasiun dan hampir tertangkap tentara, terus dia tunjukkan jalan belakang buat aku. Scarf juga kelihatan senang sekali lihat dia, sampai tidak sempat menjegalku ... Tapi kalau dipikir-pikir, sebenarnya Scarf ini berpihak sama siapa, sih? Aku benar-benar harus bisa mengendalikannya!"
+      },
+      {
+        "Title": "Mengenal Mitya: I",
+        "Context": "Hai, aku Mitya. Maaf sudah merepotkanmu. Kamu bilang aku tidak merepotkan? Tenang saja, sebentar lagi pasti merepotkan kok."
+      },
+      {
+        "Title": "Mengenal Mitya: II",
+        "Context": "Sekarang giliran Scarf memperkenalkan diri. Ayo, Scarf, ucapkan bagianmu ... Maaf, Scarf memang tidak banyak bicara. Biar aku saja. Ini Scarf, sahabatku tersayang. Tolong perlakukan dia dengan baik, ya."
+      },
+      {
+        "Title": "Mengenal Mitya: III",
+        "Context": "Rambutku memang keriting dari lahir. Waktu kecil, rambutku mengembang kayak daun bit, jadi Ibu selalu memanggilku \"Kepala Bit\". Ini bukan karena aku tidak sengaja bocorkan rahasia, ya! Aku sengaja bilang dari sekarang supaya nanti kamu tidak kaget. Nama panggilannya keren juga, kan? Kamu juga merasa begitu, kan?"
+      },
+      {
+        "Title": "Mengenal Mitya: IV",
+        "Context": "Kalau kerja terus selama sepuluh jam, Kepala Bit ini bakal layu total. Ingat, bawa aku keluar, terus sirami aku. Kalau ada yang coba menghalangi, bilang saja persis begitu. Biasanya mereka akan bingung sebentar, nah, saat itu, kita langsung kabur!"
+      },
+      {
+        "Title": "Mengenal Mitya: V",
+        "Context": "Para senior bilang pekerjaan kami lumayan berbahaya, jadi surat wasiat sebaiknya diperbarui sesekali. Aku bahkan belum pernah tulis yang pertama! Pernah sekali aku mulai menulis, \"Ayah dan Ibu tersayang\", tapi kok rasanya tidak pas. Itu jadi surat untuk keluarga, bukan surat wasiat. Nah? Begitu benar-benar butuh templat dokumen, para senior yang katanya \"teliti\" itu malah diam semua. Sudahlah. Sama kayak pekerjaan besok. Kalau besok aku masih hidup, baru kupikirkan."
+      },
+      {
+        "Title": "Hobi Mitya",
+        "Context": "Tentu saja teater. Menikmati karya-karya klasik. Meresapi, umm ... suasana budayanya."
+      },
+      {
+        "Title": "Kekhawatiran Mitya",
+        "Context": "Ah ... Aku ingin bisa kendalikan Scarf, aku juga ingin bisa kendalikan kapan inspirasi datang. Kalau bisa, dua-duanya bisa terjadi setiap saat."
+      },
+      {
+        "Title": "Makanan Favorit",
+        "Context": "Tidak terlalu asam, tidak terlalu manis. Tidak terlalu pedas, tidak terlalu asin. Oh, aku tahu! Ternyata aku suka yang rata-rata!"
+      },
+      {
+        "Title": "Makanan yang Tidak Disukai",
+        "Context": "Kalau minum lewat batas sedikit saja, wajahku langsung jadi merah sekali. Terus rekan kerjaku malah jadikan aku alat tes kadar alkohol berjalan. Benar-benar minta ampun deh."
+      },
+      {
+        "Title": "Menerima Hadiah: I",
+        "Context": "Wah, enak sekali! Satu suap lagi dong ... Hei, Scarf, jangan lap mulutku. Nanti aku harus cuci kamu lagi. Jadi tambah repotin saja."
+      },
+      {
+        "Title": "Menerima Hadiah: II",
+        "Context": "Hmm ... Sekarang aku sudah tahu semua komponen yang membuat hidangan ini seenak ini. Tunggu sebentar, akan kubuat tiruannya."
+      },
+      {
+        "Title": "Menerima Hadiah: III",
+        "Context": "Yang ini ... Scarf pasti suka. Kasih ke Scarf saja yuk."
+      },
+      {
+        "Title": "Ulang Tahun",
+        "Context": "Wah, selamat ya! Ayo rayakan hari saat semua hal baik dan buruk dalam hidupmu dimulai! Mau kubuatkan sesuatu? Bagaimana kalau kubuatkan \"Scarf\" pembantu untuk kamu juga? Tapi kalau naik kereta, jangan suruh dia pegangi pegangan untukmu di kereta. Sekali keretanya mengerem mendadak, bisa gawat."
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Permulaan",
+        "Context": "Aku penuh energi!"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Persiapan",
+        "Context": "Pikiranku jernih!"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Klimaks",
+        "Context": "Jangan ada yang mengganggu!"
+      },
+      {
+        "Title": "Perasaan Tentang Ascension: Konklusi",
+        "Context": "Ideku bermunculan! Tunggu, buku catatanku di mana deh ...."
+      },
+      {
+        "Title": "Elemental Skill: I",
+        "Context": "Kuserahkan kepadamu."
+      },
+      {
+        "Title": "Elemental Skill: II",
+        "Context": "Mengaktifkan mode prasetel."
+      },
+      {
+        "Title": "Elemental Skill: III",
+        "Context": "Yang stabil!"
+      },
+      {
+        "Title": "Elemental Skill: IV",
+        "Context": "Senang bisa bekerja sama denganmu."
+      },
+      {
+        "Title": "Elemental Skill: V",
+        "Context": "Katalisasi cepat!"
+      },
+      {
+        "Title": "Elemental Skill: VI",
+        "Context": "Pemantauan reaktivitas, mulai!"
+      },
+      {
+        "Title": "Elemental Burst: I",
+        "Context": "Saatnya uji dalam tekanan tinggi!"
+      },
+      {
+        "Title": "Elemental Burst: II",
+        "Context": "Hukum periodik, berhasil diuraikan."
+      },
+      {
+        "Title": "Elemental Burst: III",
+        "Context": "Energi elemen, terisi!"
+      },
+      {
+        "Title": "Membuka Peti Harta: I",
+        "Context": "Coba lihat ... Semuanya cuma bahan tidak reaktif. Tidak ada yang berbahaya. Ambil saja."
+      },
+      {
+        "Title": "Membuka Peti Harta: II",
+        "Context": "Kalau ada yang mudah terbakar atau meledak, serahkan padaku. Sisanya buat kamu saja."
+      },
+      {
+        "Title": "Membuka Peti Harta: III",
+        "Context": "Kasih Scarf sesuatu buat dipegang. Biar dia ada kesibukan."
+      },
+      {
+        "Title": "HP Rendah: I",
+        "Context": "Aku bisa mati, nih! Bantu dong?!?"
+      },
+      {
+        "Title": "HP Rendah: II",
+        "Context": "Siapa yang bilang di sini aman?"
+      },
+      {
+        "Title": "HP Rendah: III",
+        "Context": "Hei, tidak adil!"
+      },
+      {
+        "Title": "HP Rekan Rendah: I",
+        "Context": "Untuk sekarang, ganti dulu ke mode hemat daya."
+      },
+      {
+        "Title": "HP Rekan Rendah: II",
+        "Context": "Oke, oke, aku saja deh."
+      },
+      {
+        "Title": "Gugur: I",
+        "Context": "Hadirin sekalian ... izinkan aku pamit lebih dulu ...."
+      },
+      {
+        "Title": "Gugur: II",
+        "Context": "Aku pergi dulu ... Scarf juga kubawa ...."
+      },
+      {
+        "Title": "Gugur: III",
+        "Context": "Sampai jumpa ... Aku mau mematikan daya ...."
+      },
+      {
+        "Title": "Menerima Serangan Ringan: I",
+        "Context": "Aduh?!?"
+      },
+      {
+        "Title": "Menerima Serangan Ringan: II",
+        "Context": "Cara kerjanya gimana?"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: I",
+        "Context": "Apaan sih ...?"
+      },
+      {
+        "Title": "Menerima Serangan Hebat: II",
+        "Context": "Oke. Sudah, cukup!"
+      },
+      {
+        "Title": "Bergabung ke Party: I",
+        "Context": "Terima kasih sudah mengajak. Jadi, eh ... kita mau ke mana?"
+      },
+      {
+        "Title": "Bergabung ke Party: II",
+        "Context": "Ayo, kita lihat ada apa di kota!"
+      },
+      {
+        "Title": "Bergabung ke Party: III",
+        "Context": "Lapor. Jadi, krisis energinya di mana?"
+      }
+    ],
+    "FetterStories": [
+      {
+        "Title": "Info Karakter",
+        "Context": "Orang Snezhnaya yang sering pergi ke teater pasti tahu:\nSelain beberapa \"pemandangan\" yang sudah sangat dikenal di atas panggung, di kursi penonton juga selalu ada seorang penonton yang mencuri perhatian.\nGaya rambutnya sangat khas, ia memegang buku catatan, dengan syal yang lincah melingkar di bahunya, dan di belakangnya sesekali muncul seorang perwira pria bertubuh tinggi dengan ekspresi serius yang membuatnya terus berlari.\nPerilakunya yang mencolok sekaligus humoris membuatnya sebanding dengan seniman pertunjukan anonim. Kedekatannya yang erat dengan dua pemeran utama kelompok teater itu membuatnya tampak seperti sesama bintang. Tidak hanya itu, sebagian orang bahkan menduga dia seorang penulis atau peneliti, karena orang biasa tidak akan selalu menggenggam buku catatan dan sibuk menulis dengan kepala tertunduk.\nTentu saja, begitu kata-kata itu terlontar, ia langsung menjadi bahan tertawaan orang-orang di sekitarnya. Seorang peneliti yang dibutuhkan oleh Snezhnaya yang agung seharusnya cermat dan berwibawa, tidak seharusnya berperilaku seramai ini.\nNamun, bagaimana mereka bisa tahu bahwa orang di hadapan mereka ini adalah Mitya, pakar energi yang berbakat, disibukkan oleh berbagai urusan penting, tidak serius dalam pekerjaannya, dan sangat mencintai kehidupan?\nNamun, Mitya harus mengakui bahwa bahkan dirinya sering menghadapi kesulitan. Kenapa seorang peneliti yang begitu tekun selalu dikejar-kejar oleh \"Raja Iblis\" yang menakutkan dari belakang?\nMaka, seusai menonton pertunjukan \"The Firebird\", dalam surat pembelaan diri yang sekali lagi ditulis untuk atasannya dan dilampirkan pada halaman terakhir laporan penelitian, Mitya menulis begini:\n\"Snezhnaya begitu luas, bagaimana bisa seseorang dikurung dalam sangkar bernama jadwal?\"\n\"Cahaya ilmu pengetahuan lebih sulit ditebak daripada 'The Firebird', mana mungkin kita bisa menemukan bayangannya hanya dengan duduk termenung di meja?\"\n\"Apel emas adalah mahakarya alam tertinggi, bagaimana bisa jatuh ke tangan orang yang telah kehilangan warna dunia?\"\nSebagai tanggapan, Snegiryov, supervisor yang bertanggung jawab meninjau data dan prosedur eksperimen, memberikan balasan berikut:\n\"Sudah diketahui. Bagian ini tidak termasuk konten yang seharusnya ada dalam laporan penelitian, sudah diteruskan ke Mayor Valeriy. Selain itu: \"The Firebird\" terutama memuji vitalitas dan cinta. Dari dua hal tersebut, yang satu tidak kamu kekurangan, dan yang satu lagi tidak kamu butuhkan saat ini. Tolong baca dan pahami dengan saksama sebelum mengutip. Kalau ada lain kali, aku tidak akan membantumu mengurus tiket. Hormat saya.\""
+      },
+      {
+        "Title": "Kisah Karakter 1",
+        "Context": "Mitya memiliki masa kecil yang bahagia.\nIa beruntung terlahir di Teplo Oasis. Hamparan ladang luas yang jarang ditemukan di bangsa beriklim dingin, pemandangan indah, dan keramahan penduduk setempat dengan leluasa menyuburkan si bit kecil ini.\nDalam kenangannya, hamparan gandum adalah padang rumput keemasan tempatnya berlari. Para pedagang keliling yang ramah membawa makanan baru yang menarik, jus dan camilan buatan Nyonya Sezhna memancarkan aroma semanis madu. Ruang kerja ayah yang dipenuhi blueprint pun berubah menjadi taman bermain karena \"penelitian\" Mitya.\nDunia begitu indah. Bahkan terlalu teratur, hingga terasa sedikit monoton.\n\"Hidup ini sudah baik, kalau ada sedikit hal baru pasti lebih menyenangkan\". Mitya kecil bersandar di ambang jendela bengkel Tuan Urkin, mengucapkan harapannya kepada roda gigi yang sedang berputar ....\nSeakan menjawab keinginannya, muncul riak kecil dalam kehidupannya—\nSuatu pagi, seperti biasa, si kecil Mitya menyelinap melalui pintu rumah tetangga Domovoy, berniat membantu Tuan Urkin memetik buah hari ini, lalu menuangkannya sekaligus ke dalam mesin pemeras jus.\nTapi hari ini, Tuan Urkin menahannya.\nBaru saat itulah Mitya menyadari bahwa suasana di dalam bengkel terasa agak terlalu sunyi.\n\"Jangan buru-buru, hari ini tidak usah memetik. Mesinnya rusak, jadi istirahatlah dulu dua hari.\"\n\"Mitya sayang! Di sini ada biskuit favoritmu, ayo cicipi!\" Suara Nyonya Sezhna juga terdengar dari ruang dalam ....\nSehari, dua hari, tiga hari ....\nTuan Urkin dan Nyonya Sezhna masih tetap ramah, tetapi Mitya bisa merasakan bahwa ada kecemasan dan kesedihan yang diam-diam mulai merayap ke mata pasangan itu.\n\"Kapan akan diperbaiki?\"\n\"Dua hari lagi, begitu tukang reparasinya datang, pasti beres. Nanti aku langsung panggil kamu, kita lanjut metik bareng.\"\nDialog seperti itu terulang berkali-kali, dan Mitya pun berjalan bolak-balik melewati gerbang desa dan depan pintu bengkel.\nSuara gemuruh yang biasa ia dengar tidak lagi terdengar, para pedagang keliling semakin jarang berkunjung. Tukang reparasinya? Mitya sama sekali tidak melihatnya. Dari desas-desus teman-temannya, ia pun mencoba merangkai apa yang sebenarnya terjadi.\nPasangan Domovoy itu menghadapi kesulitan yang sesungguhnya—tanpa aroma buah, kedai minuman keras keluarga kecil ini sulit menarik pelanggan.\nTapi Mitya masih belum paham mengapa para pemimpin geng yang berharap dapat memonopoli bisnis minuman beralkohol itu menghalangi kedatangan tukang reparasinya.\nBaginya, ini hanyalah masalah kecil yang disebabkan oleh keinginan yang kurang tepat. Kalau begitu, dia tinggal membetulkannya saja.\nTapi dengan sepasang tangan anak kecil, bagaimana caranya bisa membereskan mesin-mesin rumit itu?\nMitya terdiam sambil berpikir ... Mungkin, pengetahuan yang dulu diajarkan ayahnya kepada dirinya sendiri bisa berguna?\nKemudian, seakan ada badai yang menyapu ruangan dan mengubah ruang kerja menjadi setumpukan barang. Sementara orang tua Mitya diam-diam mengawasi dari luar pintu \"ruang penyimpanan\" ....\n\"Si bit kecil kami sangat berbakat, dia pasti bisa, kan?\"\n\"Sulit. Mesin itu pernah kulihat diam-diam. Poros putarnya sengaja dililit erat dengan serat bit, sangat sulit dibersihkan.\" Ayah Mitya berhenti sejenak, lalu melanjutkan, \"Lagi pula, kalau mesin itu sudah selesai diperbaiki, bagaimana kalau para pedagang miras gelap itu datang ke rumah untuk cari gara-gara?\"\n\"Masa cuma gara-gara takut burung, bit-nya jadi tidak boleh bertunas? Lagi pula, kalau kamu saja tidak bisa memperbaikinya, siapa yang percaya itu ulah anak kecil?\"\n\"Haha, betul juga. Karena dia punya bakat dan tertarik, lebih baik biarkan dia mencoba saja.\"\nSejak hari itu, Mitya mendapat seorang \"dosen pembimbing\". Dan di bengkel juga ada dua sosok tambahan, satu besar dan satu kecil.\n...\nSetelah upaya yang gagal lagi, sang ayah mulai membereskan peralatan yang berserakan. Tuan Urkin di sebelahnya juga menghela napas pelan, diam-diam mulai bersiap menghadapi kemungkinan terburuk.\nDi dalam gubuk kerja yang remang-remang hanya ada keheningan seperti kematian, sampai sebuah embusan napas serak yang sumbang tiba-tiba memecah kesunyian.\nTepat setelahnya, terdengar bunyi retakan yang amat nyaring, lalu disusul oleh raungan poros mesin jus yang berputar dengan kecepatan tinggi.\nSaat kedua orang dewasa itu bergegas mendekati mesin, bengkel sedang diselimuti lapisan tipis bubuk halus putih es. Mitya berdiri di samping peralatan yang sedang beroperasi, menggosok-gosokkan kedua tangannya yang memerah karena kedinginan. Di hadapannya, mesin yang semula dinyatakan rusak berat telah terbebas dari jeratan serat dan kini dapat beroperasi dengan lancar.\nMelihat kemasan refrigeran yang tergeletak di lantai, sang ayah segera memahami apa yang terjadi.\nYa, serat yang kaya akan air secara alami sangat kuat dan sulit dipotong. Tapi bagaimana kalau mereka kehilangan kandungan airnya, lalu menjadi beku total?\nPada saat itu, tanpa perlu penanganan tambahan apa pun, hanya dengan kekuatan mesin itu sendiri, benda itu bisa langsung dihancurkan hingga hancur berkeping-keping dengan mudah.\nPrinsip ini sebenarnya sangat sederhana, tetapi untuk mengonversinya menjadi rencana yang praktis dan dapat diterapkan, tidak cukup hanya mengandalkan bakat, tapi juga kreativitas dan keberanian.\nLalu, bagaimana dengan sosok mungil itu?\nDia tampaknya tidak merasa sangat gembira seperti Urkin, juga tidak terburu-buru untuk pamer seperti yang diperkirakan ayahnya.\nDia hanya diam mengamati mekanisme yang berputar itu, di dasar matanya yang jernih terpantul kilau redup logam yang berputar cepat.\nNamun sang ayah belum mengetahui, bahwa di dalam dada kecil itu, ada sebuah jantung yang muda dan hidup, bergetar seirama dengan energi kinetik liar dari mesin penggerak."
+      },
+      {
+        "Title": "Kisah Karakter 2",
+        "Context": "Kepintaran bagaikan seikat kayu kering yang terendam minyak, hanya butuh sedikit percikan inspirasi untuk membuatnya terbakar membara.\nDan Armory Palace, tempat berkumpulnya orang-orang terpintar di Snezhnaya, adalah gudang penyimpanan amunisi, yang hanya menunggu pin pemicunya tiba.\nOrang yang meledakkan \"gudang\" ini bukanlah ilmuwan besar yang termasyhur. Dia hanyalah seorang pakar biasa yang buru-buru disingkirkan oleh Energy Commission yang mendambakan ketenangan, tetapi tanpa sengaja membawa fajar dari \"era yang baru\".\nPada bulan-bulan pertama setelah melapor ke Glupov, Mitya belum terlihat menonjol. Kesan rekan-rekannya terhadap dirinya kebanyakan hanya terbatas pada: \"ceria dan ramah\", \"mudah bergaul\", \"sangat terampil\", serta \"memiliki teman syal yang aneh\", dan lain-lain.\nKesan itu memang dangkal, tapi itu wajar. Di penjara tanpa cahaya yang menjadikan tekanan sebagai pagar dan jadwal sebagai belenggu ini, semua orang sudah kewalahan mengurus diri sendiri, apalagi meluangkan tenaga untuk memahami masa lalu seorang pendatang baru secara mendalam.\nDan setelah belasan hari menjalani lembur berintensitas tinggi tanpa henti, sambil menatap kentang dan roti di kantin, akhirnya ada seseorang yang tidak tahan dan menghela napas:\n\"Menunya itu-itu lagi! Ah, aku ingin minum Snowrealm Okroshkas. Sensasi kejutan tekstur yang berbeda di setiap sendoknya benar-benar membuatku rindu, rasanya ingin sekali bisa menyesapnya sekarang ....\"\n\"Aku sebenarnya bisa membuatnya, bahan-bahan di sini juga tidak kurang,\" sahut seorang rekan kerja dengan santai, \"hanya saja prosesnya terlalu rumit, harus cari cara untuk mendapatkan satu set peralatan masak profesional untuk merebus sup bening. Entah apakah koki Fatui punya barang semacam itu.\"\n\"Jangan berharap,\" orang di sebelahnya menimpali dengan dingin, \"kalau Sereda benar-benar punya peralatan masak selengkap itu, kita tidak akan hanya makan roti gandum dan kentang. Bubar, bubar. Nanti masih ada dua laporan eksperimen yang harus dikumpulkan, lho.\"\nSaat semua orang sedang berbincang-bincang santai, aroma harum yang gurih menyelinap masuk ke hidung semua orang.\nSambil mendongak, pendatang baru dari Energy Commission itu sedang menikmati semangkuk sup panas yang tidak diketahui namanya, sementara rekan \"syal\"-nya dengan antusias melambaikan tangan ke semua tatapan yang tertuju padanya.\nItu adalah semangkuk sup bening hangat. Meski bukan Snowrealm Okroshkas yang baru saja diperbincangkan, juga bukan Borscht yang terkenal luas, tetap saja membuat semua orang tergila-gila.\nSetelah didesak berulang kali, orang-orang akhirnya memahami asal-usul sup hangat ini. Mitya terlebih dahulu menggunakan fungsi merebus dan mengaduk dari reaktor panas untuk mengubah bahan masak menjadi cairan, lalu menggunakan mesin sentrifugal untuk memisahkan lemak dan residu tulang di dalamnya. Setelah melalui beberapa tahapan, produk di hadapan semua orang pun tercipta.\nSemua orang tertegun. Ternyata bisa seperti itu?\nDi dalam Armory Palace, gudang amunisi bernama \"kepintaran\" pun akhirnya telah meledak.\nMalam itu, di dalam laboratorium, reaktor panas dan sentrifugal bergemuruh tanpa henti. Yang berhamburan dan memenuhi ruangan bukan hanya aroma sup yang menggugah selera, tetapi juga kreativitas para peneliti—terutama Mitya—yang sudah lama berada di bawah tekanan.\nNamun seusai pesta pora, tuntutan pertanggungjawaban dari Departemen Keamanan datang bertubi-tubi.\nMenghadapi tuntutan ini, Mitya yang sudah merasakan manisnya hasil itu bukan hanya tidak menyesal, tetapi juga makin gencar berupaya melarikan diri dari kehidupan yang terlembaga.\nGetaran kuat ini menjalar jauh dari Armory Palace, bahkan membuat The Jester sang Direktur Fatui, turut merasakan sedikit perubahan.\n...\nLebih dari setengah tahun kemudian, saat Mitya yang telah membuat serangkaian keributan digiring masuk ke kantor, meja The Jester sudah dipenuhi surat-surat pembelaan yang ia ajukan.\n\"Jadi, Tuan Mitya, saya masih belum paham, apa hubungan antara sistem absensi dan sup panas?\"\nSambil menepis \"syal\" yang mencoba menutup mulutnya, Mitya menjawab dengan penuh keyakinan: \"Tuan 'The Jester', jika kita bisa memiliki sistem absensi yang lebih masuk akal, efisiensi semua orang juga akan meningkat. Ini pasti yang Anda harapkan. Lihatlah, berkatku, sekarang semua orang menjadi lebih kreatif, bahkan menemukan cara membuat es krim dengan kompresor. Ini bukti kuat bahwa sistem absensi memengaruhi kinerja!\"\n\"The Jester\" tentu tahu, jika menyangkut Mitya, kelonggaran dalam sistem absensi mungkin memang bisa membuatnya lebih efisien. Ia sudah membaca laporan penelitian Mitya, dan hasilnya sudah cukup membuktikan hal itu.\nNamun bakat dan keanehan sering kali berbanding lurus. Masalah dan kerusakan yang diciptakan Mitya juga berkali-kali lipat dibanding orang lain.\nMempelopori pelanggaran peraturan, mengubah jadwal sesuka hati, absen, melepaskan diri dari Fatui dan bepergian sendiri—semuanya merupakan risiko yang tidak kecil bagi suasana kerja dan keamanan rencana.\n\"Pernyataanmu sudah kuterima. Aku akan mempertimbangkannya dengan saksama.\"\nSetelah Mitya keluar dari kantor, The Jester memanggil sekretarisnya dan menyampaikan keputusannya: \"Mulai sekarang, selama mereka tidak melewati batas, hal sepele seperti ini, kalian abaikan saja.\"\n\"Kalau begitu ... Tuan, apakah kita masih perlu mengirim orang untuk ikut mengawasi Mitya?\"\n\"Tidak perlu.\"\n\"The Jester\" terdiam sejenak, lalu mengangkat cangkir yang masih mengepulkan uap di sudut meja dan meniupnya:\n\"Tapi, seperti yang dia nyatakan dalam laporannya, dia membutuhkan sedikit 'gejolak' untuk bisa menghasilkan hasil yang lebih baik. Kita sebaiknya memberikan sedikit bantuan—biarkan Mayor Valeriy yang menangani hal ini.\""
+      },
+      {
+        "Title": "Kisah Karakter 3",
+        "Context": "\"Hei, Mitya, hari-hari ketika kamu bisa bersenang-senang seenaknya sudah berakhir! Serahkan rumus pelarianmu!\"\nDalam catatan Mitya, kesan pertamanya terhadap Valeriy tampaknya seperti itu.\nFaktanya, meskipun catatan ini sarat dengan prasangka, keberadaan rumus pelarian itu tidak diragukan lagi memang benar-benar ada. Dan rumus itu memiliki beberapa kriteria berikut—\nPertama, aksi melarikan diri perlu mengandalkan arus kerumunan padat untuk mengalihkan perhatian, Central Station yang ramai akan menjadi pilihan yang tepat.\nKedua, sebelum melarikan diri, kalian harus mengumpulkan banyak informasi. Misalnya, saat bersembunyi di Podvorye Restaurant, kalian harus tahu siklus pergantian jaga dan rute patroli para penjaga.\nTerakhir, dan yang paling penting, tempat pelarian sebaiknya kaya akan \"warna\" dan memiliki ruang pribadi yang cukup, sehingga saat inspirasi tiba-tiba muncul, kamu tidak akan diganggu oleh siapa pun.\nDengan mengandalkan rumus ini, Mitya selalu lebih unggul saat berhadapan dengan Fatui lainnya.\nOleh karena itu, saat berhadapan dengan Valeriy yang baru datang, Mitya mungkin punya kepercayaan diri untuk melontarkan kalimat ini: \"Pertama, kamu harus bisa menangkapku\".\nTentu saja, sang \"Ketua Batalyon Penugasan Khusus\" sama sekali tidak memberi Mitya kesempatan itu. Pada hari yang sama, dia mengubah rute patroli para penjaga dan melancarkan pengejaran terhadap Mitya.\nMenghadapi serangan mendadak yang tak terduga, Mitya pun mengeluarkan jurus pamungkasnya—sebelum para pengejar menyelesaikan pengepungan, ia mengubah arah langkahnya dan langsung menerobos masuk ke tengah acara jalanan yang riuh di sisi jalan.\nMenurut perhitungan Mitya, karena harus menjaga kerahasiaan, maka Fatui yang sedang mengejarnya tidak mungkin menggunakan tindakan keras di hadapan khalayak ramai. Beberapa menit ketika lawan masih ragu untuk bertindak gegabah inilah waktu berharga yang dibutuhkan Mitya untuk menyesuaikan strategi dan meloloskan diri dengan lancar.\nNamun, ada satu variabel penting yang terlewat, bahwa pertemuan-pertemuan jalanan semacam ini biasanya punya tujuan yang jelas.\nDi tengah kerumunan yang saat ini ia jadikan tempat berlindung sementara, terpampang sebuah papan tanda yang tidak mencolok: \"Simposium Pengikut Karya Seni Klasik Rombongan Teater Korolevskiy\".\nSayangnya, situasi tetap berkembang ke bidang yang sama sekali asing bagi Mitya. Lebih dari itu, tindakannya yang sangat aktif terlihat jelas oleh pembawa acara. Pembawa acara menilainya sebagai \"pengikut fanatik\" yang sangat ingin mengekspresikan diri, dan dengan bersemangat mengundangnya naik ke panggung untuk berbincang.\nKalau yang mengalaminya adalah ahli melarikan diri yang lain, kemungkinan besar dia akan langsung kabur begitu saja. Namun hari ini, yang berdiri di alun-alun adalah Mitya, seorang pemuda yang tidak suka menolak ajakan orang dan selalu bersedia ikut dalam berbagai acara. Jika ketahuan berarti dia akan dikejar, tetapi membuat para penonton kecewa justru lebih membuatnya tidak senang. Maka, nyaris pada saat mata mereka bertemu, Mitya pun dengan tenang melangkah naik ke atas panggung.\n...\n\"Levelmu payah sekali, semua hanya klise basi yang dimuat di koran. Jelas sekali kau sama sekali belum pernah menonton teater, kau sia-siakan kesempatan bagus! Nah, ambil tiket ini. Pada pertunjukan kali ini, Nona Odette dan Nona Vodyanitsa akan hadir. Kau harus banyak belajar! Buka matamu lebar-lebar, dan saksikan dengan sungguh-sungguh!\"\nSialnya Mitya, Supervisor Snegiryov kebetulan ada di tempat kejadian juga. Sebagai seorang pecinta seni, dia menonton keseluruhan wawancaranya secara langsung. Dengan setengah pasrah setengah kesal, dia menjejalkan satu set tiket ke tangan Mitya.\nBegitulah, di bawah perintah yang tidak bisa ditolak, Mitya dengan bingung duduk di kursi beludru biru di gedung seni yang berkelas.\n\"Indah dipandang, enak didengar, sangat cocok dengan suasana elegan teater. Tapi aku sama sekali tidak paham.\"\nIni adalah catatan pertama Mitya mengenai eksperimen kesenian kali ini.\nBagian-bagian berikutnya dipenuhi dengan berbagai rumus simulasi perang, grafik, dan perhitungan, namun tidak ada satu kata pun yang berkaitan dengan seni panggung.\nTidak diragukan lagi, jika berangkat dari ekspektasi Snegiryov, eksperimen ini seharusnya digolongkan sebagai kegagalan total yang \"tidak dapat menghasilkan kesimpulan yang valid\".\nNamun dari sudut pandang makro rencana Armory Palace dan sudut pandang pribadi Mitya, hal itu tampak cukup sukses, dapat didefinisikan sebagai \"prinsip dasar telah ditemukan dan dijelaskan\".\nPara peneliti menyadari bahwa teater ini sepenuhnya memenuhi tiga elemen yang diajukan oleh Rumus Pelarian Mitya: arus orang yang padat; hanya mereka yang telah membeli tiket sebelumnya yang dapat masuk, sehingga Fatui tidak dapat mengikuti secara besar-besaran; serta mampu memberikan inspirasi melimpah dan ruang privat pada saat yang sama.\nTentu saja, para peneliti juga mencatat dalam catatan mereka: \"Suatu kesimpulan baru bisa dianggap valid setelah melalui banyak eksperimen dan dikonfirmasi dapat direproduksi ulang\".\nOleh karena itu, setelah sekali lagi berhasil menghindari kejaran para penjaga, Mitya dengan mulus meluncur masuk ke kursi teater, dan babak eksperimen yang baru pun dinyatakan dimulai.\nSejak saat itu, teater itu kedatangan seorang penonton tetap yang setia sekaligus aneh.\nKedua kali, ketiga kali ... bahkan hingga berkali-kali setelahnya, apa pun yang dipentaskan atau dinyanyikan di atas panggung, sang pelanggan setia itu tampaknya tidak pernah benar-benar terkesan.\nNamun, satu hal yang pasti, setiap kali ia duduk di dalam teater, buku catatan yang ia gunakan untuk mencatat inspirasi selalu bertambah banyak coretan baru."
+      },
+      {
+        "Title": "Kisah Karakter 4",
+        "Context": "Mitya, seorang pemuda yang agak istimewa, dia selalu bisa membawa berbagai pengaruh bagi orang-orang di sekitarnya.\nDialah yang membangkitkan hasrat Energy Commission akan kebersihan. Dialah yang membuat Valeriy melihat kesungguhan dan kreativitas para peneliti hebat dalam menghindari pemeriksaan kehadiran.\nDan kali ini, ceramah berjudul \"Mitya\" akan terbuka untuk prima donna Snezhnaya.\nCoba bayangkan: bagi seorang penyanyi terkenal yang telah memikat banyak penonton berkat kemampuannya, apa yang lebih aneh daripada ada seorang penonton di antara hadirin yang hanya asyik melihat buku catatannya tanpa menonton pertunjukan?\nTentu saja ada. Yaitu orang yang meskipun tidak pernah serius mendengarkan lagu, namun selalu membeli tiket dan hadir di setiap pertunjukan tanpa terkecuali. Tidak peduli berapa banyak orang yang secara terang-terangan maupun tidak langsung mengisyaratkan bahwa perilakunya sedikit tidak sopan, dia tetap datang setiap kali, dan tetap tidak mendengarkan setiap kali. Dia bahkan tidak begitu ingat lagu-lagu yang dibawakan, dan selalu membawa serta seorang perwira Fatui.\nEntah siapa dia sebenarnya? Penonton yang setia, tapi si buta musik yang tidak sopan!\nVodyanitsa tentu saja ingin mengatakan sesuatu, tetapi tidak bisa mengatakannya dengan terlalu keras, karena sang penyanyi itu sendiri juga memiliki identitas rahasia yang tidak bisa diungkapkan ke publik.\nPertarungan diam-diam antara penyanyi sopran dan orang yang kurang ajar itu akhirnya diungkap oleh sang penari, Nona Odette. Ia sama sekali tidak merasa heran ataupun tersinggung, ia hanya berkata, \"Buat apa dipedulikan? Setidaknya syalnya tahu sopan santun, jadi penonton kita tidak berkurang.\"\nBagaimana mungkin seorang seniman bermartabat bisa tinggal diam melihat semua ini? Sang detektif hebat, Nona Imp Air, langsung bertindak dengan jelas dan tegas. Ia memberi misi kepada Tuan Alyosha, yang juga anggota Rokot seperti dirinya dan mahir dalam perburuan, untuk menyelidiki.\n\"Pukul sepuluh pagi, 'Nochhornowl' menghindari pandangan 'Beruang' memanjat dinding luar dan diam-diam keluar dari 'sarang' ....\"\nDi belakang panggung teater, di sudut yang tidak diperhatikan siapa pun, Alyosha sedang berbagi laporan pengamatan hari ini tentang Mitya dengan Vodyanitsa.\n\"Berangkat dari Armory Palace, dan tidak berjalan lewat pintu depan? Orang ini memang mencurigakan.\"\n\"Pukul sebelas, 'Nochhornowl' tiba di halaman lama dan makan semeja dengan seseorang. Selama itu, keduanya banyak berinteraksi ....\"\nDengan adanya catatan pengamatan kedua, Vodyanitsa semakin yakin kecurigaannya bukan tanpa dasar: \"Orang normal mana mungkin bisa mengobrol akrab dengan orang asing? Orang ini pasti sedang melakukan kontak rahasia!\"\nBelum selesai Alyosha membacakan, Vodyanitsa langsung menduga langkah Mitya selanjutnya: \"Lalu pertunjukan yang dimulai pukul tiga sore itu? Aku sudah melihat semuanya! Seperti biasa, dia terus menunduk menulis sesuatu. Menurutku, orang ini adalah mata-mata Fatui yang sengaja datang untuk menyelidiki kita.\"\n\"Alyosha memanfaatkan celah untuk menambahkan, \"Sekalian! Setelah pertunjukan selesai, Mitya pergi ke tempat Tuan Kuzmichev, merobek selembar kertas dari buku catatannya dan memberikannya padanya. Aku agak jauh, hanya bisa samar-samar melihat bahwa yang digambar di atasnya adalah simbol-simbol yang tidak bisa kupahami.\"\"\n\"Mitya juga bilang, dia sering memesan barang di tempat Tuan Kuzmichev, jadi sudah akrab. Aku tidak yakin Tuan Pandai Besi itu adalah 'Hunting Hound'.\"\nAlyosha selesai berbicara dengan suara pelan, lalu menutup mulutnya. Dengan pengamatan yang tajam, ia langsung tahu bahwa Vodyanitsa sudah tenggelam dalam semangat memburu lawan dan kepuasan mengungkap kebenaran. Nona Imp Air itu duduk di atas peti kayu sambil mengayunkan kakinya, lalu mengusulkan agar pada pertunjukan berikutnya Alyosha harus mengundang mata-mata Fatui, Mitya, ke belakang panggung dengan dalih memilih penonton beruntung. Apa pun yang ingin dilakukan si orang jahat ini, Rokot pasti akan menghancurkannya.\nBeberapa hari kemudian, Mitya memeluk sebuah kotak kayu berat, wajahnya serius dan langkahnya tertatih-tatih berjalan menuju belakang panggung teater. Sorot mata Vodyanitsa menajam—membawa benda peledak, ha! Cuma trik lama geng peri! Tapi apakah pemuda kurus kering ini benar-benar punya nyali untuk meledakkannya?\nVodyanitsa merapikan ujung gaunnya, lalu berbalik menyambut pengikut setianya. Dalam hati, ia menganggapnya sebagai pengadu yang ringkih, buta musik, dan orang rendahan. Namun tangannya dengan sungguh-sungguh menjabat tangan pria itu. ia mendengar pria itu sangat mahir berperan sebagai pengikut, sampai-sampai pembawa acara di jalanan sebelumnya memintanya naik panggung untuk berbicara.\nMitya menurunkan peti kayu, menepuk-nepuk pakaiannya. Konon yang bicara duluan berarti menyerahkan posisi tinggi dalam percakapan, tapi dia sama sekali tidak memahami logika itu. Dia hanya memandang sekeliling panggung belakang, lalu berkata dengan gembira: \"Wah, aku belum menyebutkannya tapi kalian sudah tahu! Pantas saja jadi seorang, instingmu memang tajam.\"\nSambil berkata, dia membuka tutup kotak: \"Nah, ini 'hadiah' yang aku bawa untuk kalian. Semua kebagian, anjing kecil di sana juga dapat. Tenang saja, ini 'aman' dan 'bersih' kok.\"\nDari celah itu, kilau biru cerah memancar, mata Vodyanitsa membelalak. Mata-mata mungil ini, benarkah ia nekat mengaktifkan bom tanpa peduli nyawanya? Tanpa sadar ia menarik napas dalam-dalam, gelombang suara melengking nyaris keluar dari tenggorokannya—\nSebuah tangan dingin tiba-tiba muncul dan membekap mulut Vodyanitsa dengan kuat. Imp Air itu ketakutan melihat Odette dengan setengah tubuhnya tersembunyi di dalam bayangan.\nFatui mahir mengubah segala sesuatu menjadi senjata, dan Odette terutama mahir mengubah semua senjata replika di belakang panggung menjadi senjata sungguhan.\nSementara itu, keduanya berdiri diam di tempat. Mereka menyerah untuk melarikan diri, bahkan lupa untuk melarikan diri, dan di pupil mata Alyosha yang berada paling dekat terpantul cahaya biru yang hening, lembut, dan tak kunjung memicu ledakan.\nDengan bantuan si \"syal\", Mitya mengeluarkan dua gelas air yang dibuat menggunakan Prime Ice dari dalam peti kayu, lalu dua lagi, dua lagi ....\n\"Barang bagus nih! Satu untuk Alyosha, satu untukku, satu untuk si anjing kecil, satu untuk si Syal, satu untuk Nona Vodyanitsa, satu untuk Nona Odette. Aku juga beli satu lagi, rencananya buat pria yang setiap hari mengikuti di belakang. Kalian pasti pernah melihatnya, kan? Yang badannya tinggi itu ... eh? Kenapa kalian diam saja?\"\nDalam keheningan, Alyosha mengambil sebuah gelas air dan mengamatinya dengan saksama. Motif di atasnya sama persis dengan kertas yang dia lihat hari itu.\n\"Apa arti dari angka-angka dan simbol-simbol ini?\"\n\"Ini kata pengantar dari tesisku. Tenang saja, semua isinya sudah disamarkan.\"\n\"Tesis? Kenapa?\" Kebingungan Alyosha jelas semakin dalam.\n\"Hehe, ini biar 'jumlah minum'-nya nambah.\"\nSetelah keheingan yang singkat lagi, Mitya dan syal itu serentak menggaruk rambut pendeknya yang mengembang dan tergerai seperti daun sayur: \"Masa, sebegitu enggak lucunya? Aku baru dengar dari rekan kerjaku.\""
+      },
+      {
+        "Title": "Kisah Karakter 5",
+        "Context": "\"Ayah dan Ibu tersayang ....\"\nDi meja kerja Mitya, selembar kertas surat tergeletak dengan tenang. Itu adalah awal dari surat wasiat pertama dan satu-satunya yang pernah ia tulis.\nSetelah berhadapan langsung dengan \"kematian\", draf yang belum selesai ini dikeluarkannya kembali, diletakkan dengan rapi tepat di tengah meja kerja.\nJelas, penulisnya ingin memanfaatkan momen selagi kesan akan kematian masih membekas untuk menciptakan templat dokumen resmi yang benar-benar teliti dan cukup layak pakai bagi generasi berikutnya.\n\"Aku dan syalku baik-baik saja, mohon jangan khawatir. Aku sudah pergi ke banyak tempat, berkenalan dengan banyak teman baru, rekan kerja dan atasan juga sangat memperhatikanku.\"\nUjung pena Mitya bergerak cepat di atas kertas surat, seperti saat ia menonton pertunjukan di teater.\nSemua ini menegaskan pendirian akademis yang selama ini dipegang Mitya—inspirasi berasal dari akumulasi sampel-sampel pengalaman hidup.\nBanyaknya sampel pengalaman yang terkumpul di masa lalu membuatnya memperoleh nuansa baru bahkan dalam bidang penulisan dokumen resmi, yang sebelumnya lama ia sikapi dengan sikap negatif.\nHal apakah yang dia ingat kembali?\nApakah itu pertanyaan singkat dan padat dari sang Raja Iblis soal pekerjaan?\nApakah bulu halus milik Tuan Pemburu dan anjing-anjing kecilnya yang pintar?\nApakah itu nyanyian indah Nona Imp Air yang sulit dipahami namun memikat?\nApakah tarian terbang Nona Angsa Salju yang indah dan bagaikan mimpi?\nApakah epik petualangan hebat dari Pengembara Berambut Pirang dan sahabat berambut putihnya?\nAtau semuanya?\nTidak ada yang tahu.\nDari Zolnyy ke Zapolyarny, dari Central Station ke Korolevskiy Theater, mulai dari Snezhnograd, jauh hingga ke ujung badai salju di bawah aurora. Jejak Mitya tersebar di atas tanah beku yang luas. Pada saat ini, memori yang dapat ia ingat-ingat kembali lebih panjang daripada banyak gelar Yang Mulia Tsaritsa, dengan lembut menyelimuti seluruh penjuru Snezhnaya.\n...\nSetelah menulis panjang lebar hingga memenuhi seluruh halaman, Mitya meletakkan penanya dan dengan bangga mengagumi mahakarya yang akan segera menjadi templat surat wasiat untuk seluruh Snezhnaya. Karya ini cukup untuk membungkam mulut semua 'orang-orang tua' yang teliti sekaligus menjadi bahan pelajaran dan kekaguman bagi semua generasi berikutnya.\nSyal di sampingnya mendekat, ragu sejenak, mengetuk kertas dua kali—jelas, bagaimana pun dilihatnya, susunan kata dalam \"templat wasiat\" yang penuh harapan ini tampak terlalu riang, lebih seperti surat untuk keluarganya.\nMitya menimbang-nimbang, tangan yang hendak mengubah tulisannya menggantung di udara, lalu ditarik kembali.\nAda sebuah paradoks dalam surat wasiat ini: jika hidup berjalan lancar, surat wasiat ini hanya akan terkunci selamanya di dalam laci. Sebaliknya, begitu hari saat surat ini benar-benar diperlukan tiba, mungkin saksi, notaris, bahkan penerimanya pun sudah tidak ada lagi. Saat itu, Snezhnaya juga tidak lagi membutuhkan templat surat wasiat.\nMenghadap syal yang berkibar-kibar, ia menundukkan kepala dan menuliskan kalimat-kalimat terakhir di bagian bawah surat itu dalam satu tarikan napas:\n\"Aku sayang kalian. Begitu liburan nanti, aku pasti pulang menengok kalian. Sekalian, sampaikan salamku untuk semuanya. Mitya dan Syal.\"\nIa melipat kertas surat itu dan memasukkannya ke dalam sebuah amplop polos, lalu meletakkannya di sudut meja.\nSoal templat, seperti semua laporan kerja yang tidak berarti dan rumit, dengan cepat dibuang jauh-jauh oleh Mitya. Sebagai gantinya, ada sebuah rencana baru.\nSyal itu dengan cekatan dililitkan kembali ke mantel. Seperti biasa, sambil mengamati gerak-gerik orang-orang di sekitarnya, Mitya perlahan berdiri, lalu berjingkat-jingkat menuju pintu kantor—\nDi luar Armory Palace, sinar matahari bersinar terik menyilaukan mata.\nSuara riuh di Central Station tidak pernah berhenti, aroma kaya masakan baru sedang menguar di aula Podvorye Restaurant, dan di bawah kubah Korolevskiy Theater, aria yang mengalun tinggi dan kibasan rok yang anggun masih saling berputar dan berpadu.\nAda begitu banyak warna-warni di dunia, menunggu untuk dinikmati oleh manusia. Inspirasi tanpa batas diam-diam menunggu, siap untuk merangkul kelompok yang tak henti-hentinya hidup ini.\nHari ini bukan milik \"kematian\" dan \"langit\", begitu pula masa depan."
+      },
+      {
+        "Title": "Syal",
+        "Context": "Sehelai kain misterius yang selalu bertengger di mantel Mitya. Sekilas tampak tidak jauh berbeda dari syal biasa, belakangan diketahui syal ini merupakan makhluk hidup.\nDibandingkan dengan pernyataan \"syal Mitya tidak punya nama\", lebih tepat dibilang kalau: syal itu menganggap kata \"syal\" sebagai namanya.\nDengan kata lain, tidak ada gunanya memanggilnya dengan sebutan kerah leher, kain rajutan, selendang sutra, pita, bulu binatang, dan sebagainya. Ia akan melawan tindakan tidak sopan karena salah menyebut namanya ini dengan goyangan yang penuh kebanggaan.\nBentuknya menyerupai tangan yang lembut, pipih, dan panjang, serta dapat membantu Mitya melakukan banyak hal seperti menyisir rambut, mencuci muka, mengambil dokumen, membawa kantong kertas makanan, dan lain sebagainya. Apa pun yang bisa dilakukan tangan manusia, benda ini bisa melakukan lebih banyak lagi. Pada saat yang sama, ia dapat memahami sebagian besar ungkapan manusia, dan kecerdasan yang ditunjukkannya kira-kira berada di tingkat penduduk Teyvat usia remaja hingga dewasa muda.\nBegitu membicarakan asal-usul benda misterius ini, para ilmuwan, arkeolog, dan peneliti secara bersamaan teringat pada nama satu tempat: Tanah Emas Hyperborea. Meski bangsa ini telah lama runtuh, tidak ada yang bisa memastikan dengan pasti bahwa ini adalah karya seorang penemu dari tanah emas, tetapi klaim ini setidaknya lebih masuk akal daripada ayah Mitya membeli syal yang bisa bergerak dengan kecerdasan setara remaja lima belas tahun di kios pinggir jalan. Selain itu, benda itu menunjukkan reaksi terhadap nama Hyperborea, mungkin karena merasa akrab.\nKarena syal itu, Mitya membentuk kebiasaan kecil untuk selalu berkenalan dengan berbagai teman baru bersama \"Syal\", menghormati dan merawatnya seperti sahabat baik, serta terus mencoba untuk menggunakan berbagai jenis pengetahuan untuk membedah teman ajaib ini dan melacak asal-usulnya.\nSi syal itu sendiri justru terlihat cukup santai. Ia menggoyangkan jari, menunjuk kata di kamus, menulis pesan tertulis, inti pesannya hanya satu: \"Coba tebak? Aku tidak begitu peduli dengan keluarga asalku!\"\n\"Kamu kan temanku. Bukankah sering ada situasi seperti itu? Sesuatu yang terjadi pada diri sendiri tidak apa-apa, tapi kalau terjadi pada teman, harus diselesaikan. Begitulah pikirku,\" kata Mitya, \"Hari ini mau jepitan jemuran yang mana? Yang kayu atau yang besi?\"\nSyal itu menunjuk jepitan besi, ia merasa pantulan cahayanya yang indah sangat cocok dengan warnanya sendiri. Mitya membersihkannya dan menggantungnya di tali jemuran. Syal itu menggeliat seperti melakukan peregangan dua kali, lalu memberi sebuah isyarat.\nKarena sudah berteman bertahun-tahun, Mitya sepenuhnya memahami maksud syal itu. Artinya di sini nyaman, aku suka seperti ini. Lagi pula, meskipun aku melihat sesuatu yang berhubungan dengan Hyperborea, memangnya kenapa? Aku pasti tidak akan kembali ke sana.\nYang terpenting dalam hidup adalah kebebasan memilih. Syal pun berpikir begitu.\nMitya mengacungkan jempolnya.\nDi saat begini, jelas tidak bisa bilang kalau barang itu mirip pemiliknya, tapi harus bilang kalau partner yang ditakdirkan bakal saling tertarik satu sama lain."
+      },
+      {
+        "Title": "Stellar Linchpin",
+        "Context": "\"Tidak dapat dipungkiri bahwa hingga saat ini, bentuk energi yang memiliki sejarah paling panjang, tingkat keamanan paling tinggi, distribusi paling luas, serta nilai penelitian dan aplikasi paling tinggi di antara yang pernah dijamah oleh umat manusia di Teyvat tetaplah energi elemen. Namun, penelitian kalangan akademisi saat ini mengenai Konversi dan penerapan energi elemen yang efisien secara keseluruhan masih berada pada tahap eksplorasi awal ....\"\nMitya menulis kata pengantar untuk penelitian barunya yang akan segera dimulai.\n\"Hingga saat ini, metode penyelarasan kekuatan elemen yang penelitian mediumnya paling mendalam dan luas, interaksinya paling mudah, serta efisiensi konversinya paling tinggi masih bergantung pada Vision dan varian-variannya. Mengingat medium tersebut memiliki banyak efek kotak hitam dalam mekanisme pemicunya (perasaan 'keinginan') dan struktur internal mikroskopisnya, pada kenyataannya ia tidak dapat didefinisikan sebagai sarana yang stabil, aman, dan permanen untuk menggerakkan kekuatan elemen.\"\nPenjelasan akademis ini merangkum banyak pemikiran pribadi Mitya.\nAmbil contoh Stellar Linchpin Electro yang ada di genggamannya ini, menurut jurnal pribadi Mitya, penelitian terhadap benda itu saat ini terhambat oleh dua rintangan yang cukup sulit dilewati.\nYang pertama adalah pekerjaan pemetaan balik terhadap strukturnya.\nDalam arsip eksperimen, data pada kolom ini hingga kini masih kosong. Sebab sampai sekarang, Mitya belum menemukan satu pun cara untuk membuka cangkang Stellar Linchpin tanpa merusaknya.\nKedua, tentang cara mereproduksi ulang proses memperolehnya.\nDi Teyvat selalu ada rumor seperti ini: \"Selama ada keinginan yang cukup kuat, para dewa akan melihatnya\".\nUntuk memverifikasi hipotesis ini, Mitya pernah secara pribadi menjadi subjek eksperimen, melakukan \"Eksperimen Penguatan Keinginan Subjektif\" selama beberapa minggu. Melalui meditasi, sugesti psikologis, dan serangkaian metode lainnya, dia secara ekstrem memperkuat tuntutan subjektif \"aku membutuhkan sebuah Vision untuk melakukan eksperimen variabel kontrol\".\nNamun, catatan eksperimennya dengan tegas menunjukkan bahwa hipotesis tersebut sepenuhnya tidak terbukti. Langit di atas sana sama sekali tidak memberikan respons apa pun terhadap keinginan mulia seorang peneliti yang sangat bersemangat melakukan eksperimen variabel kontrol.\nSeolah mengejek upaya para peneliti, sang dewa memilih untuk melayangkan pandangan mereka pada momen yang sama sekali tidak istimewa.\nCatatan menunjukkan bahwa kondisi sesaat saat Stellar Linchpin diturunkan, sangat tumpang tindih dengan kondisi saat ini. Pada saat itu, pencatat sedang bersembunyi di balik bayang-bayang sudut sepi Central Station. Ia melakukan sebuah pengamatan tanpa tujuan khusus yang \"bertujuan untuk menghindari pekerjaan rutin\", dan berusaha menangkap apa yang disebut ide bagus di tengah angin dingin.\nDengan kata lain, dari sudut pandang replikabilitasnya, mukjizat yang konon berasal dari langit yang tinggi ini tidak diragukan lagi merupakan sampel eksperimen yang paling buruk. Ia memiliki sifat arogan yang sulit direproduksi ulang dan sulit dibongkar, hanya bisa menjadi bukti kekuatan individu, dan tidak dapat dikonversi menjadi alat yang bermakna universal.\nSebagai pakar Energy Commission, masalah yang harus diselesaikan Mitya kebanyakan adalah masalah yang luas dan objektif. Keajaiban seperti Stellar Linchpin jelas bukanlah masalah mendesak yang harus ditaklukkan saat ini. Dia berpikir, untuk saat ini, hanya bisa menganggapnya sebagai alat bantu yang prinsip kerjanya sulit dianalisis.\nSiapa tahu, masalah ini akan bisa diselesaikan di masa depan?\nPara penumpang yang sedang terburu-buru di Central Station kerap berkata begini: Urusan masa depan, tentu saja diserahkan kepada masa depan untuk dikhawatirkan. Jika kita melihat lebih jauh situasi di balik pola pikir semacam ini, semua orang memahami bahwa ancaman \"musim dingin yang ekstrem\" itu nyata, tetapi kebutuhan makan sehari-hari adalah hal yang perlu diprioritaskan.\nKeajaiban hanya berpihak pada segelintir orang terpilih, tetapi angin beku dari musim dingin yang kejam berembus tanpa ampun ke setiap manusia biasa.\nPara dewa mungkin memiliki waktu luang untuk menilai seberapa kuat keinginan seseorang, tetapi bagi para penumpang biasa yang meringkuk di tengah salju tebal sambil mengembuskan napas untuk menghangatkan diri, yang mereka inginkan jauh lebih sederhana, hanyalah sebuah pipa yang mampu menyalurkan energi Kresnik secara stabil.\nKalau soal Stellar Linchpin yang bisa menggerakkan kekuatan elemen, ini alat yang bagus maka layak disimpan.\nIbarat Mora yang tanpa sengaja terselip di sudut saku, suatu hari pasti bakal berguna.\nSaat ini, yang perlu dilakukan sangat sederhana, yaitu menyelesaikan beberapa tenggat waktu yang mendesak.\nMitya menemukan satu halaman kosong, lalu dengan lancar menuliskan judulnya—\n\"Optimalisasi Tata Letak dan Pemasangan Pipa Pasokan Energi Berefisiensi Tinggi\"."
+      }
+    ]
+  },
+  "Costumes": [
+    {
+      "Id": 213600,
+      "Name": "Logical Leap",
+      "Description": "Model pakaian Mitya. Perlengkapan pelindung eksperimental yang paling minim, dengan jubah luar yang tebal dikenakan di atas seragam peneliti dari Royal Energy Commission of Snezhnaya. Secara teknis, ini bukan pakaian yang semestinya dikenakan di luar laboratorium penelitian, tetapi tampaknya ini bukan aturan yang terlalu dipedulikan oleh Mitya.",
+      "IsDefault": true
+    }
+  ],
+  "CultivationItems": [
+    104144,
+    113093,
+    101274,
+    112151,
+    104367,
+    113081
+  ],
+  "NameCard": {
+    "Name": "Mitya: Scarf",
+    "Description": "Style Kartu Nama.\nTeman syal Mitya punya banyak kelebihan dan keunikan yang tidak dimiliki syal biasa. Misalnya: lebih kuat, lebih hangat, lebih cantik, bahkan punya kesadaran sendiri. Kalau setangkai mawar punya sifat yang jauh lebih \"mawar\" dibanding mawar lainnya, namanya pasti Mawar. Karena itu, nama si teman syal ini adalah Syal.",
+    "Icon": "UI_NameCardIcon_Mitya",
+    "PicturePrefix": "UI_NameCardPic_Mitya"
+  }
+}

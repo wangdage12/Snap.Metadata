@@ -4278,6 +4278,45 @@
     ]
   },
   {
+    "Id": 2704,
+    "Name": "雪色夜曲",
+    "Description": "含氣泡的特色飲品。以漿果與黑麥共同釀造，再注入氣泡水調和而成。入口酸甜伴有麥香，不含酒精且並不寡淡。",
+    "EffectDescription": [
+      "隊伍中所有角色暴擊率提升<color=#3399CCFF>6%-12%</color>，持續300秒。",
+      "多人遊戲時，僅對自己的角色生效。"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108915",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 10,
+    "RankLevel": 2,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132049
+      },
+      {
+        "Count": 1,
+        "Id": 132050
+      },
+      {
+        "Count": 1,
+        "Id": 132051
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 101285
+      },
+      {
+        "Count": 2,
+        "Id": 100100
+      }
+    ]
+  },
+  {
     "Id": 3001,
     "Name": "嘟嘟蓮海鮮羹",
     "Description": "營養均衡的海鮮羹。色澤清亮的湯汁每一口都淌著螃蟹的鮮美，薄荷和嘟嘟蓮又為它增添了幾分清雅爽口。",
@@ -10554,6 +10593,146 @@
       {
         "Count": 1,
         "Id": 110006
+      }
+    ]
+  },
+  {
+    "Id": 3709,
+    "Name": "基捷雞",
+    "Description": "裹滿麵包屑的菜餚。先捶打好雞肉，再將香草奶油封入其中，裹上麵包屑後炸至金黃。外殼酥脆，內裡鮮嫩多汁，用餐刀切開後可見融化的奶油緩緩流出。",
+    "EffectDescription": [
+      "隊伍中所有角色物理傷害提升<color=#3399CCFF>20%-40%</color>，持續300秒。",
+      "多人遊戲時，僅對自己的角色生效。"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108910",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132040
+      },
+      {
+        "Count": 1,
+        "Id": 132041
+      },
+      {
+        "Count": 1,
+        "Id": 132042
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100064
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 110004
+      },
+      {
+        "Count": 1,
+        "Id": 101280
+      }
+    ]
+  },
+  {
+    "Id": 3710,
+    "Name": "魚子醬布林餅",
+    "Description": "搭配魚子醬的小薄餅。將麵糊攤成金黃薄餅，擠上酸奶油，再搭配上一小勺鹹鮮的魚子醬即可享用。布林餅口感柔軟，微帶奶香，與魚子醬的濃鮮相得益彰。",
+    "EffectDescription": [
+      "隊伍中所有角色攻擊力提高<color=#3399CCFF>160-228</color>點，持續300秒。",
+      "多人遊戲時，僅對自己的角色生效。"
+    ],
+    "CookMethod": 2,
+    "FoodType": 2,
+    "Icon": "UI_ItemIcon_108911",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132043
+      },
+      {
+        "Count": 1,
+        "Id": 132044
+      },
+      {
+        "Count": 1,
+        "Id": 132045
+      }
+    ],
+    "Input": [
+      {
+        "Count": 4,
+        "Id": 100084
+      },
+      {
+        "Count": 2,
+        "Id": 110001
+      },
+      {
+        "Count": 2,
+        "Id": 100062
+      },
+      {
+        "Count": 1,
+        "Id": 110015
+      }
+    ]
+  },
+  {
+    "Id": 3711,
+    "Name": "酸辣雜拌湯",
+    "Description": "帶有辣味的濃稠酸湯。舀起清澈的河水，加入切成丁的各類食材，一同燉煮而成。醃製過的魚肉與蔬菜提供了獨特的風味，湯底呈濃郁的橙紅色，口味酸辣交織，層次豐富。",
+    "EffectDescription": [
+      "恢復<color=#3399CCFF>70-100</color>點體力。"
+    ],
+    "CookMethod": 2,
+    "FoodType": 3,
+    "Icon": "UI_ItemIcon_108914",
+    "IsDefaultUnlocked": false,
+    "MaxProficiency": 15,
+    "RankLevel": 3,
+    "QualityOutput": [
+      {
+        "Count": 1,
+        "Id": 132046
+      },
+      {
+        "Count": 1,
+        "Id": 132047
+      },
+      {
+        "Count": 1,
+        "Id": 132048
+      }
+    ],
+    "Input": [
+      {
+        "Count": 3,
+        "Id": 100084
+      },
+      {
+        "Count": 3,
+        "Id": 100018
+      },
+      {
+        "Count": 2,
+        "Id": 100011
+      },
+      {
+        "Count": 2,
+        "Id": 110015
       }
     ]
   },

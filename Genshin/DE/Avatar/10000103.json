@@ -341,7 +341,8 @@
         "Name": "Ehecatls Gebrüll",
         "Description": "<color=#FFD780FF>Standardangriff</color>\nFührt bis zu 3 Schwerthiebe hintereinander aus.\n\n<color=#FFD780FF>Heftiger Schlag</color>\nVerbraucht eine gewisse Menge Ausdauer und führt einen Vorwärtstritt aus.\n\n<color=#FFD780FF>Angriff aus dem Fall</color>\nSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn basierend auf Xilonens VTD an und verursacht beim Aufkommen Flächenschaden.\n\n<color=#FFD780FF>Nachtseelensegen – Klingenjägerin</color>\nIm Zustand „Nachtseelensegen“ wechselt Xilonen in den Modus „Klingenjägerin“, in dem Xilonen mit ihrem Standardangriff bis zu 4 Tritte mittels ihrer Klingen-Rollschuhe ausführen, aber keinen heftigen Schlag einsetzen kann.\nBeim Ausführen von Standardangriffen und Angriffen aus dem Fall in diesem Modus wird auf Basis von Xilonens VTD mit Nachtseelen versehener <color=#FFE699FF>Geo-Schaden</color> verursacht, der nicht von anderen Elementen überdeckt werden kann.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_01"
+        "Icon": "Skill_A_01",
+        "CdTime": 0
       },
       {
         "GroupId": 10332,
@@ -1248,5 +1249,11 @@
     "Description": "Motiv für Namenskärtchen\nWie im Takt hallt der Rhythmus von Xilonens Schmiedehammer durch die Berge wider. Sobald das letzte Echo verklingt, hat sie bereits längst ihre Arbeit beendet und ein Fleckchen für ein Nickerchen im Nachmittagslicht der Sonne gefunden.",
     "Icon": "UI_NameCardIcon_Xilonen",
     "PicturePrefix": "UI_NameCardPic_Xilonen"
+  },
+  "TraceEffect": {
+    "Id": 215024,
+    "Name": "Echo – Im Feuer geschmiedete Seele",
+    "Description": "Xilonens Gemalte Echos. „Musik hinterlässt Wellen, wenn sie die Welt erschüttert, Menschen hinterlassen Pfade, wenn sie über die Erde wandeln.“",
+    "Icon": "UI_TraceEffectIcon_Xilonen"
   }
 }

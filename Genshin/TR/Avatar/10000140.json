@@ -278,7 +278,8 @@
         "Name": "Su Aryası",
         "Description": "<color=#FFD780FF>Normal Saldırı</color>\nSu İfritlerinin kadim bir şarkısını söyleyerek düşmana <color=#80C0FFFF>Su Hasarı</color> veren en fazla 4 saldırı yapar.\n\n<color=#FFD780FF>Yüklü Saldırı</color>\nBelirli miktarda Dayanıklılık harcayarak ileri doğru bir su topu fırlatır ve <color=#80C0FFFF>Su Hasarı</color> verir.\n\n<color=#FFD780FF>Havadan Saldırı</color>\nHavadayken yere doğru dalışa geçer ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <color=#80C0FFFF>Su Alan Hasarı</color> verir.",
         "SpecialEnergyType": 0,
-        "Icon": "Skill_A_Catalyst_MD"
+        "Icon": "Skill_A_Catalyst_MD",
+        "CdTime": 0
       },
       {
         "GroupId": 14032,
@@ -540,7 +541,7 @@
         },
         "Id": 11402,
         "Name": "Resitatif: Gürleyen Şafak",
-        "Description": "Gerçek Su İfriti formuna bürünerek <color=#80C0FFFF>Su Alan Hasarı</color> verir ve <color=#FFD780FF>Geçmiş Çağların Şarkısı</color> etkisini kazanır: Bu etki aktifken Vodyanitsa kadim <color=#FFD780FF>Baharı Müjdeleyen Çalgıyı</color> çağırır. Çalgı, belirli aralıklarla bir düşmana hızlıca yaklaşıp saldırır ve <color=#80C0FFFF>Su Hasarı</color> verir.\nYukarıdaki iki tür saldırı, isabet alan düşmanların <color=#80C0FFFF>Su Direnci</color> ile <color=#99FFFFFF>Buz Direncini</color> azaltır. Ayrıca <color=#FFD780FF>Geçmiş Çağların Şarkısı</color> etkisi aktifken grubun aktif karakteri müdahaleye karşı direnç kazanır ve belirli aralıklarla Vodyanitsa'nın Maks. Canına bağlı olarak Can yeniler.",
+        "Description": "Gerçek Su İfriti formuna bürünerek <color=#80C0FFFF>Su Alan Hasarı</color> verir ve <color=#FFD780FF>Geçmiş Çağların Şarkısı</color> etkisini kazanır: Bu etki aktifken Vodyanitsa kadim <color=#FFD780FF>Baharı Müjdeleyen Çalgıyı</color> çağırır. Çalgı, belirli aralıklarla bir düşmana hızlıca yaklaşıp saldırır ve <color=#80C0FFFF>Su Hasarı</color> verir.\nYukarıdaki iki tür saldırı, isabet alan düşmanların <color=#80C0FFFF>Su Direnci</color> ile <color=#99FFFFFF>Buz Direncini</color> azaltır. Ayrıca <color=#FFD780FF>Geçmiş Çağların Şarkısı</color> etkisi aktifken, senin aktif karakterin müdahaleye karşı direnç kazanır ve belirli aralıklarla Vodyanitsa'nın Maks. Canına bağlı olarak Can yeniler.",
         "SpecialEnergyType": 0,
         "Icon": "Skill_S_Vodyanitsa_01",
         "CdTime": 16
@@ -811,13 +812,13 @@
       {
         "Id": 1401,
         "Name": "İhtişamlı Sular",
-        "Description": "Vodyanitsa, <color=#FFD780FF>{LINK#S11402}Geçmiş Çağların Şarkısı{/LINK}</color> etkisinin iyileştirmesini her tetiklediğinde 5 saniyeliğine yakındaki grup üyelerinin Saldırısı, Vodyanitsa'nın Maks. Canının %0,8'i kadar artar.",
+        "Description": "Vodyanitsa, <color=#FFD780FF>{LINK#S11402}Geçmiş Çağların Şarkısının{/LINK}</color> iyileştirme etkisini her tetiklediğinde 5 saniyeliğine yakındaki grup üyelerinin Saldırısı, Vodyanitsa'nın Maks. Canının %0,8'i kadar artar.",
         "Icon": "UI_Talent_S_Vodyanitsa_01"
       },
       {
         "Id": 1402,
         "Name": "Karları Delen Yankılar",
-        "Description": "<color=#FFD780FF>Resitatif: Gürleyen Şafak</color> Element Becerisiyle çağrılan <color=#FFD780FF>Baharı Müjdeleyen Çalgı</color> bir düşmana saldırdığında Vodyanitsa \"Siyah ve Beyaz İki Ses\" etkisini kazanır. Bu etki, 5 saniyeliğine mevcut aktif grup üyesinin <color=#80C0FFFF>Su Hasarı</color> ve <color=#99FFFFFF>Buz Hasarı</color> ile verdiği Kritik Hasarı %50 artırır.\nAlanda bir Başıboş Burgaç varken veya bir Başıboş Burgaç patladıktan sonraki 5sn boyunca etki değişir: 5 saniyeliğine mevcut aktif grup üyesinin Yıldız Girdabı Tepkimesi Hasarı ile verdiği Kritik Hasar %60 artar.\nAyrıca <color=#FFD780FF>Resitatif: Gürleyen Şafak</color> Element Becerisi gelişir: <color=#FFD780FF>{LINK#S11402}Geçmiş Çağların Şarkısı{/LINK}</color> etkisinin süresi 9sn uzar.",
+        "Description": "<color=#FFD780FF>Resitatif: Gürleyen Şafak</color> Element Becerisiyle çağrılan <color=#FFD780FF>Baharı Müjdeleyen Çalgı</color> bir düşmana saldırdığında Vodyanitsa \"Siyah ve Beyaz İki Ses\" etkisini kazanır. Bu etki, 5 saniyeliğine grubundaki mevcut aktif üyenin <color=#80C0FFFF>Su Hasarı</color> ve <color=#99FFFFFF>Buz Hasarı</color> ile verdiği Kritik Hasarı %50 artırır.\nAlanda bir Başıboş Burgaç varken veya bir Başıboş Burgaç patladıktan sonraki 5sn boyunca etki değişir: 5 saniyeliğine grubundaki mevcut aktif üyenin Yıldız Girdabı Tepkimesi Hasarı ile verdiği Kritik Hasar %60 artar.\nAyrıca <color=#FFD780FF>Resitatif: Gürleyen Şafak</color> Element Becerisi gelişir: <color=#FFD780FF>{LINK#S11402}Geçmiş Çağların Şarkısı{/LINK}</color> etkisinin süresi 9sn uzar.",
         "Icon": "UI_Talent_S_Vodyanitsa_02"
       },
       {
